@@ -1,0 +1,37 @@
+<html>
+<head><title>Group 42 Sells Out [SA8580 Test Chips]</title></head>
+<body background="cable1.gif">
+
+<center>
+
+<img alt="Group 42 Sells Out!" src="../g42slogo.gif">
+
+</center>
+
+<hr size=5 noshade>
+<center>
+<h2>SA8580 Test Chip Code, 6 and 7 Button Versions</h2>
+by G-Man of Group 42
+<p>
+</center>
+
+If you have a 8580 7 button unit, program a MC68HC705C8P with this
+<a href="8580plus.bin">code</a>
+(also in intel <a href="8580plus.hex">format</a>.)
+Remove original 40 pin processor and replace with your newly programmed
+processor.  Your lock out code is <i>24124</i>.
+<p>
+If you have an 8580 6 button, find the chip with a Green or Red strip
+on it.  This is a serial EEprom, a 93c46.  Reprogram it with either the
+<a href="85806red.bin">Red</a> or <a href="85806grn.bin">Green</a> code
+and replace in unit.
+<p>
+It is possible to write some pic code to program the 93c46 serial
+EEprom with the above .bin files and use this as a test chip.
+Infact that is how most <i>quick boards</i> work today.
+<p>
+<hr size=5 noshade>
+
+</html>
+ 
+

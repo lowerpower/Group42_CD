@@ -1,0 +1,37 @@
+Crack> Their Finest Hour:  The Battle of Britain
+
+crack written by Mike Basford of Canada
+
+     Here's how to get rid of that silly code wheel.
+After this you don't have to tune the radio any-
+more.
+     You will need Norton Utilities or Debug,
+Norton is easier.  When using Norton Utilities,
+select BOB.EXE and search for 36 24 75 08 B8
+01 (using the hex field) and change the 75 08 to
+90 90.  Write the data and you're done.
+     If you are using Debug:
+REN BOB.EXE BOB.XXX
+DEBUG BOB.XXX
+R                   use the value of CS for the next step
+S CS:0000 FFFF 39 87 36 24 75 08 B8 01 00 8B E5
+                    replace CS with the value
+
+(Debug should respond with something like
+this:
+CS:xxxx xxxx     is used next)
+
+U xxxx     use the value from above in place of xxxx
+
+     (You should see:
+CS:xxxx     CMP [BX+2436],AX
+CS:yyyy     JNZ 7762)
+
+E yyyy     use value from above
+75.90 08.90       you type the 90s
+W
+Q
+REN BOB.XXX BOB.EXE
+     Now run it and have fun.
+
+

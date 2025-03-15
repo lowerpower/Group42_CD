@@ -1,0 +1,1814 @@
+Freq #1 (M	Freq #2 (M	Call Sign:	RAC Srvc C	Notes #1:	Notes #2:	City:	State:	Zip Code:
+50.00000	50.10000	-	HAM	CW & Beacons				
+50.00000	54.00000	-	HAM	Amateur				
+50.06000	50.08000	-	HAM	Automatic Beacons				
+50.10000	50.60000	-	HAM	SSB & AM				
+50.11000	-	-	HAM	SSB DX Calling				
+50.20000	-	-	HAM	SSB Domestic Calling				
+50.40000	-	-	HAM	AM Calling				
+50.60000	51.00000	-	HAM	Experimental & Special				
+50.70000	-	-	HAM	RTTY Calling				
+50.80000	50.98000	-	HAM	R/C 10 CH 20 KHz Spacing				
+51.00000	51.10000	-	HAM	Pacific DX Window				
+51.10000	52.00000	-	HAM	FM Simplex				
+52.00000	52.05000	-	HAM	Pacific DX Window				
+52.00000	54.00000	-	HAM	FM Repeater I/O & Simplex				
+54.00000	60.00000	-	BXTV	Channel  2 Television				
+54.00000	68.00000	-	BXTV	Broadcasting (TV)
+60.00000	66.00000	-	BXTV	Channel  3 Television
+66.00000	72.00000	-	BXTV	Channel  4 Television
+66.90000	-	-	UAF	USAF Thunderbirds
+68.00000	72.00000	-	BXTV	Broadcasting (TV)
+72.00000	78.00000	-	CATV	Channel 54 Cablevision
+72.00000	73.00000	-	F/M	Fixed / Mobile
+73.00000	74.60000	-	R/A	Radio Astronomy
+74.60000	74.80000	-	F/M	Fixed / Mobile
+74.80000	75.20000	-	Aero	Aeronautical Radionavigation
+75.20000	75.40000	-	F/M	Fixed / Mobile
+75.40000	76.00000	-	F/M	Fixed / Mobile
+76.00000	82.00000	-	BXTV	Channel  5 Television
+76.00000	88.00000	-	BXTV	Broadcasting (TV)
+78.00000	84.00000	-	CATV	Channel 55 Cablevision
+82.00000	88.00000	-	BXTV	Channel  6 Television
+84.00000	90.00000	-	CATV	Channel 56 Cablevision
+88.00000	100.00000	-	BXFM	Broadcasting (FM)
+90.00000	96.00000	-	CATV	Channel 57 Cablevision
+96.00000	102.00000	-	CATV	Channel 58 Cablevision
+100.00000	108.00000	-	BXFM	Broadcasting (FM)
+102.00000	108.00000	-	CATV	Channel 59 Cablevision
+108.00000	117.97500	-	AIR	Aeronautical Radionavigation
+108.00000	114.00000	-	CATV	Channel 60 Cablevision
+114.00000	120.00000	-	CATV	Channel 61 Cablevision
+117.97500	137.00000	-	AIR	Aeronautical Mobile (R)
+118.00000	121.40000	-	AIR	Air Traffic Control
+120.00000	126.00000	-	CATV	Channel 14 Cablevision
+121.60000	121.92500	-	AIR	Airport Ground Control
+126.00000	132.00000	-	CATV	Channel 15 Cablevision
+128.82500	132.00000	-	AIR	Aeronautical Enroute Airline A/G Comms
+132.00000	138.00000	-	CATV	Channel 16 Cablevision
+132.02500	136.47500	-	AIR	Air Traffic Control	
+136.50000	136.97500	-	AIR	Aeronautical Enroute Airline A/G Comms	
+137.00000	138.00000	-	SPACE	Space Operation	Meteorological Satellite
+138.00000	144.00000	-	CATV	Channel 17 Cablevision	
+138.00000	143.60000	-	F/M	Fixed / Mobile / Radiolocation	
+138.00000	144.00000	-	USA	U.S. Government	
+138.07500	-	-	UAF	USAF Office of Special Investigations	
+138.16500	-	-	UAF	USAF Office of Special Investigations	
+138.17500	-	-	UAF	USAF Office of Special Investigations	
+140.00000	-	-	UAF	USAF Thunderbirds	
+140.40000	-	-	UAF	USAF Tactical Air Command	
+141.80000	-	-	UAF	USAF Military Airlift Command	
+141.85000	-	-	UAF	USAF Thunderbirds	
+142.12500	-	-	UAF	USAF MARS	
+142.14000	-	-	UAF	USAF MARS	
+142.15500	-	-	UAF	USAF MARS	
+142.45500	-	-	UAF	USAF MARS	
+143.45000	-	-	UAF	USAF MARS	
+143.46000	-	-	UAF	USAF MARS	
+143.60000	143.65000	-	F/M	Fixed / Mobile / Radiolocation	Space Research
+143.64000	-	-	UAF	USAF MARS	
+143.65000	144.00000	-	F/M	Fixed / Mobile / Radiolocation	
+143.75000	-	-	CAP	Civil Air Patrol	
+143.82500	-	-	CAP	Civil Air Patrol	
+143.90000	-	-	CAP	Civil Air Patrol	
+143.92500	-	-	UAF	USAF MARS	
+143.95000	-	-	UAF	USAF MARS	
+144.00000	150.00000	-	CATV	Channel 18 Cablevision	
+144.00000	144.05000	-	HAM	EME (CW)	
+144.00000	146.00000	-	HAM	Amateur / Amateur Satellite	
+144.05000	144.06000	-	HAM	Propagation Beacons	
+144.06000	144.10000	-	HAM	General CW & Weak Signals	
+144.10000	144.20000	-	HAM	EME & Weak Signal SSB
+144.20000	144.30000	-	HAM	General SSB
+144.20000	-	-	HAM	National Calling
+144.30000	144.50000	-	HAM	New OSCAR Subband
+144.50000	144.60000	-	HAM	Linear Translator Inputs
+144.60000	144.90000	-	HAM	FM Repeater Inputs
+144.61000	145.21000	-	HAM	
+144.63000	145.23000	-	HAM	
+144.65000	145.25000	-	HAM	
+144.67000	145.27000	-	HAM	
+144.69000	145.29000	-	HAM	
+144.71000	145.31000	-	HAM	
+144.73000	145.33000	-	HAM	
+144.75000	145.35000	-	HAM	
+144.77000	145.37000	-	HAM	
+144.79000	145.39000	-	HAM	
+144.81000	145.41000	-	HAM	
+144.83000	145.43000	-	HAM	
+144.85000	145.45000	-	HAM	
+144.87000	145.47000	-	HAM	
+144.89000	145.49000	-	HAM	
+144.90000	145.10000	-	HAM	Weak Signal & FM Simplex
+145.10000	145.20000	-	HAM	Linear Translator Outputs
+145.20000	145.50000	-	HAM	FM Repeater Outputs
+145.50000	145.80000	-	HAM	Misc & Experimental
+145.80000	146.00000	-	HAM	OSCAR Subband
+146.00000	148.00000	-	HAM	Amateur
+146.01000	146.37000	-	HAM	FM Repeater Inputs
+146.01000	146.61000	-	HAM	
+146.04000	146.64000	-	HAM	
+146.07000	146.67000	-	HAM	
+146.10000	146.70000	-	HAM	
+146.13000	146.73000	-	HAM	
+146.16000	146.76000	-	HAM	
+146.19000	146.79000	-	HAM	
+146.22000	146.82000	-	HAM	
+146.25000	146.85000	-	HAM	
+146.28000	146.88000	-	HAM	
+146.31000	146.91000	-	HAM	
+146.34000	146.94000	-	HAM	
+146.37000	146.97000	-	HAM	
+146.40000	146.58000	-	HAM	FM Simplex
+146.40000	147.00000	-	HAM	
+146.43000	147.03000	-	HAM	
+146.46000	147.06000	-	HAM	
+146.61000	146.97000	-	HAM	FM Repeater Outputs
+147.00000	147.39000	-	HAM	FM Repeater Outputs
+147.42000	145.57000	-	HAM	FM Simplex
+147.60000	147.00000	-	HAM	
+147.60000	147.99000	-	HAM	FM Repeater Inputs
+147.63000	147.03000	-	HAM	
+147.66000	147.06000	-	HAM	
+147.69000	147.09000	-	HAM	
+147.72000	147.12000	-	HAM	
+147.75000	147.15000	-	HAM	
+147.78000	147.18000	-	HAM	
+147.81000	147.21000	-	HAM	
+147.84000	147.24000	-	HAM	
+147.87000	147.27000	-	HAM	
+147.90000	147.30000	-	HAM	
+147.93000	147.33000	-	HAM	
+147.96000	147.36000	-	HAM	
+147.99000	147.39000	-	HAM	
+148.00000	149.90000	-	F/M	Fixed / Mobile
+148.00000	149.90000	-	USA	U.S. Government
+148.15000	-	-	CAP	Civil Air Patrol
+148.45500	-	-	UAF	USAF Minuteman Missle Operations CH 01
+148.93500	-	-	UAF	USAF Minuteman Missle Operations CH 02
+149.17500	-	-	UAF	USAF Base Security
+149.20500	-	-	UAF	USAF Base Security
+149.90000	150.05000	-	RadioNav	Radionavigation Satellite
+149.92500	-	-	CAP	Civil Air Patrol
+150.00000	156.00000	-	CATV	Channel 19 Cablevision
+150.01000	-	-	N AF	
+150.02500	-	-	AF	
+150.04000	-	-	N	
+150.05000	156.76250	-	F/M	Fixed / Mobile
+150.05000	150.80000	-	USA	U.S. Government
+150.05500	-	-	AF	
+150.07000	-	-	N	
+150.08500	-	-	N AF
+150.10000	-	-	N AF
+150.12500	-	-	N AF
+150.13500	-	-	AF
+150.15000	-	-	AF N
+150.16500	-	-	AF
+150.18000	-	-	AF N
+150.19500	-	-	AF
+150.20000	-	-	AF
+150.22500	-	-	AF
+150.25000	-	-	AF
+150.25500	-	-	AF
+150.27500	-	-	AF
+150.28500	-	-	AF
+150.30000	-	-	AF
+150.31500	-	-	AF
+150.32500	-	-	AF	
+150.34500	-	-	AF	
+150.35000	-	-	AF	
+150.37500	-	-	N AF	
+150.39000	-	-	N AF	
+150.40000	-	-	N	
+150.42500	-	-	AR AF	
+150.43500	-	-	AR	
+150.45000	-	-	AR DOE	
+150.46500	-	-	AR	
+150.46500	-	-	UAR	Corps of Engineers
+150.47500	-	-	AR	
+150.50000	-	-	AF	
+150.52500	-	-	AR AF N	
+150.55000	-	-	AR AF	
+150.57500	-	-	AR	
+150.58500	-	-	AR	
+150.60000	-	-	AR AF	
+150.62500	-	-	AR	
+150.64500	-	-	AR	
+150.65000	-	-	AR N	
+150.67500	-	-	AR	
+150.69000	-	-	AR	
+150.70000	-	-	AR	
+150.72500	-	-	AR	
+150.73500	-	-	AR	
+150.73500	-	-	UAR	Corps of Engineers
+150.75000	-	-	AR	
+150.76500	-	-	AR	
+150.77500	-	-	AR AF RN	
+150.79000	-	-	PS	
+150.81500	150.96500	-	LA	Auto Emergency Radio Service
+150.81500	-	-	LA	
+150.83000	-	-	LA	
+150.84500	-	-	LA	
+150.86000	-	-	LA	
+150.87500	-	-	LA	
+150.89000	-	-	LA	
+150.90500	-	-	LA	
+150.92000	-	-	LA	
+150.93500	-	-	LA	
+150.95000	-	-	LA	
+150.96500	-	-	LA	
+150.98000	-	-	IP	Petroleum Oilspill Clean-up
+150.98000	-	-	IP (OIL SPILL CLEANUP)	
+150.99500	151.13000	-	PH	Highway Maintenance
+150.99500	-	-	PH	
+151.01000	-	-	PH	
+151.02500	-	-	PH				
+151.04000	-	-	PH				
+151.04000	-	-	PH	Mo HWY Dept			
+151.05500	-	-	PH				
+151.07000	-	-	PH				
+151.07000	-	-	PH	Mo HWY Dept			
+151.08500	-	-	PH				
+151.10000	-	-	PH				
+151.11500	-	-	PH				
+151.13000	-	KFN582	PH	MO HWY DEPT		Ashland	MO
+151.14500	-	KNCC227	PO	Il Conservation		Quincy	IL
+151.14500	151.47500	-	PO	Conservation			
+151.16000	-	-	PO	Mo Conservation			
+151.19000	-	-	PO	Mo Conservation			
+151.20500	-	-	PO	Mo Conservation			
+151.22000	-	-	PO	Mo Conservation			
+151.23500	-	-	PO	Mo Conservation			
+151.25000	-	-	PO	Mo Conservation			
+151.26500	-	KNCC227	PO	Il Conservation		Quincy	IL
+151.28000	-	-	PO	Il Conservation / State-Wide			
+151.29500	-	-	PO	Mo Conservation			
+151.31000	-	-	PO	Mo Conservation			
+151.32500	-	KVV836	PO	Mo Conservation		Saverton	MO
+151.34000	-	-	PO	Mo Conservation			
+151.35500	-	-	PO	Mo Conservation			
+151.37000	-	KVV836	PO	Mo Conservation		Saverton	MO
+151.38500	-	-	PO	Mo Conservation			
+151.40000	-	-	PO	Mo Conservation			
+151.41500	-	-	PO	Mo Conservation			
+151.43000	-	-	PO	Mo Conservation			
+151.44500	-	-	PO	Mo Conservation			
+151.46000	-	-	PO	Mo Conservation			
+151.47500	-	-	PO	Mo Conservation
+151.49000	151.59500	-	IS	Special Industrial
+151.50500	-	-	IS	
+151.52000	-	-	IS	
+151.53500	-	-	IS	
+151.55000	-	-	IS (ITINERANT)	
+151.56500	-	-	IS	
+151.58000	-	-	IS	
+151.59500	-	-	IS	
+151.61000	-	-	N/A	
+151.62500	151.95500	-	IB	Business
+151.62500	-	-	IB	
+151.64000	-	-	IB	
+151.65500	-	-	IB	
+151.67000	-	-	IB	
+151.68500	-	-	IB	
+151.70000	-	-	IB
+151.71500	-	-	IB
+151.73000	-	-	IB
+151.74500	-	-	IB
+151.76000	-	-	IB
+151.77500	-	-	IB
+151.79000	-	-	IB
+151.80500	-	-	IB
+151.82000	-	-	IB
+151.83500	-	-	IB
+151.85000	-	-	IB
+151.86500	-	-	IB
+151.88000	-	-	IB
+151.89500	-	-	IB
+151.91000	-	-	IB
+151.92500	-	-	IB
+151.94000	-	-	IB				
+151.95500	-	-	IB				
+151.97000	-	-	N/A				
+151.98500	-	-	IT	Communication Common Carrier			
+151.98500	-	-	IT				
+152.00750	-	-	PS	Special Emergency Paging			
+152.00750	-	-	PS	St Mary Hosp Paging		Quincy	IL
+152.03000	152.24000	-	CD	Mobile Telephone Paging (BASE)			
+152.03000	-	-	CD				
+152.06000	-	-	CD				
+152.09000	-	-	CD				
+152.12000	-	-	CD				
+152.15000	-	-	CD				
+152.18000	-	-	CD				
+152.21000	-	-	CD				
+152.24000	-	-	CD				
+152.27000	152.46500	-	LX	Taxicab			
+152.27000	-	-	LX				
+152.28500	-	-	LX				
+152.30000	-	-	IB	WGEM Bi-State Comm			
+152.30000	-	-	IB LX				
+152.31500	-	-	LX				
+152.33000	-	-	LX				
+152.34500	-	-	LX				
+152.36000	-	-	IB	St Mary Hosp Security		Quincy	IL
+152.36000	-	-	IB LX				
+152.37500	-	-	LX				
+152.39000	-	-	LX				
+152.40500	-	-	LX				
+152.42000	-	-	IB LX				
+152.43500	-	-	LX				
+152.45000	-	-	LX				
+152.46500	-	-	IF IS LX	
+152.48000	-	-	IB	One-Way Paging
+152.48000	-	-	IF IS IB	
+152.51000	152.84000	-	CD	Mobile Telephone Paging (BASE)
+152.51000	-	-	CD	
+152.54000	-	-	CD	
+152.57000	-	-	CD	
+152.60000	-	-	CD	
+152.63000	-	-	CD	
+152.66000	-	-	CD	
+152.69000	-	-	CD	
+152.72000	-	-	CD	
+152.75000	-	-	CD	
+152.78000	-	-	CD	
+152.81000	-	-	CD	
+152.84000	-	-	CD	
+152.84000	-	-	CD	One-Way Paging			
+152.87000	153.02000	-	IM IS	Special Industrial - Remote Broadcast	Motion Picture		
+152.87000	-	-	IM IS				
+152.88500	-	-	IS				
+152.90000	-	-	IM IS				
+152.91500	-	-	IS				
+152.93000	-	-	IM IS				
+152.94500	-	-	IS				
+152.96000	-	-	IM IS				
+152.96000	-	-	IS	Gem City Ready Mix		Quincy	IL
+152.97500	-	-	IS				
+152.99000	-	-	IM IS				
+153.00500	-	-	IS				
+153.02000	-	-	IM IS				
+153.03500	-	-	IP IS				
+153.03500	153.39500	-	IP IS IX IF	Remote Pickup - Manufacturing	Forest Products - Petroleum		
+153.05000	-	-	IP IF IX				
+153.06500	-	-	IP IF IX				
+153.08000	-	-	IP IF IX				
+153.09500	-	-	IP IF IX				
+153.11000	-	-	IP IF IX				
+153.11000	-	-	IX	Gardner Denver		Quincy	IL
+153.12500	-	-	IP IF IX				
+153.14000	-	-	IP IF IX				
+153.15500	-	-	IP IF IX				
+153.17000	-	-	IP IF IX				
+153.18500	-	-	IP IF IX				
+153.20000	-	-	IP IF IX				
+153.21500	-	-	IP IF IX				
+153.23000	-	-	IP IF IX				
+153.24500	-	-	IP IF IX				
+153.26000	-	-	IP IF IX				
+153.27500	-	-	IP IF IX				
+153.29000	-	-	IP IF IX				
+153.30500	-	-	IP IF IX				
+153.32000	-	-	IP IF IX				
+153.33500	-	-	IP IF IX IS				
+153.35000	-	-	IP IF IX IS				
+153.36500	-	-	IP IF IX IS				
+153.38000	-	-	IP IF IX IS				
+153.39500	-	-	IP IF IX IS				
+153.41000	-	-	IW				
+153.41000	-	-	IW	Quincy Power			
+153.41000	153.72500	-	IW IP	Power Radio Service			
+153.42500	-	-	IW IP IF				
+153.44000	-	-	IW	Laclede Gas			
+153.44000	-	-	IW	United Cities Gas		Hannibal	MO
+153.44000	-	-	IW IP IF				
+153.45500	-	-	IW IP IF
+153.47000	-	-	IW
+153.48500	-	-	IW IP IF
+153.50000	-	-	IW IP IF
+153.51500	-	-	IW IP IF
+153.53000	-	-	IW
+153.54500	-	-	IW IP IF
+153.56000	-	-	IW IP IF
+153.57500	-	-	IW IP IF
+153.59000	-	-	IW
+153.60500	-	-	IW IP IF
+153.62000	-	-	IW IP IF
+153.63500	-	-	IW IP IF
+153.65000	-	-	IW
+153.66500	-	-	IW IP IF
+153.68000	-	-	IW IP IF
+153.69500	-	-	IW				
+153.71000	-	-	IW				
+153.72500	-	-	IW				
+153.74000	154.11500	-	PF PL	Fire - Local Government			
+153.74000	-	KA75520	PL	"Fulton, City of"		Fulton	MO
+153.74000	-	-	PL (MOBILE)				
+153.75500	-	KDB530	PL	"Columbia, City of"		Columbia	MO
+153.75500	-	-	PL (MOBILE)				
+153.77000	-	WNPO628	PF	"Fulton, City of"		Fulton	MO
+153.77000	-	WSB696	PF	"Fulton, City of"		Fulton	MO
+153.77000	-	-	PF (MOBILE)				
+153.78500	-	-	PL (MOBILE)				
+153.80000	-	-	PL (MOBILE)				
+153.81500	-	KNAR883	PL	Adair County Pub Water Dist #1		Kirksville	MO
+153.81500	-	-	PL (MOBILE)				
+153.83000	-	-	PF (MOBILE) (10 WATTS)				
+153.84500	-	-	PL (MOBILE)				
+153.86000	-	KIL287	PF	"Boone, County of"		Columbia	MO
+153.86000	-	-	PL (MOBILE)				
+153.87500	-	-	PL	Mo State of			
+153.87500	-	-	PL (MOBILE)				
+153.89000	-	KAO723	PF	"Kirksville, City of"		Kirksville	MO
+153.89000	-	KAO723	PF	"Kirksville, City of"		Kirksville	MO
+153.89000	-	-	PF (MOBILE)				
+153.90500	-	-	PL (MOBILE)				
+153.92000	-	-	PL (MOBILE)				
+153.93500	-	KD41486	PL	"Fulton, City of"		Fulton	MO
+153.93500	-	-	PL (MOBILE)				
+153.95000	-	-	PF (MOBILE)				
+153.96500	-	KB28027	PL	Pike County		Bowling Green	MO
+153.96500	-	KB28027	PL	"Pike, County of"		Bowling Green	MO
+153.96500	-	KB35870	PL	"Columbia, City of"		Columbia	MO
+153.96500	-	-	PL (MOBILE)				
+153.98000	-	KB28049	PF	"Quincy, City of"		Quincy	IL
+153.98000	-	KGJ598	PL	Macon Co Pub Wtr Sup Dist #1		Macon	MO
+153.98000	-	-	PL (MOBILE)				
+153.99500	-	KD34838	PL	"Fulton, City of"		Fulton	MO
+153.99500	-	-	PL (MOBILE)				
+154.01000	-	KDJ485	PF	"Columbia, City of"		Columbia	MO
+154.01000	-	KWV482	PF	"Louisiana, Town of"		Louisiana	MO
+154.01000	-	-	PF (MOBILE)				
+154.02500	-	-	PL				
+154.04000	-	KDQ340	PL	"Palmyra, Town of"		Palmyra	MO
+154.04000	-	WNDP968	PL	"Marion, County of"		Philadelphia	MO
+154.04000	-	WNKT666	PL	"Marion, County of"		Palmyra	MO
+154.04000	-	WRA621	PL	"Fulton, City of"		Fulton	MO
+154.04000	-	WRA622	PL	"Fulton, City of"		Fulton	MO
+154.04000	-	-	PL				
+154.05500	-	WNJW368	PL	Macon Co Soil & Wtr Cons Dist		Macon	MO
+154.05500	-	-	PL				
+154.07000	-	KLK578	PF	"Boone, County of"		Columbia	MO
+154.07000	-	-	PF				
+154.08500	-	WNLW660	PL	"Paris, City of"		Paris	MO
+154.08500	-	-	PL				
+154.10000	-	WNRX844	PL			New London	MO
+154.11500	-	KNBH893	PL	Adams County		Quincy	IL
+154.11500	-	KNBU374	PL	Adams County		Quincy	IL
+154.11500	-	WNBY433	PL	Boone County FPD		Ashland	MO
+154.11500	-	WNBY433	PL	Boone County FPD		Centralia	MO
+154.11500	-	WNBY433	PL	Boone County FPD		Comlumbia	MO
+154.11500	-	WNBY433	PL	Boone County FPD		Hallsville	MO
+154.11500	-	WNBY433	PL	Boone County FPD		Harrisburg	MO
+154.11500	-	WNBY433	PL	Boone County FPD		Rocheport	MO
+154.11500	-	WNBY433	PL	Boone County FPD		Sturgeon	MO
+154.11500	-	-	PL				
+154.13000	-	KCX435	PF	"Hannibal, City of"		Hannibal	MO
+154.13000	-	KDA680	PF	"Hannibal, City of"		Hannibal	MO
+154.13000	-	KG3269	PF	"Hannibal, City of"		Hannibal	MO
+154.13000	154.44500	-	PF	Fire			
+154.13000	-	-	PF				
+154.14500	-	WNMB324	PF	Shelbyville Rural Fire Dist		Shelbyville	MO
+154.14500	-	-	PF				
+154.16000	-	-	PF				
+154.17500	-	KNFP521	PF	"Moberly, City of"		Moberly	MO
+154.17500	-	-	PF				
+154.19000	-	KDJ485	PF	"Columbia, City of"		Columbia	MO
+154.19000	-	WNJY295	PF	Adair County Rural FD #1		Kirksville	MO
+154.19000	-	-	PF				
+154.20500	-	KB66366	PF	Macon Co Rural Fire Dept		Macon	MO
+154.20500	-	WXT573	PF	"Macon, City of"		Macon	MO
+154.20500	-	-	PF				
+154.22000	-	WRB485	PF	"Paris, City of"		Paris	MO
+154.22000	-	-	PF				
+154.23500	-	-	PF				
+154.25000	-	KNIK641	PF	Adair County FD #3		Kirksville	MO
+154.25000	-	-	PF				
+154.26500	-	-	PF				
+154.28000	-	KB66366	PF	Macon Co Rural Fire Dept		Macon	MO
+154.28000	-	KCX435	PF	"Hannibal, City of"		Hannibal	MO
+154.28000	-	KDJ485	PF	"Columbia, City of"		Columbia	MO
+154.28000	-	KLK578	PF	"Boone, County of"		Columbia	MO
+154.28000	-	KLK578	PF	"Boone, County of"		Columbia	MO
+154.28000	-	KNBJ794	PF	Ewing R4 Fire Dept		Ewing	MO
+154.28000	-	KNBU718	PF	Monticello VFD		Monticello	MO
+154.28000	-	KNCM594	PF	"Bowling Green, Town of"		Bowling Green	MO
+154.28000	-	KNFP521	PF	"Moberly, City of"		Moberly	MO
+154.28000	-	KNIK641	PF	Adair County FD #3		Kirksville	MO
+154.28000	-	KNIR486	PF	Canton R5 FPD		Canton	MO
+154.28000	-	KNIR486	PF	Canton R5 FPD		Canton	MO
+154.28000	-	KNJM308	PF	"Boone, County of"		Centralia	MO
+154.28000	-	KNJM308	PF	"Boone, County of"		Comlumbia	MO
+154.28000	-	KWV482	PF	"Louisiana, Town of"		Louisiana	MO
+154.28000	-	KWV482	PF	"Louisiana, Town of"		Louisiana	MO
+154.28000	-	KXA495	PF	"Boone, County of"		Ashland	MO
+154.28000	-	KXA495	PF	"Boone, County of"		Hallsville	MO
+154.28000	-	KXA495	PF	"Boone, County of"		Harrisburg	MO
+154.28000	-	KXA495	PF	"Boone, County of"		Rocheport	MO
+154.28000	-	KXA495	PF	"Boone, County of"		Sturgeon	MO
+154.28000	-	WNBE375	PF	Eolia Community VFD		Eolia	MO
+154.28000	-	WNJY295	PF	Adair County Rural FD #1		Kirksville	MO
+154.28000	-	WNLL526	PF	"Hannibal, City of"		Hannibal	MO
+154.28000	-	WRB485	PF	"Paris, City of"		Paris	MO
+154.28000	-	WRB485	PF	"Paris, City of"		Paris	MO
+154.28000	-	WSB696	PF	"Fulton, City of"		Fulton	MO
+154.28000	-	WXT573	PF	"Macon, City of"		Macon	MO
+154.28000	-	-	PF				
+154.29500	-	-	PF				
+154.31000	-	KC7053	PF	"Quincy, City of"		Quincy	IL
+154.31000	-	KDG878	PF	"Quincy, City of"		Camp Point	IL
+154.31000	-	KDG878	PF	"Quincy, City of"		Quincy	IL
+154.31000	-	KKD514	PF	"Quincy, City of"		Quincy	IL
+154.31000	-	KNAK238	PF	"Quincy, City of"		Burton	IL
+154.31000	-	WXT573	PF	"Macon, City of"		Macon	MO
+154.31000	-	-	PF				
+154.32500	-	WNSR269	PF			Palmyra	MO
+154.34000	-	KNCM594	PF	"Bowling Green, City of"		Bowling Green	MO
+154.34000	-	KWV482	PF	"Louisiana, Town of"		Louisiana	MO
+154.34000	-	WNBE375	PF	Eolia Community VFD		Eolia	MO
+154.34000	-	-	PF				
+154.35500	-	WNLL526	PF	"Hannibal, City of"		Hannibal	MO
+154.35500	-	-	PF				
+154.37000	-	KNBJ794	PF	Ewing R4 Fire Dept		Ewing	MO
+154.37000	-	KNBU718	PF	Monticello VFD		Monticello	MO
+154.37000	-	KNIR486	PF	"Canton, City of"		Canton	MO
+154.37000	-	KNIR486	PF	Canton R5 FPD		Canton	MO
+154.37000	-	-	PF				
+154.38500	-	WNAW906	PF	Montgomery Rural Fire Prot Ass		Montgomery City	MO
+154.38500	-	-	PF				
+154.40000	-	-	PF				
+154.41500	-	-	PF				
+154.43000	-	KLK578	PF	"Boone, County of"		Ashland	MO
+154.43000	-	KLK578	PF	"Boone, County of"		Columbia	MO
+154.43000	-	KLK578	PF	"Boone, County of"		Columbia	MO
+154.43000	-	KLK578	PF	"Boone, County of"		Sturgeon	MO
+154.43000	-	KNJM308	PF	"Boone, County of"		Centralia	MO
+154.43000	-	KNJM308	PF	"Boone, County of"		Comlumbia	MO
+154.43000	-	KXA495	PF	"Boone, County of"		Ashland	MO
+154.43000	-	KXA495	PF	"Boone, County of"		Hallsville	MO
+154.43000	-	KXA495	PF	"Boone, County of"		Harrisburg	MO
+154.43000	-	KXA495	PF	"Boone, County of"		Rocheport	MO
+154.43000	-	KXA495	PF	"Boone, County of"		Sturgeon	MO
+154.43000	-	-	PF				
+154.44500	-	KNFU640	PF	"Ft. Madison, City of"		Ft. Madison	IA
+154.44500	-	-	PF				
+154.45625	-	-	PL IW IP IF IS IB IX				
+154.46000	154.49000	-	PL IW IS	Local Government - Power	Special Industrial		
+154.46375	-	-	PL IW IP IF IS IB IX				
+154.47125	-	-	PL IW IP IF IS IB IX				
+154.47875	-	-	PL IW IP IF IS IB IX				
+154.49000	-	-	IS				
+154.51500	-	-	IB				
+154.51500	154.62500	-	IB IF	Business - Forest Products			
+154.54000	-	-	IB	Quincy Cable Vision			
+154.54000	-	-	IB				
+154.55500	-	-	N/A				
+154.57000	-	-	IF IB				
+154.58500	-	-	IP				
+154.58500	-	-	IP	Petroleum Oilspill Clean-up			
+154.60000	-	-	IF IB				
+154.62500	-	-	IB	One-Way Paging			
+154.62500	-	-	IF IS IB				
+154.65000	-	KQN934	PP	"Fulton, City of"		Fulton	MO
+154.65000	154.95000	-	PP	Police			
+154.65000	-	-	PP (MOBILE)				
+154.66500	-	-	PP	Il SHP			
+154.66500	-	-	PP (STATE)				
+154.68000	-	KGY335	PP	Pittsfield Il			
+154.68000	-	-	PP (STATE)				
+154.69500	-	-	PP	Mo SHP Car to Base			
+154.69500	-	-	PP (STATE)				
+154.71000	-	WNFX946	PP	"Boone, County of"		Columbia	MO
+154.71000	-	-	PP (MOBILE)				
+154.72500	-	-	PP				
+154.72500	-	-	PP	St Louis (SUB) PD			
+154.74000	-	-	PP				
+154.75500	-	KAB278	PP	"Columbia, City of"		Columbia	MO
+154.75500	-	-	PP				
+154.77000	-	-	PP (MOBILE)				
+154.78500	-	-	PP				
+154.80000	-	KAB416	PP	"Moberly, City of"		Moberly	MO
+154.80000	-	-	PP				
+154.81500	-	KAJ237	PP	"Audrain, County of"		Mexico	MO
+154.81500	-	-	PP				
+154.83000	-	KSB280	PP	Quincy Il			
+154.83000	-	-	PP (MOBILE)				
+154.84500	-	-	PP				
+154.84500	-	-	PP	Il SHP			
+154.86000	-	KNIL373	PP	Ralls County of		New London	MO
+154.87500	-	WXT714	PP	"Auxvasse, City of"		Auxvasse	MO
+154.87500	-	-	PP	Il SHP			
+154.87500	-	-	PP				
+154.89000	-	-	PP (MOBILE)				
+154.90500	-	KGY335	PP	Pittsfield Il			
+154.90500	-	-	PP (STATE)				
+154.92000	-	-	PP	Mo SHP Car to Base			
+154.92000	-	-	PP (STATE)				
+154.93500	-	-	PP	Il SHP			
+154.93500	-	-	PP (STATE)				
+154.95000	-	-	PP	Il Dept of Investigation			
+154.95000	-	-	PP (MOBILE)				
+154.96500	-	KSX286	PL	"Monroe City, Town of"		Monroe City	MO
+154.96500	-	WNCD569	PL	"Adair, County of"		Kirksville	MO
+154.96500	-	-	PL				
+154.96500	155.14500	-	PL PP	Local Government - Police			
+154.98000	-	KDA715	PL	"Moberly, City of"		Moberly	MO
+154.98000	-	KXX400	PL	"Canton, City of"		Canton	MO
+154.98000	-	KXX400	PL	"Canton, City of"		Canton	MO
+154.98000	-	-	PL				
+154.99500	-	-	PL				
+155.01000	-	KAL649	PP	"Louisiana, Town of"		Louisiana	MO
+155.01000	-	-	PP				
+155.02500	-	-	PL				
+155.04000	-	KDG328	PL	"Macon, City of"		Macon	MO
+155.04000	-	-	PL				
+155.05500	-	KB33433	PL	Adams County		Quincy	IL
+155.05500	-	WNQD334	PL	Adams County		Quincy	IL
+155.05500	-	-	PL				
+155.07000	-	KNCZ2335	PP	"Edina, City of"		Edina	MO
+155.07000	-	-	PP				
+155.08500	-	-	PL				
+155.10000	-	KNFJ257	PL	Randolph Co Amb Dist		Moberly	MO
+155.10000	-	-	PL				
+155.11500	-	KWV623	PL	Pike County Louisiana Mo			
+155.11500	-	KWV623	PL	Pike County Clarksville Mo			
+155.11500	-	KWV623	PL	"Pike, County of"		Clarksville	MO
+155.11500	-	KWV623	PL	"Pike, County of"		Louisiana	MO
+155.11500	-	-	PL				
+155.13000	-	KAB825	PP	"Kirksville, City of"		Kirksville	MO
+155.13000	-	KGW684	PP	NE Missouri State College		Kirksville	MO
+155.13000	-	-	PP				
+155.14500	-	KNJL469	PL	Adams County		Quincy	IL
+155.14500	-	KSI598	PL	"Center, City of"		Center	MO
+155.14500	-	KSZ868	PL	"Perry, Town of"		Perry	MO
+155.14500	-	-	PL				
+155.16000	-	KNFZ604	PS	Montgomery County School Dist		Montgomery City	MO
+155.16000	-	KNJC288	PS	Louisiana R2 School Dist		Louisiana	MO
+155.16000	-	-	PS				
+155.16000	155.40000	-	PS PP PM	Special Emergency - Police			
+155.17500	-	KNAT374	PS	Quincy Public Schools Quincy Il			
+155.17500	-	KNEE310	PS	Quincy Il			
+155.17500	-	KNEF736	PS	"Macon, County of"		Macon	MO
+155.17500	-	WNJF646	PS	Fulton Public Schools		Fulton	MO
+155.17500	-	-	PS				
+155.19000	-	KAB278	PP	"Columbia, City of"		Columbia	MO
+155.19000	-	-	PP				
+155.20500	-	KAJ777	PS	Mexico Animal Hosp		Mexico	MO
+155.20500	-	KNEE310	PS	Quincy Il			
+155.20500	-	-	PS				
+155.22000	-	KBP400	PS	"Hannibal, City of"		Hannibal	MO
+155.22000	-	KBP401	PS	"Hannibal, City of"		Hannibal	MO
+155.22000	-	KEF765	PS	Macon Co School Dist R1		Macon	MO
+155.22000	-	KF4599	PS	"Hannibal, City of"		Hannibal	MO
+155.22000	-	KOB672	PS	Adams County		Quincy	IL
+155.22000	-	KVT844	PS	Randolph Co Amb Dist		Moberly	MO
+155.22000	-	KYD887	PS	Monroe County Ambulance Dist		Paris	MO
+155.22000	-	KYD887	PS	Monroe County Ambulance		Paris	MO
+155.22000	-	WZJ441	PS	Moberly Regional Medical Ctr		Moberly	MO
+155.22000	-	-	PS				
+155.23500	-	KXL379	PS	Montgomery County Amb Dist		Montgomery City	MO
+155.23500	-	-	PS				
+155.25000	-	KAB232	PP	"Hannibal, City of"		Hannibal	MO
+155.25000	-	-	PS				
+155.26500	-	KJY848	PS	Booune County Hospital		Columbia	MO
+155.26500	-	KNIJ547	PS	Canton Mo School District R5		Canton	MO
+155.26500	-	KNIJ547	PS	Canton School District R5		Canton	MO
+155.26500	-	-	PS				
+155.28000	-	KCU257	PS	St Mary's Hospital Quincy Il			
+155.28000	-	KTK775	PS	"Kirksville Col of Ost Med, Inc"		Kirksville	MO
+155.28000	-	KUS465	PS	Audrain Medical Center		Mexico	MO
+155.28000	-	WNFP498	PS	Knox County Rescue Squad		Edina	MO
+155.28000	-	-	PS				
+155.29500	-	-	PS				
+155.31000	-	KAB278	PP	"Columbia, City of"		Columbia	MO
+155.31000	-	KUO515	PP	"Center, City of"		Center	MO
+155.31000	-	-	PP				
+155.32500	-	-	PS (MEDICAL SERVICES)				
+155.34000	-	KJY848	PS (MEDICAL SERVICES)	Booune County Hospital		Columbia	MO
+155.34000	-	KNEF736	PS (MEDICAL SERVICES)	"Macon, County of"		Macon	MO
+155.34000	-	KNHY684	PS (MEDICAL SERVICES)	Blessing Hospital		Quincy	IL
+155.34000	-	KNJV854	PS (MEDICAL SERVICES)	Macon Co Samaritan Hosp		Macon	MO
+155.34000	-	KOB672	PS (MEDICAL SERVICES)	Adams County		Quincy	IL
+155.34000	-	KTK775	PS (MEDICAL SERVICES)	"Kirksville Col of Ost Med, Inc"		Kirksville	MO
+155.34000	-	KUN452	PS (MEDICAL SERVICES)	Pike County Memorial Hospital	Louisiana Mo		
+155.34000	-	KUN452	PS (MEDICAL SERVICES)	Pike County Memorial Hosp		Louisiana	MO
+155.34000	-	KUS465	PS (MEDICAL SERVICES)	Audrain Medical Center		Mexico	MO
+155.34000	-	KYD887	PS (MEDICAL SERVICES)	Monroe County Ambulance		Paris	MO
+155.34000	-	KYD887	PS (MEDICAL SERVICES)	Monroe County Ambulance Dist		Paris	MO
+155.34000	-	WNQF467	PS (MEDICAL SERVICES)	"Fulton, City of"		Fulton	MO
+155.34000	-	WZJ441	PS (MEDICAL SERVICES)	Moberly Regional Medical Ctr		Moberly	MO
+155.34000	-	-	PS (MEDICAL SERVICES)				
+155.35500	-	-	PS (MEDICAL SERVICES)				
+155.37000	-	KAA597	PP (Point-To-Point)	"Mexico, City of"		Mexico	MO
+155.37000	-	KAB232	PP (Point-To-Point)	"Hannibal, City of"		Hannibal	MO
+155.37000	-	KAB278	PP (Point-To-Point)	"Columbia, City of"		Columbia	MO
+155.37000	-	KAB416	PP (Point-To-Point)	"Moberly, City of"		Moberly	MO
+155.37000	-	KAB825	PP (Point-To-Point)	"Kirksville, City of"		Kirksville	MO
+155.37000	-	KAI208	PP (Point-To-Point)	"Montgomery, County of"		Montgomery City	MO
+155.37000	-	KAI300	PP (Point-To-Point)	"Macon, County of"		Macon	MO
+155.37000	-	KAI300	PP (Point-To-Point)	"Macon, County of"		Macon	MO
+155.37000	-	KAI736	PP (Point-To-Point)	"Shelby, County of"		Shelbyville	MO
+155.37000	-	KAI786	PP (Point-To-Point)	Pike County Bowling Green Mo			
+155.37000	-	KAI786	PP (Point-To-Point)	"Pike, County of"		Bowling Green	MO
+155.37000	-	KAJ237	PP (Point-To-Point)	"Audrain, County of"		Mexico	MO
+155.37000	-	KAK547	PP (Point-To-Point)	"Lewis, County of"		Monticello	MO
+155.37000	-	KAL649	PP (Point-To-Point)	"Louisiana, Town of"		Louisiana	MO
+155.37000	-	KAN466	PP (Point-To-Point)	"Randolph, County of"		Moberly	MO
+155.37000	-	KAN467	PP (Point-To-Point)	"Randolph, County of"		Huntsville	MO
+155.37000	-	KEU979	PP (Point-To-Point)	"Palmyra, City of"		Palmyra	MO
+155.37000	-	KFX220	PP (Point-To-Point)	"Knox, County of"		Edina	MO
+155.37000	-	KGV228	PP (Point-To-Point)	"Vandalia, City of"		Vandalia	MO
+155.37000	-	KGW792	PP (Point-To-Point)	"Monroe, County of"		Paris	MO
+155.37000	-	KGW792	PP (Point-To-Point)	"Monroe, County of"		Paris	MO
+155.37000	-	KGY335	PP (Point-To-Point)	Pittsfield Il			
+155.37000	-	KLS658	PP (Point-To-Point)	Pike County Clarksville Mo			
+155.37000	-	KLS658	PP (Point-To-Point)	"Pike, County of"		Clarksville	MO
+155.37000	-	KNCZ2335	PP (Point-To-Point)	"Edina, City of"		Edina	MO
+155.37000	-	KNDS792	PP (Point-To-Point)	"Foley, City of"		Foley	MO
+155.37000	-	KNIE324	PP (Point-To-Point)	"Canton, City of"		Canton	MO
+155.37000	-	KNIE324	PP (Point-To-Point)	"Canton, City of"		Canton	MO
+155.37000	-	KNIL373	PP (Point-To-Point)	Ralls County New London Mo			
+155.37000	-	KNIL373	PP (Point-To-Point)	"Ralls, County of"		New London	MO
+155.37000	-	KQN934	PP (Point-To-Point)	"Fulton, City of"		Fulton	MO
+155.37000	-	KSB280	PP (Point-To-Point)	Quincy Il			
+155.37000	-	KSB280	PP (Point-To-Point)	"Quincy, City of"		Burton	IL
+155.37000	-	KSB849	PP (Point-To-Point)	Adams County		Quincy	IL
+155.37000	-	KSU418	PP (Point-To-Point)	"Adair, County of"		Kirksville	MO
+155.37000	-	KSX285	PP (Point-To-Point)	"Monroe City, Town of"		Monroe City	MO
+155.37000	-	KSZ899	PP (Point-To-Point)	"Perry, Town of"		Perry	MO
+155.37000	-	KTR682	PP (Point-To-Point)	"Montgomery City, Town of"		Montgomery City	MO
+155.37000	-	KUO515	PP (Point-To-Point)	"Center, City of"		Center	MO
+155.37000	-	KUV567	PP (Point-To-Point)	"Kahoka, Town of"		Kahoka	MO
+155.37000	-	KVI600	PP (Point-To-Point)	"LaGrange, City of"		LaGrange	MO
+155.37000	-	WNAP576	PP (Point-To-Point)	"Macon, City of"		Macon	MO
+155.37000	-	WXT714	PP (Point-To-Point)	"Auxvasse, City of"		Auxvasse	MO
+155.37000	-	-	PP (POINT-TO-POINT)				
+155.38500	-	-	PS (MEDICAL SERVICES)				
+155.40000	-	KNHY684	PS (MEDICAL SERVICES)	Blessing Hospital		Quincy	IL
+155.40000	-	-	PS (MEDICAL SERVICES)				
+155.41500	-	WYC780	PP	Hancock County		Carthage	IL
+155.41500	155.70000	-	PP	Police			
+155.41500	-	-	PP				
+155.43000	-	-	PP				
+155.44500	-	-	PP (STATE)				
+155.46000	-	KGY335	PP	Pittsfield Il			
+155.46000	-	-	PP (STATE)				
+155.47500	-	KAA597	PP (Mutual Aid)	"Mexico, City of"		Mexico	MO
+155.47500	-	KAB232	PP (Mutual Aid)	"Hannibal, City of"		Hannibal	MO
+155.47500	-	KAB278	PP (Mutual Aid)	"Columbia, City of"		Columbia	MO
+155.47500	-	KAI208	PP (Mutual Aid)	"Montgomery, County of"		Montgomery City	MO
+155.47500	-	KAI300	PP (Mutual Aid)	"Macon, County of"		Macon	MO
+155.47500	-	KAK547	PP (Mutual Aid)	"Lewis, County of"		Monticello	MO
+155.47500	-	KAL649	PP (Mutual Aid)	"Louisiana, Town of"		Louisiana	MO
+155.47500	-	KAN466	PP (Mutual Aid)	"Randolph, County of"		Moberly	MO
+155.47500	-	KAN467	PP (Mutual Aid)	"Randolph, County of"		Huntsville	MO
+155.47500	-	KEU979	PP (Mutual Aid)	"Palmyra, City of"		Palmyra	MO
+155.47500	-	KFX220	PP (Mutual Aid)	"Knox, County of"		Edina	MO
+155.47500	-	KGV228	PP (Mutual Aid)	"Vandalia, City of"		Vandalia	MO
+155.47500	-	KGW792	PP (Mutual Aid)	"Monroe, County of"		Paris	MO
+155.47500	-	KGW792	PP (Mutual Aid)	"Monroe, County of"		Paris	MO
+155.47500	-	KGY335	PP (Mutual Aid)	Pittsfield Il			
+155.47500	-	KH3092	PP (Mutual Aid)	"Palmyra, City of"		Palmyra	MO
+155.47500	-	KK9550	PP (Mutual Aid)	"Knox, County of"		Edina	MO
+155.47500	-	KNCZ2335	PP (Mutual Aid)	"Edina, City of"		Edina	MO
+155.47500	-	KNDS792	PP (Mutual Aid)	"Foley, City of"		Foley	MO
+155.47500	-	KNIL373	PP (Mutual Aid)	Ralls County New London Mo			
+155.47500	-	KNIL373	PP (Mutual Aid)	"Ralls, County of"		New London	MO
+155.47500	-	KQN934	PP (Mutual Aid)	"Fulton, City of"		Fulton	MO
+155.47500	-	KTR682	PP (Mutual Aid)	"Montgomery City, Town of"		Montgomery City	MO
+155.47500	-	KUO515	PP (Mutual Aid)	"Center, City of"		Center	MO
+155.47500	-	WNAP576	PP (Mutual Aid)	"Macon, City of"		Macon	MO
+155.47500	-	WNGJ526	PP (Mutual Aid)	"Kirksville, City of"		Kirksville	MO
+155.47500	-	WNQA252	PP (Mutual Aid)	"Fulton, City of"		Fulton	MO
+155.47500	-	-	PP (Mutual Aid)				
+155.49000	-	-	PP				
+155.50500	-	-	PP				
+155.52000	-	KAN466	PP	"Randolph, County of"		Moberly	MO
+155.52000	-	KAN467	PP	"Randolph, County of"		Huntsville	MO
+155.52000	-	-	PP				
+155.53500	-	-	PP				
+155.55000	-	KGW684	PP	NE Missouri State College		Kirksville	MO
+155.55000	-	-	PP				
+155.56500	-	KQN934	PP	"Fulton, City of"		Fulton	MO
+155.56500	-	-	PP				
+155.58000	-	KAB232	PP	"Hannibal, City of"		Hannibal	MO
+155.58000	-	KDD903	PP	"Hannibal, City of"		Hannibal	MO
+155.58000	-	WNHY211	PP	"Adair, County of"		Kirksville	MO
+155.58000	-	-	PP				
+155.59500	-	WNMC977	PP	Water Patrol / State Patrol Repeater		Hannibal	MO
+155.59500	-	-	PP				
+155.61000	-	-	PP				
+155.62500	-	KSB280	PP	Quincy Il			
+155.62500	-	KSB280	PP	"Quincy, City of"		Burton	IL
+155.62500	-	-	PP				
+155.64000	-	WNAP576	PP	"Macon, City of"		Macon	MO
+155.64000	-	-	PP				
+155.65500	-	WNGJ526	PP	"Kirksville, City of"		Kirksville	MO
+155.65500	-	-	PP				
+155.67000	-	-	PP				
+155.68500	-	WXT714	PP	"Auxvasse, City of"		Auxvasse	MO
+155.68500	-	-	PP				
+155.70000	-	-	PP				
+155.71500	-	-	PL				
+155.71500	156.03000	-	PL PP	Local Government - Police			
+155.73000	-	KAB278	PP (Sheriff's Net)	"Columbia, City of"		Columbia	MO
+155.73000	-	KAI208	PP (Sheriff's Net)	"Montgomery, County of"		Montgomery City	MO
+155.73000	-	KAI736	PP (Sheriff's Net)	"Shelby, County of"		Shelbyville	MO
+155.73000	-	KAI786	PP (Sheriff's Net)	Pike County Bowling Green Mo			
+155.73000	-	KAI786	PP (Sheriff's Net)	"Pike, County of"		Bowling Green	MO
+155.73000	-	KAJ237	PP (Sheriff's Net)	"Audrain, County of"		Mexico	MO
+155.73000	-	KAK547	PP (Sheriff's Net)	"Lewis, County of"		Canton	MO
+155.73000	-	KAK547	PP (Sheriff's Net)	"Lewis, County of"		Monticello	MO
+155.73000	-	KAL649	PP (Sheriff's Net)	"Louisiana, Town of"		Louisiana	MO
+155.73000	-	KAN466	PP (Sheriff's Net)	"Randolph, County of"		Moberly	MO
+155.73000	-	KAN467	PP (Sheriff's Net)	"Randolph, County of"		Huntsville	MO
+155.73000	-	KEU979	PP (Sheriff's Net)	"Palmyra, City of"		Palmyra	MO
+155.73000	-	KEU981	PP (Sheriff's Net)	"Palmyra, City of"		Palmyra	MO
+155.73000	-	KFX220	PP (Sheriff's Net)	"Knox, County of"		Edina	MO
+155.73000	-	KGV228	PP (Sheriff's Net)	"Vandalia, City of"		Vandalia	MO
+155.73000	-	KGW792	PP (Sheriff's Net)	"Monroe, County of"		Paris	MO
+155.73000	-	KGW792	PP (Sheriff's Net)	"Monroe, County of"		Paris	MO
+155.73000	-	KH3092	PP (Sheriff's Net)	"Palmyra, City of"		Palmyra	MO
+155.73000	-	KK9550	PP (Sheriff's Net)	"Knox, County of"		Edina	MO
+155.73000	-	KL7762	PP (Sheriff's Net)	Pike County Clarksville Mo			
+155.73000	-	KL7762	PP (Sheriff's Net)	"Pike, County of"		Clarksville	MO
+155.73000	-	KLS658	PP (Sheriff's Net)	Pike County Clarksville Mo			
+155.73000	-	KLS658	PP (Sheriff's Net)	"Pike, County of"		Clarksville	MO
+155.73000	-	KNDS792	PP (Sheriff's Net)	"Foley, City of"		Foley	MO
+155.73000	-	KNIL373	PP (Sheriff's Net)	Ralls County New London Mo			
+155.73000	-	KNIL373	PP (Sheriff's Net)	"Ralls, County of"		New London	MO
+155.73000	-	KSU418	PP (Sheriff's Net)	"Adair, County of"		Kirksville	MO
+155.73000	-	KTR682	PP (Sheriff's Net)	"Montgomery City, Town of"		Montgomery City	MO
+155.73000	-	WNAP576	PP (Sheriff's Net)	"Macon, City of"		Macon	MO
+155.73000	-	WNQA252	PP (Sheriff's Net)	"Fulton, City of"		Fulton	MO
+155.73000	-	-	PP (Sheriff's Net)				
+155.74500	-	KNBU374	PL	Adams County		Quincy	IL
+155.74500	-	WNBF553	PL	"Columbia, City of"		Columbia	MO
+155.74500	-	-	PL				
+155.76000	-	KNEY912	PL	"Knox, County of"		Edina	MO
+155.76000	-	-	PL				
+155.77500	-	KDT365	PL	"Kahoka, Town of"		Kahoka	MO
+155.77500	-	-	PL				
+155.79000	-	-	PP				
+155.80500	-	KGV255	PL	"Shelbina, Town of"		Shelbina	MO
+155.80500	-	KQP625	PL	Quincy Il			
+155.80500	-	-	PL				
+155.82000	-	KAR773	PL	"Mexico, City of"		Mexico	MO
+155.82000	-	-	PL				
+155.83500	-	WNLB883	PL	"Fulton, City of"		Fulton	MO
+155.83500	-	-	PL				
+155.85000	-	-	PP (MOBILE)				
+155.86500	-	KDT365	PL	"Kahoka, Town of"		Kahoka	MO
+155.86500	-	KNGA897	PL	"Vandalia, City of"		Vandalia	MO
+155.86500	-	KZE637	PL	"Hannibal, City of"		Hannibal	MO
+155.86500	-	WYC663	PL	Ralls County Center Mo			
+155.86500	-	WYC663	PL	"Ralls, County of"		Center	MO
+155.86500	-	WYE390	PL	"Knox, County of"		Edina	MO
+155.86500	-	-	PL				
+155.88000	-	KNHR628	PL	Monroe County Ambulance		Paris	MO
+155.88000	-	KNHR628	PL	Monroe County Ambulance Dist		Paris	MO
+155.88000	-	-	PL				
+155.89500	-	KNBN583	PL	"Montgomery, County of"		Montgomery City	MO
+155.89500	-	-	PL				
+155.91000	-	KNGF366	PP	Pittsfield IL			
+155.91000	-	-	PP (MOBILE)				
+155.92500	-	KAR773	PL	"Mexico, City of"		Mexico	MO
+155.92500	-	-	PL				
+155.94000	-	KYK410	PL	Monroe City Ambulance Dist		Monroe City	MO
+155.94000	-	KYQ490	PL	"Lewis, County of"		Canton	MO
+155.94000	-	KYQ490	PL	"Lewis, County of"		Monticello	MO
+155.94000	-	-	PL				
+155.95500	-	KNBN571	PF	"Boone, County of"		Centralia	MO
+155.95500	-	KNCX516	PL	"Louisiana, Town of"		Louisiana	MO
+155.95500	-	KNGU685	PL	"Montgomery City, Town of"		Montgomery City	MO
+155.95500	-	KVF806	PL	"LaGrange, City of"		LaGrange	MO
+155.95500	-	-	PL				
+155.97000	-	-	PP (MOBILE)				
+155.98500	-	-	PL	Water Patrol			
+155.98500	-	-	PL (MOBILE)				
+156.00000	162.00000	-	CATV	Channel 20 Cablevision			
+156.00000	-	-	PL (MOBILE)				
+156.01500	-	-	PL	State Highway Dept			
+156.01500	-	-	PL (MOBILE)				
+156.02500	-	-	MR	Ch 60			
+156.03000	-	KAB232	PP	"Hannibal, City of"		Hannibal	MO
+156.03000	-	-	PP (MOBILE)				
+156.04500	-	-	PH (MOBILE)				
+156.04500	156.24000	-	PH PP	Highway Maintenance - Police			
+156.05000	-	-	MR	Ch 01 VTS			
+156.06000	-	-	PH (MOBILE)				
+156.07500	-	-	MR	Ch 61			
+156.07500	-	-	PH (MOBILE)				
+156.09000	-	-	PH (MOBILE)				
+156.10000	-	-	MR	Ch 02 Port Operations			
+156.10500	-	-	PH				
+156.12000	-	-	PH				
+156.12500	-	-	MR	Ch 62			
+156.13500	-	-	PH				
+156.15000	-	-	MR	Ch 03 Port Operations			
+156.15000	-	KEU979	PL	"Palmyra, City of"		Palmyra	MO
+156.15000	-	KGW792	PL	"Monroe, County of"		Paris	MO
+156.15000	-	KNIL373	PL	Ralls County New London Mo			
+156.15000	-	KAB278	PP	"Columbia, City of"		Columbia	MO
+156.15000	-	KAI300	PP	"Macon, County of"		Macon	MO
+156.15000	-	KAK547	PP	"Lewis, County of"		Monticello	MO
+156.15000	-	KFX220	PP	"Knox, County of"		Edina	MO
+156.15000	-	KGW792	PP	"Monroe, County of"		Paris	MO
+156.15000	-	KK9550	PP	"Knox, County of"		Edina	MO
+156.15000	-	KNIL373	PP	"Ralls, County of"		New London	MO
+156.15000	-	-	PP (MOBILE)				
+156.16500	-	-	PH				
+156.17500	-	-	MR	Ch 63			
+156.18000	-	-	PH				
+156.19500	-	-	PH				
+156.20000	-	-	MR	Ch 04 Port Operations			
+156.21000	-	-	PP				
+156.22500	-	-	MR	Ch 64			
+156.22500	-	-	PH				
+156.24000	-	-	PH				
+156.25000	-	-	MR	Ch 05 VTS
+156.25500	-	-	PH	
+156.27500	-	-	MR	Ch 65 Port operations
+156.30000	-	-	MR	Ch 06 Safety
+156.32500	-	-	MR	Ch 66 Port Operations
+156.35000	-	-	MR	Ch 07 Commercial
+156.37500	-	-	MR	Ch 67 Commercial
+156.40000	-	-	MR	Ch 08 Commercial
+156.42500	-	-	MR	Ch 68 Non-Commercial
+156.45000	-	-	MR	Ch 09 Commercial & Non-Commercial
+156.47500	-	-	MR	Ch 69 Non-Commercial
+156.50000	-	-	MR	Ch 10 Commercial
+156.52500	-	-	MR	Ch 70 Non-Commercial
+156.55000	-	-	MR	Ch 11 Commercial
+156.57500	-	-	MR	Ch 71 Non-Commercial
+156.60000	-	-	MR	Ch 12 Port Operations
+156.62500	-	-	MR	Ch 72 Non-Commercial
+156.65000	-	-	MR	Ch 13 Navigational
+156.67500	-	-	MR	Ch 73 Port Operations
+156.70000	-	-	MR	Ch 14 Port Operations
+156.70000	-	-	UAR	Corps of Engineers
+156.72500	-	-	MR	Ch 74 Port Operations
+156.75000	-	-	MR	Ch 15 Environmental (RX Only)
+156.76250	156.83750	-	MR	Maritime Mobile Distress & Calling
+156.80000	-	-	MR	Ch 16 Safety Calling
+156.83750	174.00000	-	F/M	Fixed / Mobile
+156.85000	-	-	MR	Ch 17 State Control
+156.87500	-	-	MR	Ch 77 Port Operations
+156.90000	-	-	MR	Ch 18 Commercial
+156.92500	-	-	MR	Ch 78 Non-Commercial
+156.95000	-	-	MR	Ch 19 Commercial
+156.97500	-	-	MR	Ch 79 Commercial
+157.00000	161.60000	-	MR	Ch 20 Port Operations
+157.02500	-	-	MR	Ch 80 Commercial
+157.05000	-	-	MR	Ch 21 Coast Guard
+157.07500	-	-	MR	Ch 81 Coast Guard
+157.10000	-	-	MR	Ch 22 Coast Guard
+157.12500	-	-	MR	Ch 82 U. S. Government Only
+157.12500	-	-	UAR	Corps of Engineers
+157.15000	-	-	MR	Ch 23 Coast Guard
+157.17500	-	-	MR	Ch 83 Coast Guard
+157.20000	161.80000	-	MR	Ch 24 Public Correspondence
+157.22500	161.82500	-	MR	Ch 84 Public Correspondence
+157.25000	161.85000	-	MR	Ch 25 Public Correspondence
+157.27500	161.87500	-	MR	Ch 85 Public Correspondence
+157.30000	161.90000	-	MR	Ch 26 Public Correspondence
+157.32500	161.92500	-	MR	Ch 86 Public Correspondence
+157.35000	161.95000	-	MR	Ch 27 Public Correspondence
+157.37500	161.97500	-	MR	Ch 87 Public Correspondence
+157.40000	162.00000	-	MR	Ch 28 Public Correspondence
+157.42500	-	-	MR	Ch 88 Commercial
+157.45000	-	-	PS	Special Emergency Paging
+157.47000	157.51500	-	LA	Auto Emergency Radio Service
+157.47000	-	-	LA	
+157.48500	-	-	LA	
+157.50000	-	-	LA	
+157.51500	-	-	LA	
+157.53000	157.72500	-	LX	Taxicab
+157.53000	-	-	LX	
+157.54500	-	-	LX	
+157.56000	-	-	IB LX	
+157.57500	-	-	LX	
+157.59000	-	-	LX	
+157.60500	-	-	LX	
+157.62000	-	-	IB LX	
+157.63500	-	-	LX	
+157.65000	-	-	LX	
+157.66500	-	-	LX	
+157.68000	-	-	LX	
+157.69500	-	-	LX	
+157.71000	-	-	LX	
+157.72500	-	-	IF IS LX	
+157.74000	-	-	IB	One-Way Paging
+157.74000	-	-	IF IS IB	
+157.77000	158.07000	-	CD	Mobile Telephone (MOBILE)
+157.77000	-	-	CD	
+157.80000	-	-	CD	
+157.83000	-	-	CD	
+157.86000	-	-	CD	
+157.89000	-	-	CD	
+157.92000	-	-	CD	
+157.95000	-	-	CD	
+157.98000	-	-	CD	
+158.01000	-	-	CD	
+158.04000	-	-	CD	
+158.07000	-	-	CD	
+158.10000	-	-	CD	Paging
+158.10000	-	-	CD	
+158.13000	158.26500	-	IW	Power - Petroleum - Forest Products
+158.13000	-	-	IW	
+158.14500	-	-	IW IP IF	
+158.16000	-	-	IW IP IF	
+158.17500	-	-	IW IP IF	
+158.19000	-	-	IW	
+158.19000	-	-	IW	REA Lewistown
+158.20500	-	-	IW IP IF	
+158.22000	-	-	IW IP IF		
+158.23500	-	-	IW IP IF		
+158.25000	-	-	IW		
+158.26500	-	-	IW IP IF		
+158.28000	158.46000	-	IF IP IX IT IS IB	Petroleum - Forest Products	Manufacturers
+158.28000	-	-	IP IF IX		
+158.29500	-	-	IP IF IX		
+158.31000	-	-	IP IF IX		
+158.32500	-	-	IP IF IX		
+158.34000	-	-	IT		
+158.35500	-	-	IP IF		
+158.37000	-	-	IP IF		
+158.38500	-	-	IS		
+158.40000	-	-	IS		
+158.41500	-	-	IP IF IX		
+158.43000	-	-	IP IF IX		
+158.44500	-	-	IP	
+158.46000	-	-	IB	Paging
+158.46000	-	-	IF IS IB	
+158.49000	158.67000	-	CD	Mobile Telephone (MOBILE)
+158.49000	-	-	CD	
+158.52000	-	-	CD	
+158.55000	-	-	CD	
+158.58000	-	-	CD	
+158.61000	-	-	CD	
+158.64000	-	-	CD	
+158.67000	-	-	CD	
+158.70000	-	-	CD	
+158.70000	-	-	CD	Paging
+158.73000	158.97000	-	PL PP	Local Government - Police
+158.73000	-	-	PP	
+158.74500	-	KNID402	PL	Quincy Il
+158.74500	-	KUZ888	PL	"Kirksville, City of"		Kirksville	MO
+158.74500	-	-	PL				
+158.76000	-	WQM676	PL	"Moberly, City of"		Moberly	MO
+158.76000	-	-	PL				
+158.77500	-	KIL287	PF	"Boone, County of"		Columbia	MO
+158.77500	-	KNID402	PL	Quincy Il			
+158.77500	-	WYZ406	PL	Quincy Il			
+158.77500	-	-	PL				
+158.79000	-	-	PP				
+158.80500	-	KFF358	PL	"Hannibal, City of"		Hannibal	MO
+158.80500	-	KNAR883	PL	Adair County Pub Water Dist #1		Kirksville	MO
+158.80500	-	-	PL				
+158.82000	-	KDB530	PL	"Columbia, City of"		Columbia	MO
+158.82000	-	KWV623	PL	Pike County Clarksville Mo			
+158.82000	-	KWV623	PL	"Pike, County of"		Clarksville	MO
+158.82000	-	KWV623	PL	"Pike, County of"		Clarksville	MO
+158.82000	-	-	PL				
+158.83500	-	KGJ598	PL	Macon Co Pub Wtr Sup Dist #1		Macon	MO
+158.83500	-	-	PL				
+158.85000	-	-	PP				
+158.86500	-	-	PL (MOBILE)				
+158.88000	-	-	PL (MOBILE)				
+158.89500	-	-	PL (MOBILE)				
+158.91000	-	-	PP (MOBILE)				
+158.92500	-	WNCD569	PL	"Adair, County of"		Kirksville	MO
+158.92500	-	-	PL (MOBILE)				
+158.94000	-	-	PL (MOBILE)				
+158.95500	-	KNGA897	PL	"Vandalia, City of"		Vandalia	MO
+158.95500	-	-	PL (MOBILE)				
+158.97000	-	-	PP (MOBILE)				
+158.98500	-	-	PH (MOBILE) (STATE)				
+158.98500	159.21000	-	PH PP	Highway Maintenance - Police			
+159.00000	-	-	PH (MOBILE) (LOCAL)				
+159.01500	-	-	PH (MOBILE) (LOCAL)				
+159.03000	-	WNGJ526	PP	"Kirksville, City of"		Kirksville	MO
+159.03000	-	-	PP (MOBILE)				
+159.04500	-	-	PH (MOBILE) (LOCAL)				
+159.06000	-	-	PH (MOBILE) (LOCAL)				
+159.07500	-	-	PH (MOBILE) (LOCAL)				
+159.09000	-	-	PP				
+159.10500	-	-	PH (LOCAL)				
+159.12000	-	-	PH (LOCAL)				
+159.13500	-	-	PH (LOCAL)				
+159.15000	-	-	PP				
+159.16500	-	-	PH (LOCAL)				
+159.18000	-	-	PH				
+159.19500	-	-	PH				
+159.21000	-	-	PP				
+159.22500	159.46500	-	PO	Conservation			
+159.27000	-	WCG586	PO	Mo Conservation		Ashburn	MO
+159.27000	-	WSL889	PO	"Hannibal, City of"		Hannibal	MO
+159.30000	-	WSL889	PO	"Hannibal, City of"		Hannibal	MO
+159.34500	-	WSL889	PO	Mo Conservation		Hannibal	MO
+159.36000	-	WSL889	PO	"Hannibal, City of"		Hannibal	MO
+159.48000	-	-	IP	Petroleum Oilspill Clean-up			
+159.49500	160.20000	-	LM	Motor Carrier			
+160.21500	161.56500	-	LR	Railroad			
+160.21500	-	-	LR				
+160.23000	-	-	LR				
+160.24500	-	-	LR	Norfolk Southern	Dispactch to Train Ch #02		
+160.26000	-	-	LR				
+160.27500	-	-	LR				
+160.29000	-	-	LR				
+160.30500	-	-	LR				
+160.32000	-	-	LR		
+160.33500	-	-	LR		
+160.35000	-	-	LR		
+160.36500	-	-	LR		
+160.38000	-	-	LR	Amtrak: Minneapolis & St. Paul carmen	
+160.39500	-	-	LR		
+160.41000	-	-	LR		
+160.42500	-	-	LR		
+160.44000	-	-	LR	Norfolk Southern	Road Ch #03
+160.45500	-	-	LR		
+160.47000	-	-	LR		
+160.48500	-	-	LR	Norfolk Southern	Carmen
+160.50000	-	-	LR		
+160.51500	-	-	LR	Norfolk Southern	Chicago Piggyback Danville PBX
+160.53000	-	-	LR		
+160.54500	-	-	LR		
+160.56000	-	-	LR		
+160.57500	-	-	LR		
+160.59000	-	-	LR		
+160.60500	-	-	LR		
+160.62000	-	-	LR	Norfolk Southern	Chicago Police
+160.63500	-	-	LR		
+160.65000	-	-	LR		
+160.66500	-	-	LR		
+160.68000	-	-	LR		
+160.69500	-	-	LR		
+160.71000	-	-	LR		
+160.72500	-	-	LR		
+160.74000	-	-	LR		
+160.75500	-	-	LR	Amtrak: St. Loisu carmen	
+160.77000	-	-	LR	Norfolk Southern	Road Ch #04
+160.78500	-	-	LR		
+160.80000	-	-	LR		
+160.81500	-	-	LR		
+160.83000	-	-	LR	Norfolk Southern	Train to Dispatch Ch #02
+160.84500	-	-	LR		
+160.86000	-	-	LR		
+160.87500	-	-	LR		
+160.89000	-	-	LR		
+160.90500	-	-	LR		
+160.92000	-	-	LR		
+160.93500	-	-	LR		
+160.95000	-	-	LR	Norfolk Southern	Road Ch #05
+160.96500	-	-	LR		
+160.98000	-	-	LR		
+160.99500	-	-	LR		
+161.01000	-	-	LR		
+161.02500	-	-	LR		
+161.04000	-	-	LR		
+161.05500	-	-	LR		
+161.07000	-	-	LR		
+161.08500	-	-	LR		
+161.10000	-	-	LR	Amtrak	
+161.11500	-	-	LR		
+161.13000	-	-	LR		
+161.14500	-	-	LR		
+161.16000	-	-	LR	Amtrak	
+161.17500	-	-	LR	Amtrak: Kansas City carmen	
+161.19000	-	-	LR	Norfolk Southern	Road Ch #01
+161.20500	-	-	LR		
+161.22000	-	-	LR		
+161.23500	-	-	LR		
+161.25000	-	-	LR	Road Ch #02	
+161.26500	-	-	LR	Amtrak: St. Louis carmen	
+161.28000	-	-	LR		
+161.29500	-	-	LR		
+161.31000	-	-	LR		
+161.32500	-	-	LR		
+161.34000	-	-	LR		
+161.35500	-	-	LR		
+161.37000	-	-	LR		
+161.38500	-	-	LR		
+161.40000	-	-	LR		
+161.41500	-	-	LR	Norfolk Southern	Carmen
+161.43000	-	-	LR		
+161.44500	-	-	LR		
+161.46000	-	-	LR		
+161.47500	-	-	LR		
+161.49000	-	-	LR	Norfolk Southern	Yard Ch #03
+161.50500	-	-	LR		
+161.52000	-	-	LR	
+161.53500	-	-	LR	
+161.55000	-	-	LR	
+161.56500	-	-	LR	
+161.60000	-	-	MC	Channel 20 Port Operations
+161.64000	161.76000	-	BA	Broadcast Remote Pickup
+161.80000	162.00000	-	MC	Marine Telephone
+162.00000	168.00000	-	CATV	Channel 21 Cablevision
+162.00000	174.00000	-	USA	U.S. Government
+162.02500	-	-	UBW UGF UIA UNS UTV	
+162.05000	-	-	UER UGF UIG	
+162.07500	-	-	UCE UCW	
+162.10000	-	-	UCO UER	
+162.12500	-	-	UCE UGS UNS UVA	
+162.15000	-	-	UCW	
+162.17500	-	-	UBW UIR	
+162.20000	-	-	USA	
+162.22500	-	-	UAF UAR UER UGF UPO UVA	
+162.25000	-	-	UAF UAR UFA	
+162.27500	-	-	UNS	
+162.30000	-	-	UFA	
+162.32500	-	-	UFA UVA	
+162.35000	-	-	UAR	Corps of Engineers
+162.35000	-	-	USA	
+162.40000	-	-	WX	WX2 NOAA
+162.42500	-	-	WX	WX4 NOAA
+162.45000	-	-	WX	WX5 NOAA
+162.47500	-	-	WX	WX3 NOAA (Hannibal)
+162.50000	-	-	WX	WX6 NOAA
+162.55000	-	-	WX	WX1 NOAA
+162.61250	-	-	UAF UGF UIP UNS	
+162.63750	-	-	FBI	
+162.66250	-	-	PM PAGING	
+162.68750	-	-	UXX	
+162.71250	-	-	UXX	
+162.73750	-	-	USA	
+162.76250	-	-	FBI	
+162.78750	-	-	USA	
+162.82500	-	-	UTC	
+162.85000	-	-	UXX	
+162.87500	-	-	UXX	
+162.90000	-	-	UXX	
+162.92500	-	-	UXX	
+162.95000	-	-	FBI	
+162.97500	-	-	FBI	
+163.00000	-	-	UAF UAR UPO UVA	
+163.00000	-	-	UAR	Corps of Engineers
+163.02500	-	-	UAR	Corps of Engineers
+163.02500	-	-	UAR UIL UIR				
+163.05000	-	-	UAR UIL UIR UVA				
+163.07500	-	-	UGS UIA UIL UIP UIR UIS				
+163.10000	-	-	FBI				
+163.12500	-	-	UAR	Corps of Engineers			
+163.12500	-	-	UAR UIA UIL UIP UTV				
+163.15000	-	-	UIL UIP UIS UTV				
+163.17500	-	-	UGS UHR UIL UIR UTV				
+163.18750	-	-	UAF	USAF Base Security			
+163.20000	-	-	UXX				
+163.22500	-	-	UAF UCW				
+163.22500	-	-	UAR	Corps of Engineers			
+163.25000	-	-	PM PAGING				
+163.25000	-	-	PS	Blessing Hospital		Quincy	IL
+163.27500	-	-	UCW				
+163.30000	-	-	UCW				
+163.32500	-	-	UCW	
+163.35000	-	-	UCW	
+163.37500	-	-	UAF UAR UGF UPO UVA	
+163.41250	-	-	UAR	Corps of Engineers
+163.41250	-	-	UAR	
+163.41500	-	-	UAR	Corps Of Engineers
+163.43750	164.20000	-	UAR	Corps of Engineers
+163.43750	165.18750	-	UAR	Corps of Engineers
+163.43750	-	-	UAR	
+163.46250	-	-	UAF	
+163.46250	-	-	UAF	USAF Base Security
+163.48750	-	-	UAF	
+163.48750	-	-	UAF	USAF Base Security
+163.51250	-	-	UAF	
+163.51250	-	-	UAF	USAF Base Security
+163.53750	-	-	UAF	USAF Base Security
+163.53750	-	-	UAF UAR	
+163.53750	-	-	UAR	Corps of Engineers
+163.56250	-	-	UAF	USAF Base Security
+163.56250	-	-	UAR	
+163.58750	-	-	UAF UAR	
+163.62500	-	-	FBI	
+163.65000	-	-	FBI	
+163.67500	-	-	FBI	
+163.70000	-	-	FBI	
+163.72500	-	-	FBI	
+163.75000	-	-	FBI	
+163.77500	-	-	FBI	
+163.81250	-	-	FBI	
+163.83750	-	-	FBI	
+163.86250	-	-	FBI	
+163.88750	-	-	FBI	
+163.91250	-	-	FBI				
+163.93750	-	-	FBI				
+163.96250	-	-	FBI				
+163.98750	-	-	FBI				
+164.02500	-	-	UBS				
+164.05000	-	KKU40	FAA			Kansas City	MO
+164.05000	-	-	UAR	Corps of Engineers			
+164.05000	-	-	UAR UFA				
+164.07500	-	-	UVA				
+164.10000	-	-	UAF UAR UGF UIL UPO UVA				
+164.12500	-	-	FBI				
+164.15000	-	-	UAR UGC UGF				
+164.17500	-	-	UAF UAR UGF UIL UPO UVA				
+164.20000	-	-	UAF UAR UGF UIL UPO UVA				
+164.20000	-	-	UAR	Corps of Engineers			
+164.22500	-	-	UER				
+164.25000	-	-	UER UIP UIR UTV	
+164.27500	-	-	FBI	
+164.30000	-	-	UAF UER UHR	
+164.32500	-	-	UER	
+164.35000	-	-	UAR UER UVA	
+164.37500	-	-	UAR UER UGF	
+164.40000	-	-	UER	
+164.42500	-	-	UII UIP UIR	
+164.45000	-	-	UEP	
+164.47500	-	-	UIP UIR	
+164.50000	-	-	UAF UAR UPO UVA	
+164.50000	-	-	UAR	Corps of Engineers
+164.52500	-	-	UER UIR	
+164.55000	-	-	UAR UIP	
+164.57500	-	-	UII UIR	
+164.60000	-	-	UFA UGF UPO	
+164.62500	-	-	UAR UIF UII				
+164.65000	-	-	UXX				
+164.67500	-	-	UER UIG UII				
+164.70000	-	-	UAF UAR UGF UPO UVA				
+164.72500	-	-	UIL UIP UIR UTV				
+164.75000	-	-	UER UIP UIR				
+164.77500	-	-	UAR	Corps of Engineers			
+164.77500	-	-	UAR UIL UIR				
+164.80000	-	-	UGF UIP UIR				
+164.82500	-	-	UGF				
+164.86250	-	-	UII				
+164.88750	-	-	UGF UXX				
+164.91250	-	-	UGF				
+164.93750	-	-	UGC UGF UVA				
+164.93750	-	-	UGF	USDA National Forest Service	Mark Twain National Forest	Rolla	MO
+164.96250	-	-	UAF UAR UGF UPO UVA				
+164.96250	-	-	UAR	Corps of Engineers
+164.98750	-	-	UAR UCG UGF UIP UIR UPO	
+165.01250	-	-	UAF UAR	
+165.01250	-	-	UAR	Corps of Engineers
+165.03750	-	-	UAF UAR	
+165.03750	-	-	UAR	Corps of Engineers
+165.06250	-	-	UAF UAR	
+165.06250	-	-	UAR	Corps of Engineers
+165.08750	-	-	UAR	
+165.08750	-	-	UAR	Corps of Engineers
+165.11250	-	-	UAF	
+165.11250	-	-	UAF	USAF Base Security
+165.12750	-	-	UAF	USAF Base Security
+165.13750	-	-	UAF	
+165.16250	-	-	UAF UAR UIP	
+165.18750	-	-	UAF UAR	
+165.18750	-	-	UAR	Corps of Engineers	
+165.21250	-	-	UCG UXX		
+165.23750	-	-	FBI		
+165.26250	-	-	UCG UGF		
+165.28750	-	-	UXX		
+165.28750	-	-	UXX	"Bureau of Alcohol, Tobacco & Firearms"	
+165.31250	-	-	UCG UHR UIP		
+165.33750	-	-	UAR UCG UFA UII		
+165.35000	-	-	UXX	"Bureau of Alcohol, Tobacco & Firearms"	
+165.36250	-	-	USA		
+165.37500	-	-	UXX	"Bureau of Alcohol, Tobacco & Firearms"	Primary
+165.38750	-	-	USA		
+165.41250	-	-	UAF UGF UIP UIR		
+165.41250	-	-	UAR	Corps of Engineers	
+165.43750	-	-	UAR UFA UIR UXX		
+165.46250	-	-	UIR UXX		
+165.48750	-	-	UIG				
+165.51250	-	-	UGF UIR UXX				
+165.53750	-	-	UCW UFA UXX				
+165.56250	-	-	UAR UCE UVA				
+165.58750	-	-	UAR UCM UCW				
+165.61250	-	KKU40	FAA			Kansas City	MO
+165.61250	-	KLE72	FAA	KLG27		Chicago	IL
+165.61250	-	-	UFA UNO UNS				
+165.63750	-	-	UFA				
+165.66250	-	-	UFA				
+165.68750	-	-	UFA UII				
+165.71250	-	-	UFA UII				
+165.71750	-	KLE72	FAA	KLG27		Chicago	IL
+165.73750	-	KLE72	FAA	KLG27		Chicago	IL
+165.73750	-	-	UFA				
+165.75000	-	KKU40	FAA			Kansas City	MO
+165.75000	-	KKY51	FAA			St. Louis	MO
+165.75000	-	KLE72	FAA	KLG27		Chicago	IL
+165.76250	-	-	UFA UXX				
+165.78750	-	-	UXX				
+165.82500	-	-	UXX				
+165.85000	-	-	UXX				
+165.87500	-	-	UXX				
+165.90000	-	-	UXX				
+165.91250	-	-	UXX	"Bureau of Alcohol, Tobacco & Firearms"			
+165.92500	-	-	UCP UIP				
+165.95000	-	-	UTV UXX				
+165.97500	-	-	UCP UIL UIP				
+166.00000	-	-	UIL UIR				
+166.02500	-	-	UCM UCW UTR				
+166.05000	-	-	UCE				
+166.07500	-	-	USA				
+166.10000	-	-	UAF UFA UNO UTR				
+166.12500	-	-	USA				
+166.15000	-	-	UCM				
+166.17500	-	KKU40	FAA			Kansas City	MO
+166.17500	-	KKY51	FAA			St. Louis	MO
+166.17500	-	KLE72	FAA	KLG27		Chicago	IL
+166.17500	-	-	UFA				
+166.20000	-	-	UAR UGF UIL UIR UPO UVA				
+166.22500	-	-	UAF UAR UIL UNS UPO UTV				
+166.25000	-	-	BA	Broadcast Remote Pickup			
+166.25000	-	-	BA PF UTV				
+166.27500	-	-	UER UTV				
+166.28750	166.53750	-	UXX	"Bureau of Alcohol, Tobacco & Firearms"			
+166.30000	-	-	UII UIL UIP UIR				
+166.32500	-	-	UIF UII UIL UIP UIR				
+166.35000	-	-	UAR				
+166.37500	-	-	UIF UII UIL UIP UIR UTV				
+166.40000	-	-	UXX				
+166.43750	-	-	UTC				
+166.46250	-	-	UTX UXX				
+166.46250	-	-	UXX	"Bureau of Alcohol, Tobacco & Firearms"	Treasury Common		
+166.48750	-	-	UIL				
+166.51250	-	-	UXX				
+166.52500	-	-	UXX	"Bureau of Alcohol, Tobacco & Firearms"			
+166.53750	-	-	UXX	"Bureau of Alcohol, Tobacco & Firearms"			
+166.53750	-	-	UXX				
+166.56250	-	-	UGF				
+166.56250	-	-	UGF	USDA National Forest Service	Mark Twain National Forest	Rolla	MO
+166.58750	-	-	UGF				
+166.61250	-	-	UPO USA				
+166.63750	-	-	UII UIL UIP UIR				
+166.70000	-	-	UGF				
+166.72500	-	-	UCP UGF UIL UIP	
+166.75000	-	-	UIP UIR UTX UXX	
+166.75000	-	-	UXX	"Bureau of Alcohol, Tobacco & Firearms"
+166.77500	-	-	UIL UIX	
+166.80000	-	-	UIL UIR	
+166.82500	-	-	UGX UIR UTV	
+166.85000	-	-	UCP UIL UIR	
+166.87500	-	-	UIG UII UIL UIP UTX	
+166.87500	-	-	UXX	"Bureau of Alcohol, Tobacco & Firearms"
+166.90000	-	-	UII UIL UIP UIR	
+166.92500	-	-	UCP UIF UII UIL UIP UIR	
+166.95000	-	-	UIG UIL UIP UIR	
+166.97500	-	-	UII UIL UIP	
+167.00000	-	-	UIL UTX	
+167.02500	-	-	UII UIL UIP UIR	
+167.05000	-	-	UXX	
+167.07500	-	-	UCP UIB UII UIL UIP UIR
+167.10000	-	-	UIX
+167.12500	-	-	UGF UII UIR UIS UPO
+167.15000	-	-	FBI
+167.17500	-	-	UAR UIP UIR UTV
+167.21250	-	-	FBI
+167.23750	-	-	UXX
+167.26250	-	-	FBI
+167.28750	-	-	FBI
+167.31250	-	-	FBI
+167.33750	-	-	FBI
+167.36250	-	-	FBI
+167.38750	-	-	FBI
+167.41250	-	-	FBI
+167.43750	-	-	FBI
+167.46250	-	-	FBI
+167.48750	-	-	FBI
+167.51250	-	-	FBI
+167.53750	-	-	FBI
+167.56250	-	-	FBI
+167.58750	-	-	FBI
+167.61250	-	-	FBI
+167.63750	-	-	FBI
+167.66250	-	-	FBI
+167.68750	-	-	FBI
+167.71250	-	-	FBI
+167.73750	-	-	FBI
+167.76250	-	-	FBI
+167.78750	-	-	FBI
+167.82500	-	-	UAF UER UIL UIR UVA
+167.85000	-	-	FBI
+167.87500	-	-	FBI
+167.90000	-	-	UIL				
+167.92500	-	-	FBI				
+167.95000	-	-	UIL UIP				
+167.97500	-	-	UAF UAR UER UVA				
+168.00000	174.00000	-	CATV	Channel 22 Cablevision			
+168.00000	-	-	UAF UPO UVA				
+168.02500	-	-	UGF				
+168.02500	-	-	UGF	USDA National Forest Service	Mark Twain National Forest	Rolla	MO
+168.02500	-	-	UXX	"Bureau of Alcohol, Tobacco & Firearms"			
+168.07500	-	-	UGF	USDA National Forest Service	Mark Twain National Forest	Rolla	MO
+168.10000	-	-	UGF	USDA National Forest Service	Mark Twain National Forest	Rolla	MO
+168.12500	-	-	UAR UGF				
+168.12500	-	-	UGF	USDA National Forest Service	Mark Twain National Forest	Rolla	MO
+168.15000	-	-	UGF				
+168.15000	-	-	UGF	USDA National Forest Service	Mark Twain National Forest	Rolla	MO
+168.17500	-	-	UGF				
+168.22500	-	-	UIB UIL USD UTV	
+168.25000	-	-	UIL	
+168.27500	-	-	UIG UIR	
+168.30000	-	-	UIB UIL UIR	
+168.32500	-	-	UAR	Corps of Engineers
+168.32500	-	-	UAR UIB UII UIP UIR UVA	
+168.35000	-	-	USA	
+168.37500	-	-	UII UIL UIR	
+168.40000	-	-	UIL	
+168.42500	-	-	UIL UIP	
+168.45000	-	-	UER UVA	
+168.47500	-	-	UIL UIP UIR	
+168.50000	-	-	UIL UIR	
+168.52500	-	-	UIL UIP UIR UPO UVA	
+168.55000	-	-	UIL	
+168.57500	-	-	UGS UIL UIP UIR UVA	
+168.65000	-	-	UGF				
+168.65000	-	-	UGF	USDA National Forest Service	Mark Twain National Forest	Rolla	MO
+168.67500	-	-	UGF				
+168.67500	-	-	UGF	USDA National Forest Service	Mark Twain National Forest	Rolla	MO
+168.70000	-	-	UGF	USDA National Forest Service	Mark Twain National Forest	Rolla	MO
+168.72500	-	-	UGF				
+168.75000	-	-	UGF				
+168.75000	-	-	UGF	USDA National Forest Service	Mark Twain National Forest	Rolla	MO
+168.77500	-	-	UGF				
+168.80000	-	-	UGS UXX				
+168.82500	-	-	UXX				
+168.85000	-	-	UIL				
+168.87500	-	-	UXX				
+168.90000	-	-	FBI				
+168.92500	-	-	FBI				
+168.95000	-	-	FBI				
+168.97500	-	-	UIL				
+169.00000	-	-	UIL UPO UVA				
+169.02500	-	-	UCE UCW UIL				
+169.05000	-	-	USD				
+169.07500	-	-	UCM UCW				
+169.10000	-	-	UIR				
+169.12500	-	-	UGF UIP UVA				
+169.17500	-	-	UGF				
+169.22500	-	-	UFA UIL				
+169.25000	-	-	UIL				
+169.27500	-	-	UER UGC				
+169.30000	-	-	USA				
+169.32500	-	-	UGF UIL				
+169.35000	-	KLE72	FAA	KLG27		Chicago	IL
+169.35000	-	-	UIL				
+169.37500	-	-	USA				
+169.40000	-	-	UIL UIP UTV	
+169.42500	-	-	DATA	
+169.42500	-	-	UAR	Corps of Engineers
+169.45000	-	-	DATA	
+169.45000	-	-	UAR	Corps of Engineers
+169.47500	-	-	DATA	
+169.50000	-	-	DATA	
+169.52500	-	-	DATA	
+169.52500	-	-	UAR	Corps of Engineers
+169.55000	-	-	UIL UIP UIR	
+169.57500	-	-	DATA	
+169.60000	-	-	UAF UAR UGF UPO UVA	
+169.62500	-	-	UII USD	
+169.65000	-	-	UIP	
+169.67500	-	-	UIP UIR	
+169.70000	-	-	UII	
+169.72500	-	-	UIP UIR	
+169.75000	-	-	UIL	
+169.77500	-	-	UII UIR	
+169.80000	-	-	USD	
+169.82500	-	-	UIB UIG UIM	
+169.85000	-	-	UPO	
+169.87500	-	-	UGF USD	
+169.90000	-	-	UGF	
+169.92500	-	-	UGF	
+169.95000	-	-	UER UGC UGF UGX	
+169.97500	-	-	UGF	
+170.02500	-	-	UAR	Corps of Engineers
+170.02500	-	-	UAR UIR UTV	
+170.05000	-	-	UIF UIL UIP UTV	
+170.07500	-	-	UER UIB UII UIP UIR UTV	
+170.10000	-	-	UIP UIR UNS	
+170.12500	-	-	UAR UGF UNS UPO	
+170.15000	-	-	BA	Broadcast Remote Pickup
+170.15000	-	-	BA PF UAF UTV	
+170.17500	-	-	UGF UPO UVA	
+170.20000	-	-	USA	
+170.22500	-	-	UAR	Corps of Engineers
+170.22500	-	-	USA	
+170.25000	-	-	USA	
+170.27500	-	-	UAR	Corps of Engineers
+170.27500	-	-	USA	
+170.30000	-	-	UAR	Corps of Engineers
+170.30000	-	-	USA	
+170.32500	-	-	UAR	Corps of Engineers
+170.32500	-	-	USA	
+170.35000	-	-	UAF UGF UIP UNS UVA	
+170.37500	-	-	USA	
+170.40000	-	-	UAF UFA UNS UVA				
+170.41500	-	-	UXX	"Bureau of Alcohol, Tobacco & Firearms"			
+170.42500	-	-	PO UGF				
+170.45000	-	-	UGF				
+170.47500	-	-	PO UGC UGF				
+170.50000	-	-	UGF				
+170.52500	-	-	UGF				
+170.52500	-	-	UGF	USDA National Forest Service	Mark Twain National Forest	Rolla	MO
+170.55000	-	-	UGC UGF				
+170.57500	-	-	PO UGF UPO				
+170.60000	-	-	UAF UGC UGF				
+170.62500	-	-	USA				
+170.65000	-	-	USA				
+170.67500	-	-	USA				
+170.70000	-	-	FBI				
+170.72500	-	-	USA				
+170.75000	-	-	UER
+170.77500	-	-	USA
+170.80000	-	-	UXX
+170.82500	-	-	FBI
+170.85000	-	-	UXX
+170.87500	-	-	UXX
+170.90000	-	-	FBI
+170.92500	-	-	UXX
+170.95000	-	-	USA
+170.97500	-	-	UGF
+171.00000	-	-	UAF UAR UFA UNS
+171.02500	-	-	USA
+171.05000	-	-	USA
+171.07500	-	-	USA
+171.10000	-	-	USA
+171.12500	-	-	USA
+171.15000	-	-	UNS UXX				
+171.17500	-	KKZ26	FAA			Springfield	MO
+171.17500	-	-	FAA			Wheeling	IL
+171.17500	-	-	UPO				
+171.20000	-	-	UER				
+171.23750	-	-	UCG UHR				
+171.26250	-	-	UGF UIP UPO UVA				
+171.28750	-	-	UXX				
+171.31250	-	-	UGC UTR				
+171.33750	-	-	UAR UGC				
+171.36250	-	-	UGC UTR				
+171.38750	-	-	UAR UGF UPO UVA				
+171.42500	-	-	PO UGF				
+171.45000	-	-	UGF UXX				
+171.47500	-	-	PO UGF				
+171.50000	-	-	UGF				
+171.52500	-	-	UGF UGX
+171.55000	-	-	UGF
+171.57500	-	-	PO UGF
+171.60000	-	-	UGF UXX
+171.62500	-	-	UIP UIR
+171.65000	-	-	UII UIP UTV UXX
+171.67500	-	-	UCF UCP UIP UIR
+171.70000	-	-	UGC UGF UII UIP UTV
+171.72500	-	-	UII UIL UIP UIR
+171.75000	-	-	UIF UII UIP UIR
+171.77500	-	-	UII UIL UIP UIR
+171.80000	-	-	UCP UIP
+171.82500	-	-	USA
+171.85000	-	-	USA
+171.87500	-	-	USA
+171.90000	-	-	USA
+171.92500	-	-	USA				
+171.95000	-	-	USA				
+171.97500	-	-	USA				
+172.00000	-	-	UXX				
+172.02500	-	-	UCE UCW UII UTV				
+172.05000	-	-	USA				
+172.07500	-	-	UGF				
+172.10000	-	-	UCE UFA UIX				
+172.12500	-	KKU40	FAA			Kansas City	MO
+172.12500	-	KKY51	FAA			St. Louis	MO
+172.12500	-	KLF29	FAA			St. Joseph	MO
+172.12500	-	-	FAA			Cape Girardeau	MO
+172.12500	-	-	UFA				
+172.15000	-	KKU40	FAA			Kansas City	MO
+172.15000	-	KKZ26	FAA			Springfield	MO
+172.15000	-	WHX58	FAA			Columbia	MO
+172.15000	-	-	FAA			Cape Girardeau	MO
+172.15000	-	-	FAA			Chesterfield	MO
+172.15000	-	-	FAA			Joplin	MO
+172.15000	-	-	UFA				
+172.17500	-	KLE72	FAA	KLG27		Chicago	IL
+172.17500	-	-	UFA				
+172.20000	-	-	UGF				
+172.22500	-	KKZ26	FAA			Springfield	MO
+172.22500	-	KLF29	FAA			St. Joseph	MO
+172.22500	-	WHX58	FAA			Columbia	MO
+172.22500	-	-	FAA			Cape Girardeau	MO
+172.22500	-	-	FAA			Joplin	MO
+172.22500	-	-	PO UGF				
+172.25000	-	-	UGF				
+172.25000	-	-	UGF	USDA National Forest Service	Mark Twain National Forest	Rolla	MO
+172.27500	-	-	PO UGF				
+172.30000	-	-	UAF UGF UII UPO	
+172.32500	-	-	UGF	
+172.35000	-	-	UGF	
+172.37500	-	-	PO UGF	
+172.40000	-	-	UBW UGC UIP	
+172.42500	-	-	UAR	Corps of Engineers
+172.42500	-	-	UII UIR	
+172.45000	-	-	UIF UII UIP	
+172.47500	-	-	UBW UCP UIF UIP	
+172.50000	-	-	UIB UIP	
+172.52500	-	-	UIB UII UIP	
+172.55000	-	-	USA	
+172.57500	-	-	UIB UIR	
+172.60000	-	-	UIL	
+172.62500	-	-	UII UIP UIR UIS	
+172.65000	-	-	UIP UIR	
+172.67500	-	-	UII UIM UIP UIR				
+172.70000	-	-	UIX UTR				
+172.72500	-	-	UIR				
+172.75000	-	-	UTV				
+172.77500	-	-	UII UIL UIP UIR				
+172.80000	-	-	UXX				
+172.82500	-	-	FAA	FAA Channel 7			
+172.82500	-	-	UAF				
+172.85000	-	-	FAA	FAA Channel 4			
+172.85000	-	-	UFA				
+172.87500	-	KLE72	FAA	KLG27		Chicago	IL
+172.87500	-	-	UAR UFA				
+172.90000	-	KLE72	FAA	KLG27		Chicago	IL
+172.90000	-	-	USA				
+172.92500	-	KKU40	FAA			Kansas City	MO
+172.92500	-	KKY51	FAA			St. Louis	MO
+172.92500	-	KKZ26	FAA			Springfield	MO
+172.92500	-	KLF29	FAA			St. Joseph	MO
+172.92500	-	-	FAA			Wheeling	IL
+172.92500	-	-	FAA			Butler	MO
+172.92500	-	-	FAA			Cape Girardeau	MO
+172.92500	-	-	FAA			Willow Springs	MO
+172.92500	-	-	UFA				
+172.95000	-	KKU40	FAA			Kansas City	MO
+172.95000	-	KKZ26	FAA			Springfield	MO
+172.95000	-	KLE72	FAA	KLG27		Chicago	IL
+172.95000	-	WHX58	FAA			Columbia	MO
+172.95000	-	-	FAA			Cape Girardeau	MO
+172.95000	-	-	FAA			Chesterfield	MO
+172.95000	-	-	FAA			Crocker	MO
+172.95000	-	-	FAA			Grant City	MO
+172.95000	-	-	FAA			Joplin	MO
+172.95000	-	-	FAA			Macon	MO
+172.95000	-	-	FAA			Molden	MO
+172.95000	-	-	FAA			Warrensburg	MO
+172.95000	-	-	FAA			Wentzville	MO
+172.95000	-	-	UAF UFA				
+172.97500	-	KKZ26	FAA			Springfield	MO
+172.97500	-	KLE72	FAA	KLG27		Chicago	IL
+172.97500	-	KLE72	FAA	KLG27		Chicago	IL
+172.97500	-	KLF29	FAA			St. Joseph	MO
+172.97500	-	WHX58	FAA			Columbia	MO
+172.97500	-	-	FAA			Wheeling	IL
+172.97500	-	-	FAA			Cape Girardeau	MO
+172.97500	-	-	FAA			Chillicothe	MO
+172.97500	-	-	FAA			Farmington	MO
+172.97500	-	-	FAA			Joplin	MO
+172.97500	-	-	UFA				
+173.00000	-	-	UER	
+173.02500	-	-	UAF UAR UGF UVA	
+173.05000	-	-	UAF UTV	
+173.07500	-	-	UAF	
+173.10000	-	-	UAF UER	
+173.12500	-	-	UAF UER UNS	
+173.15000	-	-	UAF UAR	
+173.17500	-	-	UAF UAR UBW UER	
+173.22500	-	-	IM IY	
+173.22500	-	KWE252	IY	Quincy Newspaper Inc Quincy Il
+173.22500	173.37500	-	IY IM IW	"Relay Press, Motion Picture, Power/Water"
+173.25000	-	-	IW	
+173.27500	-	-	IM IY	
+173.30000	-	-	IW	
+173.32500	-	-	IM IY	
+173.35000	-	-	IW	
+173.37500	-	-	IM IY				
+173.41250	-	-	UAF UAR				
+173.43750	-	-	UAF	USAF Base Security			
+173.43750	-	-	UAF UAR				
+173.46250	-	-	UAF UAR				
+173.48750	-	-	UAF UAR				
+173.51250	-	-	UAF	USAF Base Security			
+173.51250	-	-	UAF UAR	Sports Center MPs		St. Louis	MO
+173.53750	-	-	UAF UAR				
+173.56250	-	-	UAF	USAF Base Security			
+173.56250	-	-	UAF UAR				
+173.57250	-	-	UAF	USAF Base Security			
+173.58750	-	-	UAF				
+173.58750	-	-	UAF	USAF Base Security			
+173.58750	-	-	UAF	USAF Crash Trucks			
+173.61250	-	-	UAF UIL UNS UPO UVA				
+173.63750	-	-	UAF	USAF Base Security
+173.63750	-	-	UAF UIL UNS UPO UVA	
+173.66250	-	-	UAF	USAF Base Security
+173.66250	-	-	UAF UNS	
+173.68750	-	-	UAF	USAF Base Security
+173.68750	-	-	UAF UNS UPO	
+173.71250	-	-	UAF	USAF Base Security
+173.71250	-	-	UAF UER UVA	
+173.73750	-	-	UAR UNS UPO UVA	
+173.76250	-	-	UGX UII UIL UIM UIP	
+173.78750	-	-	UAF	USAF Base Security
+173.78750	-	-	UAF UIP UNS UPO	
+173.81250	-	-	UAF UVA	
+173.83750	-	-	UAF UAR	
+173.86250	-	-	UIL	
+173.88750	-	-	USA	
+173.88750	-	-	UXX	"Bureau of Alcohol, Tobacco & Firearms"
+173.91250	-	-	UAR	
+173.93750	-	-	USA	
+173.96250	-	-	UER	
+173.98750	-	-	UAR	
+173.98750	-	-	UAR	Corps of Engineers

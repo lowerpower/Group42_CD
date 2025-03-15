@@ -1,0 +1,33 @@
+                                    Dune
+                                    crack
+                                by Grishnakh
+ 
+I'm back a day later with yet another quality crack (yes, I know
+this game is old). Wow, I'm really getting the hang of Soft-ICE. If 
+you want to get into this as well, I highly recommend you get a copy 
+(a legal one!) of this great debugger.
+
+                           
+        Well, this program wasn't quite as difficult as Vengeance of 
+Excalibur, the crack for which I released yesterday. Dune didn't even 
+have self-modifying code. What made it a pain, though, was that after
+getting your response to the doc check, the program filed it away for
+a long time (a few seconds is an eternity if you're sitting there 
+single-stepping through the assembly code), and then after bringing 
+up the main program screen complete with mouse pointer, it decides to
+go check to see if your response is correct. After getting bored with
+searching for the compare routine, I read about breakpoints (some-
+thing I never bothered with before) and found a handy S-ICE command 
+to stop the program when it accesses a particular memory address 
+(the place where it stores your response!). After that, it was simple.
+Wish I had known about that earlier.
+        I'm sure you're tired of this explanation, so here's the crack.
+ 
+Search DUNEPRG.EXE for:     74 0F C7
+          replace with:     75
+ 
+That's all there is to it! Coming soon: a crack for "Reach for the
+Skies." The group I got this from failed to crack it properly.
+ 
+ 
+

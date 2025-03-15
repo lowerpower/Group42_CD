@@ -1,0 +1,14 @@
+This is the crack for Lemmings 2:The Tribes by Psygnosis
+
+
+
+Edit the file L2.RKO
+
+Find:         74 0E C7 06 0B
+
+Replace with: EB 23 C7 06 0B
+
+
+
+This crack brought to you courtesy of Moebius & Masher!
+

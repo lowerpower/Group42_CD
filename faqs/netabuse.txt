@@ -1,0 +1,826 @@
+Archive-name: net-abuse-faq/part1
+Posting-Frequency: biweekly
+
+Note: this is a fine-tuned version, with many small changes
+throughout. A prize to the first reader to spot the fnord!
+
+POLITICS
+
+1.1) What is news.admin.net-abuse.misc, and why was it created?
+1.2) What is news.admin.net-abuse.announce, and why was it created?
+1.3) What was alt.current-events.net-abuse, and why was it created?
+1.4) What is net-abuse? 
+1.5) What is the purpose of this FAQ?
+1.6) What questions does it leave unanswered?
+1.7) Who's responsible for this FAQ?                 [revised] 
+1.8) Where can I get it?                    
+1.9) I don't understand a word of this.                  
+
+SPAM, SPAMMERS, and MOOSES
+
+2.1) What is Spam?
+2.2) Where did the term come from?
+2.3) Tell me about the Great Spammers.               [revised] 
+2.4) Who were Canter and Siegel?
+2.5) Where can I get more info on them?                  
+2.6) What should we do about the book? 
+2.7) What was Larry's historic first post to a.c-e.n-a?
+2.8) That doesn't make any sense. What was Larry's historic second 
+  post to a.c-e.n-a?
+2.9) Who is Cancelmoose[tm]?
+
+NITTY-GRITTY
+
+3.1) Yeah, but how many times is 'X'?
+3.2) How can I tell if a post is forged?
+3.3) How do I know when I've got spam on my hands?
+3.4) OK, I think I've spotted a spam. Who should I mail-bomb?
+3.5) OK, I think I've spotted a spam. What should I do? 
+3.6) What about e-mail spam?
+3.7) I e-mailed a complaint to {so-and-so} about their {e-mail, post}
+and now they're threatening to complain to my system administrator. 
+What should I do?
+3.8) What's a cancel-bot?
+3.9) Where can I get me one?
+3.10) I've got one; should I cancel {spam X}?
+3.11) Can I sick The Man on these MAKE.MONEY.FAST losers?
+
+GROAN
+
+4.1) Why are you n.a.n-a people such net-cops?      [mildly revised] 
+4.2) Hey, I think my newsgroup is being invaded by alt.syntax.tactical!
+4.3) Hey, somebody posted an ad to <newsgroup>!  
+4.4) Hey, so-and-so's not being nice in <newsgroup>!      
+4.5) Hey, one of those net.cops posted an ad for <something>! Haw! Haw!
+
+APPENDIX                        [new, albeit vestigial]
+
+news.admin.net-abuse.misc charter
+news.admin.net-abuse.announce charter and guidelines
+
+
+POLITICS
+========
+
+1.1) What is news.admin.net-abuse.misc, and why was it created?
+
+news.admin.net-abuse.misc was created to replace
+alt.current-events.net-abuse and news.admin.policy. The former was one
+of the most widely read and respectable alt.* groups, while the latter
+had become largely a mess of messages cross-posted from a.c-e.n-a and
+news.admin.misc.
+
+news.admin.net-abuse.misc is, not surprisingly, for discussions of
+net-abuse (see "What is net-abuse", below): definitions, occurences,
+objections, complaints, battle plans, peace plans... Check out their 
+charter in the appendix.
+
+1.2) What is news.admin.net-abuse.announce, and why was it created?
+
+At the time of the newsgroup reorganization (early 1995), a.c-e.n-a
+traffic amounted to dozens and dozens of messages every day. Many of
+these were pure speculation or kvetching, while many others were of
+the dreaded, hated, one-line "I saw this spam in rec.bedding.sheets,
+too!" breed. The messages of real importance to news admins, such as
+genuine spam announcements and spam-cancel announcements, were
+buried. Lots of people grumbled about this, and wanted a moderated
+group that was a digest of a.c-e.n-a.
+
+So in this writer's opinion, news.admin.net-abuse.announce's only
+purpose is to serve as that digest. During the voting, a couple of
+people were worried that the moderators of n.a.n-a.a would become some
+sort of legislative or judicial body. But they don't want to, and we
+don't want them to.
+
+Remember the Usenet way: "If they get carried away, we'll laugh at
+them and make fun of them and not let them play with our jacks."
+
+Check out their charter and guidelines in the appendix.
+
+1.3) What was alt.current-events.net-abuse, and why was it created?
+
+Here's the 'charter,' or at least the text from Thomas Koenig's
+newgroup message of April 25, 1994:
+  
+  alt.current-events.net-abuse is a forum to discuss the current
+  net abuses, such as "spamming" of Usenet by the law firm Canter &
+  Siegel, and related issues.  This disussion, at the moment, takes
+  up most of the bandwidth in news.admin.misc and news.admin
+  policy, and clearly merits a separate forum.
+  
+  It was proposed on alt.config in
+  <2p8q9s$idl@nz12.rz.uni-karlsruhe.de>, and met no opposition
+  there at all.
+  
+  For your newsgroups file: 
+  alt.current-events.net-abuse   Usenet spamming, Green Card and the like
+
+1.4) What is net-abuse?
+
+Since the newsgroup's inception, many curious forms of Usenet behavior
+have been discussed on it. Of these, spam is the one most universally
+accepted as 'net-abuse', which is why it gets its own section
+below. Other Frequently Aired Complaints are discussed throughout the
+FAQ.
+
+However, as Neil Pawson says, "it's for abuse *of* the net, NOT abuse
+*on* the net." Just because somebody does something vile, we don't
+necessarily want to hear about it on n.a.n-a. To qualify as true
+panic-inspiring net-abuse, an act must interfere with the net-use of a
+large number of people. Examples of this: newsgroup flooding,
+widespread or organized forgery campaigns, widespread or organized
+account hackery, widespread or organized censorship attempts...
+
+1.5) What is the purpose of this FAQ?
+
+This FAQ is *not* intended as a comprehensive guide to
+netiquette. Many things that this FAQ appears to treat lightly are, in
+fact, extreme breaches of netiquette. The FAQ primarily attempts to
+answer: are these situations "net-abuse", in the sense that the whole
+world should hear about them?
+
+1.6) What questions does the FAQ leave unanswered?
+
+An infinite number, featuring:
+
+   * What is the Breidbart Index? (forthcoming)
+   * Should Velveeta with a BI of 20 be cancelled? (I don't know)
+   * What is jello? (I don't care)
+   * Are all ads bad? (beyond the scope of this FAQ)
+
+1.7) Who's responsible for this FAQ?
+
+It's maintained by Scott Southwick (scotty@indiana.edu). The
+information has been gleaned from various Usenet sources --primarily
+posts to the n-a groups made by a wide variety of authors-- and so the
+maintainer must actively disclaim all responsibilty for the veracity,
+advisabilty and/or legality of anything contained in the FAQ. Thanks
+to the following people who have contributed to it, or at least
+discussed its contents in a non-threatening manner:
+
+Arthur Byrne, Pekka Pirinen, Keith "Justified and Ancient" Cochran,
+Lamont Granquist, Victoria Fike, J.D. Falk, Steve Patlan, Wilf
+Leblanc, Seth Cohn, Neil Pawson, Bram Cohen, Mitchell Golden, Rahul
+Dhesi, Stephen Boursy, Mary Branscombe, David Cortesi, Alexander
+Lehmann, Greg Lindahl, Jack Hamilton, Morten Welinder, Axel Boldt,
+Richard Lee, an48985, Phil Pfeiffer, John van Essen, Pierre Beyssac,
+Michael Shields, Travis Corcoran, and several others I have
+undoubtedly missed.
+
+Contributions are always warmly welcomed, as are suggestions,
+corrections and criticism. Unfortunately, the update lag-time has been
+pretty fierce recently.
+
+1.8) Where can I get it?
+
+The finished version will be posted either bi-weekly or semi-monthly
+(whichever you prefer) to n.a.n-a.*, alt.answers, and news.answers. It
+will also be available by anonymous ftp from rtfm.mit.edu and its
+mirror sites. A frequently out-of-date hypertext version is available
+at
+
+       http://www-sc.ucssc.indiana.edu/~scotty/acena.html
+
+If you have trouble with that alias, try
+
+       http://jalapeno.ucs.indiana.edu/~scotty/acena.html
+
+1.9) I don't understand a single word of this.
+
+The best starting place for learning about Usenet is Indiana
+University's Usenet Resources page, at
+
+    http://scwww.ucs.indiana.edu/NetRsc/usenet.html
+
+[I put that together at my day-job. This entry is a shameless plug for
+my employers.]  It's got links to most Usenet primers, netiquette
+documents and news FAQs, Son-of-RFC-1036, some charters, newsreader
+man pages, &c.
+
+
+SPAM, SPAMMERS, and MOOSES
+==========================
+
+2.1) What is Spam?
+
+It's a luncheon meat, kinda pink, comes in a can, made by Hormel. Most
+Americans intuitively, viscerally associate "Spam" with "no nutritive
+or aesthetic value." The luncheon meat has its own newsgroup,
+alt.spam.
+
+The term "spam," as used on this newsgroup, means "the same article
+(or essentially the same article) posted an unacceptably high number
+of times to one or more newsgroups." CONTENT IS IRRELEVANT. 'Spam'
+doesn't mean "ads." It doesn't mean "abuse." It doesn't mean "posts
+whose content I object to." Spam is a funky name for a phenomenon that
+can be measured pretty objectively: did that post appear X times?
+(See: "Yeah, but how many is X?')
+
+There have recently been examples of "customized" spams--where each
+post made some effort to apply to each individual newsgroup, but the
+general thrust of each article was the same. A huge straw poll on
+news.admin.policy, news.admin.misc, and a.c-e.n-a (December 1994)
+showed that as many of 90% of the readers felt that cancellations for
+these posts were justified. So, simply put: if you plan to post the
+same or similar messages to dozens of newsgroups, the posts are
+probably going to get cancelled.
+
+If you feel that a massive multi-post you are planning constitutes an
+exception, you are more than welcome to run the idea past the readers
+of news.admin.net-abuse.misc for feedback first.
+
+It should be noted that cross-posting a single message to many
+newsgroups (which many call "velveeta") is definitely *not* considered
+cancellable spam by those who cancel spam. That doesn't mean it's
+always a swell idea, though, and a large cross-post will probably
+evoke many flames. If you *must* cross-post, set the followups to a
+single appropriate group by adding a header line like
+
+  Followup-to: group.name.here
+
+This prevents the readers of all the groups from having to deal with
+the thread for weeks afterwards if the readers of only one or two of
+the groups take an interest in it.
+
+2.2) Where did the term 'Spam' come from?
+
+From the Monty Python song that goes, roughly, "Spam spam spam spam,
+spam spam spam spam, spam spam spam spam..." See?
+
+The term wasn't first used to describe mass news posting, however. See
+the Hacker's Jargon File for previous uses of the word.
+
+2.3) Tell me about the Great Spammers.
+
+So as not to duplicate effort, here's an excellent archive devoted to
+the various bug- and honey-bears of the Net:
+
+  * The Net.Legends archive (particularly the Net.Legends FAQ)
+      gopher://dixie.aiss.uiuc.edu:6969/11/urban.legends/net.legends
+
+  * The Net.Legends FAQ (html version)
+      http://www.shadow.net/~proub/net.legends/
+
+(The alt.usenet.kooks Web Page has just plain old disappeared...?)
+
+Not all of the kooks and legends discussed there are spammers, or even
+villains. Spam fans should pay particular attention to the entries on
+Serdar Argic, the spiritual ancestor of today's spammers.
+
+2.4) Who were Canter and Siegel?
+
+Unfortunately, it's "Who *are* Canter and Siegel?" They're lawyers,
+authors, and Usenet newbies _par excellence_. Super-newbies. Honorary
+Permanent Newbies. When they sit around the net, they sit *around the
+net*...
+
+C+S weren't the first spammers, but they were so gothically clumsy
+about it, and so intent on making a buck, that people were terrified
+and infuriated into starting this newsgroup.
+
+2.5) Where can I get more information about them?
+
+The best archive of Canter and Siegel-related postings is maintained
+by C&S themselves; last time somebody checked with "ls -r", the
+fun-loving net.lawyers seemed to be storing every post that mentioned
+them (can you say "grepping for libel cases"?)
+
+If you're not C or S yourself, though, the next best info source is
+Thomas Leavitt's "The Canter & Siegel Report," available via anonymous
+ftp from
+
+   ftp://ftp.armory.com/pub/user/leavitt/
+
+Those files are zipped. Users with access to 1990s technology should
+check out the WWW versions at
+
+   ftp://ftp.armory.com/pub/user/leavitt/html/cands.report.html
+   ftp://ftp.armory.com/pub/user/leavitt/html/candsrpt.two.html
+   ftp://ftp.armory.com/pub/user/leavitt/html/candsrpt.three.html
+
+There's also a wonderful article on the pair available at
+
+   http://www.interlog.com/eye/News/Eyenet/CS2.html
+
+Many, many more docs are available, but I'll stop there.
+
+2.6) What should we do about the book?
+
+What book?
+
+2.7) What was Larry's historic first post to a.c-e.n-a?
+
+From: lcanter@cyber.sell.com (lcanter)
+Subject: Re: Larry and Martha
+Message-ID: <D009w5.Iv0@cyber.sell.com>
+Sender: news@cyber.sell.com (NetNews Administration)
+Organization: CYBERSELL -TM
+X-Newsreader: TIN [version 1.2 PL0]
+Date: Tue, 29 Nov 1994 01:38:29 GMT
+Lines: 12
+
+: When Mike Godwin of the Electronic Frontiers Foundation offered the 
+: services of the EFF to represent me (this on the heels of literally 
+: hundreds of offers of contributions to my non-existent legal defense 
+: fund), Canter and Siegel dropped their plans like a hot potato.
+
+  ***************************************************
+  *  Laurence A. Canter  lcanter@cyber.sell.com     *
+  *  Cybersell -tm                                  *
+  *  10245 E Via Linda, Ste 222 Scottsdale AZ  85258*
+  *  Telephone (602) 661-5202 Fax (602) 451-7617    *
+  ***************************************************
+
+2.8) That doesn't make any sense. What was Larry's historic second
+post to a.c-e.n-a?
+
+From: lcanter@cyber.sell.com (lcanter)
+Subject: Re: Larry and Martha
+Message-ID: <D00FED.KCL@cyber.sell.com>
+Sender: news@cyber.sell.com (NetNews Administration)
+Organization: CYBERSELL -TM
+X-Newsreader: TIN [version 1.2 PL0]
+Date: Tue, 29 Nov 1994 03:37:25 GMT
+Lines: 15
+
+: When Mike Godwin of the Electronic Frontiers Foundation offered the 
+: services of the EFF to represent me (this on the heels of literally 
+: hundreds of offers of contributions to my non-existent legal defense 
+: fund), Canter and Siegel dropped their plans like a hot potato.
+
+Really?  This is complete news to us.
+
+--
+  ***************************************************
+  *  Laurence A. Canter  lcanter@cyber.sell.com     *
+  *  Cybersell -tm                                  *
+  *  10245 E Via Linda, Ste 222 Scottsdale AZ  85258*
+  *  Telephone (602) 661-5202 Fax (602) 451-7617    *
+  ***************************************************
+
+2.9) Who is Cancelmoose[tm]?
+
+Cancelmoose[tm] is, to misquote some wise poster, "the greatest public
+servant the net has seen in quite some time." He or she sends out
+spam-cancels and then posts notice anonymously to news.admin.policy,
+news.admin.misc, and a.c-e.n-a. The Moose stepped to the fore on its
+own initiative, at a time (mid 1994) when spam-cancels were irregular
+and disorganized, and has behaved altogether admirably-- fair,
+even-handed, and quick to respond to comments and criticism, all
+without self-aggrandizement or martyrdom.  Cancelmoose[tm] appears to
+have near-unanimous support from the readership of all three
+above-mentioned groups.
+
+Nobody knows who Cancelmoose[tm] really is, and there aren't really
+even any good rumors.
+
+By early 1995, several others had stepped into the spam-cancel
+business, and appeared to be comporting themselves well, after the
+Moose's manner. Far fewer cancels are coming from the Moose's
+anonymous address now.
+
+
+
+Archive-name: net-abuse-faq/part2
+Posting-Frequency: biweekly
+
+[Table of Contents for part two only:]
+
+NITTY-GRITTY
+
+3.1) Yeah, but how many times is 'X'?
+3.2) How can I tell if a post is forged?
+3.3) How do I know when I've got spam on my hands?
+3.4) OK, I think I've spotted a spam. Who should I mail-bomb?
+3.5) OK, I think I've spotted a spam. What should I do? 
+3.6) What about e-mail spam?
+3.7) I e-mailed a complaint to {so-and-so} about their {e-mail, post}
+and now they're threatening to complain to my system administrator. 
+What should I do?
+3.8) What's a cancel-bot?            
+3.9) Where can I get me one?
+3.10) How do spam-cancellers cancel spam?
+3.11) Can I sick The Man on these MAKE.MONEY.FAST losers?
+
+GROAN
+
+4.1) Why are you net-abuse people such net-cops?
+4.2) Hey, I think my newsgroup is being invaded by alt.syntax.tactical!
+4.3) Hey, somebody posted an ad to <newsgroup>!  
+4.4) Hey, so-and-so's not being nice in <newsgroup>!      
+4.5) Hey, one of those net.cops posted an ad for <something>! Haw! Haw!
+
+APPENDIX
+
+news.admin.net-abuse.misc charter
+news.admin.net-abuse.misc charter and guidelines
+
+NITTY-GRITTY
+============
+
+3.1) Yeah, but how many times is 'X'?
+
+How many posts does it take to push the spam envelope? To use up all
+your spam charity points? For a bare-bones spam? To trigger the
+raging-spam-cancellers-from-Hell? 
+
+Among those who agree that spam should be defined solely by quantity,
+
+             -----------------> 20 <--------------------
+
+appears to be the magic number, or at least a number so
+middle-of-the-road that it provokes very little passionate dissent in
+either direction. Notably, Cancelmoose[tm] refuses to set a firm
+number, in the belief that people would simply post [X-1]
+messages. It's safe to say that a couple incidents of 19-post spams
+would cause the magic number to plummet. Thus, 20 should be considered
+a vague approximation only.
+
+Passionately dissenting note: Rahul Dhesi [dhesi@rahul.net], one of
+the fathers of the cancel-bot movement, sticks by the following
+definition:
+
+     More than five physically distinct postings with substantially
+     identical content posted within a period of ten days.
+
+3.2) How can I tell if a post is forged?
+
+Sometimes it's easy to spot a forgery, sometimes it takes years of
+experience, and unfortunately, sometimes it's just impossible. (Note:
+most newsreaders don't show the entire header. Yours may have a
+command (e.g. 'h' in nn, 'v' in rn and trn, CTRL/h in tin, 't' in
+gnus, stop me) that allows you to see them in their entirety. If it
+doesn't, save the post to a file -- if given the choice, use 'mailbox'
+format.  Then bring that file up in an editor.)
+
+For starters, these four sites in the header should agree:
+
+--The From: line, listing the site where the poster is.
+
+--The 'path:' line shows all the sites the message passed thru, on its
+way *to* you (most recent, to oldest).  So the poster's site should be
+at (approximately) the end of that path.
+
+--The last part of the 'message ID,' which is the originating site
+name.
+
+--On many posts there is an "NNTP host" field, as well.
+
+The last item in the "Path" header line is the poster; working
+backwards, it lists the hosts the message passed through until it got
+to the server the reader uses.  First check on a supposed forgery is
+whether the host that supposedly posted the message is on this list in
+the correct location.  However, even if it were that doesn't mean it
+isn't a forgery since wily forgers forge part of the path line before
+slipping the message into the usenet.
+
+The Message-ID: is a unique id number created by the posting
+software. In all cases that we know of, the posting machine's ID is
+appended at the end of it. Sometimes, but not always, this matches the
+poster's account. Sometimes a slightly different machine in the domain
+is used for posting, and may vary slightly. But if the sites in the
+message-ID and the poster's account vary wildly--e.g., netcom.com and
+army.mil--you may be dealing with a forgery.
+
+Some other ideas:
+
+* Check the time stamps; if the site and the time zone don't agree,
+something might be up.
+
+* With experience, you can look at the intermediates on the 'path' and
+spot things that look 'funny'.  If a message that purports to have
+come from someone in Detroit, MI, goes bouncing thru half-a-dozen
+sites in EUROPE, before arriving in Chicago, IL -- it's likely its a
+phoney origin.  If you have the advantage of knowing about what sites
+are connected to where -- even for a few sites-- you can spot a fake
+if it shows routing between two machines that you *know* don't talk to
+each other.
+
+However, as Steve Patlan cautions: "I posted a message from Austin, TX
+that went through Austria.eu.net (something like that) before reaching
+(a newsfeed received from Rice U in) Houston, TX."
+
+* The "Organization" line, which is usually set by the site's news
+administrator (but can be easily changed by the poster for purposes
+legitimate or devious) may also contain clues. If somebody's trying to
+cause trouble for a particular organization, for instance, they may
+include it, but not get the name or address right.
+
+Of course, if the forger simply forgets to alter the Organization
+line, you may get clues that way also.
+
+For more information on headers, see RFC-1036, "Standard for
+Interchange of Usenet Messages," at
+
+    http://www.cis.ohio-state.edu/htbin/rfc/rfc1036.html
+
+(Thanks to Robert Bonomi, Arthur Byrne, Emma Pease, and Alan Bostick
+for most of this information.)
+
+(This entry comes from Indiana University's UCS Knowledge Base.)
+
+3.3) How can I tell how many newsgroups an article was posted to?
+
+For people who can't use the classic "grepping the newsspool" method,
+nn or nngrab may be able to help. (The following is adapted from a
+posting by Lee Rudolph--thanks.)
+
+You can force the Unix newsreader nn to ignore your .newsrc and create
+a "merged newsgroup" consisting only of articles containing a certain
+word in their subject line. For instance, to gather all articles at
+your site containing the word "spam" in their subject line, use this
+command:
+
+  % nngrab spam
+
+That's basically a faster version of
+
+  % nn -i -s"spam" -mXx
+
+Caution: this latter method can be a long, tedious process. See the nn
+man page for more details.
+
+3.4) OK, I'm certain it's spam. Who should I mail-bomb?
+
+Don't mail-bomb anybody. Harrassment is illegal everywhere. If
+somebody's done something truly evil, they'll get enough single
+responses from individuals to acheive the same effect.
+
+3.5) OK, I'm certain it's spam. What should I do?
+
+* Check n.a.n-a.announce. If somebody's already made a definitive
+spotting, there's no sense in an "I've seen it, too" post.
+
+* Include a *complete* header from one copy of the spam in your post
+to n.a.n-a.announce. Set followups to n.a.n-a.misc.
+
+* Say how many newsgroups at your site it was posted to; list 20 or
+more of them. (See "How do I know how many newsgroups an article was
+posted to?")
+
+* Complain politely to the spammer and the Usenet administrator at the
+spammer's site (whose address should be "usenet@site.name"; if that
+fails, try "postmaster@site.name".) Request that the Usenet
+administrator post a response to n.a.n-a.anounce, detailing what
+actions have been taken.
+
+3.6) What about e-mail spam?
+
+You can always complain about unsolicited e-mail to both the bozo that
+sent it to you and the bozo's postmaster. To write to a postmaster,
+just substitute the perp's username in their address (e.g.,
+bozo@otherwise.lovely.com) with "postmaster" (i.e.,
+postmaster@otherwise.lovely.com.) Please be brief and polite with the
+postmasters, include a copy of the e-mail you received, and leave the
+subject-line intact (in case the postmaster wants to set up an
+auto-responder.)
+
+3.7) I e-mailed a complaint to so-and-so about their {post, mail}, and
+now they're threatening to complain to my system administrator. What
+should I do?
+
+Let your sys-admin know right away what's happening. Tell them the
+story, briefly. [Include the post(s) in question?] Then keep them
+updated on any further threats.
+
+If you're brief, polite, and on the right side, you can usually find
+an ally in your sys-admin.
+
+3.8) What is a cancel-bot?
+
+First off, "cancel-bot" is an unfortunate misnomer, and one that the
+conventional media have understandably misunderstood. "bot" implies
+that something is out there, running unattended, cancelling whatever
+meets its nefarious qualifications... But this author knows of *no*
+automated cancel programs in use against any type of Usenet postings,
+and has never heard of such a program. All spam-cancels are sent out
+manually and deliberately by actual human beings. (They happen to use
+a program that is commonly referred to as a "cancel-bot".)
+
+A cancel-bot is a program that sends out cancel messages; you feed it
+the message-IDs of posts, and it sends out a cancel message for each
+one (see RFC 1036.) Cancel messages are normally sent out by a
+newsreader in response to a user's request to cancel a message, using
+a newsreader command, *if* the user was also the original poster of
+the message. Sites will ignore cancel messages that don't appear to
+come from the original poster.  Cancel-bots work around this
+restriction by using header lines that make it look like the original
+poster sent out the cancel; they'll usually add something like a
+"Cancelled-By" header line as well, to keep things nominally
+above-board.
+
+Use of a cancel-bot against anything besides 'consensus spam' outrages
+people, as it should. See alt.religion.scientology for sample
+discussions.
+
+3.9) Where can I get me a cancel-bot?
+
+If you have to ask, you should probably wait a while. ;}
+
+3.10) How do the spam-cancellers cancel spam?
+
+   * They make bloody sure they know how to use their cancel-bot;
+   * They confirm the spam themselves;
+   * They announce their action to n.a.n-a.announce. This prevents
+     everyone from waiting around and wondering whether anyone's done
+     anything.
+
+Here's a standard section from a cancel-notification post by the
+beloved Cancelmoose(TM):
+
+  The $alz cancel. and Path: cyberspam conventions were followed.  [The
+  $alz convention is to create your cancel message-ID by prepending
+  'cancel.' to the original one.  The cyberspam convention is to use-
+  'Path: cyberspam!usenet' so that sites that do not want your cancels
+  can easily opt out.  Please use these when cancelling spam.]
+
+3.11) Can I sick The Man on these MAKE.MONEY.FAST losers?
+
+Americans can complain about e-mail or Usenet pyramid schemes to the
+FTC:
+
+  STAFF CONTACT:      Bureau of Consumer Protection
+                      David Medine, 202-326-3224
+                      david.medine@wpo.ftc.gov
+
+                      Jeffrey S. Markowitz, 202-327-2460
+                      jeffery.markowitz@wpo.ftc.gov
+
+Before doing so, consider seriously whether you actually want to
+encourage government intervention. The number of 'net cases the FTC
+has been involved in is very low at this point; in an ideal world, it
+would probably remain that way.
+
+GROAN
+=====
+
+4.1) I hate net-cops like you people.
+
+Who will watch the watchmen? net-cop.cops like this,
+apparently. ;} Anyways, anyone who wanted to police the net would be a
+pig-headed, unrealistic fool. Thankfully, we just want to shoot spam
+out of the sky, because
+
+  * We hate it, 
+  * It feels good, and
+  * We can.
+
+Anyways, if you don't like spam being cancelled at your site, you can
+have your upstream feeds alias your site to "cyberspam".
+
+4.2) Hey, I think my group's being invaded by alt.syntax.tactical!
+
+We're sorry. Please don't bring that subject up again here. Good
+luck... Keith "Justified and Ancient" Cochran, who has been wrongfully
+accused of a.s.t involvement himself, adds: "I would suggest the first
+thing you do is take a chill pill." (Note that there is no second
+thing to do. However, you may want to pass the time reading the
+alt.bigfoot FAQ:
+
+  http://www.cis.ohio-state.edu/hypertext/faq/usenet/bigfoot/top.html
+
+--particularly the part about cats.)
+
+4.3) Hey, somebody posted an ad in {newsgroup}!
+
+So? 
+
+Alright, alright: first, check to see if the post was obviously forged
+(see "How can I spot a forgery?")
+
+Then check to see if it's spam (see "What is Spam" and "How do I know
+when I've got spam on my hands?") It's probably not. We only want to
+hear about it if it's spam.
+
+If the ad is off-topic, and you really can't let it go, check out the
+advice in "Hey, so-and-so's not being nice in {newsgroup}!"
+
+4.4) Hey, so-and-so's not being nice in {newsgroup}!
+
+Happens all the time. We don't want to hear about it. However, here
+are some things you can do (written by Keith "Justified and Ancient"
+Cochran):
+
+"The first thing to do is take it up with user@some.site.  If you
+can't achieve a mutual understanding, then you _MIGHT_ (note, not
+WILL, _MIGHT_) want to mail postmaster@some.site with your complaint.
+If you are going to write to postmaster@some.site, be sure to include
+the full, unedited post you have a problem with, a short but
+descriptive summary of why you have a problem with it, and a short,
+but descriptive explanation of what you would like to have happen.
+
+"Note that this does not apply to MAKE.MONEY.FAST.  If you see a copy
+of M.M.F, just e-mail postmaster@some.site, including the article ID,
+and the first paragraph of the post."
+
+4.5) Hey, one of those net.cops posted an ad for <something>! Haw! Haw!
+
+     ad != spam
+
+APPENDIX
+========
+
+news.admin.misc charter:
+
+   news.admin.net-abuse.misc is for the discussion of possible abuses
+   of netnews and e-mail. It is for the discussion of standards of net
+   abuse, to suggest appropriate courses of action (if any) to net
+   abuse and to post reports of alleged occurrences of net
+   abuse. Relevant topics include events associated with net abuse
+   such as: spamming (posting many individual copies of any article),
+   excessive crossposting of non-germane articles, injection of
+   malformed articles into the news system (broken gateways, for
+   example), or other forms of "roboposting" involving large numbers
+   of postings to one or more groups, forging identity of postings,
+   forged approval to moderated groups, forged cancellation of
+   articles including cancellation of net abuse articles, use of
+   rmgroup/newgroup in an abusive manner, large-scale mailings to
+   mailing lists or other mail-bombing, deciding what isn't net abuse,
+   general issues of netiquette, methods for resolving conflicts,
+   proposed blacklists and boycotts, "renegade" sites, etc.  Postings
+   include news reports, reviews, and conferences, and net-abuse FAQs.
+   Although commercial posts are not inherently net-abuse, proper
+   methods of posting commercial material are within the scope of this
+   group.
+
+news.admin.net-abuse.announce charter and guidelines:
+
+
+   news.admin.net-abuse.announce Charter and Guidelines
+   
+   1. What topics are relevant to this group? Events associated with net
+      abuse, such as:
+      - posting many individual copies of any article.
+      Or, excessive crossposting of non-germane articles.
+      - injection of malformed articles into the news system (broken
+      gateways, for example), or other forms of "roboposting" involving
+      large numbers of postings to one or more groups.
+      - Forging identity of postings
+      - Forged approval to moderated groups
+      - Forged cancellation of articles not included above.  Note that
+        cancellation of net abuse articles is also relevant to the
+        topic of net abuse.
+      - Use of rmgroup/newgroup in an abusive manner
+      - large-scale mailings to mailing lists or other mail-bombing
+   
+      Postings to this group may also include announcements relevant
+      to the topic of net abuse, such as news reports, reviews, and
+      conferences, and possible net-abuse FAQs.
+   
+      The purpose of this group is not to decide the guilt or
+      innocence of any parties, but rather to simply report on the
+      activity (much like the crime section found in many local
+      newspapers).  It must be kept clear that the net is a new legal
+      area, but it is also one with a lot of unwritten rules.  The
+      moderators are in no way are attempting to act as judges,
+      lawyers, or mediators.
+   
+   2. Posting of reports of this kind of activity in no way implies
+      that net-wide cancellation of such articles are to be
+      encouraged.  How local news admins deal with such incidents is
+      strictly up to them.  The moderators of this group should not be
+      held responsible for actions taken by others in response to
+      articles posted to news.admin.net-abuse.announce.
+   
+   3. No moderator will engage in the following activities:
+
+      - cancellation of any posts other than ones posted by them,
+        excepting articles with forged approval to newsgroups they
+        moderate or, if they are a news admin, posts originating from
+        their site (following the local site's procedures).
+      - Sending of "mailbombs", threats, abusive e-mail, or other
+        attacks in response to alleged net abuse.
+   
+   4. We are committed to providing accurate information regarding
+      events related to net abuse (with emphasis on Usenet) in a
+      timely manner.  However, as we the moderators must often rely on
+      the reports of others, whenever we have not confirmed a report
+      ourselves we will state so in the posting.
+   
+   5. Right of Reply. If posts have been made in this group concerning
+      an individual's alleged net abuse and the individual and/or site
+      from which it originated have suffered negative consequences in
+      the form of articles cancelled, accounts cancelled, or
+      substantial negative email; then the individual and site each
+      have the right to one (but no more than one) reply for the
+      purpose of justification, rebuttal, or reports of actions taken
+      to correct or cancel the alleged abuse.
+   
+   6. Examples of inappropriate postings:
+      - redundant reports of events
+      - Trivial events, for example "Hey, this guy posted an ad to
+        comp.sys.xyz!"
+   
+   7. Administravia
+      - Approval of postings will be made by a team of moderators.
+      - Change of moderators will be made by majority.  Forcible removal
+        of a moderator will be by consensus of remaining moderators.
+      - Any rule changes will be made by majority of the moderators.
+   
+   Initial moderators:
+   David Barr <barr@math.psu.edu>
+   Joel Furr <jfurr@acpub.duke.edu>
+   Paul Phillips <paulp@CERF.NET>
+   Abby Franquemont-Guillory <abbyfg@tezcat.com>
+
+

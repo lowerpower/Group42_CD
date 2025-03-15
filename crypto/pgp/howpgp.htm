@@ -1,0 +1,190 @@
+<html><heade><title>How PGP works and the maths behind RSA</title></head>
+<body>
+<h1>How PGP works</h1><p><hr><p>
+<ul><li><a href="#basic">Basic description of PGP</a>
+<li><a href="#maths">The maths behind RSA</a>
+<ul><li><a href="modulus.htm">Ideas in modular arithmetic used in RSA (seperate document)</a>
+<li><a href="#algo">The RSA algorithm and key generation</a>
+<li><a href="#summ">Summary of the steps for key generation</a>
+</ul><li><a href="#secure">Security of RSA</a>
+</ul>
+<h2><a name="basic">Basic description of PGP</a></h2>
+
+PGP is a hybrid cryptosystem that combines a public key (asymmetric) algorithm,
+with a conventional private key (symmetric) algorithm
+to give encryption combining the speed of conventional crytography
+with the considerable advantages of public key cryptography. As far
+as the user is concerned PGP behaves as a public key cryptosystem.
+In a public key system a key pair is mathematically generated,
+consisting of a public key and a private key. You can encrypt a message with one key and decrypt
+it with the other (either key can be used for encryption). The message 
+<i>cannot</i> be decrypted using the same key
+that was used to encrypt it. Generally you publish your public key, making it
+available to anyone who wants to send you encrypted message. They encrypt their
+message with the public key - they cannot then decrypt the encypted message and
+nor can anybody else. The only person who can decrypt the message is you,
+i.e. the person who has the private key that goes with the public key. It is
+clear that the private key must be kept secret by its owner.<p>
+The great advantage of this kind of cryptography is that, unlike 
+conventional cryptosystems, it is not necessary
+to find a secure means of transmitting the encryption key to the intended recipient
+of your message. Another useful feature of such cryptosystems is the ability
+to "sign" messages by encrypting them with your private key. Anyone can then
+decrypt the message with your public key, and they can be sure that only the owner
+of that public key could have encrypted the message (with the corresponding private key).
+<p>PGP uses the
+RSA public key algorithm for encryption in tandem with the conventional
+IDEA algorithm. A single IDEA key is generated for encrypting the message with
+IDEA, this is a conventional cryptosystem so the same key will decrypt the
+massage. RSA is them used to encrypt the IDEA key using the recipients public
+key. The recipient uses their copy of PGP which decrypts the RSA encrypted IDEA key with
+their private key. The IDEA key is then used to decrypt the rest of the message.
+<pre>
+
+Text encrypted      Key K encrypted  \
+with IDEA using     using RSA with    |
+key K               Alices Public     |
+            |       key, E.           |
+            |                         |
+            |         |                \  Bob using his copy of PGP
+            |         |                /  and Alice's public key E.
+            V         V               |
+          Message consists            |
+          of RSA encrypted            |
+          key K, and IDEA             |
+          encrypted text.            /
+                                      
+                ||                    
+                ||                    
+                \/                    
+            
+         Message transmitted
+         via email to Alice
+         
+                ||
+                ||
+                \/
+                                     \
+        IDEA key K decrypted          |
+        using Alices private          |
+        key, D and RSA.               |
+                ||                     \  Alice using her copy of PGP
+                ||                     /  and her own private key D.
+                \/                    |
+                                      |
+        Text decrypted using          |
+        IDEA and IDEA key K.         /
+                   </pre>         
+<p>
+<h2><a name="maths">The maths behind RSA</a></h2>
+
+RSA uses modular exponentiation (^ is used to denote exponentiation) to encrypt and decrypt messages based on text
+converted to numerical form (on a computer the text *is* in numerical
+form as far as the computer is concerned so this is trivial).<p>
+If you don't know much about modular arithmetic or have trouble following
+the maths below, read this document describing <b><a href="modulus.htm">ideas in
+modular arithmetic used in RSA</a></b>. The maths is not difficult but if it
+is unfamiliar this introduction should be helpful.
+<p>
+<h3><a name="algo">The RSA algorithm and key generation</a></h3>
+The RSA encryption function is <i>C = T^E mod N</i>, where <i>T</i> is the plaintext, <i>C</i> is the ciphertext and
+<i>E</i> is the public key.
+In other words <i>T</i> is raised to the power of <i>E</i> in modulus <i>N</i>. To give a simple example,
+raising 2 to the power of 3 gives us 8, to raise 2 to the power of 3 in
+modulus 7 is 8 mod 7 which is 1. To decrypt  
+The decryption function is <i>T = C^D mod N</i> where <i>D</i> is the private key.
+The keys <i>E</i> and <i>D</i> have to be generated such that <i>E</i> is the inverse of <i>D</i> with
+respect to exponentiation in mod <i>N</i>.
+i.e. <i>(T^E mod N)^D mod <i>N</i> = T^ED mod <i>N</i> = T</i>.
+<p>
+Finding a suitable key pair for which this is true requires us to know the
+<i>Euler's totient function, J(N)</i> for the modulus <i>N</i>. The Eulers
+totient function is the number of numbers in the set 1 to <i>N-1</i> that
+are <i>relatively prime</i> to <i>N</i>. To find 
+<i>J(N)</i> we need to know the prime factors of <i>N</i>. 
+<p>
+<b>Fundamental theorem of arithmetic:</b> Every non-prime number
+can be represented as a product of a unique set of prime numbers.<p>
+<b>Relative primes:</b> Two numbers are realtively prime if they
+have no prime factors in common
+<p>
+We need to find this set of unique prime factors for <i>N</i>in order to calculate the 
+Euler's quotient <i>J(N)</i>. Finding these primes is <i>extremely</i>
+difficult - impractically difficult for sufficiently large <i>N</i> which
+is in fact what makes PGP so secure. Given <i>N</i> and <i>E</i> you
+can't work out <i>D</i> (and thus decrypt a message) without finding the prime factors of <i>N</i>
+which is so difficult that PGP is <a href="#secure">virtually unbreakable</a> for sufficiently
+large values of <i>N</i>.
+<p>
+The practical way to generate a key pair in the first place is to
+generate <i>N</i> by multiplying two large primes <i>P</i> and <i>Q</i>, so
+that you know the prime factors of N<i>N</i> to start with. For a number
+with just two primes factors (as this is)  the Euler's totient function
+simplifies to:<p>
+<i>J(N) = (P-1)(Q-1)</i><p>
+<p>
+Now we choose a number <i>E</i> that is relatively prime to <i>J(N)</i>.
+We need to find <i>D</i> which is the inverse of <i>E</i> with respect to exponentiation
+mod <i>N</i>. We can do this using <i>J(N)</i>.<p>
+It is a rule of modular arithmetic that when manipulating <i>exponents</i>
+of numbers mod <i>N</i> that the exponentials are manipulated in mod <i>J(N)</i>. For
+example consider the following,
+<p>
+<i>(T^E mod N)^D mod <i>N</i> = T^ED mod <i>N</i> </i>
+<p>
+It turns out that when multiplying the exponents <i>E</i> and <i>D</i>,
+we do it mod <i>J(N)</i> and <b>not</b> mod <i>N</i>. In order to find a suitable
+inverse <i>D</i> for our chosen encrypting exponent <i>E</i> we must find a 
+<i>D</i> that satisfies the following:
+<p><i>T^ED mod <i>N</i> = T</i><p>
+This implies that <i>ED mod <i>J(N)</i> = 1</i> since clearly <i>T^1 mod <i>N</i> = T</i>.
+Thus the problem of finding <i>D</i> is simply that of finding the multiplicative
+inverse of <i>E</i> in mod <i>J(N)</i> which is computationally straightforward. 
+It should be noted here that
+it is a law of modular arithmetic that for a given modulus <i>M</i>, a
+number will only have a multiplicative inverse mod  M if it is <i>relatively prime</i>
+to M. This is the reason that <i>E</i> must be initially chosen to be relatively prime to
+<i>J(N)</i> since it has to have a  multiplicative inverse, <i>D</i>, in mod <i>J(N)</i>.
+Values of <i>E</i> and <i>D</i> which are trivial (i.e. <i>E</i> = <i>D</i>) are rejected as insecure and
+another <i>E</i> value is tried.
+<p>
+Having chosen out value of <i>N</i>, and generated our <i>E</i> and <i>D</i>, we can disgard
+<i>P</i>, <i>Q</i> and <i>J(N)</i> as they have done their job. We now have suitable values of <i>E</i> and D
+for encryption and decryption with, <p> 
+<i>C = T^E mod <i>N</i> </i>and<i> T = C^D mod N</i><p>(in fact it doesn't matter which way round you use <i>D</i> and E).
+Without knowing <i>P</i> and <i>Q</i> it is a computationally impractical for anyone else to 
+find <i>J(N)</i> and hence deduce <i>D</i> from <i>E</i> for large values of <i>N</i>, thus 
+the encryption is secure.
+<p>
+<h3><a name="summ">Summary of the steps for key generation</a></h3>
+<ul>
+<li>Choose two large primes <i>P</i> and <i>Q</i> and muliply them to give <i>N</i>
+<li>Calculate the Euler's totient of <i>N</i>, <i>J(N)</i> = (<i>P</i>-1)(<i>Q</i>-1)
+<li>A value of <i>E</i> is chosen which is relatively prime to <i>J(N)</i>
+<li><i>D</i>, the multiplicative inverse of <i>E</i> mod <i>J(N)</i>, is calculated, and trivial
+values of <i>E</i> and <i>D</i> (<i>E</i>=<i>D</i>) rejected as insecure
+<li>With a suitable key pair <i>E</i> is made public and used to encrypt messages intended for
+the owner of the keys <i>E</i> and <i>D</i>: <i>C = T^E mod <i>N</i> </i>
+<li><i>D</i> is kept secret and used for decryption of these messages:<i> T = C^D mod N</i>
+</ul>
+<p>
+<h2><a name="secure">Security of RSA</a></h2>
+
+Factoring <i>N</i> would clearly enable RSA to be broken. It has not been <i>proven</i>
+that there is no polynomial time solution to finding prime factors of large 
+numbers (i.e. it is possible that an algorithm that could factor <i>N</i> quickly
+enough to break RSA may be discovered in the future). However, despite constant 
+improvements in factoring algorithms none have been found that satisfy the
+polynomial-time criteria which would make cracking RSA a tractable problem.
+<p>
+It is important to note that it has not been proven that security of RSA relies solely on the mathematical 
+diffculty of finding the prime factors of large numbers. However, many of the other possibilities for
+finding <i>D</i> given <i>E</i> have been shown to be of equivalent
+difficulty to factoring <i>N</i>. One possibility is that an algorithm
+could be devised to find the <i>E</i>th root mod <i>N</i> more easily than
+factoring <i>N</i>. Nevertheless, no such algorithm has been discovered so far,
+and RSA has withstood many attempts to
+crack it. <p>
+<hr>
+<address>Sherry Mayo / ANU / scmayo@rschp2.anu.edu.au</address>
+</body></html>

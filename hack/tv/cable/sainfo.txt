@@ -1,0 +1,70 @@
+From nntp.crl.com!howland.reston.ans.net!ix.netcom.com!netnews Sat Oct 28 07:44:42 1995
+Path: nntp.crl.com!howland.reston.ans.net!ix.netcom.com!netnews
+From: expert_e@ix.netcom.com (David Roberts )
+Newsgroups: rec.video.cable-tv
+Subject: Re: external black box descrambler
+Date: 27 Oct 1995 04:03:06 GMT
+Organization: Netcom
+Lines: 56
+Message-ID: <46pllq$50f@ixnews7.ix.netcom.com>
+References: <46nvek$302@news.uncc.edu>
+NNTP-Posting-Host: ix-prv2-05.ix.netcom.com
+X-NETCOM-Date: Thu Oct 26  9:03:06 PM PDT 1995
+
+In <46nvek$302@news.uncc.edu> kcwinter@uncc.edu (Kevin C Winters)
+writes: 
+>
+>I've got a SA 5890 box and I'd like to get all of the premium channels
+>descrambled.  I'm not interested in opening up my box and replacing
+>the existing chip with a test chip, although I'm told it _can_ be
+>done. What I'd like to know is, how can I incorporate the test chip
+>into an external device (black box) to reprogram/descramble my box.
+>
+>Before someone says 'it can't be done,' let me say that I've seen such
+>a device.  The kid who built it wouldn't tell me much about it (mainly
+>because he has a lucrative business "zapping" boxes), but he did open
+>it up and let me see inside.  It's a breadboard with a chip and a
+>resistor. Of course, I couldn't see the bottom of the board and the
+>wires and connections there.  BTW, his device only works on Zenith
+>boxes.
+>
+First off, did you mean SA8590, not 5890? Assuming so, the 8590 can
+theoretically be zapped one of 3 ways:
+
+   a. An intelligent "cube" to simulate VBI command data.
+   b. Replacing the micro-processor.
+   c. Adding a "test kit" the writes over the serial EEPROM's, loading
+      data that activates the box.
+
+It is my opinion that it is not possible to do option A on this
+particular model. Sending command data on top of real video coming in
+from the cable company sounds very difficult and expensive; I doubt
+anyone is doing it with any practical marketablity.
+
+As for the Zenith box, your talking apples and oranges. It's not
+logical that just because one brand can be done a certain way that
+"any" brand can also be done. The device your "friend" showed you
+sounds like a standard replacement PROM (some companies use PAL's
+though), that is hardwired into the CPU of the ST-1000 and ST-1600
+boxes. If I'm correct, it is NOT external to be box but seriously wired
+internal. (Typically, it is a replacement PROM for an epoxyed covered
+unit, and is connected with 3 additional wires.) You did'nt describe
+enough hardware to account for a device that has a power supply,
+generates a digital data stream, syncronizes it to the incoming video,
+and merges it to the picture info (with an RF modulator to boot!).
+
+A quick example on how "zapping" can vary model to model, never mind
+brand to brand.
+
+- A Scientific Atlanta 8550 and be zapped (once activated) with simply
+ONE diode.
+
+- A Scientific Atlanta 8580 CANNOT be zapped with a diode, but CAN be
+zapped with an inexpensive FSK generator.
+
+- A Scientific Atlanta 8570 CANNOT be zapped with a diode OR an FSK
+generator, but can only be zapped by an serial EEPROM writer or
+replacement CPU.
+
+Be careful who you listen to. Not everyone is an expert...
+

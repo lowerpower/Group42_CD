@@ -1,0 +1,67 @@
+RADIO SHACK 17-1060/CT350
+
+NOTES:  This a dual NAM unit.
+        The ESN prefix is 165 decimal & A5 hex.
+        Radio Shack: 817-390-3234
+
+NAM PROGRAMING:
+
+1.  Turn on power.
+
+2.  Enter * 3 0 0 1 # S S S S S STO 0 0, where SSSSS is the security code,
+    default is 12345, the phone should display "STORE NOT DONE", if it
+    displays "NOT ALLOWED" then the security code was incorrect and the
+    phone can not be programed.
+
+3.  This phone is unusual as all programing data is stored in three
+    memory locations.
+
+
+LOCATION 01:
+
+This entry containes emergency numbers, language code and lock code in the
+following format:
+
+(emerg number 1) # (emerg number 2)... # (language code) * (lock code)
+
+    For example:     911 # *911 # 0 * 1234
+
+The language codes are: 0 for English, 1 for French and 2 for Spanish.
+
+Press and hold CLR until the display clears.
+Enter the data in one long string then press STO 01 STO
+
+
+LOCATION 02 (NAM 1) and 04 (NAM 2)
+
+This entry contains the MIN (area code and tel#) and optionally a 16
+character alpha name, in the following format:
+
+(area code,tel number) ALPHA (up to 16 characters) ALPHA
+
+Note that "0" enters a space when in alpha mode.
+
+Press and hold CLR until the display clears.
+Enter the data in one long string then press STO 02 STO, or STO 04 STO.
+
+
+LOCATION 03 (NAM 1) and 05 (NAM 2):
+
+This entry containes system parameters in the following format:
+
+(system id) * (access method, 0 or 1) * (locall use mark, 0 or 1) *
+(initial paging channel) * (access overload class) * (group ID)
+
+    For example: 31*1*1*333*02*10
+
+Note that leading zeros are not required for SIDH & IPCH.
+
+Press and hold CLR until the display clears.
+Enter the data in one long string then press STO 03 STO, or STO 05 STO.
+
+To verify any information press and hold CLR until the display clears,
+press RCL followed by the memory location.
+
+To exit programing mode turn off power, if "NAM ERROR" appears when
+you power the phone back up an error was made in programing, reprogram
+the phone.

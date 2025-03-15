@@ -1,0 +1,132 @@
+<html>
+<head><title>Group 42 Sells Out</title></head>
+<body background="paper.jpg">
+<center>
+<img alt="Group 42 Sells Out!" src="../../../g42slogo.gif">
+</center>
+<hr size=5 noshade>
+<center>
+<h3>Listening In To Digital Data On The Airwaves</h3>
+<h3>Tapping Into a Scanners Baseband Audio</h3>
+<h4>By G-Man, Group 42 (c)1995</h4>
+</center>
+<p>
+There are quite a few programs available now that use a zero crossing
+data slicer, or a sound card interface to enable a Personal Computer
+to decode digital signals off the airwaves.  Although the audio out
+signal can be used to feed the data slicer or sound card, the filtering
+in the AF section can limit the bandwidth or distort the signal.
+<p>
+It is possible to tap into the basband audio of a scanner to get
+a raw unfiltered signal which is optimal for driving a data
+slicer or sound card.  This is done by taping into the discriminator
+chip and catching the AF before it enters the AF filtering and
+amplification section of the receiver.
+<p>
+Below is a list of scanners and the discriminator chip used
+in the scanner.  Also shown for each entry is a circuit symbol
+and the RF-Input, scan control, and baseband audio pins for
+each discriminator.
+<p>
+
+<center>
+<h4>Scanner Discriminator Chips and Pins of Intrest</h4>
+</center>
+
+<pre>
+                                CKT     RF-in   SCAN    AUDIO
+SCANNER         NFM CHIP TYPE   SYMBOL  Pin     Pin   BASEBAND
+<hr size=1>                MPS5071         n/a     16      13      9
+AR-1000         TA-7787AF       IC-4    ?       ?       ?
+AR-2002         MC-3357P        IC-4    16      13      9
+AR-3000         MC-3357P        ?       16      13      9
+AR-800          MC-3361N        IC-200  16      13      9
+AR-900          MC-3361N        IC-201  16      13      9
+AR-950          MC-3361N        IC-201  16      13      9
+BC-100XL        MC-3359P        IC-1    18      15      10
+BC-100XLT       TK-10421M-2     IC-401  20      16      11
+BC-200XLT       TK-10421M-2     IC-401  20      16      11
+BC-205XLT       TK-10421M-2     IC-401  20      16      11
+BC-250          ?               IC-3    16      13      9
+BC-2500XLT      TK-10930VTL     IC-201  24      -     12-FM 13-AM
+BC-350A         NJM-3359D-A     IC-3    18      15      10
+BC-400XLT       NJM-3359D-A     IC-1    18      15      10
+BC-560XLT       NJM-3359D-A     IC-1    18      15      10
+BC-700A         NJM-3359D-A     IC-3    18      15      10
+BC-760XLT       NJM-3359D-A     IC-2    18      15      10
+BC-800XLT       MC-3359P        IC-1    18      15      10
+BC-8500XLT      MC-3361BP       IC-9    16      13      9
+BC-855XLT       TK-10421M-2     IC-401  20      16      11
+BC-890XLT       NJM-3359D-A     IC-3    18      15      10
+BC-950XLT       NJM-3359D-A     IC-2    18      15      10
+HX-1000         TK-10420        U-201   16      13      9
+MR-8100         NJM-3359D-A     IC-3    18      15      10
+MX-5000         MC-3357P        IC-4    16      13      9
+MX-7000         MC-3357P        IC-4    16      13      9
+PRO-2002        MC-3357P        IC-101  16      13      9
+PRO-2003        MC-3357P        IC-104  16      13      9
+PRO-2004 NFM/AM TK-10420        IC-2    16      13      9
+PRO-2004 WFM    KB4419A         IC-1    1       ?       6
+PRO-2005 NFM/AM TK-10420        IC-2    16      13      9
+PRO-2005 WFM    KB4419A         IC-1    1       ?       6
+PRO-2006 NFM/AM TK-10420        IC-2    16      13      9
+PRO-2006 WFM    KB4419A         IC-1    1       ?       6
+PRO-2011        TK-10420        IC-1    16      13      9
+PRO-2020        MC-3357P        IC-101  16      13      9
+PRO-2021        TK-10420        IC-2    16      13      9
+PRO-2022        MC-3361N        IC-1    16      13      9
+PRO-2024        MC-3361N        IC-2    16      13      9
+PRO-2025        NJM-3359D-A     IC-1    18      15      10
+PRO-2026        NJM-3359D-A     IC-7    18      15      10
+PRO-2027        MC-3361N        IC-2    16      13      9
+PRO-2028        NJM-3359D-A     IC-2    18      15      10
+PRO-2030        NJM-3359D-A     IC-3    18      15      10
+PRO-2035        TK-10420        IC-2    16      13      9
+PRO-2042        TK-10420        IC-2    16      13      9
+PRO-23          MC-3361BD       IC-1    16      13      9
+PRO-26 NFM/AM   TK-10930V       IC-14   24      -     12-NFM 13-AM
+PRO-26 WFM      TK-10489M       IC-16   20     16-17    11
+PRO-31          TK-10420        IC-1    16      13      9
+PRO-32          TK-10420        IC-101  16      13      9
+PRO-34          TK-10420        IC-101  16      13      9
+PRO-35          TK-10421M-2     IC-401  20      16      11
+PRO-36          TK-10420        IC-101  16      13      9
+PRO-37          TK-10420        IC-101  16      13      9
+PRO-39          MC-3361N        IC-201  16      13      9
+PRO-41          MC-3359P        IC-1    18      15      10
+PRO-42          MC-3361N        IC-2    16      13      9
+PRO-43          TK-10427/-10420 IC-301  16      13      9
+PRO-44          MC-3361N        IC-201  16      13      9
+PRO-46          TK-10421M-3LT   IC-401  20      16      11
+PRO-51          MC-3361BD       IC-1    16      13      9
+PRO-60          ?               IC-301  16      13      9
+R-1600          NJM-3359D-A     IC-2    18      15      10
+R-4030          TK-10421M-2     IC-401  20      16      11
+SR-15           TK-10421D-2     IC-1    16      13      9
+TurboScan 2     3130-6056-502   U-201   18      ?     10 or 16
+</pre>
+<p>
+<h4>Your Scanner Not Listed?</h4>
+Most likely you can find it's descriminator chip by finding a
+chip with the same numbers as a listed above, and using
+the <b>Audio Baseband</b> pin ash shown.
+<p>
+<hr size=5 noshade>
+
+<center>
+
+<h4>
+<a href="../../../index.htm">HOME</a> |
+<a href="../../../about.htm">GROUP 42</a> |
+<a href="../../../disclaim.htm">DISCLAIMER</a> |
+<a href="../../../help.htm">HELP</a>
+<br>
+Copyright &copy 1984-1996, Group 42
+</h4>
+
+</center>
+
+</html>
+
+
+

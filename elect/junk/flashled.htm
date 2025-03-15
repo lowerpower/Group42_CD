@@ -1,0 +1,45 @@
+<html>
+<b>
+<pre>
+Newsgroups: sci.electronics
+From: dwalster@lincoln.gpsemi.com (Dave Walster)
+Subject: Re: flasher
+Date: Fri, 9 Jul 1993 11:48:50 GMT
+
+Running a flashing LED straight from 12 Volts is not generally a good idea,
+some of the LED's that I have come across will only stand about 7 Volts.
+You cannot use a series resistor to drop the voltage as when the LED is
+in the OFF state, there is no potential dropped across the resistor & hence
+the LED 'sees' the full 12 Volts.
+The circuit below was developed to provide the functions necessary whilst
+also offering much improved reliability and safety.  I've installed it into
+53 cars here since January, it's a popular and cheap circuit.
+
+          1N4148
+                                      6V2 400mW    FLASHING LED
+            |\ |         BC328
+            | \|                           | /|   |\ | /^
++12 V ------| /|-------\         /---------|/ |---| \|--+------ 0V GND
+            |/ |        \       /          |\ |   | /|  |
+                         E     C           L \|   |/ |  |
+                         -------                        |
+                            B                           |
+             1KO            |             22K           |
+                            |                           |
+       O---/\/\/\/\/\-------+--------/\/\/\/\/\---------|
+
+       ^ Connect to a switched live, i.e. one which goes to 12V when the
+       ignition is turned on.  A good place I've found to put the wires is
+       with the 0 Volt lead to the bulb side of the brake switch, the
+       trigger wire onto the power side of the brake switch and the +12 Volt
+       lead to either the cigarette lighter or the fuse box direct.
+
+** Even though this circuit doesn't consume much power, it's a good idea to
+   place a 500mA / 1A fuse in line for safety.
+
+Hope this is helpful.
+Dave Walster,
+IC Engineering Dept., GEC Plessey Semiconductors, Lincoln, England.
+</pre>
+</b>
+</html>

@@ -1,0 +1,6 @@
+Silent Service II
+
+Remove doc check
+SS2.EXE
+00031C39: 75 90
+00031C3A: 41 90

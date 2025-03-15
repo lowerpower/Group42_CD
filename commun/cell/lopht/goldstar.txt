@@ -1,0 +1,56 @@
+-------------------------------------------------------------------------------
+                          GOLDSTAR GM/GT 5000
+-------------------------------------------------------------------------------
+                NAM Type:  EEPROM
+            Manufacturer:  GOLDSTAR
+              Programmer:  Handset
+          ESN Prefix DEC:  141
+                     HEX:  8D
+ ESN, S/N Match Required:  Yes
+    Stamped Model Number:  GM5000 or GT5000
+      Number of Channels:  832
+
+    Programming Sequence:  Power On
+                           FCN + 4 + * (to select NAM)
+      Enter Program Code:  FCN + 99 + * ("Enter Code"
+                            will display) + 1234567890 + MEM
+                           Code must be entered within 30 seconds
+                           Mobile Number will display
+                           Press MEM after entering each parameter to Store
+                           Once Parameter is stored, press Scroll UP or DN
+                            to view next parameter
+                           Press CLR key to exit program mode WITHOUT
+                            changing any parameters
+
+                       # of digits
+           Mobile Number:  10   XXX-XXX-XXXX + MEM
+               System ID:  5    XXXXX + MEM
+    Initial Page Channel:  3    333 or 334 + MEM
+         Access Overload:  2    XX
+             Unlock Code:  4    XXXX
+           Security Code:  6    XXXXXX + MEM
+     Theft Alarm Disable:  4    XXXX + MEM
+        Preferred System:  1    0 (B) or 1 (A) + MEM
+           Station Class:  1    0 + MEM
+               Handsfree:  1    0 (Disable) or 1 (Enable) + MEM
+               Local Use:  1    1 + MEM
+              MIN Option:  1    1 + MEM
+              Horn Alert:  1    1 + MEM
+        Optional Speaker:  1    1 + MEM
+
+"Save to NAM?" will display, press MEM to save NAM or CLR to exit.
+
+              Horn Alert:  FCN + 1 + Vol UP (To Scroll)
+                            "Horn Alert" will display, + * (To toggle) +
+                            MEM (to store) + Turn Ignition Off
+         New Unlock Code:  NAM
+           System Select:  FCN + 2 + 6 digit security
+                            Code + MEM + Vol UP or DOWN(to scroll) "System
+                            Select" will display + * (To toggle)
+                                  A  Non-wireline, B  Wireline
+                                  A/B Pref non-wireline, B/A  Pref wireline
+                                  Home
+Press MEM (to store)
+Press CLR (to exit)
+
+

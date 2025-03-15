@@ -1,0 +1,8 @@
+Disney Animation Studio
+FILE: DAS.EXE
+ORIGINAL: E8 49 F7 0B C0 74 48
+CRACK   : B8 00 00 == == == ==
+        and
+ORIGINAL: E8 A0 F4 0B C0 74 46
+CRACK   : B8 00 00 == == == ==
+						 Michael Yakubovich

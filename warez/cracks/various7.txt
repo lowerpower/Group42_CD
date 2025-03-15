@@ -1,0 +1,112 @@
+MIGHT AND MAGIC III
+A loader for this is on WUARCHIVE.WUSTL.EDU in /pub/MSDOS_UPLOADS
+It may no longer be there so I will send it to you if you wish.
+
+
+BUDOKAN
+I have a TSR for this. When I get time I will dig it up and send it
+to you.
+
+
+MONTY PYTHON'S FLYING CIRCUS By Core Design/Virgin Mastertronic
+File         : pega.exe
+Seach For    : A3F744E88200A1F9443B06F7447404FF
+Replace With : A3F744A3F944A1F9443B06F7447404FF
+                     ------
+File         : pega.exe
+Search For   : A3F744E85F00A1F9443B06F7447404FF
+Replace With : A3F944A3F744A1F9443B06F7447404FF
+                 --  ------
+File         : pcga.exe
+Search For   : A3AD43E88200A1AF433B06AD437404FF
+Replace With : A3AD43A3AF43A1AF433B06AD437404FF
+                     ------
+File         : pcga.exe
+Search For   : A3AD43E85F00A1AF433B06AD437404FF
+Replace With : A3AF43A3AD43A1AF433B06AD437404FF
+                 --  ------
+Notes : Disables the password protection.
+        You will no longer be prompted for a password
+
+
+DRAGON'S LAIR:ESCAPE FROM SINGE'S CASTLE By Sulivan Bluth/Readysoft
+File         : dlescap1.dat
+Search For   : 833C0075632BC0CD102BD2B700B402CD
+Replace With : 833C007563C704D204EB5DB700B402CD
+                        --------------
+File         : dlescap2.dat
+Search For   : 01E2F30BFB81F739F53B3C7501CB8CD3
+Replave With : 01E2F30BFB81F739F5893C7500CB8CD3
+                                 ----  --
+Notes : Disables the password protection.
+        You will no longer be prompted for a password.
+
+
+EYE OF THE BEHOLDER By Strategic Simulations
+File         : eob .exe
+Search For   : 9A9D67wwww83C4080BC074194783FF03
+Replace With : 9A9D67wwww83C4080BC0EB194783FF03
+                                   --
+Notes : Disables the password protection.
+        When prompted for a password press ENTER.
+        The w's are wild. Search for the second bit, then make sure the
+          first bit matches.
+
+
+GAUNTLET II By Tengen/Atari Games/Mindscape
+Files        : *.exe
+Search For   : 9A0000wwww070BC07403E9
+Replace With : EB0300wwww070BC0EB03E9
+Notes : Disables the password protection.
+        You will no longer be prompted for a password.
+        The w's are wild. Search for the second bit, then make sure the
+          first bit matches.
+
+
+LIGHTSPEED By Microprose
+File         : lightspd.ovl
+Search For   : A372A1833EBFE3007419509ADA
+Replace With : A372A1833EBFE300EB19509ADA
+                               --
+File         : lightspd.ovl
+Search For   : 9A021A2011EBF9   (Repeat proccess 13 times)
+Replace With : EB039090909090
+               --------------
+Notes : Disables the password protection.
+        You will no longer be prompted for a password.
+
+PGA TOUR GOLF By Electronic Arts
+File         : golf.exe
+Search For   : E8AAA9900EE8C9C3C606FE0932B83874
+Replace With : E8AAA9900E909090C606FE0932B83874
+                         ------
+Notes : Disables the password protection.
+        You will no longer be prompted for a password.
+
+
+SIMEARTH By Maxis
+File         : simearth.exe
+Search For   : 8C9E52FF833E567B007403E97F02B804
+Replace With : 8C9E52FFC706567B010090E97F02B804
+                       ----    ------
+Notes : Disables the password protection.
+        You will no longer be prompted for a password.
+
+
+F15 STRIKE EAGLE II By Microprose
+
+Either
+
+File         : f15.com
+Search For   : A73D9044AA96F09D
+Replace With : A73D4BC14844F06D
+                   --------  --
+or
+
+File         : f15.com
+Search For   : AB7BF32FB07321FA
+Replace With : ABFEF3FD6B73C3FA
+                 --  ----  --
+
+Notes : Disables the key disk protection
+        Does not work properly for Version 451.02

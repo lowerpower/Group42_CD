@@ -1,0 +1,656 @@
+NATIONAL LAWYERS GUILD
+COMMITTEE ON DEMOCRATIC COMMUNICATIONS
+100 Sansome Street, Suite 900
+San Francisco, California 94104
+Telephone: (415) 705-6464
+
+
+
+
+UNITED STATES COURT OF APPEALS
+
+FOR THE NINTH CIRCUIT
+
+
+
+
+
+WILLIAM LEIGH 
+DOUGAN,
+        
+          
+Petitioner,
+	v.
+
+FEDERAL 
+COMMUNICATIONS 
+COMMISSION, UNITED 
+STATES OF AMERICA,
+
+          Respondent        
+____________________
+_________
+
+
+ )
+ )
+ )
+ )
+ )
+ )
+ )
+ )
+ )
+ )
+ )
+ 
+
+
+No. 92-70734
+
+NAL/Acct. No. 
+215DS0007
+
+
+                               )
+UNITED STATES OF AMERICA,      )	No. 93-55433
+                         	 )
+		Plaintiff-Appellee,  )	NAL/Acct. No. CV-91-06431-RG
+     v.                        )
+	  					 )
+TOM REVEILLE,				 )
+						 )
+		Defendant-Appellant. )
+_______________________________)
+
+INTRODUCTION
+	The National Lawyers Guild's Committee on Democratic 
+Communications contends that Federal Communications Commission 
+(F.C.C.) policies with regard to micro radio broadcasting have 
+failed to keep pace with the rapid proliferation of technological 
+advances in the field of communication.  The F.C.C.'s current 
+regulatory scheme completely prohibits micro radio broadcasters 
+and their listeners from accessing the public airwaves.  To 
+enforce this absolute prohibition, the F.C.C. relies upon 
+regulations, and case law applying the regulations, which were 
+intended solely for application to large-scale, commercial 
+broadcasters, and which were promulgated long before the advent 
+of the technology that makes possible micro radio; indeed, even 
+before the advent of FM broadcasting.  As a result, the F.C.C.'s 
+application of these regulations violates the First Amendment 
+rights of individuals seeking to exercise those rights via 
+methods and mediums that were technologically impossible when the 
+regulations were created. 
+	The cost of owning and operating a radio station has  
+skyrocketed into the hundreds of thousands and even million 
+dollar range, and participation in the broadcast media has 
+thereby become limited only to large corporations.  The 
+individual seeking to communicate and listen to others over the 
+airwaves in his or her local community is completely left out of 
+the licensing scheme if he or she cannot afford the expenses 
+entailed in purchasing, obtaining a license for and operating a 
+commercial broadcast station with at least 100 watts of power. 
+	The National Lawyers Guild Committee on Democratic 
+Communications recognizes micro radio as a method by which 
+ordinary people can communicate with one another over the 
+airwaves without interfering with the rights of large-scale, 
+F.C.C. licensed commercial stations or their listeners.  The 
+F.C.C., however, has not provided a means by which persons 
+wishing to avail themselves of this new technological opportunity 
+can legally do so.  The problem is not that micro radio 
+broadcasters are refusing to comply with F.C.C. licensing 
+procedures.  Rather, the fundamental problem is that the F.C.C. 
+has not provided procedures by which micro radio broadcasters can 
+become licensed or authorized.  Instead, the F.C.C. is applying 
+severe administrative and criminal sanctions, intended for 
+application to large-scale, commercial operators, to micro radio 
+broadcasters with the goal of completely precluding all such 
+broadcasts.  When viewed in this light, the very notion of 
+assessing substantial forfeitures of as much as $20,000 against 
+individuals with no prior F.C.C. violations, accused of 
+transmitting a brief, low-power, non-commercial broadcast, is 
+ludicrous indeed.
+	It is the obligation of the F.C.C. to construct and enforce 
+its regulatory framework in such a way as to safeguard the First 
+Amendment right of free speech for all persons, regardless of 
+their economic power.  By totally prohibiting low-power micro 
+radio, the F.C.C. 1) fails to comply with its congressional 
+mandate to regulate the airwaves in the public convenience, 
+interest and necessity, 2) exceeds the limits of the power 
+conferred upon it by Congress, and 3) violates the constitutional 
+rights of micro radio broadcasters and their listeners.
+
+
+II.	THE COMPLETE AND ABSOLUTE PROHIBITION OF MICRO RADIO  
+BROADCASTS RESULTING FROM THE F.C.C.'S IMPROPER 
+IMPLEMENTATION OF THEIR STATUTORY AUTHORITY VIOLATES THE 
+FIRST AMENDMENT. 
+	The foremost purpose of requiring radio broadcasters to 
+obtain licenses from the F.C.C. is to prevent interference from 
+other radio broadcasts.  The F.C.C. maintains that due to the 
+finite size of the radio spectrum, or "spectrum scarcity", only 
+a limited number of radio frequencies are capable of 
+broadcasting at the same time in the same space without undue 
+interference from neighboring signals.  The F.C.C. argues that 
+this so-called spectrum scarcity somehow justifies the 
+application of a lower level of First Amendment protection for 
+persons utilizing the air-waves as compared to other forums. 
+ 	The F.C.C. itself, however, has found the concept of 
+"spectrum scarcity" to be an improper basis for applying a 
+different constitutional standard to broadcast media than to 
+other forms of media. In re Syracuse Peace Council, 2 F.C.C. 
+Rcd 5043 (1987).  As the Commission pointed out in Syracuse 
+Peace Council, while it may be true that there are only a 
+finite number of broadcast frequencies, this is no less true of 
+the computers, delivery trucks, ink and newsprint which are 
+used in the production of printed speech:
+. . .[W]e simply believe that, in analyzing the 
+appropriate First Amendment standard to be applied to the 
+electronic press, the concept of scarcity -- be it 
+spectrum or  numerical-- is irrelevant.  As Judge Bork 
+said in  Trac v. F.C.C. [801 F.2d at 508],  'Since 
+scarcity is a universal fact, it can hardly explain 
+regulation in one context and not another.  The attempt 
+to use a universal fact as a distinguishing principle 
+necessarily leads to analytical confusion.' 2 F.C.C. Rcd 
+5043, 5055.
+
+ 	The Commission went on to state that:
+
+[The] First Amendment was adopted to protect the people 
+not from journalists, but from the government. It gives 
+people the right to receive ideas that are unfettered by 
+government interference.  We fail to see how this right 
+changes when individuals choose to receive ideas from the 
+electronic media instead of the print media.  There is no 
+doubt that the electronic media is powerful and that 
+broadcasters can abuse their freedom of speech.  But the 
+framers of the Constitution believed that the potential 
+for abuse of private freedoms posed far less a threat to 
+democracy than the potential for abuse by a government 
+given the power to control the press.  (Id. at 5057.)   
+
+		The F.C.C. must ensure that their regulations provide 
+micro radio broadcasters the same constitutional protections 
+that have been established for more traditional means of 
+expression.  The F.C.C. is constitutionally required to develop 
+a regulatory procedure appropriate to this media rather than 
+simply creating and enforcing a complete and absolute 
+prohibition of micro radio.  This current F.C.C. policy 
+constitutes a prior restraint of free speech in violation of 
+the First Amendment.
+ 	The people of the United States have a constitutionally 
+protected interest in free speech by means of radio and other 
+forms of broadcast media.  The Supreme Court has previously 
+recognized the supremacy of the rights of the people as a whole 
+to have the medium of radio function consistently with the ends 
+and purposes of the First Amendment.  Red Lion Broadcasting, 
+395 U.S. 367, 390 (1969).  Given the Supreme Court's 
+recognition of the supremacy of these public rights, the 
+F.C.C.'s assertion of an, at best, remote, and as yet 
+undocumented possibility that micro radio may interfere with 
+the broadcasts of licensed, commercial stations is simply 
+inadequate to overcome the right of radio listeners to receive 
+the broad variety of view-points, perspectives, and programming 
+formats which micro radio offers. The advent of micro radio not 
+only gives radio listeners a low-cost alternative to the 
+perspectives presented on mainstream, commercial radio, but it 
+furthermore allows members of the public the opportunity to 
+participate and present their own personal and local community 
+interests in a direct and effective way, making the public 
+airwaves truly public for the first time.
+
+[COMMUNICATIONS SYSTEMS IN OTHER COUNTRIES. . .]
+	In Appendix 1 of the F.C.C.'s Report and Recommendations 
+in the Low Power Television Inquiry (BC Docket No. 78-
+253)(1980???) the study of very low power FM transmitters 
+conducted on behalf of the Canadian Department of 
+Communications recommended that application forms and required 
+information be simple enough to allow for easy application by 
+potential low power licensees.  Id. at 50.  Such an 
+application, along with rules governing broadcasts on low power 
+micro radio stations, is included here as Exhibit 1??? (see 
+attached).  These forms request operational information (name 
+of licensee, address, etc.), technical information 
+(frequency/channel, antenna location, type of equipment, etc.) 
+information concerning the community being served, and 
+statements as to how operation of a low power transmitter will 
+serve the needs of the community.  A cursory examination of 
+Exhibit 1 indicates that the licensing and administrative 
+requirements necessary to oversee operation of micro radio 
+stations are not burdensome.  Indeed, these licensing forms 
+reveal that micro radio can be easily regulated so as to 
+prevent any risk of signal interference, and that rules which 
+prohibit the operation of micro radio where there is a 
+compelling need are an arbitrary exercise of the Commission's 
+powers which fail to advance the public interest.
+
+	Safety concerns/Planes falling from sky.
+
+III.	THE FCC's FAILURE TO PROVIDE FOR MICRO RADIO BROADCASTING 
+RESULTS IN THE COMPLETE PROHIBITION ALL MICRO RADIO 
+BROADCASTING, IN VIOLATION OF 47 CFR § 73.201 ET SEQ.
+		The Commission has recently gone to great lengths to 
+argue that its regulations do not in fact completely prohibit 
+micro radio.  In its "Forfeiture Order" in a case very similar 
+to Mr. Dougan's , the Commission stated the following:
+[The alleged offender] could have, in fact, petitioned 
+the Commission to amend its rules in Part 73 to once 
+again allow operation at the 10 watt level in the 
+reserved Non-Commercial Educational FM band between 88 
+and 92 MHz, or he could have applied for a station 
+license (authorization) to operate a 10-watt station on a 
+channel above 92 MHz, or he could have petitioned the 
+Commission to amend its rules to allow non-licensed 
+operation under Part 15 of the rules with signal 
+strengths in excess of that currently permitted. . . .
+The reply fails to note that non-licensed operation of 
+radio transmitters as "micro radio broadcasts" on any 
+frequency of the operator’s choosing within the FM 
+broadcast band is in fact provided for in a blanket 
+authorization per 47 CFR §15.239(b).  Operation in excess 
+of the field strength limits so provided constitutes 
+activity for which a specific authorization - a radio 
+station license - is required.  If [the alleged offender] 
+wished to have these limits raised, he could have 
+petitioned the Commission to institute a rulemaking 
+procedure to that end.
+
+In addition, were [the alleged offender] or his 
+colleagues affiliated with a non-profit educational 
+organization intending to use the station in the 
+advancement of an educational program (however loosely 
+defined), the organization would be eligible for 
+licensing a Non-Commercial Educational FM Broadcast 
+station, on available frequencies and on a non-
+interference basis, as detailed in 47 CFR §§ 73.501 et. 
+seq.  Provisions are made for operation at the power 
+level of 10 watts - the general power level which [the 
+alleged offender] appears to be using - on available 
+channels above 92 MHz.
+The above is clear indication that there is no "complete 
+and absolute prohibition" against what the reply 
+continues to call "micro radio broadcasts." 
+
+  	A careful analysis of the above listed opportunities for 
+micro radio broadcasting within the F.C.C.’s current regulatory 
+framework reveals that there is, in fact, a complete 
+prohibition of micro radio broadcasting.  The suggestions 
+offered by the Commission break down to the following:
+1)	Petition the Commission to change the current regulatory 
+framework;
+
+2) 	Apply for a license to operate a 10 watt station above 92 
+MHz;
+
+3) 	Broadcast as permitted under 47 CFR 15.239(b);
+
+		4) 	Apply for a license to operate a Non-Commercial 
+Educational FM Broadcast station under 47 CFR §§ 73.501 
+et. seq.  		
+
+		Number 2 above is, in effect, the same as petitioning 
+for a rule change, since the minimum power requirements for 
+acquiring a license to operate above 92 MHz are 100 watts or a 
+six kilometer reference distance.   Number 3 above is 
+meaningless, since the field strength permitted by §15.239(b) 
+is so low as to preclude any micro radio broadcast capable of 
+being received beyond 1 or 2 blocks away from the transmitter.  
+The Commission’s suggestion that a 10 watt broadcast could 
+comply with the field strength limitations imposed by 
+§15.239(b) is misleading, at best.
+	Number 4 above is similarly misleading.  47 CFR §73.511(a) 
+explicitly provides that "No new Non-Commercial Educational 
+station will be authorized with less power than minimum power 
+requirements for commercial Class A facilities," that is, less 
+than 100 watts.  While it may be true that no one is precluded 
+under the current regulatory framework from applying for a 
+license as the Commission  suggests in number 4 above, it is 
+also true that no such application can possibly be approved by 
+the Commission under its current regulations.
+		The deceptively long list provided by the Commission, 
+then, boils down to "ask us to change our rules."  Given that 
+there are absolutely no standards or limitations governing the 
+Commission’s discretion in considering an application for a 
+rule change or waiver, this "option" is meaningless.  It is 
+well established in First Amendment jurisprudence that 
+regulations which vest absolute or near absolute discretion in 
+an agency to approve or deny exceptions to a generally 
+applicable rule are unconstitutional.    	It is the 
+obligation of the F.C.C. to construct and enforce its 
+regulatory framework in such a way as to safeguard the First 
+Amendment right of free speech for all persons, regardless of 
+their economic power.  By totally prohibiting low-power micro 
+radio, the Commission has failed to comply with its 
+congressional mandate to regulate the airwaves in the public 
+interest, has exceeded the limits of the power conferred upon 
+it by Congress, and is violating the constitutional rights of 
+micro radio broadcasters and their listeners.
+
+
+III.	THE F.C.C.'s ARBITRARY, CAPRICIOUS AND SELECTIVE METHOD OF 
+ENFORCING RESTRICTIONS AGAINST MICRO RADIO WHERE SUCH 
+BROADCASTS SERVE THE PUBLIC INTEREST, CONVENIENCE AND 
+NECESSITY PURSUANT TO 47 CFR §73.201 ET SEQ VIOLATES THE 
+FIRST AMENDMENT INTERESTS OF MICRO BROADCASTERS AND THEIR 
+LISTENERS.
+	
+		The F.C.C., in issuing Notices of Apparent Liability 
+(N.A.L.) to micro radio broadcasters, regularly indicate that 
+the forfeiture amount is determined pursuant to the F.C.C.'s 
+Policy Statement, Standards for Assessing Forfeitures, 
+(hereinafter "Policy Statement") and that according to the 
+standards therein, "the base forfeiture amount for operation 
+without authorization in broadcast services is $20,000.00."  
+The F.C.C.'s Policy Statement, however, was never meant to be 
+applied to unlicensed low power micro radio broadcasters.  This 
+is readily apparent from an analysis of the legislative history 
+of the Policy Statement, and from the fact that such 
+application in this case results in a base forfeiture amount 
+that violates 47 CFR § 1.80(b)(3) and 47 U.S.C. § 503(b) , the 
+statutory authority upon which the Policy Statement is based.
+		The Policy Statement was adopted by the F.C.C. in 
+July, 1991, and was released August, 1991.  In June, 1992, the 
+F.C.C. issued a  Memorandum Opinion and Order denying several 
+petitions for reconsideration of the Policy Statement 
+(Memorandum Opinion and Order, 70 RR 2d 1207), wherein the 
+F.C.C. explained the background of the Policy Statement:
+In 1989, Congress amended the Communications Act of 1934 
+to increase substantially the maximum dollar amounts of 
+forfeitures the Commission could impose under Section 
+503(b) and under other sections of the Act.  Previously, 
+Section 503(b) limited the Commission's forfeiture 
+authority to $20,000 for broadcasters and common carriers 
+and to $5,000 for all other services.  The amended 
+section 503(b) now provides the Commission with authority 
+to assess forfeitures of up to $25,000 against 
+broadcasters, cable operators, or applicants for such 
+facilities, $100,000 against common  carriers or 
+applicants for such facilities, and $10,000 against 
+others. . . . The Commission's forfeiture rule [47 CFR § 
+1.80(b)(1)-(3)] has been amended to reflect the higher 
+forfeiture amounts. . . . On August 1, 1991, the 
+Commission released the Policy Statement to assist both 
+the Commission and licensees in adjusting to the 
+statutory increases.  The Policy Statement provides base 
+forfeiture amounts for a wide range of generic violations 
+. . . . The base forfeiture amount for each type of 
+violation is a percentage of the statutory maximum for 
+the service involved for each violation. . . . The base 
+forfeiture amount may be increased or decreased by 
+applying adjustment criteria  as relevant to the facts of 
+any particular case."  Memorandum Opinion and  Order, 70 
+RR 2d 1207 [emphasis added].
+	The Memorandum Opinion and Order specifically states that 
+the Policy Statement was released to assist "the Commission 
+and licensees," and both the Memorandum Opinion and Order and 
+the Policy Statement itself refer numerous times to the effect 
+of the Policy Statement on licensees, but neither make any 
+mention whatsoever of non-licensees.  Moreover, the standards 
+set forth in the Policy Statement list thirty-eight categories 
+of violations to which the new standards are to be applied.  
+None of these categories refers to unlicensed radio 
+broadcasts. 
+	The F.C.C. apparently bases the determination of micro 
+radio forfeiture amounts on the standards set forth in the 
+Policy Statement for violations within the category listed as  
+"Construction and/or Operation Without an Instrument of 
+Authorization for the Service." (Policy Statement, Standards 
+for Assessing Forfeitures, appearing in the Appendix to the 
+Memorandum Opinion and Order, 70 RR at p. 1211).   The F.C.C., 
+apparently interprets this category to include unlicensed micro 
+radio broadcasting.  Such an interpretation of the Policy 
+Statement is, at best, strained. 
+		When the F.C.C. has, in the past, instructed its 
+agents and the public as to the forfeiture amounts to be 
+assessed for unlicensed radio operations, it has stated its 
+intention plainly and clearly.  Public Notice 2049, promulgated 
+March 5, 1990, and published at 67 RR 2d 619, stated:
+FCC TO INCREASE FINES FOR UNLICENSED RADIO OPERATIONS
+Unauthorized Radio Operations; Forfeitures.
+
+The Amount of the routine administrative monetary 
+forfeiture for unauthorized operation of a radio station 
+is increased from $750 to $1000.  The routine forfeiture 
+amount for first violations of the proscription of 
+unauthorized operation in the aviation, maritime, public 
+safety and special emergency radio services is increased 
+from $1000 to $1,250.  These increases are prompted by 
+increasing complaints of interference stemming from 
+illegal pirate operations and other unauthorized 
+activities.  Unlicensed Radio Operations (Routine Fines). 
+67 RR 2d 619 [1990].
+
+The Commission is increasing the amount of a routine 
+administrative monetary forfeiture for the unauthorized 
+operation of a radio station.  The usual amount for a 
+first time violation will be changed from $750 to $1000. 
+. . .
+
+The increases were prompted by numerous complaints of 
+interference resulting from "piracy" of the airwaves.  
+FCC licensees, broadcast associations and radio listeners 
+have reported increased illegal operations and a 
+proliferation of abusive activities.  Such malicious 
+practices violate FCC's Rules, impede efficient 
+management of the spectrum and frustrate spectrum users."  
+67 RR 2d 619
+		The F.C.C. has issued no subsequent Public Notice 
+indicating any further change in F.C.C. policy or guidelines 
+with respect to unlicensed micro radio broadcasting.  The 
+Policy Statement that  was issued in 1991 cannot, under any 
+reasonable interpretation of its language or history, be held 
+to supersede Public Notice 2049.  	The Policy Statement, as 
+discussed above, was issued in response to, and in keeping 
+with, the statutory increases contained in the 1989 amendments 
+to 47 U.S.C. § 503(b).  Those increases were, as the F.C.C. has 
+noted, "substantial." (Memorandum Opinion and Order, 70 RR 
+1207).  The maximum forfeiture amounts for the various 
+categories of violators were increased, respectively, as 
+follows: Licensed broadcasters, cable operators, or applicants 
+for such facilities, increase of 25%, from $20,000 to $25,000; 
+Common carriers or applicants for such facilities, increase of 
+500%, from $20,000 to $100,000;  All others, increase of 100%, 
+from $5000 to $10,000.  However, the F.C.C.'s attempt with 
+respect to micro radio broadcasters to apply the policy 
+statement to unlicensed micro radio broadcasts results in an 
+increase of as much as 2000%, from the $1000 indicated in 
+Public Notice 2049 to the "base forfeiture" of $20,000 alleged 
+in the recent N.A.L. filed against micro radio broadcaster 
+Steven Dunifer.  Such a result was plainly not contemplated by 
+the authors of the Policy Statement.
+		If the F.C.C. meant to change its procedures so 
+drastically with regard to so-called "pirate" radio operations, 
+it was required to so indicate in a manner that could be 
+understood as clearly as Public Notice 2049.  After such a 
+clear and unambiguous statement of policy as that contained in 
+Public Notice 2049, the Policy Statement of 1991 cannot be said 
+to provide reasonable or adequate notice that the policy was 
+being changed.  There is a simple explanation:  The F.C.C. 
+obviously did not intend the Policy Statement to supersede 
+Public Notice 2049 with regard to unlicensed radio operation.  
+		Furthermore, it is arbitrary and capricious for the 
+F.C.C. to levy any fine against micro radio broadcasters with 
+no opportunity for a hearing, no opportunity to meet with the 
+F.C.C., no explanation of how one might legally continue 
+broadcasting, and without proper consideration of the 
+statutorily mandated factors for determining the amount of the 
+fine. The alleged micro radio transmissions at 1/10th or less 
+of the power emitted by the smallest licensed commercial 
+broadcast, without commercial profit or motive, causing no 
+interference whatsoever, by a private individual interested 
+only in exercising his constitutional rights cannot logically 
+warrant the type of penalty assessed against Dougan and other 
+micro radio 
+broadcasters by the F.C.C.
+		In issuing their Notice of Apparent Liability 
+(N.A.L.) to micro radio broadcasters, the F.C.C. has also 
+recently relied upon the Policy Statement, Standards for 
+Assessing Forfeitures  category "Failure to permit inspection."  
+47 CFR §15.29(a) provides that:
+Any equipment or device subject to the provisions of this 
+part, together with any certificate, notice of 
+registration or any technical data required to be kept on 
+file by the operator, supplier or party responsible for 
+compliance of the device shall be made available for 
+inspection by a Commission Representative upon reasonable 
+request.
+		However, micro radio broadcasters are not permitted 
+to hold an F.C.C. license which would subject them to any 
+inspection requirements imposed by the Communications Act.  
+Furthermore, the language of §15.29(a) is extremely broad.  The 
+section applies to "any equipment or device subject to the 
+provisions of this part." With respect to which equipment or 
+devices are "subject to the provisions" of Part 15, §15.1 
+states the following:
+
+		Scope of this part.
+	
+(a) This part sets out the regulations under which an 
+intentional, unintentional, or incidental radiator may be 
+operated without an individual license."
+		Thus, any "intentional, unintentional, or incidental 
+radiator" that may legally be operated without an individual 
+license is "subject to the provisions" of Part 15.
+	Given the extremely broad scope of 47 CFR Part 15, it is 
+clear that the base forfeiture amount set by the 1993 Policy 
+Statement for "failure to permit an inspection" was not 
+intended for application to violations of §15.29.  To hold 
+otherwise leads to the absurd result that the F.C.C. could 
+knock on any person’s door at 9:30 p.m. and demand immediate 
+entry, with no warrant and without even an allegation or 
+complaint of interference with commercial, navigational, or 
+other licensed broadcasts, to "inspect" the person’s television 
+set, cordless phone, or personal computer.  Refusal to permit 
+entry would, under the N.A.L’s suggested construction of §15.29 
+and the Policy Statement, subject the person to assessment of a 
+substantial forfeiture. 
+		A much more reasonable interpretation of the Policy 
+Statement is that the category entitled "Failure to permit 
+inspection" does not include violations of Part 15, but rather 
+refers to licensed broadcast stations subject to the various 
+inspection requirements upon which those licenses are 
+conditioned.
+		A fundamental precept of statutory construction is 
+that statutory language cannot be interpreted in such a way as 
+to lead to an absurd result.  The F.C.C.'s application of the 
+Policy Statement in their N.A.L. to micro radio broadcasters 
+involves just such a prohibited interpretation.
+CONCLUSION
+		The National Lawyers Guild Committee on Democratic 
+Communications firmly believes that F.C.C. policies prohibiting 
+all operation of micro radio broadcasting constitute prior 
+restraint prohibited by the First Amendment, exceed the 
+F.C.C.'s constitutional authority, and are inconsistent with 
+the F.C.C.'s established guidelines and function.  The 
+Committee on Democratic Communications also firmly believes 
+that these same F.C.C. policies are violative of Due Process 
+and Equal Protection in that they discriminate against the poor 
+and minorities, and do not provide for adequate representation 
+by counsel or opportunity for a hearing or administrative 
+review.  In addition, the F.C.C.'s Notice of Apparent Liability 
+issued to Mr. Dougan and other micro radio broadcasters is 
+often defective in numerous regards.  The F.C.C. frequently 
+fails to comply with its own procedures, the forfeiture imposed 
+is grossly disproportionate, given these broadcasters' income 
+and assets and the nature of the alleged offenses, and the 
+forfeiture is often based upon unsubstantiated accusations with 
+insufficient evidentiary support.  
+		Based on the foregoing, the National Lawyers Guild 
+Committee on Democratic Communications urges the Court to 
+instruct the F.C.C. to draft new regulations allowing for the 
+operation of micro radio stations where such operation serves 
+the public interest, convenience and necessity as required 
+pursuant to 47 CFR §73.201 et seq.  Until such time as these 
+new regulations are drafted and implemented, all F.C.C. 
+procedures with respect to micro radio should be suspended.
+
+
+Dated:				Respectfully submitted,
+
+						NATIONAL LAWYERS GUILD
+						COMMITTEE ON DEMOCRATIC COMMUNICATIONS
+
+
+
+						________________________________
+						LUKE HIKEN
+						Staff Attorney
+
+ It is important to note that the 100 watt minimum is a regulatory creation of the F.C.C.  The F.C.C.'s decision 
+was justifiably criticized shortly after implementation in Note, Educational FM Radio - the Failure of Reform, 34 
+Fed. Com. L.J. 432 (1982).  Nothing in the Communications Act (47 U.S.C.  151 et. seq.), on its face, prohibits 
+micro radio broadcasting.  To the extent that the F.C.C.'s regulations have effectively banned micro radio, the 
+regulations are in conflict with the statutory framework and must be set aside.
+ In the Matter of Steven P. Dunifer, NAL/Acct. No. 315SF0050; SF-93-1355.
+ Quotes are from the "Forfeiture Order" in In the Matter of Steven P. 
+Dunifer (attached hereto and marked as exhibit "A"), at pages 3, 6.
+ 47 C.F.R. §§ 73.211 et. seq., 73.511.
+ The base forfeiture amount determined by the F.C.C. in this case is $17,500.  47 U.S.C. §503(b) and 47 C.F.R. 
+§1.80 set a statutory maximum of $10,000 for violations by non-licensees who are not common carriers.
+ 8 FCC Rcd 6215 (1993) (hereinafter "Policy Statement").
+
+[--- Unable To Translate Graphic ---]
+[--- Unable To Translate Graphic ---]
+[--- Unable To Translate Graphic ---]
+
+
+	1
+
+	2
+
+	3
+
+	4
+
+	5
+
+	6
+
+	7
+
+	8
+
+	9
+
+	10
+
+	11
+
+	12
+
+	13
+
+	14
+
+	15
+
+	16
+
+	17
+
+	18
+
+	19
+
+	20
+
+	21
+
+	22
+
+	23
+
+	24
+
+	25
+
+	26
+
+	27
+
+	28
+
+
+
+

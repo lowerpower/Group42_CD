@@ -1,0 +1,142 @@
+PANASONIC EB 2500/2501/2502, TP 500/800 SERIES.
+
+NOTES:  This is a dual NAM mobile or transportable unit.
+        The ESN prefix is 136 decimal & 88 hex.
+        Panasonic: 201-392-6053
+
+
+NAM PROGRAMING:
+
+1.  This unit requires a programing adaptor, part number EB-W0134, if you
+    do not have one try one of the following:
+
+If the phone has a transportable pack with a charged battery you can jump
+pins 2 and 3 of the power connector with a paper clip or tweezers.  With
+the transceiver right side up (rubber feet on the bottom) look at the power
+connector, pin 2 is bottom right, and pin 3 is top center.  In the
+following diagram the X marks the top of the connector where the plastic
+clip on the power cord is:
+
+                                 X
+                               5 3 1
+                               6 4 2
+
+Ignore any numbers stamped on the connector and remember this shows the
+power connector looking at the transceiver, or wire side of the power cord.
+
+If the phone does not have a transportable pack you can remove the plastic
+cap from the power cord and jump pins 2 and 3 as above.
+
+2.  Turn power on with pins 2 and 3 jumpered.
+
+3.  Enter * 0 0 0 0 #, phone will display "0", you are now in maintenance
+    mode.
+
+4.  Enter * 1 SND for NAM 1, or * 2 SND for NAM 2.  Phone will display "1"
+    or "2".  Note that NAM 2 has entries 01 through 06 only.
+
+5.  Each data entry can be looked at by pressing RCL followed by the
+    location (step) number below.
+
+6.  To store new data enter the value, press STO followed by the location
+    (step) number below.  For example to enter a system ID of 00031 enter
+    00031 STO 01.  Data can be entered or reviewed in any order.
+
+7.  At any time press STO * * to complete programing and return to
+    maintenance mode.
+
+8.  At any time press STO # # to ABORT programing and return to maintenance
+    mode.
+
+9.  Press * 4 SND to exit maintenance mode.
+
+
+PROGRAMING DATA:
+
+STEP#    #OF DIGITS/RANGE    DESCRIPTION
+
+01       00000 - 32767       SYSTEM ID
+02       10 DIGITS           MIN (AREA CODE & TEL NUMBER)
+03       0 OR 1              PREFERRED SYSTEM
+04       333 OR 334          INITIAL PAGING CHANNEL
+05       2 DIGITS            ACCESS OVERLOAD CLASS
+06       2 DIGITS            GROUP ID (10 IN USA)
+07       2 DIGITS            DIALED DIGIT LIMIT (00= NO LIMIT)
+08       08 ONLY             STATION CLASS MARK
+09       UP TO 12 DIGITS     SPEED DIAL NUMBER (PERMANENT NUMBER STORED IN
+                             LOCATION 00)
+10       2 TO 4 DIGITS       LOCK CODE
+11       8 DIGIT, 0 OR 1     SEE NOTE 1 BELOW.
+12       8 DIGIT, 0 OR 1     SEE NOTE 2 BELOW
+13       8 DIGIT, 0 OR 1     SEE NOTE 3 BELOW
+
+
+NOTES:
+
+1.  Suggested entry is: 11000100.
+
+Digit 1 = Local use Mark
+Digit 2 = MIN Mark
+Digit 3 = Not Used
+Digit 4 = Not Used
+Digit 5 = Not Used
+Digit 6 = Horn Alert  (Select only if radio mute is "0")
+Digit 7 = Radio Mute  (Select only if horn alert is "0")
+Digit 8 = Not Used
+
+2.  Suggested entry is: 00010100.
+
+Digit 1 = Not Used
+Digit 2 = Built in Monitor
+Digit 3 = Auto Lock (if set to 1 and unlock code is unknown phone will NOT
+                    enter program mode.)
+Digit 4 = Full Lock
+Digit 5 = Not Used
+(Enable only one of the following)
+Digit 6 = Allow user A/B select
+Digit 7 = Preferred system only
+Digit 8 = Home system only (no Roam)
+
+3.  Suggested entry is: 11000111.
+
+Digit 1 = Received call indicator
+Digit 2 = Continuous DTMF
+Digit 3 = Not Used
+Digit 4 = Dial Lock
+Digit 5 = Not Used
+Digit 6 = Enable permanent timer (FCN 1)
+Digit 7 = Enable resetable timer (FCN 2)
+Digit 8 = Enable individual call timer
+
+
+READING ESN FROM HANDSET:
+
+1.  Power up phone with pins 2 and 3 jumpered as above.
+
+2.  Enter * 0 0 0 0 #.
+
+3.  Press * 3 SND.
+
+4.  Press 1 1 SND, phone will display decimal ESN, note that the leading
+    "1" of the 136 ESN prefix will be omitted as the phone only has a ten
+    digit display capacity.
+
+LOCK: F 3 2 = Dial Lock, F 3 1 = Send lock, F 3 0 = Full lock
+
+UNLOCK: Enter two to four digit code.
+
+
+A/B SYSTEM SELECT:
+
+1.  Phone will default to preferred/non-preferred on every power up.
+
+2.  A only: F 7 2
+
+3.  B only: F 7 3
+
+4.  Home only: F 7 4
+
+
+
+
+ 

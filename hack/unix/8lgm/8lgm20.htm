@@ -1,0 +1,95 @@
+<HEAD>
+<TITLE>[8lgm]-Advisory-20.UNIX.SunOS-sendmailV5.1-Aug-1995</TITLE>
+</HEAD>
+<BODY>
+<HR>
+         <H1> [8lgm]-Advisory-20.UNIX.SunOS-sendmailV5.1-Aug-1995</H1>
+<P>
+<H2>PROGRAM:</H2>
+<P>
+	<CODE>sendmail(8)</CODE>
+<P>
+<H2>VULNERABLE VERSIONS:</H2>
+<P>
+<UL>
+<LI>	SunOS 4.1.*
+<LI>	Sendmail v5 sources
+<LI>	Potentially other vendor v5 based sendmails
+</UL>
+<P>
+<H2>DESCRIPTION:</H2>
+<P>
+	The method used by <CODE>sendmail</CODE> version 5 to open a control file
+	is insecure.  A race condition exists whereby another process
+	may obtain a control-file file descriptor, opened for write
+	access.
+<P>
+<H2>IMPACT:</H2>
+<P>
+	Local users can write their own control files, and run programs
+	as any user, bar <CODE>root</CODE>.  This increases chances of obtaining root
+	access on the local system.
+<P>
+<H2>REPEAT BY:</H2>
+<P>
+	A program to exploit this vulnerability is available as of now.
+	This program has been tested with the latest Sun patch, and should
+	work on other platforms.  To obtain this program, send mail to 
+	8lgm-fileserver@8lgm.org, with a line in the body of the message
+	containing:-
+<P>
+	<CODE>SEND grabfd.c</CODE>
+<P>
+<H2>DISCUSSION:</H2>
+<P>
+	<CODE>Sendmail</CODE> v5, during execution, sets <CODE>umask(0)</CODE>, which is an insecure
+	mask.  In order not to leave open control files with mode 666, 
+	<CODE>sendmail</CODE> v5 uses <CODE>chmod(2)</CODE> to set a secure file mode.  However
+	this is a race condition, as we can obtain an open file descriptor
+	for write by opening the control file before the call to <CODE>chmod(2)</CODE>.
+<P>
+<H2>WORKAROUND:</H2>
+<P>
+	Change the mode on <CODE>/usr/spool/mqueue</CODE> to 700.  This will prevent
+	normal users gaining access to the queue files directly.
+<P>
+<H2>FIX:</H2>
+<P>
+	Contact vendor for fix.
+<P>
+	Patch source to use a more restrictive umask.
+<P>
+<H2>STATUS UPDATE:</H2>
+<P>
+	The file:
+<P>
+        [8lgm]-Advisory-20.UNIX.SunOS-sendmailV5.1-Aug-1995.README
+<P>
+	will be created on www.8lgm.org.  This will contain updates on 
+	any further versions which are found to be vulnerable, and any
+	other information received pertaining to this advisory.
+<P>
+<HR>
+<P>
+<H2>FEEDBACK AND CONTACT INFORMATION:</H2>
+<P>
+<PRE>
+	majordomo@8lgm.org	(Mailing list requests - try 'help'
+				 for details)
+<P>
+	8lgm@8lgm.org		(Everything else)
+</PRE>
+<P>
+<H2>8LGM FILESERVER:</H2>
+<P>
+	All [8LGM] advisories may be obtained via the [8LGM] fileserver.
+	For details, '<CODE>echo help | mail 8lgm-fileserver@8lgm.org</CODE>'
+<P>
+<H2>8LGM WWW SERVER:</H2>
+<P>
+	[8LGM]'s web server can be reached at <A HREF="http://www.8lgm.org">http://www.8lgm.org</A>.
+	This contains details of all 8LGM advisories and other useful
+	information.
+<P>
+<HR> 
+</BODY>

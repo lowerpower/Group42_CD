@@ -1,0 +1,10 @@
+Crack> Accolade Software (generally)
+
+crack written by The Mad Hacker
+
+     Here is an easy way to remove the protection schemes of 4th
+& Inches, Test Drive, Fast Break, and other Accolade Software.
+     Search for 55 56 57 06 1E and replace with 31 C0 C3 06 1E.
+(Use Norton Utilities, DEBUG, PC-Tools, or other equivalent.)
+
+

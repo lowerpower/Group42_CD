@@ -1,0 +1,70 @@
+
+                       *^*^*^*^*^*^*^*^*^*^*^*^*^*
+                       *    HOW TO PROGRAM THE   * 
+                       *    PANASONIC CELLULAR   *
+                       *          PHONE          *
+                       *^*^*^*^*^*^*^*^*^*^*^*^*^*
+
+ *BEFORE YOU BEGIN*
+
+ Turn to the screen Make sure you have the information listed that you will
+need to change, including:
+
+                      Home Area I.D. (SIDH)
+                      New Phone  Number (MIN)
+                      System (A or B)
+                      Paging Channel
+                      Station Class Mark
+                      Lock Code
+                      and ESN
+
+ Refer to specific programming instructions for additional information 
+required for each particular cellular phone.
+
+ There are two programs that contain information to program Panasonic cellular
+phones. They are PAN, and also BEECH.
+ Enter the PAN directory and type GO and you will see the menu titled
+"Phone & Function Menu".
+ You can get the cabling diagramto connect Panasonic phones to a computer for
+programming from THE NEW YORK HACK EXCHANGE BBS at (718) 379-4702.
+
+ Slect 1. " Program any Chip" to use the EEPROM programmer to program either
+ 16911 or 93C46 chips. Choice 2, "Panasonic D, E & F Series" is the screen
+ actually used for programming. That program can be used to program NOKIA,or
+ basically any phone that uses either the 93C46 or 16911 Serial EEPROM.
+
+ PROGRAMMING THE PHONE:
+ ----------------------
+ After you have built the correct cabling to the phone and have a dedicated
+power source to it, choose "2. Panasonic D, E & F Series" from the Phone &
+Function Menu. 
+
+ I recommend the following procedure.
+
+1. Choose [F1] "READ CHIP" from the menu. After it has read the chip, do a
+"Print Screen" or use a screen capture to save the original information in
+case you need to put the phone back to its original readings. You might also
+want to use [F4] to save the chip in order to have the original parameters
+on file. Use a system that will allow you recognize the file name in the
+event you need to reload the chip. 
+
+2. After reading the chip, select [F7] to change the Electronic Serial Number
+ (ESN). The next screen will prompt you for the ESN in either HEX or DECIMAL.
+ Follow the prompts, selecting either H or D to enter the ESN. Remember to
+ add the dashes if you select D for Decimal. After you have selected the
+ correct parameters, select [F6] to program the chip.
+
+3. When you are finished, simply select [Esc] to exit the programming phase.
+
+If you have any other question about this or any other programming 
+instructions you can leave me mail on THE NEW YORK HACK EXCHANGE BBS or you
+can find me floating around on the INTERNET...
+ 
+ Also look for the following instruction's: 
+
+                         Programming NEC's
+                         Programming Mitsubishi's
+                         Programming Motorola's
+                         and other's!!
+
+                                                      THE PUNISHER*HTH-UK*

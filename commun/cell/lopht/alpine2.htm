@@ -1,0 +1,250 @@
+<a name="9510">
+<pre>
+                              ALPINE 9510
+
+                  NAM Type:  Fujitsu
+              Manufacturer:  Fujitsu
+                Programmer:  Curtis or Bytek
+            ESN Prefix DEC:  150
+                       HEX:  96
+   ESN, S/N Match Required:  YES
+      Programmable Handset:  No
+        Available Channels:  666
+
+       Phone Number Format:  XXX-XXX-XXXX
+          Lock Code Format:  XXX
+
+                MIN Option:  Enabled
+          Repertory Option:  Enabled
+          Handsfree Option:  Enabled or Disabled
+          Local Use Option:  Enabled
+     End-to-End Signalling:  Enabled
+         Horn Alert Option:  Enabled
+          System ID Format:  XXXXX
+         Preferred Systems:  A or B
+     Access Overload Class:  XX
+           Group ID Format:  XX
+
+    Initial Paging Channel:  333 or 334
+             Station Class:  00
+
+                Horn Alert:  F + #(Aux)
+           New Unlock Code:  NAM
+             System Select:  F + 1 + X
+                               X=1  (A then B)
+                               X=2  (B then A)
+                               X=3  (A only)
+                               X=4  (B only)
+                               X=5  (Home)
+
+</pre>
+<a name="9511">
+<pre>
+                              ALPINE 9511
+
+                 NAM Type:  EEPROM
+             Manufacturer:  Fujitsu
+               Programmer:  Handset
+           ESN Prefix DEC:  150
+                      HEX:  96
+  ESN, S/N Match Required:  Yes
+     Programmable Handset:  Yes
+       Available Channels:  832
+
+     Programming Sequence:  Power On
+                            F + LOCK
+                            POWER OFF
+                            POWER ON
+                            #626#7764726 (within 10 seconds)
+                            HOLD (*) key until tone stops
+                            Enter Data for each step then press STOR
+                            Press SEND to write data
+
+                         #Digits
+         System ID Format:  5     XXXXX
+         Local Use Option:  1     1
+               MIN Option:  1     1
+            Mobile Number:  10    XXX-XXX-XXXX
+            Station Class:  2     08
+   Initial Paging Channel:  3     333 or 334
+    Access Overload Class:  2     XX
+         Preferred System:  1     0 (B) or 1 (A)
+          Group ID Format:  2     XX
+                     Lock:  3or4  XXX or XXXX
+               Call Timer:  1     4 (see i)
+                Auto Lock:  1     1 (see ii)
+         Call Restriction:  1     1 (see iii)
+
+                                i. Call Timer - 1  Timer off
+                                                2  6-seconds
+                                                3  30-seconds
+                                                4  60-seconds
+  
+                                ii. Auto Lock - 1  Manual Lock, No out
+                                                2  Manual Lock, No calls
+                                                3  Auto Lock, No out
+                                                4  Auto Lock, No calls
+
+                        iii. Call Restriction - 1  No Restriction
+                                                2  No Memory Dialing
+                                                3  No Long Distance
+                                                4  Both 2 and 3
+                                                5  Memory Calls only
+                                                   ALPINE 9511   NAMS 2,3,4
+
+    Programming Sequences:  Power On
+                            Unlock Power (if locked)
+                            (F) (7) (NAM Number - 2, 3, or 4)
+                            (F) (Lock)
+                            Power Off
+                            Power On
+                            Follow Programming Code and Steps from Top Model
+
+               Horn Alert:  F + # (Aux)
+          New Unlock Code:  NAM
+            System Select:  F + 1 + X
+                              X=1  A then B
+                              X=2  B then A
+                              X=3  A only
+                              X=4  B only
+                              X=5  Home
+
+</pre>
+<a name="9525">
+<pre>
+                              ALPINE 9525 and 9530
+
+                 NAM Type:  EEPROM
+             Manufacturer:  Fujitsu
+               Programmer:  Handset
+           ESN Prefix DEC:  150
+                      HEX:  96
+  ESN, S/N Match Required:  Yes. Manufacturer Prefix + Last 4 or 5 digits
+     Programmable Handset:  Yes
+       Available Channels:  832
+
+     Programming Sequence:  Power On
+                            F + LOCK
+                            Power Off
+                            Power On
+                            # + 626 + # + 7764726 (within 10 seconds)
+                            Hold (*) key until tone stops
+                            Enter data for each step then press STOR
+                            Press SEND to write data
+
+                        # of Digits
+         System ID Format:  5     XXXXX
+         Local Use Option:  1     1
+               MIN Option:  1     1
+            Mobile Number:  10    XXX-XXX-XXXX
+            Station Class:  2     08 (Mobile) or 14 (Portable)
+   Initial Paging Channel:  3     333 or 334
+    Access Overload Class:  2     XX
+         Preferred System:  1     1(A) or 0(B)
+          Group ID Format:  2     XX
+              Unlock Code:  3or4  XXX or XXXX
+               Call Timer:  1     4 (i)
+                Auto Lock:  1     1 (ii)
+         Call Restriction:  1     1 (iii)
+      System ID Inhibit #:  5     XXXXX
+      System ID Inhibit #:  5     XXXXX
+      System ID Inhibit #:  5     XXXXX
+
+                         i. Call Timer Increment -  1 Timer Off
+                                                    2  6-seconds
+                                                    3  30-seconds
+                                                    4  60-seconds
+
+                        ii. Auto Lock -  1 Manual Lock, no out
+                                         2  Manual Lock, No calls
+                                         3  Auto Lock, No out
+                                         4  Auto Lock, No calls
+
+                       iii. Call Restriction -  1 No Restriction
+                                                2  No Memory Dialing
+                                                3  No Long-Distance
+                                                4  Both 2 and 3
+                                                5  Memory Calls only
+
+NAMS 2-4
+
+     Programming Sequence:  Power On
+                            Unlock Power (if locked)
+                            F + 7 + NAM 2, 3 or 4
+                            F + LOCK
+                            Power Off
+                            Power On
+                            Follow Programming Code and steps from top example.
+
+</pre>
+<a name="9550">
+<pre>
+                              ALPINE 9550 Portable
+
+                 NAM Type:  EEPROM
+             Manufacturer:  Fujitsu
+               Programmer:  Handset
+           ESN Prefix DEC:  150
+                      HEX:  96
+  ESN/Serial Number Match:  Yes. Manufacturer prefix + last 4 or 5 digits
+     Programmable Handset:  Yes
+       Available Channels:  832
+     Programming Sequence:  Power On
+                            F + Lock
+                            Power Off
+                            Power On
+                            # + 626 + # + 7764726 (within 3 seconds)
+                            Hold (*) key until tone stops
+                            Enter data for each step then press STOR
+                            Press SEND to write data
+
+                         # digits
+         System ID Format:  5     XXXXX
+         Local Use Option:  1     1
+               MIN Option:  1     1
+            Mobile Number:  10    XXX-XXX-XXXX
+            Station Class:  2     14
+   Initial Paging Channel:  4     0333 or 0334
+    Access Overload Class:  2     XX
+         Preferred System:  1     1(A) or 0(B)
+          Group ID Format:  2     XX
+              Unlock Code:  3or4  XXX or XXXX
+               Call Timer:  1     4(i)
+                Auto Lock:  1     1(ii)
+         Call Restriction:  1     1(iii)
+
+                         i. Call Timer Increment -  1 Timer Off
+                                                    2  6-seconds
+                                                    3  30-seconds
+                                                    4  60-seconds
+
+                        ii. Auto Lock -  1  Manual Lock, no out
+                                         2  Manual Lock, No calls
+                                         3  Auto Lock, No out
+                                         4  Auto Lock, No calls
+
+                       iii. Call Restriction -  1  No Restriction
+                                                2  No Memory Dialing
+                                                3  No Long-Distance
+                                                4  Both 2 and 3
+                                                5  Memory Calls only
+
+     Programming Sequence:  Power On
+                            Unlock Phone (if locked)
+                            F + 7 + NAM 2, 3 or 4
+                            F + LOCK
+                            Power Off
+                            Power On
+                            Follow Programming Code and steps from above
+
+          New Unlock Code:  NAM
+            System Select:  FCN + 1 + X
+                             X=1  AB
+                             X=2  BA
+                             X=3  A only
+                             X=4  B only
+                             X=5  Home
+
+Curent status may be reviewed with RCL/ALT + FCN + 1
+
+

@@ -1,0 +1,363 @@
+<HTML>
+<HEAD>
+<TITLE>Alphanumeric Paging Entry Protocol</TITLE>
+</HEAD>
+<BODY TEXT=000000 BGCOLOR=BEBEBE>
+<BR>
+<HR ALIGN=center  WIDTH=100% SIZE=5><BR>
+
+<H1><CENTER>The Alphanumeric Paging Entry Protocol</H1>
+<h4>By Brad Dye</h4>
+</CENTER>
+
+<HR ALIGN=center  WIDTH=100% SIZE=5><P>
+Brad Dye has a web site at http://village.ios.com/~braddye.  He has
+some very good paging info.
+<p>
+<p>
+The Alpha Paging Entry Protocol: Talk to Motorola and they will probably say they invented it. Talk to IXO and they will probably take credit for it too. It is known as the "IXO" protocol because the IXO Company used to make a little hand-held keyboard de
+
+vice for entering alpha messages. Motorola likes to call it "PET" for Personal Entry Terminal. After it was adopted by the Telocator Paging Association (now called PCS) they started calling it "TAP" for Telocator Alpha-entry Protocol.<P>
+
+The truth -- like many things in life -- is not so well known. It was actually written at the direction of my good friend Bob Edwards, the paging industry pioneer. Bob owned Radiofone Corp. (Empire Paging in New York) which was one of the largest carriers
+
+ in the USA. One of Bob's technical people (Doug Morrison) wrote the code because Bob had the vision to get into Alphanumeric Paging before anyone else thought it was a good idea.<P>
+
+He also had the first Numeric Display Pager manufactured when everyone else in the industry thought voice pagers was the only way to go.  Of course, the Numeric Display Pager became the most successful pager ever made, and it continues to lead the world m
+
+arket by a large margin. Alphanumeric paging is gaining share of market in the US and is clearly the dominant offering in Latin America with over 90% of the market.<P>
+
+<HR ALIGN=center  WIDTH=100% SIZE=5><BR>
+
+<CENTER><STRONG>Recommended sequence of call delivery from a small entry device</STRONG><BR>
+
+<TABLE BORDER WIDTH=100%>
+<TR VALIGN=top><TD ALIGN=center><STRONG>Step</STRONG></TD><TD ALIGN=left><STRONG>Remote entry device does</STRONG></TD><TD ALIGN=left><STRONG>Paging central does</STRONG></TD><TD ALIGN=left><STRONG>Comments</STRONG> </TD></TR>
+<TR VALIGN=top><TD ALIGN=center>1</TD><TD ALIGN=left>Off hook<BR>
+Access DDD line<BR>
+Await dial tone<BR>
+Dial stored access number</TD><TD ALIGN=left>
+<BR>
+<BR>
+<BR>
+<BR>
+Ring<BR>
+Answer</TD><TD ALIGN=left>&nbsp; </TD></TR>
+<TR VALIGN=top><TD ALIGN=center>2</TD><TD ALIGN=left>Carrier up</TD><TD ALIGN=left>Carrier up</TD><TD ALIGN=left>&nbsp; </TD></TR>
+<TR VALIGN=top><TD ALIGN=center>3</TD><TD ALIGN=left>"&lt;CR&gt;"</TD><TD ALIGN=left>&nbsp;</TD><TD ALIGN=left>"&lt;CR&gt;" is repeated at two second intervals until paging central responds with "ID=" at correct baud rate or until 3 transmissions have bee
+
+n completed. (This step exists to allow for possible future baud rate recognition). (All quotation marks or the symbols shown are used for notation in this document and are not transmitted). </TD></TR>
+<TR VALIGN=top><TD ALIGN=center>4</TD><TD ALIGN=left>&nbsp;</TD><TD ALIGN=left>"ID="</TD><TD ALIGN=left>Request for ID returned within one second of receipt of &lt;CR&gt;. </TD></TR>
+<TR VALIGN=top><TD ALIGN=center>5A</TD><TD ALIGN=left>(For automatic remote entry devices)<BR>
+"&lt;ESC&gt; SST"</TD><TD ALIGN=left>&nbsp;</TD><TD ALIGN=left>"&lt;ESC&gt;" signifies entry device intends to talk in automatic dump mode.<BR>
+"SS" is a set of two alphanumberic characters signifying a type of service to be accessed.<P>
+(For a paging service where:<P>
+Field 1 = "Pager ID" and<BR>
+Field 2 = "Message" (where applicable)<P>
+SS will be sent as "PG".)<P>
+Where T is a single alphanumeric character relating to the type of terminal or device attempting to send the message.<P>
+T = "1" is a catagory of entry devices using the same protocol. The IXO and Novation devices are members of this category.<P>
+T = 7, 9, 9 are reserved for wild card terminal or devices which may relate to a specific user's system.<P>
+6 alphanumeric character password (PPPPPP) here from automatic terminals. (Password is optional and may be different lengths in some systems). </TD>
+<TR VALIGN=top><TD ALIGN=center>5M</TD>
+<TD ALIGN=left>(For manual remote entry.)<P>
+"M&lt;CR&gt;"
+</TD>
+<TD ALIGN=left>&nbsp;</TD>
+<TD ALIGN=left> Lack of &lt;ESC&gt; at beginning of response to "ID" signifies manual operation where applicable.<P>
+Any manual operation is user defined after logon. &lt;"M CR"&gt; can be replaced by any sequence ending in &lt;CR&gt; and not beginning with &lt;ESC&gt;.</TD></TR>
+<TR VALIGN=top><TD ALIGN=center>6</TD><TD ALIGN=left>&nbsp;</TD>
+<TD ALIGN=left>"&lt;Message sequence&gt; &lt;CR&gt; &lt;ACK&gt; &lt;CR&gt;"<P>
+<CENTER>or</CENTER><BR>
+"&lt;Message sequence&gt; &lt;CR&gt; &lt;NAK&gt;&lt;CR&gt;"<BR>
+<BR>
+<CENTER>or</CENTER><BR>
+"&lt;Message sequence&gt; &lt;CR&gt; &lt;ESC&gt; &lt;EOT&gt; &lt;CR&gt;"<BR>
+</TD><TD ALIGN=left>Logon accepted<BR>
+<BR>
+<BR>
+<BR>
+or<BR>
+<P>
+Requested again<P>
+<BR>
+<BR>
+or<BR>
+<BR>
+Forced disconnect<BR>
+<BR>
+<BR>
+<BR>
+A message sequence is defined as a series of short messages separated by &lt;CR&gt;'s. Message sequences are totaly optional.</TD></TR>
+<TR VALIGN=top><TD ALIGN=center>7</TD><TD ALIGN=left>&nbsp;</TD><TD ALIGN=left>"&lt;ESC&gt; [p &lt;CR&gt;"</TD><TD ALIGN=left>Message go ahead is sent when paging central is ready for new information. Note: the "p" is in lower case.</TD></TR>
+<TR VALIGN=top><TD ALIGN=center>8
+<BR>
+<BR>
+BLOCK<BR>
+#1<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+BLOCK<BR>
+#2<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+BLOCK<BR>
+#3<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+BLOCK<BR>
+#4<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+LAST<BR>
+BLOCK<BR>
+</TD>
+<TD ALIGN=left>
+<STRONG>TRANSACTION #1</STRONG><BR>
+<BR>
+"&lt;STX&gt;<BR>
+FIELD #1 &lt;CR&gt;<BR>
+FIELD #2 &lt;CR&gt;<BR>
+&nbsp;&nbsp;|  </TT><BR>
+&nbsp;&nbsp;|  </TT><BR>
+FIELD #N &lt;CR&gt;<BR>
+&lt;ETX&gt;&lt;CHECKSUM&gt;&lt;CR&gt;"<BR>
+<BR>
+<STRONG>TRANSACTION #2</STRONG><BR>
+<BR>
+"&lt;STX&gt;<BR>
+FIELD #1 &lt;CR&gt; <BR>
+&nbsp;&nbsp;|  </TT><BR>
+&nbsp;&nbsp;|  </TT><BR>
+&nbsp;&nbsp;|  </TT><BR>
+FIELD #J &lt;CR&gt;<BR>
+&lt;ETB&gt;&lt;CHECKSUM&gt;&lt;CR&gt;"<BR>
+<BR>
+"&lt;STX&gt;<BR>
+FIELD #J + 1 &lt;CR&gt; <BR>
+&nbsp;&nbsp;|  </TT><BR>
+&nbsp;&nbsp;|  </TT><BR>
+&nbsp;&nbsp;|  </TT><BR>
+FIELD #L &lt;CR&gt;<BR>
+&lt;ETB&gt;&lt;CHECKSUM&gt;&lt;CR&gt;"<BR>
+<BR>
+<BR>
+"&lt;STX&gt;<BR>
+FIELD #L + 1 &lt;CR&gt;<BR>
+&nbsp;&nbsp;|  </TT><BR>
+&nbsp;&nbsp;|  </TT><BR>
+&nbsp;&nbsp;|  </TT><BR>
+FIELD #N &lt;CR&gt;<BR>
+&lt;ETX&gt;&lt;CHECKSUM&gt;&lt;CR&gt;"<P>
+<STRONG>LAST TRANSACTION</STRONG><P>
+"&lt;STX&gt;<BR>
+FIELD &lt;CR&gt; <BR>
+&nbsp;&nbsp;|  </TT><BR>
+&nbsp;&nbsp;|  </TT><BR>
+&nbsp;&nbsp;|  </TT><BR>
+FIELD #N &lt;CR&gt;<BR>
+&lt;ETX&gt;&lt;CHECKSUM&gt;&lt;CR&gt;"<BR>
+</TD>
+<TD ALIGN=left>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+"&lt;Message sequence&gt; &lt;CR&gt; &lt;ACK&gt; &lt;CR&gt;"<P>
+<CENTER>or</CENTER><P>
+"&lt;Message sequence&gt; &lt;CR&gt; &lt;RS&gt; &lt;CR&gt;"<P>
+<CENTER>or</CENTER><P>
+"&lt;Message sequence&gt; &lt;CR&gt; &lt;ESC&gt; &lt;EOT&gt; &lt;CR&gt;"</TD>
+<TD ALIGN=left>A "block" is up to 256 characters in lentgth, with up to 250 characters of info, plus 3 control characters and a 3 character checksum. The block carries one transaction (one set of all fields 1 through N) or a portion of a transaction. A bl
+
+ock always carries an integral number of fields with their associated &lt;CR&gt;'s. It may be less than 256 characters to accommodate short transactions or the integral number of fields rule.<P>
+
+A field, with its associated &lt;CR&gt;, may not exceed 250 characters. The &lt;CR&gt; field delimiter suggests &lt;CR&gt; may not be used within a field.<P>
+
+The &lt;ETX&gt; is used if a given transaction (Fields 1 through N) ends within the block currently being transmitted. The &lt;ETB&gt; is used if the transaction is continued into the next block. No limit is established within the protocol itself regardin
+
+g the number of transactions or the number of blocks or fields or blocks per transaction; however, a particular user system may have limits on either or both. Some systems may be limited to one block per transaction and one transaction per phone connectio
+
+n.<P>
+
+Each checksum is computed by performing the simple arithmetic sum of the 7-bit values of all characters preceding it in that block. (This means that STX and ETB/ETX are included in the sum). The checksum is then the least significant 12 bits of this resul
+
+ting sum.<P>
+
+The checksum is transmitted as 3 printable ASCII characters having values between HEX 30 and HEX 3F (the characters 0123456789:;&lt;=&gt;?). The most significant 4 bits of the sum are encoded as the 4 LSB of the second character and the least significant 
+
+4 bits of the sum are encoded as the 4 LSB of the third character. (See example in following table.)<P>
+
+A normal paging system will have 2 fields only:<P>
+
+Field 1 = Pager ID (normally up to 8 digits. May include function and check digit).<P>
+
+Field 2 = Message.<P>
+
+When a page is tone only, Field 2 will be empty. (Field 2 will typically be up to 80 alphanumeric or up to 24 numeric characters).<P>
+
+The response to each block is one of four:<P>
+&lt;ACK&gt;&lt;CR&gt; = OK, send next block.<P>
+<BR>
+<BR>
+or<BR>
+<BR>
+&lt;NAK&gt;&lt;CR&gt; = Checksum error, send latest block again.<P>
+<BR>
+or<BR>
+<BR>
+&lt;RS&gt;&lt;CR&gt; = Abandon current transaction and go to next. RS may occur wthen the checksum is OK, but the current transaction violates a system rule. At the option of the system, it may occur in other cases.<P>
+&lt;ESC&gt;&lt;EOT&gt;&lt;CR&gt; = Begin disconnect.<P>
+Any of the responses may have an optional message sequence before them, although the system designer should understand the consequences to the user with all planned entry devices.<P>
+It is expected that many systems will save their message sequence responses until immediately before disconnect. For some entry devices, it may also be desirable that messages describing non-checksum errors associated with a particular transaction in a "P
+
+G" service will begin with the letters "ID" followed by the contents of field 1 for that transaction.</TD></TR>
+<TR VALIGN=top><TD ALIGN=center>9</TD><TD ALIGN=left>"&lt;EOT&gt;&lt;CR&gt;"</TD><TD ALIGN=left>&nbsp;</TD><TD ALIGN=left>After reception of an &lt;ACK&gt; or &lt;RS&gt; for the last transaction in a given service, the entry device sends &lt;EOT&gt;&lt;CR
+
+&gt; meaning there are no more transactions remaining in this service.</TD></TR>
+
+<TR VALIGN=top><TD ALIGN=center>10</TD><TD ALIGN=left>&nbsp;</TD>
+<TD ALIGN=left>"&lt;Message sequence&gt; &lt;CR&gt; &lt;ESC&gt; &lt;EOT&gt; &lt;CR&gt;" followed by dropping of carrier and hang up.</TD><TD ALIGN=left>Optional message sequence before &lt;ESC&gt; &lt;EOT&gt; below denotes degree of acceptabiloity of info
+
+rmation in all transactions on this service<P>
+
+&lt;ESC&gt;&lt;EOT&gt; = Begin disconnect.</TD></TR>
+
+<TR VALIGN=top><TD ALIGN=center>11</TD><TD ALIGN=left>Drops carrier and hangs up.</TD>
+<TD ALIGN=left>&nbsp;</TD><TD ALIGN=left>&nbsp;</TD></TR>
+
+</TABLE>
+<BR>
+<BR>
+
+<TABLE BORDER WIDTH=100%>
+<TR VALIGN=top><TD ALIGN=left>The standard protocol will be ASCII with X ON, X OFF either direction using a 10 bit code (1 start, 7 data, 1 parity, 1 stop) with even parity.<P>
+
+In the case of delays, the paging central shall wait at lease four seconds (eight seconds in Steps 3 and 4) before disconnecting the remote entry device; the remote entry device shall wait at least 10 seconds for a character from the central before hangin
+
+g up.<P>
+
+For initial use of the protocol, the paging central shall be equipped to receive full duplex using a Bell 103 compatible modem at 300 baud.  Optionally, certain inputs may be capable of receiving 110 baud Bell 103 full duplex, 300/1200 baud Bell 212 full 
+
+duplex, or 1200 baud Bell 202 half duplex.  No echo shall be employed in full duplex mode.  Any attempts at automatic baud rate determination shall be within the restraints of the specified protocol.</TD></TR>
+</TABLE><P>
+<BR>
+<CENTER>
+<STRONG>Checksum Example</STRONG><BR>
+</CENTER>
+
+<TABLE BORDER WIDTH=100%>
+<TR VALIGN=top><TD ALIGN=center>STX</TD><TD ALIGN=center>000</TD><TD ALIGN=center>0010</TD><TD ALIGN=center></TD></TR>
+<TR VALIGN=top><TD ALIGN=center>1</TD><TD ALIGN=center>011</TD><TD ALIGN=center>0001</TD><TD ALIGN=center></TD></TR>
+<TR VALIGN=top><TD ALIGN=center>2</TD><TD ALIGN=center>011</TD><TD ALIGN=center>0010</TD><TD ALIGN=center></TD></TR>
+<TR VALIGN=top><TD ALIGN=center>3</TD><TD ALIGN=center>011</TD><TD ALIGN=center>0011</TD><TD ALIGN=center></TD></TR>
+<TR VALIGN=top><TD ALIGN=center>CR</TD><TD ALIGN=center>000</TD><TD ALIGN=center>1101</TD><TD ALIGN=center></TD></TR>
+<TR VALIGN=top><TD ALIGN=center>A</TD><TD ALIGN=center>100</TD><TD ALIGN=center>0001</TD><TD ALIGN=center></TD></TR>
+<TR VALIGN=top><TD ALIGN=center>B</TD><TD ALIGN=center>100</TD><TD ALIGN=center>0010</TD><TD ALIGN=center></TD></TR>
+<TR VALIGN=top><TD ALIGN=center>C</TD><TD ALIGN=center>100</TD><TD ALIGN=center>0011</TD><TD ALIGN=center></TD></TR>
+<TR VALIGN=top><TD ALIGN=center>CR</TD><TD ALIGN=center>000</TD><TD ALIGN=center>1101</TD><TD ALIGN=center></TD></TR>
+<TR VALIGN=top><TD ALIGN=center>ETX</TD><TD ALIGN=center>000</TD><TD ALIGN=center>0011</TD><TD ALIGN=center></TD></TR>
+<TR VALIGN=top><TD ALIGN=center></TD><TD ALIGN=center>------------------</TD><TD ALIGN=center>-----------------</TD><TD ALIGN=center></TD></TR>
+<TR VALIGN=top><TD ALIGN=center></TD>
+<TD ALIGN=center>1&nbsp;0111</TD><TD ALIGN=center>10111</TD>
+<TD ALIGN=center></TD></TR>
+<TR VALIGN=top><TD ALIGN=center><STRONG>Sum:</STRONG></TD><TD ALIGN=center>1&nbsp;&nbsp;&nbsp;&nbsp;7</TD><TD ALIGN=center>;</TD><TD ALIGN=center><STRONG>Checksum = 17 ;</STRONG></TD></TR>
+</TABLE><BR>
+</CENTER>
+
+<TABLE BORDER WIDTH=100%>
+<TR VALIGN=top><TD ALIGN=left>
+<BR>
+<CENTER><STRONG>Therefore, an example of a complete block containing a correct checksum is:<P>
+"&lt;STS&gt; 123 &lt;CR&gt; ABC &lt;CR&gt; &lt;ETX&gt; 17; &lt;CR&gt;"</STRONG>
+<BR>
+<BR>
+</TD></TR>
+</TABLE>
+<BR>
+Note: I hope there aren't any typos in this information. Let me know if you find any. I checked it carefully against the original. Good luck! Let's keep those beepers beeping with new applications.<P>
+
+<HR ALIGN=center  WIDTH=100% SIZE=5><BR>
+
+</BODY>
+</HTML>
+

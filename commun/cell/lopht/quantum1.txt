@@ -1,0 +1,38 @@
+QUANTUM MICRO BY ABC
+
+NOTES:  This is a dual NAM handheld unit.
+        The ESN prefix is: 176 decimal, B0 hex.
+        ABC: 1-800-472-8235
+
+NAM PROGRAMING:
+
+1.  Turn power on.
+
+2.  Enter 4 7 * 8 6 9 # 0 8 # 9.
+
+3.  The STO key stores and increments the steps.
+
+4.  The * key deletes one digit.
+
+5.  The # key aborts programing.
+
+STEP#    #OF DIGITS/RANGE    DISPLAY        DESCRIPTION
+
+01       00000 - 32767       SIDH           SYSTEM ID
+02       0 OR 1              LU             LOCAL USE MARK
+03       0 OR 1              MIN            MIN MARK
+04       10 DIGITS           TEL            MIN (AREA CODE & TEL NUMBER)
+05       2 DIGITS            SCM            STATION CLASS MARK
+06       333 OR 334          IPCH           INITIAL PAGING CHANNEL
+07       0 OR 1              PS             PREFERRED SYSTEM
+08       2 DIGITS            GIM            GROUP ID (10 IN USA)
+09       3 DIGITS            LOCK           LOCK CODE
+10       0 OR 1              DUAL           DUAL NAM
+
+
+
+
+
+
+
+ 

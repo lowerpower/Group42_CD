@@ -1,0 +1,98 @@
+
+[ netinfo/nic-pubs.txt ]                                    [ 8/95 ]
+
+
+                        PUBLICATIONS OF INTEREST TO
+				NIC USERS 
+
+Documents available on-line via FTP from the NIC host:
+(Also, see online filenames referenced in other categories.)
+
+1.  DDN NEW USER GUIDE (soon to be replaced by the DISN NEW USER GUIDE)
+
+     A "how-to" guide to the DDN for network users, including use of
+     network tools such as electronic mail and file transfer.   Published
+     by the NIC  (revised September 1993).            
+     Online filename -- netinfo/nug.doc.
+
+     Is available in hardcopy from Defense Technical Information Center
+     (DTIC).
+
+     DTI Order No.:  AD 262 860
+	
+
+2. GOVERNMENT OPEN SYSTEMS INTERCONNECTION PROFILE (GOSIP)
+
+     The Federal Information Processing Standard (FIPS) describing the
+     Federal government's policy, including the DoD transition from TCP/IP
+     to ISO international protocols.
+
+     The package contains the Federal Register announcement of the FIPS,
+     the GOSIP profile itself, the OSD directive to proceed with the policy
+     within DoD, and the GOSIP FIPS draft.
+     Online filenames --
+
+     protocols/gosip-fips-draft.txt     FIPS PUB GOSIP draft
+     protocols/gosip-fedreg.txt         Federal Register Announcement
+     protocols/gosip-v1.docs            The most recent version of the
+                                        GOSIP document
+     protocols/osdir-7-87.txt           OSD Directive to adopt OSI protocols
+
+
+3. RFC INDEX, RFCs
+
+     Technical notes describing protocol development and related topics of
+     interest to the Internet and DDN research communities.  Online filenames
+     are of the form rfc/rfcNNN.txt (where NNN represents the RFC number).
+     The online index is contained in rfc/rfc-index.txt (also available
+     in the netinfo directory as netinfo/rfc-index.txt).
+
+
+Publications available from DTIC/DISA:
+
+1.  DDN SUBSCRIBER INTERFACE GUIDE
+
+     Describes alternative hardware connections to the DDN, including
+     guidelines for connecting equipment to the DDN.   Published by the
+     Defense Communications Agency (now DISA), July 1983.
+
+     DTIC Order No.:  AD-A132 877
+
+
+2.  DDN SUBSCRIBER SECURITY GUIDE
+
+     A description of the security architecture designed for the DDN.
+     Published by the Defense Communications Agency (now DISA), November 1983.
+
+     DTIC Order No.:  AD-A152 524
+
+
+3.  DDN X.25 HOST INTERFACE SPECIFICATION
+
+     Contains the specific options and features of CCITT Recommendation
+     X.25 (1980) and the Federal Information Processing Standard (FIPS)
+     100/Federal Standard 1041, (July 1983).   Published by the Defense
+     Communications Agency (now DISA), December 1983.  Online filename --
+     netinfo/x25.doc.
+
+     DTIC Order No.:  AD-A137 427
+
+
+
+                                                                  
+                             ORDER INFORMATION
+
+
+DTIC DOCUMENT ORDERS
+
+Military personnel or DoD contractors with proper authorization may obtain
+protocol-related documents such as circulars, directives, or memoranda from
+the Defense Technical Information Center (DTIC).
+
+DTIC's address and telephone number are:
+
+                       Defense Technical Information Center
+                       Cameron Station
+                       Alexandria, VA  22304-6145
+                       202-274-7633
+

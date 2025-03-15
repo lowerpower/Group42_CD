@@ -1,0 +1,72 @@
+<html>
+<head><title>Group 42 Sells Out [Cube]</title></head>
+<body background="cable1.gif">
+
+<center>
+
+<img alt="Group 42 Sells Out!" src="g42slogo.gif">
+
+</center>
+
+<hr size=5 noshade>
+<center>
+<h2>How to Build A Cube</h2>
+<h4>4x of Group42</h4>
+</center>
+A cube is a Frequency Shift Keying transmitter that emulates a cable
+head end with phony data that will turn on a cable box for full service.
+<p>
+In the early days of cubes, they were either single frequncy xtal controled
+or tunable VHF VFO's.  The problem with the tunable VFO's was that they
+were not that stable and required constant retuning.  The problem
+with the old single frequncy cubes is that you had to know the customers
+frequncy (for Jerrold or SA) before shipping, and that you had to build
+different cubes for different frequencies.
+<p>
+We at Group 42 solved the problem by designing a better cube.  It is
+a harmonic generator that will hit all Jerrold frequncies, and can
+be easly adapted to SA and Pioneer Units.  To date it has been widely
+copied in the grey market cable industry, making it the most popular
+FSK design.
+<p>
+The <a href="cube.gif">schematic</a> is here.
+<P>
+R5 is not necessary unless you are leving the unit hooked up full time.
+D3 is a 1n914 diode.
+<p>
+It operates by taking the <i>Manchester Encoded</i> digital signal from
+the microcontroler and feeding it into the xtal oscillator driving the
+HC4060 chip.  The voltage from the microcontroler is droped by D3 to .7
+volts creating either a zero or .7 volt image accross D2 the variable
+cap diode.  This changes the capacitance in the xtal oscillator driving
+the HC4060, thus pulling the frequency of the xtal.  This creates a
+frequency shift, thus FSK.
+<p>
+The xtal oscillator is divided down to a 500khz (using an 8Mhz xtal)
+square wave that is feed out an F-Connector and into a cable box.
+Since the output is a nice square wave we get lots of harmonics, every
+500khz up to 200MHz and beyond.  This means a signal is present
+on all 3 Jerrold frequencies (97.5, 106.5 and 108.5 Mhz).
+<p>
+It can be adapted to other frequncies by making sure that the divided
+down value (ie 500khz) is dividable by the desired frequencie.
+<p>
+
+<p>
+<hr size=5 noshade>
+
+<center>
+
+<h4>
+<a href="../../../index.htm">HOME</a> |
+<a href="../../../about.htm">GROUP 42</a> |
+<a href="../../../disclaim.htm">DISCLAIMER</a> |
+<a href="../../../help.htm">HELP</a>
+<br>
+Copyright &copy 1984-1996, Group 42
+</h4>
+
+</center>
+
+</html>
+

@@ -1,0 +1,10 @@
+Crack> GAUNTLET II By Tengen/Atari Games/Mindscape
+crack written by anonymous
+
+Files        : *.exe
+Search For   : 9A0000wwww070BC07403E9
+Replace With : EB0300wwww070BC0EB03E9
+Notes : Disables the password protection.
+        You will no longer be prompted for a password.
+        The w's are wild. Search for the second bit, then make sure the
+          first bit matches.

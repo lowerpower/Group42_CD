@@ -1,0 +1,28 @@
+Crack> Police Quest II by Sierra On-Line 
+
+crack from bboard 
+
+>>>Note from Bob:  This is perhaps *the* deprotect which was 
+>>>published in Computist, because that particular batch was 
+>>>from a bboard with no names given.  It's identical but 
+>>>for a few words. 
+
+The new line of SIERRA software protected with the documentational check 
+have almost identical patches to the main EXE file.  This one was no sweat.
+
+Rename SIERRA.EXE to SIERRA.XXX and load DEBUG.  Enter these lines: 
+
+            E 0394 74 
+            E 7FDB 05 1F 
+            E 9E9B B8 08 35 CD 21 89 1E 38 13 8C 06 3A 13 B8 24 35 
+            E 9EAB CD 21 89 1E 3C 13 8C 06 3E 13 B8 24 35 CD 21 89 
+            E 9EBB 1E 40 13 8C 06 42 13 07 1E 0E 1F BA E9 9C B8 23 
+            E 9ECB 25 CD 21 BA EA 9C B8 24 35 CD 21 1F E8 5A 00 C7 
+            E 9EDB 06 36 13 01 00 C3 90 57 51 B9 38 00 BF B8 AB C6 
+            E 9EEB 05 00 47 E2 FA 2E C7 06 DB 7C 5B 01 59 5F E9 DE 
+            E 9EFB E0 90 90 90 90 90 90 90 90 90 90 90 90 90 90 83 
+            E 9F0B 3E 36 13 00 75 01 C3 1E 07 
+            W 
+            Q 
+
+Rename SIERRA.XXX back to SIERRA.EXE and your unprotection is complete. 

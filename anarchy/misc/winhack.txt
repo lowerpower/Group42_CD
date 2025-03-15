@@ -1,0 +1,39 @@
+                                                ีออออออออออออออออออออออออธ
+                                                ณ  Filename: WINHACK.TXT ณ
+                                                ฦออออออออออออออออออออออออต
+                                                ณ Title: An Easy Win Hackณ
+                                                ฦออออออออออออออออออออออออต
+                                                ณ     By: Captain Hack   ณ
+                                                ฦออออออออออออออออออออออออต
+                                                ณ   Released: 04/04/95   ณ
+                                                ฦออออออออออออออออออออออออต
+                                                ณ   Danger: ฐฐฐฐฐฐฐฐฐฐ   ณ
+                                                ิออออออออออออออออออออออออพ
+Here's an easy hack that will break you to DOS in any Windows Protected Mode
+computer. As you know, a Protected Mode Progman has no File menu, and you
+cannot exit Windows or change properties of programs. How do we get around
+this? Easy.
+   You first need a floppy disk containing the following files:
+   COMMAND.COM
+   WINHELP.EXE
+just make that disk, and find the computer you need DOS access on. Now,
+with the disk in the drive, follow these steps:
+
+1) Open the Accessories group
+2) Open Write
+3) Choose File|Open
+4) Open A:\COMMAND.COM
+5) Choose NO CONVERSION. THIS IS VITAL!!!
+6) When COMMAND.COM is open, choose File|Save As...
+7) Save the file as C:\WINDOWS\WINHELP.EXE
+
+Now, exit Write, and choose Help|Index or Help|Contents from the Progman
+menu. BOOM! You're in DOS. Now, copy the WINHELP.EXE that's on your floppy
+back to C:\WINDOWS\WINHELP.EXE, so no on will inadvertantly do the same
+trick. Now, do whatever you want, but note: For a reason I have been unable
+to discover, the prompt is not the normal one, so you may want to set the
+prompt with the command PROMPT $P$G.That'll take care of the problem.
+Just type EXIT to return to windows.
+
+--hack
+

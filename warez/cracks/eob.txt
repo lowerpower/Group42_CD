@@ -1,0 +1,12 @@
+Eye of the Beholder
+
+Super weapon
+EOB.EXE
+0000C62B: 8B 33
+0000C62C: 46 C0
+0000C62D: 0A 90
+0000C62F: 29 89
+
+Walk through walls
+EOB.EXE
+0000FA7B: 75 EB

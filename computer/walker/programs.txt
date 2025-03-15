@@ -1,0 +1,625 @@
+
+                        Programs Are Programs
+              How To Make Money In the Software Business
+
+                by John Walker -- kelvin@fourmilab.ch
+                           June 14th, 1993
+
+WORLD WAR FOUR
+==============
+
+In late 1989 I spent some time thinking about what was then called the
+"emerging new world order", and began  to  rough  out  a  think  piece
+titled  "World  War  Four".  I scribbled an introduction in January of
+1990, but since I'd already discussed the gist of the message verbally
+with  just  about everybody who was likely to read such a paper, I put
+it aside and never completed it.
+
+The essence of "World War Four" was the argument that amidst  all  the
+optimism  and triumph engendered by the collapse of communism--the end
+of World  War  Three  (the  Cold  War,  1945-1990),  we  were  in  all
+likelihood  at the threshold of World War Four (1990-????).  World War
+Three, a relatively bloodless war which nonetheless consumed far  more
+wealth  than  any  of  its  predecessors, was about which economic and
+political system was appropriate  for  large  industrialised  nations.
+That's pretty much been settled now.  World War Four was, I predicted,
+going to be centred on the essential definition of a  nation  and  the
+appropriate  size and scale of political entities.  I went on to argue
+that 45 years of bipolar confrontation had simply put a lid  on  these
+issues,  which  have been at the heart of the overwhelming majority of
+all modern wars, and that we were probably entering into an era  where
+borders were going to be redrawn all around the world.
+
+Well,  of  course,  if  I'd  finished  the piece and managed to get it
+published anywhere, I'd probably be spending all my time on  the  talk
+shows as the Political Prophet of the Nineties, so it's just as well I
+didn't.  But I stand by my 1990 predictions, including  the  one  that
+there  will  be  a serious secession movement by one or more states of
+the U.S. before the end of this decade.
+
+So what does this have to do with the title of  *this*  paper?   Well,
+nothing  really  other than the fact that I've put everything aside to
+finish this paper because I have the feeling  that  if  I  don't  it's
+going  to  suffer the same awful fate as "World War Four"--namely come
+true and  be  considered  totally  obvious  before  I  get  around  to
+predicting  it.  I've been developing the ideas in this paper over the
+last 14 months--ever since the idea  popped  into  my  head  during  a
+conversation  with  Bill  Gates--and  as  I've explored it and thought
+further it seems more and more compelling.  I know  for  a  fact  that
+Gates is thinking in this direction as well, because I asked  him  and
+he  said,  "Yes".   Until recently I didn't think, however, he had the
+whole idea put together as cleanly as I did.  Recent  events  make  me
+suspect he's way ahead of everybody.
+
+As  with "World War Four", I've discussed aspects of this with many of
+you.  Because I've tended to focus on one aspect  or  another  of  the
+whole picture, and because my views have been evolving, in part due to
+your valuable comments, I'd urge you to read this document  anyway  to
+make sure you see how all the pieces fit together.
+
+BACKGROUND--IS SOFTWARE A BUSINESS?
+===================================
+
+In  a  world  where  Microsoft  is  worth  more than IBM, it's hard to
+imagine that less  than  10  years  ago  a  substantial  part  of  the
+financial   and  venture  capital  community  were  skeptical  of  the
+fundamental  viability  of  the  software  business--in  fact  it  was
+fashionable to ask whether software was really a "business" at all, in
+the conventional sense.
+
+Certainly, in 1983 and 1984, one could point to Microsoft, Lotus,  and
+Ashton-Tate as profitable, rapidly growing companies, but rare was the
+company which broadened an initial, seemingly random  success  into  a
+consistently  successful  product  line.   Further, a software company
+seemed threatened from all sides--from piracy, from next-to-zero-price
+competition, and from an unsettled distribution  environment.   Rarely
+was software even mentioned in reviews of trade shows, and people like
+me who argued that software drove hardware successes--that the Apple 2
+was  successful  *because*  of  Visi-Calc  and the IBM PC *because* of
+Lotus 1-2-3 were considered more than a little daft.
+
+And yet today, in a world where software companies post profit margins
+unheard  of  in  most  legitimate  businesses, the old doubt about the
+viability of the software business remains, but in another guise.   In
+1983  they  asked,  "Can  you  really  make  money, long term, selling
+software?".  In 1993, they ask, "Can anybody other than Microsoft make
+money, long term, selling software?".
+
+This  is  not  a  facetious question; when company after company which
+were once pillars of the industry: Ashton-Tate,  Software  Publishing,
+Borland,  one  after  another  collapses,  is gobbled up, or is on the
+ropes against deadly price-cutting competition, one  cannot  help  but
+ask  whether  any  software  company  can  truly consider its position
+secure as long as there is a well funded competitor willing to sell at
+close to the marginal cost of goods in order to gain market share.
+
+I  believe  we  are  in  the  midst  of a fundamental shift in the way
+software is distributed--a transformation in the relationship  between
+software  vendors  and  their  customers  fully  as significant as the
+emergence of  computer  retailing,  spurred  by  the  nascent  desktop
+computer.   Companies  which anticipate this transition, who encourage
+it and  prepare  to  benefit  from  it,  may  find  themselves  in  as
+unassailable  a  market  position  as any company in this century--the
+"natural monopolies" of the next.
+
+IT'S A PROGRAM, STUPID
+======================
+
+How odd it is, that every day we use the word "program" to talk  about
+the  products we create and sell in the software business, and also to
+describe the information and entertainment we watch on the  television
+and hear on the radio.  And even though the word "software" has become
+commonly used to describe video cassettes, compact  discs,  and  other
+non-computer  material,  rarely  do  software  executives  see  a link
+between the "programs" they sell and the "programs" they watch.   Many
+managers  in  the  computer  software  business, and most analysts who
+follow it, came from a hardware or turnkey systems background; thus it
+is  inevitable  that  they often think of software as a product like a
+television, rather than an ongoing service  like  the  "programs"  the
+television delivers.
+
+LET'S CRUNCH SOME NUMBERS
+=========================
+
+Okay,  I'm  going to jump way ahead of myself here in a brazen attempt
+to grab your attention.  If you agree with  this  analysis,  I'm  sure
+you'll  summon  the  strength  to  trudge  through the more deliberate
+development of the argument that follows.
+
+It's 1997.  You call up the 800 number to order another computer,  and
+after  you've chosen between the Alpha-III and the Octium chip and the
+15 and 30 gigabyte hard drive, the  salesperson  tells  you  that  the
+machine  comes  with  the  "Basic Package" of Windows NT, Word, Excel,
+Access, Money, and Multimedia Producer, and asks if you'd like to turn
+on  any  additional  software  at  the  time.   You  request  Project,
+Designer, and Visual C++, and they're  enabled  also.   In  any  case,
+you're  told,  "it's  all  on  the CD-ROM, so you don't have to decide
+right now".
+
+The computer shows up, and you start using it.   Late  one  night  you
+decide you really need the German language spelling checker add-on for
+Word, so you put in the CD-ROM, call Microsoft's 800 number  to  order
+it  on your credit card, and get back the code you enter to turn it on
+in your smart card.  Or if your computer has a modem, you  can  do  it
+just by clicking the mouse.
+
+Basic  costs you $10 per month.  "Premium" programs range from $.75 to
+as much as $100 per month for exotic niche applications.  Every  month
+you  get  your  "Microsoft Bill" itemising everything you subscribe to
+and what it costs.  Most folks just have it  paid  automatically  from
+their  credit  card,  generally 6 months at a time.  If you don't pay,
+you don't get the new authorisations  for  your  smart  card  and  the
+program  stops  working.  So you pay.  Every now and then a new CD-ROM
+shows up with all the latest updates and upgrades  and  new  products,
+each  with its "try me, buy me!" demo you can run right away.  As long
+as you have Basic, the CD-ROMs come automatically in the mail every  3
+months.
+
+Now  let's look into the other end of the binoculars; from Bill Gates'
+chair rather than his customers'.  Today, there more than 125  million
+MS-DOS  personal  computers  installed.   Given  the rapid adoption of
+Windows and sustained high sales rate of new machines driven by  price
+performance  improvements  in  new chips, I believe it conservative to
+expect that 100 million Windows NT machines will be installed 4  years
+from  today,  most  equipped  with CD-ROM, multimedia accessories, and
+contemporary peripherals; some upgraded from current  high-end  MS-DOS
+machines,  but  most  new machines of the Pentium/Alpha generation and
+their  successors.   Further,  let  us  assume   that   Microsoft   is
+unsuccessful  in  selling *any* software other than the Basic set (I'm
+sure you'll concede, based on Microsoft's new  product  success  rate,
+this  assumption is conservative).  Well, multiply it out.  That's 100
+million machines times US$10 per month times 12 months per  year,  and
+the answer is: US$12 Billion-with-a-B-like-Bill per year of *automatic
+recurring revenue* for which the marketing costs are  essentially  nil
+and distribution margin is nonexistent since fulfillment is direct.
+
+Now  given  an  utterly  reliable,  competitively  unassailable annual
+revenue  stream  of  US$12  billion  per  year,  you  can  invest   in
+fundamental  and applied research, technology development, new product
+development, marketing, and launch  at  levels  no  other  player  can
+approach.    These  investments  translate  directly  into  additional
+recurring revenue to the extent the premium products  are  adopted  by
+the  100  million  and  growing  installed base, and the proceeds fund
+further development.  In this environment, competitors are  forced  to
+either  cut  prices  (and thus their margins), or search for a genuine
+technological edge and rush it to market before the folks  who  employ
+more than 50% of the research people in the field stumble onto it.
+
+DOES THIS SOUND FAMILIAR?  1
+============================
+
+Well,  Walker's  gone  right  off  the  deep  end  again, without even
+bothering  to  fill  the  pool  this  time?   Smart  cards,   CD-ROMs,
+expiration  of programs, blah, blah, blah.  He's made up a whole fairy
+castle industry out of thin air without the slightest  proof  that  it
+could even be viable.
+
+And  yet,  there  is  something about it that seems oddly familiar....
+Let's see....  Aha!!!
+
+Programs are programs.  So let's start by looking  at  what's  on  the
+television.    No,  not  the  pap  on  the  screen,  what's  *on*  the
+television--not the bloody  penguin  but  the  little  black  box  the
+penguin's  standing  on.  Today, not far out in the distant 1997 I was
+talking about, more than a hundred million people in Europe and  North
+America  buy  programs--television programs--on a monthly basis.  They
+buy them from a cable television operator or, if they live outside  an
+area  with cable service or wish a wider selection, by subscription to
+a satellite broadcasting system.  (Satellite broadcasting still  seems
+a  little exotic in the U.S., though that is rapidly changing with the
+Hughes-Thomson-RCA DirecTV system;  In  Europe  it's  everywhere--it's
+hard  to find a home in Britain without an Astra dish--satellites work
+better in Europe and Japan because they aren't as *big* as the U.S.--a
+2  foot  dish works just fine, and you can buy the whole rig for about
+US$300).  If you use a satellite dish, your receiver has a little slot
+where you put in a  smart  card.   If  you  decide,  for  example,  to
+subscribe  to  Turner  All-Colourised  Movies, just pick up the phone,
+call the toll-free number, give your subscriber ID from the smartcard,
+and zap-flash in 30 seconds you're watching Bogey in living -- well --
+pasty colour.  This technology is  off-the-shelf  stuff  available  in
+every Radio Shack in the U.S. and any T.V. store in Europe.
+
+Most  cable  television  subscribers  pay  US$5 to US$10 per month for
+Basic and monthly fees for Premium services like:
+
+    Low rent cable channels (A&E, BRAVO, etc.)   US$0.79 -  1.00/month
+    Network packages (Denver 5 or Primetime 24)  US$4.00 -  5.00/month
+    Premium Channels (Disney, HBO, TMC, etc.)    US$7.00 - 10.00/month
+
+and the typical satellite user (who receives all the channels included
+in  Basic  cable for free) pays between US$150 and US$300 per year for
+premium services.  Of course there are  ultra-premium  niche  services
+such  as real-time stock and commodity quotes, etc., for which one may
+pay up to US$100 per month.
+
+You  do  not  *buy* your television programs, you *subscribe* to them,
+and the revenue flows back through the chain to those who  manufacture
+them  (have  you  noticed  how  often  you see "An HBO Picture" in the
+titles in the theatres?).  And if folks pay $150 a year  or  more  for
+television programs, is it absurd to suppose they will pay $120 a year
+for  computer  programs, especially when the cost is in little monthly
+nibbles rather than $495 up-front the way we do it today, and when you
+can  always  rationalise  a  purchase  by  saying, "Well, I can always
+cancel it if I don't like it"?
+
+I believe that soon we're not going to *buy* computer programs either,
+we're going to *subscribe* to them.  Programs are programs.
+
+DOES THIS SOUND FAMILIAR?  2
+============================
+
+What  companies  stand  out  as  the  huge  unassailable (for a while)
+monoliths of this century?  In the United States I'd list:
+
+    American Telephone & Telegraph    1875-1980
+    IBM                               1930-1970
+    Xerox                             1960-1970
+
+Now consider that during the time that each of these companies was  in
+a position of total dominance of its market, it delivered its product,
+which was fundamentally a piece of hardware, as  a  *service*,  almost
+entirely  on  a  rental  or subscription basis.  This, combined with a
+dominant  market  share  obtained  either  by  getting   there   first
+(AT&T/Xerox)  or  by  blowing  away  less-serious  competitors  with a
+massive sales organisation (IBM  in  computers  after  1948),  largely
+insulated  the  base  revenue  stream of these companies from business
+cycles and competitive threats.  The  annuity-like  revenue  base,  in
+turn,  allowed them to make large, long-term investments in technology
+relevant to their business (Bell Labs, IBM Research Labs, Xerox  PARC)
+and in product development aimed at further distancing them from their
+competitors.
+
+Note that in each of these cases the subscription/rental nature of the
+revenue  stream  allowed  these companies to subordinate technological
+progress to the needs of the business.   Unlike  a  free-for-all  like
+today's  RAM  chip or hard disc market, where product generation times
+are measured in months, AT&T could introduce  direct  dialing,  direct
+long  distance  dialing,  electronic  switching  systems,  etc.   on a
+decades-long plan geared to optimising their  profits.   IBM  was  not
+forced  to  rush  out  the  7094  or  360 under the gun by competitive
+fears--they could switch their rental base to a new  generation  at  a
+time of IBM's choosing, when the technology was ripe to increase their
+revenues and earnings.  In short, when a  company  achieves  a  stable
+subscription  base,  *it* calls the technological shots in the market.
+Of course if a company is complacent, it will  eventually  be  knocked
+out,  but  you  have  to  be  awfully complacent and/or incompetent to
+nullify the benefit of a 10 to 1 advantage in product development  and
+marketing  resources  (Xerox, of course, demonstrates that it *can* be
+done, but in the other cases it took  government  action  or  fear  of
+government action to displace the dominant player).
+
+DOES THIS SOUND FAMILIAR?  3
+============================
+
+Redmond,  Washington,  March  20, 1992.  Transcript of meeting of John
+Walker and John Forbes of Autodesk and Bill Gates and Todd Needham  of
+Microsoft.
+
+WALKER:     So let me see if I understand where you're going with
+            this, Bill.  What you'd really like is  if  in,  say,
+            five   years,   everybody  with  a  computer  gets  a
+            Microsoft bill every month,  just  like  a  telephone
+            bill, for each product they use.
+
+GATES:      Precisely.
+
+DOES THIS SOUND FAMILIAR?  4
+============================
+
+Have  you  heard  of the "Microsoft Developer Network"?  I'm a member.
+Walk around and ask random programmers if they  are  as  well  (either
+company-paid or on their own account).  There are 45,000 members as of
+the last time I looked, and I suspect the ranks are swelling  rapidly.
+If  you're  a  remotely  serious  Windows developer, you simply cannot
+afford not to join, because it's the only  effective  way  to  receive
+massive amounts of source code, internal technical documentation, beta
+copies of soon to be released Microsoft products, special development,
+debugging, and authoring tools, etc., etc.
+
+How  does  it  work?   Well,  it's a, er, *subscription*.  I mail in a
+check for US$200 per year, and every 90 days they send  me  this,  er,
+CD-ROM  filled  with  600  megabytes of ever-changing goodies.  And as
+long as my subscription is current, the bits just keep on coming.
+
+DOES THIS SOUND FAMILIAR?  5
+============================
+
+Have you noticed how Microsoft  update  marketing  works  these  days?
+They've  pretty  much  dropped  even  the  pretense of running updates
+through the distribution channel except for mega-million blowouts like
+Windows  3.1  or DOS 6.  No, as long as you've registered the product,
+right about the time the new release hits the cover  of  PC  World,  a
+little letter from Bill shows up with their little blue OCR form.  You
+just tick the box and attach your check or credit card  number  for  a
+readily-digestible  fee  (usually US$30 through US$150) and bung it in
+the post.  A week later the update shows up at your door.   For  those
+who  update  faithfully  this  way (and I won't get into the many ways
+Microsoft forces you to stay current or  pay  a  heavy  price--they're
+masters  at  it),  this  amounts  almost  to  a subscription--not on a
+consolidated basis like cable or satellite TV, but to a product,  like
+a  magazine subscription.  And the economic dynamics strongly resemble
+those of magazine subscriptions.
+
+Magazine subscriptions are  typically  sold  through  retail  channels
+and/or highly discounted for an initial subscription; publishers don't
+usually make money on initial subscriptions.  Renewals,  however,  are
+handled  by  direct  marketing  and  all the recurring revenue for the
+subsequent years goes right into the  publisher's  pocket.   It's  the
+same for Microsoft Word; Gates has every incentive to discount initial
+sales of Word as much as possible to gain market  share  against  Word
+Perfect,  and to grant all kinds of incentives to his channels as long
+as he believes that each initial  sale  plugs  him  into  a  virtually
+guaranteed  revenue  stream of, say, $50 per copy per year.  Of course
+to realise that revenue he has to keep the updates coming and  provide
+enough  added  value  in  each one so people continue to stay current.
+But since I've never seen a wish list get  shorter  for  any  software
+product  I've  worked  on,  I hardly think that's a problem as long as
+you're willing to invest in development.
+
+DOES THIS SOUND FAMILIAR?  6
+============================
+
+        Microsoft, 2 Cable Giants Weigh Interactive TV Venture
+
+                           By John Markoff
+                        New York Times Service
+
+         International Herald Tribune, Monday, June 14, 1993
+
+    NEW   YORK--Three   dominant   technology  and  entertainment
+    companies are on the verge of joining forces  to  create  the
+    equivalent  of  software  for cable television--a system that
+    would combine the worlds  of  computing  and  television  and
+    perhaps shape how much of popular culture is delivered.
+
+    Time   Warner   Inc.,   the  largest  entertainment  company,
+    Tele-Communications  Inc.,  the  largest   cable   television
+    company,  and  Microsoft  Corp., the largest software company
+    are expected to announce by the end of the  month  that  they
+    will  form  a  company,  tentatively  called  Cablesoft.  The
+    companies  hope  the  new  venture  will  lead  the  way   in
+    establishing  a  standard  for  the  transmission of a coming
+    generation of interactive programs.
+        
+    At stake is control of the unobtrusive cable  box  that  sits
+    atop  many  television  sets.   In  recent months the box has
+    become a battleground  for  computer,  telephone,  and  cable
+    companies.
+                               ...
+
+    Last  month,  for  example,  Intel Corp., the world's largest
+    chipmaker, Microsoft, and General Instrument Corp.  announced
+    plans to develop a cable converter that would have a built-in
+    personal computer.  Last Monday Time  Warner  announced  that
+    Silicon  Graphics  Inc., a Silicon Valley computer maker, and
+    Scientific Atlanta, a supplier of cable boxes,  would  supply
+    hardware  and  software  for  its digital television trial in
+    Orlando, Florida, which is scheduled for next  year.   A  day
+    before that announcement, Kaleida, a joint venture of IBM and
+    Apple Computer, said it was joining with Motorola  Inc.   and
+    Scientific Atlanta to develop a similar futuristic television
+    controller.
+                                   ...
+
+
+Need I point out that just as soon as your cable  box  talks  to  your
+computer  in  almost  any  fashion whatsoever, the technological means
+exist  to  make  subscription  software  as  secure  as   subscription
+television.   And  the  pirate  TV decoder business seems to have been
+roundly wiped out.
+
+The Time  Warner/Tele-Communications/Microsoft  deal  is,  of  course,
+something  that's  looking  out  a  few  years  and probably genuinely
+focused on interactive television.   But  purely  as  a  side  effect,
+something  that  just  falls  out,  is  the  means  to  distribute and
+authorise subscription software world-wide.  Controlled by  Microsoft.
+This could have implications outside the entertainment world.
+
+GETTING THERE
+=============
+
+Ever  since  1985  when  I  first I proposed the "AutoCAD Professional
+Subscription"  as  a  means  of  finding  the  holy grail of recurring
+revenue, I have been following the evolution of the software  business
+from a retail sales model to a subscription/service base.  When I look
+at the convergence of the trends and events I've noted above, I cannot
+help  but  believe we are, if not already in that era, at least on its
+threshold.
+
+Emerging from this period of transition  with  a  large,  stable,  and
+growing  subscription  base  will  render  the  companies  who succeed
+formidable, almost invincible,  competitors  compared  to  firms  with
+smaller  market  share  forced to generate their revenue entirely from
+new sales.  Reinvestment of a stable revenue base can, if done wisely,
+further widen the gap between the dominant firm and the dwarves.
+
+For  some  reason,  when  I discuss the subscription model of software
+distribution, many people get confused and  think  I'm  talking  about
+something  in  the medium to far future--"Well, yes, things may indeed
+go that way once we have interactive television/fiber to the home/data
+highway/..., but for now....".  But other than the Microsoft cable box
+venture,  which  is  interesting  but  unnecessary,  nothing  I   have
+discussed  has  any  technological contents whatsoever; it is purely a
+question of marketing and  distribution  strategy.   Bucks,  not  Buck
+Rogers.
+
+To summarise and demonstrate that all the foundation pieces exist:
+
+    *   Tens  of thousands of people pay Microsoft $200 a year to
+        subscribe to Developer Network and receive a CD-ROM every
+        90 days.
+
+    *   Silicon  Graphics  distributes  all its software to every
+        customer on regularly-issued CD-ROMs.   You  purchase  an
+        authorisation code to install and enable it.
+
+    *   Microsoft  does  direct marketing and fulfillment of most
+        updates of current products.
+
+    *   More than 50 million  cable  television  subscribers  pay
+        US$100  per  year,  some  far  more, for their television
+        programs.
+
+Unlike many  major  transitions  in  distribution  strategies,  moving
+toward  a  subscription  model can be done, as far as I can tell, with
+little or no risk (effort and expense, yes; risk, no).  In a  business
+which concentrates primarily on new sales, the installed base is often
+an underperforming asset waiting to be discovered.  Moving  to  direct
+marketing  of "frequent, cheap" updates and upgrades, as Microsoft has
+done, is unlikely to alienate existing channels geared to selling  new
+products.  As Autodesk has discovered, as long as we keep new sales of
+AutoCAD firmly in the dealer channel,  providing  direct  options  for
+"the  little  stuff"  may provoke grumbling, but seldom more grumbling
+than we hear about "unprofitable, time wasting update business".
+
+I believe  a  subscription  strategy  can  be  evaluated  and  planned
+relatively  simply  once  we  discover  the  answer  to  the following
+question:
+
+    How much revenue do we generate, per annum, from the average
+    unit of AutoCAD, after its sale?
+
+Now, I don't have the vaguest idea of this number, but  let's  play  a
+little  napkin  engineering  and make a wild stab.  The wild and wooly
+R12 update generated $22 million in update revenue and the  subsequent
+quarter  $13.5 million (Pru-Bache report, May 24, 1993).  Let's assume
+we hold the $13.5 million level (which Laura and folks  don't  expect,
+but I want to err on the high side).  So we have $63 million in update
+revenue, liberally construed, in a year  with  a  blockbuster  update.
+Folding  the  napkin and continuing, we have about a million installed
+copies,  but  let's  say  they're,  oh,   700,000   "active"   copies,
+disregarding  shelfware  and people who haven't upgraded since Version
+2.6.  Well, that comes out to about US$90 per year per "active"  copy.
+So,  for example, if we could get half our "active" users to subscribe
+for, say US$250 per year, we would have  a  recurring  revenue  stream
+greater  than  our  biggest update year ever, and without all the push
+and cost it takes us to launch an update.   And  given  what  Autodesk
+usually charges for updates, many users would probably consider this a
+bargain, particularly if it avoided all the hassle currently  involved
+in updating a copy of AutoCAD.
+
+It's  also intriguing to divide the Pru-Bache FY 94 estimate of US$430
+million by my "active base" of 700,000.  That comes out to US$614  per
+active  unit  per  year.   So  were  we,  for  example,  to  move to a
+subscription for AutoCAD of about $100 per month  for  new  sales,  we
+would  generate,  month after month, year after year, revenue equal to
+what we largely derive today only from new sales--again assuming  only
+50%  conversion  of  the  already  active  base.   This implies a more
+radical change in the way we do business which could be deferred until
+experience  with  the  installed base upgrade/update program confirmed
+its viability, or simply put off forever, retaining different channels
+for  first  sale  and  subscription  as  in  the magazine business and
+Microsoft's current practice.
+
+THE ENABLING PREREQUISITE
+=========================
+
+If you've made it all the way  through  my  arguments  without  either
+getting   lost  in  my  thorny  prose  or  storming  away  in  violent
+disagreement with my premises or deductions, you may be  beginning  to
+think  I'm  onto  something  here.   But  that  raises  the legitimate
+question, "Well, if even Walker's figured it out, why isn't  everybody
+in the industry already doing it?".  Indeed, I've wondered quite a bit
+about that myself.
+
+I think the answer lies in the observation  that  most  companies  who
+succeed  in  building  self-sustaining  subscription-based  businesses
+start from a position of effective monopoly of their sector.   In  the
+case  of  AT&T,  it  was  a  combination  of  technology, patents, and
+government grants which conferred the monopoly.  IBM built  its  first
+monopoly  in tabulating equipment on the patent of the Hollerith card,
+then clawed its way to an  effective  monopoly  in  computers  by  out
+marketing  and  out-customer-servicing  Remington Rand, Burroughs, and
+others.  Xerox derived its monopoly from the patent on xerography.
+
+Quite simply, to derive enough revenue from a subscription strategy to
+make  the  business  run,  you  have  to  have the lion's share of the
+market, not a small slice.  To get people to subscribe,  you  have  to
+have demonstrated technological leadership that convinces them they'll
+get more value by paying you regularly than buying from somebody  else
+outright,  then  replacing  the  product  later on.  And of course the
+central development engine needs to be big enough to  keep  generating
+the  value  that  gives subscribers value for their money, year in and
+year out.
+
+Which means that to pull off the transition to  a  subscription  base,
+you  have  to  start with a large market share lead, and therefore the
+only companies in the software business  well-positioned  to  do  this
+today are:
+
+    Microsoft
+    Autodesk (in CAD)
+    Word Perfect (in word processing, but slipping)
+    Lotus (in spreadsheets, perhaps, and slipping quickly)
+
+SUMMARY AND CONCLUSION
+======================
+
+Is  software  a  business?  Can a company make money selling software,
+consistently and reliably?  In 1983 many  people  doubted  that  these
+statements  were  true.   In 1993, we have one great success story but
+little  confidence  that  other  sectors  and   companies   are   safe
+investments for the long term with predictable chances for growth.
+
+By  2003,  I  believe  that  everybody  will know the answers to these
+questions: "Yes, and yes".  Within 10 years the software industry will
+have   restructured   itself   from   a   costly   and   unpredictable
+bookstore/appliance dealer sale-oriented  model  to  a  cable  TV-like
+subscription model.  The companies who emerge from the  turbulence  of
+this  transition  will  be the colossi of the industry, no more and no
+less inherently risky than television networks,  book  publishers,  or
+regional   telephone  companies.   Their  revenues,  measured  in  the
+billions to tens of billions will  fund  ongoing  product  development
+aimed and increasing their subscription base.
+
+Ironically,  they  may cease to be viewed as "growth stocks"--once the
+constant revenue base comes to eclipse the near-term  potential  of  a
+new  product  launches,  their performance may appeal to those who buy
+utility stocks today.  (But then  when  electricity  use  was  growing
+exponentially in the early '50s, utilities were "growth stocks".)
+
+It's  2003.   The  little black box on the top of the TV is hardly big
+enough to hold all the logos printed on  it:  Microsoft,  Time-Warner,
+Swiss   PTT,   SES/ASTRA,   General  Instrument,  Dolby  Labs,  Intel,
+Motorola/Iridium, etc.  A couple of wires hook it to the  TV  and  the
+computer,  and  the ubiquitous smart card sticks out the front.  Every
+month I get a bill for the programs I subscribe to:
+
+    Astra Basic pack               2.00
+    Eutelsat Basic pack            2.00
+    HBO                            7.00
+    The Dinosaur Channel           0.50
+    Canal Plus                     1.25
+    TeleCine Romande               4.00
+    CNN International              0.75
+    Microsoft Basic pack           4.00
+    Microsoft Developer Network   10.00
+    Microsoft Project              2.00
+    Microsoft Visual C+++++        9.00
+    Microsoft Producer             4.00
+    Autodesk AutoCAD              75.00
+    Autodesk Cyberspace Explorer   8.00
+    EuroFeed Internet News Link    1.00
+    BBC World Service Radio        0.25
+    ... about 20 more ...programs are programs
+
+And  since  the  bill gets paid automatically, and it's only about 200
+francs a month, I don't look  at  it  too  closely  (other  than  that
+AutoCAD  thang--wonder  if  they'll  *ever*  give  me a break!).  Each
+little nibble is so small, though, compared to when I had to shell out
+US$400  over  the  counter  for some software I didn't know would even
+work when I installed it, that I pay and pay and pay.
+
+This document is a work of education, not advocacy.   I  believe  that
+wisdom  consists  of  embracing  change,  not  battling it.  We win by
+enlisting the slow but inevitable forces of economics on our side, not
+by  shoveling  sand  to  halt  the  tide.   All the evidence I can see
+convinces me the software business is finally making the transition to
+a   recurring  revenue  model  which  will  be  its  salvation.   This
+transition will entrench those  companies  who  leverage  their  large
+existing market share into a consistent and reliable base of recurring
+subscription revenue.
+
+Among major software companies, Microsoft and  Autodesk  (in  the  CAD
+sector)  are  uniquely  positioned to lead this transition and benefit
+from it.

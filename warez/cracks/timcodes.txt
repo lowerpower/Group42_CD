@@ -1,0 +1,126 @@
+                        *** SPOILER ALERT ***
+                        *** SPOILER ALERT ***
+                        *** SPOILER ALERT ***
+
+Listed below please find all 160 TIM passwords. That's right, 160.
+This list includes the passwords for the puzzles in the new TIM
+add-on disk.
+
+The first entry is blank - you don't need a password for the first
+puzzle of the game. Entry of any password on this list gives you 
+access to all the puzzles below that level. For some reason, there
+are *2* final passwords. Entry of either of these passwords gives
+you access to all levels of the game.
+
+The game turns the list of puzzles that you've `done' (or entered
+the password for) green. If you enter the final password, all the
+puzzles in the list turn green. So, if you do this, you must keep
+careful track of the levels that you've completed, or you might 
+miss some.
+
+If you get fed up with this, you can turn all the levels back to 
+red by deleting the file `TIM.CFG'. This file is updated each time 
+you quit the game, saving the level that you've got to. If you 
+delete this file, it's regenerated the next time you quit the game.
+When I deleted it from my TIM + Add-on-disk setup, the add-on levels
+turned red and the original levels stayed green.
+
+*** CAUTION *** make a backup copy of your game before trying this.
+If you delete files from the game, and the whole thing refuses to 
+run, *and* you haven't first made a backup; don't come crying to 
+me :-)
+
+These passwords work fine on the UK version of the game. For all
+I know, they'll work on all versions of the game worldwide, and
+also cover the new commercial version that will be released soon;
+which combines original TIM and the add-on disk stuff. However,
+I'm not making any guarantees.
+
+Congratulations to Jeff Tunnell Productions and Sierra on a game
+that has held my attention right to the end. I've played many, 
+many computer games; and I tire of most before I complete them.
+Nice work, guys!
+
+Please feel free to distribute this file. However, please leave
+the whole text intact - the spoiler alert, the warnings, and my 
+.sig at the end. (Fame - I wanna live forever :-) )
+
+Here's the list of passwords: enjoy the game!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1                       57      CROSS           113     DEIFY
+2       SIERRA          58      CHOCOLATE       114     MERGANSER
+3       DYNAMIX         59      PLATO           115     SEAL
+4       MACHINE         60      WELLSPRING      116     CONTRAPTION
+5       DISK            61      HYDROPLANE      117     FLAX
+6       SHUTTLE         62      PALM            118     PRIMORDIAL
+7       SATURN          63      SOMBRERO        119     RAVE
+8       KING            64      JOIST           120     HYACINTH
+9       DRAGON          65      ASTRONAUT       121     SPIDER
+10      ANTS            66      MARIONETTE      122     YAMMER
+11      BASEBALL        67      OSMIUM          123     NERVE
+12      BEAR            68      ASSURANCE       124     GRATE
+13      FISH            69      CALCULATOR      125     EMULSION
+14      DALE            70      SUPERIOR        126     INPUT
+15      CHESTERTON      71      PHILHARMONIC    127     PARADISE
+16      SIZE            72      ANGULAR         128     SAMURAI
+17      IRELAND         73      ZIPPER          129     CHAOS
+18      WORD            74      UMPIRE          130     BRAWL
+19      BRIEF           75      RECOVER         131     ASIDE
+20      HOT DOG         76      SHADOW          132     AXIS
+21      COUNTDOWN       77      IONIZE          133     OFFBEAT
+22      PSALMS          78      QUAKE           134     QUIP
+23      TANK            79      OCTOBER         135     NEWMAN
+24      NIGHT           80      BILATERAL       136     SLOPE
+25      GAMES           81      LYRIC           137     TENON
+26      WESTERN         82      NEEDLE          138     CROSSCUT
+27      LOG HOME        83      THEORY          139     NORM
+28      GRAPHICS        84      LOBSTER         140     HOUSE
+29      KNUTH           85      SAMURAI         141     MACARONI
+30      DONALD          86      SPLICE          142     TALON
+31      COMPACT DISK    87      GULF            143     BEAK
+32      SHAVER LAKE     88      RHOMBUS         144     BIRETTA
+33      RHEUMATISM      89      OLIVE           145     FREQUENT
+34      HARPSICHORD     90      POLYNOMIALS     146     STREAM
+35      MARKET          91      PARAMETRIC      147     UMIAK
+36      DESK            92      SOLAR SYSTEM    148     HIATUS
+37      MYRTLE          93      MARBLE          149     CREEK
+38      QUATERNION      94      HEAVY           150     CROQUET
+39      AQUARIUM        95      REPUBLIC        151     ACID
+40      SHOE            96      QUATRAIN        152     BABY
+41      FLOWER          97      TYRANNOSAUR     153     SEAN
+42      STORE           98      SULFURIC        154     QUALM
+43      CLARE           99      DOPA            155     THIAMINE
+44      KERRY           100     MINARET         156     TURN
+45      FLANGE          101     DOVETAIL        157     KANGAROO
+46      SEASON          102     JASMINE         158     CONTENT
+47      TRIBOLOGY       103     WRANGLE         159     BELLOC
+48      ABRASIVE        104     KUDOS           160     PASSWORD
+49      DEFORMATION     105     CULDESAC                AWE
+50      ELASTIC         106     YODEL           
+51      ADHESION        107     XYLOPHONE               
+52      SPECTRA         108     MONKEY          
+53      INDUCTION       109     HEIST           
+54      POLARIZATION    110     CAPTURE         
+55      OVERJOY         111     PURSE           
+56      DISCURSIVE      112     HOBBY           
+
+
++-------------------------------------------------------------------------+
+|Brian Milner, The Computer Centre, Brunel University , West London, UK   |
++-------------------------------------------------------------------------+
+|brian.milner@brunel.ac.uk |    Notice on Giraffe pen at Chester Zoo:     |
+|                  "Sponsored by TallTrees Crane Hire "                   |
++-------------------------------------------------------------------------+

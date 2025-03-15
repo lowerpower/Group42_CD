@@ -1,0 +1,67 @@
+--<< Godlike Saved Game for Descent >>--
+
+What does this file godlike.plr (godlike.zip, while compresssed) do?
+
+Here is what you will receive if you download right now...
+1) 100 lives!
+2) 65,535 homing missles!
+3) 65,535 concussion missles!
+4) 65,535 proximity bombs!
+5) Start off with over 16,777,415 points on any level!   
+6) Laser level 11! (The boss on Level 7 has this weapon) on level 1.   
+7) Saved games on levels 1-7!
+8) Quad lasers, instead of dual!  
+9) Laser level 4 on levels 2-7.
+10) Lasers, vulcan, and speadfire guns from the beginning of each level!
+11) Lot's of vulcan ammo!
+12) Ship and weapon energy are set very high 
+    (it will take years before you die)!
+
+
+QUESTIONS:
+1) What do I do with the godlike.plr file once I unzip it?
+A: FIRST:Copy it into your descent directory
+   SECOND: You will probably want to rename it to your name instead of
+           godlike, this is fine ... just make sure the extension is still
+           .plr !!!
+   THIRD: Start descent and select the newly renamed player file and then
+          the level at which to start.
+   FOURTH: You will probably need to customize the new .plr file to your
+          needs.
+
+          Then you're ready!!!!
+
+2) Who made this? How did you do it?
+A: I did it. With a Hex editor.
+
+3) Will this crash my system?
+A: I doubt it, it wouldn't crash on mine. The level 11 lasers would slow it
+   down a bit, but not crash.
+
+4) Why are the numbers messed up looking?
+A: The game presets aren't meant to go up to 4, 5, and 6 digit numbers ... 
+   except for the score. So it will look strange, but that's the price
+   you pay for having a destructive, multi-purpose ship.
+
+5) My computer just fragmented into a thousand pieces when a used the
+   saved game of yours!!!!...blah...blah...blah....
+DISCLAIMER: I do not claim that this saved game is perfect, it has its 
+   flaws, but there is no way in hell it will damage anything ... all 
+   it does is let you have a little more fun.
+
+   The worst case scenario is that someone renamed the godlike.plr file to
+   myname.plr, then they copied it to their descent directory and ...
+   Whoops, there was already an myname.plr file in that directory. So
+   please remember to rename it to something that isn't already there.
+
+Please let me know if you have questions or comments about this file!
+
+        =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+        -=    Sent by:    -=    Brian C. McDonald    =-
+        =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+        -=    Address:    -= gs01bcm@panther.gsu.edu =-
+        =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+        -=     Date:      -=    February 26, 1995    =-
+        =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Shepherd

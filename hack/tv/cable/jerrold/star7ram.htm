@@ -1,0 +1,56 @@
+<html>
+<head><title>Group 42 Sells Out [Cable TV Hacking]</title></head>
+<body background="cable1.gif">
+
+<center>
+
+<img alt="Group 42 Sells Out!" src="../g42slogo.gif">
+
+</center>
+
+<hr size=5 noshade>
+<center>
+<h2>Star7 RAM Location Hackers Guide</h2>
+<h4>4X of Group 42</h4>
+</center>
+
+Here are some locations in the starcom 7's RAM and what they do:<p>
+
+<pre>
+80h,82h,85h: Tag Data control, Authorization, Receive/transmit halt.
+
+243h-248h: Country made,date,Partial Serial Number and checksum
+
+400h-4FFh: This is used for channel organization and limits.
+           It is set now for standard locations ie CH3=CH3 CH52=CH52...
+           The two 63h 63h codes that appear at 4fEh and 4FFh
+           set the box to the upper CH 99 limit, you can make
+           it to CH 50, or CH 10 if you like...
+           There are a few other functions here to like the channel that
+           the unit goes to when you select a channel that you are not
+           subscribed to, 400h,401h,4FC,4FD.
+
+500h-51Fh: TCP locations i.e. Set the box to come on at certain
+           times and dates.
+
+520h-55Fh: These are the locations for regular premium and PPV channels.
+           All locations are set to FF to turn everything on.
+
+560h-58Fh: These are used to store Parental Control Channels
+           and favorite channels.
+
+5A8h,5ACh,5ADh,5AEh: Parental Control PIN set by 5ACh and 5ADh.    
+                     
+
+5B6h,5B7h: Location for the remote control enable, and CH3 CH4 output.
+</pre>
+
+Here is a RAM <a href="starram.bin">image</a> of a box in full service.
+<p>
+
+<hr size=5 noshade>
+
+</html>
+
+
+

@@ -1,0 +1,19 @@
+Crack for                             Cannon Fodder       English and German Version 
+
+The file CR_ENG.EXE is packed with pklight. First unpack with UNP.EXE  
+( UNP Cf_eng.exe ) and then
+search for the following bytes:       B0 00 B4 4C CD 21
+
+Replace them with                     90  90 90 90 90 90 
+and save the modified file.
+
+Now after starting the game you have to answer the password-ptotection 3 times
+with any input you like and then the games starts normally. This worked with
+the German version (CF-GER.EXE ) and should work with the english/us version , too!
+Don't forget to keep a backup of your original files !!!!
+Even a German can make mistakes  :-)
+
+Happy gaming
+
+Byte Bandit      07/01/94        1-7-1994
+

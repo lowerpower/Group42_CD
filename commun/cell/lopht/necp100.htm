@@ -1,0 +1,62 @@
+<html>
+<title>NEC P-100 Cellular Telephone</title>
+<h2>NEC P-100</h2>
+<h3>Not responsible for misuse. It is illegal for residents of the state of Pennsylvania to read this</h3>
+<hr>
+Just in from england. I havent had time to check this out yet. (10/16/95)
+
+You will need this <a href="P100.EXE">program</a> (MS-DOS).
+<pre>
+
+
+N E C  P4,P100 WIRING         
+                                                     
+
+                                       1  2  3  4  5  6  
+      -----------------------          ----------------
+       (O)  1 X X 4 5 6 X X           
+      -----------------------          ----------------
+                                       7  8  9  X  X  X
+         P4 BASE ,KEYS DOWN           P100 BASE ,KEYS UP
+        
+        P4     P100
+REF 1   1       7
+REF 4   4       2
+REF 5   5       9
+REF 6   6       3
+
+
+
+ 2 x 2N 3904  Tranistors  (Looking at it flat side legs down!)   1 2 3
+ 2 x IN       Diodes 
+ 2 x 10k      Resistor
+
+
+
+Pin 1  ----------------------------------------------------------|-----|
+                                                                 1     |
+Pin 2  -- Diode >|------------ Centre Leg Transistor One         0     | 
+                                                                 K     | 
+Pin 4  -- Diode >|------------ Centre Leg Transistor Two         r     | 
+                                                                 e     1
+Pin 12 --Leg 3 on Tranistor Two bridged on here -- REF 6  -------s     0 
+                                                                       K
+Pin 13 ------------------------------------------- REF 4               r
+                                                                       e
+Pin 15  - Leg 3 on Tranistor One bridged on here - REF 5  -------------s
+
+Pins 18 To 25  ---  Leg 1 Of Trans One & Two  ---- REF 1
+
+N.B. you must bridge pins 18-25 with solder so they are as 1 ok!
+
+BOTH RESISTORS MAY NOT BE NEEDED ON SOME COMPUTOR MODELS
+         
+REF 1  =   1   7
+REF 4  =   4   2
+REF 5  =   5   9
+REF 6  =   6   3
+
+
+</pre>
+</html>
+

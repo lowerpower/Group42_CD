@@ -1,0 +1,61 @@
+The following procedure can be used to remove the copy protection
+used in Where in Time is Carmen Sandiego.
+
+
+>ren carmen.exe carmen
+
+>debug carmen
+
+Microsoft (R) Symbolic Debug Utility  Version 4.00
+Copyright (C) Microsoft Corp 1984, 1985.  All rights reserved.
+
+Processor is [80286]
+-u539			 ---- Don't go any further unless this matches ----
+
+xxxx:0539 9AD239E107	 CALL	07E1:39D2
+xxxx:053E B80900	 MOV	AX,0009
+xxxx:0541 50		 PUSH	AX
+xxxx:0542 9AEF42E107	 CALL	07E1:42EF
+xxxx:0547 C7069E590100	 MOV	Word Ptr [599E],0001
+xxxx:054D 833E2C4701	 CMP	Word Ptr [472C],+01
+xxxx:0552 1BC0		 SBB	AX,AX
+xxxx:0554 F7D8		 NEG	AX
+-a 539
+
+xxxx:0539 nop
+
+xxxx:053A nop
+
+xxxx:053B nop
+
+xxxx:053C nop
+
+xxxx:053D nop
+
+xxxx:053E
+
+-u ba5f
+
+xxxx:BA5F 55		 PUSH	BP
+xxxx:BA60 8BEC		 MOV	BP,SP
+xxxx:BA62 06		 PUSH	ES
+xxxx:BA63 1E		 PUSH	DS
+xxxx:BA64 BF0700	 MOV	DI,0007
+xxxx:BA67 B80602	 MOV	AX,0206
+xxxx:BA6A BB00F8	 MOV	BX,F800
+xxxx:BA6D 8EC3		 MOV	ES,BX
+-a ba5f
+
+xxxx:BA5F mov ax,1
+
+xxxx:BA62 jmp badf
+
+xxxx:BA64
+
+-w
+
+Writing 182CD bytes
+-q
+
+>ren carmen carmen.exe
+

@@ -1,0 +1,81 @@
+<head>
+<title>[8lgm]-Advisory-16.UNIX.sendmail-6-Dec-1994.UPDATE</title>
+</head>
+<body>
+<hr>
+                  <H1>[8lgm]-Advisory-16.UNIX.sendmail-6-Dec-1994.UPDATE</H1>
+<P>
+<P>
+<H2>PROGRAM:</H2>
+<P>
+	sendmail(8)
+<P>
+<H2>UPDATE:</H2>
+<P>
+	After further investigation, it has been discovered that SVR4 based
+	ports include sendmail(8) based on SMI code.  This code therefore
+	is affected by the problem discussed in:
+<P>
+        <A HREF="8lgm16.htm">[8lgm]-Advisory-16.UNIX.sendmail-6-Dec-1994</A>
+<P>
+	Any systems running SMI sendmail(8) should follow advice given in
+	this advisory, and remove any set bits on sendmail(8).
+<P>
+	To give more time to administrators to fix this problem, and due
+	to other problems being published this week, the exploit script
+	will now be posted at 00:00GMT on Monday 6th February 1995.
+<P>
+	To retrieve these details, send a mail containing the line:
+<P>
+	<KBD>send [8lgm]-Advisory-16.UNIX.sendmail-6-Dec-1994-EXPLOIT</KBD>
+<P>
+	to 8lgm-fileserver@bagpuss.demon.co.uk.  Requests for the script
+	to be sent before this date will be directed to <KBD>/dev/null</KBD>.
+<P>
+<H2>FIX:</H2>
+<P>
+	We recommend that security conscious sites upgrade immediately
+	to UCB Sendmail 8.6.9, as Suns sendmail is generally recognised
+	as being broken.  Your options are:
+<P>
+<OL>
+<LI>	Obtain patch from your vendor.
+<P>
+<LI>	Build and install sendmail 8.6.9, available from:
+           ftp.cs.berkeley.edu:/ucb/sendmail/sendmail.8.6.9.*
+<P>
+<LI>	Remove set bits from any SMI sendmail(8) binaries.
+</OL>
+<P>
+<H2>FEEDBACK AND CONTACT INFORMATION:</H2>
+<P>
+<PRE>
+        8lgm-request@bagpuss.demon.co.uk        (Mailing list additions -
+						 processed automatically;
+						 just send any message)
+<P>
+        8lgm@bagpuss.demon.co.uk                (Everything else)
+<P>
+<P>
+	NB: 8lgm-bugs@bagpuss.demon.co.uk has been closed.
+</PRE>
+<P>
+<H2>8LGM MAILING LIST:</H2>
+<P>
+	Send any message to 8lgm-request@bagpuss.demon.co.uk and the
+	address you mail from will automatically be added to the list.
+<P>
+	If you need to subscribe to an address you cannot mail from
+	(eg an alias), send mail to 8lgm@bagpuss.demon.co.uk and request
+	to be added to the list.  Due to our mail volume, we appreciate
+	it if you can use 8lgm-request instead; thus if	you need to
+	subscribe an alias, please look into using, say sendmail -f,
+	if possible.
+<P>
+<H2>8LGM FILESERVER:</H2>
+<P>
+	All [8LGM] advisories may be obtained via the [8LGM] fileserver.
+	For details, <KBD>'echo help | mail 8lgm-fileserver@bagpuss.demon.co.uk'</KBD>
+<P>
+<HR>
+</Body>

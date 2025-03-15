@@ -1,0 +1,56 @@
+<html>
+<center>
+<h2>Theremin schematic</h2>
+</center>
+From the book
+'103 Simple Transistor Projects' by Tom Kneitel, pp98-99
+Published by Rider, 1964
+<p>
+This schematic is based on a post to sci.electronics by jmichael@vnet.ibm.com
+Schematic graphic by p.j.knight@bradford.ac.uk
+<p>
+
+All transistors are PNP
+<p>
+<hr size=1>
+<pre>
+
+    S1
+    __   Q1
+9V--  --e c-------------------------------.
+         b          !                     !
+         !      Q2  e---.   \!/       Q3  e---.   \!/
+         !              !    ! Ant1           !    ! Ant2
+         !    .---b    C1    !      .---b    C2    !
+         !    !         !    !      !         !    !
+        R1   .-.    c--+++---      .-.    c--+++---
+         !   ! !       ! !         ! !       ! !
+         !  R2 C5     C3 L1       R3 C6     C4 L2
+         !   !_!       !_!         !_!       !_!
+         !    !         !           !         !
+0V-------+----+---------+-----------+---------'
+
+Q1   2N1097
+Q2,3 2N1264
+
+R1     180K
+R2-3    51K
+
+C1,2  200pF
+C3,4  200pF Trimmer
+C5,6 0.01uF
+
+L1,2  vari loopstick
+
+S1     SPST
+</pre>
+<hr size=1>
+Connections to the collectors of Q2,3 are made via 5 way binding posts.
+Antennas are Lafayette F343 whips.
+Keep leads short. Cut shield connectors off 2N1264's. Place near AM radio
+Adjust 200pf cap at J1 until hissing noise, then 200pf at J2 for whistle,
+then back to 200pf at J2 for lowest pitch. Play with hands. Perhaps an
+ascii artist can draw from the description. Good luck.
+<p>
+<hr>
+</html>

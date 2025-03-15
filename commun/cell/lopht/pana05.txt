@@ -1,0 +1,73 @@
+PANASONIC HH 700/900
+
+NOTES:  This is a dual NAM hand held unit.
+        The ESN prefix is 136 decimal & 88 hex.
+        Panasonic: 1-800-922-0028
+
+
+NAM PROGRAMING:
+
+1.  Turn power on.
+
+2.  Within 20 seconds enter * 0 # 0 * 0 # 0 * 1 FCN ALPHA for NAM 1
+    or * 0 # 0 * 0 # 0 * 2 FCN ALPHA for NAM 2.
+
+3.  Each data entry can be looked at by pressing RCL followed by the
+    location (step) number below.
+
+4.  To store new data enter the value, press STO followed by the location
+    (step) number below.  For example to enter a system ID of 00031 enter
+    00031 STO 01.  Data can be entered or reviewed in any order.
+
+5.  At any time press STO * * to complete programing.
+
+6.  Press END to exit.
+
+
+PROGRAMING DATA:
+
+STEP#    #OF DIGITS/RANGE    DISPLAY        DESCRIPTION
+
+01       00000 - 32767       SIDH           SYSTEM ID
+02       10 DIGITS           OWN DIAL       MIN (AREA CODE & TEL NUMBER)
+03       0 OR 1              PRESYS         PREFERRED SYSTEM
+04       333 OR 334          IPCH           INITIAL PAGING CHANNEL
+05       2 DIGITS            ACCOLC         ACCESS OVERLOAD CLASS
+06       2 DIGITS            GIM            GROUP ID (10 IN USA)
+07       2 TO 4 DIGITS       LOCK CODE      LOCK CODE
+08       8 DIGIT, 0 OR 1     FCN 1          SEE NOTE 1 BELOW.
+09       8 DIGIT, 0 OR 1     FCN 2          SEE NOTE 2 BELOW
+10       NOT USED                           NOT USED
+11       UP TO 12 DIGITS     EMERGENCY      EMERGENCY NUMBER
+
+NOTES:
+
+1.  Suggested entry is: 11100000.
+
+Bit 7/Digit 1 = Local use Mark
+Bit 6/Digit 2 = MIN Mark
+Bit 5/Digit 3 = Allow user A/B system select
+Bit 4/Digit 4 = Not Used
+Bit 3/Digit 5 = Not Used
+Bit 2/Digit 6 = Not Used
+Bit 1/Digit 7 = Not Used
+Bit 0/Digit 8 = Not Used
+
+2.  Suggested entry is: factory default.
+
+Bit 7/Digit 1 = Built in Monitor
+Bit 6/Digit 2 = Battery save mode
+Bit 5/Digit 3 = DTMF
+Bit 4/Digit 4 = Not Used
+Bit 3/Digit 5 = Not Used
+Bit 2/Digit 6 = Not Used
+Bit 1/Digit 7 = Not Used
+Bit 0/Digit 8 = Not Used
+
+
+
+LOCK: F 3 1 lock code, +/- toggles mode.
+
+UNLOCK: Enter two to four digit code.
+
+A/B SYSTEM SELECT: F 7 2, then +/- to select, STO to store.

@@ -1,0 +1,75 @@
+                                                ีออออออออออออออออออออออออธ
+                                                ณ  Filename: WALLSTUN.TXTณ
+                                                ฦออออออออออออออออออออออออต
+                                                ณ Title: Bedside Stungun ณ
+                                                ฦออออออออออออออออออออออออต
+                                                ณ     By: Captain Hack   ณ
+                                                ฦออออออออออออออออออออออออต
+                                                ณ   Released: 08/07/95   ณ
+                                                ฦออออออออออออออออออออออออต
+                                                ณ   Danger: ÛÛÛÛฐฐฐฐฐฐ   ณ
+                                                ิออออออออออออออออออออออออพ
+The danger level on this one is for construction, NOT usage. If you fuck shit
+up, it's all you.
+
+Shopping list:
+
+- Radio Hack project box (nice, handheld size)
+- Wall plug with a nice long (10') cord
+- SPST switch from RS able to handle 120VAC at the HIGHEST amp rating
+you can get (at LEAST 4A)
+- Some heavy (20 AWG) wire
+- 2 Radio Hack banana plugs (they look like little posts)
+
+Easy construction phase:
+
+Drill a hole in the back or bottom of the box for the cord, two in the front
+for the banana plugs, and one in the top for the switch (You can use a button
+if you want, but make sure it can handle the current listed above)
+Mount aforementioned parts in box, and solder one wire from the wall plug
+direct to a banana plug, and one to the other banana plug through the SPST.
+
+Shitty ASCII diag:
+
+  
+   To wall   +==================+
+   plug      |          / spst  |
+  -----------|---------/   -----|-DDDDDDDDD  <--+
+             |                  |               |----banana plugs
+  -----------|------------------|-DDDDDDDDD  <--+
+             |                  |
+             +==================+
+
+                  project box ^
+
+
+
+Get it? CLose enuff. Now, MAKE SURE THE SWITCH IS OFF, and put it somewhere
+you might want it. Like near your bed or computer. Anytime you need to (how
+often is that really, but whatever) you can just grab the thing, switch it
+on, and jab the person that is threatening you. NOTE: Don't use this as a
+joke. Other stun-guns are harmless, but this could kill. It's HIGH current.
+Also, you will most-likely blow the fuse it's plugged into when you use it,
+but the kick it'll give your intruder will be plenty for you to beat his ass.
+
+
+Warnings (Like you guys listen to 'em, eh?) : [1]As mentioned above, this is
+  VERY powerful, and could kill. It's probably good that the fuse will blow
+  after a few seconds... 
+
+  [2]This is not as safe for the user as a normal stungun. If yuo jab some-
+one, and they grab you, you'll pro'lly get a zap too. I dunno...I haven't
+tried...
+
+
+Quick addition:
+If you don't use the banana plugs, and just connect the plug through the
+switch, you have an instant fuse blower. Take it to school, plug it in, and
+toss the switch for a few seconds. It'll blow the fuse. Turn it off and move
+on to another part of the building...:)
+
+--hack
+
+
+
+

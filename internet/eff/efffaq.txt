@@ -1,0 +1,456 @@
+* EFF FTP FAQ *   2.2
+
+README file for ftp.eff.org - currently 192.77.172.4
+
+Recent changes: 
+2.2 - updated item 7 with info on DOS and Mac gzip, updated mirrors list
+2.1 - minor fixes and additions
+2.0 - added items 23-24, added coast.cs.purdue.edu mirror site
+
+The Electronic Frontier Foundation
+==================================
+1001 G Street NW, Suite 950 E
+Washington DC 20001 USA
++1 202 347 5400 (voice)
++1 202 393 5509 (fax)
++1 202 638 6120 (BBS)
+Internet: ask@eff.org
+Internet fax gate: remote-printer.EFF@9.0.5.5.3.9.3.2.0.2.1.tpc.int
+
+
+
+Contents: 
+
+1) Introductory Info
+2) Notes on EFF's Guide to the Internet (formerly Big Dummy's Guide)
+3) Notes on EFF's electronic Publications archive - CuD and /pub/journals/
+4) Notes on other EFF files that have moved: /pub/irc, /pub/airliners/, etc.
+5) Redistribution information
+6) Notes on binary and text (ASCII) files
+7) Notes on compressed/archived files (.tar.*, .Z, .z, .gz, etc.)
+8) How/where to get more help (try documentation and your sysadmin FIRST!)
+9) Uploading to EFF
+10) Notes on how to get "best of EFF" collections
+11) Where are our files mirrored on other sites?
+12) "How come when I type 'cd publications' or 'chdir groups' it get an error?"
+13) "How come when I type 'get EFF' or 'mg Publications' I get an error?"
+14) "How come when I type 'get *.eff' or 'get l???x.txt' I get an error?"
+15) "How come these wildcards don't behave right?"
+16) "How come when I type 'put newfile.txt' I get an error?"
+17) "What are those .Links, .cap, and zzz files and directories?"
+18) "How come when I type 'cd pub/Net_info/' or 'cd ~ftp/pub/EFF/' I get
+    an error?"
+19) Date format used on this server
+20) File indexes 
+21) HTML (WWW) links to other sites
+22) "Can I get these files by any other method?"
+23) "What do I do if I can't get directory listings and have other probs?"
+24) A hint for Delphi ftp users
+
+
+1) Introductory Info
+
+This is ftp.eff.org (currently 192.77.172.4). Most of the files
+reside in the "pub" directory. If you want general information on the EFF
+look in the "pub/EFF" directory,  specifically at the file
+"pub/EFF/about.eff".  There are lots of neat features about this site, 
+so read on!  One in particular you might like to know about is that all
+directories (except those under the CAF tree) begin with upper-case letters.
+Files, on the other hand begin with (and usually fully consist of) only
+lower case characters (besides numbers, etc.)  Indexes are called 00-INDEX.*,
+and all README files are README.*  This makes it easy to find stuff, since 
+you don't have to look for files like some_file.readme, this_directory.index,
+etc., and you can tell at a glance which listings are directories (they
+also show up in the list before most files).
+
+
+2) Notes on EFF's Guide to the Internet (formerly Big Dummy's Guide)
+
+EFF's Guide (contrary to what WIRED magazine said) is in 
+/pub/Net_info/EFF_Net_Guide/
+The basic ASCII text implementation of the latest version is always
+in the file netguide.eff, regardless of version number.
+
+Special versions (WWW/html, TeX DVI, Texi, PostScript, Windows .HLP, 
+AmigaGuide, GeoWorks Write, MS Word 5.x, DOS self-displaying hypertext,
+Gnu info, and more) are in: /pub/Net_info/EFF_Net_Guide/Other_versions/
+
+
+3) Notes on EFF's electronic publications archive - CuD and /pub/journals/
+
+Note! the EFF Zine Stand has moved! All the zines and journals
+previously kept here are now on etext.archive.umich.edu.  The CuD e-pub
+archives are still here however, in pub/Publications/CuD.
+
+
+4) Notes on other EFF files that have moved: /pub/irc, /pub/airliners/, etc.
+
+The IRC archive has now been moved to ftp.kei.com:/pub/irc
+including all of the irc mailing list archives.
+
+The Airline info directory has likewise moved to ftp.kei.com, in pub/airliners
+
+
+5) Redistribution information
+
+Any and all files in the EFF online archives may be freely distributed at
+will, unless otherwise noted, as long as the content of the files is not
+altered.  It is appreciated if you make it known where the file originated,
+so people can get more info or updated versions.  EFF's Internet Guide may
+also be redistributed.  This includes posting on BBSs, FTP sites and any
+other means of distribution, so long as it is not modified and not sold for
+profit, except under certain conditions.  Please see the first page of the
+guide for more information.
+
+Items that have a copyright notice:  You may wish to contact the authors
+before distributing them further, just in case.
+
+
+6) Notes on binary and text (ASCII) files.
+
+All files other than ASCII text files (most of the files on this site are
+text files) must be transferred as binary files, or you'll get them as
+worthless gibberish. This holds true for ANY ftp site.  Files with
+extensions like .gif, .zip., .tar.z, .Z., .gz, .sea, etc. are binaries.
+Some files that may look like binaries but aren't, are files that end with a
+.hqx or .ps extension (note, however that a .ps PostScript file that has
+been compressed, e.g. filename.ps.gz, has become a binary.)  For most ftp
+software, all you have to do is give the "binary" command (no quotes) to
+enter binary mode.  In most cases, transferring text files in binary mode
+works fine, too, especially if you are on a Unix machine.  It will actually
+be faster.  This is a Unix site, and MS-DOS and Macintosh handle ASCII
+end-of-line markers differently, so you should transfer text files in the
+slower ASCII mode, so they are translated properly, if you are on a DOS or
+Mac machine.
+
+If the file you just got looks like garbage, ask yourself first and
+foremost:
+               "Did I remember to use binary mode?"
+
+
+7) Notes on compressed/archived files (.tar.*, .Z, .z, .gz, etc.)
+
+All compressed and tar-archived files are binaries, and must be
+transferred in binary mode!
+
+.z and .gz files are GZip (GnuZip) compressed archives, NOT
+Unix "compress" archives (.Z files). If you don't have gzip on
+your system, you can get these files uncompressed by 'get'ing the filename
+w/o the .z/.gz extension.  If you find some-file-I-want.z (or .gz), you can
+get the uncompressed version by:
+
+ftp> get some-file-I-want
+rather than: 
+ftp> get some-file-I-want.z
+or
+ftp> get some-file-I-want.gz
+
+The .z/.gz will be decompressed for you on the fly.
+If you want them in .Z compress format, substitute .Z for .z or .gz:
+
+ftp> get some-file-I-want.Z
+
+Note that files that end in .tar.* (e.g file.tar.Z, file.tar.gz, etc.)
+are archives produced with the unix "tar" program.  You should be able 
+to find an un-tarring utility for your computer at garbo.uwasa.fi or
+perhaps wuarchive.wustl.edu (look for tell-tale directories like
+pc/compression, mac/archivers, etc.)  It may take a while to find it, but
+the tools are there.  In most cases .tar.* files will be of little use to
+those not on Unix machines anyway.  If you prefer to mget files in batches
+and want to decompress at home, use the unix gunzip command to extract
+.gz, .Z and .z files.  If using a non-unix box of some sort, there are
+Mac and DOS toys for dealing with GZip files, which you can get from ftp
+sites like wuarchive.wustl.edu:
+
+/systems/ibmpc/umich.edu/compression/gnuzip/
+-r--r--r--   1 root     archive    119146 Jan 29  1994 gzip124.exe
+/systems/mac/umich.edu/util/compression
+-r--r--r--   1 root     archive    151330 Jul 23 12:50 macgzip0.22.cpt.hqx
+
+If busy, see mirror site uceng.uc.edu, /pub/wuarchive/systems/...
+Juding from "umich" in the path,
+
+msdos.archive.umich.edu and mac.archive.umich.edu also have these files.
+
+
+8) How/where to get more help (try documentation and your sysadmin FIRST!)
+
+If you have problems, comments or requests to pass on, please mail
+ftphelp@eff.org.  Note that ftphelp is a person, not an infobot, so please
+make your messages detailed and specific.  If possible include captures of
+the relevant parts of your session.
+
+** PLEASE!  For basic help with ftp and other net services, talk to your
+local admins, and try "man <commandname>" (example: man ftp) to get the
+manual pages on the command you are trying out.  EFF is not in the
+business of net.consulting, so please use local resources first.  Don't
+hesitate to point out problems with our system though, if you are certain
+that there are bugs or other mistakes on our part.  Thanks!
+
+
+9) Uploading to EFF
+
+** ALL UPLOADS MUST BE ACCOMPANIED BY EITHER A TEXT FILE DESCRIBING
+   WHAT IT IS, OR AN EMAIL TO FTPHELP@EFF.ORG DESCRIBING THE FILES.
+   Files that don't have either an email or uploaded explanation
+   are very likely to be deleted, unless we are expecting it, or 
+   otherwise can be expected to know what it is.
+
+The /incoming (uploads) directory is for EFF-related material only.  
+E.g., something like the text of a bill, a guide to online resources, a
+notice about a national networking conference, etc. are all apropriate.
+GIFs, shareware, pornographic text files, and solar flare reports are not.
+Please don't upload junk in here, it will just get deleted.  If you do
+have something good to add to the archives, then by all means please do
+upload it, provided it is redistributable material.
+
+Also note that after the upload, you will not be able to see the file in
+the directory, as incoming is write-only to prevent it being misused to
+nefarious purposes like software piracy or whatever.
+
+The turnaround time on processing the uploads might be a week or so, but
+then again it might be 5 minutes.  If you want faster processing, send me
+an email explaining that you just uploaded something and what it is.
+ 
+
+10) Notes on how to get "best of EFF" collections
+
+We have a collection of the "best of EFF" files, called the Frontier Files
+disks, the content of which can be downloaded from this site, at 
+/pub/EFF/Misc/Frontier_Files/ - 3 versions are available.
+
+They are available from us (see top of this file for address) on disks for
+Macintosh, DOS, and Amiga.  If you'd like such a disk please send us a
+self-addressed, 52-cent-stamped diskette mailer, and a disk if you can,
+to help defray costs.  The disks are available in 3.5" DD only.  It is
+perferred (probably by you too!) to get the archives from the ftp site,
+rather than send off for a disk.
+
+
+11) Where are our files mirrored on other sites?
+
+Mirror sites are sites that keep copies of another site's material, so it
+is more widely available.  Many sites mirror our files.
+
+This is NOT an exhaustive list; if you find more, let us know.
+
+coast.cs.purdue.edu, /pub/mirrors/ftp.eff.org/
+ mirrored directories:
+  /pub/EFF/Legal/
+  /pub/EFF/Legislation/
+  /pub/EFF/Policy/Anonymity/
+  /pub/EFF/Policy/Crypto/
+  /pub/EFF/Policy/Privacy/
+  /pub/EFF/Policy/Security/
+  /pub/Publications/CuD/CuD/
+  /pub/Publications/CuD/Law/
+  /pub/Publications/CuD/Phrack/
+ and subdirectories thereof
+
+wuarchive.wustl.edu, /pub/doc/EFF/
+ mirrored directories:
+  /pub/CAF/
+  /pub/EFF/
+  /pub/Publications/
+ and subdirectories thereof
+
+uceng.uc.edu, /pub/wuarchive/doc/EFF/
+ This is a mirror of a mirror, same material as wuarchive.wustl.edu
+
+ftp.std.com, /src/wuarchive/doc/EFF/
+ This is a mirror of a mirror, same material as wuarchive.wustl.edu,
+ may or may not be active (last I looked it was [probably temporarily]
+ not available due to NFS problems.)
+
+ftp.std.com, /obi/EFF/
+ a small collection of misc EFF files (mostly older files, but some of the
+ basic intro material).
+
+ftp.glocom.ac.jp, /mirror/ftp.eff.org/
+ mirrored directories:
+   /pub/EFF/
+   /pub/CAF/
+   /pub/Publications/Bruce_Sterling/
+   /pub/Publications/CuD/
+  and subdirectories thereof (that's most of the site).
+
+bric-a-brac.apple.com, /alug/EFF/
+ partial mirror of /pub/Net_info/EFF_Net_Guide/
+
+mailer.fsu.edu, /pub/DDuke/EFF/
+ a small collection of some introductory EFF info, mainly stuff that can
+ be found at /pub/EFF/ and /pub/EFF/History/ at ftp.eff.org.
+
+CuD-only mirror sites (may not be complete mirrors of/pub/Publications/CuD):
+  UNITED STATES:  etext.archive.umich.edu (141.211.164.18), /pub/CuD/
+                  aql.gatech.edu (128.61.10.53), /pub/eff/cud/
+                  ftp.halcyon.com (192.135.191.2), /pub/disk1/cud/         
+                  ftp.std.com, /obi/Computer.U.Digest/ (partial mirror)
+
+  EUROPE:         nic.funet.fi, /pub/doc/cud/ (Finland)
+                  ftp.warwick.ac.uk, /pub/cud/ (United Kingdom)
+
+
+Selected articles (mostly announcement, notices, press releases and papers)
+from Usenet's comp.org.eff.talk are archived at:
+cs.dal.ca, /comp.archives/comp.org.eff.talk/
+
+
+12) "How come when I type 'cd publications' or 'chdir groups' it get an error?"
+
+Unix, the operating system our site runs on, is *case-sensitive*, unlike DOS,
+Macintosh, etc.  This means that a file or directory name like "publications"
+is NOT the same as one called Publications or PUBLICATIONS or pUbLiCaTiOnS.
+If you get a bad directory name error when trying to cd (chdir) into it, or
+a bad filename error when trying to get a file, look at the case and make
+sure you are typing it as it appears.  As a side note, on some systems, you
+may encounter file names like FILE.TXT;1 in which case you need to include the
+";1", while on others you may find filenames with spaces in them, in which
+case you need to enclose the entire name, spaces and all, in
+double-quotes, like "file name".  You won't run into either of these problems
+on our server, however.  For beginners: If you aren't sure what the file name
+is, type "dir" or "ls" at your ftp prompt - this will get you a directory
+listing of the files in the current directory.
+
+
+13) "How come when I type 'get EFF' or 'mg Publications' I get an error?"
+
+You can't use get or mget (mg) on directories, only on files.  You need to
+go INTO the directory (cd EFF, cd Publications, etc.), do a dir or ls 
+command to see what's in there and do a get on the file you want, or an
+mget on the set of files you want.
+
+
+14) "How come when I type 'get *.eff' or 'get l???x.txt' I get an error?"
+"get" does not support wildcards (* and ?), only mget (mg) does.  
+Use the full filename, or use mget.
+
+
+15) "How come these wildcards don't behave right?"  
+If you are used to DOS wildcards, you should be aware that the Unix ones,
+though similar, are don't work exactly the same.  In particular, be aware that
+"." is not considered a special character, a divider.  In Unix, it's Just
+Another Character. Thus if you have 3 files, fnord.1, fnord.2 and foobar.1,
+doing mg * or mg *.* will get them all.  Doing mg *.1 or mg *1 will get
+both fnord.1 and foobar.1, and doing mg fnord* or mg fnord.* will get
+fnord.1 and fnord.2.  Also, one good thing is that you CAN do wildcards like
+*widget*.*, which you cannot in DOS (it interprets *[string].* as *.*, due
+to a bug that's been there since version 1.)
+
+
+16) "How come when I type 'put newfile.txt' I get an error?"
+Only one directory on the system is set up so that anyone can upload to it.
+This is /incoming.  Please see /README.incoming before uploading.  Thanks.
+
+
+17) "What are those .Links, .cap, .menu, and zzz files and directories?"
+They are just control files for the gopher system, and you can ignore them.
+They aren't very interesting.  In general, on any FTP server, a filename
+beginning with a "." is of no interest to you.  Likewise, material in /usr,
+/etc, or /bin, is likely to be nothing you are looking for.  Most ftp sites
+hold their public material in a directory called /pub.  There are a few that
+don't, but the standard ftp control directories (/bin and the like) don't 
+hold archives, but are the homes of the ftp server itself and associated
+files.
+
+
+18) "How come when I type 'cd pub/Net_info/' or 'cd ~ftp/pub/EFF/' I get
+    an error?"
+The proper syntax is "cd /pub/Net_info" or "cd /pub/EFF/".  You may need
+to use "chdir" instead of "cd", depending upon your ftp client.  When
+cd'ing through several directories like that, the initial "/" is required.
+"~ftp" is just a customary notation indicating that "ftp" is actually the
+root directory for anonymous ftp.  You don't actually include it as part
+of the path when using cd (chdir).  Note also that the trailing "/" is
+optional.  This is to say, ~ftp/pub/EFF, pub/EFF, /pub/EFF/ and /pub/EFF
+are all the same thing, but to get to it you'll do "cd /pub/EFF" (or "cd pub"
+as one command, then "cd EFF" as another.)
+
+
+19) Date format used on this server
+In general, dates that appear in filenames are in the traditional US order:
+month, day, year.  Ex: 080494 and 8/4/94 both mean August 8th, 1994.
+Exceptions: there may be a few files here and there with day, month, year
+order (e.g. in the text of non-EFF articles), and there may also be a few
+files with the canonical unix date format (year, month, day: 940804) in them.
+These are pretty uncommon, though.
+
+
+20) File indexes
+Indexes of our file areas are available in files with names of the pattern 
+00-INDEX.<directory_name>, where <directory_name> is the name of the
+current directory, a reasonable abbreviation thereof, or .TXT in a few
+cases (mainly old indexes that haven't been updated.)  These indexes
+include descriptions, though indexing is still underway, and even when
+fairly complete, they may not be updated the instant new files arrive (all
+of this takes time, and that's a scarce resource here.  If you'd care to
+volunteer to help us with our site indexing, please email mech@eff.org).
+
+A file listing of the entire ftp site is available at
+/00-master_filelist.Z.  This is just a directory-by-directory listing of
+file names, sizes and dates; it does not include descriptions.
+
+When indexing is completed a script will be set up to prepare a master
+file index of the entire site with descriptions.
+
+
+21) HTML (WWW) links to other sites
+In many directories on this site, you will find 00-links*.html files.
+These are World Wide Web HTML hypertext documents, and if you are using
+a smart gopher client or a WWW browser to view this archive, you can select
+this file to get a menu of other resources related to the subject of the
+current directory.  If you see more than one 00-links*.html file, select
+00-links.html - the rest are submenus of the main menu in 00-links.html.
+
+NOTE: This feature does NOT work for normal ftp users, only for those
+using a smart gopher (e.g. the unix gopher client, but not Mac TurboGopher),
+or a WWW client like lynx, Mosaic, Cello, or MacWeb.  For gopher users, 
+the gopher actually shells out to lynx to perform the www applications.
+This is why it doesn't work for ftp or dumb-gopher users.  If you are
+using gopher, and enter one of these items and wish to get out, just hit Q
+to <Q>uit, and you'll be back in gopher.
+
+
+22) "Can I get these files by any other method?"
+YES.  Our ftp site, our gopher site, and a portion of our WWW site are all
+the same thing.  They point to the exact same files.  To get any
+particular file, say ftp.eff.org /pub/EFF/about.eff, via gopher, just replace
+ftp.eff.org with gopher.eff.org, and replace /pub/ with 1/ in the path.
+Note that gopher just goes to directories in the path, not the file name, so
+leave the filename off, then when you get into the directory, select the file
+manually. For instructions on how to specify a path name to your gopher
+client, please see your documentation.  All gopher clients work a little
+differently.  The standard unix gopher uses this syntax: 
+gopher -p <path> <site> <port, usually optional>
+e.g.:
+gopher -p 1/EFF gopher.eff.org 70
+
+To get the file via WWW, replace ftp.eff.org with
+http://www.eff.org and make a URL-format address/path out of it (e.g.
+http://www.eff.org/pub/EFF/about.eff - the only difference is the site name
+change, and attaching the path to the end of the site name so it's all one
+statement.)
+
+Many of our files are also available from our BBS, "Outpost - EFF Online",
++1 202 638 6119 - 8N1; 300-14400bps (baud), V.32bis, V.42bis; 16800bps ZyXEL
++1 202 638 6120 - 8N1; 300-14400bps, V.32bis, V.42bis
+If you wish to login anonymously, you can do so by logining in as ANONYMOUS
+password GUEST.  Anon access is limited, but you can download any of the
+files (limitations apply primarily to message areas).
+
+
+23) "What do I do if I can't get directory listings and have other probs?"
+If you can't get directory listings except in the top levels, the display
+looks messed up, automatic messages don't display correctly, you have
+trouble getting files, etc. (especially if you are using HyperFTP), try
+logging in with a - before your "password" (email address).  Example:
+Password: -mech@eff.org
+NCSA's Telnet for DOS also has problems properly displaying the messages
+from the FTP server.  If it bugs you, use the "-" trick.
+
+
+24) A hint for Delphi ftp users
+Please remember that the Delphi ftp client requires you to enclose
+case-sensitive directory and file names in "quotes".
+
+

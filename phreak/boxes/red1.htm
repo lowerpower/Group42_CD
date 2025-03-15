@@ -1,0 +1,73 @@
+<html>
+<head><title>Group 42 Sells Out[RS Red Box]</title></head>
+<body background="phone.jpg">
+<center>
+
+<img alt="Group 42 Sells Out!" src="../../g42slogo.gif">
+
+</center>
+
+<hr size=5 noshade>
+<BODY background="b.jpg" text=#ffffff link=#00d000 alink=#d00000 vlink=#ffffff>
+<center>
+<h2>Red Box Tones</h2>
+<h3>for the C64</h3>
+<h4>Group 42, 1987</h4>
+</center>
+The following is a program for the Commodore-64 that will produce Red-Box
+tones (Nickels, Dimes, and Quarters.)  Record these with a tape recorder
+and play at your favorite fone booth.<p>
+Group 42 has used these tones succesfully up and down California, we
+hope you have success also.  Enough of the small talk, here is the
+program.<p>
+<br>
+10 s=54272: pokes+6, 240:pokes+4,32:pokes+24,15:pokes+13,240:pokes+11,32<br>
+20 pokes,229:pokes+1,140:pokes+7,239:pokes+8,108                <br>
+30 goto500                                                      <br>
+40 rem *** quarter tone code                                    <br>
+50 fori=1to5:pokes+4,33:pokes+4+7,33                            <br>
+55 pokes+4,32:pokes+4+7,32                                      <br>
+60 forj=1to25:next:nexti:return                                 <br>
+63 for j=1to25                                                  <br>
+99 rem *** dime tone code                                       <br>
+100 fori=1to2                                                   <br>
+110 pokes+4,33:pokes+4+7,33                                     <br>
+120 forj=1to30:next                                             <br>
+130 pokes+4,32:pokes+4+7,32                                     <br>
+140 forj=1to35:next                                             <br>
+150 nexti                                                       <br>
+160 return                                                      <br>
+199 rem *** nickel tone code                                    <br>
+200 pokes+4,33:pokes+11,33                                      <br>
+210 fori=1to30:next                                             <br>
+220 pokes+4,32:pokes+11,32                                      <br>
+230 return                                                      <br>
+499 rem *** menu code                                           <br>
+500 print"Group 42 Red Box Program"                             <br>
+501 print"         q for quarter"                               <br>
+502 print"         d for dime"                                  <br>
+503 print"         n for nickel"                                <br>
+510 getx$:ifx$=""then 510                                       <br>
+520 if x$ = "q" then gosub 50                                   <br>
+530 if x$ = "d" then gosub 100                                  <br>
+540 if x$ = "n" then gosub 200                                  <br>
+550 goto 510                                                    <br>
+<p>
+<br>
+<hr size=5 noshade>
+<center>
+
+<h4>
+<a href="../../index.htm">HOME</a> |
+<a href="../../about.htm">GROUP 42</a> |
+<a href="../../disclaim.htm">DISCLAIMER</a> |
+<a href="../../help.htm">HELP</a>
+<br>
+Copyright &copy 1984-1996, Group 42
+</h4>
+
+</center>
+
+</html>
+
+

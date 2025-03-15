@@ -1,0 +1,175 @@
++--------------------------+
+| Cellular Fraud in the UK |
++--------------------------+
+
+The first (obvious) obstacle you need to get over is to obtain a phone. 
+You'll need to get a phone which you're going to be able to change the ESN 
+on so don't rush out and buy that Uniden CPP5500 from Mr Shifty in the 
+street since you're not going to be able to reprogram the ESN very easily. 
+ESN, incidentally, stands for Electronic Serial Number - It identifies one 
+phone from another - Hence changing the ESN fools the phone company into 
+thinking your phone is somebody else's and you can make calls as if you 
+were holding the phone being cloned.
+
+So before buying a phone, check what reprogramming software you can get hold 
+of. There isn't a great deal of software floating about on h/p boards but on
+most (such as the fabuluous Unauthorised Access) you'll find software for
+most Motorolas, NEC P3s/P4s, Sony MarsBar, Ericsson EH237/97, Panasonic A-F. 
+Software for the newer phones do not tend to be on general pirate release as 
+they have robust copy protections so you may have to go out and buy software 
+for such phones. The cheapiest & easiest software to go for would be P100, 
+Panasonic I/J,  so if you don't mind buying the software, try and get hold of 
+one of these phones. The price of the reprogramming software for these models 
+is quite low these days. I, personally, would charge between 30 and 60ukp if 
+you were to buy them from me but most places will charge around the 100ukp 
+mark. For a little bit more you'll get the cables to boot. The reason for me 
+recommending this software is that to reprogram these models you merely need 
+a cable to connect the phone to your IBM PC. Some of the more obscure phones 
+need EPROM programmers to change the ESN so each time you need to change it 
+(which would be quite frequently I'd imagine) you'd need to open up the phone, 
+program the chip and put it in the phone. This kind of thing is only really 
+suitable for one off jobs, not for someone who needs to constantly change the 
+ESN, like your good self. 
+
+So now you have a phone, some software to reprogram it and, if you're 
+slightly electronically inclined, the cable to go with it. Diagrams for
+making up the cables should come with the software (check my Sony MarsBar
+release for a good example). If you purchase the software your "man" should
+provide you with the wiring diagrams. If the mere thought of a soldering
+iron & a couple of resistors makes you break out in a cold sweat then all is
+not lost. Your "man" should be able to supply you one, or you may go to one
+of the many people who advertise in Exchange & Mart for them. There are 
+always a few adverts in there for ESN software & cables - you may be looking 
+at 60 quid, though, for a cable which represents about 10 quid's worth of
+components - But that's how these guys make their money, right ? Don't worry
+about buying this stuff, they should be happy to sell to a private person. 
+If someone will only supply to registered dealers, the chances are they'll be
+charging more for the kit so go elsewhere. For the record, these people will
+probably assume you are getting the kit for rechipping 2nd hand phones and 
+selling them with airtime since this is where 95% of their business comes
+from. The software was written and is for sale for "legitimate" purposes
+rather than for cloning fraud. I use the term "legitimate" lightly, however,
+since the authorities would like to see even the rechipping of 2nd hand
+phones stamped out.
+
+There can be yet more complications once you have all the stuff because
+different versions of software might not work with your particular phone
+since yours is very new. If you have any trouble phone your supplier or post 
+your problem on an h/p bbs. I could try to list all the problems & remedies
+but it would fill the entire magazine so I'll leave that for you to find.
+The chances are you'll sail through without any problems anyway (touch wood)
+
+Once you have everything set up and you can change the ESN to your heart's
+content you're going to want to know how you can start making free calls...
+All you need now is your first victim's phone number (also known as MIN - 
+Mobile Identification Number) and the ESN of his phone. The ESN and MIN are
+commonly referred to as a "Pair". There are various methods of gaining pairs.
+You could start by trashing your local Vodafone Centres. They often throw 
+out FAX transmissions made/received when making connections that contain all
+the information you would need (and more!). There are ESN scanners available
+on the market such as the one made by Curtis Electronics. Check Exchange &
+Mart for such equipment but you are probably looking at paying over 1000ukp
+for something which you are getting in order to make free calls! So to the 
+average teenage phreak this kind of hardware is out of the question. If you 
+know a fair bit about electronics you may be able to modify a cheap hand 
+scanner to pick up pairs and display them on your computer screen (Check 
+your local board for files on that topic). Another method, if you're stuck, 
+is the old social engineering routine. Call someone up and pretend to be a 
+Vodafone engineer <blah blah bullshit blah> "Service problems" <rhubarb 
+rhubarb> and get it out of them that way. There are millions of scripts you 
+could use. Just use your imagination.
+
+Having not done anything for a good while, I'm not too sure how fast an 
+account dies in the UK these days. They used to last a month at a time until
+the customer got their bill (or perhaps longer) but now the phone systems
+are becoming increasingly more adept at picking up odd calling patterns etc.
+and some may die immediately after you make your first call. If I remember
+rightly, Vodafone bar the account if two calls are made at once on the same
+account. People often ask me about getting calls which aren't intended for 
+you. The answer is, yes, you will receive someone else's calls if you are 
+using their account. But if both you and the victim have their phone switched 
+on, only one will receive it, that being the one who switched his phone on 
+last. So if you want to receive a call on your account, set an exact time for 
+your 'phriend' to call you and switch your phone on immediately before-hand.
+
+Another common question is "What happens when this victim gets his bill and
+me friend's number is all over it ?" Well the simple answer is "Who knows?".
+But what I can tell you is that I get many, many calls from people using 
+stolen pairs and up until now I, nor any of my friends have had any problems.
+It's not your fault if someone else calls you using a stolen pair and how are
+you supposed to remember who called you at 9:14pm on Tuesday of last month?!
+This tends to be written off by the service providers as a loss & not
+investigated further. This may change, I don't know, but I wouldn't be too
+worried. As for the phone system tracing you, I really can't see it myself.
+You may have heard of a process called "Triangulation" which can pinpoint you
+to (I think) a block of houses or something. Well, a friend of mine spends 
+4-5 hours a night boning pairs from the same place (his house) and over the 
+past year he's never been touched. I guess if they _really_ wanted you, like
+that Kevin Mitnick guy who just got arrested in America, they could get to
+you but it took a lot more than triangulation to pinpoint Kevin Mitnick.
+They pinpionted him to a block of flats and then raided _all_ of the flats
+until they found him. A waste of taxpayers' money if you're looking for a
+teenage kid calling his mate down the road for free.
+
+You may well be interested in hooking your modem up to your cellphone. Well,
+there are some adaptors on the market for specific phones but they tend to
+be very pricey. Your best bet would be to try and pick up a Motorola 4500X or
+4800X and build the circuit designed by the same friend I mentioned above.
+You'll find his text file on most boards and the components will only cost
+you 10-20 quid or so. The bonus is that the 45/48s (big transportable bag
+phone) has an excellent boosted reception and in many areas you'll get 1600+
+cps no problems on a 14.4k modem. It's also great as a phone for voice calls
+due to the reception and it takes only seconds to reprogram. It is possible
+to connect most phones up to a modem, however this may take some thought and
+work from yourself (and we all like to have things handed to us on a platter
+don't we ?). The circuit for the interface will be the same in all cases, it
+is your job to find out the correct pins to connect the interface to. You'll
+want audio tx/rx and ground. There is a file knocking around that tells you
+how to connect a modem to a P3 which is all well and good, since the P3 is an
+infamous phreaker's phone but the call quality is nothing compared to the 
+4800X so your connect rates will be much lower.
+
+An interesting subject which I have little experience (unfortunately) in is
+the issue of modified test chips. The most widely available would have to be
+the NEC test rom for the P3 dubbed as the "Store-69" chip. With this you may
+change the ESN of the phone at will by storing the 11-digit ESN in memory
+bank #69, just as you would your friend's phone number. Then, a simple matter
+of pressing a few buttons will put the phone into test mode from where you 
+can change the phone number and also do other neat things like scan the 
+cellular frequencies allowing you to eavesdrop on other mobile phone calls. 
+The ROM dump for this is widely available on most boards so if you have 
+access to an EPROM programmer you can open the phone up, take out the chip 
+and blow the new ROM software into it. Otherwise you shouldn't have too much 
+trouble finding someone to sell you one for œ20-60.
+
+I often hear stories of more advanced chips and, although I know people who
+will swear they have seen one in action, I have never actually witnessed one
+myself. A popular point of conversation is a chip for the Panasonic F1 which
+grabs 20 ESN/MIN pairs when you switch the phone on and "tumbles" through
+them one-by-one each time you make a call. Thus erradicating the need for 
+finding ESN pairs yourself and your calls may go unnoticed by your victims
+since you will probably only make one call on their bill. It makes the whole
+process fully automated and very easy. I have heard of similar chips for the
+P3 and the Motorola Microtac-II. The Microtac one sounds especially good 
+since, aswell as it being a great phone, after adding this PIC chip to the
+phone you may keep a proper account of your own on the phone and (only) when
+you make a call it automatically grabs an ESN/MIN pair, uses it for that 
+call and then reverts back to your own legitimate ESN/MIN. This is very
+handy in itself and you have the advantage of having an ESN which is yours 
+in the phone just in case you get picked up by the cops (assuming you sign
+up for your own airtime contract).
+
+I hope this article has enlightened the unenlightened on how easy it is once
+you know the basics. It is a very open system for now. For the future, 
+Vodafone and Cellnet are planning to introduce a new system called TACS-II
+which will require customers to enter a 16-digit pin registered at the cell
+site before they can make a call. Most new phones have this feature ready
+implemented for future compatibility but don't worry because these plans are
+by no means immediate. It could be unveiled in '96 or even '98, and even
+then it is to run alongside the current ETACS system so there will always be
+plenty of pairs to make use of.
+
+If you have any questions or comments please feel free to contact me via 
+e-mail at an122713@anon.penet.fi
+
+Long live cellular!

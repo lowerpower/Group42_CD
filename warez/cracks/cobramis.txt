@@ -1,0 +1,29 @@
+Unprotect Cobra Mission
+
+
+Search the file cm.exe for the following seven byte hex string:
+
+                      C8 62 00 00 83 3E C8
+
+And change them to:
+
+                      FF 06 86 5D 33 C0 C3
+
+Use PCTOOLS or NORTONS to search and replace the bytes.
+
+How it works. 
+=============
+ this patch replaces "read integer/cardinal number" (password) by own procedure
+ This own procedure does not read string and then convert to number but simlpy
+ increments number by 1 and returns read O.K. result.
+	inc word ptr [5D86]	; 5D86  => location of number result
+	xor ax, ax		; ax=0  => success in reading
+        ret			; thats all
+
+Because of used unprotect algorithm, password searching process takes a few 
+seconds and it is random time (on 386sx 25MHz mean time is ca. 15 sec.) but
+it is still shorter then looking in documentation and entering number.
+ 
+		Greetings Daniel Arendt
+		arendt@zsku.p.lod.edu.pl  
+

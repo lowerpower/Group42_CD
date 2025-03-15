@@ -1,0 +1,59 @@
+<html>
+<head><title>Group 42 Sells Out [ST1000 Turn On]</title></head>
+<body background="cable1.gif">
+
+<center>
+<img alt="Group 42 Sells Out!" src="../g42slogo.gif">
+</center>
+
+<hr size=5 noshade>
+<center>
+<h2>ST1000 Turn On Docs</h2>
+by G-Man of Group 42
+</center>
+<p>
+This patch is for the ST-1000 without a kelock manufactured around 9/84,
+but may work on other simalar units.  To open the box, a tamper-proof torx
+T-15 driver is required.  The board of interest is attached to the top of
+the case with 1/4" screws.  It is a long narrow board with a battery on it.
+It is identified on the component side by the numbers 204-1106-0314 and
+9-132-04.  The foil side has the followin number on it 204-1106-03M.
+You will need to make 10 cuts and 1 jump as follows:
+<p>
+<ul>
+<li>W15 cut from W24.
+<li>W23 jumped to W24.
+<li>IC 6675 Pin 40 cut from SW1 pin 2.
+<li>Make 8 cuts at X's on graphic.
+</ul>
+<pre>
+
+--------------------------------------------------------------------
+                                                   1
+                .               ....................    7.--.
+                W               | IC 6675 (40 pin) (    6.  .
+                1               ....................    5.  .S
+                5                                     . 4.  .W   B
+                .                 . . . . . . . . .   | 3.  .1   A
+              .   .             . W X                 W 2.  .    T
+              W   W    PROM-->  W 2                   3 1.--.    T
+              2   2             4 8     X X X   X X   |          E
+              3   4             . . . . . . . . . .   |          R
+              .   .                   X       X       .          Y
+
+--------------------------------------------------------------------
+               (Foil Side - Processor Board - Not to Scale)
+</pre>
+At this point the box is open for video.  You may need to adjust the AGC,
+the pot is located in the bottom center portion of the cabinet in a
+tin enclosure.  The adjustment hole is at the right center of the module.
+<p>
+If you hear barker audio rather than the normal programming, one of the
+pots near the ACG will need to be adjusted.
+<p>
+
+<hr size=5 noshade>
+
+</html>
+
+

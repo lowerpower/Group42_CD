@@ -1,0 +1,67 @@
+MEI HT5000
+
+NOTES:  This is a dual NAM handheld unit.
+        The ESN prefix is 167 decimal, A7 hex.
+        Monsor Electronics: 416-475-8444
+
+PROGRAMMING:
+
+1.  With the power OFF plug in the programing adaptor, if this is not
+    available short pins 1 and 6 (end pins on the top row).
+
+2.  Power the phone up by pressing and holding the PWR button, the phone
+    will go straight into programing mode.
+
+3.  RCL enters data and increments the step number.
+
+4.  MUT increments the step number without storing data.
+
+5.  SND decrements the step number without storing data.
+
+6.  At any time  END completes programing and exits.  Wait at least 3
+    seconds before turning the power off.
+
+PROGRAMING DATA:
+
+STEP#    #OF DIGITS/RANGE    DESCRIPTION
+
+01       0 OR 1              ALLOW USER A/B SWITCHING
+02       0 OR 1              LOW BATTERY ALARM
+03       0 OR 1              0= 10 MEM LOCATIONS, 1=100 MEM LOCATIONS
+04       0 OR 1              ROAM ENABLE
+05       0 OR 1              DTMF DIALLING (END TO END)
+06       0 OR 1              HORN ALERT
+07       0 OR 1              0= NUMERIC MEM, 1= ALPHA MEM
+08       0 OR 1              MUSIC ON MUTE
+09       0 OR 1              USER CUMULATIVE TIMER RESET
+10       0 OR 1              AUTO METER SWITCH FROM BATT LEVEL TO RSSI
+11       NOT USED
+12       0 OR 1              LOCK CODE REQUIRED TO RESET AIR TIMER
+13       0 OR 1              LOCK CODE REQUIRED TO DISPLAY MIN
+14       NOT USED
+16       NOT USED
+17       0, 1 OR 2           LOCK MODE 0=TOTAL, 1=OUTGOING ONLY, 3=PARTIAL
+18       1 TO 10 DIGITS      LOCK CODE
+19       0 TO 255 SECONDS    BACK LIGHT TIMER
+20       10 DIGITS           MIN (AREA CODE & TEL NUMBER)
+21       00000 - 32767       SYSTEM ID
+22       333 OR 334          INITIAL PAGING CHANNEL
+23       2 DIGITS            STATION CLASS MARK
+24       0 OR 1              PREFERRED SYSTEM 0=B, 1=A
+25       0 OR 1              MIN MARK
+26       2 DIGITS            ACCESS OVERLOAD CLASS
+27       2 DIGITS            GROUP ID (10 IN USA)
+28       0 OR 1              LOCAL USE MARK
+
+NAM 2 DATA:
+
+29       10 DIGITS           MIN (AREA CODE & TEL#)
+30       00000 - 32767       SYSTEM ID
+31       333 OR 334          INITIAL PAGING CHANNEL
+32       2 DIGITS            STATION CLASS MARK
+33       0 OR 1              PREFERRED SYSTEM 0=B, 1=A
+
+LOCK: F 7.  UNLOCK: Enter three digit code.
+
+SYSTEM SELECT: (Only if step 1 above is set to "1") Press F # 6 to display, 6
+to scroll CLR to exit.

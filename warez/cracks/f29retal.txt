@@ -1,0 +1,13 @@
+Crack> F-29 Retaliator by Ocean Software
+crack written by Michael Yakubovich (U94_MYAKUBOV@VAXA.STEVENS-TECH.EDU)
+
+This one also needs testing, I din't play much myself (did it for a
+friend), so I'd like to know the results.
+
+FILE: X.EXE
+ORIGINAL: E8 46 53 BA C1 DA B8 00 3D
+CRACK   : 90 90 90 == == == == == ==
+
+This patch lets you play the game from any directory, not just \RETAL
+ORIGINAL: BA 95 D3 B8 00 3D
+PATCH   : == 9C == == == ==                            

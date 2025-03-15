@@ -1,0 +1,42 @@
+GENERAL NOTES:
+
+HANDSETS:  Most Motorola handsets are interchangeable, when a handset is
+used with a transceiver other than the one it was designed for the display
+will show "LOANER".  Some features and buttons may not work, for instance
+if the original handset did not have a RCL or STO button, and the
+replacement does, you will have to use the control * or control # sequence
+to access memory and A/B system select procedures.
+
+
+
+LOCK/UNLOCK PROCEDURES:
+
+     Phones with "LOCK" buttons:  Press lock for at least 1/2 a second.
+
+     Phones with a "FCN" button:  Press FCN 5, note that 5 has the letter's
+                                  "J,K, and L" for lock.
+
+     Phones with no FCN or LOCK button:  Press Control 5, control is the black
+                                         volume button on the side of the
+                                         handset.
+
+
+SYSTEM SELECT PROCEDURES:
+
+     Phones with a RCL button:  Press RCL *, then * to select, STO to store.
+
+     Phones with no RCL button: Press Control * then * to select, # to store.
+
+     Options are:    CSCAn:    Preferred/Non preferred with system lockout.
+                     Std A/b, or Std b/A:  Preferred/Non preferred.
+                     SCAn Ab, or SCAn bA:  Non preferred/Preferred
+                     SCAn A:  "A" ONLY
+                     SCAn b:  "B" ONLY
+                     HOME:     Home only
+
+     (these are typical options, some phone's vary.  C-Scan is only available 
+     on newer models and does not appear unless programed, see below.)
+
+
+
+

@@ -1,0 +1,111 @@
+                       Unprotect for Star Glider
+
+
+ BE SURE TO BACKUP YOUR DISK BEFORE STARTING AND USE THE
+ BACK UP FOR THE UNPROTECT.
+ Modify only the backup copy!!!
+
+ First you should rename the file or files
+ MAIN.EXE TO MAIN
+
+
+ Ex. C>rename main.exe main
+
+ Next Load program into debug...
+
+ Ex. C>debug main
+
+ Then Follow the sample debug session:
+
+     -s 0000 ffff 75 06 c6 06 23    :   Search of protection pattern
+
+     XXXX:YYYY                      :   The search will return one addresses.
+                                        If more or less than one are returned
+                                        this unprotect may not work.
+
+     -e YYYY 90 90                  :   Edit the contents of the computed
+                                        address
+
+ Now write the new main game back to the disk:
+
+     -w  <Enter>
+
+     Writing XXXX bytes
+
+ Then Quit Debug:
+
+     -q  <Enter>
+
+ Now it is time to rename main back to main.exe
+
+     C>ren main main.exe
+
+ Now try to run the new (Hopefully) unprotected version of Star Glider
+ just push CR when asked question.
+
+     C>main
+
+ **************************************************************************
+          * * * *  S P E C I A L   A N N O U N C E M E N T  * * * *
+
+ Now the debugging tool used by "Super Dave" is available to you.
+ The software that enabled the the breaking of this program and others like,
+
+ Indiana Jones & the Last Crusade - De-protected in 3hrs using D86
+ Police Quest II                  - De-protected in 2hrs using DOS's Debug
+ Leasure Suit Larry III           - De-protected in 1hr using DOS's Debug
+ Colonel's BeQuest                - De-protected in .5hr using DOS's Debug
+ Monday Night Football            - De-protected in .5hr using DOS's Debug
+ Sargon IV                        - De-protected in .5hr using D86
+
+ just to name a few.
+
+    All you need is a PC-AT compatible, the HOT_BRK software and your
+ favorite debugger. With it you can break into your debugger at anytime,
+ just as if you had a hardware debugging tool (even if the program re-vectors
+ the video, keyboard & break point vectors.
+    No more single stepping through the program trying to find the point when
+ if asks for the protection, just run the program normally and when the
+ protection is encountered break into your debugger and single step through it.
+    This tool is also great for debugging your own software. When the software
+ locks up break into the debugger to find out why, stop at any point to
+ examine memory or change values on the fly.
+    And as if all this weren't enough the registered version of AT-SLOW is
+ built in. Now you can slow down those games that run to fast on your
+ 286/386/486 machine. Drop back to DOS in those programs that normally lockup
+ your computer and require a re-boot.
+
+ All this is available to you for only $40 including shipping. Just send a
+ check or money order to:
+
+                          David Keil
+                          10 W. Wilburn Ave.
+                          Greenville, SC 29611
+
+ or call:
+
+                          (803) 295-4971 or (803) 859-6868
+
+ for more information or to place your order using your credit card through
+ Summit Computers. We take MC/Visa/AMEX and Discover.
+
+ or leave me mail on my BBS listed below.
+
+ Note:
+    This software is only a tool. If you have never de-protected software and
+ don't know assembler or how to use a dynamic debugger this software will not
+ on its own enable you to de-protect software.
+    If however you have de-protected software and/or have assembler experience
+ this software will enable you to debug and de-protect software that you never
+ thought possible faster and easer than you thought possible. Let the list
+ of broken software above prove its worth.
+
+ --------------------------------------------------------------------------
+
+ Unprotect Brought to you courtesy of Super Dave
+
+                        Super Dave can be reached at:
+
+                        Hackers Paradise BBS (On-line 10-01-89)
+                        (803) 269-7899
+                        Greenville, SC

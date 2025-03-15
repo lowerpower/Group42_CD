@@ -1,0 +1,1819 @@
+Newsgroups: alt.drugs,alt.psychoactives
+
+Version 1.03
+
+(NOTE: This FAQ will be posted roughly biweekly, on the 1st and 15th of
+each month.  Part 2/2 will be posted on the 1st only).
+
+This is a fairly comprehensive list of questions and answers relating to
+the recreational and medical use of dextromethorphan, a sigma and NMDA
+receptor ligand commonly used as a cough suppressant.  The contents of
+these two files are copyright (C) 1994 by William White, and may be freely
+reproduced by any means provided that both files are kept intact and are
+kept together, and are not modified.  This is version 1.0, the first
+release version.  Any questions or comments may be addressed to me at
+bwhite@oucsace.cs.ohiou.edu (finger for PGP2.2 block), or William White,
+44 Canterbury Dr., Athens OH  45701  USA.
+Note that the use of any medicine in any way contrary to instructions may
+be a violation of local, state, and/or federal laws.  I hereby instruct
+all readers not to violate the law.  All factual data herein was obtained
+from medical journals and references, and was accurate at the time I got
+it.  None of it is guaranteed in any way, shape, or form.  This is for
+informational purposes only; nothing herein is to be taken as a recommen-
+dation, excepting the instructions in this paragraph.  Any actions taken 
+as a result of this text are the responsibility of the reader, and are 
+not the responsibility of me, Ohio University, or any subset of the
+Usenet/Internet community.  Ohio University does not necessarily agree
+with any views, expressed or implied, in this document.
+Testimonials and personal data are presented anonymously.  I do NOT
+maintain copies of the sender's name, address, or personal information,
+either online or offline, and thus I cannot give information as to their
+identities.  Any personal information, testimonials, or reports as to
+DXM's effects that were or are sent to me will be considered anecdotal and
+not specifically referring to the sender.  I encourage anyone with
+applicable data to send it to me anonymously.
+ 
+This is part 1/2.  Part 2/2 contains: List of Products containing DXM and
+other active ingredients; Personal Testimonials; and References.
+ 
+FAQ OVERVIEW: Part 1/2
+ 
+<1>     General Information
+<1.1>   What is Dextromethorphan Hydrobromide (DXM)?
+<1.2>   What is Dextromethorphan Polistirex?
+<1.3>   How does one obtain and use DXM?
+<1.4>   What is the content of commonly available DXM preparations?
+        (see also part 2/2)
+<1.5>   What should I know about the other drug ingredients?
+<1.6>   Why are so many of these in liquid form?
+<1.7>   Is recreational DXM usage illegal?
+<1.8>   Other (medical) uses for DXM
+<1.9>   Drug Interactions
+ 
+<2>     Subjective Effects and Side Effects of DXM
+<2.1>   What are the effects of a low recreational dose?
+        (see also part 2/2)
+<2.2>   What are the effects of a high recreational dose?
+        (see also part 2/2)
+<2.3>   Why is there so much individual variance in response?
+<2.4>   What are the side effects and risks of recreational DXM?
+<2.5>   How toxic is DXM?  What is the LD50?  Should I worry?
+<2.6>   Do you recommend DXM for recreation use?
+ 
+<3>     Physiological Effects of DXM
+<3.1>   How does DXM inhibit the cough reflex?
+<3.2>   How does DXM cause its psychoactive effects?
+<3.3>   Wow, that sure is complicated, isn't it?
+<3.4>   Pharmacokinetics
+ 
+<4>     Sigma, NMDA, and PCP2 receptors
+<4.1>   What are NMDA receptors?
+<4.2>   What are sigma receptors?
+<4.3>   What are PCP2 receptors?
+<4.4>   How does DXM compare to other NMDA/sigma ligands?
+ 
+---------------------------------------------------------------------------
+ 
+<1>     General Information
+ 
+This section covers general information about Dextromethorphan, herein
+referred to as DXM.  Note the following abbreviations:
+    CYA     Cover Your Ass.  Remember this one!
+    DXM     Dextromethorphan
+    GABA    Gamma-Aminobutyric Acid (a receptor type)
+    NMDA    N-Methyl-D-Aspartate (a receptor type)
+    OTC     Over The Counter (as in, non-prescription)
+    PCP     [1-(1-phenylcyclohexyl)piperidine] (phencyclidine, also
+            known as "angel dust")
+    PPA     Phenylpropanolamine
+    3-PPP   [3-(3-hydroxyphenyl)-N-(1-propyl)piperidine]
+also note that square brackets denote IUPAC names.
+ 
+If you get nothing else out of this FAQ, let it be this: Remember that the
+use of DXM is, in general, safe, but please remember the following basic
+guidelines:
+    - NEVER use a product containing acetaminophen (Tylenol [tm]); large
+        doses of acetaminophen can cause liver damage or death.
+    - NEVER take DXM if you are taking, or have taken within the past two
+        weeks, a monoamine oxidase inhibitor (MAOI). 
+    - NEVER take DXM if you are taking the prescription antihistamine
+        terfenadine (Seldane [tm]).
+    - Avoid all products containing DXM and other active ingredients.
+    - Always remember: recreational use of DXM is still a great unknown. 
+        The brain you are risking is your own.
+ 
+ 
+<1.1>   What is Dextromethorphan Hydrobromide (DXM)?
+ 
+    DXM is a synthetic morphine analog, similar to levorphanol.  DXM has
+been in use for approximately 30 years, and has replaced codeine as an 
+OTC cough suppressant.  It has no traditional opiate-like activity, and
+is not a substitute for codeine as an analgesic.  DXM is [(+)-cis-1,3,4,9,
+10,10a-hexahydro-6-methoxy-11-methyl-2H-10,4a-iminoethanophenanthrene], 
+and is also known as 3-methoxy-17-methyl-(9alpha,13alpha,14alpha)-
+morphinan.  CAS-125-71-3. [1]
+ 
+   6-methyl group --->  CH3---N---CH2
+                              :   |
+                         _____:   |            Dextromethorphan
+                        /     \   |
+                  _____/   H...\__|__          (note : and .. are
+                 //   \\       /  |  \          dotted lines).
+                //     \\_____/...CH2 \
+                \       /     \       /        The 6-methyl and the
+           CH3O__\_____/       \_____/         3-methoxy group are
+            ^     -----                        marked for later notes.
+            |  
+3-methoxy group
+ 
+ 
+<1.2>   What is Dextromethorphan Polistirex?
+ 
+    Dextromethorphan Polistirex is a time-release formulation of DXM; the
+"polistirex" refers to a sulfonated styrene-divinylbenzene copolymer
+complex.  It is occasionally spelled polystirex or polystyrex.  Unlike the
+HBr salt, which is absorbed fairly quickly, this compound is intended for
+longer duration cough suppression.  Most, but not all, people who use DXM
+recreationally tend to prefer the HBr form (which is also much more
+readily available).
+ 
+ 
+<1.3>   How does one obtain and use DXM?
+ 
+    DXM is widely available in cough syrups, both brand-name (such as
+Robitussin [tm] or Vicks Formula 44 [tm]) and store brands.  Most DXM
+containing cough syrups also contain one or more of the following active
+ingredients: nasal decongestants, antihistamines, acetaminophen, or
+guaifenesin (see <1.5>).  As a rule, you want to avoid all of them.
+    There are "gelcaps" (liquid or gel filled capsules) available that
+contain DXM, but they tend to be fairly expensive and contain other active
+ingredients.  Capsule/tablet formulations of DXM are not usually available
+in the USA.  Drixoral Cough Caps [tm] are the notable exception (30mg
+DXM per capsule).
+    It is worth noting that some drugstores keep tabs on people who
+frequently buy DXM-containing preparations, especially if they buy
+multiple bottles at once or tend not to buy other things at the same time.
+This is less common in larger supermarket/drug stores.
+ 
+    DXM has been popular as an "underground" recreational drug for at
+least 10 years, probably longer.  It is probably one of the few OTC
+medicines with any serious recreational use potential (ephedrine might
+also qualify).  It is both extremely safe and very effective as a cough 
+suppressant.
+    The recreational use potential of DXM has not, in general, been well
+known, either by drug users or by physicians.  Not too long ago, many
+physicians denied that dextromethorphan was psychoactive at all; whether
+this was out of ignorance or a desire to prevent recreational use, I do
+not know.  At present, there is an increasing body of knowledge about
+DXM's potential for recreational use (and abuse) available in medical
+journals.
+    DXM is unique among recreational drugs for several reasons.  First, 
+it is pharmacologically unlike most other recreational drugs (PCP and
+ketamine being its nearest relatives).  Second, its effects can vary
+considerably from individual to individual.  Finally, it can cause quite
+different effects at low and at high dosage levels.
+ 
+ 
+<1.4>   What is the content of commonly available DXM preparations?
+ 
+NOTE: The following list is incomplete.  If you have information to add to
+this list (esp. outside the USA), please email me.  Note also that I do NOT 
+recommend ANY of the following for recreational use.  Finally, note that 
+all expressions are metric.  1tsp is approx. 5ml.
+ 
+Preparations containing DXM only: (SAFEST)
+
+        Drixoral Cough Caps [tm]                                        ????
+                Dextromethorphan HBr                                    30mg per capsule
+ 
+    Vicks Pediatric Formula 44 [tm]             Richardson-Vicks
+        Dextromethorphan HBr                    1mg/ml
+    
+    Robitussin [tm] Pediatric Cough Suppressant Robins
+        Dextromethorphan HBr                    1.5mg/ml
+    
+    Benylin DM [tm] Cough Syrup                 Parke-Davis
+        Dextromethorphan HBr                    2mg/ml
+    
+    Robitussin [tm] Maximum Strength            Robins
+        Dextromethorphan HBr                    3mg/ml
+    
+    Vicks Formula 44 [tm]                       Richardson-Vicks
+        Dextromethorphan HBr                    3mg/ml
+    
+    Kroger [tm] Cough Formula                   Kroger
+        Dextromethorphan HBr                    3mg/ml
+        Note: DXM is misspelled "dextromethrophan" on the bottle.
+ 
+ 
+Preparations containing DXM and other products:
+    This list is presented in Part 2/2 of the FAQ.
+ 
+ 
+<1.5>   What should I know about other drug ingredients?
+ 
+    There are five main classes of ingredients that are present in OTC
+DXM-containing products: decongestants, antihistamines, guaifenesin,
+analgesics, and alcohol.  Each will be discussed in turn.  With the
+exception of alcohol, all should be avoided, although for differing 
+reasons.
+ 
+    DECONGESTANTS: There are three nasal decongestants that are used in
+OTC cough formulas in the USA: PPA, pseudoephedrine, and phenyleprine (the
+latter is almost always found with antihistamines).  PPA is also known as 
+phenylpropanolamine (from which the acronym PPA is derived), norephedrine, 
+and the IUPAC name [alpha-(1-aminoethyl)benzyl alcohol].  Pseudoephedrine,
+known by the brand name Sudafed [tm], is [(+)alpha-(1-methylamino)benzyl 
+alcohol].  Phenyleprine is [(-)-3-hydroxy-alpha-(methylaminomethyl)benzyl 
+alcohol].
+    These decongestants belong to a class of chemicals known as the 
+phenethylamines; this class also includes amphetamine, methamphetamine,
+MDMA, MDA, etc., and tend to be DEA scheduled.  The above three are not
+scheduled by the DEA (this is USA laws) because they do not have
+significant psychostimulant activity.  Ephedrine, which is similar to 
+pseudoephedrine, and is available throughout truck stops and mail-order
+pharmaceutical companies in the USA, does have mild stimulant properties;
+thus its popularity as a form of "legal speed".  All of these drugs
+stimulate the sympathetic nervous system and are thus called
+sympathomimetics.
+    What nasal decongestants do share with the more potent amphetamines is 
+the peripheral activity common to sympathomimetics, such as vasoconstric-
+tion and decreased nasal secretions (the good side), and -- with larger 
+doses -- insomnia, hypertension, heart rhythm abnormalities, hemmorhaging, 
+stroke, or death (the bad side).  Note that these are extreme reactions, 
+and that individual tolerance to sympathomimetics tends to vary
+considerably.  Tolerance can build quickly, and a fatal dose for one
+person may have only a mild effect on another person.
+    Because of the potential danger of hypertension, exceeding the
+recommended dose of DXM and decongestant containing preparations may be
+asking for trouble.  Most people can probably handle it in smaller
+recreational doses, but the peripheral "speediness" can be distinctly
+unpleasant.  Anyone with high blood pressure or the like has no business
+taking large quantities of decongestants.  TRY TO AVOID THESE DRUGS.
+ 
+    ANTIHISTAMINES: The antihistamines operate by blocking histamine
+receptors.  Peripherally, this has the effect of reducing the symptoms of
+histaminergic activity (stuffy and runny nose, itchy eyes, hives, rashes,
+etc.) associated with infections and allergies.  In the CNS, histamine is
+partially responsible for wakefulness, and antihistamines that cross the
+blood-brain barrier will cause sleepiness.  In fact, OTC "sleeping pills"
+are really just antihistamines.  There are antihistamines that do not 
+cross the blood-brain barrier (Seldane [tm] is one) but these are 
+prescription drugs in the USA.
+    High doses of antihistamines can result in dizziness, impairment of
+concentration, extreme sedation (or, paradoxically, insomnia), headache,
+heart palpitations, dry mouth, gastric discomfort, delusions, and
+abnormally high blood pressure.  Doses of 30-60mg/kg have been fatal in
+very young children; most adults, however, are very unlikely to overdose
+on antihistamines.  Death, when it does occur, is from cardiovascular
+collapse or respiratory arrest.
+    The danger of an antihistamine overdose is very low when using a
+DXM-containing product recreationally.  However, you will most likely
+experience some unpleasant symptoms, such as sleepiness, dry mouth, heart
+palpitations, etc.  For this reason, I RECOMMEND AGAINST PRODUCTS
+CONTAINING ANTHISTAMINES.
+ 
+    GUAIFENESIN: Guaifenesin [3-(2-methoxyphenoxy)-1,2-propanediol] is an
+expectorant; it increases the production of respiratory tract fluids, thus
+making phlegm less viscous and easier to cough up.  Guaifenesin has been
+shown effective as an expectorant, but is of no use as a cough suppressant. 
+It is often combined with dextromethorphan.  Guaifenesin should not be
+used for chronic coughs or coughs accompanied by excessive phlegm.
+    High doses of guaifenesin tend to induce emesis (i.e., you puke). 
+Other effects from high guaifenesin doses are not well known, but probably
+not serious.  However, as most people do not enjoy vomiting, I WOULD
+RECOMMEND AVOIDING GUAIFENESIN-CONTAINING PRODUCTS.
+    
+    ANALGESICS: Acetaminophen is the most common analgesic present in
+cough suppressant formulas.  It is closely related to the NSAIDs (non-
+steroidal anti-inflammatory drugs) of which aspirin and ibuprofen are the 
+two most common examples.  Unlike the OTC NSAIDs, however, acetaminophen 
+does not tend to irritate the stomach, and thus its inclusion in cough 
+syrups.
+    An acetaminophen overdose can be very dangerous.  Normally,
+acetaminophen is metabolized in the body by two separate pathways, both of
+which lead to harmless metabolites.  However, these two pathways can only
+metabolize so much before saturating.  At that point, the remaining
+acetaminophen is metabolized by a cytochrome P450 liver enzyme.  The
+metabolite via the P450 pathway is toxic to the liver.
+    Furthermore, this doesn't happen right away; it can take 16 hours
+before any signs of liver damage show up.  This delayed toxic effect has
+been responsible for the deaths of some people who (accidentally or not)
+overdose on acetaminophen, and then think they are fine when no immediate
+problems occur.  There is an antidote (acetylcystine), but it must be 
+administered within the first 12 to 16 hours.
+    The toxic dose of acetaminophen can be as low as 50mg/kg; for a 60kg
+person this is only six acetaminophen tablets.  DO NOT UNDER ANY
+CIRCUMSTANCES USE RECREATIONALLY ANY DXM PRODUCT WHICH ALSO CONTAINS
+ACETAMINOPHEN!
+    As for aspirin and ibuprofen, the other two OTC painkillers, both tend
+to irritate the stomach at high doses.  I recommend against them,
+especially if you have an irritable stomach.  Never take large doses of
+aspirin or ibuprofen if you have an ulcer.
+ 
+    ALCOHOL: Most cough syrups contain some alcohol, to act as a carrier
+and to numb the throat.  With a few exceptions (such as Nyquil [tm]), the
+amount of alcohol is not usually very great.  While alcohol does not, in
+general, mix well with DXM as a recreational drug, the amount in cough
+syrups should not cause trouble unless you are specifically sensitive to,
+or attempting to avoid, alcohol.  There are alcohol-free preparations
+available.
+ 
+ 
+<1.6>   Why are so many of these in liquid form?
+ 
+    Cough preparations are in liquid form for one reason: most people have
+the (mistaken) belief that in order for a cough suppressant formula to
+work, it must coat the throat.  This is complete bunk.  If consumers were
+a bit smarter, we wouldn't have to gag down cough syrup.  There are, in
+fact, gel-capsule cough suppressants on the market, and I expect that
+tablet or capsule dextromethorphan will eventually be common.  In the
+mean time, we're all stuck with that lovely medicinal cherry taste.
+    Note: there is some (reliable) evidence that tablet-form DXM
+preparations have been kept from the market in an attempt to prevent their
+recreational use.
+ 
+ 
+<1.7>   Is recreational use of DXM illegal?
+ 
+    Possibly.  There are laws making it a crime to use OTC medicines in 
+any way other than directed on the label.  Not that this stops people from
+using ephedrine (a bronchodilator) as a stimulant.  Nor are you likely to
+get caught and/or prosecuted; the authorities are much too busy infringing
+upon our civil rights looking for the illegal drugs.  But, remember -- I
+SPECIFICALLY instruct you NOT to use any medicine in a manner inconsistent
+with its labelling.
+    Furthermore, suggesting to someone that they use DXM as a recreational
+drug could also be violating a law -- against prescribing drugs as a
+layperson.  Again, it's not likely to happen, but it is possible.
+    DXM is a prescription drug in Sweden.  It may become prescription in
+other countries.
+ 
+ 
+<1.8>   Other (medical) uses for DXM
+ 
+    Dextromethorphan has been used to determine cytochrome P450-2D6
+activity.  Cytochrome P450-2D6 is a liver enzyme which converts DXM into
+dextrorphan, and is extensively involved in the metabolism of other drugs.
+Some people lack P450-2D6 entirely; others have a highly efficient version
+of it.  By looking for the metabolites of DXM, a physician can determine
+whether a person has P450-2D6, and if so, how efficient it is.  This
+information can then be used to titrate the dosage of drugs which are
+metabolized by P450-2D6.
+    One area in which DXM (as well as other NMDA blockers; see <4.1>
+below) shows great promise is in the prevention of brain damage resulting
+from excitotoxicity (overstimulation of nerve cells to the point of cell
+death).  This excitotoxicity may be partially or wholly responsible for
+the damage associated such wide conditions as fever, hypoxia (lack of
+oxygen), infection (such as poliomyelitis, encephalitis, and meningitis),
+stroke, siezure, physical injury, and withdrawal from long-term dependence
+upon certain drugs (notably alcohol, barbiturates, and benzodiazepines). 
+    In the case of infection (and in particular poliomyelitis), it has
+been demonstrated that the damage to the CNS often occurs not from the 
+infection, but from the body's own defenses, and notably from a chemical
+called quinolinic acid (a metabolite of tryptophan).  Quinolinic acid is a
+very potent agonist at excitatory amino acid receptors, of which NMDA is
+one type; DXM prevents it from activating NMDA receptors.  (Incidentally,
+the function of quinolinic acid -- if it has any -- is not currently
+known; it may be involved in the immune response).
+    As for physical trauma, hypoxia, siezure, stroke, etc., there are
+several experiments which indicate that the majority of the damage again
+comes from excitotoxicity at excitatory amino acid receptors.  While DXM
+has shown somewhat less success there (possibly due to other receptors
+being involved), it still has potential.
+    DXM has also shown interesting potential in treating some of the
+problems associated with mental retardation.  It may also be of use in
+treating Parkinson's disease.  DXM may be useful in conjunction with
+opiates for alleviation of both acute and chronic pain.  It may even be
+useful in fighting lung cancer.
+ 
+ 
+<1.9>   Drug Interactions and Contraindications
+ 
+    DXM should not be used (either recreationally or at normal dosage
+levels) by people who are taking a monoamine oxidase inhibitor (either
+a prescription MAOI or a recreational one such as harmaline).  Combining
+DXM and a MAOI has resulted in death.
+    Fluoxetine (Prozac [tm]) is a cytochrome P450 inhibitor, and will
+change the characteristics of a DXM trip somewhat (see <1.8>; see also the
+testimonials in Part 2/2).  Other P450 inhibiting drugs will probably do
+the same.  The duration of the trip may be greatly extended by P450-2D6
+inhibitors; some users have reported effects lasting 12 to 24 hours past
+the normal duration.
+    Avoid DXM if taking the prescription antihistamine terfenadine 
+(Seldane [tm]).  This combination has resulted in death.  Terfenadine
+has been implicated in other drug interactions, incidentally.
+    Like other psychoactive drugs, DXM should not be used by people who
+are mentally or emotionally unstable.  I tend to believe that NO
+recreational drug (legal or not) should be used unless the user is in a
+calm, rational mood, free from anxiety or negative emotions, and is in a
+controlled setting where s/he will not have to drive.  Speaking of which,
+as DXM is an intoxicating drug, don't drive under the influence.  Ever. 
+But I shouldn't have to tell you that, right?
+    Some people are allergic to tartrazine (FD&C Yellow #5), which is
+present in several cough syrups.  Sensitivity to tartrazine is rare, but
+is frequent in people sensitive to aspirin.  Avoid tartrazine if you are,
+or think you might be, allergic to it or to aspirin.
+ 
+ 
+<2>     Subjective Effects and Side Effects of DXM
+ 
+    This section discusses some of the effects you might expect to feel if
+you were to use DXM (which I again do not recommend).  Note that people
+with an abnormal P450-2D6 enzyme variant may experience no effects from
+DXM, or may have a very long-duration (2-3 days), mild, irritating
+intoxication.  Neither of these two possibilities occur frequently, but
+they should be mentioned.
+ 
+ 
+<2.1>   What are the effects of a low recreational dose?
+ 
+@   Based on reports of users, there are at least two "levels" to a 
+@recreational DXM trip.  These will be dealt with separately, as they
+@can be quite different.  Please note that the amounts given are
+@averages, and there is a GREAT DEAL of individual variation, depending
+@most likely on physical factors (such as cytochrome P450-2D6 activity,
+@liver clearance, and the like).
+@   The two "levels" of the DXM trip are plateaus in that, once a given
+@level is reached, further increases (below the next level) will intensify 
+@the experience but will not necessarily change its character.  There may
+@be other levels; however, the "low dose" and "high dose" effects tend to
+@be the most consistent of any of them.
+
+    Exactly what constitutes a low dose of DXM will vary from person to
+person, but is usually in the range of 120mg to 360mg; this corresponds to
+one third to one full 4oz bottle of "maximum strength" cough syrup.  The
+effects of DXM can vary considerably depending on the person, their set
+and setting, and probably numerous other factors.  There is no "typical"
+DXM trip, although there are some common phenomena which do occur.  These
+will be discussed separately, below.
+    Low dose DXM trips usually take between 30 and 60 minutes to start, 
+peak about two hours later, and last between 5 and 6 hours.  Hangovers are
+rare; if present, there is a general feeling of being lethargic and/or
+slightly "off".  A low dose DXM trip has been compared with marijuana and
+MDMA, although neither is really all that similar to DXM.
+ 
+SENSORY CHANGES:
+    Many of the initial effects of DXM relate to the senses.  The best
+known, and probably responsible for a good deal of DXM's popularity, is
+its effects upon hearing.  Sounds may seem to be "richer" or "deeper" in
+content.  Music is particularly affected; music -- especially powerful,
+intense (but not necessarily fast) music -- can become a euphoric
+experience.  Music may develop a very rich "texture" to it, and some users
+feel as if the music were lifting them up to great heights.  Some people
+find this happens only with a certain type or tempo or structure of music.
+Classical music seems to be popular, as is rave music (of course), and
+Irish/Celtic/Folk (such as Enya and Lorenna McKennit).  Your mileage may
+vary considerably.  Some people find the music euphoria only happens
+within a narrow dosage range.
+    Body position and kinetic senses are also greatly distorted.  Large,
+fluid movements may also be euphoric, and DXM users may find it enjoyable
+to move around a lot.  The sense of balance tends to be adversely
+affected, and coordination may as well.  Taste and smell may be distorted.
+Stimulation of the sense of touch often is pleasurable.  There is some
+anaesthetic effect at low dosages; it has been likened to wearing a
+body-suit of open-cell foam.
+    Vision may be affected.  Colors may seem brighter or more "real". 
+There may be loss of ability to focus or track objects.  Double vision may
+occur if the eyes lose their ability to track the same item, although this
+tends to occur more at higher dosages.
+    Overall, users may feel their senses have improved; certainly, sensory
+input may be pleasurable or even euphoric.  The ability to process the
+senses remains; objects are still identifiable, although it may take
+longer than usual due to visual focussing problems.  There is a slight
+"phasing" or "flanging" effect of hearing and vision (see <2.2>).  There
+are few if any hallucinations, although imagination often becomes far more
+powerful.  Eidetic imagery (the ability to see clearly what you imagine,
+as if it were there) may occur.
+    Some users have reported their skin feeling very hot or flushed,
+especially in the face and hands.
+ 
+INTELLECTUAL FUNCTION:
+    Because DXM tends to have some "stoning" or intoxicating effect, there
+is often some adverse effect upon higher mental function, especially at
+larger doses.  Language is particularly affected.  Words, phrases, or
+syllables may be repeated, especially when similar-sounding syllables are
+next to each other (e.g., "animated it" becoming "animatedididit").  The
+user may not be immediately aware of this.  Speech may develop a sense of
+rhythm.
+    Some users find they are more creative, more insightful, and more
+capable of non-linear thought while under the influence.  I do not know if
+this is in fact true.  I would like to see more research done on this
+subject, as DXM tends to be an unusual drug.
+ 
+MEMORY:
+    Memory tends to be slightly affected at lower dosage levels.  Working
+memory (the "train of thought") can become stuck in repetitive thoughts;
+on the other hand, some users find that they are easily distracted.  Short
+term memory tends to be degraded.  Recall of events prior to the trip is
+usually not affected, but encoding of what happens during the trip (and
+subsequent recall) may be diminished (again, this is not universal).  The
+"break in continuity" feeling described in <2.2> (under MEMORY) may occur
+at low to medium dosage levels.
+ 
+EMOTION:
+    Mood enhancement is typical; many users find themselves quite bouncy
+and happy.  Unlike many other drugs, there is much less of a let-down in
+mood when the drug wears off.  Accompanying the euphoria is often a sense
+of energy or drive.  Users may find formerly boring, tedious tasks to be
+far more tolerable, or even enjoyable, under the influence of DXM.  There
+may be some sense of fear, although this is not common at lower dosages.
+    
+ 
+<2.2>   What are the effects of a high recreational dose?
+ 
+    At the higher dosage level (around 720mg, or one 8oz bottle of the
+same strength as in <2.1>), DXM takes on a very "heavy" character.  At
+this level it is very "stoning" -- cognitive, sensory, and memory
+functions are all strongly disrupted.  Some say it acts a bit like
+ketamine at this level; others compare it to a heavy LSD trip.  Individual
+response varies enormously at high dosage levels.  Some love it, some hate
+it.  A high dose trip may last between 6 and 8 hours, peaking about three
+hours in.
+ 
+SENSORY CHANGES:
+    Hearing, vision, and touch become subject to "flanging" effects --
+sensory input seems to be chopped into regular, rhythmic bits, with some
+echo or persistence effects.  This is similar, but more profound, to the
+flanging from nitrous oxide intoxication.  The closest sober approximation
+would be listening to the world through a delay-line flanger.  This
+effect, and especially the echo/persistence effects, occur both on a "raw"
+level (e.g., sounds, sights) and on a more complex level (shapes, faces,
+words).  If extreme, it makes it impossible to process sensory input at
+all.  Individual objects and sounds may still have meaning but the user
+may find it impossible to connect them into a coherent whole.  Double
+vision is common; the eyes tend to lose the ability to track objects.  At
+very high doses, vision can become disrupted and confused to the point
+where the user is effectively blind.  It may take a very long time to 
+process sensory input.
+    Body position and kinetic sense are usually distorted to the point of
+being useless.  It is often difficult if not impossible to walk.  Taste 
+and smell may be similarly affected.  Do not attempt to drive or operate
+any complex machinery.  Some users find themselves wiggling or
+alternatively tensing and relaxing their muscles, especially those in the
+feet and toes; it may feel "wrong" to stop.
+    Sensory distortions similar to that from fever may occur.  Objects may
+seem both too big and too small, and both too far away and too close. 
+This may, or may not, be extremely disturbing.  Actual hallucinations also
+occur at high dosage levels, and users have reported everything from
+simple geometric patterns to full-blown, lifelike hallucinations.
+ 
+INTELLECTUAL FUNCTION:
+    The "stoning" effect is profound at this level.  Complex, tedious
+functions (such as arithmetic) are very difficult.  Reaction time is
+significantly delayed.  Decision-making is somewhat degraded, although
+conceptual thinking is less affected than more concrete thinking.  Again,
+the intellectual effects are sometimes unpleasant, and have been compared 
+to those deriving from a high fever.
+    Language changes can be quite profound.  Sentences may stretch on for
+quite a long time or be very terse (I call this the "Hemingway effect").  
+Words are very often repeated.  This may be related to problems with 
+working and short-term memory.  Speech may often occur in a very rigid
+(but not necessarily simple) rhythm; the user may not respond to speech
+unless it is in a similar rhythm.  Some users believe this state induces
+rhythm-based creativity (music, poetry, etc).
+ 
+MEMORY:
+    Working and short-term memory are seriously impaired.  It is typical
+for thoughts to get stuck in a "loop".  While some users report little or
+no short-term memory loss, others find that they cannot remember what
+happened even a few seconds ago.  Long-term memory recall is not
+necessarily degraded, although encoding is usually bad.  Expect to forget
+a lot of what happened during the trip.  The sense of time can be quite
+distorted, incidentally, both in terms of chronological placement of
+events and the sense of the passage of time.
+    The day after the DXM trip, some users feel as if there has been a
+break in the continuity of their memories, almost like the close of one
+chapter and the beginning of another.  Some find this feeling a very
+positive one, like a rebirth or transition.  It can be disconcerting if
+you experience it without being prepared.
+ 
+MOOD:
+    Mood can range from mania to panic.  Irrational fears may occur,
+especially in users naive of the bodily effects of this dosage range. 
+There may be a great increase in approach behaviour, as if every event and
+object were a new experience.
+    At this dosage level, DXM can have an almost "shamanic" feel to it;
+the user may find himself or herself confronting aspects of the self for
+which he/she is unprepared.  This can range from interesting to
+terrifying.  At least one user has reported recall of repressed memories
+(later verified to be true).  At very high levels, some users have
+reported feeling that they have "lost" themselves for a time.  The amount
+of control over this will tend to relate to experience with this drug and
+hallucinogens in general.
+    Several people have reported that high dosage DXM trips have a
+definite "spiritual" component.  I cannot comment on the validity of
+this type of observation, as I am not knowledgeable on the subject of
+shamanic use of drugs.  However, enough people have mentioned it that
+I have included it here.  Increased contact with the spirit world,
+spiritual journeying, etc. are the usual fare.
+    Many find this dosage level to be quite enjoyable.  A lot probably has 
+to do with familiarity with psychoactive drugs in general.  Some people
+have reported mystical experiences on high dosage levels (e.g., connection 
+with the spirit world or with other beings).
+ 
+ 
+<2.3>   Why is there so much individual variance in response?
+ 
+    Several reasons.  First off, there is a liver enzyme known as
+cytochrome P450IID6 (commonly P450) which metabolizes DXM.  Some people
+have a different variant than others, or none at all (see above, question
+<1.8>).  Thus, while one person may metabolize DXM quickly, another may 
+not.  Certain drugs -- such as fluoxetine (Prozac [tm]) -- can inhibit 
+P450 activity.
+    Secondly, it is hypothesized that some of the effects of DXM,
+especially at higher dosage levels, may actually be due to dextrorphan,
+which is more similar to PCP and ketamine in its neuroreceptor activity. 
+Some individuals may metabolize high doses of dextromethorphan to
+dextrorphan.  Incidentally, my opinion -- based on anecdotal evidence of
+recreatioanl DXM use while on fluoxetine -- is that DXM, and not
+dextrorphan, is responsible for the psychoactive effects.
+    Third, NMDA receptors are intimately involved in most areas of the
+brain, unlike the biogenic amine neurotransmitters (serotonin, dopamine,
+noradrenaline, histamine, and acetylcholine); the biogenic amines are
+usually secreted by small, distinct bundles of nerves.  It is possible
+that, due to this extensive involvement, many different cortical and
+limbic circuits may be affected.
+    There are probably a gazillion other reasons why DXM has such a wide
+range of effects.  The involvement of NMDA receptors in long-term
+potentiation may be part of the reason.  Subtle differences in brain
+chemistry, notably in terms of sigma receptors, may also be involved.  I
+don't know; I doubt anyone does.
+ 
+ 
+<2.4>   What are the side effects and risks of recreational DXM?
+ 
+    Physical side effects are usually fairly mild, although at higher
+dosage levels, there can be a heavy "body feel".  Heart rate may be
+increased.  At very high dosages, siezures may occur -- you want to avoid
+this. 
+@    Some users have reported getting a rash from use of DXM.  This
+@tends to itch for awhile, and then go away.  This is most likely NOT
+@due to the DXM itself, although there is some evidence that DXM may
+@have some histaminergic activity (this is not the same thing as being
+@an allergen).  Many people report that the syrup, rather than the DXM,
+@is the culprit, and that they have had no reaction from capsules or
+@gelcaps.  To be on the safe side, don't try too much at once, and
+@always have antihistamines available.
+    Hangovers are not common but do occur.  Don't plan on doing anything 
+too intensive or strenuous the next day.  Amotivation and lethargy are
+common hangover effects.  There are occasionally memory problems the next
+day, such as forgetting words or experiencing frequent deja vu.  
+    If a hangover continues for a long time, this may indicate that you
+have difficulty metabolizing DXM.  Be patient; it may take several days
+(this is very rare).  Take a multivitamin each day, and drink a lot of
+water (the former helps with enzyme activity, the latter helps your body
+get rid of things).  Exercise daily.
+    Psychological side effects can be quite varied.  Bad trips are
+certainly possible, as with any drug.  As with other psychoactive drugs,
+especially hallucinogens, there is always the chance that a mental illness
+may be triggered by the experience.  No drug, recreational or not, can
+*cause* schizophrenia; most any drug can trigger it if it is latent.  DXM
+is no exception.
+    Prolonged, regular use of DXM has some definite risks.  The most
+common is mania; this has been reported in people who used large amounts
+of DXM (especially to self-medicate depression).  Some research has linked
+sigma receptors to schizophrenia, and chronic use of NMDA antagonists has
+been shown to upregulate (increase) dopamine receptors.  This could
+theoretically mean that DXM could trigger schizophrenia in susceptible
+individuals, although nobody knows for sure.  One thing that is known is
+that neither DXM nor PCP nor ketamine cause any change in PCP or sigma
+receptors.
+    Chronic use of NMDA antagonists may also increase alcohol tolerance;
+this is based mostly on anecdotal evidence and theory, but it appears to
+be a very real phenomenon.  If true, then it is important to note that
+the GABA receptor effects of alcohol may NOT be changed; in practical
+terms, you might be a lot drunker than you feel, and this could possibly
+lead to alcohol poisoning.  Be careful, and limit yourself to as little
+alcohol as possible when using DXM.
+ 
+ 
+<2.5>   How toxic is DXM?  What is the LD50?  Should I worry?
+ 
+    The LD50 of DXM is not well known.  In searching medical literature, I
+found only two cases of death associated with DXM use, both in Sweden.  In 
+one case, a girl was found dead in a public bathroom with two bottles of 
+30mg DXM tablets (the number of tablets is believed to be 50/bottle, but 
+may be 15 or 25).  She had previously tried to commit suicide using a
+bottle of 50 tablets (this leads me to believe that she had, in fact, 
+taken 100 tablets).  The other case involved a 27 year old man, and few
+details were specified.  In both cases, death was apparently due to
+inhibition of respiration.  Plasma levels of DXM were 9.2 and 3.3
+micrograms per gram (cases 1 and 2); plasma levels of dextrorphan were 2.9
+and 1.5 micrograms per gram.  In both cases, the ratio of DXM to
+dextrorphan was about 3.
+    It is reasonable to expect, given this data, and the available data on
+the effects of high DXM doses, that DXM starts becoming toxic around 2000
+to 3000mg (for an adult).  This corresponds to between 5 and 8 4oz bottles
+of 3mg/ml cough syrup, i.e., a fairly large amount, but still within the
+realm of hardcore experimenters.  Keep this in mind before you consider
+large doses.  IV naloxone is considered the antidote for DXM overdose.
+    
+ 
+<2.6>   Do you recommend DXM for recreation use?
+ 
+    No.  Definitely not.  Use of medicine, OTC or not, contrary to
+instructions may be a violation of local, state, and/or federal law.  I
+hereby specifically tell you not to use any DXM-containing product (or any
+other product) in a manner inconsistent with its labelling.
+    Even if DXM *were* legal for recreational use, I still wouldn't
+recommend it for frequent use, nor for high-dosage use.  Frequent use may
+bring about undesirable changes (upregulation of dopamine receptors, for
+example).  High-dosage use carries with it all the risks of any
+hallucinogen, and can be distinctly unpleasant.  Very little is known
+about sigma, PCP, or NMDA receptors.  You dork with them at your own risk,
+and that risk may be considerable.
+    Sound like a CYA answer?  It sure is.  Right now, in the country in
+which I live, there are many people with nothing better to do than support
+legal paternalism and legal moralism.  For whatever reason, some people
+feel that they have the right to tell a legal adult what she or he can and
+cannot do that involves only her/his body.  And as long as this goes on,
+I'm going to make sure I'm not thrown into prison so they can free
+murderers and rapists to make room for me.  So, I'm telling you -- don't
+break the law.
+ 
+ 
+<3>     Physiological Effects of DXM
+ 
+    This section governs the effects of DXM on the body.  Unfortunately,
+knowledge of NMDA/sigma ligands is far from complete.  Much of this
+information will undoubtedly turn out to be wrong.
+ 
+ 
+<3.1>   How does DXM inhibit the cough reflex?
+ 
+    This is a complex question.  The cough reflex involves a series of
+signals originating from the throat, lungs, and nasal passages, and ending
+up in the muscles.  At any point in this pathway, signals are susceptible
+to the effect of inhibitory transmission.  Sigma receptors are evidently
+involved in this pathway.  This may be a direct involvement -- sigma
+receptors may directly inhibit the cough reflex signals -- or it may be 
+an indirect one.
+    There is some evidence that 5HT1a receptors (a type of serotonin
+receptors) are involved somewhere in this pathway, and that cough 
+suppressants may increase 5HT1a activity.  This could explain some of 
+DXM's mood-altering activity.  5HT1a receptors are involved in anxiety
+states and in resilience to aversive events.
+ 
+ 
+<3.2>   How does DXM cause its psychoactive effects?
+ 
+    Upon comparison with 3-PPP (similar to PCP), DXM has been found to
+bind with at least three types of neuroreceptors; these have been labelled
+DM1, DM2, and DM3 (remember, these are binding sites, not necessarily
+receptors).  At the DM1 binding site, 3-PPP and DXM both have nanomolar 
+potency; at DM2, DXM is nanomolar while 3-PPP is micromolar (i.e. less
+potent than DXM); and at the DM3 binding site, DXM is micromolar while 
+3-PPP is nanomolar.
+    Given what is currently known about sigma and PCP receptors, the DM1
+binding site is most likely the sigma receptors and the DM3 binding site
+is most likely the NMDA/PCP1 receptor (see <4> below).  The DM2 binding
+site is likely the PCP2 receptor, but some research has suggested another
+site of DXM action separate from this receptor.
+    Most of the "stoning" or intoxicant effects of DXM are likely the
+result of NMDA receptor blockade.  Part of alcohol's intoxicant effect
+seems to be mediated by NMDA receptor blockade; this may explain some of
+the similarity.  Unlike alcohol, DXM does not affect GABA receptors.
+    The severe disruption of sensory processing is also most likely due to
+NMDA blockade.  Some analogy to auditory disturbances in schizophrenia
+have been drawn, and potential mechanisms for "flanging" of sensory input
+and for persistence/echo are being investiaged.  These, as well, are
+likely due to NMDA activity.  Memory inhibition is almost certainly due to
+NMDA blockade; NMDA receptors are involved in long-term potentiation (a
+cellular component of memory).
+    The psychotomimetic (literally "psychosis-like") effects of DXM may
+be a result of sigma activity.  For better or for worse, little if any 
+data is available on the effects of sigma agonists without NMDA activity
+on humans.  However, sigma agonism is likely much more "subtle" than NMDA
+block.
+    Finally, if (as some researchers believe) PCP2 "receptors" are in fact
+a biogenic amine reuptake site, then many of DXM's euphoric, mood-
+enhancing, and stimulant effects could result from occupancy (and thus
+blockade) of this site.  Interestingly, DXM seems to be much more potent
+at this site than other sigma/NMDA ligands (such as PCP or ketamine) in
+comparison to activity at other sites.  Also interestingly, at least one
+tricyclic antidepressant has been found to be a sigma ligand; it is
+possible that this reuptake site is in the same category as those targeted
+by antidepressants.  It is my belief that many of the effects felt at 
+lower dosages may be due to reuptake inhibition.
+    Many of DXM's effects are undoubtedly due to indirect activity.  For
+example, it may indirectly increase 5HT activity, especially at the 5HT1a
+receptor.  This could explain some of its mood-altering properties. 
+Another example is dopaminergic activity; DXM seems to increase activity
+at certain dopamine receptors.
+    Note that DXM itself may not be responsible for the psychoactive 
+effects, especially at higher dosage levels.  DXM may be converted within 
+the body to dextrorphan (see <2.3>).
+ 
+ 
+<3.3>   Wow, that sure is complicated, isn't it?
+ 
+    Yes.  And unfortunately, it doesn't really say as much as you might
+think.  What it means, basically, is that DXM works via at least three
+neuroreceptors, one of which (the NMDA receptor) is involved in learning
+and in higher reasoning, and one of which (the sigma receptor) may be
+involved in schizophrenia and in psychotomimetic effects.  The third
+receptor (PCP2) may be the same reuptake site (or a similar one) as that
+targetted by antidepressants.  But, beyond that, nobody really knows why
+or how DXM (or any other complex, psychoactive drug) works.
+ 
+ 
+<3.4>   Pharmacokinetics
+ 
+    DXM is absorbed quickly from the GI tract; within 30 minutes, all of
+it may have entered the bloodstream.  The polistirex compound will
+obviously take longer to be absorbed.
+    DXM is subject to two first-pass metabolic changes: O-demethylation
+(replacement of the 3-methoxy group with OH), and N-demethylation
+(replacement of the 6-methyl group with H).  Refer to <1.1> and the
+diagram of the DXM molecule.  The O-demethylation pathway can occur either
+via cytochrome P450-2D6, or another (unidentified) enzyme which works at
+about 70 times slower.  The enzyme responsible for the N-demethylation
+pathway has not been identified.
+    The product of O-demethylation of DXM is dextrorphan, a chemical which
+many believe to be responsible for DXM's psychoactive effects.  N-demeth-
+ylation of DXM produces 3-methoxymorphinan (3MM).  O-demethylation of 3MM
+or N-demethylation of dextrorphan produces 3-hydroxymorphinan.  I could
+not find any further information on DXM metabolism.  Incidentally, the 
+O-demethylation of 3MM is also performed by P450-2D6.
+    Note that anecdotal evidence from recreational users of DXM who take
+fluoxetine leads me to believe that dextrorphan is not, in fact,
+responsible for DXM's psychoactive effects.  In fact, fluoxetine (which
+inhibits P450-2D6) tends to extend the DXM trip.  This is consistent with
+DXM's effects being due to the dextromethorphan itself and not a metabo-
+lyte such as dextrorphan.
+ 
+ 
+<4>     Sigma, NMDA, and PCP2 receptors
+ 
+    This section covers some of the basics about the three receptor types
+that DXM targets.  I apologize if this may get a bit complicated; I'm not
+all that good at explaining this sort of thing.  I assume a basic
+knowledge of neurotransmitters and neuroreceptors (consult any biological
+psychology, psychophysiology, or psychopharmacology text).
+ 
+ 
+<4.1>   What are NMDA receptors?
+ 
+    When most people discuss neurotransmitters and neuroreceptors in the
+context of drug activity, they usually refer to the biogenic amines:
+acetylcholine, dopamine, noradrenaline, serotonin (5HT), and histamine.
+From a psychopharmacological standpoint, these are probably the best 
+understood.  These neurotransmitters tend to have a regulatory function; 
+they modulate behaviour, mood, activity level, etc.  In general, the 
+receptors are slow and are not involved in the sort of high speed 
+information processing that takes place in the cortex.
+    The bulk of neurotransmission takes place not with the biogenic amines
+but with excitatory amino acids (glutamic acid and aspartic acid) and 
+inhibitory amino acids (GABA).  Unlike most biogenic amine receptors, many 
+receptors for excitatory and inhibitory amino acids are very fast, and
+operate by directly polarizing or depolarizing the nerve membrane.
+    NMDA is one type of excitatory amino acid receptor (quisqualate and
+kainate are the others).  NMDA receptors are unique in that, in addition
+to the normal chemical signal, they also require a Mg ion in order to
+function.  NMDA receptors are involved in long-term potentiation, the
+mechanism by which individual nerve cells "learn".  Long-term potentiation
+is probably the basis of learning and memory, at least short-term.
+    NMDA receptors operate, and look, a bit like an iris or camera
+aperture.  There are five subunits, which normally fit together to close
+the channel; each of the subunits has a spot where neurotransmitters
+attatch.  When they do attatch, electrostatic forces snap the channel
+open, and ions can flow in and out of the cell.  DXM, as well as PCP and
+ketamine, are "open channel blockers"; they bind to a spot in the open 
+channel (blocking it), but have little or no effect upon a closed one. 
+Their activity is thus dependent upon the channel opening.  The "PCP1"
+receptor is the name for this open channel attatchment site.
+    There are at least three types of NMDA receptors (in the rat, at
+least; this probably extends to humans as well).  One type is found in the
+cerebellum, one in the thalamus, and one in the cortex.  These types
+differ subtly, but it is possible that DXM may show a different spectrum
+of effect on these types than other NMDA antagonists (such as ketamine or
+PCP).
+    NMDA receptors are also involved in excitotoxicity (nerve cell death
+via overstimulation).  The chemicals which agonize (activate) NMDA
+receptors can also kill the very same nerve cells they are activating. 
+Many substances, such as quinolinic acid (a metabolite of tryptophan) are
+so potent that very small amounts can devastate great numbers nerve cells.
+Others, like glutamic and aspartic acid, are less potent but still capable
+of doing damage if present in sufficient amounts.  This excitotoxicity is
+directly responsible for much of the damage attributed to various types of
+trauma and insult to the CNS.  Polio is a good example; by blocking the
+activity of quinolinic acid, all the damage resulting from poliomyelitis
+can be prevented.
+ 
+ 
+<4.2>   What are sigma receptors?
+ 
+    Sigma receptors are a type of opioid receptor, the others being mu,
+kappa, and delta.  This classification may, in fact, be false; there is
+some evidence that, while many opioids show sigma activity, the sigma
+receptor is not involved in the same domain as other opioid receptors
+(reward mechanisms and painkilling).
+    Sigma receptors are known to be involved in psychotic states and in
+the cough reflex (I doubt the two are related).  Sigma receptors are
+probably involved in schizophrenia.  Neither the actual "purpose" of sigma
+receptors, nor the endogenous neurotransmitter that fits the sigma
+receptor, has been identified.
+ 
+ 
+<4.3>   What are PCP2 receptors?
+ 
+    PCP2 receptors were, obviously, the second PCP receptor to be
+positively identified (the first is the open channel site on the NMDA
+receptor; see <4.1>).  Their use (if they have one) has not been
+determined, nor has their significance.  PCP2 receptors could represent
+the closed state of NMDA channels (or some other receptor).  They could be
+an entirely new receptor.  One possibility which has received considerable
+support is that PCP2 receptors are reuptake sites -- areas where "used"
+neurotransmitters are taken back into the cells to be used again. 
+Reuptake sites are the target for antidepressants (except for monoamine
+oxidase inhibitors), as well as the target for cocaine.  Reuptake
+inhibition by DXM would result in some of the same effects as
+antidepressants or cocaine, and could explain the euphoria.
+ 
+ 
+<4.4>   How does DXM compare to other NMDA/sigma ligands?
+ 
+    DXM, especially at higher dosages, begins to resemble ketamine and 
+PCP.  However, it still is very different (especially at lower dosages). 
+This is most likely due to the DM2 binding site (the PCP2 reuptake site), 
+where DXM is far stronger in effect than either PCP or ketamine, as well 
+as the DM3 binding site (the NMDA/PCP1 site) where PCP and ketamine are 
+far stronger in effect than DXM.  This is probably why DXM has a much
+stronger mood-enhancing effect, and a much weaker dissociative anaesthetic
+effect, than PCP or ketamine.
+ 
+
+-- 
+|  Bill White   +1-614-594-3434     | bwhite@oucsace.cs.ohiou.edu             |
+|  44 Canterbury, Athens OH  45701  | finger for PGP2.2 block                 |
+|  SCA: Erasmus Marwick, Dernehealde Pursuivant, Dernehealde, Middle Kingdom  |
+
+=============================================================================
+
+Newsgroups: alt.drugs,alt.psychoactives
+From: bwhite@oucsace.cs.ohiou.edu (William E. White )
+Subject: Dextromethorphan FAQ (Part 2/2)
+Message-ID: <CpCuuF.3M@oucsace.cs.ohiou.edu>
+Date: Fri, 6 May 1994 00:32:38 GMT
+
+Version 1.02  Last modified 4/1/1994
+(This FAQ will be posted more or less biweekly, on the 1st and 15th of
+each month).
+This is a fairly comprehensive list of questions and answers relating to
+the recreational and medical use of dextromethorphan, a sigma and NMDA
+receptor ligand commonly used as a cough suppressant.  The contents of
+these two files are copyright (C) 1994 by William White, and may be freely
+reproduced by any means provided that both files are kept intact and are
+kept together, and are not modified.  This is version 1.0, the first
+release version.  Any questions or comments may be addressed to me at
+bwhite@oucsace.cs.ohiou.edu (finger for PGP2.2 block), or William White,
+44 Canterbury Dr., Athens OH  45701  USA.
+Note that the use of any medicine in any way contrary to instructions may
+be a violation of local, state, and/or federal laws.  I hereby instruct
+all readers not to violate the law.  All factual data herein was obtained
+from medical journals and references, and was accurate at the time I got
+it.  None of it is guaranteed in any way, shape, or form.  This is for
+informational purposes only; nothing herein is to be taken as a recommen-
+dation, excepting the instructions in this paragraph.  Any actions taken 
+as a result of this text are the responsibility of the reader, and are 
+not the responsibility of me, Ohio University, or any subset of the
+Usenet/Internet community.  Ohio University does not necessarily agree
+with any views, expressed or implied, in this document.
+Testimonials and personal data are presented anonymously.  I do NOT
+maintain copies of the sender's name, address, or personal information,
+either online or offline, and thus I cannot give information as to their
+identities.  Any personal information, testimonials, or reports as to
+DXM's effects that were or are sent to me will be considered anecdotal and
+not specifically referring to the sender.  I encourage anyone with
+applicable data to send it to me anonymously.
+ 
+This is part 2/2.
+ 
+<5>     Preparations containing DXM and other ingredients
+<6>     Personal testimonials and reports
+<7>     References
+ 
+ 
+<5>     Preparations containing DXM and other ingredients
+ 
+    Remember, all these products should be AVOIDED.  Guaifenesin in large
+doses will cause vomiting; antihistamines in large doses will put you to
+sleep; decongestants in large doses might kill you; and acetaminophen in
+large doses probably will kill you.
+ 
+Preparations containing DXM and guaifenesin: (AVOID)
+ 
+    Benylin [tm] Expectorant                    Parke-Davis
+        Dextromethorphan HBR                    1mg/ml
+        Guaifenesin                             20mg/ml
+        
+    Contac [tm] Cough Formula                   SmithKline Beecham
+        Dextromethorphan HBR                    1.34mg/ml
+        Guaifenesin                             13.34mg/ml
+    
+    Robitussin [tm] DM                          Robins
+    Cheracol D [tm] Cough Formula               Roberts
+    Mytussin [tm] DM                            Pharmaceutical Basics
+        Dextromethorphan HBR                    2mg/ml
+        Guaifenesin                             20mg/ml
+    
+    GuiaCough [tm] DM Expectorant Syrup         Schein
+    Guiatuss DM [tm]                            Barre, Goldline
+    Halotussin [tm] DM                          Halsey
+        Dextromethorphan HBR                    3mg/ml
+        Guaifenesin                             20mg/ml
+    
+    Naldecon [tm] Senior DX                     Apothecon
+        Dextromethorphan HBR                    3mg/ml
+        Guaifenesin                             40mg/ml
+    
+    Tuss-DM [tm] (tablets)                      Hyrex
+        Dextromethorphan HBR                    10mg
+        Guaifenesin                             200mg
+        
+    Queltuss [tm] (tablets)                     Forest
+        Dextromethorphan HBR                    15mg
+        Guaifenesin                             100mg
+    
+    Syracol-CF [tm] (tablets)                   Mallard
+        Dextromethorphan HBR                    15mg
+        Guaifenesin                             200mg
+    
+    Humibid [tm] DM (extended-release tabs)     Adams
+        Dextromethorphan HBR                    30mg
+        Guaifenesin                             600mg
+    
+    Delsym [tm] (time release)                  Fisons
+        Dextromethorphan Polistirex             6mg/ml (HBr equiv.)
+ 
+Preparations containing DXM and a decongestant: (NOT RECOMMENDED)
+ 
+    Vicks Pediatric Formula 44 Cough & Congest. Richardson-Vicks
+        Dextromethorphan HBR                    1mg/ml
+        Pseudoephedrine HCl                     3mg/ml
+    
+    Triaminic-DM [tm] Syrup                     Sandoz
+        Dextromethorphan HBR                    2mg/ml
+        Phenylpropanolamine HCl                 2.5mg/ml
+        
+    Vicks Formula 44D [tm] Decongestant         Richardson-Vicks
+        Dextromethorphan HBR                    2mg/ml
+        Pseudoephedrine HCl                     4mg/ml
+ 
+Preparations containing multiple ingredients: (AVOID)
+    Products marked with a (#####) contain acetaminophen and should NEVER 
+    be taken in large doses.  If you, or someone you know, has taken a
+    large amount of an acetaminophen-containing product, please take them
+    to the hospital as soon as possible.
+ 
+    Comtrex [tm] Multi-Symptom Liqui-Gel [tm]   Bristol-Myers       #####
+        Dextromethorphan HBR                    10mg
+        Acetaminophen                           325mg
+        Chlorpheniramine Maleate                2mg
+        PPA HCl                                 12.5mg
+ 
+    Comtrex [tm] Multi-Symptom                  Bristol-Myers       #####
+        Dextromethorphan HBR                    0.66mg/ml
+        Acetaminophen                           21.66mg/ml
+        Chlorpheniramine Maleate                0.133mg/ml
+        Pseudoephedrine HCl                     2mg/ml
+    
+    Vicks Daycare [tm]                          Richardson-Vicks    #####
+        Dextromethorphan HBR                    0.66mg/ml
+        Acetaminophen                           21.66mg/ml
+        Guaifenesin                             6.6mg/ml
+        Pseudoephedrine HCl                     2mg/ml
+    
+    Tylenol [tm] Cold Night Time                McNeil              #####
+        Dextromethorphan HBR                    1mg/ml
+        Acetaminophen                           21.66mg/ml
+        Diphenhydramine HCl                     1.66mg/ml
+        Pseudoephedrine HCl                     2mg/ml
+    
+    Robitussin Night Relief [tm]
+        Dextromethorphan HBR                    1mg/ml
+        Acetaminophen                           21.66mg/ml
+        Phenylephrine HCl                       0.33mg/ml
+        Pyrilamine Maleate                      1.66mg/ml
+    
+ 
+ 
+Preparations containing multiple ingredients: (AVOID)
+ 
+    Vicks [tm] Nyquil [tm]
+    
+    Vicks [tm] Nyquil LiquiCaps [tm]
+    
+    Vicks [tm] Dayquil [tm]
+    
+    Vicks [tm] Dayquil LiquiCaps [tm]
+ 
+ 
+ 
+<6>     Personal testimonials and reports
+ 
+---------------------------------------------------------------------------
+ 
+At 8:18PM, I took 60ml of Kroger Cough Medicine Cough Formula (3mg/ml),
+which works out to be 180mg of DXM HBr.  I was also taking Prozac, and
+had been for several weeks; I was curious whether this would effect the
+trip.  I'd also had several cups of coffee that day.
+I first started feeling a buzz about 30 minutes into the trip.  My face
+began to feel very hot.  At 60 minutes, I felt like I'd had five or six
+drinks.  Music was quite incredible.  This was still much like the DXM
+experiences I'd had prior to taking Prozac.  I was also having trouble
+keeping my eyes focussed.  My head felt like it was full of helium and
+my limbs like they were made out of lead.
+At 75 minutes, I felt like I was in free-fall; like the feeling you get
+when you've been sitting still meditating for a long time.  At 90 minutes
+I was even more lightheaded, and my skin was numb -- this was the first
+major change from prior DXM trips (not on Prozac).
+At 120 minutes, I'd lost most of my sense of touch, and was having some
+fairly hefty troubles keeping my thoughts straight.  At 140 minutes, I
+sat and listened to music.  I was convinced that I was a cyclopropane
+molecule, and then that I was a tetrahedron.  I was sitting Indian-style;
+the three base points were my knees and my butt and the top of the tetra-
+hedron was my head.  I felt incredibly small.  There was the same size-
+distortion as during fevers, but I felt no unpleasantness -- another
+difference from usual DXM trips.
+At 180 minutes I started to come down.  It was weird -- one minute I was
+swimming in a daze, the next I realized "hey, I'm coming down now" and it
+was clear from then on out; I got more and more bursts of lucidity.
+I woke up the next day, about 12 hours after dosing, and still had some
+balance and memory problems.  These lasted throughout the day.  I felt
+like my life had ended and started again, like there was a line drawn in
+my memory, separating past from future.  It was disconcerting but not
+unpleasant.  I was also extremely tired and lethargic; I just wanted to
+sit around.  The next day I felt back to normal (save a lot of deja vu).
+All of this was different from DXM trips prior to being on Prozac.
+ 
+---------------------------------------------------------------------------
+ 
+I had a very powerful -- and in some respects bad -- trip on 8oz of Robo
+Maximum Strength.  After drinking the entire bottle, I started with the
+usual Robo trip.  After about two hours, though, my vision continued to
+get more and more dissociated, and eventually I found it easier to ignore
+it than to try and figure out what I was seeing.  For the next two hours,
+i.e., from 2 to 4 hours into the trip, I basically sat around a lot and
+watched geometric, cartoon-like hallucinations.
+ 
+About four hours in, though, I began to get an ever-increasing sense of
+dread.  At first I felt maybe I was dying -- that my heart rate was too
+high, or too low -- but then I realized that physically I was fine, I
+was just scared.  And I started to feel really uncomfortable about myself,
+and then I began to remember things which had previously been hidden
+from my memory.  It was like all of my memories were in a box, and the
+box was being shaken violently.  Everything was swirling about inside
+my head.
+For the next hour (hour 4 to hour 5) I began to lose myself, and got to
+the point where I didn't know who I was or where I was.  The person who
+was with me had to get me to recite my name, where I lived, that sort
+of thing.  I wouldn't talk except in this drumbeat rhythm, and everything
+I heard and saw fit that rhythm.
+When I started to come down, I realized that all these things I'd forgot
+about -- intentionally or not -- were now right in front of me -- I was
+remembering them and seeing them as if they were happening.  It was not
+a very fun experience, but I guess it was good for me.  It felt like I
+was being shown bits and pieces of me I'd tried to hide away.  I finally
+came down enough to sleep about 8 hours after dosing.
+The whole next day I felt incredibly free, alive.  I felt like this big
+heavy weight had been lifted off my shoulders.  I don't know if this
+was because I'd remembered and confronted these painful memories, or if
+it was because of the drug.
+ 
+---------------------------------------------------------------------------
+ 
+What it can do in very large doses for those who allow it, is A) reset a 
+person's psyche back to that of a baby's (or an animal's); and B) open up
+a link with the spirit world (another dimension).
+I'm up to 40 gels (30mg or 1200 per trip) per day (or every other day).  
+I've since passed the hallucination stage, and it's pretty much white 
+light proper, and no more of that endless infinity stuff.
+I certainly don't tell people (other than a few on the net) about this 
+stuff, and I don't recommend it in the kind of doses I do. I've had maybe 
+5 out of 300 trips go slightly bad.  Usually these happened when I was in 
+need of sleep.  Essentially I lost my core identity and was basically fair
+game for whatever entity wanted to possess my being.  This also bought 
+grand delusions of making me think a lot of stuff was happening that 
+really wasn't (even though I was sitting in a chair the whole time).
+I used to meditate a lot, and I'm sure that is why I've had such great 
+success with this stuff -- it is really a drug that forces one to stay in 
+the moment if it is to be enjoyed properly.  Oh, and I used to take acid 
+alot, so that also did a good job of lubing my mind.
+Anyways, I'd probably sum-up the effect by saying it causes unused brain 
+cells to be accessed by the conscious mind.  Cells which are strongly 
+linked to creativity and pure animal senses.  And what gets blocked out 
+is all the worry-type thinking stuff.
+And far as damage goes ............... I have noticed that if I don't
+take it for a couple days, I feel these sudden momentary spurts of being
+pulled to an unconscious state.  It is as if all these new areas of my 
+brain that I've opened-up are now being closed down when the dxm 
+catalyst is removed.  Pretty scary.
+I also find that it works best with a glass of wine or three and two beers
+before starting.  Also a just barely empty stomach preceded by a meal with
+lots of fresh vegtables (minerals) before hand.  And then ingesting the 
+1200 mg over a two hour span and drinking lots of water and eating a few 
+carbos along with them.  Then after eating the 40, a small meal is great, 
+with more carbos and a *little* protein.  Oh, and potassium supplements at
+the start also makes the body willing to "tough-out" the trip.
+ 
+---------------------------------------------------------------------------
+ 
+As the result of a car accident, my friend had a freak stroke at the age of 
+18.  (The circumstances which casued the stroke are too long and complicated
+to explain here.)  The stroke left him with minimal control of his left arm
+and a permanent blind spot in a portion of his left eye.  One night, over 
+three years after his stroke, he decided to try dextromethorphan with a 
+group of friends.  He drank 5 ounces of generic "tussin" (300 mg of 
+dextromethorphan hydrobromide.)  Although he consumed less syrup than the
+rest of us, the drug effected him more than anyone else in our group.  In
+addition to experiencing extreme de-personalization, he reported active
+hallucinations in his blind spot.  He could only describe these hallucina-
+tions as "cartoon-like."  It was the first time images had appeared in this
+spot since his stroke.  Although these "cartoons" diminished over time and 
+are now gone, they persisted for several days.  
+My friend did not like the experience and said that he would probably not
+try DM again.  Despite his stroke, my friend is a normal, intelligent guy
+who does not seem prone to "bad" trips.  He enjoys mushrooms and marijuana.
+Neither of these drugs produce any activity in his blind spot, nor do they
+have the de-personalizing effect of DM.                                
+ 
+---------------------------------------------------------------------------
+ 
+When I was in H.S., a bunch of friends of mine used to sit around in a
+hotel room and drink 4oz bottles of Vicks Formula 44 -- they called it
+"Robo-ing".  Actually, they had an entire language of words that they
+only used when they were on dextromethorphan.  Like "pattern" for 
+dialing a phone -- because they couldn't remember the numbers, only the
+pattern your finger made.  And getting the "telephones" -- the urge to
+call all sorts of people -- or the "curiosities" -- the urge to go
+around trying new things.  They also would have these group "dream
+vacations" to places -- they all could talk about where they were
+tripping to and see it as if they were really there.
+ 
+---------------------------------------------------------------------------
+ 
+    I first heard of the recreational properties of DXM (I will refer to 
+it by its slang name among my circle of users "Tussin", and its verb form, 
+to tuss) from a friend while I was in my first year of college, 1989.  I 
+tried it when I had no access to LSD and was antsy for such an experience.  
+I enjoyed mild dosages, and went on to Tuss about thirty more times over 
+the next three years.  I have not used Tussin in the last couple years.  
+Almost every time that I have tussed, I have taken the Robitussin DM or 
+its generic analog, because that was the type that was first recommended 
+to me {NOTE: AVOID THESE PRODUCTS AS THEY CONTAIN GUAIFENESIN, WHICH CAN
+CAUSE VOMITING AT HIGH DOSAGES}.  I have used Comtrex tablets once in a 
+DXM dosage equivalent to 4oz of Tussin.
+    Rather than bore you with anecdotes of actual times that I tussed, 
+I'll try to describe my overall experience with it.  Since my experience 
+has generally fallen into the areas that you described in your article, 
+with slight variations, I will describe what I feel to be a big 
+difference in side effects.  This probably is due to the fact that I 
+usually took other ingredients along with the DM.  I always noticed a 
+very strong and not pleasurable effect in my sense of touch. It begins 
+about fifteen minutes after the onset and continues after the peak of the 
+trip, but is usually gone and forgotten by about three hours into it.  
+The effect is that of hot flashes, localized to parts of my body.  Face 
+and hands are the main targets, especially the scalp for uncomfortable 
+feelings of heat.  My hands always feel swollen and hot and itchy during 
+this time.  luckily the euphoria allows one to successfully ignore this 
+irritation.  
+    Another interesting effect in conjunction with alcohol: I've noticed 
+that several different types of cough and cold medicine-- all that I've 
+tried have contained DXM, but I'm not sure if it is the causitive agent 
+here-- increase alcohol tolerance dramatically, about 2X.  I was visiting 
+my parents and had a cold, and was taking Comtrex with DM and Nyquil and 
+Vicks 44 at various times.  I hadn't been drinking en masse in a long 
+time, so I expected very low tolerance.  But while I was on the cold 
+medicine, I could really drink all of my sodden alcoholic friends from 
+high school under the table.  The effect of the drunk was very different 
+too.  I was extremely lucid.  When I get drunk, I often forget the finer 
+details of an evening: points of conversation, fights, arson, tattoos, 
+but that week, I was mentally alert, though euphoric and balance impaired 
+as normal heavy drinking would impart.  This is at about one to two times 
+the normal dosage, just what I was using to beat down the cold.  
+    After a few times trying to do things which one does on other 
+hallucinogens, walking around, finding adventure, ritual sacrifice, that 
+sort of thing, I tried to sleep right after a peak, and I came across what 
+I feel is the best method of tussing.  I have always taken 4-6 oz of the 
+syrup, and at that time, I was getting bored with the effects, which 
+weren't hallucinogenicly powerful enough to warrant trying to function, 
+because balance was so strongly affected.
+    I discovered that the most pleasurable way to experience the drug was 
+to lie still and close your eyes and play music.  It reminds me quite a 
+bit of shamanic style meditation, except that tussin has the dual effect 
+of making physical relaxation and bodily detachment much easier, plus it 
+keeps you awake much longer.  Lights are kept low to off, perhaps candle, 
+incense, and tunes, preferably very loud.  There is really no guide to 
+which albums to play.  Generally it seems good to do it with a friend, 
+and you alternate picking albums. . . We once followed XTC Skylarking with
+Black Sabbath's Heaven and Hell. . . I think anything striking and 
+thematic is acceptable.  None of this REM radioplay crap.
+    The hallucinations were extremely vivid and not really dreamlike in
+that there was not really participatory action, more like cartoons 
+presented very vividly.  It seems many of them appeared as if the 
+observer was going down a tunnel extremely fast and these vivid images 
+were flashing by.  Morphing of images, especially with a loss of 
+proportion, was very common, so that there seemed to be a connectivity 
+and constant motion to the visions.  Three to four hours of this was the 
+usual duration, I believe.  I have had a similar effect when smoking very 
+large amounts of pot before, but usually can't stay awake.  Attempts at 
+combining pot with tussin were foiled by lungs made sensitive by the 
+tussin.  I could remember most of the strong images, perhaps better than 
+a dream, but the memories faded with time.  The same images seemed to 
+recur throughout the tussin trip, and I believe those are the ones that 
+stuck in my memory the longest.
+    The last thing which I would like to mention is one of the visual 
+hallucination properties.  I have noticed that with many hallucinogens, 
+there is the property of tracers and afterimages, especially with images 
+that move.  The end of a cigarette is a good example.  During the peak 
+time of the tussin trip, visuals are very odd.  For one, light is almost 
+intolerable.  The oddest part is "block tracers" when you look in the 
+same general direction for more than one minute or so, then shift your 
+vision, the block of vision that is centermost in your field of view is 
+transferred to the new field of view, and dissolves into the background.  
+On top of this, the peripheral part of your vision has fairly strong 
+tracers, which can be very confusing if you are trying to be mobile, 
+especially with the utter lack of balance involved.  This is noticed in 
+me at four to six ounces.  
+ 
+---------------------------------------------------------------------------
+
+  I have in the past toyed around with 4-6oz of liquid Tussin, Robo, etc with 
+and without guaifenesin (sp?).  My experiences were interesting and fun, but 
+nothing as moving as taking two boxes of 10 Drixoral Cough Caps.  Last Friday, 
+I decided to go for broke and take 2 boxes.
+  I started my journey about 8pm.  Finished the pills in a span of about 30 
+minutes.  About 30-45 minutes later, I started feeling the familiar effects of 
+drowsiness.  I decided that it would be best to get out and do something 
+before I fell asleep and wasted my time.  It was about 9:00, so I went to my 
+favorite alternative club where there was an awesome "mind candy" band called 
+Mindseye playing.  There weren't more than 20 people in the club including the 
+two bands that were playing.  I just kicked back in a booth, closed my eyes, 
+and went on an internal trip that lasted at least 45 minutes, although it felt 
+like hours.  I had a sensation of moving into a higher realm of thought.  I 
+was so focused on the music that it became a part of my consciousness and my 
+being.  Openeing my eyes just became a letdown because it reminded me that I 
+was in reality. :)  So I just closed them again and enjoyed the phosphenes 
+that were running rampant through my brain.  The only part I didn't like was 
+the feeling of being in a Doom game without the monsters.  I felt like I was 
+running through the corridors and riding the elevators.  Oh, well.  Nobody 
+promised that it would be COMPLETELY enjoyable.  Anyway, after the set, I went 
+to the bar to order a Miller Lite.  The barkeep said that they didn't have 
+Miller Lite.  I asked for Coors Light.  He said he didn't have Coors Light.  
+[blank stare with severely dilated pupils]  "What light beers do you have?"  
+"Lite."  "Lite?" "Lite."  "Lemme have that, then"  "$1.50" ("Hey, great 
+price", I thought)  It was Miller Lite.  Oh, well.  It felt like I was arguing 
+for 30 minutes.  Gawd, I hate interacting with people in that condition.  I 
+staggered back to my booth (at least it FELT like staggering ... it felt 
+REALLY weird to walk) and sipped my beer while watching the band take down 
+their equipment.  They looked like a bunch of worker bees from my perspective, 
+and is was really interesting to watch.  Drinking was an unusual experience, 
+too.  It was like the first time I had ever drunk anything.  All my movements 
+were very slow, methodical, and calculated.  After I finished my beer, I went 
+down to a techno club I had been meaning to visit.  It was about midnight.  
+I know that this is a big lapse in time.  I guess I wasted 2 1/2 hours in that 
+bar listeneing to the jukebox and watching the band.  It was only 4 
+blocks, but the way my legs were moving, it felt like I was walking 
+stiff-legged the whole way.  Fortunately, it was a slow night on my city's 
+version of Bourbon St., and I only passed about 5 people on the way.  The 
+doorman was the next big hurdle.  Actually, I managed to keep myself fairly 
+composed.  He warned me that it was kinda slow, and I went into a repeat of 
+the beer discussion.  "Slow?" "Slow." "Okay." (trying to avoid giving myself 
+away, even though my pupils filled my eyeballs)  I handed him the two bucks he 
+asked for and walked in.  I found an empty couch and plopped down.  It was 
+heavily padded and had a low back.  Perfect for slouching.  The DJ was playing 
+a fantastic mix of techno and classic rock.  As the night wore on, she was 
+playing almost constant techno.  They have a light show that is really 
+something to be seen.  The dance floor is surrounded by mirrors that reflect 
+the blue lights from the bar and make it look like a cityscape from the year 
+2020.  VERY impressive in my condition.  The only times I got up were to go to 
+the john twice and to the bar once for water.  Walking got stranger and 
+stranger.  I think I was having trouble keeping my balance, but I don't 
+remember staggering.  The worst part was the feeling that I was choking on my 
+uvula.  My mouth felt dry, and water wasn't helping.  It must have been the 
+anaesthetic effects of DXM.  I stayed there for two hours in the same spot 
+only moving the three times I mentioned.  I was still not bored, but I figured 
+that since it was 2am, it was about time to get home.  This may have been a 
+mistake.  The streetlights had started tracing, and the blinking lights were 
+playing hell on my perception.  In retrospect, I probably shouldn't have 
+driven home, but I was broke, so a cab was out of the question, and there was 
+no way I could have sobered up.  I didn't feel drunk.  It just felt like all 
+my surroundings were foreign.  I payed extra-close attention to my driving, 
+but still nearly jumped out of my skin at the sight of police.  I got home in 
+one piece and fell asleep to the mellow sounds of Pink Floyd's Ummagumma disc 
+2.  I woke up around 9:30am, fully alert.  Checked my eyes.  Fully dilated.  
+Made an excuse to get out of the house, wearing shades.  Went to see a movie 
+with a friend, which was pretty fun.  I was still feeling a bit weird.  The 
+dark theater helped me relax.  Got out of the movie and went home.  My eyes 
+were normal by this time, although I still felt a little strange.  That 
+feeling lasted until about 7pm.  So the brunt of the trip laster about 12 
+hours and the after-effects lasted another 11.  WOW!
+
+------------------------------------------------------------------------------
+
+took my 1st dosage of DM friday night, the gelcaps, 600 mg. took 'em
+at 8:30 with a friend, walked around till about 11:00, neither of
+us was feeling anything and i was *most* disappointed. i caught a
+train back to my house, and in the station waiting to change trains
+it started to hit *hard*. i was hanging out alone in the station,
+hacky-sacking, and the walls started to bend to greet me. by the 
+time i got to my local station, things were getting pretty intense.
+i *floated* home, as far as i could tell at the time. two hours
+later i was hanging out with a bunch of friends, one of whom was
+also on. i was warm, i was fuzzy, i loved everyone, and i was
+directly aware of being a higher being making its temporary abode
+in this body and this mind. oh; and i *itched* like nobody's 
+business. anyone else had this? i forgot a lot of things on my
+way down, but based on what i did bring back i think that the
+forgetting was because the normal ego-bound me couldn't have 
+understood too much of what was happening. i realize i'm raving
+pretty thoroughly about it, but i haven't had this life-changing,
+life-affirming of an experience since  my first couple of LSD
+trips many many years ago. in short, i was *impressed*, and i want
+to use it again just a couple of times, to open up the kind of
+intense spiritual communication that it made possible with a couple
+of the people in my life.
+
+------------------------------------------------------------------------------
+
+One of my favorite effects of Robo is its annihilation of short-term
+memory, which has the excellent side-effect of destroying
+self-identity.  You just sort of forget who you are.. This seems to
+happen at the 700+mg level, not much lower than that.  It's more
+pleasant than anything else, even though it sounds kinda scary at
+first..
+
+------------------------------------------------------------------------------
+
+i went down to the lake one saturday morning and took a few boxes of
+drixoral cough liqui-caps.  invited some friends along, but nobody
+could come with me, so i took ALL the little motherfuckers.  i walked
+along the side of the lake for a few miles, not feeling any major
+effects yet.  then, suddenly, it hit.
+i felt very dizzy, and very out of place.  i couldn't walk so i sat
+down on a park bench.  it was foreign... here i was on a park bench in
+some strange place, with everything spinning around me.  cars hissed
+by on lake shore drive, seem like some kind of deadly monster, or
+dangerous presence.  i was very confused & decided to walk back.  it
+was hard to walk when everything was twisting in strange directions,
+but i made it all the way down to where there was a tree in the sand.
+(i'm not sure if there really WAS a tree there, but at the time there
+seemed to be).  walked down to the tree and collapsed beneath it.
+looking at the sky thru its branches, the cars seemed very far away.
+it was somehow very comforting... sky & sand & tree & me, everything
+else seemed distant & unimportant.  wanted to stay there, but after a
+while (minutes or hours -- sense of time totally gone) i got up and
+went on.  a mile or so further i sat down on a rock looking out on the
+water.  the patterns of the light on the water were endlessly
+fascinating, & when i closed my eyes i vividly saw a field of flame,
+wild naked girls running thru it, somehow unharmed by the flame
+because they were just a part of the flame, & i was a part of the
+flame, & everything was unified in the flame.  when i opened my eyes,
+all i saw was water... after a while of experiencing the fire world &
+the water world i got up & decided to crawl home.  i was very paranoid
+of getting hit by a car but somehow i made it.  realized i was getting
+dehydrated (which might have been causing some of the delerium) so i
+drank something.  then i sat down on the couch... & realized that
+maybe i wasn't on the couch at all, i was still on the rock on the
+beach & this whole thing had been a very strange hallucination.  for
+the next few hours i was sure that's what was going on, & kept
+expecting to open my eyes...
+finally things returned more or less to normal.  later that night
+there were some kind of weak residual visuals (fireworks)...
+who knows? maybe i still AM on that rock...
+
+------------------------------------------------------------------------------
+ 
+    Robo is a much more mental trip. When your stoned you can say "Whoo 
+man I am fucked up..." With dex (dextromethorphan that is) you almost 
+can't tell that its a chemical making you feel good. Its very subtle but 
+strong at the same time. You just feel excellent. You feel free and 
+everyone around seems so nice. Music can become something more then just 
+music.  On one trip I was in a coffehouse and it felt like I was swimming 
+in a wild rushing torrent of musical notes. One of the most pleasurable 
+experiences of my life. I do not get that empty headed feeling I get with 
+pot. It also lasts much longer (for me, I know people that pot lasts 
+longer for them). Off 6 ozs or so I can get 6 to 8 eight hours of 
+incredible and intense tripping. For everyone who hasn't tried it, trust 
+me it is not a cheap buzz. Drinking 6 ozs can be one of the funnest things 
+you can do.
+ 
+---------------------------------------------------------------------------
+ 
+I ate 25 Vick's gel caps containing 30mg of DM each friday night at about
+10:30pm. i was up until 11 the next morning, and fried until about 7am. it
+didn't help that the gelcaps also had pseudoephedrine in them, of course.
+but it was fantastic. i stayed up at a party with two other stoned guys
+'till 6am. it's very comforting to just listen to someone talk when on
+robo, and one guy talked for about 5 hours straight. it was fantastic. i
+was in another world, and really uncoordinated. it's difficult to describe,
+but sort of like mushrooms without the visuals or emotional surges. you're
+out of it but you can still function, sort of. plus you can smoke like a
+fiend and not feel a thing, so you can indulge your nervous habits. but
+every physical movement was a labor. maybe kind of like being a bit
+right-brain impaired. definitely recommended. you can steal packs of gel
+caps easily from any large grocery store. just stay away from the
+guafenisen, or however you spell it. it's hard to keep down and only gets
+in the way. i've also eaten Delsym with polystirex - it's not as intense,
+but then i only drank one bottle. might want to try two.
+ 
+---------------------------------------------------------------------------
+ 
+Let me provide my testimonial about roboing.  Yesterday I picked up an
+8 oz. bottle of generic brand extra-strength cough syrup, containing
+only Dextro as its active ingredient.  I immediately downed somewhere
+under 4 oz. of the stuff. Taste wasn't as bad as I expected. Chugged a
+good deal of water to wash it down anyway, and nibbled on some bread.
+Nausea was not a problem at all.
+ 
+About an hour later it started to hit. Motor skills were definitely
+impaired. Pupils were very large. I felt like I was on shrooms, but
+without mood-alterations or significant visuals. Television images
+appeared to be moving in slow motion like when on acid. Unlike what
+I've heard posted here, music did not sound very interesting. This was
+a big disappointment since claims to the contrary were what convinced
+me to give it a try.  I did not feel particularly euphoric or bad.  My
+mood was essentially an unchanged neutral, which was wierd since in
+other respects I was definitely "tripping". I kept saying to myself,
+"OK, the good part of the trip should be coming soon..." but it never
+did! 
+ 
+Walking was definitely difficult, although mental functioning seemed
+to be OK. I carried on many conversations with little difficulty, in
+contrast to my experiences with shrooms and 'cid. I was hoping the
+amount I consumed would be a mild dose, but I must say I was
+significantly affected. I can't imagine what would have happened if I
+finished the bottle! It's now 16 hours after the initial consumption.
+I slept fine last night, but I still feel the effects. My pupils are
+still huge and I still feel like my motor skills are
+impaired. (I'm typing much slower now than my usual 100 wpm.).
+Is this usual for these effects to persist for so long? It's kinda
+a pain because I have work to do! Wierd body chemistry I guess.
+In short, I guess it was worth the experience but I can't see any
+reason to try it again. It's lasting longer than any shroom or acid
+trip I've ever had, and it just ain't nearly as much fun. I'll stick
+with pot thank you.
+ 
+---------------------------------------------------------------------------
+ 
+There seems to be a line with ppl I have talked with at about 5 ozs, 4 for
+smaller females.  After this line, you REALLY trip, before, youre just 
+fucked up, i.e. motor skills, mild hallucinations.
+I generally recommend going for the big dose if you're gonna do it at all,
+and if you can swing it (and want to) a little mj and some whippets add
+wonderfully. 
+Now, for the day after, I always feel drugged for a day, but usually it
+feels ok, i just can't do complicated mental thinking (i.e. coding).
+One of my friends said she felt like a zombie for about 3 days, but
+1 day recovery seems to be the norm for everyone else.
+ 
+---------------------------------------------------------------------------
+ 
+On Robo if you have a bad trip, it doesn't really do anything bad, it
+just doesn't do anything. I find that how my trip is has alot to do with
+where I am and most IMPORTANTLY who I am with. People you don't like can
+cause your robo trip to go right down the drain.
+ 
+---------------------------------------------------------------------------
+ 
+Many of the descriptions of the actual effects were really on-target, 
+especially the reference to cognitive abilities as if in a febrile state 
+-- i've often thought of the sensation as a fever dream more than anything 
+else, especially with the depth perception distortion, which was uncannily 
+similar to several episodes of fever I had (When I was younger, the 
+thought of everything being larger and more ominous than it actually was 
+never even came CLOSE as a pleasurable sensation, in fact, it scared me
+SHITLESS. :)
+ 
+---------------------------------------------------------------------------
+ 
+<7>     References
+ 
+1   "Abuse of over-the-counter dextromethorphan by teenagers."  Murray-S,
+    Brewerton-T.  South-Med-J.  1993 Oct; 86(10): 1151-1153.
+    
+2   "Alcohol, nitric oxide, and neurotoxicity: is there a connection?--a 
+    review."  Lancaster-FE.  Alcohol-Clin-Exp-Res. 1992 Jun; 16(3): 539-541
+    
+3   "Activation of glutamate metabotropic receptors induces long-term
+    potentiation."  Bortolotto-ZA; Collingridge-GL.  Eur-J-Pharmacol. 
+    1992 Apr 22; 214(2-3): 297-298
+ 
+4   "Alterations in phencyclidine and sigma binding sites in schizophrenic 
+    brains. Effects of disease process and neuroleptic medication."
+    Simpson-MD; Slater-P; et al.  Schizophr-Res. 1991 Dec; 6(1): 41-48
+ 
+5   "Biologically active MK-801 and SKF-10,047 binding sites distinct from 
+    "those in rat brain are expressed on human lung cancer cells."
+    Maneckjee-R; Minna-JD.  Mol-Biol-Cell. 1992 Jun; 3(6): 613-619
+ 
+6   "Characterization of [3H]desmethylimipramine binding in bovine adrenal
+    medulla: interactions with sigma- and (or) phencyclidine-receptor
+    ligands."  Rogers-C; Lemaire-S.  Can-J-Physiol-Pharmacol. 1992 Nov;
+    70(11): 1508-1514
+    
+7   "Chronic administration of NMDA antagonists induces D2 receptor
+    synthesis in rat striatum."  Micheletti-G; Lannes-B; et al.  Brain-
+    Res-Mol-Brain-Res. 1992 Aug; 14(4): 363-368
+ 
+8   "The combination of NMDA antagonism and morphine produces profound 
+    antinociception in the rat dorsal horn."  Chapman-V; Dickenson-AH.
+    Brain-Res. 1992 Feb 28; 573(2): 321-323
+ 
+9   "A comparison of (-)-deoxybenzomorphans devoid of opiate activity with 
+    their dextrorotatory phenolic counterparts suggests role of sigma 2
+    receptors in motor function."  Walker-JM; Bowen-WD; et al.  Eur-J-
+    Pharmacol. 1993 Jan 26; 231(1): 61-68
+    
+10  "Dextromethorphan alters cerebral blood flow and protects against
+    cerebral injury following focal ischemia."  Steinberg-GK; Lo-EH; et
+    al.  Neurosci-Lett. 1991 Dec 9; 133(2): 225-228
+ 
+11  "Dextromethorphan. An overview of safety issues."  Bem-JL; Peck-R. 
+    Drug-Saf. 1992 May-Jun; 7(3): 190-199
+ 
+12  "Dextromethorphan antagonizes the acute depletion of brain serotonin
+    by p-chloroamphetamine and H75/12 in rats."  Henderson-MG; Fuller-RW. 
+    Brain-Res. 1992 Oct 30; 594(2): 323-326
+    
+13  "Dextromethorphan protects against the neurotoxic effects of p-chloro-
+    amphetamine in rats."  Finnegan-KT; Kerr-JT; et al.  Brain-Res. 1991 
+    Aug 30; 558(1): 109-111
+ 
+14  "Effects of 8-hydroxy-2-(di-n-propylamino)tetralin, a selective
+    agonist of 5-HT1A receptors, on the cough reflex in rats."  Kamei-J; 
+    Mori-T; et al.  Eur-J-Pharmacol. 1991 Oct 15; 203(2): 253-258
+ 
+15  "Effects of ketamine on sensory perception: evidence for a role of 
+    N-methyl-D-aspartate receptors."  Oye-I; Paulsen-O; et al.  J-
+    Pharmacol-Exp-Ther. 1992 Mar; 260(3): 1209-1213
+ 
+16  "Evidence for distinct phencyclidine and SKF10047 receptors following 
+    detergent treatment of rat brain membranes."  Grynne-BH; Holmen-AT; 
+    Maurset-A.  Pharmacol-Toxicol. 1992 Jan; 70(1): 25-30
+ 
+17  "Excitatory amino acid receptors and disease."  Meldrum-BS.  Curr-
+    Opin-Neurol-Neurosurg. 1992 Aug; 5(4): 508-513
+ 
+18  "Fatal intoxication by dextromethorphan: a report on two cases." 
+    Rammer-L; Holmgren-P; Sandler-H.  Forensic-Sci-Int. 1988; 37: 233-236
+ 
+19  "GABAA and NMDA receptor function during chronic administration of 
+    ethanol."  Sanna-E; Serra-M; et al.  Adv-Biochem-Psychopharmacol. 
+    1992; 47: 317-324
+ 
+20  "GABA- and glutamate-gated ion channels as molecular sites of alcohol 
+    and anesthetic action."  Weight-FF; Aguayo-LG; et al.  Adv-Biochem-
+    Psychopharmacol. 1992; 47: 335-347
+ 
+21  "High-affinity dextromethorphan and (+)-3-(-3-hydroxyphenyl)-N-(1-
+    propyl)piperidine binding sites in rat brain.  Allosteric effects of 
+    ropizine."   Klein-M; Musacchio-JM.  J-Pharmacol-Exp-Ther. 1992 Mar;
+    260(3): 990-999
+ 
+22  "Human macrophages convert L-tryptophan into the neurotoxin quinolinic
+    acid."  Heyes-MP; Saito-K; Markey-SP.  Biochem-J. 1992 May 1: 283 (Pt.
+    3): 633-635
+ 
+23  "Identification of a novel N-methyl-D-aspartate receptor population in
+    the rat medial thalamus."  Beaton-JA; Stemsrud-K; Monaghan-DT.  J-
+    Neurochem. 1992 Aug; 59(2): 754-757
+ 
+24  "Induction of phencyclidine-like behavior in rats by dextrorphan but
+    not dextromethorphan."  Szekely-JI; Sharpe-LG; Jaffe-JH.  Pharmacol-
+    Biochem-Behav. 1991 Oct; 40(2): 381-386
+    
+25  "The involvement of sigma and phencyclidine receptors in the action 
+    of antipsychotic drugs."  Lang-A; Vasar-E; et al.  Pharmacol-Toxicol. 
+    1992 Aug; 71(2): 132-138
+ 
+26  "The neuroprotective effects of dextromethorphan on guinea pig-
+    derived hippocampal slices during hypoxia."   Radek-RJ; Giardina-WJ.
+    Neurosci-Lett. 1992 May 25; 139(2): 191-193
+    
+27  "Interactions of sigma and phencyclidine receptor ligands with the 
+    norepinephrine uptake carrier in both rat brain and rat tail artery."
+    Massamiri-T; Duckles-SP.  J-Pharmacol-Exp-Ther. 1991 Feb; 256(2): 
+    519-524
+ 
+28  "Involvement of haloperidol-sensitive sigma-sites in antitussive
+    effects."  Kamei-J; Iwamoto-Y; et al.  Eur-J-Pharmacol. 1992 Nov 24;
+    224(1): 39-43
+    
+29  "The involvement of NMDA receptors in acute and chronic effects of 
+    ethanol."  Danysz-W; Dyr-W; et al.  Alcohol-Clin-Exp-Res. 1992 Jun;
+    16(3): 499-504
+ 
+30  "Is quinolinic acid an endogenous excitotoxin in alcohol withdrawal?"
+    Morgan-PF.  Med-Hypotheses. 1991 Oct; 36(2): 118-121
+    
+31  "The learning capacity of high or low performance rats is related to
+    the hippocampus NMDA receptors."  Keller-EA; Borghese-CM; et al.
+    Brain-Res. 1992 Mar 27; 576(1): 162-164
+ 
+32  "Mania and Cough Syrup" [letter]  Schadel-M, Romach-MK, Sellers-EM.
+    J Clin Psychiatry 1993 May 54(5): 200
+    
+33  "Mapping rat brain structures activated during ethanol withdrawal: 
+    role of glutamate and NMDA receptors."  Morgan-PF; Nadi-NS; et al.
+    Eur-J-Pharmacol. 1992 Mar 12; 225(3): 217-223
+ 
+34  "MK-801, a non-competitive antagonist of NMDA receptor, prevents
+    methamphetamine-induced decrease of striatal dopamine uptake sites in
+    the rat striatum."  Muraki-A; Koyama-T; et al.  Neurosci-Lett. 1992
+    Feb 17; 136(1): 39-42
+    
+35  "MPTP lesions of the nigrostriatal dopaminergic projection decrease 
+    [3H]1-[1-(2-thienyl)cyclohexyl]piperidine binding to PCP site 2:
+    further evidence that PCP site 2 is associated with the biogenic amine
+    reputake complex."  Akunne-HC; Johannessen-JN; et al.  Neurochem-Res. 
+    1992 Mar; 17(3): 261-264
+ 
+36  "Neurochemical characterization of dopaminergic effects of opipramol, 
+    a potent sigma receptor ligand, in vivo."  Rao-TS; Cler-JA; et al.
+    Neuropharmacology. 1990 Dec; 29(12): 1191-1197
+ 
+37  "NMDA receptors in sensory information processing." Nelson-SB; Sur-M.
+    Curr-Opin-Neurobiol. 1992 Aug; 2(4): 484-488.
+ 
+38  "PCP and sigma receptors in brain are not altered after repeated
+    exposure to PCP in humans."  Weissman-AD; Casanova-MF; et al.  
+    Neuropsychopharmacology. 1991 Feb; 4(2): 95-102
+ 
+39  "Pharmacological characterization of sigma binding sites in guinea pig 
+    brain membranes."  Karbon-EW; Enna-SJ.  Adv-Exp-Med-Biol. 1991; 287: 
+    51-59
+ 
+40  "Pharmacologic properties of NMDA receptors."  Mayer-ML; Benveniste-M; 
+    et al.  Ann-N-Y-Acad-Sci. 1992 May 11; 648: 194-204
+ 
+41  "Phencyclidine and auditory sensory gating in the hippocampus of the 
+    rat."  Miller-CL; Bickford-PC; et al.  Neuropharmacology. 1992 Oct; 
+    31(10): 1041-1048
+    
+42  "Poliovirus induces indoleamine-2,3-dioxygenase and quinolinic acid
+    synthesis in macaque brain."  Heyes-MP; Satio-K; et al.  FASEB-J. 1992
+    Aug; 6(11): 2977-2989
+ 
+43  "Primary and secondary oxidative metabolism of dextromethorphan.  In
+    vitro studies with female Sprague-Dawley and Dark Agouti rat liver
+    microsomes."  Kerry-NL; Somogyi-AA; et al.  Biochem-Pharmacol. 1993
+    Feb 24; 45(4): 833-839
+ 
+44  "Pretreatment with NMDA antagonists limits release of excitatory
+    amino acids following traumatic brain injury."  Panter-SS; Faden-AI.
+    Neurosci-Lett. 1992 Mar 2; 136(2): 165-168
+ 
+45  "Previous chronic blockade of NMDA receptors intensifies morphine
+    dependence in rats."  Koyuncuoglu-H; Aricioglu-F.  Pharmacol-Biochem-
+    Behav. 1991 Jul; 39(3): 575-579
+ 
+46  "Psychosis with Vicks Formula 44-D abuse."  Craig-DF.  Can-Med-Assoc-J
+    1992 Apr 1; 146(7): 1199-1200
+ 
+47  "Receptors coupled to ionic channels: the glutamate receptor family."
+    Gasic-GP; Heinemann-S.  Curr-Opin-Neurobiol. 1991 Jun; 1(1): 20-26
+    
+48  "Regionally selective deficits in uptake sites for glutamate and
+    gamma-aminobutyric acid in the basal ganglia in schizophrenia."
+    Simpson-MD; Slater-P; et al.  Psychiatry-Res. 1992 Jun; 42(3): 273-282
+ 
+49  "Repeated methamphetamine-treatment alters brain sigma receptors."
+    Itzhak-Y.  Eur-J-Pharmacol. 1993 Jan 12; 230(2): 243-244
+    
+50  "Serotonin release in nucleus of the solitary tract and its modulation
+    by antitussive drugs."  Kamei-J; Mori-T; et al.  Res-Commun-Chem-
+    Pathol-Pharmacol. 1992 Jun; 76(3): 371-374
+    
+51  "Sigma receptors are associated with cortical limbic areas in the
+    primate brain."  Mash-DC; Zabetian-CP.  Synapse. 1992 Nov; 12(3): 
+    195-205
+ 
+52  "Sigma receptors in schizophrenic cerebral cortices."  Shibuya-H; 
+    Mori-H; Toru-M.  Neurochem-Res. 1992 Oct; 17(10): 983-990
+ 
+53  "The treatment of a chronic organic mental disorder with dextromethor-
+    phan in a man with severe mental retardation."  Welch-L; Sovner-R. 
+    Br-J-Psychiatry. 1992 Jul; 161: 118-120
+ 
+54  "Toxicological findings in a death involving dextromethorphan and
+    terfenadine."  Kintz-P; Mangin-P.  Am-J-Forensic-Med-Pathol. 1992 Dec;
+    13(4): 351-352
+ 
+ 
+55  _AHFS Drug Information_.  McEnvoy, GK (editor).  ASHP Inc. 1993
+    (Bethesda).
+ 
+56  _Drugs and Drug Abuse_.  Jacobs, MR; Fehr, KO.  1987 (Toronto).
+ 
+57  _Evaluations of Drug Interactions_.  Shinn, AF (editor).  Macmillan,
+    1988 (NY).
+    
+58  _Meyler's Side Effects of Drugs_.  Dukes, MNG (editor).  Elsevier,
+    1992 (Amsterdam).
+    
+59  _USAN and the USP Dictionary of Drug Names_.  Fleeger, CA (editor). 
+    USP Convention Inc. 1993 (Rockville).
+

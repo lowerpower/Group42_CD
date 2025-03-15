@@ -1,0 +1,10 @@
+Crack> Chuck Yeager's Air Combat
+crack written by Michael Yakubovich
+
+FILE: YEAGER.EXE
+First, unOPTLINK the file; if you don't have any utility to do this use NU6.0,
+NUCONFIG program which lets you expand OPTLINKed files. Be sure to rename 
+YEAGER.EXE to one of the file NUCONFIG understands (DE,SF,etc.).
+
+ORIGINAL: 83 C4 0E B8 E8 00 50 9A 1A 55 FF FF 9A B6
+CRACK   : == == == == == == == == == == == == EB 03

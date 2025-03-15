@@ -1,0 +1,146 @@
+RELEASE OF SATAN SOFTWARE TOOL
+FACT SHEET
+
+INTRODUCTION
+
+Due to extensive media attention regarding the release of another version 
+of SATAN (Security Administrator Tool for Analyzing Networks), the National 
+Institute of Standards and Technology (NIST) is issuing this fact sheet to
+answer questions about SATAN. 
+
+WHAT IS SATAN?
+
+SATAN is a software tool for assessing Internet host and network security.  
+SATAN tests host systems to determine which Internet services are present 
+and whether those services are misconfigured or contain vulnerabilities that
+an intruder could exploit.  SATAN provides limited information on how to 
+correct the vulnerabilities it identifies as well as a modest tutorial on 
+host system security.  SATAN can test individual hosts or entire networks 
+of host systems. SATAN is an analysis and reporting tool only and does not 
+break into systems or exploit new and/or rare vulnerabilities.  All the 
+vulnerabilities it finds are well known and have either bulletins and/or 
+patches from an incident response team or a vendor. However, as with most 
+tools of this type not just system administrators but intruders will 
+undoubtedly use SATAN to find vulnerabilities in certain systems and then 
+they will exploit those systems.  Thus, while the tool aids a conscientious 
+security-aware administrator it does increase the risk to the unwary 
+administrator.
+
+SATAN'S AVAILABILITY
+
+SATAN's authors, Mr. Dan Farmer and Mr. Wietse Venema, made SATAN widely 
+available over the Internet without cost starting April 5, 1995.  Many 
+Internet sites now have SATAN and thousands of copies have been
+distributed worldwide.
+
+WHAT IS REQUIRED TO RUN SATAN?
+
+SATAN runs on specially-configured UNIX systems and can be configured so 
+that only users with system-level privileges or root privileges may execute 
+the software.  The first release of SATAN runs only on UNIX systems
+made by Sun Microsystems and Silicon Graphics.   Ports to other UNIX 
+systems such as Linux have followed quickly.  SATAN requires installation 
+of additional software and World Wide Web (WWW) client programs such
+as Mosaic.  It is important, however, to distinguish between systems that 
+execute SATAN and those that SATAN can scan.  SATAN can be used to scan 
+many different vendor systems and, furthermore, could be modified to probe
+routers and other networked devices.
+
+WHY IS SATAN CONTROVERSIAL?
+
+As stated earlier, SATAN is controversial because conscientious system and
+network administrators and would-be hackers or intruders are both helped.  
+Administrators who have both time and the capability to use and understand 
+SATAN and its  findings will clearly close up the holes or vulnerabilities 
+in their systems.  However,  many system administrators are often 
+ill-equipped or equipped but over-burdened, and thus are quite vulnerable 
+to intruders who run SATAN against them.   A typical hacker will scan a 
+site for vulnerabilities with a tool like SATAN, find some systems 
+vulnerable, and then install trojanized login programs (permit access by 
+legitimate users but steals their passwords and system Ids) or  sniffer 
+programs that silently sniff legitimate user passwords and Ids for later
+illegitimate use.   Several computer security incident response teams report 
+that internal testing for vulnerabilities indicates that very high 
+percentages of Internet host systems are vulnerable to tools like SATAN.  
+As a consequence, some incident response teams and others in the Internet 
+community have and are writing detectors to note when SATAN is being used 
+to scan their systems. 
+
+IS SATAN OVERBLOWN? 
+
+As we saw in the Michelangelo Virus furor that erupted a few years ago, 
+our fear and the attendant hype outstripped the actual damage caused.   
+Part of the issue here is our attention span.  Clearly, viruses are very 
+real and can and do cause much mayhem even if the damage occurs after the 
+press and management focus moves on to other issues. Similarly, the 
+vulnerabilities that SATAN identifies are real and exploitable but won't 
+evidence themselves in a sudden series of attacks days or hours after the 
+SATAN release.   However, with thousands of copies freely available
+and in use SATAN will make an impact.  It won t aid the knowledgeable 
+intruder who is already aware of how to break in but it will assist the 
+less than gifted would-be intruder.  As these thousands of copies coarse 
+throughout the Internet, we and the computer security community will be in 
+a better position to assess the real impact of SATAN and whether the 
+initial hysteria was founded after about 6 months of perspective is gained.
+
+DOES SATAN IDENTIFY NEW VULNERABILITIES?
+
+No,  all the vulnerabilities it finds are well known and have either 
+bulletins and/or patches from an incident response team or a vendor.
+
+HOW IS SATAN DIFFERENT FROM OTHER SECURITY TOOLS?
+
+Tools similar to SATAN have been available to Internet users for several 
+years, both commercially and in the public-domain.  These tools are also 
+used by the intruder community to identify systems vulnerable to attack.  
+SATAN is different in that it can be configured to test virtually any 
+system or network of systems accessible to the Internet.  SATAN is also 
+more powerful than previous tools and able to identify more vulnerabilities. 
+SATAN can discover whether a system trusts connections from other systems, 
+and then scan those systems.  SATAN's WWW interface is easy to use and its 
+results are easy to view. Additionally, SATAN can be modified easily to 
+exploit new vulnerabilities.
+
+ADVICE FOR SYSTEM AND NETWORK MANAGERS
+
+Sites should be concerned that internal users as well as intruders could 
+run SATAN and expose site vulnerabilities. Thus, NIST recommends the 
+following:
+- sites should develop policies for using SATAN responsibly and efficiently,
+- sites should promptly correct all vulnerabilities before vulnerable systems 
+  could be attacked,
+- sites should look-out for illicit scans of their networks by SATAN or 
+  other tools, and 
+- system managers should install access control software to ensure scans of 
+  their systems by SATAN will be noticeable and consider installing SATAN 
+  detector software developed by incident response teams.
+
+Sites should also improve their network and host security policies and 
+measures.  Sites should consider installing firewall systems so that 
+internal systems are easier to manage and less vulnerable to attacks. Sites 
+should install all vendor patches and subscribe to vendor and incident 
+response team mailing lists so that they will be notified of future
+patches or vulnerabilities.  Sites should develop policy for network usage, 
+Internet access, and incident reporting.  It is very important that sites 
+improve system management by allotting sufficient time for system 
+administration duties and training as necessary.  Lastly, when purchasing 
+systems, sites should demand security features and properly install and 
+configure new systems and periodically recheck old systems.
+
+FOR FURTHER INFORMATION
+
+NIST operates a clearinghouse of computer security information and tools 
+accessible via the Internet and dial-in at all times.  The clearinghouse 
+contains links to information about computer security and incident response 
+team clearinghouses.  Together, these sites provide basic and detailed 
+computer security information, vulnerability and
+threat assessments, incident response team alerts, vendor patches, and 
+computer security tools including firewalls and pointers to vendors.  The 
+clearinghouse is accessible via the following methods:
+
+WWW: http://csrc.ncsl.nist.gov
+ftp: csrc.ncsl.nist.gov, login as "anonymous"
+email: send message "send INDEX" to docserver@csrc.ncsl.nist.gov
+dial-in: 301-948-5717
+
+

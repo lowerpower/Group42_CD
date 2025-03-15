@@ -1,0 +1,1120 @@
+
+LOUIS N. HIKEN, SBN 45337
+Attorney at Law
+One Sansome Street, Suite 900
+San Francisco, California 94104
+Tel:(415)705-6460 Fax:(415)705-6444
+
+
+
+
+
+
+UNITED STATES DISTRICT COURT 
+FOR THE NORTHERN DISTRICT OF CALIFORNIA
+
+
+United States of America,
+
+		     Plaintiff,
+		v.			
+Stephen Paul Dunifer,
+               Defendant
+No. C 94-3542 CW
+DEFENDANT’S MEMORANDUM OF 
+POINTS AND AUTHORITIES IN 
+SUPPORT OF HIS ANSWER TO 
+PLAINTIFF’S COMPLAINT FOR 
+DECLARATORY AND INJUNCTIVE 
+RELIEF
+
+
+
+TABLE OF CONTENTS
+TABLE OF AUTHORITIES
+	i
+i
+INTRODUCTION	1									
+I.	THE F.C.C. SHOULD BE REQUIRED TO COMPLETE ITS PENDING 
+ADMINISTRATIVE REVIEW OF THESE ISSUES BEFORE SEEKING 
+RELIEF FROM THIS COURT.	6
+II.	THE PROHIBITION OF MICRO RADIO VIOLATES THE F.C.C.’S 
+STATUTORY MANDATE TO REGULATE THE AIRWAVES IN THE 
+PUBLIC INTEREST, TO ENCOURAGE THE LARGER AND MORE 
+EFFECTIVE USE OF RADIO IN THE PUBLIC INTEREST, TO 
+ENCOURAGE THE PROVISION OF NEW TECHNOLOGIES AND 
+SERVICES TO THE PUBLIC, AND TO PROMOTE DIVERSIFICATION 
+OF THE MASS MEDIA AS A WHOLE.	8
+III.
+	T
+HE F.C.C. REGULATIONS PROHIBITING MICRO RADIO VIOLATE 
+THE FIRST AMENDMENT.
+	1
+1
+A.	THE SPECTRUM SCARCITY DOCTRINE NEITHER 
+REQUIRES NOR JUSTIFIES THE REGULATIONS.	11
+B.	THE REGULATIONS AS APPLIED IN THIS CASE 
+ARE CONTENT BASED RESTRICTIONS OF 
+SPEECH, AND ARE NOT NARROWLY TAILORED TO 
+FURTHER A SUBSTANTIAL GOVERNMENT 
+INTEREST.	15
+IV. 
+	P
+LAINTIFF’S SUGGESTION THAT DEFENDANT HAS NOT PURSUED 
+"AVAILABLE" MEANS OF OBTAINING F.C.C. AUTHORIZATION TO 
+ENGAGE IN MICRO RADIO BROADCASTING IS FATUOUS.
+	2
+0
+V. 	THE PROHIBITION OF INTRASTATE MICRO RADIO BROADCASTS 
+EXCEEDS THE FEDERAL GOVERNMENT'S REGULATORY AUTHORITY 
+UNDER THE COMMERCE CLAUSE
+	2
+3
+VI. 
+	T
+HE F.C.C.’S PROHIBITION OF MICRO RADIO BROADCASTING 
+VIOLATES MICRO RADIO BROADCASTERS' AND THEIR LISTENERS' 
+RIGHT TO COMMUNICATE UNDER THE U.N. DECLARATION OF 
+HUMAN RIGHTS, THE INTERNATIONAL COVENANT ON CIVIL AND 
+POLITICAL RIGHTS, AND THE AMERICAN CONVENTION ON HUMAN 
+RIGHTS.
+	2
+3
+CONCLUSION
+	2
+5	
+TABLE OF AUTHORITIES
+Cases
+
+Associated Press v. United States, 326 U.S. 
+1 (1945)	12
+Columbia Broadcasting System, Inc. v. 
+Democratic National Committee, 412 U.S. 
+94 (1973)	12
+FCC v. League Of Women Voters of California 
+468 U.S. 364 (1984)	5, 14, 15, 17
+Federal Communications Commission v. 
+National Citizens Committee For 
+Broadcasting et al. 436 U.S. 775 (1978)	5, 10, 11, 12
+National Broadcasting Co. v. United States 
+319 U.S. 190 (1943)	5, 9, 10, 12
+Near v. Minnesota  283 U.S. 697 (1931)	17
+New York Times Co. v. United States 403 U.S. 
+713 (1971)	17
+Red Lion Broadcasting Co. v. FCC, 395 U.S. 
+367 (1969)	5, 10, 13, 14
+United States v. McIntire, 365 F.Supp 618 
+and 370 F.Supp 1301 (D.N.J. 1974)	4,7
+United States v. Medina, 718 F.Supp 928 
+(S.D.Fla. 1989)	4
+Statutes
+47 U.S.C. §154(i)	8
+47 U.S.C. §157(a)	4
+47 U.S.C. §303(r)	8
+47 U.S.C. §301	2, 23
+47 U.S.C. §301(d)	23
+47 U.S.C. §303(g)	3, 9
+47 C.F.R. part 15	2
+47 C.F.R. §12.1235	19
+47 C.F.R. §12.1237	20
+47 C.F.R. §15.1	2
+47 C.F.R. §15.239(a)	2
+47 C.F.R. §15.239(b)	20,21
+47 C.F.R. §73.201	19
+47 C.F.R. §73.211(a)	2
+47 C.F.R. §73.506	2
+47 C.F.R. §73.511(a)	19
+47 C.F.R. §74.1201	19
+47 C.F.R. §74.1202	19
+47 C.F.R. §74.1202(b)	19
+47 C.F.R. §74.1203	19
+47 C.F.R. §74.1232	19
+47 C.F.R. §74.1250	20
+47 C.F.R. §74.1261	20
+47 C.F.R. §74.1262	20
+47 C.F.R. §74.1263	20
+Public Broadcasting Act of 1967, §399	16
+
+Other Authorities
+Public Notice CRTC 1993-95, CRTC (1993)	18
+Radio World, August 10, 1994, p. 9, "Radio 
+Translators Fill in Coverage Gaps."	19
+Report and Recommendations in the Low Power 
+Television Inquiry, Appendix 1 (BC Docket 
+No. 78-253)	18
+Telecommunications, Mass Media, and 
+Democracy; The Battle for the Control of 
+U.S. Broadcasting, 1928-1935, by Robert 
+W. McChesney, Oxford University Press, 
+1993	22
+U.N. Declaration Of Human Rights, Article 19	24
+International Covenant On Civil And 
+Political Rights, Article 19	24
+American Convention On Human Rights, Article 
+13(2)	24	
+
+
+
+LOUIS N. HIKEN, SBN 45337
+Attorney at Law
+One Sansome Street, Suite 900
+San Francisco, California 94104
+Tel:(415)705-6460 Fax:(415)705-6444
+
+
+
+UNITED STATES DISTRICT COURT 
+FOR THE NORTHERN DISTRICT OF CALIFORNIA
+
+
+United States of America,
+
+		     Plaintiff,
+		v.			
+Stephen Paul Dunifer,
+               Defendant
+No. C 94-3542 CW
+
+
+DEFENDANT’S MEMORANDUM OF 
+POINTS AND AUTHORITIES IN 
+SUPPORT OF HIS ANSWER TO 
+PLAINTIFF’S COMPLAINT FOR 
+DECLARATORY AND INJUNCTIVE 
+RELIEF
+
+Introduction
+	Micro radio  represents a technological advancement 
+comparable to the invention of the printing press. For the 
+first time in history, the technology exists whereby an 
+individual without corporate or government backing, or 
+independent wealth can, for less than one hundred dollars, 
+obtain equipment by which she can broadcast to her 
+neighborhood, making possible truly community oriented, 
+originated, and controlled radio. Micro radio is the 
+leaflet of the 1990’s, permitting citizens to communicate 
+with their neighbors by a method heretofore reserved for 
+huge radio stations promoting commercial interests from 
+distant locations.
+	The central issue in this case is the F.C.C.’s 
+prohibition of micro radio broadcasting. Despite 
+plaintiff’s protestations to the contrary , the F.C.C. is 
+indeed enforcing a complete and absolute ban of all micro 
+radio broadcasts--that is, all original FM broadcasts of 
+less than 100 watts capable of reaching a listening 
+audience. Federal law prohibits anyone from broadcasting 
+without a license , and the F.C.C. refuses to grant anyone 
+a license unless they are capable of broadcasting with a 
+minimum of 100 watts.  While 47 C.F.R. part 15 permits 
+certain unlicensed "broadcasts,"  this exception to the 100 
+watt minimum applies only if the field strength of the 
+broadcast is less than 250 microvolts/meter at three 
+meters.  As plaintiff is well aware, a broadcast in 
+compliance with the parameters of 47 C.F.R. part 15 could 
+not be received by anyone farther than a house or two away 
+from the source. Plaintiff’s denial that their rules 
+completely prohibit micro radio is deceptive, and begs the 
+question before this court.
+	Plaintiff has stated to this court that, "The same 
+public interest considerations that require licensing of 
+other radio devices apply equally to low-power stations: 
+namely to prevent the ‘cacophony of sounds’ and chaos on 
+the limited radio spectrum."  Assuming, arguendo, that this 
+is true, plaintiff has never proffered an explanation as to 
+why, if "the same public interest considerations" apply, 
+the government has refused to establish any procedure by 
+which defendant or anyone else can engage in licensed, 
+regulated micro radio broadcasting. Plaintiff's regulations 
+apply to broadcasters in rural areas with virtually no 
+spectrum competition just as they do to areas with a 
+concentrated number of stations.
+	Plaintiff has argued to this court that the "logical 
+extension" of defendant’s argument is that "anyone 
+proclaiming that he will not cause interference can set up 
+a radio station without F.C.C. oversight."   Defendant, 
+however, does not challenge the F.C.C.’s authority to 
+regulate micro-power broadcasts. Rather, defendant herein 
+challenges the constitutionality of the F.C.C.’s complete 
+ban of all FM broadcasts of less than 100 watts. 
+	The F.C.C. is statutorily required to regulate the 
+airwaves in the public interest, and to "study new uses for 
+radio, provide for experimental uses of frequencies, and 
+generally encourage the larger and more effective use of 
+radio in the public interest." 47 U.S.C. § 303(g). 47 
+U.S.C. §157(a) provides that, "It shall be the policy of 
+the United States to encourage the provision of new 
+technologies and services to the public." 47 U.S.C. §324 
+provides that, "In all circumstances, except in case of 
+radio communications or signals relating to vessels in 
+distress, all radio stations, including those owned and 
+operated by the United States, shall use the minimum amount 
+of power necessary to carry out the communication desired."  
+Micro radio provides a perfect opportunity for the F.C.C. 
+to fulfill these statutory mandates. Instead, the F.C.C. is 
+enforcing an irrational ban of micro radio. The government 
+asserts repeatedly its interest in "regulating the 
+airwaves," but nowhere explains to this Court how this ban 
+serves the public interest, or why it has chosen to 
+prohibit micro radio altogether.
+	The constitutionality of the F.C.C.’s prohibition of 
+micro radio is a matter of first impression. The cases 
+cited by plaintiff  regarding the district court authority 
+to enjoin unlicensed broadcasts involved full power 
+broadcasts; activities for which the enjoined parties could 
+have been licensed, had they gone through the appropriate 
+procedures. The ban of micro radio at issue here is 
+distinguishable from cases in which the F.C.C. has denied a 
+broadcast license to an individual applicant. Here, a whole 
+class of broadcasters is denied even the opportunity to 
+apply for a license, based upon the F.C.C.’s unreasonable 
+decision to impose the 100 watt minimum. Defendant herein 
+could never be licensed to conduct micro radio broadcasts 
+under the current regulatory framework, because of the 100 
+watt minimum. 
+	The fact that this case presents a matter of first 
+impression does not leave the court without applicable 
+standards. Several Supreme Court cases, including four 
+cases cited but not discussed by plaintiff, Red Lion 
+Broadcasting Co. v. FCC, 395 U.S. 367 (1969), FCC v. League 
+Of Women Voters of California 468 U.S. 364 (1984), National 
+Broadcasting Co. v. United States 319 U.S. 190 (1943), and 
+Federal Communications Commission v. National Citizens 
+Committee For Broadcasting et al. 436 U.S. 775 (1978), 
+provide the constitutional and statutory standards with 
+which the government’s regulation of the airwaves must 
+comply.
+	These cases make clear that while the F.C.C. is 
+granted wide latitude in its regulation of the airwaves, 
+its discretion is far from absolute. The Commission’s 
+regulations governing the licensing of broadcasters must 
+serve the public interest, convenience, or necessity.  This 
+mandate includes the requirement that the airwaves must be 
+regulated in a manner which protects and furthers the 
+public’s First Amendment rights to have access to a broad 
+and diverse range of opinions and perspectives, and to 
+receive a balanced presentation of views on diverse matters 
+of public concern.
+	Furthermore, while the doctrine of "spectrum scarcity" 
+results in a modified First Amendment analysis for the 
+broadcast media, even this modified analysis has permitted 
+government restrictions of broadcasters’ First Amendment 
+rights only when such restrictions were narrowly tailored 
+to further a substantial government interest.
+	Plaintiffs have chosen to ignore the central issue in 
+these proceedings (the constitutionality of their 
+prohibition of micro radio), and in so doing mis-
+characterize the question before this court as a simple 
+matter of deciding whether or not the F.C.C. has the 
+authority to regulate the airwaves, and whether or not 
+defendant has broadcast without an F.C.C. license. 
+Defendant does not herein challenge the F.C.C.’s authority 
+to regulate the airwaves, nor does defendant deny that he 
+has broadcast without an F.C.C. license. Defendant does not 
+have an F.C.C. license to engage in micro radio 
+broadcasting because the F.C.C. simply does not provide any 
+mechanism or procedure whatsoever by which such a license 
+can possibly be obtained, by defendant or by anyone else. 
+This prohibition of micro radio broadcasting is 
+unreasonable, does not serve the public interest, and 
+violates the First Amendment. If the regulations as 
+currently enforced by the F.C.C. violate the agency’s 
+statutory mandate and are unconstitutional, defendant’s 
+violation thereof cannot form the basis for granting the 
+declaratory and injunctive relief sought by plaintiff. 
+
+I.	THE F.C.C. SHOULD BE REQUIRED TO COMPLETE ITS PENDING 
+ADMINISTRATIVE REVIEW OF THESE ISSUES BEFORE SEEKING RELIEF FROM 
+THIS COURT.	
+	On June 1, 1993, the F.C.C. issued a Notice of 
+Apparent Liability (N.A.L.) against defendant Stephen 
+Dunifer, in which the F.C.C. sought to impose a forfeiture 
+of $20,000 against defendant for allegedly engaging in two 
+unlicensed low power FM broadcasts. On June 28, 1993, 
+defendant filed his Response to the N.A.L., and, on 
+December 2, 1993, pursuant to 47 C.F.R. §1.115, filed with 
+the F.C.C. an Application for Review of Action Taken 
+Pursuant To Delegated Authority. That Application set forth 
+the constitutional and procedural arguments as to why the 
+F.C.C.’s N.A.L in defendant’s case, as well as the ban of 
+all micro radio broadcasting, is illegal. 
+	More than a year and a half has passed since defendant 
+first filed his request for relief challenging the F.C.C.’s 
+ban of micro radio. The F.C.C. has not responded to that 
+request. The F.C.C. should be required to complete its own 
+internal review of these issues before seeking this Court’s 
+intervention.
+	Plaintiff cites United States v. McIntire, 365 F.Supp 
+618 and 370 F.Supp 1301 (D.N.J. 1974) in this regard, but 
+McIntire is distinguishable from the present case. In 
+McIntire, the defendant lost his F.C.C. license, and then 
+engaged in full-power broadcasts from a boat offshore. 
+There was no currently-pending administrative review 
+action, as there is here, initiated by the F.C.C. and 
+raising the precise issues as those before the federal 
+court.
+	It is ironic that the F.C.C. claims that defendant 
+herein has failed to pursue discretionary administrative 
+relief, such as a rule-change or waiver request, and yet 
+has itself refused to respond to defendant’s administrative 
+appeal which has been before it for more than eighteen 
+months.
+	There are factual and legal questions to which the 
+F.C.C. itself should be required to respond; this will 
+provide guidance useful to the Court in its evaluation of 
+the pending issues.  This Court should exercise its 
+discretion to retain jurisdiction over this case, and 
+require the F.C.C. to complete its internal administrative 
+review of defendant’s claim.  
+
+II.	THE PROHIBITION OF MICRO RADIO VIOLATES THE F.C.C.’S STATUTORY 
+MANDATE TO REGULATE THE AIRWAVES IN THE PUBLIC INTEREST, TO 
+ENCOURAGE THE LARGER AND MORE EFFECTIVE USE OF RADIO IN THE PUBLIC 
+INTEREST, TO ENCOURAGE THE PROVISION OF NEW TECHNOLOGIES AND 
+SERVICES TO THE PUBLIC, AND TO PROMOTE DIVERSIFICATION OF THE MASS 
+MEDIA AS A WHOLE.  		
+	The authority for the F.C.C.’s regulatory power is 
+derived from the Communications Act. 47 U. S. C. §303(r) 
+provides that "the Commission from time to time, as public 
+convenience, interest, or necessity requires, shall . . . 
+[make] such rules and regulations and prescribe such 
+restrictions and conditions, not inconsistent with law, as 
+may be necessary to carry out the provisions of [the Act]." 
+47 U. S. C. §154(i) provides that, "The Commission may 
+perform any and all acts, make such rules and regulations, 
+and issue such orders, not inconsistent with this chapter, 
+as may be necessary in the execution of its functions." 
+	The Communications Act also provides that, "...[t]he  
+Commission from time to time, as public convenience, 
+interest, or necessity requires, shall...[s]tudy new uses 
+for radio, provide for experimental uses of frequencies, 
+and generally encourage the larger and more effective use 
+of radio in the public interest." 47 U.S.C. §303(g).
+		The Supreme Court analyzed these statutory bases 
+of the F.C.C.’s regulating authority in National 
+Broadcasting Co. v. United States, 319 U.S. 190 (1943) 
+(hereinafter "NBC"). In NBC, the Court upheld challenged 
+F.C.C. regulations prohibiting multiple ownership of AM 
+radio stations. The Court, after reviewing the statutory 
+framework, found that, "[the] avowed aim of the 
+Communications Act of 1934 was to secure the maximum 
+benefits of radio to all the people of the United States," 
+and that "[t]he criterion governing the exercise of the 
+Commission's licensing power is the ‘public interest, 
+convenience, or necessity.’" 319 U.S. at 215, 217. The 
+Court acknowledged that because "[t]he facilities of radio 
+are not large enough to accommodate all who wish to use 
+them,"  Congress had committed to the F.C.C. the task of 
+allocating the available spectrum space, but then stated:
+
+"  The Commission was, however, not left at large 
+in performing this duty.  The touchstone provided 
+by Congress was the public interest, convenience, 
+or necessity, a criterion which is as concrete as 
+the complicated factors for judgment in such a 
+field of delegated authority permit. This 
+criterion is not to be interpreted as setting up a 
+standard so indefinite as to confer an unlimited 
+power. The requirement is to be interpreted by its 
+context, by the nature of radio transmission and 
+reception, by the scope, character and quality of 
+services.
+   The public interest to be served under the 
+Communications Act is thus the interest of the 
+listening public in ‘the larger and more effective 
+use of radio.’ [citing 47 U.S.C. § 303 (g)]. The 
+facilities of radio are limited and therefore 
+precious; they cannot be left to wasteful use 
+without detriment to the public interest." NBC, 
+supra, 319 U.S. at 216, internal quotations and 
+citations omitted.
+	
+	The Supreme Court again reviewed the F.C.C.’s 
+regulatory authority, and the "public interest, convenience 
+and necessity" standard, in Federal Communications 
+Commission v. National Citizens Committee For Broadcasting 
+et al. 436 U.S. 775 (1978) (hereinafter NCC). In NCC, the 
+Court upheld F.C.C. regulations prospectively barring the 
+initial licensing or the transfer of newspaper-broadcast 
+combinations where there is common ownership of a radio or 
+television broadcast station and a daily newspaper located 
+in the same community. The Court discussed at length the 
+relationship between the doctrine of spectrum scarcity, the 
+First Amendment, and the F.C.C.’s obligation to regulate in 
+the public interest: 
+
+"As we have discussed on several occasions [citing 
+NBC and Red Lion], the physical scarcity of 
+broadcast frequencies, as well as problems of 
+interference between broadcast signals, led 
+Congress to delegate broad authority to the 
+Commission to allocate broadcast licenses in the 
+public interest. And the avowed aim of the 
+Communications Act of 1934 was to secure the 
+maximum benefits of radio to all the people of the 
+United States. It was not inconsistent with the 
+statutory scheme, therefore, for the Commission to 
+conclude that the maximum benefit to the public 
+interest would follow from allocation of broadcast 
+licenses so as to promote diversification of the 
+mass media as a whole.
+  Our past decisions have recognized, moreover, 
+that the First Amendment . . . values underlying 
+the Commission's diversification policy may 
+properly be considered by the Commission in 
+determining where the public interest lies. The 
+public interest standard necessarily invites 
+reference to First Amendment  principles and, in 
+particular, to the First Amendment goal of 
+achieving the widest possible dissemination of 
+information from diverse and antagonistic 
+sources." NCC, supra, 436 U.S. at 795, internal 
+quotations and citations omitted.
+	47 U.S.C. 307 (a) directs that "the Commission, if 
+public convenience, interest, or necessity will be served 
+thereby, subject to the limitations of this Act, shall 
+grant to any applicant therefor a station license provided 
+for by this Act." In making initial licensing decisions 
+between competing applicants, the F.C.C. has long given 
+primary significance to diversification of control of the 
+media of mass communications. Federal Communications 
+Commission v. National Citizens Committee For Broadcasting 
+et al. 436 U.S. 775,794 (1978). Yet under the F.C.C.’s 
+current policy, no one is even permitted to apply for, much 
+less be granted a license to engage in micro radio 
+broadcasting. Micro radio represents a significant 
+opportunity to further the important public interest and 
+First Amendment goal of diversification of control of the 
+mass media. Instead of fulfilling their statutory and 
+constitutional mandate to regulate the airwaves in the 
+public interest, and in a manner designed to achieve "the 
+widest possible dissemination of information from diverse 
+and antagonistic sources,"  the F.C.C. is relegating the 
+airwaves to the exclusive control of megawatt stations 
+serving corporate and commercial interests.
+
+III.	THE F.C.C. REGULATIONS PROHIBITING MICRO RADIO VIOLATE THE 
+FIRST AMENDMENT.		
+
+A.	THE SPECTRUM SCARCITY DOCTRINE NEITHER REQUIRES NOR JUSTIFIES 
+THE REGULATIONS.	  
+	The government seems to be asserting that the doctrine 
+of spectrum scarcity provides to F.C.C. regulations 
+absolute immunity from First Amendment challenge. This 
+interpretation of the Supreme Court’s First Amendment 
+analysis in this area is incorrect.
+	As the cases cited in the above section make clear, 
+the F.C.C.’s regulations must meet the "public interest, 
+convenience and necessity" standard. "This criterion is not 
+to be interpreted as setting up a standard so indefinite as 
+to confer an unlimited power," and the "public interest to 
+be served under the Communications Act is . . . the 
+interest of the listening public in the larger and more 
+effective use of radio." NBC, supra, 319 U.S. at 216. 
+"[The] public interest standard necessarily invites 
+reference to First Amendment principles, and, in 
+particular, to the First Amendment goal of achieving the 
+widest possible dissemination of information from diverse 
+and antagonistic sources." NCC, supra, 436 U.S. 775, 795. 
+See also  Columbia Broadcasting System, Inc. v. Democratic 
+National Committee, 412 U.S. 94, 122 (1973); Associated 
+Press v. United States, 326 U.S. 1, 20 (1945).
+	While the decisions cited by the F.C.C. indicate that 
+the broadcast spectrum is subject to a different First 
+Amendment standard than other media, the Supreme Court in 
+these cases repeatedly emphasized its concern with 
+broadening and diversifying the sources of information 
+available to the public. None of these decisions permitted 
+the type of across-the-board prohibition of a new means of 
+community-based communication that is at issue in the 
+present case.
+	In Red Lion Broadcasting Co. v. FCC, 395 U.S. 367 
+(1969), the Supreme Court upheld the F.C.C.’s "fairness 
+doctrine" against a First Amendment challenge brought by 
+broadcasters.  The Red Lion decision enunciated the classic 
+formulation of the "scarcity doctrine," establishing that 
+the finite number of frequencies available in the broadcast 
+spectrum mandated a modified First Amendment analysis for 
+determining the constitutionality of government regulations 
+of the broadcast medium. The Court, however, repeatedly 
+emphasized that the paramount First Amendment concern 
+underlying their decision was the right of the public to 
+have access to perspectives, opinions, and ideas as wide 
+and varied as possible on matters of public concern. The 
+public’s First Amendment rights were held by the Court to 
+outweigh those of broadcasters forced by the fairness 
+doctrine to air views and opinions at odds with their own:
+
+"This is not to say that the First Amendment is 
+irrelevant to public broadcasting.  On the 
+contrary, it has a major role to play as the 
+Congress itself recognized in [forbidding] FCC 
+interference with the right of free speech by 
+means of radio communication. Because of the 
+scarcity of radio frequencies, the Government is 
+permitted to put restraints on licensees in favor 
+of others whose views should be expressed on this 
+unique medium.  But the people as a whole retain 
+their interest in free speech by radio and their 
+collective right to have the medium function 
+consistently with the ends and purposes of the 
+First Amendment. It is the right of the viewers 
+and listeners, not the right of the broadcasters, 
+which is paramount. It is the purpose of the First 
+Amendment to preserve an uninhibited marketplace 
+of ideas in which truth will ultimately prevail, 
+rather than to countenance monopolization of that 
+market, whether it be by the Government itself or 
+a private licensee...It is the right of the public 
+to receive suitable access to social, political, 
+esthetic, moral, and other ideas and experiences 
+which is crucial here.  That right may not 
+constitutionally be abridged either by Congress or 
+by the FCC." Red Lion Broadcasting Co. v. FCC, 
+supra, 395 U.S. at 389-390, internal quotations 
+and citations omitted.
+	The public has a First Amendment right to receive the 
+broad variety of view-points, perspectives, and programming 
+formats which micro radio offers. The advent of micro radio 
+not only gives radio listeners a non-governmental, non-
+commercial alternative to the perspectives presented on 
+mainstream commercial or "public" radio; this new 
+technology allows individual citizens to broadcast 
+themselves, and present their own personal and local 
+community interests directly and effectively, making the 
+public airwaves truly public for the first time. Unlike 
+commercially controlled interests involving huge financial 
+investments, micro radio broadcasters will not shy away 
+from controversial or wide-ranging topics of discussion to 
+please the largest possible audience.
+	The government’s assertion that the doctrine of 
+spectrum scarcity requires or permits their ban of micro 
+radio is unsupported by the case law to which they cite the 
+Court. In FCC v. League Of Women Voters of California 468 
+U.S. 364 (1984), the Supreme Court struck down a federal 
+statute  prohibiting public broadcasters from endorsing 
+political candidates or editorializing. The Court plainly 
+stated that the restrictions placed upon the broadcast 
+media under the spectrum scarcity rationale are permitted 
+because the overall impact is to further and protect the 
+public’s First Amendment rights of access to broad and 
+diverse perspectives. Furthermore, the Court pointed out, 
+never had restrictions based on spectrum scarcity been 
+permitted absent a showing that they were narrowly tailored 
+to further a substantial government interest:
+
+"...[A]lthough the broadcasting industry plainly 
+operates under restraints not imposed upon other 
+media, the thrust of these restrictions has 
+generally been to secure the public's First 
+Amendment interest in receiving a balanced 
+presentation of views on diverse matters of public 
+concern....But, as our cases attest, these 
+restrictions have been upheld only when we were 
+satisfied that the restriction is narrowly 
+tailored to further a substantial governmental 
+interest, such as ensuring adequate and balanced 
+coverage of public issues." FCC v. League Of Women 
+Voters of California, supra, 468 U.S. at 380-381, 
+emphasis added, citations omitted.
+ 
+	Applying this standard, the Court held that the 
+statute before them violated the First Amendment because 
+not all of the interests asserted by the government were 
+deemed "substantial," and the statute was not narrowly 
+tailored to further those interests that were so deemed. 
+468 U.S. at 398-402.
+
+B.	THE REGULATIONS AS APPLIED IN THIS CASE ARE CONTENT BASED 
+RESTRICTIONS OF SPEECH, AND ARE NOT NARROWLY TAILORED TO 
+FURTHER A SUBSTANTIAL GOVERNMENT INTEREST.	 
+	The F.C.C.’s decision to seek injunctive relief 
+against defendant in this case is based upon the nature and 
+the content of his broadcasts, and statements he has made 
+in other print and broadcast media. Defendant herein is one 
+of many micro radio broadcasters nationwide.  Yet the 
+government has sought to enjoin only defendant, the most 
+prominent and outspoken critic of the F.C.C. and their 
+regulatory authority. 
+	The government asserts that unless enjoined by this 
+Court, defendant will cause irreparable injury to the 
+public. Yet after months of intensive monitoring of Free 
+Radio Berkeley (hereinafter "F.R.B."), the F.C.C. can point 
+to only two instances of "interference." In both instances, 
+the only interference to which the government refers was 
+reported by F.C.C. agents themselves, and in at least one 
+of these instances, only in the immediate proximity of the 
+F.R.B. transmitter. 
+	In its October 14, 1994 response to a FOIA request 
+filed by the newsletter of the National Lawyers Guild, the 
+F.C.C. admitted that it had received no complaints 
+regarding interference from the F.R.B. signal.  Rather, as 
+the F.C.C. response makes clear, the F.C.C. received a 
+handful of complaints regarding the fact that defendant was 
+broadcasting at all. Some of these complainants apparently 
+never even heard an F.R.B. broadcast, but had seen flyers 
+or otherwise heard about F.R.B.’s challenge to the F.C.C.’s 
+regulations. Defendant’s public criticism of the F.C.C., 
+rather than actual interference with licensed broadcasts, 
+is the reason he has been targeted by the F.C.C. in this 
+federal court action.    
+	Under the holding of FCC v. League Of Women Voters of 
+California, supra, and the cases cited therein, content-
+based restrictions of speech, even in the broadcast media, 
+are permissible only if narrowly tailored to further a 
+substantial government interest. 468 U.S. at 380-381.
+	The F.C.C. asserts that the government interest served 
+by the prohibition of micro radio is the prevention of 
+"chaos" and a "cacaphony of sound."  The prohibition of 
+micro radio broadcasting effected by the current regulatory 
+scheme, however, is far from narrowly tailored to achieve 
+this goal; there are clearly less restrictive means of 
+regulation available which would not unduly burden the 
+government.  All of the government’s asserted concerns can 
+be addressed by the regulation of micro radio broadcasting; 
+the creation of a similar system of licensing broadcasters, 
+assigning frequencies and monitoring the technical 
+specifications of broadcasting equipment as that which 
+exists for full-power broadcasts.
+	 The government need look no further than to Canada 
+for examples of much less restrictive means of addressing 
+micro radio. Since 1978, Canada has licensed low power FM 
+radio broadcasters in remote communities with a simple 
+three-page application form.  The Canadian Radio-Television 
+and Telecommunications Commission (CRTC) has recently 
+modified its rules to permit such broadcasts even in urban 
+areas, where frequency space is much more scarce.   Indeed, 
+in a report on low power television, the F.C.C. itself 
+attached as an appendix a copy of Canadian recommendations 
+regarding the regulation of low power FM broadcasting.  
+These recommendations included the suggestion that 
+application forms and required information be simple enough 
+to allow for easy application by potential low power 
+licensees.   Review of this F.C.C. report and the 
+attachments thereto reveals that the licensing and 
+administrative requirements necessary to oversee operation 
+of micro radio stations is not overly burdensome.  Indeed, 
+these licensing forms reveal that micro radio can be easily 
+regulated so as to prevent any risk of signal interference. 
+	Further evidence of the less restrictive alternatives 
+available to the Commission in this regard is available in 
+the F.C.C.’s own history.  Until relatively recently, Non-
+Commercial Educational FM broadcast stations could be 
+licensed by the F.C.C. to broadcast with up to 10 watts of 
+power.  
+	Finally, the F.C.C.’s own regulations pertaining to FM 
+translators provide an example of how the F.C.C. could 
+regulate micro radio. The F.C.C. permits translators to re-
+broadcast, on frequencies within the normal commercial and 
+noncommercial FM radio band, signals that originate from 
+huge radio stations located far from the community in which 
+the translator is placed. 
+	Current F.C.C. regulations  permit low power 
+transmitters to operate with less than 100 watts if they 
+are transmitting a signal originating from a full-power 
+radio station, but prohibit local broadcasters from using a 
+transmitter with identical wattage to broadcast any program 
+originating in the listener’s community. The F.C.C. has 
+promulgated translator regulations to address issues such 
+as frequency assignment , interference , licensing 
+requirements , power limitations , antenna location , 
+transmitters and equipment , frequency tolerance , 
+frequency monitors and measurements , and time of 
+operation.  Many of these regulations could be just as 
+easily applied, almost verbatim, to micro radio broadcasts 
+originating in the communities to which they are being 
+broadcast.
+		
+IV.	PLAINTIFF’S SUGGESTION THAT DEFENDANT HAS NOT PURSUED "AVAILABLE" 
+MEANS OF OBTAINING F.C.C. AUTHORIZATION TO ENGAGE IN MICRO RADIO 
+BROADCASTING IS FATUOUS.	
+	Plaintiff suggests that defendant has not availed 
+himself of possible avenues by which F.C.C. permission 
+might be sought and obtained.  This suggestion is 
+disingenuous. Defendant, in his Application for Review 
+currently pending before the F.C.C., responded to a similar 
+contention raised by the F.C.C. in those proceedings.  In 
+their argument to this Court, the government has dropped 
+some of the F.C.C.’s more transparent "suggestions" as to 
+how defendant could supposedly have sought F.C.C. approval 
+for micro radio broadcasting. Still remaining, however, are 
+the F.C.C.’s assertions that, 1) defendant could legally 
+broadcast without a license under the provisions of 47 
+C.F.R. § 15.239(b);  and 2) defendant could have "asked the 
+agency to establish rules that would permit him to 
+operate...[by presenting] a rulemaking petition pursuant to 
+the [A.P.A.], or a request for waiver."   The first 
+"option" is meaningless, since the field strength permitted 
+by §15.239(b) is so low as to preclude any micro radio 
+broadcast capable of being received beyond approximately 
+one block away from the transmitter.  The activity for 
+which defendant is seeking F.C.C. permission consists of 
+communicating with his neighbors and his community via the 
+new technology which for the first time in history makes 
+low power FM broadcasting economically feasible for 
+individual citizens. The government’s suggestion that a 
+micro radio broadcast could comply with the field strength 
+limitations imposed by §15.239(b) is misleading, at best.
+	The second option suggested by the government, 
+petitioning the Commission for a rule change or waiver, 
+again begs the question  before this Court. Defendant is 
+challenging the F.C.C.’s regulatory framework, as currently 
+formulated and enforced, because they violate the F.C.C.’s 
+statutory mandate and the First Amendment. Plaintiffs seek 
+to avoid addressing the constitutional infirmity of the 
+current rules by suggesting that defendant should have 
+asked the F.C.C. to change or waive their rules. Citizens 
+have no responsibility whatsoever to petition the F.C.C. to 
+change unconstitutional regulations--rather, the F.C.C. is 
+required to structure its regulatory framework so as to 
+comply with the relevant statutory standards and the First 
+Amendment. 
+	Similarly evasive is the government’s suggestion that 
+there is no complete ban of micro radio because defendant 
+could initiate a formal rule-change procedure under the 
+A.P.A. Neither defendant, nor any other individual citizen 
+of modest means, could conceivably afford the monetary 
+expense involved in initiating and participating in such a 
+process; nor could defendant hope to meaningfully compete 
+with the commercial interests and their lobbyists that 
+would inevitably become involved in and eventually control 
+such a process.  The historical significance of micro radio 
+lies precisely in the fact that average citizens can now 
+have access to the airwaves to communicate with their 
+neighbors. Requiring defendant to initiate a formal rule-
+making procedure under the A.P.A. would serve the same 
+function as the 100 watt minimum: it would place the 
+ability to engage in this new form of communication out of 
+the reach of all but the very wealthy.
+
+V.	THE PROHIBITION OF INTRASTATE MICRO RADIO BROADCASTS EXCEEDS THE 
+FEDERAL GOVERNMENT'S REGULATORY AUTHORITY UNDER THE COMMERCE
+	CLAUSE.		
+	The Communications Act of 1934 was originally enacted 
+to maintain the control of the United States over all the 
+channels of interstate and foreign radio transmissions.  
+This power is arguably in accord with Art. I Sect. 2 of the 
+U.S. constitution, which permits Congress to regulate 
+interstate commerce.  While the language of 47 U.S.C. § 
+301(d) states that the F.C.C. has the authority to regulate 
+even purely intrastate transmissions, the statute must be 
+interpreted and applied in a manner consistent with the 
+constitutional limitations of Congress's power to regulate 
+interstate commerce.  Thus, F.C.C. regulation of intrastate 
+transmissions which interfere with, and perhaps those which 
+are capable of interfering with, interstate commerce may be 
+constitutional.  However, where, as here, there is 
+absolutely no showing that any of the F.R.B. transmissions 
+has in any way interfered, or could possibly interfere, 
+with interstate signals, the F.C.C. is venturing beyond its 
+regulatory authority.  An application or interpretation of 
+47 U.S.C. §301 which permits such excessive regulation is 
+unconstitutional under the commerce clause.   
+
+VI.	THE F.C.C.’S PROHIBITION OF MICRO RADIO BROADCASTING VIOLATES 	
+	MICRO RADIO BROADCASTERS' AND THEIR LISTENERS' RIGHT TO 
+	COMMUNICATE UNDER THE U.N. DECLARATION OF HUMAN RIGHTS, THE 
+	INTERNATIONAL COVENANT ON CIVIL AND POLITICAL
+	RIGHTS, AND THE AMERICAN CONVENTION ON HUMAN RIGHTS.	 
+	More than at any time in the world’s history, 
+communication amongst the world’s people plays a pivotal 
+role. Events in places such as Bhopal, Chiapas, or 
+Chernobyl can and do profoundly impact societies and 
+communities halfway around the world. As a result, each 
+nation’s communications policies take on an importance 
+unparalleled in many other fields of law. Given the 
+international scope of events that the world’s peoples must 
+learn about, it is more important than ever for the Court 
+to incorporate into its evaluation of the issue pending 
+before it those treaties and international principles that 
+shed light on this subject. These treaties are made part of 
+the law of our nation through Article VI of the U.S. 
+Constitution, and are highly relevant to consideration of 
+the issues argued herein.
+	Article 19 of the U.N. Declaration Of Human Rights and 
+the parallel Article 19 of the International Covenant On 
+Civil And Political Rights state:
+
+"Everyone has the right to freedom of opinion and 
+expression; this right includes freedom to hold 
+opinions without interference and to seek, receive 
+and impart information through any media and 
+regardless of frontiers."
+	These international treaties promote recognition of 
+the right to expression and information as a universal 
+human right guaranteed by international law.  The treaties 
+expressly forbid undue restraints on freedom of expression, 
+and require the government to establish, and substantiate 
+if necessary, its justification for restrictions placed 
+upon its citizens' right of free expression.  Similarly, 
+Article 13(2) of the American Convention on Human Rights 
+requires that any governmental "restrictions imposed. . . 
+on freedom of expression depend upon a showing that the 
+restrictions are required by a compelling state interest," 
+and that if there exist "various options to achieve this 
+objective, that which least restricts the right protected 
+must be selected." 
+	As signatory to these international treaties, the 
+United States government has a responsibility to conform 
+its regulation of the electronic broadcast media to the 
+treaties' requirements.  The F.C.C.’s ban of micro radio 
+broadcasting is a blatant violation of this most 
+fundamental of internationally recognized human rights.
+Conclusion
+	For the reasons stated above, defendant respectfully 
+requests that the Court deny the relief sought by 
+defendants, and declare the F.C.C. prohibition of micro 
+radio unconstitutional and in violation of the F.C.C.’s 
+statutory mandate to regulate the airwaves in the public 
+interest.
+	
+DATED:  ____________  , at San Francisco, California.
+
+						Respectfully submitted,
+
+											 
+						LOUIS N. HIKEN, SBN 45337
+						Attorney for Defendant
+
+  The term "Micro radio" refers to low-power FM broadcasting, ranging 
+from 1 watt or less to about 30 watts, as contrasted with the 
+thousands, or even hundreds of thousands, of watts generated by most 
+commercial and public broadcasting radio stations.
+  See PLAINTIFF’S MEMORANDUM OF POINTS AND AUTHORITIES IN SUPPORT OF 
+MOTION FOR PRELIMINARY INJUNCTION at p.11.
+  47 U.S.C. 301 (1994)
+  47 C.F.R. §73.211(a) provides that FM stations must operate with a 
+minimum effective radiated power (ERP) of 0.1kW, or 100 watts. 47 
+C.F.R. §73.506 provides that noncommercial educational FM stations may 
+broadcast with less than 100 watts, but in 1985 the F.C.C. promulgated 
+47 C.F.R. 73.511(a), which provides that "No new noncommercial 
+educational station will be authorized with less power than minimum 
+power requirements for commercial Class A facilities [100 watts]." 
+  See 47 C.F.R. §15.1 et. seq.
+  47 C.F.R. §15.239(a)
+  IBID.
+  PLAINTIFF’S REPLY TO DEFENDANT’S OPPOSITION TO MOTION FOR PRELIMINARY 
+INJUNCTION at p. 6.
+  United States v. Medina, 718 F.Supp 928 (S.D.Fla. 1989); United 
+States v. McIntire, 365 F.Supp 618 (D.N.J. 1973); United States v. 
+McIntire, 370 F.Supp 1301 (D.N.J. 1974).
+  The Response to the N.A.L. and the Application for Review were 
+submitted to this Court with Defendant’s Opposition to Plaintiff’s 
+Motion for Preliminary Injunction, as, respectively, Exhibits A and B 
+thereto.
+  Federal Communications Commission v. National Citizens Committee For 
+Broadcasting et al. 436 U.S. 775, 795 (1978)
+  The fairness doctrine imposed on radio and television broadcasters 
+the requirement that discussion of public issues be presented on 
+broadcast stations, and that each side of those issues be given fair 
+coverage. Red Lion, supra, 395 U.S. at 369. The doctrine included 
+components, codified as formal rules promulgated by the F.C.C., which 
+required broadcasters to allow equal time for response by any 
+identified person or group "personally attacked" on the air, and equal 
+time for candidates opposing any candidate endorsed editorially by the 
+broadcasters. Id. at 373; see also 32 Fed. Reg. 10303, twice amended, 
+32 Fed. Reg. 11531, 33 Fed. Reg. 5362 (1968).
+  Section 399 of The Public Broadcasting Act of 1967.
+  The F.C.C. has filed N.A.L.s against numerous micro radio 
+broadcasters who have continued their unlicensed broadcasts. The F.C.C. 
+has not sought injunctive relief against any of these other 
+broadcasters in spite of the fact that their broadcasts are more 
+frequent and regular than those of defendant.
+  See, e.g., the newspaper and magazine articles attached as Exhibits 
+A and B to PLAINTIFF’S MEMORANDUM OF POINTS AND AUTHORITIES IN SUPPORT 
+OF MOTION FOR PRELIMINARY INJUNCTION.
+  See the declarations submitted with PLAINTIFF’S MEMORANDUM OF POINTS 
+AND AUTHORITIES IN SUPPORT OF MOTION FOR PRELIMINARY INJUNCTION; 
+Hartshorn Declaration and Zears Declaration. In one of these instances, 
+the alleged interference was encountered only after the F.C.C. agent 
+drove literally right up to the transmitter. See Zears Declaration at 
+ 7-10. The broadcast discussed therein was intended for and capable 
+of reception by only the participants in the Anti-Nuclear Rally in 
+immediate vicinity of the transmitter.
+  Copies of the FOIA request and the F.C.C. response are attached 
+hereto and marked as Exhibit A.
+  To the extent that the F.C.C. justifies its ban of micro radio based 
+upon the possibility that some micro radio broadcasters might cause 
+interference to other licensed broadcasters, the ban constitutes an 
+impermissible prior restraint of speech. New York Times Co. v. United 
+States 403 U.S. 713 (1971); Near v. Minnesota  283 U.S. 697 (1931).
+ Sample form attached hereto and marked as Exhibit B.
+ Public Notice CRTC 1993-95, CRTC (1993), attached hereto and marked 
+as Exhibit C.
+ Report and Recommendations in the Low Power Television Inquiry, 
+Appendix 1 (BC Docket No. 78-253).  
+  47 C.F.R. §73.511(a).
+  See Radio World, August 10, 1994, p. 9, "Radio Translators Fill in 
+Coverage Gaps", attached hereto and marked as Exhibit D.
+  47 C.F.R. §74.1201 et. seq., copy attached hereto and marked as 
+Exhibit E. §74.1202(b), which provides the frequencies on which 
+translators may broadcast, refers to the frequencies as "channels." 47 
+C.F.R. §73.201 explains that the frequencies available for FM 
+broadcasting are given numerical designations, or channel numbers. 
+§73.201 also contains a table that provides the channel numbers 
+designated for each available frequency. For the Court’s easy 
+reference, a copy of §73.201 is attached hereto and marked as Exhibit 
+F. 
+  See 47 C.F.R. §74.1202.
+  See 47 C.F.R. §74.1203.
+  See 47 C.F.R. §74.1232.
+  See 47 C.F.R. §12.1235.
+  See 47 C.F.R. §12.1237.
+  See 47 C.F.R. §74.1250.
+  See 47 C.F.R. §74.1261.
+  See 47 C.F.R. §74.1262.
+  See 47 C.F.R. §74.1263.
+  See PLAINTIFF’S MEMORANDUM OF POINTS AND AUTHORITIES IN SUPPORT OF 
+MOTION FOR PRELIMINARY INJUNCTION at p.8, n.3
+  See Defendant’s APPLICATION FOR REVIEW OF ACTION TAKEN PURSUANT TO 
+DELEGATED AUTHORITY at pp. 4-6, submitted to the F.C.C. on December 2, 
+1993, in response to the F.C.C.’s FORFEITURE ORDER dated November 8, 
+1993. The APPLICATION FOR REVIEW is attached as exhibit B to 
+DEFENDANT’S MOTION IN OPPOSITION TO PLAINTIFF’S MOTION FOR PRELIMINARY 
+INJUNCTION, filed with this Court on November 14, 1994. 
+  PLAINTIFF’S MEMORANDUM OF POINTS AND AUTHORITIES IN SUPPORT OF 
+MOTION FOR PRELIMINARY INJUNCTION at p. 10,
+  PLAINTIFF’S MEMORANDUM OF POINTS AND AUTHORITIES IN SUPPORT OF 
+MOTION FOR PRELIMINARY INJUNCTION at p.8, n.3.
+  Furthermore, defendant has requested that, "To the extent that any 
+standards or procedures do exist pertaining to the Commission’s 
+suggestion that we request a rule change or waiver, or that persons 
+should apply for a license despite the fact that they know they do not 
+meet the regulatory requirements, we would request at this time that 
+the Commission provide such standards or procedures to us, to guide us 
+in attempting to comply with the Commission’s suggestions." See 
+Defendant’s APPLICATION FOR REVIEW OF ACTION TAKEN PURSUANT TO 
+DELEGATED AUTHORITY at p.5, n.18, submitted to the F.C.C. on December 
+2, 1993, in response to the F.C.C.’s FORFEITURE ORDER dated November 8, 
+1993. The APPLICATION FOR REVIEW is attached as exhibit B to 
+DEFENDANT’S MOTION IN OPPOSITION TO PLAINTIFF’S MOTION FOR PRELIMINARY 
+INJUNCTION, filed with this Court on November 14, 1994. The F.C.C. has 
+not responded to this request.
+  For the definitive discussion of why it is a cruel hoax to suggest 
+that an individual such as defendant might obtain relief through this 
+process, see Telecommunications, Mass Media, and Democracy; The Battle 
+for the Control of U.S. Broadcasting, 1928-1935, by Robert W. 
+McChesney, Oxford University Press, 1993.
+  U.N. Human Rights Committee, Communication No. 11/1977, paragraph 
+17.
+  Advisory Opinion of the Inter-American Court, 13 November 1985, 8 
+EHRR 165.
+
+
+
+	
+
+
+
+
+
+
+
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

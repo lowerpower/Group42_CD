@@ -1,0 +1,83 @@
+<head>
+<title>[8lgm]-Advisory-7.UNIX.passwd.11-May-1994.NEWFIX</title>
+</head>
+<body>
+<hr>
+<H1>[8lgm]-Advisory-7.UNIX.passwd.11-May-1994.NEWFIX
+</H1>
+<P>
+<P>
+With reference to <A HREF="8lgm07.htm">[8lgm]-Advisory-7.UNIX.passwd.11-May-1994</A> released
+yesterday, a few people have pointed out that the fix given is not
+enough in all situations.
+<P>
+The problem is that passwd(1) is linked to chfn(1) and friends, and
+yppasswd(1) is a copy of passwd(1).  Therefore, yppasswd(1) also needs
+to be patched.  The following is now the recommended way to fix the
+problem.
+<P>
+<P>
+<h2>WORKAROUND & FIX:</H2>
+<P>
+<OL>
+<li> Contact your vendor for a patch.
+<P>
+<li> Patch the passwd binary to remove the '-F' option.
+</OL>
+<P>
+<pre>
+>       # cd /bin
+>       # cp passwd passwd.old; chmod 700 passwd.old
+>       # adb -w - passwd
+        not core file = passwd
+>       /l 'F:'
+        0x68de
+</pre>
+<P>
+The above address is required in the following step:
+<P>
+<pre>
+>       0x68de/w 0
+        0x68de:         0x463a  =       0x0
+        <CTRL-D>
+>       # chmod 4711 /bin/passwd
+>       # /bin/passwd -F /tmp/WinnersBlues
+        passwd: illegal option -- F
+        Usage: passwd [-l|-y] [-F file] [-afs] [-d user] [-e user]
+                [-n numdays user] [-x numdays user] [user]
+        #
+</pre>
+<P>
+        Repeat the adb stage, and patch yppasswd in the same way.
+        (replace 'passwd' by  'yppasswd')
+<P>
+        Thanks to all those who pointed that out, we apologise for
+        the error!
+<P>
+<P>
+<H2>FEEDBACK  & CONTACT INFORMATION:</H2>
+<P>
+<PRE>
+        8lgm-bugs@bagpuss.demon.co.uk           (To report security flaws)
+<P>
+        8lgm-request@bagpuss.demon.co.uk        (Request for [8lgm] Advisories)
+<P>
+        8lgm@bagpuss.demon.co.uk                (General enquiries)
+</PRE>
+<P>
+        System Administrators are encouraged to contact us for any
+        other information they may require about the problems described
+        in this advisory.
+<P>
+        We welcome reports about which platforms this flaw does or does
+        not exist on.
+<P>
+<P>
+        NB: 8lgm-bugs@bagpuss.demon.co.uk is intended to be used by
+        people wishing to report which platforms/OS's the bugs in our
+        advisories are present on.  Please do *not* send information on
+        other bugs to this address - report them to your vendor and/or
+        comp.security.unix instead.
+<P>
+<hr>
+</body>

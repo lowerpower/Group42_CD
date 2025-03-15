@@ -1,0 +1,8 @@
+Crack> Drakkhen 
+ 
+crack written by anonymous 
+ 
+        File:   drakm.cc1 
+        Find:   FA 75 22 F8 06 
+        Replace: 75 with EB 
+ 

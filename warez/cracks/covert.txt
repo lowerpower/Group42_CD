@@ -1,0 +1,12 @@
+
+Crack> Covert Action from Microprose
+Cracked by Salari
+
+FILE : FINAL.EXE  (file size: 80589 bytes)
+SEARCH FOR  : 39 46 A2 75 05 B8 01 00
+REPLACE --> :          90 90
+
+When the "highlight correct face" screen appears just press ENTER,
+any face will be correct!
+
+Enjoy.......

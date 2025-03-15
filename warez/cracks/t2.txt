@@ -1,0 +1,10 @@
+This is the crack for that really awful game Terminator 2 by Ocean.
+Nobody probably wants this, but it gave us something to do for the better
+part of 5 minutes.
+
+Edit the file TERM.EXE
+Look for:     83 7E FC 03 74 14 E8 F5 F7 0B 0C
+Replace with: 83 7E FC 03 EB 14 E8 F5 F7 0B 0C
+
+This crack brought to you courtesy of Masher & Moebius!
+

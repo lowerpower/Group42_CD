@@ -1,0 +1,119 @@
+<HTML>
+<HEAD> <TITLE>Microsoft CD Key Authentication Revealed!</TITLE> </HEAD>
+<BODY TEXT="#000080" BACKGROUND="mslogo.gif">
+
+<CENTER>
+   <H1><I>Microsoft CD Key Authentication Revealed!</I></H1>
+   <H4>Written by Donald Moore (MindRape)</H4>
+   <H5>(You won't see this on their MSDN Level 2 CD!)</H5>
+   <H2>
+     <IMG SRC="bluebar.gif" WIDTH="640" HEIGHT="35"><BR>
+     <I>Abstract</I><BR>
+     <IMG SRC="bluebar.gif" WIDTH="640" HEIGHT="35"><BR>
+   </H2>
+</CENTER>
+
+This document will cover details about what makes up a Microsoft CD Keys and how they are authenticated.
+<BR>
+With the rush in of Windows'95, Microsoft has implemented a CD Key to either help foil piracy or to
+track their software thoughout the world.  It was brought to my attention by a Microsoft Production
+Manager that they use this for their regional tracking, and also for product codes.  They also
+understand the weakeness of the key.
+<P>
+I find this a little bothersome.  Here are some points:
+<UL>
+  <LI> If you do not supply a valid <B>CD Key</B>, you cannot install the
+  software.<BR>  For all you people that claim <I>Hit the ignore button</I>,
+  that only appears in beta versions of Microsoft products <BR>(<I>besides too many
+  of you replied that very same message, looks like you downloaded too many
+  Windows'95 betas from the internet!</I>).
+  <BR>
+  It was also brought to my attention by <A HREF="mailto:emerson@opcode.com">R. Pickett</A>, that upgrade versions of
+  Windows'95 allow you to use the <B>Ignore</B> button, but require that you
+  have an older version of Windows installed.
+  <LI> My Plus Pack and Visual Basic Professional, they both share the same
+  first 3 digits.<BR>How does this seperate the 2 products?<BR>
+  People on the other side of the United States have the same first 3
+  digits of some of my software.  What?  Is Microsoft only tracking by
+  continent now?  Is there really a sequence to the last seven digits that can be recognized as a regional code?
+</UL>
+<P>
+If you can answer these questions please <A HREF="mailto:mindrape@goodnet.com">inform me!</A>.
+<P>
+In either case, the CD Key is real a <B>hassle</B> on my part.  I either lose the cases or my kids eat the
+sticker.  Great how am <B>I</B> suppose to reinstall my software when my system crashes?  Also if this <B>IS</B>
+being used as a scheme to foil piracy.  It doesn't work, because one can easily copy the CD as well as the key.
+<P>
+<A HREF="mscdsrc.htm">C Source code</A> is provided to show how a key can be authenticated.
+
+<CENTER>
+  <H2>
+    <IMG SRC="bluebar.gif" WIDTH="640" HEIGHT="35"><BR>
+    <I>CD Key Details</I><BR>
+    <IMG SRC="bluebar.gif" WIDTH="640" HEIGHT="35"><BR>
+  </H2>
+</CENTER>
+
+<UL>
+  <LI> CD Keys are interchangable between Microsoft Products employing this scheme.  This means you can take your Windows'95
+       CD Key and reuse it on your Microsoft Office Professional CD.  This also works with Developer Level 2 and
+       Level 3 CDs.
+  <LI> CD Keys contain alphanumeric characters, however the REAL key only contains numbers (0..9).  There are 2 types of keys
+       being used at the moment.  One is direct sales from Microsoft, we will call these MS Keys.  The other is when you buy your
+       computer and it comes prestock with Microsoft software, we will call these OEM Keys.
+       In the first 3 characters of a MS Key or the first 8 characters of a OEM Key bear no value in authenticating the key itself.  The
+       next 7 characters are the key.  Anything after that is more garbage.  Perhaps this <I>garbage</I> is really a product code, OEM
+       licensing information or just really garbage!
+       <P>
+       <IMG ALIGN=Left SRC="example1.gif" ALT="Example: XXX-0123456" WIDTH="337"HEIGHT="85">
+       <BR><BR><BR><BR><BR>
+       <SMALL>Example of a MS Key</SMALL>
+       <P>
+       <IMG ALIGN=Left SRC="example2.gif" ALT="Example: XXXXX-OEM-0123456-XXXXX">
+       <BR><BR><BR><BR><BR>
+       <SMALL>Example of an OEM Key</SMALL>
+       <P>
+  <LI>The last 7 seven digits is the real key. In the OEM version of the key its
+  the 3rd set of digits, but the LAST 4 digits of the key.  The first 3 digits
+  of the key in the OEM verson must be zero.
+
+
+      It was discovered that the digits
+      do not need to follow a certain sequence.  For example the key XXX-0123456 can simply be reverse to produce XXX-6543210
+      will still result in a valid key!. By this the demonstration we can conclude that the validation routine is either XOR or SUM based.
+      It was later verified that it was a SUM validation routine.
+</UL>
+
+<CENTER>
+  <H2>
+    <IMG SRC="bluebar.gif" WIDTH="640" HEIGHT="35"><BR>
+    <I>Key Authentication</I><BR>
+    <IMG SRC="bluebar.gif" WIDTH="640" HEIGHT="35"><BR>
+  </H2>
+</CENTER>
+The algorithm to the authentication routine is a <B>VERY</B> simple one.  One can write a small amount of
+source code that will randomly generate valid CD Keys.
+
+Lets use the following key as an example: 666-0077640 (Lucky Number 7's MS Key)
+<BR>
+<UL>
+  <LI> Strip off the 1st 3 digits.
+  <LI> Take each digit left over and add them together.<BR>
+       0 + 0 + 7 + 7 + 7 + 0 + 0 = 21.
+  <LI> Now take the result modulos by 7.  If value is 0 then the key is 
+consider to be a authentic Microsoft CD Key.  Note that the algorithm is 
+<B>MODULOS</B>, not <B>DIVISION</B>, because the key 000-0000000 is 
+consider 
+to an authentic MS CD Key.  You cannot take the sum of the <I>real 
+key</I> and divide it by 7.  You would get a division by 0 exception.<BR>
+       21 / 7 = 3.0
+</UL>
+
+<CENTER>
+  <IMG SRC="bluebar.gif" WIDTH="640" HEIGHT="35"><BR>
+  <FONT SIZE=2>
+    &copy; 1995 Damaged Cybernetics
+  </FONT>
+</CENTER>
+<P>
+</HTML>

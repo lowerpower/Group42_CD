@@ -1,0 +1,49 @@
+<title>CitiComm Cellular Telephones</title>
+<h3><center>CitiComm MM1000 Cellular Telephone - Reprogramming 
+Instructions</h3>
+</center>
+<pre>
+                NAM Type:  EEPROM
+            Manufacturer:  Citicomm
+              Programmer:  Keypad with cradle jumper installed
+          ESN Prefix DEC:  163
+                     HEX:  A3
+ ESN, S/N Match Required:  Yes
+      Available Channels:  832
+
+    Programming Sequence:  Open cradle and insert a jumper wire from
+                            contact #8 to contact #10 on cradle
+                            PC board (see schematic next page)
+                           Power On
+                           Press * + * + # + # + FCN + STO (within 10 seconds
+                            to enter program mode)
+                           Enter NAM option 0, 1 or 2
+                            0  NAM 1 only (lock out NAM 2)
+                            1  Program NAM 1
+                            2  Program NAM 2
+                           Enter parameter for each step then press STO to
+                            store increment
+                           CLR key corrects data before STO is pressed
+                           Press SEND to write data in NAM
+
+        System ID Format:  5     XXXXX + STO
+        Local Use Option:  1     1 + STO
+              MIN Option:  1     1 + STO
+           Mobile Number:  10    XXX-XXX-XXXX + STO
+           Station Class:  2     08 + STO
+  Initial Paging Channel:  4     0333 or 0334 + STO
+   Access Overload Class:  2     XX + STO
+        Preferred System:  1     0(B) or 1(A) + STO
+         Group ID Format:  2     XX + STO
+
+Press SEND to write data in NAM.
+
+         New Unlock Code:  Current 4-digit unlock code + FCN + 0
+                            + new 4-digit unlock code
+           System Select:  4-digit unlock code + FCN + * + * + *,
+                            etc. (the following options will be
+                            displayed) + STO (to enter selection)
+
+
+</pre>
+

@@ -1,0 +1,21 @@
+Crack> F-19 Stealth Fighter by Microprose 
+
+crack from bboard 
+
+     Make a copy of DISK A (the master disk).  Put the copy of DISK 
+A in drive A: 
+
+REN SU.EXE SU.ZAP 
+B: DEBUG SU.ZAP 
+E 2E9E EE EF 6B 8E 
+E 2F61 F9 42 43 
+E 2F81 F1 F2 DB 64 65 
+E 2F91 E1 E2 
+E 2FA1 11 12 
+E 2F11 61 62 
+E 2F19 19 F2 
+W
+Q
+
+     This will deprotect the version of SU.EXE that's dated 10-15- 
+88, but probably won't work for other versions. 

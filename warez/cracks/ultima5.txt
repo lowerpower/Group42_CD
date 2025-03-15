@@ -1,0 +1,20 @@
+This crack is for Ultima 5.  It works on my version of Ultima which has
+an ultima.exe file dated 10-19-88, size 36592 bytes.  Use Pctools or
+Nortons and find the following in ultima.exe:
+ 
+String        Replace with
+======        ============
+9E726F        BAD652
+ 
+02E252E655    EC4B57 EB7150 F8 EB7D54 F8 EB535B F8 EB6948 F8 B852C3
+ 
+The replacement string above is separated by blanks only to represent
+separate instructions.  The bytes above are XOR'd with x'53' to
+produce said instructions.  There should be only one occurence each of
+the search strings.
+ 
+This crack will probably ONLY work with the version of Ultima
+above.  It is a bit lengthy and inelegant, but it works.
+ 
+The Mad Hacker
+Calgary, Alberta.

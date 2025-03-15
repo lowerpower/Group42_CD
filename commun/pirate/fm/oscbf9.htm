@@ -1,0 +1,138 @@
+<html>
+<head><title>Group 42 Sells Out [Simple FM Xmitter]</title></head>
+<center>
+<h3>FM Oscillator</h3>
+</CENTER>
+
+<center>
+<img src="bf9pcb.gif">
+<img src="bf9lay.gif">
+
+<CENTER>
+                      =============================<br>
+                      =  FM OSCILLATOR WITH BLY87 =<br>
+                      ========Version 1.00=========<br>
+                                12-01-94               <br>
+</CENTER>
+<P>
+1) Description<P>
+
+This package contains the schematic and a PCB-layout for a FM oscillator using
+the BF900 Dual Gate Mosfet, and can be used between 90 and 110 MHz. Specific
+things about this oscillator is that it has very low noise, and it is very
+stable. If you use proper buffering, a PLL shouldn't be necessary any more
+(although it is ofcourse possible to use one).
+<P>
+The <a href="bf900sch.gif">schematic </a> is here.
+<p>
+
+The frequency is first set by trimmer C4. Adjustments can be made with R8
+(VFO range is about 4 MHz).
+<P>
+Some testing gave me next results:<P>
+<PRE>
+(Frequency = 100 MHz; Output = 50 Ohm Dummy (20 * 1K/1W par; homebrew);
+ Input = Sweeposcillator 0.5-55 kHz (Stereo Coder));
+Power Supply    : 15 V DC ('no ripple');
+Input Current   : 50 mA
+RF Output       : 55 mVpp
+Freq. Deviation : 0.005 MHz (after 10 hours; the deviation had taken place
+                  during the first hour, after that no deviation)
+</PRE><P>
+2) Components/Hints
+<P>
+Use a good quality PCB, the other side is copper, make some connections
+between the two sides. Build the oscillator in a RF-proof casing, use good
+connectors and cable, and be aware of all the other RF-rules of building.
+<P>
+To mount the BF900 a hole (diameter about 6 mm) must be made where the casing
+can hang in. I myself had problems with the 'other side copper' thing, because
+my oscillator wouldn't turn on (not too enough noise?? just kidding). It was
+solved when I removed the copper under the BF900 (about 1 - 1.5 cm diameter).
+If someone has an explanation for it, let me know...
+<P>
+You could use a zener-stabilisation instead of the 7800-regulator. The only
+problem is that it could cause a DC-ripple on the oscillator, and that will
+be noticed as humm. A voltage regulator isn't so expensive, so don't cut
+down expenses on it.
+<P>
+Instead of the BF900, a BF905 or BF907 can be used without any problems. Maybe
+a BF981 would do also, but that I haven't tested.
+<P>
+
+Component list of the FM Oscillator with the BF900<P>
+
+Resistors:<P>
+(All resistors are metalfilm types except R1 which is a carbon resistor)<P>
+<PRE>
+R1 :  47k, 1/8 W
+R2 :  47k, 1/8 W
+R3 :  47k, 1/8 W
+R4 : 100E, 1/8 W
+R5 : 220k, 1/8 W
+R6 : 100k, 1/8 W
+R7 : 150E, 1/8 W
+R8 : 10k, lin. pot
+</PRE>
+<P>
+Capacitors:<P>
+<PRE>
+C1 : 100 nF Multilayer or ceramic
+C2 : 4.7 pF ceramic
+C3 : 100 nF ceramic (1 or 10 nF will do also)
+C4 :  40 pf trimmer
+C5 : 4.7 pF ceramic
+C6 :  10 pF ceramic
+C7 :  22 pF ceramic
+C8 :   1 nF ceramic
+C9 :   1 nF ceramic
+C10: 100 nF ceramic
+C11: 100 nF ceramic
+C12: 100 nF ceramic
+C13:  47 uF/25V
+C14:   1 nF ceramic
+</PRE>
+<P>
+Inductors:<P>
+<PRE>
+L1 : 4 wdg, dia 8 mm, 1 mm CuAg, space 1 mm;
+     Mounted 8 mm above PCB (Leads are 4 mm)
+L2 : 6-hole ferroxcube wideband HF-choke (5 wdg)
+L3 : 6-hole ferroxcube wideband HF-choke (5 wdg)
+</PRE>
+<P>
+Others:<P>
+<PRE>
+Q1 : BF900
+D1 : BB405,BB102 or equal (most varicaps with C = 2-20 pF (approx) will do)
+U1 : uA78L08, uA7809, uA7810 or equal (MC78LXX, UC78LXX etc)
+</PRE>
+<P>
+3) Problems?
+<P>
+If you have certain problems, you have to try to solve them yourself first.
+But if no solutions can be found you can contact me, so we can try to work it
+out. This circuit is build by me and it works.
+<P>
+You can also contact me if you have some interesting schematics or material,
+use E-mail: ericg@stack.urc.tue.nl (at least untill October 1994).<P>
+Ofcourse you can use the same adress for other questions or comments on this
+schematic.
+<P>
+Eric van Gorkom
+<P>
+And much added work by G-Man
+<p>
+<hr size=5 noshade>
+<center>
+<h4>
+<a href="../../../index.htm">HOME</a> |
+<a href="../../../about.htm">GROUP 42</a> |
+<a href="../../../disclaim.htm">DISCLAIMER</a> |
+<a href="../../../help.htm">HELP</a>
+<br>
+Copyright &copy 1984-1996 Group 42
+</h4>
+</center>
+</html>
+

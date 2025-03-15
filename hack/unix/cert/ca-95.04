@@ -1,0 +1,126 @@
+=============================================================================
+CA-95:04                         CERT Advisory
+                               February 17, 1995
+                     NCSA HTTP Daemon for UNIX Vulnerability
+-----------------------------------------------------------------------------
+
+The CERT Coordination Center has received reports that there is a
+vulnerability in the NCSA HTTP Daemon V.1.3 for UNIX. Because of this
+vulnerability, the daemon can be tricked into executing shell commands.
+
+If you have any questions regarding this vulnerability, please send
+e-mail to Beth Frank at the NCSA, efrank@ncsa.uiuc.edu.
+
+-----------------------------------------------------------------------------
+
+I.   Description
+
+     A vulnerability in the NCSA HTTP Daemon allows it to be tricked into
+     executing shell commands.
+
+II.  Impact
+
+     Remote users may gain unauthorized access to the account (uid) under
+     which the httpd process is running.
+
+III. Solution
+
+     The following solution was provided by the HTTPD Team at SDG at
+     NCSA.
+
+     Step 1: 
+
+       In the file httpd.h, change the string length definitions
+       from:
+                /* The default string lengths */
+                #define MAX_STRING_LEN 256
+                #define HUGE_STRING_LEN 8192
+        to:
+                /* The default string lengths */
+                #define HUGE_STRING_LEN 8192
+                #define MAX_STRING_LEN  HUGE_STRING_LEN
+
+     Step 2:
+
+        Install the following patch, which performs the functionality of
+        strsubfirst (i.e., copy src followed by dest[start] into dest) without
+        the use of a temporary buffer.  
+        
+----------------------------------cut here-------------------------------------
+
+*** util.c.bak  Sat May  7 21:47:15 1994
+--- util.c      Thu Feb 16 04:17:07 1995
+***************
+*** 158,168 ****
+   
+  void strsubfirst(int start,char *dest, char *src)
+  {
+!     char tmp[MAX_STRING_LEN];
+  
+!     strcpy(tmp,&dest[start]);
+!     strcpy(dest,src);
+!     strcpy(&dest[strlen(src)],tmp);
+  }
+  
+  /*
+--- 158,174 ----
+  
+  void strsubfirst(int start,char *dest, char *src)
+  {
+!   int src_len, dest_len, i;
+  
+!   if ((src_len=strlen(src))<start){  /** src "fits" in dest **/
+!     for (i=0;dest[i]=src[i];i++);
+!     for (i=src_len;dest[i]=dest[i-src_len+start];i++);
+!   }
+!   else {                             /** src doesn't fit in dest **/
+!     for (dest_len=strlen(dest),i=dest_len+src_len-start;i>=src_len;i--)
+!       dest[i] = dest[i-src_len+start];
+!     for (i=0;i<src_len;i++) dest[i]=src[i];
+!   }
+  }
+  
+  /*
+
+---------------------------------cut here------------------------------------- 
+
+After you apply this patch, recompile httpd, kill the current running process,
+and restart the new httpd.
+
+---------------------------------------------------------------------------
+The CERT Coordination Center thanks Steve Weeber, Carlos Varela, and
+Beth Frank for their support in responding to this problem.
+---------------------------------------------------------------------------
+
+If you believe that your system has been compromised, contact the CERT
+Coordination Center or your representative in Forum of Incident
+Response and Security Teams (FIRST).
+
+If you wish to send sensitive incident or vulnerability information to
+CERT staff by electronic mail, we strongly advise that the e-mail be
+encrypted.  The CERT Coordination Center can support a shared DES key, PGP
+(public key available via anonymous FTP on info.cert.org), or PEM (contact
+CERT staff for details).
+
+Internet E-mail: cert@cert.org
+Telephone: +1 412-268-7090 (24-hour hotline)
+           CERT personnel answer 8:30 a.m.-5:00 p.m. EST(GMT-5)/EDT(GMT-4),
+           and are on call for emergencies during other hours.
+Fax: +1 412-268-6989
+
+Postal address:  CERT Coordination Center
+                 Software Engineering Institute
+                 Carnegie Mellon University
+                 Pittsburgh, PA 15213-3890
+                 USA
+
+CERT advisories and bulletins are posted on the USENET newsgroup
+comp.security.announce. If you would like to have future advisories and
+bulletins mailed to you or to a mail exploder at your site, please send mail
+to cert-advisory-request@cert.org.
+
+Past advisories, CERT bulletins, information about FIRST representatives, and
+other information related to computer security are available for anonymous FTP
+from info.cert.org. 
+
+CERT is a service mark of Carnegie Mellon University.

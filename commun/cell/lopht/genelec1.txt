@@ -1,0 +1,61 @@
+GENERAL ELECTRIC CF1000, 2000, 2500, 3000XR, 3500XR, 4500XR
+
+NOTES:  Some of these phones have dual NAMS.
+        The ESN prefix is 146 decimal, 92 hex.
+        General Electric: 1-800-528-7711
+
+NAM PROGRAMING:
+
+1.  Press any key to turn power on.
+
+2.  Within 10 seconds press and hold the CL key while entering
+    9 2 3 8 8 5.
+
+3.  If this does not work try pressing and holding the FCN key, press 4,
+    release FCN, press the volume up key twice, press CLR, release and
+    immediately press and hold CLR while entering 9 2 3 8 8 5.
+
+4.  Most phones will display the ESN in decimal format at this stage,
+    some will step directly to programming step 0.
+
+5.  The S (send) key is used to store each item and increment the step
+    number.
+
+6.  The END key is used to complete and exit programing mode at any time.
+
+PROGRAMING DATA:
+
+STEP#    #OF DIGITS/RANGE    DESCRIPTION
+
+0        10 DIGITS           MIN (AREA CODE AND TEL#)
+1        000 TO 999          LOCK CODE (MUST BE DIFFERENT THAN STEP 11)
+2        00000 - 32767       SYSTEM ID
+3        0 OR 1              LOCAL USE MARK
+4        0 OR 1              MIN MARK
+5        333 OR 334          INITIAL PAGING CHANNEL
+6        2 DIGITS            ACCESS OVERLOAD CLASS
+7        0 OR 1              PREFERRED SYSTEM
+8        2 DIGITS            GROUP ID (10 IN USA)
+9        0 OR 1              HORN ALERT
+10       0, 1 OR 2           HANDS FREE (SEE NOTE 1 BELOW)
+11       3 DIGITS            ALT LOCK CODE (MUST BE DIFFERENT THAN STEP 1)
+
+If the phone has dual NAMS it will display "0" or "1", press 1 to program
+second NAM.
+
+Single NAM units will display NAM step 0 (MIN), you can scroll through
+your entries by pressing S (send), press END to complete.
+
+NOTES:
+
+1.  Set to "1" for normal hands free option.  Set to "2" if the phone
+    is equipped with "Hands Free II" option T4JB06, this will allow the
+    volume control on the speaker to be used.
+
+LOCK: Hold END/FCN and press 7.  UNLOCK: Enter three digit code.
+
+SYSTEM SELECT: Hold END/FCN and press 4, display will show current mode:
+0 = Pref/Non pref, 1 = Pref only, 2 = Home only, 3 = Non home only, 4 = Non
+pref/pref, 5 = Non pref only.
+
+Use volume to scroll to desired option, then press CL.

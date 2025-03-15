@@ -1,0 +1,68 @@
+<html>
+<head><title>Group 42 Sells Out</title></head>
+<body background="hack.jpg">
+
+<center>
+
+<img alt="Group 42 Sells Out!" src="../../g42slogo.gif">
+
+</center>
+
+<hr size=5 noshade>
+<center>
+<h2>Root For A Day is Root For Ever</h2>
+by FNF of Group 42<p>
+</center>
+<br>
+This trick only applies to UNIX type systems. Basically the idea here
+is that if you can get root privileges just once then you can write
+a little program that will allow you to become super user without
+ever needing to know the root passowrd.  Even if the password changes
+it will have no effect on you.<p>
+All you need to do is compile a a two line program like this:
+<p>
+<pre>
+main()
+{
+        setuid(0);
+        system("sh");
+}
+</pre>
+Have this compiled and wait for a chance to have super user access.  It
+is amazing how many people will log on as root and then wander away from
+their terminal.  When you get your chance to be a super user execute the
+following commands:<p>
+<pre>
+chown root <b>your-program-name</b>
+chmod +s <b>your-program-name</b>
+</pre>
+From now on anytime you execute your program you will have a super user
+shell.<p>
+Another take on this is to write a program that will check for if the
+user running it has a super user shell and to do the <b>chown and chmod</b>
+for you.  You could try to get your program into a directory that is
+in the system search path and name it somthing like <b>la</b> or some
+other name that is a commonly used mistake command.  Next time someone
+logged in with root privilages types <b>la</b> instead of <b>ls</b>
+(a common mistake), your program will run and you will have root privs
+next time you login.
+<p>
+
+<hr size=5 noshade>
+
+<center>
+
+<h4>
+<a href="../../index.htm">HOME</a> |
+<a href="../../about.htm">GROUP 42</a> |
+<a href="../../disclaim.htm">DISCLAIMER</a> |
+<a href="../../help.htm">HELP</a>
+<br>
+Copyright &copy 1984-1996, Group 42
+</h4>
+
+</center>
+
+</html>
+
+

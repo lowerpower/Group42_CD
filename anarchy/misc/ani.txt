@@ -1,0 +1,37 @@
+                                                ีออออออออออออออออออออออออธ
+                                                ณ  Filename: ANI.TXT     ณ
+                                                ฦออออออออออออออออออออออออต
+                                                ณ Title: Call ANI!       ณ
+                                                ฦออออออออออออออออออออออออต
+                                                ณ     By: Captain Hack   ณ
+                                                ฦออออออออออออออออออออออออต
+                                                ณ   Released: 05/26/95   ณ
+                                                ฦออออออออออออออออออออออออต
+                                                ณ   Danger: ฐฐฐฐฐฐฐฐฐฐ   ณ
+                                                ิออออออออออออออออออออออออพ
+Here is a generic ANI number that works from just about anywhere, I think.
+BTW-- if you don't know, quick explination of ANI: ANI = Automatic Number
+Identification, and is used by Telco linemen to determine what fone number
+they are working on, when they're at a can (the big silver thing on the fone
+pole). You pro'lly aren't supposed to use it, but what the hell...they don't
+really care. I use it all the time, and telco doesn't bother me at all. Uses?
+  
+  Well, say you're getting a toar at IBM, and you come across a fone that's
+attached to a modem. You know the modem would be much....fun, but if only
+you knew the number....well, you wait till the toar guide is busy, and grab
+the fone. Just dial 1-800-MY-ANI-IS, and listen. You'll hear a computer
+generated voice say: "You're ANI is....(555) 555-1212" and then repeat.
+  
+  That particular situation will never happen to you unless you're lucky as
+shit, but you get the idea. Good at school, work, banks, etc...it's almost
+worth carrying a one-piece fone to hook up to the line for calling in case
+there isn't a fone around....(hint, hint) I wish I had known that one at my
+old high school. Much usefulness. In case you missed it, the ANI is:
+1-800-MY-ANI-IS or 1-800-692-6447. Enjoy.
+
+--hack
+
+BTW-- If you'd like to join a mailing list to receive every new CH HPA file,
+and of course be able to receive any archived file by request, then send
+some email to: mccouchra@box102.cardinal.com . That is my email address, 
+so if you have any questions, you can email me there too.

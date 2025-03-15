@@ -1,0 +1,177 @@
+-------------------------------------------------------------------------------
+                               MEI CT2000
+-------------------------------------------------------------------------------
+                NAM Type:  EEPROM
+            Manufacturer:  MEI
+              Programmer:  Handset
+          ESN Prefix DEC:  167
+                     HEX:  A7
+ ESN, S/N Match Required:  Yes
+    Stamped Model Number:  CT 3000
+      Number of Channels:  832
+
+    Programming Sequence:  Power On
+  Enter program sequence:  12358 + * + 0 + #980 + #
+                           Press 1 to enter program mode
+                           Select NAM 1 or 2
+                           Enter information for each step then press
+                            * to increment
+                           Press END to write NAM information or select
+                           NAM 2 and repeat progress to program 2nd
+
+                       # of digits
+               System ID:  5    XXXXX + *
+               Local Use:  1    1 + *
+              MIN Option:  1    1 + *
+           Mobile Number:  10   XXX-XXX-XXXX + *
+           Station Class:  2    08 + *
+    Initial Page Channel:  3   333 or 334 + *
+         Access Overload:  2    XX + *
+        Preferred System:  1    0 (B) or 1 (A)
+                Group ID:  2    XX + *
+               Lock Code:  3    XXX + *
+   End-to-End Signalling:  1    1 + *
+        Repertory Option:  1    1 + *
+              Horn Alert:  1    1 + *
+               Handsfree:  1    1 + *
+                Sec Code:  3    XXX + *
+
+Press END to write NAM information
+
+              Horn Alert:  FCN + 9
+         New Unlock Code:  NAM
+           System Select:  FCN + 0 + RCL + RCL + RCL, etc...
+ (Until one of the following prompts appears)
+        Standard  AB or BA
+        Inverse  (Alternate BA or AB)
+        A Only
+        B Only
+        Home
+
+Press STO to enter selection + CLR to exit.
+
+-------------------------------------------------------------------------------
+                               MEI CT3000
+-------------------------------------------------------------------------------
+                NAM Type:  EEPROM
+            Manufacturer:  MEI
+              Programmer:  Handset
+          ESN Prefix DEC:  167
+                     HEX:  A7
+ ESN, S/N Match Required:  Yes
+    Stamped Model Number:  CT 3000
+      Number of Channels:  832
+
+    Programming Sequence:  Power On
+  Enter program sequence:  12358 + * + 0 + # + 980 + #
+                           (must be inputed within 10 seconds)
+                           Press 1 to enter programming mode
+                           Select NAM 1 or 2
+                           Enter infomation for each step then press
+                            * to increment
+                           Press END to write NAM infomation or select
+                           NAM 2 and repeat progress to program 2nd
+
+                       # of digits
+               System ID:  5    XXXXX + *
+               Local Use:  1    1 + *
+              MIN Option:  1    1 + *
+           Mobile Number:  10   XXX-XXX-XXXX + *
+           Station Class:  2    08 + *
+    Initial Page Channel:  3    333 or 334 + *
+         Access Overload:  2    XX + *
+        Preferred System:  1    0 (B) or 1 (A)
+                Group ID:  2    XX + *
+               Lock Code:  3    XXX + *
+   End-to-End Signalling:  1    1 + *
+        Repertory Option:  1    1 + *
+              Horn Alert:  1    1 + *
+               Handsfree:  1    1 + *
+                Sec Code:  1    1 + *
+
+Press END to write NAM information
+
+              Horn Alert:  FCN + 9
+         New Unlock Code:  NAM
+           System Select:  FCN + 0 + RCL + RCL + RCL, etc...
+
+(Until one of the following prompts appears)
+        Standard  (AB or BA)
+        Inverse  Alternate (BA or AB)
+        A Only
+        B Olny
+        Home
+
+Press STO to enter selection + CLR to exit.
+
+-------------------------------------------------------------------------------
+                            MEI HT5000 portable
+-------------------------------------------------------------------------------
+                NAM Type:  EEPROM
+            Manufacturer:  MEI
+              Programmer:  Keypad
+          ESN Prefix DEC:  167
+                     HEX:  A7
+ ESN, S/N Match Required:  Yes
+    Stamped Model Number:  HT 5000
+      Number of Channels:  832
+
+    Programming Sequence:  Fully charges battery on phone
+                           Power On
+                           Connect program adapter to bottom of phone or
+                            jumper pin #1 and pin #5 while pressing PWR button
+                           Enter individual parameter then press RCL to store
+                            data and increment
+                           SND or MUT may be pressed to scroll program parameters
+                           Press END to write NAM information
+
+                       # of digits
+   System Select Feature:  1    1 + RCL
+       Low Battery Alarm:  1    1 + RCL
+        Memory Locations:  1    0=10 or 1=100 + RCL
+          Enable Roaming:  1    1 + RCL
+   End-to-End Signalling:  1    1 + RCL
+              Horn Alert:  1    1 + RCL
+        Repertory Option:  1    1 + RCL
+           Music on Mute:  1    1 + RCL
+      Enable Timer Reset:  1    1 + RCL
+            Status Meter:  1    1 + RCL
+                Not Used:  1    0 + RCL
+        Resettable Timer:  1    0 + RCL
+Restrict own Num Display:  1    0 + RCL
+                Not Used:  1    0 + RCL
+                Not Used:  1    0 + RCL
+                Not used:  1    0 + RCL
+             Lock Select:  1    0=Total lock, 1=Outgoing Lock,
+                                2=Partial Lock + RCL
+             Unlock Code:  1-10 XXX + RCL
+         Backlight Timer:  256  10 + RCL
+           Mobile Number:  10   XXX-XXX-XXXX + RCL
+               System ID:  5    XXXXX + RCL
+  Initial Paging Channel:  3    333 or 334 + RCL
+           Station Class:  2    10 + RCL
+        Preferred System:  1    1(A) or 0(B) + RCL
+              MIN Option:  1    X + RCL
+         Access Overload:  2    XX + RCL
+                Group ID:  2    XX + RCL
+               Local Use:  1    1 + RCL
+
+The program sequence will now repeat the last 8 steps for a second NAM.
+If you wish to program only one NAM, press END to exit. Once end is pressed,
+wait 5 seconds, for the phone to complete the program process. After the
+programming is complete, power phone OFF and remove the program adapter.
+
+     Multiple NAM Select:  RCL + # + 6 (repeatedly until new
+                           number and correct system select appears)
+         New Unlock Code:  NAM
+           System Select:  RCL + # + 6 + 6 + 6 + 6 etc...
+(One of the following prompts will display)
+        Standard (AB or BA)
+        Inverted (Alternate BA or AB)
+        A only
+        B only
+        Home
+
+Press CLR to exit.
+
+

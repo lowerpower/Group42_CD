@@ -1,0 +1,8 @@
+
+Crack for LURE OF THE TEMPTRESS by Satch.
+ 
+File: LURE.EXE
+Search for  : 74 01 C3 8B 04
+Replace with: -- 00 -- -- --
+
+

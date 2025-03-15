@@ -1,0 +1,5 @@
+
+AT&T 3000 Nam programming mode can be accessed by holding down the RCL
+and MENU keys, then entering *62729854#.
+STORE does exactly that, VOL increments, CLR exits.
+

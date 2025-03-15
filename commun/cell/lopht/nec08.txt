@@ -1,0 +1,45 @@
+NEC P400 and 600
+
+NOTES:  These are quad NAM handheld units.
+        The ESN prefix is 135 decimal & 87 hex.
+        An NEC programing adaptor and converter cable must be used to
+        program these units.
+        NEC: 1-800-421-2141
+
+NAM programing:
+
+1.  With the power off connect the NEC programing adaptor and cable.
+
+2.  Turn power on.
+
+3.  Press RCL # 0 1 to enter test mode.
+
+3.  Press RCL # 7 1 to enter programing mode.
+
+4.  Press # to increment and store each step.
+
+5.  At any time press and hold CLR to return to test mode, press RCL # 0 2
+    to complete and exit programing.
+
+
+
+PROGRAMING DATA
+
+STEP#    #OF DIGITS/RANGE    DISPLAY        DESCRIPTION
+
+01       10 DIGITS           Phone No.      MIN (AREA CODE & TEL#)
+02       4 DIGITS            Lock Code      LOCK CODE
+03       00000 - 32767       Home Area      SYSTEM ID
+04       2 DIGITS            G.I. Mark      GROUP ID (10 IN USA)
+05       0333 OR 0334        First P-CH     INITIAL PAGING CHANNEL
+06       0 OR 1              Sys Select     PREFERRED SYSTEM (0=B, 1=A)
+07       2 DIGITS            ACCOLC         ACCESS OVERLOAD CLASS
+08       0 OR 1              MIM Mark       MIN MARK
+09       0 OR 1              Local Use      LOCAL USE MARK
+10       3 DIGITS            EMG No         EMERGENCY NUMBER (911)
+
+LOCK & UNLOCK: F # four digit code.
+
+SYSTEM SELECT:
+P400: F 5 then 5 to scroll, CLR to store.
+P600: F 5 4 then RCL to scroll, CLR to store.

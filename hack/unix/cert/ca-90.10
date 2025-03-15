@@ -1,0 +1,30 @@
+
+
+CA-90:10                       CERT Advisory
+			      November 16, 1990
+			   Rumor of Alleged Attack
+-------------------------------------------------------------------------
+
+There have been several recent reports in the media and other places
+about an alleged attack on some telephone systems, apparently in
+response to the sentencing today in Atlanta of three members of a
+computer intruder group called "Legion of Doom".  As of this time
+(Nov. 16 at 4:30 PM EST), CERT/CC has not received any evidence to
+substantiate this rumor.
+
+Caution (not panic) is advisable.
+
+-------------------------------------------------------------------------
+
+Computer Emergency Response Team/Coordination Center (CERT/CC)
+Software Engineering Institute
+Carnegie Mellon University
+Pittsburgh, PA 15213-3890
+
+Internet E-mail: cert@cert.org
+Telephone: 412-268-7090 24-hour hotline: CERT personnel answer
+           7:30a.m.-6:00p.m. EST, on call for
+           emergencies during other hours.
+
+Past advisories and other information are available for anonymous ftp
+from cert.org (192.88.209.5).

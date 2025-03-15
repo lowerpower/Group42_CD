@@ -1,0 +1,39 @@
+
+-------------------------------------------------------------------------------
+                                WALKER 910
+-------------------------------------------------------------------------------
+                NAM Type:  Tri-State
+            Manufacturer:  WALKER
+              Programmer:  MOTOROLA 1801-CLENAM or Curtis
+          ESN Prefix DEC:  152
+                     HEX:  98
+ ESN, S/N Match Required:  Yes
+    Handset Programmable:  No
+      Number of Channels:  666
+
+            Phone Number:  XXX-XXX-XXXX
+               Lock Code:  XXX
+                 MIN Opt:  Enabled
+           Repertory Opt:  Enabled
+               Handsfree:  Disabled (Enabled if Equipped)
+               Local Use:  Enabled
+    End-to-End Signaling:  Enabled
+              Horn Alert:  Enabled
+               System ID:  XXXXX
+        Preferred System:  A or B
+         Access Overload:  XX
+  Initial Paging Channel:  333 or 334
+           Station Class:  00
+
+Hex Address             B7           B0
+    13                  1 0 0 0 0 0 0 1
+
+        Hex Address 13 - B0  Total Call Timer
+                         B2  Preferred Only
+                         B7  Individual Call Timer
+
+              horn Alert:  (ALT)
+         New Unlock Code:  NAM
+           System Select:  Switch on side or cradle (BA or AB)
+
+

@@ -1,0 +1,730 @@
+<HTML>
+<HEAD>
+<TITLE>Communications and Network Security</TITLE>
+</HEAD>
+<BODY>
+<BASEFONT SIZE=3>
+<HR>
+<CENTER><H1><B>Communications and Network Security</B></H1></CENTER>
+<HR>
+<H2>Contents</H2><P>
+<UL>
+
+<LI><H3>3.1   Introduction</H3>
+<LI><H3>3.1.1 General policies</H3>
+<BR>
+<LI><H3>3.2   System interconnection</H3>
+<BR>
+<LI><H3>3.3   Network management</H3>
+<BR>
+<LI><H3>3.4   Network architecture</H3>
+<LI><H3>3.4.1 Private circuits</H3>
+<LI><H3>3.4.2 Public Switched Telephone Network (PSTN)</H3>
+<LI><H3>3.4.3 Public data networks</H3>
+<LI><H3>3.4.4 Local area networks</H3>
+<BR>
+<LI><H3>3.5   Threats to networked systems</H3>
+<LI><H3>3.5.1 Information disclosure</H3>
+<LI><H3>3.5.2 Unauthorised access</H3>
+<LI><H3>3.5.3 Modification, insertion and deletion</H3>
+<LI><H3>3.5.4 Denial or failure of service</H3>
+<BR>
+<LI><H3>3.6   Cryptographic protection</H3>
+<BR>
+<LI><H3>3.7   Electronic Mail Systems</H3>
+</UL>
+<HR>
+<H4>3.1 Introduction</H4>
+
+Transmitting information between computers and other electronic based systems
+can represent a substantial threat to security. Therefore safeguards appropriate to
+the sensitivity of the information and the transmission medium should be adopted
+during its transmission.<P>
+
+Most of the measures described in this section are concerned only with the
+protection of communication links against attack by unauthorised persons. Few of
+the techniques safeguard against illicit activities by authorised users who misuse
+their privilege. This section gives guidance on the acceptability of various
+communications methods and services for the transfer of commercially sensitive
+information. The methods recommended do not necessarily give complete
+protection—absolute security is never feasible.<P>
+
+This section addresses the issues of computer systems connected by networks,
+either to other computers for exchange of information or to enable remote access
+where the users of computer-based applications are remote from the service or
+information provider.<P>
+
+The advice and guidance offered herein is applicable to networks of mainframes,
+personal computers and terminals or any combination of them.<P>
+
+<H4>3.1.1 General policies</H4><P>
+
+The following general policies apply to every case of electronic transfer of privacy
+marked information.<P>
+
+<H4>POLICY 3.1: INFORMATION CORRECTLY LABELLED</H4><P>
+
+The originator shall ensure that information to be communicated is correctly
+marked in accordance with the Information Security Code.<P>
+
+<H4>POLICY 3.2: INFORMATION APPROPRIATELY PROTECTED</H4><P>
+
+It is the responsibility of the author and originator of privacy marked or
+commercially sensitive information communicated via electronic means to
+ensure that it is always correctly safeguarded.<P>
+
+<H4>POLICY 3.3: INFORMATION CORRECTLY ADDRESSED</H4><P>
+
+The originator shall ensure that IN STRICTEST CONFIDENCE information is
+sent only to a specific authorised recipient.<P>
+
+<H4>POLICY 3.4: TRANSMISSION OF HIGH IMPACT OR IN STRICTEST
+CONFIDENCE ELECTRONIC INFORMATION</H4><P>
+
+HIGH IMPACT or IN STRICTEST CONFIDENCE information shall not be
+transmitted without the protection of an encryption system approved by
+Director of Security and Investigation except where one of the following is used:<P>
+<OL>
+<LI>private circuits for which access to all distribution frame and flexibility points
+are secured for HIGH IMPACT or IN STRICTEST CONFIDENCE information,
+and which are routed via ducts, risers and conduits having tamper detecting
+seals,
+
+<LI> Fibre optic circuits for which all connection points are secured for HIGH
+IMPACT or IN STRICTEST CONFIDENCE information,
+
+<LI> An Exclusive LAN in a secured area used only by BT People.
+</OL>
+<H4>POLICY 3.5: TRANSMISSION OF IN CONFIDENCE ELECTRONIC
+INFORMATION</H4><P>
+
+IN CONFIDENCE information shall not be transmitted without the protection
+of approved encryption system unless communication is strongly authenticated,
+such as by:<P>
+<OL>
+<LI>via Private Circuits between BT buildings,
+
+<LI> via the Public Switched Telephone Network with approved dialback systems,
+
+<LI> via the PSS using closed user groups (or equivalent), or
+
+<LI> via the PSS with a challenge response system.
+</OL>
+
+<H4>POLICY 3.6: USE OF ELECTRONIC MAIL SYSTEMS</H4><P>
+
+Privacy marked or sensitive information shall not be transmitted between
+systems using Electronic Mail Systems that have not been approved as suitable
+for that use by the Director of Security and Investigation.<P>
+
+<H4>POLICY 3.7: SPECIAL DISPENSATION IN AN EMERGENCY</H4><P>
+
+Where special justification exists, for example in emergencies, IN STRICTEST
+CONFIDENCE information may exceptionally be transmitted according to the
+conditions for IN CONFIDENCE material. In these circumstances, prior
+authority from a person in the Senior Management Group shall be obtained on
+each occasion.<P>
+
+<H4>System interconnection</H4><P>
+
+The connection of a system of computers by means of a network forms the basis
+for bilateral agreements and practices between those responsible for the security
+of the computers and those responsible for the security of the network. A failure
+by any of those involved to correctly secure the equipment for which they are
+responsible, may result in a failure of security of the entire network.<P>
+
+It is the responsibility of the owners of all computer systems connected to a
+network to ensure that their security is not compromised by the network
+techniques used, or by any subsequent changes to the network configuration and
+topology. Before allowing connection of a computer system to a LAN or other
+network, the owners of the business processes entrusted to that system must
+satisfy themselves that their policy for security will not be violated.<P>
+
+Connection must be refused by the computer system administrator on behalf of
+the business process owner if the networking arrangements are or become
+inconsistent with the security policy. These considerations apply to any network
+which permits access to several computer systems via a common
+telecommunications facility (whether all users need such access or not).<P>
+
+The connection of any computer system to a network introduces a number of
+additional threats to the security of that system, to the security of the network and
+to any other computer system sharing the network. By far the greatest threat to a
+computer connected to a network is the possibility of unauthorised access from
+other network users. Other threats include the accidental or unintentional
+distribution of privacy marked information across the network.<P>
+
+The vulnerability of the network increases because the authority to grant users
+permission to access the network is given to the administrator of the connected
+computer system. If that computer were already connected to another network, for
+example, the number of potential users might increase dramatically.<P>
+
+<H4>POLICY 3.8: CONNECTION OF A COMPUTER SYSTEM TO NETWORKS</H4><P>
+
+The administrators of a computer system connected to networks shall ensure
+that the network arrangements do not contravene the security policy of the
+business processes or applications being supported by their system.<P>
+
+<H4>POLICY 3.9: INTERCONNECTION OF NETWORKS</H4><P>
+
+Networks shall not be joined together unless it can be shown that the resulting
+network does not contravene the security policy of either network or of the
+security policy of those systems connected to either network.<P>
+
+<H4>POLICY 3.10: ADMINISTRATION OF A COMPUTER CONNECTED TO A
+NETWORK</H4><P>
+
+The administrators of a computer system connected to networks shall ensure
+that the security administration of their system does not contravene the
+security policy of the network to which their system is connected.<P>
+
+<H4>3.3 Network management</H4><P>
+
+Owners of systems connected to a network have a level of expectation about the
+services that the network provides. For example, network users may expect that
+the service:<P>
+<UL>
+<LI>is available when it is needed,
+<LI>has sufficient capacity to carry the load,
+<LI>is able to ensure the confidentiality of information in transit,
+<LI>does not corrupt the information in transit,
+<LI>delivers the information to the intended recipient,
+<LI>restricts access to those so authorised.
+</UL>
+The level of service offered by the network should be well documented and will
+form the basis of any contract between the owner of the network and the owners
+of the connected systems.<P>
+
+<H4>POLICY 3.11: NETWORK SECURITY POLICY</H4><P>
+
+Providers of networks that claim to provide security functions shall declare to
+their users and customers the protective measures, and conditions placed on
+the users of the network, for security offered by the network and shall make
+available a document describing these features and their applications.<P>
+
+<H4>3.4 Network architecture</H4><P>
+
+The following means of computer-to-computer and user-to-computer access are
+commonly encountered:<P>
+<UL>
+<LI>Private Circuits,
+<LI>Public Switched Telephone Network,
+<LI>Public data networks (PSS, for example),
+<LI>Local Area Networks (of various types), and
+<LI>Integrated Services Digital Network (called IDA in the UK).
+</UL>
+<H4>3.4.1 Private circuits</H4><P>
+
+Private Circuits are often perceived as being secure because of their immunity to
+logical attack, that is, hacking. They are not necessarily physically secure because
+their fixed routing may make them vulnerable to direct interception. Typically,
+Private Circuits may be routed via the distribution frame of the local exchange and
+the building serving the user. Unless otherwise protected, the information on the
+Private Circuit is vulnerable to interception at these points.<P>
+
+<H4>3.4.2 Public Switched Telephone Network (PSTN)</H4><P>
+
+The PSTN is open to public access and is the favoured medium for unauthorised
+access world-wide. Because Calling Line Identification (CLI) is not currently
+provided as a basic facility, it is not easy to identify the origin of connection
+attempts. For this reason, dialup PSTN access to BT systems containing sensitive
+data is forbidden unless adequate precautions are taken.<P>
+
+The connection of computers to the PSTN for the purposes of outward-bound
+connections to information service providers is strongly discouraged unless it can
+be demonstrated that the connection equipment cannot be subverted or
+incorrectly configured so as to permit inward-bound connections.<P>
+
+<H4>POLICY 3.12: PSTN CONNECTION TO BT SYSTEMS</H4><P>
+
+BT computer systems containing or processing sensitive information shall not
+be connected to the PSTN unless adequate precautions are taken to protect the
+system from unauthorised access.<P>
+
+<H4>3.4.3 Public data networks</H4><P>
+
+Worldwide, there are many different data networks available to the public. The
+following comments refer specifically to BT's UK data network known as PSS.<P>
+
+In general, there are two methods by which a connection to PSS can be achieved:<P>
+<UL>
+<LI>by direct connection (a private circuit connecting the user to the X25 network), or
+
+<LI>by dial connection (via the PSTN, to an X25 PAD in the network).
+</UL>
+Each user of PSS is identified by a Network User Address (NUA) which is
+analogous to a telephone number. Where the user is directly connected to PSS,
+the NUA is permanently associated with that line and can provide a valuable check
+on the user's identity.<P>
+
+If the user gains access to the PSS by dial connection to a PAD, he identifies
+himself to the network by means of a password (sometimes called the Network
+User Identity, NUI). This is, in turn, checked by the network management
+software to find the corresponding NUA of the user. Because the NUA does not
+identify a particular line or location, security may be compromised if a password is
+discovered by other people.<P>
+
+Use of the following facilities can decrease the vulnerability of the PSS to attack:<P>
+<UL>
+<LI>All authorised users can be included in a Closed User Group (CUG). In effect, this
+creates a private network not available to unauthorised parties. However this
+advantage may be compromised if the CUG includes the NUAs of dial-up users
+who are authenticated only by passwords.
+
+<LI>The caller's Network User Address (NUA) provided by PSS can be checked by
+the host against a list of authorised callers.
+</UL>
+<H4>3.4.4 Local area netvorks</H4><P>
+
+Access to computers and computer-to-computer communications via LANs may
+present a substantial risk to security. Most LANs are implemented using a shared
+transmission medium which broadcasts all the signals to most or all of the
+attached nodes. Some LANs support Closed User Groups (CUGs) in a manner
+analogous to the PSS and so may also provide some call origination information.
+The relative ease of user access to LAN control software and hardware makes
+dependence on the security of any of these facilities unwise. The situation is
+especially aggravated where LANs are connected by gateways to one another, the
+PSS, or to the PSTN. In each case the risk of unauthorised access is increased
+enormously.<P>
+See earlier CSM Policies in this section regarding the interconnection of networks.
+Data on LANs are generally regarded as being at risk because:<P>
+<UL>
+<LI>Most LANs are designed around a shared communications facility which generally
+broadcasts signals to all of the attached nodes, security being dependent on access
+points ignoring messages not specifically addressed to them.
+
+<LI>LANs are frequently used as the carriers of Office Automation facilities in the
+office environment where system security was not necessarily a prime
+consideration in the original choice of the accommodation.
+
+<LI>LAN signalling sometimes extends into the radio frequency spectrum and, if
+electromagnetic signals are emitted from the cabling, LAN traffic can be
+intercepted (see also TEMPESI) .
+</UL>
+Strong methods of user authentication must be implemented if privacy marked
+information is transmitted over the LAN so special precautions may need to be
+applied to LANs in order to enhance their operational security. Three particular
+types of LAN are defined below:<P>
+
+<H4>3.4.4.1 Exclusive LANs</H4><P>
+An Exclusive LAN is one where its security depends on:<P>
+<UL>
+<LI>its use being restricted to only those users who have an operational need to use it
+<LI>its access points being within BT secure premises
+<LI>its not being connected to another network - public or private.
+</UL>
+If the LAN spans several buildings, the links between those premises should be
+secured by encryption.<P>
+
+<H4>3.4.4.2 Access-controlled LANs</H4><P>
+
+An Access-controlled LAN is one which incorporates special precautions to restrict
+access between users and resources. All resources accessible from equipment
+under a user's control, for example a dumb terminal, PC or workstation are
+protected by strong authentication mechanism. Strong authentication is an
+authentication mechanism that is resilient to eavesdropping and masquerade
+attacks in the context of the communications network between user and system.
+
+Authentication of connections to LAN nodes may be implemented using systems
+based on Kerberos. (Further advice may be obtained from D&amp;P Data Security
+Laboratories, see Section 11).<P>
+
+Where there may be a number of separate LAN segments interconnected by
+bridges or gateways, each individual LAN segment must comply with the access
+control policy.<P>
+
+<H4>3.4.4.3 Ordinary LANs</H4><P>
+
+An Ordinary LAN is one which does not meet the security criteria for an Exclusive
+or an Access-controlled LAN.<P>
+
+<H4>3.4.4.4 LAN Usage</H4><P>
+
+In general the following applies:<P>
+<PRE>
+LAN Type       Usage
+
+Exclusive          In Strictest Confidence
+Access Controlled  In Confidence
+Ordinary           Non-Privacy marked
+
+</PRE>
+Note that use of a specific LAN architecture does not negate the use of other
+mandatory features which may be required for handling sensitive information.<P>
+
+The security of a LAN is a complex issue, especially when the mechanisms for
+processing, storing, or transmitting sensitive information do not all offer the same
+level of security. In this case contact the Commercial Security Unit for further
+guidance.<P>
+
+<H4>POLICY 3.13: LOCAL AREA NETWORKS</H4><P>
+
+A LAN shall be characterised as one of Exclusive, Access Controlled, or
+Ordinary so that the owners, administrators, and users, are aware of the
+security controls that must be enforced.<P>
+
+<H4>3.5 Threats to networked systems</H4><P>
+
+Four major threats exist to networked systems:<P>
+<OL>
+<LI>Disdosure of information stored or in transit on the network.
+
+<LI>Masquerading as an authorised user.
+
+<LI>Accidental or unauthorised modification, insertion or deletion of the information
+stored or in transit on the network, and
+
+<LI>Denial of the use of the network to those entitled to use it.
+</OL>
+<H4>3.5.1 Information disclosure</H4><P>
+
+Much sensitive information (access information as well as user data) can be
+gained from illicit interception of telecommunications signals by tapping and
+bugging. These activities are usually committed against local lines rather than the
+main network. This is because local plant is more accessible to illicit interception
+and there is little or no confusion from other multiplexed signals.<P>
+
+All forms of radio, microwave, infrared and other beam transmission techniques
+are also vulnerable to interception.<P>
+
+Four classes of countermeasures may be brought to bear to reduce the risk of
+information disclosure. These are:<P>
+<UL>
+<LI>Data separation,
+<LI>Physical protection,
+<LI>TEMPEST protection, and
+<LI>Cryptographic protection.
+</UL>
+<H4>3.5.1.1 Data sparation</H4><P>
+
+Depending on the architecture of the chosen network, information of varying
+sensitivity may be in transit simultaneously across a single channel. Under these
+circumstances, there needs to be a clear distinction between the level of sensitivity
+of information. This can be achieved by either:<P>
+<UL>
+<LI>commencing a new single-level communications session each time there is a
+change to the level of data sensitivity, or
+
+<LI>Labelling each item of data with its sensitivity in such a way that the protocol used
+on the multi-level channel provides clear indication of the sensitivity, and facilitates
+unambiguous pairing between the label and the associated data received or sent.
+</UL>
+In either circumstance, the communication channel should be secured to handle
+the most sensitive information that it is expected to carry.<P>
+
+<H4>3.5.1.2 Physical protection</H4><P>
+
+Because any network may be vulnerable to eavesdropping, special care must be
+taken when transmitting highly sensitive information.<P>
+
+Many networks are located in buildings that are considerably less secure than
+purpose-built computer centres. When planning the installation of the network, the
+guidelines and suggestions detailed in the section on Electronic Systems
+Installations should be followed as far as possible.<P>
+
+On these occasions, where it is operationally necessary to install networks in
+insecure buildings, including those to which members of the public have access,
+the following additional points must be considered:<P>
+<UL>
+<LI>cabling should be continuous and not be routed through areas where public
+access is permitted. If this is not possible it should be contained in heavy duty
+grounded metal conduit preferably requiring a specialised tool to remove the
+inspection plates.
+
+<LI>where sensitive information is likely to be transmitted on a network, consideration
+should be given to using protected cable.
+
+<LI>where sensitive information is transmitted, consideration should be given to
+housing termination points, ie. wall mounted coaxial sockets, in proprietary
+lockable metal boxes. These must be kept locked at all times when authorised
+staff are not present.
+
+<LI>after the installation of cabling, particularly when completed by outside contractors
+and in a building not dedicated to BT use, the routing of the cable must be
+thoroughly inspected to ensure that it meets the original specification and that it
+has not been routed to locations which could be used by potential eavesdroppers.
+
+<LI>the power switches of network connected terminals should be fitted with
+proprietary lockable boxes (which are kept locked!).
+</UL>
+<H4>POLICY 3.21: NETWORK MONlTORING</H4><P>
+
+The use of network monitoring equipment must be strictly controlled.<P>
+
+<H4>3.5.1.3 Tempest protection</H4><P>
+
+Communications lines, personal computers, Visual Display Units (VDUs) and
+printers may radiate significant amounts of radio frequency energy and it is
+possible for data displayed on a screen or being printed to be intercepted.
+TEMPEST is the name of the technology that enables this unintentional radio
+emission to be reduced to acceptable proportions. In practice the signals can only
+be received over a short distance and identifying one particular VDU/printer
+among several others is difficult. Although the threat may be real in some military
+situations, for the commercial world it must be considered a threat only when the
+information being handled is extremely sensitive.<P>
+
+For specialist advice on the applicability and methods of TEMPEST protection,
+refer to Section 10.<P>
+
+<H4>3.5.1.4 Cryptographic protection</H4><P>
+
+The use of cryptographic techniques is not limited in its application to the
+protection of communications networks. This topic is covered in the Cyptographic
+Protection section.<P>
+
+<H4>3.5.2 Unauthorised access</H4><P>
+
+Connection requests across a network should be verified as to their authenticity.
+The chosen authentication mechanism should not place undue or unwarranted
+trust on the network to carry the authentication information accurately or in
+secrecy unless it has been proved able to carry out that function. Care should be
+taken to ensure that the chosen mechanisms for user authentication are
+sufficiently strong and that they are managed correctly.<P>
+
+It is important to realise that user authentication information is carried across the
+network and should be appropriately protected, that is, with the same rigour as
+that afforded to the information that it protects. If cryptographic methods are used
+to facilitate access control, then the algorithm, configuration and key management
+must be approved by the Director of Security and Investigation. Where
+cryptographic keys are shared, a method of personal authentication should be
+used in addition.<P>
+
+If a strong method of authentication (eg. a one time password) is used, then this
+may be adequate as the sole means of authentication. Otherwise, in addition to
+personal authentication, authentication of the recipient's point of entry to the
+communications network is required. To be acceptable this must reliably identify
+the recipient as being at a fixed physical location. This location must be
+authenticated as one at which the recipient may receive the information. Suitable
+methods are dependent on the type of connection and are as follows:<P>
+<UL>
+<LI>PRIVATE CIRCUIT - The recipient should be connected via a private circuit to a
+fixed location.
+
+<LI>PUBLIC DATA NETWORK - The recipient should be at an authorised fixed
+address which is verified by the originator, or should be a member of an
+authorised CUG, or authenticated by a one-time password system in the network.
+
+<LI>PUBLIC SWITCHED TELEPHONE NETWORK- The recipient should be at an
+authorised fixed address which is verified by the originator by dialling-out or by a
+dialback device approved by the Director of Security and Investigation.
+
+<LI>INTEGRATED DIGITAL ACCESS - The recipient should be at an authorised
+address which is verified by the originator by dialling-out or by checking the
+Calling Line Identification.
+
+<LI>LOCALAREA NETWORKS - The recipient should be at an authorised port on an
+access-controlled LAN, or at any port on an exclusive LAN.
+
+<LI>OTHER DATA NETWORKS - The recipient should be at an authorised port on a
+BT-only data network which does not use broadcast transmission.
+</UL>
+
+<H4>POLICY 3.14: NETWORK ORIGIN AUTHENTICATION</H4><P>
+
+The identity of network users shall be authenticated. Where the method of
+authentication is weak, strong technical methods shall be employed to
+determine the point of access of the originator into the network.<P>
+
+<H4>3.5.2.1 Dialback</H4><P>
+
+The security of dial in access may be enhanced by providing an 'Automatic
+Dialback' facility whereby the caller is forced, at the outset of a call, to declare his
+identity to the system. The equipment terminates the call and dials the caller on a
+different outgoing-only line using a telephone number it associates with the
+caller's declared identity. This prevents access from arbitrary telephone locations
+and offers an audit and accountability mechanism.<P>
+
+Some types of dialback device may be defeated by quite simple techniques, and
+therefore do not give the intended protection. Only the system administrator
+should be able to modify the list of authorised telephone numbers stored in the
+dialback equipment. Dialback systems used to protect BT's commercially sensitive
+information must be approved by the Director of Security and Investigation.<P>
+
+In some systems manual dialback may be appropriate, however, whether dialback
+is automatic or manual, a full log of each access should be maintained. Because
+Dialback units only provide authentication of the point of entry into the Public
+Switched Telephone Network (PSTN), other measures should be taken for High
+Impact Systems.<P>
+
+Dialback techniques can be rendered ineffective if the exchange offers a Call
+Diversion facility.<P>
+
+<H4>POLICY 3.15: DIALBACK</H4><P>
+
+Where the method of network user authentication is weak, the point of access
+into the network shall be established using a dialback unit that has been
+approved by the Director of Security and Investigation.<P>
+
+<H4>3.5.3 Modification, insertion and deletion</H4><P>
+
+Special measures may need to be taken to ensure that information is not lost or
+corrupted in transit across a network. For example, message sequence numbers
+can be used to detect the accidental or deliberate deletion or insertion of entire
+blocks of information in the information stream.<P>
+
+Accidental modification of the information in transit can be detected by the use of
+comparatively simple techniques, for example checksums or Cyclic Redundancy
+Checks (CRCs). Where it is anticipated that deliberate attempts will be made to
+modify information then cryptographic techniques may be appropriate.<P>
+
+Cryptographic techniques may be used to prove:<P>
+<UL>
+<LI>that data has not been modified,
+<LI>the identity of the originator of information,
+<LI>that information has been delivered to its intended destination, and
+<LI>the source of information into a network.
+</UL>
+Note that the adoption of cryptographic techniques for one purpose may offer the
+opportunity of other checks. For example, the adoption of Digital Signatures will
+provide a facility to enable the detection of accidental or deliberate modification of
+information. Cryptographic techniques are technically difficult to design and
+implement such that their use and management is not prone to errors and
+subsequent security failures. Because of this, the use of any such equipment must
+have the approval of the Director of Security and Investigation.<P>
+
+<H4>POLICY 3.16: DIGITAL SIGNATURES</H4><P>
+
+In the design of systems where proof of origin of a message must be
+ascertained, Digital Signature techniques shall be considered and documented.<P>
+
+<H4>POLICY3.17: NON REPUDIATION SERVICES</H4><P>
+
+In the design of systems where it is necessary to prove that the intended
+recipient has received information, cryptographic techniques to manufacture an
+incontrovertible receipt note shall be considered and documented.<P>
+
+<H4>POLICY 3.18: DATA ORIGIN AUTHENTICATION</H4><P>
+
+In the design of systems where there is a requirement to prove the identity of
+the origin of data then cryptographic techniques shall be considered and
+documented.<P>
+
+<H4>3.5.4 Denial or failure of service</H4><P>
+
+In the office environment there is generally no need to provide fallback
+communication systems as the standard response time for fault correction is
+adequate for most requirements. However, for systems which use private circuits
+or the PSS as the prime means of communication, it is worth considering using
+PSTN as a fallback for nonsensitive data provided that the PSTN connection is not
+made permanent.<P>
+
+At purpose-built computer centres the situation is somewhat different as most
+systems would become useless in the event of loss of their communications links.
+Some link redundancy is generally necessary to protect against this.
+Communication links that are provisioned as backup should if possible, be
+terminated on different hardware in the system and routed via different cable
+ducts and transmission routes so as to minimise the danger of loss of both links in
+the event of a hardware failure.<P>
+
+<H4>POLICY 3.19: NEIWORK AVAILABILITY</H4><P>
+
+In the design of systems, measures shall be taken to ensure that the availability
+of the network satisfies the system's requirement.<P>
+
+<H4>3.6 Cryptographic protection</H4><P>
+
+Modern encryption techniques are regarded as offering a formidable barrier to
+any adversary and probably an insurmountable barrier unless substantial
+computing power is available or the key and algorithm are compromised.<P>
+
+The use of cryptographic techniques can contribute significantly to security by
+offering strong mechanisms to:<P>
+<UL>
+<LI>authenticate the user,
+<LI>authenticate the calling location,
+<LI>assure message integrity,
+<LI>maintain the confidentiality of messages.
+</UL>
+The use of encryption is not without operational problems some of which are
+listed below:<P>
+<UL>
+<LI>encryption packages inevitably involve an overhead in terms of key management
+and administration although, in some public key systems, this overhead is
+reduced.
+
+<LI>serious problems can arise if individuals forget their keys or become indisposed
+etc. As a precaution, it may be prudent to keep duplicate cryptographic keys or
+copies of the files in unencrypted form. Any such duplicates must be kept securely.
+
+<LI>encrypted information may contain control characters which make it a
+prerequisite that any protocol used to transmit a file electronically is completely
+transparent to the file contents. It is likely that encrypted data would interfere with
+many network operating systems. As a result either considerable tailoring of a
+system or specially developed encryption packages would be required to enable
+encrypted data to be transmitted.
+
+<LI>some encryption systems are not suitable for every type of network so expert
+advice must be sought.
+</UL>
+Encryption systems used to protect BT's commercially sensitive information must
+be approved by the Director of Security and Investigation.<P>
+
+<H4>POLICY 3.20: APPROVAL OF USE OF CRYPTOGRAPHY</H4><P>
+
+Any cryptographic techniques or encryption systems selected to safeguard BT
+information shall have been approved by the Director of Security and
+Investigation prior to their use.<P>
+
+<H4>3.7 Electronic Mail Systems</H4><P>
+
+There are considerable risks associated with current electronic mail systems. In
+particular, data may be forged, altered, redirected or intercepted. Although
+techniques are being developed to solve many of these problems, users of
+electronic mail systems should be aware of their present limitations. The advice
+given here is for guidance and is intended to highlight areas of concern. In the
+future specific policies will be produced to cover electronic mail security.<P>
+
+<H4>Authentication</H4><P>
+
+Currently, most systems authenticate users by means of User IDs and passwords.
+This is not a strong means of authenticating users. Electronic mail systems should
+not be used as a means of providing authorisation to other individuals for carrying
+out tasks unless they have been specified, designed and installed for that purpose.
+For example, it should not be possible to requisition goods on the basis of an
+uncorroborated electronic mail message. At present, in the UK, a handwritten
+signature is a legally-binding proof of authorisation. Electronic mail systems using
+weak authentication do not offer the required level of proof and assurance of the
+origination of a message. Designers of electronic mail systems should look at
+currently-available technologies which offer scope for proof of origination.<P>
+
+<H4>Integrity</H4><P>
+
+Without appropriate coding techniques, messages may easily be intercepted and
+modified or replayed. Designers of systems should ensure that the threats are
+understood and that appropriate countermeasures are adopted. Digital signatures
+can be used very effectively to ensure the integrity and authenticity of a message.<P>
+
+<H4>Labelling</H4><P>
+
+Labelling is a way of attaching a marker to a message, file or segment of data, to
+indicate a specific attribute. Often the attribute is the sensitivity of the information.
+Systems which make use of labels are able to utilise sophisticated access methods
+for permitting access to data An example might be a system which permitting IN
+CONFIDENCE material to be redirected to a colleague for action, perhaps
+because of holiday arrangements, but which did not permit STAFF IN
+CONFIDENCE material to be so directed.<P>
+
+<H4>Mail redirection</H4><P>
+
+Automatic electronic mail redirection should not be used unless it is possible for
+the message originator to know that message redirection is in operation.<P>
+
+<H4>Account usage</H4><P>
+
+Where it is operationally necessary for another person to use an electronic mail
+account for a short time, it is imperative that a hand over is arranged in a manner
+which ensures:<P>
+<UL>
+<LI>that any password is only known by one person
+
+<LI>that the time period during which the account is temporarily managed by the
+other person is documented and recorded by the system manager.
+</UL>
+The system manager is the only person authorised to make and record such a
+change, and must ensure that the required written authorisation is signed by the
+user.<P>
+<HR>
+<CENTER><ADDRESS>&copy;1995 Cold Fire<BR>
+</ADDRESS>
+</CENTER><HR>
+</BODY>
+</HTML>

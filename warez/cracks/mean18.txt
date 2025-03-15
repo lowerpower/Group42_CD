@@ -1,0 +1,38 @@
+Crack> Mean 18: Accolade
+
+crack written by Briggs
+
+     Caution: Do not modify your original disk.
+     Copy all your files to another disk or to a subdirectory on your
+hard disk and put the original disk away in a safe place.
+     Mean 18 does not indicate a version number but the file size for
+GOLF.EXE should be 89375 bytes.  The copy protection scheme
+looks for a bad sector on drive A.  We will patch 4 calls to this
+routine with NOP's (no operation) and patch 1 JUMP to an early
+exit with a NOP.
+     Put DEBUG.COM (from your DOS disk) in the same directory
+or make sure it is in the DOS path.  Type the following commands:
+
+REN GOLF.EXE GOLF.XXX         Rename program for debug
+DEBUG GOLF.XXX              Start debug
+RCS                     Check contents of cs register
+     Retype the 4 digits shown, but add 1 to the left digit first.  The
+code that we want to change is beyond the current 64K segment.
+
+E CS:4FE3 90 90 90  NOP the first call
+E CS:4FEC 90 90 90  NOP the second call
+E CS:500A 90 90 90  NOP the third call
+E CS:5019 90 90 90  NOP the fourth call
+E CS:5058 90 90     NOP the early exit jump
+RCS                 Check cs register again
+
+     Retype the 4 digits shown, but subtract 1 from the left digit first.
+Restore the cs register to its original state.
+W                       Write file back to the disk
+Q                       Quit debug
+REN GOLF.XXX GOLF.EXE   Restore file name
+
+     Now run GOLF and confirm that the patch works.
+
+>>>Note from Bob:  If this doesn't work, there are two more cracks I
+>>>have on file for Mean 18.

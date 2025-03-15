@@ -1,0 +1,110 @@
+PANASONIC EB 300, EZ542, EZ952 SERIES, EF6106EA AND EF6110EA.
+
+NOTES:  This is a single NAM mobile or transportable unit.
+        The ESN prefix is 136 decimal & 88 hex.
+        Panasonic: 201-392-6053
+
+
+NAM PROGRAMING:
+
+1.  This unit requires a programing adaptor, if you do not have one try
+    one of the following:
+
+    Jumper pins 3 and 25 of a standard power cable.
+
+    If the phone has a transportable pack you can wire a 25 pin "D" socket
+    to a 25 pin "D" plug, wire it straight through and jump pins 3 and 25.
+    Connect this between the tranceiver and transportable pack.  A ribbon
+    cable with crimp on "D" connectors makes a convienient adaptor.
+
+2.  Turn power on with pins 3 and 25 jumpered.
+
+3.  Enter * 0 0 0 0 #, the "In Use" lamp will light briefly then the phone
+    will display "0", you are now in maintenance mode.
+
+4.  Enter * 1 SND, the "In Use" lamp will light briefly then the phone will
+    display "1".
+
+5.  Enter 5 0 SND, the "In Use" lamp will light briefly and the display
+    will clear.  You are now in programing mode.
+
+6.  Each data entry can be looked at by pressing RCL followed by the
+    location (step) number below.
+
+7.  To store new data enter the value, press STO followed by the location
+    (step) number below.  For example to enter a system ID of 00031 enter
+    00031 STO 01.  Data can be entered or reviewed in any order.
+
+8.  At any time press STO * * to complete programing and return to
+    maintenance mode.
+
+9.  Press END to exit maintenance mode, or turn the power off.
+
+
+PROGRAMING DATA:
+
+STEP#    #OF DIGITS/RANGE    DESCRIPTION
+
+01       00000 - 32767       SYSTEM ID
+02       10 DIGITS           MIN (AREA CODE & TEL NUMBER)
+03       3 OR 4 DIGITS       LOCK CODE
+04       UP TO 12 DIGITS     SPEED DIAL NUMBER (PERMANENT NUMBER STORED IN
+                             LOCATION 00)
+05       00 OR 08            STATION CLASS MARK
+06       333 OR 334          INITIAL PAGING CHANNEL
+07       2 DIGITS            ACCESS OVERLOAD CLASS
+08       2 DIGITS            GROUP ID (10 IN USA)
+09       8 DIGIT, 0 OR 1     SEE NOTE 1 BELOW.
+10       8 DIGIT, 0 OR 1     SEE NOTE 2 BELOW
+11       8 DIGIT, 0 OR 1     SEE NOTE 3 BELOW
+12       2 DIGIT             DIALED DIGIT LIMIT, 00=16, 01=15, 02=14 ETC.
+
+
+NOTES:
+
+1.  Suggested entry is: 11111100 for "A" system, 11011100 for "B" system.
+
+Digit 1 = Local use Mark
+Digit 2 = MIN Mark
+Digit 3 = Preferred System
+Digit 4 = End To End (DTMF) Dialing.
+Digit 5 = Repertory (speed) Dialing.
+Digit 6 = Horn Alert
+Digit 7 = Not Used
+Digit 8 = Not Used
+
+2.  Suggested entry is: 00000100.
+
+Digit 1 = Not Used
+Digit 2 = Built in Monitor
+Digit 3 = Auto Lock
+Digit 4 = Not Used
+Digit 5 = Not Used
+(Enable only one of the following)
+Digit 6 = Allow user A/B select
+Digit 7 = Preferred system only
+Digit 8 = Home system only (no Roam)
+
+3.  Suggested entry is: 11000011.
+
+Digit 1 = Received call indicator (call in absence)
+Digit 2 = Continuous DTMF
+Digit 3 = Not Used
+Digit 4 = Not Used
+Digit 5 = Not Used
+Digit 6 = Not Used
+Digit 7 = Enable total timer
+Digit 8 = Enable individual call timer
+
+
+LOCK: F LOCK.  UNLOCK: Enter three of four digit code.
+
+A/B SYSTEM SELECT:
+
+1.  Pref/Non-Pref: F #, (phone will default to preferred/non-preferred on
+                        every power up)
+2.  A only: F 9
+
+3.  B only: F 8
+
+4.  Home only: F 7

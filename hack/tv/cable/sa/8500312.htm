@@ -1,0 +1,40 @@
+<html>
+<head><title>Group 42 Sells Out [SA8500-312 Fix]</title></head>
+<body background="cable1.gif">
+
+<center>
+
+<img alt="Group 42 Sells Out!" src="../g42slogo.gif">
+
+</center>
+
+<hr size=5 noshade>
+<center>
+<h2>SA8500-312 Turn On</h2>
+by G-Man of Group 42
+<p>
+</center>
+
+
+The following procedure will allow the 8500-312 converter/descrambler
+to receive all scrambled and non-scrambled channels, even
+if it is shut down by the cable company.  It is a very simalar
+<i>fix</i> to the 8500-321 modification.
+<p>
+<h4>Procedure</h4>
+Locate the main processor IC on the main P.C. board with the part number
+<b>MN1414ETG</b> on it.  This is IC305 on the circuit board.  Now locate
+jumber W310 just below the IC.  Cut this jumper and install a .01uf
+disk capacitor across the now open jumper.  On the lead of the capacitor
+closest to the IC, solder a 22K resistor from this lead and connect the
+other end of the resistor to pin 21 on IC305.  The descrambler should
+now properly receive and descramble all channels.
+<p>
+See the 8500-321 modification for trouble shooting information.
+<p>
+<hr size=5 noshade>
+
+
+</html>
+ 
+

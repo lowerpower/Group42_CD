@@ -1,0 +1,21 @@
+From: cyborg@kauri.vuw.ac.nz (-xivo-Alex Ivopol)
+
+
+------------------------------------------------------------------------------
+
+   Well here it is, for all you people who are frustrated with the game
+GODS - Into The Wonderful, a small cheat to give you ever lasting shield.
+(IBM-PC Version)
+
+   In the file GAME.EXE change the byte at offset 75F0 to CC.
+   Alternatively, in the same file, search for 0D C2 71 90 77 BC E6 76 AE
+   and change 77 to CC.  All numbers are in hex of course.
+
+   Once you start the game, either die deliberately, or play until you get
+a shield. This shield will last indefinitely.
+
+-- 
+--
+Alex T. Ivopol 
+cyborg@kauri.vuw.ac.nz
+Standard disclaimer applies.

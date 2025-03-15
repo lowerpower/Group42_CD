@@ -1,0 +1,84 @@
+<HTML>
+<HEAD>
+<TITLE>Fones iz phun</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H2>Cellular Phone Information</H2>
+OR<BR>
+<EM>How to have two cellulars with the same phone number and other information.</EM></CENTER>
+<HR>
+<CENTER><A HREF="#motorola">Motorola</A> | <A HREF="#bag">Bag Phone Loader</A> | <A HREF="#bible">Motorola Bible</A> | <A HREF="#test">New Test Mode</A> | <A HREF="#copycat">Copycats</A><BR>
+<A HREF="#oki900">Oki 900</A> | <A HREF="#nokia">Nokia</A> | <A HREF="#listen">Listening In</A> | <A HREF="#files">Files</A>
+</CENTER><HR>
+One really really quick thing, in order for two phones to have the same phone number, you need to have the SAME electronic serial number in both phones. This is also referred as the ESN. So if you are not adept at anything technical, you know, like 2 left hands or however the saying goes, just go click somewhere else. =]
+<HR>
+<A NAME="motorola"></A><H3>Motorola 8000 and Flip Series (not Ultra-Lite or Elite)</H3>
+"How do I change my ESN? Do I change my ESN?" Damn, I hear that question like 800 times whenever I go into #cellular or in my email. I point you here, and you still send me mail. What is the matter with you people? You know how to read? SHEESH. Damn, you kids, I swear. Well, enough bitching and griping. I will give you a little primer on how to change the ESN on your 8000 style phone or on your flip. The only thing is, I will not guarantee that this will work, this is how it is done, and if you burn your ph
+
+
+one, it is your own fault sucker.<BR>
+First, you need to have a k-rad cable. There are different cables for the 8000's and for the flips. Duh!<BR>
+Second, you need a nifty piece of software. For the 8000's use Motorola AMPS 6.6. Do not use 9.1 or 9.9. These are hacks, and do not work well. 6.6 works the best. <BR>
+If you have a flip, you are most likly going to need a loader. This is because a direct identity transfer from the computer to the phone is not possible with the newer phones. Actually, that is any Motorola phone with a firmware of 9121 or later. Ain't Motorola nice? But you can do a phone to phone identity transfer granted that the phone you want to change has a software of below 95XX. Anything over 95XX, and you are stuck, that ESN is there forever. Again, ain't Motorola nice?<BR>
+If you phone has a firmware of 9121 or less, you can just use AMPS 6.6, and you are done, see you later. If your phone has a firmware of 9122 or greater, guess what Pedro, you need a loader. A loader is any phone with a firmware of less than 9121. As a rule of thumb, 99 times out of 100 an 8000 has a firmware of less than 9121. Especially one of those beat up ugly ones that looks like it has been to Vietnam and back. So once you have your loader, and your post 9121 phone you need cables for both.<BR>
+Now go out and get yourself a different piece of software. The one that I reccommend is Motorola AMPS G2. What G2 will do is change the ESN in the loader, and then do a identity transfer to the new phone, and then allow you to change the MIN information in the new phone.<P>
+LISTEN! If you even attempt to change the ESN on a phone with a firmware of greater than 9121 without a loader, you will now have a phone with an ESN of 0000FFFF. You know what that phone is good for? JACK. And last I checked, Jack ain't worth too much. And I have gotten a bit of e-mail from you dorks who think you are some sort of special guy who does not need a loader. Face it, you need a loader. Now that you have jack, you then need to find someone to reset your phone back to factory ESN. The factory ESN
+
+
+ is 0000000F. This will reset the phone, and then you can try again. So by all means, be careful.<BR>
+A few pointers though. I know this sounds weird, but all of the above software is REALLY touchy. It requires certain hardware in order to work with less hitches. This is the reccomended hardware/software list: 386/25 laptop/desktop with a bidirrectional parallel port. The parallel port has to be bidirrectional, and be configured as bidirrectional, or it will not work. Then go out and get yourself Motorola 6.6 and G2. Happy emulating.<P>
+On the off chance you have an Ultra-Lite or an Elite, I will be discussing how to change the ESN in an Ultra-Lite very soon, it requires a little bit more equipment and patience, and brains. Elites, hmmmm, stilll learning on these, but then again, if you can afford a MicroTac Elite, you can afford the bill =].
+<HR>
+<A NAME="bag"></A><H3>Bag Phone Loader</H3>
+By far the easiest way to change the ESN's in Motorola phones, but much more expensive way to go about thing. What you do is go out and get yourself an old Motorola bag phone, that is one of these phones that is in a bag. (duh) It also has a cord to a handset, looks like a phone you might have at your house, not at my house, but who knows what your tastes are. Ok, open up your bag phone, take out the prom at the bottom of the phone, throw it away. Buy a 27C512 blank EEPROM, and burn it with LOADER.BIN. Plug
+
+
+ that new chip into the phone, close up the phone. When you power on the phone, it should say in those weird characters something to the effect of "ID TRANS."<BR>
+Now you need to get a few cables. To do flips you need a flip cable, bricks a brick cable. (this is SO hard). These are the standard cables.  But there are two other cables you need. You will need a cable to program the bag phone, and what is known as a cable for ID transfers. This looks like a gender changer between the DB25 port on the bag and the programming cables for the flip or brick with a power cord coming out of it.<P>
+What happens is that you take the ID (ESN and all) and it gores from your flip, brick, or bag into the bag loader. You then use AMPS6.6 to program the bag phone you just transfered the ID into. After that is all done you then transfer the ID (ESN and all) back into the flip, brick, or bag that you started with. It is really easy, and works every time if you ahve your hardware and all that all set up correctly. I recommend this way over any other.<BR>
+One word of advice though. When you do use the bag loader setup, make sure you do it all at once and keep the phone and bag loader together. What happens is once the ID is transfered out, the ESN on the first phone is FFFFFFFF. On the off chance you bust your bag phone or something, cannot program it, you get the idea, something so that you cannot do the entire process. By all means, transfer that ID back into the first phone. If not you will have a phone that is pretty useless. And once you take the ID out
+
+
+, you have to use the same bag loader to put it back in. If you try and do a transfer out again, you will not be able to. You will get either FAIL 02 or FAIL 11. Then you are screwed. Make up a story to Motorola to get your original ESN back into it. Since FFFFFFFF is a valid ESN to them, you should not have a problem.
+<HR>
+<A NAME="bible"></A><H3>Motorola Bible</H3>
+I have been fortunate enough to be the provider of the most complete source of information on Motorola cellular phone test mode stuff on the net. I know a lot of people would like to posess this, so here it is.<BR>
+<A HREF="motorola.zip">Version 2.0 of the Motorola Bible</A><BR>
+Look for periodic updates on this.
+<HR>
+<A NAME="test"></A><H3>Jumperless Test Mode</H3>
+Instead of the old way to put a Motorola phone into test mode you can do the following keypad sequence:<BR>
+FCN + 0 + 0 + 83786633 + STO + 0 + 0<BR>
+This will only work on the newer phones, ones with software versions in the higer 95XX. If you phone has an ESN with the prefix of like D3 or higher, you can try it, it will probably work. Anything in the 8's or the C's it will not work. Don't send me a message and say, "I have a 1991 550 and it does not work on my phone, why not?" I am going to make it my goal in like to hit every person that sends me a dumb question like that on the head with a ball peen hammer.
+<HR>
+<A NAME="copycat"></A><H3>Copycat's</H3>
+This is the wave of the future. This is like the easiest way to change the info on a cellular. There are different one out there. Some do only up to 94XX and some even do the 95XX Motorola's. It is so nice, a little handheld device with a screen and it just does your phone for you, what could be easier? You do not need a loader, a computer, or anything, just slap it into the phone and do your thing. The whole thing is that they are expensive. They start at like $1,500 and go up to like $5,000. Depends on ho
+
+
+w many different types of phones you want to do and all that. If you are interested in a copycat, <A HREF="mailto:mtorola@primenet.com">let me know</A>. I can get them.<BR>
+Before you click that link, this is the deal. The one I can get you does all Motorola phones except the Digitals, Elites, and 95XX. If you want one to do these, sorry. Also, there are no plan for upgrades or anything like that. Trust me, the price is good, it includes shipping, and cables for the phones. It is a deal, trust me.
+<HR>
+<A NAME="oki900"></A><H3>Oki 900/AT&T 3730</H3>
+Get the sewper k-rad 4712 or 4715 chip mod and plug it in. Now you can have 5 ESN's on your phone with a 4712, or 200 ESN's with a 4715. But you like need to be one of those lucky people with a socketed 900. That is a chore in itself. If you have one of the ones with no socket, I hope you are good with a soldering iron, or what you can have someone throw a socket in there for you. That is what I have heard people doing.<BR>
+As far as that 4715 chip is concerned: let's see here, 1 ESN every 3 weeks, 52 weeks in a year, screw it, you do the math. But from what I hear, programming in 200 ESN's would take about 3 weeks in itself. But, near as I can tell, not too many people have the 4715, it is in high demand, and is something that they use for trade. I am still working on getting it, one day, one day.<BR>
+I have also heard of different mods that go beyond the 4715. There is a 4717 that holds 230 and fixes bugs in the 4715. There is a 4719 that hold 250. Then there is the infamous VAMPIRE mod. These mods are all vaporware. Sorry, I also would love to see the VAMPIRE work. This is really something else. Someone lemme know if ANY of these are legit works of art.<BR>
+I am stoked! Like the last week of October I got an AT&T 3730, and I was lucky enough to have one with a socket. I had four 4712 chips laying around my desk, and I won't tell you what I did, especially since modifying a cellular phone is illegal. I just let the phone sit on the desk, away from those bad bad chips and my #7 Torx wrench and all that. If you believe that, you are dumb as a box of hammers, but if you are a fed, or a representitive from Oki, my phone is as original as the day it was manufactured
+
+
+. =]<BR>
+<HR>
+<A NAME="nokia"></A><H3>Nokia 101</H3>
+I recently got a hold of this software. Good lord, what a joke. I think that I could have written better software, and I cannot even program. This software did not work worth a damn, crashes on every computer I ever tried it on. Also, does anyone have cable diagrams for this phone? It would be really nice if someone did. I have like a science fair project or something, and I need to try and fool around with this phone and stuff.<BR>
+Still nothing on this phone, please someone, get me the damn diagrams.<BR>
+I wound up just deleting the software, no one was able to EVER get it to work. Wait, there was one guy in Australia, but I think it had to do with the gravity and stuff like that on the other side of the world. If you really want the software, I will get it to you.
+<HR>
+<A NAME="listen"></A><H3>Listening In</H3>
+If you want to listen to other peoples cellular conversations, I would recommend a scanner than can be modded to listen to cellular. Then again most cellular phones have a test mode facility so that you can listen to other peoples converstations. Listening to people's conversations is illegal though. And don't even try to say that I did not warn you. But I think some of the files on my FTP site have info on doing such a devious act.
+<HR>
+<A NAME="files"></A><H3>Cellular Phone Files Archive</H3>
+Hey! Hey! Hey! I have really stepped up into this whole information superhighway thing. Shame everyone else has a flat tire. Bad joke.
+But here, check out my <A HREF="ftp://ftp.primenet.com/users/m/mtorola">cellular phone files.</A>
+<b><i>Must be Online to use</i></b> Let me know what you think, and if you have anything to add, let me know. I would like to make it as complete as possible, and only you can help prevent forest files, I mean help me have a complete file archive.
+<HR>
+</BODY>
+</HTML>

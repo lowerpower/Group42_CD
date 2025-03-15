@@ -1,0 +1,5 @@
+Crack for TERMINATOR 2 by Satch.
+ 
+File: TERM.EXE
+Search for  : E8 F5 F7
+Replace with: 90 90 90

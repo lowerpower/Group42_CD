@@ -1,0 +1,12 @@
+      Here is the crack for Street Fighter II
+
+
+Street Fighter II:
+
+	Search for : B9 03 00 51 B8 19 00
+
+	Change to  :          EB 34 90 90
+
+    Search for the hex values in the SF2.EXE file.
+
+ Cracked by the Gruesome Twosome!

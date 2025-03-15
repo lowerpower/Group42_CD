@@ -1,0 +1,12 @@
+SubWar 2050 crack by danjo.
+
+this is for the file sw.exe which should be 236,288 bytes long.
+
+OK, fire up your fave hex editor and find the following sequence:
+
+3B C3 74 0E
+
+(around offset 2C89B) and change the C3 to C0.  that's it.  Microsoft's whole
+copy protection scheme relies on 3 clicks of 1 byte. 8)
+
+have phUn

@@ -1,0 +1,7 @@
+Crack> D/Generation by Mindscape 
+
+crack written by anonymous 
+
+Search for A1 96 5E 3B 06 82 5E 74 0E 
+Replace with A1 96 5E A3 82 5E EB 0F 90 
+

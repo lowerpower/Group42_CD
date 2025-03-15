@@ -1,0 +1,16 @@
+Crack> Night Hawk F-117A Stealth Fighter 2.0 - Version 473.02 by MicroProse 
+ 
+crack written by Michael Yakubovich 
+ 
+FILE: START.EXE 
+ 
+First, use UNLZEXE on the file. 
+ 
+ORIGINAL: 75 11 C4 1E 06 E1 
+CRACK   : == 00 == == == == 
+ 
+If someone wants to be able to install from a default drive here's the patch. 
+FILE: INSTALL.EXE 
+First, use UNLZEXE on the file. 
+ORIGINAL: 75 0C 50 E8 2C 0B 83 C4 02 3D F8 00 75 0A 
+PATCH   : == 00 == == == == == == == == == == EB == 

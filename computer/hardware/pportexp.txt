@@ -1,0 +1,187 @@
+
+       A TWO-CHIP I/O EXPANDER FOR IBM PC PARALLEL PRINTER PORT
+
+                          Francis J. Deck
+                    fdeck@grumpy.helios.nd.edu
+
+INTRODUCTION
+
+     A two-chip circuit which connects to the parallel printer
+     port of an IBM PC or compatible computer provides 16
+     TTL-compatible i/o lines which are programmable in 4 groups
+     of 4 bits.  A short program in Turbo Pascal is given as an
+     example of how to program the interface.  The circuit can be
+     expanded at the cost of one additional chip per 16 i/o bits.
+     Total cost for the circuit is well under $10, using
+     mail-order components.
+
+CIRCUIT DESCRIPTION
+
+     Refer to the schematic diagram.  Four Data lines from the
+     parallel printer port are fed through a 74LS126 tri-state
+     buffer.  The outputs of the '126 are fed back into four
+     Status inputs on the printer port.  The Output Enable (OE)
+     lines of the '126 are controlled by the PC, and the result
+     is a 4-bit bidirectional "bus" which is shown as a double
+     vertical bar.
+
+     The 8243 is a specialized circuit which is part of the 8048
+     microcontroller family, and is intended for expanding the
+     i/o ports of the 8048/49.  It connects to the 4-bit bus, and
+     has 4 4-bit i/o ports.  It is controlled by a Chip Select
+     (CS') line and a Program (PROG) line.
+
+     To execute an 8243 operation, the PC places a 4-bit
+     "instruction" on the bus, with the PROG line HIGH, and then
+     pulls the PROG line LOW.  If a "write" instruction is
+     requested, the data to be written is placed on the bus, and
+     the PROG line returned to a HIGH state.  If a "read"
+     instruction is requested, the 8243 places the input data on
+     the bus.  The driver software anticipates this, and disables
+     the outputs of the '126, so that data can flow from the 8243
+     back into the PC via the Status inputs.
+
+     None of this happens if the CS' line is HIGH, so multiple
+     8243s can share the same 4-bit bus, as long as the PC can
+     control the CS' line of each 8243 separately.  Although not
+     shown in the schematic or implemented in the software
+     listing, an additional 16 i/o bits can be implemented by
+     adding a second 8243, whose CS' line is controlled by D7
+     (pin 9) from the PC.
+
+     Note that the four ports are identified as P4 through P7, so
+     that, e.g. P41 corresponds to bit 1 of port P4.
+
+SCHEMATIC DIAGRAM
+
+     IBM PC Parallel
+     Printer Port:
+
+                 8                            6 --------- 2
+             D6 >------------------------------|CS'   P40|-------o P40
+                 7                            7|         |3
+             D5 >------------------------------|PROG  P41|-------o P41
+                 2      2 -------- 3         11|         |4
+             D0 >--------|1A    1Q|-----||-----|P20   P42|-------o P42
+                 3      5|        |6    ||   10|         |5
+             D1 >--------|2A    2Q|-----||-----|P21   P43|-------o P43
+                 4      9|        |8    ||    9|         |1
+             D2 >--------|3A    3Q|-----||-----|P22   P50|-------o P50
+                 5     12|        |11   ||    8|         |23
+             D3 >--------|4A    4Q|-----||-----|P23   P51|-------o P51
+                 6      1|        |     ||     |         |22
+             D4 >--------|1OE     |     ||     |      P52|-------o P52
+                    |   4|    IC1 |     ||     | IC2     |21
+                    |----|2OE     |     ||     |      P53|-------o P53
+                    |  10|        |     ||     |         |20
+                    |----|3OE     |     ||     |      P60|-------o P60
+                    |  13|        |     ||     |         |19
+                     ----|4OE     |     ||     |      P61|-------o P61
+                 13       --------      ||     |         |18
+             S4 <-----------------------||     |      P62|-------o P62
+                 12                     ||     |         |17
+             S5 <-----------------------||     |      P63|-------o P63
+                 10                     ||     |         |13
+             S6 <-----------------------||     |      P70|-------o P70
+                 11                     ||     |         |14
+             S7 <-----------------------||     |      P71|-------o P71
+                 18                            |         |15
+            GND >------Gnd                     |      P72|-------o P72
+                                               |         |16
+                                               |      P73|-------o P73
+                                                ---------
+
+     INTEGRATED CIRCUITS AND POWER CONNECTIONS
+
+     #    Type      +5   Gnd
+     --   ----      ---  ---
+     IC1  74LS126   14   7
+     IC2  8243      24   12
+
+PARTS LIST
+
+     The prices shown here are taken from Catalog #20 (1992) of:
+
+          JDR Microdevices
+          2233 Samaritan Drive
+          San Jose, CA 95124
+          800-538-5000
+
+     Description                   Cat. #    Price
+     -----------                   ------    -----
+     8243 IC                       8243      2.95
+     74LS126 IC                    74LS126    .39
+     24-pin IC socket              24 PIN ST  .20
+     14-pin IC socket              14 PIN St  .11
+     DB25 male plug                DB25P      .69
+                                             -----
+                                   TOTAL:    4.34
+
+SOFTWARE LISTING
+
+{-------- 8243 i/o expander controller --------}
+
+program e8243;
+
+const
+     cs = 64; {8243 chip select}
+     prog = 32; {8243 program line}
+     oe = 16; {74LS126 output enable}
+     p4 = 0; {identifier corresponding to hardware port P4}
+     p5 = 1; {and so on}
+     p6 = 2;
+     p7 = 3;
+
+var
+   ina, outa: word; {input, output port addresses}
+
+{-------- Write an output port ---------}
+
+procedure write_8243 (p: integer; b: byte);
+
+var
+   instr: byte; {8243 instruction}
+
+begin
+     instr := p + 4; {signifies "write to port ch"}
+     port [outa] := instr + prog + oe;
+     port [outa] := instr + oe;
+     port [outa] := (b and 15) + oe;
+     port [outa] := (b and 15) + prog + oe;
+     port [outa] := prog + cs + oe;
+     end;
+
+{-------- Read an input port -------}
+
+function read_8243 (p: integer): byte;
+
+var
+   instr: byte; {8243 instruction}
+
+begin
+     instr := p; {signifies "read from port ch"}
+     port [outa] := instr + prog + oe;
+     port [outa] := instr + oe;
+     port [outa] := 0;
+     read_8243 := (port[ina] div 16) xor 8;
+     port [outa] := prog + cs;
+     end;
+
+{-------- Mainline --------}
+
+const
+     nlpt = 1;
+     base: word = $40;
+     offs: array[1..3] of word = ($08,$0A,$0C);
+
+begin
+     outa := memw[base:offs[nlpt]];
+     ina := outa + 1;
+
+     port [outa] := cs + prog;
+
+     write_8243 (p4,15); {set port P4 to all 1's}
+     writeln (read_8243(p5)); {read port P5}
+
+     end.
+

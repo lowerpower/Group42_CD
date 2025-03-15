@@ -1,0 +1,74 @@
+Debug-keys for Doom, Wolf3d and Spear of Destiny . . .
+
+I have uploaded this text file out of anger. I bought all three
+of the above games, and I have registered for it. It says in the
+manual which came together with the games, that I will be given the
+secret-codes once I have registered. The thing is that I have not been
+given the codes after I have registered. I finally got all these codes
+from my brother who lives in asia. I think a lots of other people may
+have been treated the same way, so I decided that I should upload this
+file to everyone with any of these games.
+
+Debug-keys for DOOM.
+
+While already playing the game, type the following commands to activate
+different functions . . .
+
+iddqd			God mode (degreelessness mode) never will get hurt.
+idkfa			Full ammo, full armour, with all three keys.
+idclev			After typing this command you must next type the
+			episode number and the level number that you want
+			to be transported to.
+idbehold		After typing in this command, you must then type
+			in the mode that you want. i.e. several modes will
+			be displayed on top of the screen, choose by
+			typing the first character of the word.
+idmypos			Tells you your position (not much use).
+idchoppers		Don't really know what it does!
+idspispopd		Walk through walls and doors.
+iddt			Type this command when you are viewing the map
+			(by pressing TAB) to view the entire map. If type
+			this command twice, objects of treasure and enermy
+			will appear on the map.
+
+To dis-activate the function, just type the command another time.
+
+Debug-keys for Wolf3d and Spear of Destiny.
+
+At DOS prompt, instead of typing wolf3d to start the game, type
+wolf3d -goobers to start the game. For spear of Destiny, instead of typing
+spear, type spear -debugmode to start the game.
+
+While playing the game, press <left shift> <alt> <backspace> together to
+activate the debug-mode.
+After activating the debug-mode, type the following commands to activate
+different functions . . .
+
+<tab> q			quit the game.
+<tab> w			Warp to another level.
+<tab> e			go to next level.
+<tab> t			debug information in memory.
+<tab> i			free items, full ammo, free score.
+<tab> m			memory map.
+<tab> n			walk through walls.
+<tab> b			change border color (what for ?).
+<tab> x			extra stuff.
+<tab> h			hurt yourself (are you crazy ?).
+<tab> o			map of level.
+<tab> s			slow motion.
+<tab> f			position information.
+<tab> g			god mode, never will get hurt !
+
+I have tested all these keys in the original version of these games, I
+don't know about the shareware versions. So they might not work if the
+version is different. These commands here should be helpful and . . .
+isn't it cool to play this game without getting hurt ? Well, enjoy
+yourself. I also have some more commands which I have not included in as
+I am too lazy to. If you are interested in the extra commands, write to me.
+I will be more then happy to exchange mine with whatever interesting stuff
+you have.
+
+Daniel
+s9205888@brookes.ac.uk
+
+

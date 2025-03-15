@@ -1,0 +1,11 @@
+Crack> EYE OF THE BEHOLDER By Strategic Simulations
+crack written by anonymous
+
+File         : eob .exe
+Search For   : 9A9D67wwww83C4080BC074194783FF03
+Replace With : 9A9D67wwww83C4080BC0EB194783FF03
+                                   --
+Notes : Disables the password protection.
+        When prompted for a password press ENTER.
+        The w's are wild. Search for the second bit, then make sure the
+          first bit matches.

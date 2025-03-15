@@ -1,0 +1,495 @@
+Crack> Welltris by Spectrum Holobyte 
+ 
+crack written by Michael Yakubovich 
+ 
+FILE: WELLTRIS.EXE 
+ 
+1st: 
+ORIGINAL: C6 46 E9 FF FF 06 92 10 
+CRACK   : == == == 00 == == == == 
+ 
+2nd: 
+ORIGINAL: 8A 97 29 07 B6 00 3B C2 74 09 B8 06 00 50 E8 8A B3 44 44 
+CRACK   : == == == == == == == == EB == == == == == == == == == == 
+ 
+3rd: 
+ORIGINAL: 8A 97 3A 02 B6 00 3B C2 74 09 B8 06 00 50 E8 83 DC 44 44 
+CRACK   : == == == == == == == == EB == == == == == == == == == == 
+ 
+ 
+>>>Thanks to Paul Gosse for sending along these next 5... 
+ 
+Crack> Death Knights of Krynn 
+crack written by anonymous 
+ 
+1)   Change   9A 25 00 4A 00  in   START.EXE 
+      to      EB 4B == == == 
+ 
+AND 
+ 
+2)   Change   80 BD F6 01 0A 72   in   GAME.OVL 
+      to      == == == == == EB 
+ 
+ 
+Crack> Golden Axe 
+crack written by anonymous 
+ 
+  Change   E8 AB 04   in   AXE.DAT 
+   to      == A4 05 
+ 
+ 
+Crack> Pools of Darkness 
+crack written by anonymous
+edited by Todd Gleason
+ 
+  In GAME.OVR   Change   9a 74 0b 25 08 74 03 e9 (use the first occurance only)
+                 to      == == == == == EB == ==
+ 
+                Change   9a 74 0b 25 08 75 06 c6 
+                 to      == == == == == 90 90 == 
+ 
+ 
+Crack> Search for the King V1.1 
+crack written by anonymous 
+ 
+   Change   39 87 22 66 75 05   in   EXE.EXE 
+    to      == == == == == 00 
+ 
+ 
+Crack> Test Drive III 
+crack written by anonymous 
+ 
+>>>Note from Bob:  This was tested on version 2.0 as well and it 
+>>>worked fine. 
+ 
+                      Unprotect for Test Drive III 
+                      ---------------------------- 
+ 
+This unprotect is for version 1.1 of Test Drive III.  (The version 
+number is marked on the original disk.)  The TD3.EXE file size is 
+138317.  The date and time are 12-3-90  1:42p. 
+ 
+This may work with other versions or it may not.  Your mileage may 
+vary, so always work with a copy. 
+ 
+----------------------------------------------------------------------- 
+Method 1 (Debug) 
+ 
+Using Debug: 
+ 
+   RENAME TD3.EXE TD3.XXX 
+   DEBUG TD3.XXX 
+   U 480 
+ 
+The first two instructions you see should be: 
+ 
+   JNZ    0487 
+   MOV    BYTE PTR [0088],01 
+ 
+Change the JNZ to two NOP's: 
+ 
+   E 480 90 90 
+ 
+Save and rename back to .EXE: 
+ 
+   W 
+   Q 
+   RENAME TD3.XXX TD3.EXE 
+ 
+----------------------------------------------------------------------- 
+Method 2 (Hex editor) 
+ 
+Find the hex string: 
+ 
+   75 05 C6 06 88 00 01 
+ 
+In TD3.EXE.  Change it to: 
+ 
+   90 90 C6 06 88 00 01 
+ 
+----------------------------------------------------------------------- 
+ 
+The "cop quiz" will still appear when you start the game.  Just type 
+in ANY number - 0 will work fine.  The cop will still tell you "Wrong, 
+you can only play for 2 minutes" but what he doesn't know won't hurt 
+him.  The game will play exactly as if you answered the question 
+correctly. 
+ 
+It would have been just as easy to eliminate the "cop quiz" entirely, 
+but it's a good graphic so I let the nice policeman hassle me once 
+at the beginning of the game.  Only now his tickets are no good.  :-) 
+ 
+ 
+Crack> Powermonger 
+crack written by anonymous 
+ 
+     In file game.exe search for hex bytes:E8 CD FD 2B 00 75 33 
+     replace 75 33 with 90 90 
+ 
+ 
+Crack> Ultima V 
+crack written by anonymous 
+ 
+>>>Note from Bob: The kind netter who sent this to me said that he has 
+>>>heard complaints that this won't work on some of the newer versions 
+>>>of Ultima V.  It worked fine on his however. 
+ 
+The file size of my copy of ULTIMA.EXE is 36576. 
+The date is 06-24-88. 
+ 
+I hope this is of some help! 
+ 
+To unprotect Ultima V try this:  (On a copy, of course!) 
+{Don't type in the comments in curly brackets.} 
+----------------------------------------------------------------- 
+ 
+rename ultima.exe ultima.xxx 
+ 
+debug ultima.xxx 
+ 
+-d 10e 111 
+ 
+17E5:0100  6E 09                                    n. 
+17E5:0110  64 00                                    d. 
+ 
+{If you don't see the "6E 09" and "64 00" here then your copy is 
+ different than mine and this probably won't work.} 
+ 
+-e 10e 3b 1b 00 08 
+ 
+-d 114 117 
+ 
+17E5:0110  00 00 1C 08                               .... 
+ 
+{Check for "00 00 1C 08".} 
+ 
+-e 114 22 03 2d 07 
+ 
+-w 
+ 
+Writing 8EE0 bytes 
+ 
+-q 
+ 
+rename ultima.xxx ultima.exe 
+ 
+{done} 
+ 
+----------------------------------------------------------------------- 
+Or use your favorite hex editor (Norton's, etc.) and change the 
+string 6E096400 to 3B1B0008 
+and 00001C08 to 22032D07 
+ 
+Change the first occurrence only!  The second string appears in the 
+file several times. 
+----------------------------------------------------------------------- 
+ 
+This just changes the .EXE file header so that execution begins after 
+the key disk check.  My copy is kind of old so I hope this still works. 
+ 
+ 
+Crack> Silent Service ][ 
+crack written by Majik 
+ 
+Using PCshell or Norton Utilities, search the file SS2.EXE.  Look for 
+75 41 2B C0 50 50 and change 75 41 to 90 90. 
+ 
+ 
+Crack> Star Control by Accolade 
+crack written by Majik 
+ 
+Using PCshell or Norton Utilities, search the file STARCON.OVL for 
+74 05 1B C0 1D FF FF 3D 01 00 and change 74 05 to EB 05. 
+ 
+ 
+Crack> Castlevania 
+crack written by Majik 
+ 
+Using PCshell or Norton Utilities, search the files CEGA.EXE, 
+CTGY.EXE, and CCGA.EXE for 3B 46 E2 75 0B and change 75 to 74. 
+ 
+ 
+Crack> MechWarrior by Activision 
+crack written by The Mage 
+ 
+Using PCshell or Norton Utilities, search the file MW_MAIN.EXE for 
+04 00 FF 1E 2C 00 and change FF 1E 2C 00 to E9 31 01 90. 
+  
+ 
+Crack> SimEarth by Maxis Software 
+crack written by Majik and The Mage 
+ 
+Using PCshell or Norton Utilities, search the file SIMEARTH.EXE for 
+74 03 E9 46 01 and change 03 to 00 and 46 to 40. 
+ 
+ 
+Crack> Dragons Lair 1 
+crack written by The Flash 
+ 
+Using PCshell or Norton Utilities, search the file GAME.EXE for 
+E8 27 36 E8 7F 27 and change 27 36 to 4C 1D. 
+  
+ 
+Crack> Spirit of Excalibur 
+crack written by The Flash 
+ 
+UNLZEXE the EXCAL.EXE file before you Crack it.  After You apply 
+the patch then LZEXE it back.  If you need LZEXE package get it at your 
+fine Shareware systems, Ask a Friend, or just Forget about the crack  :> 
+Once you've done that, search for 74 36 B8 06 00 and change the 
+74 to EB. 
+ 
+ 
+Crack> Secret of Silverblades from SSI 
+crack written by The Flash 
+ 
+Using PCshell or Norton Utilities, search the file START.EXE for 
+5C 0C 74 33 9A and change 74 to EB.  Next, search GAME.OVL for 
+02 1E 72 1D and change 72 to EB.
+
+
+Crack> MONTY PYTHON'S FLYING CIRCUS By Core Design/Virgin Mastertronic
+crack written by anonymous
+
+File         : pega.exe
+Seach For    : A3F744E88200A1F9443B06F7447404FF
+Replace With : A3F744A3F944A1F9443B06F7447404FF
+                     ------
+File         : pega.exe
+Search For   : A3F744E85F00A1F9443B06F7447404FF
+Replace With : A3F944A3F744A1F9443B06F7447404FF
+                 --  ------
+File         : pcga.exe
+Search For   : A3AD43E88200A1AF433B06AD437404FF
+Replace With : A3AD43A3AF43A1AF433B06AD437404FF
+                     ------
+File         : pcga.exe
+Search For   : A3AD43E85F00A1AF433B06AD437404FF
+Replace With : A3AF43A3AD43A1AF433B06AD437404FF
+                 --  ------
+Notes : Disables the password protection.
+        You will no longer be prompted for a password
+
+
+Crack> DRAGON'S LAIR:ESCAPE FROM SINGE'S CASTLE By Sulivan Bluth/Readysoft
+crack written by anonymous
+
+File         : dlescap1.dat
+Search For   : 833C0075632BC0CD102BD2B700B402CD
+Replace With : 833C007563C704D204EB5DB700B402CD
+                        --------------
+File         : dlescap2.dat
+Search For   : 01E2F30BFB81F739F53B3C7501CB8CD3
+Replave With : 01E2F30BFB81F739F5893C7500CB8CD3
+                                 ----  --
+Notes : Disables the password protection.
+        You will no longer be prompted for a password.
+
+
+Crack> EYE OF THE BEHOLDER By Strategic Simulations
+crack written by anonymous
+
+File         : eob .exe
+Search For   : 9A9D67wwww83C4080BC074194783FF03
+Replace With : 9A9D67wwww83C4080BC0EB194783FF03
+                                   --
+Notes : Disables the password protection.
+        When prompted for a password press ENTER.
+        The w's are wild. Search for the second bit, then make sure the
+          first bit matches.
+
+
+Crack> GAUNTLET II By Tengen/Atari Games/Mindscape
+crack written by anonymous
+
+Files        : *.exe
+Search For   : 9A0000wwww070BC07403E9
+Replace With : EB0300wwww070BC0EB03E9
+Notes : Disables the password protection.
+        You will no longer be prompted for a password.
+        The w's are wild. Search for the second bit, then make sure the
+          first bit matches.
+
+
+Crack> LIGHTSPEED By Microprose
+crack written by anonymous
+
+File         : lightspd.ovl
+Search For   : A372A1833EBFE3007419509ADA
+Replace With : A372A1833EBFE300EB19509ADA
+                               --
+File         : lightspd.ovl
+Search For   : 9A021A2011EBF9   (Repeat proccess 13 times)
+Replace With : EB039090909090
+               --------------
+Notes : Disables the password protection.
+        You will no longer be prompted for a password.
+
+
+Crack> PGA TOUR GOLF By Electronic Arts
+crack written by anonymous
+
+File         : golf.exe
+Search For   : E8AAA9900EE8C9C3C606FE0932B83874
+Replace With : E8AAA9900E909090C606FE0932B83874
+                         ------
+Notes : Disables the password protection.
+        You will no longer be prompted for a password.
+
+
+Crack> SIMEARTH By Maxis
+crack written by anonymous
+
+File         : simearth.exe
+Search For   : 8C9E52FF833E567B007403E97F02B804
+Replace With : 8C9E52FFC706567B010090E97F02B804
+                       ----    ------
+Notes : Disables the password protection.
+        You will no longer be prompted for a password.
+
+
+Crack> F15 STRIKE EAGLE II By Microprose
+crack written by anonymous
+
+Either
+
+File         : f15.com
+Search For   : A73D9044AA96F09D
+Replace With : A73D4BC14844F06D
+                   --------  --
+or
+
+File         : f15.com
+Search For   : AB7BF32FB07321FA
+Replace With : ABFEF3FD6B73C3FA
+                 --  ----  --
+
+Notes : Disables the key disk protection
+        Does not work properly for Version 451.02
+
+
+Crack> Might and Magic III
+crack from wuarchive...
+
+In /pub/MSDOS_UPLOADS in wuarchive.wustl.edu is a crack for MM3 called
+mm3crack.zip.  Try it.
+
+
+Crack> Budokan
+crack written by anonymous
+
+Below is a small TSR. It is a cheat & crack by someone else
+which I modified so that it is only a crack. Just load it before
+Budokan. Unfortunately it can not be uninstalled from memory.
+It is unlikely that you will find a search and replace type crack
+for this as it is reasonably well encoded and does several clever 
+self checks to make sure it is not modified.
+
+-----Start------
+begin 755 budo
+MZV:0     %!345)65QX&59S\@/S_=0Z=70<?7UY:65M8N_\ SSTD)74O@?H3
+M('4IB^R+1A0]\!]U'XY&%B;'!I8NN  FQ@:8+@ FD)"0D)"0D)"0D)"0Z[Z=
+M70<?7UY:65M8+O\N P&,R([8M FZJP'-(;@A-<TAB1X# 8P&!0&T_\TA@?O_
+M '4,M FZ, +-(;@!3,TAN@<!N"$ES2&T";HX LTAC19H <TG5%-2($]V97)L
+M87D@4')O9W)A;2!F;W(@0E5$3TM!3@T*0G)O=6=H="!T;R!Y;W4@8GD@5%))
+M040A#0I#<F%C:V5D(&)Y(%1H92!#>6)O<F<A#0H-"D)U9&]K86X@8VAE870@
+M8GD@4F5S8W5E(%)A:61E<B!;05!)70T*#0I44U(@:7,@)$%L<F5A9'D@26YS
+)=&%L;&5D#0HD
+ 
+end
+
+>>>Note from Bob: Append the stuff between and including the begin and end to
+>>>a file.  Give it some name, {name}.  Then, type 'uudecode {name}' and
+>>>it will make a file called budo.  Follow the crack instructions above
+>>>on how to run the game.  If you don't have uuencode/uudecode, get it from
+>>>wuarchive.wustl.edu... I don't know which directory.
+
+
+Crack> StarTrek 25th anniversary by InterPlay
+crack written by Michael Yakubovich (U94_MYAKUBOV@VAXA.STEVENS-TECH.EDU)
+
+
+	I really need someone's opinion on the StarTrek.  I didn't play
+StarTrek much, so I don't know what's gonna happen on the second doc check and
+so on...  I tested the patch only for the 1st star, so please send all comments
+to my email address.
+
+FILE: STARTREK.EXE
+ORIGINAL: A3 82 01 39 06 84 01 74 04
+CRACK   : A1 84 01 A3 82 01 90 EB ==
+
+Note: The color of the planet you see on the screen when arrive won't be
+correct, but it doesn't matter; the rest is all right.
+
+
+Crack> Castles by InterPlay
+crack written by Michael Yakubovich (U94_MYAKUBOV@VAXA.STEVENS-TECH.EDU)
+
+FILE: CASTLES1.EXE
+ORIGINAL: 3B 16 46 26 75 06 3B 06 44 26 74 11
+CRACK	: == == == == == 00 == == == == EB ==
+
+
+Doesn't work alone (needed if you want to change configuration), use the above
+patch too.
+ 
+FILE: SETUP.EXE
+
+ORIGINAL: 0B C0 74 0C C6 46 F5 00 
+CRACK	: == == == 00 == == == ==
+
+
+Crack> F-29 Retaliator by Ocean Software
+crack written by Michael Yakubovich (U94_MYAKUBOV@VAXA.STEVENS-TECH.EDU)
+
+This one also needs testing, I din't play much myself (did it for a
+friend), so I'd like to know the results.
+
+FILE: X.EXE
+ORIGINAL: E8 46 53 BA C1 DA B8 00 3D
+CRACK   : 90 90 90 == == == == == ==
+
+This patch lets you play the game from any directory, not just \RETAL
+ORIGINAL: BA 95 D3 B8 00 3D
+PATCH   : == 9C == == == ==                            
+
+
+Crack> Jack Nicklaus Golf
+crack written by anonymous
+
+This program is protected by a code-wheel lookup, and is hideously easy
+to defeat.  This patch will work for the following version of the game:
+
+	GOLF     EXE     82503 09-19-90   9:52a
+
+The file is compressed with LZEXE v0.90, and its uncompressed size is
+146164 bytes.
+
+So, to crack it, uncompress it with UNLZEXE, and change offset 3BDC:
+E8 56 F5 to 90 90 90.  This will completely bypass the code-wheel prompt
+and verification.
+
+Addendum
+--------
+To crack the course designer, UNLZEXE the file DESIGN.EXE (size 76307,
+date 09-19-90), and edit offset 2C47: 9A 34 -> EB 03.
+
+
+Crack> Chuck Yeager's Advanced Flight Trainer v1.2 (from the game-pack)
+crack written by Michael Yakubovich
+
+FILE: AFT.EXE
+
+ORIGINAL: 3B 97 3F 05 74 03 E9 03 AF
+CRACK	: C3 == == == == == == == ==
+
+Crack> Chuck Yeager's Air Combat
+crack written by Michael Yakubovich
+
+FILE: YEAGER.EXE
+First, unOPTLINK the file; if you don't have any utility to do this use NU6.0,
+NUCONFIG program which lets you expand OPTLINKed files. Be sure to rename 
+YEAGER.EXE to one of the file NUCONFIG understands (DE,SF,etc.).
+
+ORIGINAL: 83 C4 0E B8 E8 00 50 9A 1A 55 FF FF 9A B6
+CRACK   : == == == == == == == == == == == == EB 03

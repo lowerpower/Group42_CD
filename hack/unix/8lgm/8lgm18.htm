@@ -1,0 +1,198 @@
+<HEAD>
+<TITLE>[8lgm]-Advisory-18.UNIX.SunOS-kernel.4-Dec-1994</TITLE>
+</HEAD>
+<BODY>
+<HR>
+             <H1>[8lgm]-Advisory-18.UNIX.SunOS-kernel.4-Dec-1994</H1>
+<P>
+<H2>PROGRAM:</H2>
+<P>
+        SunOS 4.1.x kernel
+<P>
+<H2>VULNERABLE OS's:</H2>
+<P>
+        SunOS 4.1.x
+<P>
+<P>
+<H2>DESCRIPTION:</H2>
+<P>
+	A problem was reported to bugtraq showing that unprivileged users
+	can panic the SunOS 4.1.x kernel if an HSFS cdrom is mounted.
+<P>
+	The purpose of this advisory is to provide a workaround for
+	this problem.  This patch has been successfully tested by a number
+	of people.
+	
+<H2>IMPACT:</H2>
+<P>
+	Any user can crash the system.
+<P>
+<H2>REPEAT BY:</H2>
+<P>
+	Assuming /cdrom is an hsfs filesystem, execute the following
+	program:
+<P>
+<PRE>
+		main()
+		{
+			pathconf("/cdrom", 0);
+		}
+</PRE>
+<P>
+	Obviously do not do this, unless you have the authority to
+	install the fix below.
+<P>
+<H2>DISCUSSION:</H2>
+<P>
+	Two vnodeops in the hsfs_vnodeops struct appear to be left
+	undefined.  This fix points them to a real function which
+	then fails the operation in the correct way.
+<P>
+<H2>WORKAROUND & FIX:</H2>
+<P>
+<OL>
+ <LI>       Contact your vendor for a patch.
+<P>
+<LI>	In the meantime either install the workaround given
+	   below, or avoid using HSFS mounted filesystems.
+</OL>
+<P>
+<PRE>
+8<------------------------- cut here -------------------------
+/*
+ * 8lgm_hsfs.c -  SunOS 4.1.x HSFS bugfix.
+ * Copyright (C) 1994 by [8LGM].
+ *
+ * To use:
+ * 	cc -c -O -DKERNEL -D<kernel-arch> 8lgm_hsfs.c
+ * 	modload 8lgm_hsfs.o
+ */
+
+#include <sys/types.h>
+#include <sys/conf.h>
+#include <sys/buf.h>
+#include <sys/param.h>
+#include <sys/errno.h>
+#include <sys/user.h>
+#include <sys/time.h>
+#include <sys/vfs.h>
+#include <sys/vnode.h>
+#include <sys/ucred.h>
+#include <sys/syslog.h>
+#include <sundev/mbvar.h>
+#include <sun/autoconf.h>
+#include <sun/vddrv.h>
+
+extern	struct vnodeops hsfs_vnodeops;
+struct	vdldrv vd;
+
+int	(*old_hsfs_cntl)() = NULL;
+int	(*old_hsfs_realvp)() = NULL;
+int	loaded_8lgm_hsfs = 0;
+
+int
+hsfs_invalid()
+{
+	return (EINVAL);
+}
+
+
+int
+load_8lgm_hsfsfix()
+{
+	int	x;
+
+	x = splhigh();
+
+	old_hsfs_cntl = hsfs_vnodeops.vn_cntl;
+	old_hsfs_realvp = hsfs_vnodeops.vn_realvp;
+	hsfs_vnodeops.vn_cntl = hsfs_invalid;
+	hsfs_vnodeops.vn_realvp = hsfs_invalid;
+	splx(x);
+	return(0);
+}
+
+
+int
+unload_8lgm_hsfsfix()
+{
+	int	x;
+
+	x = splhigh();
+	hsfs_vnodeops.vn_cntl = old_hsfs_cntl;
+	hsfs_vnodeops.vn_realvp = old_hsfs_realvp;
+	splx(x);
+	return(0);
+}
+
+
+int
+xxxinit(function_code, vdp, vdi, vds)
+	unsigned int function_code;
+	struct vddrv *vdp;
+	addr_t vdi;
+	struct vdstat *vds;
+{
+	bzero(&vd, sizeof(vd));
+	vd.Drv_magic = VDMAGIC_PSEUDO;
+	vd.Drv_name = "8lgm-hsfs";
+
+	switch(function_code) {
+		case VDLOAD:
+			if (loaded_8lgm_hsfs) {
+				log(LOG_INFO, "8lgm: hsfs fix module loaded\n");
+				return(EEXIST);
+			}
+			vdp->vdd_vdtab = (struct vdlinkage*)&vd;
+			load_8lgm_hsfsfix();
+			loaded_8lgm_hsfs++;
+			log(LOG_INFO, "8lgm: hsfs fix module loaded\n");
+			return(0);
+		case VDUNLOAD:
+			return (unload(vdp, vdi));
+		case VDSTAT:
+			return(0);
+		default:
+			return(EIO);
+	}
+}
+
+
+static int
+unload(vdp, vdi)
+	struct vddrv *vdp;
+	struct vdioctl_unload *vdi;
+{
+	if (loaded_8lgm_hsfs == 0) {
+		log(LOG_INFO, "8lgm: hsfs fix module not loaded!\n");
+		return(0);
+	}
+	unload_8lgm_hsfsfix();
+	loaded_8lgm_hsfs = 0;
+	log(LOG_INFO, "8lgm: hsfs fix module unloaded\n");
+	return(0);
+}
+8<------------------------- cut here -------------------------
+</PRE>
+<P>
+<H2>FEEDBACK AND CONTACT INFORMATION:</H2>
+<P>
+<PRE>
+	majordomo@8lgm.org	(Mailing list requests - try 'help'
+				 for details)
+<P>
+	8lgm@8lgm.org		(Everything else)
+</PRE>
+<P>
+<H2>8LGM FILESERVER:</H2>
+<P>
+	All [8LGM] advisories may be obtained via the [8LGM] fileserver.
+	For details, 'echo help | mail 8lgm-fileserver@8lgm.org'
+<P>
+<H2>8LGM WWW SERVER:</H2>
+<P>
+	[8LGM]'s web server can be reached at <A HREF="http://www.8lgm.org">http://www.8lgm.org</A>.
+        <b>(online only)</b> This contains details of all 8LGM advisories and other useful
+	information.
+<HR>
+</BODY>

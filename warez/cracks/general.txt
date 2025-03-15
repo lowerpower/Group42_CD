@@ -1,0 +1,19 @@
+Unprotect for The Perfect General, by QQP.
+
+Crack by RAD
+
+Use Norton Utilities/PCTools or a hex editor for this crack. If you cannot
+find the string STOP NOW, you have a different version than the one I used 
+for this crack.
+
+File: GENERAL.EXE
+
+Search for:    8D 11 75 0E 9A 14 0A 05 20
+                     ^^ ^^
+Replace with:        EB 09
+
+It's that simple, now when the menu is accessed there will be no more
+annoying "Top Secret" verification screen.  
+
+                                        
+                                        RAD

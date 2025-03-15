@@ -1,0 +1,69 @@
+===========================================================================
+CA-91:09                        CERT Advisory
+                                July 15, 1991
+                     Patch for SunOS /usr/etc/rpc.mountd
+
+---------------------------------------------------------------------------
+
+The Computer Emergency Response Team/Coordination Center (CERT/CC) has
+received information concerning the availability of a security patch 
+for /usr/etc/rpc.mountd in Sun Microsystems, Inc. operating systems.  
+This problem will be fixed in SunOS 5.0.  Patches are available for
+SunOS 4.1, and SunOS 4.1.1 through your local Sun answer centers 
+worldwide as well as through anonymous ftp to ftp.uu.net (in ~ftp/sun-dist).
+Patch ID and file information are as follows:
+
+Fix                     Patch ID       Filename            Checksum
+/usr/etc/rpc.mountd	100296-01      100296-01.tar.Z     01501   233
+
+Please note that Sun Microsystems sometimes updates patch files.  If
+you find that the checksum is different please contact Sun Microsystems
+or us for verification.
+---------------------------------------------------------------------------
+    
+I.   DESCRIPTION:
+
+     If an access list of hosts within /etc/exports is a string 
+     over 256 characters then the filesystem can be mounted by 
+     everyone.
+      
+II.  IMPACT:
+
+     Unauthorized remote hosts will be able to mount the filesystem.
+
+III. SOLUTION:
+
+     As root:
+
+     1.  Move the existing rpc.mountd aside
+
+         # mv /usr/etc/rpc.mountd /usr/etc/rpc.mountd.OLD
+
+     2.  Install the new version
+
+         # cp sun{3,3x,4,4c}/{4.1,4.1.1,4.1_PSR_A}/rpc.mountd /usr/etc
+         # chown root.staff /usr/etc/rpc.mountd
+         # chmod 755 /usr/etc/rpc.mountd
+
+     3.  Kill the currently running rpc.mountd and restart it, or,
+         reboot the system.  Systems currently mounting filesystems
+         from this host will have interruptions in service either
+         way.  
+
+---------------------------------------------------------------------------
+
+If you believe that your system has been compromised, contact CERT/CC via
+telephone or e-mail.
+
+Computer Emergency Response Team/Coordination Center (CERT/CC)
+Software Engineering Institute
+Carnegie Mellon University
+Pittsburgh, PA 15213-3890
+
+Internet E-mail: cert@cert.org
+Telephone: 412-268-7090 24-hour hotline:
+           CERT/CC personnel answer 7:30a.m.-6:00p.m. EST,
+           on call for emergencies during other hours.
+
+Past advisories and other computer security related information are available
+for anonymous ftp from the cert.org (192.88.209.5) system.

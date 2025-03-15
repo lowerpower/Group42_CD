@@ -1,0 +1,159 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN" "html.dtd">
+<HTML>
+<HEAD>
+<TITLE>Hacking DEC's</TITLE>
+</HEAD>
+<BODY BGCOLOR="#505050" TEXT="#FFFFFF" LINK="#DFDFDF" VLINK="#BFBFBF" ALINK="#008000">
+
+<H1>Hacking DEC's</H1>
+<HR>
+Hacking DEC's                                 by the Jolly Roger
+
+<BR><BR>In this article you will learn how to log in to dec's, logging out, and all
+the fun stuff to do in-between.  All of this information is based on a
+standard dec system.
+<BR><BR>Since there are dec systems 10 and 20, and I favor, the dec 20,
+there will be more info on them in this article.  It just so happens
+that the dec 20 is also the more common of the two, and is used by much
+more interesting people (if you know what I mean...) Ok, the first thing
+you want to do when you are receiving carrier from a dec system is to find
+out the format of login names.  You can do this by looking at who is on the
+system.
+<BR>Dec=> `  (the 'exec' level prompt)
+<BR>you=> sy
+<BR>sy is short for sy(stat) and shows you the system status.
+<BR>You should see the format of login names...
+<BR>A systat usually comes up in this form:
+<BR>job  line  program  user
+<BR>job:  the job number (not important unless you want to log them off later)
+<BR>line:  what line they are on (used to talk to them...)
+<BR>These are both two or three digit numbers.
+<BR>Program:  what program are they running under?  If it says 'exec'
+they aren't doing anything at all...
+<BR>User:  ahhhahhhh!  This is the user name they are logged in under...
+<BR>Copy the format, and hack yourself outa working code... Login format is as
+such:
+<BR>dec=> `
+<BR>you=> login username password
+<BR>username is the username in the format you saw above in the systat.
+<BR>After you hit the space after your username, it will stop echoing
+characters back to your screen.  This is the password you are typing in...
+Remember, people  usually use their name, their dog's name, the name of a
+favorite character in a book, or something like this. A few clever
+people have it set to a key cluster (qwerty or asdfg).  Pw's can be from 1
+to 8 characters long, anything after that is ignored. You are finally in...
+It would be nice to have a little help, wouldn't it?  Just type a ? Or the
+word help, and it will give you a whole list of topics...
+<BR><BR>Some handy characters for you to know would be the control keys,
+wouldn't it? Backspace on a dec 20 is rub which is 255 on your ascii chart.
+On the dec 10 it is cntrl-h. To abort a long listing or a program,
+cntrl-c works fine.  Use cntrl-o to stop long output to the terminal.
+This is handy when playing a game, but you don't want to cntrl-c out.
+Cntrl-t for the time. Cntrl-u will kill the whole line you are typing at
+the moment.  You may accidently run a program where the only way out is
+a cntrl-x, so keep that in reserve. Cntrl-s to stop listing, cntrl-q to
+continue on both systems. Is your terminal having trouble??
+Like, it pauses for no reason, or it doesn't backspace right?  This is
+because both systems support many terminals, and you haven't told it what
+yours is yet... You are using a vt05
+so you need to tell it you are one.
+<BR>Dec=> `
+<BR>you=> information terminal
+<BR>or...
+<BR>You=> info
+<BR>this shows you what your terminal is set up as...
+<BR>Dec=>all sorts of shit, then the `
+<BR>you=> set ter vt05 this sets your terminal
+type to vt05.
+<BR>Now let's see what is in the account (here after abbreviated acct.)
+that you have hacked onto... Say
+<BR>=> dir
+<BR>short for directory, it shows
+you what the user of the code has save to the disk.  There should be a
+format
+like this:    <BR>xxxxx.Oooxxxxx is the file name, from 1 to 20 characters
+long.  Ooo is the file type, one of: exe, txt, dat, bas, cmd   and a few
+others that are system dependant.
+Exe is a compiled program that can be run (just by typing its name at the
+`).
+<BR>Txt is a text file, which you can see by
+<BR>typing=>
+<BR>type xxxxx.Txt
+<BR>Do not try to=>
+type xxxxx.Exe this is very bad for your terminal and will tell you
+absolutly nothing.
+<BR>Dat is data they have saved.
+<BR>Bas is a basic program, you can have it typed out for you.
+<BR>Cmd is a command type file, a little too
+complicated to go into here.
+<BR>Try =>
+<BR>take xxxxx.Cmd
+<BR>By the way, there are other users out there who may have files you can use
+(gee, why else am I here?).
+<BR>Type => dir <*.*> (Dec 20)
+<BR>=> dir [*,*]   (dec 10)
+<BR>* is a wildcard, and will allow you to access the files on other accounts
+if the user has it set for public access. If it isn't set for public
+access,then you won't see it. To run that program:
+<BR>dec=> `
+<BR>you=> username program-name
+<BR>username is the directory you saw the
+file listed under, and file name was
+what else but the file name?
+<BR><BR>**  You are not alone  **
+<BR>remember, you said (at the very start) sy  short for systat,
+and how we said this showed the other users on the system?  Well, you
+can talk to them, or at least send a message to anyone you see listed in a
+systat.  You can do this by:
+<BR>dec=> the user list (from your systat)
+<BR>you=> talkusername (dec 20)
+<BR>      send username (dec 10)
+<BR>talk allows you and them immediate transmission of whatever you/they type
+to be sent to the other.  Send only allow you one message to be sent, and
+send, they will send back to you, with talk you can just keep going. By the
+way, you may be noticing with the talk command that what you type is still
+acted upon by the parser (control program).  To avoid the constant error
+messages type either:
+<BR>you=>  ;your message
+<BR>you=>  rem your message
+<BR>the semi-colon tells the parser that what follows is just a comment.  Rem
+is short for 'remark' and ignores you from then on until you type a cntrl-z
+or cntrl-c, at which point it puts you back in the exec mode. To break the
+connection from a talk command type:
+<BR>you=>  break priv's:
+<BR>if you happen to have privs, you can do all sorts of things.
+First of all, you have to activate those privs.
+<BR>You=> enable
+<BR>this gives you a $ prompt, and allows you to do this:
+whatever you can do to your own directory you can now do to any
+other directory. To create a new acct. Using your privs, just type
+<BR>=>build username
+<BR>if username is old, you can edit it, if it is new, you can
+define it to be whatever you wish. Privacy means nothing to a user with
+privs.  By the way, there are various levels of privs:  operator, wheel,
+cia.
+wheel is the most powerful, being that he can log in from anywhere and
+have his powers.
+<BR>Operators have their power because they are at a special terminal
+allowing them the privs.  Cia is short for 'confidential information
+access', which allows you a low level amount of privs.
+<BR>Not to worry though, since you can read the system log file, which also
+has the passwords to all the other accounts.
+To de-activate your privs, type
+<BR>you=> disable
+<BR>when you have played your greedy heart out, you can finally leave the
+system with the command=>
+<BR>logout
+<BR>this logs the job you are using off the system (there may be varients
+of this such as kjob, or killjob).
+
+<BR><BR>                                ----------------Jolly Roger
+
+
+
+<H6>The creator of this page and any links it may lead to hereby takes no responsability or liability for anything that happens as a result of reading anything on this page or anything contained in subsequent pages. Users read at their own risk. It is <EM><STRONG>NOT</STRONG></EM> reccomended that the user do anything described in this and subsequent pages. Doing so may result in serious trouble, arrest, injury, and possibly deportation or death. Thank you. </H6>
+<A HREF="index1.htm"><IMG SRC="backto.gif"></A>
+</BODY>
+
+
+</HTML>

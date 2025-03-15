@@ -1,0 +1,1978 @@
+Newsgroups: alt.drugs
+
+The following message was sent to me by someone who wishes to remain
+known as Tyrone Slothrop.  Tyrone has asked that I post this article  
+to the appropriate groups.  I no longer have the collected works of 
+Tyrone Slothrop, although I believe that there are people out there
+that have them archived away somewhere.
+
+I am not responsible for the contents of this message.  Indeed, I must
+admit that, as of now I have not read it.  If need be, I will arrange
+to have reasonable responses delivered to Mr. Slothrop if you send
+them to my address.  I don't know whether or when he would be able
+to respond since this is the first time I've heard from him in a 
+couple of years.  
+
+% This document is in LaTeX format.  If you do not plan to print it out,
+% just read over the formatting material.  The text is in ASCII format
+% and can easily be read.
+
+This document is a response to a careful reading of this fascinating
+book by the Shulgins.  It is a long document, and contains five main
+sections:
+
+\LP
+1) Theology of Sulfur (a scientific response)\\
+2) A New Vocabulary (a review of PIHKAL)\\
+3) So Many Phenethylamines, So Little Time... (a guide to PIHKAL)\\
+4) References\\
+5) A Table of 311 Phenethylamines
+\eLP
+
+This review is considered to be unfinished, because there is so much
+in PIHKAL that it would not be possible to ever finish exploring, and
+because this author has other universes to explore as well.
+So many universes, so little time...
+
+\newpage
+
+\begin{center}
+{\Large {\bf Theology of Sulfur}}\\
+{\large {\bf A Scientific Response}}
+\end{center}
+
+Some of the richest of the compounds discovered by the Shulgins are
+those containing sulfur.  For those of you who want to follow the sulfur
+route right over the edge:
+
+\begin{quote}
+
+``Oneirine theophosphate is one way around the problem.  (Tchitcherine:
+`You mean thiophosphate, don't you?'  Thinks indicating the presence of
+sulfur....  Wimpe: `I mean theophosphate, Vaslav,' indicating the Presence
+of God.)....  There is in Laszlo Jamf's celebrated molecule a particular
+twist, the so-called `Pokler singularity,' occurring in a certain crippled
+indole ring, which later Oneirinists, academician and working professional
+alike, are generally agreed is responsible for the hallucinations which are
+unique to this drug.  Not only audiovisual, they touch all senses, equally.
+And they recur.  Certain themes, `mantic archetypes' (as Jollifox of the
+Cambridge School has named them), will find certain individuals again and
+again, with a consistency which has been well demonstrated in the
+laboratory (see Wobb and Whoaton, `Mantic Archetype Distribution Among
+Middle-Class University Students,' J. Oneir. Psy. Pharm., XXIII,
+pg. 406-453).  Because analogies with the ghost-life exist, this recurrence
+phenomenon is known, in the jargon, as `haunting.'  Whereas other sorts of
+hallucinations tend to flow by, related in deep ways that aren't accessible
+to the casual dopefiend, these Oneirine hauntings show a definite narrative
+continuity, as clearly as, say, the average Reader's Digest article.  Often
+they are so ordinary, so conventional - Jeaach calls them `the dullest
+hallucinations known to psychopharmacology' - that they are only recognized
+as hauntings through some radical though plausible violation of possibility:
+the presence of the dead, journeys by the same route and means where one
+person will set out later but arrive earlier, a printed diagram which no
+amount of light will make readable.  ...On recognizing that he is being
+haunted, the subject enters immediately into `phase two,' which, though
+varying in intensity from subject to subject, is always disagreeable: often
+sedation (0.6 mg atropine subcut.) will be necessary, even though Oneirine
+is classified as a CNS depressant.
+
+     ``About the paranoia often noted under the drug, there is nothing
+remarkable.  Like other sorts of paranoia, it is nothing less than the
+onset, the leading edge, of the discovery that everything is connected,
+everything in the Creation, a secondary illumination - not yet blindingly
+One, but at least connected, and perhaps a route In for those like
+Tchitcherine who are held at the edge....'' Pynchon (1973) Pp. 702-703
+
+\end{quote}
+
+\pagebreak
+
+\begin{abstract}
+The recent publication (Shulgin \& Shulgin, 1991) of a large body
+of data on human pharmacology of phenethylamines provides an
+opportunity for review and interpretation.  This review focuses
+on the following two points: 1) Many phenethylamines affect uniquely
+human aspects of mental function.  2) Human subjects can distinguish
+dozens or perhaps hundreds of phenethylamines.  The interpretation
+of these data is that evolution of new human functions of the brain
+may have been accompanied by the evolution of a diversity of chemical
+communication systems.  Many phenethylamines interact selectively with
+these diverse chemical systems, providing a set of tools for selective
+study of these functions in the intact human mind.
+\end{abstract}
+
+Over the years a growing list of centrally active phenethylamines has
+become known, and many of these exert effects in human subjects that
+involve uniquely human mental properties, such as the religious or
+aesthetic sensibilities.  In spite of the fact that these chemicals
+interact with uniquely human aspects of the mind, much of the work on
+their pharmacology has been conducted with animals.
+
+None-the-less, there have been active programs of human studies underway,
+and a recent publication (Shulgin \& Shulgin, 1991), presented data
+from thirty years of research involving hundreds of compounds tested
+in humans.  The subject of this 978 page book is the chemistry of the
+human mind, and the methodology of its exploration.  The life work of
+Alexander Shulgin, summarized in this publication, has led to the
+development of a methodology for the exploration of the chemistry of
+the human psyche, and he has used that methodology to generate a large
+set of chemical tools.
+
+These tools are non-invasive probes of the intact human mind.  Each
+individual chemical in this tool set increases the activity of specific
+pathways of the brain above their normal background activity level.  This
+generates a strong subjective experience of whatever function those specific
+brain tissues have in the normal intact mind.  The altered activity is
+transient, generally lasting several hours, after which the normal balance
+of activity returns.
+
+The book describes 311 chemical compounds, of which 120 were explored to
+fully active levels.  Each of these materials has a unique spectrum of
+activity, in the sense of which brain tissues it activates.
+Phenethylamines are only one of many classes of chemicals which alter
+the activity levels of specific brain tissue.  What sets phenethylamine
+compounds apart, is that some of the brain pathways whose activity they
+alter, affect uniquely human functions, such as cognition, the religious
+or aesthetic sentiments, the self-concept, fantasy, childhood memories,
+and the unconscious human psyche.
+
+This last observation underscores the significance of Shulgin's
+contribution.  The collection of chemical tools he has developed make
+possible the dissection of features of the human mind that can not be
+explored in animal studies.  The physical structures of the brain,
+activated by phenethylamines, which support the unique features of the
+human psyche, may have no counterpart in non-human animals.
+
+It is for these reasons that the methodology developed by Shulgin is so
+important.  The methodology was first presented in Shulgin, Shulgin and
+Jacob (1986) and is revealed again in greater detail in the first half
+of Shulgin \& Shulgin (1991).  The method involves careful titration of
+one human (Shulgin himself) with each new compound, with special attention
+to signs of toxic effects.  This is followed by testing at active levels
+by Shulgin and his wife Ann, and then by a research group consisting of
+close friends.  Each subject writes a report of the experience after each
+experiment.
+
+Shulgin's work is what might be called the natural history of the chemistry
+of the mind.  The work is largely descriptive: the determination of which
+compounds are active, at what levels, and the characterization of their
+subjective qualitative effects (he has also done considerable work in
+developing techniques for the synthesis of these compounds).
+
+For most readers of Shulgin \& Shulgin (1991) this natural history will
+be all that matters.  The tools can be used by individuals to explore
+components of the psyche whose discreteness is normally obscured by
+their being embedded in the complete tapestry of the mind.  By
+activiting specific components of the mind, they are made to stand out
+against the background of the remainder of the psyche, and their
+specific contribution to the psychic whole can be better appreciated.
+This is a valuable process of self-realization (Shulgin \& Shulgin,
+1991, p. 24):
+
+\begin{quote}
+...mescaline no more produced beauty than TMA produced anger.  Just as
+the beauty was always within me, so was the anger.  Different drugs may
+sometimes open different doors in a person, but all of those doors lead
+out of the same unconscious.
+\end{quote}
+
+However, from the perspective of the neurobiologist, the natural
+history of the mind should be only the first phase of the research
+program.  The next phase concerns the location and mechanism of
+action of these compounds in the human brain.  A great deal is
+already known of the mechanisms of action of a few phenethylamines
+in animals.  The mechanisms in humans are no doubt essentially the
+same, and probably vary only in detail.  The basic mechanism of
+action involves inhibition or excitation of some pathways of the brain
+as a result of binding and blocking or activating the receptors of
+neuro-transmitters such as serotonin or dopamine.
+
+What is most intriguing about the phenethylamines is how subtly
+different molecules cause subtly different subjective experiences.
+The explanation no doubt lies in the differing spectrums of binding
+affinities to and activities at the various receptors in the brain.
+Because different receptor types have different physical distributions,
+different spectrums of binding affinities and activities will result
+in the alteration of activity patterns of different regions of the
+brain.  Perhaps the most surprising implication of the phenethylamine
+data is that there is evidently a very high diversity of receptor
+types for these compounds in humans, thus allowing subtle and
+selective pharmacological manipulation of very many specific brain
+pathways.
+
+Current research into the action of ``hallucinogens'' is based on
+the concept that they could be best understood if we can find a
+mechanism of action that is common to all hallucinogens (Titeler,
+Lyon, and Glennon, 1988):
+
+\begin{quote}
+The phenylisopropylamine hallucinogens produce a syndrome that is
+apparently very similar to the spectrum of effects produced by LSD
+(Shulgin 1978).  One strategy for uncovering a specific hallucinogenic
+site of action for LSD has been to identify a common site of action of
+the phenylisopropylamine hallucinogens and LSD.
+\end{quote}
+
+While this approach has its value, it is based on a flawed assumption
+that these diverse compounds ``produce a very similar syndrome''
+(paraphrasing).  Any human who has experienced DOM, DOET, MDA, MDMA and
+3,4,5-TMA (this author has not) can testify that these compounds exert
+radically different subjective effects.  Yet, clearly there are some
+common features of these compounds that cause them to be subjectively
+recognized as ``psychedelics'' (this common feature is perhaps the
+uniquely human quality of the effects).  Therefore it would not be
+surprising if many or most of them shared some common sites and
+mechanism of actions (presently, evidence from animal studies indicates
+that this commonality is agonism at the 5-HT$_{2}$ receptor).  However,
+in humans at least, the commonality is more likely to lie in binding to
+a common family of receptors, rather than to a single common receptor.
+
+I would like to suggest that this search for {\it the} mechanism
+common to all phenethylamines represents a failure to recognize a
+richer and much more interesting phenomenon: the dramatic differences
+in subjective effects exhibited by different phenethylamines.  This
+failure may be due to the widespread but false belief that they
+``produce a very similar syndrome'', a failure arising out of the
+paucity of good comparative human pharmacological studies.  While
+there may be a receptor site such as 5-HT$_{2}$ that is bound by
+many phenethylamines, there must also be many other receptor sites
+that are affected differently by different compounds.
+
+I would like to suggest an alternative research program focused on the
+diversity of mental effects.  Ideally, we would like to characterize
+the physical distribution of every relevant receptor type in the brain,
+and then characterize the binding affinity and activity of every active
+phenethylamine at every receptor type.  With this information, we could
+probe the brain with each phenethylamine, and correlate the subjective
+human experience with the physical structures and pathways excited or
+inhibited by that compound.  In this way we could map the higher mental
+functions altered by phenethylamine to their underlying physical
+substrates.
+
+Progress in this direction is obstructed by more than restrictions
+on experimentation in human subjects.  The techniques used to
+determine the binding affinities and distributions of any class of
+chemicals in the brain simply can not be used in humans.  These
+studies are always done with animals.  However, animal studies will
+not allow us to sort out the interesting details of the diversity of
+mental actions of phenethylamines, because the relevant physical
+structures and receptor classes may not be present in animal brains.
+
+It has already been suggested that one of the four recognized classes
+of serotonin receptors in rat brains, 5-HT$_{1B}$ may not exist in
+humans.  Also, it appears that there may be differences in the receptor
+currently most implicated in phenethylamine drug action, 5-HT$_{2}$,
+between the brains of humans and rats.  Although this receptor bears
+the name 5-HT$_{2}$ which implies that it is a receptor for serotonin,
+in fact it binds serotonin only weakly, suggesting that it may be a
+receptor for an as yet unknown neurotransmitter (Heym \& Jacobs, 1987).
+
+Many receptor molecules have now been studied in detail, and this work
+indicates that each receptor class corresponds to a unique protein.
+Closely related receptors differ by some amino-acid substitutions in
+the receptor protein.  Each receptor class therefore is the product of
+a distinct gene within the genome.
+
+The human genome project should ultimately generate a complete catalog
+of receptor classes from the human brain.  It will then become possible
+to determine if there are receptor classes that are uniquely human.
+With the catolog of human receptors and genes available, it should be
+possible to manipulate the expression of the receptor genes in tissue
+culture, and test the binding affinities of the phenethylamines against
+the receptors in vitro.  Once the distribution of these receptors in
+the brain is determined, the information would then be in place to
+complete the ``ideal'' research program discussed above.
+
+This research program should allow what Shulgin has referred to as
+the ``Fourier Transform'' of mental states (Shulgin \& Shulgin, 1991,
+p.\ 474-475):
+
+\begin{quote}
+``A psychedelic drug experience is a complex combination of many
+signals going all at the same time.  Something like the sound of
+an oboe playing the notes of the A-major scale.  ...during the
+sounding of the note ``A,'' for example, there is a complex
+combination of harmonics being produced at the same time... This
+mixture defines the played instrument as being an oboe.
+
+This analogy applies precisely to the study of psychedelic drugs
+and their actions.... there are many components of a drug's action,
+like the harmonics from the fundamental to the inaudible which,
+taken in concert, defines the drug.  With muscial instruments, these
+components can be shown as sine waves on an oscilloscope....  But in
+psychopharmacology?  There is no psychic oscilloscope....  Certainly,
+any eventual definition of a drug will require some such dissection
+into components each of which makes some contribution to the complex
+whole.  The mental process may some day be defined by a particular
+combination of these components.''
+\end{quote}
+
+This passage indicates that Shulgin considers that each
+phenethylamine has a unique spectrum of action, and that we need
+a ``psychic oscilloscope'' to characterize them.  What is ironic
+is that he does not recognize that the instrument is at hand: the
+spectrum of binding affinities and actions at distinct receptor
+sites.  This is the instrument he seeks.  In this view, the purest
+psychic signal that could be induced chemically, consisting of a
+single ``harmonic,'' would be produced by a chemical that bound
+exclusively to a single class of receptor.  The finest chemical
+dissection of the psyche possible, involves interaction with a
+single receptor class.
+
+Throughout Shulgin \& Shulgin (1991) there is repeated discussion of
+structure activity relationships and their possible mechanisms
+(pp. 53-54, 68-69, 83, 585, 595, 615, 636, 644-646, 680, 691, 696-697,
+708, 711, 839-840, 909).  These discussions strike me as being
+completely off-base and fruitless.  I believe that the failure of
+these musings derives from what could be described as an
+``old-fashioned chemist mentality''.
+
+Most of this discussion reveals an unstated assumption that the mental
+activity is not the product of the activity of the compound itself,
+but of one of its metabolites, or perhaps even the process of
+metabolism itself.  The concept that the effect is due to a metabolite
+rather than the compound itself reminds me of the panspermia
+hypothesis for the origin of life: that life did not originate on
+Earth, but came here through space from some other planet.  This does
+not tell us how life originated, but simply moves the problem elsewhere.
+
+To assume that the compound itself is active is not only more
+parsimonious, but is supported by a large body of evidence from
+animal studies.  These studies indicate that phenethylamines bind
+with high affinity to specific receptors in the brain, and that
+they sometimes activate the receptor, and sometimes block the
+receptor (depending on which receptor and which compound).
+
+Apart from the tendency to assign activity to a metabolite rather than
+the primary compound, Shulgin reveals little of his personal views on
+structure activity relationships in Shulgin \& Shulgin (1991).  However,
+in Shulgin (1983) he ventures his favorite speculation:
+
+\begin{quote}
+The hows and whys of the action of this fascinating family of compounds is
+still a mystery, but some unorthodox speculations are tempting.  Our
+cultural heritage requires the initial conclusion that these transient yet
+potentially enduring changes of states of consciousness are unnatural or
+abnormal.  But perhaps they reveal the ``normal'' state through some
+disinhibition of an evolutionarily imposed safeguard.  Perhaps these
+chemicals, by themselves, or through the {\it in vivo} conversion to
+some intrinsically appropriate metabolite, may serve a neurotransmitter
+role at some synaptic network, restoring certain neurological functions
+that have been lost through evolution.  To many people, the states of
+awareness that are experienced are not ``abnormal,'' but rather, familiar
+territory that had been lost in some primal amnesia.
+\end{quote}
+
+The theory being advocated by Shulgin, is that there exist in the brain,
+certain inactive structures, that were active in our distant past,
+but which were inactivated through evolution.  The idea is that when
+they were active, humans were mentally very different animals, very
+peaceful and comptemplative, perhaps like Christ and the Buddha.  However,
+these mental states were not adaptive in the ``cold cruel world'', and
+were therefore eleminated by selection.  Or more specifically, the natural
+neurotransmitters that activated these structures were eliminated, but
+the networks remained.  Now when we ingest the appropriate chemicals,
+they play the role of the extinct transmitters, activating the still
+existant networks that generate the ancient mental states.
+
+I find this theory unconvincing, because the supposed ancestral
+mental state would never have been selected for by Darwinian evolution
+in the first place, as it would never have been adaptive in the
+``cold cruel world''.  Such an evolution would have required that our
+ancestors evolved in some kind of benign garden of eden, for which
+there is only contrary evidence.  None-the-less, there remains the
+possibility that within the wide range of human genetic variation,
+there will appear individuals like Christ and the Buddha, whose mental
+makeup varies to these maladaptive extremes through chance rather than
+selection.  The occasional presence of such individuals in cultures
+can have a tremendous impact, even if the vast majority of humanity
+is never able to achieve their level of enlightenment.
+
+\LP
+{\bf Summary of Structure Activity Relationships:}
+\eLP
+
+Below the chemical elements of structure activity relationships are
+briefly summarized, based on a survey of the human activity data
+presented by Shulgin:
+
+{\bf The ``ethylamine'' side chain:}
+
+\XPNS
+a)  The ethylamine side chain can take the following forms: ethylamine
+    or isopropylamine, and an OH group may or may not be placed on the
+    nitrogen.  Any other structure causes a drop-off in both quantitative
+    and qualitative effectiveness.
+
+b)  The isopropylamine chain generally has a higher potency and longer
+    duration than the ethylamine chain, however the ethylamine chain is
+    generally found to be qualitatively superior and (at least in the case
+    of the sulfur analogues) has a more consistent dose-response relationship.
+
+c)  The presence or absence of an OH group on the nitrogen has little effect
+    on either quality or potency.
+\eXPNS
+
+{\bf The phenyl ring:}
+
+\XPNS
+a)  The ring should have alkoxy and/or alkylthio substituents.
+
+b)  The greatest activity is found with two alkoxy-alkylthio substituents. 
+
+c)  The two alkoxy-alkylthio substituents provide greatest activity
+    if they are in the 2,5 or 2,6 positions.
+
+d)  The alkoxy-alkylthio substituents provide optimal activity if the
+    alkyl group is a methyl.  An ethyl group at the 5 position produces
+    a potency similar to the methyl analogue, but shows a much longer
+    duration (often too long).  An ethyl group at the 2 position shows
+    a decrease in potency and quality.
+
+e)  The 4 position should have a substituent other than H, and a very large
+    variety of substituents are suitable.  The substituient at this
+    position is critical to both the quantitative and qualitative
+    properties of the compound.  Electro-negative groups at this position
+    may enhance potency.
+\eXPNS
+
+\LP
+{\bf A Theory of Structure Activity Relationships:}
+\eLP
+
+    Below is a discussion of a speculative theory of ``what they do'',
+reflecting on the structure activity observations summarized above.
+The theory will be based on several assumptions, which are certainly
+not embraced by Shulgin.  These assumptions are the following:
+
+\XPNS
+a)  The material is active in its original, un-metabolized form.
+
+b)  The potency of a material is proportional to its binding affinity at
+    neurotransmitter receptors in the central nervous system (CNS).
+
+c)  The duration of a material is inversely proportional to its rate of
+    metabolism.
+
+d)  The qualitative properties of a material depend on which suite of CNS
+    receptors the material binds to.
+\eXPNS
+
+Consider that the human brain (like other brains) shows very elaborate
+physical specialization, in the sense that specific neurons or groups of
+neurons perform specialized functions.  This is nicely illustrated
+by the mapping of sensory neurons onto the neocortex.  In the
+somatosensory cortex, each point on the surface of the skin maps to
+a point on the surface of the cortex, and adjacent points on the skin
+map to adjacent points on the cortex.  Thus there exist illustrations
+of this mapping in which a homunculus is drawn across the cortex.
+
+Similarly, specialized language functions map to specific regions
+of the cortex: Broca's area, Wernicke's area, the arcuate fasciculus
+and the angular gyrus.  While few have actually been mapped, it is
+reasonable to expect that a wide variety of uniquely human functions
+have speciaized, localized physical substrates in the brain.
+
+The specialization of regions of the brain can manifest itself in
+many ways.  There is evidence that much of the neocortex is uniform
+in that locally it has but one kind of circuitry, and the
+specializations of function derive from specialization of inputs
+and outputs.  In this view, the auditory and visual cortex are
+structurally the same but differ primarily in the sensory modality
+of their inputs.
+
+However, at a finer scale, specializations of specific neurons may
+be revealed by characteristic morphologies, characteristic firing
+patters (e.g., bursty or not), or in the chemistry of the transmitters
+they release or respond to.  It is the chemical specialization that
+will be the focus here.
+
+It is probably safe to say that in terms of gross morphological
+features, the human brain shows the greatest level of complexity
+and specialization of known brains.  It seems likely that this
+observation could generalize to the level of chemical differentiation
+as well.  What is being suggested is that the human brain may well
+have a more diverse system of chemical communication than the brains
+of any other species.  It seems plausible as well, that any chemical
+communication systems that are uniquely human, are likely to be
+associated with mental functions that are uniquely human.
+
+Chemical differentiation can be expressed in a variety of ways, but
+those that are relevant to this discussion are the differentiation
+of transmitter substances and receptors.  If we were to visualize all
+cells of the brain which utilize a specific receptor or transmitter,
+we would see some kind of a functional unit, which conceivably may
+have a peculiar topology that would make it otherwise hard to
+recognize as an anatomical unit.
+
+For example, these cells could occur together in a clump or tightly
+linked network, thereby forming a clearly defined anatomical structure.
+Alternatively they could be widely dispersed through the brain so that
+a visualization of these cells alone would take the form of an extremely
+thin array sparsely permeating the volume of the brain; and conceivably
+these cell might make no contacts among themselves, thus not forming a
+network on their own.
+
+Regardless of the degree of anatomical cohesion of these chemically
+defined structures, it is likely that in many if not most cases, all
+cells that utilize a common chemical system represent some kind of
+functional unit.  Thus chemistry provides an alternative method of
+dissecting functional units in the brain.  Chemical definition can
+conceivably reveal functional structures that would be virtually
+impossible to recognize through anatomical studies.
+
+Chemical dissection has the rather unique advantage that through
+the use of drugs, it is possible to temporarily alter the activity
+of a chemical unit in an intact living brain, human or not.  In
+addition, the physical structure of these chemical units can be
+mapped by the examination of the brains of cadavers.  Thus by the
+combination of physical mapping of receptor distribution and the
+administration of receptor specific drugs, it is possible to associate
+physical chemical units with their functional significance through
+observation of the subjective effects of alterations in the activity
+of those units.
+
+If it is true that there are chemical systems that are uniquely
+human, and that they are associated with uniquely human mental
+function, then identification of drugs that interact with those
+unique chemical systems would facilitate understanding of those
+systems.  It would appear that phenethylamines may be such tools.
+A most interesting aspect of these drugs, as revealed through the
+work of the Shulgins, is their diversity of action.  It appears
+that human subjects can discriminate dozens if not hundreds of
+phenethylamine compounds.  Thus these compounds must interact
+differentially with a considerable number of underlying chemical
+functional units in the human brain.
+
+The diverse tool kit of phenethylamines developed by the Shulgins
+can be used to reveal and explore the functional significance of
+those various chemical units that they interact with.  The apparent
+ability of humans to distinguish qualitative differences between such
+a large number of phenethylamines, provides circumstantial evidence
+for the existance of a great diversity of chemical communication
+systems in the brain.  The apparent lack of ability of rodents to
+discriminate these same materials, suggests that some of this apparent
+chemical diversification may be uniquely human.
+
+\LP
+{\bf Some Further Speculations:}
+\eLP
+
+One of the most intriguing aspects of the data presented in Shulgin \&
+Shulgin (1991) is the ``magic of the 4-position''.  If we take 2,5 or
+2,6 - dimethoxy phenethylamine or phenylisopropylamine, and play with
+the 4-position, we get a wide variety of compounds with distinct effects.
+One possible explanation of this data would be the following:
+
+The family of receptor sites to which the phenethylamines bind have
+evolved from a common ancestral receptor structure.  Some regions of
+the binding site have been conserved in this evolution, and others
+have varied.  The region of the binding site that has varied the most,
+aligns with the 4-position of the phenethylamine during binding.  The
+remainder of the receptor binding site has been relatively conserved
+in evolution, and makes the best fit to the 2,5 or 2,6 - dimethoxy
+phenethylamine or phenylisopropylamine structure.
+
+It has also been noted that alkylthio phenylisopropylamines show a
+lot of variability of effects between individuals.  This suggests
+that there is genetic variation within the human population for the
+specific receptor classes that best bind these compounds.  These are
+fairly wild speculations at this point.  But they have the merit that
+they can eventually be tested when the catalog of human receptor types
+becomes available for study.
+
+I would like to make an additional point here, about the exploration of
+qualitative variations.  It can be tempting to pursue compounds that
+make one feel good.  These are certainly the ones that are likely to get
+the most use.  However, one of the objectives of psychic exploration is
+to become more familiar with the components of the psyche, both positive
+and negative.  It appears that Shulgin \& Shulgin (1991) have been
+fairly unbiased in this respect.  He describes Aleph-1 as producing
+``the most delicious blends of inflation, paranoia and selfishness''
+(p. 80).  About 2C-E he said (p. 518):
+
+\begin{quote}
+Several people have said, about 2C-E, ``I don't think I like it, since
+it isn't that much fun.  But I intend to explore it again''.  There is
+something here that will reward the experimenter.... let it rest as being
+a difficult and worth-while material.  A very much worth-while material.
+\end{quote}
+
+Perhaps the most negative compound explored is TMA.  The original
+publication on TMA, Shulgin, Bunnell and Sargent (1961) provides this
+description:
+
+\begin{quote}
+The emotional responses elicited during the period of maximum...
+intoxication... were striking in their intensity.  Anger, hostility,
+and megalomaniac euphoria dominated the subject's thoughts and
+conversation.  Actual acts of hostility were not observed, but it was
+felt that, in at least two subjects, provocation would have precipitated
+homicidal violence.
+\end{quote}
+
+I have already quoted from Shulgin \& Shulgin (1991) (p. 24) where
+Shulgin points out that the anger of TMA and the beauty of mescaline
+are not products of the drugs, but different aspects of the same
+unconscious, opened up by the drugs.
+
+Finally, it is interesting to wonder at the (evolutionary) reasons for
+the apparent chemical diversity of the brain.  The number of known
+neurotransmitters is in the dozens and growing rapidly.  For each of
+the better studied neurotransmitters, there are several known classes
+of receptors.  Why does the brain need more than two chemical communication
+systems: one excitatory, and one inhibitory (which could be accomplished
+with a single transmitter and two receptors)?  And why does the brain need
+multiple receptors for each transmitter?
+
+The chemical diversity suggests that patterns of interconnections
+alone are not enough to meet the information processing needs of the
+brain.  Different chemical systems must have different information
+transmission properties.  In addition, there may be means of globally
+affecting the activity of whole systems of neurons that use a common
+chemical messenger or receptor.
+
+\newpage
+
+\begin{center}
+{\Large {\bf A New Vocabulary}}\\
+{\large {\bf A Review of PIHKAL}}
+\end{center}
+
+\begin{quote}
+
+``Gustav tends to sneer, but Saure [Bummer] really turns out to be an
+adept at the difficult art of papyromancy, the ability to prophesy
+through contemplating the way people roll reefers - the shape, the
+licking pattern, the wrinkles and folds or absence thereof in the
+paper.  `You will soon be in love,' sez Saure, `see this line here.'
+
+```It's long, isn't it?  Does that mean - '
+
+```Length is usually intensity.  Not time.'
+
+...```How do you like this shit?' sez Saure.
+
+```Hubsch,' allows Gustav.  `A trifle stahlig, and perhaps the infinitesimal
+hint of a Bodengeschmack behind its Korper, which is admittedly suffig.'
+
+```I would rather have said spritzig,' Saure disagrees, if that indeed is
+what it is.  `Generally more bukettreich than last year's harvests,
+wouldn't you say?'
+
+```Oh, for an Haut Atlas herbage it does have its Art,  Certainly it can
+be described as kernig, even - as can often be said of that sauber
+quality prevailing in the Oued Nfis region - authentically pikant.'
+
+```Acutally I would tend to suspect an origin somewhere along the southern
+slope of Jebel Sarho.' Saure sez - `note the Spiel, rather glatt and
+blumig, even the suggestion of a Fulle in its wurzig audacity-'
+
+```No no no, Fulle is overstating it, the El Abid Emerald we had last
+month had Fulle.  But this is obviously more zart than that.'
+
+``The truth is they are both so blitzed that neither one knows what he's
+talking about...''  Pynchon (1973, p. 442).
+
+\end{quote}
+
+The book PIHKAL (Phenethylamines I Have Known And Loved), A Chemical
+Love Story, is unusual in that it combines under one cover, an
+auto-biographical novel about a love triangle, and 30 years of scientific
+laboratory notes.  The entire package weighs in at a hefty 978 pages, and
+is not padded.  The unusual presentation is a reflection of the subject
+matter: the chemistry of the human mind and the methodology of its
+exploration.
+
+I consider the life work of Alexander (Sasha) Shulgin to represent one of
+the most significant scientific contributions of this century.  I say this
+because he has perfected a methodology for the exploration of the chemistry
+of the human psyche, and he has used that methodology to generate a large
+set of chemical tools.  These tools are non-invasive probes of the intact
+human mind.
+
+This methodology violates all acceptable scientific procedures, and as
+such is at the root of the scientific advance that Shulgin's work
+represents.  It is only when imaginative scientific individuals break
+free from scientific traditions that they cease to be builders and
+become architects.  This is what underlies scientific revolutions.  In
+spite of the revolutionary nature of Shulgin's work, it will not incite
+a scientific revolution because in 1986 the methodology was prohibited
+by legislation at the national level in the United States.
+One can only speculate as to what might become of Shulgin's chemical tool
+set, if the use of psychedelics in research or therapy with human subjects
+should become accepted at some time in the future.
+
+\begin{center}
+\large \bf The Love Story \rm \normalsize
+\end{center}
+
+PIHKAL is divided roughly in half, into two books.  ``Book I, The Love
+Story'', is an autobiographical novel about a love triangle.  In contrast
+to Castenada's presentation of fantasy as fact, the Shulgins have chosen
+to present fact as fiction, evidently to protect the guilty.  Under
+slightly altered names, the book details the paths that lead Sasha and
+Ann Shulgin to psychedelic drugs and to each other.
+
+Having followed the work of Alexander Shulgin for over fifteen years,
+I was initially disappointed to discover that he had written less than
+a third of Book I.  However, as I read the book, I came to realize that
+Ann writes with a greater openness and depth of feeling.  This is not to
+say that Sasha can not show as much.  In fact his discussion of his
+feelings regarding the death of his wife were remarkably open.  However,
+we learn more about Sasha's personal life through Ann's voice than his
+own.  On the whole, Book I is startling in how much it reveals of the
+personal life of the two Shulgins.  Yet it must be remembered that this
+is a fictionalized autobiography, so any particular passage may be either
+fact or fiction.
+
+Sasha never discusses sex, and his descriptions of drug experiences tend
+to be brief, clinical, and second or third person.  Compare his less than
+one page description of his first psychedelic experience (mescaline,
+p. 16) to her twenty page description of her first experience (peyote,
+p. 111).  While this distinction in their writing is generally true,
+there are exceptions.  Sasha's description of his first 2C-E (p. 88)
+experience is impressive and fairly detailed, though it sounds unpleasant.
+On the other hand, in many of Ann's descriptions, the drug experience
+itself is in the background; it is just another thing going on in the
+story and is not presented in great detail.  These discussions provide
+little insight into the unique properties of the compounds involved.
+
+The ideal would be something like Naranjo (1973), which remains the
+best comparative study of psychedelics that I have seen.  Naranjo treats
+four compounds (MDA, MMDA, harmaline and ibogaine) in detail, clearly
+characterizing the qualitative properties of each and differentiating
+between them.  However, he devoted an entire book to these four compounds.
+In order for the Shulgins to provide equal detail for their hundreds
+of compounds, they would have to produce an encyclopedia, rather than
+a mere thousand page book.
+
+Apart from providing relatively detailed descriptions of the subjective
+effects of a number of drugs whose effects have not previously been
+published, Book I provides a very vivid presentation of the methodology
+used to explore these materials.  We meet the research group that tests
+the materials after Sasha has determined the effective dose range.  They
+gather at the Shulgin's home, in a group of six or eight.  Sasha describes
+what he knows of the new material and its dose range.  Each person chooses
+their dose, and the material is dissolved in water or juice and taken in a
+toast.  After the experience, each member of the group must submit a
+written description of the experience.
+
+The selection of examples of drug experiences presented could not easily be
+construed to represent an attempt at drug advocacy.  The examples include
+as many failures and frightening or unpleasant experiences as pleasurable
+ones.  It is evident that it has taken considerable courage to personally
+test so many new and completely unknown compounds.  The retrospective of
+thirty years of such research evidently indicates that no one in the
+research group suffered any harm from the experiments.  However that
+outcome could not have been known in advance.
+
+Book I describes two experiences in which it was feared that damage
+might have been done.  Chapter 36 describes a group experiment in which
+one member became essentially catatonic for the duration of the effects
+of the drug.  This caused considerable distress among the other members
+of the group who feared that the state may have been caused by neurological
+damage from this new and essentially unknown compound.  However, as the
+effects of the drug wore off, the catatonic individual regained
+responsiveness, and reported ``I was in the most amazing place,...
+beautiful,...  an extraordinary experience,... truly fantastic''.
+
+Chapter 38 describes a ``spiritual crisis'', which began 24 hours after
+Ann took an inactive dose of a new compound.  This crisis, is described
+in Book II as ``a complex and psychologically disruptive syndrome... that
+lasted for the better part of a week'' (p. 597).  This is perhaps the most
+disturbing passage in the book, as it was a highly unusual experience,
+very much like being under the influence of a psychedelic drug, but
+continuously for a week, and evidently without the direct contribution of
+a psychedelic chemical.  The implication is that extensive experimentation
+with psychedelics could make one susceptible to this kind of evidently
+uncontrolled and unwelcome experience.  Although the term was not used,
+this experience could have been called a ``flash-back''.  Not
+coincidentally, Chapter 37 discusses the phenomena of flash-backs.
+
+Another interesting aspect of Book I is the elucidation of how Sasha
+Shulgin was able to pursue such an unusual career.  He began working with
+psychedleics while employed as a chemist at ``Dole'' chemical company.
+Eventually the company began to frown on the work, and he chose to leave
+the company to become a free-lance chemist-consultant.  He is an
+analytical chemist with a federal license to work with all scheduled
+drugs.  His consultant work includes serving as a witness in court cases
+concering drugs.
+
+In addition to his decision to leave the company and become independent,
+he also made a decision not to take his work underground.  He has continued
+to publish much of his work over the years in various scientific
+publications, now totaling over 160 articles, patents, chapters and books.
+
+\begin{center}
+{\large {\bf The Chemical Story}}
+\end{center}
+
+``Book II, The Chemical Story'' is the compilation of thirty years of
+Alexander Shulgin's lab notes.  It begins with an index listing 179
+phenethylamines.  Book II represents a very bold program of chemical
+exploration.  The kinds of functional groups and hetero-atoms placed on
+the basic psychedelic phenethylamine skeleton, particularly in the
+4-position, are very diverse.  The use of halogens, sulfur, triple-bonds,
+cyclopropyl groups, nitro groups, and even a selenium atom indicate a
+willingness to try just about anything.  While there are many compounds
+that suggest a sort of turning over of stones approach, there are also
+instances of systematic exploration of structure - activity relationships.
+
+In some cases it is clear that the synthesis got too far ahead of the
+testing.  Book II opens with a chemical joke consisting of wild speculation
+of structure activity relationships.  However, underlying the joke is the
+fact that eight analogs in the wildly speculative logical series were
+synthesized or begun before the fallacy of the enterprise was recognized.
+There seems to have been some mania for synthesis.  However, that series
+was synthesized at the beginning of the work, about thirty years ago when
+Shulgin was relatively naieve about structure activity relationships and
+inexperienced with psychedelics.
+
+For each of these 179 compounds, there is a separate entry
+in Book II, generally consisting of five parts: Synthesis, Dosage,
+Duration, Qualitative Comments, and Extensions and Commentary.
+
+\LP
+{\bf Synthesis}
+\eLP
+
+    Book II contains explicit and detailed descriptions of the synthesis of
+each of the phenethylamines discussed in the book.  The recipes are clear
+and complete.  They include considerable discussion of how to isolate and
+purify the intermediate reaction products and the final product; critical
+information often lacking from such recipies.  It should be possible to
+synthesize any of the materials discussed in the book from the information
+given, however, this would also require an experienced chemist working in
+a well equiped lab.  I raise this issue because the book is published as a
+non-techinical ``popular'' work (having already sold over ten thousand
+copies).  However, the syntheses could not be completed by most readers.
+
+    Some examples of procedures that clearly require a fully equipped lab
+follow: A typical synthesis works up the appropriately substituted
+nitrostyrene or nitropropene, which is sometimes a long procedure.  This
+product is then reduced with lithium aluminum hydride in a diethyl ether
+solution under a helium atmosphere.  Intermediate products are often
+purified by distillation under a vacuum.  Some reactions generate noxious
+gasses such as hydrogen sulfide, hydrogen chloride, or hydrogen cyanide.
+In some reactions, special care had to be taken to avoid an explosion risk.
+One synthesis reports that an intermediate product detonated spontaneously
+after sitting for a few days.
+
+\LP
+{\bf Dosage \& Duration}
+\eLP
+
+Each of these are one liners, for example:\\
+DOSAGE: 4 -- 8 mg\\
+DURATION: 8 -- 16 h.
+
+\LP
+{\bf Qualitative Comments}
+\eLP
+
+This section consists of a series of paragraphs describing the subjective
+effects of the compound.  Each paragraph begins with a dosage, and successive
+paragraphs generally represent larger dosages, spanning the full effective
+dose range of the compound.  The paragraphs are largely gleaned from the
+notes contributed by members of the research group.
+
+\LP
+{\bf Extensions and Commentary}
+\eLP
+
+     This section is where comments are made about the effects of specific
+compounds which go beyond simple descriptions of the effects.  The effects
+of different compounds are compared, and speculations about structure
+activity relationships appear.  Often this sections presents sub-recipes,
+including the complete synthesis, dosage, duration and qualitative effects
+of additional compounds related to the title compound.
+
+     The extensions and commentary include considerable discussions
+of the system used to name the psychedelic compounds, and also introduces
+some basic principles of psychedelic chemistry:  There is a discussion
+of sulfur - oxygen chemistry on pages 856-857, and a discussion of the
+essential oils and related psychedelics on pages 860-864.  All and all,
+I found the extensions and commentary to be the most interesting part of
+PIHKAL.
+
+\begin{center}
+{\large {\bf Critical Points:}}
+\end{center}
+
+     While I have great admiration for the accomplishments of the Shulgins
+in exploring the chemistry of the mind, reviewing the book brings up two
+points which I find irritating:  1)  Exploration of many of the materials
+was abandoned at low levels, indicating an emphasis on potency not quality.
+2)  The book is permeated with an ``old-fashioned chemist mentality''
+towards structure activity relationships, which ignores the understanding
+that can be gained from viewing activity as based on an interaction between
+the molecules and neurotransmitter receptors in the brain.  The issue of
+structure activity relationships is dealt with in the scientific response
+above, while the potency not quality issue is dealt with below.
+
+     Just how many phenethylamines are there?  This is an ambiguous and
+unanswerable question.  The more relevant question is: how many psychedelic
+phenethylamines are there?  This is still not known, but the question that
+we can address, is: how many potentially active phenethylamines are known,
+and what is their status?  The index on pages 453-457 lists 179
+phenethylamines.  However, study of the 179 ``recipes'' reveals that many
+of them describe more than one compound.  Generally, under a single recipe,
+data will be presented on closely related materials.  A list was made of
+all phenethylamines discussed in Book II, for which there was presented at
+least either the synthesis, or data on activity in humans, or a separate
+recipe (Table 1, at the end of this document).  This exercise turned up
+311 compounds.
+
+     Table 1 contains a ``status'' column, in which each of the 311
+compounds was classified into one of the following categories:
+
+\XPNS
+U)  Untasted: has been synthesized, but not tested in humans.
+
+S)  Sub-threshold: psychedelic activity has not been demonstrated, however,
+    the compound has not been tested up to the 200 mg level.  Mescaline is
+    considered active at the 200-400 mg level.  Mescaline is a highly rated
+    compound, considered among the top five phenethylamines, based on its
+    qualitative properties (p. 570).  Yet mescaline is also the least potent
+    phenethylamine still considered to be active.  For this reason, in this
+    classification, human titrations are not considered complete unless they
+    have shown either activity, signs of toxicity, or they have gone up to
+    at least the 200 mg level.
+
+T)  Threshold: the compound was tasted only to threshold levels, thus it has
+    not been possible to characterize the psychedelic properties.
+
+X)  Toxic: signs of toxicity appear at dosage levels below which psychedelic
+    activity appears.
+
+P)  Physical more than mental: the compound is psychedelic, but generates
+    unpleasant physical symptoms which are considered to not be adequately
+    compensated for by the mental effects.
+
+A)  Active: clearly shows psychedelic activity.
+
+N)  Not active: the compound has been tested up to at least the 200 mg level,
+    and no activity has been found.
+
+O)  Other than psychedelic activity: other than psychedelic activity has been
+    demonstrated.  These ``other'' activities include such things as:
+    anti-depressant, analgesic, anorexic, adrenergic bronchodilator,
+    stimulant and antitussive.
+
+I)  Incomplete synthesis: the synthesis is described, but it has not been
+    completed, thus the final phenethylamine is not yet available for study.
+
+?)  Status unknown: the compound appears in the book, but there is no
+    statement as to the status, it is probably untested.
+\eXPNS
+
+     The distinction between categories X and P is subtle and perhaps not
+meaningful.  It is based on the wording presented in the description of the
+effects.  Sometimes it is explicitly stated that a material is believed to
+be toxic, and these compounds are classified as X.  Other descriptions
+report a body load that is greater than the mental effects, and these are
+classified as P.
+
+     The counts of compounds in each of the categories are summarized in
+Table 2 below:
+
+\begin{tabular}{lrl}
+     U)  &   71  &   Untasted\\
+     S)  &   51  &   Sub-threshold\\
+     T)  &   31  &   Threshold\\
+     X)  &    2  &   Toxic\\
+     P)  &   11  &   Physical more than mental\\
+     A)  &  107  &   Active\\
+     N)  &   25  &   Not active\\
+     O)  &    8  &   Other than psychedelic activity\\
+     I)  &    2  &   Incomplete synthesis\\
+     ?)  &    3  &   Status unknown\\
+\end{tabular}
+
+     It seems a pity that there are a total of 153 compounds in the combined
+U, S, and T categories.  The large number of untasted compounds is due in
+part to the fact that some of these compounds were developed as potential
+brain imaging compounds, and were never intended to be psychedelics, and so
+have not been tasted.  However, these account for less than half of the U
+category.
+
+     What is the most frustrating is the S category (and to a lesser extent
+the T category), where it seems that the tasting efforts were aborted at
+sometimes absurdly low levels.  Here we must recognize that Sasha Shulgin
+has chosen to test all compounds on himself before exposing other humans to
+the materials.  This is a comendable practice, but it leads to the problem
+of ``so many phenethylamines, so little time''.
+
+     It appears that there is yet another reason why many compounds were only
+titrated to very low levels.  Many compounds were synthesized as variations
+on known active compounds.  They were then titrated up to the level at which
+the model compound showed activity.  If they were not active at that level,
+titration was stopped.  This indicates that in this work, there was a
+greater emphasis on potency than on the qualitative properties of the
+compounds.  There may be many mescalines or MDMAs (ecstacy) among these
+sub-threshold compounds; materials which show marvelous activity at much
+higher doses than have been tested.
+
+     It would be interesting to know the dates of synthesis and testing of
+these materials.  I suspect that much of the earlier work placed a great
+emphasis on potency, while in his later work, he has shown a greater
+interest in quality.  For example, the 2C compounds are generally less
+potent but qualitatively better than the 3C compounds.  Yet much of the
+work on the 2C compounds has evidently been in the last ten years.
+Shulgin (1983) describes this changing focus in his own words:
+
+\begin{quote}
+
+Throughout this early work, I was absorbed primarily with how much of a
+chemical it took to achieve an effect, rather than with the nature of the
+effect achieved.  In my notes the term ``psychedelic effectiveness''
+reflected only the potency.  I left to others the task of determining the
+qualitative aspects of the effects of these drugs, and their potential
+values.  It was around this time that I became aware that I was trying
+to answer a complex question with a hopelessly restricted vocabulary....
+
+A modest wealth of discovery in several research environments throughout the
+world began uncovering the generality of psychedelic drug structures and,
+much more important to the studies that stemmed from this, a wealth of
+qualitative distinctions and values which can be found within them.
+
+Here was the start of my quest of caring.  I began the study of these drugs,
+not from the viewpoint of classification and simple assignment of potency,
+but inquiring into the values of human interaction that can result from
+their study in terms of personal development.  I became aware that it was
+of little merit merely to observe what a drug does to the human nervous
+system, unless one also observes how it permits a person to interact with
+others, and especially, how it allows him to acknowledge himself....
+
+Now, the quest is assuming a different character.  There is a need for
+integration.  There are literally hundreds of psychedelic ``catalysts''
+currently at hand that run the gamut of potencies and qualitative
+characteristics.  But now it is becoming apparent to me that these
+materials, rather than being simply flowers in an expanding anthology,
+could have value beyond their present acceptance as sensory disinhibitors.
+
+\end{quote}
+
+     While it is a great shame that the titration of so many materials was
+abandoned simply because they were less potent than the compound they were
+considered an analog to, there are good reasons to seek more potent
+compounds:
+
+     The ideal psychedelic would have its direct effect only on the
+central nervous system, showing no activity in the peripheral nervous
+system.  However, in the real world, any random phenethylamine is likely
+to have some level of affinity for binding at receptors in the peripheral
+nervous system.  Given that some such affinity may be present, the greater
+the dose that is put into the system, the more likely that peripheral
+effects will manifest themselves.  Therefore the most potent materials
+stand the best chance of having nearly pure CNS activity.
+
+     Another reason for seeking potency is that once a number of extremely
+potent compounds are known, their structures can be freely varied in search
+of qualitative properties.  Variations on the structure of highly potent
+compounds are likely to result in a loss of potency, but when you start from
+such a height of potency, there is a lot of room to drop.  This makes it
+possible to more freely explore qualitative variations, with less chance of
+varying into an inactive structure.
+
+\newpage
+
+\begin{center}
+{\Large {\bf So Many Phenethylamines,}}\\
+{\Large {\bf So Little Time...}}\\
+{\large {\bf A Guide to PIHKAL}}
+\end{center}
+
+     Those of you who enjoyed PIHKAL are no doubt looking forward to
+the publication of TIHKAL (tryptamines I have known and loved), dealing
+with the indole based psychedelics.  An interesting twist on the indole
+story is the concept of the indole polymer.  These have also been
+developed and experimented with, producing some interesting results,
+most notoriously Imipolex.  One experimental subject reports:
+
+\begin{quote}
+
+``They took away my clothes and dressed me in an exotic costume of some
+black polymer, very tight at the waist, open at the crotch.  It felt
+alive on me. `Forget leather, forget satin,' shivered Drohne.  `This
+is Imipolex, the material of the future.'  I can't describe its perfume,
+or how it felt - the luxury.  The moment it touched them it brought my
+nipples up swollen and begging to be bitten.  I wanted to feel it against
+my cunt.  Nothing I ever wore, before or since, aroused me quite as much
+as Imipolex.  They promised me brassieres, chemises, stockings, gowns of
+the same material.  Drohne had strapped on a gigantic Imipolex penis
+over his own.  I rubbed my face against it, it was so delicious....
+There was an abyss between my feet.  Things, memories, no way to
+distinguish them any more, went tumbling downward through my head.  A
+torrent.  I was evacuating all these, out into some void ... from my
+vertex, curling, bright-colored hallucinations went streaming ... baubles,
+amusing lines of dialogue, objects d'art ...  I was letting them all go.
+Holding none.  Was this `submission,' then - letting all these go?''
+Pynchon (1973, p. 488).
+
+\end{quote}
+
+Because PIHKAL is so large, I would like to assist readers who have less time
+to invest by making available some of the fruits of my careful reading, in
+the form of a sort of index to things that I found interesting in the book:
+
+Many readers will want to know which of the 311 compounds presented are
+the ``best''.  Early in his career, Sasha classified compounds as better
+if they were more potent, regardless of their qualitative effects.  Perhaps
+he has mellowed with age, or perhaps he has become more honest.  On page
+570, he lists what he considers the five top phenethylamines, based on
+``their acceptability and their intrinsic richness''.  They are: 2C-T-7,
+2C-T-2, 2C-B, mescaline and 2C-E.  Interestingly, all of them are quite
+literally phenethylamines.  That is, none of them are phenylisopropylamines.
+It is not clear if the list was meant to be restricted to phenethylamines,
+or if none of the phenylisopropylamines made it into the list of the top
+five.
+
+\LP
+{\bf Descriptions of Drug Experiences in Book I}
+\eLP
+
+\XPNS
+p. 11-13 his first drug experience: morphine
+
+p. 15-17 his first mescaline experience, description in $<$ 1 page,
+   actually a distillation, not a moving description, but a strong one.
+
+p. 22-25 TMA: ``mescaline no more produced beauty than TMA produced anger.
+   Just as the beauty was always within me, so was the anger.  Different
+   drugs may sometimes open different doors in a person, but all of those
+   doors lead out of the same unconscious.''
+
+p. 34-39 MMDA: a description of the experience by ``a poet''.  I find the
+   description to be ``new age'' and uninformative.
+
+p. 51-52 MEM: a very powerfull account of a signinficant therapeutic effect
+   on a woman whom he used it with.
+
+p. 54-56 DOM: completely clinical description of the drug, except for a
+   three line quote at the end of the chapter.
+
+p. 69-74 MDMA: the description of therapeutic benefits are convincing but
+   detached, 2nd person.
+
+p. 75-79 MDOH-MDA-marijuana combination: Time-Stop.  Fairly detailed but
+   clinical description.  He was frightened, sounds unpleasant.
+
+p. 81-87 Aleph-1: his 1st person present tense narative, the written notes
+   from the experience.  But they sound rather crazy.  ``the most delicious
+   blends of inflation, paranoia and selfishness''.
+
+p. 88-97 2C-E: and death of wife.  This section is written with a great deal
+   of honesty.  The  description of 2C-E is impressive and fairly detailed,
+   but sounds unpleasant.
+
+p. 92 describes three trips that were utter failures.
+
+p. 111-131 peyote: she describes peyote with much personal intimacy \&
+   detail.  20 pages! compared to his 1 page distillation on p. 16-17.
+
+p. 192-203 MDMA: 11 pages, her first person present narrative.  There is a
+   lot of talk by him.  We learn more about his marriage than he told us in
+   his own voice.
+
+p. 210-217 Aleph-2: she didn't get off, so it not a very exciting
+   description.  But this is the first description of the group.
+
+p. 219-222 2C-B: the description is not very intriguing, given that this
+   is one of the ``best'' materials.  Shows that one can have sex with it.
+
+p. 224-229 DOM: again, not a remarkable drug description.  The narration is
+   more about their experiment with bondage.  It occurs to me that he never
+   discussed sex in his own voice, but she does a lot.
+
+p. 233-239 psilocybine: not a phenethylamine, a decent description of the
+   experience.
+
+p. 248 MDMA: used to defeat ``Siberian wastelands'', only a mention.
+
+p. 260 Mescaline: a group experiment at high dose.  The narrative left me
+   feeling like an outsider to the experience.
+
+p. 283-285 2C-T-2: a fairly shallow description, focused on the sexual
+
+p. 288-296 DOB: some initial stoned thoughts, some sex, some conversation.
+   Little real sense of what the drug does.
+
+p. 303-306 MDMA: a rather remarkable experience in which her anger about
+   loosing Shura to Ursula was interrupted by a voice telling her that
+   Shura would be hurt and would need her.  This proved to be true.
+
+p. 323-329 LSD: some sense of imagery, sex, conversation, but the drug
+   still seems to be in the background.
+
+p. 340-344 2C-I: this is one of the better descriptions.  She describes
+   an interesting sensation of the city of Aachen, and some interesting
+   imagery.  They have sex.
+
+p. 346-357 5-TOM: this was a fairly detailed group experiment, but a shallow
+   material.  One group member went catatonic, causing a scare.
+
+p. 393-395 MDMA: rather brief description of the experience.  Provided
+   relief from a spiritual crisis.  There was a lucid dream that night.
+
+p. 408 2C-B: very brief description, had sex and talked
+
+p. 411-418 2C-T-7: a really phenomenal and detailed description by a
+   third party.
+
+p. 421-427 2C-E: a detailed description of a very unpleasant experience.
+
+p. 428-433 2C-T-4: a very nice and detailed description.
+
+p. 433 2C-B, 2C-T-4 combination, two sentences.
+\eXPNS
+
+\LP
+{\bf Discussions of Drug Combinations}
+\eLP
+
+\XPNS
+p. 75-79 MDOH-MDA-marijuana combination: Time-Stop.  Fairly detailed but
+   clinical description.  He was frightened, sounds unpleasant.
+
+p. 433 2C-B, 2C-T-4 combination, two sentences.
+
+p. 471 Aleph-6 - LSD - marijuana combination
+
+p. 497 ``pro-drug''
+
+p. 730-733 ``piggy-back'', ``primer'' experiments
+
+p. 753 MDPR - LSD, ``body window''
+
+p. 755 MDMA - LSD ``piggyback''
+
+p. 758 ``tomoso'' effect
+
+p. 767-769 MEM - MDMA
+
+p. 775 Methyl-DMA - MDMA
+
+p. 777-778 Methyl-DOB - Psilocybine
+
+p. 778 potentiation
+
+p. 892 TMPEA - mescaline
+
+p. 909 TOMOSO effect, more metabolic babble
+
+recipe \#20 2C-B - MDMA
+\eXPNS
+
+\LP
+{\bf Discussions of Structure - Activity Relationships}
+\eLP
+
+\XPNS
+p. 53-54 discussion of a structure activity experiment in which the data
+   support a receptor rather than metabolic hypothesis.
+
+p. 68-69 the quinone $->$ indole hypothesis of activity.
+
+p. 83 RS $->$ HS assumption of metabolism to explain activity.
+
+p. 356-357 assumption of activity through metabolism
+
+p. 474-475 Beth state, ``Fourier Transform'' of mental states
+
+p. 585 north \& south end of receptor
+
+p. 595 assumption of activity related to metabolism
+
+p. 615 DMPEA: and the ``pink spot''
+
+p. 636 discussion of sub-classes of 5HT receptors
+
+p. 644-646 hydroquinone hypothesis
+
+p. 680 assumption that DOM is active through metabolites
+
+p. 691 activity through metabolism
+
+p. 696-697 discussion of receptor subclasses, chemical classes,
+   ``what are they'', ``where do they go'', $->$ ``what do they do''
+
+p. 708 a chemical hypothesis of activity through metabolism, this one relates
+   to amphetamine psychosis, and is obsolete in the light of Jacob's studies
+
+p. 711 more speculation about activity requiring metabolism
+
+p. 839-840 the fallacy of predicting potency by structure
+
+p. 909 TOMOSO effect, more metabolic babble
+\eXPNS
+
+\LP
+{\bf Miscellaneous:}
+\eLP
+
+\XPNS
+p. 55 ``rubby'' teeth defined
+
+p. 60-65 describes his decision to do his work above ground rather than
+   underground.
+
+p. 67-68 encounter between Schultes and Naranjo.
+
+p. 361 discussion of flashbacks.
+
+p. 459 1st commentary, crazy fantasy, untasted material
+
+p. 459, 750-751 crazy logic
+
+p. 464 ego inflation \& mania, ch 14
+
+p. 466 high variability of S amphetamines
+
+p. 474-475 Beth state, ``Fourier Transform'' of mental states
+
+p. 479-480 ten classic ladies
+
+p. 486-487 N-methyl not good (Contrary to MDMA) example of suspected toxicity.
+
+p. 490-492 examples of suspected toxicity
+
+p. 494 BOX series, relation to norepinephrine
+
+p. 498 beta-ethanolamines
+
+p. 514 Tweetios
+
+p. 566-567 pseudo ``next 10 years'' of psychedelics
+
+p. 570 5 top phenethylamines: 2C-T-7, 2C-T-2, 2C-B, 2C-E, mescaline
+
+p. 534 ``record breaking'' length x potency
+
+p. 588 most potent phenethylamine
+
+p. 636 discussion of sub-classes of 5HT receptors
+
+p. 649 an hypnogogic compound
+
+p. 664-671 F-2, F, F-22: these were only run up to the 15 mg range.  A pity,
+   they might show interesting activity at ten times the dose.
+
+p. 673 HOT compounds N-OH
+
+p. 676 G-4: The compound is listed even though its synthesis is not complete.
+   There are other examples of this in the book.
+
+p. 676 ``for a period of time (about 3 years) by which time...''
+   Is this a joke?
+
+p. 682 HOT
+
+p. 686-687 the value of a long experience
+
+p. 696 IRIS assayed only to 9 mg level ``since DOM itself would have been
+   smashingly active at this level''.  Did he not care about qualitative
+   effects at this time?
+
+p. 750-751, 459 crazy logic
+
+p. 752 triple bond in phenethylamine
+
+p. 764 good Twain quote: ``I like science because it gives one such a
+   wholesome return of conjecture from such a trifling investment of fact.''
+
+p. 768 why emphasize potency
+
+p. 774 rabbit recta
+
+p. 784 Doonesbury - designer drugs, analog drug act
+
+p. 786 austronauts of inner space
+
+p. 802 killing mice
+
+p. 808-809 MPM, MIPM, MBM, and MAM were only assayed to levels that showed
+   them to be less active than MEM.  This did not allow characterization of
+   their qualitative properties.  Too much interest here in quantitative.
+
+p. 814 PE is assayed to the 150 mg level.  Why? when other compounds were
+   assayed to much lower levels.
+
+p. 822 explanation of specific meaning of dosage above some value
+
+p. 824 spontaneous detonation after standing for a few days (in synthesis).
+
+p. 836-837 non-psychedelic euphoriant
+
+p. 843 here there is a foreward to the synthesis, but not very interesting
+
+p. 856-857 discussion of S, O chemistry
+
+p. 860-864 the essential oils
+
+p. 867-868 deterioration of Science \& Nature
+
+p. 869 another definition of $<$
+
+p. 879 a statement of an intent to base all syntheses on starting from
+   commercially available materials.  Then he goes on to express paranoia
+   that some of these will become unavailable due to the WOD, so the present
+   synthesis is based on a natural product.
+
+p. 896 a lucid explanation of why human titration was abandoned due to
+   physical effects.
+
+p. 902 example of synthesis describing alternate route that does not work well.
+
+p. 920 ``what this book is all about'' quality not quantity
+\eXPNS
+
+\newpage
+
+\begin{center}
+{\Large {\bf References}}
+\end{center}
+
+\begin{quote}
+
+``Felipe is kneeling out in the sun, making his noontime devotionals to
+the living presence of a certain rock back in the wasteland of La Rioja,
+on the eastern slopes of the Andes.  According to an Argentine legend
+from the last century, Maria Antonia Correa followed her lover into that
+arid land, carrying their newborn child.  Herders found her a week later,
+dead.  But the infant had survived, by nursing from her corpse.  Rocks
+near the site of the miracle have since been the objects of yearly
+pilgrimages.  But Felipe's particular rock embodies also an intellectual
+system, for he believes (as do M. F. Beal and others) in a form of
+mineral consciousness not too much different from that of plants and
+animals, except for the time scale.  Rock's time scale is a lot more
+stretched out.  `We're talking frames per century,' Felipe like everybody
+else here lately has been using a bit of movie language, `per millennium!'
+Colossal.  But Felipe has come to see, as those who are not Sentient
+Rocksters seldom do, that history as it's been laid on the world is only
+a fraction, an outward-and-visible fraction.  That we must also look to
+the untold, to the silence around us, to the passage of the next rock we
+notice - to its aeons of history under the long and female persistence of
+water and air (who'll be there, once or twice per century, to trip the
+shutter?), down to the lowland where your paths, human and mineral, are
+most likely to cross....'' Pynchon (1973, p. 612-613).
+
+\end{quote}
+
+\XP
+
+Brown, Robert E.  1968.  The psychedelic guide to preparation of the
+     eucharist in a few of its many guises.  Edited by Robert E. Brown \&
+     Associates of the Neo American Church League for Spiritual
+     Development \& The Ultimate Authority of the Clear Light.
+
+Darth, Chewbacca.  1977.  The whole drug manufacturers catalog.  Prophet
+     Press, 1003 Manhattan Beach Boulevard, Manhattan Beach, CA 90266.
+
+Heym, James, and Barry L. Jacobs.  1987.  Serotonergic mechanisms of
+     hallucinogenic drug effects.  Monogr. neural Sci., 13: 55--81.
+
+High Times/Level Press.  1973.  Basic drug manufacture.  High Times Press,
+     Box 386, Cooper Station, New York, NY 10003; Level Press, Box 4858,
+     San Francisco, CA 94101.
+
+Huxley, Aldous.  1954.  The doors of perception, and Heaven and hell.
+     Harper Colophon Books, Harper \& Row, New York.  Pp. 185.  
+
+Lamb, F. Bruce.  1971.  Wizard of the upper Amazon, the story of
+     Manuel Cordova-Rios.  Houghton Mifflin Company, Boston, 205 p.
+
+reissued as:
+Lamb, F. Bruce and Manuel Cordova-Rios.  1987.  Wizard of the upper
+     Amazon.  North Atlantic, 204 p.  ISBN 0-938190-80-6
+
+Lamb, F. Bruce.  1985.  Rio Tigre and beyond: the Amazon jungle medicine
+     of Manuel Cordova.  North Atlantic, 256 p.  ISBN 0-938190-59-8
+     (describes the life of Cordova after he escaped from the Indians)
+
+Leary, Timothy, Ralph Metzner, and Richard Alpert.  1964.  The
+     psychedelic experience.  University Books, New Hyde Park.  Pp. 159.
+
+Masters, R. E. L., and Jean Houston.  1966.  The varieties of
+     psychedelic experience.  Dell Publishing Co., New York.  Pp. 326.
+
+Naranjo, Claudio.  1973.  The healing journey, new approaches to
+     consciousness.  Ballantine Books, New York, 234 p.
+
+Nimble, Jack B.  1986.  The construction and operation of clandestine drug
+     laboratories.  Loompanics Unlimited, P.O. Box 1197, Port Townsend, WA
+     98368.  ISBN 0-915197-40-7.
+
+Pynchon, Thomas.  1973.  Gravity's Rainbow.  The Viking Press, N.Y.  Pp. 760.
+
+Schultes, Richard Evans, and Albert Hofmann.  1980.  The botany and
+     chemistry of hallucinogens.  Revised and enlarged second edition.
+     Charles C. Thomas Publishers, Bannerstone House, 301-327 East
+     Lawrence Ave., Springfield, Illinois.  ISBN 0-398-03863-5.
+
+Shulgin, Alexander T.  1978.  Psychotomimetic drugs: structure-activity
+     relationships.  In: L. L. Iversen, S. D. Iversen, and S. H. Snyder [eds.]
+     ``Handbook of Psychopharmacology, Vol. 11''.  Plenum Press, New York.
+     Pp. 243-333.  (an excellent review)
+
+Shulgin, A. T.  1981.  Hallucinogens.  In: Manfred E. Wolff [ed.], ``Burger's
+     Medicinal Chemistry, 4th ed., Part III.''  John Wiley \& Sons, Inc.
+     Pp. 1109-1137.  (an excellent review, covers the indoles,
+     as well as other groups)
+
+Shulgin, A. T.  1983.  Twenty years on an ever-changing quest.  In: Lester
+     Grinspoon, James B. Bakalar [eds.], ``Psychedelic Reflections'',
+     Human Sciences Press, Inc., New York.  Pp. 205-212.
+     (an excellent review)
+
+Shulgin, A. T., L. A. Shulgin.  1991.  PIHKAL, phenethylamines I have
+     known and loved, a chemical love story.  Transform Press, Lafayette,
+     CA.  Pp. 978.
+
+Shulgin, A. T., L. A. Shulgin, and P. Jacob.  1986.  A protocol for the
+     evaluation of new psychoactive drugs.  Methods and Findings in
+     Experimental and Clinical Pharmacology 8(5): 313--320.
+     (a real eye opener)
+
+Shulgin, A. T., S. Bunnell, and T. Sargent.  1961.  The psychotomimetic
+     properties of 3,4,5-trimethoxyamphetamine.  Nature 189: 10011--1012.
+
+Smith, Michael Valentine.  1973.  Psychedelic chemistry.  Rip Off Press
+     (``Serving the Revolution since 1969''), P.O. Box 14158, San Francisco,
+     CA  94114.
+
+Smith, Michael Valentine.  1981.  Psychedelic chemistry.  Loompanics
+     Unlimited, P.O. Box 1197, Port Townsend, WA 98368.  ISBN 0-915179-10-5.
+     M. V. Smith was the main character of ``Stranger in a strange land''
+     by Robert A. Heinlein, a novel well worth reading.
+
+Snyder, Solomon H., H. Weingartner, and L. A. Faillace.  1970.
+     DOET (2,5-dimethoxy-4-ethylamphetamine) and DOM (STP) (2,5-
+     dimethoxy-4-methylamphetamine), new psychotropic agents: their
+     effects in man.  In: D. H. Efron [ed.], ``Psychotomimetic Drugs'',
+     Raven Press, N. Y.  Pp. 247-264.
+
+Snyder, S. H., H. Weingartner, and L. A. Faillace.  1971.
+     DOET (2,5-dimethoxy-4-ethylamphetamine), a new psychotropic drug.
+     Archives of General Psychiatry 24: 50-55.
+
+Snyder, S. H., S. Unger, R. Blatchley, and C. F. Barfknecht.  1974.
+     Stereospecific actions of DOET (2,5-dimethoxy-4-ethylamphetamine) in man.
+     Arch. Gen. Psychiatry 31: 103-106.
+
+Titeler, M., R. A. Lyon, and R. A. Glennon.  1988.  Radioligand binding
+     evidence implicates the brain 5-HT$_{2}$ receptor as a site of action
+     for LSD and phenylisopropylamine hallucinogens.  Psychopharmacology,
+     94: 213--216.
+
+Watts, Alan W.  1962.  The joyous cosmology, adventures in the chemistry
+     of consciousness.  Vintage Books, a division of Random House, New York.
+     Pp. 100.
+
+Weingartner, H., S. H. Snyder, L. A. Faillace, and H. Markley.  1970.
+     Altered free associations: some cognitive effects of DOET (2,5-
+     dimethoxy-4-ethylamphetamine).  Behavioral Science 15(4): 297-303.
+
+\eXP
+
+\newpage
+
+\begin{center}
+{\Large {\bf A Table of 311 Phenethylamines}}\\
+\end{center}
+
+Shulgin crossed the diamond with the pearl and gave birth to all forms of
+light:
+
+\begin{quote}
+
+``It is early morning now.  Slothrop's breath is white on the air.
+He is just up from a dream.  Part I of a poem, with woodcuts accompanying
+the text - a woman is attending a dog show which is also, in some way, a
+stud service.  She has brought her Pekingese, a female with a sickeningly
+cute name, Mimsy or Goo-Goo or something, here to be serviced.  She is
+passing the time in a garden setting, with some other middle-class ladies
+like herself, when from some enclosure nearby she hears the sound of
+her bitch, coming.  The sound goes on and on for much longer than
+seems appropriate, and she suddenly realizes that the sound is her own
+voice, this interminable cry of dog-pleasure.  The others, politely, are
+pretending not to notice.  She feels shame, but is helpless, driven now by
+a need to go out and find other animal species to fuck.  She sucks the
+penis of a multicolored mongrel who has tried to mount her in the street.
+Out in a barren field near a barbed-wire fence, winter fires across
+the clouds, a tall horse compels her to kneel, passively, and kiss his
+hooves.  Cats and minks, hyenas and rabbits, fuck her inside automobiles,
+lost at night in the forests, out beside a waterhole in the desert.
+
+``As Part II begins, she has discovered she's pregnant.  Her husband, a
+dumb, easygoing screen door salesman, makes an agreement with her:
+her own promise is never stated, but in return, nine months from now,
+he will take her where she wants to go.  So it is that close to the end of
+her term he is out on the river, and American river, in a rowboat, hauling
+on the oars, carrying her on a journey.  The key color in this section is
+violet.
+
+``Part III finds her at the bottom of the river.  She has drowned.  But all
+forms of life fill her womb.  `Using her as mermaid' (line 7), they
+transport her down through these green river-depths.  `It was down, and
+out again./  Old Squalidozzi, ploughman of the deep,/  At the end of his
+day's sowing/  Sees her verdigris belly among the weeds' (lines 10-13),
+and brings her back up.  He is a classically-bearded Neptune figure with
+an old serene face.  From out of her body streams a flood now of different
+creatures, octopuses, reindeer, kangaroos, `Who can say all the
+life/  That left her womb that day?'  Squalidozzi can only catch a
+glimpse of the amazing spill as he bears her back toward the surface.
+Above, it is a mild and sunlit green lake or pond, grassy at the banks,
+shaded by willows.  Insects whine and hover.  The key color now is
+green.  `And there as it broke to sun/  Her corpse found sleep in the
+water/  And in the summer depths/  The creatures took their way/  Each
+to its proper love/  In the height of afternoon/  As the peaceful river
+went....'''  Pynchon (1973, p. 446-447)
+
+\end{quote}
+
+\pagebreak
+
+\begin{verbatim}
+
+    STATUS:
+
+      A  active
+      T  only threshold levels were tasted
+      S  only sub-threshold levels tasted
+      U  untasted
+      N  not active
+      X  signs of toxicity below active level
+      P  physical more than mental
+      O  other, non-psychedelic activity
+      F  synthesis not finished
+
+Abbreviations:
+
+      A   = amphetamine
+      PEA = phenethylamine
+      B   = butane
+      MDP = methylenedioxyphenyl
+
+Note that dosages listed for T, S and N categories indicate what levels
+these compounds have been tested to.
+
+
+  #  Code     Status Dosage  Compact chemical name
+-------------------------------------------------------------------------------
+  1 AEM           S   220   alpha-Ethyl-3,4,5-trimethoxy-PEA
+  1 APM           U         alpha-Propyl-3,4,5-trimethoxy-PEA
+  1 ABM           U         alpha-Butyl-3,4,5-trimethoxy-PEA
+  1 AAM           U         alpha-Amyl-3,4,5-trimethoxy-PEA
+  2 AL            A  20-35  4-Allyloxy-3,5-dimethoxy-PEA
+  3 ALEPH         A  5-10   4-Methylthio-2,5-dimethoxy-A
+  4 ALEPH-2       A   4-8   4-Ethylthio-2,5-dimethoxy-A
+  5 ALEPH-4       A  7-12   4-Isopropylthio-2,5-dimethoxy-A
+  6 ALEPH-6       A   >40   4-Phenylthio-2,5-dimethoxy-A
+  7 ALEPH-7       A   4-7   4-Propylthio-2,5-dimethoxy-A
+  8 ARIADNE       O  12-32  2,5-Dimethoxy-alpha-ethyl-4-methyl-PEA
+  8 ?             U         1-(2,5-dimethoxyphenyl)-2-aminobutane
+  8 ?             U         1-(3,4-dimethoxyphenyl)-2-aminobutane
+  8 ?             U         1-(2,5-dimethoxy-4-bromophenyl)-2-aminobutane
+  8 ?             U         N,N-dimethyl-1-(2,4-dimethoxyphenyl)-2-aminobutane
+  8 ?             U         N,N-dimethyl-1-(2,5-dimethoxyphenyl)-2-aminobutane
+  8 ?             U         N,N-dimethyl-1-(3,5-dimethoxyphenyl)-2-aminobutane
+  8 ?             U         1-(2,5-dimethoxy-4-methylphenyl)-N-hydroxy-2-aminoB
+  8 ?             U         1-(2,4,6-trimethoxyphenyl)-2-aminobutane
+  8 ?             U         3,6-dimethoxy-2,4-dimethyl-A
+  9 ASB           A 200-280 3,4-Diethoxy-5-methoxy-PEA
+ 10 B             P  >150   4-Butoxy-3,5-dimethoxy-PEA
+ 11 BEATRICE      P   >30   2,5-Dimethoxy-4,N-dimethyl-A
+ 11 ?             U         N-Cyclopropyl-2,5-dimethoxy-4-methyl-A
+ 12 BIS-TOM       X   160   2,5-Bismethylthio-4-methyl-A
+ 13 2C-BIS-TOM    U         2,5-Bis-(methylthio)-4-methylphenethylamine
+ 13 BOB           P  10-20  4-Bromo-2,5,beta-trimethoxy-PEA
+ 14 BOD           A  15-25  2,5,beta-Trimethoxy-4-methyl-PEA
+ 14 BOED          A  70-75  2,5-Dimethoxy-beta-ethoxy-4-methyl-PEA
+ 15 BOH           P 80-120  beta-Methoxy-3,4-methylenedioxy-PEA
+ 16 BOHD          X   50    2,5-Dimethoxy-beta-hydroxy-4-methyl-PEA
+ 17 BOM           S   200   3,4,5,beta-Tetramethoxy-PEA
+ 18 4-Br-3,5-DMA  O  4-10   4-Bromo-3,5-dimethoxy-A
+ 19 2-Br-4,5-MDA  S   350   2-Bromo-4,5-methylenedioxy-A
+ 20 2C-B          A  12-24  4-Bromo-2,5-dimethoxy-PEA
+ 20 2CB-2ETO      A  15-50  4-Bromo-2-ethoxy-5-methoxy-PEA
+ 20 2CB-2,5-DIETO S   50    4-Bromo-2,5-diethoxy-PEA
+ 20 6-BR-DMPEA    A  60iv   2-Bromo-4,5-dimethoxy-PEA
+ 20 ?             A  >60iv  N-Methyl-2-bromo-4,5-dimethoxy-PEA
+ 21 3C-BZ         A 25-200  4-Benzyloxy-3,5-dimethoxy-A
+ 21 3C-FBZ        S    4    3,5-Dimethoxy-4-(4-fluorobenzyloxy)amphetamine
+ 22 2C-C          A  20-40  4-Chloro-2,5-dimethoxy-PEA
+ 22 2C-CN         U         2,5-Dimethoxy-4-cyano-PEA
+ 22 2C-COOH       U         2,5-Dimethoxy-4-carboxy-PEA
+ 23 2C-D          A  20-60  4-Methyl-2,5-dimethoxy-PEA
+ 23 ?             U         4,N-dimethyl-2,5-dimethoxy-PEA
+ 23 ?             U         4,N,N-trimethyl-2,5-dimethoxy-PEA
+ 23 2CD-2ETO      A   60    2-Ethoxy-5-methoxy-4-methyl-PEA
+ 23 2CD-5ETO      A  40-50  5-Ethoxy-2-methoxy-4-methyl-PEA
+ 23 2CD-2,5-DIETO T   55    2,5-Diethoxy-4-methyl-PEA
+ 24 2C-E          A  10-25  4-Ethyl-2,5-dimethoxy-PEA
+ 24 2CE-5ETO      A  10-15  5-Ethoxy-4-ethyl-2-methoxy-PEA
+ 25 3C-E          A  30-60  4-Ethoxy-3,5-dimethoxy-A
+ 26 2C-F          S   250   4-Fluoro-2,5-dimethoxy-PEA
+ 26 DOF           U         4-Fluoro-2,5-dimethoxy-A
+ 27 2C-G          A  20-35  3,4-Dimethyl-2,5-dimethoxy-PEA
+ 28 2C-G-3        A  12-24  3,4-Trimethylene-2,5-dimethoxy-PEA
+ 29 2C-G-4        I         3,4-Tetramethylene-2,5-dimethoxy-PEA
+ 30 2C-G-5        A  10-16  3,4-Norbornyl-2,5-dimethoxy-PEA
+ 31 2C-G-N        A  20-40  1,4-Dimethoxynaphthyl-2-ethylamine
+ 32 2C-H          U         2,5-Dimethoxy-PEA
+ 33 2C-I          A  14-22  4-Iodo-2,5-dimethoxy-PEA
+ 33 2CI-2ETO      A  5-50   2-Ethoxy-4-iodo-5-methoxy-PEA
+ 34 2C-N          A 100-150 4-Nitro-2,5-dimethoxy-PEA
+ 35 2C-O-4        T   60    4-Isopropoxy-2,5-dimethoxy-PEA
+ 36 2C-P          A  6-10   4-Propyl-2,5-dimethoxy-PEA
+ 37 CPM           A  60-80  4-Cyclopropylmethoxy-3,5-dimethoxy-PEA
+ 38 2C-SE         T  50-70  4-Methylseleno-2,5-dimethoxy-PEA
+ 39 2C-T          A 60-100  4-Methylthio-2,5-dimethoxy-PEA
+ 39 2CT-2ETO      T   50    2-Ethoxy-5-methoxy-4-methylthio-PEA
+ 39 2CT-5ETO      A   30    5-Ethoxy-2-methoxy-4-methylthio-PEA
+ 40 2C-T-2        A  12-25  4-Ethylthio-2,5-dimethoxy-PEA
+ 40 2CT2-2ETO     A   50    2-Ethoxy-4-ethylthio-5-methoxy-PEA
+ 40 2CT2-5ETO     A   20    5-Ethoxy-4-ethylthio-2-methoxy-PEA
+ 40 2CT2-2,5DIETO A  10-50  2,5-Diethoxy-4-ethylthio-PEA
+ 41 2C-T-4        A  8-20   4-Isopropylthio-2,5-dimethoxy-PEA
+ 41 2CT4-2ETO     A  10-25  2-Ethoxy-5-methoxy-4-(i)-propylthio-PEA
+ 42 pseudo-2C-T-4 T  8-12   4-Isopropylthio-2,6-dimethoxy-PEA
+ 43 2C-T-7        A  10-30  4-Propylthio-2,5-dimethoxy-PEA
+ 43 2CT7-2ETO     A   20    2-Ethoxy-5-methoxy-4-(n)-propylthio-PEA
+ 43 METHYL-2C-T-7 U         2,5-Dimethoxy-4-(n)-propyl-N-methyl-PEA
+ 44 2C-T-8        A  30-50  4-Cyclopropylmethylthio-2,5-diimethoxy-PEA
+ 45 2C-T-9        A 60-100  4-(t)-Butylthio-2,5-dimethoxy-PEA
+ 46 2C-T-13       A  25-40  4-(2-Methoxyethylthio)-2,5-dimethoxy-PEA
+ 47 2C-T-15       T   30    4-Cyclopropylthio-2,5-dimethoxy-PEA
+ 48 2C-T-17       A 60-100  4-(s)-Butylthio-2,5-dimethoxy-PEA
+ 49 2C-T-21       A  8-12   4-(2-Fluoroethylthio)-2,5-dimethoxy-PEA
+ 50 4-D           A 200-400 4-Trideuteromethyl-3,5-dimethoxy-PEA
+ 51 beta-D        A 200-400 beta,beta-Dideutero-3,4,5-trimethoxy-PEA
+ 52 DESOXY        T 40-120  4-Me-3,5-Dimethoxy-PEA
+ 53 2,4-DMA       T   60    2,4-Dimethoxy-A
+ 54 2,5-DMA       P 80-160  2,5-Dimethoxy-A
+ 54 ?             S   150   2,5-Dimethyl-A
+ 54 ?             O   10    3,4-Dimethyl-A
+ 54 ?             O 75-150  2-Methyl-A
+ 54 ?             O 75-150  3-Methyl-A
+ 54 ?             P 75-150  4-Methyl-A
+ 54 2,5-DNNA      U         2,5-Dimethoxy-N,N-dimethyl-A
+ 54 IDNNA         U         4-Iodo-2,5-dimethoxy-N,N-dimethyl-A
+ 54 FDNNA         U         4-Fluoro-2,5-dimethoxy-N,N-dimethyl-A
+ 54 2,5-DMNNA     U         2,5,N,N-Tetramethyl-A
+ 54 ?             U         4-Fluoro-2,5,N,N-tetramethyl-A
+ 55 3,4-DMA       A  >160   3,4-Dimethoxy-A
+ 55 2,6-DNNA      U         2,6-Dimethoxy-N,N-dimethyl-A
+ 55 3,5-DNNA      U         3,5-Dimethoxy-N,N-dimethyl-A
+ 56 DMCPA         A  15-20  2-(2,5-Dimethoxy-4-methylphenyl)-cyclopropylamine
+ 56 TMT           S   13    Trans-2-(3,4,5-trimethoxyphenyl)cyclopropylamine
+ 57 DME           S   115   3,4-Dimethoxy-beta-hydroxy-PEA
+ 57 BOHH          S   100   3,4-Methylenedioxy-beta-hydroxy-PEA
+ 58 DMMDA         A  30-75  2,5-Dimethoxy-3,4-methylenedioxy-A
+ 58 ?             T   80    threo-2-Amino-3-(2,5-dimethoxy-3,4-MDP)butane
+ 58 ?             S   10    erythro-2-Amino-3-(2,5-dimethoxy-3,4-MDP)butane
+ 59 DMMDA-2       A   50    2,3-Dimethoxy-4,5-methylenedioxy-A
+ 60 DMPEA         N  1000   3,4-Dimethoxy-PEA
+ 60 ?             N   500   N-Acetyl-3,4-dimethoxy-PEA
+ 61 DOAM          T   10    4-Amyl-2,5-dimethoxy-A
+ 62 DOB           A   1-3   4-Bromo-2,5-dimethoxy-A
+ 63 DOBU          T   2.8   4-Butyl-2,5-dimethoxy-A
+ 63 DOIB          A  10-15  2,5-Dimethoxy-4-(2-methylpropyl)-A
+ 63 DOSB          A  25-30  2,5-Dimethoxy-4-(1,1-dimethylethyl)-A
+ 63 DOTB          S   25    2,5-Dimethoxy-4-(1-methylpropyl)-A
+ 64 DOC           A  1.5-3  4-Chloro-2,5-dimethoxy-A
+ 64 DOA           U         2,5-dimethoxy-4-amino-A
+ 64 DOAA          U         2,5-dimethoxy-4-acetamido-A
+ 65 DOEF          A  2-3.5  4-(2-Fluoroethyl)-2,5-dimethoxy-A
+ 66 DOET          A   2-6   4-Ethyl-2,5-dimethoxy-A
+ 67 DOI           A  1.5-3  4-Iodo-2,5-dimethoxy-A
+ 67 ?             S    4    1-(2,5-dimethoxy-4-iodophenyl)-2-aminobutane
+ 68 DOM           A  3-10   4-Methyl-2,5-dimethoxy-A
+ 68 5-DOM         S   20    2,4-Dimethoxy-5-methyl-A
+ 68 2-DOM         U         4,5-Dimethoxy-2-methyl-A
+ 69 pseudo-DOM    A  15-25  4-Methyl-2,6-dimethoxy-A
+ 69 Z-7.1         ?         2,4-Dimethoxy-6-methyl-A
+ 69 Z-7.2         U         4-Methyl-2,3,6-trimethoxy-A
+ 70 DON           A  3-4.5  4-Nitro-2,5-dimethoxy-A
+ 71 DOPR          A  2.5-5  4-Propyl-2,5-dimethoxy-A
+ 71 hydroxy-DOPR  S   0.2   2,5-Dimethoxy-4-(1-hydroxypropyl)-A
+ 71 DOIP          T  20-30  2,5-Dimethoxy-4-(i)-propyl-A
+ 72 E             A  40-60  4-Ethoxy-3,5-dimethoxy-PEA
+ 73 EEE           U         2,4,5-Triethoxy-A
+ 74 EEM           U         2,4-Diethoxy-5-methoxy-A
+ 75 EME           U         2,5-Diethoxy-4-methoxy-A
+ 76 EMM           S   50    2-Ethoxy-4,5-dimethoxy-A
+ 77 ETHYL-J       T   90    N,alpha-diethyl-3,4-methylenedioxy-PEA
+ 78 ETHYL-K       S   40    N-Ethyl-alpha-propyl-3,4-methylenedioxy-PEA
+ 79 F-2           S   15    Benzofuran-2-methyl-5-methoxy-6-(2-aminopropane)
+ 79 F             S   30    Benzofuran-2,3-dihydro-5-methoxy-6-(2-aminopropane)
+ 80 F-22          S   15    Benzofuran-2,2-dimethyl-5-methoxy-6-(2-aminopropane)
+ 81 FLEA          A 100-160 N-Hydroxy-N-methyl-3,4-methylene-A
+ 82 G-3           A  12-18  3,4-Trimethylene-2,5-dimethoxy-A
+ 83 G-4           I         3,4-Tetramethylene-2,5-dimethoxy-A
+ 84 G-5           A  14-20  3,4-Norbornyl-2,5-dimethoxy-A
+ 85 GANESHA       A  20-32  3,4-Dimethyl-2,5-dimethoxy-A
+ 86 G-N           S    2    1,4-Dimethoxynaphthyl-2-isopropylamine
+ 87 HOT-2         A  10-18  2,5-Dimethoxy-N-hydroxy-4-ethylthio-PEA
+ 88 HOT-7         A  15-25  2,5-Dimethoxy-N-hydroxy-4-(n)-propylthio-PEA
+ 89 HOT-17        A 70-120  2,5-Dimethoxy-N-hydroxy-4-(s)-butylthio-PEA
+ 90 IDNNA         S   2.6   2,5-Dimethoxy-N,N-dimethyl-4-iodo-A
+ 90 ?             U         2,5-Dimethoxy-N-benzyl-4-iodo-A
+ 90 ?             U         2,5-Dimethoxy-N-benzyl-4-iodo-N-methyl-A
+ 90 ?             U         2,5-Dimethoxy-N-cyanomethyl-4-iodo-A
+ 90 ?             U         2,5-Dimethoxy-N-cyclopropylmethyl-4-iodo-A
+ 90 ?             U         2,5-Dimethoxy-N,N-diethyl-A
+ 90 ?             U         2,5-Dimethoxy-N,N-diethyl-4-iodo-A
+ 90 ?             U         2,5-Dimethoxy-N-(3-dimethylaminopropyl)-4-iodo-A
+ 90 ?             U         2,5-Dimethoxy-N,N-dimethyl-4-iodo-A
+ 90 ?             U         2,5-Dimethoxy-N-dodecyl-4-iodo-A
+ 90 ?             U         2,5-Dimethoxy-N-(n)-hexyl-4-iodo-A
+ 90 ?             U         2,5-Dimethoxy-4-iodo-N-methyl-A
+ 90 ?             U         2,5-Dimethoxy-4-iodo-N-methyl-N-(i)-propyl-A
+ 90 ?             U         2,5-Dimethoxy-4-iodo-N-(i)-propyl-A
+ 91 IM            N   400   2,3,4-Trimethoxy-PEA
+ 92 IP            A  40-80  3,5-Dimethoxy-4-isopropoxy-PEA
+ 93 IRIS          S    9    5-Ethoxy-2-methoxy-4-methyl-A
+ 94 J             A 150-230 alpha-Ethyl-3,4-methylenedioxy-PEA
+ 95 LOPHOPHINE    S   250   3-Methoxy-4,5-methylenedioxy-PEA
+ 96 M             A 200-400 3,4,5-Trimethoxy-PEA
+ 96 ?             N 300-750 N-Acetyl-3,4,5-trimethoxy-PEA
+ 96 ?             S   25    N-Methyl-3,4,5-trimethoxy-PEA
+ 96 ?             N   500   N,N-Dimethyl-3,4,5-trimethoxy-PEA
+ 96 TMPEA         N   750   3,4,5-Trimethoxyphenylacetic acid
+ 96 ?             N 10-300  2-(3,4,5-Trimethoxyphenoxy)ethylamine
+ 96 ?             N 10-400  N,N-Dimethyl-2-(3,4,5-trimethoxyphenoxy)ethylamine
+ 97 4-MA          P  50-80  4-Methoxy-A
+ 97 2-MA          U         2-Methoxy-A
+ 97 3-MA          S   50    3-Methoxy-A
+ 97 Orthoxine     O   200   N-Methyl-2-methoxy-A
+ 98 MADAM-6       N   280   2,N-Dimethyl-4,5-methylenedioxy-A
+ 99 MAL           A  40-65  3,5-Dimethoxy-4-methallyloxy-PEA
+100 MDA           A 80-160  3,4-Methylenedioxy-A
+100 ALPHA         A 10-140  1-Amino-1-(3,4-methylenedioxyphenyl)propane
+100 M-ALPHA       A   60    1-Methylamino-1-(3,4-methylenedioxyphenyl)propane
+100 GAMMA         T   200   1-Amino-3-(3,4-methylenedioxyphenyl)propane
+100 EDA           T   150   3,4-Ethylidenedioxy-A
+100 IDA           U         3,4-Isopropylidenedioxy-A
+100 ORTHO-MDA     O   50    2,3-Methylenedioxy-A
+101 MDAL          S   180   N-Allyl-3,4-methylenedioxy-A
+102 MDBU          S   40    N-Butyl-3,4-methylenedioxy-A
+103 MDBZ          S   150   N-Benzyl-3,4-methylenedioxy-A
+103 MDIB          U         3,4-Methylenedioxy-N-(i)-butyl-A
+103 MDTB          U         3,4-Methylenedioxy-N-(t)-butyl-A
+103 MDAM          U         3,4-Methylenedioxy-N-amyl-A
+103 MDHE          U         3,4-Methylenedioxy-N-(n)-hexyl-A
+103 MDOC          U         3,4-Methylenedioxy-N-(n)-octyl-A
+103 MDDE          U         3,4-Methylenedioxy-N,N-diethyl-A
+103 MDCM          U         3,4-Methylenedioxy-N-cyanomethyl-A
+103 MDBA          U         3,4-Methylenedioxy-N-(t)-butylamino-A
+104 MDCPM         S   10    N-Cyclopropylmethyl-3,4-methylenedioxy-A
+105 MDDM          S   150   N,N-Dimethyl-3,4-methylenedioxy-A
+106 MDE           A 100-200 N-Ethyl-3,4-methylenedioxy-A
+106 ?             T   500   3,4-methylenedixoy-N-(2,2,2-trifluoroethyl)-A
+107 MDHOET        S   50    N-(2-Hydroxyethyl)-3,4-methylenedioxy-A
+108 MDIP          T   250   N-Isopropyl-3,4-methylenedioxy-A
+109 MDMA          A 80-150  N-Methyl-3,4-methylenedioxy-A
+110 MDMC          T 150-250 N-Methyl-3,4-ethylenedioxy-A
+111 MDMEO         S   180   N-Methoxy-3,4-methylenedioxy-A
+112 MDMEOET       S   180   N-(2-Methoxyethyl)-3,4-methylenedioxy-A
+113 MDMP          T   110   alpha,alpha,N-Trimethyl-3,4-methylenedioxy-PEA
+114 MDOH          A 100-160 N-Hydroxy-3,4-methylenedioxy-A
+115 MDPEA         N   300   3,4-Methylenedixoy-PEA
+115 METHYL-MDPEA  O   30    N-Methyl-3,4-methylenedixoy-PEA
+116 MDPH          A 160-240 alpha,alpha-Dimethyl-3,4-methylenedioxy-PEA
+117 MDPL          S   150   N-Propargyl-3,4-methylenedioxy-A
+118 MDPR          N   200   N-Propyl-3,4-methylenedioxy-A
+119 ME            A 200-350 3,4-Dimethoxy-5-ethoxy-PEA
+120 MEDA          N   200   3,4-Ethylenedioxy-5-methoxy-A
+120 MTDA          S    8    3-Methoxy-4,5-trimethylenedioxy-A
+121 MEE           S   4.6   2-Methoxy-4,5-diethoxy-A
+122 MEM           A  20-50  2,5-Dimethoxy-4-ethoxy-A
+123 MEPEA         A   300   3-Methoxy-4-ethoxy-PEA
+124 META-DOB      T 50-100  5-Bromo-2,4-dimethoxy-A
+124 ORTHO-DOB     U         2-Bromo-4,5-dimethoxy-A
+125 META-DOT      T   35    5-Methylthio-2,4-dimethoxy-A
+126 METHYL-DMA    T   250   N-Methyl-2,5-dimethoxy-A
+126 METHYL-TMA    T   240   N-Methyl-3,4,5-trimethoxy-A
+126 METHYL-TMA-2  S   120   N-Methyl-2,4,5-trimethoxy-A
+126 METHYL-TMA-6  S   30    N-Methyl-2,4,6-trimethoxy-A
+127 METHYL-DOB    P    8    4-Bromo-2,5-dimethoxy-N-methyl-A
+128 METHYL-J      A 180-210 N-Methyl-alpha-ethyl-3,4-methylenedioxy-PEA
+129 METHYL-K      S   100   N-Methyl-alpha-propyl-3,4-methylenedioxy-PEA
+129 K             U         2-Amino-1-(3,4-methylenedioxyphenyl)pentane
+129 L             U         2-Amino-1-(3,4-methylenedioxyphenyl)hexane
+129 METHYL-L      U         2-Methylamino-1-(3,4-methylenedioxyphenyl)hexane
+129 ETHYL-L       U         2-Ethylamino-1-(3,4-methylenedioxyphenyl)hexane
+130 METHYL-MA     P   100   N-Methyl-4-methoxy-A
+130 4-MNNA        ?         4-Methoxy-N,N-dimethyl-A
+130 2-MNNA        ?         2-Methoxy-N,N-dimethyl-A
+131 METHYL-MMDA-2 S   70    N-Methyl-2-methoxy-4,5-methylenedioxy-A
+131 DMMDMA        U         2,5-Dimethoxy-N-methyl-3,4-methylenedioxy-A
+132 MMDA          A 100-250 3-Methoxy-4,5-methylenedioxy-A
+133 MMDA-2        A  25-50  2-Methoxy-4,5-methylenedioxy-A
+133 2C-2          S   2.6   2-Methoxy-4,5-methylenedioxy-PEA
+133 4C-2          U         1-(2-Methoxy-4,5-methylenedioxyphenyl)-2-aminoB
+133 EMDA-2        A 135-185 2-Ethoxy-4,5-methylenedioxy-A
+134 MMDA-3a       A  20-80  2-Methoxy-3,4-methylenedioxy-A
+135 MMDA-3b       T  60-80  4-Methoxy-2,3-methylenedioxy-A
+135 MMDA-5        T   30
+136 MME           T   40    2,4-Dimethoxy-5-ethoxy-A
+137 MP            N   240   3,4-Dimethoxy-5-propoxy-PEA
+138 MPM           T   30    2,5-Dimethoxy-4-propoxy-A
+138 MIPM          U         2,5-Dimethoxy-4-(i)-propoxy-A
+138 MBM           S   12    4-(n)-Butoxy-2,5-dimethoxy-A
+138 MAM           S   12    4-(n)-Amyl-2,5-dimethoxy-A
+139 ORTHO-DOT     S   25    2-Methylthio-4,5-dimethoxy-A
+140 P             A  30-60  3,5-Dimethoxy-4-propoxy-PEA
+141 PE            S   150   3,5-Dimethoxy-4-phenethyloxy-PEA
+142 PEA           N  1600   PEA
+142 MPEA          N   400   4-Methoxy-PEA
+142 4-Cl-PEA      N   500   4-Chloro-PEA
+143 PROPYNYL      T   80    4-Propynyloxy-3,5-dimethoxy-PEA
+144 SB            N   240   3,5-Diethoxy-4-methoxy-PEA
+145 TA            T   35    2,3,4,5-Tetramethoxy-A
+146 3-TASB        A   160   4-Ethoxy-3-ethylthio-5-methoxy-PEA
+147 4-TASB        P 60-100  3-Ethoxy-4-ethylthio-5-methoxy-PEA
+148 5-TASB        P 120-160 3,4-Diethoxy-5-methylthio-PEA
+149 TB            T 60-120  4-Thiobutoxy-3,5-dimethoxy-PEA
+150 3-TE          A  60-80  4-Ethoxy-5-methoxy-3-methylthio-PEA
+151 4-TE          A  20-30  3,5-Dimethoxy-4-ethylthio-PEA
+152 2-TIM         N   240   2-Methylthio-3,4-dimethoxy-PEA
+153 3-TIM         N   240   3-Methylthio-2,4-dimethoxy-PEA
+154 4-TIM         S   160   4-Methylthio-2,3-dimethoxy-PEA
+155 3-TM          A 60-100  3-Methylthio-4,5-dimethoxy-PEA
+156 4-TM          A  20-40  4-Methylthio-3,5-dimethoxy-PEA
+157 TMA           A 100-250 3,4,5-Trimethoxy-A
+158 TMA-2         A  20-40  2,4,5-Trimethoxy-A
+159 TMA-3         S   100   2,3,4-Trimethoxy-A
+160 TMA-4         A   80    2,3,5-Trimethoxy-A
+161 TMA-5         A   30    2,3,6-Trimethoxy-A
+161 2C-TMA-5      U         2,3,6-Trimethoxy-PEA
+162 TMA-6         A  25-50  2,4,6-Trimethoxy-A
+162 2C-TMA-6      U         2,4,6-Trimethoxy-PEA
+163 3-TME         A 60-100  4,5-Dimethoxy-3-ethylthio-PEA
+164 4-TME         A 60-100  3-Ethoxy-5-methoxy-4-methylthio-PEA
+165 5-TME         N   200   3-Ethoxy-4-methoxy-5-methylthio-PEA
+166 2T-MMDA-3a    S   12    2-Methylthio-3,4-methylenedioxy-A
+167 4T-MMDA-2     S   25    4,5-Thiomethylenexoy-2-methoxy-A
+168 TMPEA         N   300   2,4,5-Trimethoxy-PEA
+169 2-TOET        T   65    4-Ethyl-5-methoxy-2-methylthio-A
+170 5-TOET        A  12-25  4-Ethyl-2-methoxy-5-methylthio-A
+170 2C-5-TOET     U         4-Ethyl-2-methoxy-5-methylthio-PEA
+171 2-TOM         A 60-100  5-Methoxy-4-methyl-2-methylthio-A
+171 2C-2-TOM      U         5-Methoxy-4-methyl-2-methylthio-PEA
+172 5-TOM         A  30-50  2-Methoxy-4-methyl-5-methylthio-A
+172 2C-5-TOM      U         2-Methoxy-4-methyl-5-methylthio-PEA
+173 TOMSO         A   150   5-Methoxy-4-methyl-5-methylsulfinyl-A
+174 TP            A  20-25  4-Propylthio-3,5-dimethoxy-PEA
+175 TRIS          N   240   3,4,5-Triethoxy-PEA
+176 3-TSB         N   200   3-Ethoxy-5-ethylthio-4-methoxy-PEA
+177 4-TSB         N   240   3,5-Diethoxy-4-methylthio-PEA
+178 3-T-TRIS      S   160   4,5-Diethoxy-3-ethylthio-PEA
+179 4-T-TRIS      N   200   3,5-Diethoxy-4-ethylthio-PEA
+\end{verbatim}
+
+\end{document}
+

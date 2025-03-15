@@ -1,0 +1,973 @@
+<html>
+
+<h2>CERT Advisories</h2>
+<h4>HTML'ed by Group42</h4>
+
+This directory contains an archive of all the CERT advisories published
+since December 1988.  There are README files associated with many of these
+advisories; they are listed following the advisory list.
+<p>
+This directory also contains several files containing general information
+about the CERT Coordination Center.
+<p>
+Please note that the Sun patches are no longer available on
+uunet.uu.net.  They are available on ftp.uu.net, whose IP address is
+no longer 192.48.96.2, but 137.39.1.9.  Also, the files are not in
+the /sun-dist directory, but in the /systems/sun/sun-dist
+directory.
+<p>
+A listing and short description of each advisory follows:
+<p>
+<li><a href="ca-88.01">ftpd.hole</a>
+<ul>
+CA-88:01.ftpd.hole                                 12/88
+     Warning about BSD sendmail 5.59 debug command; general warning
+     about getting latest version of ftpd; other general warnings.
+     ** The sendmail portion of this advisory is superseded by CA-95:05.
+</ul>
+<li><a href="ca-89.01">passwd.hole</a>
+<ul>
+CA-89:01.passwd.hole                               01/89
+     Report from Keith Bostic of BSD patch for passwd(1) program.
+</ul>
+
+<li><a href="ca-89.02">sun.restore.hole</a>
+<ul>
+CA-89:02.sun.restore.hole                       07/26/89
+     Vulnerability in SunOS 4.0.* restore(8) command.
+</ul>
+
+<li><a href="ca-89.03">telnet.breakin.warning</a>
+<ul>
+CA-89:03.telnet.breakin.warning                 08/16/89
+     Warning about a series of break-ins in which an intruder replaced
+     the telnet(1) program with a Trojan horse that captured
+     passwords.  Contains some general hints about securing systems.
+</ul>
+
+<li><a href="ca-89.04">decnet.wank.worm</a>
+<ul>
+CA-89:04.decnet.wank.worm                       10/17/89
+     Warning about the "WANK" worm which attacked DECnet hosts.
+</ul>
+
+<li><a href="ca-89.05">ultrix3.0.hole</a>
+<ul>
+CA-89:05.ultrix3.0.hole                         10/17/89
+     Warning about attacks on DEC/Ultrix 3.0 machines.  Advises users
+     to check for Trojan horses, insecure tftp, simple passwords.
+</ul>
+
+<li><a href="ca-89.06">ultrix3.0.update</a>
+<ul>
+CA-89:06.ultrix3.0.update                       10/18/89
+     A repost of the 10/17 Ultrix advisory with checksums for several
+     Ultrix system programs.
+</ul>
+
+<li><a href="ca-89.07">sun.rcp.vulnerability</a>
+<ul>
+CA-89:07.sun.rcp.vulnerability                  10/26/89
+     Vulnerability in SunOS 4.0.x rcp command.
+</ul>
+
+<li><a href="ca-90.01">sun.sendmail.vulnerability</a>
+<ul>
+CA-90:01.sun.sendmail.vulnerability             01/29/90
+     Vulnerability in SunOS 3.* and 4.0.* sendmail.
+     **Superseded by CA-95:05.
+</ul>
+
+<li><a href="ca-90.02">intruder.warning</a>
+<ul>
+CA-90:02.intruder.warning                       03/19/90
+     Warning about a series of attacks on Internet systems.  Includes
+     a list of 14 points to check on Unix and VMS systems.  The points
+     cover possible signs of a break-in as well as possible system
+     configuration vulnerabilities.
+</ul>
+
+<li><a href="ca-90.03">unisys.warning</a>
+<ul>
+CA-90:03.unisys.warning                         05/07/90
+     Warning about Unisys U5000 systems.  Some of the logins supplied
+     when the system was shipped did not have passwords, and intruders
+     were taking advantage of this vulnerability.
+</ul>
+
+<li><a href="ca-90.04">apollosuid.vulnerability</a>
+<ul>
+CA-90:04.apollosuid.vulnerability               07/27/90
+     Vulnerability in Hewlett Packard/Apollo Domain/OS version sr10.2
+     and some beta versions of sr10.3.  File /etc/suid_exec contained
+     a security flaw.
+</ul>
+
+<li><a href="ca-90.05">sunselection.vulnerability</a>
+<ul>
+CA-90:05.sunselection.vulnerability             08/14/90
+     Vulnerability in SunOS 3.*, 4.0.3, and 4.1 SunView selection_svc
+     facility.
+</ul>
+
+<li><a href="ca-90.06a">NeXT.vulnerability</a>
+<ul>
+CA-90:06a.NeXT.vulnerability                    10/03/90
+     Describes several vulnerabilities in NeXT system software.  The
+     advisory was originally issued as 90:06; 90:06a includes several
+     corrections.
+</ul>
+
+<li><a href="ca-90.07">VMS.ANALYZE.vulnerability</a>
+<ul>
+CA-90:07.VMS.ANALYZE.vulnerability              10/25/90
+     Vulnerability in DEC VMS versions 4.0 through 5.4.  Problem with
+     ANALYZE/PROCESS_DUMP routine.
+</ul>
+
+<li><a href="ca-90.08">irix.mail</a>
+<ul>
+CA-90:08.irix.mail                              10/31/90
+     Vulnerability in Silicon Graphics IRIX 3.3 and 3.3.1 systems.
+     /usr/sbin/Mail has a security flaw.
+</ul>
+
+<li><a href="ca-90.09">vms.breakins.warning</a>
+<ul>
+CA-90:09.vms.breakins.warning                   11/09/90
+     Warning about techniques intruders were using to get access to
+     VMS systems.  No new vulnerabilities described; intruders were
+     using weak password attacks.
+</ul>
+
+<li><a href="ca-90.10">atack.rumour.warning</a>
+<ul>
+CA-90:10.attack.rumour.warning                  11/16/90
+     Message about alleged attacks on telephone systems.  No evidence
+     that rumors were substantiated.
+</ul>
+
+<li><a href="ca-90.11">Security.Probes</a>
+<ul>
+CA-90:11.Security.Probes                        12/10/90
+     Many sites on the Internet received messages on Sunday, December 9.  The
+     messages stated that a group of researchers and students were testing
+     for a "common bug" in network hosts.
+</ul>
+
+<li><a href="ca-90.12">SunOS.TIOCCONS.vulnerability</a>
+<ul>
+CA-90:12.SunOS.TIOCCONS.vulnerability           12/21/90
+     This Advisory was a rebroadcast of a Sun Microsystems, Inc. Security
+     Bulletin announcing the availability of a patch that corrects a problem
+     with TIOCCONS.
+<br>
+Problem Description: TIOCCONS can be used to re-direct console output/input
+                     away from "console"
+</ul>
+
+
+<li><a href="ca-91.01a">SunOS.mail.vulnerability</a>
+<ul>
+CA-91:01a.SunOS.mail.vulnerability              02/22/91
+     This Advisory was a rebroadcast of a Sun Microsystems, Inc. Security
+     Bulletin announcing the availability of patch that corrects a problem
+     with /bin/mail. 
+     ** Superseded by CA-95:02.
+</ul>
+
+<li><a href="ca-91.02a">SunOS.telnetd.vulnerability</a>
+<ul>
+CA-91:02a.SunOS.telnetd.vulnerability           03/26/91
+     This Advisory announced a security problem with the in.telnetd program
+     in releases of SunOS 4.1 and 4.1.1.
+</ul>
+
+<li><a href="ca-91.03">unauthorized.password.change.request</a>
+<ul>
+CA-91:03.unauthorized.password.change.request   04/04/91
+     This advisory addresses recent bogus email messages which have been
+     distributed on the Internet.  The messages request that the user
+     change his/her password, and appear to come from the system admin.
+</ul>
+
+<li><a href="ca-91.04">social.engineering</a>
+<ul>
+CA-91:04.social.engineering                     04/18/91
+     This advisory is an addition to CA-91:03.  It addresses more bogus
+     Internet email scams and urges system administrators to warn their
+     users.
+</ul>
+
+<li><a href="ca-91.05">Ultrix.chroot.vulnerability</a>
+<ul>
+CA-91:05.Ultrix.chroot.vulnerability            05/01/91
+     Corrects improper installation of /usr/bin/chroot for Ultrix
+     versions 4.0 and 4.1.
+</ul>
+
+<li><a href="ca-91.06">NeXTstep.vulnerability</a>
+<ul>
+CA-91:06.NeXTstep.vulnerability                 05/14/91
+     Addresses three vulnerabilities in NeXT systems running various
+     versions of NeXTstep.  Affected are: rexd(8C), /private/etc,
+     username "me".
+</ul>
+
+<li><a href="ca-91.07">SunOS.source.tape.vulnerability</a>
+<ul>
+CA-91:07.SunOS.source.tape.vulnerability        05/20/91
+     Fixes a security vulnerability on SunOS (4.0.3, 4.1, and 4.1.1)
+     systems which have installed the Sun Source tapes.
+</ul>
+
+<li><a href="ca-91.08">systemV.login.vulnerability</a>
+<ul>
+CA-91:08.systemV.login.vulnerability            05/23/91
+     Addresses a vulnerability in all System V Release 4 versions of
+     /bin/login.  Patch provided by AT&T.
+</ul>
+
+<li><a href="ca-91.09">SunOS.rcp.mountd.vulnerability</a>
+<ul>
+CA-91:09.SunOS.rpc.mountd.vulnerability         07/15/91
+     This advisory has been superseded by CA-94:02.
+</ul>
+
+<li><a href="ca-91.10">SunOS.lpd.vulnerability 7/15/91</a>
+<li><a href="ca-91.10a">SunOS.lpd.vulnerability 9/12/91</a>
+<ul>
+CA-91:10.SunOS.lpd.vulnerability                07/15/91
+CA-91:10a.SunOS.lpd.vulnerability               09/12/91
+     Vulnerability in SunOS 4.0.3, 4.1, and 4.1.1 /usr/lib/lpd.
+     Patched versions are available.  Version 10a of this advisory
+     supersedes all prior versions.
+</ul>
+
+<li><a href="ca-91.11">Ultrix.LAT-Telnet.gateway.vulnerability</a>
+<ul>
+CA-91:11.Ultrix.LAT-Telnet.gateway.vulnerability 08/14/91
+     Vulnerability in Ultrix LAT/Telnet gateway software on 
+     all Ultrix 4.1 and 4.2 systems.  Patch available directly from
+     DEC.
+</ul>
+
+<li><a href="ca-91.12">Trusted.Hosts.Configuration.vulnerability</a>
+<ul>
+CA-91:12.Trusted.Hosts.Configuration.vulnerability 08/22/91
+     Vulnerability in MANY Unix systems regarding the use of
+     a minus sign ("-") as the first character in any hosts.equiv
+     hosts.lpd, and/or .rhosts files.  Workaround is to re-arrange
+     the lines in these files such that the "-" is not the 
+     first character in the file.
+</ul>
+
+<li><a href="ca-91.13">Ultrix.mail.vulnerability</a>
+<ul>
+CA-91:13.Ultrix.mail.vulnerability               08/23/91
+     Vulnerability in /usr/bin/mail on all Ultrix versions prior to 4.2.
+     Problem is fixed in Ultrix 4.2 and a patch is available from DEC
+     for 4.1.<br>
+     ** This advisory has been superseded by CA-95:02.
+</ul>
+
+<li><a href="ca-91.14">IRIX.mail.vulnerability</a>
+<ul>
+CA-91:14.IRIX.mail.vulnerability                 08/26/91
+     Vulnerability regarding the handling of mail messages on
+     all Silicon Graphics IRIX Systems prior to version 4.0.
+     The problem is fixed in version 4.0.  Solution involves
+     changing permissions and ownership of a system command. 
+</ul>
+
+<li><a href="ca-91.15">NCSA.Telnet.vulnerability</a>
+<ul>
+CA-91:15.NCSA.Telnet.vulnerability               09/10/91
+     Vulnerability in PC and Mac telnet program by NCSA.  This
+     advisory details a workaround.
+</ul>
+
+<li><a href="ca-91.16">SunOS.SPARC.Integer_Division.vulnerability</a>
+<ul>
+CA-91:16.SunOS.SPARC.Integer_Division.vulnerability 09/18/91
+     Vulnerability in Sun's integer division emulation code on
+     SPARC platforms running SunOS 4.1 and 4.1.1.  Patch available
+     from Sun and on ftp.uu.net.
+<br>
+     ** This patch is no longer available.  It has been obsoleted by
+     patches described in CA-92:15.
+</ul>
+
+<li><a href="ca-91.17">DECnet-Internet.Gateway.vulnerability</a>
+<ul>
+CA-91:17.DECnet-Internet.Gateway.vulnerability   09/26/91
+     Vulnerability in Ultrix DECnet to Internet gateway software.
+     This advisory details a workaround.  The vulnerability affects
+     Ultrix versions 4.0, 4.1, and 4.2.
+</ul>
+
+<li><a href="ca-91.18">Active.Internet.tftp.Attacks</a>
+<ul>
+CA-91:18.Active.Internet.tftp.Attacks            09/27/91
+     Warning about automated tftp probes for /etc/passwd to Internet
+     sites throughout the world.  Urges all sites to carefully check
+     their system configurations concerning tftp usage. Indicates
+     how sites can secure their tftp configurations.
+</ul>
+
+<li><a href="ca-91.19">AIX.TFTP.Daemon.vulnerability</a>
+<ul>
+CA-91:19.AIX.TFTP.Daemon.vulnerability           10/17/91
+     Vulnerability in the TFTP daemon in all versions of AIX for
+     IBM RS/6000 machines.  Patch available from IBM for all AIX
+     releases from "GOLD" to the current release.
+</ul>
+
+<li><a href="ca-91.20">rdist.vulnerability</a>
+<ul>
+CA-91:20.rdist.vulnerability                     10/22/91
+     A vulnerability concerning /usr/ucb/rdist (the location of rdist
+     may vary depending on the operating system).  This vulnerability is
+     present in possibly all versions of rdist.  Advisory details those
+     vendors that don't ship rdist, those providing patches, and a workaround
+     for all other versions of rdist.
+</ul>
+
+<li><a href="ca-91.21">SunOS.NFS.Jumbo.and.fsirand</a>
+<ul>
+CA-91:21.SunOS.NFS.Jumbo.and.fsirand             12/06/91
+     Vulnerabilities concerning Sun Microsystems, Inc. (Sun) Network
+     File System (NFS) and the fsirand program.  These vulnerabilities
+     affect SunOS versions 4.1.1, 4.1, and 4.0.3 on all architectures.
+     Patches are available for SunOS 4.1.1.  An initial patch for SunOS
+     4.1 NFS is also available. Sun will be providing complete patches
+     for SunOS 4.1 and SunOS 4.0.3 at a later date.
+</ul>
+
+<li><a href="ca-91.22">SunOS.OpenWindows.vulnerability</a>
+<ul>
+CA-91:22.SunOS.OpenWindows.vulnerability         12/16/91
+     A vulnerability is present in Sun's OpenWindows software version 3.0.
+     This problem is present in sun4 and sun4c systems running
+     SunOS 4.1.1.  A patch from Sun is available.
+<br>     ** This advisory is superseded by CA-93:18.
+</ul>
+
+<li><a href="ca-91.23">Apollo.crp.vulnerability</a>
+<ul>
+CA-91:23.Apollo.crp.vulnerability                12/18/91
+     A vulnerability is present in the crp system in Hewlett Packard/Apollo
+     Domain/OS in all SR10 versions.  A workaround is available and
+     patches for SR10.3 and SR10.4 will be available from Apollo
+     at a future date.
+</ul>
+
+<li><a href="ca-92.01">NeXTstep.configuration.vulnerability</a>
+<ul>
+CA-92:01.NeXTstep.configuration.vulnerability    01/20/92
+     A vulnerability is present in the default configuration in
+     release 2 of NeXTstep's NetInfo.  The advisory indicates where
+     a description of how to configure NetInfo correctly can be obtained.
+</ul>
+
+<li><a href="ca-92.02">Michelangelo.PC.virus.warning</a>
+<ul>
+CA-92:02.Michelangelo.PC.virus.warning           02/06/92
+     This advisory warns users of a PC virus called Michelangelo.
+     The virus affects IBM PCs and compatibles, and has a trigger
+     date of March 6 (any year).
+</ul>
+
+<li><a href="ca-92.03">Internet.Intruder.Activity</a>
+<ul>
+CA-92:03.Internet.Intruder.Activity              02/17/92
+     Warning about a significant intrusion incident on the Internet.
+     Urges all system administrators to check their systems for the
+     signs of intrusion detailed in the advisory.
+</ul>
+
+<li><a href="ca-92.04">ATT.rexecd.vulnerability</a>
+<ul>
+CA-92:04.ATT.rexecd.vulnerability                02/25/92
+     A vulnerability is present in AT&T TCP/IP Release 4.0 running
+     on SVR4 systems for both the 386/486 and 3B2 RISC platforms.
+     The problem is in the remote execution server /usr/etc/rexecd
+     and a new version of rexecd is available from AT&T.
+</ul>
+
+<li><a href="ca-92.05">AIX.REXD.Daemon.vulnerability</a>
+<ul>
+CA-92:05.AIX.REXD.Daemon.vulnerability           03/05/92
+     The rexd daemon may be enabled by default in versions 3.1 and 3.2
+     of AIX for IBM RS/6000 machines.  The advisory describes a fix for
+     the problem and details how to obtain a patch for the problem from
+     IBM.
+</ul>
+
+<li><a href="ca-92.06">AIX.uucp.vulnerability</a>
+<ul>
+CA-92:06.AIX.uucp.vulnerability                  03/19/92
+     A vulnerability is present in the UUCP software in versions of
+     AIX up to 2007.  The advisory describes how to disable UUCP and
+     details how to obtain a patch for the problem from IBM.
+</ul>
+
+
+<li><a href="ca-92.07">AIX.passwd.vulnerability</a>
+<ul>
+CA-92:07.AIX.passwd.vulnerability                03/31/92
+     A vulnerability is present in the passwd command in AIX 3.2 and
+     the 2007 update of AIX 3.1. The advisory describes how to disable
+     the /bin/passwd until you obtain and install the patch for the
+     problem from IBM.
+</ul>
+
+<li><a href="ca-92.08">SGI.lp.vulnerability</a>
+<ul>
+CA-92:08.SGI.lp.vulnerability                    04/10/92
+     A vulnerability is present in the default configuration of the lp
+     software in Silicon Graphics Computer Systems (SGI) IRIX operating
+     systems.  This vulnerability is present in all versions of IRIX,
+     prior to IRIX 4.0.5.  The advisory describes how to reconfigure the
+     lp software in order to eliminate this vulnerability.
+</ul>
+
+<li><a href="ca-92.09">AIX.anonymous.ftp.vulnerability</a>
+<ul>
+CA-92:09.AIX.anonymous.ftp.vulnerability         04/27/92
+     A vulnerability is present in the anonymous FTP configuration in all
+     versions of AIX.  The advisory describes how to obtain a patch for
+     the problem from IBM.
+</ul>
+
+<li><a href="ca-92.10">AIX.crontab.vulnerability</a>
+<ul>
+CA-92:10:AIX.crontab.vulnerability               05/26/92
+     A vulnerability is present in crontab(1) in version 3.2 of AIX.
+     This advisory describes how to implement a workaround for the
+     problem until you obtain the patch for the problem from IBM.
+</ul>
+
+
+<li><a href="ca-92.11">SunOS.Environment.vulnerability</a>
+<ul>
+CA-92:11:SunOS.Environment.vulnerability         05/27/92
+     A vulnerability involving environment variables and setuid/setgid
+     programs exists on all Sun architectures running SunOS 4.0 and
+     higher. The advisory details how to obtain patches for SunOS
+     programs which are known to be impacted by the vulnerability.
+     The advisory contains a workaround to protect vulnerable binaries
+     for which patches are unavailable for your SunOS version, or for
+     local or third party software which may be vulnerable.
+</ul>
+
+<li><a href="ca-92.12">REVISED.SunOS.rpc.mountd.vulnerability</a>
+<ul>
+CA-92:12.REVISED.SunOS.rpc.mountd.vulnerability  05/28/92
+     This advisory has been superseded by CA-94:02.
+</ul>
+
+<li><a href="ca-92.13">SunOS.NIS.vulnerability</a>
+<ul>
+CA-92:13.SunOS.NIS.vulnerability                 06/04/92
+     Vulnerabilities are present in NIS under SunOS 4.1, 4.1.1, and
+     4.1.2, and may or may not exist in earlier versions of NIS.  The
+     advisory describes how to obtain a patch for SunOS 4.1, 4.1.1, and
+     4.1.2 for the problem from Sun. 
+</ul>
+
+<li><a href="ca-92.14">Altered.System.Binaries.Incident</a>
+<ul>
+CA-92:14.Altered.System.Binaries.Incident        06/22/92
+     Warning about a significant intrusion incident on the Internet.
+     Urges all system administrators to check their systems for the
+     signs of intrusion detailed in the advisory.
+</ul>
+
+<li><a href="ca-92.15">Multiple.SunOS.vulnerabilities.patched</a>
+<ul>
+CA-92:15.Multiple.SunOS.vulnerabilities.patched  07/21/92
+     This advisory describes how to obtain various patches for SunOS 4.1,
+     4.1.1, and 4.1.2 for all Sun architectures.  As the application of
+     these patches involves rebuilding your system kernel, it is
+     recommended that you apply all patches simultaneously.
+<br>
+     This advisory obsoletes the 
+     CA-91:16.SunOS.SPARC.Integer_Division.vulnerability advisory.
+</ul>
+
+<li><a href="ca-92.16">VMS.Monitor.vulnerability</a>
+<ul>
+CA-92:16.VMS.Monitor.vulnerability               09/22/92
+     A vulnerability is present in the Monitor utility in VMS V5.0 through 
+     V5.4-2, but has been corrected in V5.4-3 through V5.5-1. This advisory 
+     details a workaround for those customers who are unable to upgrade
+     their systems to a version of VMS which does not have the problem. 
+<br> ** This advisory has been superseded by CA-92:18.
+</ul>
+
+<li><a href="ca-92.17">HP.NIS.ypbind.vulnerability</a>
+<ul>
+CA-92:17.HP.NIS.ypbind.vulnerability             10/05/92
+     A vulnerability is present in Hewlett-Packard's HP/UX Operating
+     System for series 300, 700, and 800 computers, which allows
+     remote NIS servers unauthorized access to local NIS hosts.  The
+     advisory describes how to obtain a patch for the problem from HP. 
+<br> ** This advisory has been superseded by CA-93:01.
+</ul>
+
+<li><a href="ca-92.18">VMS.Monitor.vulnerability.update</a>
+<ul>
+CA-92:18.VMS.Monitor.vulnerability.update        11/17/92
+     This advisory supersedes CA-92:16. It  provides additional 
+     information concerning availability of remedial image kits to correct a
+     vulnerability present in the Monitor utility in VMS V5.0 through V5.4-2.
+     The vulnerability has been corrected  in V5.4-3 through V5.5-1.
+</ul>
+     
+<li><a href="ca-92.19">Keystroke.Logging.Banner.Notice</a>
+<ul>
+CA-92:19.Keystroke.Logging.Banner.Notice         12/07/92
+     This advisory provides information from the United States Department of
+     Justice, General Litigation and Legal Advice Section, Criminal Division,
+     regarding keystroke monitoring by computer systems administrators, as a
+     method of protecting computer systems from unauthorized access. The CERT
+     staff strongly suggests adding a notice banner such as the one included 
+     in the advisory to all systems.  Sites not covered by U.S. law should 
+     consult their legal counsel.  
+</ul>
+
+<li><a href="ca-92.20">Cisco.Access.List.vulnerability</a>
+<ul>
+CA-92:20.Cisco.Access.List.vulnerability         12/10/92
+     This advisory provides information concerning a vulnerability in Cisco
+     router access lists when the "established" keyword is used.
+     This vulnerability is present in Cisco software releases 8.2, 8.3, 9.0
+     and 9.1.  The advisory describes workarounds and provides information on
+     how to obtain a patch for the problem from Cisco. 
+</ul>
+
+<li><a href="ca-92.21">ConvexOS.vulnerability</a>
+<ul>
+CA-92:21.ConvexOS.vulnerabilities                12/16/92
+     This advisory provides information concerning several vulnerabilities in
+     ConvexOS/Secure, CONVEX CXbatch, CONVEX Storage Manager (CSM), and
+     ConvexOS EMACS. These vulnerabilities can affect ConvexOS versions
+     V6.2 - V10.2 and ConvexOS/Secure versions V9.5 and V10.0 on all supported
+     architectures.  The advisory describes a workaround for one of the
+     vulnerabilities and provides information on how to obtain a patches for
+     the other problems from CONVEX Computer Corporation.
+</ul>
+
+<li><a href="ca-93.01">REVISED.HP.NIS.ypbind.vulnerability</a>
+<ul>
+CA-93:01.REVISED.HP.NIS.ypbind.vulnerability    01/13/93
+     A vulnerability is present in Hewlett-Packard's HP/UX Operating
+     System for series 300, 700, and 800 computers, which allows
+     remote NIS servers unauthorized access to local NIS hosts.
+     Patches from HP are available for all of the HP/UX level 8 releases
+     (8.0, 8.02, 8.06, and 8.07).  The problem is fixed in HP/UX 9.0.   
+<br> ** This advisory obsoletes the CA-92:17.HP.NIS.ypbind.vulnerability
+     advisory. 
+</ul>
+
+<li><a href="ca-93.01">REVISED.HP.NIS.ypbind.vulnerability</a>
+<ul>
+CA-93:02a.NeXT.NetInfo._writers.vulnerabilities  01/21/93
+     This advisory provides information concerning vulnerabilities in the
+     distributed printing facility ("_writers" properties) of NeXT
+     computers running all releases of NeXTSTEP software through NeXTSTEP
+     Release 3.0.  The advisory details the availability of a patch for the
+     problems and provides suggested workarounds.
+</ul>
+
+<li><a href="ca-93.03">SunOS.Permissions.vulnerability</a>
+<ul>
+CA-93:03.SunOS.Permissions.vulnerability         02/03/93
+     This advisory describes a patch that is available to correct 
+     the ownerships and permissions for a number of system files in 
+     SunOS 4.1, 4.1.1, 4.1.2, and 4.1.3.  These have been fixed in 
+     SunOS 5.0.  CERT staff has seen an increasing number of attackers 
+     exploit these problems on systems and we encourage sites to
+     consider installing this patch.
+</ul>
+
+<li><a href="ca-93.04a">Amiga.finger.vulnerability</a>
+<ul>
+CA-93:04a.Amiga.finger.vulnerability             02/18/93
+     A vulnerability is present in the "finger" program of Commodore
+     Business Machine's Amiga UNIX product and affects Commodore
+     Amiga UNIX versions 1.1, 2.03, 2.1, 2.1p1, 2.1p2, and 2.1p2a.
+     This advisory details the availability of a patch for the problem
+     and provides a suggested workaround.
+</ul>
+
+<li><a href="ca-93.05">OpenVMS.AXP.vulnerability</a>
+<ul>
+CA-93:05.OpenVMS.AXP.vulnerability              02/24/93
+     A vulnerability is present with Digital Equipment Corporation's
+     OpenVMS and OpenVMS AXP. This vulnerability is present in OpenVMS
+     V5.0 through V5.5-2 and OpenVMS AXP V1.0 but has been corrected
+     in OpenVMS V6.0 and OpenVMS AXP V1.5. This advisory provides
+     details from Digital on the severity of the vulnerability and
+     patch availability for the problem.
+</ul>
+
+<li><a href="ca-93.06">wuarchive.ftpd.vulnerability</a>
+<ul>
+CA-93:06.wuarchive.ftpd.vulnerability           04/09/93
+     A vulnerability is present in versions of wuarchive ftpd available 
+     before April 8, 1993.  This vulnerability is present in wuarchive ftpd 
+     versions which were available from wuarchive.wustl.edu and many other
+     anonymous FTP sites. This advisory provides details on the severity
+     of the vulnerability and (1) the availability of a new version of
+     wuarchive ftpd and (2) availability of a patch for the problem.
+</ul>
+
+<li><a href="ca-93.07">Cisco.Router.Packet.Handling.Vulnerability</a>
+<ul>
+CA-93:07.Cisco.Router.Packet.Handling.Vulnerability     04/22/93
+     A vulnerability exists in Cisco routers such that a router which 
+     is configured to suppress source routed packets with the following
+     command: "no ip source-route" may allow traffic which should be 
+     suppressed.  This vulnerability applies to all models of Cisco routers,
+     and occurs with the following releases of software: 8.2, 8.3, 9.0,
+     9.1, and 9.17.  This advisory details information about releases
+     available to correct this problem.
+</ul>
+
+<li><a href="ca-93.08">SCO.passwd.Vulnerability</a>
+<ul>
+CA-93:08.SCO.passwd.Vulnerability                   05/24/93
+     A vulnerability exists in several releases of SCO's Operating Systems.  
+     This vulnerability has the potential to deny legitimate users the 
+     ability to log onto the system. This advisory details information
+     about releases available to correct this problem.
+</ul>
+
+<li><a href="ca-93.09">SunOS.expreserve.vulnerability 6/11/93</a>
+<li><a href="ca-93.09a">SunOS.expreserve.vulnerability 7/01/93</a>
+<ul>
+CA-93:09.SunOS.expreserve.vulnerability             06/11/93    <br>
+CA-93:09a.SunOS.expreserve.vulnerability            07/01/93
+     This advisory describes patches and workaround that are available
+     to correct a vulnerability in /usr/lib/expreserve in all sun3 and
+     sun4 architectures and supported versions of SunOS including 4.1,
+     4.1.1, 4.1.2, 4.1.3, Solaris 2.0 (SunOS 5.0), Solaris 2.1 (SunOS 5.1), 
+     and Solaris 2.2 (SunOS 5.2).  This problem has become widely known
+     and CERT staff recommends that sites take action to address this
+     vulnerability as soon as possible.
+</ul>
+
+<li><a href="ca-93.10">anonymous.FTP.activity</a>
+<ul>
+CA-93:10.anonymous.FTP.activity                     07/14/93
+     This advisory provides an updated version of the anonymous FTP 
+     configuration guidelines that is available from the CERT 
+     Coordination Center.
+</ul>
+
+<li><a href="ca-93.10">UMN.UNIX.gopher.activity</a>
+<ul>
+CA-93:11.UMN.UNIX.gopher.vulnerability              08/09/93
+     Vulnerabilities exist in versions of the UMN UNIX gopher and gopher+ 
+     server and client available before August 6, 1993. These vulnerabilities
+     are present in UMN UNIX gopher and gopher+ versions which were available 
+     from boombox.micro.umn.edu and many other anonymous FTP sites. This 
+     advisory provides details on the severity of the vulnerabilities and 
+     the availability of new versions of UMN UNIX gopher and gopher+.
+</ul>
+
+<li><a href="ca-93.12">Novell.LOGIN.EXE.vulnerability</a>
+<ul>
+CA-93:12.Novell.LOGIN.EXE.vulnerability             09/16/93
+     A vulnerability exists in Novell's NetWare 4.x login program (LOGIN.EXE).
+     This advisory provides details on the availability of a security-enhanced 
+     version of the Novell Netware 4.x login program.
+</ul>
+
+<li><a href="ca-93.13">SCO.Home.Directory.vulnerability</a>
+<ul>
+CA-93:13.SCO.Home.Directory.Vulnerability           09/17/93
+     A vulnerability relating to the "dos" and "asg" accounts exists in 
+     numerous SCO Operating Systems releases. This advisory provides 
+     instructions for repairing the vulnerability. 
+</ul>
+
+<li><a href="ca-93.14">Internet.Security.Scanner</a>
+<ul>
+CA-93:14.Internet.Security.Scanner                  09/30/93
+     This advisory alerts Internet sites to a new software tool that
+     is widely available. The advisory describes vulnerabilities 
+     probed by the Internet Security Scanner (ISS) software.
+</ul>
+
+<li><a href="ca-93.15">SunOS.and.Solaris.vulnerabilities</a>
+<ul>
+CA-93:15.SunOS.and.Solaris.vulnerabilities          10/21/93
+     This advisory describes several vulnerabilities in Sun operating
+     systems: /usr/lib/sendmail (SunOS 4.1.x, Solaris 2.x), /bin/tar 
+     (Solaris 2.x), and dev/audio (SunOS 4.1.x, Solaris 2.x). The 
+     advisory includes patch and workaround information for these 
+     problems. 
+<br> * The sendmail portion of this advisory is superseded by CA-95:05.
+</ul>
+
+<li><a href="ca-93.16">sendmail.vulnerability</a>
+<ul>
+CA-93:16.sendmail.vulnerability                     11/04/93
+     This advisory addresses a vulnerability in sendmail(8) and provides 
+     information concerning three possible approaches to eliminating the 
+     vulnerability as well as associated impacts and an appendix.
+<br> ** This advisory has been superseded by CA-95:05.
+</ul>
+
+<li><a href="ca-93.16a">sendmail.vulnerability.supplement</a>
+<ul>
+CA-93:16a.sendmail.vulnerability.supplement         01/07/94
+     This advisory is a supplement to CA-93:16.sendmail.vulnerability
+     and contains vendor patch information. An associated file
+     containing more comprehensive vendor-supplied information is
+     CA-93:16a.README. 
+<br> ** This advisory supplement is superseded by CA-95:05.
+</ul>
+
+<li><a href="ca-93.17">xterm.logging.vulnerability</a>
+<ul>
+CA-93:17.xterm.logging.vulnerability                11/11/93
+     This advisory addresses a vulnerability in the logging function of
+     many versions of xterm. It provides information about several
+     solutions.
+</ul>
+
+<li><a href="ca-93.18">sunOS.Solbourne.loadmodule.modload.vulnerability</a>
+<ul>
+CA-93:18.SunOS.Solbourne.loadmodule.modload.vulnerability       12/15/93
+     This advisory addresses a vulnerability in /usr/etc/modload
+     and $OPENWINHOME/bin/loadmodule in in Sun Microsystems, Inc. 
+     SunOS 4.1.1, 4.1.2, 4.1.3, and 4.1.3c and OpenWindows 3.0
+     on all sun4 and Solbourne Computer, Inc. architectures. 
+     It supersedes CERT Advisory CA-91:22 "SunOS OpenWindows 
+     Vulnerability".
+</ul>
+
+<li><a href="ca-94.01">ongoing.network.monitoring.attacks</a>
+<ul>
+CA-94:01.ongoing.network.monitoring.attacks         02/03/94
+     This advisory describes ongoing network monitoring attacks. All
+     systems that offer remote access through rlogin, telnet, and ftp
+     are at risk.  The advisory includes a description of the activity and
+     suggested approaches for addressing the problem. 
+</ul>
+
+<li><a href="ca-94.02">Revised.Patch.for.SunOS.mountd.vulnerability</a>
+<ul>
+CA-94:02.Revised.Patch.for.SunOS.mountd.vulnerability           02/14/94
+     A vulnerability is present in SunOS 4.1, 4.1.1, 4.1.2, and 4.1.3
+     /usr/etc/rpc.mountd.  Unauthorized remote hosts will be able to mount
+     the file system.  The advisory describes how to obtain a patch for
+     the problem from Sun.  An associated file containing additional
+     information relating to the patch is CA-94:02.README.
+</ul>
+
+<li><a href="ca-94.03">AIX.performance.tools</a>
+<ul>
+CA-94:03.AIX.performance.tools                                  02/24/94
+     Vulnerabilities are present in the bosext1.extcmds.obj
+     performance tools in AIX 3.2.5 and in those AIX 3.2.4 systems
+     with Program Temporary Fixes (PTFs) U420020 or U422510 installed.
+     These problems do not exist in earlier versions of AIX.
+     An associated file containing information on how to obtain a
+     patch for the problem is CA-94:03.README.
+</ul>
+
+<li><a href="ca-94.04">SunOS.rdist.vulnerability</a>
+<ul>
+CA-94:04.SunOS.rdist.vulnerability                              03/17/94
+     This advisory addresses a vulnerability with /usr/ucb/rdist in
+     SunOS 4.0.3, 4.1.1, 4.1.2, 4.1.3, and 4.1.3c on sun3 and sun4
+     architectures.  The advisory describes how to obtain a patch for
+     the problem from Sun.  
+</ul>
+
+<li><a href="ca-94.05">MD5.checksums</a>
+<ul>
+CA-94:05.MD5.checksums                                          03/18/94
+     This advisory gives the MD5 checksums for a number of SunOS
+     files, along with a tool for checking them.  
+</ul>
+
+<li><a href="ca-94.06">utmp.vulnerability</a>
+<ul>
+CA-94:06.utmp.vulnerability                                     03/21/94
+     This advisory addresses a vulnerability with /etc/utmp ins
+     SunOS 4.1.X and Solaris 1.1.1 operating systems. Solbourne 
+     Computer, Inc. and other Sparc products using SunOS 4.1.X or 
+     Solaris 1.1.1 are also affected. Solaris 2.x is not affected 
+     by this problem.
+</ul>
+
+<li><a href="ca-94.07">wuarchibe.ftpd.trojan.horse</a>
+<ul>
+CA-94:07.wuarchive.ftpd.trojan.horse                            04/06/94
+     Warning about intruder-modified source for wuarchive ftpd,
+     which introduced a Trojan horse in versions 2.2, 2.1f, and
+     possibly earlier versions.  Recommended solution is to 
+     upgrade to version 2.3.
+</ul>
+
+<li><a href="ca-94.08">ftpd.vulnerabilities</a>
+<ul>
+CA-94:08.ftpd.vulnerabilities                                   04/14/94
+     This advisory addresses two vulnerabilities with some releases of
+     fptd and announces new versions and patches to correct these
+     problems.  ftpd versions affected are wuarchive ftpd 2.0-2.3,
+     DECWRL ftpd versions prior to 5.93, and BSDI ftpd version 1.1
+     prior to patch level 5.  The vulnerabilities addressed are the
+     SITE EXEC and race condition vulnerabilities.
+</ul>
+
+<li><a href="ca-94.09">bin.login.vulnerability</a>
+<ul>
+CA-94:09.bin.login.vulnerability                                05/23/94
+     This advisory addresses a vulnerability in /bin/login of all 
+     IBM AIX 3 systems, and Linux systems.  A workaround and patch
+     information are included in this advisory.
+</ul>
+
+<li><a href="ca-94.10">IBM.AIX.bsh.vulnerability</a>
+<ul>
+CA-94:10.IBM.AIX.bsh.vulnerability                              06/3/94 
+     This advisory addresses a vulnerability in the batch queue (bsh)
+     of IBM AIX systems running versions prior to and including AIX
+     3.2.  CERT staff recommends a workaround to disable the bsh feature.
+     IBM provides a patch for systems requiring this functionality.
+</ul>
+
+<li><a href="ca-94.11">majordomo.vulnerability</a>
+<ul>
+CA-94:11.majordomo.vulnerabilities                              06/9/94 
+     This advisory addresses two vulnerabilities in Majordomo 
+     versions prior to 1.92. CERT staff recommends installing version
+     1.92, but provides workarounds if this is not possible.
+</ul>
+
+<li><a href="ca-94.12">sendmail.vulnerability</a>
+<ul>
+CA-94:12.sendmail.vulnerabilities                               07/14/94
+     This advisory addresses two vulnerabilities in sendmail(8):
+     one in the debug option (-d) and other in the error message header 
+     option (-oE). Patch information is listed as of the date of advisory 
+     release. The CA-94:12.README file contains the most current list.
+<br> **This information is superseded by CA-95:05 and CA-95:05.README.
+</ul>
+
+<li><a href="ca-94.13">SGI.IRIX.Help.Vulnerability</a>
+<ul>
+CA-94:13.SGI.IRIX.Help.Vulnerability                            08/11/94
+     This advisory addresses a vulnerability in the Silicon Graphics, Inc.
+     IRIX 5.x Help system.  SGI recommends installing the patch, but has
+     provided a workaround to disable the Help system if this is not
+     possible.  Additional details are included in the associated README
+     file for this advisory.
+</ul>
+
+<li><a href="ca-94.14">trojan.horse.in.IRC.client.for.UNIX</a>
+<ul>
+CA-94:14.trojan.horse.in.IRC.client.for.UNIX                   10/19/94
+     This advisory discusses a Trojan horse that was found in version 2.2.9 of
+     ircII, the source code for the Internet Relay Chat (IRC) client for UNIX
+     systems. For reasons described in the advisory, the CERT staff urges
+     everyone to install ircII version 2.6.
+</ul>
+
+<li><a href="ca-94.15">NFS.Vulnerabilities</a>
+<ul>
+CA-94:15.NFS.Vulnerabilities                                   12/19/94
+     This advisory describes security measures to guard against several
+     vulnerabilities in the Network File System (NFS). The advisory was
+     prompted by an increase in root compromises by intruders using tools
+     to exploit the vulnerabilities.
+</ul>
+
+<li><a href="ca-95.01">IP.spoofing.attacks.and.hijacked.terminal.connections</a>
+<ul>
+CA-95:01.IP.spoofing.attacks.and.hijacked.terminal.connections     1/95
+     This advisory describes attacks in which intruders create packets with
+     spoofed IP addresses and exploit applications that use authentication
+     based on IP. The advisory also discusses a tool intruders use to take
+     control of open terminal or login sessions. 
+</ul>
+
+<li><a href="ca-95.02">bindmail.vulnerabilities</a>
+<ul>
+CA-95:02.binmail.vulnerabilities                                   1/95
+     This advisory supersedes CA-91:01a and CA-91:13. It addresses
+     vulnerabilities in some versions of /bin/mail based on 
+     BSD 4.3 UNIX. It includes a list of vendor patches and source
+     code for mail.local.c, an alternative to /bin/mail. Updated
+     information will be placed in the CA-95:02.README file.
+</ul>
+
+<li><a href="ca-95.03">telnet.ecryption.vulnerability</a>
+<ul>
+CA-95:03.telnet.encryption.vulnerability                           2/95
+     Description and patch information for a security problem in the 
+     Berkeley Telnet clients that support encryption and Kerberos V4
+     authentication. 
+<br> **This information is superseded by CA-95:03a.
+</ul>
+
+<li><a href="ca-95.03a">telnet.ecryption.vulnerability</a>
+<ul>
+CA-95:03a.telnet.encryption.vulnerability                          3/95
+     Description and patch information for a security problem in the 
+     Berkeley Telnet clients that support encryption and Kerberos V4
+     authentication. It provides additional information.
+<br> **This information supersedes CA-95:03.
+</ul>
+
+<li><a href="ca-95.04">NCSA.http.daemon.for.unix.vulnerability</a>
+<ul>
+CA-95:04.NCSA.http.daemon.for.unix.vulnerability                   2/95
+     This advisory provides a patch for a vulnerability in the NCSA
+     HTTP daemon version 1.3 for UNIX.
+</ul>
+
+<li><a href="ca-95.05">NCSA.http.daemon.for.unix.vulnerability</a>
+<ul>
+CA-95:05.sendmail.vulnerabilities                                  2/95
+     This advisory supersedes all previous advisories relating to
+     sendmail. Three vulnerabilities are addressed; vendor vulnerability
+     and patch information is included, along with a "sendmail wrapper."
+</ul>
+
+<h4>More '95 Advisories</h4>
+<ul>
+<li><a href="ca-95_06.txt">SATAN</a> - Security Administrator Tool for
+        Analizing Networks.
+<li><a href="ca-95_07.txt">Vulnerability in SATAN</a>
+<li><a href="ca-95_7a.txt">SATAN Vulnerability</a> - Password Disclosure.
+<li><a href="ca-95_08.txt">Sendmail v.5 Vulnerability</a>
+<li><a href="ca-95_09.txt">Solaris ps Vulnerability</a>
+<li><a href="ca-95_10.txt">Ghostscipt Vulnerability</a>
+<li><a href="ca-95_11.txt">Sun Sendmail -oR Vulnerability</a>
+<li><a href="ca-95_12.txt">Sun 4.1.X Loadmodule Vulnerability</a>
+<li><a href="ca-95_13.txt">syslog Vulnerability</a> - A Workaround for Sendmail
+<li><a href="ca-95_14.txt">Telnetd Enviornment Vulnerability</a>
+<li><a href="ca-95_15.txt">SGI lp Vulnerability</a>
+<li><a href="ca-95_16.txt">wu-ftpd Misconfiguration Vulnerability</a>
+<li><a href="ca-95_17.txt">rpc.ypupdated Vulnerability</a>
+</ul>
+
+<h4>'96 Advisories</h4>
+<ul>
+<li><a href="ca-96_01.txt">UDP Port Denial-of-Service Attack</a>
+<li><a href="ca-96_02.txt">BIND version 4.9.3</a>
+<li><a href="ca-96_03.txt">Vulnerability in Kerberos 4 Key Server</a>
+<li><a href="ca-96_04.txt">Corrupt Information from Network Servers</a>
+</ul>
+
+<p>
+<hr>
+</html>

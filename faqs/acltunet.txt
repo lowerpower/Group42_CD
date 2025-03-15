@@ -1,0 +1,528 @@
+Archive-name: usenet/culture-faq
+Last-modified: Mon Jul 17 17:48:19 EDT 1995
+Version: 1.5
+
+  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --   --
+                  WELCOME  TO  alt.culture.usenet
+  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --   --
+
+  If you wish to go to a particular section of this FAQ, and your
+  newsreader or editor provides a search capability, search for the
+  string SECTxx, where xx is the section number.
+
+  If you don't understand any of the terms used in this document,
+  please see the included glossary (section 04).  If the term is
+  not mentioned in the glossary, e-mail the maintainer and it may
+  be included in the next release.
+
+Table of contents:
+
+ Section 00: What I'd like to see in this FAQ.
+ Section 01: What has changed since the last posting?
+ Section 02: Why alt.culture.usenet?
+ Section 10: What is Usenet?
+ Section 11: The Usenet "Room Analogy".
+ Section 20: Various insights into Usenet culture.
+ Section 90: What are some relevant Usenet terms?
+ Section 95: Who contributed to this FAQ?
+ Section 98: How to get this FAQ.
+ Section 99: How to contact me, the maintainer.
+
+  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --   --
+
+SECT00: What I'd like to see in this FAQ.
+
+    This section is devoted to what I think should be in this FAQ,
+ but is not.  So, if anyone has any good ideas on what I should write
+ about these things, drop me a line.  Heck, I might even quote you!
+ Now wouldn't that be cool?
+
+ - I've still got dozens of posts & email still waiting to be added...
+ - Pointers to relevant URLs, FAQs, and other newsgroups.
+   (which I could put in the HTML version of this FAQ, still under
+   construction.)
+ - Maybe an additional posting disecting an actual flame war.  I
+   think this would be really interesting...  Think about it - a
+   post-mortem on an actual flame war.  Of course, it would have to
+   be a good one!
+
+  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --   --
+
+SECT01: What has changed since the last posting?
+
+ - Expanded the troll definition.
+ - Miscellaneous touch-ups.
+
+  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --   --
+
+SECT02: Why alt.culture.usenet?
+
+    alt.culture.usenet (referred to as a.c.u. in the remainder of this
+ document) is a place where we can step back and study the culture
+ that exists on Usenet.  While Usenet is primarily influenced by the
+ United States of America, it has a truly global reach.  The culture
+ on Usenet is unlike any other culture in human history - it is a
+ melting pot of ideas, of talents, of intellects, and of tempers.
+ Usenet is a grand experiment in democracy - as evidenced by its all
+ speakers welcome philosophy, and even by Usenet's newsgroup creation
+ process.
+
+    On a.c.u., we ask "Why?"  "Why do flame wars always seem to spread
+ to other groups"  "Why does MAKE MONEY FAST always appear in
+ September?"  "Why does an hour reading news actually take 3 hours of
+ real time?"  "Why?" is one of the most important questions a person
+ can ask.  In a.c.u., we are all given the chance to ask why this and
+ why that - to discover the social interactions that make up Usenet.
+ Of course, we all can answer the questions too - sometimes it makes
+ for very lively discussions!
+
+    But let us not forget the other questions, like who? and when? and
+ the others - they are important too!
+
+  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --   --
+
+SECT10:  What is Usenet?
+
+    Before we can discuss Usenet's culture, we have to get a few
+ things straight.  First of all, we must agree on what Usenet is and
+ what it is not.
+
+    According to the New Hacker's Dictionary, Usenet was "originally
+ implemented in 1979-1980 by Steve Bellovin, Jim Ellis, Tom Truscott,
+ and Steve Daniel at Duke University".  Usenet news was initially
+ transmitted via UUCP to a few sites and so little was transmitted
+ that you could easily read all the articles posted in one day.  Since
+ then, Usenet has expanded enormously - with daily traffic measured in
+ the hundreds of Megabytes and readers in the millions.
+
+    Okay - time to put your thinking caps on, because its time for a
+ quiz.  There is only one question on this here quiz: What is Usenet?
+
+   A) Usenet is the newsgroups.
+   B) Usenet is the loosely coupled network of computers that
+      transmit news via various protocols.
+   C) Usenet is the community of people who read news.
+   D) All of the above.
+
+    Since I am the writer of this FAQ, I get to tell you the correct
+ answer - which, in my arrogant opinion, just happens to be D.
+
+ A) Usenet is the newsgroups.
+
+    Without the newsgroups where would we be?  Well - somewhere else,
+    of course - and probably wasting less time in the process!
+
+ B) Usenet is the loosely coupled network of computers that
+    transmit the newsgroups.
+
+    Without the transport mechanism, where would we be?  Again -
+    somewhere else (or possibly looking at local news only).  The
+    network that makes up the news transport system is truly
+    enormous, and likely as not changes by the minute.  All kinds of
+    networks, communication protocols, and media are used to transmit
+    news - TCP/IP, X.25, UUCP, modems, floppy disks, LANs, the
+    Internet, satellites, light, radio waves, electrons...
+
+ C) Usenet is the community of people who read news.
+
+    Without us to read and write the news, where would Usenet be?
+    Well, nowhere again!  (I think you all get the idea I'm shooting
+    for - if you don't, then try harder - it'll come to you
+    eventually, I'm sure.)
+
+
+    Since the I have just told you what I think Usenet is, I feel it
+ is also my duty to tell you what Usenet is not.
+
+ - Usenet is not the Internet.
+   While it is true that a significant portion of Usenet traffic is
+   transmitted on the Internet, and it is true that many millions
+   of people read news through the Internet, Usenet is NOT the
+   Internet, and similarly the Internet is not Usenet.  To make it
+   even more muddled, neither is a subset of the other - Usenet is
+   not wholly contained in the Internet, and the Internet is
+   certainly not wholly continued by Usenet.  Period.
+
+ - Usenet is not email.
+   While it is true that the email headers look a hell of a lot
+   like news headers (indeed many are actually the same), and it is
+   true that email and news can use some of the same transport
+   mechanisms, and it is true that email and news use many of the
+   same writing conventions, Usenet is NOT email.  When you post
+   news, reply to news, or read news, you are interacting with
+   millions of other people - *nothing* is private.
+
+ - Usenet is not an online service.
+   While it is true that most (if not all) online services provide
+   news service for their users, and it is true that many online
+   services provide very similar services under a different name,
+   and it is true that these services have similar semantics,
+   Usenet is not an online service.  You do not explicitly have to
+   pay for Usenet (many people do actually pay for Usenet access,
+   but Usenet itself is free).  Online service's forums, discussions,
+   rooms, et cetera are NOT distributed as part of Usenet and cannot
+   be accessed without buying service from the particular service
+   provider.  Usenet has newsgroups - not boards, rooms, discussions,
+   channels, forums, or anything else besides newsgroups.
+
+  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --   --
+
+SECT11: The "Room" analogy.
+
+    I have seen many analogies used that attempt to describe Usenet.
+ The one that I prefer (and that I think is the best) is the "Room
+ Analogy".  Basically it goes like this.  You've got this enormous
+ building with thousands of rooms.  Each room has a sign outside
+ describing what is being discussed inside the room...
+
+    Some rooms are very organized.  These rooms have a large audience
+ and a few selected speakers, and a spokesman or two...
+
+    Some rooms do not have any spokesmen, but are still very well
+ organized.  Every now and then some people go over to a corner and
+ have a quiet conversation, but nothing terribly loud.
+
+    Other rooms are like big social gatherings with many smaller
+ groups talking (or yelling) among themselves.  There are many people
+ in these rooms, most of them just walking around and listening in on
+ the various conversations...
+
+    There also play rooms, some with very few people, but they make a
+ terrible racket!  Often, these play rooms have a king of the
+ mountain, a demi-god, or even a bully.
+
+    There are many kinds of rooms that I haven't described, but I'm
+ sure you can figure those out for yourselves!  Of course, this
+ analogy fails in some ways - how do explain we cross-posting?
+ Oh well, analogies are not perfect...
+
+  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --   --
+
+SECT20: Various insights into Usenet culture.
+
+    I guess everyone has their 30 seconds in the spotlight.  Well,
+ the following posts are those 30 seconds...  I think that these
+ posts give us all some insight into the beast we call Usenet.  No
+ one can ever truly understand Usenet because she is constantly
+ changing.  But we can try.
+
+ On Flames:
+
+   Steve Siegfried (sos@skypoint.com) wrote:
+
+ > You see, that's the really neat part about the net.  We flame
+ > people.  We flame people for making sense.  We flame people for
+ > being silly.  We even flame people trying to make a living.  We
+ > flame people for asking questions.  We flame them for posting/
+ > emailing thoughtful responses to our otherwise lack-luster queries.
+ > We flame 'em for making mundane replies to Pulitzer-class
+ > postings.  We especially like to flame people who even hint at
+ > newbieness.
+ >
+ > A large part of the net and the email traffic it carries is the
+ > exclusive domain of pocket-protected, high-water-trousered,
+ > over-hyphenated, socially-retarded single white males.  In short,
+ > the net's a social club for technonerds ("No Girls Allowed") not
+ > unlike, say, the Masons.  As further evidence, IMHO, we have a
+ > secret language.  We even have a decoder ring:  rot-13.  Oh yeah,
+ > and signature files whose size is probably inversely proportional
+ > to either our IQ or some other personal measurement.
+
+
+ On the (political) power of Usenet:
+
+ We would do well to understand just what we (readers of Usenet) as a
+ group are and are not capable of.  Many people have claimed that
+ Usenet is heralding a new era in U.S. and/or world
+ _insert_favorite_topic_here_.  Well sober up, because in most cases
+ its just not happening.
+
+   David Birdsey (birdhaex@cais2.cais.com) wrote:
+
+ > Yes, I do think the technology will spread, but I don't think that
+ > will facilitate the USENET's becoming some sort of vox populi --
+ > perhaps I should clarify that. It may be that USENET _is_ already
+ > a town meeting in progress, but that does not make it a political
+ > force.  I for one have been really impressed with the information
+ > that can be gleaned from the Internet, USENET included. However,
+ > I'm not sure the expansion of computers and the Internet will mean
+ > that we will have a sudden explosion of interest in the often very
+ > esoteric topics that are the foundation of a lot of broader policy
+ > decisions in government, and concommitant mobilization of the
+ > public on these issues.  In other words, people will probably
+ > e-mail their pals, look up recipes, and download naughty
+ > pictures, but probably won't rush out to register to vote because
+ > of what they learn (or don't learn) on the Internet. 
+
+  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --   --
+
+SECT90: What are some relevant Usenet terms?
+
+    This section defines some terms that a relevant to the discussion
+ of the culture of Usenet.  I have taken some of the following
+ information from The New Hacker's Dictionary - mostly because it
+ explains things from a point of view often found on Usenet - from
+ the point of view of a computer related or influenced field.
+
+    Understanding these terms, and the reasons behind the terms can
+ help in understanding Usenet and its culture - its not the whole
+ understanding, but its a start.
+
+    Where appropriate, I have included pointers to particularly
+ relevant groups where the term is the basis for the group, or where
+ the term is likely to be in use by the group.
+
+ [Refinements are welcome, as are good illustrative examples.]
+
+ Aahz's law
+   The best way to get information on Usenet is not to ask a
+   question, but to post the wrong information.
+
+ Boigy's Law
+   The theory that there are certain topics in every newsgroup that
+   are discussed cyclicly, such as every month.  Often, the period of
+   the cycle, and the length of the resulting discussion, can be
+   accurately estimated by those who have been around long enough.
+
+ Flame
+ Flame-war
+   1. To post an email message intended to insult and provoke.
+   2. To speak incessantly and/or rabidly on some relatively
+      uninteresting subject or with a patently ridiculous attitude.
+   3. Either of senses 1 or 2, directed with hostility at a
+      particular person or people.
+   Flames are often found in large numbers (known as a flame-war)
+   during religious wars (see religious issue, below).  alt.flame is
+   specifically dedicated to perfecting the art of flaming.
+
+ Flamebait
+   A posting that is intended to trigger a flame war, or one that
+   invites flames in reply.  For example, posting an article on how
+   to run dogs over in rec.pets.dogs is sure to draw scathing flames
+   from the readers of that group.
+
+ Kibo
+   Also known as "He who grep's" (grep is a Unix text searching
+   tool).  Kibo was the first person to "grep" (search) the entire
+   news stream for his name, generating an a reply if the string
+   "kibo" was found.  Eventually, (we think) he modified his search
+   pattern to find various modifications of "kibo", such as "Kibo" or
+   "KIBO".  Kibo is the closest thing to a God on Usenet.  We worship
+   you, almighty Kibo!  See alt.religion.kibology for more information.
+
+ Kook
+   A term used for many things, but mostly for the weirdos who
+   randomly appear in random groups and who cause no end of trouble.
+   Often placed in kill files, they usually disappear only after
+   everyone has finally stopped responding to their ridiculous or
+   improperly posted articles.
+   See alt.usenet.kooks for more information.
+
+ Lurk
+   To read a newsgroup but not post articles.  It is often
+   hypothesized that upwards of 99% of the people reading a group do
+   not post, or post very rarely.  Of course, this hypothesis could
+   be entirely incorrect and we're all out here babbling away to
+   ourselves.
+
+ Religious Issue
+   Questions which seemingly cannot be raised without touching off
+   holy wars (a flame war about a religious issue), such as "What is
+   the best operating system (or editor, language, architecture,
+   shell, mail reader, news reader...)?"
+   Almost every group has a religious issue of some kind.  Anybody
+   who was around the last time the issue exploded is careful not to
+   provoke another war.  Religious issues are universally guaranteed
+   to start a long running, tiresome, bandwidth wasting flame war -
+   no truces allowed.
+
+ September
+   The time when college students return to school and start to post
+   stupid questions, repost MAKE MONEY FAST, break rules of
+   netiquette, and just generally make life on Usenet more difficult
+   than at other times of the year.  Unfortunately, it has been
+   September since 1993.  With the growing sensationalism surrounding
+   the "Information-Superhighway" in the United States, the current
+   September is likely to last into the next century.
+
+   Regarding the origin of this term, David DeLaney
+   (dbd@panacea.phys.utk.edu) wrote:
+
+    > The first recorded outbreak of this was Warren Burstein saying
+    > "It's *always* September, *somewhere* on the net" in response
+    > to a particularly Clueless outburst from Delphi.com on
+    > alt.folklore.urban, in fall 1993.
+    >
+    > Dave Fischer extended this, some time after that, to "1993 was
+    > The Year September Never Ended".
+
+ Signal to Noise Ratio (snr)
+   A subjective quantity (the snr has no units - its usually just
+   some obvious quantifier) describing someone's idea of just how
+   much content a group has, relative to the junk that the group has.
+   The snr is *very* subjective: my idea of the snr of alt.flame
+   (approximately 0%) certainly differs from those who thrive on it.
+   Generally, every person who reads news has a certain threshold for
+   snr.  If any group falls below that threshold, the reader will
+   unsubscribe, rather than wade through all the junk.
+
+ Sturgeon's Law
+   Ninety percent of everything is crud.  What that ninety percent is
+   depends on who you are, but this law is often the cause of
+   strenuous debate about a thread being either on or off topic!
+   Please note that this does not imply that the remaining ten percent
+   is not.
+
+ Troll
+   A posting designed specifically to generate followups about
+   something trivial, but not in the sense of a flame; or a post
+   designed to instruct readers' to ignore obvious drivel by making
+   the replyers feel utterly stupid.  Such things as blatantly
+   incorrect facts, misspellings, or concepts can be used as trolls.
+    After the followups have died down, the troller will usually
+   inform the victims of their status as guinea pigs and move on to
+   another group.  Often, trolls are explicitly noted in the summary
+   or keywords portions of the headers, thus making the respondents
+   look like idiots - which they probably are for not having read
+   the headers to begin with.
+
+   For a good analogy and taxonomy of trolls,
+   Abby Franquemont-Guillory (abbyfg@tezcat.com) writes,
+
+    > Sometimes, when one goes fishing, one engages in the practice
+    > of trolling: the art of casting out a line complete with bait
+    > and a hook, and rowing or moving slowly while you drag the
+    > line and wait to see what bites.
+    >
+    > Trolling as it is used in newsgroups means much the same
+    > thing:  one throws out a baited line with a hook attached, and
+    > waits to see who takes the bait by responding to the posted
+    > troll.
+    >
+    > Examples of trolling might be going to a newsgroup filled with
+    > fans of a particular person, and posting something slanderous
+    > about said person.... going to a newsgroup filled with
+    > newbies, and posting something that the uninitiated might be
+    > taken in by..... going to a politically-charged newsgroup and
+    > posting something which you know for certain will start a huge
+    > debate or flamewar.... 
+    >
+    > You can also troll for specific people.... for instance, my
+    > mother is an ethnobotanist who specializes in the usage and
+    > taxonomy of Peruvian plants, and who is writing a book about
+    > the potato.... and if I know she reads a certain newsgroup, or
+    > searches for the word "potato" or something, I can do
+    > something like post a message where I think she'll find it, a
+    > message containing some misinformation about the potato, and
+    > then if she responds to debunk the misinformation I posted,
+    > she has been trolled. In fact, if she were to discover this
+    > article and respond to it, she could even be said to have been
+    > trolled.
+    >
+    > There are clever trolls, stupid trolls, obvious trolls, the
+    > kind of trolls where you just can't be sure if it or it isn't,
+    > the kind you can't resist, the kind that make you mad, the
+    > kind that are aimed at everyone and anyone, trolls that are
+    > intended to get one person's goat in particular, trolls which
+    > are meant in fun, trolls which are set out with malice
+    > aforethought, and many many other kinds of trolls.
+    >
+    > The effect that trolls have can also be widely varied.... it
+    > depends on any number of things, and on the kinds of responses
+    > and respondents that a troll receives.  There are people out
+    > there who live to troll, and people to whom it is anathema. 
+    >
+    > All in all, it's a pretty integral part of newsgroup culture.
+
+   Ted Frank (thf2@midway.uchicago.edu) wrote:
+
+    > The purpose of trolling is not to "deliberately start a flame
+    > war".  Deliberately starting a flame war is flame-baiting, and
+    > requires absolutely no intelligence to post something obscene
+    > that'll get people mad.
+    >
+    > Trolling is more subtle. It's a tactic to discourage flaming,
+    > by posting intelligently and cleverly crafted (but marked)
+    > inaccuracies; someone attempting to flame a posted troll finds
+    > that he has acted too rashly and has succeeded only in making
+    > a fool of himself. It's a device to teach people not to
+    > immediately hit "F" to demonstrate how superior they are to
+    > the great unwashed uninformed. It reinforces netiquette;
+    > compare flame-bait, which encourages the breakdown of
+    > netiquette.
+    >
+    > A good troll is an impressive thing. 
+    >
+    > Anyone can start a flamewar. Go to group X and post "X
+    > SUCKS!!!!". Trolling is much more difficult.
+
+  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --   --
+
+SECT95: Who contributed to this FAQ?
+
+    I'd like to thank all the people who helped me with this FAQ, who
+ have been quoted, or who have influenced this document in some other
+ way.  Thanks!
+
+ NONE of the following addresses are guaranteed to be correct!  The
+ only address that may be relied upon is the maintainer's current
+ address as noted below! Further, I do not claim that any
+ attributions are correct - only that they are as correct as I could
+ make them without being God (not that I wouldn't mind being God...)
+
+  The New Hacker's Dictionary (also known as the Jargon File),
+     MIT Press
+  Technobabble by John A. Barry, MIT Press.  (This is a wonderful
+     book - I'm sure I'll end up quoting this book in this FAQ
+     sometime!)
+  Aahz                      <aahz@netcom.com>
+  Abby Franquemont-Guillory <abbyfg@tezcat.com>
+  Al Black                  <al@debra.dgbt.doc.ca>
+  Cameron Laird             <claird@starbase.neosoft.com>
+  David Birdsey             <birdhaex@cais2.cais.com>
+  David DeLaney             <dbd@panacea.phys.utk.edu>
+  Jim Jewett                <jimj@eecs.umich.edu>
+  Jorn Barger               <jorn@mcs.com>
+  Steve Siegfried           <sos@skypoint.com>
+  Ted Frank                 <thf2@midway.uchicago.edu>
+  Thomas Seidenberg         <tgs@jjm.com>
+
+  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --   --
+
+SECT98: How to get this FAQ.
+
+ This FAQ can be found in a number of places.
+
+ * First and foremost, it is posted to the Usenet newsgroups
+   alt.culture.usenet, alt.answers, and news.answers on or about the
+   18th of each month.  It is set to expire just as the next one is
+   being released so it should be available at all times at Usenet
+   sites that abide by the Expires: header.
+
+ * It is linked to my home page.  This is an exact copy of the most
+   recently posted version, *NOT* an html-ized version.  The complete
+   URL is
+
+     http://www.wpi.edu/~boigy/text/a.c.u.FAQ.current
+
+ * I would be willing to mail it to if you mail me at either of the
+   addresses below, though I would much prefer you use either of the
+   two methods above.
+
+ * I am not specifically aware of any FTP site on which this FAQ has
+   been archived, but I would think that rtfm.mit.edu or ftp.uu.net
+   has a copy by now.
+
+  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --   --
+
+SECT99: How to contact me, the maintainer.
+
+ *Please* speak up if you think something needs to be changed in
+ this FAQ.  I may ignore you, but then again, I may not!
+
+ Comments?  Corrections?  Flames?  All suggestions, no matter how
+ important or unimportant, are encouraged.
+
+ boigy@wpi.edu (this address is used more.)
+ tgs@jjm.com   (this address is going to be around longer.)
+

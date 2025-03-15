@@ -1,0 +1,820 @@
+
+
+  <-><-><-><-><-><-><-><-><-><-><-><->
+  <->                              <->
+  <->        David Lightman        <->
+  <->                              <->
+  <->             and              <->
+  <->                              <->
+  <->    -=The Administration=-    <->
+  <->                              <->
+  <->                              <->
+  <->           Present:           <->
+  <->                              <->
+  <-><-><-><-><-><-><-><-><-><-><-><->
+  <->                              <->
+  <->        Credit Carding        <->
+  <->            Part I            <->
+  <->           The Card           <->
+  <->                              <->
+  <-><-><-><-><-><-><-><-><-><-><-><->
+  <->                              <->
+  <->   This article will reveal   <->
+  <->   a few hidden facts about   <->
+  <->   credit cards.  Parts I I   <->
+  <->   and I I I will explain a   <->
+  <->   few new techniques about   <->
+  <->   getting and abusing some   <->
+  <->   of your own found cards.   <->
+  <->                              <->
+  <-><-><-><-><-><-><-><-><-><-><-><->
+
+
+
+     There are at least three types
+of security devices on credit cards
+that you aren't supposed to know
+about.  These are the account number,
+the signature panel, and the magnetic
+strip. 
+
+
+  The Account Number
+  ------------------
+
+     A Social Security card has nine
+digits.  So do two-part Zip codes.
+A domestic phone number, including
+area code, has ten digits.  Yet a
+complete MasterCard number has twenty
+digits.  Why so many?
+
+     It is not mathematically necessary
+for any credit-card account number to
+have more than eight digits.  Each
+cardholder must, of course, have a
+unique number.  Visa and MasterCard
+are estimated to have about sixty-five
+million cardholders each.  Thus their
+numbering system must have at least
+sixty-five million available numbers.
+
+     There are one hundred million
+possible combinations of eight
+digits --- 00000000, 00000001, 00000002,
+00000003, all the way up to 99999999.
+So eight digits would be enough.  To
+allow for future growth, an issuer the
+size of Visa or MasterCard could not
+opt for nine digits-- enough for a
+billion different numbers.
+
+     In fact, a Visa card has
+thirteen digits and sometimes more. An
+American Express card has fifteen
+digits.  Diners Club cards have
+fourteen.  Carte Blanche has ten.
+Obviously, the card issuers are
+projecting that they billions and
+billions of cardholders and need those
+digits to ensure a different number
+for each.  The extra digits are a
+security device.
+
+     Say you Visa number is 4211 503
+417 268.  Each purchase must be
+entered into a computer from a sales
+slip.  The account number tags the
+purchase to your account.  The persons
+who enter account numbers into
+computers get bored and sometimes
+make mistakes.  They might enter
+4211 503 471 268  or  4211 703 417 268
+instead.
+
+     The advantage of this thirteen-
+digit numbering system is that it is
+unlikely any Visa cardholder has 4211
+503 471 268  or  4211 703 417 268 for
+an account number.  There are 10
+trillion possible thirteen-digit Visa
+numbers (0000 000 000 000; 0000 000
+000 001........9999 999 999 999).  Only
+about sixty-five million of those
+numbers are numbers of actual, active
+accounts.  The odds that an incorrectly
+entered number would correspond to a
+real number are something like about
+1  in  150,000.
+
+     Other card-numbering systems are
+even more secure.  Of the quadrillion
+possible fifteen-digit American
+Express card numbers, only about 11
+million are assigned.  The chance of
+a random number happening to correspond
+to an existing account number is about
+1 in 90,000,000.  Taking all twenty
+digits on a MasterCard, there are one
+hundred quintillion (100,000,000,000,
+000,000,000) possible numbers for
+sixty-five million cardholders.  The
+chance of a random string of digits
+matching a real MasterCard number is
+about one in one and a half trillion.
+
+     Among other things, this makes
+possible those television ads inviting
+holders of credit cards to phone to
+order merchandise.  The operstators
+who take the calls never see the
+callers' credit cards nor their
+signatures.  How can they be sure
+the callers even have credit cards?
+
+     They base their confidence on
+the security of the credit card
+numbering systems.  If someone calls
+in and makes up a credit card number,
+the number surely won't be an existing
+credit card number.  The deception
+can be spotted instantly by plugging
+into the credit-card company's
+computer.  For all practical purposes,
+the only way to come up with a genuine
+credit-card number is to read it off
+a credit card.  The number, not a 
+piece of plastic is enough.
+
+
+  Signature Panel
+  ---------------
+
+     You're not supposed to erase the
+signature panel if you steal a card!
+You might be thinking that you could
+just write the cardholder's name on
+the panel. You're thinking that this
+would be great if you were going to
+withdraw some cash from the bank, for
+they make you sign a slip and it must
+match up to the signature on the card.
+If you or anyone else does this, you
+will soon find the card completely
+worthless (at least it can not be
+shown).
+
+     Some credit cards have background
+design that rubs off if anyone tries
+to erase the signature.  There's the
+"fingerprint" design on the American
+Express panel, repeated Visa or
+MasterCard logos on some bank cards,
+and the "Safesig" design on others.
+The principle is the same as with the
+security paper, the wavy-line pattern
+erases, leaving a white area.  This
+makes it obvious that the signature
+has been altered.
+
+     There is a more elaborate gimmick
+in credit-card panels.  It is said
+that if you erase the panel, a secret
+word, "VOID", appears to prevent use
+of the card.  The Administration has
+taken 15 common credit cards and
+sacrificed them to test this theory.
+
+     The odinary pen eraser will erase
+credit-card signature panels, if
+slowly.  The panels are removed pretty
+easy with a cloth and Energine.  This
+method disolves the panels cleanly.
+Of the 15 cards tested, 6 had
+nothing under the panel (other than
+a contiuation of the cards back design
+where there was one).  Nine cards had
+the words "VOID" under the panel.  In
+all cases, the VOID's were printed
+small and repeated many times under the
+panel. 
+
+<-><-><-><-><-><-><-><-><-><-><-><-><->
+<-><->  This is How They Ranked  <-><->
+<-><-><-><-><-><-><-><-><-><-><-><-><->
+
+
+       Cards with VOID Devices
+       -----------------------
+
+          Bloomingdale's
+          Bonwit Teller
+          Bullock's
+          Chase Convenience Banking
+               Card
+          First Interstate Bank Card
+          I. Magnin
+          Joseph Magnin
+          Montgomer Ward
+          Visa  (Chase Manhattan)
+
+
+
+      Cards without VOID Devices
+      --------------------------
+
+          American Express Gold Card
+          Broadway
+          MasterCard (Citibank)
+          Neiman-Marcus
+          Robinson's
+          Saks Fifth Avenue
+
+
+
+     When held to a strong light, the
+VOIDs were visible through the
+Bloomingdale's even without removing
+the panel.
+
+  The Way Around this Security!
+  -----------------------------
+
+     There is but one way we could
+think of getting around this feature...
+painting over the panel!  This would
+work only if the card didn't have a
+design on the panel.  Cards that have
+a difficult color to match would
+be near immpossible also (Saks' panel
+is greenish-tan khaki color).
+
+
+  The Magnetic Strip
+  ------------------
+
+     One of the last security devices
+is on the back, the brown magnetic
+strip.  You probably think that there
+are sun-dry personal details about the
+cardholder stored in the strip.  The
+strip is really no more information
+capacity than a similar snippet of
+recording tape.  For their part, banks
+are reticent about the strip.
+
+     The strip need not contain any
+information other than the account
+number or similer identification.  Any
+further information needed to complete
+and automatic-teller transaction --such
+as the current account balances-- can
+be called up from bank computers and
+need not be encoded in the strip.
+
+     Evidently, the card expiration
+date is in the strip.  Expirated cards
+can be "eaten" by automatic-teller
+machines even when the expired card
+has the same account number and name
+as its valid replacement card.  Credit
+limit, address, phone number, employer,
+ect., must not be indicated in the
+strip, for banks do not issue new cards
+just because this information changes.
+
+     It is not clear if the personal
+indentification number is in the strip
+or called up from the bank computer.
+Many automatic teller machines have a
+secret limit of three attempts for
+providing the correct personal
+identification number.  After three
+wrong attempts, the "customer" is
+assumed to be a crook with a stolen
+credit card and the card is "eaten".
+
+     It is possible to scramble the
+information in the strip by rubbing a
+magnet over it.  Worker's in hospitols
+or research facilities with large
+electromagnets sometimes find their
+cards no longer work in automatic-
+teller machines.
+
+
+  The Bloomingdale's Color Code
+  -----------------------------
+
+     Only in a few cases does the color
+of the credit card mean anything.
+There are the American Express, Visa,
+and MasterCard gold cards for preferred
+customers.  The Air Travel Card comes
+in red and green, of which green is
+better.  The most elaborate color
+scheme, and a source of some confusion
+to status-consious queues, is that of
+Bloomingdale's credit cards.  The five
+colors of Bloomingdale's cards do not
+signify credit limits per se, but they
+do tip off the sales staff as to what
+type of customer you are.  According
+to Bloomingdale's credit deptpartment,
+here is how it works: Low color in
+pecking order is blue, issued to
+Bloomingdale's employees as a perk
+in their compensation packages.  The
+basic Bloomie's card is yellow.  Like
+most department store cards, it can
+be used to spread payments over several
+months with the payment of a finance
+charge.  The red card gives holders
+three months' free interest and is
+issued to customers who regularly
+make large purchases.  The silver card
+is good for unlimited, but as with a
+travel and entertainment card, all
+charges must be paid within thirty
+days.  The gold card offers the same
+payment options as the yellow card, but
+is reserved for the store's biggest
+customers.
+
+<-><-><-><-><-><-><-=> David Lightman
+
+
+
+  <-><-><-><-><-><-><-><-><-><-><-><->
+  <->                              <->
+  <->        David Lightman        <->
+  <->                              <->
+  <->             and              <->
+  <->                              <->
+  <->    -=The Administration=-    <->
+  <->                              <->
+  <->                              <->
+  <->                              <->
+  <->           Present:           <->
+  <->                              <->
+  <-><-><-><-><-><-><-><-><-><-><-><->
+  <->                              <->
+  <->           Part I I           <->
+  <->       Getting the Cards      <->
+  <->                              <->
+  <-><-><-><-David Lightman-><-><-><->
+  <->    -=The Administration=-    <->
+  <-><-><-><-><-><-><-><-><-><-><-><->
+  <->                              <->
+  <->   In this article, we will   <->
+  <-> show you some new techniques <->
+  <-> in getting the cards alone.  <->
+  <-> We will also mention how to  <->
+  <-> check if the cards you have  <->
+  <-> gotten are valid or not.     <->
+  <->                              <->
+  <-><-><-><-><-><-><-><-><-><-><-><->
+
+
+
+     First, I should  mention TRW.  If
+you are interested in that method, then
+I would really suggest that you get
+Major Havock's & Britash Bloke's file
+on TRW.  If you cannot locate this
+file, leave mail to me or try finding
+The Administration's Bulliton Board
+System.  I will try to tell you as much
+as I think I can here in this file
+though.
+
+  TRW
+  ---
+
+     Your modem should be set at:
+
+             Half-Duplex
+             7 Bits
+             1 Stop Bit
+             Even Parity
+
+     Dial-up: 214-980-2524
+
+     Once you are online, wait for TRW
+promt and press Control-G, wait for a
+beep. There, type the state's four
+character ID that the person you want
+credit information is living in, and
+press RETURN.  After the RETURN, type
+in the information on the person that
+you want the information on in the
+format below:
+
+RTS ID/PASSWORD LASTNAME FIRSTNAME ...,
+STREET # FIRST CHARACTER OF STREETNAME
+ZIP
+
+     Of course, all of this should be
+entered on one line.  After you have
+typed this, press RETURN, "H-Y",
+RETURN, and Control-S.
+
+     For another person in the same
+state, you can just type in the format
+again containing that person's
+information.
+
+
+  Making Counterfeit Cards
+  ------------------------
+
+     For an investment of about a
+thousand dollars, an orginized criminal
+operation can get the pressing
+machines needed to make credit cards.
+Counterfeiting credit cards is
+relativly simple.  There are no fancy
+scrolls and filigree work (see the file
+on "Counterfeiting", another article
+by The Administration), just blocky
+logos in primary colors.  From our
+stand point, the main advantage here is
+that it allows us cash advances.  For
+maximum plundering of a line of credit,
+we must know the credit limit as well
+as the account number.
+
+
+  Getting Credit Limit and Account #
+  ----------------------------------
+
+     Here is the dialog that you should
+use (over the phone) to get this kind
+of information...
+
+
+   You:  Hello, this is Bank of
+        America.  We're calling to
+        tell you that the credit limit
+        on your Visa card has been
+        raised to $1,200.00.
+
+Victim:  But my credit limit has always
+        been $10,000.00.
+
+   You:  There must be a problem with
+        the computers, do you have
+        you're card handy?  Could you
+        read off the embossed numbers?
+
+Victim:  Ok, it's 9834 864 874 9857.
+
+   You:  Thank you.  I will check into
+        this error myself, right away.
+
+
+     Another way to get these credit
+cards is to go to a major department
+store.  Look for the ones that do not
+have thier own credit cards.  You
+should then go trashing for ribbons
+sometime in the dumpster or just inside
+the store sometimes.
+
+
+  Recognizing What Cards You Get
+  ------------------------------
+
+           American Express
+
+
+      /--------------------------
+      =                          =
+      =    American Express      =
+      =                          =
+      =                          =
+      =  37XN NXXXXX XXXXX       =
+      =                          =
+      =  MM/Y1 THRU MM/Y2    Y1  =
+      =   David Lightman       AX=
+      =                          =
+      \--------------------------/
+
+
+     The first two digits are allways
+thirty-seven.  If the N's are between
+80 to 89, then the card is a gold
+card.  If the N's equal 37, then it
+is a platnium.  
+
+     The first date is the date this
+David Lightman recieve this particular
+card.  The second date is the
+expiration date.  The other Y1 doesn't
+mean a thing.
+
+
+
+              MasterCard
+
+
+      /--------------------------
+      =                          =
+      =   MasterCard   (citibank)=
+      =                          =
+      =                          =
+      = 5XXX XXXX XXXX XXXX      =
+      = XXXX AAA DD-MM-YY MM/YY  =
+      = David Lightman           =
+      =                          =
+      \--------------------------/
+
+
+     I think you can pretty well under-
+stand this card.  One thing you should
+know, the first digits is allways 5.
+
+
+
+                 Visa
+
+
+      /--------------------------
+      =                          =
+      =    VISA                  =
+      =       Chase Manhatten    =
+      =                          =
+      = 4XXX XXX(X) XXX(X) XXX(X)=
+      = MM/YY    MM/YY*VISA      =
+      = David Lightman           =
+      =                          =
+      \--------------------------/
+
+
+     This card is very easy to detect.
+It's name is embossed on the card
+(means will show up on carbon).  There
+is something pretty good to know about
+the first four digits, it is allways
+4333 or 4444.
+
+
+
+             Wells Fargo 
+
+
+      /--------------------------
+      =                          =
+      =                          =
+      =                          =
+      =  David Lightman          =
+      =  MM/YY - MM/YY           =
+      =  4024 0071 XXX(X) XXX(X) =
+      =  L _/                    =
+      =                          =
+      \--------------------------/
+
+
+     This is one of the fun ones.  If
+it begins 4024 0071, then you know you
+have one.  Also, if the '-' is
+between the dates is '*', that
+indicates a gold card.  If the 'L'
+followed by the check '_/' is a 'C',
+then you have a clasic card.  If the
+'L' is a 'P', then you have a premier
+card.
+
+
+
+  Testing Credit Cards
+  --------------------
+
+     To determine if the cards are any
+good or not is pretty easy.  You go
+into the store you ripped these things
+off from and look by their phone.  You
+should see a number and almost allways
+a merchant number.  Another way to
+find these numbers is to wait untill
+they dial the numbers.  Try to remeber
+the numbers that they dial.  This
+method is a little better for sometimes
+written numbers in the stores are
+forgotten about and might have been
+changed since the last time they had
+changed the written copy.  Yes, some
+Target workers are smart enough to
+memorize a number, and mabye even a
+merchant number.
+
+     When you call this number, and
+you get passed all the "red tape", then
+ask if the credit card number is clear
+for the amount you want to spend.  Ask
+the operator to cancel the auto
+withdrawal and hope she will, not many
+operators are that dumb.
+
+<-><-><-><-><-><-><-=>David Lightman
+
+
+
+
+  <-><-><-><-><-><-><-><-><-><-><-><->
+  <->                              <->
+  <->        David Lightman        <->
+  <->                              <->
+  <->             and              <->
+  <->                              <->
+  <->    -=The Administration=-    <->
+  <->                              <->
+  <->                              <->
+  <->                              <->
+  <->                              <->
+  <->           Presents:          <->
+  <->                              <->
+  <-><-><-><-><-><-><-><-><-><-><-><->
+  <->                              <->
+  <-> The end of the 3-part series <->
+  <->                              <->
+  <-><-><-><-><-><-><-><-><-><-><-><->
+  <->                              <->
+  <->          Part I I I          <->
+  <->         The Dropsite         <->
+  <->                              <->
+  <-><-><-><-David Lightman-><-><-><->
+  <->    -=The Administration=-    <->
+  <-><-><-><-><-><-><-><-><-><-><-><->
+
+
+REVISED: 07/11/86
+
+
+  The Dropsite
+  ------------
+
+      You must find a place for all
+of these "goodies" to go.  If you
+really wanted to get in deep, you might
+have them sent to your house.  You
+may also have a crude enemy in mind.
+Stop and think of the benifits from
+this suggestion.
+
+      To get a sufficient drop, you 
+have to find a deserted house.  It
+must look like it is lived in though,
+grass mowed, drapes, ect.  When you
+are ready to order this stuff, have it
+sent overnight UPS and leave a note
+on the door saying that you work
+acquard hours and to leave it on the
+back porch.  This is really the best
+way to do it, but I will tell you 
+about a few others.
+
+      U-Haul has what is called "Rent
+a Spot".  Anything sent to this "spot",
+U-Haul has to sign for.  You and only
+you can get anything sent there.  You
+might be able to send the "goodies"
+there and then cancell the "spot"
+after they arrive.  This is very
+tricky and I would not recomend it, but
+then again, there may not be a vacant
+house where you live.
+
+      This drop is just a house
+with people in it you do not know and
+who would not recognize you if seen
+again.  Just have the packages sent
+there.  Phone and tell them that you
+ordered a package and it was sent to 
+the wrong house.  Tell them that you
+will pick it up when sometime after
+it arrives if they don't mind.  I
+strongly disencourage this method.
+
+      Another drop could be any video
+or computer retail store.  Here is a
+little dialog that might explain this
+a little better:
+
+You:  Hi, this is David Lightman.  I
+am interested in your new Sanyo
+computer system.  I would like to talk
+to someone about this.
+
+Worker:  Sure.  Let me tell you all
+about it.
+
+(For the text on Sanyo, please write
+them.  I am too lazy)
+
+(Continued)
+
+You:  Well, it sounds like just what I
+have been looking for.  Could I buy it
+now with my Visa and have my nephew
+pick it up later?  I am sick and can't
+get out.
+
+Worker:  Sure.  I guess so.
+
+ect. ect. ect... 
+
+   You just pick up the package later
+by telling the guy your name and what
+you need to get.  Free shit.  Already
+paid for.
+
+
+  Ordering Mechandise
+  -------------------
+
+     Don't try this if you have a high
+voice!  One exception to this though,
+you might want to fake it like a lady.
+
+     Some of the best places to get
+stuff from is advertizements in
+magazines.  When you do this, try to 
+schedual it at the begining of the
+month, after the bills have been
+sent.  This will provide you for more
+time for unexpected misshaps that
+might occur.  You must be sure that
+this is going to work, or just pull
+out imediately!  When you call the
+merchant, try to make it at night or
+late in the day.  Most operators are
+very tired then and not really
+thinking of what they are doing.  Make
+sure you know exactly it is you want
+and everything about card by memory if
+asked.
+
+     When you finally get your
+packages, completely forget where the
+drop was, for you will NEVER want to
+use the same one again.
+
+
+     One more thing, the insurance
+companies pay for all stolen goods
+gotten by credit cards.
+
+
+          A word of caution:
+
+  Many a hacker have died this way...
+
+
+<-><-><-><-Acknowledgements:-><-><-><->
+
+     (1)   Britash Bloke
+     (2)   Major Havock
+     (3)   Team Hackers
+     (4)   All Administration Members
+     (5)   Adolf Hitler
+     (6)   William Poundstone
+     (7)   Shoshio Kinkski
+
+<-><-><-><-><-><-><-><-><-><-><-><-><->
+<->                                 <->
+<->   This article was written for  <->
+<-> informational purposes only.    <->
+<-> All of it's content can not     <->
+<-> be held directly or indirectly  <->
+<-> if a violation of the law       <->
+<-> occurs.  I, nor any member of   <->
+<-> The Administration can be held  <->
+<-> responsible if a violation of   <->
+<-> the law occurs.  We do not in   <->
+<-> any way promote the use of      <->
+<-> stolen credit cards.            <->
+<->                                 <->
+<->             David Lightman,     <->
+<->             The Administration, <->
+<->             and Team Hackers    <->
+<->                                 <->
+<-><-><-><-><-><-><-><-><-><-><-><-><->
+<->                                 <->
+<-><-><-><-><-David Lightman-><-><-><->
+<->       -=The Administration=-    <->
+<-><-><-><-><-><-><-><-><-><-><-><-><->
+<->                                 <->
+<->  The Administration Officers    <->
+<->                                 <->
+<-> David Lightman  -=- Leader      <->
+<-> Britash Bloke   -=- Co-Leader   <->
+<-> Major Havock    -=- Team Hacker <->
+<->                                 <->
+<-><-><-><-><-><-><-><-><-><-><-><-><->
+<->                                 <->
+<->     -=The Administration=-      <->
+<->                                 <->
+<-><-><-><-><-><-><-><-><-><-><-><-><->
+
+

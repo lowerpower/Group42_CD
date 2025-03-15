@@ -1,0 +1,5 @@
+Crack> Castlevania 
+crack written by Majik 
+ 
+Using PCshell or Norton Utilities, search the files CEGA.EXE, 
+CTGY.EXE, and CCGA.EXE for 3B 46 E2 75 0B and change 75 to 74. 

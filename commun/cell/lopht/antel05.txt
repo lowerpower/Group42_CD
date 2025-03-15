@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+                       ANTEL RADIANT 832 XL
+-------------------------------------------------------------------------------
+                NAM Type:  Tri-State
+            Manufacturer:  Antel
+              Programmer:  Motorola 1801 -- Celnam, Bytek or Curtis
+          ESN Prefix DEC:  178
+                     HEX:  B2
+ ESN, S/N match Required:  Yes
+    Programmable Handset:  No
+      Available Channels:  832
+
+     Phone Number Format:  XXX-XXX-XXXX
+        Lock Code Format:  XXX
+
+              MIN Option:  Enabled
+        Repertory Option:  Enabled
+        Handsfree Option:  Disabled (Enabled if Equipped)
+        Local Use Option:  Enabled
+   End-to-End Signalling:  Enabled
+       Horn Alert Option:  Enabled
+        System ID Format:  XXXXX
+        Preferred System:  A or B
+   Access Overload Class:  XX
+         Group ID Format:  XX
+
+  Initial Paging Channel:  333 or 334
+           Station Class:  08
+
+        Hex Address     B7           B0
+           13           0 0 0 0 0 0 0 0
+           14           0 0 0 0 0 0 0 0
+           15           0 0 0 0 0 0 0 0
+
+        Hex Address 13
+          B7 Disable 32 Digit Dial
+          B2 Enable Special Lock
+
+        Hex Address 14
+          B7 to B4 Special Lock 1st Digit
+          B3 to B0 Special Lock 2nd Digit
+
+        Hex Address 15
+          B7 to B4 Special Lock 1st Digit
+
+

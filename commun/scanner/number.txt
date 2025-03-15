@@ -1,0 +1,97 @@
+
+In response to recent questions about the "Numbers"
+Stations, their origin and purpose, the following summary
+captures the high points. 
+
+"Spy Numbers Transmissions" are a shortwave oddity which have
+been around for the last 25 years.  They are commonly heard
+in English, German, Spanish and the Slavic languages and take
+the form of four and five digit groups of numbers which are
+preceded by a three digit "identifier" and a "group count"   
+which corresponds to the number of number groups transmitted
+in the crypt.  They are generally broadcast by a mechanical-
+sounding YL, although Morse code (CW) "cut number" transmissions
+are also frequently reported, as are phonetic alphabet trans-  
+missions.  Several distinctly different formats have been 
+noted.
+
+The "who" and "why" aspects of these transmissions are,
+for the most part, unknown.  Their mysterious nature has
+resulted in their common characterization as 'spy' trans-
+missions.  Information on the "where" aspects below.
+
+The spy theory has been enhanced over the years by the FCC's
+inconsistent position in response to numerous inquiries by
+the Shortwave Listening community.
+
+If you've never heard a numbers transmission, tune your 
+radio to 11468 kHz any Saturday at 4pm EST (2100 UTC).
+You'll almost certainly hear a 'classic' numbers transmission
+which will run from 15-30 minutes.  The signal from this
+Saturday transmission is very powerful and can be heard
+across the United States.
+
+In regards the "where" - a number of sites have been identified
+in recent years, notably in Warrenton and Remington, VA and
+Miami, FL.  In addition, with the aid of sophisticated RDF
+(radio direction finding) equipment and the invaluable assist-
+ance of highly authoritative and professional resources, several
+new transmission sites have been positively identified over the  
+past several months, including sites in Nicaragua, Honduras, El
+Salvador, Cuba and Cozumel.
+
+One particularly dangerous station has been interfering with
+air to ground traffic on 6577 kHz, a frequency allocated to inter-
+national aeronautical communications in the busy Caribbean sector.             
+On at least one monitored transmission, the air traffic controller
+at ARINC moved the pilot to an alternate frequency as the numbers
+transmission was totally blocking the frequency from effective use.
+This regular transmission can be heard on Mondays at 0200 UTC 
+(Sunday night local US time) across most of the US.
+
+A recently identified Cuban site (Guineo) is believed to ba a major
+transmitter site used by DGI (Cuban Intelligence).
+
+There has been some suggestion that the numbers are a form of
+'one-time-pad' - a crude but unbreakable form of encryption
+(unless you've got the key, that is) - if that's the case,
+it's very curious to note that the same five-digit groups are
+often seen to repeat over and over again in the very same
+crypt - and that the same transmissions are seen to
+repeat from week to week, and from month to month -
+so often, in fact, that tape breaks are sometimes noted.  When
+spliced back together, the sloppy handling sometimes results in
+truncated 5-digit groups - the end result being amixture of 4
+and 5 digit groups in the very same transmission!
+
+These facts would tend to point one away from the one-time-pad
+concept and support a couple of other theories - suggesting that
+the numbers are NOT a cipher, but rather a code unto themselves,
+and that much of this traffic is 'dummy' in nature - broadcast
+simply to keep a frequency open over a long period of time.
+
+In addition, most five-digit Spanish numbers transmissions are
+very badly over-modulated, resulting in numerous spurs up and
+down frequency.  When broadcast under such conditions, the
+numbers (6) seis and (7) siete are almost indistinguishable,
+making it impossible to copy a crypt without numerous errors.
+
+It is worth noting that the four-digit Spanish and English
+transmissions do not reflect this same technical ineptitude.
+
+There are a number of reference materials available which provide
+detailed information about cryptography and cryptanalysis, in
+general, and numbers crypts, specifically.  I'd be happy to provide
+anyone interested with a list of books.   
+
+Only two publications I know of are currently available which
+provide regular coverage of numbers, clandestine, pirate and
+other interesting transmissions.  The ACE Bulletin (monthly news-  
+letter of the Association of Clandestine Enthusiasts - PO Box 
+11201, Department KK, Shawnee Mission, KS  66207 $16/yr) and the Umbra
+et Lux Newsletter (a newsletter devoted to SIGINT, covert radio 
+and related topics - 10606-8 Camino Ruiz, Department KK, Suite
+174, San Diego, CA  92126 $18/yr). 
+
+                                Havana Moon
+

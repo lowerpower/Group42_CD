@@ -1,0 +1,2258 @@
+Posted-By: auto-faq 3.1.1.2
+Archive-name: irc/undernet-faq/part1
+Version: $Id: undernet-faq, v3.2.0 1995/08/07 13:23 mmmirash Exp $
+
+
+      Undernet IRC FAQ [Part I] (updated 28th July 1995) - Weekly Repost
+
+                Version 1 By Paul Grant (Grant)
+
+                Version 2-3   -   written by Mandar Mirashi (Mmmm)
+                                  mmmirash@mailhost.ecn.uoknor.edu
+
+The FAQ consists of answers to several frequently asked questions on the
+IRC newsgroups. Please don't ask these questions again, they've been
+answered plenty of times already - and please don't flame someone just 
+because they may not have read this particular posting.  Thank you.
+
+The FAQ consists of the following sections.
+
+I)       IRC for the newcomer
+II)      The Undernet (for the newcomer)
+III)     The Undernet (for the EFnetter)
+IV)      The Undernet (how can you participate?) 
+V)       Acknowledgements/References
+VI)      Undernet IRC server list
+
+This article covers section I, and includes answers to:
+
+1-1)  What is IRC?
+1-2)  Alright, now how do I get onto IRC?
+1-3)  Are there any IRC telnet sites?
+1-4)  Hmm..I'm confused. What does a client do?  What's a server?
+1-5)  What do I do next, once I'm connected to IRC? Is there a way to get
+      online help? Why won't /help work for me?
+1-6)  Okay..can you describe what a channel is? How do I join/create one? 
+      How do I join multiple channels?
+1-7)  How do I find out:
+         * Who's on a channel? (What do H and G mean?)
+         * Who's on IRC itself?
+         * Who's on IRC from the same site as myself?
+         * more info about a person?
+1-8)  What's a channel operator? How do I become one?
+1-9)  Help! Someone kicked/banned me from a channel. Whom do I complain to?
+1-10) Okay..can you tell me a little more about general etiquette
+      (netiquette) over IRC? What do terms like "re", "brb", etc. mean?
+1-11) What's a mode change? What are modes?
+1-12) How do I perform an "Action"?
+1-13) How do I "scrollback" in ircII? Are there any special key bindings
+      available?
+1-14) How do I make the output of a command in ircII pause after each
+      screenful? How do I "cancel" further output from a command?
+1-15) Ugh..all my messages seem to appear on a single status line. My term
+      settings seem to be messed up. Help!
+1-16) What are the funny characters that I see at times in channel names or
+      nicknames over IRC?
+1-17) Why do I get "No text to send" when I talk on a channel? How do I
+      get rid of this?? Please help!
+1-18) Darn..my irc session froze up :( Is there some way that I can get rid
+      of my old nick/session?
+1-19) How do other people change the text that appears in the parentheses
+      () after their names?
+1-20) How do I read my "irc" mail?
+1-21) How do I find out when someone was last seen on IRC? How do I leave a
+      message for someone not on irc?
+1-22) How do I get "special effects" such as bold/reverse/underline when
+      using ircII?
+1-23) Someone on IRC asked me to type in a certain command that I do not
+      understand. What do I do?
+1-24) How do I save my ircII settings (such as nickname, default server,
+      etc) so that they are in effect the next time I sign onto IRC?
+1-25) How do I drop to the Unix prompt temporarily?
+1-26) When I try connecting to a server, I get "Connection refused" or
+      "Connection timed out" or "Unknown host". What do I do now?
+1-27) What does the message "Ghosts are not allowed on IRC" or "You are
+      banned/not welcome on this server" or "No authorisation" mean?
+1-28) What is a netsplit? What's "lag"? How do I avoid either?
+1-29) Why do I get that annoying ~ which shows up in front of my address
+      on IRC? How do I get rid of it?
+1-30) Hmm..what are all these "power scripts" that I keep hearing about?
+      Do I need them? Why do people call them risky?
+1-31) Oh, I see. Now what's a bot? Why do people have a love/hate attitude
+      towards bots?  Can I make a bot?
+1-32) Help! This extremely obnoxious person keeps harassing me with
+      messages/flooding me. What should I do?
+1-33) Hey..I heard that you can exchange files over IRC - how is that done?
+      What's DCC?
+1-34) How can I "register" my nickname? What's Nickserv?
+1-35) Where can I find pictures/gifs of people on IRC?
+1-36) Where can I find an IRC manual? Where can I find more information
+      on IRC?
+
+If you're looking for the answer to, say, question 1-5, and want to skip
+everything else, you can search ahead for the regular expression "^1-5".
+(/1-5  in case you use vi). 
+
+While I have tried my best to keep the FAQ updated, there may be 
+inadvertent mistakes or omissions. Is there a question that you find
+frequently asked, but not mentioned? Please send all suggested additions/
+corrections/deletions/comments/etc. to mmmirash@mailhost.ecn.uoknor.edu
+
+This FAQ (both parts) can be obtained via anonymous ftp from ftp.undernet.org 
+or ftp.undernet.org under  /irc/docs, or from rtfm.mit.edu under 
+/pub/usenet/alt.irc/    If ftp does not work from your site, then try
+the mail server: send email to mail-server@rtfm.mit.edu with
+
+send usenet/news.answers/irc/undernet-faq/part1
+send usenet/news.answers/irc/undernet-faq/part2
+
+URL's on the World Wide Web for this FAQ are:
+
+        http://www.undernet.org/~agifford/undernet/underfaq/
+        http://www2.undernet.org:8080/~cs93jtl/underfaq/
+
+and, the latest version can always be found at:
+        http://www.cis.ohio-state.edu/hypertext/faq/usenet/irc/undernet-faq/
+                                                              part1/faq.html
+        http://www.cis.ohio-state.edu/hypertext/faq/usenet/irc/undernet-faq/
+                                                              part2/faq.html
+
+P.S. : This FAQ widely refers to the Unix ircII client and many commands
+       might not work the same way if you aren't using ircII.
+
+------------------------------------------------------------------------------
+1-1)  What is IRC?
+
+      IRC stands for the Internet Relay Chat. It is a much better, multi
+      user implementation of the rudimentary 'talk' program. On IRC,
+      several persons can simultaneously participate in a discussion
+      over a particular 'channel', or even multiple channels. There is
+      no restriction to the number of people that can participate in a
+      given discussion, or the number of channels that can be formed
+      over IRC. 
+
+      All conversations take place in *real time*. That's one of the fortes 
+      of IRC, and IRC has been used extensively for live coverage of
+      world events, news, sports commentary, etc. It also serves as an
+      *extremely* inexpensive substitute for long distance calling. People
+      from all corners of the world can be found over IRC.
+
+      IRC was developed by Jarkko Oikarinen in Finland in the late 
+      eighties, and was originally intended to work as a better 
+      substitute for 'talk' on his bulletin board. Of course, since
+      then, it attracted overwhelming popularity, especially after
+      the Gulf war when IRC was used to carry live coverage of events,
+      and its growth has been exponential after that. Since then, reports 
+      of the Russian coup, and the California earthquake have been
+      carried *live* over IRC, with people located in Russia and California
+      bringing in the eyewitness reports.
+
+------------------------------------------------------------------------------
+1-2)  Alright, now how do I get onto IRC?
+
+      The irc program that you need to get onto irc is called an 'irc
+      client'. First, check if your system already has an irc client 
+      installed by entering "irc" at your system prompt. If you're 
+      lucky, it could have been installed already on your system, and
+      you may skip the remainder of this answer. If you do not have
+      an irc client installed on your system, then you need to install
+      one.  
+
+      Irc clients have been developed for a variety of platforms, and
+      the Unix ircII client is by far the most popular one. There are
+      also several emacs and x11 clients that run under Unix. Irc
+      clients have been developed for MS-DOS / MSWindows, Macintoshes,
+      (assuming that the PC/Macintosh that you use is connected to the
+      network, i.e. you can't use a MS-Windows client if you dial in via a 
+      modem to a Unix system, although you may be on a PC - unless your PC
+      is on the network with its own ip address (e.g. runs slip/ppp, or 
+      has TIA) VMS systems and  VM/CMS systems as well. A major repository 
+      for IRC clients of all kinds is the site ftp.undernet.org. Another site 
+      that you may want to try is cs-ftp.bu.edu. You will need to FTP the 
+      code for the clients (or binaries as may be the case) from these 
+      anonymous ftp sites. A popular VMS client is the ircdough 'ircII-for-vms' 
+      client which has a lot of good features. WSirc is a good MS-Windows 
+      irc client.
+
+      ircII on Unix
+      --------------
+      If you're on a Unix system, and aren't familiar with the nuances
+      of ftp, uncompress, untar, the concept of Makefiles, etc. you may
+      wish to try the auto-magic install which will do it for you. The
+      foll. command at your Unix prompt will auto install an ircII client:
+
+                   telnet sci.dixie.edu 1 | sh
+      or,          
+                   telnet installer.undernet.org 1 | sh
+
+      The unix ircII client takes up about 1.5Megs of disk space (including
+      the help files). If you do not have enough diskspace, or have problems 
+      in compiling a client, you may try a precompiled client for your system, 
+      which is usually just 400K or so. To find out what Unix system you're 
+      on, use the command 'uname -a'. Once you do that, ftp the appropriate 
+      precompiled client from 
+
+                  ftp.undernet.org        /irc/clients/compiled.
+      
+      If you cannot spare even 400K for an irc binary, you may want to
+      try the smallirc client which can be found at ftp.undernet.org
+      under /irc/clients. This takes about 100-150K.
+
+      ircII under VMS (ircdough)
+      ---------------------------
+      Here are the sequence of steps I took to install the ircII for vms
+      client (you need about 1600-1800 blocks for installation. After
+      deletion of unnecessary files, the client takes up about 500 blocks):
+    
+      $ create/dir [.ircii]
+      $ set def [.ircii]
+      $ ftp ftp.undernet.org
+      Connection opened (Assuming 8-bit connections)
+      <Welcome to the Dixie College Center of Excellence FTP server.
+      <sci.dixie.edu FTP server (Version wu-2.4(1) ....ready>
+      Username: anonymous
+      Password:
+      <Guest login ok, access restrictions apply.
+
+      SCI.DIXIE.EDU>cd irc/clients/vms/ircII-for-vms
+      <CWD command successful.
+
+      SCI.DIXIE.EDU>confirm off
+      [All transactions are implicitly confirmed]
+
+      SCI.DIXIE.EDU>mget *
+      [...  multiple file gets deleted...]
+
+      SCI.DIXIE.EDU>quit
+      <Goodbye.
+      $
+      $@install
+
+      This will put you onto the main installation menu.
+      You may exit this menu by holding the "Ctrl" key down and pressing 
+      "Z" (or by choosing selection "X").
+
+      Installation is very simple, just start with the first option 'P' and
+      set the installation directory.  Next select option 'C' and begin 
+      compiling the program.  If that completes successfully you can then 
+      try and run the irc program with the next option to see if it compiled 
+      correctly.  If it has, then you need to type in 'I' to install the
+      client into the proper sub directories. You can then proceed to the 
+      next step and type in D to delete all the non-essential files to 
+      conserve your disk quota (type in 'Y' - {capital Y}, when it asks if 
+      you've done the installation step).
+      After this, you can exit and edit your login.com to have  
+            $irc :== $disk:[username.ircii]irc.exe  
+      For example:
+
+      $IRC :== $COUGAR:[SMIM.IRCII]IRC.EXE
+
+      
+      In case you're unable to compile a client, or wish to have a directly
+      precompiled "VMS ircII" (ircdough) client, follow these steps:
+
+      i)  ftp to ftp.undernet.org and look under /irc/clients/vms/binaries
+            for the right binary for your type of VMS system. Make sure you
+            ftp it in *binary* mode (type 'bin' within ftp). Also ftp the
+            irchelp.hlb
+      ii) Next, look under /irc/clients/vms/common_files and ftp all the 
+            files in *ascii* mode (type 'ascii' at the ftp prompt).
+
+      IRC under DOS/MS-WINDOWS 
+      --------------------------
+
+      First, you must be running MS-Windows. IRC and WINSOCK.DLL are 
+      MS-Windows based software.
+
+      Second, you must use an implementation of tcp/ip for MS-Windows which 
+      is called WINSOCK.DLL (it is actually the name of the file, but we refer 
+      to the protocol by the same name).
+
+      Third, you must either be connected to a TCP/IP LAN or a modem. When 
+      you use a modem, you must subscribe to a SLIP/PPP account with your 
+      Internet Service Provider. You must ask them: your username, your 
+      pchostname, your permanent ip address , their DNS ip address. These will 
+      be required for WINSOCK.DLL configuration setup.
+
+      Fourth, there is a configuration setup you need to do with WINSOCK.DLL, 
+      the specifics are covered by each vendor's documentation. Commercial 
+      WINSOCK software costs US$ 199.- to US$ 299.-. Shareware WINSOCK 
+      software costs US$ 20.- to US$ 40.- (Peter Tattam's WINSOCK.DLL is US
+      $ 20.- has an internal SLIP driver and works very well). FTP sites
+      for the complete WINSOCK distribution are:
+           winftp.cica.indiana.edu     File:  twsk10a.zip
+           ftp.cica.indiana.edu        File: /pub/pc/win3/winsock/winsock.zip
+      You can also fetch various winsock stacks from ftp.undernet.org under
+            /pub/irc/clients/windows/winsock
+
+
+      Fifth, assuming all of the configuration works. Dial up your internet 
+      service provider to your SLIP or PPP account (a script file can automate 
+      this process) if you're on a modem.
+
+      Sixth, you can download windows irc clients from ftp.undernet.org under 
+          /pub/irc/clients/windows
+
+      * ircII for Windows
+    
+      ircII is pretty much the de facto irc client across many platforms
+      (Unix, VMS, Windows). Most users  prefer the power and flexibility
+      of ircII and not so much the GUI. The port ircii-2.6.zip of ircii
+      to Windows, is still a bit buggy at the time of writing but is
+      highly recommended since a lot of people are familiar with it. This
+      FAQ refers widely to ircII, although efforts are made to cover other
+      clients where possible.
+
+      * WSIRC for Windows:
+
+      WS-IRC was the first Windows IRC client written by Caesar Samsi
+      (csamsi@clark.net). It remains one of the good Windows clients.
+      Here's some additional info, after you download WSIRC.
+ 
+      Start up WSIRC. Open up the Options | Server dialog box and enter all 
+      information in the boxes provided. For server names, browse the list 
+      of servers in the appendix of this FAQ. Do not use the actual ip 
+      address (e.g 123.222.222.222), use the human text name (us.undernet.org).
+      Use port 6667. Use the username and pcname provided by your SLIP 
+      provider. Use nicknames that are NO LONGER than 9 characters. Use no 
+      spaces in between for anything (except for the email info, but that's 
+      optional).
+
+      Click on the connect button (or use File | Connect). If it 
+      doesn't connect, try another server. If 11004 error occurs, either your 
+      DNS ip address is wrong or you entered an invalid server name, enter a 
+      valid server name. If 10060 or 10061 occurs, either the server is down, 
+      busy or otherwise not responding, try another server. If the server 
+      says "Nickname in use", change your nickname on the fly with /NICK 
+      mynick. The server should then display its MOTD (message of the day) 
+      file.
+
+      * mIRC for Windows:
+      
+      mIRC is one of the best Windows IRC clients available. Read more about 
+      mIRC in the Frequently Asked Questions list at ::
+
+        http://mars.superlink.net/user/mook/mirc.html
+        http://metro.turnpike.net/mookies/mirc.html
+
+      Or join #mIRC on IRC to get all remaining questions answered. Or even 
+      get the newest version there if your DCC works properly..
+
+      IRC on all other platforms (Macintosh, VM/CMS, amiga, OS/2, etc)
+      ----------------------------------------------------------------
+      Check the subdirectories under:
+        ftp://ftp.undernet.org/irc/clients
+
+      WWW to IRC
+      ----------
+      
+      If you have a web browser such as Mosaic or Netscape, check out 
+          http://www.prospero.com/globalchat
+      This product works closely in conjunction with Netscape as a front
+      end to IRC.
+
+      IRC behind a firewall
+      ---------------------
+
+      The Unix ircII has been made SOCKS compliant and the modified client
+      can be found at 
+        ftp://ftp.undernet.org/irc/clients/ircII.firewall
+      You will need to download this, gunzip and untar it,  and compile it 
+      yourself for whatever Unix platform you are on.
+
+------------------------------------------------------------------------------
+1-3)  Are there any IRC telnet sites?
+    
+      This question pops up with frightening regularity on the irc 
+      newsgroups. IRC telnet sites are absolutely not recommended except
+      as a *last ditch* effort when compiling a client doesn't work for
+      you, or if you are simply unable to use a client for lack of an
+      account/diskspace/etc. Before answering this question, you should
+      consider the following *disadvantages* of using a telnet client site
+      for IRC:
+      * It is much much slower than using your own client. In cases, you
+        may be connecting all across a continent to use IRC.
+      * It is usually limited by a maximum number of users allowed on it.
+      * It is not possible to send or receive files over irc when using
+        a telnet client.
+      * It is not possible to customise and tailor the client to suit your
+        needs.
+      * And finally, a telnet client site may simply stop providing service
+        due to the huge abuse that often results from the client. This is
+        more often the case than the exception. So, you are left stranded
+        and have to hunt for new telnet sites.
+      In short, GET YOUR OWN CLIENT. Under Unix, a client can be installed in
+      as little as 150-200K of free diskspace. At best, telnet client sites 
+      should be used as a temporary solution until you are able to get your 
+      own client. Every time you use one, you should remember that 
+      *  You are using tremendous resources on someone *else's* system
+           which are being provided out of sheer goodwill.
+      *  Each time you use one, you deny many others who haven't tried
+           irc at *all*. Think of it as limited supply of lifejackets for 
+           people who cannot swim. Some thoughtless people have the capability 
+           to swim but don't wish to learn how to do so, and insist on using 
+           this limited supply, meant for others. Please be considerate and
+           setup your client as soon as possible. Telnet clients should
+           be used only as a *temporary* measure.
+
+      It is with this goal in mind that the foll. list is provided:
+
+         wildcat.ecn.uoknor.edu 6677      or    129.15.22.174 6677
+         sci.dixie.edu 6677               or    144.38.16.2 6677
+         ns.ensicaen.ismra.fr 6677     or       192.93.101.16 6677
+         obelix.wu-wien.ac.at 6677        or    137.208.8.6 6677
+         (obelix also runs on ports 7766, 6969 and 6996) 
+         irc.cps.cmich.edu 6788
+      
+      *Tip* -> An easy way to remember telnet sites is:
+                   telnet1.us.undernet.org
+                   telnet2.us.undernet.org       and so on..
+               The same convention applies for European sites 
+                (telnet1.eu.undernet.org, etc)
+   
+------------------------------------------------------------------------------
+1-4) Hmm..I'm confused. What does a client do?  What's a server?
+
+     An irc client reads in the commands that you give it, and parses
+     them. It filters them and performs the appropriate actions, and if
+     necessary, passes them on to a 'server'. An IRC server can serve
+     many other clients. The server holds information about the channels
+     and people on IRC, amongst other pieces of information. It is also
+     responsible for routing your messages to other people on IRC. The
+     IRC network itself consists of multiple servers which connect to
+     one another in a 'tree'-like fashion (as an undirected acyclic
+     graph to be precise).  
+
+     It is usually best if you select a server close to the site that
+     you irc from. Here's a partial list of servers to try:
+
+                   us.undernet.org - Central USA
+      davis.ca.us.undernet.org     - West coast USA
+      washington.dc.us.undernet.org- East coast USA
+                   eu.undernet.org - Europe
+                   ca.undernet.org - Canada
+                   au.undernet.org - Australia
+
+      Usually, a  countrycode.undernet.org  should get you to one of the
+      servers in your region. If not, you can try one of the servers listed
+      above. To find out which server is closest to you once you're on
+      IRC, use the /links command to get a list of servers. To switch to
+      the closest server, try  /server servername.
+
+------------------------------------------------------------------------------
+1-5)  What do I do next, once I'm connected to IRC? Is there a way to get
+      online help? Why won't /help work for me?
+
+      Thumb rule: All ircII commands must be preceded by a /
+
+      Thus, typing /help gives you a list of available ircII commands.
+
+      [If you're using ircII, and /help won't work for you, it's quite
+       possible that your local help files have not been set up right.
+       Try   /set help_path <path-to-helpfiles>
+       and if that won't fix it, try  
+             /set help_service ircIIhelp
+       You will need to ftp ircII2.2.9help.tar.Z from ftp.undernet.org
+        /irc/clients, and uncompress and untar the help files, and point
+       the help path appropriately if you want /help to work efficiently] 
+
+       If you're a newcomer to IRC, you may try /help newuser and 
+       /help intro   for more information on irc commands. To get you
+       started:
+
+       /LIST               Lists all current irc channels, number of
+                           users, and topic.
+       /NAMES              Shows the nicknames of all users on each
+                           channel
+       /JOIN <channel>     Join the named channel.  All non-commands
+                           you type will now go to everyone on that
+                           channel
+       /MSG <nick> <msg>   Sends a private message to the specified
+                           person.  Only the specified nickname will
+                           see this message.
+       /NICK               Change your nickname
+       /QUIT               Exits irc.
+       /HELP <topic>       Gets help on all IRCII commands.
+       /WHO <channel>      Shows who is on a given channel,
+                           including nickname, user name and host,
+                           and realname.
+       /WHOIS <nick>       Shows the "true" indentity of someone
+                           Use this often to make sure you know who 
+                           you are talking to, because nicknames are
+                           NOT owned so any number of people could
+                           use a nickname.
+       /PART <channel>      Lets you leave the specified channel.
+                             
+       However, once you have joined a channel, you need not precede your
+       lines with a /. Whatever you type, simply goes to the entire
+       channel. Precede your lines with a / when you wish to execute an
+       ircII command and when you do not wish the text to be sent to the
+       entire channel.
+
+       When you're connected, your Unix login name is usually taken as the
+       default 'nickname' for yourself. You may wish to change this with
+       a /nick newnick   command.
+
+------------------------------------------------------------------------------
+1-6)  Okay..can you describe what a channel is? How do I join/create one? 
+      How do I join multiple channels?
+
+      A channel is a place on IRC that people can meet and participate
+      in a discussion. Channels on IRC are dynamic in the sense that
+      anyone can create a new channel, and a channel disappears when
+      the last person on it leaves. To get a list of channels you may
+      try the command /list  mentioned earlier. You may also *limit*
+      the listing by the use of optional arguments as follows:
+         /list -min 3    - shows channels with at least 3 people on them
+         /list #a*       - shows channels whose names begin with the
+                           letter a.
+      A channel name begins with a # or a & (# channels are global, &
+      channels are restricted to the local server). To join a particular
+      channel use:   
+           /join  #channelname
+      If a channel with the particular name doesn't exist, then a *new*
+      channel is created with that name. The person to first join a channel
+      also becomes the channel operator (see 1-8) by default.
+      If you wish to join multiple channels, make sure you type in :
+           /set novice off
+                   
+------------------------------------------------------------------------------
+1-7)  How do I find out:  
+
+         * Who's on a channel? (What do H and G mean?)
+                As mentioned earlier, the command /who #channelname  
+            will list all users on the channel. This will show an output
+            of the form:
+         #wasteland Macro H*@ sandland@gaya.nki.no (the one and only...Macro.)
+            The channel is #wasteland. Macro is the nickname of a person
+            on it. The H stands for 'here'. (persons who mark themselves
+            away will show up as G for 'gone') The @ stands for channelop,
+            the * stands for IRCop. sandland@gaya.nki.no is his email 
+            address, and what appears in the parentheses is his customisable
+            IRCNAME.  You may also use /names #channelname for a more compact 
+            listing.
+
+         * Who's on IRC itself?
+                The command /names will list ALL users on IRC. Use this
+           with the -min  argument as discussed with the /list command,
+           to limit the listing. (A /names output can be very large)
+                
+         * Who's on IRC from the same site as myself?
+                The command /who *yoursitename* or  
+           /who -host *yoursitename*  should list people from the same site 
+           as yourself. (the asterisks (*) are needed)
+
+         * more info about a person?
+               The commands  /who nickname-of-person   or  
+           /whois nickname-of-person    will give you further information
+           about a particular 'nickname'. A slightly more advanced command
+           is  /ctcp nick finger, which returns finger information on the
+           given nickname. Once you know the user@host, you may even do
+           /exec finger user@host   which does the standard Unix finger.
+
+         * Someone's nickname given their real name?
+              Most people on IRC do not include real information when 
+           connecting to a server. You're more likely to find someone
+           if you know their email address. Use the /who -host *site*
+           command mentioned earlier, if you know the email address as
+           user@site. You may also try /who -name *user. If by some 
+           element of chance, the person uses his/her real name in the
+           IRCNAME variable (see question 1-19), you may be able to 
+           find him/her with /who *firstname* or /who *lastname*.
+
+         NOTE: The /who and /whois command switches described here will not 
+         work on invisible users (see 1-11 and 1-32) not on the same channel
+         as yourself. They will work with a specified nickname ONLY for
+         such users.
+    
+------------------------------------------------------------------------------
+1-8)  What's a channel operator? How do I become one?
+
+      When you do a /names #channelname, the persons with a @ prefix before
+      their nickname are channel operators for a channel. A channel
+      operator can decide who can be allowed to stay on a channel, and
+      the various settings for the channel (such as whether the channel
+      can be made secret, or invite only, etc). A channel operator can
+      pass on the operator status to another person. By default when
+      someone creates a new channel (by simply /join #channelname) he gets 
+      to be the channel operator. A new channel is created by specifying 
+      one that doesn't exist in a /list.  So, to become a channel operator
+      yourself, you can either (i) create a new channel or, (ii) ask
+      an existing channel operator to op you.
+
+------------------------------------------------------------------------------
+1-9)  Help! Someone kicked/banned me from a channel. Whom do I complain to?
+
+      The answer to this question is the current channel operators, and
+      them alone. Given the dynamic nature of channels, channel operators
+      do not need to have a *reason* to kick you off. They decide what
+      goes on over the channel.  Complaining either to IRC operators or
+      to the system administrators about being kicked/banned from a channel
+      is considered extremely childish, and results in no action. Irc
+      operators do not meddle with channel politics - that's the job of
+      channel operators.  Another IRC netiquette is to keep IRC issues
+      within IRC, because system admins have little time to deal with IRC
+      issues and many would rather shut it down rather than deal with
+      problems arising from it. If you should get banned or kicked from a
+      channel, you are always free to start your own channel and decide what 
+      is appropriate over it. Think of channels as houses. The owner of
+      the house can decide to share ownership with someone else or decide
+      to disallow any individual he chooses into his house. In your own
+      house, *you* call the shots. :-) Feel free to create your own channel,
+      and set up your own rules for it.
+
+------------------------------------------------------------------------------
+1-10) Okay..can you tell me a little more about general etiquette
+      (netiquette) over IRC? What do terms like "re", "brb", etc. mean?
+
+      * Language: The most widely used language over IRC is English.
+        However, it is by no means the only one. When you join a channel,
+        try to use the language that most people on the channel understand/
+        use. Most channels frown upon obscenities or profanity. Better to
+        play safe and find out what's the accepted norm over the channel.
+
+      * Greetings:  Using IRCII's /ON facility to automatically say hello
+        or goodbye to people is extremely poor etiquette. Nobody wants to 
+        receive autogreets. They are not only obviously automatic, but even 
+        if you think you are being polite you are actually sounding insincere 
+        and also interfering with the personal environment of the recipient 
+        when using autogreets. If somebody wants to be autogreeted on joining 
+        a channel, they will autogreet themselves.
+
+      * Lingo:  On IRC, communication speed often matters when talking to 
+        others, and as a result, many "shorthands" have been developed by 
+        IRCers to convey the most amount of information in the smallest amount 
+        of keystrokes. Here are some common shorthands:
+
+          "re" - repeat hi, used when you have left a channel and rejoin it
+         "brb" - be right back!
+         "bbl" - be back later
+        "bbiaf" - be back in a few minutes
+        "ttyl" - talk to you later
+        "rtfm" - read the f* manual
+        "rtrfc"- read the f* RFC
+         "oic" - Oh, I see!
+        "imho" - In my humble opinion
+        "rotfl"- rolling on the floor with laughter
+        "focl" - falling off the chair laughing
+         "nfi" - no f* idea
+        "ayfq" - ask your f* question
+         "wtf" - who/what the f*?
+           "u" - you                               "y" - why
+           "2" - to                                "b" - be 
+           "r" - are                               "c" - see 
+       
+        Another common 'emoticon' in use over IRC is the "smiley", which
+        is  :-)   (look at it sideways), but is often abbreviated to :)
+        There exist many variations to smileys and "frownies" :-(
+
+      * Discussion: When you come to a new channel it's advised that you 
+        listen for a while to get an impression of what's discussed. Please 
+        feel free to join in, but do not try to force your topic into the 
+        discussion if that doesn't come naturally.
+      
+      * The NOT's: The following is a list of "do not do's" on most
+        channels and over IRC as a whole:
+        o Do not flood the channel with text. This can be extremely
+          frustrating for people over slow modem connections, and is likely
+          to get you instantly kicked.
+        o Do not use beeps in your messages. 
+        o Do not use profanity in your public messages. 
+        o Do not harass another user with unwanted messages/comments etc.
+        o Do not indulge in *destructive* behaviour which reduces the
+          functionality of IRC. (such as running clonebots/floodbots/nick
+          colliders - this can lead to your system admin being notified).
+
+------------------------------------------------------------------------------
+1-11)  What's a mode change? What are modes? 
+      
+      Every user and channel on IRC has a set of "modes" associated with
+      him/it. Here's what the help page on the mode command says:
+
+       Usage: MODE *|<channel> [+|-]<modechars> [<parameters>]
+              MODE *|<channel> [+|-]b [<nick>[!<user>[@<host>]]]
+              MODE <nick> [+|-]<umodechars>
+
+      The mode command is quite complicated and it allows channel
+      operators to change channel mode, or any user to change
+      their personal mode. For a channel mode, <modechars> is one of 
+      the following:
+        i           - channel is invite only
+        k <key>     - Adds join key <key> to the channel.  Keys can added or
+                      removed (MODE <channel> -k <key>), but not changed.
+        l <number>  - channel is limited, where <number> is the
+                      maximum number of users allowed
+        m           - channel is moderated (only channel operators talk)
+        n           - No MSGs to the channel are allowed
+                      from someone outside the channel.
+        o <nick>    - Makes <nick> a channel operator
+        p           - channel is private
+        s           - channel is secret
+                      Note: On 2.8 servers you cannot set both +p and +s modes
+        t           - topic limits, only the channel operators may change it
+        v <nick>    - Gives someone a voice to talk on a moderated channel. 
+ 
+      A + or - sign determines whether the specified mode should be
+      added or deleted.
+      If you supply * as channel name, modes will apply to your current
+      channel.
+
+      The second form of the MODE command allows you to ban
+      somebody from a channel. This is done by specifying
+      a sting of the form nick!user@host. For example:
+        MODE #MyChannel +b *!*@gus.*
+      bans everybody from the channel who is on IRC from any
+      machine whose name is gus.
+        MODE #MyChannel +b netw1z
+      bans anybody using the nickname netw1z.
+        MODE #MyChannel +b *!merklin@*
+      bans anybody whose user name is merklin.
+        MODE #MyChannel +b jerk!tug@boat.edu
+      bans the user tug@boat.edu from the channel whenever he
+      is using the nickname "jerk".
+
+      If you are channel operator, you can list the bans in effect on a 
+      channel by:
+          MODE #MyChannel +b
+      To find out the existing modes on a channel try 
+          MODE #MyChannel
+
+      The third form of the MODE command allows you to modify your
+      personal parameters. You can precede any combination of the
+      following with + or - (+to switch that mode on, - to switch it off).
+
+        o        - IRC operator status. You may not turn this on
+                   with mode. To assert operator status, you must use OPER
+        w        - Receive WALLOPS (messages directed at all operators.
+                   see WALLOPS.
+        s        - Receive server notices. This includes KILL notices
+                   and notices about what is happening with links
+                   to the local server.
+        i        - Render yourself invisible. This prevents you from
+                   being seen in WHO and WHOIS information, unless
+                   somebody specifies your exact nickname with WHOIS.
+
+------------------------------------------------------------------------------
+1-12) How do I perform an "Action"?
+      
+      Whilst on IRC, you may often see messages of the sort:
+
+      *** Action: Muffin hugs everyone!
+
+      or on other clients:
+
+      * Muffin hugs everyone
+
+      You can do the same via the /me command. /me action  will send the
+      action to your current channel. For example, try /me dances. If you
+      wish to send a private action to someone, rather than to the channel,
+      use the /describe command.  /describe nick action will send the 
+      action to the specified nickname.
+    
+------------------------------------------------------------------------------
+1-13) How do I "scrollback" in ircII? Are there any special key bindings
+      available?
+       
+      To "scrollback" under ircII, use /lastlog command. The /lastlog
+      command keeps track of messages that appear in your ircII screen.
+      However, it holds a limited number of messages in its buffer. To
+      change the size of the buffer use  /set lastlog <n>   where <n>
+      is some number. By default, the lastlog buffer is of size 44.
+      /help lastlog  for more information on the lastlog command.
+
+      ircII can also scroll back and forth (through the lastlog) using 
+      Esc-P (for Previous 1/2 screen) and Esc-N (for Next 1/2 screen).  
+      Esc-E returns instantly to the last line (back to the current 
+      scrollage).
+
+      Besides this, ircII provides for several in built default key
+      bindings (emacs style) which are very useful:
+
+            ^P      recalls previous command line
+            ^N      recalls next command line
+            ^F      moves forward one character
+            ^B      moves backward one character
+            ^A      moves the cursor to the beginning of the line
+            ^E      moves the cursor to the end of the line
+            ^D      deletes the character under the cursor
+            ^K      kills from the cursor to the end
+            ^Y      reinserts the last stretch of killed text
+            ^U      clears the whole line
+            ^L      redraws the screen
+      
+      The caret (^) stands for the control key on your keyboard. Thus, ^P
+      is interpreted as pressing the control key and the 'P' key together.
+
+      On a related note, you may also try the help pages on the HISTORY
+      command and the ! metacharacter. (/help history   and  /help !)
+
+------------------------------------------------------------------------------
+1-14) How do I make the output of a command in ircII pause after each
+      screenful? How do I "cancel" further output from a command? 
+
+      To make your output pause in screenfuls, use the following command:
+    
+          /set hold_mode on
+
+      To cancel further output from a command (for instance if you 
+      accidentally did a /names when you hadn't intended to) use
+
+           /flush     
+      
+      * Warning: /flush flushes all output sent to the client so far from
+        the server. This means that you may end up losing some public/private 
+        messages too.
+
+------------------------------------------------------------------------------
+1-15) Ugh..all my messages seem to appear on a single status line. My term
+      settings seem to be messed up. Help!
+
+      This information holds for unix users. For some reason, the environment 
+      settings which reflect your term type haven't been set right.  If
+      you're using a vt100 compatible terminal, you may try:
+
+            unsetenv TERMCAP
+            setenv TERM vt100
+    
+      from your Unix prompt. The above commands will work if you are a csh
+      or tcsh user. (To find what shell you use, try "echo $SHELL") If you
+      do not use these, try:
+
+              TERMCAP=
+              TERM=vt100
+
+      You may even use the 'stty' command to tell the system how many rows
+      your display holds. For example,
+
+               stty rows 24
+
+      Another command which can be used to reset terminals is the 'tset'
+      command. Try:
+
+           tset -s -m ':vt100'
+
+      You are advised to read the man pages on the tset and stty commands
+      for more information.  ("man stty"  and "man tset" from your Unix
+      prompt) You should also check your modem emulation software and 
+      associated documentation and find out which term it emulates, in
+      case you're on a modem.
+
+      Under VMS, do a SET TERMINAL /INQUIRE so it will set the terminal it 
+      expects to match your terminal emulator.   If this doesn't work, do a 
+      help on the SET TERMINAL command to find out how to directly command 
+      the VAX to go to VT100 mode.
+
+      Lately, many irksome users have been exploiting a well known bug
+      with the talk facility to mess up your screen settings. Remember
+      to type the foll. command if you're on Unix, before starting irc:
+                  mesg n
+      If you're on VMS, try:
+            SET TERMINAL/NOBROADCAST 
+
+------------------------------------------------------------------------------
+1-16) What are the funny characters that I see at times in channel names or
+      nicknames over IRC?
+    
+      Many people on IRC may use certain ASCII characters  instead of their
+      Scandivanian counterparts to convey the same. For instance:
+
+      [, {       'a' with two dots over it
+      ], }       'a' with a small circle above it
+      \, |       'o' with two dots over it, or a dash ("/") through it
+                 ("[", "]", and "\" = upper case)
+      
+      In addition, IRC supports the ISO Latin-1 8-bit character set. 
+      Thus, Japanese  IRC'ers  use special ANSI escape control sequences
+      to transmit their Kanji alphabet.
+
+      However, destructive individuals often use clone processes to connect
+      to IRC servers and spew garbage. If you see a lump of funny looking
+      nicknames, please report them to an IRC operator. 
+
+------------------------------------------------------------------------------
+1-17) Why do I get "No text to send" when I talk on a channel? How do I
+      get rid of this?? Please help!
+
+      This message is often seen when you use an old client which is no
+      longer compatible with the current series of IRC servers. To get
+      rid of it, get the latest version of your client! Look up 1-2) 
+      for more information on obtaining a new client. A temporary solution
+      is /query #channelname.
+
+------------------------------------------------------------------------------
+1-18) Darn..my irc session froze up :( Is there some way that I can get rid 
+      of my old nick/session?
+     
+      Occasionally, you may suddenly get disconnected from the IRC network
+      and find yourself still "logged in" on IRC. In this case, you need
+      to find the orphaned process and kill it, so that you can regain your
+      nickname. Go back to the Unix shell and try  "ps -ux" or "ps -f".
+      This should show a listing similar to:
+
+       /u/sodeep%> ps -f
+          UID   PID  PPID  C    STIME  TTY      TIME COMMAND
+       sodeep 12501 12344 14 09:46:27  p22      0:00 ps -f 
+       sodeep 12498 12344  0 09:46:18  p22      0:00 irc 
+       sodeep 12344 12342  1 09:42:55  p22      0:02 -tcsh 
+      
+      Identify the irc process and the process identifier (PID). Then,
+      all you need to type is  "kill -9 <PID>". Thus in this case, I
+      would have typed in "kill -9 12498".  To get more information
+      on the Unix ps and kill commands, refer the man pages ("man ps"
+      or "man kill").  
+
+      If nothing works, try "kill -9 -1"  which will kill ALL processes
+      owned by you.
+
+      If you are on VMS, use the command:
+
+            show user/full <username>
+
+      This will display a list of processes and a list of process ids. Next
+      choose the ghosted process, and type in:
+
+            stop/id= <pid of process>
+
+      If you're using a later version (>2.4) of ircii-for-vms, a /ctcp
+      ghosted-nick PID  returns the process id directly, and you can use
+      that directly with  stop/pid.
+
+      If  your  machine  crashed,  and  your nick is still in use on the 
+      IRC network,  you'll have to wait 4 to 5 minutes for your server to 
+      recognize the fact. Getting an Operator to kill the ghost is almost 
+      never necessary,  just  sign  on  as  another  nickname  and wait for 
+      the "Ping timeout" or "Error 0" message, then you can change your nick 
+      back.
+
+
+------------------------------------------------------------------------------
+1-19) How do other people change the text that appears in the parentheses
+      () after their names?
+
+      If you use the Unix csh or tcsh shells (to find out what shell you're
+      on, try "echo $SHELL" from your Unix prompt), try the following: 
+
+            setenv IRCNAME "what you want here"
+ 
+      If you don't use csh/tcsh, try:
+ 
+           export IRCNAME="what you want here"
+
+      If you want the setting to be the same each time you login, you need
+      to put that line in your .login (for csh/tcsh users) or your .profile
+      (for other shell users). If you don't use csh/tcsh, you will also
+      need to add the line "export IRCNAME". Edit the .login or .profile
+      file using your favourite editor (vi/emacs/joe/pico/etc)
+
+      If you use a VMS ircII client, edit your login.com and put the line:
+
+           define ircname "what you want here"
+
+      NOTE: If you are a WWW user, it is becoming common practice to use
+      a homepage URL in the IRCNAME variable. 
+
+------------------------------------------------------------------------------
+1-20) How do I read my "irc" mail?
+
+      This is yet another common question from newcomers using ircII. There
+      is no mail over irc. The mail notification that you see is the number
+      of mail messages in your Unix mailbox. To read this, exit irc, and
+      type "mail", or "pine", or "elm", or your favourite mail reader. 
+
+
+------------------------------------------------------------------------------
+1-21) How do I find out when someone was last seen on IRC? How do I leave a
+      message for someone not on irc?
+
+      The command /whowas can be used if the person in question has signed
+      off recently (this depends - usually not more than 5-10 minutes). 
+       /whowas Mmmm       for example, will tell you if a person with 
+      nickname Mmmm was on irc recently. If you wish to be notified when
+      a certain person signs onto IRC, you can use the /notify command.
+       /notify Mmmm    will notify you when Mmmm signs on.
+
+      To leave a message for someone who's not on IRC currently, you can
+      use the /note command. However, /note is highly server dependent 
+      (works on some servers, doesn't on others) and if it works on a 
+      server, it may be taken off without warning if it's found to affect
+      the server's performance. The syntax for sending a note is
+         /note send nickname!user@host message
+      You are recommended to use email since it's much more reliable. To
+      achieve the same under ircII using email, you can do:
+           /exec echo "message" | mail user@host 
+     
+------------------------------------------------------------------------------
+1-22) How do I get "special effects" such as bold/reverse/underline when
+      using ircII?
+
+      The special effects that can be produced depend on the capabilities
+      of the terminal. If your terminal supports the control sequences,
+      you will be able to see messages highlighted/underlined/bold. The
+      foll. control characters achieve the effects:
+
+            ^B     -  Bold
+            ^_     -  Underline
+            ^V     -  InVerse
+         
+       (on old ircII clients, ^b - inverse, ^v - underline, ^_ - bold)
+        
+      The caret (^) stands for the control key on your keyboard. Thus, ^B
+      is interpreted as pressing the control key and the 'B' key together.
+
+      It is quite possible that some of these control keys may have been
+      bound already. For instance, ^B is usually bound to
+      BACKWARD_CHARACTER. To get around the default behaviour of ^B, try
+        /bind ^B self_insert
+      The ^B in the line above needs to be typed in as a caret(^) followed
+      by B (not as control-b, since this hasn't been unbound as yet, and
+      hitting control-b will simply move your cursor back).
+
+      * Warning: Lines with special effects in them are considered annoying
+          by most people, so be frugal in their usage. 
+
+------------------------------------------------------------------------------
+1-23) Someone on IRC asked me to type in a certain command that I do not 
+      understand. What do I do?
+
+      One word. DON'T. If you do not know what the command does, you should
+      not try it. It is often the case that unscrupulous persons fool
+      newcomers to IRC into typing cryptic commands. Some of these commands
+      can affect the security of your account, and even your system as a
+      whole. Never try the /exec command if you do not know what it does.
+      Contact your server administrator if you were asked to execute a
+      cryptic command (/admin will reveal the server admin), and get more
+      information on what the command does.
+
+------------------------------------------------------------------------------
+1-24) How do I save my ircII settings (such as nickname, default server,
+      etc) so that they are in effect the next time I sign onto IRC?
+
+      A file named .ircrc (use "ls -a" from your Unix prompt to check if
+      you have one) in your home directory can be used to store settings
+      that you would like to have each time you sign on. The lines in the
+      .ircrc file are interpreted as if you were actually typing them in
+      when you're on IRC. The / character before commands is optional
+      however. Thus if you wish to join a certain channel each time that
+      you sign on, you could put in the line:
+               join  #channelname
+      in your .ircrc file.
+     
+      Unix users also can play with the following shell variables:
+
+      HOME            where your home directory is
+      IRCNAME         (text that appears between parentheses in a WHOIS)
+      IRCNICK         your default IRC nickname
+      IRCPATH         a directory path to LOAD scripts
+      IRCRC           a file to use instead of your $HOME/.ircrc
+      IRCSERVER       a default server list for ircII
+      TERM            your terminal type
+
+      See the answer to question 1-19) for help on setting a specific 
+      variable.
+
+------------------------------------------------------------------------------
+1-25) How do I drop to the Unix prompt temporarily?
+
+      It is possible to suspend the ircII process temporarily by first 
+      typing the following command 
+           /bind ^Z STOP_IRC
+      (the ^Z needs to be typed in as a caret ^ followed by Z)
+      Then, just hit control-Z to momentarily suspend ircII and to drop
+      to your shell prompt. Beware that the irc server checks to see if
+      a particular client is alive by pinging it every once and then. If
+      you suspend ircII in this fashion, you may "ping timeout", and hence
+      be cut off from the server. You should be able to return to the
+      ircII process by typing "fg". Note that this feature may not work on
+      all shells.
+
+      If you wish to prevent being ping timed out, you must install
+      ircserv (compile ircserv.c which came with the client, and move it
+      to the same directory as the irc client), and start up ircII with
+      the command "irc -S".
+
+------------------------------------------------------------------------------
+1-26) When I try connecting to a server, I get "Connection refused" or
+      "Connection timed out" or "Unknown host". What do I do now?
+
+      This usually happens due to one of the following reasons:
+      * The server name you specified is wrong
+      * Your nameserver is having problems and can't understand the name
+        you gave it and can't translate it into a numeric address.
+      * The server or the machine or the route to the server is down.
+
+      When you see this occuring, you should check up whether a server of
+      the specified name actually exists. If it does, you should then try
+      the numeric address of the server (e.g  129.15.22.33) rather than its 
+      symbolic one (e.g. Norman.OK.US.undernet.org). A good thumb rule is to
+      note down the numeric addresses of your three favourite servers. 
+      Sometimes, you may for some reason not be able to connect on the 
+      standard irc port 6667. In that case, you may try alternate ports
+      7000 and 7777 via 
+                /server numeric-address-of-server  port#
+      Keep trying different servers (and/or ports) using their numeric 
+      addresses, until you're able to connect. If you're still unable to 
+      connect, then your local network is probably having problems and you 
+      should contact your system admin.
+
+------------------------------------------------------------------------------
+1-27) What does the message "Ghosts are not allowed on IRC" or "You are
+      banned/not welcome on this server" or "No authorisation" mean?
+
+      You may get either of the first 2 messages when your site or you have 
+      been denied access to a particular server. The technical term for it 
+      is being "K-lined". If you find that you have been K-lined from a 
+      particular server, you can switch to another one. K-lines for entire 
+      hosts are sometimes put up by IRC admins for one of the foll. reasons:
+      * Your site is not close to the server and you'd be better off using
+        a different closer server.
+      * Someone from your site has been running destructive clone processes
+        over IRC, which used forged ids. The only way to counteract them was
+        to k-line the entire domain. If you want the K-line for the host to
+        be lifted, you will need to talk to your system admin and get
+        identd installed at your site (RFC1413, ftp.std.com /src/network/
+        pidentd-2.2.tar.gz).
+      If you wish to ask why you were K lined from a server, you can write
+      to the server admin for that server. His or her email address can
+      be obtained via the command  /admin servername.
+
+      The "No authorisation" message occurs due to a similar reason. The
+      server does not give your site access. A server administrator can
+      choose which sites can connect to his server via "I-lines" (called
+      invitation lines). Many servers I-line only local sites. You should
+      try to use a server close to you. A list of servers can be obtained
+      in the appendix of this FAQ (part 2).
+
+------------------------------------------------------------------------------
+1-28) What is a netsplit? What's "lag"? How do I avoid either?
+
+      As mentioned earlier, IRC servers are arranged in the shape of an
+      acyclic graph. Let's say a sample snapshot of connections looks like
+
+            A  --------------  B
+            |                  |
+            C                  D
+
+      where A, B, C and D are servers. Let's say that you are on server C,
+      and server A splits from server B. 
+
+      This "split" often occurs due to faults in the underlying *physical* 
+      network. It can also occur due to other reasons, such as if the machine 
+      on which server runs, crashes, or if it is too overloaded to handle 
+      connections (happens on bigger nets), or if an IRC operator willfully 
+      disrupts the connection between two servers (happens when operators 
+      reroute servers to achieve a better routing). 
+
+      Then in this case, you will see users on B and D, "sign off". Voila! 
+      That was a "netsplit". When A and B rejoin, you will see users from B 
+      and D "rejoin" the channel you were on.  To cut down on the mass
+      signoff and rejoin messages that you see during netsplits, you might
+      try the "netsplit" script that comes with the ircII client. Use the
+      command /load netsplit    to load it.
+
+      The term "lag" refers to the delay in messages reaching their
+      destination. You might often see a bunch of messages from a certain
+      user all together. In this case it's quite possible that the user
+      is "lagged". If you see a flood of messages from *everyone*, then
+      no messages for a while, then a flood again, etc., it is quite
+      possible that *you* are lagged. To find out how well you are doing
+      with respect to others, use the  /ping command.  /ping #channelname
+      forces a response from others on the channel, and you can compare
+      response times.   
+
+      Lag can occur if you are not connected to a server close to you, or
+      if you are on a telnet client, or due to faults in the *physical*
+      network, or if the machine on which the server runs is slow. 
+
+      There's not much you can do to avoid netsplits. They're a part of
+      the way ircd was designed, and also a part of the way the Internet
+      runs. To avoid lag, always use the server closest to you. The /links
+      command lists all IRC servers. Use /server servername  to switch
+      servers. 
+
+      Both lag and netsplits are much much lesser on the Undernet, but more
+      on this later.
+
+------------------------------------------------------------------------------
+1-29) Why do I get that annoying ~ which shows up in front of my address 
+      on IRC? How do I get rid of it?
+
+      On IRC, it is often difficult for the server to verify the userid
+      of a particular client. Malicious users often use this to their
+      advantage by using forged userids and harassing other users, or
+      starting destructive clone processes which flood the network with
+      garbage. To better authenticate userids, later versions of irc
+      servers check to see if an IDENT server runs at your site. If it
+      does, the correct userid is queried from the IDENT server and used,
+      and the userid given by the user ignored. A server administrator may
+      choose to make the server tag users whose machines do not run IDENT
+      with a ~ before their name, signifying that they may not be under a
+      verified userid. This way, they can also deny access to troublesome
+      sites that do not run IDENT. 
+
+      If you see the ~ before your email address in a /whois, and wish to
+      get rid of it, you will need to talk to your system administrator,
+      and ask him to install ident. The relevant RFC (request for comments)
+      which gives more information on ident is RFC1413. The IDENT package
+      for Unix systems can be found at:
+             ftp.std.com    /src/network/pidentd-2.2.tar.gz
+     
+------------------------------------------------------------------------------
+1-30) Hmm..what are all these "power scripts" that I keep hearing about?
+      Do I need them? Why do people call them risky?
+
+      The ircII client supports a scripting language which allows you
+      to program useful macros, functions, etc. /help ircII programming
+      will help you get started. 
+
+      Most of the scripts that you see advertised are unnecessary. No
+      one needs a script that does mass mode changes for instance. (If 
+      you're wondering why, each mode change is transmitted to each and
+      every server on the net. A mass of mode changes thus eats up a lot
+      of unnecessary bandwidth. Think about this the next time you do
+      a mode change.) The scripts which come with the client are more
+      than sufficient to help you get by. Notable scripts that come to
+      mind are the 'tabkey' script, which allows you to flip between 
+      people whom you sent messages to before by a press of the tab key,
+      and the 'netsplit' script which cuts down on the mass signoffs and
+      rejoins that you see during netsplits. 
+
+      When someone offers you a script, do not /load it without going
+      over it with a fine toothcomb. Even a simple /load scriptname can
+      cause you grief, if you do not know what the script does. Read each
+      and every line in the script, and get a general idea of what the
+      script does before loading it. Several scripts are known to have
+      'backdoors' put there intentionally or unintentionally by the
+      authors or distributors. Loading a script which you haven't gone
+      over is a BAD idea. To repeat, *never* load a script without reading
+      it first. If you do not understand it, DO NOT load it. Yes, it might
+      have "worked" for others - let them dig their own graves.
+
+------------------------------------------------------------------------------
+1-31) Oh, I see. Now what's a bot? Why do people have a love/hate attitude
+      towards bots?  Can I make a bot?
+
+      The term "bot" is short for "robot". You can often come across these
+      on IRC. A bot is a detached irc process which simulates another irc
+      client. Some bots serve as repositories for files, or useful data,
+      or conduct games. Dumb bots only do mode changes. Harmful bots
+      fork clone copies of themselves or flood the irc network with
+      garbage (clonebots/floodbots).  These are almost universally hated.
+      
+      Most bots on IRC are a nuisance, even though their owners find their
+      invention "cool". To quote guidelines for bots from the IRC primer:
+
+      * automatons should be clearly identified as such, having "bot",
+        "serv" or "srv" in their nickname.
+
+      * they should use NOTICES to communicate with the rest
+        of the world, and not reply to NOTICES they get.
+
+      * they should be able to always be killed (craziness is a
+        frequent disease among robots).
+
+      * they should be able to be killed remotely by their owner via IRC.
+
+      * they should not give access to their owner's real files, (bandits
+        have already been able to crack people's accounts through
+        their robots).
+
+      * they should not send messages to channels (unless the channel
+        is dedicated to that robot).
+
+      * they should not flood channels with MODE changes.
+
+      Please do not make yet another bot which disregards any of these. IRC
+      has more than its share of disruptive bots. *Never* ever take bot code
+      from someone and run it without understanding what it does. This is
+      a common mistake amongst newbies. Security issues come into play
+      again, not to mention that users doing this are often clueless about
+      controlling them, and the bots become a big nuisance. If you *must*
+      run a bot, learn ircII programming, or even better, C/perl & network
+      programming, and make sure that your bot serves a useful purpose
+      rather than "ops you on your channel and keeps it open when you are
+      not there".
+     
+------------------------------------------------------------------------------
+1-32) Help! This extremely obnoxious person keeps harassing me with
+      messages/flooding me. What should I do?
+
+      One of the first commands that a newcomer to IRC must learn is the
+      magic /ignore command. With this command you can ignore people 
+      flooding you or your channel, or harassing you, or whatever. The
+      syntax of the ignore command is:
+
+              /ignore user@host ALL
+
+       To find the user@host for a person, do a /whois nickname, or a 
+       /who nickname. If you just wish to ignore messages from the person 
+       you may do a /ignore nick MSG.  /help ignore  will give you more
+       information on this command. You can use wildcards (* and ?)in the 
+       user@host. Thus to ignore everyone from a *.com site, 
+        /ignore *@*.com all
+       
+       On the Undernet, you can also use the "/quote silence" command to 
+       counter people flooding you. This cuts flooding at the *local*
+       server unlike /ignore where your client continues to receive
+       messages even though you may not see them, and causes your client
+       to ping timeout in many cases. The syntax is:
+
+               /quote silence +user@host
+        or     /quote silence nick
+
+        Ocassionally, malicious users may hack their userid or use
+        different accounts to get around your /ignore. Do not despair. You
+        can still evade people like these by going invisible and changing
+        nicks as follows:
+              /mode yournick +i      or alternatively,   /umode +i
+        followed by,
+              /nick newnick
+        Once you're invisible the harasser cannot see your new nickname
+        unless s/he's on the same channel as yourself. Simple make your
+        channel secret and invite only (/mode #channelname +sni) for you
+        and your friends, for a foolproof cure.
+
+------------------------------------------------------------------------------
+1-33) Hey..I heard that you can exchange files over IRC - how is that done? 
+      What's DCC?
+
+      If you have a client that supports DCC (direct client-to-client),
+      you can take advantage of it to exchange files, and even hold secure
+      conversations with your friends. To send a file via DCC to another
+      person, use:
+           /dcc send nickname filename
+      The other person who's offered the file via DCC, will need to type in
+           /dcc get nickname filename
+      You will see establishment of a DCC connection. Now wait patiently,
+      until the transfer is completed.
+
+      You can also use DCC to have a more secure conversation with another
+      person. DCC opens a direct connection which means that apart from
+      the initial requests to establish the DCC connection, further
+      exchange takes place directly between 2 clients without involvement
+      of intervening IRC servers. To use DCC CHAT, try
+          /dcc chat nickname
+      Then, to send a message via dcc to the person, use 
+           /msg =nickname  message    (note the '=' sign which is required, 
+      otherwise the message will not go over the dcc connection). You may
+      also try /dmsg nick message.  /help dcc should give you more information 
+      on DCC.
+
+      To close a previously sent DCC connection, use the command
+             /dcc close <type> <nick>
+      For example, if you had sent a file called sample.txt to Mmmm, and 
+      wish to terminate the send, use
+             /dcc close send Mmmm
+      To list current DCC connections in use, try the command
+             /dcc list
+    
+------------------------------------------------------------------------------
+1-34) How can I "register" my nickname? What's Nickserv?
+
+      Unfortunately, there is no way to guarantee that you can use the
+      same nickname when you're on IRC. Although it is considered extremely
+      impolite to use someone else's nickname, it does happen occasionally
+      on IRC. This can cause confusion, and hence you're advised to make
+      sure that your friends recognise you by your user@host. 
+
+      However, all is not lost. There does exist a service call Nickserv
+      which will register nicknames and warn other users who attempt to
+      use the same nickname that the nickname's registered by you. On
+      the Undernet, Nickserv's still in an experimental stage. Use
+        /msg nickserv@undernet.org help        
+      for more information. Remember that it is not a guarantee that your
+      nickname will not be used. Steps are underway to strengthen the 
+      undernet Nickserv, if possible. To repeat, Nickserv cannot be
+      guaranteed to be even present all the time. In fact, it is absent
+      most of the time, since it is only in an experimental stage. Do
+      not depend on its existence.
+     
+------------------------------------------------------------------------------
+1-35) Where can I find pictures/gifs of people on IRC?
+
+      You can find pictures of people who use IRC at the following FTP
+      sites:
+
+      ftp.undernet.org:/irc/pictures
+      ftp.funet.fi:/pub/pics/people/misc/irc (NORDUnet only)
+      ftp.informatik.tu-muenchen.de /pub/comp/networking/irc/RP
+ 
+      If you have Mosaic, you may try the following URLs:
+
+      http://www.enst.fr/~tardieu/irc/
+      http://www.powertech.no/IRCGallery/ 
+
+------------------------------------------------------------------------------
+1-36) Where can I find an IRC manual? Where can I find more information
+      on IRC?
+
+      You can find an ircII manual at ftp.undernet.org under /irc/clients.
+      This manual is basically all the help files concatenated into one
+      big file. If you'd prefer each in separate files, ftp ircII2.2.9help.
+      tar.Z, and uncompress and untar it (uncompress ircII2.2.9help.tar.Z
+      | tar -xf -).
+
+      For more information on IRC, you can download the IRC primer and
+      tutorials from cs-ftp.bu.edu under /irc/support. For a technical 
+      overview, you can try reading RFC1459.  You can also join the
+      Undernet mailing lists - user-com (general irc help) and wastelanders
+      (discussion of server routing/protocol/etc). To find out how to 
+      subscribe, send mail to majordomo@undernet.org (or listserv@undernet.org
+      or listproc@undernet.org) with "help" in the body.
+
+      If you use Mosaic, good URLs to try are:
+
+      http://www2.undernet.org:8080/~cs93jtl/IRC.html 
+
+      http://urth.acsu.buffalo.edu/irc/WWW/ircdocs.html
+
+
+      Good IRC books to try are:
+
+      * "The IRC Survival Guide" - Stuart Harris. $17.95 U.S. Addison-Wesley
+        ISBN 0-201-41000-1
+
+      * "Using Internet Relay Chat" - Marianne Pyra. $19.99 U.S. Que
+        Corporation (Macmillan Publications). ISBN 0-7897-0020-4
+
+      * "Internet Chat Quick Tour" - Donald Rose. Ventana Press.
+        ISBN 1-56604-223-2 
+
+      * Interactive Internet: The Insider's Guide to MUDs, MOOs and IRC
+        - William J. Shefski Publisher: Prima ISBN: 1-55958-748-2
+        Price: US $19.95; Can, $29.95; UK 18.49 net
+    
+------------------------------------------------------------------------------
+
+Posted-By: auto-faq 3.1.1.2
+Archive-name: irc/undernet-faq/part2
+Version: $Id: undernet-faq, v3.2.0 1995/08/07 13:23 mmmirash Exp $
+
+
+      Undernet IRC FAQ [Part II] (updated 28th July 1995) - Weekly Repost
+
+                Version 1 By Paul Grant (Grant)
+
+                Version 2-3   -   written by Mandar Mirashi (Mmmm)
+                                  mmmirash@mailhost.ecn.uoknor.edu
+
+The FAQ consists of answers to several frequently asked questions on the
+IRC newsgroups. Please don't ask these questions again, they've been
+answered plenty of times already - and please don't flame someone just 
+because they may not have read this particular posting.  Thank you.
+
+The FAQ consists of the following sections.
+
+I)       IRC for the newcomer
+II)      The Undernet (for the newcomer)
+III)     The Undernet (for the EFnetter)
+IV)      The Undernet (how can you participate?) 
+V)       Acknowledgements/References
+VI)      Undernet IRC server list
+
+This article covers sections II - VI, and includes answers to:
+
+
+Section II: The Undernet (for the irc newcomer)
+-----------------------------------------------
+2-1)  Well, I understand what a server is. Now what's a net?
+2-2)  So far, so good. Now, why's this net called the "Undernet"?
+2-3)  How do I find the closest Undernet server to me?
+2-4)  Whom do I approach if I have questions?
+2-5)  What are some good channels to try?
+2-6)  Say...can I join some mailing list which helps with IRC questions,
+      or discusses IRC in general?
+2-7)  Are there any Undernet ftp/www/gopher sites?
+
+
+Section III : The Undernet (for the EFnetter)
+-----------------------------------------------
+3-1)  What is the Undernet? Where does the term EFnet come from?
+3-2)  Why does the Undernet exist? Do we need another IRC?
+3-3)  How is the Undernet IRC protocol different from/better than the
+      EFnet?
+3-4)  So, can you summarise the advantages of the Undernet?
+3-5)  Cool! Do I need to make any changes to my .ircrc file?
+3-6)  How do I get to the Undernet from the EFnet?
+3-7)  Hmm..someone was foolish enough to hand out ops to an untrustworthy
+      person on our channel, who proceeded to do a mass deop, and left.
+      Can something be done?
+3-8)  Can I move my channel to the Undernet? What are the advantages of
+      doing so?
+3-9)  Can I communicate with someone on the EFnet once I'm on the Undernet?
+      (or vice-versa)
+3-10) Who are the Undernet programmers?
+3-11) What does the future hold for the Undernet?
+
+
+Section IV: The Undernet (How can I participate?)
+-------------------------------------------------
+4-1)  So, how do I get to be an "IRC op"? Why can't I be one?
+4-2)  How do I apply for a link for my server to the Undernet? What are the
+      requirements?
+4-3)  How do I volunteer to do some work for the Undernet? No, I'm not
+      looking for an O line.  I just like being nice and helpful to people.
+      How do I participate?
+4-4)  I have some ideas for the future design of ircd. I may also be
+      interested in doing some programming for the Undernet. Whom do I
+      approach?
+
+
+If you're looking for the answer to, say, question 2-5, and want to skip
+everything else, you can search ahead for the regular expression "^2-5".
+(/2-5  in case you use vi). 
+
+While I have tried my best to keep the FAQ updated, there may be 
+inadvertent mistakes or omissions. Is there a question that you find
+frequently asked, but not mentioned? Please send all suggested additions/
+corrections/deletions/comments/etc. to mmmirash@mailhost.ecn.uoknor.edu
+
+This FAQ (both parts) can be obtained via anonymous ftp from ftp.undernet.org 
+or ftp.undernet.org under  /irc/docs, or from rtfm.mit.edu under 
+/pub/usenet/alt.irc/    If ftp does not work from your site, then try
+the mail server: send email to mail-server@rtfm.mit.edu with
+
+send usenet/news.answers/irc/undernet-faq/part1
+send usenet/news.answers/irc/undernet-faq/part2
+
+URL's on the World Wide Web for this FAQ are:
+
+        http://www.undernet.org/~agifford/undernet/underfaq/
+        http://www2.undernet.org:8080/~cs93jtl/underfaq/
+
+and, the latest version can always be found at:
+        http://www.cis.ohio-state.edu/hypertext/faq/usenet/irc/undernet-faq/
+                                                              part1/faq.html
+        http://www.cis.ohio-state.edu/hypertext/faq/usenet/irc/undernet-faq/
+                                                              part2/faq.html
+
+P.S. : This FAQ widely refers to the Unix ircII client and many commands
+       might not work the same way if you aren't using ircII.
+
+------------------------------------------------------------------------------
+Section II: The Undernet (for the irc newcomer)
+================================================
+
+2-1)  Well, I understand what a server is. Now what's a net?
+
+      IRC servers are connected together in a 'tree' like fashion
+      (an undirected acyclic graph to be precise). A collection of
+      IRC servers is called an IRC net. The command /links will 
+      display all servers on a net. The command /lusers will display
+      the number of users, servers, and channels on a given net.
+
+------------------------------------------------------------------------------
+2-2)  So far, so good. Now, why's this net called the "Undernet"?
+
+      The term "Undernet" was suggested in jest by some of the original
+      operators (dl, Wildthang and Whizzard) who started it. As time
+      went by, the name stuck. :-) Upon hearing the name people often
+      think that it's a net where something illegal goes on - which isn't
+      quite the case. On the other hand, the name also imparts a mysterious
+      angle to the IRC net. On the whole, it's a very friendly net with
+      an easy going atmosphere. Most people are nice and helpful to
+      newcomers. 
+
+------------------------------------------------------------------------------
+2-3)  How do I find the closest Undernet server to me?
+
+      Luckily for you, all Undernet servers follow names of the format:
+
+           city.state.country.undernet.org               or,
+           city.country.continent.undernet.org
+
+      Thus, you can easily locate the closest server to you. In most
+      cases, this also turns out to be closest netwise as well. The
+      command /links lists all servers. Choose one which is closest
+      to you, and simply type  /server servername. Also, the following
+      aliases are set up, country/continent wise:
+         us.undernet.org  - USA
+         eu.undernet.org  - Europe
+         au.undernet.org  - Australia
+         ca.undernet.org  - Canada
+      You can try a /server countrycode.undernet.org and see if that works
+      for you.
+
+------------------------------------------------------------------------------
+2-4)  Whom do I approach if I have questions?
+
+      You are always welcome on #wasteland - the help channel. Please
+      remember that depending upon the time, #wasteland volunteers may be
+      slow in responding since most peek into the window once in a while.
+      However, someone or the other is sure to help you out!
+
+      Another avenue is the user-com@undernet.org (general irc help) and
+      wastelanders@undernet.org (irc oper mailing list)mailing lists - try
+      mailing your question to these. You may even mail your server admin
+      for more information (/admin will return information on the admin 
+      for that server and his/her email address).
+
+------------------------------------------------------------------------------
+2-5)  What are some good channels to try?
+
+      New channels are starting up on the Undernet almost everyday. Given
+      the dynamic nature of channels, the channel names can vary, but a few
+      are fairly stable.
+
+       General chat: #chatzone, #chat, #friendly, #hotsex, #popcorn, 
+                        #ark, #talk2me, #gayteen, #30plus, #41plus,
+                        #forest
+               Help: #wasteland, #help, #irchelp, #vmshelp
+              Games: #riskybus, #jargon, #acro, #chaos, #doomsday
+                        #conquest, #chessland, #poker, #Initgame
+          Countries: #canada, #dutch, #india, #slovenija, #ireland,
+                        #england, #korea, #russian, #asian
+           Religion: #Christians (with TheBook, an on-line bible), 
+                        #Ccm, #Christian, #wicca
+          Technical: #unix, #hack, #appleiigs, #linux, #linpeople, #amiga
+          Languages: #espanol, #francais
+                Sex: #netsex, #sex, #wetsex, #bdsm, #spanking
+         Philosophy: #AynRand
+      Live Talk Shows: #Podium  (Wed nights 9 pm CST USA)
+      Fantasy/Role-playing:  #waste
+
+      Feel free to try any of these. New channels are created each day.
+      you can check out these with a /names or a /list command.
+
+------------------------------------------------------------------------------
+2-6)  Say...can I join some mailing list which helps with IRC questions,
+      or discusses IRC in general?
+
+      The list  user-com@undernet.org  has been set up for people requesting
+      general help regarding irc questions. The list
+      wastelanders@undernet.org  has been set up as a medium for IRC opers
+      to communicate, and discuss ideas, amongst other things. To join
+      either of these, send mail to listserv@undernet.org with the word
+      "help" in the body  which will send you back further information.
+
+------------------------------------------------------------------------------
+2-7)  Are there any Undernet ftp/www/gopher sites?
+
+       Undernet FTP sites -> ftp.undernet.org  (aka sci.dixie.edu)
+                             ftp2.undernet.org, ftp3.undernet.org 
+                             ftp.eu.undernet.org (Europe)
+
+       Undernet WWW URLs -> 
+
+          http://www.undernet.org/~agifford/IRC.html
+          http://esquilino.enserb.u-bordeaux.fr:8001/TOP/irc/index.html
+          http://www2.undernet.org:8080/~cs93jtl/Undernet.html
+          http://www2.undernet.org:8080/~cs93jtl/IRC.html
+          http://www3.undernet.org/~jxm181/unet.html
+                            
+          www.undernet.org is an alias for sci.dixie.edu
+          www2.undernet.org is an alias for http2.brunel.ac.uk
+          www3.undernet.org is an alias for cac.psu.edu
+
+       Undernet gopher site -> gopher.undernet.org (aka sci.dixie.edu)
+
+          To get to the Undernet gopher site, follow these directions:
+          Main menu 
+            -> Other Gopher and Information Servers/
+              -> North America/    
+                -> USA/
+                  -> Utah/
+                    -> Dixie College Science Gopher (St. George, Utah)/ 
+                      -> IRC (Internet Relay Chat)/
+           
+
+------------------------------------------------------------------------------
+Section III : The Undernet (for the EFnetter)
+=============================================
+
+
+3-1)  What is the Undernet? Where does the term EFnet come from?
+
+      The Undernet is a separate collection of IRC servers on a different
+      network. The servers follow a much better server-server protocol,
+      while maintaining the same server-client protocol. It's much smaller
+      than its counterpart the EFnet, and was designed to supplement the
+      EFnet. The term EFnet stands for eris-free net. (eris.berkeley.edu
+      was a server on the net which is now no longer there) The small size
+      of the Undernet also works to advantage and is often considered by
+      many as a good thing. On the Undernet all the operators know one
+      another, people are more friendly and there are (as yet) no unsavoury
+      characters.
+
+------------------------------------------------------------------------------
+3-2)  Why does the Undernet exist? Do we need another IRC?
+
+      Why not? At the moment the EFnet IRC is overloaded with users. There 
+      are frequent netsplits involving not just the odd servers, but in 
+      increasing cases a significant number of servers. Too much pressure 
+      is put onto the EFnet IRC due to the (unforeseen) explosion of users 
+      it has gained. Many people don't ask _if_ the EFnet irc will survive, 
+      but when will it go...
+
+      For this reason the Undernet stands out as a Good Thing (tm). It can
+      help take the load off of the EFnet IRC and prolong its day of 
+      judgement, hopefully for long enough that a solution to its problems 
+      can be found. The Undernet consists of some very highly motivated and 
+      dedicated people enthusiastic to make a success of their venture.
+
+      There is another reason why the Undernet is here. EFnet IRC is becoming
+      more and more politicized, day by day. With various EFnet IRC admins
+      forming groups against one another, the amount of co-operation between 
+      them has become almost nil. The time which they could spend in serving 
+      you, the user, is instead spent in endless bickering.
+
+      Undernet is a net where the operators are friendly easy going folks, and 
+      are always happy to help the users as far as possible. Abusing users is 
+      *highly* frowned upon, and opers follow a certain "Undernetiquette". 
+      Feel free to ask any questions that you may have, and though you may 
+      not always be guaranteed of an answer, we will surely do our best to 
+      help you in any way whenever possible, and in making your stay more 
+      comfortable.
+
+      Yet another goal of the Undernet is to provide a better environment
+      for users to communicate in, with protection against malicious users
+      who try to work *against* IRC and its principles. The Undernet has an
+      improved server-server protocol which disallows netsplit op riders,
+      with no channel desynchs, or intentional nick collides possible.
+
+------------------------------------------------------------------------------
+3-3)  How is the Undernet IRC protocol different from/better than the
+      EFnet?
+
+      As time has gone by, Undernet IRC programmers have come forward with
+      innovative solutions to stem some of the problems plaguing the
+      current EFnet. A lot of creative solutions have been coded  by our
+      major ircd programmer - Run (carlo@sg.tn.tudelft.nl), and implemented 
+      on the Undernet servers. These include:
+
+      * TSpre8 - This patch makes it impossible for anyone to abuse
+        netsplits and ride ops and do mass deops on your channel or lock it
+        up. Mode changes are followed with a channel creation TS (timestamp) 
+        which is used to then reverse invalid mode changes.  TS pre8 also
+        includes code which makes it difficult for even irc admins to hack
+        their server to do fake mode changes without HACK notices being 
+        sent to all opers. TSpre8 also enables oper wallops.
+
+      * bquiet - This patch prevents someone banned on the channel to send
+        to it or change nicks. Extremely useful since /kick is almost never
+        needed, and counters annoying nick changing automatons with a
+        single ban until they flood themselves out.
+
+      * silence - This patch cuts off flooding at the *local* server. Thus,
+        unlike /ignore where your client continues to receive floods (even
+        though you don't see them) and gets ping timed out, silence enables
+        you to completely get rid of intentional flooders. To use silence,
+        the syntax is: /silence +user@host   or /silence nick.
+
+      * ANC - The anti-nick collide patch foils intentional nick colliders
+        who try changing servers during netsplits on the EFnet and obtain 
+        the same nick in order to collide you when the net rejoins. With
+        the anc patch, this is no longer possible, and the person who 
+        signs on *later* is rejected from the server.
+      
+      In addition to the above obligatory patches for all Undernet servers
+      (all developed by Run), many Undernet servers also run the foll. 
+      optional patches:
+     
+      * ban - Developed FIRST on the Undernet by SIO, it was soon adopted 
+        by some servers on the EFnet. This patch allows you to see who
+        set bans and when on a channel.
+
+      * To - topic info - Also developed first on the Undernet by SIO, this 
+        patch allows you to see who set the topic on a channel and the time 
+        that it was set.
+
+      * S - Signon time  - Another Undernet first, coded by SIO, this patch
+        allows you to see when another person on the same server as
+        yourself, signed on.
+
+      The foll. patches which are also optionally installed, are more of 
+      interest to IRC admins:
+
+      * KL - Kill line comments - Developed by Mmmm. Allow you to specify
+        a comment on the K line instead of the plain stupid error message
+        of "ghosts are not allowed". You may even choose to have a file
+        output to a K lines client.
+
+      * TT - Trace times - Developed by Tonto. Appends a number indicating 
+        in milliseconds, the amount of time lapse since the server last heard 
+        from the server/ client. Depending upon your Y lines setup, you can
+        use this as a judge to determine ping timeouts.
+
+      * Cl - Client connect - Developed by Twilight1. Notifies you of local
+        client connects/disconnects. Useful for spotting clone bots.
+
+      * sw - /stats w - Developed on the EFnet by mlv. Lets you gather
+        statistics on average client connects per hour, day, etc. and keeps
+        track on maxconnections on the server so far.
+
+      * MC - mixed case - Developed by Jon2/mlv. Helpful patch to disallow
+        users with mixed case userids (usually fake) from connecting.
+
+      * OF - oper fail - Developed by Jon2/bry. Notifies local opers when
+        a local user tried to /oper and failed.
+
+      For more information on these patches and how they work, you can
+      ftp to ftp2.undernet.org and fetch /irc/servers/README.patches 
+
+------------------------------------------------------------------------------
+3-4)  So, can you summarise the advantages of the Undernet?
+
+      The Undernet offers users the following advantages:
+
+      * Lesser lag due to more intelligent routing based solely on ping
+        times and traceroutes.
+      * Fewer netsplits (these too are attended to by an automatic
+        routing service which reconnects on splits).
+      * No netsplit op riders to harass channels.
+      * No channel desynchs and servers telling you that you aren't opped.
+      * No nick colliders.
+      * All the useful patches discussed in the earlier answer are
+        implemented on most servers.
+      * User friendly operators willing to help you.
+      * Innovative new services such as MURC (check out channel #waste)
+
+------------------------------------------------------------------------------
+3-5)  Cool! Do I need to make any changes to my .ircrc file?
+
+      Yes, you will need to add the following lines to your .ircrc if you
+      use ircII, and would like to take full advantage of all the patches.
+
+# Ban patch
+on ^367 * if ([$4] != []) {echo *** $1 \($3 - $stime($4)) $2} {echo *** $1-}
+
+# Topic info patch
+on ^333 * echo *** Topic for $1 set by $2 on $stime($3)
+
+# Signon time patch
+on ^317 * if (index(012345679 $3) != -1) {echo *** $1 has been idle for $2 seconds.  Signon at $stime($3)} {echo *** $1 has been idle for $2 seconds.}
+
+# TSpre8 - channel creation time
+On ^329 "*" echo *** $1 : created $stime($2)
+
+# handy aliases for the silence command and a required on raw_irc
+alias silence quote silence
+alias sile quote silence
+on ^raw_irc "% SILENCE %" echo *** $*
+
+# If you use Daveman's toolbox or any auto rejoin line, remove the old
+# on raw_irc for KICK, and use the foll. one instead: (Run)
+# [Remove the # symbol at the beginning to uncomment the lines of course]
+#
+#on ^raw_irc "% KICK % % *" {
+#    if ([$3]==[$N])
+#      {
+#        //quote join $2
+#        echo $mid(11 5 $stime($time())) * You have been kicked off channel
+        $2 by $left($index(! $0) $0) \($mid(1 256 $4-)\)
+#       }
+#     {
+#        echo $mid(11 5 $stime($time())) * $3 has been kicked off channel
+        $2 by $left($index(! $0) $0) \($mid(1 256 $4-)\)
+#      }
+#                           }
+
+------------------------------------------------------------------------------
+3-6)  How do I get to the Undernet from the EFnet?
+
+      It is very easy to switch to the Undernet if you're currently on the
+      EFnet. Simply use the command,   
+            /server servername
+      or if a port is specified  (all European Undernet servers run on
+      port  7000)
+            /server servername port#
+
+      Sometimes, the "symbolic" name for the server may not work, and you
+      may need the "numeric" address (a string of numbers) instead. Listed
+      in the Appendix is a list of Undernet servers along with their
+      numeric addresses and ports wherever relevant.
+
+      All Undernet servers are registered in the undernet.org domain. Also,
+      they follow the format: city.state.country.undernet.org or,
+      city.country.continent.undernet.org E.g US servers are
+                *.US.undernet.org
+      and european servers are 
+                *.eu.undernet.org
+      This will make it easy for you to remember how to get to the Undernet.
+
+------------------------------------------------------------------------------
+3-7)  Hmm..someone was foolish enough to hand out ops to an untrustworthy
+      person on our channel, who proceeded to do a mass deop, and left.
+      Can something be done?
+
+      The Undernet has a special service known as Uworld which takes care
+      of reopping channels, and is accessible by operators. However, strict
+      guidelines are in effect for its use. An oper will refuse to use
+      Uworld if there already exist chanops on the channel. Uworld can be
+      used if a channel has lost channel ops for some reason *and* channel
+      users are unhappy about it *and* they are decided upon who's to be 
+      opped. To make sure that users realise the responsibility of the
+      decision of sharing ops with someone else, a time delay may occur
+      before the channel is reopped. Above all, it is *your* responsibility
+      that you do not lose ops on your channel - an oper is not *obliged*
+      to reop channels who lose ops due to carelessness on behalf of the
+      current chanops.
+
+------------------------------------------------------------------------------
+3-8)  Can I move my channel to the Undernet? What are the advantages of
+      doing so?
+
+      You're welcome to start up your favourite channel on the Undernet as
+      well. Consider the many advantages. Much better facilities for
+      chatting, without the annoyingly frequent netsplits; much lesser lag
+      (check with /ping #channelname for yourself :); protection against
+      netsplit op riders who try to disrupt channels; no channel desynchs;
+      amongst the other advantages listed earlier.  We may even be able to
+      set up a gateway service between the same channels on both nets, if
+      all channel members are willing. (email wastelanders@undernet.org,
+      if you wish to do this; or email dvmitche@mailhost.ecn.uoknor.edu or
+      carlo@sg.tn.tudelft.nl). Undernet operators are always willing to
+      help you in this endeavour, so don't hesitate to ask us.
+
+      *NEW* The Undernet now has a channel service called X, which can
+      protect channels. You need to have at least 10-15 supporters for
+      for your channel. You can email cservice@mail.undernet.org for
+      more information.
+
+------------------------------------------------------------------------------
+3-9)  Can I communicate with someone on the EFnet once I'm on the Undernet?
+      (or vice-versa)
+
+      Occasionally, a few gateway services can be found on the Undernet
+      which allow you to communicate to someone not on the same net, or
+      which link channels. These include 'ul' - programmed by Tonto 
+      (vencill@bga.com), || - programmed by Wildthang (dvmitche@mailhost.
+      ecn.uoknor.edu), Orac - programmed by Ensor (dholmes@rahul.net),
+      and miscellaneous others (including some by Run). Look around if
+      any of these is present, and if so, try /msg servicename help.
+
+      You can also be simultaneously on *both* nets if you use ircII. Try
+      the command:
+                    /window new server servername
+      where servername is the name of a server on the other net. This will
+      split your screen into two windows, with each window on different
+      servers. If you specify a server on a different net, then you will be 
+      on different nets. You can use Ctrl-x p  (hit ctrl-x, release, then 
+      hit p) to flip between windows. (if that doesn't work, you may try 
+      /window goto 1 and  /window goto 2) Type /help window   to get more 
+      extensive help.
+      
+------------------------------------------------------------------------------
+3-10) Who are the Undernet programmers?
+
+      The Undernet programming team has many members - all of them very
+      enthusiastic and deeply dedicated to the cause. Here's a brief 
+      description of what each person does/codes/maintains:
+
+      * Run (carlo@sg.tn.tudelft.nl) - Our magic ircd programmer. He
+        coded the foll. important patches:
+         o TSpre8    o ANC    o bquiet   o silence
+        In addition, Run also maintains Undernet's automatic Router. He
+        also coded Underworld.nl, a backup for Uworld. 
+      
+      * WildThang (danny@mailhost.ecn.uoknor.edu) - Our magic "user services"
+        programmer. Wildthang is the coder for Uworld, Murc, quick
+        ircIIhelp, and telnet client services. The Undernet hosts the
+        world's first MURC (Join #waste on the Undernet to find out what
+        a murc is :). Wildthang's also the coder for the gateway service ||.
+
+      * SIO (pfoley@vuw.ac.nz) - Coder for the Undernet Nickserv. Also
+        coded the ban, topic and signon info patches which are found with
+        the .mu versions of the server.
+
+      * hop (jnelson@iastate.edu) - Our magic ircII client enhancer. Hop
+        has done an extensive facelift to current ircII versions. His latest
+        version was ircII2.3.17+10.4. The UPDATES file which reflect new
+        additions to the client is 500 lines in size! You can ftp this from
+        ftp2.undernet.org under /irc/clients
+
+      * Mmmm (mmmirash@mailhost.ecn.uoknor.edu) - He's responsible for
+        maintaining the auto-magic ircII install on sci.dixie.edu. He also
+        codes and maintains the smallirc client, and does minor  ircd
+        patches and releases.
+
+      * Karll (agifford@sci.dixie.edu) - Multipurpose programmer. He has
+        coded useful routines for both ircd as well as hop's client.
+
+      * Tonto (vencill@bga.com) - He was the author of the gateway service
+        'ul'. He's also done some ircd programming for the Undernet.
+
+      * dl/President/S_Avatar/TheJester/epa/Snarf - these are our other 
+        programmers who have chipped in useful things from time to time.
+
+------------------------------------------------------------------------------
+3-11) What does the future hold for the Undernet?
+
+      All of us envisage a bright future for the Undernet. Userbase has
+      been slowly rising. So has the stability of servers in general. 
+      More and more improvements have been done to the protocol in
+      general, and have proven successful. 
+
+      Given the surprising success of the Undernet, many attempts have
+      been made to imitate it in the form of other nets. Other nets such
+      as the Lamenet, 3l33tnet, IAOnet, dalnet, idealnet, etc sprung up in 
+      recent years.  None of these however have exhibited the originality of 
+      ideas or creativity  shown by innovative Undernet programmers. 
+      A famous saying goes: "Imitation is the best form of flattery".
+
+      We hope that you will take time to visit us on the Undernet, and
+      share in its bright future. The final goal of Undernet ircd 
+      programmers is to eliminate or minimize all problems that plague
+      the current EFnet. The journey has just begun....
+
+------------------------------------------------------------------------------
+
+Section IV: The Undernet (How can you participate?) 
+=================================================
+
+4-1)  So, how do I get to be an "IRC op"? Why can't I be one?
+
+      The Undernet admins do not give ops to people who *ask* for them.
+      If you participate in the net by helping people, and in general
+      following proper Undernetiquette, you might merit attention and
+      your name may be suggested on the wastelanders mailing list. IRC
+      ops are scrutinized carefully before being added. Basically, no
+      ops are handed out to people who (i) are hardly around or (ii)
+      ignore pleas for help or (iii) want ops just for kill power or
+      (iv) want ops because it gives them a sense of "power" over other 
+      users, and to look "cool". Remember, asking for ops only makes your
+      case *worse*. If you're worthy, and other feel that you're competent
+      enough, you'll be approached to volunteer for oper. IRC ops are
+      expected to have been on IRC for a long time, and must possess an
+      adequate amount of knowledge to help Undernet users. They are also
+      responsible for keeping servers connected and abiding by the general
+      guidelines of the Undernet.
+
+------------------------------------------------------------------------------
+4-2)  How do I apply for a link for my server to the Undernet? What are the 
+      requirements?
+     
+      At the time of writing this document, the Undernet will not consider
+      any more links unless you're situated in an exceptionally good
+      location (read "one hop off the T3 backbone in the US, or other
+      equivalent backbone networks in Europe/elsewhere"). Use traceroute
+      and ping to determine your location. If you feel you are eligible
+      for a link, read the files in the /irc/newlinks directory at ftp.
+      undernet.org. Post your proposal to the wastelanders mailing list
+      - wastelanders@mail.undernet.org. Remember, all Undernet servers *must*
+      run with the approval of the system admin at that site. If you do not
+      receive a response within a week, you can safely assume that the 
+      Undernet cannot provide you links (though usually, a response, either
+      positive or negative will be sent). For a more elaborate discussion,
+      you may join #wasteland and talk to other IRC admins to discuss your
+      proposal.
+
+      *NEW* -> With the formation of committees on the Undernet, the
+      Routing/Servers Committee handles all routing/link decisions. Make
+      sure you send a copy of the newlink document to routing-com@undernet.org
+      as well.
+
+------------------------------------------------------------------------------
+4-3)  How do I volunteer to do some work for the Undernet? No, I'm not
+      looking for an O line.  I just like being nice and helpful to people. 
+      How do I participate?
+
+      The Undernet is *always* looking for people like you. We are always
+      short of volunteers to help other people. Have you benefitted from
+      your experience with the Undernet? Have you enjoyed your time on
+      IRC here? We encourage you to give back to the net what you got from
+      it. You are encouraged to help. Even if you lurk around on #wasteland
+      and familiarize yourself with frequently asked questions on the
+      channel, and their answers, it would take a BIG load off many of the
+      operators who were quite selflessly devoted to helping you, when you
+      started off. You can join the wastelanders mailing list (mail
+      listproc@mail.undernet.org or majordomo@mail.undernet.org with the 
+      word "help" in the body for information on how to subscribe). Please 
+      do what you can. Every little bit counts! 
+
+      *NEW* -> The Undernet has set up a Users' Committee to receive
+      input from users like yourself. To subscribe to the mailing list,
+      send mail to majordomo@mail.undernet.org with "subscribe user-com"
+      in the body. The URL on the World Wide Web for the User Committee
+      home page is http://aslan.pr.mala.bc.ca/~warren/usercom.html
+
+------------------------------------------------------------------------------
+4-4)  I have some ideas for the future design of ircd. I may also be
+      interested in doing some programming for the Undernet. Whom do I
+      approach?
+
+      The Undernet is always on the search of new solutions to existing
+      problems. If you think you can help us in this endeavour, welcome
+      aboard! Subscribe to the wastelanders mailing list (send mail to
+      majordomo@mail.undernet.org with "subscribe wastelanders" in the body)
+      and tell us about your ideas. After a period of discussion, and
+      depending upon everyone's views, we may give you the "go ahead"
+      to program it! Yes, watch *your* code being run on servers around
+      the world, with your name in our acknowledgements. The Undernet
+      programming team is a tightly knit set of enthusiastic individuals.
+      Feel free to participate.
+
+      *NEW* -> The Undernet has set up an ircd coders' committee. To
+      subscribe to the mailing list, send mail to majordomo@mail.undernet.org
+      with "subscribe coder-com" in the body.
+
+------------------------------------------------------------------------------
+ACKNOWLEDGEMENTS
+=================
+
+* First off, to Jarkko Oikarinen (WiZ) for this wonderful invention.
+* To the telnet site maintainers at bradenville where I first accessed irc.
+* To the ircII coders (Mike Sandrof, Troy Rollo, Matthew Green, Ian
+  Frechette, Jeremy Nelson).
+* To Run for his magic improvements to Undernet ircd.
+* To Wildthang (Danny) for his advice as a friend and as an awesome
+  Undernet irc services programmer.
+* To Fizzy (Adrian Hall) for the impetus he lent to the Undernet.
+* To TikTok (Donna) who's gonna bear the misery of proofing this.
+* To all wastelanders/Undernetters for helpful tips and comments.
+* Thanks to all others who have helped me in this faq - you are too 
+  numerous to mention - you know who you are.
+* Thanks also to my critics and enemies. Without your existence, I
+  wouldn't have had the inspiration to go on.
+
+------------------------------------------------------------------------------
+REFERENCES
+==========
+
+* The ircII help pages.
+* RFC1459
+* IRCprimer by Nicholas Pioch.
+* alt.irc FAQ by Helen Trillian Rose Davis.
+
+------------------------------------------------------------------------------
+
+APPENDIX: The Undernet Server List
+==================================
+
+
+Updated:  20th Feb 1995
+
+----------------------
+Explanation of entries
+----------------------
+  line  1: server name and port number
+  line  2: machine name and IP numeric
+  line  3: location
+
+--------------------
+Undernet server list
+======================
+
+NORTH AMERICA (some of these also run on ports 7000/7777)
+=============
+CANADA
+------
+  server: Montreal.QU.CA.undernet.org 6667
+ machine: aiken.info.polymtl.ca 132.207.4.32
+location: Montreal, Quebec, Canada
+
+USA
+---
+  server: Norman.OK.US.undernet.org 6667
+ machine: vinson.ecn.uoknor.edu 129.15.112.37
+location: University of Oklahoma, Oklahoma, USA
+
+  server: Manhattan.KS.US.undernet.org 6667
+ machine: fubar.ksu.ksu.edu 129.130.8.12
+location: Kansas State University, Manhattan, Kansas, USA
+
+  server: Davis.CA.US.undernet.org 6667
+ machine: syrinx.ucdavis.edu  128.120.2.16
+location: Davis, CA, USA
+
+  server: Austin.TX.US.undernet.org 6667
+ machine: foghorn.cc.utexas.edu 128.83.108.32
+location: Austin, Texas, USA
+
+  server: Rochester.MI.US.undernet.org 6667
+ machine: oak.oakland.edu 141.210.10.117
+location: Rochester/Detroit, Michigan, USA
+
+  server: SanJose.CA.US.undernet.org 6667
+ machine: jive.rahul.net  192.160.13.4
+location: San Jose, California, USA
+
+  server: Washington.DC.US.undernet.org 6667
+ machine: irc01.irc.aol.com  152.163.173.25
+location: America On-Line, Washington DC, USA
+
+  server: Pittsburgh.PA.US.undernet.org 6667
+ machine: uirc.lm.com 192.231.221.38 
+location: Telerama Public access, Pittsburgh, Pennsylvania, USA
+
+  server: Bloomington.IN.US.undernet.org 7000
+ machine: irc.indiana.edu 129.79.20.84
+location: Indiana University, Bloomington, Indiana, USA
+
+  server: Chicago.IL.US.undernet.org 6667
+ machine: alpha.misha.net 204.120.206.2
+location: Chicago, Illinois, USA
+
+  server: Phoenix.AZ.US.undernet.org 6667
+ machine: home.amug.org 204.62.193.83
+location: Arizona Macintosh Users' Group, Phoenix, AZ, USA
+
+CHILE
+-----
+  server: Santiago.CL.undernet.org 6667  
+ machine: 146.83.1.1
+location: Reuna, Red Universitaria Nacional
+
+
+EUROPE  (most of these also run on port 7000)
+=======
+
+  server: Caen.FR.EU.undernet.org 7000 
+ machine: ns.ensicaen.ismra.fr 192.93.101.16
+location: Ecole Nationale Superieure d'Ingenieurs de Caen, France
+
+  server: Delft.NL.EU.undernet.org 6667
+ machine: sg.tn.tudelft.nl 130.161.188.188
+location: Netherlands
+
+  server: Amsterdam.NL.EU.undernet.org 6667
+ machine: veer.cs.vu.nl 130.37.24.9
+location: Netherlands
+
+  server: Vienna.AT.EU.undernet.org 6667
+ machine: olymp.wu-wien.ac.at 127.208.3.30
+Location: Vienna, Austria
+
+  server: Ljubljana.Si.Eu.undernet.org 6668
+ machine: cmir.arnes.si 193.2.1.67
+Location: Ljubljana, Slovenia
+
+  server: Oslo.No.EU.undernet.org 6667
+ machine: eros.nki.no  128.39.107.112
+Location: NKI Ingenioerhoegskolen, Oslo, Norway
+
+  server: Gothenburg.Se.EU.undernet.org 6667
+ machine: alcazar.cd.chalmers.se  129.16.79.30
+Location: Chalmers Tekniska Lekskola, Gothenburg, Sweden
+
+  server: Oxford.UK.EU.undernet.org 6667
+ machine: sable.ox.ac.uk 163.1.2.4
+Location: University of Oxford, Oxford, UK.
+
+
+AUSTRALIA
+=========
+  server: Wollongong.NSW.AU.undernet.org 6667
+ machine: gorgon.cs.uow.edu.au 130.130.64.75
+location: U of Wollongong, Dept of Computer Science, Wollongong, Australia
+
+  server: Brisbane.QLD.AU.undernet.org 7000
+ machine: qabc.uq.oz.au 130.102.46.10
+location: U of Queensland, Brisbane, QLD, Australia
+
+NEW ZEALAND
+===========
+  server: auckland.nz.undernet.org 6667
+ machine: iconz.co.nz 202.14.100.2
+location: Internet Company of New Zealand, Auckland, New Zealand.
+
+TEST SERVERS / SERVICES
+=======================
+Delft2.NL.EU.undernet.org
+washington-1.dc.us.undernet.org
+Uworld.undernet.org
+Underworld.nl
+undernet.org  (Nickserv)
+Fantasy.Worlds.Murc.undernet.org  (Murc)
+Router.nl.eu.undernet.org  (Router)
+channels.undernet.org (X)
+

@@ -1,0 +1,33 @@
+<html>
+<head><title>Problems with your PIC programmer?</title></head>
+<body>
+<h1>Troubleshooting/Modifying your Serial PIC programmer</h1>
+<hr>
+The graphical schematics shown on Anitti's page are drawn for
+a 9-pin serial connection.  The pin-pin translation is shown below:<br>
+<pre>
+
+  9 pin      -       25 pin
+
+    3                 2
+    5                 7
+    7                 4
+    4                 20
+    8                 5
+</pre>
+
+If your programmer does not work, you may want to try some of these
+hints:<br>
+<ul>
+<li> to reduce confusion for those of you in the western hemisphere, 4K7 is equivalent to 4.7K 
+<li> From the ground pin, run a ground wire to the metal chassis of the hood.
+<li> Place a small (12 pf?) capacitor between the ground and TXD pin.
+<li> Make sure you are using a 78L05 not a 7805. The 7805 consumes the precious few millivolts/amps necessary to drive the circuit.
+<li> I think the resistor pot was placed between CTS and DTR (pins 4 & 8)
+</ul>
+
+I have found these to solve some problems with "finicky" serial ports.<br>
+Good luck. Have fun.<br>
+
+
+

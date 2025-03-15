@@ -1,0 +1,33 @@
+Here are all 2 dozen codes for Dungeon Hack, I used the
+other file (dungeonhackcodes.txt) for a starting point; it
+only had half of them.  This is ordered with the word after
+the page number, as this is all you need (ok, there are two
+on page 9, but they've got different 1st letters, which the
+game prompts you with).
+
+Page	Word		Heading				Number
+--------------------------------------------------------------
+3	Attributes	Generating Characters		7th
+4	Inhabit		Character Basics		3rd
+6	Characters	Classes				3rd
+9	Summary		Ability Scores			5th
+9	Fictional	Alignments			4th
+12	Wondering	Racial Advantages		4th
+13	Selected	After Selecting A Character	4th
+14	Evil		A Crash Course in Spellcasting	6th
+16	Appears		Examine Character Information	10th
+19	Move		Ready An Item			5th
+21	Examine		Pray For Spells			3rd
+22	Command		Show Numbers			5th
+25	Endure		Dungeon Depth			9th
+27	Shadows		Enemy Spell Casting		4th
+45	Loss		Damage				6th
+46	Fails		Go On				4th
+47	Enormous	Ankheg				5th
+48	Infamous	Cockatrice			1st
+51	Great		Goblin				5th
+52	Humanoid	Golem, Flesh			8th
+55	Undead		Naga, Bone			5th
+56	Gulguthra	Otyugh				7th
+61	Sometimes	Watchghost			3rd
+62	Brawny		Xill                            5th

@@ -1,0 +1,156 @@
+<html>
+<head><title> Mycal's 1.2 Watt FM-10 Amp Plans </title></head>
+<body background="mp_bg.jpg">
+<center>
+<h2> 1.2 Watt Bullet Proof Amp For The FM-10 or FM-25 </h2>
+<h4>By Mycal</h4>
+</center>
+<hr>
+<b> The follwing </b> is a very easy to build amplifier that was designed
+to follow a Ramsey FM-10 and FM-25 transmitter.  It is built on top of
+a simple PCB board surface style (all parts tacked on top, no holes in
+PCB.)  The performance is excellent with power levels of up to 1.5 watts
+achevable and harmonic suppression greater than 50db.  Using this
+amp in conjunction with an Ramsey FM-10/25 can provide you with the ideal
+micro power radio station with usable range of up to 2 miles or more.
+If you use this unit to amplify a Ramsey FM-25, build the FM-25 in the
+low power output configuration.
+<p>
+<b> I feel </b> this is a much better alternative than the Ramsey LPA-1
+because it provides much lower harmonic output and it is relitivly
+ <i> bullet proof </i> to antenna mismatches which has been known to destroy
+LPA-1s without the slightest warning.
+<p>
+<b> The PCB </b> board is a single sided copper board etched or grinded out
+to the shown layout.  The board size is 3 3/8" x 1 3/8" but anything close
+that can accomidate the parts without any lengthing of the lead lengths
+is fine.
+<p>
+<b> I recommend </b> that if you don't have a good way to make the PCB that
+you buy the Radio Shack PCB Etching Kit, this kit works very well for
+this type of application.  We've used laser printer iron ons for this
+board, but we've found that electrical tape or the resist pens work
+fine.
+<p>
+<h3> Design and Schematic: </h3>
+<b> The amplifier </b> is a 2 stage design.  The first stage uses a high gain
+microwave transistor amplifier running class-A to boost a 10mw signal
+to about 150mw.
+<p>
+<b> In the </b> first stage the resistor R1 (1.5K) gives Q1
+(mpf-901 or mrf-901) and the Ramsey
+transmitter a nice stable input/output load to look at that should
+smooth out missmatches between the transmitter and the amp (note that
+this type of matching is only workable at flea power levels.. < 50mw.)
+R2 (20K) provides the bias voltage making the amp class-A.  Current is
+fed to the stage through R3 (300ohms) with a ferrite bead on the power
+side to help keep RF out of the power grid.  An inductor of 1uh or better
+can be substituted if a ferrite bead cannot be found (use only small
+resistor type inductors, not giant monsters from <i>Radio Shack</i>).
+The first stage is isolated from the interstage maching circuit by
+C12 (.001).
+<p>
+<b> Intra-stage </b> matching is done by C1, C2, and L1.  This
+network trys to match the output impeadance of the first stage with
+the input impeadance of the second stage.  It also provides a little
+bit of filtering.  It should be noted here that the power output of
+the first stage affects it's output impeadance which is effected by
+the input power level.  Any change in power outputs of the transmitter
+(most likly from frequency or power supply change) will require
+re-tuning of this amplifier.
+<p>
+The second amplifier is running Class-C pushing it's output into
+the output matching circuit made up of C3,C4 and L2.  The output
+is fairly clean and can drive an antenna or another stage.
+<p>
+<a href="1schold.gif">Original Schematic</a><br>
+
+<h3> PCB board: </h3>
+<img src="800mwbd.gif">
+<h4>3 3/8" x 1 3/8"</h4>
+<br clear>
+
+<h3> Construction Tips: </h3>
+Solder all the small low lying parts first; resistors, L3, L4, L5, L6.
+Then mount all the small capacitors; C5-C10, and C12.  Next Q1,
+C1,C2,C3,C4, followed by L1, L2 and Q2.  Finally add C11 and attache
+the input and output with coax to the connectors and/or transmitter.
+<p>
+<h3> Part's Layout: </h3>
+<img src="1watt.gif">
+
+<b> For tune </b> up you should simply tune C1, C2, C3, C4 and L1 for maximum
+output.  This amplifier doesn't like to ocsillate, but this is always
+a possiblility.  You can check for oscillation by tuning a FM radio
+up and down the FM radio band, if you hear multiple images of your
+broadcast your amplifier is in oscillation (not good).
+<p>
+<h3> Updates and Modifications </h3>
+<b> I would </b> change the design slightly if I were to build more of these
+amplifiers.  The input is not DC isolated.  I would add a .001uh
+cap between the input and Q1.  This is a must do mod if the amp is
+to be used as a stand alone device (ie not hardwared ont a FM-10).
+<p>
+<b> I would </b> get rid of C12, it is not necessary since C2 blocks
+the DC between stages.  I would move C1 to the other side of C3,
+this allows C2 to be adjusted without effecting the C1/L1 low
+pass filter.  I would add another 5-50pf cap from the input side
+of L2 to ground, thus adding an extra element and more flexibility
+to the output/matching filter (<i>I would and have done this addition
+on every amp that I have built, cannout get -50db down on harmonics
+without it.</i>)
+<p>
+<b> The modifications </b> listed above can easly be made to the existing
+circuit board if done during the assembly stage.  Basically you
+would shift Q1 and its associated parts one pad to the right
+on the circuit board (since C12 is no longer necessary), and
+add a .001uf cap between the first pad and the base of Q1 pad.
+C1 can easly be moved to the pad on the output side of C2.  And
+another 5-50pf variable cap fits nicely on the input side of L2.
+<p>
+<b> L6 mostlikly </b> can be optimized, but is most likely not that critical
+to the overall performace of the amp.
+<p>
+<h3> Updated Schematic</h3>
+<a href="1schnew.gif">New Updated Schematic</a><br>
+<br><br>
+<hr>
+<h3> Parts List </h3>
+<h4> Resistors </h4>
+<pre>
+R1                              1.5K ohms
+R2                              20K ohms
+R3                              300 ohms
+</pre>
+<br>
+
+<h4> Caps </h4>
+<pre>
+C1, C2, C3, C4, (C14)           ~5-50pf
+C12,(C13)                       .001uh
+C5, C7, C9                      .01uf
+C6, C8, C10                     .1uf
+C11                             10uf
+</pre>
+<br>
+<h4> Inductors </h4>
+<pre>
+L1                              .2uh adjustable  digikey...
+L2                              .2uh fixed coil...
+L3,L4,L6                        10uh Moulded Inductor
+L5                              3 turns of #22 enamal wire through Ferrite
+                                        Bead.
+</pre>
+<h4> Transistors </h4>
+<pre>
+Q1                              mpf901 -or- mrf901
+Q2                              2sc1970
+</pre>
+<p>
+<br>
+<hr>
+
+<i>Last Updated Febuary 25, 1996.<br>
+&copy;1996 Mycal Labs, <A HREF="../copy.htm">All Rights Reserved</a>
+</body></html>
+

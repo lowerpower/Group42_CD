@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+                        AT&T 1300, 1300C and 1400
+-------------------------------------------------------------------------------
+                NAM Type:  Tri-State
+            Manufacturer:  Mitsubishi
+              Programmer:  Curtis or Bytek
+          ESN Prefix DEC:  134
+                     HEX:  86
+ ESN, S/N Match Required:  No
+    Programmable Handset:  No
+      Available Channels:  666
+
+                   MIN 1:  XXX
+                    Lock:  XXX
+                   MIN 2: XXX
+        System ID Format:  XXXX
+       Horn Alert Option:  1
+        Handsfree Option:  1 (if equipped)
+   End-to-End Signalling:  1
+         Group ID Format:  XX
+   Access Overload Class:  XX
+           Station Class:  0000
+               Local Use:  1
+  Initial Paging Channel:  333 or 334
+        Preferred System:  1(A) or 0(B)
+
+Manufacturer Options (for Curtis Programmer)
+ 33 Enable System Select:  1
+         34 Roam Inhibit:  0
+
+              Horn Alert:  HORN
+         New Unlock Code:  NAM
+           System Select:  When the manufacturer option, 33 above,
+                           is enabled, the following sequence allows
+                           system selection. This process must be
+                           repeated each time the phone is turned on.
+
+STORE + # + # + #, etc. (One of the following will appear)
+
+        AAABBB or BBBAAA  Standard (AB or BA)
+        BBBAAA or AAABBB  Alternate (BA or AB)
+        CSOAAA or CSOBBB  Home
+        AAAAAA or BBBBBB  Pref Only (A only or B only)
+        BBBBBB or AAAAAA  Non-Pref Only (B only or A only)
+
+Press CLEAR to exit
+
+

@@ -1,0 +1,55 @@
+                          FUJITSU Pocket Commander
+
+                NAM Type:  EEPROM
+            Manufacturer:  Fujitsu
+              Programmer:  Handset
+          ESN Prefix DEC:  133
+                     HEX:  85
+ ESN, S/N Match Required:  Yes
+    Stamped Model number:  F80P-171
+      Available Channels:  832
+                       # of digits
+        System ID Format:  5    XXXXX
+        Local Use Option:  1    1
+              MIN Option:  1    1
+           Mobile Number:  10   XXX-XXX-XXXX
+           Station Class:  2    08 (mobile) or 14 (portable)
+  Initial Paging Channel:  3    333 or 334
+   Access Overload Class:  2    XX
+        Preferred System:  1    1 (A) or 0 (B)
+         Group ID Format:  2    XX
+             Unlock Code:  3 or 4
+              Call Timer:  1    4
+        Call Restriction:  1    1
+        System ID Search:  5    XXXXX
+     System ID Inhibit #:  5    XXXXX
+
+Call Timer Increment - 1  Timer Off
+                       2  6 seconds
+                       3  30 seconds
+                       4  60 seconds
+
+Auto Lock - 1  Manual Lock, no out
+            2  Manual Lock, no calls
+            3  Auto Lock, no out
+            4  Auto Lock, no calls
+
+Call Restriction - 1  No restriction
+                   2  No memory dialing
+                   3  No long-distance
+                   4  Both 2 and 3
+                   5  Memory calls only
+
+
+              Horn Alert:  F + #
+         New Unlock Code:  NAM
+           System Select:  F + 1 + X
+                            X=1  AB Pref A
+                            X=2  BA Pref B
+                            X=3  A only
+                            X=4  B only
+                            X=5  Home
+
+To confirm setting, press RECL + F + X
+
+

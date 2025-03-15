@@ -1,0 +1,71 @@
+<HTML>
+<HEAD>
+<TITLE>The POCSAG Paging Protocol</TITLE>
+</HEAD>
+<BODY TEXT=000000 BGCOLOR=BEBEBE><BR>
+<HR ALIGN=center  WIDTH=100% SIZE=2><BR>
+<H3><CENTER>POCSAG PAGING FORMAT, CODE AND CODE CAPACITY</H3>
+<h4>By Brad Dye</h4>
+</CENTER>
+<HR ALIGN=center  WIDTH=100% SIZE=2><BR>
+
+Brad Dye has a web site at http://village.ios.com/~braddye.  He has
+some very good paging info.
+<p>
+<H4>A.  General</H4>
+The basic signaling pattern used in many pagers is a sequence of coded binary data using the <EM>Post Office Code Standardization Advisory Group</EM><TT>   </TT>(POCSAG) code.  The POCSAG code is a synchronous paging format that allows pages to be transmi
+
+tted in a single-batch structure.  The POCSAG code provides improved battery-saving capability and an increased code capacity.<P>
+The POCSAG code format consists of a preamble and one or more batches of codewords.  Each batch comprises a 32-bit frame synchronization code and eight 64-bit address frames of two 32-bit addresses or idle codewords each.  The frame synchronization code m
+
+arks the start of the batch of codewords.<P>
+<H4>B. Preamble Structure</H4>
+<CENTER><IMG SRC="epocfram.gif" WIDTH=476 HEIGHT=348 ALIGN=baseline><BR></CENTER>
+<BR>
+<CENTER>Figure 1</CENTER><P>
+The preamble shown in Figure 1, consists of 576 bits of an alternating 101010 pattern transmitted at a bit rate of 512, 1200, or 2400 bps.  The decoder uses the preamble both to determine if the data received is a POCSAG signal and for synchronization wit
+
+h the stream of data.<P>
+<CENTER><IMG SRC="epocword.gif" ALT="POCSAG Words" WIDTH=499 HEIGHT=331 ALIGN=baseline><BR></CENTER>
+<BR>
+<CENTER>Figure 2<BR></CENTER><BR>
+<H4>C.  Batch Structure</H4>
+A batch consists of a frame synchronization code followed by 8 frames of two address codewords per frames (16 address codewords per batch).  In order to maintain the proper batch structure, each frame is filled with two address codewords, or two idle code
+
+words, or two message codewords, or any appropriate combination of the three codeword types.<P>
+<H4>D.  Frame Synchronization Code Structure</H4>
+The frame synchronization (FS) code in a unique reserved word that is used to identify the beginning of each batch.  The FS code comprises the 32 bits:<BR>
+<CENTER>01111100110100100001010111011000<P>
+<H4></CENTER>E.  Optional Alternate Frame Synchronization Codewords</H4>
+An alternate frame synchronization (AFS) code can be selected to support special systems or systems that require increased coding capability.  The AFS is generated in the same manner as an address codeword (i.e., BCH codeword with parity bits).  The POCSA
+
+G signaling standard has reserved special codewords for the AFS from 2,000,000 to 2,097,151.  The use of the AFS requires the paging system to support the AFS.  The AFS will change to frame 0 on the programmer since no frame information is included in the
+
+ AFS.  The AFS should use address 1 so that bits 20 and 21 are 0.<P>
+<H4>F.  Address Codeword Structure</H4>
+The structure of an address code word is shown in Figure 3.  An address codeword's first bit (bit 1) is always a zero.  Bits 2 through 19 are the address bits,  The pager looks at these bits to find its own unique address.  Each POCSAG codeword is capable
+
+ of providing address information for four different paging sources (Address 1 through Address 4).  These addresses are determined by combinations of the values of bits 20 and 21 (the source identifier bits); these combinations are shown in Figure 3.  Bit
+
+s 22 through 31 are the parity check bits, and bit 32 is the even parity bit.<P>
+<CENTER><IMG SRC="epoccode.gif" ALT="POCSAG Codes" WIDTH=418 HEIGHT=100 ALIGN=baseline><P></CENTER>
+<CENTER>Figure 3<P></CENTER>
+Precoded into the code plug are three bits which designate the frame location, within each batch, at which the pager's address is to be received; the decoder will look at the code words in this frame for its address.<P>
+Power is removed from the receiver during all frames other than the precoded one, thus extending pager battery life.<P>
+<H4>G.  Optional Dual-Frame Operation</H4>
+Two different frames can be selected on the ADVISOR pager.  Each frame has two corresponding codes which provide a total of 16 addresses (sources) for POCSAG pagers.  Selecting this option reduces battery life by about 30% in batch (synchronous) mode. The
+
+ frame of codes A and B must be less than the frame of codes C and D.  (The frame is the remainder of the address divided by 8).<P>
+<H4>H.  Code Capacity</H4>
+The combination of the code plug's three precoded frame location bits and the address codeword's 18 address bits provides over two million different assignable codes.  In this combination, the frame location bits are the least-significant bits, and the ad
+
+dress bits are the most-significant bits.<P>
+<H4>I.  Message Codeword Structure</H4>
+The structure of a message codeword is shown in Figure 2.  A message codeword always starts with a 1 in bit 1 and always follows directly after the address.  Each message codeword replaces an address codeword in the batch.<P>
+<H4>J.  Idle Codeword Structure</H4>
+The idle codeword is a unique, reserved codeword used to take the place of an address in any frame that would not otherwise be filled with 64 bits.<P>
+Thus, if a frame contains only an address, an idle codeword will be added to complete the 64-bit frame.  The idle codeword comprises the 32 bits:<BR>
+<CENTER>01111010100010011100000110010111<P>
+</CENTER>
+</BODY>
+</HTML>

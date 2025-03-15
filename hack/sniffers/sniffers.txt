@@ -1,0 +1,171 @@
+Subject: Re: Sniffers  -- Long Reply, be forwarned.
+
+This is a long responce.... be forwarned
+
+"Karen E.  Mitchell" <kmitchel@cftnet.com> wrote:
+>
+>Could someone please explain how a sniffer works?  I know that it can be 
+>attached to (phone lines ?) to view data/passwords being transferred over 
+>a modem line.
+
+I have not heard of a sniffer over a modem line, it seems kind 
+of pointless, as you would have to on one of the connections 
+points.  Sniffers are usually (though not always, if you want 
+to fork out the dough!) software applications.  
+
+>  How does it work?  
+
+Networks communicate with each other using something called a 
+packet.  A packet contains all the addressing info, control, 
+error checking etc required by a network to deliver packet.  
+Also included would be the data.
+
+On local area networks, packets are broadcast to all nodes 
+(read, computers) on the network (local, not internet!).  Each 
+node will read the address in the packet.  If the packet is 
+addressed to the node, the node reads it, otherwise it ignores 
+it.
+
+A sniffer is a program that makes a copy of the packet and 
+stores the contents somewhere else (a file) for later perusal 
+by the user of the sniffer.  By scanning through the file, it 
+is possible to see the data being transfered, which can be 
+passwords, but is 99.999% of the time data.
+
+  It should also be noted that most networks also come equiped 
+with software versions of ehternet sniffers, for use by the 
+adminitrators.
+
+Hardware sniffers (lan-a-lizers) are devices that can be 
+plugged into a network via a port and are used to read the 
+packets for diagnostic information.
+
+>What effect does encrypted data have on 
+>a sniffer?  I would greatly appreciate any clarification.
+
+Packets themselves are not encrypted, as they need to be read 
+by all nodes on the net.  Encrypting the data however, means 
+that the data inside the packet is unreadable (unless, you can 
+decrypt it)
+
+It should be noted that packets send on the internet are not 
+broadcast to all nodes (what a mess that would make!!).  They 
+use a method called store and forward, where the packet is send 
+from server to server until it reaches its destination points 
+(only the servers in the path to the destination receive the 
+packet)  Please note that server is braod... it can be any 
+number of devices on the net... routers, gateways, file servers 
+to name a few.
+
+Hope that helped (I think it is all essentially correct.. I am 
+kinda tired right now)
+
+A good book on internet communications/programming would be:
+
+Internmet Programming by Kris Jamsa, PHD and Ken Cope
+Jamsa Press, isbn 1 884133-12-6
+
+I can't think of any good titles on lans, though any library 
+will have lots of resources.
+
+Brian
+
+
+From nntp.crl.com!howland.reston.ans.net!ix.netcom.com!netcom.com!daemon9 Tue Oct 31 05:56:50 1995
+Newsgroups: alt.2600
+Path: nntp.crl.com!howland.reston.ans.net!ix.netcom.com!netcom.com!daemon9
+From: daemon9@netcom.com (Route)
+Subject: Re: Sniffers  -- Long Reply, be forwarned.
+Message-ID: <daemon9DH9wqC.Fsu@netcom.com>
+Organization: NETCOM On-line Communication Services (408 261-4700 guest)
+X-Newsreader: TIN [version 1.2 PL2]
+References: <470v3r$dj7@tech.cftnet.com> <471onq$jok@sunburst.ccs.yorku.ca>
+Date: Mon, 30 Oct 1995 18:01:24 GMT
+Lines: 84
+Sender: daemon9@netcom6.netcom.com
+
+On 30 Oct 1995 05:44:26 GMT Brian Claus (bclaus@calumet.yorku.ca) wrote:
+
+| I have not heard of a sniffer over a modem line, it seems kind 
+| of pointless, as you would have to on one of the connections 
+| points.  Sniffers are usually (though not always, if you want 
+| to fork out the dough!) software applications.  
+
+	A packet sniffer, as I said before, is not 'placed' on a 
+	communications medium.  The are usally software on a device
+	the packets travel through.  They can be hardware, however.
+
+
+| Networks communicate with each other using something called a 
+| packet.  A packet contains all the addressing info, control, 
+| error checking etc required by a network to deliver packet.  
+| Also included would be the data.
+
+	Depends what layer you are talking about.  Sure, link and physical 
+	layers uses packets (some term the physical as bits, and the link
+	as packets, but I don't make that distinction).  Network layers
+	use datagrams, transports layers use segments...
+
+| On local area networks, packets are broadcast to all nodes 
+
+	No,no,no.  On ETHERNETS they are.  Token ring networks,
+	for example, DO NOT broadcasts packets in this manner.  Token
+	Ring is a deterministic system.  It is nice and orderly and
+	it passes a nice token around, checking to see if anyone has 
+	any data to send or recieve.
+
+| (read, computers) on the network (local, not internet!).  Each 
+| node will read the address in the packet.  If the packet is 
+| addressed to the node, the node reads it, otherwise it ignores 
+| it.
+
+
+
+| A sniffer is a program that makes a copy of the packet and 
+| stores the contents somewhere else (a file) for later perusal 
+| by the user of the sniffer.  By scanning through the file, it 
+| is possible to see the data being transfered, which can be 
+| passwords, but is 99.999% of the time data.
+
+	As a bit of trivia, about 1/2 of all TCP transactions
+	on the Internet are STMP based (email)....
+
+
+
+| >What effect does encrypted data have on 
+| >a sniffer?  I would greatly appreciate any clarification.
+
+| Packets themselves are not encrypted, as they need to be read 
+| by all nodes on the net.  Encrypting the data however, means 
+| that the data inside the packet is unreadable (unless, you can 
+| decrypt it)
+
+	No.  Read my previous sniffer post.  It has information on 
+	link-to-link and end-to-end encryption.
+
+
+| It should be noted that packets send on the internet are not 
+| broadcast to all nodes (what a mess that would make!!).  They 
+| use a method called store and forward, where the packet is send 
+| from server to server until it reaches its destination points 
+| (only the servers in the path to the destination receive the 
+| packet)  Please note that server is braod... it can be any 
+| number of devices on the net... routers, gateways, file servers 
+| to name a few.
+
+	Again no.  Store and forward (message-switching) techniques are 
+	not the predominant form of routing on the Internet.  UUCP uses this 
+	form of routing, and is intended for dial-up links, and is slowly 
+	being phased out.  UUCP is a seperate group of protocols and is NOT
+	in TCP/IP.  The predominant form of routing on the Internet is 
+	packet-switching.  Data is broken down into datagrams and switched
+	from device to device until it reaches it destination, normally
+	with no reliability...
+
+	If anyone really wants, I can go into depth on packet switching...?
+-- 
+ ----| Infinity / Route / daemon9 |--------|------------------|--------------
+--| Founding member: The 0x47 0x75 0x69 0x6C 0x64 | Finger for information |--
+	[RSADSALUCGARGOYLEIDEADESLUCIFERLOKIFEALSHAMD5HAVALSNERFU]
+	coming soon... the infonexus....  All of our prayers answered.
+

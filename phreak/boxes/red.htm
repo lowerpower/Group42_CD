@@ -1,0 +1,429 @@
+<body background="phone.jpg">
+<pre>
+--------------------
+Red Box
+--------------------
+
+<img src="red.gif">
+
+  This article is presented as a news item only. It is not to be taken as an
+  encouragement to make fraudulent telephone calls.
+
+  Red boxing consists of simulating the tones produced when coins are
+  deposited in a pay phone. Coin tones are beeps of 2200 Hz + 1700 Hz as
+  follows:
+
+  5 cents - 1 beep, 66 milliseconds duration.
+
+  10 cents - 2 beeps, each 66 milliseconds duration with 66 millisecond
+  pause between beeps.
+
+  25 cents - 5 beeps, each 33 milliseconds duration with a 33 millisecond
+  pause between beeps.
+
+  Two methods have commonly been used by phone phreaks to produce these
+  tones and make free calls.
+
+  1. The traditional Red Box consisting of a pair of Wien-bridge oscillators
+  with the timing controlled by 555 timer chips.
+
+  2. Producing the signals with a computer which are recorded and then
+  played back into the mouth piece of a pay phone.
+
+  A third method has recently appeared which is a real mind blower. A phreak
+  in the Midwest has extensively tested a method of red boxing which uses
+  nothing more than a pair of brass or aluminum whistles. The whistles are
+  1/4 inch in diameter by 4 inches long and are tuned by means of a wooden
+  dowel rod which fits snugly inside. The whistles can be brought precisely
+  on frequency by tuning them against a known signal source such as a
+  computer capable of producing the tones. Once tuned, the whistles are
+  glued or taped together so they can be blown together to produce the dual
+  tone used in coin signaling.  It has been tested and proven that with a
+  little practice these whistles can be used to make free calls. Now you can
+  blow your money without spending a cent.
+
+--------------------
+
+   Essentially,the red box is a device used to fool the phone company
+into thinking you are depositing coins into a payphone.  Every time you
+drop a coin into a payphone, the phone signals the type of coin inserted
+with one or more bursts of a combination of 1700hz and 2200hz.  The tone
+bursts are coded as follows:
+Nickel:One 60 millisecond pulse
+Dime  :Two 60 millisecond pulses separated by 60 milliseconds
+Quarter:Five 35 millisecond pulses separated by 35 milliseconds
+
+                         HOW TO USE IT
+                         -------------
+
+   Operation is simple.  Simply dial a long distance number (some areas
+require you to stick in a genuine nickel first), wait for the ACTS
+computer to demand your cash, and press the "deposit" button on the red
+box for each coin you want to simulate.  The coin signals are coupled
+from the red box into the phone with a small speaker held to the
+mouthpiece.  For local calls, either you must first deposit a genuine
+nickel before "simulating" more coins or place your call through the
+operator with 0 + 7d.  Use some care when the operator is on the
+line--sometimes they catch on to your beeper ploy.
+
+                         CIRCUIT OPERATION
+                         -----------------
+
+   Each time the pushbutton is pressed, it triggers half of IC1,
+configured as a monostable multivibrator to energize the rest of the
+circuit for a length of time determined by the setting of the coin
+selector switch.  This in turn starts the other half of IC1, configured
+as an astable multivibrator, pulsing on and off at regular intervals at
+a rate determined by the 50k pot between pins 12 and 13.  The output of
+the astable thus alternately powers of IC2, configured as a square wave
+oscillator, providing the required 1700hz and 2200hz to the op amp which
+acts as a buffer to drive the speaker.
+
+                         CONSTRUCTION
+                         ------------
+
+   Assemble the circuit as you wish.  Component placement is not
+critical.  I found the easiest method was to use point-to-point wiring
+on a "universal" PC grid board with solder ringed holes.  Use sockets if
+you aren't a whiz with a soldering iron.  Be sure to leave easy access
+to the potentiometers for alignment.
+
+                         ALIGNMENT AND TESTING
+                         ---------------------
+
+   For alignment, a frequency counter and tiggered sweep oscilloscope
+are extremely handy (but not absolutely necessary.)
+
+   Install a temporary jumper from +9v supply to pin 14 of IC2 and
+temporarily disconnect the 0.01uF capacitors from pins 5 and 9 of IC2.
+Power up the circuit.  Measuring the output from pin 5 of IC2 with the
+frequency counter, adjust the 20k pot between pins 1 and 6 for an output
+of 1700hz.  Now adjust the 20k pot between pins 8 and 13 for an output
+of 2200hz from pin 9 of IC2.  Remove the temporary jumper and re-attach
+the capacitors to pins 5 and 9.  (Note: if no frequency counter is
+available, the outputs can be adjusted by ear one at a time by
+zero-beating the output tone with a computer generated tone of known
+precision.)
+
+   Next, temporarily disconnect the wire between pins 5 and 10 of IC1.
+Set coin selector switch in the "N" (nickel) position.  With the
+oscilloscope measuring the output from pin 9 of IC1, adjust the 50k pot
+between pins 12 and 13 of IC1 for output pulses of 60 millisecond
+duration.  Reconnect the wire between pins 5 and 10.  (Note: If no scope
+is available, adjust the pulse rate by ear using computer generated
+tones for comparison.)
+
+   The remaining adjustments are made by ear.
+
+   Leave the selector switch in the "N" position.  Adjust the 50k pot
+labelled "Dime" for a quick double beep each time the pushbutton is
+pressed.
+
+   Finally, set the selector to "Quarter".  Adjust the 50k pot labelled
+"Quarter" until exactly 5 very quick beeps are heard for each button
+press.  Don't worry if the quarter beeps sound shorter and faster than
+the nickel and dime ones.  They should be.
+
+                         CONCLUSION
+                         ----------
+
+   If all went well to this point, your red box should be completely
+aligned and functional.  A final test should now be conducted from a
+payphone using the DATL (dial access test line) coin test.  Dial
+09591230 and follow the computer instructions using the red box at the
+proper prompts.  The computer should correctly identify all coins
+"simulated" and flag any anomalies.  With a little discretion, your red
+box should bring you many years of use.  Remember, there's no such thing
+as spare change.!
+
+                         Parts list for Red Box
+                         ----------------------
+
+Semiconductors
+--------------
+
+(2)556 dual timer
+(1)741 Op Amp
+(1)1N914 Switching Diode
+
+Resistors
+---------
+
+(6)10k           (1)4.7k
+(2)100k
+(4)50k PC Mount Potentiometer
+(2)20k Multi-Turn Potentiometer
+
+Capacitors
+----------
+
+(10)0.01uF        (1)1.0uF
+(2)10.0uF Electrolytic
+
+Miscellaneous
+-------------
+
+(2)14 Pin Dip Socket
+(1)8 Pin Dip Socket
+(1)3-position Rotary Switch
+(1)Momentary Push-Button Switch(normally open)
+(1)SPST Toggle Switch
+(1)Speaker or Telephone Earpiece Circuit Board
+(1) Box
+(1) 9v Battery Clip
+Mounting Hardware
+
+
+                         SCHEMATIC DRAWING
+                         -----------------
+       /
+ ÚÄÄS1Ù  ÄÄÂÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ +9v      R1        R2        ³        ³                ³             ³
+           ÃÄÄÄC1ÄÄÄÄ´        ³       R3                ³             ³
+           ³         ³    ÚÄÄÄ´        ÃÄÄÄÄÂÄC2Ä@q     S3      @n    ³
+           o     ÚÄÄÄÁÄÄÄÄÁÄÄÄÁÄÄÄ¿    ³   R5    ³      @d      ³     ³
+       oÄ´       ³   6    4  14   ³   R4    ³    ³      ³       ÃÄÄ¿  ³
+       S2  o   ÚÄ´5             13ÃÄÄÄÄ´    g    ³      ÃÄÄÄ¿   ³  ³  ³
+           ³   ³ ³                ³    ³         ³      ³   ³  R9<ÄÙ  ³
+           g   ÀÄ´10  (IC1556)   8ÃÄ¿ R6<Ä¿      ³     R8<ÄÄÙ   ³     ³
+                 ³                ³ ³  ³  ³      ³      ³       ³     ³
+            ÚÄÄÄÄ´9             12ÃÄÁÄÄÅÄÄÙ      ÃÄÄ¿   ³       ³     ³
+            ³    ³ 3  11  7  2  1 ³   C3         ³  ³   ³       ³     ³
+            ³    ÀÄÂÄÄÂÄÄÄÂÄÄÂÄÄÂÄÙ    ³        R7<ÄÙ   ³       ³     ³
+            ³      ³  ³   ³  ÀÄÄ´      g         ³      ³       ³     ³
+            ³     C4 C5   ³     ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÁÄÄÄÄÄÄÄÙ     ³
+            ³      ³  ³   ³    C6                                     ³
+            ³      ³  ³   ³     ³                                     ³
+            ³      g  g   g     g                                     ³
+            ³                                                         ³
+            ÀÄÄÂÄÄÄÄÄÂÄÄÄÄÄÄÄ¿                                        ³
+              R11    ³      R12   ÚÄÄÄ¿                               ³
+         ÚÄÄ¿  ³     ³       ³    ³   v                               ³
+         v  ³  ³  ÚÄÄÅÄÄ¿    ÃÄÄÄÄÁÄÄR13ÄÄ¿                           ³
+    ÚÄÄÄR10ÄÁÄÄ´  ³  ³  ³    ³            ³                           ³
+    ³        ÚÄÁÄÄÁÄÄÁÄÄÁÄÄÄÄÁÄÄÄÄ¿       ³                           ³
+    ³        ³ 1  4  14 10   13   ³       ³                           ³
+    ³        ³                   8ÃÄÄÂÄÄÄÄ´                           ³
+    ÃÄÄÄÄÄÄÂÄ´6                   ³  ³   C12                          ³
+    ³      ³ ³                  12ÃÄÄÙ    ³                           ³
+    ³      ÀÄ´2    IC2 556        ³       ³                           ³
+   C7        ³                    ³       g                           ³
+    ³     ÚÄÄ´3                 11ÃÄÄÄÄÄ¿                             ³
+    ³     ³  ³    7   5   9       ³     ³                             ³
+    g    C8  ÀÄÄÄÄÂÄÄÄÂÄÄÄÂÄÄÄÄÄÄÄÙ    C11                            ³
+          ³       ³  C9  C10            ³                             ³
+          ³       ³   ³   ³             g                             ³
+          g       ³   ÀÄÂÄÙ                                           ³
+                  g     ³                                             ³
+                        ³            ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+                        ³            ³                 ³
+                        ³           R14                ³
+                        ³            ³           ³\    ³
+                        ³            ³           ³  \  ³
+                        ÃÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄ³3   \³
+                        ³            ³           ³    7 \
+                       C13          R15          ³IC3     \
+                        ³            ³           ³741    6/ÄÄÄÄÄÄ¿
+                        ³            ³           ³    4 /        ³
+                        ³            ³           ³    /          ³
+                        g            g        ÚÄÄ´2 / ³          ³
+                                              ³  ³/   ³          ³
+                                              ³       g          ³
+                                              ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+                                                                C14
+                                                                 ³
+                                                              Speaker
+                                                                 ³
+                                                                 g
+
+
+                      Schematic part variables list.
+                      ------------------------------
+
+Resistors
+---------
+R1 - 10k   R2 - 10k   R3 -4.7k    R4 - 10k   R5 - 10k   R6 - 50k
+R7 - 50k   R8 - 50k   R9 - 50k    R10- 20k   R11- 10k   R12- 10k
+R13- 20k   R14-100k   R15-100k
+
+Capacitors
+----------
+C1 - 0.01uf   C2 - 1N914 switching Diode   C3 - 1.0uf   C4 - 0.01uf
+C5 - 0.01uf   C6 - 10uf   C7 - 0.01uf   C8 - 0.01uf   C9 - 0.01uf
+C10 - 0.01uf   C11 - 0.01uf   C12 - 0.01uf   C13 - 0.01uf   C14 - 10uf
+
+Switches
+--------
+S1 - SPST toggle
+S2 - Momentary push button N.O. labeled "Deposit"
+S3 - 3-position rotary switch
+
+Miscellaneous
+-------------
+g - Ground
+@q - Label "quarter"
+@d - Label "dime"
+@n - Label "nickle"
+
+--------------------
+
+Red boxing consists of simulating the
+tones produced when coins are deposited
+in a pay phone. Coin tones are beeps of
+2200 Hz + 1700 Hz as follows:
+ 
+5 cents - 1 beep, 66 milliseconds
+duration.
+ 
+10 cents - 2 beeps, each 66
+milliseconds duration with 66
+millisecond pause between beeps.
+ 
+25 cents - 5 beeps, each 33
+milliseconds duration with a 33
+millisecond pause between beeps.
+ 
+Two methods have commonly been used by
+phone phreaks to produce these tones
+and make free calls.
+ 
+1. The traditional Red Box consisting
+of a pair of Wien-bridge oscillators
+with the timing controlled by 555 timer
+chips.
+ 
+2. Producing the signals with a
+computer which are recorded and then
+played back into the mouth piece of a
+pay phone.
+ 
+A third method has recently appeared
+which is a real mind blower. A phreak
+in the Midwest has extensively tested a
+method of red boxing which uses nothing
+more than a pair of brass or aluminum
+whistles. The whistles are 1/4 inch in
+diameter by 4 inches long and are tuned
+by means of a wooden dowel rod which
+fits snugly inside. The whistles can be
+brought precisely on frequency by
+tuning them against a known signal
+source such as a computer capable of
+producing the tones. Once tuned, the
+whistles are glued or taped together so
+they can be blown together to produce
+the dual tone used in coin signaling.
+It has been tested and proven that with
+a little practice these whistles can be
+used to make free calls. Now you can
+blow your money without spending a
+cent.
+ 
+--------------------
+
+I bought the guts to a hallmark card at 3 pm yesterday, before 5 I had a 
+working box... Heres the instructions for the complete idiot (or those 
+just having trouble)
+
+Materials:
+---------
+1 Hallmark digital recording card (~$8, card store)
+1 1/8 inch mono phono plug (~$1 or in a junk bin)
+1 SPST switch, or momentary contact NORMALLY OPEN (~$1 or junk bin)
+The QUARTER.VOC File (and access to a sound card to play it, and software 
+  that lets you loop it) *THIS FILE IS UUENCODED AT THE END OF THIS TEXT*
+1 case of some sort (I used a case from a DAT, but anything you can put 
+  the stuff in will work.  Perhaps the case from a Data Tape or a 8mm Video 
+  tape, or just a casette)
+1 Tube of silicone sealant (epoxy will probably do, I just happened to 
+  have silicone on hand)
+
+
+What to do:
+----------
+
+1. Remove all components from the plastic thing inside the card, this 
+includes sliding the battry pack out of it's drawer.
+
+2. Cut the following wires:
+
+   Both wires going to microphone (both are green, mark which one goes to 
+    the center of the mike)
+   Both wires to the battery pack (red and white)
+   Both wires to the switch mechanisim (green and black)
+
+2a. (OPTIONAL) It is a wise idea (if you are fairly experienced at 
+soldering/desoldering on small PC boards) to desolder all the wires and 
+replace them with ones of a thicker gauge.  THe ones that hallmark 
+supplies are just too damn thin and have a real tendancy to break at 
+connections.  REMEMBER, the wires in this card are supposed to be 
+protected in the little plastic grooves that you removed them from.  
+
+3. Discard the switch mechanisim.
+
+4. Wrap the battery pack in electrical tape (I used red tape just to be
+    cheesy, since the box is clear)
+
+5. Solder the SPST switch to the black and green wires that used to go to 
+    theo original switch (polarity is NOT important)
+
+6. Solder the phono plug to the 2 green wires.  Polarity shouldn't really 
+  be important, but to be on the safe side, the wire that ran to the center 
+  of the mike (I told you to mark it) should go to the TIP of the plug.
+
+7. Connect the battery. (This battery pack puts out 6.25VDC, I suppose 
+you could replace it with another battery, but why bother?)  POLARITY IS 
+EXTREMELY IMPORTANT!.  The red wire goes to the Positive terminal, and 
+the white goes to the negative.  On my box, if the pack is laying flat, 
+with the exposed part of the batteries pointing up, the positive terminal 
+is the one on the left (if you are facing the terminals)  I'd use a 
+multimeter just to be sure.
+
+8. Glue the pc board to the top of the battery (this saves space and 
+hassle later, but is not necessary for operation)
+
+9. Program the thing...
+  
+   I used the QUARTER.VOC file (sorry, i don't have a copy of it in any other
+   format) and I looped it 10 times, with a random delay of between .5 
+   and 1 seconds between each quarter (who puts them in at regular intervals 
+   anyway?)
+   
+   Plug the phono plug into your soundcard, turn the volume Waaaaaaay 
+   down (trial and error will give you the proper volume) and play the 
+   voc file (after setting the switch on the pc board to the record 
+   position, and flipping the SPST at the beginning of the VOC file)
+
+10. Test it...
+
+   Best way to test is to call a long distance Directory Assistance (Im 
+partial to 808-555-1212 which is Hawaii)
+
+If it doesn't work, go back to step 9.  The ideal volume is one that can 
+be heard clearly, but does not cause the speaker to break up.
+
+11. Once you have the thing programmed, there is no need to keep the 
+phono plug attatched.  If you want to save room, cut it off.
+
+12. Put the thing in the case.  Drill several holes in the case where the 
+speaker will mount.  I mounted the speaker with silicone very carefully 
+applied to the edges of the speaker.  Same was true of the battery pack.  
+The switch obviously mounts in a hole on the side of the case.
+
+Thats it...
+
+Comments/Questions:
+
+Why the SPST Switch?
+
+ First off, I thought the switch that came with the thing looked really 
+cheaply made, and would probably break.  Secondly, bu putting in a switch 
+instead of a momentary switch, it allows me to record $2.50 on the box, 
+and play the whole thing back just by flipping the switch, rather than 
+having to hold it down.
+
+There you have it. the Under $10 red-box.  
+
+--------------------
+</pre>
+</body>

@@ -1,0 +1,7 @@
+Crack> Chuck Yeager's Advanced Flight Trainer v1.2 (from the game-pack)
+crack written by Michael Yakubovich
+
+FILE: AFT.EXE
+
+ORIGINAL: 3B 97 3F 05 74 03 E9 03 AF
+CRACK	: C3 == == == == == == == ==

@@ -1,0 +1,28 @@
+Crack> Leisure Suit Larry II by Sierra On-Line 
+
+crack from bboard 
+
+LEISURE SUIT LARRY GOES LOOKING FOR LOVE  IN SEVERAL WRONG PLACES by  Sierra 
+On-Line  has  a  seriously annoying protection scheme. The player must trudge 
+through  the  manual  to  look for  girl's phone number in order to enter the 
+game.  This  patch force the program to accept any input at the prompt in the 
+initialization of the program. 
+
+   1. Rename SIERRA.EXE to SIERRA.XXX 
+   2. Enter DEBUG and enter the following lines. 
+
+             E 0394 F6 
+             E 4210 52 5C 
+             E 9E1D B8 08 35 CD 21 89 1E FC 12 8C 06 FE 12 B8 24 35 
+             E 9E2D CD 21 89 1E 00 13 8C 06 02 13 B8 24 35 CD 21 89 
+             E 9E3D 1E 04 13 8C 06 06 13 07 1E 0E 1F BA 6B 9C B8 23 
+             E 9E4D 25 CD 21 BA 6C 9C B8 24 35 CD 21 1F E8 5A 00 C7 
+             E 9E5D 06 FA 12 01 00 C3 90 57 51 B9 0F 00 BF 86 BA C6 
+             E 9E6D 05 00 83 C7 09 E2 F8 59 5F 2E C7 06 10 3F 0E 01 
+             E 9E7D E9 8F A3 90 90 90 90 90 90 90 90 90 90 98 90 83 
+             E 9E8D 3E FA 12 00 75 01 C3 1E 07 
+             E F676 8E D8 B1 03 
+             W 
+             Q 
+
+   3. Rename SIERRA.XXX back to SIERRA.EXE 

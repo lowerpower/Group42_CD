@@ -1,0 +1,907 @@
+
+Louis N. Hiken
+Attorney at Law
+One Sansome Street, Suite 900
+San Francisco, California 94104
+
+Tel:  (415) 705-6460							  Fax: (415) 705-6444
+
+	
+							
+								December 2, 1993
+
+
+
+The Secretary
+Federal Communications Commission
+Washington, DC 20554
+
+Ref: In the Matter of Stephen P. Dunifer; NAL/Acct. No.  
+	315SF0050; SF-93-1355.
+
+Dear Madam or Sir,
+
+	We enclose our response to the Forfeiture Order issued 
+to our client, Stephen P. Dunifer, released by the F.C.C. on 
+November 8, 1993. 
+	There appears to be a conflict in the regulations which 
+govern review of a Forfeiture Order.  The only option for 
+obtaining review mentioned by the Order itself is a Petition 
+for Reconsideration.   Yet the Order goes on to cite both 
+Section 1.106 of the Commission’s Rules and 47 C.F.R. 
+§1.115.  
+	Section  1.106 of the Commission’s rules parallels 47 
+C.F.R. § 1.106, which governs the submission of Petitions 
+for Reconsideration.  47 C.F.R. §1.115, however, governs the 
+submission of Applications for Review of actions taken 
+pursuant to delegated authority.   These options represent 
+substantively different courses of action.  The most 
+significant distinction regards which government agency 
+shall consider the appeal: An Application for Review must be 
+acted upon by the Commission.   A Petition for 
+Reconsideration, however, may be acted upon by either the 
+Commission, or by the designated authority.   
+	The plain language of 47 C.F.R. §1.80(i) states that. 
+"After issuance of a forfeiture order, any request [that the 
+Commission or its designee remit or reduce the forfeiture] 
+shall be submitted as a petition for reconsideration 
+pursuant to §1.106."  However, the equally plain language of 
+47 C.F.R. §1.115(a) states that "Any person aggrieved by any 
+action taken pursuant to delegated authority may file an 
+application requesting review of that action by the 
+Commission."   Consistent with the latter is 47 C.F.R. 
+§1.104(b), which provides that "Any person desiring 
+Commission consideration of a final action taken pursuant to 
+delegated authority shall file either a petition for 
+reconsideration or an application for review (but not both). 
+. ."  The issuance of the Forfeiture Order in this case was 
+clearly pursuant to delegated authority.   
+	In light of the foregoing, this response is hereby 
+submitted as an Application for Review of action taken 
+pursuant to delegated authority, as provided by 47 C.F.R. 
+§1.115.  In compliance with the Forfeiture Order, a copy of 
+this Application for Review has been sent to the Field 
+Operations Bureau.   We note, however, that 47 C.F.R. 
+§0.311(a)(2) specifically requires the Chief, Field 
+Operations Bureau, to refer this matter to the Commission en 
+banc for disposition.  
+	Please contact us at the above address, phone or fax if 
+we can provide further information or if you have any 
+questions regarding this submission.
+
+
+								Sincerely,
+
+
+												
+								Louis N. Hiken,
+								Attorney for Stephen 
+								P. Dunifer
+
+
+LOUIS N. HIKEN,  SBN 45337
+Attorney at Law
+One Sansome Street, Suite 900
+San Francisco, California 94104
+Telephone:  (415)705-6460
+Fax:  (415) 705-6444
+
+
+
+
+
+
+
+BEFORE THE 
+FEDERAL COMMUNICATIONS COMMISSION
+WASHINGTON, D.C. 20554
+
+
+
+
+
+
+IN THE MATTER OF			)
+					)	
+STEPHEN PAUL DUNIFER		)	NAL/ACCT. NO.: 315SF0050
+BERKELEY, CALIFORNIA		)		SF-93-1355
+					)
+
+
+
+
+APPLICATION FOR REVIEW OF ACTION TAKEN PURSUANT TO DELEGATED AUTHORIT
+
+
+TABLE OF CONTENTS
+
+Summary of the Filing	iii
+
+Questions Presented	1
+
+1.	Whether the Commission’s rules, as presently 
+formulated and applied, constitute a complete 
+and absolute prohibition of micro radio.	1
+
+2.	Whether the Commission’s complete and absolute 
+prohibition of micro radio violates the First 
+Amendment.	1
+
+3.	Whether the Commission intended for its 
+"Policy Statement" to be applied to micro 
+radio broadcasters.	1
+
+4.	Whether, if the Commission did intend that its 
+"Policy Statement" be applied to micro radio 
+broadcasters, the "Policy Statement" was 
+properly applied in this case.	1
+
+a)	Is the dramatic increase in the 
+proportion of the "upward adjustment" in 
+the NAL to that in the Forfeiture Order 
+permissible?	2
+
+b)	Is the Forfeiture Order’s complete 
+deletion of the "downward adjustment" 
+contained in the NAL permissible?	2
+
+5.	Whether a sufficient factual basis exists for 
+the Forfeiture Order issued to Applicant 
+Dunifer.	2
+
+6.	Whether the exception in 47 U.S.C. §503(b)(5) 
+for persons "engaging in activities for which 
+a license, permit certificate, or other 
+authorization is required" applies to micro 
+radio broadcasts.	2
+
+7.	Whether the Commission’s complete prohibition 
+of micro radio exceeds the Federal 
+Government’s authority under the Commerce 
+Clause.	2
+
+8.	Whether the Commission’s complete prohibition 
+of micro radio violates international law.	2
+
+9.	Whether the Forfeiture Order in this case 
+violates Due Process and Equal Protection.	3
+
+Respects in Which the Action Taken by the Designated 
+Authority Should be Changed	3
+
+Form of Relief Sought	4
+
+Argument	4
+
+I. 	The Commission’s rules, as presently 
+formulated and applied, constitute a complete 
+and absolute prohibition of micro radio.	4
+
+II.	The Commission’s Complete And Absolute 
+Prohibition Of Micro Radio Violates The First 
+Amendment.	7
+
+III.	The F.C.C.'s "Policy Statement, Standards For 
+Assessing Forfeitures" Does Not Apply To 
+Unlicensed Micro Radio Broadcasts.	9
+
+IV.	Even If The Policy Statement Standards Are 
+Applicable to Micro Radio, The F.C.C. Has 
+Improperly Calculated The Forfeiture Amount.	12
+
+V.	The Forfeiture Is Based Upon Unsubstantiated 
+Accusations With Insufficient Evidentiary 
+Support.	16
+
+VI.	The Exception In 47 U.S.C. §503(B)(5) For 
+Persons "Engaging In Activities For Which A 
+License, Permit Certificate, Or Other 
+Authorization Is Required" Does Not Apply To 
+Micro Radio Broadcasts.	17
+
+VII.	(a)	The Commission’s Complete Prohibition Of 
+Micro Radio Exceeds The Federal 
+Government’s Authority Under The Commerce 
+Clause	17
+	
+	(b)	The Commission’s complete prohibition of 
+micro radio  Violates Micro Radio 
+Broadcasters' And Their Listeners' Right 
+To Communicate Under The U.N. Declaration 
+Of Human Rights, The International 
+Covenant On Civil And Political Rights, 
+And The American Convention On Human 
+Rights	17
+
+	(c)	The Forfeiture Order In This Case 
+Violates Due Process And Equal Protection	17
+
+CONCLUSION	1
+
+
+
+SUMMARY OF THE FILING  
+
+	This is an application for review of action taken 
+pursuant to delegated authority, filed in accordance with 47 
+C.F.R. §1.115.  Applicant Stephen P. Dunifer seeks 
+Commission review of the Forfeiture Order dated November 8, 
+1993, issued by the Field Operations Bureau, assessing 
+forfeiture liability in the amount of $20,000.  	
+	Applicant Dunifer is accused of transmitting two low 
+power (less than 10 watts) FM broadcasts without an F.C.C. 
+license.  The alleged broadcasts caused no interference with 
+licensed, navigational or any other signal.  The 
+outrageously excessive forfeiture amount was determined by 
+improper application of the F.C.C.’s Policy Statement, 
+Standards for Assessing Forfeitures, 6 FCC Rcd. 4695 (1991) 
+and the 1993 Policy Statement, Standards for Assessing 
+Forfeitures, 8 FCC Rcd. 6215 (1993). 
+	At issue in this case are several critically important 
+constitutional, legal and policy issues that must be 
+resolved by the Commission.  Current F.C.C. regulations and 
+policies enforcing those regulations have resulted in a 
+complete and absolute prohibition of micro radio 
+broadcasting.  While Applicant Dunifer stands accused of 
+failing to obtain an F.C.C. license prior to engaging in 
+such broadcasts, in fact no such license is available under 
+the current regulatory framework as enforced by the 
+Commission.  The problem is not that micro radio 
+broadcasters are refusing to comply with F.C.C. licensing 
+procedures.  Rather, the fundamental problem is that the 
+F.C.C. has not provided procedures by which micro radio 
+broadcasters can become licensed or authorized.  Instead, 
+the F.C.C. is applying severe administrative and criminal 
+sanctions, intended for application to large-scale, 
+commercial operators, to micro radio broadcasters with the 
+goal of completely precluding all such broadcasts. The very 
+notion of assessing a $20,000 forfeiture against Applicant 
+Dunifer, an individual with no prior F.C.C. violations, 
+accused of transmitting two low-power, non-commercial 
+broadcasts of approximately 1 hour duration, is ludicrous.   
+	The current ban of all micro radio broadcasting 
+violates the First Amendment.  In addition, the Forfeiture 
+Order in this case is procedurally flawed and calls for a 
+forfeiture amount that is grossly disproportionate to the 
+alleged violations and which exceeds the maximum limits set 
+by 47 U.S.C. 503(b)(2)(C).  
+	Applicant Dunifer seeks rescission of the Forfeiture 
+Order and F.C.C. authorization to engage in unlicensed 10 
+watt or lower FM micro radio broadcasts that create no 
+interference with licensed or navigational broadcasts
+
+
+APPLICATION FOR REVIEW OF ACTION TAKEN PURSUANT TO DELEGATED AUTHORITY
+
+	In accordance with 47 C.F.R. §1.115, Stephen P. Dunifer 
+hereby requests review by the Commission of the following 
+action taken pursuant to delegated authority: the issuance 
+of the Forfeiture Order assessing liability for a monetary 
+forfeiture in the amount of $20,000, released November 8, 
+1993 by the Field Operations Bureau, and signed by Philip M. 
+Kane, Engineer in Charge. 
+
+QUESTIONS PRESENTED
+	In accordance with 47 C.F.R. §1.115(b)(1), the 
+following questions are presented for review:
+
+1.	Whether the Commission’s rules, as presently formulated 
+and applied, constitute a complete and absolute 
+prohibition of micro radio.  The Forfeiture Order 
+asserts that there is no such prohibition.  
+
+2.	Whether the Commission’s complete and absolute 
+prohibition of micro radio violates the First 
+Amendment.  As noted above, The Forfeiture Order 
+asserts that there is no complete prohibition of 
+micro radio.  Beyond this denial, the Order refused 
+to consider or address Applicant Dunifer’s First 
+Amendment arguments.  
+   
+3.	Whether the Commission intended for its "Policy 
+Statement" to be applied to micro radio broadcasters.  
+The Forfeiture Order found that the "Policy Statement" 
+was intended for application to micro radio 
+broadcasters. 
+
+4.	Whether, if the Commission did intend that its "Policy 
+Statement" be applied to micro radio broadcasters, the 
+"Policy Statement" was properly applied in this case.  
+The Forfeiture Order applied the "Policy Statement" to 
+this case differently than the manner in which it was 
+applied by the NAL.  The determined forfeiture amount, 
+however, was the same.  
+
+a)	Is the dramatic increase in the proportion of 
+the "upward adjustment" in the NAL to that in 
+the Forfeiture Order permissible? 
+
+b)	Is the Forfeiture Order’s complete deletion of 
+the "downward adjustment" contained in the NAL 
+permissible?
+ 
+5.	Whether a sufficient factual basis exists for the 
+Forfeiture Order issued to Applicant Dunifer.  The 
+Forfeiture Order found sufficient factual bases. 
+
+6.	Whether the exception in 47 U.S.C. §503(b)(5) for 
+persons "engaging in activities for which a license, 
+permit certificate, or other authorization is required" 
+applies to micro radio broadcasts.  The Forfeiture Order 
+found that the exception does apply to micro radio 
+broadcasts. 
+
+
+7.	Whether the Commission’s complete prohibition of micro 
+radio exceeds the Federal Government’s authority under 
+the Commerce Clause.  As noted above, The Forfeiture 
+Order asserts that there is no complete prohibition of 
+micro radio.  The Order further found that the 
+Commission’s regulations as applied to micro radio 
+broadcasts do not exceed the Federal Government’s 
+authority under the Commerce Clause. 
+
+8.	Whether the Commission’s complete prohibition of micro 
+radio violates international law.  As noted above, The 
+Forfeiture Order asserts that there is no complete 
+prohibition of micro radio.  Beyond this denial, the 
+Order refused to consider or address Applicant Dunifer’s 
+international law arguments. 
+
+9.	Whether the Forfeiture Order in this case violates Due 
+Process and Equal Protection.  The Forfeiture Order 
+found no violations of either Equal Protection or Due 
+Process. 
+											
+FACTORS WARRANTING COMMISSION CONSIDERATION OF THE QUESTIONS PRESENTED 
+	Each of the following factors, enunciated in 47 C.F.R. 
+§ 1.115(2), warrant Commission consideration of the 
+questions presented: The action taken pursuant to delegated 
+authority is in conflict with the Commission’s own rules, 
+the regulations codifying those rules, established 
+Commission policy, and the United States Constitution; the 
+action involves several questions of law or policy that have 
+not previously been resolved by the Commission; the action 
+involves application of a precedent or policy which should 
+be overturned or reversed; the delegated authority made an 
+erroneous finding as to an important fact, and; there have 
+been several prejudicial procedural errors.
+
+RESPECTS IN WHICH THE ACTION TAKEN BY THE DESIGNATED 
+AUTHORITY SHOULD BE CHANGED
+	The action taken by the designated authority should be 
+changed in the following respects: The Forfeiture Order 
+should be rescinded by the Commission, or, in the 
+alternative, the amount should be reduced to an amount 
+consistent with a correct application of F.C.C. procedures 
+and commensurate with the fact that Applicant Dunifer is an 
+indigent individual with no prior F.C.C. violations accused 
+of responsibility for two non-commercial low-power 
+broadcasts that created no actual interference.
+ 
+FORM OF RELIEF SOUGHT
+	Applicant Dunifer seeks the following relief from the 
+Commission:  The Forfeiture Order should be rescinded, and 
+Applicant Dunifer should be granted authorization to 
+conduct, with no F.C.C. license, 10 watt or lower FM micro 
+radio broadcasts that create no interference with licensed 
+or navigational broadcasts.
+
+
+ARGUMENT
+
+I. 	The Commission’s rules, as presently formulated and 
+applied, constitute a complete and absolute prohibition 
+of micro radio.
+	The F.C.C.'s current regulatory scheme completely 
+prohibits micro radio broadcasters and their listeners from 
+accessing the public airwaves.  The Forfeiture Order goes to 
+great lengths to argue that its regulations do not in fact 
+completely prohibit micro radio. 
+	A careful analysis of the Forfeiture Order’s listed 
+plethora of opportunities for micro radio broadcasting 
+within the F.C.C.’s current regulatory framework reveals 
+that there is, in fact, a complete prohibition of micro 
+radio broadcasting.  The suggestions offered by the 
+Commission break down to the following: 
+
+1) 	Petition the Commission to change the current 
+regulatory framework; 
+
+2) 	Apply for a license to operate a 10 watt station 
+above 92 MHz;
+
+3) 	Broadcast as permitted under 47 C.F.R. 15.239(b);
+
+4) 	Apply for a license to operate a Non-Commercial 
+Educational FM Broadcast station under 47 C.F.R. §§ 
+73.501 et. seq.  		
+
+	Number 2 above is, in effect, the same as petitioning 
+for a rule change, since the minimum power requirements for 
+acquiring a license to operate above 92 MHz are 100 watts or 
+a six kilometer reference distance.   Number 3 above is 
+meaningless, since the field strength permitted by 
+§15.239(b) is so low as to preclude any micro radio 
+broadcast capable of being received beyond 1 or 2 blocks 
+away from the transmitter.  The Commission’s suggestion that 
+a 10 watt broadcast could comply with the field strength 
+limitations imposed by §15.239(b) is misleading, at best. 
+	Number 4 above is similarly misleading.  47 C.F.R. 
+§73.511(a) explicitly provides that "No new Non-Commercial 
+Educational station will be authorized with less power than 
+minimum power requirements for commercial Class A 
+facilities," that is, less than 100 watts.  While it may be 
+true that no one is precluded under the current regulatory 
+framework from applying for a license as the Commission 
+suggests in number 4 above, it is also true that no such 
+application can possibly be approved by the Commission under 
+its current regulations.
+	The deceptively long list provided by the Commission, 
+then, boils down to "ask us to change our rules."  Given 
+that there are absolutely no standards or limitations 
+governing the Commission’s discretion in considering an 
+application for a rule change or waiver, this "option" is 
+meaningless.   It is well established in First Amendment 
+jurisprudence that regulations which vest absolute or near 
+absolute discretion in an agency to approve or deny 
+exceptions to a generally applicable rule are 
+unconstitutional.     
+	The Forfeiture Order seems to suggest that Applicant 
+Dunifer has somehow failed to exhaust his administrative 
+remedies because he did not petition for a rule change under 
+the A.P.A. If the FCC’s rules, as currently formulated and 
+applied, completely prohibit micro radio, then the rules 
+violate the First Amendment.  Citizens have no 
+responsibility whatsoever to petition the F.C.C. to change 
+unconstitutional regulations--rather, the F.C.C. is required 
+to structure its regulatory framework so as to comply with 
+the First Amendment.   
+	Despite the Forfeiture Order’s protestations to the 
+contrary, the F.C.C. is indeed obligated to modify its rules 
+when the rules violate the Constitution; not to "accommodate 
+Mr. Dunifer’s agenda,"  but rather to accommodate the First 
+Amendment rights of Applicant Dunifer and all others 
+similarly situated.  The F.C.C. must construct and enforce 
+its regulatory framework in such a way as to safeguard the 
+First Amendment right of free speech for all persons, 
+regardless of their economic power.  By totally prohibiting 
+low-power micro radio, the Commission has failed to comply 
+with its congressional mandate to regulate the airwaves in 
+the public interest, has exceeded the limits of the power 
+conferred upon it by Congress, and is violating the 
+constitutional rights of micro radio broadcasters and their 
+listeners.
+
+
+II.	The Commission’s Complete And Absolute Prohibition Of 
+Micro Radio Violates The First Amendment. 
+	It is well established that when First Amendment free 
+speech rights in a traditional or designated public forum 
+are impacted by government regulation, the government must 
+establish that the contested regulations are the least 
+restrictive means available to further a compelling state 
+interest.  The absolute and complete ban of all micro radio 
+broadcasting effected by the current regulatory scheme is 
+obviously not the least restrictive means available to the 
+government to satisfy the state interest in regulating the 
+airwaves.  The government need look no further than to our 
+immediate neighbors to the North for examples of much less 
+restrictive means of addressing micro radio.
+	Since 1978, Canada has licensed low power FM radio  
+broadcasters in remote communities with a simple three-page 
+application form.  The Canadian Radio-Television and 
+Telecommunications Commission (CRTC) has recently modified 
+its rules to permit such broadcasts even in urban areas, 
+where frequency space is much more scarce.   Indeed, in a 
+report on low power television, the F.C.C. itself attached 
+as an appendix a copy of Canadian recommendations regarding 
+the regulation of low power FM broadcasting.  These 
+recommendations included the suggestion that application 
+forms and required information be simple enough to allow for 
+easy application by potential low power licensees.   Review 
+of this F.C.C report and the attachments thereto reveals 
+that the licensing and administrative requirements necessary 
+to oversee operation of micro radio stations is not overly 
+burdensome.  Indeed, these licensing forms reveal that micro 
+radio can be easily regulated so as to prevent any risk of 
+signal interference. 
+	Further evidence of the less restrictive alternatives 
+available to the Commission in this regard is available in 
+the F.C.C.’s own history.  Until relatively recently, Non-
+Commercial Educational FM broadcast stations could be 
+licensed by the F.C.C. to broadcast with up to 10 watts of 
+power. 
+	The absolute ban on micro radio is a creation of the 
+Commission that can be easily eliminated without 
+detrimentally impacting the government’s interest in 
+regulating the airwaves.  The ban therefore violates the 
+First Amendment and must be rescinded.
+
+III.	The F.C.C.'s "Policy Statement, Standards For Assessing 
+Forfeitures" Does Not Apply To Unlicensed Micro Radio 
+Broadcasts.III.	The F.C.C.s "Policy Statement, 
+Standards For Assessing Forfeitures" Does Not Apply To 
+Unlicensed Micro Radio Broadcasts.2 ;
+	Applicant Dunifer presented argument in this regard in 
+his Reply to the N.A.L., which is already before the 
+Commission. 
+	In response to this argument, the Forfeiture Order 
+states:
+
+"The reply goes on at great length about the Commission 
+not being specific about "micro radio broadcasters" and 
+how the pre-1991 Public Notice had set the penalty for 
+unlicensed operation at $1000 and that any change was 
+not valid because the Commission had not given notice 
+to the public about the change in forfeiture penalty 
+level.
+
+There is no category of operation as "micro power 
+broadcasting."  Unauthorized operation -- operation 
+without blanket or specific authorization -- remains 
+unauthorized operation in spite of its advocates’ and 
+practitioners’ attempts to give it a cachet of 
+respectability.
+
+It is clear from the proceedings concerning the 1991 
+and 1993 Policy Statements that it is within the 
+Commission’s discretion to raise the "announced" level 
+of penalty assessable for unlicensed operation from 
+$1000 to $10,000, as long as this change is within the 
+statutory maximum.  The "notice" was by issuance of the 
+Policy Statements.  The 1991 Policy Statement did in 
+fact supersede the 1990 Public Notice 2049 with regard 
+to penalties for unlicensed operation."    
+
+	The Forfeiture Order’s response misses the point.  The 
+argument set out in the Reply is that the "Policy Statement" 
+was not intended by the Commission to be applied to micro 
+radio broadcasts, such that a single infraction would result 
+in a forfeiture of $20,000 , rather than the $1000 amount 
+set by the 1990 Public Notice.  Even setting aside for the 
+moment the disingenuous manner in which the Forfeiture Order 
+seeks to gloss over the obvious and significant mistake made 
+in the N.A.L.’s determination of the "base forfeiture 
+amount,"  the problem the Commission must address here 
+remains:  Even if the "revised" method of determining the 
+base forfeiture amount is used, to hold that the "Policy 
+Statement" was meant by the Commission to supersede its 
+policy announced in Public Notice 2049 requires the 
+conclusion that the intention was to level an 800% increase 
+in the fine for this offense.  This is vastly 
+disproportionate to the other increases wrought by the 
+"Policy Statement."  The fact that the Commission has the 
+discretion to levy forfeitures up to the statutory maximum 
+is irrelevant in this regard.  The very existence of the 
+"Policy Statement" evinces the Commission’s intent to assess 
+forfeitures below the statutory maximum.  The argument 
+presented in the Reply is that the intent of the Commission 
+was not to increase the forfeiture amount for these offenses 
+by 800% or more, regardless of the Commission’s power to do 
+so.  If the intent of the Commission was not to enact such a 
+disproportionate increase, then the "Policy Statement" is 
+not properly applied to these offenses.  The power of the 
+Commission to charge up to the statutory maximum is 
+irrelevant to ascertaining the Commission’s intent in 
+enacting the "Policy Statement."
+	Similarly off-mark are the Forfeiture Order’s comments 
+regarding the fact that "there is no category of operation 
+as ‘micro power broadcasting.’"  In the Reply to the N.A.L., 
+Applicant Dunifer pointed out that there was no mention 
+whatsoever of unlicensed broadcasts in the "Policy 
+Statement" itself or in subsequent F.C.C. Orders in which 
+the "Policy Statement" is discussed.   The point is that 
+this lack of specific reference, given the repeated 
+references to licensed broadcasts and licensees in these 
+documents, and the specific reference in Public Notice 2049 
+to unlicensed radio operation, supports the conclusion that 
+the Commission did not intend the "Policy Statement" to 
+apply to micro radio broadcasts, nor to supersede Public 
+Notice 2049 in this regard.
+	Finally, if the Commission were to hold that the 
+"Policy Statement" was intended to apply to micro radio 
+broadcasts as asserted by the Forfeiture Order, the 
+substantial difference between the degree of specificity of 
+the language in Public Notice 2049 and that in the "Policy 
+Statement" renders the latter insufficient to notify the 
+public of this significant change.  Without reasonably 
+sufficient notice, imposition of the $20,000 forfeiture in 
+this case violates Due Process. 
+
+IV.	Even If The Policy Statement Standards Are Applicable 
+to Micro Radio, The F.C.C. Has Improperly Calculated 
+The Forfeiture Amount. 
+	Applicant Dunifer presented argument in this regard in 
+his Reply to the N.A.L., which is already before the 
+Commission. 
+  	In the Reply, Applicant Dunifer explained that even if 
+the "Policy Statement" was intended for application to micro 
+radio, the F.C.C. had improperly calculated the base 
+forfeiture amount.  The Reply pointed out that it is clear 
+from reading the N.A.L. that the  manner in which the 
+Commission determined the $20,000 forfeiture amount was by 
+reference to the category labeled "BC/CABLE."   The Reply 
+pointed out that this was clearly erroneous, as Applicant 
+Dunifer can not conceivably fall within the ambit of 47 
+U.S.C. §503(b)(2)(A).   The Reply also pointed out that the 
+base forfeiture amount assessed by the N.A.L. violated 47 
+U.S.C. §503(b)(2) and 47 C.F.R. §1.80, since the statutory 
+limit set by those sections for violators in the "Other" 
+category is $10,000.   Finally, the Reply predicted that in 
+response to this argument, the Commission would attempt to 
+belatedly assert that the $20,000 forfeiture amount was 
+based upon two violations rather than one.   As the Reply 
+pointed out,
+
+"While the N.A.L. does discuss two separate incidents, 
+it is clear from reading the section of the N.A.L. 
+(paragraph 12) which discusses the forfeiture amount 
+that Mr. Dunifer's base forfeiture amount was 
+determined by consulting the Policy Statement table 
+entry for a single violation for "operation without 
+authorization in broadcast services." (N.A.L., 
+paragraph 12, at p. 2)  Had the F.C.C. correctly 
+consulted the "OTHER" violator category, even for two 
+offenses, the base forfeiture amount would have only 
+been $16,000.  The only reasonable interpretation of 
+paragraph 12 of the N.A.L. is that the F.C.C. based Mr. 
+Dunifer's forfeiture amount  on a single violation for 
+the "BC/Cable" category, and then adjusted the amount 
+upward because there were multiple incidents alleged 
+and these were considered ‘willful.’" 
+
+	In perhaps the most egregious manipulation of F.C.C. 
+procedure by the Commission staff to date in this case, the 
+Forfeiture Order attempts to evade the N.A.L.’s obvious 
+error in precisely the fashion predicted by Applicant 
+Dunifer’s Reply.  At page four, the Forfeiture Order tacitly 
+admits that the N.A.L. improperly calculated the base 
+forfeiture amount, stating that, "The base amount for 
+operation without authorization in services other than 
+Broadcast, Cable or Common Carrier is $8,000."   The 
+Forfeiture Order’s less-than candid mea culpa continues:  
+"No matter how a "base amount" is determined, the Commission 
+staff has the discretion to adjust it upwards and downwards 
+within [the] statutory maximum upon articulable reason."   	
+	The Forfeiture Order, then, admits, without really so 
+stating, that the N.A.L. erred in calculating the base 
+forfeiture amount, but then argues that the error really 
+doesn’t matter, since the Commission has the authority to 
+set the forfeiture at whatever limit it chooses, within the 
+statutory limit.  Any fair reading of the N.A.L. cannot 
+avoid the conclusion that the Commission staff based the 
+forfeiture amount on one offense, and determined the amount 
+by reference to the BC/CABLE category.  The staff then 
+clearly adjusted the amount upward 100% due to the operation 
+being "intentional," and then downward 100% "because Stephen 
+P. Dunifer is an individual and has no history of past 
+violation."   The Forfeiture Order, in a blatantly result-
+oriented attempt to gloss over the error in the N.A.L. and 
+arrive at the same $20,000 figure, after admitting that the 
+base amount determined in the N.A.L. is fully $12,000 too 
+high, completely discards the N.A.L.’s upward and downward 
+mitigation analysis , and implicitly attempts to change the 
+basis of the forfeiture from one offense to two.
+	Even if the "Policy Statement" is to be applied in this 
+case, the Commission should not permit this manipulation of 
+the procedure by which the forfeiture amount is determined.  
+The Commission staff already determined that the appropriate 
+forfeiture amount in this case, after consideration of the 
+upward and downward adjustment criteria, was equal to the 
+Policy Statement’s "base amount."  Now, after being forced 
+to acknowledge the N.A.L.’s calculation error, the 
+Commission staff claims that the forfeiture amount should be 
+150% above the base amount.  Nothing about the offense or 
+the mitigation criteria has changed in the interim between 
+issuance of the N.A.L. and the Forfeiture Order.  There is 
+absolutely no basis for this increase, other than the 
+Commission staff’s desire to hit Applicant Dunifer with the 
+most severe fine within their power.   The amount assessed 
+by the Forfeiture Order, however, goes beyond even this 
+limitation.  Since the forfeiture here was clearly based 
+upon only one offense , the forfeiture amount assessed 
+violates even 47 U.S.C. §503(b)(2)(C). 
+	The obvious difficulties encountered by the Commission 
+staff in attempting to apply the "Policy Statement" to the 
+activities alleged in this case underscore the fundamental 
+problem here: the forfeiture amounts and analysis detailed 
+in the "Policy Statement" were simply never intended for 
+application to micro radio.  If any forfeiture at all is to 
+be levied in this case, it cannot exceed the $1000 amount 
+set out in Public Notice 2049. 
+
+V.	The Forfeiture Is Based Upon Unsubstantiated 
+Accusations With Insufficient Evidentiary Support.  
+	 Applicant Dunifer presented argument in this regard in 
+his Reply to the N.A.L., which is already before the 
+Commission.   While the Forfeiture Order purports to 
+respond to this argument, it fails to address the fact that 
+even assuming, arguendo, that the voice recorded by the 
+agents on one or both occasions is Applicant Dunifer's, this 
+is insufficient to prove that Applicant Dunifer was the 
+person broadcasting.  Broadcasters often employ pre-recorded 
+tapes of programming, prepared off-the-air at some earlier 
+date.  The F.C.C. has not brought forth any evidence which 
+demonstrates that the transmissions received by the 
+agent/investigators were "live" broadcasts.  The violation 
+alleged in the N.A.L. is the transmission of radio signals 
+without proper authority. Establishing the identity of the 
+individual who actually transmitted the signals is therefore 
+essential to sustaining the forfeiture order against 
+Applicant Dunifer, regardless of whether it was Applicant 
+Dunifer's voice being heard over the air.
+
+VI.	The Exception In 47 U.S.C. §503(B)(5) For Persons 
+"Engaging In Activities For Which A License, Permit 
+Certificate, Or Other Authorization Is Required" Does 
+Not Apply To Micro Radio Broadcasts.
+	The F.C.C.’s failure to comply with the citation, 
+notice, and opportunity for meeting provisions of 47 U.S.C. 
+§503(b)(5) and 47 C.F.R. §1.80(d) renders the N.A.L. and 
+subsequent Forfeiture Order in this case invalid.  Applicant 
+Dunifer presented argument in this regard in his Reply to 
+the N.A.L., which is already before the Commission. 
+
+VII.	(a)	The Commission’s Complete Prohibition Of Micro 
+Radio Exceeds The Federal Government’s Authority 
+Under The Commerce Clause
+	
+(b)	The Commission’s complete prohibition of micro 
+radio  Violates Micro Radio Broadcasters' And Their 
+Listeners' Right To Communicate Under The U.N. 
+Declaration Of Human Rights, The International 
+Covenant On Civil And Political Rights, And The 
+American Convention On Human Rights
+
+(c)	The Forfeiture Order In This Case Violates Due 
+Process And Equal Protection.
+	Applicant Dunifer presented argument on each of these 
+points in his Reply to the N.A.L., which is already before 
+the Commission.   Counsel believes that these issues have 
+been adequately briefed by Applicant Dunifer in these 
+arguments which are already part of the record.  However, 
+these arguments were largely ignored by the Commission’s 
+staff in the Forfeiture Order.  Counsel would ask that the 
+Commission provide a meaningful analysis and response to the 
+significant questions raised by these arguments.
+
+	CONCLUSION
+	The Forfeiture Order issued to Applicant Dunifer is 
+defective in numerous regards.  The F.C.C. has failed to 
+comply with its own procedures.  The forfeiture imposed is 
+grossly disproportionate, given Applicant Dunifer's income 
+and assets and the nature of the alleged offenses.  The 
+forfeiture is based upon unsubstantiated accusations with 
+insufficient evidentiary support.  More importantly, the 
+F.C.C. policies upon which the forfeiture is based 
+constitute prior restraint prohibited by the First 
+Amendment, and violate Due Process and Equal Protection in 
+that they discriminate against the poor and minorities, and 
+do not provide for adequate representation of counsel or 
+opportunity for a hearing or administrative review.  The 
+policies also exceed the F.C.C.'s constitutional authority, 
+and are inconsistent with the F.C.C.'s established 
+guidelines and function.  The Forfeiture Order should be 
+rescinded, and Applicant Dunifer should be granted 
+Commission authorization to engage in unlicensed 10 watt or 
+lower FM micro radio broadcasts that create no interference 
+with licensed or navigational broadcasts.
+
+						Respectfully Submitted,
+
+	
+							      		     	
+					Louis N. Hiken,
+						Attorney for Stephen P. 		
+					Dunifer
+ Forfeiture Order at p. 10.  
+ Perhaps the Forfeiture Order’s citation of both of these sections 
+constitutes  notification that either of these options is available to 
+Respondent Dunifer.  If so, we would respectfully suggest that future 
+notifications to Respondents regarding their rights of appeal be made in 
+a less obtuse fashion.
+ 47 C.F.R. §1.115.  The section also provides that an Application for 
+Review is a prerequisite to judicial review of any action taken pursuant 
+to delegated authority.  47 C.F.R. §1.115(k)  
+ 47 C.F.R. 1.106(a)(1).  It is unclear from the regulation’s language 
+who decides, and by what criteria the decision is made, which of these 
+government agents is to act upon a Petition for Reconsideration.
+ 47 C.F.R. §1.115(a) (emphasis added).
+ 47 C.F.R. 0.311(d)(1).
+ Forfeiture Order at p.10.
+ This summary is provided in accordance with 47 C.F.R. 1.49(c)
+ Hereinafter referred to as "Policy Statement."  While the 1993 "Policy 
+Statement" amends the 1991 version, none of the changes are relevant to 
+this case.
+ Forfeiture Order at pp. 3,6.
+ Forfeiture Order at p. 6.  The Forfeiture Order states that, "The 
+issue of First Amendment protections connected with the content of radio 
+transmissions is not germane to this proceeding. . . .indeed this stage 
+of the proceedings is not the forum to make such arguments."
+ Forfeiture Order pp. 4-6.
+ Compare N.A.L. at p. 2, paragraph 12, to Forfeiture Order, pp. 4-6.
+ Forfeiture Order, p.4.
+ Forfeiture Order, p.3.
+ Forfeiture Order at p.8.
+ Forfeiture Order at p.9.  The Forfeiture Order stated that, "This 
+stage of the instant proceedings is not the proper forum for arguing 
+alleged conflicts amongst provisions of international treaty obligations 
+and national regulatory statutes and regulations." 
+ Forfeiture Order at pp.7-8.
+ See Forfeiture Order, pp. 3, 6.
+ 47 C.F.R. §§ 73.211 et. seq., 73.511.
+ To the extent that any standards or procedures do exist 
+pertaining to the Commission’s suggestion that we request a rule 
+change or waiver, or that persons should apply for a license 
+despite the fact that they know they do not meet the regulatory 
+requirements, we would request at this time that the Commission 
+provide such standards or procedures to us, to guide us in 
+attempting to comply with the Commission’s suggestions.  
+ According to the Forfeiture Order’s argument, no court could ever hold 
+a law unconstitutional because one can always petition Congress to 
+change it.
+ Forfeiture Order, p. 3.
+ Sample form attached hereto and marked as Exhibit A.
+ Public Notice CRTC 1993-95, CRTC (1993), attached hereto and marked as 
+Exhibit B.
+ Report and Recommendations in the Low Power Television Inquiry, 
+Appendix 1 (BC Docket No. 78-253).  
+ Reply, pp. 4-7, paragraph number 3(a)
+ Forfeiture Order, p.5.
+ See the N.A.L. at p. 2, paragraph 12.
+ See argument at pp. 14-17, below.
+ Reply at pp. 5-6.
+ As to the Forfeiture Order’s accusation that Counsel is guilty of 
+"attempting to give micro power broadcasts a cachet of respectability" 
+by so characterizing the activity, we would refer the Commission to the 
+recent Order filed by the Ninth Circuit Court of Appeals in Dougan v. 
+F.C.C. (93-55433, DC No. CV-91-06431-RG, Order filed November 23, 1993), 
+in which the Court itself refers to "micro power broadcasts."  Rather 
+than being a cachet, micro radio constitutes a legitimate vehicle for 
+democratic communication in this country; one which the F.C.C. should be 
+eager to embrace.  
+ Reply, pp. 7-10, paragraph number 3(b).
+ Reply, pp. 7-8.
+ Ibid.
+ Ibid.
+ Id., at note 4.
+ Ibid.
+ Forfeiture Order at p. 4.  Compare to the N.A.L. at p. 2, paragraph 
+12.
+ Forfeiture Order at p. 4.
+ N.A.L., at p. 2, paragraph 12.
+ The Forfeiture Order, after determining a base amount of $8000, 
+adjusts this amount upward by $12,000 (150%), and maintains that no 
+downward adjustment whatsoever is warranted.
+ The Forfeiture Order’s upward and downward mitigation analysis, in 
+addition to being clearly result-oriented, raises new factual 
+allegations never before presented to Counsel for Applicant, and for 
+which absolutely no factual basis exists in the record before the 
+Commission.  (See Forfeiture Order at p. 5, third full paragraph.)  
+Furthermore, the Forfeiture Order’s mitigation analysis improperly 
+weighs what it terms a "major confrontation to the regulatory authority 
+of the Commission."   The Forfeiture Order’s assertion that confronting 
+the regulatory authority of the Commission is enough alone to render an 
+offense "egregious" and incapable of being considered "minor" has 
+absolutely no support whatsoever in either the "Policy Statement" nor 
+its legislative history.  The obviously affronted tone of this argument 
+suggests that the Commission staff who authored the Forfeiture Order 
+have taken personal offense at Applicant Dunifer’s activities, and are 
+manipulating these forfeiture procedures to wage an improper vendetta 
+against  him. 
+ See the N.A.L. at p. 2, paragraph 12.
+ Reply, pp. 3-4.
+ Reply, pp. 1-2, note 2.
+ Those arguments appear, respectively, at Reply, p.12, paragraph number 
+6; pp.12-13, paragraph number 7; pp. 11-12, paragraph number 5
+
+	1
+
+	1
+
+	1
+
+	1
+
+

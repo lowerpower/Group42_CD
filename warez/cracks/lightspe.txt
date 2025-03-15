@@ -1,0 +1,13 @@
+Crack> LIGHTSPEED By Microprose
+crack written by anonymous
+
+File         : lightspd.ovl
+Search For   : A372A1833EBFE3007419509ADA
+Replace With : A372A1833EBFE300EB19509ADA
+                               --
+File         : lightspd.ovl
+Search For   : 9A021A2011EBF9   (Repeat proccess 13 times)
+Replace With : EB039090909090
+               --------------
+Notes : Disables the password protection.
+        You will no longer be prompted for a password.

@@ -1,0 +1,49 @@
+MEI CT3000
+
+NOTES:  This is a dual NAM unit.
+        The ESN prefix is 167 decimal, A7 hex.
+        Monsor Electronics: 416-475-8444
+
+PROGRAMING:
+
+1.  Turn power on & wait for "READY" to be displayed.
+
+2.  Enter 1 2 3 5 8 * 0 # 9 8 0 #.
+
+3.  The phone will display "Tst id>1", press 1 to access programing
+    mode, or any other key to abort.
+
+4.  The phone will display "NAM id>N" where N is the NAM number.
+
+5.  Press 1 or 2 to select the NAM you wish to program.
+
+6.  The * key is used to store each item and increment the step number.
+
+7.  Having entered all new data press END when phone displays "Tst id>1"
+    to exit and complete programing.  You may also press 1 to revert to
+    step 4 above.
+
+PROGRAMING DATA:
+
+STEP#    #OF DIGITS/RANGE    DISPLAY        DESCRIPTION
+
+01       0000 - 32767        SIDH           SYSTEM ID
+02       0 OR 1              LU             LOCAL USE MARK
+03       0 OR 1              MIN            MIN MARK
+04       10 DIGITS                          MIN (AREA CODE & TEL#)
+05       2 DIGITS            SCM            STATION CLASS MARK
+06       333 OR 334          IPCH           INITIAL PAGING CHANNEL
+07       2 DIGITS            ACCOLC         ACCESS OVERLOAD CLASS
+08       0 OR 1              PS             PREFERRED SYSTEM (0=B, 1=A)
+09       2 DIGITS            GIM            GROUP ID (10 IN USA)
+10       3 DIGITS            LOCK           LOCK CODE
+11       0 OR 1              EE             TRANSMIT DTMF (END TO END)
+12       0 OR 1              REP            REPERTORY DIALING
+13       O OR 1              HA             HORN ALERT
+14       0 OR 1              HF             HANDS FREE
+15       3 DIGITS            SCRT           CALL RESTRICTION CODE
+
+
+LOCK: F 7. UNLOCK: Enter three digit code.
+
+SYSTEM SELECT: F 0 to display, RCL to scroll, STO to store.

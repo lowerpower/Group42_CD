@@ -1,0 +1,43 @@
+IndyCar Racing
+Game Crack
+============================================================================
+Info/Comments: CSCHRAME@SILVER.UCS.INDIANA.EDU
+============================================================================
+
+ICRCRACK.TXT ==========
+
+Unprotect for Papyrus Indycar Racing Version 1.04 (Modem
+Update)
+
+WARNING!!
+
+This information is only to be used by legal owners of Indycar
+Racing. It should not be used to pirate the program.
+
+The patch will cause the same word to be requested every time.
+The word is not listed here, since any legal owner has the
+manual and certainly wouldn't mind looking up just one more
+word. Right? Please do not post the word or give it out to
+people not owning the game.
+
+The patch most likely will not work on any other version. And
+all bets are off if the size, date and CRC do not match what's
+listed below.
+
+---------------------------------------------------------
+Papyrus Indycar Racing version 1.04 (Modem Update)
+
+FILE TO SEARCH: INDYCAR.EXE ORIGINAL FILE SIZE: 742377 DATE:
+04-05-94 CRC-32: (from PKUNZIP -v icr104.zip) 1FF74829
+
+SEARCH STRING: E8 EA E1 FD FF CHANGE TO:        B8 04 04 00 00
+
+SEARCH STRING: E8 5C 5F FE FF CHANGE TO:        B8 04 04 00 00
+---------------------------------------------------------
+
+
+
+
+
+
+

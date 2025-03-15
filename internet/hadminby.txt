@@ -1,0 +1,1249 @@
+            DDN HOST ADMINISTRATORS                             11-Oct-95
+HOST NAME              HOST ADDRESS        HOST ADMINSTRATOR
+RHE-EDS.AF.MIL             26.3.0.1     Phillips, Richard
+                                        (No Mailbox Given)
+EMMC.DDN.MIL               26.0.0.2     Moore, Richard W.
+                                        (rmoore@FRG.BBN.COM)
+PATCH.MT.DDN.MIL           26.1.0.2     See MIL-NSC.TXT
+EMMC2.DDN.MIL              26.2.0.2     Moore, Richard
+                                        (No Mailbox Given)
+STUTTGART-GW1.ARMY.MIL     26.4.0.2     Green, Charles L.
+                                        (mmdf@EMAIL.MOEHRINGEN.ARMY.MIL)
+DDN-EUR.DDN.MIL            26.7.0.2     Miller, Gary D.
+                                        (adm@DDN-EUR.DDN.MIL)
+VHN-PCC.ARMY.MIL           26.13.0.2    Klein, Nancy
+                                        (No Mailbox Given)
+FRG.BBN.COM                26.15.0.2    Wilmot, Clive H.
+                                        (cwilmot@BBN.COM)
+BBL-ERF.ARMY.MIL           26.16.0.2    Houchin, Lee
+                                        (LHOUCHIN@EURU1-GW.DCA.MIL)
+PATCH2.MMT.DDN.MIL         26.18.0.2    See MIL-NSC.TXT
+PATCH-GW.EUCOM.MIL         26.19.0.2    Dyer, Cecil A.
+                                        (dyerc@HQ.EUCOM.MIL)
+VAIHINGEN1-MPRJSS.ARMY.MIL 26.24.0.2    Shaheen, Richard
+                                        (No Mailbox Given)
+COMSTATE-EUR-TST.DDN.MIL   26.25.0.2    Moore, Richard
+                                        (No Mailbox Given)
+SUN-EMMC.DDN.MIL           26.27.0.2    Gress, Rob
+                                        (rgress@FRG.BBN.COM)
+IPR-VHN-GW.DISA.MIL        26.31.0.2    Kloss, Randolph W.
+                                        (rkloss@FRG.BBN.COM)
+SANDIEGO.MT.DDN.MIL        26.0.0.3     See MIL-NSC.TXT
+NOSC-GW.NOSC.MIL           26.1.0.3     Broersma, Ronald L.
+                                        (ron@NERF.NOSC.MIL)
+NAVELEXNET-SD.NAVY.MIL     26.7.0.3     Conklin, Steve G.
+                                        (conklinsg@NISEWEST.NOSC.MIL)
+SIMASD-GW.NAVY.MIL         26.27.0.3    Deitch, Jim
+                                        (deitch@RSG.SAN.MRMS.NAVY.MIL)
+PENDLETON.OGDEN.DRMO.DLA.MIL 26.28.0.3  Kottke, James
+                                        (jkottke@PACIFIC.DRMS.DLA.MIL)
+CAMPBELL-BKS.MT.DDN.MIL    26.1.0.4     See MIL-NSC.TXT
+DDGG.DLA.MIL               26.4.0.4     Gablitzka, Jutta R.
+                                           (jgablitzka@GERMERSH.DSRE.DLA.MIL)
+HEIDELBERG-GW1.ARMY.MIL    26.5.0.4     Pitts, Wyman
+                                        (pitts@HEIDELBERG-EMH2.ARMY.MIL)
+SCHWETZINGEN.MMT.DDN.MIL   26.06.0.4    See MIL-NSC.TXT
+BDKRZNCH.MMT.DDN.MIL       26.6.0.4     See MIL-NSC.TXT
+MANNHEIM-GW1.ARMY.MIL      26.10.0.4    O'Brien, Jo ANN
+                                        (OBRIENJ@WORMS-EMH3.ARMY.MIL)
+HDG-PCC.ARMY.MIL           26.14.0.4    Graff, Jerry
+                                        (NSC-HEIDELBERG@EUR.DISA.MIL)
+ROTTERDM-GATEWAY.ARMY.MIL  26.14.0.5    Scarlett, Thomas
+                                        (scarlett@RDM-LINK.EUCOM.MIL)
+ROTTERDAM.MT.DDN.MIL       26.0.0.6     See MIL-NSC.TXT
+MAASLAND-CAMS.AF.MIL       26.6.0.6     Vissers, Rigo
+                                        (No Mailbox Given)
+SCHINNEN-GW1.ARMY.MIL      26.14.0.6    Winfred, Shelton
+                                        (No Mailbox Given)
+RDM-LINK-GW.EUCOM.MIL      26.17.0.6    Archibald, Robert C.
+                                        (archibar@RDM-LINK.EUCOM.MIL)
+ROTTERDM-GATEWAY.ARMY.MIL  26.18.0.6    Scarlett, Thomas
+                                        (scarlett@RDM-LINK.EUCOM.MIL)
+WNYSAMIS.NAVY.MIL          26.11.2.8    Williamson, Van
+                                        (No Mailbox Given)
+SIGONELLA.MT.DDN.MIL       26.0.0.9     See MIL-NSC.TXT
+SIGONELLA-MEASURE.NAVY.MIL 26.5.0.9     Starks, Robert M.
+                                        (rstarks1@SIGONELLA-MEASURE.NAVY.MIL)
+SIG-NCPDS.NAVY.MIL         26.6.0.9     Edwards, Maria
+                                        (No Mailbox Given)
+SIGONELL-PASS.SDS.NAVY.MIL 26.8.0.9     Richards, Robert W.
+                                        (No Mailbox Given)
+ROTA.MT.DDN.MIL            26.0.0.10    See MIL-NSC.TXT
+ROTA-PASS.SDS.NAVY.MIL     26.4.0.10    Laynez, Maria T.
+                                        (No Mailbox Given)
+ROTA-MEASURE.NAVY.MIL      26.5.0.10    Dighello, Robert M.
+                                        (bobbyd@ROTA-MEASURE.NAVY.MIL)
+ROTA-NCPDS.NAVY.MIL        26.6.0.10    Johnson, Estella C.
+                                        (No Mailbox Given)
+MORON-GW.AF.MIL            26.7.0.10    Wildridge, Joseph P.
+                                        (600lgu@TJ.AF.MIL)
+LERT-GW.NAVY.MIL           26.8.0.10    Alongi, James
+                                        (alongi@LERT.NAVY.MIL)
+ROTA.EUROPE.DRMS.DLA.MIL   26.9.0.10    Robinson, Larry
+                                           (sq3a005@ROTA.EUROPE.DRMS.DLA.MIL)
+ROTA-BUMED.NAVY.MIL        26.10.0.10   Bunch, Cameron David
+                                        (rth1cdb@RTH10.MED.NAVY.MIL)
+ROTA-GW.NAVY.MIL           26.17.0.10   Smith, Robert A.
+                                        (NSC-RTA@DDN-EUR.DDN.MIL)
+VICENZA.MT.DDN.MIL         26.0.0.12    See MIL-NSC.TXT
+AVIANO-GW.AF.MIL           26.4.0.12    Holt, Matthew W.
+                                        (scpu@CS.AVI.AF.MIL)
+VICENZA-MRPJSS.ARMY.MIL    26.5.0.12    Dunn, Edward F.
+                                        (dunne@EMAIL.VICENZA.ARMY.MIL)
+VICENZA-GW1.ARMY.MIL       26.10.0.12   Beck, Julie
+                                        (NSC-VICENZA@EURU1-GW.DISA.MIL)
+VIC-PCC.ARMY.MIL           26.11.0.12   Nobile, Mark
+                                        (mnobile@ACCHOST.ACC.AF.MIL)
+GUNTER.MT.DDN.MIL          26.0.0.13    See MIL-NSC.TXT
+HRC-IRIS.AF.MIL            26.12.0.13   Dean, Tom
+                                        (histom@HRC-IRIS.AF.MIL)
+FTRUCKER-GW.ARMY.MIL       26.17.0.13   Shirley, Tony
+                                        (SHIRLEYT@RUCKER-EMH3.ARMY.MIL)
+GUNTER-IP.DDN.MIL          26.24.0.13   Wilson, Thomas C.
+                                        (gunter@SERVER.AF.MIL)
+AFINCC-GW.AF.MIL           26.26.0.13   Henderson, Paul
+                                        (henderson@DDN.AF.MIL)
+LANDSTUHL1-MPRJSS.ARMY.MIL 26.6.0.14    Cross, Connie
+                                        (No Mailbox Given)
+BAUMHLDR-GW1.ARMY.MIL      26.7.0.14    Woody, Fitzhugh M.
+                                        (cdoim@EMAIL.BAUMHOLDER.ARMY.MIL)
+DMAOE.DMA.MIL              26.8.0.14    Pokoj, Larry E.
+                                        (LPOKOJ@DMAOE.DMA.MIL)
+DMSSCE-GW.MED.OSD.MIL      26.9.0.14    Anderson, Glenn R.
+                                        (ganderso@ESOSVR.MED.OSD.MIL)
+PIRMASENS-GW1.ARMY.MIL     26.10.0.14   Hingst, Paul
+                                        (hingst@PIRMASENS-EMH1.ARMY.MIL)
+WORMS-GW1.ARMY.MIL         26.11.0.14   Funk, Bruce D.
+                                        (funkb@WORMS-GIIS.ARMY.MIL)
+DMAOE.DMA.MIL              26.12.0.14   Pokoj, Larry E.
+                                        (LPOKOJ@DMAOE.DMA.MIL)
+BAUMHLDR.MMT.DDN.MIL       26.13.0.14   See MIL-NSC.TXT
+LANDSTUHL1-MPRJSS.ARMY.MIL 26.16.0.14   Cross, Connie
+                                        (No Mailbox Given)
+LANDSTHLT20.DDN.MIL        26.17.0.14   Crawford, Lucin F.
+                                        (nsc-ldl@DDN-EUR.DDN.MIL)
+IPR-LDL-GW.DISA.MIL        26.31.0.14   Forbes, Eric
+                                        (NSC-LDL@DDN-EUR.DDN.MIL)
+RAMSTEIN.MT.DDN.MIL        26.0.0.15    See MIL-NSC.TXT
+EU-GW.DECA.MIL             26.4.0.15    Wright, George E., PE
+                                        (wrightg@PENTAGON-DACH.ARMY.MIL)
+NCTSL-GW.NAVY.MIL          26.5.0.15    Talley, Thomas A.
+                                        (talleyt@POST.NCTSL.NAVY.MIL)
+NATO-E3A-GK.AF.MIL         26.6.0.15    Huizinga, Gerard
+                                        (ddnimp@RAMSTEIN.AF.MIL)
+CHIEVRES-GW1.ARMY.MIL      26.7.0.15    Lalonde, Joseph Raymond, Mr.
+                                        (RSC1@EMAIL.CHIEVRES.ARMY.MIL)
+KSRSLTRN-TCACCIS.ARMY.MIL  26.11.0.15   Manson, Dave
+                                       (PATB01%TMAC@DFRANKFURT-EMH1.ARMY.MIL)
+RAMSTEIN1-GW.AF.MIL        26.17.0.15   Pedersen, Dale R.
+                                        (86CGTCF@RAMSTEIN.AF.MIL)
+MOFFETT.MT.DDN.MIL         26.0.0.16    See MIL-NSC.TXT
+AMES-IP.DDN.MIL            26.19.0.16   Cassell, James D.
+                                        (JCASSELL@DSAC.DLA.MIL)
+GRIFFISS.MT.DDN.MIL        26.0.0.18    See MIL-NSC.TXT
+HILL.MT.DDN.MIL            26.0.0.20    See MIL-NSC.TXT
+MCCLELLAN.MT.DDN.MIL       26.0.0.22    See MIL-NSC.TXT
+AFLC-SM-DMMIS.AF.MIL       26.7.0.22    Lumsden, Charles A.
+                                        (McClellan@SERVER.AF.MIL)
+TASA1.ARMY.MIL             26.8.0.22    Rogers, Ken
+                                        (mntmpa30@SAAD-EMH1.ARMY.MIL)
+SIERRA-GW1.ARMY.MIL        26.10.0.22   McKeown, Mike
+                                        (MMCKEOWN@SIERRA-EMH.ARMY.MIL)
+MCCLELLAN-GW.AF.MIL        26.17.0.22   Rodriguez, Augustine N.
+                                        (McClellan@SERVER.AF.MIL.)
+MCCLELLANT20.DDN.MIL       26.29.0.22   Gritsavage, Daniel A.
+                                        (grits1@MACTCF.AF.MIL)
+JOHNSVILLE.MT.DDN.MIL      26.0.0.24    See MIL-NSC.TXT
+DMADP.DMA.MIL              26.7.0.24    Caswell, William H.
+                                        (WCASWELL@DMACSC.DMA.MIL)
+CSC3.DMA.MIL               26.8.0.24    Clifford, Philip
+                                        (PCLIFFORD@DMADP.DMA.MIL)
+NAPC-GW.NAVY.MIL           26.9.0.24    Wible, George David, Jr.
+                                        (WIBLED@NAPC-1.NAVY.MIL)
+AYDIN1.DISA.MIL            26.10.0.24   McCaffrey, Tom
+                                        (No Mailbox Given)
+PHLASO.NAVY.MIL            26.11.0.24   Jadus, Michael J.
+                                        (Jadus@HAWKEYE.ASO.NAVY.MIL)
+JOHNSVILLET20.DDN.MIL      26.18.0.24   Boyer, Ronald M.
+                                        (BOYERRM%WAR2@MR.NADC.NAVY.MIL)
+WARMINSTER-GW1.NAVY.MIL    26.24.0.24   Boyer, Ronald M.
+                                        (BOYERRM%WAR2@MR.NADC.NAVY.MIL)
+CROUGHTON.MT.DDN.MIL       26.0.0.25    See MIL-NSC.TXT
+UPPERHEYFORD-GW.AF.MIL     26.6.0.25    Beien, Richard E.
+                                        (UPPERHEYFORD@SERVER.AF.MIL)
+PENTAGON.MT.DDN.MIL        26.0.0.26    See MIL-NSC.TXT
+BELVOIR-GW3.ARMY.MIL       26.5.0.26    Brubaker, Robert
+                                        (RBRUBAKER@BELVOIR.ARMY.MIL)
+DIPC-DAO.DIPCW.DISA.MIL    26.8.0.26    Morales, Lydia
+                                        (root@DNS.DIPCW.DISA.MIL)
+SCREEN.ARPA.MIL            26.10.0.26   Lemberos, Nick
+                                        (NLEMBEROS@ARPA.MIL)
+NAVELEXNET-CRYSTAL.NAVY.MIL 26.12.0.26  Watson, Phil
+                                        (No Mailbox Given)
+OSI-GW.DISA.MIL            26.13.0.26   Cox, Curtis W.
+                                        (ccox@WNYOSI7.NCTSW.NAVY.MIL)
+DODDS-WASH.AF.MIL          26.14.0.26   Nguyen, Teresa O.
+                                        (tnguyen@DODDS-WASH.AF.MIL)
+SDS-FEPWASH.NAVY.MIL       26.15.0.26   Weaver, Jay
+                                        (No Mailbox Given)
+OSLO-AM1.AF.MIL            26.4.0.27    Smith, Donald T.
+                                        (No Mailbox Given)
+DMRIS-KEFLAVIK.NAVY.MIL    26.8.0.27    Kasten, Robert
+                                        (No Mailbox Given)
+ELMENDORF.MT.DDN.MIL       26.0.0.28    See MIL-NSC.TXT
+FTRCRDSN-MPRJSS.ARMY.MIL   26.5.0.28    Brady, Raymond E.
+                                        (No Mailbox Given)
+RICHARDSON-GW1.ARMY.MIL    26.16.0.28   Miller, Jack E. L.
+                                           (millerj@RICHARDSON-EMH2.ARMY.MIL)
+ABERDEEN.MT.DDN.MIL        26.0.0.29    See MIL-NSC.TXT
+ARL.ARMY.MIL               26.2.0.29    Sporay, Ralph J.
+                                        (sporay@ARL.ARMY.MIL)
+ARL.ARMY.MIL               26.3.0.29    Sporay, Ralph J.
+                                        (sporay@ARL.ARMY.MIL)
+APGEA-GW1.ARMY.MIL         26.8.0.29    Amos, Robert E.
+                                        (amos@APGEA.ARMY.MIL)
+ABERDEENT20.DDN.MIL        26.17.0.29   Amerg, Sharon L.
+                                        (amerg@ARL.MIL)
+APG-GW.ARMY.MIL            26.19.0.29   Chatham, Larry R.
+                                        (lchatha@APG.ARMY.MIL)
+CNET-NORWOO0016.NAVY.MIL   26.27.0.31   Ray, Dave
+                                        (No Mailbox Given)
+MCPHERSON.MT.DDN.MIL       26.0.0.37    See MIL-NSC.TXT
+SORAAA.ARMY.MIL            26.11.0.37   Morris, Michael T.
+                                        (srmtm@SORAAA.ARMY.MIL)
+FTGORDON-JTELS.ARMY.MIL    26.13.0.37   Black, John
+                                        (BLACKJ@INDPLS-ASAFM1.ARMY.MIL)
+DOBBINS-GW.AF.MIL          26.24.0.37   Cottrell, Rex W.
+                                        (No Mailbox Given)
+FTMCPHERSONT20.DDN.MIL     26.29.0.37   Dunbar, James
+                                        (No Mailbox Given)
+GREAT-LAKES.MT.DDN.MIL     26.0.0.38    See MIL-NSC.TXT
+CNET-GRLP0210.NAVY.MIL     26.6.0.38    Drabek, Barbara
+                                        (No Mailbox Given)
+NETPMSA-GTLAKES3.NAVY.MIL  26.11.0.38   Carlton, Harry
+                                        (MIISA@USNA.USNA.NAVY.MIL)
+ROCKI-GW1.ARMY.MIL         26.26.0.38   Taylor, Dana
+                                        (DTAYLOR@RIA-EMH1.ARMY.MIL)
+GREATLAKES-GW1.ARMY.MIL    26.28.0.38   Prather, Lew
+                                        (lew@MEPCOM-SMTP.ARMY.MIL)
+HCGL1-GW.NAVY.MIL          26.30.0.38   Greunke, Steve C.
+                                        (STEVE.GREUNKE@NCTS.NAVY.MIL)
+EDWARDS.MT.DDN.MIL         26.0.0.39    See MIL-NSC.TXT
+REDSTONE.MT.DDN.MIL        26.0.0.41    See MIL-NSC.TXT
+REDSTONE-GW1.ARMY.MIL      26.26.0.41   Hussey, Linda A.
+                                        (nsc@REDSTONE-EMH2.ARMY.MIL)
+REDSTONET20.DDN.MIL        26.29.0.41   Hussey, Linda A.
+                                        (nsc@REDSTONE-EMH2.ARMY.MIL)
+REDSTONE-GW2.ARMY.MIL      26.30.0.41   Hussey, Linda A.
+                                        (nsc@REDSTONE-EMH2.ARMY.MIL)
+RAMSTEIN2-EMH.AF.MIL       26.3.0.42    Murphy, Brian S.
+                                        (murph@USAFERAM.AF.MIL)
+MTF-HQ.AF.MIL              26.14.0.42   Anderson, Capt.
+                                        (No Mailbox Given)
+SHAFTER.MT.DDN.MIL         26.0.0.43    See MIL-NSC.TXT
+PEPO41.ARMY.MIL            26.6.0.43    Karasuda, Nancy M.
+                                        (karasudn@SHAFTER-EMH3.ARMY.MIL)
+FTSNIPR.DISA.MIL           26.15.0.43   Munoz, Daniel D.
+                                        (munozd@SHAFTER-EMH3.ARMY.MIL)
+SHAFTER-GW1.ARMY.MIL       26.19.0.43   Karasuda, Nancy M.
+                                        (karasudn@SHAFTER-EMH3.ARMY.MIL)
+DFAS-PAC.ARMY.MIL          26.31.0.43   Forgey, Wesley
+                                        (No Mailbox Given)
+ORLANDO.MT.DDN.MIL         26.0.0.44    See MIL-NSC.TXT
+NTSC-IELN-GW.NAVY.MIL      26.29.0.44   Lang, Allan L., Dr.
+                                        (lang@MISVAX.NTSC.NAVY.MIL)
+NTSC-RD.NAVY.MIL           26.30.0.44   Giambarberee, Sam T.
+                                        (SYSTEM@NTSC-RD.NAVY.MIL)
+DOVERNJ.MT.DDN.MIL         26.0.0.45    See MIL-NSC.TXT
+PICATINNY-GW1.ARMY.MIL     26.31.0.45   Allstaedt, William R.
+                                        (wallst@PICA.ARMY.MIL)
+DSACS08.ARMY.MIL           26.5.0.46    Davis, Billy J.
+                                        (DAVISB2@LEE-EMH2.ARMY.MIL)
+WRIGHTPAT.MT.DDN.MIL       26.0.0.47    See MIL-NSC.TXT
+WRIGHTPATT-1T20.DDN.MIL    26.17.0.47   Bennett, Andre M.
+                                        (nsc@WPDIS01.WPAFB.AF.MIL)
+ALEXANDRIA.MT.DDN.MIL      26.0.0.50    See MIL-NSC.TXT
+DTIC-GW.DTIC.DLA.MIL       26.4.0.50    Horgan, Janice F.
+                                        (jhorgan@DTIC.DLA.MIL)
+NGBISA1-GW.ARMY.MIL        26.6.0.50    Crockett, David H.
+                                        (davy@PENT-NGNET.ARMY.MIL)
+FLSCHRCH-GW1.ARMY.MIL      26.8.0.50    Hogue, David A.
+                                        (hogued@FAIRFAX-EMH1.ARMY.MIL)
+ONR-HQ.NAVY.MIL            26.11.0.50   Bailey, James J., Jr.
+                                        (BAILEY@ONR-HQ.NAVY.MIL)
+RIYADH-GW1.ARMY.MIL        26.12.0.50   Curtis, Michelle J.
+                                        (curtism@WORMS-EMH6.ARMY.MIL)
+HOFFMAN-MIL-80X-GW.ARMY.MIL 26.16.0.50  Wilkins, Shirley J.
+                                        (wilkinss@HOFFMAN-EMH1.ARMY.MIL)
+ALEX-GW1.ARMY.MIL          26.29.0.50   Biederman, Fred A.
+                                          (fbiederm@ALEXANDRIA-EMH1.ARMY.MIL)
+RANDOLPH2.MT.DDN.MIL       26.0.0.51    See MIL-NSC.TXT
+RANDOLPH-PIV-1.AF.MIL      26.4.0.51    Manis, George R.
+                                        (DOUAS01@RANDOLPH-PIV-3.AF.MIL)
+RANDOLPH3.MT.DDN.MIL       26.0.0.52    See MIL-NSC.TXT
+EGLIN.MT.DDN.MIL           26.0.0.53    See MIL-NSC.TXT
+EGLINT20.DDN.MIL           26.19.0.53   Bradley, Dale M.
+                                        (BRADLEYD@EGLIN.AF.MIL)
+DETRICK.MT.DDN.MIL         26.0.0.54    See MIL-NSC.TXT
+FTDETRCK-GW1.ARMY.MIL      26.4.0.54    orndorff III, George E., mr
+                                        (geo@DETRICK-HSC.ARMY.MIL)
+KUWAIT-GW1.ARMY.MIL        26.9.0.54    Munoz, Joe D.
+                                        (joe572@EMH1.KUWAIT.ARMY.MIL)
+MOBILE-GW1.ARMY.MIL        26.10.0.54   Fogle, Anthony E.
+                                        (AINETMGR@HUACHUCA-GIIS.ARMY.MIL)
+GW-DETRICK1.DISA.MIL       26.17.0.54   King, John W.
+                                        (KINGJ@DETRICK.DISA.MIL)
+DETR-IP.DDN.MIL            26.29.0.54   Fredenburg, Chris E., Ms.
+                                        (cfredenburg@DSAC.DLA.MIL)
+FTDETRICKT20.DDN.MIL       26.30.0.54   Rulo, Thomas E.
+                                        (No Mailbox Given)
+SCOTT.MT.DDN.MIL           26.0.0.59    See MIL-NSC.TXT
+DECCO.DISA.MIL             26.7.0.59    Haskins, Linda
+                                        (HASKIN2L@CC.IMS.DISA.MIL)
+SPRNGFLD-GW.ARMY.MIL       26.8.0.59    Heren, Timothy C.
+                                        (tcheren@IL-NGNET.ARMY.MIL)
+DECCO-DOLS.DISA.MIL        26.9.0.59    Haskins, Linda
+                                        (HASKIN2L@CC.IMS.DISA.MIL)
+DMCSG1.STL.DISA.MIL        26.12.0.59   Hooker, Glenn C.
+                                        (ghooker@DMC-EMH1.STL.DISA.MIL)
+STLOUIS-GW2.ARMY.MIL       26.13.0.59   Conard, Christie A.
+                                        (CONARD@ST-LOUIS-EMH4.ARMY.MIL)
+MONMOUTH.MT.DDN.MIL        26.0.0.60    See MIL-NSC.TXT
+SENECA-GW1.ARMY.MIL        26.7.0.60    Restey, Carol C.
+                                        (i3ccr@SENECA-EMH.ARMY.MIL)
+BAYONNE-GW1.ARMY.MIL       26.10.0.60   Gratz, Steve
+                                        (gratz@BAYONNE-EMH2.ARMY.MIL)
+LAKEHURST1-GW.NAVY.MIL     26.18.0.60   VanHise, Girard
+                                        (jvh@LAKEHURST1.NAVY.MIL)
+LAKEHURST2.NAVY.MIL        26.19.0.60   VanHise, Girard
+                                        (jvh@LAKEHURST1.NAVY.MIL)
+SAINT-LOUIS.MT.DDN.MIL     26.0.0.61    See MIL-NSC.TXT
+DMAAC-PHIV.DMA.MIL         26.4.0.61    Parker, Paul
+                                        (Paul.Parker@CS.CMU.EDU)
+DMAACGAD.DMA.MIL           26.5.0.61    Caswell, William H.
+                                        (WCASWELL@DMACSC.DMA.MIL)
+PINEBLFF-GW1.ARMY.MIL      26.11.0.61   Adkins, Carmen H.
+                                        (carmen_adkins@PBA-EMH1.ARMY.MIL)
+STLOUIS-GW3.ARMY.MIL       26.13.0.61   Leach, John N.
+                                        (TL226HV@ARPSTL-80X.ARMY.MIL)
+DMAAC-DDMS.DMA.MIL         26.14.0.61   Brucker, Armand
+                                        (No Mailbox Given)
+ST-LOUIS-GW.ARMY.MIL       26.18.0.61   Conard, Christie A.
+                                        (CONARD@ST-LOUIS-EMH4.ARMY.MIL)
+SIMALB-GW.NAVY.MIL         26.16.0.63   Burton, Fletcher E., Jr.
+                                           (cnsl432a65@PERA18.SPEAR.NAVY.MIL)
+EL-SEGUNDO.MT.DDN.MIL      26.0.0.65    See MIL-NSC.TXT
+CHARM.ISI.EDU              26.11.0.65   Johnson, Ethel M.
+                                        (registrar@NIC.DDN.MIL)
+EL-TORO.OGDEN.DRMS.DLA.MIL 26.13.0.65   Hall, Sidney
+                                        (No Mailbox Given)
+LPA024.NAVY.MIL            26.16.0.65   Hunt, Elbert
+                                        (No Mailbox Given)
+ELSEGUNDOT20.DDN.MIL       26.29.0.65   Shamonsky, Victor P.
+                                        (losangeles@SERVER.AF.MIL)
+EL-SEGUNDO-IP.DDN.MIL      26.31.0.65   Rodriguez, Rene
+                                        (rrodrigu@EMH.KUNSAN.AF.MIL)
+ANDREWS.MT.DDN.MIL         26.0.0.67    See MIL-NSC.TXT
+PEOCU-GW.PEOCU.NAVY.MIL    26.4.0.67    Kline, Jan A.
+                                        (kline@PEOCU1.PEOCU.NAVY.MIL)
+NAVELEXNET-WARD.NAVY.MIL   26.8.0.67    Canterbury, Kenneth J.
+                                        (No Mailbox Given)
+NHIS.NCTSW.NAVY.MIL        26.9.0.67    Shaw, Claudell
+                                        (ncts232cs@NHIS.NAVY.MIL)
+OSI-GW.DISA.MIL            26.14.0.67   Cox, Curtis W.
+                                        (ccox@WNYOSI7.NCTSW.NAVY.MIL)
+SDS-CDA1.NAVY.MIL          26.16.0.67   Walton, William John
+                                        (WJW@SDS-CDA2.NAVY.MIL)
+CMSC.DDN.MIL               26.0.0.70    Martinez, Patty
+                                        (PMartinez@DDN-CONUS.DDN.MIL)
+NBS-ONET.NAVY.MIL          26.7.0.70    Thaxton, Dennis W.
+                                        (thaxton@NBS-ONET.NAVY.MIL)
+NAVYYARD-ONET.NAVY.MIL     26.8.0.70    Reddan, Carolyn
+                                        (No Mailbox Given)
+CMMC-BBN.DDN.MIL           26.18.0.70   Eason, Michael
+                                        (MEason@BBN.COM)
+CMMC-IPR.DDN.MIL           26.29.0.70   Martinez, Patty
+                                        (PMartinez@DDN-CONUS.DDN.MIL)
+MCT20.DDN.MIL              26.30.0.70   McDaniel, Rodney A.
+                                        (mcdanier@CC.IMS.DISA.MIL)
+TINKER.MT.DDN.MIL          26.0.0.71    See MIL-NSC.TXT
+EDCARS-OC.AF.MIL           26.6.0.71    Turner, Lionel
+                                        (No Mailbox Given)
+VANCE-GW.AF.MIL            26.11.0.71   Staton, Diana G.
+                                        (vance@VNC3B201.AF.MIL)
+DISG1.TINKER.AF.MIL        26.15.0.71   McFarland, Mike
+                                        (mcfarlan@OCDIS01.OC.AFLC.AF.MIL)
+BBN-MIL-GW2.DDN.MIL        26.12.0.72   Cassidy, Nancy P.
+                                        (ncassidy@BBN.COM)
+BBNT20.DDN.MIL             26.18.0.72   Cassidy, Nancy P.
+                                        (ncassidy@BBN.COM)
+WSMR-GW2.ARMY.MIL          26.5.0.74    Marshall, James P.
+                                        (jmarshal@WSMR-EMH35.ARMY.MIL)
+CMMC.DDN.MIL               26.0.0.76    Martinez, Patty
+                                        (PMartinez@DDN-CONUS.DDN.MIL)
+DDN-CONUS.DDN.MIL          26.1.0.76    Bolden, Michelle L.
+                                        (Bolden@BBN.COM)
+DCAOC.MT.DDN.MIL           26.3.0.76    See MIL-NSC.TXT
+ALEXGATE.MED.OSD.MIL       26.4.0.76    Patton, Robert M.
+                                        (rpatton@DSSDEV2.MED.OSD.MIL)
+BELVOIR-IGNET2.ARMY.MIL    26.6.0.76    Kelly, Kathy
+                                        (No Mailbox Given)
+COMSTATE-TEST.DDN.MIL      26.7.0.76    Butler, Ray
+                                        (No Mailbox Given)
+PENTAGON-BCN.ARMY.MIL      26.10.0.76   Link, Dave
+                                        (AOPSMGR@DDN-CONUS.DDN.MIL)
+SUN-CDMC2.DISA.MIL         26.29.0.76   Eason, Michael
+                                        (MEason@BBN.COM)
+ZAMA.MT.DDN.MIL            26.0.0.77    See MIL-NSC.TXT
+NCPDS-IWAKUNI.NAVY.MIL     26.14.0.77   Yamada, Shinichi
+                                        (No Mailbox Given)
+CPZAMA-JACS6350.ARMY.MIL   26.19.0.77   Pyle, Steven S.
+                                        (PYLE@INDPLS-ASAFM1.ARMY.MIL)
+ZAMA-GW1.ARMY.MIL          26.27.0.77   Vandenburg, Stephen L.
+                                        (postmaster@ZAMA-EMH1.ARMY.MIL)
+SAGAMI.PACIFIC.DRMS.DLA.MIL 26.29.0.77  Boyer, Steven
+                                        (No Mailbox Given)
+CPZAMAT20.DDN.MIL          26.30.0.77   Vandenburg, Stephen L.
+                                        (postmaster@ZAMA-EMH1.ARMY.MIL)
+PUGET-SOUND.MT.DDN.MIL     26.0.0.78    See MIL-NSC.TXT
+PGTNSC.NAVY.MIL            26.4.0.78    McConnell, Bob
+                                        (No Mailbox Given)
+BREMERTON-GW.MRMS.NAVY.MIL 26.5.0.78    Young, Richard
+                                        (youngr@PERASMTP.NAVY.MIL)
+RPA05.NAVY.MIL             26.6.0.78    Hand, Dave
+                                        (No Mailbox Given)
+BENNING.MT.DDN.MIL         26.0.0.79    See MIL-NSC.TXT
+CAMNET-COLUMBUS-R02.AF.MIL 26.15.0.79   Redwine, Elizabeth C.
+                                        (No Mailbox Given)
+BENNING-GW1.ARMY.MIL       26.30.0.79   Hutchens, Larry H.
+                                        (Hutchens@BENNING-EMH1.ARMY.MIL)
+BRAGG.MT.DDN.MIL           26.0.0.80    See MIL-NSC.TXT
+RAA13.NAVY.MIL             26.6.0.80    Lewis, James
+                                        (No Mailbox Given)
+ARO-GW.ARMY.MIL            26.7.0.80    Fincher, Cranford
+                                        (fincher@ARO-EMH1.ARMY.MIL)
+RALEIGH-NGNET.ARMY.MIL     26.9.0.80    Goforth, Ricky G.
+                                        (rick@NC-NGNET.ARMY.MIL)
+USASOC.SOC.MIL             26.27.0.80   Tatum, Larry G.
+                                        (asocnso@USASOC.SOC.MIL)
+USASOC.GW.SOC.MIL          26.28.0.80   Woodworth, Herbert Kenneth
+                                        (kenw@ERG.SRI.COM)
+CARDEROCK.MT.DDN.MIL       26.0.0.81    See MIL-NSC.TXT
+DMACSC.DMA.MIL             26.5.0.81    Caswell, William H.
+                                        (WCASWELL@DMACSC.DMA.MIL)
+SUNA.DIPCW.DISA.MIL        26.11.0.81   Morales, Lydia
+                                        (root@DNS.DIPCW.DISA.MIL)
+VINTHILL-GW1.ARMY.MIL      26.24.0.81   Alexander, Michael
+                                        (malexand@VINTHILL-EMH4.ARMY.MIL)
+BUCKNER.MT.DDN.MIL         26.0.0.82    See MIL-NSC.TXT
+RPA09.NAVY.MIL             26.4.0.82    Chatfield, Wes
+                                        (No Mailbox Given)
+OKINAWA-BUMED.NAVY.MIL     26.5.0.82    Swanson, Michael
+                                        (OKI1MWS@OKI10.MED.NAVY.MIL)
+NCPDS-BUTLER.NAVY.MIL      26.6.0.82    Lee, Jimmy
+                                        (No Mailbox Given)
+SDS-OKINAWA.NAVY.MIL       26.7.0.82    Amano, Danilo
+                                        (No Mailbox Given)
+SDS-DIEGOGRC.NAVY.MIL      26.8.0.82    Piehel, Robert
+                                        (No Mailbox Given)
+DODDS-PAC.AF.MIL           26.10.0.82   McCrae, Daniel E.
+                                        (sysadmin@DODDS-PAC.AF.MIL)
+OKINAWA.PACIFIC.DRMS.DLA.MIL 26.11.0.82 Guy, James P.
+                                        (dladrmo@BUCKNER-EMH1.ARMY.MIL)
+OKR-GW1.USMC.MIL           26.16.0.82   Scott, Don
+                                        (No Mailbox Given)
+BUCKNER-GW1.ARMY.MIL       26.17.0.82   Cruden, Donald G., Jr.
+                                        (crudend@STRICOM.ARMY.MIL)
+DGARCIA-GW.NAVY.MIL        26.19.0.82   Cruden, Donald G., Jr.
+                                        (crudend@STRICOM.ARMY.MIL)
+ROBINS2.MT.DDN.MIL         26.0.0.83    See MIL-NSC.TXT
+ROBINS-AM1.AF.MIL          26.10.0.83   Fagundo, Carlos
+                                        (No Mailbox Given)
+WRAFEMS3.HQ.AFLC.AF.MIL    26.26.0.83   Heilman, Michael J.
+                                        (HEILMAN@WPAFEMS6.WPAFB.AF.MIL)
+CHINALAKE.MT.DDN.MIL       26.0.0.85    See MIL-NSC.TXT
+RPAXA.NAVY.MIL             26.25.0.85   Holland, Carl N.
+                                        (No Mailbox Given)
+LPA025.NAVY.MIL            26.26.0.85   Holland, Carl N.
+                                        (No Mailbox Given)
+NWC-GW.NAVY.MIL            26.29.0.85   Cozzucoli, Anthony H., Jr.
+                                        (No Mailbox Given)
+LOWRY.MT.DDN.MIL           26.0.0.86    See MIL-NSC.TXT
+DCMOO.DSAC.DLA.MIL         26.15.0.87   Haggard, James E.
+                                        (NAP3903@DCMOO.DSAC.DLA.MIL)
+WASHDEVA.DISA.MIL          26.1.0.88    Hambright, Kenneth W.
+                                        (hambright_ken@WASHDEVA.DCA.MIL)
+CAPODICHINO.MT.DDN.MIL     26.0.0.91    See MIL-NSC.TXT
+NAPLES-BUMED.NAVY.MIL      26.4.0.91    Degennaro, Josh
+                                        (nhnapmis@CPO-LINK-GW.EUCOM.MIL)
+AGNANO.MT.DDN.MIL          26.5.0.91    See MIL-NSC.TXT
+NAPLES-NCPDS.NAVY.MIL      26.6.0.91    Carter, Gail
+                                        (No Mailbox Given)
+RAPIDS-NAPLES.NAVY.MIL     26.7.0.91    Bell, John W.
+                                        (jbell@CPO-LINK.EUCOM.MIL)
+NAPLES-PASS-SDS.NAVY.MIL   26.8.0.91    Mason, Jeffrey A.
+                                        (adp@CPO-LINK.EUCOM.MIL)
+CPO-LINK-GW.EUCOM.MIL      26.17.0.91   Gober, Roussell A.
+                                        (ADP@CPO-LINK.EUCOM.MIL)
+IPR-CPO-GW.DISA.MIL        26.31.0.91   Mason, Jeffrey A.
+                                        (adp@CPO-LINK.EUCOM.MIL)
+NEWPORT.MT.DDN.MIL         26.0.0.92    See MIL-NSC.TXT
+HCNEW1-GW.NAVY.MIL         26.6.0.92    Greunke, Steve C.
+                                        (STEVE.GREUNKE@NCTS.NAVY.MIL)
+HARTFORD-GW.ARMY.MIL       26.15.0.92   Vallombroso, Anthony M.
+                                        (DOIMCT@CT-NGNET.ARMY.MIL)
+SDS-NEWLNDA.NAVY.MIL       26.16.0.92   Soto, Julio C.
+                                        (SSO@ST-LOUIS-EMH4.ARMY.MIL)
+NL-GW.NUSC.NAVY.MIL        26.17.0.92   Trifero, John J.
+                                        (Trifero@NPT.NUWC.NAVY.MIL)
+LORING-GW.AF.MIL           26.18.0.92   Dayringer, Timothy L.
+                                        (dayrint@ACCHOST.ACC.AF.MIL)
+COROZAL.MT.DDN.MIL         26.0.0.96    See MIL-NSC.TXT
+FTCLAYTON-MPRJSS.ARMY.MIL  26.6.0.96    Jackson, Mr.
+                                        (No Mailbox Given)
+PANAMA.MEMPHIS.DRMS.DLA.MIL 26.8.0.96   Wilson, Bobby G.
+                                        (bwilson@DDMT.DLA.MIL)
+HOWARD-GW.AF.MIL           26.9.0.96    Tate, Darrell
+                                        (howard@SERVER.AF.MIL)
+GSA-PANAMA.DDN.MIL         26.12.0.96   Collier, William
+                                        (No Mailbox Given)
+FTCLAYTNPM-GW1.ARMY.MIL    26.15.0.96   Keepers, Jeanette M.
+                                        (jkeepers@EMH01.PANAMA.ARMY.MIL)
+NALC-PAX.NAVY.MIL          26.5.0.97    Ross, Raymond W. W.
+                                        (usaf@TECNET1.JCTE.JCS.MIL)
+DIS.DLANET.DLA.MIL         26.9.0.97    Sauer, David G.
+                                        (sauerd@DISLINK.JCTE.JCS.MIL)
+PATNAT.NAVY.MIL            26.14.0.97   Burney, Gary
+                                        (commeng@NCCS-EVAX.NAVY.MIL)
+MACDILL.MT.DDN.MIL         26.0.0.98    See MIL-NSC.TXT
+BUCHAN-MPRJSS.ARMY.MIL     26.9.0.98    Witherspoon, Sl L.
+                                        (WITHERSPOONS@INDPLS-ASAFM1.ARMY.MIL)
+ROOSEVELT-ROADS.MEMPHIS.DRMS.DLA.MIL 26.11.0.98 Riley, Michael W.
+                                        (mriley@DDMTG2.DDMT.DLA.MIL)
+PR-NGNET.ARMY.MIL          26.12.0.98   Colon, Roberto E.
+                                        (dpipr@PR-NGNET.ARMY.MIL)
+NCPDS-PR.NAVY.MIL          26.14.0.98   Wilkerson, Faye
+                                        (No Mailbox Given)
+NCPDS-CUBA.NAVY.MIL        26.15.0.98   Tuthill, Carole
+                                        (No Mailbox Given)
+WHITE-OAK.MT.DDN.MIL       26.0.0.102   See MIL-NSC.TXT
+DIPC-GW2.DIPCW.DISA.MIL    26.5.0.102   Morales, Lydia
+                                        (root@DNS.DIPCW.DISA.MIL)
+CSC1.DMA.MIL               26.10.0.102  Caswell, William H.
+                                        (WCASWELL@DMACSC.DMA.MIL)
+ADELPHI-GW1.ARMY.MIL       26.24.0.102  Adams, Colleen E.
+                                        (cadams@ARL.MIL)
+RESTON-DCEC.MT.DDN.MIL     26.0.0.104   See MIL-NSC.TXT
+BLYSCSDS-GW.ARMY.MIL       26.11.0.104  Carter, Don
+                                        (donca%fs6.ima@BAILEYS-EMH3.ARMY.MIL)
+JCDBS.ITSI.DISA.MIL        26.14.0.104  Quinn, Richard A., Mr.
+                                        (quinnr@ITSI.DISA.MIL)
+MTAC.DDN.MIL               26.16.0.104  Sitch, Charles J.
+                                        (sitchc@CC.IMS.DISA.MIL)
+RESTON.MMT.DDN.MIL         26.17.0.104  See MIL-NSC.TXT
+GW-DMS-RESTON.DISA.MIL     26.28.0.104  O'Guin, Steven P.
+                                        (OGUINS@CC.IMS.DISA.MIL)
+DCEC-IP.DDN.MIL            26.29.0.104  English, Michael E.
+                                        (englishm@CC.IMS.DISA.MIL)
+OFFUTT.MT.DDN.MIL          26.0.0.105   See MIL-NSC.TXT
+ACFP-DOP.AF.MIL            26.8.0.105   Garonski, Todd J.
+                                        (offutt@SERVER.AF.MIL)
+ALEXANDRIA3.MT.DDN.MIL     26.0.0.107   See MIL-NSC.TXT
+SEAHUB.NAVSEA.NAVY.MIL     26.6.0.107   Slice, Donald E., Jr.
+                                        (don@NETMAN.NAVSEA.NAVY.MIL)
+HERNGATE.MED.OSD.MIL       26.8.0.107   Patton, Robert M.
+                                        (rpatton@DSSDEV2.MED.OSD.MIL)
+BUPERS.NAVY.MIL            26.10.0.107  King, Carolyn
+                                        (No Mailbox Given)
+NTSC-NAVAIRHQ-GW.NAVY.MIL  26.14.0.107  George, John
+                                        (georgejm.nimitz@NAVAIR.NAVY.MIL)
+DNA-MAIL.DNA.MIL           26.18.0.107  Hamilton, Rodney W.
+                                        (hamiltonr@HQ.DNA.MIL)
+BELVOIR-GW3.ARMY.MIL       26.25.0.107  Brubaker, Robert
+                                        (RBRUBAKER@BELVOIR.ARMY.MIL)
+BELVOIR-IP-GW.DDN.MIL      26.28.0.107  Rulapaugh, Brenda K.
+                                        (No Mailbox Given)
+HOFFMAN-MIL80X.ARMY.MIL    26.29.0.107  Wilkins, Shirley J.
+                                        (wilkinss@HOFFMAN-EMH1.ARMY.MIL)
+HOFFMAN-MIL-80X-GW.ARMY.MIL 26.30.0.107 Wilkins, Shirley J.
+                                        (wilkinss@HOFFMAN-EMH1.ARMY.MIL)
+NORFOLK.MT.DDN.MIL         26.0.0.108   See MIL-NSC.TXT
+UNEOC-GW.NAVY.MIL          26.4.0.108   Hammons, Brian N.
+                                        (hammons@NLMOC.NAVY.MIL)
+HCNOR1-GW.NAVY.MIL         26.6.0.108   Greunke, Steve C.
+                                        (STEVE.GREUNKE@NCTS.NAVY.MIL)
+PORTSIS.NAVY.MIL           26.13.0.108  Wallace, Troy L.
+                                        (T.WALLACE@PORTSIS.NAVY.MIL)
+MOCCE.NAVY.MIL             26.17.0.108  Holland, Carl N.
+                                        (No Mailbox Given)
+NCTAMSLANT.NAVY.MIL        26.30.0.108  Lynch, Ray
+                                        (HADMIN@NCTAMSLANT.NAVY.MIL)
+JACKSONVILLE.MT.DDN.MIL    26.0.0.110   See MIL-NSC.TXT
+NAVELEXNET-CHASN.NAVY.MIL  26.9.0.110   Baxley, Gerald
+                                        (No Mailbox Given)
+SDS-JAXVLEA.NAVY.MIL       26.16.0.110  Krawczyk, Leonard W.
+                                        (SDSHQ@NCTAMSLANT.NAVY.MIL)
+HCJC1-GW.NAVY.MIL          26.18.0.110  Greunke, Steve C.
+                                        (STEVE.GREUNKE@NCTS.NAVY.MIL)
+RAA14.NAVY.MIL             26.25.0.110  Holland, Carl N.
+                                        (No Mailbox Given)
+DAVIS-MONTHAN.MT.DDN.MIL   26.0.0.111   See MIL-NSC.TXT
+HUACHUCA-GW3.ARMY.MIL      26.5.0.111   Jones, Julia Reiber
+                                        (jrjones@HUACHUCA-EMH2.ARMY.MIL)
+DM-PIV-1.AF.MIL            26.6.0.111   Elder, Mitchell
+                                        (No Mailbox Given)
+YUMA-GW.ARMY.MIL           26.13.0.111  Lauss, Mark H.
+                                        (mlauss@YUMA-EMH1.ARMY.MIL)
+SAINT-LOUIS2.MT.DDN.MIL    26.0.0.112   See MIL-NSC.TXT
+ANNISTON.MT.DDN.MIL        26.0.0.113   See MIL-NSC.TXT
+ANNISTON-GW.ARMY.MIL       26.31.0.113  Arndt, Craig
+                                        (carndt@ANNISTON-EMH1.ARMY.MIL)
+NEWCUMBERLND.MT.DDN.MIL    26.0.0.114   See MIL-NSC.TXT
+NEWCMBRLND2.MT.DDN.MIL     26.3.0.114   See MIL-NSC.TXT
+NCAD-EMH3.ARMY.MIL         26.16.0.114  Fogle, Lisa M.
+                                        (yz02094@NCAD-EMH3.ARMY.MIL)
+ASIMS-TN1.CHA.DISA.MIL     26.25.0.114  Besore, Crist E.
+                                        (cbesore@DMCV-EMH1.ARMY.MIL)
+TOBY-GW1.ARMY.MIL          26.27.0.114  Sporko, Raymond E.
+                                        (RSPORKO@TOBYHANNA-EMH3.ARMY.MIL)
+NCMBRLND-GW1.ARMY.MIL      26.29.0.114  Joseph, Karen W.
+                                        (yz02085@NCAD-EMH3.ARMY.MIL)
+NEWCUMBERLANDT20.DDN.MIL   26.30.0.114  Joseph, Karen W.
+                                        (yz02085@NCAD-EMH3.ARMY.MIL)
+FRANKFURT-GW1.ARMY.MIL     26.8.0.116   Smoak, Guy L.
+                                        (ASQEXFR051F@FRANKFURT-EMH1.ARMY.MIL)
+WALKER.MT.DDN.MIL          26.0.0.117   See MIL-NSC.TXT
+PUSAN.PACIFIC.DRMS.DLA.MIL 26.5.0.117   Edwards, Frank
+                                        (No Mailbox Given)
+NMPC-CF.NAVY.MIL           26.6.0.117   Price, Lee
+                                        (No Mailbox Given)
+TAEGU-JACS6409.ARMY.MIL    26.8.0.117   Porreca, Martin T.
+                                        (No Mailbox Given)
+LPA017.NAVY.MIL            26.9.0.117   Peters, Harry
+                                        (No Mailbox Given)
+KURE-GW1.ARMY.MIL          26.10.0.117  Vandenburg, Stephen L.
+                                        (postmaster@ZAMA-EMH1.ARMY.MIL)
+WALKER-NIPR.DDN.MIL        26.17.0.117  Kennedy, Steven
+                                        (No Mailbox Given)
+WALKER-GW1.KOREA.ARMY.MIL  26.18.0.117  Jones, Linda
+                                        (ljones@HUACHUCA-GIIS.ARMY.MIL)
+KUNSAN-GW.AF.MIL           26.19.0.117  Hansen, James M.
+                                        (jhansen@KUNSAN-EMH.AF.MIL)
+DUGWAY.MT.DDN.MIL          26.0.0.120   See MIL-NSC.TXT
+DUGWAY-EMH2.ARMY.MIL       26.2.0.120   Antry, Mark
+                                        (mantry@DUGWAY-EMH4.ARMY.MIL)
+CHEYENNE-GW.ARMY.MIL       26.4.0.120   Potter, Charles
+                                        (mmdf@WY-NGNET.ARMY.MIL)
+DUGWAY-GW1.ARMY.MIL        26.7.0.120   Gonyea, Stephen
+                                        (sgonyea@DUGWAY-EMH9.ARMY.MIL)
+TOOELE-GW1.ARMY.MIL        26.8.0.120   Bush, Elaine R.
+                                        (root@TOOELE-EMH1.ARMY.MIL)
+OGDEN-DAISY.DLA.MIL        26.14.0.120  Doman, Wayne
+                                        (oxb8010@OGDEN.DRMS.DLA.MIL)
+ALAMEDA.MT.DDN.MIL         26.0.0.121   See MIL-NSC.TXT
+HCSF1-GW.NAVY.MIL          26.6.0.121   Greunke, Steve C.
+                                        (STEVE.GREUNKE@NCTS.NAVY.MIL)
+PSDSNFNC-GW1.ARMY.MIL      26.15.0.121  Bailey, Franz X.
+                                        (NSCPresidio@DDN-CONUS.DDN.MIL)
+SDS-PUGETA.NAVY.MIL        26.17.0.121  Hartmann, Dan H.
+                                        (NSCAlameda@DDN-CONUS.DDN.MIL)
+SDS-SANFRNA.NAVY.MIL       26.30.0.121  Hartmann, Dan H.
+                                        (NSCAlameda@DDN-CONUS.DDN.MIL)
+HUACHUCA.MT.DDN.MIL        26.2.0.122   See MIL-NSC.TXT
+JITC.DISA.MIL              26.8.0.122   Voigt, Victor H.
+                                           (c3a-tccca@HUACHUCA-EMH2.ARMY.MIL)
+HUACHUCA-GW.ARMY.MIL       26.9.0.122   Beech, William A.
+                                        (bbeech@HUACHUCA-EMH8.ARMY.MIL)
+HUACHUCA-EMH5.ARMY.MIL     26.10.0.122  Mangum, Duke W.
+                                        (dwm@HUACHUCA-SDC.ARMY.MIL)
+GITN-JITC-GW1.DISA.MIL     26.11.0.122  Garrett, David M.
+                                        (dgarrett@TECNET1.JCTE.JCS.MIL)
+HUACHUCA-GW4.ARMY.MIL      26.24.0.122  Thompson, Gregory M.
+                                           (thompsong@HUACHUCA-EMH1.ARMY.MIL)
+HUACHUCA-IP.DDN.MIL        26.25.0.122  Fredenburg, Chris E., Ms.
+                                        (cfredenburg@DSAC.DLA.MIL)
+HUACHUCA-GW2.ARMY.MIL      26.29.0.122  Jones, Julia Reiber
+                                        (jrjones@HUACHUCA-EMH2.ARMY.MIL)
+WRIGHTPAT2.MT.DDN.MIL      26.0.0.123   See MIL-NSC.TXT
+SDS-FEPCLEV.NAVY.MIL       26.7.0.123   Soto, Julio C.
+                                        (SSO@ST-LOUIS-EMH4.ARMY.MIL)
+EDCARS-WP.AF.MIL           26.14.0.123  Brock, Shirley
+                                        (No Mailbox Given)
+WRIGHTPATT-2.DDN.MIL       26.19.0.123  Bennett, Andre M.
+                                        (nsc@WPDIS01.WPAFB.AF.MIL)
+LEAVENWORTH.MT.DDN.MIL     26.0.0.125   See MIL-NSC.TXT
+LEAV-GW.ARMY.MIL           26.17.0.125  Gorman, Bryan L.
+                                        (GORMAN@CACFS.ARMY.MIL)
+LEAVENWORTHT20.DDN.MIL     26.18.0.125  Murphy, Cindy R.
+                                        (MURPHYC@LEAV-EMH.ARMY.MIL)
+MONTEREY2.MT.DDN.MIL       26.0.0.126   See MIL-NSC.TXT
+GAMMA.NPS.NAVY.MIL         26.7.0.126   Norman, David F.
+                                        (dfnorman@NPS.NAVY.MIL)
+ROBERTS-GW1.ARMY.MIL       26.10.0.126  Jordan, Claude R.
+                                           (ASQY-FDR-I@ROBERTS-EMH1.ARMY.MIL)
+KNWC.NAVY.MIL              26.18.0.126  Panek, Sherryl A.
+                                        (spanek@FNMOC.NAVY.MIL)
+HANSCOM2.MT.DDN.MIL        26.0.0.127   See MIL-NSC.TXT
+GTE-EDCD2.DDN.MIL          26.4.0.127   Bennet, Mark
+                                        (No Mailbox Given)
+GTE-EDCD.DDN.MIL           26.5.0.127   Kenny, Pat
+                                        (No Mailbox Given)
+ONIZUKA.MT.DDN.MIL         26.0.0.128   See MIL-NSC.TXT
+LPA153.NAVY.MIL            26.9.0.128   Buono, Charles
+                                        (cbuono@NCCS-EVAX.NAVY.MIL)
+CARSON-GW.ARMY.MIL         26.15.0.128  Hobson, Calvin
+                                        (No Mailbox Given)
+BENHARRISON.MT.DDN.MIL     26.3.0.129   See MIL-NSC.TXT
+DSAC1.DLANET.DLA.MIL       26.4.0.129   Funderburk, Gary
+                                        (gfunderburk@DSAC.DLA.MIL)
+INDPLS-ASAFM1.ARMY.MIL     26.7.0.129   Perkins, Becky
+                                           (USERASST1@INDPLS-ASAFM1.ARMY.MIL)
+RCC-NAC.NAVY.MIL           26.16.0.129  Monger, Tom
+                                        (No Mailbox Given)
+FTBNHRSN-MPRJSS2.ARMY.MIL  26.25.0.129  Clark, Michael
+                                        (CLARKM@INDPLS-ASAFM1.ARMY.MIL)
+FTBNHRSN-MPRJSS1.ARMY.MIL  26.26.0.129  Clark, Michael
+                                        (CLARKM@INDPLS-ASAFM1.ARMY.MIL)
+DIX.MT.DDN.MIL             26.0.0.130   See MIL-NSC.TXT
+DOVER-AM2.AF.MIL           26.11.0.130  Pruitt, Don
+                                        (No Mailbox Given)
+SILL.MT.DDN.MIL            26.0.0.132   See MIL-NSC.TXT
+OKLAHMCY-GW.ARMY.MIL       26.5.0.132   Weatherly, Mike
+                                        (No Mailbox Given)
+FTSILL-GW1.ARMY.MIL        26.25.0.132  Imhauser, Breton J.
+                                        (IMHAUSEB@SILL-EMH.ARMY.MIL)
+MILDENHALL.MT.DDN.MIL      26.0.0.136   See MIL-NSC.TXT
+CHICKSANDS.MMT.DDN.MIL     26.5.0.136   See MIL-NSC.TXT
+FLX-LINK.DLA.MIL           26.7.0.136   Ertel, Michael
+                                        (mertel@EUROPE.DLA.MIL)
+NCPDS-ICELAND.NAVY.MIL     26.8.0.136   Ingvansdottir, Rebekka
+                                        (No Mailbox Given)
+ALCONBURY-GW.AF.MIL        26.12.0.136  Kolk, Jonathan I.
+                                        (10cscms@MILDEN.AF.MIL)
+SHAPE-MEPRS.ARMY.MIL       26.15.0.136  Jones, Linda
+                                        (ljones@HUACHUCA-GIIS.ARMY.MIL)
+MILDENHALL-GW.AF.MIL       26.17.0.136  Zaccardo, Vic D.
+                                          (zaccardv@100ARW.MILDENHALL.AF.MIL)
+LANGLEY.MT.DDN.MIL         26.0.0.138   See MIL-NSC.TXT
+FTMONROE-GW1.ARMY.MIL      26.24.0.138  Dean, Charles N.
+                                        (POSTMASTER@MONROE-EMH7.ARMY.MIL)
+KELLY.MT.DDN.MIL           26.0.0.139   See MIL-NSC.TXT
+AFCSCNET.AF.MIL            26.13.0.139  Obermite, Richard R.
+                                        (No Mailbox Given)
+KELLY1-GW.AF.MIL           26.26.0.139  Villegas, Edwardo E.
+                                        (evillega@SADIS02.KELLY.AF.MIL)
+SADIS01.AF.MIL             26.30.0.139  Rojas, Brenda M.
+                                        (brojas@SADIS01.KELLY.AF.MIL)
+SNAG-OC.AF.MIL             26.19.0.140  Wilkos, Tom
+                                        (TWILKOS@OCDIS01.AF.MIL)
+ANDERSEN.MT.DDN.MIL        26.0.0.141   See MIL-NSC.TXT
+GUAM-BUMED.NAVY.MIL        26.4.0.141   Taitano, Ben
+                                        (No Mailbox Given)
+NCPDS-AGAT.NAVY.MIL        26.5.0.141   Leon-guerreo, Lourdes
+                                        (No Mailbox Given)
+GUANSD2.NAVY.MIL           26.6.0.141   Dewitt, John
+                                        (No Mailbox Given)
+ANDERSEN-GW.AF.MIL         26.19.0.141  Lythgoe, Clare J.
+                                        (nsc-m141@DDN-PAC.DDN.MIL)
+WHEELER.MT.DDN.MIL         26.0.0.145   See MIL-NSC.TXT
+PMMC1.DDN.MIL              26.1.0.145   Matsumoto, Clarence
+                                        (cmatsumo@DDN-PAC.DDN.MIL)
+DDN-PAC.DDN.MIL            26.3.0.145   Theos, Robert F.
+                                        (rtheos@DDN-PAC.DDN.MIL)
+PMMC2.DDN.MIL              26.20.0.145  Walker, Mary
+                                        (PAC-ADM@PAC-MILNET-MC.DCA.MIL)
+WINDWARD.GTE-PAC.COM       26.29.0.145  Chan, Brian T.
+                                        (bchan@DDN-EUR.DDN.MIL)
+PACM-GW.DISA.MIL           26.30.0.145  Warden, Carol A.
+                                        (WARDENC@CCPAC.IMS.DISA.MIL)
+MUNICH-GW1.ARMY.MIL        26.9.0.146   Jones, Linda
+                                        (ljones@HUACHUCA-GIIS.ARMY.MIL)
+SAM-HOUSTON.MT.DDN.MIL     26.0.0.147   See MIL-NSC.TXT
+SAM-HOUSTO-EMH1.ARMY.MIL   26.1.0.147   Hander, Ed
+                                        (hander@SAMHOU-ISR.ARMY.MIL)
+FTSMHSTN-IGNET.ARMY.MIL    26.4.0.147   Brookins, Rose
+                                        (No Mailbox Given)
+FTSMHSTN-GW2.ARMY.MIL      26.19.0.147  Martinez, Cid
+                                        (martinec@SAMHOU-BASOPS.ARMY.MIL)
+RANDOLPH-IP.DDN.MIL        26.28.0.147  Tetlow, Charles M., Jr.
+                                        (tetlowc@12CS1.RND.AETC.AF.MIL)
+OAKLAND.MT.DDN.MIL         26.0.0.148   See MIL-NSC.TXT
+MSCPAC-GW.NAVY.MIL         26.5.0.148   Wahl, Ray E.
+                                        (wahlr@MSCPAC.NAVY.MIL)
+TRACY.DCTN.DLA.MIL         26.9.0.148   Baca, Larry
+                                        (lbaca@DAAS.DLA.MIL)
+CASTLE-GW.AF.MIL           26.14.0.148  Woodington, Rodney E.
+                                        (HADMIN@CASTLE-PIV.AF.MIL)
+VALLEJ01.NAVY.MIL          26.15.0.148  Lindke, Pam
+                                        (No Mailbox Given)
+OAKLANDT20.DDN.MIL         26.19.0.148  DeHoyas, Tony
+                                        (NSCOakland@DDN-CONUS.DDN.MIL)
+PHILADELPHIA.MT.DDN.MIL    26.0.0.149   See MIL-NSC.TXT
+INDAP-GW1.ARMY.MIL         26.11.0.149  Miller, Frank E.
+                                        (Millerf@INDGAP-EMH1.ARMY.MIL)
+DENVER.MT.DDN.MIL          26.0.0.151   See MIL-NSC.TXT
+MECHANICSBURG.MT.DDN.MIL   26.0.0.152   See MIL-NSC.TXT
+MCHSPC.NAVY.MIL            26.4.0.152   Habajec, Mark L.
+                                        (HABAJECM@MCHFMCCM.NAVY.MIL)
+LTTRKNNY-GW2.ARMY.MIL      26.18.0.152  Vagnerini, Beverly S.
+                                          (bvagneri@LETTERKENN-EMH1.ARMY.MIL)
+HCMEC1-GW.NAVY.MIL         26.29.0.152  Greunke, Steve C.
+                                        (STEVE.GREUNKE@NCTS.NAVY.MIL)
+ROCK-ISLAND.MT.DDN.MIL     26.0.0.153   See MIL-NSC.TXT
+INDY.NAVY.MIL              26.9.0.153   Biddle, Timothy K.
+                                        (hostadmin@INDY.NAVY.MIL)
+ROCKI-GW2.ARMY.MIL         26.13.0.153  Taylor, Dana
+                                        (DTAYLOR@RIA-EMH1.ARMY.MIL)
+DARBY.MT.DDN.MIL           26.0.0.155   See MIL-NSC.TXT
+BAMBERG.MMT.DDN.MIL        26.9.0.155   See MIL-NSC.TXT
+NUERNBERG.EUROPE.DRMS.DLA.MIL 26.11.0.155 Erdman, Doris
+                                      (sqma027@NUERNBERG.EUROPE.DRMS.DLA.MIL)
+SHAPE-MPRJSS.ARMY.MIL      26.12.0.155  Libert, Steven
+                                        (No Mailbox Given)
+ILLESHEM.MMT.DDN.MIL       26.14.0.155  See MIL-NSC.TXT
+COLTANO.MT.DDN.MIL         26.0.0.156   See MIL-NSC.TXT
+LIVORNO-GW1.ARMY.MIL       26.4.0.156   Peters, Kris
+                                        (No Mailbox Given)
+DODDS-MED.AF.MIL           26.5.0.156   Vanepps, Robert
+                                        (TNGUYEN@DODDS-WASH.AF.MIL)
+LAMADALENA-NCPDS.NAVY.MIL  26.9.0.156   Soggiu, Jiuliana
+                                        (No Mailbox Given)
+PENSACOLA.MT.DDN.MIL       26.0.0.158   See MIL-NSC.TXT
+CNET-PENW0003.NAVY.MIL     26.6.0.158   Schisler, David C.
+                                       (DAVID.SCHISLER@NETPMSA.CNET.NAVY.MIL)
+NARFPNS.NAVY.MIL           26.13.0.158  Wilson, Lisa G.
+                                        (WILSONL@NARFPNS.NAVY.MIL)
+PENR1398-GW.CNET.NAVY.MIL  26.15.0.158  Schisler, David C.
+                                       (DAVID.SCHISLER@NETPMSA.CNET.NAVY.MIL)
+NTSC-PEN-GW.NAVY.MIL       26.16.0.158  Jones, Luther C.
+                                        (JONES@NTSC-PEN.NAVY.MIL)
+PENNDC.NAVY.MIL            26.27.0.158  Bradley, Bettye
+                                        (NSCPENSACOLA@DDN-CONUS.DDN.MIL)
+PENSACOLA-GW1.NAVY.MIL     26.29.0.158  Greunke, Steve C.
+                                        (STEVE.GREUNKE@NCTS.NAVY.MIL)
+PSNTESTBED-900-GW.NAVY.MIL 26.31.0.158  Golden, James
+                                        (No Mailbox Given)
+LEWIS.MT.DDN.MIL           26.0.0.159   See MIL-NSC.TXT
+FTLEWIST20.DDN.MIL         26.19.0.159  Woodarski, Elizabeth A.
+                                        (WOODARSL@LEWIS-EMH2.ARMY.MIL)
+PGTNSC.NAVY.MIL            26.25.0.159  McConnell, Bob
+                                        (No Mailbox Given)
+LEWIS-IP.DDN.MIL           26.29.0.159  Fredenburg, Chris E., Ms.
+                                        (cfredenburg@DSAC.DLA.MIL)
+FTLEWIS-GW1.ARMY.MIL       26.31.0.159  Grear, David L.
+                                        (GREARD@LEWIS-EMH2.ARMY.MIL)
+BATTLECREEK.MT.DDN.MIL     26.0.0.160   See MIL-NSC.TXT
+DLSC3.DLSC.DLA.MIL         26.25.0.160  Stokes, Elwood
+                                        (estokes@DLSC.DLA.MIL)
+DLSC4.DLSC.DLA.MIL         26.27.0.160  Abbott, Kenneth J.
+                                        (abbottk@WPDIS01.WPAFB.AF.MIL)
+NEW-ORLEANS2.MT.DDN.MIL    26.0.0.161   See MIL-NSC.TXT
+SENTRY.NOO.NAVY.MIL        26.7.0.161   Yelverton, Robert F.
+                                        (rfy@NAVO.NAVY.MIL)
+SDS-NEWORLA.NAVY.MIL       26.9.0.161   Magno, Del
+                                        (No Mailbox Given)
+NAVRESFOR.NAVY.MIL         26.10.0.161  Albro, Thomas J.
+                                        (Albro@NAVRESFOR.NAVY.MIL)
+CONCGWY-GW.NAVY.MIL        26.17.0.161  Greunke, Steve C.
+                                        (STEVE.GREUNKE@NCTS.NAVY.MIL)
+SSA.NAVY.MIL               26.30.0.161  Holland, Carl N.
+                                        (No Mailbox Given)
+CAMPBELL.MT.DDN.MIL        26.0.0.162   See MIL-NSC.TXT
+FTCMPBLL-GW1.ARMY.MIL      26.17.0.162  Smith, Allison C.
+                                        (smitha@CAMPBELL-EMH3.ARMY.MIL)
+HOOD.MT.DDN.MIL            26.0.0.163   See MIL-NSC.TXT
+CORPUS.MT.DDN.MIL          26.0.0.164   See MIL-NSC.TXT
+NEWARK.MT.DDN.MIL          26.0.0.167   See MIL-NSC.TXT
+WAHIAWA.MT.DDN.MIL         26.0.0.168   See MIL-NSC.TXT
+GW.PACIFIC.DRMS.DLA.MIL    26.9.0.168   Kalawe, Juliana N., Mrs.
+                                        (jkalawe@PACIFIC.DLA.MIL)
+HICKAM-GW.AF.MIL           26.16.0.168  Cook, Dave J.
+                                        (15NSC@EMH.HICKAM.AF.MIL)
+ITSDN.DISA.MIL             26.18.0.168  Speckhart, Gregory J.
+                                        (gspeck@BBN.COM)
+SCHOFIELD-GW1.ARMY.MIL     26.19.0.168  Hunt, Priscilla C.
+                                        (huntp@SHAFTER-EMH3.ARMY.MIL)
+DHAHRAN.MT.DDN.MIL         26.0.0.169   See MIL-NSC.TXT
+TADTOWN-GW.AF.MIL          26.10.0.169  Dean, Criss
+                                        (No Mailbox Given)
+DHAHRAN-GW1.ARMY.MIL       26.19.0.169  Fowkes, Harry W.
+                                        (fowkesh@DHAHRAN-EMH1.ARMY.MIL)
+EIELSON.MT.DDN.MIL         26.0.0.170   See MIL-NSC.TXT
+GREELY-GW1.ARMY.MIL        26.4.0.170   Straw, Robert
+                                        (ASQPAGS@SF-EMH1.ARMY.MIL)
+FTWNWGHT-MPRJSS.ARMY.MIL   26.5.0.170   Wilkinson, Leroy
+                                        (asqpawi@SF-EMH1.ARMY.MIL)
+ED-EI.AF.MIL               26.9.0.170   Kunkle, Brett
+                                        (No Mailbox Given)
+FAIRBANK.OGDEN.DRMS.DLA.MIL 26.13.0.170 Watts, Jefferson Usa
+                                        (szwa013@OGDEN.DRMS.DLA.MIL)
+WAINWRIGHT-GW1.ARMY.MIL    26.14.0.170  Johnson, Celine M.
+                                          (cjohnson@WAINWRIGHT-EMH1.ARMY.MIL)
+YONGSAN.MT.DDN.MIL         26.0.0.171   See MIL-NSC.TXT
+CPCASEY-JACS6311.ARMY.MIL  26.5.0.171   Vaughan, Paul R. R.
+                                        (vaughan@TECNET1.JCTE.JCS.MIL)
+YONGSAN-JACS6411.ARMY.MIL  26.6.0.171   Epps, Leroy
+                                        (No Mailbox Given)
+CPHMPHRY-JACS5480.ARMY.MIL 26.7.0.171   Anasco, Sergeant First Class
+                                        (No Mailbox Given)
+BUPYONG.PACIFIC.DRMS.DLA.MIL 26.24.0.171 Cook, Thomas P.
+                                        (tcook@PACIFIC.DRMS.DLA.MIL)
+SUWON-GW1.NAVY.MIL         26.29.0.171  Bashor, Rickey M.
+                                   (ASQK-EI-AM-DDN@SEOUL-EMH1.KOREA.ARMY.MIL)
+OSAN-GW.AF.MIL             26.30.0.171  Tetreault, Noel E.
+                                        (hostadm@EMH.OSAN.AF.MIL)
+SEOUL-GW1.KOREA.ARMY.MIL   26.31.0.171  Harris, Glenn E.
+                                        (ASQK-D-ADDN@EMH1.ARMY.MIL)
+LINTHICUM.MT.DDN.MIL       26.0.0.172   See MIL-NSC.TXT
+DOCKMASTER.NCSC.MIL        26.1.0.172   Gotch, Leslie M.
+                                        (sysadmin@DOCKMASTER.NCSC.MIL)
+CHARON-GW.NCSC.MIL         26.29.0.172  Wilcox, Chris A.
+                                        (cawilco@AFTERLIFE.NCSC.MIL)
+NAVMEDUCAPEARL.NAVY.MIL    26.6.0.173   Niles, Kathleen
+                                        (No Mailbox Given)
+NARDAC-PEARL.NAVY.MIL      26.8.0.173   Thornburn, Fannie
+                                        (HOODISSO@ST-LOUIS-EMH4.ARMY.MIL)
+NSTCPVAX.NAVY.MIL          26.9.0.173   Dowd, Michael
+                                        (submd@NSTCPVAX.NAVY.MIL)
+CPF-DDN-GW.NAVY.MIL        26.10.0.173  Kuriyama, Kent K.
+                                        (kent@LONO.NOSC.MIL)
+NAVY-MISC-80.NAVY.MIL      26.11.0.173  Yamamoto, Wesley
+                                      (Wesley.Yamamoto@NAVY-MISC-80.NAVY.MIL)
+SIMAPH-GW.HNL.MRMS.NAVY.MIL 26.14.0.173 Harrison, Donna G.
+                                        (harrison@SIMA.HNL.MRMS.NAVY.MIL)
+NPMOC-GW.NAVY.MIL          26.24.0.173  Leong, Warren K.m.
+                                        (leong@NPMOC.NAVY.MIL)
+ST-INIGOES.MT.DDN.MIL      26.0.0.174   See MIL-NSC.TXT
+TEN2.NAVY.MIL              26.4.0.174   Ansalvish, David R.
+                                        (tecadmin@TECNET1.JCTE.JCS.MIL)
+MEASURE-PAX.NAVY.MIL       26.6.0.174   Holland, Carl N.
+                                        (No Mailbox Given)
+CDBF-PAX.NAVY.MIL          26.7.0.174   Holland, Carl N.
+                                        (No Mailbox Given)
+NATC-CSDRD.NAVY.MIL        26.8.0.174   Spencer, Dennis K.
+                                        (dspencer@TECNET1.JCTE.JCS.MIL)
+CATS.NAVY.MIL              26.10.0.174  Noss, David Scott
+                                        (david_noss@SPECWAR-GW.NAVY.MIL)
+PATXNTRV-NALCCOIS.NAVY.MIL 26.12.0.174  FARR, KAREN
+                                        (No Mailbox Given)
+NCCS-STI-GW.NAVY.MIL       26.29.0.174  Summers, Bob
+                                        (bsummers@NCCS-EVAX.NAVY.MIL)
+PENDELTON-BKS.MT.DDN.MIL   26.0.0.175   See MIL-NSC.TXT
+SFT-CPO.ARMY.MIL           26.4.0.175   Dennehy, Demis
+                                        (No Mailbox Given)
+BREMERHA.DSRE.DLA.MIL      26.6.0.175   Marotzke, Lothar
+                                        (No Mailbox Given)
+FRIEDBRG.MMT.DDN.MIL       26.10.0.175  See MIL-NSC.TXT
+KIRCHGNS.MMT.DDN.MIL       26.11.0.175  See MIL-NSC.TXT
+GIESSEN-GW1.ARMY.MIL       26.17.0.175  Campos, Mark Sanford
+                                           (aetvhuggi8@GIESSEN-EMH1.ARMY.MIL)
+WRIGHTPAT4.MT.DDN.MIL      26.0.0.176   See MIL-NSC.TXT
+GW2.DAAS.DLA.MIL           26.5.0.176   Metzner, Mark A.
+                                        (mmetzner@DAAS.DLA.MIL)
+SDS-FEPCLEV.NAVY.MIL       26.7.0.176   Soto, Julio C.
+                                        (SSO@ST-LOUIS-EMH4.ARMY.MIL)
+GW.DESC.DLA.MIL            26.13.0.176  Schulte, Daniel J.
+                                        (dschulte@DESC.DLA.MIL)
+DINFOS-GW1.ARMY.MIL        26.19.0.176  Felgenhuer, John
+                                        (No Mailbox Given)
+GRAFFENWOEHR.MT.DDN.MIL    26.0.0.177   See MIL-NSC.TXT
+GFN-IGNET.ARMY.MIL         26.7.0.177   McGilvray, Lieutenant Colonel
+                                        (No Mailbox Given)
+VILSEK.MMT.DDN.MIL         26.8.0.177   See MIL-NSC.TXT
+BAMBERG-GW1.ARMY.MIL       26.10.0.177  Santos, Don
+                                        (don@BAMBERG-EMH1.ARMY.MIL)
+BAMBERG-GW.ARMY.MIL        26.12.0.177  McMurren, Alfreda B.
+                                      (asqe-y-n-f-bb1@EMAIL.BAMBERG.ARMY.MIL)
+GRAFENWOEHR-GW1.ARMY.MIL   26.14.0.177  Schemela, Bernhard J.
+                                          (falcon@EMAIL.GRAFENWOEHR.ARMY.MIL)
+ANSBACH.MMT.DDN.MIL        26.15.0.177  See MIL-NSC.TXT
+YOKOSUKA.MT.DDN.MIL        26.0.0.178   See MIL-NSC.TXT
+SRFYOKO-GW.MRMS.NAVY.MIL   26.5.0.178   Orita, Gerald H.
+                                           (c111@SRF-EMH1.YOKO.MRMS.NAVY.MIL)
+ANCPDS-YOKOSUKA.NAVY.MIL   26.9.0.178   Walters-Robinson, Yvette
+                                        (No Mailbox Given)
+RPAOB.NAVY.MIL             26.10.0.178  Orr, William
+                                        (No Mailbox Given)
+NORTHDOCK-GW1.ARMY.MIL     26.24.0.178  Vandenburg, Stephen L.
+                                        (postmaster@ZAMA-EMH1.ARMY.MIL)
+HCYOK1-GW.NAVY.MIL         26.26.0.178  Greunke, Steve C.
+                                        (STEVE.GREUNKE@NCTS.NAVY.MIL)
+CAMPBLLBKS2.MT.ARMY.MIL    26.0.0.180   See MIL-NSC.TXT
+KILBORNE-ASIMS.ARMY.MIL    26.6.0.180   Graff, Jerry
+                                        (NSC-HEIDELBERG@EUR.DISA.MIL)
+COLEMNBK.MMT.DDN.MIL       26.14.0.180  See MIL-NSC.TXT
+WERAAA.ARMY.MIL            26.6.0.182   Owens, Roy E., Jr.
+                                        (royo@ECRAAA.ARMY.MIL)
+HAMMOND.MT.DDN.MIL         26.0.0.184   See MIL-NSC.TXT
+SECKENHEIM-EMH4.ARMY.MIL   26.2.0.184   Dawson, Barbara E.
+                                    (asqe-xb-rsc-03@HEIDELBERG-EMH2.ARMY.MIL)
+SECKENHEIM.EUROPE.DRMS.DLA.MIL 26.9.0.184 Dix, Steven E.
+                                        (sdix@NIC.DDN.MIL)
+DARMSTADT.MMT.DDN.MIL      26.10.0.184  See MIL-NSC.TXT
+BABENHS.MMT.DDN.MIL        26.11.0.184  See MIL-NSC.TXT
+SECKENHEIM-EMH1.ARMY.MIL   26.17.0.184  Maurer, David I.
+                                           (DMAURER@SECKENHEIM-EMH2.ARMY.MIL)
+ROBINSON.MT.DDN.MIL        26.0.0.185   See MIL-NSC.TXT
+STUTTGRTT20.DDN.MIL        26.17.0.185  Szalaowski, David
+                                        (No Mailbox Given)
+WIESBADEN.MT.DDN.MIL       26.0.0.186   See MIL-NSC.TXT
+WIESBADN-TCACCIS.ARMY.MIL  26.5.0.186   Eason, Tyrone
+                                        (No Mailbox Given)
+KASTEL.EUROPE.DRMS.DLA.MIL 26.9.0.186   Murray, Paul
+                                         (sqea069@KASTEL.EUROPE.DRMS.DLA.MIL)
+ANDERSON-BKS.MMT.DDN.MIL   26.14.0.186  See MIL-NSC.TXT
+WIESBADEN-GW1.ARMY.MIL     26.17.0.186  Berna, David L.
+                                        (berna@EMAIL.WIESBADEN.ARMY.MIL)
+LEIGHTON.MT.DDN.MIL        26.0.0.188   See MIL-NSC.TXT
+WUERZBURG-GW1.ARMY.MIL     26.4.0.188   Smith, Danny L.
+                                        (doim25@EMAIL.WUERZBURG.ARMY.MIL)
+SCHWEINFURT.MMT.DDN.MIL    26.8.0.188   See MIL-NSC.TXT
+GIEBELSTADT.MMT.DDN.MIL    26.13.0.188  See MIL-NSC.TXT
+KITZINGEN.MMT.DDN.MIL      26.14.0.188  See MIL-NSC.TXT
+HAHN-AM1.AF.MIL            26.5.0.190   Epps, Mr.
+                                        (No Mailbox Given)
+MTF-FLORENNES.AF.MIL       26.8.0.190   Manchester, LT.
+                                        (No Mailbox Given)
+FLORENNES-AMI.AF.MIL       26.12.0.190  Guyton, Franklin
+                                        (No Mailbox Given)
+SEMBACH.MT.DDN.MIL         26.0.0.191   See MIL-NSC.TXT
+DECCO-EUROPE.DISA.MIL      26.5.0.191   Foerst, Armin K.
+                                        (FOERST@DECCO-EUROPE.DISA.MIL)
+XRAM.AF.MIL                26.6.0.191   Munyon, Richard
+                                        (No Mailbox Given)
+KAISERSL.DSRE.DLA.MIL      26.9.0.191   Von Wallis, Wiltrud
+                                          (HDSRE-KI@KAISERSLAU-EMH1.ARMY.MIL)
+KSRSKTRN.MMT.DDN.MIL       26.15.0.191  See MIL-NSC.TXT
+INCIRLIK.MT.DDN.MIL        26.0.0.192   See MIL-NSC.TXT
+IZMIR.MT.DDN.MIL           26.6.0.192   See MIL-NSC.TXT
+INCIRLIK-GW.AF.MIL         26.17.0.192  Latulip, Dennis
+                                        (2006nsc@ANKARA.AF.MIL)
+LAKENHEATH3.MMT.DDN.MIL    26.9.0.193   See MIL-NSC.TXT
+HILLINGDON.MT.DDN.MIL      26.0.0.194   See MIL-NSC.TXT
+LONDON2.MMT.DDN.MIL        26.5.0.194   See MIL-NSC.TXT
+CHIEVRES.MMT.DDN.MIL       26.7.0.194   See MIL-NSC.TXT
+LONDON-NCPDS.NAVY.MIL      26.8.0.194   Simons, Nancy
+                                        (No Mailbox Given)
+NCTSL-GW.NAVY.MIL          26.9.0.194   Talley, Thomas A.
+                                        (talleyt@POST.NCTSL.NAVY.MIL)
+PR62.NAVY.MIL              26.10.0.194  Hill, Nancy L.
+                                        (rth1nlh@RTH10.MED.NAVY.MIL)
+LONDON-PASS-SDS.NAVY.MIL   26.11.0.194  Shaun, Thomas
+                                        (No Mailbox Given)
+EASTCOTE-DODDSNET.AF.MIL   26.12.0.194  Alcot, Beverly
+                                           (balcott@EASTCOTE-DODDSNET.AF.MIL)
+PR63.NAVY.MIL              26.13.0.194  Jones, Janet
+                                        (No Mailbox Given)
+HILLINGDONGW.AF.MIL        26.17.0.194  Smith, Michael
+                                        (NSC-HIN@DDN-EUR.DDN.MIL)
+HILLINGDONGW.AF.MIL        26.24.0.194  Smith, Michael
+                                        (NSC-HIN@DDN-EUR.DDN.MIL)
+TORREJON-PIV-1.AF.MIL      26.5.0.195   Fitzsimmons, Robert
+                                          (RFITZSIM@ALEXANDRIA-EMH1.ARMY.MIL)
+LUKE.MT.DDN.MIL            26.0.0.198   See MIL-NSC.TXT
+LUKE-AM1.AF.MIL            26.4.0.198   Andrews, Harry
+                                        (harry@TACDE.AF.MIL)
+CHANTILLY1.MT.DDN.MIL      26.0.0.201   See MIL-NSC.TXT
+NIC1.DDN.MIL               26.1.0.201   Robert, Jorie
+                                        (jorier@NIC.DDN.MIL)
+SUN1.DDN.MIL               26.24.0.201  Robert, Jorie
+                                        (jorier@NIC.DDN.MIL)
+GSI-GW1.DDN.MIL            26.25.0.201  Robert, Jorie
+                                        (jorier@NIC.DDN.MIL)
+CHANTILLY2.MT.DDN.MIL      26.0.0.202   See MIL-NSC.TXT
+GSI-GW2.DDN.MIL            26.4.0.202   Robert, Jorie
+                                        (jorier@NIC.DDN.MIL)
+SUN2.DDN.MIL               26.5.0.202   Robert, Jorie
+                                        (jorier@NIC.DDN.MIL)
+STEWART.MT.DDN.MIL         26.0.0.205   See MIL-NSC.TXT
+STEWART-EMH1.ARMY.MIL      26.1.0.205   Blake, Scott F., Mr
+                                        (blakes@STEWART-EMH4.ARMY.MIL)
+GORDON.MT.DDN.MIL          26.0.0.206   See MIL-NSC.TXT
+FTORD-GW1.ARMY.MIL         26.6.0.207   Spencer, Rod P.
+                                        (Rod@FTORD-EMH1.ARMY.MIL)
+SACRAMNTO-GW1.ARMY.MIL     26.8.0.207   Meadows, Don
+                                        (qncdsin@SAAD-EMH1.ARMY.MIL)
+OAKLAND-IP.DDN.MIL         26.29.0.207  McClellan, Michael P.
+                                        (mcclella@OAKLAND-EMH1.ARMY.MIL)
+OAKLAND-GW1.ARMY.MIL       26.30.0.207  McClellan, Michael P.
+                                        (mcclella@OAKLAND-EMH1.ARMY.MIL)
+BARKSDALE.MT.DDN.MIL       26.0.0.210   See MIL-NSC.TXT
+CHARLESTON.MT.DDN.MIL      26.0.0.216   See MIL-NSC.TXT
+NCPDS-BERMUDA.NAVY.MIL     26.9.0.216   Robbins, Theresa
+                                        (No Mailbox Given)
+SUPSHIP-CHARLESTON.NAVY.MIL 26.26.0.216 Reaves, Ray
+                                        (No Mailbox Given)
+JACKSON.MT.DDN.MIL         26.0.0.217   See MIL-NSC.TXT
+YOKOTA.MT.DDN.MIL          26.0.0.223   See MIL-NSC.TXT
+SDS-MISAWA.NAVY.MIL        26.5.0.223   Absher, James
+                                        (No Mailbox Given)
+SRF-SASEBO.NAVY.MIL        26.8.0.223   James, Matthews
+                                        (C480@SRF.SAS.MRMS.NAVY.MIL)
+NCPDS-ATSUGI.NAVY.MIL      26.15.0.223  Hagel, Jack
+                                        (No Mailbox Given)
+MISAWA-GW.AF.MIL           26.24.0.223  Spellman, George L.
+                                        (spellman@EMH.MISAWA.AF.MIL)
+NRPDCA-ATSUGI.NAVY.MIL     26.29.0.223  Freer, Dorothy J.
+                                        (No Mailbox Given)
+YOKNIPR.DISA.MIL           26.30.0.223  Marshall, James H., Jr.
+                                        (marshalj@EMH.YOKOTA.AF.MIL)
+YOKOTA-GW.AF.MIL           26.31.0.223  Marshall, James H., Jr.
+                                        (marshalj@EMH.YOKOTA.AF.MIL)
+RITCHIE.MT.DDN.MIL         26.0.0.224   See MIL-NSC.TXT
+CRDEC-GW2.ARMY.MIL         26.6.0.224   Bartley, Jesse
+                                        (Bartley@APGEA.ARMY.MIL)
+FTDIX-GW1.ARMY.MIL         26.7.0.224   Hines, William, Jr.
+                                        (NSC-Dix@DDN-CONUS.DDN.MIL)
+FTMEADE-DARMS.ARMY.MIL     26.10.0.224  Claypool, Capt
+                                        (No Mailbox Given)
+HOLBRD-GW1.ARMY.MIL        26.13.0.224  Blasco, David G., Mr.
+                                        (DGB@FALLSCHURCH-ACIRS2.ARMY.MIL)
+VINTHILL-GW1.ARMY.MIL      26.15.0.224  Alexander, Michael
+                                        (malexand@VINTHILL-EMH4.ARMY.MIL)
+RITCHIE-GW1.ARMY.MIL       26.17.0.224  Dingle, Ralph W.
+                                        (DDNNSC@RITCHIE-EMH1.ARMY.MIL)
+NADN-NET-GW.NAVY.MIL       26.25.0.224  Fischer, Allan
+                                        (allan@NADN1.NADN.NAVY.MIL)
+NORTH-ISLAND.MT.DDN.MIL    26.0.0.226   See MIL-NSC.TXT
+MOCCW.NAVY.MIL             26.4.0.226   Holland, Carl N.
+                                        (No Mailbox Given)
+NADEPNI.NAVY.MIL           26.8.0.226   Toth, Andrew J.
+                                        (totha@TECNET1.JCTE.JCS.MIL)
+CNAP.NAVY.MIL              26.9.0.226   Stewart, Steven H.
+                                        (sstewart@SMTP.CNAP.NAVY.MIL)
+FTIRWIN-GW1.ARMY.MIL       26.14.0.226  Goodman, James L.
+                                        (JGOODMAN@IRWIN-EMH1.ARMY.MIL)
+SDS-SANDGOC.NAVY.MIL       26.17.0.226  Howard, Glen
+                                        (No Mailbox Given)
+SD1-GW.NAVY.MIL            26.19.0.226  Plouffe, Daniel J.
+                                        (No Mailbox Given)
+BLISS.MT.DDN.MIL           26.0.0.229   See MIL-NSC.TXT
+FTBLISS-IGNET.ARMY.MIL     26.10.0.229  Quinn, Mark
+                                        (QUINNM@HOFFMAN-EMH1.ARMY.MIL)
+MARCH.MT.DDN.MIL           26.0.0.230   See MIL-NSC.TXT
+RILEY.MT.DDN.MIL           26.0.0.231   See MIL-NSC.TXT
+FTRILEY-GW1.ARMY.MIL       26.18.0.231  Westover, Leanne R.
+                                        (netadmin@RILEY-EMH1.ARMY.MIL)
+BENHARRISON2.MT.DDN.MIL    26.0.0.232   See MIL-NSC.TXT
+FTBNHRSN-PBAS1.ARMY.MIL    26.4.0.232   Clark, Michael
+                                        (CLARKM@INDPLS-ASAFM1.ARMY.MIL)
+FTBNHRSN-MPRJSS1.ARMY.MIL  26.5.0.232   Clark, Michael
+                                        (CLARKM@INDPLS-ASAFM1.ARMY.MIL)
+FTBNHRSN-JTELS.ARMY.MIL    26.6.0.232   Clark, Michael
+                                        (CLARKM@INDPLS-ASAFM1.ARMY.MIL)
+FTBNHRSN-PBAS3.ARMY.MIL    26.10.0.232  Clark, Michael
+                                        (CLARKM@INDPLS-ASAFM1.ARMY.MIL)
+GW3.DAAS.DLA.MIL           26.12.0.232  Metzner, Mark A.
+                                        (mmetzner@DAAS.DLA.MIL)
+FTBNHRSN-MPRJSS2.ARMY.MIL  26.13.0.232  Clark, Michael
+                                        (CLARKM@INDPLS-ASAFM1.ARMY.MIL)
+FTBNHRSN-JACSTEST.ARMY.MIL 26.15.0.232  Reilly, William R.
+                                        (RREILLY@CLEVELAND.DFAS.MIL)
+FTBENT20.DDN.MIL           26.16.0.232  Clark, Michael
+                                        (CLARKM@INDPLS-ASAFM1.ARMY.MIL)
+FTBNHRSN-GW1.ARMY.MIL      26.17.0.232  Clark, Michael E.
+                                        (MCLARK@CLEVELAND.DFAS.MIL)
+FTBNHRSN-MPRJSS4.ARMY.MIL  26.18.0.232  Clark, Michael
+                                        (CLARKM@INDPLS-ASAFM1.ARMY.MIL)
+FTBNHRSN-MPRJSS3.ARMY.MIL  26.24.0.232  Clark, Michael
+                                        (CLARKM@INDPLS-ASAFM1.ARMY.MIL)
+BEN-HARRIS-TEP1.ARMY.MIL   26.26.0.232  Clark, Michael
+                                        (CLARKM@INDPLS-ASAFM1.ARMY.MIL)
+BEN-HARRIS-TEP2.ARMY.MIL   26.27.0.232  Clark, Michael
+                                        (CLARKM@INDPLS-ASAFM1.ARMY.MIL)
+BEN-HARRIS-TEP3.ARMY.MIL   26.28.0.232  Clark, Michael
+                                        (CLARKM@INDPLS-ASAFM1.ARMY.MIL)
+BEN-HARRIS-TEP4.ARMY.MIL   26.29.0.232  Clark, Michael
+                                        (CLARKM@INDPLS-ASAFM1.ARMY.MIL)
+BEN-HARRIS-TEP5.ARMY.MIL   26.30.0.232  Clark, Michael
+                                        (CLARKM@INDPLS-ASAFM1.ARMY.MIL)
+FT-BEN-HARRISON-IP.DDN.MIL 26.31.0.232  Laurie, Linda L.
+                                        (LLAURIE@CLEVELAND.DFAS.MIL)
+SEYMOUR-JHNSN.MT.DDN.MIL   26.0.0.235   See MIL-NSC.TXT
+ODS2-GW1.ARMY.MIL          26.16.0.235  Weissert, Robert F., Jr.
+                                        (WEISSERB@NMC.DSS.OSD.MIL)
+MTF-ZWEI.AF.MIL            26.10.0.236  Carpenter, Craig A.
+                                        (dccharle@JAS2.AF.MIL)
+PIRMASENS-AMEDD.ARMY.MIL   26.15.0.236  White, Jack
+                                        (white@PIRMASENS-AMEDD.ARMY.MIL)
+EUSTIS.MT.DDN.MIL          26.0.0.238   See MIL-NSC.TXT
+LEE.MT.DDN.MIL             26.0.0.242   See MIL-NSC.TXT
+PETERSON.MT.DDN.MIL        26.0.0.243   See MIL-NSC.TXT
+ACADEMY-GW.AF.MIL          26.8.0.243   Wunderlin, Brian E.
+                                        (academy@SERVER.AF.MIL)
+COLORADO-SPRINGS.OGDEN.DRMS.DLA.MIL 26.16.0.243 Tilley, W.R.
+                                        (No Mailbox Given)
+RITCHIE2.MT.DDN.MIL        26.0.0.246   See MIL-NSC.TXT
+CRMC.DDN.MIL               26.1.0.246   Link, Dave
+                                        (AOPSMGR@DDN-CONUS.DDN.MIL)
+CRSC.DDN.MIL               26.2.0.246   Link, Dave
+                                        (AOPSMGR@DDN-CONUS.DDN.MIL)
+RITCHIE-GW1.ARMY.MIL       26.4.0.246   Dingle, Ralph W.
+                                        (DDNNSC@RITCHIE-EMH1.ARMY.MIL)
+FTMEADE-GW1.ARMY.MIL       26.5.0.246   Heath, Charles T.
+                                        (heatht@MEADE-AMS1.ARMY.MIL)
+CRMC-DIGILOG.DDN.MIL       26.7.0.246   Link, Dave
+                                        (AOPSMGR@DDN-CONUS.DDN.MIL)
+PRTAPRNCHA-GW1.ARMY.MIL    26.8.0.246   Fogle, Anthony E.
+                                        (AINETMGR@HUACHUCA-GIIS.ARMY.MIL)
+VAX.DLA.MIL                26.11.0.246  McAnally, Tony F.
+                                        (cirg-pe@SEOUL-EMH1.ARMY.MIL)
+SITERT20.DDN.MIL           26.17.0.246  Morgan, Jerry
+                                        (No Mailbox Given)
+CRMC-IPR.DDN.MIL           26.29.0.246  Martinez, Patty
+                                        (PMartinez@DDN-CONUS.DDN.MIL)
+PENTAGON2.MT.DDN.MIL       26.0.0.247   See MIL-NSC.TXT
+SPSUP-1.NAVY.MIL           26.4.0.247   Scribner, Gary W.
+                                        (gws@FS0.UII.COM)
+SDS-CDA3.NAVY.MIL          26.6.0.247   Soto, Julio C.
+                                        (SSO@ST-LOUIS-EMH4.ARMY.MIL)
+GSA.MIL                    26.8.0.247   Phillips, Diane
+                                        (No Mailbox Given)
+FLSCHRCH-GW1.ARMY.MIL      26.9.0.247   Hogue, David A.
+                                        (hogued@FAIRFAX-EMH1.ARMY.MIL)
+AFIP.OSD.MIL               26.10.0.247  Goff, Sharmagne D.
+                                        (goff@EMAIL.AFIP.OSD.MIL)
+NISNET-1.NAVY.MIL          26.11.0.247  McGuin, Gary A.
+                                        (HOSTADMIN@NISNET-1.NAVY.MIL)
+SPAWAR-GW1.NAVY.MIL        26.12.0.247  Waxman, Robert B.
+                                        (waxmanb@SPAWAR.NAVY.MIL)
+DSMC-GW1.DSM.MIL           26.13.0.247  Haskell, Marcus
+                                        (Haskell@DSMC.DSM.MIL)
+CMH-GW1.ARMY.MIL           26.15.0.247  Blackmond, Vicky H.
+                                        (blackmon@CMH-SMTP.ARMY.MIL)
+IDSS.IDA.ORG               26.17.0.247  Wong, Victor
+                                        (VWONG@SAN.IDSS.IDA.ORG)
+TEC-GW1.ARMY.MIL           26.25.0.247  Vickers, Leonard J.
+                                        (vickers@TEC.ARMY.MIL)
+PENTAGON-GW.ARMY.MIL       26.26.0.247  Beda, Paul B.
+                                        (beda@PENTAGON-AI.ARMY.MIL)
+IMS-GW.DISA.MIL            26.27.0.247  Partlow, Allen D.
+                                        (partlowa@CC.IMS.DISA.MIL)
+MILNET-GW.OSD.MIL          26.28.0.247  Ensley, Carol A.
+                                        (ensley@GALT.OSD.MIL)
+PENTAGON-GW1.ARMY.MIL      26.31.0.247  Beasley, Phillip D.
+                                        (Beasleyp@PENTAGON-EMH5.ARMY.MIL)
+BRATENAHL-OH.MT.DDN.MIL    26.0.0.248   See MIL-NSC.TXT
+WEST-POINT.MT.DDN.MIL      26.0.0.249   See MIL-NSC.TXT
+FINEGAYAN.MT.DDN.MIL       26.0.0.250   See MIL-NSC.TXT
+SRFGUAM-GW.NAVY.MIL        26.4.0.250   Eazer, L. Michael
+                                        (eazer@SRF.GUM.MRMS.NAVY.MIL)
+GUANSD2.NAVY.MIL           26.5.0.250   Dewitt, John
+                                        (No Mailbox Given)
+GU-NGNET.ARMY.MIL          26.6.0.250   Santo Tomas, Dennis J.
+                                        (doimgu@GU-NGNET.ARMY.MIL)
+CNLGWP.SIN.MRMS.NAVY.MIL   26.8.0.250   Kowalski, Dean
+                                           (KOWALSKI@CLGWP.SIN.MRMS.NAVY.MIL)
+IDA-FMS-GUAM.NAVY.MIL      26.10.0.250  Wright, Jessie
+                                        (No Mailbox Given)
+SDS-GUAM.NAVY.MIL          26.11.0.250  Greunke, Steve C.
+                                        (STEVE.GREUNKE@NCTS.NAVY.MIL)
+NPMOCW-GW.NAVY.MIL         26.24.0.250  McIntosh, Mort
+                                        (mcintosh@NOCC.NAVY.MIL)
+GUAM.PACIFIC.DRMS.DLA.MIL  26.25.0.250  Johnson, Larry
+                                        (ljohnson@PACIFIC.DRMS.DLA.MIL)
+FNGYNIPR.DISA.MIL          26.30.0.250  San Nicolas, Joe B.
+                                        (nsc-m250@DDN-PAC.DDN.MIL)
+HCGUA1-GW.NAVY.MIL         26.31.0.250  WHITE, RMCS
+                                        (No Mailbox Given)
+;end of file

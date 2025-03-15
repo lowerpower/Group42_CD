@@ -1,0 +1,246 @@
+  Here are the mods for the pro34.  I've heard it said that adding the
+  68-88 Mhz band might delete some other band.  I haven't tried any of
+  this, proceed at your own risk!  WA2ISE
+
+  The Following instructions are a result of a request for the coverage
+  mods for the PRO-34 scanner.  I made the assumption that the requester
+  had never opened up their scanner before.
+
+  The instructions below are for those that don't like to completely
+  dissassemble every new electronic toy they buy just to see how it
+  works.  Nor is it for the guy that has been building their own
+  equipment since the days of the first tube diode.  This set of
+  instructions assumes a moderate level of skill with a soldering iron,
+  and some simple hand tools.  It is aimed at those who just want the
+  additional coverage from the mods but havn't been building kits for a
+  decade.  lets just call these ....
+
+                  "NOVICE NOTES" FOR PRO-34 MODIFICATIONS
+
+ 1.  Remove the 4 small phillips screws on the back of the unit
+
+ 2.  Remove the battery cover and battery holder from the case.
+
+ 3.  Remove the two knobs on the top of the case (Volume &  Squelch)
+
+ 4.  The Case has some pressure fit points, These are at the bottom of
+     the case and you need to be a bit careful in forcing the two halves
+     of the case shell apart. Once you have the pressure fit points
+     at the bottom released, angle up the bottom of the case until
+     the battery separation wall is clear of the internal metal frame,
+     and slide towards the top of the unit, place the back half of the
+     shell aside.
+
+ 5.  Now you will see the RF board mounted to the metal support frame,
+     The BNC (antenna) connector leads and the volume control power
+     switch leads are soldered directly to the board.  Carefully
+     desolder these 4 connections.
+
+ 6.  At the bottom of the RF board there is a IF Can transformer that has a
+     small wire as a grounding strap soldered directly to it.  Desolder
+     this as well.
+
+ 7.  There will be some wires from the volume control knob to the PC
+     board that are socketed.  Remove the plug from the RF board (needle
+     nose pliers work)
+
+ 8.  There will also be a similar wire (small shielded ) from the
+     squelch control to the RF board which is also Socketed.  Remove the
+     plug from the RF board.  (Again Needle Nose Pliers work good here)
+
+ 9.  Remove the 4 threaded stand-offs from the RF Board (these Hold the
+     RF board to the internal metal frame and are where the screws that
+     hold the back of the case on go.) Use a nut driver or Needle Nose
+     Pliers.
+
+ 10. Now the the RF board is mostly free.  The only thing holding it
+     in is the row of connector pins on its bottom side that plug into
+     the logic board.  You will need to pry this board up gently.  Be
+     warned that the bottom side of the RF board is just chock full of
+     Very Small surface mounted components.  So use something
+     non-metallic and smooth to do the prying with.
+
+ 11. Now that you have removed the RF board, place it along with the
+     case shell back
+
+ 12. The Internal Metal support frame is now exposed.  There are 3
+     small phillips screws holding the metal frame to the bottom Logic
+     board (actually, these screws go through the logic board and into
+     the front half of the case.) 2 of the screws are near the top, and
+     1 is at the bottom of the metal frame.  remove these 3 screws.
+
+ 13. There is a small socketed wire that leads from the small power pc board
+     on the metal frame that goes under it and is plugged into the Logic
+     board.  Lift the metal frame up and remove the power plug from the
+     PC board. Place the metal frame with the rest of your parts pile.
+
+ 14. You have the component side of the Logic board exposed now.
+     There are 2 small phillips screws at the bottom of the PC board
+     (where the Battery compartment WAS) Remove them.
+
+ 15. Once you have the last 2 screws removed the Logic board is free.
+     The speaker wires lead from the speaker to the logic board on the
+     bottom side.  These are soldered in but there is enough play in
+     them to allow you to make the mods.
+
+ 16. NOTE: The keyboard lock switch is a funky little piece of plastic with
+     a sliding stainless metal contactor that is just wedged in between
+     the front case and the logic board.  Remove both the switch
+     contacts and the plastic switch.  (best know it now or loose them
+     in the carpet)
+
+ 17. On the component side of the PC board you will see lots of nifty
+     surface mounted components, a fat little barrel capacitor (used
+     for maintaining the channel freqs while you change the batteries..
+     and make modifications :) near the edge of the PC board you will
+     see a couple of small diodes mounted vertically.  These will be
+     labeled on the PC board as D10 and D11, you will also see a place
+     for another diaode to be soldered in but was not installed at the
+     factory..  this is D9.
+
+ 18. You must now move diode D11 to the place where D9 is labled. (or
+     just remove d11 just for cell)  As you have probably noticed by now
+     there is a tin cover over about 1/2rd of the PC boards solder side.
+     The edge of the tin cover nearest the diodes has 2 metal tabs
+     soldered to the PC board. Desolder these 2 tabs and gently bend the
+     metal cover way from the solder side of the PC board. This will
+     expose the board enough to let you get your soldering iron in to
+     where the diode leads are.
+
+ 19. Desolder the D11 diode from the bottom while pulling it away from
+     the board on the top of the board using neadle nose pliers on the
+     LEAD only.  This does the cell mod.
+
+ 20. Now heat up the D9 solder pads and insert the diode (the same way
+     it was oriented in the D11 location) This does the 66-88Mhz mod
+     (this may delete some other band).
+
+  You Have Completed the Mods for complete 800mhz band coverage and
+  66-88mhz band coverage.
+
+  Follow the same steps backwards (20->1)and replace "remove" with
+  "replace" and "desolder" with "solder"
+
+  N.B.  These instructions are from last night, All the steps are in
+  correct order as well as the general information.  The diagrams are
+  from memory so components may not be in the exact location indicated,
+  but they will be very close.
+
+  LASTLY, Now that you have made the mods, you can use the warranty card
+  to light the Bar-B-Q Grill with.
+
+ ########################### DIAGRAMS ##############################
+
+        BNC Connector             RF Board
+    __ /                         /       internal metal frame
+     |- ============================= /
+    --  |                            \                         Logic Board
+        |_____________________________|                       /
+       ===============================================================
+
+               SIDE VIEW OF RF-BOARD, METAL FRAME, LOGIC BOARD
+
+ --------------------------------- | L E G E N D |-----------------------------
+
+        _____________________________          |   X1 BNC lead
+       | @                      X5 @|          |   X2 BNC Sheild Lead
+       |_                      --   |          |   X3 Power Switch Lead
+      --_X1                   |  |  |          |   X4 Power Switch Lead
+       |                       --   |          |   X5 Groundig Strap to RF Can
+      ---X2             __          |          |  --
+       |                --1         |          | |  | RF Can Xformer with
+       |                            |          |  --  ground wire soldered to it
+       |                            |          |  _
+       |         __                 |          | ( )  Channel Memory Capacitor
+       - X3      --2                |          |  -
+       - X4                         |          |  __
+       | @                      @   |          |  --1 Plug from Squelch
+ Control
+       |____________________________|          |  __
+                                               |  --2 Plug from Volume Contol
+             TOP OF RF-BOARD                   |
+                                               |   @  Threaded Stand-off
+                                               |
+                                               |   *  Phillips Screws
+        ______________________________         |
+       |*                     |    || |        |   0  Diode (vertical mounted)
+       |                      |    || |        |
+       |                      |____|| |        |   :  Solder Location of D9
+       |                            | |        |      (where you move D11 to)
+       |                             \|        |
+       |                             *|        |
+       |                             /|        |
+       |                            | |        |
+       |                            | |        |
+       |                            | |        |
+       |*                           | |        |
+        ------------------------------         |
+                                               |
+      TOP OF INTERNAL METAL SUPPORT FRAME      |
+                                               |_______________________________
+
+        --------------------------------------------------------------
+       |                                                            *|
+       |                                                             |
+       |                                                             |
+       |                           _                                 |
+       |                          ( )                                |
+       |                           -                                 |
+       |                                                             |
+       |                                                             |
+       |                                                             |
+       |                D9  D10  D1                                  |
+       |                  \  /   |                                   |
+       |                  :00 <--                                   *|
+       |_____________________________________________________________|
+
+                  COMPONENT SIDE OF LOGIC BOARD
+
+ ##############################################################################
+
+ Here are the mods just as received from the MODS mail server
+
+ ==============================================================================
+ ==
+
+ Date: 4 Apr 89 14:24:01 GMT
+ Subject: PRO-34 Scanner Modifications
+
+     In  the  May 1989  edition  of  Popular  Communications  is a
+ "Letter  to the Editor" on the Radio Shack PRO-34 Scanner.  Below
+ is the text of that letter.
+
+                   PRO-34 Scanner Modification
+
+     In regard to the information  presented (March Issue)  on the
+ handheld Radio Shack PRO-34 scanner,  my own observations  on the
+ modifications have been:
+
+ 1. To restore missing 800 MHz frequencies, remove D-11.
+
+ 2. To add 66 to 88 MHz  (European Coverage),  install a diode at
+    D-9.
+
+ 3. D-10 must remain in place for full 800 MHz coverage.
+
+ 4. If a diode is added at D-13 it cuts out aero band, also seems
+    to affect 800 MHz channel spacing.
+
+ 5. D-12 added dosen't seem to have any affect.
+
+ 6. Only D-10 and D-11 are factory installed.
+
+     I  wish to thank you  for a fine and informative  magazine. I
+ have had much reading enjoyment.
+
+                              Sam S. Jones,
+                              Rebel Antenna,
+                              Falls Church, VA
+
+ Enjoy... Mark D. Copple
+ || 42705 Lawrence Place, Fremont, Ca 94538 ||        (415) 438-2028       ||
+
+
+-/Vuarnet International/-
+      617/527.oo91
+  24oo-16.8k HST/V32bis

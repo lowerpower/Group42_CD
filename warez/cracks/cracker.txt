@@ -1,0 +1,77 @@
+
+			    Cracker version 1.0
+
+	As you can understand, Cracker is a  utility to crack games and other
+software. To crack something,  it needs a crack file for that  game. When you
+start Cracker, it first scans all crack  files in the Cracker directory (i.e.
+the directory where CRACKER.EXE is located). On  the screen appears a list of
+all cracks it found.  When you select a game to crack,  on the screen appears
+something like this:
+                      ษอออออออออออออออออออออออออออป
+                      บ Remove Passwords          บ
+                      บ Invulnerability           บ
+                      บ Unlimited ammunition      บ
+                      บ                           บ
+                      บ                           บ
+                      บ                           บ
+                      บ                           บ
+                      บ                           บ
+                      ฬอออออออออออออออออออออออออออน
+                      บ Crack  Undo  Path  Cancel บ
+                      ศอออออออออออออออออออออออออออผ
+Use up/down arrow keys to select a crack  and left/right arrow keys to select
+whether you want  to crack the game,  undo crack so that everything  would be
+exactly like originally, or set the directory  path for the game. The default
+game path  is current  DOS path.  When you  select "Crack" or "Undo", on  the
+screen appears a window showing the cracking progress. If you wanted to crack
+a game  that is already  cracked or uncrack  a game  that is not  cracked, an
+error message  is displayed.  If everything is  OK, the "Done!"  messages are
+displayed for each  file cracked and you  can select "Cancel" to get  back to
+the game selection menu. To exit Cracker, press ESC.
+NOTE:If the file is  compressed (for example, with LZEXE),  then Cracker does
+not recognize the game and an error message is displayed.
+
+			   Getting crack files
+
+	There   is  nothing   simpler   than   calling   The  Dark   Corner  BBS,
++7-0142-492280.  It  is open 6pm-8am (UTC+2+daylight savings). And of course,
+if  you crack  something by yourself or get some cracks,  please upload it to
+The Dark Corner BBS!
+
+			    Crack file format
+
+	A crack file is  an ordinary text file with  the file extension .CRK.
+It's first  line contains  the name  of the  game. This  line appears in  the
+Cracker's "Select  game" window  and  must therefore  be  not longer  than 42
+characters. The second  line is a blank  line. The rest of the  file contains
+cracking instructions.  If the  crack file  contains more  than one  cracking
+instruction, they  must be separated  by blank lines.  There must not  be any
+blank lines in one cracking instruction.
+	The first line of  the cracking instruction contains the  name of the
+crack, for example, "Remove password check" or "Unlimited lives". It must not
+be longer than 54 characters. The next lines contain  the name of the file to
+be changed, then file offsets and byte values at this offset before and after
+cracking. Then  follows the  same for other  files. Here  is a  typical crack
+file:
+-----------------------------------------------------------------------------
+Super Hyper Mario Bros
+
+Remove Password Check
+GAME1.EXE
+00024C1F: 75 90
+00024C20: 0F 90
+GAME2.EXE
+00022466: 75 90
+00022467: 0F 90
+
+Unlimited Lives
+GAME1.EXE
+00004068: 8B B8
+00004069: 84 00
+0000406A: 72 00
+0000406B: F3 90
+-----------------------------------------------------------------------------
+NOTE: This crack  file is just an example  and, as we know, there  is no game
+named like that.
+
+                                         The Corner Crackers

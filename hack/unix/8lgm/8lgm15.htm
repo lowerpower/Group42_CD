@@ -1,0 +1,104 @@
+<head>
+<title>[8lgm]-Advisory-15.UNIX.mail3.28-Nov-1994</title>
+</head>
+<body>
+<hr>
+<P>
+<H1>[8lgm]-Advisory-15.UNIX.mail3.28-Nov-1994
+</H1>
+<P>
+<P>
+<H2>PROGRAM:</H2>
+<P>
+        SunOS 4.1.x binmail(1)
+<P>
+<H2>VULNERABLE OS's:</H2>
+<P>
+        SunOS 4.1.x
+<P>
+<H2>PATCHID:</H2>
+<P>
+	Tested up to SunOS 4.x SMCC Jumbo PATCH, 94/09/13 Patchid 100224-13
+<P>
+<H2>DESCRIPTION:</H2>
+<P>
+	A hole in binmail(1) allows files to be created as root.
+	
+<H2>IMPACT:</H2>
+<P>
+	Any user can become root.
+<P>
+<H2>REPEAT BY:</H2>
+<P>
+	Exploit details will not be available.
+<P>
+<H2>DISCUSSION:</H2>
+<P>
+	A flaw in binmail(1) reported to Sun by 8lgm some time ago, has not
+	been fixed in the the latest patch.  (The latest patch does
+	fix the tmp file and mailbox creation problems successfully).
+	Using the src for binmail(1) posted to bugtraq, and the diff
+	for the latest patch provided to 8lgm by Sun to verify their fix,
+	we have created a secure binmail(1) for SunOS.
+<P>
+	However, as both the diff and source for binmail(1) are covered
+	by copyright, we cannot post this fix.
+<P>
+	We are therefore submitting our source to Sun, who we hope can
+	then supply a secure binmail(1) in the near future.
+<P>
+<h2>WORKAROUND & FIX:</H2>
+<P>
+<OL>
+<li> Contact your vendor for a patch.
+<P>
+<li> The current patch for binmail(1) is the most secure fix
+	available from Sun, so is recommended for use.  If your system
+	is using a port of BSDs mail.local, we recommend continuing the
+	use of this.
+</OL>
+<P>
+<H2>FEEDBACK AND CONTACT INFORMATION:</H2>
+<P>
+<PRE>
+        8lgm-bugs@bagpuss.demon.co.uk           (To report security flaws)
+<P>
+        8lgm-request@bagpuss.demon.co.uk        (Mailing list additions -
+						 processed automatically;
+						 just send any message)
+<P>
+        8lgm@bagpuss.demon.co.uk                (Everything else)
+</PRE>
+<P>
+        System Administrators are encouraged to contact us for any
+        other information they may require about the problems described
+        in this advisory.
+<P>
+        We welcome reports about which platforms this flaw does or does
+        not exist on.
+<P>
+        NB: 8lgm-bugs@bagpuss.demon.co.uk is intended to be used by
+        people wishing to report which platforms/OS's the bugs in our
+        advisories are present on.  Please do *not* send information on
+        other bugs to this address - report them to your vendor and/or
+        comp.security.unix instead.
+<P>
+<h2>8LGM MAILING LIST:</h2>
+<P>
+	Send any message to 8lgm-request@bagpuss.demon.co.uk and the
+	address you mail from will automatically be added to the list.
+<P>
+	If you need to subscribe to an address you cannot mail from
+	(eg an alias), send mail to 8lgm@bagpuss.demon.co.uk and request
+	to be added to the list.  Due to our mail volume, we appreciate
+	it if you can use 8lgm-request instead; thus if	you need to
+	subscribe an alias, please look into using, say sendmail -f,
+	if possible.
+<P>
+<h2>8LGM FILESERVER:</h2>
+<P>
+	All [8LGM] advisories may be obtained via the [8LGM] fileserver.
+	For details, 'echo help | mail 8lgm-fileserver@bagpuss.demon.co.uk'
+<P>
+<hr>
+</Body>

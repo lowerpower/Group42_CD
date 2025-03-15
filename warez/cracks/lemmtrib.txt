@@ -1,0 +1,16 @@
+LEMMINGS - THE TRIBES
+=====================
+
+Cheat Mode:
+
+1. Edit the file l2.ini - Insert new line : Cheat = 1
+2. Run the game;
+3. Choose Prefs from menu; 
+4. Click on Prefs
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ Åhî œåïî$åMî WåœŸ ³Û
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙÛ
+ ßßßßßßßßßßßßßßßßßßßßß
+ 
+ 

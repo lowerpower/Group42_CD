@@ -1,0 +1,54 @@
+READING THE SID WITH THE MOTOROLA PHONE
+---------------------------------------
+
+-----------=?> Doctor Who <?=----------
+
+This document is copyright by the author, and may be redistributed without
+charge as long as it is not changed in any way. No user other than the author
+or his assignees may charge for distribution of this document.
+
+Written on March 19, 1995. A sunny, but still somewhat cold sunday.
+
+The SID (System IDentification) of a control channel can be determined using
+the test mode of the Motorola cellular phone. This document assumes the reader
+understands cellular technology in general, and how to access Motorola's test
+mode in specific.
+
+Tune the phone to the desired control channel with 11xxx# where XXX is the 
+channel number. Hit 39# to receive one control channel word. One should appear
+in less than two seconds, filling up all ten digits on the display with hexa-
+decimal digits. Do this repeatedly until one is found with the correct 
+pattern. Digit places start at the left hand side and go to the right.
+
+The first digit should be C, D, E, or F. This letter can be used to determine the
+DCC/SAT of the cell. A "C" is SAT 0, D is 1, E is 2, and F is 3. Ignore digits
+8, 9, and 10. They are parity bytes. Digit 7 should be "6" or "E", though I
+have never found it to be other than "E". The hexidecimal value of represented
+by digits 2 through 5 is then divided by two, and then 1 added if the carrier
+is a "A" side, "non-wireline" carrier. The result is the System ID.
+
+for example:
+
+E00388EA08
+
+E means this cell has an SAT/DCC of 3. The A08 is ignored. The E to the left of
+it is proper and normal, so this is the right kind of message. Ignore the 8 in
+position 6, that is, just to the left of the E. 0038 in hexadecimal translates
+((3*16=48)+8))  to 56. 56/2 = 28. Looking up System ID 28 on my chart indicates
+Nynex in Boston. This is correct.
+
+Please be aware that the two SID charts I have seen around the net are very
+outdated. I have a more recent version on paper which I may eventually type in,
+when I have the time and energy.
+
+The methods used above are only a very crude way to do what could be done
+much more efficiently by computer. I am sure that programs will be written to
+do exactly this, but I am holding off until I have thoroughly hacked the
+meaning of all these types of messages before writing such a program. I am 
+also contemplating the design of a cable to replace the handset, running 
+from the 25 pin connector on the side of my Bag Phone to a computer.
+
+-----------=?> Doctor Who <?=-----------
+
+ 
+

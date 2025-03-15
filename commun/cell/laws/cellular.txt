@@ -1,0 +1,370 @@
+
+    Set forth below are excerpts from FCC rules and policy 
+    statements regarding cloning and/or modification of the 
+    electronic serial number (ESN) in cellular phones.
+
+    =================
+    TABLE OF CONTENTS
+    =================
+
+    A.	Federal Communications Commission Report and Order 
+	(CC Docket Nos. 92-115, 94-46, and 93-116)
+	Adopted: August 2, 1994	Released: September 9, 1994
+	Rule Changes Effective: January 1, 1995
+
+	1.  Excerpt, Parapgraphs 54-63
+
+	2.  Excerpt, Appendix A
+	    Detailed Discussion of Part 22 Rule Amendments 
+	    Section 22.919 Elecrtonic serial numbers.
+
+	3.  Excerpt, Appendix B - Final Rules
+	    New FCC Rule Section 22.919
+	    47 C.F.R. Section 22.919
+
+    B.	FCC's Stated Position on Rules and Policy 
+	Prior to Rule Changes in CC Docket No. 92-115
+
+    If you have any questions, please feel free to contact me:
+
+
+
+		Bob Keller (KY3R)
+		==============================
+		Robert J. Keller, P.C.
+		------------------------------
+		Federal Telecommunications Law
+		4200 Wisconsin Ave NW #106-261
+		Washington, DC 20016-2143  USA
+		------------------------------
+		Internet: rjk@telcomlaw.com
+		Telephone:  +1 301.229.5208
+		Facsimile:  +1 301.229.6875
+		CompuServe UID:  76100.3333
+		==============================
+
+    ===========================================================
+A.  Federal Communications Commission
+    Report and Order (CC Docket Nos. 92-115, 94-46, and 93-116)
+    Adopted: August 2, 1994	Released: September 9, 1994
+    Rule Changes Effective: January 1, 1995
+    ===========================================================
+
+    --------------------------
+1.  Excerpt, Parapgraphs 54-63:
+    --------------------------
+
+    Cellular Electronic Serial Numbers
+
+    54.  Proposal. We proposed in the Notice a new rule 
+(Section 22.919) intended to help reduce the fraudulent use of 
+cellular equipment caused by tampering with the unique 
+Electronic Serial Numbers (ESN) that identify mobile equipment 
+to cellular systems. The purposes of the ESN in a cellular 
+telephone are similar to the Vehicle Identification Numbers in 
+automobiles. That is, it uniquely identifies the equipment in 
+order to assist in recovery if it is stolen. More importantly, 
+in the case of cellular telephones, the ESN enables the 
+carriers to bill properly for calls made from the telephone. 
+Any alteration of the ESN renders it useless for this purpose. 
+The proposed rule explicitly establishes anti-fraud design 
+specifications that require, among other things, that the ESN 
+must be programmed into the equipment at the factory and must 
+not be alterable, removable, or in any way able to be 
+manipulated in the field. In addition, the proposed rules 
+require that the ESN component be permanently attached to a 
+main circuit board of the mobile transmitter and that the 
+integrity of the unit's operating software not be alterable.
+
+    55.  Comments. The commenters generally support our 
+proposal,[94] but they suggest some modifications. For example, 
+BellSouth, Southwestern Bell, GTE, and CIA suggest that our 
+proposal should be modified to provide that equipment already 
+manufactured, is exempt from the rule.[95]  They argue that 
+subjecting existing phones to this rule would be very expensive 
+and difficult, if not impossible, to implement. Therefore, they 
+recommend that the rule apply only to phones manufactured after 
+a particular date.[96]  NYNEX recommends that we not require 
+the ESN chip to be secured to the main circuit board of the 
+mobile transmitter as proposed. Rather, NYNEX suggests that the 
+ESN chip be attached to the frame of the radio and attached to 
+the logic board by cable.[97]  In addition, it recommends that 
+operating sofrware be encoded or scattered over different 
+memory chips.[98]  Motorola, Inc. (Motorola) and Ericsson Corp. 
+(Ericsson), two manufacturers of cellular mobile equipment, 
+suggest that the proposal be modified to allow authorized 
+service centers or representatives to make necessary and 
+required changes to ESNs in mobile and portable units in the 
+field.[99]
+
+    56.  Southwestern Bell recommends that the rule also apply 
+to mobile equipment associated with a wireless private branch 
+exchange (PBX).[100]  CTIA suggests that the proposal be 
+modified in several respects. First, it states that we should 
+clarify that requiring a mobile transmitter to have a "unique" 
+ESN, means that any particular ESN will not exist in more than 
+one mobile unit. Second, CTIA suggests that ESN manipulation 
+not be permitted "outside a manufacturer's authorized 
+facility." Third, it requests that cellular mobile units be 
+required to be designed to comply with the "applicable industry 
+standard for authentication."[101]  New Vector supports the 
+proposed rule, but emphasizes that the ESN criteria should be 
+incorporated into the type-acceptance rules to clarify that 
+manufacturers will be subject to the Commission's enforcement 
+procedures if they do not comply with the ESN requirements.[102]
+
+    57.  C2+ Technology (C2+) requests that we allow companies 
+to market ancillary cellular equipment that emulates ESNs for 
+the purpose of allowing more than one cellular phone to have 
+the same telephone number. It argues that emulating ESNs in the 
+way it describes benefits the public, does not involve fraud, 
+and retains the security and integrity of the cellular 
+phones.[103]  In opposition, Ericsson asserts that the rules 
+should include procedures to ensure that ESNs are not easily 
+transferable through the use of an encrypted data transfer 
+device.[104]  Similarly, New Par suggests that the proposed 
+rule proscribe activity that does not physically alter the chip 
+yet affects the radiated ESN by translating the ESN signal that 
+the mobile unit transmits.[105]
+
+    58.  Discussion. The record before us demonstrates the need 
+for measures that will help reduce the fraudulent use of 
+cellular equipment caused by tampering with the ESN. We 
+therefore adopt the proposed rule for the reasons set forth 
+below.
+
+    59.  Contrary to the suggestion of one commenter, the ESN 
+rule will not prevent a consumer from having two cellular 
+telephones with the same telephone number. Changing the ESN 
+emitted by a cellular telephone to be the same as that emitted 
+by another cellular telephone does not create an "extension" 
+cellular telephone. Rather, it merely makes it impossible for 
+the cellular system to distingnish between the two telephones. 
+We note that Commission rules do not prohibit assigmnent of the 
+same telephone number to two or more cellular telephones.[106]  
+It is technically possible to have the same telephone number 
+for two or more cellular telephones, each having a unique 
+ESN.[107]  If a cellular carrier wishes to provide this 
+service, it may. In this connection, we will not require that 
+use of cellular telephones comply with an industry 
+authentication procedure as requested by CTIA, as this could 
+have the unintended effect of precluding multiple cellular 
+telephones (each with a unique ESN) from having the same 
+telephone number.
+
+    60.  Further, we conclude that the practice of altering 
+cellular phones to "emulate" ESNs without receiving the 
+permission of the relevant cellular licensee should not be 
+allowed because (1) simultaneous use of cellular telephones 
+fraudulently emitting the same ESN without the licensee's 
+permission could cause problems in some cellular systems such 
+as erroneous tracking or billing; (2) fraudulent use of such 
+phones without the licensee's permission could deprive cellular 
+carriers of monthiy per telephone revenues to which they are 
+entitled; and (3) such altered phones not authorized by the 
+carrier, would therefore not fall within the licensee's blanket 
+license, and thus would be uniicensed transmitters in violation 
+of Section 301 of the Act. Therefore, we agree with New Par and 
+Ericsson that the ESN rule should proscribe activity that does 
+not physically alter the ESN, but affects the radiated ESN, 
+including activities that transfer ESNs through the use of an 
+encrypted data transfer device.
+
+    61.  With respect to the proposal to allow alteration of 
+ESNs by manufacturers' authorized service centers or 
+representatives, we note that computer software to change ESNs, 
+which is intended to be used only by authorized service 
+personnel, might become available to unauthorized persons 
+through privately operated computer "bulletin boards". We have 
+no knowledge that it is now possible to prevent unauthorized 
+use of such software for fraudulent purposes. Accordingly, we 
+decline to make the exception requested by Motorola and 
+Ericsson.
+
+    62.  We further agree with the commenters that it would be 
+impractical to apply the new rule to existing equipment. 
+Accordingly, we are not requiring that cellular equipment that 
+is currently in use or has received a grant of type-acceptance 
+be modified or retrofitted to comply with the requirements of 
+this rule. Thus, the ESN rule will apply only to cellular 
+equipment for which initial type-acceptance is sought after the 
+date that our rules become effective. Nevertheless, with regard 
+to existing equipment, we conclude that cellular telephones 
+with altered ESNs do not comply with the cellular system 
+compatibility specification[108] and thus may not be considered 
+authorized equipment under the original type acceptance. 
+Accordingly, a consumer's knowing use of such altered equipment 
+would violate our rules. We further believe that any individual 
+or company that knowingly alters cellular telephones to cause 
+them to transmit an ESN other than the one originally installed 
+by the manufacturer is aiding in the violation of our rules. 
+Thus, we advise all cellular licensees and subscribers that the 
+use of the C2+ altered cellular telephones constitutes a 
+violation of the Act and our rules.
+
+    63.  With respect to NYNEX's proposed modifications for 
+securing the ESN chip to the mobile transmitter, the record 
+does not convince us that these modifications will make the ESN 
+rule more effective. Therefore, we do not adopt NYNEX's 
+proposal. We agree with Southwestern Bell that the ESN rule 
+should apply to mobile equipment associated with wireless PBX 
+if the equipment can also be used on cellular systems. We also 
+clarify that the new ESN rule prohibits the installation of an 
+ESN in more than one mobile transmitter. Finally, as suggested 
+by New Vector, we amend the type-acceptance rule to refer to 
+the newly adopted ESN rule.[109]
+
+    [Footnotes]
+
+    [94]  See PacTel Comments at 2; CTIA Comments at 7-8.
+
+    [95]  BellSouth Comments at Appendix 2, p.36; Southwestern 
+Bell Comments at 28-29; GTE Comments at 30; CTIA Comments at 8.
+
+    [96]  For example, BellSouth suggests that the anti-fraud 
+measures should not apply to equipment type-accepted before 
+January 1, 1993.
+
+    [97]  NYNEX Comments at 8.
+
+    [98]  Id. at 8-9.
+
+    [99]  Ericsson Reply Comments at 2-5; Motorola Reply 
+Comments at 3.
+
+    [100]  Southwestern Bell Comments at 29.
+
+    [101]  CTIA Comments at 8.
+
+    [102]  New Vector Comments at Appendix I, p.44.
+
+    [103]   C2+ Comments at 1-2.
+
+    [104]   Ericsson Reply Comments at 3-4.
+
+    [105]   New Par Comments at 21-22.
+
+    [106]   The telephone number is referred to in the cellular 
+compatibility specification as the Mobile Identification Number 
+or "MIN"
+
+    [107]   It is not technically necessary to have the same 
+ESN in order to have the same telephone number. Nevertheless, 
+the authentication software used by some cellular systems does 
+not permit two cellular telephones with the same telephone 
+number. In such cases, cellular carriers should explain to 
+consumers who request this service that their system is not yet 
+capable of providing it.
+
+    [108]   See old  Section 22.915, which becomes new  Section 
+22.933 in Appendices A and B.
+
+    [109]   See discussion of new  Section 22.377 in Appendix A.
+
+    ----------------------------------------------
+2.  Excerpt, Appendix A
+    Detailed Discussion of Part 22 Rule Amendments
+    Section 22.919 Elecrtonic serial numbers.
+    ----------------------------------------------
+
+    Section 22.919 Electronic serial numbers.
+
+    The purpose of this new section is to deter cellular fraud 
+by requiring that the Electronic Serial Number (ESN) unique to 
+each cellular phone be factory set, inalterable, 
+non-transferable, and otherwise tamper-proof and free of 
+fraudulent manipulation in the field.  This subject received 
+substantial attention from commenters and is discussed in the 
+Report and Order.
+
+    ---------------------------------
+3.  Excerpt, Appendix B - Final Rules
+    New FCC Rule Section 22.919
+    47 C.F.R. Section 22.919
+    ---------------------------------
+
+    22.919 Electronic serial numbers.
+
+    The Electronic Serial Number (ESN) is a 32 bit binary 
+    number that uniquely identifies a cellular mobile 
+    transmitter to any cellular system.
+
+    	(a) Each mobile transmitter in service must have a 
+	    unique ESN.
+
+	(b) The ESN host component must be permanently attached 
+	    to a main circuit board of the mobile transmitter 
+	    and the integrity of the unit's operating software 
+	    must not be alterable.  The ESN must be isolated 
+	    from fraudulent contact and tampering.  If the ESN 
+	    host component does not contain other information, 
+	    that component must not be removable, and its 
+	    electrical connections must not be accessible.  If 
+	    the ESN host component contains other information, 
+	    the ESN must be encoded using one or more of the 
+	    following techniques:
+
+		(1) Multiplication or division by a polynomial;
+
+		(2) Cyclic coding;
+
+		(3) The spreading of ESN bits over various non-
+		    sequential memory locations.
+
+        (c) Cellular mobile equipment must be designed such 
+	    that any attempt to remove, tamper with, or change 
+	    the ESN chip, its logic system, or firmware 
+	    originally programmed by the manufacturer will 
+	    render the mobile transmitter inoperative.
+
+	(d) The ESN must be factory set and must not be 
+	    alterable, transferable, removable or otherwise 
+	    able to be manipulated in the field.  Cellular 
+	    equipment must be designed such that any attempt to 
+	    remove, tamper with, or change the ESN chip, its 
+	    logic system, or firmware originally programmed by 
+	    the manufacturer will render the mobile transmitter 
+	    inoperative.
+
+    =============================================
+B.  FCC's Stated Position on Rules and Policy
+    Prior to Rule Changes in CC Docket No. 92-115
+    =============================================
+
+    PUBLIC NOTICE
+
+    FEDERAL COMMUNICATIONS COMMISSION
+
+    COMMON CARRIER PUBLIC MOBILE SERVICES INFORMATION
+
+    October 2, 1991
+    Report No. CL-92-3
+
+    CHANGING ELECTRONIC SERIAL NUMBERS ON CELLULAR
+    PHONES IS A VIOLATION OF THE COMMISSION'S RULES
+
+
+    It has come to the attention of the Mobile Services
+    Division that individuals and companies may be altering
+    the Electronic Serial Number ( ESN)  on cellular phones.
+    Paragraph 2.3.2 in OST Bulletin No. 53 (Cellular System
+    Mobile Station - Land Station Compatibility Specification,
+    July, 1983) states that "[a]ttempts to change the serial
+    number circuitry should render the mobile station
+    inoperative." The 1981 edition of these compatibility
+    specifications (which contains the same wording) was
+    included as Appendix D in CC Docket 79-318 and
+    is incorporated into Section 22.915 of the Commission's
+    rules.
+
+    Phones with altered  ESNs do not comply with the
+    Commission's rules and any individual or company operating
+    such phones or performing such alterations is in violation
+    of Section 22.915 of the Commission's rules and could be
+    subject to appropriate enforcement action.
+
+    Questions concerning this Public Notice should be addressed
+    to Steve Markendorff at 202-653-5560 or Andrew Nachby at
+    202-632-6450.
+
+

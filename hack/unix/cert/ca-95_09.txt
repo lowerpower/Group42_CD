@@ -1,0 +1,226 @@
+=============================================================================
+CA-95:09                       CERT Advisory
+                              August 29, 1995
+                          Solaris ps Vulnerability
+-----------------------------------------------------------------------------
+
+               The text of this advisory is taken primarily 
+           from AUSCERT advisory AA-95.07, with their permission.  
+
+A vulnerability exists in Solaris systems that allows a race condition to be
+exploited to gain root access.  The essential problem is that the ps(1)
+program maintains a data file in the /tmp directory, and the /tmp directory is
+world-writable, allowing users to delete other users' files in /tmp. This
+vulnerability affects Solaris 2.x (SunOS 5.x) systems. 
+
+An exploit program for this vulnerability has been published. We urge
+you to take the actions described in Section III as soon as possible.
+
+As we receive additional information relating to this advisory, we
+will place it in
+
+        ftp://info.cert.org/pub/cert_advisories/CA-95:09.README
+
+We encourage you to check our README files regularly for updates on
+advisories that relate to your site.
+
+------------------------------------------------------------------------------
+I.   Description
+
+     A race condition exists in at least one Solaris 2.x (SunOS 5.x) system
+     program that can be exploited to gain root access if the user has access
+     to the temporary files.  Access to temporary files may be obtained if the
+     permissions on the /tmp and /var/tmp directories are set incorrectly. 
+     The permissions on the /tmp directory are often reset incorrectly by
+     the system if tmpfs (which is mounting swap as /tmp) is in use.
+
+II.  Impact
+
+     Users logged in to the system may gain unauthorized root privileges.
+     
+III. Solution
+     
+     A. Determine if your system is vulnerable
+
+        To determine if you are running tmpfs, the following command can be
+        used to verify if the filesystem for /tmp is swap:
+
+          % /usr/sbin/df -k /tmp
+          Filesystem          kbytes    used   avail capacity  Mounted on
+          swap                 28348     12    28336     0%    /tmp
+
+        or look in the file /etc/vfstab for the configuration line:
+
+          #device     device   mount    FS      fsck    mount     mount
+          #to mount   to fsck  point    type    pass    at boot   options
+          swap          -      /tmp     tmpfs     -      yes         -
+
+        If either of these two conditions exist, then you are running tmpfs
+        and the system may automatically reset the permission bits of /tmp at
+        the next reboot.
+
+        To verify if your configuration is currently vulnerable, the following
+        command may be used:
+
+          % /usr/bin/ls -ld /tmp
+          drwxrwxrwt   2 sys      sys        61 Aug 15 12:12 /tmp
+
+        If the sticky bit (t) is not set (it will be an x), then the system is
+        vulnerable.
+
+     B. Perform the following workarounds
+
+        These workarounds have been verified with Sun Microsystems. Sun
+        Microsystems expects to release a patch in the near future.
+
+        1. Immediate - fix /tmp permissions
+
+           A workaround that takes effect immediately is to set the sticky bit
+           on the /tmp directory using the following command as root:
+
+             # /usr/bin/chmod 1777 /tmp
+
+           Note that this command must be performed after each reboot if you
+           are mounting swap as /tmp (using tmpfs).
+
+           In addition, the ownership and group membership of the /tmp
+           directory should be verified using /usr/bin/ls -ld /tmp, and if
+           incorrect may be reset by: 
+
+             # /usr/bin/chown sys /tmp
+             # /usr/bin/chgrp sys /tmp
+
+           The AUSCERT UNIX Security Checklist addresses this issue in
+           Section 5.5.  This section is reproduced in the appendix of this
+           advisory. The entire AUSCERT checklist may be obtained from these
+           locations.
+          
+           Sites outside of Australia should use the info.cert.org FTP site.
+
+       ftp://info.cert.org/pub/tech_tips/AUSCERT_checklist_1.0
+       ftp://ftp.auscert.org.au/pub/auscert/papers/unix_security_checklist_1.0
+    
+
+        2. Permanent - make the above change to /tmp permissions permanent
+
+           The change noted in item B.1 above will be lost upon reboot. To
+           make the changes permanent, create the following script as
+           /etc/init.d/tmpfsfix: 
+
+-----------------------------cut here--8<-------------------------------------
+#!/bin/sh
+
+if [ -d /tmp ]
+then
+   /usr/bin/chmod 1777 /tmp
+   /usr/bin/chgrp sys /tmp
+   /usr/bin/chown sys /tmp
+fi
+------------------------------cut here---8<-----------------------------------
+
+          A symbolic link should then be created called
+          /etc/rc3.d/S79tmpfix which points to /etc/init.d/tmpfsfix by issuing
+          the following command as root:
+
+            # /usr/bin/ln -s /etc/init.d/tmpfsfix /etc/rc3.d/S79tmpfix
+
+          If you have done item B.1 above, you can reboot at your leisure.
+          Otherwise, reboot your system now. In either case, verify the 
+          permissions of /tmp immediately after your next system reboot.
+
+       3. Check /var/tmp permissions
+
+          We recommend that you also check and correct the /var/tmp directory.
+          Note that this directory is not usually mounted as tmpfs, so
+          it normally would not be subject to automatic resetting of its
+          permission bits on reboot. 
+
+            % /usr/bin/ls -ld /var/tmp
+            drwxrwxrwt   2 sys      sys       512 Aug 15 11:35 /var/tmp
+
+----------------------------------------------------------------------------
+The CERT Coordination Center staff thanks AUSCERT, the Australian response
+team, for their permission to reuse text from their advisory AA-95.07 and 
+for their cooperation and assistance.
+----------------------------------------------------------------------------
+
+If you believe that your system has been compromised, contact the CERT
+Coordination Center or your representative in the Forum of Incident
+Response and Security Teams (FIRST).
+
+If you wish to send sensitive incident or vulnerability information to
+CERT staff by electronic mail, we strongly advise that the email be
+encrypted.  The CERT Coordination Center can support a shared DES key, PGP
+(public key available via anonymous FTP on info.cert.org), or PEM (contact
+CERT staff for details).
+
+Internet email: cert@cert.org
+Telephone: +1 412-268-7090 (24-hour hotline)
+           CERT personnel answer 8:30 a.m.-5:00 p.m. EST(GMT-5)/EDT(GMT-4),
+           and are on call for emergencies during other hours.
+Fax: +1 412-268-6989
+
+Postal address:  CERT Coordination Center
+                 Software Engineering Institute
+                 Carnegie Mellon University
+                 Pittsburgh, PA 15213-3890
+                 USA
+
+CERT advisories and bulletins are posted on the USENET newsgroup
+comp.security.announce. If you would like to have future advisories and
+bulletins mailed to you or to a mail exploder at your site, please send mail
+to cert-advisory-request@cert.org.
+
+Past CERT publications, information about FIRST representatives, and
+other information related to computer security are available for anonymous
+FTP from info.cert.org. 
+
+This material may be reproduced and distributed without permission provided it
+is used for noncommercial purposes, and the CERT Coordination Center and
+AUSCERT are acknowledged.
+
+CERT is a service mark of Carnegie Mellon University.
+
+..............................................................................
+Appendix: Excerpt from AUSCERT UNIX Security Checklist (Version 1.0)
+
+ 5.5  File Permissions
+
+   *    CHECK that the permissions of /etc/utmp are set to 644.
+   *    CHECK that the permissions of /etc/sm and /etc/sm.bak are set to 2755.
+   *    CHECK that the permissions of /etc/state are set to 644.
+   *    CHECK that the permissions of /etc/motd and /etc/mtab are set to 644.
+   *    CHECK that the permissions of /etc/syslog.pid are set to 644.
+   *    REMOVE setgid privileges on /usr/kvm/crash.
+            A group of kmem allows users to read the virtual memory of a
+            running system.
+                # /bin/chmod g-s /usr/kvm/crash
+   *    DO consider removing read access to files that users do not need to
+        access.
+   *    ENSURE that the kernel (eg. /vmunix) is owned by root, has group set
+        to 0 (wheel on SunOS) and permissions set to 644.
+   *    ENSURE that /etc, /bin, /usr/etc, /usr/bin and /tmp are owned by
+        root [Note from CERT Coordination Center: "root" applies to SunOS; 
+        "sys" applies to Solaris]  and that the sticky-bit is set on /tmp.
+            ie. permissions on /tmp should be:  drwxrwxrwt.
+            You should implement COPS or Tiger to check for this.
+            Refer to section B.2 [of the AUSCERT UNIX Security Checklist] for 
+            information where to obtain these.
+
+   *    ENSURE that there are no unexpected world writable files or
+        directories on your system.  The following commands find world
+        writeable files and directories.
+
+               # /bin/find / -type f -perm -22 -exec ls -l {} \;
+               # /bin/find / -type d -perm -22 -exec ls -ld {} \;
+
+   *    CHECK that files which have the SUID or SGID bit enabled, should have
+        it enabled:
+               # /bin/find / -type f \( -perm -004000 -o -perm -002000 \) \
+                      -exec ls -l {} \;
+
+   *    CHECK the umask value for each user and ensure it is set to
+        something sensible like 027 or 077.  Refer to section E.1 [of the 
+        AUSCERT UNIX Security Checklist] for a shell script to check this.
+
+

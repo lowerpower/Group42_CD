@@ -1,0 +1,196 @@
+<html>
+<head><title>Group 42 Sells Out</title></head>
+<body background="paper.jpg">
+<center>
+<img alt="Group 42 Sells Out!" src="../../../g42slogo.gif">
+</center>
+<hr size=5 noshade>
+
+<center>
+<h3>Listening In To Digital Data On The Airwaves</h3>
+<h3>RF Digital Signaling Basics</h3>
+<h4>By G-Man, Group 42 (c)1995</h4>
+</center>
+<h4>Introduction</h4>
+
+Although there are a number of ways to send digital data over
+radio waves, by far the most common today is Frequency Shift Keying (FSK)
+encoded with some sort of biphase code, of which Manchester
+and Differential Manchester are the most common.  From Cellular phone
+switching information to Digital Pagers and Cable TV Boxes control
+channels to Stock Quote data, this method of sending digital
+information it is used everywhere. In this article we will explore how
+a typical FSK signal is generated and encoded and
+look into how we can decode these signals.
+<p>
+<h4>RF Data Basics</h4>
+
+While it is possible to transmit digital data as an analog signal
+by using tones and amplituedes to represent the data, much like
+a computer modem, the use of frequency shifts to represent digital
+signals is less expensive and under some circumstances, provide better
+performace than analog signaling.  With FSK, the two binary values
+0 and 1 are represented by two different frequncies near the carrier
+frquency.  Example: if we had a 100MHz carrier frquency we might
+call a binary 0 99.9 Mhz and a binary 1 100.1 Mhz.
+<p>
+We cannot simply encode our serial data stream by sending as
+in our example 99.9 Mhz for every 0 and 101.1 Mhz for every
+1, because of several reasons.
+<p>
+The first reason is it is very difficult
+to determine where one bit ends and another begins.  To
+visulize this problem consider a long string of 1's or 0's
+encoded as in our example.  The output is a constant frequency
+over a long period of time.  Any drift between the timing of
+the transmitter and receiver will result in the loss of
+synchronization between the two.
+<p>
+The second reason has to do with how a FSK signal is genrated
+and received.  On the transmit end the digital signal (on or off for
+0 or 1) is applied to a variable capacitance diode which changes
+the frequncy depending on the voltage applied to it.  If one
+of the two voltages is applied for any lenght of time either
+unwanted frequncy drift of the transmitter or PLL compensation
+can happen, distoring the digital signal.  This leads to
+corrupt data or the receiver loosing lock on the signal.
+<p>
+There are a set of codeing techniques, grouped under the term
+biphase codes, which overcome the above problems.  Two of these
+techniques, Manchester and Differential Manchester, are very
+common in RF data communication and Local Area Networks, and
+show up many other places like magnetic stips on bank cards.  All
+of the biphase techniques require at least one tranistion per
+bit time and may have as many as two transistions (In our
+example a transition would be described as a switching from
+99.9 Mhz to 101.1 Mhz or vica-versa.)  Biphase scheams have
+several advanteges over NRZ.  They are :
+<p>
+<ul>
+<li> Synchronization: Since there is a predictable transistion
+during each bit time, the receiver can synchronize on that
+transition.  For this reason biphase codes are known as
+self-clocking codes (Example : bank cards can be swiped
+through a reader fast or slow and that data can be read
+just the same because of the self clocking aspects of
+biphase codes.
+
+<li>Error Detection :  The absence of an expected transition can
+be used to detect errors.  Noise would have to invert both
+the signal before and after the expected transistion to cause
+an undetected error.
+</ul>
+
+In Manchester code,  there is a transistion at the middle of each
+bit period.  The mid-bit transition servers as a clock and also as
+data; a low to high transition represents a 1 and a high to low
+transition represents a 0.
+<p>
+In Differential Manchester the mid-bit transition is used only to
+provide clocking.  Encoding of a 0 is represented by a transition
+at the beginning of a bit period, and a 1 is represented by the
+absence of a transition at the beginning of a bit period.
+<p>
+<img src="manwav.gif">
+
+<h4>Listening In</h4>
+
+We can eseve drop on these signals using a scanner or receiver
+in FM mode.  The trick here it your scanner has an analog output and we
+need a to get a digital data stream before we can decode it.
+<p>
+If you listen in to a FSK data stream on your scanner you will
+here a serice of quick, seemingly random tones, and depending
+on the speed of the signal it could sound like a chainsaw buzz
+to a fast CW signal.  These tones are created by the transistions
+between the two frequencies used.  What we need to do is detect
+the transistions between these two frequencies, this can be accomplished
+by the use of a zero crossing detector (or somtimes data slicer)
+that we can build with a simple circuit.
+<p>
+Once we have the data from the zero crossing detector we can
+input it into a computer through the serial or parallel port and
+decode the manchester (or other simarly coded information)
+with some simple software.
+<p>
+
+<h4>Detecting FSK</h4>
+To detect an FSK signal and convert it to digital 1s and 0s we need a
+little hardware.  The following <a href="dataslic.gif">circuit</a> is
+called a data slicer and works nicely.  It is best to take the <i>AF IN</i> from the receivers
+discriminator, but this circuit has been fairly successful
+taking the audio directly from the receiver's speaker or headphone
+output.
+<p>
+Pin numbers for COM port are given as (x/y), where x is for a 25 pin
+COM port connector, and Y is for a 9 pin COM port connector.
+<p>
+The circuit is powered by the serial port (DTR/RTS), this supplies the
+OPAMP with a maximum of 10mA. A TL071 or other higher performance pin
+compatable OPAMP can be used instead of the 741 (<i>make sure you stay
+within the current ratings of the serial port.</i>)
+The circuit can be built on a small board that plugs into the serial port.
+<p>
+
+<h4>Decoding Manchester Encoded Data Using A Computer</h4>
+
+Needed to proceed : <br>
+        A 'C' compiler  <br>
+        Above Data Slicer Interface<br>
+        <P>
+
+Using the above zero crossing data slicer interface connected to
+the PC's serial port we can read in a series of samples and
+process (decode) them.  We could sample and process the data at the same
+time or sample the data then process the data.  The first is a bit
+more complex, carefull attention has to be payed attention to
+timing and this method may not be an option for the faster encoded
+signals out there with anything but the fastest computers.  So
+for these examples we will sample the data then decode it.  We
+will leave processing of the data on the fly as an exercisize
+for the reader.
+<p>
+Shown here in our first <a href="datasli1.c">code</a> example
+is a simple program that
+will test the data slicer interface to make sure that it is
+is functioning properly.  With the data slicer hooked up to
+a scanner tuned to a digital signal the screen should be
+prining a seriese of 0s and 1s on the screen representing
+data received from the data slicer interface.  Static or
+traditional radio broadcasts will produce random 0s and 1s.
+Use ctrl-break to exit the program.
+<p>
+Our second <a href="datasli2.c">code</a> example will sample
+the data slicer interface and determine a value for a full
+and half manchester cycles.  Tune to known manchester encoded FSK
+digital signal and adjust the volume on your scanner until
+you get output consisting of 2 values in any random order.  The
+smaller value should be approximatly 1/2 the value of the
+larger value in a manchester encoded FSK signal.
+<p>
+In Part II we will  build a simple Manchester decoder using software written
+on a an IBMPC to decode some interesting signals available on the
+airwaves.
+<P>
+
+
+<hr size=5 noshade>
+
+<center>
+
+<h4>
+<a href="../../../index.htm">HOME</a> |
+<a href="../../../about.htm">GROUP 42</a> |
+<a href="../../../disclaim.htm">DISCLAIMER</a> |
+<a href="../../../help.htm">HELP</a>
+<br>
+Copyright &copy 1984-1996, Group 42
+</h4>
+
+</center>
+
+</html>
+
+
+
+

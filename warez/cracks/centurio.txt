@@ -1,0 +1,20 @@
+Crack> Centurion 
+
+crack written by anonymous (send questions or comments 
+to ri09+@andrew.cmu.edu and I'll forward them) 
+
+This is a (maybe THE) crack for Centurion. 
+
+To make it accept any answer as input: 
+
+Scan ovl0.ovl for 5B 5B 0B C0 74 06 FF 46 FE 
+                   CHANGE THE 74 TO EB 
+
+If you do not want to press return: 
+Scan centurio.exe for AF 02 E8 19 CE 2B F1 F9 
+                 CHANGE THE E8 19 CE --> B8 0D 00 
+
+
+>>>Note from Bob:  Thanks to a fellow netter for sending 
+>>>these next few deprotects my way.  They were all 
+>>>gotten from a bboard. 

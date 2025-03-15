@@ -1,0 +1,557 @@
+<HTML>
+
+<title>The Jargon File - Section i</title>
+<h1>The Jargon File</h1><hr><a href=jargon.htm>The Jargon File</a><br>
+<a href=intro.htm>Introduction</a><br>
+<a href=howwork.htm>How Jargon Works</a><br>
+<a href=howuse.htm>How to Use the Lexicon</a><p>
+<a href=a.htm>A</a>   <a href=b.htm>B</a>   <a href=c.htm>C</a>   <a href=d.htm>D</a>   <a href=e.htm>E</a>
+<a href=f.htm>F</a>   <a href=g.htm>G</a>   <a href=h.htm>H</a>   <a href=i.htm>I</a>   <a href=j.htm>J</a>
+<a href=k.htm>K</a>   <a href=l.htm>L</a>   <a href=m.htm>M</a>   <a href=n.htm>N</a>   <a href=o.htm>O</a>
+<a href=p.htm>P</a>   <a href=q.htm>Q</a>   <a href=r.htm>R</a>   <a href=s.htm>S</a>   <a href=t.htm>T</a>
+<a href=u.htm>U</a>   <a href=v.htm>V</a>   <a href=w.htm>W</a>   <a href=x.htm>X</a>   <a href=y.htm>Y</a>
+<a href=z.htm>Z</a>   <a href=notaz.htm>[^a-zA-Z]</a><p>
+<a href=appa.htm>Appendix A</a> --- 
+<a href=appb.htm>Appendix B</a> --- 
+<a href=appc.htm>Appendix C</a>
+<h1><a name="i_didn't_change_anything!">I didn't change anything!</a></h1><pre> interj.  An aggrieved cry often
+   heard as bugs manifest during a regression test.  The
+   <a href="c.htm#canonical">canonical</a> reply to this assertion is "Then it works just the
+   same as it did before, doesn't it?"  See also <a href="o.htm#one-line_fix">one-line_fix</a>.
+   This is also heard from applications programmers trying to blame an
+   obvious applications problem on an unrelated systems software
+   change, for example a divide-by-0 fault after terminals were added
+   to a network.  Usually, their statement is found to be false.  Upon
+   close questioning, they will admit some major restructuring of the
+   program that shouldn't have broken anything, in their opinion, but
+   which actually <a href="h.htm#hosed">hosed</a> the code completely.
+
+</pre><p>
+<h1><a name="i_see_no_x_here.">I see no X here.</a></h1><pre>  Hackers (and the interactive computer
+   games they write) traditionally favor this slightly marked usage
+   over other possible equivalents such as "There's no X here!" or
+   "X is missing."  or "Where's the X?".  This goes back to the
+   original PDP-10 <a href="a.htm#advent">ADVENT</a>, which would respond in this wise if
+   you asked it to do something involving an object not present at
+   your location in the game.
+
+</pre><p>
+<h1><a name="ibm">IBM</a></h1><pre> /I-B-M/  Inferior But Marketable; It's Better
+   Manually; Insidious Black Magic; It's Been Malfunctioning;
+   Incontinent Bowel Movement; and a near-<a href="i.htm#infinite">infinite</a> number of even
+   less complimentary expansions, including `International Business
+   Machines'.  See <a href="t.htm#tla">TLA</a>.  These abbreviations illustrate the
+   considerable antipathy most hackers have long felt toward the
+   `industry leader' (see <a href="f.htm#fear_and_loathing">fear_and_loathing</a>).
+
+   What galls hackers about most IBM machines above the PC level isn't
+   so much that they are underpowered and overpriced (though that does
+   count against them), but that the designs are incredibly archaic,
+   <a href="c.htm#crufty">crufty</a>, and <a href="e.htm#elephantine">elephantine</a> ... and you can't *fix* them
+   -- source code is locked up tight, and programming tools are
+   expensive, hard to find, and bletcherous to use once you've found
+   them.  With the release of the UNIX-based RIOS family this may have
+   begun to change -- but then, we thought that when the PC-RT came
+   out, too.
+
+   In the spirit of universal peace and brotherhood, this lexicon now
+   includes a number of entries attributed to `IBM'; these derive from
+   some rampantly unofficial jargon lists circulated within IBM's own
+   beleaguered hacker underground.
+
+</pre><p>
+<h1><a name="ibm_discount">IBM discount</a></h1><pre> n.  A price increase.  Outside IBM, this
+   derives from the common perception that IBM products are generally
+   overpriced (see <a href="c.htm#clone">clone</a>); inside, it is said to spring from a
+   belief that large numbers of IBM employees living in an area cause
+   prices to rise.
+
+</pre><p>
+<h1><a name="icbm_address">ICBM address</a></h1><pre> n.  (Also `missile address') The form used to
+   register a site with the Usenet mapping project includes a blank
+   for longitude and latitude, preferably to seconds-of-arc accuracy.
+   This is actually used for generating geographically-correct maps of
+   Usenet links on a plotter; however, it has become traditional to
+   refer to this as one's `ICBM address' or `missile address', and
+   many people include it in their <a href="s.htm#sig_block">sig_block</a> with that name.  (A
+   real missile address would include target altitude.)
+
+</pre><p>
+<h1><a name="ice">ice</a></h1><pre> n.  [coined by Usenetter Tom Maddox, popularized by
+   William Gibson's cyberpunk SF novels: a contrived acronym for
+   `Intrusion Countermeasure Electronics'] Security software (in
+   Gibson's novels, software that responds to intrusion by attempting
+   to literally kill the intruder).  Also, `icebreaker': a program
+   designed for cracking security on a system.
+
+   Neither term is in serious use yet as of mid-1993, but many hackers
+   find the metaphor attractive, and each may develop a denotation in
+   the future. In the meantime, the speculative usage could be
+   confused with `ICE', an acronym for "in-circuit emulator".
+
+</pre><p>
+<h1><a name="idempotent">idempotent</a></h1><pre> adj.  [from mathematical techspeak] Acting as if
+   used only once, even if used multiple times.  This term is often
+   used with respect to <a href="c.htm#c">C</a> header files, which contain common
+   definitions and declarations to be included by several source
+   files.  If a header file is ever included twice during the same
+   compilation (perhaps due to nested #include files), compilation
+   errors can result unless the header file has protected itself
+   against multiple inclusion; a header file so protected is said to
+   be idempotent.  The term can also be used to describe an
+   initialization subroutine that is arranged to perform some critical
+   action exactly once, even if the routine is called several times.
+
+</pre><p>
+<h1><a name="if_you_want_x,_you_know_where_to_find_it.">If you want X, you know where to find it.</a></h1><pre>  There is a legend
+   that Dennis Ritchie, inventor of <a href="c.htm#c">C</a>, once responded to demands
+   for features resembling those of what at the time was a much more
+   popular language by observing "If you want PL/I, you know where to
+   find it."  Ever since, this has been hackish standard form for
+   fending off requests to alter a new design to mimic some older
+   (and, by implication, inferior and <a href="b.htm#baroque">baroque</a>) one.  The case X =
+   <a href="p.htm#pascal">Pascal</a> manifests semi-regularly on Usenet's comp.lang.c
+   newsgroup.  Indeed, the case X = X has been reported in discussions
+   of graphics software (see <a href="x.htm#x">X</a>).
+
+</pre><p>
+<h1><a name="ifdef_out">ifdef out</a></h1><pre> /if'def owt/ v.  Syn. for <a href="c.htm#condition_out">condition_out</a>,
+   specific to <a href="c.htm#c">C</a>.
+
+</pre><p>
+<h1><a name="ill-behaved">ill-behaved</a></h1><pre> adj.  1. [numerical analysis] Said of an
+   algorithm or computational method that tends to blow up because of
+   accumulated roundoff error or poor convergence properties.
+   2. Software that bypasses the defined <a href="o.htm#os">OS</a> interfaces to do
+   things (like screen, keyboard, and disk I/O) itself, often in a way
+   that depends on the hardware of the machine it is running on or
+   which is nonportable or incompatible with other pieces of software.
+   In the IBM PC/MS-DOS world, there is a folk theorem (nearly true)
+   to the effect that (owing to gross inadequacies and performance
+   penalties in the OS interface) all interesting applications are
+   ill-behaved.  See also <a href="b.htm#bare_metal">bare_metal</a>. Oppose <a href="w.htm#well-behaved">well-behaved</a>,
+   compare <a href="p.htm#pc-ism">PC-ism</a>.  See <a href="m.htm#mess-dos">mess-dos</a>.
+
+</pre><p>
+<h1><a name="imho">IMHO</a></h1><pre> // abbrev.  [from SF fandom via Usenet; abbreviation for
+   `In My Humble Opinion'] "IMHO, mixed-case C names should be
+   avoided, as mistyping something in the wrong case can cause
+   hard-to-detect errors -- and they look too Pascalish anyhow."
+   Also seen in variant forms such as IMNSHO (In My Not-So-Humble
+   Opinion) and IMAO (In My Arrogant Opinion).
+
+</pre><p>
+<h1><a name="imminent_death_of_the_net_predicted!">Imminent Death Of The Net Predicted!</a></h1><pre> prov.  [Usenet] Since
+   <a href="u.htm#usenet">Usenet</a> first got off the ground in 1980--81, it has grown
+   exponentially, approximately doubling in size every year.  On the
+   other hand, most people feel the <a href="s.htm#signal-to-noise_ratio">signal-to-noise_ratio</a> of
+   Usenet has dropped steadily.  These trends led, as far back as
+   mid-1983, to predictions of the imminent collapse (or death) of the
+   net.  Ten years and numerous doublings later, enough of these
+   gloomy prognostications have been confounded that the phrase
+   "Imminent Death Of The Net Predicted!" has become a running joke,
+   hauled out any time someone grumbles about the <a href="s.htm#s/n_ratio">S/N_ratio</a> or
+   the huge and steadily increasing volume, or the possible loss of a
+   key node or link, or the potential for lawsuits when ignoramuses
+   post copyrighted material, etc., etc., etc.
+
+</pre><p>
+<h1><a name="in_the_extreme">in the extreme</a></h1><pre> adj.  A preferred superlative suffix for many
+   hackish terms.  See, for example, `obscure in the extreme' under
+   <a href="o.htm#obscure">obscure</a>, and compare <a href="h.htm#highly">highly</a>.
+
+</pre><p>
+<h1><a name="inc">inc</a></h1><pre> /ink/ v.  Verbal (and only rarely written) shorthand
+   for increment, i.e. `increase by one'.  Especially used by
+   assembly programmers, as many assembly languages have an `inc'
+   mnemonic.  Antonym: <a href="d.htm#dec">dec</a>.
+
+</pre><p>
+<h1><a name="incantation">incantation</a></h1><pre> n.  Any particularly arbitrary or obscure
+   command that one must mutter at a system to attain a desired
+   result.  Not used of passwords or other explicit security features.
+   Especially used of tricks that are so poorly documented that they
+   must be learned from a <a href="w.htm#wizard">wizard</a>.  "This compiler normally
+   locates initialized data in the data segment, but if you
+   <a href="m.htm#mutter">mutter</a> the right incantation they will be forced into text
+   space."
+
+</pre><p>
+<h1><a name="include">include</a></h1><pre> vt.  [Usenet] 1. To duplicate a portion (or whole)
+   of another's message (typically with attribution to the source) in
+   a reply or followup, for clarifying the context of one's response.
+   See the discussion of inclusion styles under "Hacker Writing
+   Style".  2. [from <a href="c.htm#c">C</a>] `#include &ltdisclaimer.h&gt' has
+   appeared in <a href="s.htm#sig_block">sig_block</a>s to refer to a notional `standard
+   <a href="d.htm#disclaimer">disclaimer</a> file'.
+
+</pre><p>
+<h1><a name="include_war">include war</a></h1><pre> n.  Excessive multi-leveled including within a
+   discussion <a href="t.htm#thread">thread</a>, a practice that tends to annoy readers.  In
+   a forum with high-traffic newsgroups, such as Usenet, this can lead
+   to <a href="f.htm#flame">flame</a>s and the urge to start a <a href="k.htm#kill_file">kill_file</a>.
+
+</pre><p>
+<h1><a name="indent_style">indent style</a></h1><pre> n.  [C programmers] The rules one uses to
+   indent code in a readable fashion.  There are four major C indent
+   styles, described below; all have the aim of making it easier for
+   the reader to visually track the scope of control constructs.  The
+   significant variable is the placement of `{'_and_`}'
+   with respect to the statement(s) they enclose and to the guard or
+   controlling statement (`if', `else', `for',
+   `while', or `do') on the block, if any.
+
+   `K&R style' -- Named after Kernighan & Ritchie, because the
+   examples in <a href="k.htm#k&r">K&R</a> are formatted this way.  Also called `kernel
+   style' because the UNIX kernel is written in it, and the `One True
+   Brace Style' (abbrev. 1TBS) by its partisans.  The basic indent
+   shown here is eight spaces (or one tab) per level; four spaces are
+   occasionally seen, but are much less common.
+
+     if (cond) {
+             &ltbody&gt
+     }
+
+   `Allman style' -- Named for Eric Allman, a Berkeley hacker who
+   wrote a lot of the BSD utilities in it (it is sometimes called
+   `BSD style').  Resembles normal indent style in Pascal and
+   Algol.  Basic indent per level shown here is eight spaces, but four
+   spaces are just as common (esp. in C++ code).
+
+     if (cond)
+     {
+             &ltbody&gt
+     }
+
+   `Whitesmiths style' -- popularized by the examples that came
+   with Whitesmiths C, an early commercial C compiler.  Basic indent
+   per level shown here is eight spaces, but four spaces are
+   occasionally seen.
+
+     if (cond)
+             {
+             &ltbody&gt
+             }
+
+   `GNU style' -- Used throughout GNU EMACS and the Free Software
+   Foundation code, and just about nowhere else.  Indents are always
+   four spaces per level, with `{'_and_`}' halfway between the
+   outer and inner indent levels.
+
+     if (cond)
+       {
+         &ltbody&gt
+       }
+
+   Surveys have shown the Allman and Whitesmiths styles to be the most
+   common, with about equal mind shares.  K&R/1TBS used to be nearly
+   universal, but is now much less common (the opening brace tends to
+   get lost against the right paren of the guard part in an `if'
+   or `while', which is a <a href="b.htm#bad_thing">Bad_Thing</a>).  Defenders of 1TBS
+   argue that any putative gain in readability is less important than
+   their style's relative economy with vertical space, which enables
+   one to see more code on one's screen at once.  Doubtless these
+   issues will continue to be the subject of <a href="h.htm#holy_wars">holy_wars</a>.
+
+</pre><p>
+<h1><a name="index">index</a></h1><pre> n.  See <a href="c.htm#coefficient_of_x">coefficient_of_X</a>.
+
+</pre><p>
+<h1><a name="infant_mortality">infant mortality</a></h1><pre> n.  It is common lore among hackers (and in
+   the electronics industry at large; this term is possibly techspeak
+   by now) that the chances of sudden hardware failure drop off
+   exponentially with a machine's time since first use (that is, until
+   the relatively distant time at which enough mechanical wear in I/O
+   devices and thermal-cycling stress in components has accumulated
+   for the machine to start going senile).  Up to half of all chip and
+   wire failures happen within a new system's first few weeks; such
+   failures are often referred to as `infant mortality' problems
+   (or, occasionally, as `sudden infant death syndrome').  See
+   <a href="b.htm#bathtub_curve">bathtub_curve</a>, <a href="b.htm#burn-in_period">burn-in_period</a>.
+
+</pre><p>
+<h1><a name="infinite">infinite</a></h1><pre> adj.  Consisting of a large number of objects;
+   extreme.  Used very loosely as in: "This program produces infinite
+   garbage."  "He is an infinite loser."  The word most likely to
+   follow `infinite', though, is <a href="h.htm#hair">hair</a>.  (It has been pointed
+   out that fractals are an excellent example of infinite hair.)
+   These uses are abuses of the word's mathematical meaning.  The term
+   `semi-infinite', denoting an immoderately large amount of some
+   resource, is also heard.  "This compiler is taking a semi-infinite
+   amount of time to optimize my program."  See also <a href="s.htm#semi">semi</a>.
+
+</pre><p>
+<h1><a name="infinite_loop">infinite loop</a></h1><pre> n.  One that never terminates (that is, the
+   machine <a href="s.htm#spin">spin</a>s or <a href="b.htm#buzz">buzz</a>es forever and goes <a href="c.htm#catatonic">catatonic</a>).
+   There is a standard joke that has been made about each generation's
+   exemplar of the ultra-fast machine: "The Cray-3 is so fast it can
+   execute an infinite loop in under 2 seconds!"
+
+</pre><p>
+<h1><a name="infinite-monkey_theorem">Infinite-Monkey Theorem</a></h1><pre> n.  "If you put an <a href="i.htm#infinite">infinite</a>
+   number of monkeys at typewriters, eventually one will bash out the
+   script for Hamlet."  (One may also hypothesize a small number of
+   monkeys and a very long period of time.)  This theorem asserts
+   nothing about the intelligence of the one <a href="r.htm#random">random</a> monkey that
+   eventually comes up with the script (and note that the mob will
+   also type out all the possible *incorrect* versions of
+   Hamlet).  It may be referred to semi-seriously when justifying a
+   <a href="b.htm#brute_force">brute_force</a> method; the implication is that, with enough
+   resources thrown at it, any technical challenge becomes a
+   <a href="o.htm#one-banana_problem">one-banana_problem</a>.
+
+   This theorem was first popularized by the astronomer Sir Arthur
+   Eddington.  It became part of the idiom of through the classic
+   short story "Inflexible Logic" by Russell Maloney, and many
+   younger hackers know it through a reference in Douglas Adams's
+   "Hitchhiker's Guide to the Galaxy".
+
+</pre><p>
+<h1><a name="infinity">infinity</a></h1><pre> n.  1. The largest value that can be represented in
+   a particular type of variable (register, memory location, data
+   type, whatever).  2. `minus infinity': The smallest such value,
+   not necessarily or even usually the simple negation of plus
+   infinity.  In N-bit twos-complement arithmetic, infinity is
+   2^(N-1) - 1 but minus infinity is -
+   (2^(N-1)), not -(2^(N-1) - 1).  Note also that this
+   is different from "time T equals minus infinity", which is
+   closer to a mathematician's usage of infinity.
+
+</pre><p>
+<h1><a name="infocom">Infocom</a></h1><pre> n.  A now-legendary games company, active from 1979 to
+   1989, that commercialized the MDL parser technology used for
+   <a href="z.htm#zork">Zork</a> to produce a line of text adventure games that remain
+   favorites among hackers.  Infocom's games were intelligent, funny,
+   witty, erudite, irreverent, challenging, satirical, and most
+   thoroughly hackish in spirit.  The physical game packages from
+   Infocom are now prized collector's items.  The software,
+   thankfully, is still extant; Infocom games were written in a kind
+   of P-code and distributed with a P-code interpreter core, and
+   freeware emulators for that interpreter have been written to permit
+   the P-code to be run on platforms the games never originally
+   graced.
+
+</pre><p>
+<h1><a name="initgame">initgame</a></h1><pre> /in-it'gaym/ n.  [IRC] An <a href="i.htm#irc">IRC</a> version of the
+   venerable trivia game "20 questions", in which one user changes
+   his <a href="n.htm#nick">nick</a> to the initials of a famous person or other named
+   entity, and the others on the channel ask yes or no questions, with
+   the one to guess the person getting to be "it" next.  As a
+   courtesy, the one picking the initials starts by providing a
+   4-letter hint of the form sex, nationality, life-status,
+   reality-status.  For example, MAAR means "Male, American, Alive,
+   Real" (as opposed to "fictional").  Initgame can be surprisingly
+   addictive.  See also <a href="h.htm#hing">hing</a>.
+
+</pre><p>
+<h1><a name="insanely_great">insanely great</a></h1><pre> adj.  [Mac community, from Steve Jobs; also
+   BSD UNIX people via Bill Joy] Something so incredibly <a href="e.htm#elegant">elegant</a>
+   that it is imaginable only to someone possessing the most puissant
+   of <a href="h.htm#hacker">hacker</a>-natures.
+
+</pre><p>
+<h1><a name="intercal">INTERCAL</a></h1><pre> /in't*r-kal/ n.  [said by the authors to stand
+   for `Compiler Language With No Pronounceable Acronym'] A computer
+   language designed by Don Woods and James Lyons in 1972.  INTERCAL
+   is purposely different from all other computer languages in all
+   ways but one; it is purely a written language, being totally
+   unspeakable.  An excerpt from the INTERCAL Reference Manual will
+   make the style of the language clear:
+
+     It is a well-known and oft-demonstrated fact that a person whose
+     work is incomprehensible is held in high esteem.  For example, if
+     one were to state that the simplest way to store a value of 65536
+     in a 32-bit INTERCAL variable is:
+
+          DO :1 &lt- #0$#256
+
+     any sensible programmer would say that that was absurd.  Since
+     this is indeed the simplest method, the programmer would be made
+     to look foolish in front of his boss, who would of course have
+     happened to turn up, as bosses are wont to do.  The effect would
+     be no less devastating for the programmer having been correct.
+
+   INTERCAL has many other peculiar features designed to make it even
+   more unspeakable.  The Woods-Lyons implementation was actually used
+   by many (well, at least several) people at Princeton.  The language
+   has been recently reimplemented as C-INTERCAL and is consequently
+   enjoying an unprecedented level of unpopularity; there is even an
+   alt.lang.intercal newsgroup devoted to the study and ...
+   appreciation of the language on Usenet.
+
+
+</pre><p>
+<h1><a name="interesting">interesting</a></h1><pre> adj.  In hacker parlance, this word has strong
+   connotations of `annoying', or `difficult', or both.  Hackers
+   relish a challenge, and enjoy wringing all the irony possible out
+   of the ancient Chinese curse "May you live in interesting times".
+   Oppose <a href="t.htm#trivial">trivial</a>, <a href="u.htm#uninteresting">uninteresting</a>.
+
+</pre><p>
+<h1><a name="internet_address">Internet address</a></h1><pre>: n.  1. [techspeak] An absolute network
+   address of the form foo@bar.baz, where foo is a user name, bar
+   is a <a href="s.htm#sitename">sitename</a>, and baz is a `domain' name, possibly
+   including periods itself.  Contrast with <a href="b.htm#bang_path">bang_path</a>; see also
+   <a href="n.htm#network,_the">network,_the</a> and <a href="n.htm#network_address">network_address</a>.  All Internet machines
+   and most UUCP sites can now resolve these addresses, thanks to a
+   large amount of behind-the-scenes magic and PD software written
+   since 1980 or so.  See also <a href="b.htm#bang_path">bang_path</a>, <a href="d.htm#domainist">domainist</a>.
+   2. More loosely, any network address reachable through Internet;
+   this includes <a href="b.htm#bang_path">bang_path</a> addresses and some internal corporate
+   and government networks.
+
+   Reading Internet addresses is something of an art.  Here are the
+   four most important top-level functional Internet domains followed
+   by a selection of geographical domains:
+
+     com
+          commercial organizations
+     edu
+          educational institutions
+     gov
+          U.S. government civilian sites
+     mil
+          U.S. military sites
+
+   Note that most of the sites in the com and edu domains are in
+   the U.S. or Canada.
+
+     us
+          sites in the U.S. outside the functional domains
+     su
+          sites in the ex-Soviet Union (see <a href="k.htm#kremvax">kremvax</a>).
+     uk
+          sites in the United Kingdom
+
+   Within the us domain, there are subdomains for the fifty
+   states, each generally with a name identical to the state's postal
+   abbreviation.  Within the uk domain, there is an ac subdomain for
+   academic sites and a co domain for commercial ones.  Other
+   top-level domains may be divided up in similar ways.
+
+</pre><p>
+<h1><a name="interrupt">interrupt</a></h1><pre>  1. [techspeak] n. On a computer, an event that
+   interrupts normal processing and temporarily diverts
+   flow-of-control through an "interrupt handler" routine.  See also
+   <a href="t.htm#trap">trap</a>.  2. interj. A request for attention from a hacker.
+   Often explicitly spoken.  "Interrupt -- have you seen Joe
+   recently?"  See <a href="p.htm#priority_interrupt">priority_interrupt</a>.  3. Under MS-DOS, nearly
+   synonymous with `system call', because the OS and BIOS routines
+   are both called using the INT instruction (see <a href="i.htm#interrupt_list,_the">interrupt_list,_the</a>
+   ) and because programmers so often have to bypass the OS
+(going
+   directly to a BIOS interrupt) to get reasonable
+   performance.
+
+</pre><p>
+<h1><a name="interrupt_list,_the">interrupt list, the</a></h1><pre>: n.  [MS-DOS] The list of all known
+   software interrupt calls (both documented and undocumented) for IBM
+   PCs and compatibles, maintained and made available for free
+   redistribution by Ralf Brown &ltralf@cs.cmu.edu&gt.  As of late
+   1992, it had grown to approximately two megabytes in length.
+
+</pre><p>
+<h1><a name="interrupts_locked_out">interrupts locked out</a></h1><pre> adj.  When someone is ignoring you.
+   In a restaurant, after several fruitless attempts to get the
+   waitress's attention, a hacker might well observe "She must have
+   interrupts locked out".  The synonym `interrupts disabled' is
+   also common.  Variations abound; "to have one's interrupt mask bit
+   set" and "interrupts masked out" are also heard.  See also
+   <a href="s.htm#spl">spl</a>.
+
+</pre><p>
+<h1><a name="irc">IRC</a></h1><pre> /I-R-C/ n.  [Internet Relay Chat] A worldwide "party
+   line" network that allows one to converse with others in real
+   time.  IRC is structured as a network of Internet servers, each of
+   which accepts connections from client programs, one per user.  The
+   IRC community and the <a href="u.htm#usenet">Usenet</a> and <a href="m.htm#mud">MUD</a> communities overlap
+   to some extent, including both hackers and regular folks who have
+   discovered the wonders of computer networks.  Some Usenet jargon
+   has been adopted on IRC, as have some conventions such as
+   <a href="e.htm#emoticon">emoticon</a>s.  There is also a vigorous native jargon,
+   represented in this lexicon by entries marked `[IRC]'.  See also
+   <a href="t.htm#talk_mode">talk_mode</a>.
+   
+</pre><p>
+<h1><a name="iron">iron</a></h1><pre> n.  Hardware, especially older and larger hardware of
+   <a href="m.htm#mainframe">mainframe</a> class with big metal cabinets housing relatively
+   low-density electronics (but the term is also used of modern
+   supercomputers).  Often in the phrase <a href="b.htm#big_iron">big_iron</a>.  Oppose
+   <a href="s.htm#silicon">silicon</a>.  See also <a href="d.htm#dinosaur">dinosaur</a>.
+
+</pre><p>
+<h1><a name="iron_age">Iron Age</a></h1><pre> n.  In the history of computing, 1961--1971 -- the
+   formative era of commercial <a href="m.htm#mainframe">mainframe</a> technology, when
+   ferrite-core <a href="d.htm#dinosaur">dinosaur</a>s ruled the earth.  The Iron Age began,
+   ironically enough, with the delivery of the first minicomputer (the
+   PDP-1) and ended with the introduction of the first commercial
+   microprocessor (the Intel 4004) in 1971.  See also <a href="s.htm#stone_age">Stone_Age</a>;
+   compare <a href="e.htm#elder_days">elder_days</a>.
+
+</pre><p>
+<h1><a name="iron_box">iron box</a></h1><pre> n.  [UNIX/Internet] A special environment set up to
+   trap a <a href="c.htm#cracker">cracker</a> logging in over remote connections long enough
+   to be traced.  May include a modified <a href="s.htm#shell">shell</a> restricting the
+   cracker's movements in unobvious ways, and `bait' files designed
+   to keep him interested and logged on.  See also <a href="b.htm#back_door">back_door</a>,
+   <a href="f.htm#firewall_machine">firewall_machine</a>, <a href="v.htm#venus_flytrap">Venus_flytrap</a>, and Clifford Stoll's
+   account in "<a href="appc.htm#the_cuckoo's_egg">The_Cuckoo's_Egg</a>" of how he made and used
+   one (see the <a href="appb.htm#bibliography">Bibliography</a> in Appendix C).  Compare <a href="p.htm#padded_cell">padded_cell</a>
+   .
+
+</pre><p>
+<h1><a name="ironmonger">ironmonger</a></h1><pre> n.  [IBM] A hardware specialist (derogatory).
+   Compare <a href="s.htm#sandbender">sandbender</a>, <a href="p.htm#polygon_pusher">polygon_pusher</a>.
+
+</pre><p>
+<h1><a name="its">ITS</a></h1><pre>: /I-T-S/ n.  1. Incompatible Time-sharing System, an
+   influential but highly idiosyncratic operating system written for
+   PDP-6s and PDP-10s at MIT and long used at the MIT AI Lab.  Much
+   AI-hacker jargon derives from ITS folklore, and to have been `an
+   ITS hacker' qualifies one instantly as an old-timer of the most
+   venerable sort.  ITS pioneered many important innovations,
+   including transparent file sharing between machines and
+   terminal-independent I/O.  After about 1982, most actual work was
+   shifted to newer machines, with the remaining ITS boxes run
+   essentially as a hobby and service to the hacker community.  The
+   shutdown of the lab's last ITS machine in May 1990 marked the end
+   of an era and sent old-time hackers into mourning nationwide (see
+   <a href="h.htm#high_moby">high_moby</a>).  The Royal Institute of Technology in Sweden is
+   maintaining one `live' ITS site at its computer museum (right
+   next to the only TOPS-10 system still on the Internet), so ITS is
+   still alleged to hold the record for OS in longest continuous use
+   (however, <a href="w.htm#waits">WAITS</a> is a credible rival for this palm).  2. A
+   mythical image of operating-system perfection worshiped by a
+   bizarre, fervent retro-cult of old-time hackers and ex-users (see
+   <a href="t.htm#troglodyte">troglodyte</a>, sense 2).  ITS worshipers manage somehow to
+   continue believing that an OS maintained by assembly-language
+   hand-hacking that supported only monocase 6-character filenames in
+   one directory per account remains superior to today's state of
+   commercial art (their venom against UNIX is particularly intense).
+   See also <a href="h.htm#holy_wars">holy_wars</a>, <a href="w.htm#weenix">Weenix</a>.
+
+</pre><p>
+<h1><a name="iwbni">IWBNI</a></h1><pre> //  Abbreviation for `It Would Be Nice If'.  Compare
+   <a href="w.htm#wibni">WIBNI</a>.
+
+</pre><p>
+<h1><a name="iyfeg">IYFEG</a></h1><pre> //  [Usenet] Abbreviation for `Insert Your Favorite
+   Ethnic Group'.  Used as a meta-name when telling ethnic jokes on
+   the net to avoid offending anyone.  See <a href="j.htm#jedr">JEDR</a>.
+
+</pre><p>
+<hr><a href=jargon.htm>The Jargon File</a><br>
+<a href=intro.htm>Introduction</a><br>
+<a href=howwork.htm>How Jargon Works</a><br>
+<a href=howuse.htm>How to Use the Lexicon</a><p>
+<a href=a.htm>A</a>   <a href=b.htm>B</a>   <a href=c.htm>C</a>   <a href=d.htm>D</a>   <a href=e.htm>E</a>
+<a href=f.htm>F</a>   <a href=g.htm>G</a>   <a href=h.htm>H</a>   <a href=i.htm>I</a>   <a href=j.htm>J</a>
+<a href=k.htm>K</a>   <a href=l.htm>L</a>   <a href=m.htm>M</a>   <a href=n.htm>N</a>   <a href=o.htm>O</a>
+<a href=p.htm>P</a>   <a href=q.htm>Q</a>   <a href=r.htm>R</a>   <a href=s.htm>S</a>   <a href=t.htm>T</a>
+<a href=u.htm>U</a>   <a href=v.htm>V</a>   <a href=w.htm>W</a>   <a href=x.htm>X</a>   <a href=y.htm>Y</a>
+<a href=z.htm>Z</a>   <a href=notaz.htm>[^a-zA-Z]</a><p>
+<a href=appa.htm>Appendix A</a> --- 
+<a href=appb.htm>Appendix B</a> --- 
+<a href=appc.htm>Appendix C</a>
+
+</HTML>

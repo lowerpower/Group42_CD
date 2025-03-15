@@ -1,0 +1,5 @@
+Crack> Search for the King V1.1 
+crack written by anonymous 
+ 
+   Change   39 87 22 66 75 05   in   EXE.EXE 
+    to      == == == == == 00 

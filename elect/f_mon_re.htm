@@ -1,0 +1,1286 @@
+
+<html>
+<head>
+<title>Video Monitor Repair
+</title>
+</head>
+<body>
+
+<h2>Notes on the Diagnosis and Repair of Video Monitors V1.01</h2>
+
+Contents:<p>
+
+<ul>
+<li><a href="#MONREPAIR_001"> 1) About the Author </a>
+<li><a href="#MONREPAIR_002"> 2) Related Information </a>
+<li><a href="#MONREPAIR_003"> 3) Safety </a>
+<li><a href="#MONREPAIR_004"> 4) Most Common Problems </a>
+<li><a href="#MONREPAIR_005"> 5) Monitor Manufacturing Quality and Cold Solder Joints </a>
+<li><a href="#MONREPAIR_006"> 6) Intermittent or Missing Colors </a>
+<li><a href="#MONREPAIR_007"> 7) Ghosts, shadows, or streaks in picture adjacent to vertical edges </a>
+<li><a href="#MONREPAIR_008"> 8) Brightness Adjustment </a>
+<li><a href="#MONREPAIR_009"> 9) Focus Problems </a>
+<li><a href="#MONREPAIR_010"> 10) Arcing Spark-gaps </a>
+<li><a href="#MONREPAIR_011"> 11) Dead Monitor with Periodic Tweet, Tweet, Tweet, or Flub, Flub, Flub </a>
+<li><a href="#MONREPAIR_012"> 12) Smoking Monitor </a>
+<li><a href="#MONREPAIR_013"> 13) Apple Monitor Dies after variable length of time </a>
+<li><a href="#MONREPAIR_014"> 14) Magnetic Fields and Degaussing </a>
+<li><a href="#MONREPAIR_015"> 15) Ultra Cheap Degaussing Coil </a>
+<li><a href="#MONREPAIR_016"> 16) How Often to Degauss </a>
+<li><a href="#MONREPAIR_017"> 17) Focus Adjustment </a>
+<li><a href="#MONREPAIR_018"> 18) Interference from Electrical Wiring </a>
+<li><a href="#MONREPAIR_019"> 19) Interference from other Equipment </a>
+<li><a href="#MONREPAIR_020"> 20) Contour Lines on High Resolution Monitors </a>
+<li><a href="#MONREPAIR_021"> 21) Monitor Reliability with SVGA </a>
+<li><a href="#MONREPAIR_022"> 22) Lifespans of Monitors </a>
+<li><a href="#MONREPAIR_023"> 23) Monitor Life, Energy Conservation, and Laziness </a>
+<li><a href="#MONREPAIR_024"> 24) CRT Replacement - Probably not worth it </a>
+<li><a href="#MONREPAIR_025"> 25) Monitor Drift? </a>
+<li><a href="#MONREPAIR_026"> 26) Monitor Power Supplies </a>
+<li><a href="#MONREPAIR_027"> 27) Single Vertical Line </a>
+<li><a href="#MONREPAIR_028"> 28) Single Horizontal Line </a>
+<li><a href="#MONREPAIR_029"> 29) Big Al's Rules of Thumb on Monitor Repair </a>
+<li><a href="#MONREPAIR_030"> 30) Picture Gradually Darkens to Black </a>
+<li><a href="#MONREPAIR_031"> 31) Training Manual (Skip) </a>
+<li><a href="#MONREPAIR_032"> 32) Flyback Failure </a>
+<li><a href="#MONREPAIR_033"> 33) Useful Service Aid </a>
+
+</ul><br>
+<hr>
+
+<a name="MONREPAIR_001"><h1> 1) About the Author </h1></a>
+
+Here are the current version of my
+'<b>Notes on the Diagnosis and Repair of Video Monitors</b>'<p>
+
+Author: Samuel M. Goldwasser<br>
+E-Mail: sam@stdavids.picker.com<br>
+Corrections/suggestions: <a href=
+"/~filipg/HTML/cgi-bin/uncgi.cgi/feedback.cgi?ACTION=comment&REF=http:__www.paranoia.com_~filipg_HTML_FAQ_BODY_F_mon_repair.html&TO=SAM"
+>[Feedback Form]</a>
+<a href="mailto:sam@stdavids.picker.com">[mailto]</a><br>
+
+Copyright (c) 1994, 1995<br>
+All Rights Reserved<p>
+
+Reproduction of this document in whole or in part is permitted if both
+of the following conditions are satisfied:<p>
+
+<ol>
+<li>This notice is included in its entirety at the beginning.
+<li>There is no charge except to cover the costs of copying.
+</ol><br>
+
+<hr>
+
+<a name="MONREPAIR_002"><h1> 2) Related Information </h1></a>
+
+See the manuals on 
+
+&quot;<a href="/~filipg/HTML/FAQ/BODY/F_smps.html"
+>Diagnosis and Repair of Small Switch Mode Power Supplies (SMPS)</a>&quot; (35KB)
+
+and
+&quot;<a href="/~filipg/HTML/FAQ/BODY/F_tv_repair.html"
+>Failure Diagnosis and Repair of TVs</a>&quot; (50KB)
+
+for additional useful pointers.  Since a monitor must perform a subset
+of the functions of a TV, many of the problems and solutions are similar.
+For power related problems the info on SMPSs may be useful as well.<p>
+
+You may also wish to see a typical SMPS found in a Panasonic VCR for a
+general &quot;How they do it&quot;. You can find it at URL:<br>
+<a href="http://www.paranoia.com/~filipg/HTML/FAQ/BODY/vcrps.ps"
+>http://www.paranoia.com/~filipg/HTML/FAQ/BODY/vcrps.ps</a> (80KB).<br>
+It's a
+Postscript file so deal with it accordingly. You may wish to read the
+Postscript FAQ <b>**FIRST**</b> if you have no clue on how to proceed. It's at URL:<br>
+<a href="http://www.cis.ohio-state.edu/hypertext/faq/usenet/postscript-faq/top.html"
+>http://www.cis.ohio-state.edu/hypertext/faq/usenet/postscript-faq/top.html</a> (SUBMENU).<br>
+After you read the FAQ, and your questions are still unanswered, you may choose to
+ask your question on the group: <a href="news:comp.lang.postscript"
+>comp.lang.postscript</a>.<p>
+
+<hr>
+
+<a name="MONREPAIR_003"><h1> 3) Safety </h1></a>
+
+General Safety Guidelines when working on line powered equipment including:<p>
+
+<ul>
+<li>TVs
+<li>Monitors
+<li>Microwave Ovens
+</ul><br>
+
+These guidelines are to protect you from potentially deadly electrical shock
+hazards as well as the equipment from accidental damage.<p>
+
+Note that the danger to you is not only in your body providing a conducting
+path, particularly through your heart.  Any involuntary muscle contractions
+caused by a shock, while perhaps harmless in themselves, may cause collateral
+damage - there are many sharp edges inside this type of equipment as well as
+other electrically live parts you may contact accidentally.<p>
+
+The purpose of this set of guidelines is not to frighten you but rather to
+make you aware of the appropriate precautions.  Repair of TVs, monitors,
+microwave ovens, and other consumer and industrial equipment can be both
+rewarding and economical.  Just be sure that it is also safe!<p>
+
+<ul>
+<li>Don't work alone - in the event of an emergency another person's presence
+  may be essential.
+<li>Always keep one hand in your pocket when anywhere around a powered
+  line-connected or high voltage system.
+<li>Wear rubber bottom shoes or sneakers.
+<li>Don't wear any jewelry or other articles that could accidentally contact
+  circuitry and conduct current, or get caught in moving parts.
+<li>Set up your work area away from possible grounds that you may accidentally
+  contact.
+<li>Know your equipment: TVs and monitors may use parts of the metal chassis
+  as ground return yet the chassis may be electrically live with respect to the
+  earth ground of the AC line.  Microwave ovens use the chassis as ground
+  return for the high voltage.  In addition, do not assume that the chassis
+  is a suitable ground for your test equipment!
+<li>If circuit boards need to be removed from their mountings, put insulating
+  material between the boards and anything they may short to.  Hold them in
+  place with string or electrical tape.  Prop them up with insulation sticks -
+  plastic or wood.
+<li>If you need to probe, solder, or otherwise touch circuits with power off,
+  discharge (across) large power supply filter capacitors with a 2 W or greater
+  resistor of 100-500 ohms/V approximate value (e.g., for a 200 V capacitor,
+  use a 20K-100K ohm resistor).  Monitor while discharging and/or verify that
+  there is no residual charge with a suitable voltmeter.  In a TV or monitor,
+  if you are removing the high voltage connection to the CRT (to replace the
+  flyback transformer for example) first discharge the CRT contact (under the
+  insulating cup at the end of the fat red wire).  Use a 1M-10M ohm 1W or
+  greater wattage resistor on the end of an insulating stick or the probe
+  of a high voltage meter.  Discharge to the metal frame which is connected
+  to the outside of the CRT.
+<li>For TVs and monitors in particular, there is the additional danger of
+  CRT implosion - take care not to bang the CRT envelope with your tools.
+  An implosion will scatter shards of glass at high velocity in every
+  direction.  There are several tons of force attempting to crush the typical
+  CRT.  Always wear eye protection.
+<li>Connect/disconnect any test leads with the equipment unpowered and
+  unplugged. Use clip leads or solder temporary wires to reach cramped
+  locations or difficult to access locations.
+<li>If you must probe live, put electrical tape over all but the last 1/16&quot;
+  of the test probes to avoid the possibility of an accidental short which
+  could cause damage to various components.  Clip the reference end of the
+  meter or scope to the appropriate ground return so that you need to only
+  probe with one hand.
+<li>Perform as many tests as possible with power off and the equipment unplugged.
+  For example, the semiconductors in the power supply section of a TV or
+  monitor can be tested for short circuits with an ohmmeter.
+<li>Use an isolation transformer if there is any chance of contacting line
+  connected circuits.  A Variac(tm) is not an isolation transformer!
+  The use of GFCI (Ground Fault Circuit Interrupter) protected outlet is a
+  good idea but will not protect you from shock from many points in a line
+  connected TV or monitor, or the high voltage side of a microwave oven, for
+  example.  A circuit breaker is too slow and insensitive to provide any
+  protection for you or in many cases, your equipment.
+<li>Don't attempt repair work when you are tired.  Not only will you be more
+  careless, but your primary diagnostic tool - deductive reasoning - will
+  not be operating at full capacity.
+<li>Finally, never assume anything without checking it out for yourself!
+  Don't take shortcuts!
+</ul><br>
+
+<hr>
+
+<a name="MONREPAIR_004"><h1> 4) Most Common Problems </h1></a>
+
+<ul>
+<li>Intermittent changes in color, brightness, size, or position. <p>
+
+<li>Ghosts, shadows, or streaks in picture adjacent to vertical edges. <p>
+
+<li>Magnetization of CRT causing color blotches or other color or distortion problems. <p>
+
+<li>Monitor not syncing on one or more video scan ranges. <p>
+
+<li>Adjustments needed for background brightness (SCREEN) or focus. <p>
+
+<li>Dead monitor due to power supply problems.
+</ul><br>
+
+<hr>
+
+<a name="MONREPAIR_005"><h1> 5) Monitor Manufacturing Quality and Cold Solder Joints </h1></a>
+
+Any intermittent problems with monitors that cause random sudden changes in
+the picture brightness, color, size, or position are often a result of
+bad connections. <p>
+
+Bad solder joints are very common in monitors due both to poor quality
+manufacturing as well as to deterioration of the solder bond after numerous
+thermal cycles and components running at high temperature.  Without knowing
+anything about the circuitry, it is usually possible to cure these problems
+by locating all bad solder connections and cleaning and re-seating internal
+connectors.  The term 'cold solder joint' strictly refers to a solder
+connection that was either not heated enough during manufacturing, was
+cooled too quickly, or where part pins were moved before the solder had
+a chance to solidify.  A similar situation can develop over time with
+thermal cycling where parts are not properly fastened and are essentially
+being held in by the solder alone.  Both situations are most common with
+the pins of large components like transformers, power transistors and
+power resistors, and large connectors.  The pins of the components have
+a large thermal mass and may not get hot enough during manufacturing.  Also,
+they are relatively massive and may flex the connection due to vibration
+or thermal expansion and contraction. <p>
+
+These problems are particularly common with TVs and monitors - especially
+cheaper monitors. <p>
+
+To locate cold solder joints, use a strong light and magnifier and examine
+the pins of large components for hairline cracks in the solder around the
+pin.  Gently wiggle the component if possible (with the power off).  Any
+detectable movement at the joint indicates a problem.  With the power on,
+gently prod the circuit board and suspect components with an insulated
+tool to see if the problem can be effected. <p>
+
+When in doubt, resolder any suspicious connections.  Some monitors may
+use double sided circuit boards which do not have plated through holes.
+In these cases, solder both top and bottom to be sure that the connections
+are solid.  Use a large enough soldering iron to assure that your solder
+connection is solid.  Put a bit of new solder with flux on every connection
+you touch up even if there was plenty of solder there before.  However,
+remove any obvious excess.  Inspect for solder bridges, sliver, splashes,
+etc. before applying power. <p>
+
+<hr>
+
+<a name="MONREPAIR_006"><h1> 6) Intermittent or Missing Colors </h1></a>
+
+This is a catchall for some of the most common monitor problems.  Most of
+the causes boil down to bad connections of one form or another. <p>
+
+<ol>
+<li>VGA or other video input cable.  Sometimes these develop intermittent
+   problems at the connector to the VGA board.  These may be internal
+   to the cable in which case it will need to be replaced or if you are
+   handy and have infinite patience, you can replace just the VGA connector. <p>
+
+   Alternatively, the male pins of the cable may not be making good contact with
+   the female VGA socket.  First try contact cleaner.  If this does not work,
+   gently squishing the male pins with a pair of needle-nose pliers may provide
+   temporary or permanent relief if the pins are a tad too small.  However, if
+   you go too far, you can damage or break the pins or cause the female sockets
+   to become enlarged and loose fitting for any other monitor you may use. <p>
+
+   There may be cold solder joints on the VGA board itself at the VGA
+   connector.  These can be resoldered. <p>
+
+<li>Printed circuit board on the CRT neck.  This is a common location for
+   cold solder joints.  Check with a bright light and magnifying glass
+   for hairline cracks around the pins of larger parts.  Prod and tap with
+   an insulated tool to see if the problem is effected.  Resolder if necessary. <p>
+
+<li>Cold solder joints elsewhere in monitor usually around the pins of
+   large parts such as transformers, power transistors and resistors, and
+   internal connectors.  Inspect with a strong light and magnifier if
+   necessary. <p>
+
+<li>Internal connectors that need to be cleaned and reseated.  Remove,
+   clean with contact cleaner, burnish, and replace.
+</ol><br>
+
+<hr>
+
+<a name="MONREPAIR_007"><h1> 7) Ghosts, shadows, or streaks in picture adjacent to vertical edges </h1></a>
+
+Complaints about these kinds of problems are very common especially as
+the screen resolution and necessary video bandwidth keeps increasing.
+Most are due to cable and video termination deficiencies and not actual
+monitor defects. <p>
+
+The video signals for red, green, and blue (or just a single signal for
+monochrome) are sent over cables which are generally 75 ohm transmission
+lines.  These are coaxial cables that may be combined inside a single
+sheath for VGA, SVGA, MACs, and many workstations but may be separate coaxes
+with BNC (or other) connectors for other video applications. <p>
+
+Without going into transmission line theory, suffice it to say that
+to obtain good quality video, the following conditions must be met: <p>
+
+<ol>
+<li>A good quality of cable must be used.  This means one in which the
+   characteristic impedance is close to the optimum 75 ohms, one which has
+   low losses, and one which has good shielding.   For installations
+   using BNC connectors, a good quality of 100% shielded RG59U is often used.
+   The BNC connectors must be properly installed or they will contribute
+   to mismatch problems. <p>
+
+<li>Where multiple monitors are to be connected to a single video source,
+   all wiring is done in a daisy chain fashion.  The only taps permitted
+   are the minimum necessary to connect each monitor to the chain.  This
+   usually means a BNC-T connector or a pair of connectors on the monitor
+   for each video signal.  T connections with cable must be avoided. <p>
+
+<li>Only the last monitor in the chain should be terminated in 75 ohms.  All
+   of the others must be set to Hi-Z.  Monitors with BNC connectors will
+   usually have one switch or a switch for each color to select termination.
+</ol><br>
+
+Monitors for PCs, MACs, and workstations usually have built in
+termination and do not offer the choice of Hi-Z.  This means that without
+a video distribution amplifier, it is not possible to connect multiple
+monitors of this type to a single video source with any expectation of a
+good quality display. <p>
+
+Failure to follow these rules will result in video ringing, ghosts, shadows,
+and other unsightly blemishes in the picture.  It is often not possible to
+control all aspects of the video setup.  The cable is often a part of the
+monitor and cannot easily be substituted for a better one.  The monitor
+may not have properly designed circuitry such that it degrades the video
+regardless of the cable and display board quality.  The display card itself
+may not have proper drivers or source termination. <p>
+
+Ironically, the better the video card, the more likely that there will
+be visible problems due to termination.  This is due to the very high
+bandwidth and associated signal edge rates. <p>
+
+Some examples of common termination problems: <p>
+
+<ul>
+<li>Overly bright picture with trails following vertical edges, perhaps with
+  periodic ringing.  This is due to a missing termination.  Check if the
+  monitor is set for Hi-Z instead of 75 ohms.  If there is no switch, then
+  the termination may be faulty or the monitor may need an external resistor.
+  For BNC connectors, plug-on terminations are available. <p>
+
+<li>Bright ghost images adjacent to vertical lines.  This may indicate that
+  the terminating resistor is greater than the impedance of the cable.
+  You may be using Ethernet Thinnet cable by accident which is RG58 with
+  an impedance of 50 ohms. <p>
+
+<li>Dark picture and ghost images adjacent to vertical lines.  This may indicate
+  that the terminating resistor is too low - multiple monitors on a chain all
+  set for 75 ohms instead of just the last one.  Or, an improper type of cable
+  such as audio patch cord. <p>
+
+<li>Fuzzy vertical edges.  This may indicate a poor quality cable or a run
+  which is just too long.  For high resolutions such as 1280x1024, the
+  maximum cable length may be as short as 25 feet or less for poor quality
+  cable.  Better cable or fiber-optic repeaters may be necessary. <p>
+
+<li>Other similar problems - check cables for defective or improperly installed
+  connectors.  This is especially applicable to cables with BNC or UHF type
+  connectors which require a kind of artistic talent to assembly properly and
+  consistently.
+</ul><br>
+
+If only 1 or 2 colors (of the R, G, and B) are effected, then look for
+improper switch settings or bad connections (bad cable connectors are really
+common) on the problem color cables. <p>
+
+<hr>
+
+<a name="MONREPAIR_008"><h1> 8) Brightness Adjustment </h1></a>
+
+A monitor which has a picture that is very dark and cannot be adequately
+set with the user brightness and contrast controls may need
+internal adjustment of the screen (the term, screen, here refers to a
+particular electrode inside the CRT, not really the brightness of the
+screen you see, though it applies here), master brightness, or background level
+controls.  As components age, including the CRT, the brightness will
+change, usually decrease.  The following procedure will not rejuvenate
+an old CRT but may get just enough brightness back to provide useful
+functionality for a few months or longer.  If the problem is not with the age
+of the CRT, then it may return the monitor to full brightness.  The assumption
+here is that there is a picture but the dark areas are totally black and
+the light areas are not bright enough even with the user brightness control
+turned all the way up. <p>
+
+In most cases, the cover will need to be removed.  The controls we
+are looking for may be located in various places.  Rarely, there will
+be access holes on the back or side. <p>
+
+The controls may be located on the: <p>
+
+<ul>
+<li>Flyback transformer.  Usually there is a master screen control
+  along with a focus control on the flyback transformer. <p>
+
+<li>A little board on the neck of the CRT.  There may be a master screen
+  control. a master brightness control, a master background level control,
+  or individual controls for red, green, and blue background level.  Other
+  variations are possible.  There may also be individual gain/contrast
+  controls. <p>
+
+<li>Main video board is less common, but the background level controls may
+  be located here.
+</ul><br>
+
+Display a picture at the video resolution you consider most important
+which includes both totally black and full white areas which also
+includes sharp vertical edges. <p>
+
+Set the user brightness control to its midpoint and the user contrast
+control as low as it will go - counterclockwise. <p>
+
+Let the monitor warm up for at least 15 minutes so that components can
+stabilize. <p>
+
+If there is a master brightness or background level control, use this to
+make the black areas of the picture just barely disappear.  Them, increase
+it until the raster lines just appear.  (They should be a neutral gray.
+If there is a color tint, then the individual color background controls will
+need to be adjusted to obtain a neutral gray.)  If there is no
+such control, use the master screen control on the flyback.  If it is unmarked,
+then try both of the controls on the flyback - one will be the screen control
+and the other will be focus - the effects will be obvious.  If you did touch
+focus, set it for best overall focus and then get back to the section on focus
+once you are done here. <p>
+
+If there are individual controls for each color, you may use these but be
+careful as you will be effecting the color balance.  Adjust so that the
+raster lines in a black area are just visible and dark neutral gray. <p>
+
+Now for the gain controls.   On the little board on the neck of the CRT
+or on the video or main board there will be controls for R, G, and B gain
+or contrast (they are the same).  If there are only two then the third
+color is fixed and if the color balance in the highlights of the picture
+was ok, then there is nothing more you can do here. <p>
+
+Set the user contrast control as high as it will go - clockwise. <p>
+
+Now adjust each internal gain/contrast control as high as you can without
+the that particular color 'blooming' at very bright vertical edges.  Blooming
+means that the focus deteriorates for that color and you get a big blotch
+of color trailing off to the right of the edge.  You may
+need to go back and forth among the 3 controls since the color that blooms
+first will limit the amount that you can increase the contrast settings.
+Set them so that you get the brightest neutral whites possible without
+any single color blooming. <p>
+
+Now check out the range of the user controls and adjust the appropriate
+internal controls where necessary.  You may need to touch up the background
+levels or other settings.  Check at the other resolutions and refresh rates
+that you normally use. <p>
+
+If none of this provides acceptable brightness, then either your CRT
+is in its twilight years or there is something actually broken in the
+monitor.  If the decrease in brightness has been a gradual process over the
+course of years, then it is most likely the CRT.  As a last resort (untested)
+you can try increasing the filament current to the CRT the way CRT boosters
+that used to be sold for TVs worked.  Voltage for the CRT filament is usually
+obtained from a couple of turns on the flyback transformer.  Adding an
+extra turn will increase the voltage and thus the current making the
+filament run hotter.  This will also shorten the CRT life - perhaps rather
+drastically.  However, if the monitor was headed for the dumpster anyhow,
+you have nothing to lose. <p>
+
+<hr>
+
+<a name="MONREPAIR_009"><h1> 9) Focus Problems </h1></a>
+
+Slight deterioration in focus can be corrected by adjusting the focus
+control usually located on the flyback transformer.  Sometimes, this
+is accessible externally but usually not.  On monochrome monitors, the
+focus control, if any, may be located on the main board. <p>
+
+Don't expect to have perfect focus everywhere on the screen.  Usually there
+will be some degradation in the corners.  A compromise can generally be
+struck between perfect focus in the center and acceptable focus in the
+corners. <p>
+
+If the adjustments have no effect, then there is probably a fault in the
+focus power supply. <p>
+
+For most color TVs and monitors, the correct focus voltage will be in the
+4-8 KDC range so you will need a meter that can go that high or some big
+resistors to extend its range or a HV probe.  You must use a high impedance
+meter as the current availability from the focus power supply is very low. <p>
+
+The pots in the flyback are sometimes accessible by removing their cover,
+which may snap on.  However, a typical focus circuit will have a large
+value resistor potted inside the flyback (like 200 Megohms). <p>
+
+Try to measure the focus in-circuit.  If the value you read is very low
+(assuming your meter has a high enough impedance not to load the circuit
+appreciably), then disconnect the wire (from the PCB on the neck of the
+CRT or wherever) and measure again and observe any change in picture. <p>
+
+If still low, then almost certainly there is a problem with the pot or
+the flyback.  See if you can open it enough to measure and/or disconnect
+the pot.  If the problem is inside the potted part of the flyback, the
+only alternative is a new flyback or an external divider if you are so
+inclined.  However, once the focus network goes bad inside the flyback,
+there is an increased chance other parts will fail at some point in the future. <p>
+
+If the voltages check out with the CRT disconnected, there is a chance of a
+bad CRT or of a shorted component on the PCB on the neck of the CRT.  Look
+for shorted capacitors or burnt or damaged traces. <p>
+
+<hr>
+
+<a name="MONREPAIR_010"><h1> 10) Arcing Spark-gaps </h1></a>
+
+If after removing the cover on a monitor that has power but has no picture
+or a very dim distorted picture, you find visible arcing at one of the
+spark-gaps near the CRT, then most likely there is a short inside of the
+flyback transformer or HV multiplier (if used).  In either case, replacement
+will be needed for the offending component.  These spark-gaps are designed to
+protect the CRT electrodes from excessive voltages.  Do not be tempted
+to remove the spark-gap - it is serving its protective function.<p>
+
+<hr>
+
+<a name="MONREPAIR_011"><h1> 11) Dead Monitor with Periodic Tweet, Tweet, Tweet, or Flub, Flub, Flub </h1></a>
+
+A monitor which appears to be dead except for a once a second or so
+tweet or flub usually indicates a fault in the switching power supply - often
+a shorted rectifier.  The HFR854s (one common type in monitors) or other
+high speed high efficiency rectifiers in the output side of the
+switching power supply seem to like to turn into short circuits.  (I had a
+couple of DOA monitors where this was the problem. so much for quality
+control!)  This could also be due to other shorted component such as
+the horizontal output transistor where there is a separate switching
+power supply. <p>
+
+After unplugging the monitor and waiting a few minutes for the filter
+capacitors to discharge (check with a voltmeter but stay away from the
+CRT HV connector as it may retain a dangerous and painful charge for a long
+time), use an ohmmeter across the various diodes in the power supply.
+These appear commonly as black cylinders about 3/8&quot; long by 1/4 diameter.
+(Kind of like 1N400Xs on steroids).  The resistance of the diodes
+in at least one direction should be greater than 100 ohms.
+If it is much less (like 0 or 5 ohms), then the diode is probably bad.
+Unsolder and check again - it should test infinite (greater than 1M ohms) in
+one direction.  If it now tests good, there may be something else that
+is shorted. <p>
+
+Replacements are available for about $.25 from places like MCM Electronics. <p>
+
+Check other power semiconductors as well, in particular, the horizontal
+output transistor. <p>
+
+Other possible causes: bad solder connections, other shorted components
+like capacitors, other problems in the power supply.  Sometimes this is
+an indication of an over-voltage shutdown due to a faulty regulator or
+open load. <p>
+
+<hr>
+
+<a name="MONREPAIR_012"><h1> 12) Smoking Monitor </h1></a>
+
+Smoking is just as bad for monitors as for people and usually more quickly
+terminal. <p>
+
+White acrid smoke may indicate a failed electrolytic capacitor in the
+power supply probably in conjunction with a shorted rectifier.  Needless to
+say, pull the plug at once. <p>
+
+A visual inspection should be able to easily confirm the bad capacitor as it
+will probably be bulging and have condensed residue nearby.  Check the
+rectifier diodes or bridge rectifier with an ohmmeter.  Resistance across
+any pair of leads should be more than a few ohms in at least one direction.
+Remove from the circuit to confirm.  Both the faulty diode(s) and capacitor
+should be replaced (though the capacitor may work well enough to test
+with new diode(s). <p>
+
+If a visual inspection fails to identify the smoking part, you can probably
+plug the monitor in for a few seconds until the source of the smoke is obvious
+but be prepared to pull the plug in a real hurry. <p>
+
+<hr>
+
+<a name="MONREPAIR_013"><h1> 13) Apple Monitor Dies after variable length of time </h1></a>
+
+This is a (Apple) Sony 13&quot; monitor, 4 years old.  After being turned on
+for 30 minutes, the display goes completely blank and the front LED goes
+off.  If the power is shut off for 10 minutes or so, it will come back on
+for another 15 minutes or so, then go blank again, etc.  The +120v and
++65v from the power module is still present when it blanks out, but no
+other voltages (+12, +960, etc) are present on the main circuit board. 
+I've been told it might be the HV capacitor is bad; would like to hear a
+2nd or 3rd opinion before buying a new capacitor. <p>
+
+That is the same diagnosis a friend of mine got for her monitor with that
+identical problem.  Replacing the capacitor did fix the problem. <p>
+
+That 'capacitor' is a big red thing is a Sony part which includes
+some kind of low voltage connection as well.  The guy at the place where
+she got it repaired said that the capacitor is one of the most common
+problems with those monitors.  $70 for the part + $50 for labor, ouch!
+Only, apparently available from Sony.  Why can't Sony design monitors
+like everyone else?  Sure, I know, theirs are better (well, except for the
+unsightly stabilizing wires on Trinitrons!). <p>
+
+<hr>
+
+<a name="MONREPAIR_014"><h1> 14) Magnetic Fields and Degaussing </h1></a>
+
+Indications of need for degaussing are small or large areas of the screen
+where the colors are not correct or where color balance has suddenly
+changed.  There are other possible causes - both electronic and mechanical -
+but stray magnetic fields is numero uno on the list. <p>
+
+The shadow mask or aperture grill of the CRT - the fine mesh just behind
+the phosphor screen - is normally made of a material (steel or InVar) which
+is easily magnetized.  This can happen just by rotating the monitor on its
+swivel, by moving it from one place to another, by switching on or off
+some piece of electronic equipment near the monitor, even by a local
+lightning strike. <p>
+
+Since any stray magnetism effects the color purity and convergence, it is
+important that the CRT is demagnetized before use. <p>
+
+<hr>
+
+<a name="MONREPAIR_015"><h1> 15) Ultra Cheap Degaussing Coil </h1></a>
+
+Pack Rat Trick #457384 <p>
+
+Next time you scrap a computer monitor (or a color tv), save the degaussing
+coil (coil of wire, usually wrapped in black tap or plastic) mounted
+around the front of the tube.  To adapt it for degaussing sets, wrap it
+into a smaller coil, maybe 4&quot;-6&quot;.  To limit the current to something
+reasonable, put it in series with a light bulb (60-100W).  You need
+AC current to degauss, so just put the bulb in series with the coil and
+use the your local 120V outlet.  BE VERY CAREFUL that you actually
+wired it in series, and that everything is properly insulated before
+you plug it in  (A fuse would be a real good idea too!!) <p>
+
+A few circles over the affected area will usually do it.  Note that
+it will also make your screen go crazy for a little bit, but this will
+fade out within a minute or so. <p>
+
+Disclaimer:  This has worked consistently for me in the past, but I
+make absolutely no warranty as to the safety or effectiveness of this
+procedure in your situation.  But if you try it and like it, feel free
+to let me know! <p>
+
+Just a couple of points for emphasis: <p>
+
+<ol>
+<li>The coil as removed from the TV is not designed for continuous operation
+   across the line as indicated above.  In fact, it will go up in a mass
+   of smoke without the lightbulb to limit the current. The poor TV from
+   which this organ was salvaged included additional circuitry to ramp
+   the current to 0 in a few seconds after power is turned on. <p>
+
+<li>Reducing the coil size by a factor of 2 or 3 will increase the
+   intensity of the magnetic field which is important since we are limiting
+   the current with the lightbulb to a value lower than the TV used.
+   You don't need to unwind all the magnet wire, just bend the entire
+   assembly into a smaller coil.  Just make sure that the current is always
+   flowing in the same direction (clockwise or counterclockwise) around the
+   coil. <p>
+
+<li>Insulate everything very thoroughly with electrical tape.  A pushbutton
+   momentary switch rated for 2 amps at 115 volts AC would be useful so that
+   you do not need to depend on the wall plug to turn it on and off.
+</ol><br>
+
+<hr>
+
+<a name="MONREPAIR_016"><h1> 16) How Often to Degauss </h1></a>
+
+Some monitor manufacturers specifically warn about excessive use of degauss,
+most likely as a result of over stressing components in the degauss circuitry
+which are designed (cheaply) for only infrequent use.  In particular,
+there is often a thermistor that dissipates significant power for the second
+or two that the degauss is active.  Also, the large coil around the CRT
+is not rated for continuous operation and may overheat. <p>
+
+If one or two activations of the degauss button do not clear up the color
+problems, manual degaussing using an external coil may be needed
+or the monitor may need internal purity/color adjustments.  Or, you may have
+just installed your megawatt stereo speakers next to the monitor! <p>
+
+You should only need to degauss if you see color purity problems
+on your CRT.  Otherwise it is unnecessary.  The reasons it only works the
+first time is that the degauss timing is controlled by a thermsistor
+which heats up and cuts off the current.  If you push the button
+twice in a row, that thermister is still hot and so little happens. <p>
+
+<b>One word of clarification</b>:  In order for the degauss operation to be
+effective, the AC current in the coil must approach zero before the
+circuit cuts out.  The circuit to accomplish this often involves a 
+thermister to gradually decrease the current (over a matter of several
+seconds), and in better monitors, a relay to totally cut off the current
+after a certain delay.  If the current was turned off suddenly, you would
+likely be left with a more magnetized CRT.  There are time delay elements
+involved which prevent multiple degauss operations in succession.  Whether
+this is by design or accident, it does prevent the degauss coil - which is
+usually grossly undersized for continuous operation - to cool. <p>
+
+<hr>
+
+<a name="MONREPAIR_017"><h1> 17) Focus Adjustment </h1></a>
+
+One of the most common complaints is that the monitor is not as crisp as
+it used to be - or just not as sharp as expected. <p>
+
+Assuming that the focus has just been gradually getting worse over time,
+tweaking the internal focus control may be all that is needed. <p>
+
+On most monitors, the flyback transformer includes two control - FOCUS and
+SCREEN.  The one you want is, of course, FOCUS. <p>
+
+<a href="/~filipg/HTML/FAQ/BODY/F_Safety.html">Safety</a>:
+As long as you do not go near anything else inside the monitor while
+it is on <b>AND</b> keep one hand in you pocket, you should be able to do this without
+a shocking experience. <p>
+
+Plug it in, turn it on and let it warm up for a half hour or so.  Set your
+PC to display in the resolution you use most often.  First turn the
+user brightness and contrast fully counterclockwise.  Turn brightness up until
+the raster lines in a totally black area appear, then back a hair until
+they disappear.  Then, turn the contrast control up until you get a fairly
+bright picture.  Fully clockwise is probably ok.  Adjust FOCUS
+for generally best focus.  You will not be able to get it razor sharp
+all over the screen - start at the center and then try to get the
+edges and corners as good as you can without messing up the center too much.
+Double check that the focus is OK at your normal settings of brightness and
+contrast. <p>
+
+The SCREEN control adjusts background brightness.  If the two controls are
+not marked, you will not do any damage by turning the wrong one - it will
+be immediately obvious as the brightness will change rather than focus
+and you can then return it to its original position (or refer to the section
+on brightness adjustments to optimize its setting). <p>
+
+<hr>
+
+<a name="MONREPAIR_018"><h1> 18) Interference from Electrical Wiring </h1></a>
+
+If the wiring of normal outlets is done correctly even without a safety
+ground, the currents should be balanced and you will not experience a problem.
+However, many circuits, particularly those involving setups like 3-way
+switches or switched outlets and wiring in older buildings can have
+unbalanced currents when active.   If your monitors are close enough
+to the wiring, there can be interference which will take the form of
+a flickering or pulsating display. <p>
+
+Other than recommending moving the monitors, there is no easy solution.
+They can be shielded with Mu Metal but that is expensive.  Or you could
+run all displays at a 60 Hz vertical rate (or 50 Hz depending on where
+you live).  However, this is inconvenient and will never be quite perfect. <p>
+
+<hr>
+
+<a name="MONREPAIR_019"><h1> 19) Interference from other Equipment </h1></a>
+
+Any type of equipment which uses or generates strong magnetic fields can
+interfere with a monitor.  Other computer monitors or TVs, equipment with
+power transformers, and electric motors will cause a pulsating or flickering
+display.  Loudspeakers or other equipment with static magnetic fields will
+cause color purity and/or geometric distortion problems which degauss will
+not cure. <p>
+
+The easiest way to confirm that interference is your problem is to move
+the monitor or suspect equipment to a different location.  The only real
+solution is to separate the monitor and interfering device. <p>
+
+<hr>
+
+<a name="MONREPAIR_020"><h1> 20) Contour Lines on High Resolution Monitors </h1></a>
+
+These fall into the category of wavey lines, contour lines, or light and dark
+bands even in areas of constant brightness.  These may be almost as fine
+as the dot pitch on the CRT or 1 or 2 cm or larger and changing across the
+screen.  If they are more or less fixed on the screen and stable, then
+they are not likely to be outside interference.  (However, if they are locked to
+the image, then there could be a problem with the video board.) <p>
+
+One cause of these lines is Moire (interference patterns) between the
+raster and the dot structure of the CRT.  Ironically, the better the focus
+on the tube, the worse this is likely to be.  Trinitrons, which do not
+have a vertical dot structure should be immune to interference of this sort
+from the raster lines (but not from the horizontal pixel structure). <p>
+
+You can test for Moire by slowly adjusting the vertical size.  If it is Moire,
+you should see the pattern change in location and spatial frequency as slight
+changes are made to size.  Changes to vertical position will move the patterns
+without altering their structure - but they will not remain locked to
+the moving image. <p>
+
+The patterns will remain essentially fixed in position on the face of the
+CRT for horizontal size and position adjustments - the patterns will
+remain fixed under the changing image. <p>
+
+How to eliminate it?  If Moire is your problem, then there may be no easy
+answer.  For a given resolution and size, it will either be a problem or
+not.  You can try changing size and resolution - Moire is a function
+of geometry.  Ironically, I have a monitor which is nicer in this respect
+at 1024x768 interlaced than at 800x600 non-interlaced. <p>
+
+Another cause of similar problems is bad video cable termination
+creating reflections and ghosting which under certain conditions can be so
+severe as to mimic Moire effects.  This is unlikely to occur in all colors
+with a VGA display since the termination is internal to the monitor. <p>
+
+<hr>
+
+<a name="MONREPAIR_021"><h1> 21) Monitor Reliability with SVGA </h1></a>
+
+There are parts in the monitor which may get hotter with SVGA but if it is
+designed for SVGA resolution, there should be no problem (assuming you are
+not running in an excessively hot room or with the ventilation holes covered). <p>
+
+A good quality multisync monitor should not mind switching screen resolutions
+frequently (though doing it every few seconds continuously may stretch this
+a bit). <p>
+
+Newer multisync monitors should also be smart enough not to blow up if
+you feed then a scan rate which exceeds their capabilities.  However,
+there are a lot of poorly designed monitors out there. <p>
+
+If it is supposed to run SVGA, use it at SVGA.  If it blows up,
+switch to a different brand.  There are a lot of crappy monitors being
+sold on their own and bundled with PCs. <p>
+
+<hr>
+
+<a name="MONREPAIR_022"><h1> 22) Lifespans of Monitors </h1></a>
+
+Most manufacturers will quote an MTBF (Mean Time Before Failure) of
+somewhere in the 30,000 to 60,000 hour range, <b>EXCLUSIVE OF</b> the CRT.  The
+typical CRT, without an extended-life cathode, is usually good for
+10,000 to 15,000 hours before it reaches half of its initial brightness.
+Note that, if you leave your monitor on all the time, a year is just about
+8,000 hours. <p>
+
+The only &quot;tuneup&quot; that a monitor should need, exclusive of adjustments
+needed following replacement of a failed component, would be video amplifier
+and/or CRT biasing adjustments to compensate for the aging of the tube.
+These are usually done only if you're using the thing in an application where
+exact color/brightness matching is important.  Regular degaussing of the
+unit may be needed, of course, but I'm not considering that a &quot;tuneup&quot; or
+adjustment. (Bob Myers | myers@fc.hp.com) <p>
+
+<hr>
+
+<a name="MONREPAIR_023"><h1> 23) Monitor Life, Energy Conservation, and Laziness </h1></a>
+
+A common misconception about the care and feeding of computer monitors is
+that they should be left on all the time.  While there are some advantages to
+this, there are many more disadvantages: <p>
+
+<dl>
+<dt>CRT Life
+<dd>The life of a monitor is determined by the life of the CRT.
+   The CRT is by far the most expensive single part and it is usually not
+   worth repairing a monitor in which the CRT requires replacement.
+   The brightness half-life of a CRT is usually about 10-15 K hours of on time
+   independent of what is being displayed on the screen.  10 K hours
+   is only a little more than a year.  By not turning the monitor off at
+   night, you are reducing the life of the monitor by a factor of 2-3.
+   Screen savers do not make any substantial difference especially with
+   modern displays using X-Windows or MS Windows where the screen layout is
+   not fixed.  With video display terminals, the text always came up in the
+   same position and eventually burned impressions into the screen phosphor. <p>
+
+<dt>Component life
+<dd>The heat generated inside a monitor tends to dry out parts
+   like electrolytic capacitors thus shortening their life.  These effects
+   are particularly severe at night during the summer when the air
+   conditioning may be off but it is still a consideration year around. <p>
+
+<dt><a href="/~filipg/HTML/FAQ/BODY/F_Safety.html">Safety</a>
+<dd>While electronic equipment designed and manufactured in accordance
+   with the National Electrical Codes is very safe, there is always a small
+   risk of catastrophic failure resulting in a fire.  With no one around,
+   even with sprinklers and smoke alarms, such an failure could be much
+   more disastrous. <p>
+
+<dt>Energy use
+<dd>While modern monitors use a lot less energy than their
+   older cousins, the aggregate energy usage is not something to be ignored.
+   A typical monitor uses between 60 and 200 Watts.  Thus at a $.10 per KWH
+   electric rate such a monitor will cost between $48 and $160 a year
+   for electricity.  During the night, 1/2 to 2/3 of this is wasted for
+   every monitor that is left on.  If air conditioning is on during the
+   night, then there is the additional energy usage needed to remove this
+   heat as well - probably about half the cost of the electricity to run
+   the monitor.
+</dl><br>
+
+The popular rationalization for what is most often just laziness is that
+power-on is a stressful time for any electronic device and reducing the
+number of power cycles will prolong the life of the monitor.  With a properly
+designed monitor, this is rarely an issue.  Can you recall the last time
+a monitor blew up when it was turned on?  The other argument, which has more
+basis in reality is that the thermal cycling resulting from turning a monitor
+on and off will shorten its life.  It is true that such thermal stress can
+contribute to various kinds of failures due to bad solder connections.
+However, these can be easily repaired and do not effect the monitor's
+heart - the CRT.  You wouldn't leave your TV on 24 hours a day, would you? <p>
+
+Some of the newest ('green') monitors have energy conserving capabilities.
+However, it is necessary for the software to trigger these power reduction or
+power down modes.  Few monitors in actual use and fewer workstations or PCs
+are set up to support these features.  If you have such a monitor and computer
+to support it, by all means set up the necessary power off/power down timers.
+However, using the power saving modes of a 'green' PC with an older monitor
+can potentially cause damage since some of the modes disable the sync signals.
+A 'green' monitor which can detect a blank screen and and use this as a trigger
+can easily be used with a screen saver which can be set to display a blank
+screen - on any PC or workstation. <p>
+
+Please make it a habit to turn your monitors off at night.  This will extend
+the life of the monitor (and your investment) and is good for the environment
+as well.  For workstations, there are good reasons to leave the system unit
+on all the time.  However, the monitor should be turned off using its power
+switch.  For PCs, my recommendation is that the entire unit be turned off at
+night since the boot process is very quick and PCs are generally not
+required to be accessible over a network 24 hours a day. <p>
+
+<hr>
+
+<a name="MONREPAIR_024"><h1> 24) CRT Replacement - Probably not worth it </h1></a>
+
+The sad fact is that even if you can obtain a new CRT you won't have the proper
+setup for getting proper alignment and convergence. They generally use various
+permanent magnet glued to the perimeter of the yoke to set the geometry of the 
+raster. It takes a special factory jig to do this step or really great
+persistence and patience.  I have done it for monochrome monitors without
+too much difficulty. <p>
+
+<hr>
+
+<a name="MONREPAIR_025"><h1> 25) Monitor Drift? </h1></a>
+
+<b>Problem</b>: I have a 17&quot; monitor that has an image that EVER SO SLIGHTLY drifts
+to the left (and stops) after a long day's work (heat, I suppose).  Also, 
+the vertical height shrinks a little bit.  Is this at all normal/acceptable? <p>
+
+How much is 'ever so slightly'?  There are a fair number of components whose
+values could alter the position/size of a monitor image.  I do not find it
+at all surprising that there should be a small shift due to heat.  It really
+depends on many factors including the basic design, quality of components,
+ventilation/cooling, etc.  Of course, it is possible to have a monitor that
+has a component that is worse with respect to temperature.  Could also
+be related to line voltage depending on the regulation of your monitor's
+power supplies. <p>
+
+In general, my feeling is that if it is not objectionable (a 1/2&quot; shift
+would be objectionable) AND it's severity is not changing with time, you
+can ignore it. <p>
+
+Many monitors do this.  TVs do this but you are not aware of it since they
+are already 5-10% overscanned for just this reason, as well as compensating
+for component aging and line voltage fluctuations. <p>
+
+<hr>
+
+<a name="MONREPAIR_026"><h1> 26) Monitor Power Supplies </h1></a>
+
+Monitors use a variety of switching supply techniques and it would be
+difficult to cover every possibility but here are some comments: <p>
+
+Probably the most common is deflection derived - the voltages are obtained
+from auxiliary windings on the horizontal flyback (HV) transformer.
+A number of components can be at fault and produce a 'dead' monitor.
+The switching supply could also be independent of the HV supply, but
+this is less common, especially on inexpensive monitors. <p>
+
+Some possibilities: <p>
+
+Horizontal output transistor (usually a TO3 metal or TOP3 plastic case
+shorts out.  This will usually blow a fuse or fusible resistor as well. <p>
+
+Horizontal drive chain - horizontal oscillator, driver, or driver transformer.
+Newer monitors may use an IC for the oscillator and this can fail. <p>
+
+Startup - There may be some kind of startup circuit which gets the whole
+thing going until the auxiliary voltages are available.  This could be
+as simple as a multivibrator or transistor regulator to provide
+initial voltage to the horizontal oscillator chip or circuit. <p>
+
+Output rectifier diodes can fail shorted and load down the outputs to
+the point of shutting down. <p>
+
+Some load could be shorted or a capacitor could be shorted leading to
+overload and shutdown. <p>
+
+Flyback transformer can have shorted windings which load down the output.
+These (primary shorts in particular) may cause the horizontal output
+transistor to fail as well.  Common problem with older MacIntosh computers
+and video terminals. <p>
+
+Also, look for cold solder joints - monitors tend to have these as a
+result of temperature cycling and bad manufacturing.  (Is this sounding
+repetitive yet?) <p>
+
+Sometimes there is a series regulator after the filter cap and this could
+be bad as well. <p>
+
+I guess I would attempt to trace the circuit from the main filter cap
+assuming that has the proper (approx. 150-160 VDC usually) voltage. <p>
+
+If there is no voltage at the main capacitor, then there is probably a
+blown fuse or bad connection somewhere.  However, the fuse may have
+blown due to a fault in the switcher. <p>
+
+If you can locate the horizontal output transistor, see if there is voltage
+on its collector, should be the same.  If there is, then there is probably
+a drive problem.  If you have an ECG or similar semi cross reference,
+that will help you identify the ICs and transistors and locate the relevant
+portions of the circuitry. <p>
+
+<hr>
+
+<a name="MONREPAIR_027"><h1> 27) Single Vertical Line </h1></a>
+ 
+Since you have high voltage, the horizontal deflection circuits are almost
+certainly working (unless there is a separate high voltage power supply -
+almost unheard of in modern TVs and very uncommon in all but the most
+expensive monitors).<p>
+ 
+Check for bad solder connections between the main board and the deflection
+yoke.  Could also be a bad horizontal coil in the yoke, linearity coil, etc.
+There is not that much to go bad based on your symptoms assuming the high 
+voltage and the horizontal deflection use the same flyback. It is almost
+certainly not an IC or transistor that is bad.<p>
+ 
+<hr>
+
+<a name="MONREPAIR_028"><h1> 28) Single Horizontal Line </h1></a>
+ 
+A single horizontal line means that you have lost vertical deflection.
+High voltage is most likely fine since there is something on the screen.<p>
+ 
+This could be due to:<p>
+ 
+<ol>
+<li> Dirty service switch contacts.  There is often a small switch on the
+   located inside on the main board or perhaps accessible from the back.  This
+   is used during setup to set the color background levels.  When flipped
+   to the 'service' position, it kills vertical deflection and video to the
+   CRT.  If the switch somehow changed position or got dirty or corroded
+   contacts, you will have this symptom.  Flip the switch back and forth
+   a couple of times.  If there is some change, then replace, clean, resolder,
+   or even bypass it as appropriate.<p>
+ 
+<li> Bad connection to deflection yoke or other parts in vertical output
+   circuit.  Bad connections are common in TVs and monitors.  Check
+   around the pins of large components like transformers, power transistors
+   and resistors, or connectors for hairline cracks in the solder.  Reseat
+   internal connectors. Check particularly around the connector to the
+   deflection yoke on the CRT.<p>
+ 
+<li> Bad vertical deflection IC or transistor. You will probably need
+   the service manual for this and the following.  However, if the
+   vertical deflection is done with an IC, the ECG Semiconductor
+   Master Substitution guide may have its pinout which may be enough to
+   test it with a scope.<p>
+ 
+<li> Other bad parts in vertical deflection circuit though there are not
+   that many parts that would kill the deflection entirely.<p>
+ 
+<li> Loss of power to vertical deflection circuits.  Check for blown
+   fusable resistors/fuses and bad connections.<p>
+ 
+<li> Loss of vertical oscillator or vertical drive signals.<p>
+</ol><br>
+ 
+The most likely possibilities are in the deflection output stage or
+bad connections to the yoke.<p>
+ 
+<hr>
+
+<a name="MONREPAIR_029"><h1> 29) Big Al's Rules of Thumb on Monitor Repair </h1></a>
+
+<ol>
+<li>Use an isolation transformer. A variac can be helpful too. A cheap isolation
+   transformer can be constructed by wiring two identical transformers of
+   adequate power capability back-to-back.  (Here is a use for those old
+   boat anchors you can't bear to part with). <p>
+
+<li>If it's just the power supply or flyback switching transistors that have
+   failed, then the repair is probably easy enough and quick enough to be
+   worthwhile. Blown power transistors are trivial to locate in the circuit
+   and quite easy to find replacements for. In many cases I've found that the
+   monitor would have lived a much longer life if only the transistor mounting
+   screws had been tightened properly by the manufacturer.  Make sure you use
+   appropriate replacements and the proper heat sink parts and heat sink
+   compound. <p>
+
+<li>If it's the flyback transformer, then judgment should be made based on the
+   cost and availability of the replacement part. Also, on the risk of there
+   being additional problems beyond that of the bad flyback. Who gets to eat
+   the cost of the part in the event you don't succeed and give up?  However,
+   determining that the flyback is indeed at fault may prove challenging
+   without a flyback tester.  Sometimes there will be obvious damage such
+   as burnt marks, cracked plastic, or other signs of overheating.  If you
+   have the correct resistance measurements, then for the primary you may
+   be able to detect shorted windings.  You can also construct the brute
+   force flyback tester at the end of the document. <p>
+
+<li>If it's the CRT then make the project &quot;someone else's problem&quot; and give the
+   monitor to someone else to use as a parts carcass. My life is much happier
+   since I learned there is no disgrace in making this choice. <p>
+
+<li>There is another common failure category which is a result of people who are
+   too lazy to turn off the power switch at night. The constant heat causes the
+   electrolytic capacitors to dry out and become intermittent. I often replace
+   all of the smallest electrolytic in the power supply section especially when
+   I know the switching transistor is good. If after a couple of hours of labor
+   and a dozen caps I still don't have it running, I give up on these too. <p>
+
+<li>Be realistic with yourself about the value of a used working monitor. CGA's
+   EGA's and monochrome Hercules monitors rarely fetch more than $25 at a swap
+   meet. <p>
+
+<li>Don't sell a used monitor to a friend unless you want to continue repairing
+   the thing until you're old and grey. <p>
+
+<li>Don't put a scope on the collector of the supply or flyback transistors,
+   unless you have a special X100 high voltage / high frequency scope probe.
+</ol><br>
+
+<hr>
+
+<a name="MONREPAIR_030"><h1> 30) Picture Gradually Darkens to Black </h1></a>
+
+<b>Symptom</b>: Intermittently, the picture darkens smoothly to black
+over a period of 10-15 seconds. A tap on the side of the monitor sometimes
+restores the picture (this time it &quot;lightens&quot; to normal over 10-15 seconds).
+The picture is otherwise essentially unchanged in size, position, color,
+and focus. <p>
+
+This sounds like the filament to the CRT is losing power. Since the
+picture is otherwise unchanged, look really carefully for cold solder joints
+particularly on the little board on the back of the CRT if there is one
+and/or on any connectors associated with the CRT socket.  There isn't much
+to the filament power supply - it is usually a couple of turns of wire on the
+flyback.  If all colors are more or less equally effected, the it is not
+the CRT itself as the 3 filaments are welded in parallel to the socket pins. <p>
+
+<hr>
+
+<a name="MONREPAIR_031"><h1> 31) Training Manual (Skip) </h1></a>
+
+I recently attended a monitor repair course put on by Philips electronics.
+They have a technical training manual titled:<p>
+
+	&quot;HI-RES Computer Display Systems&quot;<br>
+	part # ST1496-1093LE/KGPGC <p>
+
+I am sure this can be ordered from Philips Service Co.
+P.O. Box 555, Jefferson City, TN 37760  phone 615-475-0044 <p>
+
+This book does an excellent job of explaining how these monitors 
+work. Most is about Philips monitors but the material is applicable
+to most manufacturers. This course and reading this text has 
+help me a lot with my monitor repair efforts. <p>
+
+Skip, e-mail skipperm@mtc2.mid.tec.sc.us <p>
+
+<hr>
+
+<a name="MONREPAIR_032"><h1> 32) Flyback Failure </h1></a>
+
+Flybacks fail in several ways: <p>
+
+<ol>
+<li>Overheating leading to cracks in the plastic and external arcing.  These
+   can often be fixed by cleaning and coating with multiple layers of high
+   voltage sealer, corona dope, or even plastic electrical tape (as a
+   temporary repair in a pinch). <p>
+
+<li>Cracked or otherwise damaged core will effect the flyback characteristics
+   to the point where it may not work correctly or even blow the horizontal
+   output transistor. <p>
+
+<li>Internal shorts in the FOCUS/SCREEN divider network, if present.  One sign
+   of this may be arc-over of the FOCUS or SCREEN spark-gaps on the PCB on the
+   neck of the CRT. <p>
+
+<li>Internal short circuits in the windings. <p>
+
+<li>Open windings.
+</ol><br>
+
+For the low voltage windings, service manuals may provide the expected
+DC resistance (SAM's PhotoFact, for example).  Sometimes, this will change
+enough to be detected - if you have an ohmmeter with a low enough scale.
+These are usually a fraction of an ohm.  Open windings, of course can be
+located with an ohmmeter and service notes. It is difficult or impossible to
+measure the DC resistance of the HV winding since the rectifiers are usually
+built in.  The value is not published either. <p>
+
+(4) (and sometimes (3) as well) will drastically lower the Q and increase
+the load the flyback puts on its driving source with no outputs connected.
+A Q meter or transformer tester can be used, but since many people do not
+have such equipment, here is a circuit that should work.  The only caution
+is that this tester probably does not put enough stress on the flyback to
+find an intermittent that fails only under operating conditions. <p>
+
+It is just a 12 V chopper feeding the salvaged core from a flyback.  The
+secondary of this core is a 10 turn coil.  You will need to remove the suspect
+flyback from the TV or monitor.  A second 10 turn coil is wound on the suspect
+flyback anywhere it will fit.  Connect one end of each coil securely.
+Provide an easy way of connecting the other ends momentarily - a push button
+comes in handy. <p>
+
+If the flyback is good, then with the coils connected there will be several
+KV at its output - enough to create a small arc (1/8&quot; typical).  The 
+load imposed on the oscillator will be modest (the frequency increases in
+response to load).  If there are any shorted windings, then there will be
+no significant HV output and the load on the oscillator will increase
+dramatically. <p>
+
+The circuit is shown below.  None of the component values are critical. <p>
+
+<pre>
+    +12     Q1   +-----------------C ||
+     o           |                 C ||
+     |       B |/ C                C ||    &lt;-- Flyback Under Test ---&gt;
+     |  +------|    2N3055         C ||
+     |  |      |\ E            5T  C ||         C-------|&gt;|----------o  +HV
+     |  |        |                 C ||         C     HV Diode, usually
+     |  |       -_-                C ||         C        built in
+     |  |                          C || _____   C
+     +--|--------------------------C ||C     C||C
+     |  |   Q2  _-_                C ||C 10T C||C
+     |  |        |                 C ||C ea. C||C
+     |  |    B |/ E            5T  C ||C     C||C
+     |  |  ----|    2N3055         C ||C__/ _C||C
+     |  |  |   |\ C                C ||         C
+     |  |  |     |                 C ||         C
+     |  |  |     +-----------------C ||         C
+     |  |  |                         ||         C
+     |  |  ------------------------C ||         C-------------------o  -HV
+     |  |                      2T  C ||
+     |  |               +----------C ||    (Numerous other windings not shown)
+     |  |               |      2T  C ||
+     |  +--------------------------C ||
+     |                  |
+     |            R1    |    R2
+     +----------/\/\/\--+--/\/\/\---+
+                  110        27    _|_
+                  2W         5W     -
+</pre>
+
+<hr>
+
+<a name="MONREPAIR_033"><h1> 33) Useful Service Aid </h1></a>
+
+When testing TVs and monitors after repairing power supply problems, it is
+desirable to put a limiting resistance like a lightbulb in series with the
+power line to prevent your newly installed expensive components from
+destroying themselves should there still be a problem.  When using a
+homemade degaussing coil, you may also may need a limiting resistor. <p>
+
+An easy and flexible solution for both these needs is to construct an
+electrical box with a duplex outlet where the individual outlets have
+been separated and wired in series - line-1-&gt;hot 1, neutral-1-&gt;hot-2,
+neutral-2-&gt;line 2.  Clearly mark on the box as to how it is wired. <p>
+
+Now, you can plug your monitor into one outlet and a suitable lamp into
+the other.  For a TV or monitor, use a 100-150 W bulb.  For testing a VCR
+power supply, use a 24-40 W bulb.  You could use a lamp with a 2-way
+switch as well.  For your degaussing coil, as large a load as your wire
+can stand can be plugged into the other outlet.  This is safer and easier
+than using alligator clip leads. <p>
+
+<hr>
+</body>
+</html>
+

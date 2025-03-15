@@ -1,0 +1,68 @@
+           UNIDEN CP-900, 1000, 1050, 1100, 1200, 1500, 1900, 2000,
+                    3000, PRESIDENT 4000 GTS and 4500 GTS
+
+
+                NAM Type:  EEPROM
+            Manufacturer:  UNIDEN
+              Programmer:  Serivce Handset or Programmer Handset
+          ESN Prefix DEC:  172
+                     HEX:  AC
+ ESN, S/N Match Required:  Yes
+    Handset Programmable:  Service Handset or Programmer Handset
+      Number of Channels:  666 (900, 1000) others 832
+
+    Programming Sequence:  Connect antenna or load
+                           Power Off
+                           Disconnect standard handset
+                           Connect blue or white service handset
+  White Handset (CP-010):  Turn Power Switch On while holding *
+                            and # continue holding * and # for two seconds
+    Blue Handset(CP-210):  Turn Power Switch On
+                           Press SELECT + 2 + SEND
+           Both Handsets:  Enter step number, then data for individual
+                            parameter
+                           Press STO to enter data for each step
+                           Increment by pressing next step number
+  To review parameters press:  RCL + Step number + STO (to exit)
+                           If phone has dual NAM(ie 1050, 1500 & 2000),
+                           Press 9 + 5 + SEND (to toggle between NAMs)
+                           Press SEND to write NAM information
+                           PASS will appear in display if data is valid
+
+Step                  # of Digits
+0              System ID:  5    XXXXX + STO
+1              Local Use:  1    (0 or 1) + STO
+2                MIN Opt:  1    (0 or 1) + STO
+3          Mobile Number:  10   XXX-XXX-XXXX + STO
+4    Initial Paging Chan:  3    (333 or 334) + STO
+5        Access Overload:  2    XX + STO
+6       Preferred System:  1    [0 (B) or 1 (A)] + STO
+7               Group ID:  2    XX + STO
+8         Local Code (1):  4    XXXX + STO
+9       F5 DTMF Duration:  2    0-100ms or 1-Continous
+
+Press STO to increment to F6 or A
+
+All models Except 1500, 1900 and 4500 GTS
+
+      F6 Automatic Power:  1    0=3 hrs or 1=6 hrs
+
+A  Handset/Handsfree 1
+ 0(phone auto transfers from switching H/S to H/F) OR
+ 1(call ends when H/S is placed in cradle unless user presses
+   RCL + 6 + 6)
+
+Press STO after entering F6 or A data
+Press SEND to exit program mode
+
+              Horn Alert:  RCL + 9 + 9 + Turn Ignition Off
+
+         New Unlock Code:  NAM
+
+           System Select:  X + STO + 8 + 8
+                                 X=1  A only
+                                 X=2  B only
+                                 X=3  Home
+                                 X=4  Standard AB or BA
+                                 X=5  Inverted BA or AB
+

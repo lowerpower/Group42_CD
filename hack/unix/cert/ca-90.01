@@ -1,0 +1,56 @@
+
+CA-90:01
+			    CERT Advisory
+			   29 January 1990
+		      Sun Sendmail Vulnerability
+-----------------------------------------------------------------------------
+
+The Computer Emergency Response Team Coordination Center (CERT/CC) has
+learned of, and has verified, break-ins on several Internet systems 
+in which the intruders have exploited a vulnerability in the Sun
+sendmail program.  This vulnerability exists in all versions of
+SunOS up to and including the current version, 4.0.3 on Sun 3, Sun 4,
+and Sun 386i systems (note that 4.0.2 is the most current version of
+SunOS on the 386i machines). That is, all current Sun systems.
+
+The vulnerability has previously been reported to Sun and a solution
+to this problem (Sun bug # 1028173) is available via a new version of
+sendmail supplied by Sun.  The new sendmail is available directly from
+the Sun Answer Center (1-800-USA-4SUN).  Sun 3 and Sun 4 sendmail
+binaries are also available via anonymous FTP from uunet.uu.net in the
+/sun-fixes directory.
+
+This incident underscores the need for system administrators to
+maintain an awareness of the steps their vendors are taking to
+improve the security aspects of their products, and to seriously
+consider upgrading system configurations when solutions to security
+problems are made available.
+
+Administrators of Sun systems are urged to contact Sun for the new
+version of the sendmail program.  Administrators of machines other 
+than Suns are urged to contact their vendors to verify that they are 
+running the latest version of sendmail, since there may have been 
+security related fixes to it in the past year.
+
+If you need further information on this problem, contact your Sun
+representative or CERT/CC.  CERT/CC can be contacted by telephone at
+(412) 268-7090 (24 hours) or email to cert@cert.org (monitored
+daily).
+
+Our thanks to Matt Bishop and Wayne Cripps for their efforts in
+analyzing and investigating this problem and its solution.
+
+-----------------------------------------------------------------------------
+Computer Emergency Response Team (CERT)
+Software Engineering Institute
+Carnegie Mellon University
+Pittsburgh, PA 15213-3890
+
+Internet: cert@cert.org
+Telephone: 412-268-7090 24-hour hotline: CERT personnel answer
+           7:30a.m.-6:00p.m. EST, on call for
+           emergencies other hours.
+
+Past advisories and other information are available for anonymous ftp
+from cert.org (192.88.209.5).
+

@@ -1,0 +1,63 @@
+
+
+HERE ARE THE DEBUG KEYS FOR WOLFENSTEIN-3D AND SPEAR OF DESTINY.... 
+
+
+- Wolfenstein 3D (Public Domain version)
+
+  --> wolf3d -next 
+
+  to activate debug keys press : <CTRL>+<ALT>+<ENTER>
+
+
+- Wolfenstein 3D (episode 1-6 original version)
+
+  --> wolf3d -goobers
+
+  to activate debug keys press : <LEFT SHIFT>+<ALT>+<BACKSPACE>
+
+
+- Spear of Destiny (orginal version)
+
+  --> spear -debugmode
+
+  to activate debug keys press : <LEFT SHIFT>+<ALT>+<BACKSPACE>
+
+
+THE DEBUG KEYS ARE :
+
+<TAB>+Q - QUIT
+<TAB>+W - WARP TO LEVEL XX
+<TAB>+E - EXIT TO NEXT LEVEL
+<TAB>+T - DEBUG INFO IN MEMORY
+<TAB>+I - FREE ITEMS
+<TAB>+O - MAP OF LEVEL
+<TAB>+S - SLOW MOTION
+<TAB>+F - POSITION INFO
+<TAB>+G - GOD MODE (NO DEMAGE)
+<TAB>+H - HURT YOURSELF
+<TAB>+X - EXTRA STUFF (???)
+<TAB>+C - STATISTICS
+<TAB>+V - INCREASE / DECREASE GAME SPEED
+<TAB>+B - CHANGE BORDER COLOR
+<TAB>+N - NO CLIPPING (WALK THROUGH WALLS)
+<TAB>+M - MEMORY MAP
+
+WOLF DEBUG KEYS BY THE FIRST POWER AND THE DON - RCH(c)'92
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

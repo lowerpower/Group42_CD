@@ -1,0 +1,11 @@
+Alien Breed Crack
+
+Another simple byte change for you
+
+ALIEN.EXE
+
+SEARCH FOR 		  E8  03  00  E9  D3  00
+CHANGE TO			   90  90  90  E9  D3  00
+
+BROUGHT TO YOU BY THE MASHER
+UPLOADED BY MOEBIUS

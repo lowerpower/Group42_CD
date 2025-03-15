@@ -1,0 +1,57 @@
+RADIO SHACK CT 8003
+
+NOTES:  This is a dual NAM handheld unit.
+        The ESN prefix is 172 decimal, AC hex.  (Uniden)
+        Radio Shack/Tandy: 817-870-5600
+
+
+NAM PROGRAMING:
+
+OPTIONAL: Use steps 1, 2 and 3 to select NAM.
+
+1.  Turn power on.
+
+2.  Optional: Select the NAM you want to program by entering 1 STO 9 0 for
+    NAM 1 or 2 STO 9 0 for NAM 2.
+
+3.  Turn the unit off.
+
+4.  Press the * and # keys togeather and hold while pressing the PWR key,
+    continue holding * and # until the display clears.
+
+5.  Release * and # and within 7 seconds enter: 5 1 6 0 9 8 9 1.  The first
+    step number and data entry (System ID) will appear.
+
+6.  Data can be programed in any order:
+
+         Enter the single digit step number,
+         Enter the new data,
+         Press STO,
+         Enter the next item number... etc
+
+7.  At any time press SEND to complete programing, phone should then
+    display "PASS", press END to exit.  If "FAIL" appears try programing
+    again.
+
+
+PROGRAMING DATA:
+
+STEP#    #OF DIGITS/RANGE    DESCRIPTION
+
+0        00000 - 32767       SYSTEM ID
+1        0 OR 1              LOCAL USE MARK
+2        0 OR 1              MIN MARK
+3        10 DIGITS           MIN (AREA CODE & TEL NUMBER)
+4        0333 OR 0334        INITIAL PAGING CHANNEL
+5        2 DIGITS            ACCESS OVERLOAD CLASS
+6        0 OR 1              PREFERRED SYSTEM (0 FOR "B", 1 FOR "A")
+7        2 DIGITS            GROUP ID (10 IN USA)
+8        4 DIGITS            LOCK CODE
+9        0 OR 1              CONTINUOUS DTMF
+
+LOCK: RCL 7 7 then four digit lock code.
+
+UNLOCK: RCL 7 7 then four digit lock code.
+
+SYSTEM SELECT: RCL 8 8 displays, STO N 8 8 changes, where N is:
+1 = A only, 2 = B only, 3 = Home only, 4 = Pref/Non pref, 5 = Non pref/pref.

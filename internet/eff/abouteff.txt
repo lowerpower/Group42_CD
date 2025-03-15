@@ -1,0 +1,922 @@
+ABOUT THE ELECTRONIC FRONTIER FOUNDATION
+========================================
+
+The Electronic Frontier Foundation
+P.O. Box 170190
+San Francisco CA 94117 USA
++1 415 668 7171 (voice)
++1 415 668 7007 (fax)
+Internet: ask@eff.org
+
+Updated: Sept. 30, 1995
+
+
+
+Table of Contents
+-----------------
+
+ Introduction
+ Mission Statement
+ EFF: Working to Protect Essential Civil Liberties
+ EFF: Representing the Interests of the Public Online
+ EFF: Building the Community
+ Accomplishments and Goals
+ EFF's Staff and Board
+ How EFF Is Funded
+ How and Where to Find EFF Online
+ Membership in the Electronic Frontier Foundation: Why You Should Join EFF
+ Membership Form
+ EFF PGP Public Key for Encryption
+
+____________________________________________________________________________
+
+
+Introduction
+------------
+
+A new world is arising in the vast web of digital, electronic media
+which connect us.  Computer-based communications media like electronic
+mail and computer conferencing are becoming the basis of new forms of
+community. These communities without a single, fixed geographical
+location comprise the first settlements on an electronic frontier.
+Digital networks offer a tremendous potential to empower individuals in 
+an ever-overpowering world. However, these communications networks are 
+also the subject of significant debate concerning governance and freedom.
+
+While well-established legal principles and the standards of physical 
+communities give structure and coherence to uses of conventional media 
+like newspapers, books, and telephones, the new digital media do not so 
+easily fit into existing frameworks.  What jurisdiction's laws can 
+hope to apply justly to a medium that is both nowhere and everywhere at 
+the same time?  Serious conflicts come about as the law struggles to 
+define its application in a context where fundamental notions of speech, 
+property, and place take profoundly new forms. People sense both the 
+promises and the threats inherent in the use of new computer and 
+communications technologies, even as they struggle to master or simply 
+cope with them in the workplace and the home:
+
+ - How do we balance intellectual property rights with the free flow of
+   information?
+
+ - How do we simultaneously provide for free expression and allow 
+   individuals to shield themselves or their children from material they 
+   find offensive?
+
+ - How do we determine which country's laws, if any, sensibly have 
+   jurisdiction over media that involve global communications?
+
+ - How do we protect privacy and security while still fostering 
+   accountability and responsibility?
+
+ - How do we ensure that legislators, access providers, and network users 
+   do not stifle speech they disagree with?
+
+The Electronic Frontier Foundation is dedicated to finding ways to resolve
+these and other conflicts while ensuring that essential civil liberties are
+protected.
+
+
+Mission Statement
+-----------------
+
+The Electronic Frontier Foundation has been established to help civilize
+the electronic frontier; to make it truly useful and beneficial not just
+to a technical elite, but to everyone; and to do this in a way which is
+in keeping with our society's highest traditions of the free and open
+flow of information and communication.
+
+To that end, the Electronic Frontier Foundation will:
+
+* engage in and support educational activities which increase popular 
+  understanding of the opportunities and challenges posed by
+  developments in computing and telecommunications;
+
+* develop among policy-makers a better understanding of the issues
+  underlying free and open telecommunications, and support the creation of
+  legal and structural approaches which will ease the assimilation of these
+  new technologies by society;
+
+* raise public awareness about civil liberties issues arising from the 
+  rapid advancement in the area of new computer-based communications media;  
+
+* support litigation in the public interest to preserve, protect, and 
+  extend First Amendment rights within the realm of computing and
+  telecommunications technology;
+
+* encourage and support the development of new tools which will endow 
+  non-technical users with full and easy access to computer-based
+  telecommunications.
+
+
+EFF: Working to Protect Essential Civil Liberties
+-------------------------------------------------
+
+The Electronic Frontier Foundation (EFF) was founded in July of 1990
+to ensure that civil liberties, such as privacy and freedom of 
+expression, are protected as new communications technologies emerge.
+To this end:
+
+* EFF sponsors cases such as the Steve Jackson Games case and Bernstein v.
+  Department of State and NSA, in which users' online civil liberties have 
+  been violated.  Additionally, EFF submits amicus briefs and finds pro 
+  bono counsel when possible for important legal cases.  We continue to 
+  monitor for legal actions that merit EFF support.
+
+* EFF works to ensure that communications carriers do not deny service to
+  network users solely on the basis of the content of their messages, and 
+  that carriers do not bear liability for the actions of users over whom 
+  carriers do not excercise control.
+
+* EFF produces legal white papers and testifies before legislative 
+  and regulatory bodies, to inform lawmakers, system operators, telephone 
+  companies, public utility commissions, national leaders and the public 
+  about the civil liberties implications of their actions and reactions.  
+  We monitor legislation and agency actions affecting the online 
+  community.  We also work with EFF members and groups of members, and 
+  other organizations, on local, state and national levels to affect 
+  change in legislation and policy.
+
+* EFF provides a free telephone hotline for members of the online 
+  community who have questions regarding their legal rights.
+
+* EFF speaks to law enforcement organizations, state attorney bar 
+  associations, conferences and summits, and university classes on the 
+  work that we do and how these groups and individuals can become involved.
+
+
+EFF:  Representing the Interests of the Public Online
+-----------------------------------------------------
+
+EFF works to convince Congress that measures that support broader
+public access to information should be enacted into law.  EFF supports an
+Electronic Freedom of Information Act and other legislation to make
+government information more accessible to citizens.
+
+EFF supports both legal and technical means to enhance privacy in
+communications.  We, therefore, advocate measures that ensure the public's
+right to use the most effective encryption technologies available, and have
+testified before Congress as well as conducted online campaigns against the
+NSA's "Clipper Chip" initiative.
+
+EFF works to make sure that common carriage principles are upheld in the
+information age.  Common carriage principles require that network providers
+carry all speech, regardless of its controversial content.  EFF supports a new
+common carriage system in which system operators are shielded from
+liability for the actions of users, but without the regulatory burden presently
+associated with common carriage.
+
+EFF supports an Open Platform model of the global information
+infrastructure, providing non-discriminatory access, based on open, private-
+sector standards, and free from burdensome regulation.
+
+Finally, EFF works to craft policies that enable public and private information
+providers to distribute and sell their information products over the Internet. 
+We encourage the government to provide support for schools, universities,
+and research labs that buy Internet services on the open market.  We work
+on policies that encourage the government to stimulate the development of
+experimental, precompetitive, network technologies and to fund the
+development of applications that are of use to "low-end" users, who are
+traditionally underserved by advanced digital media.
+
+         
+EFF: Building the Community
+---------------------------
+
+In order to foster community and openness, EFF works with local
+organizations that support online communications issues.  In January of
+1993, EFF sponsored a summit of groups from around the country to 
+discuss common goals.  Since then, EFF, in an advisory ally role, has helped
+other "Electronic Frontiers" organizations get started in Ireland, Canada,
+Norway, Australia, New Hampshire and elsewhere around the country and the 
+world.
+
+EFF, in conjunction with many other organizations, has formed and
+participates in a number of coalitions and summits to bring together
+thinkers from the non-profit/NGO world, communications and computing
+industry leaders, government policy makers (when appropriate), and
+grass-roots advocates in a nonpartisan setting to discuss communications
+policy goals and strategies and to form balanced solutions to problems. Such
+efforts to date have included the Communications Policy Forum, the Digital
+Privacy and Security Working Group, and the Intellectual Property Working
+Group  (EFF organized), as well as the Interactive Working Group and the
+Stop S.314 Coalition (with EFF as an active participant).
+
+EFF publishes an electronic newsletter, _EFFector_Online_, to inform our 
+members and other interested parties, including members of the press, 
+several Senators, CEOs of high-technology enterprises, and key staffers 
+in other organizations, about events and issues in online civil liberties 
+and network-based social change.
+
+EFF maintains several communications forums on the Internet.  We have our
+own Internet node which houses our FTP, gopher, and WWW information
+servers, as well as our own Internet and Usenet conferences, including
+comp.eff.org.talk.  EFF also maintains active conferences on the Whole Earth
+'Lectronic Link (WELL), CompuServe (CIS), America Online (AOL), GEnie,
+Women's Wire, and elsewhere.
+
+Outpost, the EFF bulletin board system, carries a wide selection of the files
+available on our Internet servers.
+
+Additionally, EFF answers hundreds of daily Internet-related and civil 
+liberties questions from the community via telephone, postal mail and 
+e-mail, whether they be technical ("How do I connect to the Internet?") or 
+legal ("Does my boss have the right to read my e-mail?"). We have built 
+up a strong reputation in the online communition as an excellent 
+source of information about life in Cyberspace, and as the home of the 
+largest archive of online civil liberties information in the world.
+
+
+Accomplishments and Goals
+-------------------------
+
+In 1994:
+
+* EFF won the Steve Jackson Games case, where a federal court affirmed that
+  electronic mail cannot be read by law enforcement officers without a court-
+  authorized wiretap warrant.
+
+* EFF ensured that privacy protections for transactional information were 
+  added to the FBI's Digital Telephony legislation. This year, we will 
+  fight to keep its dangerous wiretap provisions from being funded without a 
+  strong showing by the FBI that such measures are necessary and justifiable.
+
+* EFF fought successfully to exempt the Internet, BBSs, and other online 
+  services from the re-engineering and design requirements of the Digital 
+  Telephony legislation.
+
+* EFF educated health care reform legislators about the importance of 
+  security and privacy of health records and medical information.
+
+* EFF provided, through our online counsel and legal clinic, immediate 
+  assistance to hundreds of system operators and online service users in 
+  crisis, throughout the year.
+
+* EFF led the opposition against the "Clipper Chip" key escrow encryption 
+  proposal and the unconstitutional ITAR export restrictions on 
+  cryptographic products. We coordinated a massive grassroots and 
+  private-industry  assault on the proposal.  Clipper is now functionally 
+  dead, with large portions of the proposal completely abandoned and the
+  rest unsupported by industry or the public.
+
+
+So far in 1995: 
+
+* EFF assembled and sponsored the legal team that has filed a 
+  groundbreaking suit that will take on export controls on encryption in 
+  federal court.  The export controls are a violation of free speech and
+  press rights, and privacy, and are seriously hampering US participation
+  in a fast-growing and increasinly important global field.
+
+* Helped find pro bono counsel to represent the key defendants in the Church
+  of Scientology's assault on free speech on the Net.  CoS has attempted
+  to close down Usenet newsgroups, has filed a lawsuits against critics, and 
+  has obtained restraining orders against one online critic, his BBS 
+  system operator, and that operator's Internet service provider.  In 
+  addition, COS has compromised the security of an Internet remailer 
+  service and has made legal threats against many other system operators, 
+  remailer operators, and users critical of Scientology's teachings and
+  practices.
+
+* With other civil rights organizations, we called upon the G7 nations to
+  establish the protection of the free flow of information as a core 
+  principle of the Global Information Infrastructure.
+
+* We are supporting board members Esther Dyson and Mitch Kapor in their
+  work on the federal US National Information Infrastructure Advisory 
+  Council to develop privacy protection principles for the NII.  We are 
+  assisting this civilian NII advisory panel on encryption, security, 
+  intellectual property, and free expression issues as well.
+
+* We have spoken with Senator Jim Exon's staff to reassess the proposed 
+  language of his dangerous "Communications Decency Act of 1995", and we 
+  have taken part in broad and successful coalitions to increase 
+  opposition to this and similar censorship measures, and to introduce and 
+  support counter-bills, such as those sponsored by Senator Leahy, 
+  and Representatives Klink, Cox and Wyden.
+
+* EFF has worked to expose the weaknesses and fallacies of the so-called
+  "Carnegie-Mellon University online pornography study" by CMU student
+  Marty Rimm.  The study, which presented demonstrably false information
+  as fact, had been the centerpiece of Sen. Charles Grassley's own
+  Internet censorship efforts, and had been quoted as if conclusive by
+  several legislators, news publications, and extremist pro-censorship 
+  organizations, Our efforts, in conjunction with independent investigative
+  journalism and network users' fact-finding, have turned the tide, 
+  exposing the "study" as a little better than a hoax, and strongly 
+  influencing Congressional hearings on the Internet in the process.
+
+* We have filed an amicus brief opposing the conviction of the two system 
+  operators of a California bulletin board system, who were charged with 
+  distribution of obscenity in Memphis, Tennessee using Memphis 
+  community standards.  Our brief argues that 1) individual states have 
+  little or no justification for attempting to regulate content when 
+  it is not on public display and does not otherwise affect any 
+  terrestrial community; 2) technological means rather than laws 
+  should be employed to allow people to screen themselves from material 
+  they do not want, and to prevent access to such material by their 
+  children; and 3) where these self-selection methods are employed, 
+  online communities should have the right to set their own standards.
+
+
+Our agenda for the coming year includes the following:
+
+* EFF will maintain our efforts to inform and organized concerned citizens,
+  and foster directed action on crucial issues such as anti-cryptographic 
+  public policy mistakes, unconstitional legislation, ill-considered 
+  attempts to greatly expand law enforcement and intelligence 
+  agencies' surveillance capabilities and authority, public access to
+  government information and to communications media, as well as the 
+  unsettled and unsettling intersection of outmoded law and new media.
+
+* EFF will continue to fight for the privacy of transactional data and to 
+  support the use and availability of strong encryption worldwide.
+  Such privacy and security, and the technologies that make it possible, are
+  essential to the continued growth and health of networked communications.
+
+* EFF will encourage and assisting in the formation of "Electronic 
+  Frontiers" civil liberties advocacy groups around the world, and 
+  will organize online and offline summits to forge a flexible alliance 
+  of grassroots activists acting locally on global issues when necessary, 
+  and acting globally on local issues when appropriate. 
+
+* EFF will work for the development of legal definitions of the virtual 
+  community that are based not on physical location but on the voluntary 
+  association of such communities' constituents.
+
+* EFF will establish a Cyberspace Law Institute to analyze and develop 
+  new forms of dispute resolution better adapted to the still developing 
+  jurisdictions of cyberspace.
+
+* EFF will analyze potential threats and contributions to the Net 
+  worldwide.  We are beginning to build the information base necessary to 
+  produce an annual "State of the Net" report which will study the Interet 
+  as an evolving system using an ecology and organism model.
+
+* EFF will study the condition of digital intellectual property rights 
+  and convene various interested parties to examine how value is 
+  currently being, and can be, exchanged online.  Part of this process 
+  may also include a test bed of digital cash and transaction schemes, 
+  with a particular focus on privacy and security issues.
+
+
+EFF's Staff and Board
+---------------------
+
+* EFF Board of Directors
+
+Esther Dyson            Chair of the Board             esther@eff.org
+John Perry Barlow       Vice-Chair/Co-Founder          barlow@eff.org
+Stewart Brand           Boardmember Emeritus           sbb@well.sf.ca.us
+Denise Caruso           Boardmember Emeritus           dcaruso@eff.org
+David Farber            Boardmember                    farber@cis.upenn.edu
+John Gilmore            Boardmember/Co-Founder         gnu@toad.com
+Rob Glaser              Boardmember                    robg@prognet.com
+Mitchell Kapor          Boardmember/Co-Founder         mkapor@kei.com
+Jane Metcalfe           Boardmember Emeritus           jane@wired.com
+Tim O'Reilly            Boardmember                    tim@eff.org
+
+
+* EFF Staff
+
+Lori Fena               Executive Director             lori@eff.org
+Dan Brown               Systems Administrator          brown@eff.org
+Mike Godwin             Staff Counsel                  mnemonic@eff.org
+Stanton McCandlish      Online Activist                mech@eff.org
+Shari Steele            Staff Counsel                  ssteele@eff.org
+Eric Tachibana          Online Services Coordinator    erict@eff.org
+
+
+How EFF Is Funded
+-----------------
+
+The Electronic Frontier Foundation is a 501(c)(3) tax-exempt, non-profit 
+non-governmental organization in Washington, DC.  Our total budget ranges
+from approximately $1.5 million to $2 million annually.
+
+Like many other public interest advocacy groups, EFF sustains its 
+activities through membership dues, individual donations and gifts, 
+and foundation and corporate grants.  EFF is not government-funded.
+
+Supporters have included:
+
+      Adobe Systems                 Apple Computers
+      AT&T                          Bauman Foundation
+      Bell Atlantic                 Benton Foundation
+      Dun & Bradstreet              Electronic Messaging Association
+      IBM                           Interval Research
+      Kaleida                       Lotus Development Corp.    
+      MCI Telecommunications        Microsoft Corporation     
+      Netscape Communications       Newspaper Assoc. of America   
+      NCTA                          PictureTel
+      RSA Data Security             Sun Microsystems
+      Tides Foundation              UUNet/AlterNet                
+      Ziff-Davis                    
+
+EFF's policy goals and advocacy positions are determined by EFF's 
+board and staff.  In support of these positions, EFF does, from time to 
+time, assemble political coalitions that include EFF corporate funders 
+and other public interest organizations.  For example, corporations 
+such as Lotus Development Corporation, RSA Data Security, and Apple 
+Computer have contributed funding for EFF's digital privacy work, and 
+such concerned funders may work with EFF to give testimony before Congress,
+issue policy analyses, and otherwise disseminate information and effect 
+change.
+
+Major individual donations and foundation and corporate grants range from 
+$10,000 to $250,000+.  EFF also receives many smaller donations from 
+individuals supportive of its work.  EFF has over 2,000 members who give
+dues of $10-$500 annually (average membership dues are $40 per year).  
+Additionally, special projects and programs may generate funding in 
+other ways. Examples of this include the EFF/Aerosmith Virtual World 
+Tour of Cyberspace, and the EFFweb sponsorship program.
+
+EFF will continue to seek funding from all who support our basic
+mission, be they individuals, foundations or corporations.  We do not tailor
+our positions to please funding sources, but we do accept funds for specific
+projects that fit our overall mission, as well as for continuing operations.
+
+
+
+How and Where to Find EFF Online
+--------------------------------
+
+Please note that our archives and forums are updated frequently.  You may 
+wish to check back periodically.
+
+
+* Internet and USENET
+
+News Services and Forums for Discussion:
+
+If you receive any Usenet newsgroups, your site may carry the newsgroups
+comp.org.eff.news and comp.org.eff.talk. The former is a moderated
+newsgroup for announcements, newsletters, and other information; the latter
+is an unmoderated discussion group for talk and debate on EFF and issues
+relating to the electronic frontier and civil liberties. Also, Usenet's
+alt.politics.datahighway may be of interest.  This conference was started by
+EFF in November of 1993, to provide a forum for discussion of the national
+and global information infrastructure, from testbed deployment, through
+privacy and free speech issues, to debunking of hype.
+
+There are also redistributions of these newsgroups via
+electronic mail, as well as other EFF mailing lists:
+
+comp-org-eff-talk
+        Mail<-->news gate of newsgroup comp.org.eff.talk (high-traffic)
+ACTION
+        A working group and news forum for online activism and grassroots
+        civil liberties advocacy.
+effector-online
+        Distribution of EFFector Online, EFF's bi-weekly newsletter (same
+        as comp.org.eff.news).
+net-guide-
+        Monthly updates to EFF's Guide to the Internet (previously Big Dummy's
+        Guide, published in hardcopy by MIT Press as Everybody's Guide.)
+alt-politics-datahighway
+        Mail<-->news gateway of the newsgroup alt.politics.datahighway
+comp-academic-freedom-talk
+        Discussion of Computers and Academic Freedom (available in several
+        versions).
+
+For more detailed descriptions, send a message containing
+the commands:
+HELP
+LONGINDEX
+in the body of your message to listserv@eff.org.
+
+Those in FidoNet and some other BBS networks can probably get the newsletter
+and other low-traffic lists via gateway systems.  Ask your network
+coordinators for more information.
+
+EFFWeb and the EFF Online Library
+
+A document library containing all EFF news releases and other publications
+of interest - including recent and proposed legislation, materials for
+online activists, archives of electronic publications, records of trials
+and legal cases, action alerts, and other related documents & papers -
+is available via the World Wide Web, anonymous FTP and Gopher. 
+
+If you are on the Internet, you can use your host's FTP program to 
+connect to ftp.eff.org.  Login as "ftp" and use your e-mail address as 
+the password. Our gopher server is gopher.eff.org.
+
+EFFWeb, our WWW server, provides indexing of our file archives, and also 
+presents other information, including staff and board bios, audio and 
+video material, and a searchable version of our guide to the Internet.
+Additionally, like our gopher server, EFFweb provides links to numerous 
+other areas of interest in cyberspace, and presents information in
+easy-to-navigate menus, allowing you to read online and save what you 
+want to disk on your own machine.
+
+Send a note to ftphelp@eff.org if you have difficulties or are unable to 
+use FTP, Gopher or the Web. If you don't have access to a Gopher client, 
+but do have access to telnet, you can use another site's Gopher client by 
+telnetting to consultant.micro.umn.edu, login: Gopher. From there, select 
+"Other gopher servers", then "North America", "USA", "Washington DC", 
+"Electronic Frontier Foundation (EFF)".  There are a couple of new e-mail 
+servers for accessing Gopher sites - start off by sending mail with a 
+subject and message body of "help" (no quotes) to gophermail@ncc.go.jp or 
+gophermail@calvin.edu.  SunSITE also offers several public services via 
+telnet login, including Gopher (login: gopher) and World Wide Web 
+(login: lynx - select g http://www.eff.org/ to get to EFF). Email-only
+users can get WWW files via email (you will need an HTML reader or WWW 
+browser configured for local file-reading); send a message body of:
+SEND http://www.w3.org/hypertext/WWW/Agora/Help.txt
+to agora@w3.org to use the WWWmail server.
+
+
+* Outpost - EFF Online (the EFF BBS)
+
+The EFF bulletin board system, Outpost - EFF Online, begun in March 1994,
+supports 300-14400bps connections (V.32bis, V.42bis, 8 bits, no parity,
+1 stop-bit - 8N1) on it's dialup lines.  The system is available 22 hours
+per day (3am-5am eastern time reserved for mail transfers and maintenance
+routines).  When fully operational, the board will be available 24 hours
+per day, will support 4 lines at faster speeds, and will feature online
+conferences from a variety of networks including FidoNet, Usenet/Internet,
+and more, as well as the full selection of files available from EFF's FTP
+archive, EFF membership materials, bulletins on the latest issues affecting
+civil liberties in cyberspace, and other related files and services.  The
+data phone number for the system is +1 202 861 1224.   Outpost's FidoNet
+address is 1:109/1108.  Access to the BBS is free (besides calling costs;
+at present we do not have a toll-free number.)  Other network addresses:
+WishNet - 19:1202/101; StormNet - 181:193/1; IndraNet - 369:1011/2
+New 2nd node: +1 202 861 1223 (300-14400bps V.32b/V.42b, 16800bps ZyXEL; 8N1)
+NOTICE: After Aug. 18, 1995, the BBS will be down for a period, which 
+probably will not exceed more than a few months at most.
+
+
+* The Whole Earth 'Lectronic Link (WELL)
+
+The WELL, based in the San Francisco area, is host to an active EFF
+conference, as well as many other related conferences of interest to EFF
+supporters. Telecom access is available through the CompuServe Packet
+Network.  If you have an Internet connection, you can reach the WELL via
+telnet at well.sf.ca.us; otherwise, dial +1 415 332 6106 (data,
+300-2400bps) or +1 415 332 8410 (data, 9600-14400bps). The WELL's (voice)
+customer support number is +1 415 332 4335.  To get to the EFF conference, 
+type "g eff".
+
+
+* The Spring
+
+The Spring is a new conferencing system in Austin TX, hosting many conferences
+including a new EFF forum.  Spring can be reached via telnet at spring.com,
+and has local dialup access as well.  The EFF forum is accessible by
+simply following the menus into the conferences area, and choosing the
+Select Conference item, specifying the EFF conference.
+
+
+* CompuServe Information Service (CIS)
+
+Our forum on CompuServe is also open. GO EFFSIG to join. Many of the files
+on ftp.eff.org, as well as other items of interest, are mirrored in the
+EFFSIG Libraries, and a lively debate and chat area exists with more
+than 15 online message areas.   CIS can be reached via telnet at
+compuserve.com. CompuServe Customer Support is available at 1-800-524-3388.
+
+
+* America Online (AOL)
+
+EFF has opened up a forum on America Online. Go to keyword EFF to join.
+Some basic EFF files are available, as well as a large and diverse
+discussion and debate area.  In addition, EFF may occasionally host or
+take part in interactive discussions in the live "auditorium" area. You can 
+contact AOL Customer Support at 1-800-827-6364.
+
+
+* GE Network for Information Exchange (GEnie)
+
+The "Public Forum * Non-Profit Connection RT" hosts an EFF forum on GEnie,
+including a stock of EFF newsletters and info in Library 13, and an EFF
+discussion area (Category 7, Topic 17).  Please support this volunteer
+effort and add your thoughts to the forum.  The Public Forum is keyword
+PF (or page 545).  GEnie's voice sign-up number for new users is 1-800-638-
+9636; the sign-up code (which will get you some free time online to check out
+the system) is MHC524.
+
+
+* Byte Information Exchange (BIX)
+
+An EFF forum is available on BIX.  The online EFF area is located at topic 
+"eff" in the "security" conference, and BIX can be reached via telnet to
+x25.bix.com or bix.com. Like our area on GEnie, the BIX forum is a
+volunteer activist effort - please participate, and help make this a great
+virtual community of activism and discussion!
+
+
+* Other Services, BBSs and Networks
+
+From time to time, EFF-oriented resources may appear on other systems; for
+instance, Illuminati Online's Metaverse service will feature an EFF
+"virtual office", while FidoNet locally gates both comp.org.eff.talk and
+comp.org.eff.news in several areas.  If you have difficulty finding online 
+material from the listed sources, try shopping around and you may find 
+what you are looking for.  All EFF materials are redistributable, and can 
+be found on many BBS systems around the globe.  System operators 
+interested in carrying our material should contact ask@eff.org, Stanton 
+McCandlish at 1:109/1108 (FidoNet), or call 202-861-7700 and ask for Stanton.
+
+
+Membership in the Electronic Frontier Foundation: Why You Should Join EFF
+-------------------------------------------------------------------------
+
+Every day decisions are being made that will affect your life online -
+decisions about what sorts of technology you can use to protect the 
+privacy of your communications; decisions about what services you will 
+be able to get over the emerging national information infrastructure;
+*decisions that are made before you even know that there are choices.*
+
+The Electronic Frontier Foundation has been working since July 1990 to
+ensure that the civil liberties guaranteed in the Constitution and the 
+Bill of Rights are applied to new communications technologies.  Our 
+members join EFF to make sure that they are informed about the issues 
+and debates that will shape the future of electronic communications.  
+EFF members enjoy the following benefits:
+
+*  subscription to our frequent electronic newsletter and action 
+   bulletin, _EFFector_Online_;
+
+*  online bulletins that will keep you informed about the key legal,
+   legislative and social developments affecting your online 
+   communications;
+
+*  an online response mechanism to make themselves heard on key issues.
+
+*  EFF's legal hotline, which, in the event that your civil liberties are
+   violated, can help you find legal information and assistance.
+
+EFF is a respected voice for the rights of users of online 
+technologies.  We feel that the best way to protect your online liberties
+is to be fully informed and to make your opinions heard.  EFF members 
+are informed, and are making a difference.  Join EFF today!
+
+More information about the details of the form and commonly asked questions
+follow the form itself.
+
+
+* MEMBERSHIP FORM
+
+Print out in monospaced (non-proportional) font and mail or fax to:
+Membership Coordinator (membership@eff.org)
+Electronic Frontier Foundation
+P.O. Box 170190 
+San Francisco CA 94117 USA.   
++1 415 668 7171 (voice) 
++1 415 668 7007 (fax). 
+Or upload to our Internet ftp site: ftp.eff.org, /incoming
+(when uploading, please name the file uniquely, e.g. jane_smith.form.)
+
+Feel free to delete portions of the form you won't use before printing to 
+reduce form length, and add more address lines if needed.
+
+
+------- MEMBERSHIP FORM -------- cut here ---------------
+
+I wish to join the Electronic Frontier Foundation at the following 
+annual tax-deductible membership rate:
+___ Fellow $500   ___ Benefactor $250  ___ Pioneer $100
+___ Advocate $65  ___ Supporter $40    ___ Student/Low-income $20
+___ SysOp/Recruiter - $10  (see sysop sub-form below). 
+I am ___ a new member  ___ renewing: member number___________
+I wish to make an additional tax-deductible donation in the 
+ amount of $__________ to further support the activities of EFF. 
+I would like ___ EFF t-shirts at $10 each. (XL only)
+ ___ I'm renewing at a higher rate and would like a free shirt.
+
+PAYMENT METHOD:
+___ Check or money order payable to Electronic Frontier Foundation.  
+ ___ MC  ___ Visa  ___ AmEx     Card Number: ______________________
+ Expiration Date: ____________  Signature: ________________________
+
+Name: _________________________ Organization: _____________________
+Address: __________________________________________________________
+         __________________________________________________________
+E-mail address: ___________________________________________________
+
+___  EFF may distribute my name & contact info, only to organ-
+     izations sharing similar goals. (See privacy policy below.)
+___ I am interested in local "Electronic Frontier" activism.
+___ I am interested in volunteering/interning with EFF.
+
+I got this form from ______________________________________________
+
+-- end of form ------------- cut here ---------------
+
+Please tell us where you found this form, so we see how far it goes. 
+SysOp/Recruiter members should place their name, system/service name,
+and member number in the "I got this form from" line when distributing 
+the form via their systems, publications, etc. This is how the 
+fulfillment of the recruitment requirements is tracked.
+
+The Electronic Frontier Foundation is a U.S. nonprofit, 501(c)(3) 
+organization supported by contributions from individual members,
+corporations and private foundations. Memberships and donations are 
+tax-deductible. Merchandise (e.g. t-shirt) orders are not tax-deductible. 
+EFF's tax exemption number is 04-3091431.
+
+EFF is a nonpartisan equal opportunity membership organization. Membership 
+will never be denied to anyone because of race, color, religion, national
+origin, political affiliation, etc. (In fact, EFF has never denied membership
+to anyone for any reason.)
+
+* PRIVACY POLICY:
+  EFF occasionally shares our mailing list with other 
+  organizations promoting similar goals. However, we respect an 
+  individual's right to privacy and will not distribute your 
+  info without your explicit permission.  Under no circum-
+  stances will your information be sold, rented or given to 
+  advertising companies, nor revealed to government agencies.
+
+NOTES about local activism and volunteers: EFF will begin compiling a 
+(private) list of people interested in local "Electronic Frontier" 
+organizing and activism, to better help local groups get started.  
+Initially we'll just collect names and email addresses, and later put 
+people in the same area in touch with eachother when there are enough 
+people to get the ball rolling.  EFF also from time to time seeks 
+volunteers and interns, on both a local in-person basis, and a virtual
+over-the-Net basis.  If you are an attorney interested in doing local pro
+bono legal work in support of civil liberties online, please contact
+EFF staff counsel Shari Steele (ssteele@eff.org), who maintains a (private) 
+list of attorneys to refer people to.
+
+NOTES about credit cards:  EFF does NOT recommend sending credit card
+info via email, unless it is encrypted.  See our PGP encryption key, below.
+When submitting credit card info via email, please PGP-sign your membership
+form in lieu of a regular signature.  RIPEM, RSA, or other cryptographic 
+signatures are also acceptable, but PGP is preferred.  If you do not 
+have access to PGP, aren't inclined to encrypt your form, etc., please 
+fax your membership form or send it via postal mail.
+
+NOTES regarding Student membership: This works on the honor system -
+we do not request copies of school paperwork or the like.  This membership
+price range is also open to those under the poverty line.
+
+NOTES about EFF t-shirts: This is the classic EFF shirt, printed front 
+(EFF logo) and back (large artwork) in two colors on white cotton 
+shirts.  Available for $10 to new and non-members; members who renew
+at a higher rate above Supporter membership (e.g. "upgrade" from 
+Supporter to Advocate, or from Student to Pioneer) receive a free shirt if 
+requested!
+
+NOTES regarding SysOp/Recruiter membership: System Operator & 
+Recruiter members are required to bring in 10 or more new members to 
+renew at the "SysOp/Recruiter" membership rate (otherwise "Supporter" 
+rates apply). Send queries to membership@eff.org for more info.  NOTE: 
+CIS, AOL, etc. forum sysops and co-sysops ARE eligible for SysOp 
+membership, as are system administrators at Internet access providers, 
+and the moderators of echomail conferences, mailing lists, and Usenet 
+newsgroups. Print publishers, librarians, and any others who wish to 
+recruit are also eligible for this membership category.
+* IMPORTANT: SysOp/Recruiter members should include the mini-form below
+with their membership applications.
+
+Recruitment is usually fulfilled by distributing EFF membership forms
+via the SysOp/Recruiter member's system (or forum, or publication, or 
+place of business, as applicable.)
+
+Business persons who are not interested in active recruitment but are 
+interested in supporting the Foundation with monetary or in-kind 
+donations should contact EFF directly (membership@eff.org via email).  
+EFF has a program whereby, for your special donations, you may be listed 
+as a supporting online business (or library, or individual, etc.) on our 
+World Wide Web site, with a link to your own site.  This is great 
+recognition for you, and your donations help us protect your civil 
+liberties in new media!  For more information, contact membership@eff.org.
+
+
+Frequently asked question:  "How come I don't get monthly full-color 
+glossy newsletters, and mouse-pads and posters and widgets when I join?"
+EFF devotes all funding to our work (and overhead, of course).  We do
+not feel it is right to spend your donations on gimmicks.  From time to
+time, we do produce bumperstickers and such as part of our educational
+mission, and if and when a company donates some useful product or service
+for EFF members (e.g. t-shirts, discount coupons, etc.), we will be happy to 
+include such things as part of the membership benefits, provided they 
+are appropriate, and do not add appreciably to overhead.  At EFF your 
+money goes to WORK, not to waste.
+
+Frequently asked question: "How come, as an EFF member, I don't vote on
+what EFF is doing, who the board members are, etc.?"  EFF was incorporated
+as a different sort of non-profit. The organization is not a populist
+group such as a trade association.  We have a set and certain mission, and
+EFF members are those who support our mission and want to see it succeed.
+Your membership dues are actually a donation in support of the 
+organization's goals, not a payment for representation of changing
+agendas.  EFF cares very much what our members think and feel, and
+we always welcome your feedback, positive or negative.  EFF also supports
+the creation of independent local "Electronic Frontier" organizations,
+in lieu of rigidly-controlled chapters.  If you are interested in starting
+such an organization, please contact EFF online activist Stanton McCandlish
+(mech@eff.org).
+
+
+**** SYSOP MEMBERSHIP SECTION ***********************************
+*                                                               *
+* Please include this section with your membership application, *
+* if joining as a SysOp/Recruiter member.  Delete parts that    *
+* don't apply, if you wish.                                     *
+*                                                               *
+* Data Ph.:  _________________  Speed/Protocol: _______________ *
+* (duplicate above line for multiple nodes if you wish.)        *
+* Other access means: _________________________________________ *
+* (e.g. for Internet service, AOL forum, etc.)                  *
+* BBS Info:  BBS/Service/Name: ________________________________ *
+*            SysOp(s)/Proprietor(s)____________________________ *
+*            Network Address(es): _____________________________ *
+* BBS Notes (OS, modem types/speeds, Internet connectivity,     *
+*  access requirements, hours, fees, software, focus or special *
+*  interests, unique features, etc.  Or, publication/business/  *
+*  library info):                                               *
+*  ____________________________________________________________ *
+* (duplicate above line to add more info as needed).            *
+*                                                               *
+* ____ Include my BBS/service in the EFF Member Service List.   *
+*                                                               *
+*****************************************************************
+
+
+EFF PGP PUBLIC KEY FOR ENCRYPTION
+=================================
+
+This is the ASCII-armored PGP 2.62us public key for the Electronic 
+Frontier Foundation (EFF).  It is compatible with PGP vers. 2.2 - 2.7.
+PGP is an ecryption (data security encoding) program, available for
+DOS, OS/2, Unix, Macintosh and several other platforms. PGP is the
+de facto Internet standard for encryption, and is available from many
+BBSs, FTP sites, and other online services.  (If you have trouble 
+locating PGP, see ftp.eff.org, /pub/Net_info/Tools/Crypto/README.Dist).
+
+Note that mail sent with this key will be considered addressed to 
+EFF in general, not to a specific person, unless otherwise noted in 
+plaintext. To send encrypted personal mail to someone at EFF, for 
+whatever reason, please use that person's own key, or arrange some 
+other method of communication.
+
+This key is provided principally for the sending of sensitive legal
+information, and the transmission of credit card numbers over the 
+Net securely when becoming a member of EFF.  It takes us time and 
+effort to decrypt, so please don't use this key trivially.  If
+sending something other than a membership form, please begin your 
+"Subject:" line with "URGENT -" (unless it's non-urgent of course).
+Thank you. Please expect a delay, as the message will have to be
+transferred to another system for decryption (we do not keep PGP 
+or our secret keys on our Internet systems for security reasons.)
+
+
+To add this key to your PGP key ring, save the key as a text file
+called pgpkey.eff, then use the following DOS or Unix commandline
+(several RISK architectures may also use this commandline), 
+in your PGP directory:
+
+pgp -ka pgpkey.eff pubring.pgp
+
+If your public key ring has another name, use that instead of 
+"pubring.pgp".  You may need to specify a full path to PGP, or 
+otherwise modify the above command. If you have trouble, please 
+refer to the PGP documentation and/or ask your local system 
+administrators for help.
+
+For MacPGP, pick "Add Key" from the "Key" menu, select 
+pgpkey.eff as the file to get the key from, and pubring.pgp (or 
+whatever your public keyring is named) as the file to add the 
+key to.
+
+To encrypt a message, please see the PGP documentation, and 
+remember that you will almost certainly need to generate the 
+result as an ASCII-armored file, so you can email it 
+(non-ASCII-armored PGP ciphertexts are binary, and will get 
+mangled if you try to email them.)
+
+*** NOTE!  PLEASE INCLUDE YOUR EMAIL ADDRESS *INSIDE* THE 
+    ENCRYPTED MESSAGE any time you send us crypto-mail. Please 
+    also include it in plain text just before the beginning of
+    the encrypted text. Otherwise, we may not be able to reply,
+    if the original email headers are lost and/or we encounter 
+    difficulties decrypting your message.
+
+The key itself:
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: 2.6
+
+mQCPAy7QlNwAAAEEAKMNCpEGP2868gPmT+5ILWveARJEFRQius+CP8hHG331YAyw
+beLmllnFUNLEKBKSlX9gyNL7/KKZXCaK1hbfaB7jC0f6KyK68dOeMR1jkpw73NqC
+i6/U9RqMBDGzzMz5dnDoqz9s5f33xrYZC+qwTKmGyh0mcFaCzJ21/+6ZWS/tABEB
+AAG0LEVsZWN0cm9uaWMgRnJvbnRpZXIgRm91bmRhdGlvbiA8ZWZmQGVmZi5vcmc+
+iQCVAwUQLtCVljZAgYw09MRxAQHRLwP8CrE03giPMN0JVMR7aRxmn/XF9sQp9GtJ
+mOZFxyvZnkyvW1hM2oMxRVmShWlewg0uphUsB2ayiACYgUhIK36mr7bDpSTqGR7r
+J+VT+tVz802Q4GgdXUaVKnFb4bbZ9+xREXblDv5GgAjtqq9cdxxan+KeoqIEQlw9
+iIKOzYGfAF+JAJMDBRAu0JVmnbX/7plZL+0BAQzQA/DyX64lOrLNvn0xDSFfMGVg
+EueZjn1pGm0CBUGctzAHjRlrAeUUReh0JJTOaVcm6lnPZHgmZjFzzmeQbfpHd+6k
+OkV2Yx1fouDJR8ewOMVE+VauC9Xe1YA4/VkAxVjRmlNUs+nyDNaqVwhdkOgalQGO
+57UtUMy9mrFLNJW/eLW0JUVGRiA8ZWZmQHdlbGwuY29tLCBlZmZAd2VsbC5zZi5j
+YS51cz60HkVGRiA8NzY3MTEuMzE3QGNvbXB1c2VydmUuY29tPrQYRUZGIDwxOjEw
+OS8xMTA4QEZpZG9OZXQ+tBlFRkYgPDE5OjEyMDIvMTAxQFdpc2hOZXQ+tBlFRkYg
+PDM2OToxMDExLzJASW5kcmFOZXQ+tBhFRkYgPDE4MToxOTMvMUBTdG9ybU5ldD60
+IERpc2NhcmQgb2xkZXIga2V5IC0gaXQncyByZXZva2Vk
+=2A8+
+-----END PGP PUBLIC KEY BLOCK-----
+
+[Final note: beware line wrapping - key will not work if mangled!]
+

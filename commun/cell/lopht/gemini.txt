@@ -1,0 +1,178 @@
+GE/Ericsson Mini Convertible and versamobile packages.
+
+ info provided by Magic Thighs
+
+ 
+
+CPU: M50747-000P 8K * 8 ROM   256 * 8 RAM
+
+ 
+
+Memory: 32K * 8 CMOS EPROM
+
+2K * 8 CMOS RAM battery backed up, NAM included
+
+SNM (Serial Number Memory) 64 * 1 CMOS EPROM'
+
+ 
+
+TEST MODE:
+
+1. Power on with [FCN/0]
+
+2. Depress [CL] continuously
+
+3. Enter 1414213 within 10 sec after power on, then release [CL]
+
+4. 'INUSE' goes on. Now ready to accept the following commands,
+
+   followed by [SEND].
+
+ 01 tx on
+
+ 02 tx off
+
+ 03 rx unmute
+
+ 04 rx mute
+
+ 05 tx unmute
+
+ 06 tx mute
+
+ 07 st on
+
+ 08 st off
+
+ 09 high tone on
+
+ 10 high tone off
+
+ 11 low tone on
+
+ 12 low tone off
+
+ 13 vehicular charger conversation mode on
+
+ 14 "" off
+
+ 16 compander on
+
+ 17 compander off
+
+ 2n connect DTMF to the modular (DTMF digit =n)
+
+ 30 Disconnect DTMF
+
+ 8n SAT on (n=SAT)
+
+ 90 to 97 attenuator control, when the portable user together with booster,
+
+   act as power control
+
+ 
+
+ nnn then [END] set channel
+
+ [RCL] rotate synth 001-333-666-001 ch etc.
+
+ [MUTE] indicate current RSSI level.
+
+ 
+
+when connected to the test adaprtor and field tester, auto test is available
+
+ by means of serial interface. the test command reperatory is written in
+
+the AMPS specification 5.3.5. in addition, the following are new commands:
+
+ 44 compander on (60,0,0)
+
+ 45 compander off (21,0,0)
+
+the test adapter can convert serial data from the station into parallel 8-bit
+
+AMPS bus data and parallel 8-bit AMPS bus data from the Field tester into
+
+serial data.
+
+ 
+
+ 
+
+ 
+
+Self check error codes: each time the fone is turned on, it performs a self-
+
+check and returns an error code if a problem.
+
+ Err 1 program memory checksum incorrect
+
+ Err 2 SNM checksum is incorrect
+
+ Err 3 NAM checksum is incorrect
+
+ Err 4 synthesizer did not achieve lock
+
+ Err 5 RF power status did did not indicate an on condition.
+
+ 
+
+ 
+
+NAM programming procudure:
+
+ 
+
+1. press [END/FCN] and [0] keys for 1 second or more to turn on radio.
+
+2. within 10 seconds, press and hold [CL] key while entering 7591122
+
+3. release [CL]
+
+4. change any information neccessary with the keypad, press [SEND] to
+
+ move from setting to setting.
+
+ feature     values
+
+  ------     ------
+
+ 
+
+   MIN        10d
+
+   unlock      000-999
+
+   sid        00000-32767
+
+   LU          0-1                local use
+
+   MIN MARK    0-1                
+
+   IPCH        001-666
+
+   ACCOLC      00-15
+
+   PS          0-1                 preferred system 1=a 0=b
+
+   GIM         00-15
+
+   EE          0-1                 1=end to end signaling
+
+   BOOSTER     0-1
+
+   AR          0-1                  1=autonomous registration
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+

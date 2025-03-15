@@ -1,0 +1,305 @@
+<HTML>
+
+<HEAD>
+
+<TITLE>Hacking Netware - Misc Info</TITLE>
+
+<META NAME="AUTHOR" CONTENT="Al Payne">
+</HEAD>
+
+<BODY>
+
+<H4>Section 04 - Miscellaneous Info on Netware</H4>
+
+<P>
+<A HREF="#section_04_1">04-1. Why can't I get through the 3.x server to another network via TCP/IP?</A>
+
+<P>
+<A HREF="#section_04_2">04-2. How can I boot my server without running STARTUP.NCF/AUTOEXEC.NCF?</A>
+
+<P>
+<A HREF="#section_04_3">04-3. How can I login without running the System Login Script?</A>
+
+<P>
+<A HREF="#section_04_4">04-4. How do I remotely reboot a Netware 3.x file server?</A>
+
+<P>
+<A HREF="#section_04_5">04-5. How can I abend a Netware server? And why?</A>
+
+<P>
+<A HREF="#section_04_6">04-6. What is interesting about Netware 4.x's licensing?</A>
+
+<P>
+<A HREF="#section_04_7">04-7. What is Newtare NFS aind is it secure?</A>
+
+<P>
+<A HREF="#section_04_8">04-8. Can sniffing packets help me break in?</A>
+
+<P>
+<A HREF="#section_04_9">04-9. What else can sniffing get me?</A>
+
+<P>
+<A HREF="#section_04_10">04-10. How can I check for weak passwords?</A>
+<HR>
+
+<P>
+Section 04
+<H1>Miscellaneous Info on Netware</H1>
+
+<H3><A NAME="section_04_1"></A>04-1. Why can't I get through the
+3.x server to another network via TCP/IP?</H3>
+
+<P>
+Loading the TCPIP.NLM in a server with two cards does not mean
+that packets will be forwarded from one card to another. For packet
+forwarding to work, the AUTOEXEC.NCF file should have the line:
+<P>
+<KBD>load tcpip forward=yes </KBD>
+<P>
+For packets to go through the server, you must set up a &quot;gateway=aa.bb.cc.dd&quot;
+option on the workstation. This leaves routing up to the server.
+If you are writing hack tools, keep this in mind if they use IP.
+Some older routers may not recognize the Netware server as a router,
+so you may not have many options if your target is on the other
+side of one of these routers. Newer routers are Netware aware
+and will &quot;find&quot; your server as a router through RIP.
+<P>
+Netware 3.11 IP will only forward between two different subnets.
+Proxy Arp is currently not supported in Netware IP. Example:
+<P>
+123.45.6 &amp; 123.45.7 with a mask of ff.ff.ff.00 will forward
+packets
+<P>
+123.45.6 &amp; 231.45.7 with a mask of ff.ff.ff.00 will not
+<P>
+This way you do not waste precious time trying to cross an uncrossable
+river. Some admins use this to limit the flow of IP traffic.
+<H3><A NAME="section_04_2"></A>04-2. How can I boot my server
+without running STARTUP.NCF/AUTOEXEC.NCF?</H3>
+
+<P>
+For Netware 3.xx, use these command-line options:
+<P>
+<KBD>SERVER -NS</KBD> to skip STARTUP.NCF, and
+<P>
+<KBD>SERVER -NA</KBD> to skip AUTOEXEC.NCF
+<P>
+NetWare 2.x does not HAVE the files STARTUP.NCF and AUTOEXEC.NCF.
+Instead they hard-code all the information into NET$OS.EXE, so
+you will have to rebuild it to change anything.
+<H3><A NAME="section_04_3"></A>04-3. How can I login without running
+the System Login Script?</H3>
+
+<P>
+Often an admin will try and prevent a user from getting to DOS
+or breaking out of the System Login Script to &quot;control&quot;
+the user. Here's to way to prevent that -
+<UL>
+<LI>Use ATTACH instead of LOGIN to connect to a server. ATTACH
+will not run the login script, whereas LOGIN will. ATTACH.EXE
+will either have to be copied to a local HD or put in SYS:LOGIN.
+<LI>Use the /s &lt;fname&gt; option for LOGIN. Using <KBD>LOGIN
+/S NUL &lt;login&gt;</KBD> will cause LOGIN to load the DOS device
+NUL which will always seem like an empty file.
+</UL>
+
+<H3><A NAME="section_04_4"></A>04-4. How do I remotely reboot
+a Netware 3.x file server?</H3>
+
+<P>
+If you have access to a server via RCONSOLE it may come in handy
+after loading or unloading an NLM to reboot a server. Build an
+NCF file by doing the following steps -
+<OL>
+<LI>Create a file called DOWNBOY.NCF on your local drive. It should
+be a text file and contain the following lines:
+</OL>
+
+<PRE>
+<KBD>         REMOVE DOS
+         DOWN
+         EXIT</KBD>
+</PRE>
+
+<OL>
+<LI>Copy up the file to the SYS:SYSTEM directory using RCONSOLE.
+<LI>At the System Console prompt, type <TT>DOWNBOY</TT> and enter.
+</OL>
+
+<P>
+What happens is this - the REMOVE DOS statement frees up the DOS
+section in server RAM, the server is downed (if there are open
+files, you will be given one of those &quot;are you sure&quot;
+messages, answer Y for yes), and the EXIT command tries to return
+the server console to DOS. But since you removed DOS from RAM,
+the server is warm booted.
+<H3><A NAME="section_04_5"></A>04-5. How can I abend a Netware
+server? And why?</H3>
+
+<P>
+I'll answer the second question first. You may be testing your
+server as an administrator and wish to see how you are recovering
+from crashes. Or you may be a hacker and wish to cover your tracks
+VERY DRAMATICALLY. After all, if you are editing log files and
+they are going to look funny when you are done, a good crash might
+explain why things look so odd in the logs.
+<P>
+These are per itsme:
+<OL>
+<LI>Netware 4.1 : type 512 chars on the console + NENTER -&gt;
+abend
+<LI>Netware 3.11 : NCP request 0x17-subfn 0xeb with a connection
+number higher than the maximum allowed will crash the server (yes
+you will need the APIs)
+</OL>
+
+<H3><A NAME="section_04_6"></A>04-6. What is interesting about
+Netware 4.x's licensing?</H3>
+
+<P>
+It is possible to load multiple licenses and combine their total
+number of users. For example, if you are in one of those Novell
+CNE classes where they give you a 2 user 4.1 license, you can
+get everyone's CD in class and combine them on one server. If
+you get 10 CDs you have a 20 user license. I know of no limit
+to the maximum number of licenses and user limit, except for hardware
+limitations supporting it. This means you could load more than
+one copy of 1000 user Netware 4.1 on a server (assuming you have
+unique copies, not the same copy twice).
+<P>
+itsme has done some poking around with his tools, and has the
+following to say regarding the SERVER.EXE that comes with Netware
+4:
+<P>
+what's inside server.exe:
+<P>
+0001d7c7 server.nlm type=07
+<P>
+000d319d &quot;Link&quot; 000d504a
+<P>
+000d31a5 unicode.nlm type=00 (ordinary NLM)
+<P>
+000d504a &quot;Link&quot; 000d6e9c
+<P>
+000d5052 dsloader.nlm type=00 (ordinary NLM)
+<P>
+000d6e9c &quot;Link&quot; 000db808
+<P>
+000d6ea4 timesync.nlm type=00 (ordinary NLM)
+<P>
+000db808 polimgr.nlm type=0c ('hidden' NLM)
+<P>
+By editing the binary of server, and changing the type of polimgr.nlm
+from 0c to 00 (offset 007a or 000db882 in server.exe) it becomes
+unhidden. Hidden NLM's are protected from debugging with the netware
+debugger.
+<P>
+polimgr.nlm manages the license files, after it reads the file,
+it checks with somekind of signature function whether it is a
+valid file the function doing the checking can be made to always
+return OK, then you can create an any number of users license.
+
+<H3><A NAME="section_04_7"></A>04-7. What is Netware NFS and is it secure?</H3>
+
+NFS (Networked File System) is used primarily in Unix to remotely mount a
+different file system. Its primary purpose in Netware is to allow the
+server to mount a Unix file system as a Netware volume, allowing Netware
+users access to Unix data without running IP or logging into the server,
+and Unix users to mount a Netware volume as a remote file system. If the 
+rights are set up incorrectly you can gain access to a server. <P>
+
+While the product works as described, it is a little hard to administer,
+as user accounts on both sides must be in sync (name and password) and it
+can be a fairly manual process to ensure that they are.<P>
+
+A reported problem with Netware NFS is that after unloading and reloading 
+using the .NCF files, a system mount from the Unix side includes SYS:ETC
+read only access. If this directory can be looked at from the Unix side 
+after a mount, .NCF and .CFG files could be viewed and their information
+exploited. For example, SYS:ETC is a possible location of LDREMOTE.NCF,
+which could include the RCONSOLE password.<P>
+
+Netware NFS' existence on a server says you have some Unix boxes around
+somewhere, which may be of interest as another potential system to gain
+access to.<P>
+
+<H3><A NAME="section_04_8"></A>04-8. Can sniffing packets help me break in?</H3>
+
+Yes. If a user is logging in and the password is being transmitted to the 
+server unencrypted, it will show up as plain text in the trace. If the site 
+uses telnet and ftp, capturing those password will come in handy. Outside of 
+gaining access to another system, many users will make their passwords the 
+same across all systems.<P>
+
+For a list of DOS-based sniffers, see the alt.2600/#hack FAQ. I personally
+prefer the Network General Sniffer ;-)<P>
+
+RCONSOLE.EXE is the client-launched application that provides a remote
+server console to a Novell Netware file server. The connection between client
+and server allows administrators to manage servers as if they were at the
+physical server console from their desks, and allow virtually any action
+that would be performed at the server console to be performed remotely,
+including execution of console commands, uploading of files to the server,
+and the unloading and loading of Netware Loadable Modules (NLMs). It is not
+only an effective tool for administrators, it is a prime target for hackers.<P>
+
+A critical point of access to many servers is the actual physical console.
+This is one of the main reasons why physical security of the server is so
+important and stressed by security conscious administrators. On many systems
+you have a level of access with little to no security. Netware is no 
+exception.<P>
+
+The main reason to hack RCONSOLE is to gain access to the Netware server
+console. No, you aren't physically there, but the OS doesn't know any 
+different. And the main reason to gain access to the Netware server console
+is to utilize a tool to gain Supervisor access to the Netware server.<P>
+
+During the RCONSOLE process, the password does come across the wire encrypted.
+If you look at the conversation you will see packets containing the 
+RCONSOLE.EXE being opened, the possible servers to be accessed, etc. This 
+conversation is nothing but NCP packets.<P>
+
+Once RCONSOLE is up on the workstation, the user chooses the server, hits 
+enter, and is prompted for a password. After entering the password, the 
+conversation contains two 60 byte IPX/SPX packets going back and forth 
+followed by 4 NCP packets, 64 bytes, 60 bytes, 64 bytes, and 310 bytes in 
+length respectively. The next IPX/SPX packet, 186 bytes in length, contains 
+the password. It is located at offset 3Ah, which is easy to find. Offset 38h
+is always FE and offset 39h is always FF.<P>
+
+Now comes the use of a tool called RCON.EXE from itsme that can take some of
+the information you have collected and turn it into the password. What you
+need are the first 8 hex bytes starting at offset 3Ah, the network address,
+and the node address. Now the network and node address are in the header of
+the packet that contains the encrypted password, but can also get these by
+typing USERLIST /A which returns this info (and more) for each person
+logged in.<P>
+
+Now why just the first 8 hex bytes? That's all Novell uses. Great
+encryption scheme, huh?<P>
+
+<H3><A NAME="section_04_9"></A>04-9. What else can sniffing get me?</H3>
+
+Jeff Carr has pointed out that RCONSOLE sends screens in plaintext across
+the network for all to see (well, all with sniffers). This means you can
+see what is being typed in and what is happening on the screen. While it is 
+not the prettiest stuff to look at, occassional gems are available. Jeff's
+best gem? The RCONSOLE password. The server had been brought up without
+REMOTE and RSPX being loaded, they were loaded by hand at the console after
+the server was brought up. The first RCONSOLE session brought up the screen
+with the lines LOAD REMOTE and LOAD RSPX PASSWORD (with PASSWORD being the
+RCONSOLE password), and this was being sent to the RCONSOLE user's
+workstation in plaintext.<P>
+
+<H3><A NAME="section_04_10"></A>04-10. How can I check for weak passwords?</H3>
+
+There is a commercial product called SmartPass, which runs as an NLM. Once
+installed, you can load this and analyze existing passwords for weaknesses.
+A limited-time free demo can be obtained from the following address:<P>
+
+<CENTER>http://www.egsoftware.com/</CENTER>
+<HR>
+
+</BODY>
+
+</HTML>

@@ -1,0 +1,5 @@
+If you ever want money, just do this:
+make sure debug is in your path, and type DEBUG YOURCITY.CTY and -E D24 and
+75 and -E D25 and FF and W and Q
+All the ands mean to press enter. This will give you *LOTS* of money! It should
+be enough ( 2,000,000,000) to buy around 200,000 airports. That usually suffices

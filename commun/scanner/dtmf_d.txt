@@ -1,0 +1,138 @@
+DTMF decoder DEMO version
+Shima-nized Advanced Utilities - J.M. Shima
+===========================================
+
+
+INTRODUCTION
+------------
+
+* This program is capable of decoding DTMF tones from a given input file
+  that has been sampled at a 8kHz sampling rate.
+* The source file has to be binary or a Soundblaster 8-bit .VOC file.
+
+* This program accepts COMMAND-LINE ARGUMENTS that are passed to the
+  DTMF decoder.
+* For a list of the arguments, type DTMF_D at the DOS prompt.
+* The DEMO only decodes a maximum of 5 numbers.  Interested
+  persons can receive the full-blown version with no limitations.
+* An example of the input arguments are:
+
+
+Usage:  DTMF_D <in_file> <thresh> <sblast>
+
+<in_file> --> input sound file name.
+
+<thresh> -->  The threshold that the DTMF tones must exceed over the
+              noise floor for detection (in dB).  Typically, strong
+              DTMF tones will be 20-40 dB stronger than the noise
+              in the signal.  However, noisy signals lower this
+              signal-to-noise (S/N) ratio.  The threshold parameter
+              allows the user to set the S/N threshold for detection.
+              NOTE:  If nothing is entered, then the default thresh value
+              is 20dB.
+
+<sblast> --> Set to this to a 1 for a Sounblaster .VOC file, else set
+             it to 0.  NOTE: If nothing is entered, the default is 1, i.e.
+             a .VOC file is selected.
+
+
+IMPORTANT NOTES BEFORE USE
+--------------------------
+
+** For the DEMO program, your input .VOC or binary file * MUST BE SAMPLED *
+   at a 8kHz rate (no exceptions) for correct results.
+   The industry standard for DTMF sampling is 8kHz, and this demo program
+   uses that sample rate in its calculations!!
+
+
+EXAMPLES of running DTMF_D:
+---------------------------
+
+DTMF_D dtmf800.voc 25 1   --> input file is dtmf800.voc, threshold S/N
+                              ratio is 25dB, soundblaster .VOC file type is
+                              selected.
+
+DTMF_D dtmf800.voc        --> input file is dtmf800.voc, threshold DEFAULTS
+                              to 20dB S/N ratio, soundblaster file type
+                              is selected by DEFAULT.
+
+DTMF_D junk.dat 20 0      --> input file is junk.dat, thresh=20dB, binary
+                              file type is selected.
+
+
+INCLUDED FILES:
+---------------
+
+DTMF_D.EXE   -->  DTMF demo decoder.
+DTMF800.VOC  -->  DTMF number 1-800-555-1212 stored in a .VOC file.
+DTMF_D.DOC   -->  This file.
+
+
+REGISTRATION
+------------
+
+The enhanced version of this program allows unlimited decoding of numbers,
+and will offer other features.
+I am in the works of adding options such as:
+
+1) logging the decoded numbers to a file.
+
+2) allowing a list of files to be inputted, so uninterrupted decoding and
+   logging happens without user intervention.
+
+** REGISTERED users will also receive a DTMF generator program.  This is
+   a DTMF tone generator which allows you to create any DTMF sequence
+   you wish.  The program allows you to specify a DTMF number sequence,
+   the sampling rate, and how long you want the pulses to be (in samples).
+
+
+LICENSE
+-------
+
+The DEMO version of the DTMF decoder is shareware, and is free to be
+used for personal use only.  This is true as long as the DEMO is
+not alterted in any fashion.  Registered users will receive the enhanced
+version of the DTMF decoder and will receive documentation stating such.
+
+I have thoroughly tested this code and am not responsible for any mishaps
+that may happen when launched on your computer.  The code was tested on
+a IBM compatible 25MHz 386DX with a Soundblaster Ver. 1.5, 8-bit sound card.
+Every action has been taken to ensure an error-free program.
+
+Use this program at your own risk, as I assume no responsibility in your
+actions while you are using this program.  Invoking the program is your
+compliance to this statement.
+
+
+Good luck!
+
+For more information,  email: shima@eel.ufl.edu
+
+For registration, see the DEMO screen.  Specify floppy size.
+
+
+Algorithm background:
+=====================
+
+DTMF_D performs a Fast-Fourier Transform (FFT) on the incoming data stream
+acquired from the input sound file.
+The FFT transforms time-domain data into frequency-domain data.
+Before the FFTs are performed, the input data is also windowed with a Hamming
+window in order to reduce side-lobe leakage in the frequency domain.
+
+A nonparametric spectral estimation method known as the Welch
+method (50% overlap) is performed via the FFT and the DTMF frequencies
+are monitored for activity.  The analysis is computationally expensive
+because overlapping FFTs must be performed to reduce spectral variance
+and perform a smoothing operation through spectral averaging.  Also, the
+noise floor is recalculated with every FFT and the threshold is adaptively
+calculated in order to reduce false detection of DTMF tones.
+
+Since DTMF tones are at least 50-65ms long, and can be as long as 255ms, the
+FFT must have enough spectral resolution to decipher the DTMF frequencies.
+Thus, with the standard 8kHz sample rate used in industry, a
+256-pt. FFT gives spectral resolution of 8kHz / 256 = 31.25 Hz.  This is
+enough resolution to resolve all DTMF frequencies since the closest freqs.
+are around 100 Hz apart.
+
+

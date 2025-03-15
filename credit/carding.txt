@@ -1,0 +1,1218 @@
+Carding
+
+
+ANNOUNCEMENTS:
+
+  MY BOARD IS -FINALLY- BACK UP!  SO CALL!!  SHADOWS OF IGA  707-528-7238!
+New name and number, but still awesome quality!  Now I have a 150 Megs Hard-
+Drive, and a USRobotics 19.2k modem, so ALL baud rates are now accepted!!  I
+still am only Hack/Phreak/Anarchy, so all those megs are for text files only!
+The board is not in any group as of yet... and no definant plans are in the
+works... One guy called up my answering machine and said "Gee, looks like you
+can do some good ASCII art, it's too bad you can't format the files...", well,
+since he was so kind as to not mention who he was or what type of computer he
+was using I must assume one of three things, that either: he is running on a
+C64 and in 40 (yes, these are formatted in 80), his file reader does not accept
+line feeds, or he forgot to say [L]inefeeds when he logged onto the board.
+
+
+INTRODUCTION:
+
+  There are many aspects to carding, only a few of which will be discussed
+in this file.  There might be some more files on this subject by me if there's
+positive feedback about it.  Most of these are found out by experience, but
+some stuff I've just heard about, but never tried.  Enough with this, on with
+the file...
+
+
+THE BASICS:
+
+  Make sure you PLAN AHEAD!  If you are familiar with everything, you won't
+run AS MUCH of a risk.  Find a good drop house (discussed later in file) and
+get a good card!  The best companies to order things from are the ones in the
+back of computer magazines, or almost any small business, because they don't
+have the knowhow/ability/equiptment to usually realize what's happening.  As
+in the case of the Sharper Image Co., their computer system is down alot of
+the time, and their employes will tell you with a little proding.  If that is
+the case, ABUSE THEM!  They only check to see if there is enough credit on the
+card.  One thing to remember, NEVER HANG UP ONE QUESTION!  Just say something
+like, I'm not sure, it's my wife's credit card or try to wing it.  But hanging
+up is instant death to the card.
+
+
+PLACES TO AVOID:
+
+  Computer companies are the hardest to card from, because of one reason...
+Johnny Rodent (you know, the guy with the Vic-20 and 50 Baud modem) gets a
+card and decides he want to get something, and what is that something you ask?
+Well, computer equiptment of course!  So the companies have protected them-
+selves.
+  Martial Arts/Weopontry places are also hard to card from... I've gotten hell
+from some of those places trying to get stuff!
+  Electronics places always tend to be hard to card from, for the same reason
+as the computer companies.  They've been burnt too much.
+
+
+BYPASSING TRICKY QUESTIONS:
+
+  One of the more tricky questions you might get from a pushy operator is a
+request for a drivers license.  Now that's just great if you stole some guys
+wallet, but most of the time you just get the number, not even the actual
+card.  My favorite answer is to say I was arrested for drunk driving and my
+license was revoked, they almost always by that.  Sometimes they also want a
+work phone number, the best thing to say is that you are either unemployed, or
+work at home.  And a good voice phone number is one like for a law offices
+facsimilie Machine, and tell'em you use your Fax every once in a while.  If
+you've attempted to card something from a company, had it go bad, and then
+tried again, only to find out that they saved the address and won't ship it, a
+good method around that is to give ANYONE's address (even your schools) and
+then call UPS and tell them to forward all packages for John Doe to your drop
+house.  If the UPS guy requires a signature, then just leave a note on the door
+saying something like you work a swing shift and can't always be home, but you
+take full responsibility and for them just to leave it in the back.
+
+
+FINDING THE PERFECT HOUSE:
+
+  The prime house is one which is vacant.  A good way to find one is to either
+drive around looking for one, call up reality offices and ask for one, or go
+to condo's and find one that doesn't look lived in.  Once you have located a
+suitable spot, watch it and the neighborhood for about 1 week or more, watch
+the traffic most of all and the activity of the residents.  Now the hard parts
+done!
+
+
+PICKING UP THE ITEMS:
+
+  Do not let the packages stay at the house more than 2 days!  If the UPS guy
+comes back with more, he will notice something is wrong and take ALL the
+packages.  The bast way to get it is to go around during the day for about an
+hour and watch the activity, if everything looks fine then wait til dusk and
+go pick it up.  If something is wrong, like people are watching you REALLY
+closely, and no kids are playing in the area, then don't ever go back to the
+house.  Better safe then sorry!
+
+
+CHECKING CARDS:
+
+  All credit card verification numbers deduct the money from the credit.  Then
+they wait for a letter from the merchant to say what they bought.  When that
+letter doesn't arrive, they assume one of two things, either the store messed
+up, or the merchant ID has been hacked.  But they only think the previous if
+there are ALOT of cancelations like that.  Here are some valid verification
+numbers, but no codes, so hackaway...
+
+                  VISA/MASTERCARD   -  1800-554-1111
+                   BANK NUMBER      -  xxxx
+                   MERCHANT ID      -  xxxxxxxxxxx
+                  VISA/MASTERCARD   -  1800-554-2265
+                   CARD TYPE        -  10/MC  20/VISA
+                   BANK ID          -  xxxx
+                            Here's one 1067
+                   MERCHANT ID      -  xx
+                                       52
+                  AMERICAN EXPRESS  -  1800-528-2121
+                   MERCHANT ID      -  xxxxxxxxxx
+                  DISCOVER CARD     -  1800-233-5656
+                   MERCHANT ID      -  xxxxxxxxxxxxxxx
+
+
+THE CREDIT CARD:
+
+  Of all the cards, Discover is the big loser, and if you get a company that
+accepts it, then USE IT!  It will almost always work!  VISA's are my personal
+favorites, although MC's are a fairly close second.  Credit Cards from Over-
+seas are also REAL good and you will get everything you order with those.  The
+best country for cards is Australia by far... Alot of carders there.  Here is
+the basic setup of most of the cards...
+
+                  NAME      LENGTH                   EX. DATE
+                  VISA      4xxx xxxx xxxx xxxx      xx/xx
+                         or 4xxx xxx xxx xxx         xx/xx
+                  MC        5xxx xxxx xxxx xxxx      xx/xx
+                  AMEX      3xxxx xxxx xxxxxx        xx/xx
+                  DISCOVER  6xxx xxxx xxxx xxxx      xx/xx
+
+  Most of the time the Experation date is pretty worthless and is only used to
+make sure you don't use the card past the date they set.  You can get away with
+saying anything, but it's always better to try to get the correct one.  Names
+are also as if'y as experation dates... It's always best to use the real name.
+
+
+FUCK-A-CARD:
+
+  If you just want to fuck up a card, and it's a Discover, call up the Discover
+Card validation number and ask for a "Code-10" authorization (wow, just like
+James Bond!).  Then just tell'em something like you are suspicious that it's
+a stolen card.
+
+--------------------
+
+
+AMERICAN EXPRESS NOTES:
+~~~~~~~~~~~~~~~~~~~~~~~
+CARDS THAT START WITH:     ARE VALID ONLY IN:
+------------------------------------------------------------------------------
+3764-2 and 3764-3          Brazil
+3707                   Mexico
+3770-00 thru 09            Venezuela and the Netherland Antilles
+3770-20 thru 24            Venezuela and the Netherland Antilles
+Cards starting with:
+        3770-10 thru 3770-19 and 3770-25 are from Venezuela but can be used
+        anywhere in the world.
+
+
+DISCOVER CARD NOTES:
+~~~~~~~~~~~~~~~~~~~~
+Authorization Telephone Number: 1800-233-5656
+                1. Card Number
+                2. Merchant Number
+                3. Amount of Purchase
+                4. Experation Date
+Discover Merchant Service Dept: 1800-322-4566
+
+
+A DIFFERENT APPROACH:
+~~~~~~~~~~~~~~~~~~~~~
+    I'm sure at least once in life you've been watching one of those stupid
+Television Shopping clubs and have seen something that you would like.  Well,
+with this company:
+                        1800-284-3100
+  You can sit and hack out peoples Membership Number, much like you hack out
+voice system codes.  In my next carding file, I'll include a new number
+game concerning this company.  The accounts are 9 digits long, and seem to
+all be around or under 180000000.  The company keeps the persons name,
+address, phone number, cc, etc all in their records, but the operators are
+somewhat stupid and can most of the time be easily bullshitted into telling
+you all the info you need to know.  One stupidshit actually told me all of
+the persons card numbers!
+
+
+WHATS THE BEST:
+~~~~~~~~~~~~~~~
+  Shit, I couldn't begin to count the amount of times I've been asked "Which
+card is best to use?".  As far as I'm concerned, it's basicly personal
+preference, although some cards have distinct advantages over others.  Visas
+and MC's are accepted by vertually EVERYONE, and are pretty easy to come by.
+Discover cards, on the other hand, and hard for the companies to check,
+therefor good for you.  AmEx has the wonderful floating limit, so if you
+John B. Spenders card, you can have hella fun.  I use Visas most of the time,
+and then MC, Discover, and A
+card you know the most about will always be the best to use.
+
+
+MORE VERIFICATION NUMBERS:
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+  As if there isn't already enough verification numbers floating around in the
+Hack/Phreak community, here are a few more... Remember, these DO deduct the
+amount of money off of the card, and you should enter at lease $25 for a Visa
+(which is the average floor limit) or $50 for any of the others.  A smaller
+amount will only draw more attention to your use of their account and either
+help in busting you, killing your cards, or killing your account.
+                VISA/MC         1800-544-1111
+                Merch#  : xxxx
+                                MerchID : xxxxxxxxxx
+                AmEx            1800-528-2121
+                                MerchID : xxxxxxxxx
+                Discover        1800-525-9040
+                                MerchID : xxxxxxxxxx
+                Choice          1800-638-1592
+                                MerchID : xxxxxxxxxxxx
+
+
+STICKY SITUATIONS:
+~~~~~~~~~~~~~~~~~~
+  You may have been foiled once or twice by a company that checks the number
+by calling 555-1212 and seeing if it's registered to the cardholders name,
+well, the only way around this is to give them a unlisted number, or, by
+using CBI and a handy-dandy phone book, pull up a persons CC.  This is only
+in the case that they check the registration, and not that they call up the
+place to check.  If you really want to ensure everything goes ok, you can
+autodial the person for 4 or 5 days, until the company ships the package off,
+thus ensureing that the company doesn't get through, and if they do, chances
+are the people won't answer!
+  If the company wants to call you back, keep a list of nearby payphone
+numbers that they can call that you can wait at, usually you can ask a
+company that if they are going to call you back, could they please call you
+back right now, because otherwise it's hard for them to get in touch with
+you.
+  Another option available to the callback problem (when there is no l
+available, or they don't say when they're gonna call back) is to have a number
+call forward to your house.  Or to be even more safe, have a number call
+forward to a number that call forwards to your house.  Or if you are using
+a loop, and the person lives in your areacode/city, have THEIR number forward
+to the loop, and call UPS and have them forward the packages from THEIR house
+to your drophouse!!!  This is an Exceptionally good method.  The amount of
+rerouting really makes it a hastle for the feds/cops to track you down.  One
+note on UPS forwarding, they will forward only 1 shipment, so if you are
+shipping hella stuff to the house, make sure to space them about 1 week and
+everytime you pick up a package, call UPS and forward again.
+  If you're into weapons (like me) and want some good places to get them from,
+check out the file "Where to get Weopons", written by me, and available on
+Ripco and my board for sure.  One interesting twist it to call up the police
+station, get an officers name & badge number (they are required to give them
+to anyone who asks) and then use the phonebook and CBI to pull up their stats.
+Once you get them, you can buy all that cool equiptment that says "Sold only
+to Law Enforcement Personell."  Also, alot of the Rifles available can be
+bought with credit cards with little or no effort on your part.  They don't
+check your background record (such as criminal) very ofte
+about that.  If you decide to go for a Rifle, I would highly recommend the
+AR-7 Survival Rifle (around $100), AK-47 Assualt Rifle (around $400), and
+the Awesome USAS-12 Auto-Shotgun (around $800)!!!  Here's just a few of the
+stats on the USAS (taken from Special Weapons and Tactics):
+                            U.S.A.S.-12
+               Universal Sporting Automatic Shotgun
+        o Gas Operated             o Available Semi or Full Auto
+        o Pistol Grip              o Rapid Firing-360 rounds per minute
+        o Cylinder Bore Choke      o Quick Reload option
+        o Reduced Felt Recoil      o Multi-Projectile Capability
+        o Select fire Option       o Single Round Lethality
+          Gauge- 12                  Finish- Parkerized
+          Barrel- 18 1/4"            Choke- Cylinder Bore
+          Length- 38"                Shell Size- 2 3/4"
+          Weight- 12 Pound           Magazine Cap- 10 round Box
+                                     20 round Drum
+
+  The gun vaguely resembles a M16-2a, but is about 1 1/2 the size.  It got
+great reviews from the Magazine, and I've shot it a few times and loved it.
+It's currently being used by law enforcement in L.A. and Miami.
+  Also another good item to get is from Radio Shack (yes, they can make a
+few good things other than 'cheap' parts), and is the 20 Channel Programmable
+Scanner.  Usually they will print out an updated list of all of the freq. in
+your area (including local cops, security companies, etc...).
+
+
+CBI & AFFILIATES:
+~~~~~~~~~~~~~~~~~
+  CBI is vaguely like TRW, with the same type of credit services, except some
+companies have CBI cut off the last 2 to 4 digits of the card (2 AmEx, 4 Visa
+and MC), but not ALL companies by far.  Bank of America, and Citibank both
+are missing the last few digits, and a few others do the same, but for the most
+part, all the number is there, and the last 2 or 4 usually can be gained by
+calling the person up and acting
+4 digits of their card.  Now to use CBI, you must have the following info:
+
+    NAME        ADDRESS      MIDDLE INITIAL (if any)
+        CITY            STATE            ZIP CODE
+
+Which is entered in this format:
+
+nm-LAST NAME,FIRST NAME,MIDDLE INITIAL.              [RETURN]
+ca-STREET NUMBER,1ST 3 LETTERS OF STREET NAME,###,CITY,ST,ZIP.   [CTRL] S
+                                              /
+                                Boulevard     BLD
+                                Street        ST
+                                Avenue        AV
+                                Lane          LN
+                                Court         CT
+                                Circle        CIR
+                                Park Way      PY
+Here's an Example: 
+
+ PERSONS STATS          ENTER LIKE THIS TO CBI
+
+Ronald McReagan         nm-mcreagan,ronald.             [RETURN]
+123 Whitehouse Circle   ca-123,whi,cir,washington dc,va,12110.  [CTRL] S
+Washington DC, VA
+12110
+
+Now, if you have his social security number, then enter:
+
+dtec-SOCIAL SECURITY NUMBER.  [CTRL] S
+
+And you will get the persons Name, Address, and Age (even in the correct format
+to be reentered).  If you make a mistake at any time while you're typing, just
+continue on like nothing was entered wrong and then once it says nonexistant 
+person, reenter it.  Now every time you connect to CBI and logon, it will reply
+XXXX-proceed, if the XXXX is D2D2, then don't call back that day, but it's fine
+to call back the next day.  Try to limit each call to about 5-10 minutes, and
+call during business hours of the port you're on, this will ensure the long
+life of the account and your prosperity!  The codes are in this format:
+                           ###XX###-XX,visa,X,,#.
+,.visa- are all constants, the # represent numbers, and the X represents a
+letter.  When connecting to CBI, connect at 1200 and at 1/2 duplex, once
+connected, hit [CTRL] S and [RETURN] three times, then enter the code, and
+hit [CTRL] S when done.  CBI recognises ONLY lowercase letters, so no
+capitals!
+
+
+PEOPLE VIA CBI:
+~~~~~~~~~~~~~~~
+  It is also very easy to find new cards, etc by using the DTEC feature of
+CBI and just typing in Social Security Numbers.  After about 10 or so attempts
+you usually will find 1 or 2 people, not bad considering you have ALL the
+persons stats!
+
+
+AN INTERESTING NOTE:
+~~~~~~~~~~~~~~~~~~~~
+  One interesting note relating to CBI, ask some of your friends
+for their Social Security number.  Tell them that you will do a magic trick
+with it or something stupid like that.  Then, pull up their CBI records, and
+Wala!  You now have a fake Identity, Name, Age, Birthdate, etc...  I always
+keep 10-12 on hand in case of an emergency!
+  Also, CBI does not always give you the persons age, most of the time it
+doesn't!  And if you search out cards by using DTEC and guessing the number,
+it's also possible to get 2 to 3 people all on the same Social Security #!
+ES is also a Variable that is only listed when CBI feels it would be relavent
+to a person being denied/given credit.
+
+
+DTEC RESPONSE:
+~~~~~~~~~~~~~
+  Here is what you would see if you entered DTEC xxx-xx-xxxx:
+
+M1 OF 1  NM-REAGAN,RONALD,S  CA-1234,WASHINGTON,CIR,WASHINGTON DC,VA,12110
+     1/89,FA-1234,101,HY,SMITHVILLE,CA,95668,10/82  ES-PRESIDENT,USA
+     SS-xxx-xx-xxxx  AGE 81&
+END OF REPORT    CBI AND AFFILIATES  -  01/01/89
+
+  Ok, FA means the First Address, and CA means Current Address.  ES means
+what his/her occupation is, SS is his Social Security number, and the date that
+follows the addresses refers to the last date he was reported at that location.
+One note on the ES response; it is not always on the record, so don't assume
+that the person is unemployed.
+
+
+NM AND CA RESPONSE:
+~~~~~~~~~~~~~~~~~~~
+*  009 CBI CRC #### LLLLLLLL AVE STE 120 CCCCCCCCCC VA 12110(xxx)xxx-xxxx
+*REAGAN,RONALD,S   SINCE 1/07/89  FAD 09/29/88          FN-xxx
+ 1234,WASHINGTON,CIR,WASHINGTON DC,VA,12110, DAT RPTD 1/89
+ 1234,101,HY,SMITHVILLE,CA,95668,DAT RPTD 10/82
+ AGE-81,SSS-xxx-xx-xxxx
+01 ES-PRESIDENT,USA,VA,EMP 07/80,VER 01/89
+*SUM-08/88-10/88,PR/OI-NO,FB-NO, ACCTS:2,HC$0, 2-T
+*INQS-CITICORPMD xxxxxxxxx  09/29/88     MERVYNS    xxxxxxxx   10/07/87
+*   FIRM/ID CODE       RPTD  OPND  H/C TRM  BAL P/D CS MR ECOA  ACCOUNT NUMBER
+SEARS     xxxxxxxx    10/88 08/88    0        0     R1 02 I  xxxx-xxxxxxxxxxxxx
+CITICORPMCxxxxxxxx    10/88 08/88  12k        0     R7 06 I    xxxxxxxxxxxxxxxx
+&
+END OF REPORT    CBI AND AFFILIATES  -  01/01/89
+
+  In the above, most are the same as the DTEC, except, PR/OI means Prior
+Convictions, EMP means the length he has been employed, ACCTS meand the number
+of accounts (like if he had a Visa, MC, and Sears, he would have 3 ACCTS).
+INQS stands for Inquires, and is followed by the name, ID code, and date the
+file was researched.  At the top, the line I slaughtered is the Address of his
+local CBI building, followed by their phone number (call to get an INTERESTING
+recording).  RPTD stands for Last Reported User, and OPND is when the account
+was opened.  H/C somethimes stands for the highest amount that can be charged,
+and the BAL stands for the current Balance.  The 12k is $12,000 limit, and the
+CITICORPMC just means CitiCorp Bank and MasterCard (wow, so hard to figue out).
+ECON refers to who can use the card, I for Individual, J for Joint (Which
+usually means the person is married), and A for Authorized.  As for the rest,
+you're on your own.  One thing to also keep in mind, just because it's says
+CitibankVS, doesn't mean it's a Citibank Visa Card, it could also be a Card
+that Citibank has put a waver on.
+
+
+SUPPLY & DEMAND, THE MONEY METHOD
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Although I personally have never played too much with this, I have known
+quite a few Phreaks whom this has paid off for.  This method involves you
+calling up something, like Western Union, and telling them you're the card-
+holder.  Then, ship money off to another identity you have, to another
+Western Union office.  They do require identification, but I researched and
+found out two interesting facts:
+                o A college Picture-ID will suffice (which can easily be
+                  gained during an enrollment rush).
+                o You can also send money and tell them to ask you a certain
+                  question that only you would know (such as the card holders
+                  mothers maiden name (one of their favorites)) and then they
+                  don't require any ID.
+  About as much as you can get safely in one shot is $500, but thing if you
+live in a big city, you might have 4 or 5 Western Union locations, which
+means $500 from each location, for a total of $2000-2500.  The amount will
+rise supprisingly fast.  Try this no more then 2 weeks straight and then don't
+touch it for about 3 or 4 months (the longer the better).
+
+
+DEAD MAN'S DROP:
+~~~~~~~~~~~~~~~~
+  Now this method is about as good as it gets, and if you can't card and get
+something via this method, then give up, because you suck.  First, flip open
+the local newspaper, and go straight to the obituaries (and you thought the
+title of this section was just a play on words!).  Then via 555-1212 find out
+his phone number and address (or at least the number and then use a CN/A).
+Then connect with CBI and pull up his records.  Now it takes Visa
+The power and gas company, about 1 month to shut down all of his services, so
+for that month you can card stuff using his card to his address and then pick
+it up from there.  Keep in mind that he might have a wife, and a good indicator
+is a Joint account.
+
+
+MC BANK IDENTIFIERS:
+~~~~~~~~~~~~~~~~~~~~
+  On Mastercards, I'm sure you've all been asked for the four digit number
+that appears on the top above the card number on the real card, and did the
+worst thing possible, brain lock-hang up.  Here are a few of the more common
+identifiers that are around.  One note: Identifiers almost always start with
+either a 1 or a 6.  And if you find any more, leave them to me in mail on any
+System I call regularly.
+
+            CARD   BANK
+                        -----+----------------------------
+                        1263 - Chemical Bank
+                        1033 - Manufactures Hannover Trust
+                        1035 - Citibank
+                        6017 - MBNA
+                        1665 - Chase Manhattan
+
+
+DEATH VIA SELF-INCRIMINATION:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  One of the FBI, etc... Favorite ways of nailing your ass to the wall in self
+incrimination.  And we as Phreaks are almost always able to be drawn into
+their trap.  Thing I am always very careful of are people who you mention
+something to and they know what something is in conjuction with, but not how
+to aquire or use it.  Also, I personally NEVER -sell- information!!  By selling
+it, you have just shoved a Dilldo with FBI written on it up your ass.  They
+love to thrash people who sell.  Trading... Thats a different story.  Always
+be careful of someone who says they have Mob affiliation, for one simple
+reason, Feds have somehow gotten it into their minds that phreaking and every-
+thing that falls under that broad title is somehow affiliated wit
+So when they say "Ya, I've got a great deal going on with the Mafia here in
+Alabama", be wary.  I also do not often associate with the Mob/Mafia.  Don't
+fuck with them, and they won't fuck with you.
+  One GPhile I HIGHLY recommend is written I believe by someone involved in
+Phrack and concerns interrogation.  It is on Ripco and is a Must for anyone
+who is involved in illegal actions.
+  Never narc on a fellow phreak!  No one hates a Narc more then the Phreak
+community, and believe me, they have been known to fuck people up majorly due
+to a speach impedament.  When the cops say they'll give you a lighter sentence
+or tell you if you confess, you'll walk, Tell them to fuck off.  Cops don't
+have the athority to do anything like that.  And very rarely will then even
+look twice if you name names.
+  Freelance Narcs are fairly common, and they are the perverbial 'Mercenary'
+of the hack/phreak world.  They are just every day people who sell info to
+big businesses that are getting harrassed.  And believe me, they can say/do
+anything they want to get your info.  These dudes are a Phreaks Nightmare.
+  If by some strange/demented/suicidal flaw in your character you decide to
+start selling info, always be careful of how you get the money.  I've known
+of quite a few people who recieved more than money at Western Union offices.
+
+
+THE PHONE RUN-AROUND:
+~~~~~~~~~~~~~~~~~~~~~
+  One method with very good results from US Robotics is this one.  What you
+do is get a card with a totally off-the-wall bank on 
+any area code (although it is best if it's in your area).  Then call up the
+company and order something, now, if they ask for the banks number, you are
+in business.  Tell them the hi end of the loop and have a friend on the low
+end who will say "John Doe Bank, may I help you?", make sure your friend has
+all of the cards info so he can answer questions correctly.  Then most of
+the time, the company will ship the shit off, thinking everythings cool!
+
+
+TRADING THE BAD FOR THE GOOD:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  One extreamly nasty thing to do, is to card something someone you know has,
+and then ask them to bring theirs over.  When they leave the room, swap the
+carded on with the legitimate one and wala, if you get busted, the serial
+numbers on it and the carded item won't match and you can make up any old
+story about how you aquired it.
+
+
+RESOURCE MATERIAL:
+~~~~~~~~~~~~~~~~~~
+  Here's a few good books to pick up at your local library, if someone hasn't
+already 5-fingured 'em.
+
+1. You Can find Anyone                            -  Eugene Ferraro
+2. Finder's Fee                                   -  Ralph D. Thomas
+3. How to find Missing Persons                    -  Ronald George Eriksen II
+4. The Computer and the Law                       -  Unknown
+5. The Laws and Legislation of Credit Card Fraud  -  Unknown (same as above)
+6. Privacy Laws in the Computer Age               -  Unknown (same as above)
+
+  Books 4-5 are VERY good resource material for the laws of the US, and laws
+that apply to only your state.  Books 1-3 give you a good working idea of how
+to re-find a persons credit stat
+
+
+NUMBERS GAME:
+~~~~~~~~~~~~~
+  Want to play a game?  Try this, I'll list a bunch of number, and you try to
+find the pattern to the numbers, it may take a while, and a few steps, but
+bare with it, the reward could be limitless!
+
+            SERIES 1 (EASY)                     SERIES 2 (HARD)
+            6011000000001184                    372816039941009
+                        1275                          084284008
+                    00020283                          108942003
+                        0507                          150981008
+                        0804                          158941004
+                        1059                          158941012
+                        1083                          181941005
+                        1489                          196982002
+                        2040                          223281014
+                        3063                          235913000
+                        4392                          269941000
+                        4772                          275901006
+                        5175                          290981009
+                        8062                          291281003
+                        8138                          379365009
+                    00030126                          403301004
+                        1942                          412271008
+                        2288                          424361003
+                        2577                          429171019
+                        3583                          436061005
+                        4078                          439311001
+                        4185                          442081005
+                        5695                          443951008
+                    00501654                          446361007
+                        3551                          455311000
+                        5937                          458723003
+                        6331                          469071004
+                        6398                          472131001
+                        6893                          477963002
+                    00510234                          486771032
+                        0457                          499171006
+                        0655                          504161000
+                        1075                          512841007
+                    01001548                          512842005
+                    01500127                          517731005
+                        0275                          531391000
+                        2008                          535711005
+                        3857                          536741001
+                        3956                          544911000
+                        7320                          546742007
+                        7403                          554301001
+                        9474                          565761003
+                    02501371                          569301004
+                        4771                          575911002
+                        5091                          584941008
+                        5265                          587261008
+                        6156                          595951004
+                        6735                          598162013
+                        7428                          600591001
+                        7493                          602071002
+                        9291                          627574006
+                        9994                          628421009
+                    03501496                          629051003
+                        1645                          630381001
+                        1297                          640162003
+                        4390                          650771008
+                        6221                          652081000
+                        7286                          677971003
+                        9340                          687931005
+                        9951                          720784007
+                    04001602                          730441002
+
+Now some clues to this game are obvious, like in the second row, the third
+to the last zero is always 0, and in the first row, in the 9th-12th digit
+part, if it's the start of a thousand, it is either a X002 or 3, and it
+always jumps in intervals of 50's, except for X050, which sometime will be
+followed by a 1 (ex: X051).
+
+
+GIMMIE A B FOR BANK:
+~~~~~~~~~~~~~~~~~~~~
+  Here's a list of Issueing banks via the first 4 digits on Visas and MC's.
+Visas are on the Left, Mastercards on the Right.
+
+           VISA                       MASTERCARD
+           CARD   BANK                CARD   BANK
+           -----+--------------------------+---------------------
+           4024 - Bank of America     5282 - Wells Fargo
+           4128 - Citicorp            5424 - Citibank
+           4302 - HHBC                5432 - Bank of New York
+           4310 - Imperial Savings    5410 - Wells Fargo
+           4317 - California Federal
+
+
+THE SCANNER METHOD:
+~~~~~~~~~~~~~~~~~~~
+  I have found it very prosperous to go to Radio Shack and purchase a Scanner.
+If you ask, they will usually supply you with a list of all the frequencies
+used by cops, rent-a-cops, airports, fire depts, etc... Now, go to the High-
+way partrols frequency and listen for when they call in a persons drivers
+license, license plate, and name.  Write these down and then flip over to the
+outgoing channel, and listen.  Copy down his name, address, etc.. and then
+pull him up via CBI.  Wala!  You know have his Drivers license as well!
+
+
+STOP-N-SHOP METHOD:
+~~~~~~~~~~~~~~~~~~~
+  One method that still amazes me to see work is the Stop-N-Shop method.  I
+origionally concieved this about 6 months ago, and have been able to do it to
+the same stores, over and over again.  What you do is get some local loser
+(He's got the dangerous part) and you go wait at some payphone.  Then he goes
+to somewhere like the Good Guys, or Curcuit City, or whatever and looks
+around until he finds something like a portable CD player or Pocket TV, and
+the he asks to call home (the payphone).  You answer and pretend to be his
+dad, and ask if you can just give your card number over the phone so your son
+can get it right now.  Most of the time they will allow you to do this, but
+if they don't, you've commited no crime, and they have no proof it was you
+at the payphone (therefor, saf
+the loser something like "We'll pick up 6 things for me first, and then 3
+things for you after that."  If he doesn't agree, tell him you will go else-
+where for help and he will most likely comply... And anyways, losers grow on
+trees (or near Commie game sections of Computer stores).  This method rates
+a 8 on danger scale (for loser, 2 for you), and a 9 on the profit scale (It's
+called 'Instant Gratification').
+
+--------------------
+
+INTRODUCTION
+
+  As we evolved as a society, we expanded out horizons and types of payments.
+From a simple barter system, to one based on precious metals and gems, to one
+based on currency, and finally to one of credit.  A rather strange evolution,
+trading something of true value for something of appied value, but a good
+system just the same.  Now lets talk a little more about the evolution of this
+wonderful thing called credit.  Way back in the middle ages stores offered
+credit to the duke and monarchy of the area.  Even further back than that in
+ancient Greece there is actually some type of references towards credit...
+Kinda wild if you think about it.  But then, America and it's eternal
+businessmen took this one step futher, and thus Visa and Mastercard were born.
+Not born of nessecity, moreover lack of it, it was born of desire.  Soon more
+thought to capitalize on the success of the larger, and Discover, American
+Express, Diners Club, Carte Blanch, etc... were created.  So where is all this
+leading?  Who knows, but hopefully by understanding just a little about how it
+came about, we can guess as to where it will go.  Now one more time I'm back,
+bringing to you what I feel is a new approach to and question as old as the
+hills, but in most cases much more valuable: How can a make this work for ME?
+  As one great author said, In order to win at a game you must know the rules,
+but knowing them doesn't mean you must play by them, but more appropriately
+manipulate them to best suit you.
+
+
+MISC INFO
+
+  Well, this will be the final chapter in the infamous Carding My Way Trilogy
+of Text files... I've really enjoyed writing these damn things, and listening
+to all the comments that people made (except the bads ones, those people can
+just burn in hell ahahaah), and I've learned quite a bit.  Although I did get
+busted, and am currently wanted in like 3 or more states by this time, that
+doesn't mean you'll get caught.  Just learn from other peoples mistakes
+(specifically mine!), and remember, the years before you're 18 can be some of
+the best and most profitable in your life.  The reason I kind of target this
+towards minors is the fact that is this wonderful counry we live in, you will
+get little more then a slap on the wrist, and maybe a stern warning, whereas
+in other countries, you could expect anything short of your hands being severed
+at the wrists.  So why not exploit this wonderful, God-given temporary immunity.
+Think of all the sorry losers who don't figure this out until they turn 20 or
+22 or some shit age.
+  As far as what computer system I recommend (although I don't realize why sooo
+many people act like this is such an -IMPORTANT- part of carding) is the IBM.
+I personally use an AWESOME notebook 386, and believe me, this little shit
+hacks better than anything else I've owned (I wonder if I could modify an
+AppleCat to work with it ... hmm ...).  The IBM is just a nice, powerful
+machine with alot of support as far as fraud goes, so now, just buy a computer
+shopper, call up some stupid-shit company and say "I'll take 10 of you're IBM
+386-20's please... Well, on second thought, make that 12."
+  One kind of interesting sidenote on this file is that I would personnally
+like to thank Greyhound, since a good 3/4 th's of this was written while in
+transit from one fraud site to the next.  You really shouldn't put down this
+type of travel, because the fact that you don't get ID'd ANYWHERE along the
+way... So if you, John P. Hreaker (of course, that's your God-given name)
+would like to travel incognito, so be it.
+  Here's a little something I would like to say about the re-insurgance on Text
+files with those 'great' disclaimers on them.. Bravo for you, you've really
+covered your ass.  Here's what I think of them, in the form of my disclaimer:
+  ALL INFORMATION CONTAINED WITHIN THIS FILE IS ONLY FOR FRAUDULENT USE.
+  ANY USE OF THIS INFORMATION IN ANY WAY THAT DOES NOT BENEFIT YOU BY THE
+  WILLFUL DESTRUCTION AND MANIPULATION OF ANOTHERS CREDIT IS STRICKLY
+  PROHIBITED.  THE AUTHOR OF THIS FILE TAKES NO RESPONSIBILITY, APPLIED OR
+  REAL, FOR ANY LEGAL USES THAT MIGHT BE SOMEHOW FOUND FROM THIS FILE.
+Wow, I guess that just about covers how I feel on that subject.  Just had to
+cover my ass, you know?!  Now here's just one more thing I have to say, about
+users and the general way in which the H/P community has gone downhill.  I
+never used to see people cut down for asking questions before.  I never saw
+files written by people who knew absolutely nothing about what they were
+writing (well, at least most weren't).  And I saw an open and free information
+swapping forum.  I think that all of us should strive to become more open and
+honest with ourselves, and others.  And only by helping others can we achieve
+a state of higher being... [boy, I sure feel wholesome]...
+
+
+TYMNET USES AND ABUSES
+
+  Tymnet is definantly a benifit to Frauders (Because that's what we are) all
+across the country.  When you don't have any codes, simply call the 800 or you
+local port, sit on QSD (208057040540) for an hour or so, and you'll find that
+you can not only get codes, but CBI's, TRW's, Dun & Bradstreets, Unix systems,
+the list goes on and on... So next time you are lacking in the code department,
+just give your friends at Tymnet a ring.  And if you don't have an account?
+Well, that's your problem, if you can't even get a lame Tymnet account, then I
+really don't think you deserve to be on the system (like it's really any big
+honor...).  A system to get on, that is definantly more H/P oriented is Lutzfer,
+but I won't list the number, if you deserve to be on it, it's not to hard to
+get.
+  There are some TRW business-pullers (just like the D&B) on Tymnet, which can
+be a useful addition to anyone who already has a full-fledged CBI or TRW.  This
+can be used to your advantage by pulling the company the person works for (so
+you know a little of the comps background for bullshitting), and then use the
+SBAR command, enter his stats as they appeared on your first pullup, and wala!
+You get a real nice, easy to understand explanation of all of his credit.  No
+numbers mind you, but that's why you do the primary pull with the other account.
+Another benifit of this is when you pull a business, most of the time it lists
+key employee's, like the chairman of the board, the board members, etc... Well,
+all of these executives are no doubt high paid, and following that logic,
+probably have VERY juicy virgin cards just waiting to be raped for all they are
+worth!  hahaa, and they said that rapeing and pillageing died with the
+barbarians. There should be a group called the FRAUD BARBARIANS...  hmmm...
+  The main thing about Tymnet is that it is almost never a primary tool, but
+moreover a secondary tool, which can lead to and strenthen your main one.
+
+
+TRANS UNION CREDIT SERVICES
+
+  I have had NO experience with these guys, although I believe as of this
+writing they are the biggest... I would be interested in finding out all I
+could about this system, and it's inherant weaknesses.  If anyone has any info
+on this system, please leave it to me in mail on any of the boards listed at
+the end of this file.
+
+
+EQUIFAX CREDIT SERVICES (FORMERLY CBI)
+
+  Ok, as of late, I've seen a lot of files about CBI that don't tell SHIT about
+it, and the people who wrote the files, are obviosly stupid as a piece of shit
+and want to SEEM cool.  Well, Although this is a Carding file, and although I
+did go into CBI in some detail in my 2nd part, I'll put all the bullshit aside
+and give you an IN-DEPTH overview, inview, sideview and all of views of CBI,
+and it's abuses.  I'm not going to mess around and explain to you how to logon
+to the system, the other files don't fuck that up (and that is a miracle!).
+Ok, first of all, lets define, I mean REALLY define the CBI account breakdown.
+
+    ###LL#####-AA,IN,T,,3.
+
+  Now THAT is the format of a worthwhile CBI account!  The first group of three
+digits (ranging from 0-9) represent the location in the US where the firm is
+located.  Like 172 is Norther California, 180 Is around the Middle, etc...  The
+LL is a set of two letters that tell you what type of a firm this account is
+for.  Here's a list of what I have for sure...
+
+        AN - Car Dealerships            BB - Bank-Related Accounts
+        CG - Clothing Stores            DC - Department Stores
+        FA - Auto Manufaturing Loans    FC - Federal Credit Unions
+        FF - Financial Services -Loans  FZ - Student Loans
+        HF - Furniture Stores           JA - Life Insurance
+        MH - Hospitals                  OC - Gas Cards/Companies
+        ON - Non-Revolving CC's         RE - Real Estate Companies
+        RA - Apartment Complex's        UE - Utilities (Like PG&E)
+        UT - Phone Services (Like MCI)  YC - Collection Agencies
+        ZB - Credit Bureaus
+
+And that is just a SMALL amount of all the 2 char ID's out there, but those are
+definant.  The last group of numbers are 2-5 in length, and represent the
+branch of the company, or the company's main identifier.  Then we get to the
+-AA, which mean Alpha-Numeric... Now it doesn't take a genius to figure out
+that it IS NOT Letter/Number, but and be EITHER letter or Number, both in the
+set.  Now also, so you don't sound like a fucking retard, this IS the password
+to the account.  Everything before this is worthless and can be gained from any
+pullup, the PW and everything after that is the important part.  Now if you
+have just the password, that's ok, but it's a shitty account.  Whenever you
+will pull up an account, it will look like this (this account buffer taken from
+a textfile on CBI that is only useful for learning how to logon, but NOTHING
+ELSE!)...
+
+*SMITH,ALAN,S   SINCE 04/00/75  FAD 10/21/89           FN-700
+ 157,MAPLE,ST,YUTZVILLE,NY,10011,TAPE RPTD 10/89
+ 68,PENN,ST,NOWHERE,IA,50055
+ SEX-M,MAR-M,DEPS- 2,AGE-38,SSS-012-34-5678
+01 ES-WALMART CORP
+02 EF-MCDONALDS RESTAURANTS
+
+*SUM-01/85-01/91,PR/OI-NO,FB-NO, ACCTS:11,HC$6-1600, 3-ONES.
+
+*INQS-450DC81 02/24/89,178BB20089 02/06/89.
+
+*   BUS/ID CODE  RPTD  OPND  H/C TRMS  BAL  P/D RT 30/60/90+MR  DLA/ACCOUNT NO
+03 S*178BB34860 11/90 05/85  500 171   521  139 R5 01 01 01 66 1234567890123456
+           PREV HI RATES:  R4 10/90, R3 09/90, R2 08/90
+   CLOSED ACCOUNT
+   AMOUNT IN H/C COLUMN IS CREDIT LIMIT
+
+Enought of this SHIT SHIT SHIT account, now lets look at what this would look
+like if it had been pulled up with a REAL account...
+
+*SMITH,ALAN,S   SINCE 04/00/75  FAD 10/21/89           FN-700
+ 157,MAPLE,ST,YUTZVILLE,NY,10011,TAPE RPTD 10/89
+ 68,PENN,ST,NOWHERE,IA,50055
+ SEX-M,MAR-M,DEPS- 2,AGE-38,SSS-012-34-5678
+01 ES-WALMART CORP
+02 EF-MCDONALDS RESTAURANTS
+
+*SUM-01/85-01/91,PR/OI-NO,FB-NO, ACCTS:11,HC$6-1600, 3-ONES.
+
+*INQS-SEACOASTEQ 181FM567   07/09/91     COMM CRED  181FF1498  05/17/90     
+      
+
+*   FIRM/ID CODE       RPTD  OPND  H/C TRM  BAL P/D CS MR ECOA  ACCOUNT NUMBER 
+SOUTHMARK *143FM28    07/91 03/87  91K 718  88K     I1 31 J          1338367880
+BOFA ALPHA*180BB26454 06/91 11/88  300 10   247     R1 22 I        302400942008
+
+  Ok, so I didn't even waste my time to make the bottom accounts the same, but
+you get the idea... About the only thing that is the same between these pullups
+is the start of it.... So the initals are useless huh?  Only for losers.  The
+rest is the same, except for the addition of ECOA, which simply shows what type
+of account it is (like on the shit-type method).  BUT.. BUT.. You see the bank
+name... Wow, kinda makes those guess-the-bank-by-the-first-4-digits pretty
+useless.  So don't cut yourself short in a trade of accounts, make sure you get
+FULL information on the account.  Some accounts have only fixed initials, but
+some have floating, so what this means is that if you have one that does not
+have the initials, there always is the chance that you can guess them.
+  Ok, IN is the area where you enter the operators initials... Usually you can
+make this up, since rarely does it check for authorized users only..., the T is
+one of the more crucial parts, it refers to the type of pull-up you want...
+
+          P - Primary    Q - Inquery    E - Employ    I - Identify
+
+        P - Shows full stats including account Numbers
+        Q - Shows a more detailed list of previous INQS (if possible)
+        E - Shows basic info for Employer verification.  Will include
+            Date of birth if 'P' does not.
+        I - Used to identify the individual.  Doesn't generate an INQS
+
+  Most of the time you will use P, but play around with the other ones to get
+an idea of what they do.  Finally there is the ,,3.  This simply tells CBI not
+to cut off any of the numbers, unless it's already been chopped by the bank
+(many banks now remove the last 4 digits from CBI accounts).  Well, hopefully
+this shed a LITTLE bit of light on the gross misrepresentation that CBI has
+gotten.
+  As far as the actual pulling up of the file, just read on of the others, even
+they don't mess that up either.  Ok, now that all of that has been basically
+cleared up, I can continue on, with a clear heart & mind....
+  One thing which was true about CBI, but is no longer true, is that there are
+alot of 300 baud ports.  In actuality, there are very few, if any (I know of
+-no- 300-only ports).  1200 baud is currently the standard, but many of the
+ports are switching over to 2400.  Moving right along...
+  Another change that will be occuring within CBI is the closeure of all of
+their regional offices.  CBI is going to consolidate to one fixed location in
+Atlanta, Georgia.  The reason they are doing this is, and I quote, "To lover
+overhead costs, and also to increase security."  So don't be too overly
+suprised if CBI seems to be learning a few new tricks.  The plan is to be
+completed within 2-3 years, with most of the outlying sites already closed.
+One nice note to this... If you live in Atlanta, look in the want adds, CBI's
+hiring Data Entry personnel... Hmmmm....
+  Here's some of the companies that I have already identified... For your
+convienience...
+
+AN - 171an700   Pittsburg Ford     171an809   Champion
+     171an866   Valsthrough        171an1294  BRWD Dodge
+     171an1336  Antioch            172an22    Biddulph Chevrolet
+     181an1102  West Coast Volvo   181an1706  CB Hyundai
+     402an1918  Bird Road Mazda    402an2791  Lexus
+     403an1248  Maroone Chevrolet  403an1289  Toyota HWD
+     444an4003  Precious Cars      728an787   Courtesy Cars
+     808an195   Florin Rd Nissan   808an334   Niello
+     826an409   Crest Pontiac      882an87    Scott Imperial
+BB - 146bb513   Mtn Sts Bankcard   146bb1156  RMBC Visa Gold
+     146bb3228  HRSI N A           146bb11944 UBARAPAHOE
+     148bb917   Bank 1 Visa        155bb3747  Dicover Card
+     162bb1353  BoA Visa           162bb5388  Wells Fargo MC
+     162bb10365 Wells Fargo Visa   162bb11630 BoA TPL (Auto Loan)
+     162bb12121 BoA MC             162bb13102 Bank of the West (Loan)
+     162bb13157 1st Interstate -CA 162bb13521 First Interstate -CA
+     162bb14058 Wells Fargo        162bb16270 BoA MC Gold
+     162bb19097 Security Pacific   163bb2848  HIBERNIA Bank
+     163bb15083 Pacific Western    163bb17492 HBNA MC
+     163bb19463 FI Advance         163bb19891 First Deposit
+     171bb1238  Citibank FSB       178bb167   Maa Company MC
+     178bb2809  Mass Co.           180bb19701 Bank of California
+     180bb23812 BoA                180bb26454 BoA Alpha Account
+     180bb26908 1st Interstate -CA 180bb27195 Security Pacific
+     402bb1208  SE Bank NA         403bb1876  Barnett Bank
+     404bb182   1st Card Visa      404bb2568  Monogram Georgia
+     405bb280   Marine MID         426bb1895  MH Visa
+     444bb3469  Chemical of NJ     605bb4043  Spring National
+     613bb1199  Integrated         674bb1065  Bank 1
+     728bb5506  Barnett Bank       728bb10304 NCNB National Bank
+     850bb1555  CFB Visa           882bb112   Barnett International
+     898bb49    1st Interstate -MT 905bb587   Chase USA
+     906bb40    CitiBank MC        906bb115   CitiBank
+     906bb289   CitiBank PRVS      906bb1659  CitiBank
+     906bb1808  CitiBank MC Gold   906bb5130  Amex Optima
+CG - 146cg11    Fashion BR         728cg54    Colony Shop
+     772cg167   Adothrdims         832cg159   Added Dimensions
+     905cg358   Lane Bryant        906cg68    Lerners
+DC - 146dc39    May D&F            161dc146   Mervyns
+     162dc392   Emporium           162dc400   Macys
+     180dc93    Bullocks           180dc127   May Company
+     180dc143   Robinson's         180dc184   Broadway
+     180dc440   Robinson's         180dc929   Bullocks
+     402dc114   J Bryon's          404dc21    Bloomingdales
+     444dc49    Macys              496dc12    Wanamakers
+     701dc529   Nordstroms         701dc750   The Bon
+     728dc31    Burdines           728dc668   Jordan Mars
+     774dc32930 Maison Blare       805dc61    Belk Center
+     808dc308   Weinstocks         906dc29    Sears
+     906dc52    Maas Brothers      906dc86    Maison Blane
+     906dc136   Wards              906dc151   Lord & Tay
+     906dc185   JC Penneys         906dc193   JC Penneys
+FA - 161fa28    Ford Motorcomp.    168fa13    Volkswagon Lease
+     180fa587   Nissan             402fa53    Ford Motorcomp.
+     402fa1069  GMAC               403fa1043  World OMNI
+     826fa162   Lincoln/Mercury    906fa26    Crysler
+     906fa34    GMAC               906fa67    Toyota MTR
+FC - 161fc1552  Tech Visa          162fc2062  Patelco CU
+     162fc2112  Safe America       162fc2401  Patelco CU Visa
+     163fc446   Tech FCU           180fc403   Whittaker CU
+     402fc69    FPL CU             634fc91    Fort Lee CU
+     753fc364   UNIWYD EFCU        906fc172   United Airlines CU
+FF - 163ff4908  Crysler 1st        163ff5905  AFS REV
+     171ff617   Crysler 1st        181ff1498  Comm Credit
+     404ff932   GECAP-LVTZ         458ff10    Whirlpool
+FZ - 162fz938   First Deposit      180fz910   Student Loan
+     491fz18008 SLMA-LSCY          608fz2147  TG Loan Services
+
+That sould give you a few to fiddle with, and one of the most important, BB is
+included... Of course!  I will be releasing shortly an file with just the CBI
+listings, the above includes, plus alot more, all the way from AA to ZZ... So
+no one get the wise idea to use these in your own (don't be a loser).  If you
+find any of these that aren't correct (although I doubt there are any mistakes)
+please leave me some mail somewhere, so I can fix it right up.  You might ask
+the reason why I chose to include these, or am planning and upcoming release
+for just these... Well, the answer is, we con't always get the complete account,
+so with these, it's the second best thing!  All those but the most obsure
+companies will be on the list, so as to make your fraudulant life much, much
+more easier...
+  Ok, as far as finding people to abuse... Well, Rich people in your area is
+one good way, akthough I personnally prefer the hit-and-miss method of just
+dtec'ing the person (explained in the social security portion of this file).
+
+
+WESTERN UNION / MONEYGRAM
+
+  Western Union and MoneyGram are both card-to-cash organizations, where with
+someones card, and properly altered billing infomation, one can receive large
+abouts of money.  There are certain limitations though, Western Union accepts
+Visa/MC, and does call back, and will blacklist the recievers name after 3 or
+4 abuses.  MoneyGram, on the other hand, is run by American Express (your
+friend and mine), and accepts card sends ONLY on the AmEx Optima card.  Just a
+little blast from the past, but I can remember when ever card was abused about
+the same... Now, It seems AmEx realized just what security means.  Anyways,
+all you have to do is find someone 50 or more miles away (or just drive that
+far away), the further the farther.  Call from your location, have them call
+back a payphone, and send the money to your friend in the other city.  You are
+given the choice of using a test question if the person doesn't have ID...
+Don't EVER use a test question on a carding, it will never go through, they do
+way to much checking on it, and you will have just wasted a card.  I know lots
+of people who recieve big money on their real ID's and have had no problems...
+Hell, I myself had,  And one note on blacklisting, they only blacklist for
+around 2 to 3 months, and it seems to be regional, so if you can drive to
+another state, you should have no problem.
+  Different days of the week change the security of the company (at least it
+does for MoneyGram, and I believe WU is the same).  Weekends the rate at which
+they REALLY check into things is $200 up, whereas on MON-THU it's more along
+the lines of $500 up.  Friday is the worst, at around $100 up.  These are not
+exact, and do fluxuate from week to week, depending on how many frauds they
+have had the past month... Easy enough, but once again AmEx shows a little
+resourcefulness.
+  Right now I would like to get a hold of the IBM program that all the check
+cashing places use.  With this we could figure out EXACTLY how there system
+works, and there is NEVER a callback with the program.  If anyone works for a
+place that uses this software, or knows someone who has morals which are
+questionable, please contact me.  I will make it very worthwhile for you to do
+so...
+  There are computer systems for both of these, but I have been into neither
+of them (although I sure as hell would like to)... I'm thinking of working for
+a check cashing place to a week or so, just long enough to get the info I need,
+then WHAM... I'll rape them to!  FRAUD BARBARIANS - HOO!  The only problem with
+me doing it is if they do any real extensive background checks they will
+realize I'm not who I say I am (it's not like I'm going to waste a real good
+identity on a shit place like that).
+
+
+SOCIAL SECURITY NUMBERS
+
+  Social Security numbers are rapidly becoming the country's uniform ID,
+now on almost any aplication you see the little space (11 spaces, to be
+exact), and almost everyone mindlessly puts this down.  Now the beauty of
+this is the fact that it makes it real easy to pick people outside your
+respective areas.  Now what is the benifit of pulling someone by their
+social, instead of their address? you ask... Well, unless you are traveling
+to new cities every week or two (like me), you are going to identify what
+city you are located in by your pullups, Sooo, by just entering semi-random
+socials, you hit ALL OVER this wonderful country of ours, and make it very
+hard for them to get a positive idea of where you are going to pull from
+next.  Included is a list of all the social security states, and the numbers
+they were on as of 1988.  Remember, the first 3 digits represent the state it
+was ISSUED in, the middle two represent the year it was ISSUED in (not to be
+confused with the persons actual age, although you usually can hit within your
+target age within a 10 yr span).  The last set of four are just random numbers,
+so just guess guess guess your little heart out.  (This wonderful little list
+is an excerpt from the book: The Outlaw Report)
+
+        FIRST GROUP RANGE   ISSUEING STATE          LAST GROUP ISSUED
+                ~~~~~~~~~~~~~~~~~       ~~~~~~~~~~~~~~                  ~~~~~~~~~~~~~~~~~
+        001-003             New Hampshire           001-68
+        004-007             Maine                   007-80
+        008-009             Vermont                 009-64
+        010-034             Massachusetts           013-64
+        035-039             Rhode Island            037-52
+        040-049             Connecticut             047-76
+        050-134             New York                129-66
+        135-158             New Jersey              157-76
+        159-211             Pennsylvania            204-62
+        212-220             Maryland                219-04
+        221-222             Delaware                221-68
+        223-231             Virginia                226-33
+        232                 North Carolina          232-27
+        232-236             West Virginia           236-25
+        237-246             North Carolina          237-45
+        247-251             South Carolina          247-59
+        252-260             Georgia                 260-47
+        261-267             Florida                 267-99
+        268-302             Ohio                    281-82
+        303-317             Indiana                 308-92
+        318-361             Illinois                342-72
+        362-386             Michigan                373-94
+        387-399             Wisconsin               394-92
+        400-407             Kentucky                405-23
+        408-415             Tennessee               411-45
+        416-424             Alabama                 423-17
+        425-428             Mississippi             425-51
+        429-432             Arkansas                429-57
+        433-439             Louisiana               438-53
+        440-448             Oklahoma                440-84
+        449-467             Texas                   467-67
+        468-477             Minnesota               477-02
+        478-485             Iowa                    479-06
+        486-500             Missouri                499-88
+        501-502             North Dakota            502-02
+        503-504             South Dakota            503-04
+        505-508             Nebraska                508-11
+        509-515             Kansas                  510-88
+        516-517             Montana                 517-04
+        518-519             Idaho                   518-11
+        520                 Wyoming                 520-04
+        521-524             Colorado                524-43
+        525                 New Mexico              525-53
+        526-527             Arizona                 527-99
+        528-529             Utah                    529-59
+        530                 Nevada                  530-08
+        531-539             Washington              535-94
+        540-544             Oregon                  542-11
+        545-573             California              561-81
+        574                 Alaska (Vietnam Vets)   574-76
+        575-576             Hawaii                  576-27
+        577-579             Dist Of Columbia        577-11
+        580                 Puerto Rico (V. Vets)   583-97
+        580                 Vigin Islands           580-19
+        581-584             Puerto Rico             583-97
+        585                 New Mexico              585-51
+        586                 Guam (Vietnam Vets)     586-78
+        586                 American Samoa          588-78
+        586                 N. Mariana Islands      586-78
+        586                 Philippines             586-78
+        587                 Mississippi             587-49
+        588                 Mississippi             NOT USED YET
+        589-595             Florida                 589-30
+        596-599             Puerto Rico             NOT USED YET
+        600-601             Arizona                 601-14
+        602-626             Califonia               STARTED IN '90
+        627-699             NOT ASSIGNED            NOT USED YET
+        700-728             RailRoad Retirement     NOT USED YET
+        729-999             NOT ASSIGNED            NOT USED YET
+
+  There you go, that should make your life just a little bit easier...  Ok,
+now for a brief description of how the middle 2 digits move.  Ok, when a
+number is first put into use, like 602 (CA) it starts on 01, then goes to
+03, 05, 07, 09, then changes to 10, and goes up all even number until 98,
+where it starts over at 02, 04, 06, 08, then 11 on up all odd.  00 is never
+used.  So if it's on like 535-94, and you want to find someone around 30
+years old, what you do is take 30, subtract around 5, multiply by 2, and
+subtract from the middle two.  Simple, huh?  hehe, here's the equation form:
+OLDMID - ( ( AGE - 5 ) x 2) = NEWMID  And I always thought algebra was stupid
+worthless boring shit... Well, I guess it still is, but at least here it's
+useful.  The reason you subtract 5 is because most people don't get social's
+until they start school, which is usually around 5 years old.
+  One negative to the abuse of SSN's is the fact of the publics growing
+awareness of just how important a Social is.  The more they know, the less
+they are willing to let us manipulate them.  The only thing that we have in
+our favor is the lame-ass government will help to downplay the situation, so
+they won't appear to be the chumps they are.  Because, my dear friends, without
+their GRAND insight, all of this would never have been possible.
+
+
+RECOMMENDED READING
+
+  Well, I have to plug some of the other files that I have written, so here's
+where I'll do that.  Also, listed are some books I would recommend to anyone
+from beginner Fraud-Loser to Supreme Fraud-GOD... Anyone can benifit from
+it... Hell, as the government so wisely has said... "READING IS FUNDIMENTAL".
+  One side note on that quote and the governments stupidity... It's target was
+Americas illiterate... Well, what I want to know is how many fucking il-
+literates know what fundimental means?  Please, all illiterates give me your
+views (think about it).
+
+TEXT FILES--
+
+CARDING, MY WAY -part 1  : Covers all the basics of Credit Card Fraud
+CARDING, MY WAY -part 2  : Covers most of the advanced tricks to carding
+                           more successfully.  Gives a working knowledge
+                           of CBI (now EquiFax) Services usage.
+BREAKING & ENTERING 1-3  : My file on Breaking into buildings... More
+                           along the criminal scene, but hell, aren't most
+                           of the people reading this wanna-be criminals
+                           anyways?  Read this file and learn from my
+                           mistakes.
+PHISICAL BOOKS--
+
+NEW ID IN AMERICA        : Not by me, and not a GPhile, but an AWESOME book
+                           sold by Palidan Press on establishing a new
+                           identity.  DEFINANTLY worth adding to any true
+                           Anarchist/Criminals collection.
+THE OUTLAW REPORTS       : By Lee Lapin, a book that is just filled with
+                           useful info on everything from IDs to AutoTheft.
+THE SPYGAME              : Formerly Ninja 1990, this is the updated sequel
+                           to How to get anything on anybody, winning thru
+                           super-technology.  It is definantly worth $30...
+
+One thing that I would ask is that if you do decide to get these book, even
+though it goes against everything I know, I ask you to please PAY for them,
+and don't give the companies that sell these any shit... Look at it this way,
+if they go under because we all card from them, then we'll be fucked because
+I doubt Waldenbooks is ever going to carry any of these!  Some other files of
+mine to look for are: Unconventional Warfare, Devices & Techniques (taken
+directly from the US Army Manuals, 6 parts totalling 200k!); Bic Balistics;
+Where to get Weopons; The Rock Box; and 800's 4 me!  Also be on the lookout
+for more files coming up, including such wonderful topics such as Auto Theft
+and Creating False Identities... Which, like all of my files, were completely
+test by me.
+
+
+CONCLUSION
+
+  I hope you found the info in this file useful.  Its all been tried and tested
+by yours truely and his helpful band of thugs.  Hopefully you won't end up
+carding yourself across America, working on changing your identity, but if you
+do, take the advice of someone who's there; When you leave your past, you have
+to leave both the good and the bad.  So if this means you don't call mommie-poo
+and daddie-poo for a couple of years, so be it.  It's the price you decided you
+were willing to pay in order to play.  And if you decide that you are sly
+enough to still keep in contact with them and be free... More power to you, and
+I'll come visit you in jail, unless I'm sharing the cell with you.  Okok,
+enough with the negative stuff.  Now it's time for me to greet the only people
+who have been there the whole time for me.  On the top of the list is The White
+Rider, who without his help, I wouldn't be typing this right now - You're the
+best dude!  Maximum Overdrive, although you really lagged on helping me, you're
+still a pretty cool guy.  The Sparrow, stop using drugs loser!  You used to be
+a killer hacker!  And here's a note for all you up and comming frauders/carders
+/criminals... Share any and all information you get... Being a jew with
+information doesn't help anyone, only the company you're abusing.  If Gord the
+Rogue is still out there, GET IN TOUCH WITH ME!  That also goes for Razor Ratte
+(Shit man, you moved from 415 never to be heard from again).  Captain Zap,
+what's up man?  Get in touch with me too!  Phelix the Hack...  You dissappeared
+like almost everone else!  Call me!  And now for some normal greetings go out
+to... Strato Viper, Traxster, LE Pirate, Grandmaster Ratte, Dr Ripco, Death
+Mage, Mr. Drunkfux, Shatter, Crypt Roamer, Quinn, Single Sideband (are you even
+still around?) and anyone else I forgot that was worth mentioning.
+  Finally, if you would like to contact me, for questions, comments about this
+file, suggestions for upcoming files, etc... feel free to leave me mail on any
+of the boards at the end of this file.  If I'm not in jail or dead I'll reply
+to you (hehe).  Anarchy today, for a better tommorow!
+
+  ===========================================================================
+  Ripco       [THEE name in H/P BBS's since the mid-80's] 3-96   312-528-5020
+  Demon Roach [PW: THRASH  A Total Classic!  cDc BoardT ] 3-24   806-794-4362
+  The Works   [Tons of Files  cDc Board  Give it a call ] 3-24   617-861-8976
+  Toxic Waltz [NUP: KILL FOR MORE BEER   Good Board!    ] 3-24   206-549-4355
+  ===========================================================================
+
+

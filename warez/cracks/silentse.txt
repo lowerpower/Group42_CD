@@ -1,0 +1,5 @@
+Crack> Silent Service ][ 
+crack written by Majik 
+ 
+Using PCshell or Norton Utilities, search the file SS2.EXE.  Look for 
+75 41 2B C0 50 50 and change 75 41 to 90 90. 

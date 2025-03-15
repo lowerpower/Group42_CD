@@ -1,0 +1,22 @@
+CRACK> FIREHAWK By Sierra/Game Arts 
+File         : game.exe 
+Search For   : 803E9B05FF7403
+Replace With : C606------EB--
+
+
+and to use your Sound Blaster with IRQ settings other than IRQ 7
+
+
+File         : sndblast.drv 
+Search For   : B007BA8F20BB561EE8CB008CCAB8151F 
+Replace with : --xx----------------------------
+
+File         : sndblast.drv
+Search For   : B007BB561EE8BF00580BC0C3B0E12E8B
+Replace with : --xx----------------------------
+
+File         : sndblast.drv 
+Search For   : 83C20EEC2EC606280007B020E6205A581FCF1E0650
+Replace With : ------------------xx----------------------
+
+For xx use your IRQ setting. i.e. xx=02,03,05,0A for IRQ 2,3,5,10 respectively.

@@ -1,0 +1,11 @@
+In EL2M12.OVL  (11834 bytes,  date 10-18-93  19:09:04)  
+
+search for:
+74 06 66 C1
+
+replace with
+EB 06 66 C1
+
+it's around offset 00C0C
+
+Peace

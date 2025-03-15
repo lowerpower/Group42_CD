@@ -1,0 +1,18 @@
+SETPWD.NLM
+
+This program is distributed under the GNU general public license,
+see LICENCE.TXT for more information.
+
+This program requires the Network C for NLMs Software Developer's Kit,
+alternatively you can just run the Netware Loadable Module.
+
+Usage:
+	Load SETPWD <username> <Password>
+	
+This sets the password of the user <username> to <Password> on a 3.1x fileserver.
+
+Paul Lees									
+P.R.Lees@ais.salford.ac.uk
+Phone: +44 61 745 5000
+University of Salford			
+

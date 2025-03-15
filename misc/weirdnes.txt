@@ -1,0 +1,3784 @@
+----------------------------
+high weirdness by email v2.1  send info and errata to: mporter@nyx.cs.du.edu
+----------------------------
+This version *supersedes* previous "editions"; they may safely be deleted
+without loss of important information.
+As always, this is coming out in a rush, so there are probably lots of holes,
+etc. Also, this is a rather long document, and unless you have some sort of
+keyword search you may have trouble finding what you're after. I am hoping to
+get a hypertext version of this woven into the WorldWideWeb some day [telnet
+info.cern.ch and look around] but dont hold your breath. In the mean time
+just delete what you dont want. IF YOU ARE GOING TO ARCHIVE THIS OR REPRODUCE
+IT, FEEL FREE TO EDIT IT FOR COMPREHENSIBILITY, RELEVANCE, ETC.
+
+At the last minute, trying to put something together for release, I have
+simply joined together some "unprocessed" files - they describe:
+i] some things from the slopoke ftp site
+ii] contents of the red.css political archive [ftp]
+iii] scott yanoff's internet resource list
+iv] an IRC FAQ
+v] some stuff 'left over' from the future-culture FAQ
+vi] cult of the dead cow newfiles
+vii] ftp.rahul.net archive contents
+viii] email addresses for sf fan groups
+In the interests of getting info out, etc, this hodgepodge is going out in a
+separate file - if anyone wants to archive it as well, & you're on a dos
+system, I suggest weird2-1.doc and weird2-1.sup as file names.
+
+if you see something in the unseen category & want to write a review, send it
+to me, say whether you want your name used, etc.
+
+A  general note: the "best" general net guides are in my opinion
+the FutureCulture FAQ (see cyberpunk section) & the Scott Yanoff guide
+(appended to this document).
+For hardcopy, try the books by Krol and LaQuey, and watch out for Howard
+Rheingold's new book on the Internet...
+
+And speaking of books... Have a look at the novella "Voices", by the
+mysterious "Scotto", available via ftp from penguin.gatech.edu,
+/pub/leri/text/stories, work. and work2..
+
+The listed topics are:
+
+OFFBEAT BUT ORDINARY RELIGIONS AND "SPIRITUALITY"
+PAGANISM AND MAGICK, OCCULTISM, SATANISM
+WEIRD RELIGIONS
+UFOS AND PARANORMAL PHENOMENA
+STRANGE INDIVIDUALS
+PHILOSOPHY, THINKING ABOUT THINKING, ETC
+SCIENCE AND TECHNOLOGY
+EXTROPIANS
+WEIRD SCIENCE AND TECHNOLOGY
+ONLINE ETEXT PROJ'S, ETC
+SOME FTP SITES
+FORUMS FOR WEIRDNESS ON INTERNET BBS'S
+INFORMATION SERVICES
+DRUGS MAN!
+HACKING INFO AND LEARNING ABOUT THE NET
+WEIRD POLITICS AND CONSPIRACY
+ZINE REVIEWS
+CYBERPUNK AND THE "NEW EDGE"
+MISCELLANEOUS ZINES
+TASTELESS AND DISGUSTING THINGS
+COPYRIGHT VIOLATIONS
+MU*S
+IRC
+ROLE-PLAYING GAMES
+CULT CLASSICS
+POPULAR (AND NOT-SO-POPULAR) MUSIC
+RAVES
+SOME "IN" PLACES ON THE NET
+
+MISCELLANEOUS, AND UNFINISHED BUSINESS
+SOME FILES RECENTLY UPLOADED TO FTP SITES
+SCOTT YANOFF'S LISTING
+
+In places I hav cannibalized both Scott Yanoff's listing of internet resources
+[reproduced in full at the end] and a list of mailing lists which appeared on
+news.lists, I think.
+
+
+*** OFFBEAT BUT ORDINARY RELIGIONS AND "SPIRITUALITY" ***
+On Usenet there is talk.religion.misc [basically = talk.religion.christian],
+and soc.religion.*, alt.atheism[.moderated], bit.listserv.christia, and also
+(I think) alt.ahmadiyya. Also talk.religion.newage, alt.religion.kibology.
+
+worldwide church of god - if youre a member- mailing list
+drew@cs.anu.edu.au
+
+bahai-faith
+    Contact: bahai-faith-request@oneworld.wa.com (Charles W. Cooper II)
+gatewayed to soc.religion.bahai on Usenet
+
+Buddha-l     lisserv@ulkyvm.bitnet              "scholarly" in orientation
+high traffic       = ulkyvm.louisville.edu
+
+Forum on Indian and Buddhist studies [listname BUDDHIST?]
+listserv@jpntuvm0.bitnet
+
+lds
+    Contact: lds-request@decwrl.dec.com    -or-    decwrl!lds-request
+    Purpose: a forum for members of The Church of Jesus Christ of
+    Latter-day Saints (mormons) to discuss church doctrine, mormon
+    culture and life in general.  Non-members are welcome to join, but
+    we're not interested in flame wars.  
+
+coombs.anu.edu.au
+/coombspapers/otherwork/electronic-buddhist-archives
+subdirectories: buddhism-gen, -tib, -viet, -zen; shamanism; taoism.
+look at /buddhism-zen/zen-email-directory.txt; email addresses of several
+dozen individuals or organizations interested in zen, all around the world.
+
+SDAnet
+    Contact: st0o+SDA@andrew.cmu.edu (Steve Timm)
+for and about Seventh-day Adventists. moderated. Anyone may post or subscribe.
+
+Secular Humanist Group
+    Contact: secular-humanist-request@sugar.neosoft.com (Jim Thompson)
+    Purpose: to provide a moderated forum for the discussion of secular
+    lifestyles and philosophies among atheists, agnostics, and secular
+    humanists.  Theists may join the list; however, proselytizing and
+    debates over God and religion will be referred to more appropriate
+    forums.
+
+jim@hsf.uab.edu - starting biblical studies over email
+mail him with Subject: BSG
+
+"The Religious Studies Publications Journal - CONTENTS is an electronic
+journal that disseminates table of contents, abstracts, reviews and
+ordering information on new and recent print and electronic publications
+of relevance to Religious Studies.
+  "Electronic subscriptions are free; to subscribe, send a mail message to
+Listserv@uottawa or listserv@acadvm1.uottawa.ca with the text:
+SUBSCRIBE CONTENTS your name."
+    Inquires regarding the CONTENTS project should be sent to the project
+director: Michael Strangelove <441495@Uottawa> or <441495@Acadvm1.Uottawa.CA>
+
+The first edition of Michael Strangelove's _The Electric
+Mystic's Guide to the Internet: A Complete Bibliography of
+Networked Electronic Documents Online Conferences, Serials,
+Software and Archives Relevant to Religious Studies_, is now
+available via FTP as a Postscript, WordPerfect and low ascii
+file (also available via Listserv).  Volume One is  64 pages
+Volumes Two and Three will be released between October and December.
+This bibliography is freely available via the international
+academic networks (BITNET/Internet) from the CONTENTS Project
+fileserver via FTP from the node panda1.uottawa.ca
+(137.122.6.16) in the directory /pub/religion/ as the files
+[in PostScript, WP5.1, "low ascii" forms"]
+It is also available as a low ascii text via the CONTENTS
+Project Listserv fileserver as MYSTICS V1-TXT from
+Listserv@uottawa or Listserv@acadvm1.uottawa.ca
+
+Right_Use_of_Will@kether.webo.dg.com, will@kether.webo.dg.com
+books of Ceanne DeRohan, dictated by god - help save the universe
+low traffic list
+
+URANTIAL  listserv%UAFSYSB.bitnet@cunyvm.cuny.edu - sub urantial your_name
+the urantia book - available at better occult bookstores everywhere
+- logfiles available for subscribers:
+> ... for bitnet account persons, the following works:
+>       tell listserv at uafsysb get urantial log9xxx
+> filling in the x's of course with the year and month of your choice;
+> archive logs are monthly.  Perhaps someone more familiar with the
+> internet can specify retrieval from that network.  I think the
+> protocol is to send mail to    listserv@uafsysb.uark.edu
+>       with the simple command:       get urantial log9xxx
+I joined with a pretty negative attitude, and I still havent read the Urantia
+Book, but I like what I have seen on this list.
+
+zendo-request@lysator.liu.se **
+applied Zen Buddhism
+
+*** PAGANISM AND MAGICK, OCCULTISM, SATANISM ***
+alt.pagan  alt.magick  alt.satanism  alt.horror.cthulhu, alt.necromicon
+alt.religion.sabaean
+
+Temple of Set
+- heaps of files on the Temple of Set, including the complete ToS reading list
+and a number of documents on internal orders, have recently been uploaded to
+slopoke.mlb.semi.harris.com  /pub/incoming/set
+quartz.rutgers.edu /pub/set
+I am impressed by what I have seen of the "Setian philosophy", compared to
+most occult approaches.
+
+GRASS
+    Contact: grass-server@wharton.upenn.edu
+    Purpose: The GRASS (Generic Religions and Secret Societies)
+    mailing list is a forum for the development of religions and
+    secret societies for use in role-playing games. Both real-world
+    and fictional religions and secret societies are covered. GRASS is
+    an erratic volume, high signal-to-noise, mailing list.
+    To subscribe, send mail to the CONTACT address with a subject of
+    SUBSCRIBE Charlie Bucket. (Use your own name instead of Charlie's
+    though!)
+
+pagan
+    Contact: pagan-request@drycas.club.cc.cmu.edu (Stacey Greenstein)
+    Purpose: To discuss the religions, philosophy, etc. of paganism.
+
+gcnext.gac.peachnet.edu  /pub/wicca
+
+UNSOLICITED BLURB
+Divination Web - a MUCK - telnet seismo.soar.cs.cmu.edu 9393
+thanks to the efforts of Moonchilde, Fr.Nigris, Bran and who knows who else,
+one of the more interesting MU*s i have seen has come into being... there's an
+internal Tree of Life structure as well as a 'wheel' which I havent explored,
+and a fascinating crowd of people there [whenever theres anyone on].
+
+pagan-request@drycas.club.cc.cmu.edu (not seen by me)
+
+grind.isca.uiowa.edu (128.255.19.233)
+you can telnet to this ftp site, login iscabbs - file descriptions appear
+whenever you list the directory contents.
+        /info/misc [contains files Wicca1, Wicca2, kama (sutra)]
+
+morose.cc.purdue.edu
+/pub/topy-online  Temple ov Psychick Youth
+(submitted by timbomb@cs.uq.oz.au)
+Ihavebeen told that these files will soon be lost, but that TOPY / OTO
+informationwill be availavle via ftp from netcom.com [unseen]
+
+nic.funet.fi / ftp.funet.fi
+  /pub/doc/occult - Necronomicon - Voynich MS
+
+slopoke.mlb.semi.harris.com
+         comments by Anon of Ibid:
+            * This site has lots of Crowley texts and gifs, including the
+            *complete* texts of the Book of Lies, Book of the Law, Book 4,
+            Magick in Theory and Practice, Magick Without Tears, and some
+            (or all) copies of the Equinox. (Crowley's magickal journal/
+            zine/publication type thing) All this stuff is in directory
+             /pub/magick/incoming. But there's lots more than Crowley stuff.
+            Check this site out.
+[Back to me:]
+Also worth perusing are wilson.on.cis, an online conference with RAWilson as
+guest participant, and cybercraft, which contains an exposition of Leary's
+8-circuit model. ALSO, copies of the Equinox are retailing where I live
+for about $700 (for 10 vols.) at present. You could probably make yourself
+same money, and do yourself a favor, and violate some sort of copyright law
+by printing copies of the Equinox based on the slopoke material.
+  In fact the whole slopoke site is just one of the best. They have an old
+alt.slack archive (old*slack!), extensive Notes on Kabbala that you won't
+find anywhere else, the Principia Discordia.
+
+SEE SUPPLEMENT FOR LISTING OF FILES AVAILABLE FROM SLOPOKE FTP SITE
+
+*** WEIRD RELIGIONS ***
+alt.slack alt.discordia alt.religion.kibology
+alt.spam coming soon to a newsserver near you
+
+PRINCIPIA DISCORDIA - found all over the place and posted to alt.discordia
+every week or so, it seems - transcribed by Druel the Chaotic - send fanmail
+to MPYTHON@gnu.ai.mit.edu
+
+Subgenius-request@mc.lcs.mit.edu **
+your daily fix of slack
+
+world.std.com
+/pub/alt.religion.kibology - archives for the newsgroup
+  ark.655.Z & kibo-for-prez look interesting, but i can't decompress them
+Mail kibo@world.std.com for the kiboheader source code - have an
+"X-Kib0-Says:" in all your email - this code is also in the archives.
+
+Church of Spam
+newcomers but ambitious - already setting up alt.spam
+Spamist archives can be found at quartz.rutgers.edu, /pub/subgenius/spam
+contact:
+----------------------- io20650@maine.maine.edu ---------------------
+*** Daerr - High Spreader of Spam, Church of Spam (Gavin Edition) ***
+"I Spam, therefore I am" - Gavin      "Spam sects unite under Gavin!"
+  "We have billions of members, but most of them don't know it yet"
+---------------------------------------------------------------------
+
+HailOtis@socpsy.sci.fau.edu
+PURPS - The Purple Thunderbolt of Spode - the newsletter of the Otisians.
+An excellent compilation.
+Contact the Pope, jstevens@world.std.com, for info on the Otisian directory.
+Also contact Mal@socpsy.sci.fau.edu for info on the "junk mail" list.
+All back issues of Purps archived, quartz.rutgers.edu /pub/journals/Purps.
+
+SLACK@ncsu.edu - home of the Holy Temple of Mass Consumption - don't know
+if they send out copies of their (excellent) ezine on request, but it
+appears regularly on Usenet anyway, and is archived at quartz.rutgers.edu
+/pub/journals/HToMC
+
+houk@cs.athena.mit.edu - Moot News for Modern Man v1, subG stuff
+
+request@fennec.sccsi.com - Worldview / Weltanschauung - weirdness, future
+tech, subgenius stuff - read about this in the future-culture FAQ (see
+mailing lists) but i have been unable to reach them - anyhow it is
+archived at ftp.eff.org, /pub/cud/wview
+- had the proper address and lost it! check the FC FAQ
+
+mullet.gu.uwa.edu.au
+/pub/text/comment/scriptures.tar.Z
+version 1, Travelling Scriptures of the Church of V/R
+
+One final note for now, but only for those who've persisted all the way
+through this. If you're interested in these sorts of ideas, but with a
+Discordian/SubGenius sort of slant, you might want to try ploughing through
+the "Travelling Scriptures of the Church of Virtuality\Reality", or the
+Scriptures of V\R for short. Principia Discordia mixed with equal parts of LSD
+and MUD. You can get them (there's about 1 Meg of text so far) via anonymous
+ftp from:
+  quartz.rutgers.edu  /pub/Scripture/scripture.000 ... scripture.007
+  ftp.css.itd.umich.edu /zines/Scripture/ (as above)
+  slopoke.mlb.semi.harris.com  /pub/weirdness/ (as above).Z
+scripture.000 is the introductory "volume".
+
+quartz.rutgers.edu  /pub
+  get the CONTENTS file to see how *much* there is on here! also,
+there's an automatic decompression thingy for any file ending .Z, so you
+can ftp-by-mail even *those* ones! /pub/subgenius contains a bob.gif, plus
+lots of other SubG stuff; and of course they have the Principia Discordia.
+/pub/journals has *heaps* of stuff, FutureCulture, m00se Illuminati (for
+info on *them* mail dickson@hartford.bitnet), Purps (the Purple
+Thunderbolt of Spode, the Otisian newsletter (see above)), other stuff I
+forget right now.
+in /pub/subgenius try slack.news [authentic newspaper article featuring
+interview with Stang] and prescrip [the complete Subgenius prescriptures].
+
+*** UFOs AND PARANORMAL PHENOMENA ***
+alt.alien.visitors alt.paranormal alt.dreams alt.oobe / alt.out-of-body
+sci.skeptic
+
+ftp.uni-kl.de  /pub/pc/incoming
+bgft300a.zip  can someone tell me what this is? is Bigfootf working for the
+Committee of 300 now?
+
+infopara-request@scicom.alphacdc.com - "Subscribe" in subject line - you will
+  get info from Paranet Information Service
+
+psi-l  listserv%rpicicge@vm1.nodak.edu  SUB PSI-l the_usual
+contact bgeer%hampvms.bitnet@cunyvm.cuny.edu (not seen by me)
+
+  "Our research group is currently investigating reports and sightings of
+the animal known as "Bigfoot" or "Sasquatch".
+o Leave a private message in electronic mail:
+  ai065@cleveland.Freenet.Edu (Thomas Hill)
+ Contact with us can be totally anonymous if you wish. We are especially
+interested in Ohio sightings but are by no means limited to
+investigations in that state. Please, serious responses only." [ie SubGenii:
+nothing about Tibetan Yetis from Atlantis] (from the alt.alien.visitors FAQ)
+
+ASLJL@ACAD2.ALASKA.EDU
+the Federation is making a starflight drive - email here for details
+
+rutkows@ccu.umanitoba.ca (from the alt.alien.visitors FAQ)
+available on an experimental basis by email - "The Swamp Gas Journal
+covers a variety of scientific UFO-related phenomena" - various reviews
+
+gvb@acd4.acd.com
+maintains a personal archive of alt.alien.visitors traffic since July 13,
+1992 - portions available on request - *not* available via ftp as yet
+
+grind.isca.uiowa.edu (128.255.19.233)
+you can telnet to this ftp site, login iscabbs - file descriptions appear
+whenever you list the directory contents.
+        /info/paranet [UFO digests from Paranet Information Service]
+
+skeptic%yorkvm1.bitnet@vm1.nodak.edu  SUB SKEPTIC your_fullname
+(not seen by me)
+
+ftp.uiowa.edu /archive/aav
+
+UFO-RELATED INFORMATION
+from the alt.alien.visitors FAQ - an excellent document! possibly the best
+reference for ufo-info sources of its size ever prepared - comments here
+are from that FAQ
+
+paul.rutgers.edu
+  The file is pub/UFO/bibliography.Z It has books by author, a second
+  listing by date, and also the names of prominent authors in the field.
+For more information contact: mcgrew@dropout.rutgers.edu (Charles Mcgrew)
+
+phoenix.oulu.fi (130.231.240.17) /pub/ufo_and_space_pics
+  - phoenix UFO pics
+
+NASA Pics Sites
+NOTE: the material at these sites is exceedingly voluminous;
+I'd strongly suggest just getting the CD-ROMs instead of attempting
+to transfer scores of gigabytes of pix and other material.
+To access the online catalog of NASA material, CD-ROMS, et cetera:
+        telnet nssdca.gsfc.nasa.gov
+        login as "NODIS"
+        no password
+
+Anonymous ftp sites (five):
+nssdca.gsfc.nasa.gov [128.183.10.4]
+        This is a VAX/VMS box, so you must ftp-login as "anonymous".  To get
+        a dir listing into a file on your system:
+        ftp> dir [...] file_on_your_system
+vab02.larc.nasa.gov
+     lots of stuff, including Aliens of all colors, and UFO pix (though this
+        seems to mirror a lot of what's at phoenix.oulu.fi and has some
+        additional material).
+ames.arc.nasa.gov
+        online copies of what appears to be all NASA's CD-ROMs, and lots of
+        GIFs, *.img and *.jpg from most (all?) space missions since Apollo.
+iris1.ucis.dal.ca
+        dunno; it appears to be down today (Saturday, 18-July-1992).
+ummts.cc.umich.edu {changed to} archive.umich.edu
+        apparently popular (and, hence, slow).  Is supposed to have many
+        NASA and Voyager data files.
+
+
+at stycx.hacktic.nl (+31-3404-59551) there is a public account [login repm12,
+passwd zebra] for the [anonymous]sharing of MJ12 information
+
+130.231.240.7  /pub/ufo-and-space-pics/alen-47.jpg   Roswell alien doll
+
+*** WEIRD PERSONALS AND OTHER UNCLASSIFIEDS ***
+[unchanged from HWbE v1.1]
+
+>From donnell@mermaid.micro.umn.edu Thu Oct 29 09:32:01 1992
+Two guys here. Judex <Polybenevolent Omni-Father of Truth In Spandex> worships
+squids and spreads their "gospel". Your Heinous is a computer fiend and
+headbanger extrodinaire. Trade your weirdness for theirs. B}
+Judex is also a music and movie trivia buff, and a good source for such.
+
+>From corleyj@GAS.uug.Arizona.EDU Wed Oct 28 11:31:29 1992
+In Robert Anton Wilson's _Illuminatus! Trilogy_, he describes
+a process used by Discordians, Erisians and Anarchists against
+governments, corporations and in general, The Establishment.
+This process involves sending many letters from different
+parts of the country/world and is called Operation Mindfuck.
+With the advent of e-mail, Operation Mindfucks are much more
+easily coordinated.  One such network can be joined by e-mailing
+corleyj@gas.uug.arizona.edu.  Networks are set up around
+communal responsibility.  Everyone agrees to participate in
+everyone else's Mindfuck.  If A helps B Fuck the IRS, then when
+B wants to Fuck the Department of Defense, A is obliged to help.
+Hail Eris!  All Hail Discordia!
+
+>Join the Church of V/R and help save the world in your spare time!
+Write Larysa.Fabok@launchpad.unc.edu for information.
+
+and look for #cIRCle on IRC!
+
+*** STRANGE INDIVIDUALS ***
+alt.net.personalities
+
+alt.folklore.computers has something like a 1000-person
+whos.who.on.the.net list. I don't know if it is archived but it
+reappears there periodically
+
+from HWbE v1.1:
+>From: The Saint of Self Abuse
+   I dunno if it counts but we have a really vocal, extreme right-wing
+paranoid fundamentalist Christian who got a Bboard named after him out
+here at CMU.  He frequently posts more than four posts in a day and we
+already have somebody at MIT mocking the guy and it may be a national
+thing because this guy is 100% all-American Christian fundie right wing
+nutso.....
+    Anyway,  the Bboard is assocs.collegerepublicans.intolerant_assholes
+@ andrew.cmu.edu and our "friend" is Dave Byler: db7n @ andrew.cmu.edu
+    He may not be weird enough for this list,  but he responds to
+EVERYTHING and claims such things as:
+    1.  There is an International Communist Conspiracy
+    2.  Sen. Macarthy was right
+    3.  Al Gore plans to save the earth by depopulating it
+    4.  Liberalism = Nazism
+    5.  You're all going to Hell
+Maybe he is weird enough....
+
+idealord@dorsai.com - home of IdEAl OrdEr Psychic TV
+There's a blurb for IdEAL OrdEr which is supposed to go here but I dont seem
+to have it to hand! Basically IdEAl OrdEr allegedly and mysteriously interfere
+with the blinking rates of various TV personalities, mostly newsreaders but
+they also 'zapped' the final US presidential debate. They also have an 'art'
+aspect which I don't know about. Jeff harrington of IdEAl OrdEr seems to be on
+just about every interesting mailing list there is; so although I cant vouch
+for the reality of the phenomenon I can say that IO is definitely hip to a lot
+of things....
+anyone know the home of nU wORLD oRDER Psychic Usenet?
+
+carasso@inference.com - dfqfrby@shoes.BELL-ATL.COM, jecoleb@eos.ncsu.edu
+& millerje@CS.ColoState.EDU all have personal archives of some of the best of
+carasso, and probably the man himself does too
+- dont know what carasso's doing - I dont read talk.bizarre at all, but there
+was a crossposted thread in alt.religion.kibology the other day with "CARASSO:
+SOMETHING SOMETHING" in the subject line, so I presume he's still out there..
+
+pfinerty@nyx.cs.du.edu - "Public Enemy #1" - the guy who earned the sysop of
+Nyx a visit from the Secret Service. you should be able to read about it at
+slopoke ftp site, hmm, i think in /pub/weirdness/secserv
+
+hplaa02.cern.ch
+/netcel - Net celebrities archive
+             
+
+*** PHILOSOPHY,THINKING ABOUT THINKING,ETC ***
+talk.philosophy.misc
+
+ -Am. Philos. Assoc.    telnet atl.calstate.edu or telnet 130.150.102.33
+   offers:  BBS for APA.  (Login: apa)
+
+belief-l (not seen by me) - send subscribe belief-l your_name to
+  listserv@brownvm.brown.edu
+belief-l
+  doubts.napoleon?? [if not enquire sci.skeptic] an 1819 article explaining
+  why Napoleon might not have existed
+
+derrida  listserv@cfrvm.bitnet  subscribe derrida full_name
+(not seen by me)
+
+fnord-l@UBVM.bitnet (I think - dont know internet address) - New Ways of
+  Thinking  List - created as forum to discuss the ideas of Wilson, Leary,
+  Alli and the like, but to my mind it has degenerated somewhat
+yo! owing to discussions with a source who shall remain anonymous, I have a
+new respect for fnord-l, as 'net performance art'...
+
+hegel@VILLVM.BITNET  ????
+
+lojban-list-request@snark.thyrsus.com (not seen by me)
+why bother with esperanto?
+    Purpose: To use, discuss, and contribute to the development of the
+    constructed human language called Lojban (known in earlier
+    versions as Loglan).  Lojban has a grammar based on predicate
+    logic, and vocabulary built from the six most widely spoken human
+    languages.  It is intended as a tool for experimental linguistics,
+    as a medium for communication with computers, and as a possible
+    international auxiliary language.
+
+    Lojban-list is an unmoderated mail reflector.  New subscribers are
+    asked to send their postal mailing addresses as well, so that they
+    can be placed on the mailing list of The Logical Language Group,
+    Inc., a non-profit organization.  The postal mailing list provides
+    materials that are useful in learning about the language.
+    Lojban-list and LLG, Inc. are in no way affiliated with The Loglan
+    Institute, Inc., or with James Cooke Brown, the founder of Loglan.
+
+Subject: INFO: Mailinglist for Neuro Linguistic Programming
+From: citrus!vector0!jon@csusac.ecs.csus.edu  (Dazed N. Confused)
+Date: Mon, 28 Dec 92 13:13:05 PST
+0
+     Recently posted to alt.config..
+
+}From: taz@momad.li.ny.us (Jon Nowak)
+}Subject: Neuro Linguistic Programming
+}
+}There is now a mailing list available for those who are interested in learning
+}about Neuro-Linguistic Programming, and for those who just are curious.
+}To join the mailing list, simply send e-mail to SERVER@Momad.LI.NY.US
+}with the following line in your email:
+}
+}JOIN NLP
+}
+}Very simple, eh?  And if you join the list, but then decide you don't want to
+}remain on the list, all you have to do is send e-mail to the same address,
+}Server@momad.li.ny.us, with the command:
+}
+}UNJOIN NLP
+}
+}in your message.   When you join, you will automatically receive the
+}help file for the NLP Mailing List.  Please join today.  After all, it's free
+}ain't it?   Seriously, if you have an interest in NLP, please use the
+}mailing list, rather than wasting bandwidth on Alt.Hypnosis (which is *NOT* for
+
+}NLP)
+
+nsp-l@RPIECS.BITNET  Noble Savage Philosophy ???
+
+objectivism
+    Contact:  objectivism-request@vix.com  (Paul Vixie)
+    Purpose:  A mailing list where students of Objectivism can discuss
+    their ideas, concrete issues, exchange news, etc.  Any issue that
+    may have some relevance to Objectivists is appropriate here.
+objectivism-request@vixie.sf.ca.us **
+objectivism discussion list - seems to be fairly low traffic - to access the
+archives mail objectivism-listserv@vix.com with the single-line msg 'help'
+
+objectivism-philosophy
+    Contact: objectivism-request@twwells.com (T. William Wells)
+    Purpose: A mailing list for discussion of the philosophy of
+    Objectivism. This is not a general Objectivism mailing list;
+    discussions are restricted to the philosophy itself.
+
+Let me add a little rant here expressing my annoyance that
+talk.philosophy.objectivism was voted down. WHY did you vote 'no', those of
+you who did? "Oh, I'm tired of the newsgroup hierarchies fragmenting." Pfah!
+If you're not interested in Objectivism you wouldnt have had to read the
+newsgroup. And if you _were_ interested in Objectivism, and voted against it..
+I don't understand you _at all_.
+
+pkd-list
+    Contact: pkd-list-request@wang.com
+    Purpose: The discussion of the works and life of Philip K. Dick
+    (1928-1982), one of the world's most unusual science fiction writers.
+    Topics include his books and stories, and books and stories about him
+    and his life; however, discussion can (of necessity) branch out into
+    the nature of reality, consciousness and religious experience.
+not responding to my inquiries, unfortunately
+they have now! took em 3 months, but I'm on. this one goes in spurts. I'm more
+interested in the later Valis stuff, but theres also discussion of Dick's
+earlier works, for those who find the gnostic overtones of the later ones
+distasteful.
+
+PMC-TALK - discussion forum for PMC list (=postmodern culture?)
+PMC@ncsuvm.cc.ncsu.edu is the editors' address
+an incredible range of files: poetry, postmodern ecology, "stemmatics",
+James Joyce, mail art, Gulf War, concepts of time, everyday aesthetics,
+logs of 2 years' worth of discussions - just looking at the titles I
+can't guess what some of them are about. Send for PMC-TALK GUIDE for
+proper info.
+"... if you need PMC-TALK GUIDE and don't know how to get it,
+send the following one-line mail message to LISTSERV@NCSUVM (on
+Bitnet) or to LISTSERV@NCSUVM.CC.NCSU.EDU (on Internet):
+     GET PMC-TALK GUIDE PMC-TALK F=MAIL
+Note that there should be no blank lines before this line, and no
+other text or lines in the message.  The instructions you will
+receive are the same as those distributed to new subscribers of
+journal, and will enable you to retrieve files on your own."
+
+
+
+*** SCIENCE AND TECHNOLOGY ***
+sci.*
+alt.sci.physics.new-theories
+comp.* bionet.*
+
+alife
+    Contact: alife-request@cognet.ucla.edu
+    Purpose: The alife mailing list is for communications regarding
+    artificial life, a formative interdisciplinary field involving
+    computer science, the natural sciences, mathematics, medicine and
+    others.  The recent book _Artificial Life_, Christopher Langton, ed.,
+    Addison Wesley, 1989 introduces the scope of artificial life as a field
+    of study.  Alife was chartered in February 1990 at the Second Artificial
+    Life Workshop, held in Santa Fe & organized by the Center for Nonlinear
+    Studies at the Los Alamos National Laboratory and the Santa Fe
+    Institute.  The list is intended primarily for low-volume, high-content
+    scientific correspondence and as a publically accessible forum for the
+    interested members of the public.  Membership as of July 1990 includes
+    over 1,200 addresses on four continents.  There is an FTP-accessible
+    archives/repository of past traffic, software and papers.  The list
+    is maintained by the Artificial Life Research Group, Computer Science
+    Department, Lindley Hall 101, Indiana University Bloomington, IN 47405.
+    There are conditions on redistribution of the list in order to minimize
+    any misunderstanding or exaggeration concerning this new area of study.
+
+anneal-request@cs.ucla.edu (not seen by me) - simulated annealng
+    Purpose: Discussion of simulated annealing techniques and
+    analysis, as well as other related issues (stochastic
+    optimization, Boltzmann machines, metricity of NP-complete move
+    spaces, etc).
+    Membership is restricted to those doing active research in
+    simulated annealing or related areas.  Current membership is
+    international, and about half of the members are published
+    authors.  The list itself is unmoderated.
+
+blackbird
+    Contact: skunk-works-request@orchestra.ecn.purdue.edu
+    Purpose: Discuss Lockheed special project planes, particular the
+    Blackbird (A-12, YF-12 and SR-71) and U-2 programs.
+
+cellular-automata-request@think.com (not seen by me)
+
+CRYONICS list - contact kqb@whscad1.att.com
+cryonics
+    Contact: ...att!whscad1!kqb  -or-  kqb@whscad1.att.com   (Kevin Q. Brown)
+    Purpose: Cryonic suspension is an experimental procedure whereby
+    patients who can no longer be kept alive with today's medical
+    abilities are preserved at low temperatures for treatment in the
+    future.  This list is a forum for topics related to cryonics,
+    which include biochemistry of memory, low temperature biology,
+    legal status of cryonics and cryonically suspended people,
+    nanotechnology and cell repair machines, philosophy of identity,
+    mass media coverage of cryonics, new research and publications,
+    conferences, and local cryonics group meetings.
+
+cybsys-l (not seen by me) - presumably cybernetic systems
+listserv@bingvaxu.cr.birminghamton.edu - sub cybsys-l full_name
+
+cypherpunks@toad.com - rapidly growing list on public key encryption
+and related issues [also see alt.security.pgp, and
+info-pgp-request@lucpul.it.luc.edu]
+
+NEWS: formation of future-tech list
+  Hi, welcome to Future-tech!
+This mailing list is in the process of being born, so all suggestions
+are welcome! List management is currently done by hand, so please
+excuse any bumps until I get the bugs out. Please forward me a copy
+of any bounces, thanks! (I think I fixed the first problem)
+  Here's Rough Draft #1 of a charter:
+  This list is for discussing science fact and science future,
+current discoveries and hypothetical possibilities. News tidbits,
+speculation, and longer essays are all welcome. The list
+may appeal to readers of publications such as Omni, Scientific
+American, Extropy, or the Whole Earth Software Review, to name a few. 
+  Possible topics may range through but not  be limited to:
+  --Evolution of the Net and electronic communications
+  --Information science and management
+  --Artificial intelligence, neural nets, robotics
+  --medicine, life extension, cybernetics, longevity
+  --ecology, natural resources, energy sources
+  --physical and societal evolution
+  --Electronic communications in the future
+  --Memetics and systems theory
+Subscription requests and Administrivia to:
+   future-tech-request@cs.umb.edu
+List address:
+   future-tech@cs.umb.edu
+
+neuro-evolution-request@cse.ogi.edu
+
+neuron
+    Contact: neuron-request@cattell.psych.upenn.edu (Peter Marvit)
+    Purpose: Neuron-Digest is a moderated list (in digest form)
+    dealing with all aspects of neural networks (and any type of
+    network or neuromorphic system).  Topics include both
+    connectionist models (artificial neural networks) and biological
+    systems ("wetware").  Back issues and limited software is
+    available via FTP from cattell.psych.upenn.edu. The Digest is
+    gatewayed to USENET's comp.ai.neural-nets.
+i've seen one copy - looks like a place where a number of the major
+researchers can be found - eg first msg in the issue i read was from michael
+arbib
+
+physics-request@unix.sri.com _or_ @mc.lcs.mit.edu (not seen by me)
+
+physics
+    Contact: physics-request@qedqcd.rye.ny.us (Mike Miskulin)
+    Purpose: Physics is a newly created digest to cover current
+    developments in theoretical and experimental physics.  Typical
+    topics might include particle physics, plasmaphysics,
+    astrophysics.  Discussions related to all branches (large and
+    small) of physics are welcome.
+
+- theoretical physics pre-print list
+You can get papers on general relativity & quantum cosmology from
+gr-qc@xxx.lanl.gov, high energy physics [theoretical] from
+hep-th@xxx.lanl.gov. Send Subject: help. (Most papers written for people with
+TeX or LATeX, so be prepared for the equations to be even harder to understand
+than usual.) - mail gr-qc@xxx.lanl.gov with subject line "get 9210011" and
+explode your mailbox! this is a paper all about problems to do with time -
+technical and conceptual - in quantum gravity.
+
+Available commands include
+get paper#      returns paper specified by paper#   (e.g. `get 9109001' ;
+            for abstract alone, append .abs to paper#, e.g. `get 9109001.abs')
+            `get 3 2.abs 9108001', e.g., returns multiple papers.
+         (get defaults to the current year/month so that e.g. during 10/91
+          `get 1 2 5'   or   `get 01 2 005'  will automatically prepend 9110's
+          and necessary zeroes to result in `get 9110001 9110002 9110005' .
+          numbers too large for current yr/mo have previous yr/mo prepended.
+          get also defaults to current year, e.g. `get 9005' during 1991 gives
+          `get 9109005' , and months/numbers too large for current year
+          default to previous year. mixed formats e.g.
+          `get 1 08005 2 55 harvmac.tex 9109058 2.abs'   also work.)
+listing         returns list of year/month's currently available.
+list yymm's      returns title/author's of papers currently held for
+                   given yr/mo subsets,  e.g. `list 9109'.
+                `list macros'  returns available macros
+                `list new' resends most recently sent title/abs listing
+                   of papers received (typically from previous day).
+                for title/author/abstract's of papers held for given yr/mo
+                        subsets, append .abs: e.g. `list 9109.abs 9110.abs'
+              multiple requests allowed: e.g. `list 9109 9110.abs macros new'
+find xyz        search title/author list for xyz (either author or word in
+             title, case insensitive) to retrieve paper#, e.g. `find goldstone'
+           find defaults to past 12 months, for earlier use `find goldstone 91'
+subscribe your full name
+                add new username to daily distribution list (email address
+                   automatically extracted from return address),
+                   `your full name' is your full name (any number of words
+                   and initials) as you wish it to appear on distribution list
+                <<< note that `suscribe' is not a word >>>
+cancel          remove user@nodename from daily distribution list
+subscribe all   automatically receive full text of all papers
+cancel all      return to receipt only of authors/titles/abstracts
+distribution    returns full list of email addresses on distribution list
+comment         forwards mail message for human perusal
+help            returns this list of commands
+
+All commands may be abbreviated by any truncation that includes at least
+the first three letters (e.g. rep, sub, can, dis, lis, com, ...).
+0
+Do not make multiple requests for the same paper. If you receive nothing
+(or if the response is slow) it means there is a problem at your end.
+
+some other bulletin boards running the same software:
+alg-geom@publications.math.duke.edu (algebraic geometry)
+astro-ph@babbage.sissa.it           (astrophysics)
+cond-mat@babbage.sissa.it           (condensed matter)
+e-mail@xxx.lanl.gov                 (e-mail address database)
+funct-an@babbage.sissa.it           (functional analysis)
+gr-qc@xxx.lanl.gov                  (general relativity / quantum cosmology)
+hep-lat@ftp.scri.fsu.edu            (computational and lattice physics)
+hep-ph@xxx.lanl.gov                 (high energy physics phenomenological)
+hep-th@xxx.lanl.gov                 (high energy physics formal)
+nucl-th@xxx.lanl.gov                (nuclear theory)
+
+
+ -Genetics Bank         mail gene-server@bchs.uh.edu
+                       +mail retrieve@ncbi.nlm.nih.gov
+                       +mail blast@ncbi.nlm.nih.gov
+   Subject: help  Offers: genetic database/nucleic acid/protein sequence.
+also check out the bionet groups on Usenet
+I remember, when I first started exploring Usenet, how cool i thought it was
+that newly sequenced genes were posted to bionet. I downloaded about 1Meg of
+DNA sequences just for the thrill of carrying it around on floppydisk..
+
+ -E-Math                telnet e-math.ams.com or 130.44.1.100
+   offers: Am. Math. Soc. bbs w/ software and reviews. (Login/Password: e-math)
+
+listserv@gitvm1.bitnet sub frac-l       FRACTALS
+
+listserv@math.ufl.edu / FAQ settheory / eprints wavelets topology
+
+HIT-L (Highly Imaginative Technology)
+listserv@ufrj.bitnet / ufrj.br SUBSCRIBE HIT
+this is a pretty good one. and remember to GET OFF send to the listserv
+SIGNOFF HIT - sometimes half the posts are whimpers of 'how can I get off this
+list' - worse than fnord-l in that regard..
+
+HTECH-L@SIVM.BITNET history of technology
+
+listserv@orbital.demon.co.uk
+subscribe satnews me me
+fortnightly message on satellite tech & broadcasting
+
+space-investors-request@cs.cmu.edu - i subscribe but have yet to see any
+traffic after a week - after a month something turned up. this list is what
+the name says: for people who want to invest in Space
+
+technomads-request@bikelab.sun.com
+the guy who nets from his bike
+
+"loopy" file on quantum gravity - see appendices on uploaded files
+ALSO!!!!!!!!!! See John Baez's stuff; as i recall its anon ftp at
+math.princeton.edu, /pub/fycfung/baezpapers with an out of date README file.
+Also look for his weekly postings to sci.physics [sci.physics.research by the
+time you read this?] on "Find of the Week" in mathematical physics.
+
+*** EXTROPIANS ***
+extropians-request@gnu.ai.mit.edu **
+serious discussion of extropian/upwing ideas such as physical immortality,
+anarchocapitalism, postindustrial society etc
+    Purpose: The unifying characteristic of the list recipients is
+    their latest interest in anarchocapitalist politics, techniques
+    of life extension (including cryonics), the technological extension
+    of human intelligence and perception, nanotechnology, spontaneous
+    orders, memetics, and a number of other related ideas.  If these
+    topics seem to you to be naturally related and mutually consistent,
+    you might already be an Extropian.
+    All Extropians (and those who suspect that they are Extropians)
+    are invited to join.
+
+exi-daily-request@gnu.ai.mit.edu
+exi-digest-request@gnu.ai.mit.edu
+
+also bit.listserv.xtropy-l - longer essays on extropian themes
+= exi-essay-request@gnu.ai.mit.edu
+
+from lynx.cs.wisc.edu
+Structure of this archive:
+
+The Exi-Essay directory contains essays posted to the Extropy
+Essay email list.  The file naming conventions are as follows:
+
+authorlastname.MMDDYY
+
+The file INDEX contains an index of all essays contained in this archive.
+The file EXTROPY contains information about the journal _Extropy_
+The file PRINCIPLES contains version 2.0 of the Extropian Principles.
+
+[followed by a copyleft message by the extropian list manager which you really
+should read, even if only to read the extropian principles]
+
+List of Essays from the ExI-Essay list, in chronological order,
+including brief summaries:
+
+Date      Filename     Title             Author
+---------------------------------------------------------------------------
+09/01/92  --------     National Defense in an Anarcho-capitalistic Society
+                                         JoSH
+  Summary: Anarchies will not start wars and will be in good shape to
+           defend themselves because of their inherent efficiencies.
+           Contact: josh@cs.rutgers.edu
+
+09/02/92  --------     Living Systems
+                                         Alex Chislenko
+  Summary: Commonalities exist between different complex systems, such
+           as societies, making it fruitful to view them as 'living'.
+           Contact: sasha@cs.umb.edu
+
+09/06/92  zahn.090692  Well, Oh Yeah?
+                                         Derek Zahn
+  Summary: A response to Hilary Putnam's view that evolution produced our
+           minds by lots of kludges, making AI an inherently infeasible task.
+           Contact: derek@cs.wisc.edu
+
+09/09/92  more.090992  Transhumanism:  Towards a Futurist Philosophy
+                                         Max More
+  Summary: Religion provides a context for life's 'meaning' but is entropic.
+           Extropian transhumanism provides a non-entropic alternative.
+           Contact: more@usc.edu
+
+09/17/92   johnson.091792  Extropian Book List
+                                         Richard Johnson
+  Summary: Extensive list of organizations, books, periodicals, etc,
+           topically related to Extropian ideas.
+           Contact: rdj%adpgate.uucp@apple.com
+
+10/30/92   chislenko.103092  CLASS of all theories
+                                         Alex Chislenko
+  Summary: Brief thoughts on the class of all possible theories
+           Contact: sasha@cs.umb.edu
+                                         
+11/01/92   cox.110192  Taming the Electronic Frontier
+                                         Brad Cox
+  Summary: Proposal for a course studying the future of information
+           technology at George Mason University.  Explanation and Syllabus.
+           Contact: bradcox@sitevax.gmu.edu
+
+11/01/92   shapiro.110192  Business and Capitalist Memes in China
+                                         Harry A. B. Shapiro
+  Summary: A brief call for a word for the meme or meme complex that
+           allows a person to focus upon and to work towards life in
+           an increasingly market-driven economy.
+           Contact: habs@gnu.ai.mit.edu
+
+11/20/92   --------    Reversible Agents
+                                         Robin Hanson
+  Summary: Preprint of 1992 IEEE Physics of Computation Workshop paper
+           suggesting that AI as goal-directed behavior is non-reversible
+           and thus must pay entropic penalties, especially for measuring
+           the environment.  Communication, however, may be much cheaper.
+           Contact: hanson@ptolemy.arc.nasa.gov
+
+also look for the more recent "How to Break the Law" [almost like an online
+Loompanics Catalog!]
+
+*** WEIRD SCIENCE AND TECHNOLOGY ***
+
+nic.funet.fi / ftp.funet.fi
+  /pub/pics/gif/pics/people/famous/*
+an albert hofmann gif, and then next door is hanna-maria poropudas,
+whose explanation of the structure of time, space potatoes etc is now
+legendary - i predict that one day some astrophysicist who was a usenet
+junkie as an undergrad will discover some cosmological feature and name it
+a "space potato" in honor of hanna-maria and hannu - start with
+/Hanna-Maria/README.Hanna-Maria
+
+*** ONLINE ETEXT PROJ'S,ETC ***
+
+TEXTARCHIVE.LIST Oxford Text archive@vaxox.ac.uk
+
+mrcnext.cso.uiuc.edu  /gutenberg
+*** HOME OF PROJECT GUTENBERG ***
+which is an attempt to build an online library of 10000 etexts by 2001
+so far the weirdest thing they have is probably just the Book of Mormon
+BUT!! if you have any anticopyright texts - whether UG Krishnamurti or
+anarchist/Autonomedia classics - WHY NOT scan them in or transcribe
+them, and send them to the project? email project director
+hart@vmd.cso.uiuc.edu  for instructions on how to submit a text - YOU
+WILL HAVE TO CONTACT HIM TO GET THE PASSWD TO THE INCOMING DIRECTORY
+
+network.ucsd.edu
+        InterText          network.ucsd.edu:/intertext
+        Athene        network.ucsd.edu:/intertext/Athene
+
+obi.std.com
+Online Book Initiative - /pub/obi
+also found at world.std.com /obi - some subdirectories
+    Ingar.Holst  strange stuff
+    DecWRL  abstracts.index
+    Anonymous   English.is.tough.stuff
+    Soviet.Archives   README, & gifs
+-while we're on the topic of the xUSSR, apparently one April Fool's there was
+a now-famous forged posting on Usenet from chernenko@moskvax. haven't seen it,
+but it's supposedly archived at:
+anon ftp: sunsite.unc.edu /pub/docs/about-the-net/usenet/moskvax-april-fools
+    Tracy.LaQuey        1990 net.directory - sounds very interesting
+        - this has been highly recommended to me
+        - you can reach it through the WorldWideWeb - telnet info.cern.ch,
+        select Search by Topic, Computers, Networking, Item 16
+        - also you can order a hard copy from internet-companion@utexas.edu
+
+*** SOME FTP SITES ***
+
+141.214.4.135 (The Site Which Must Not Be Named)
+an up-and-coming home of online weirdness, by the look of it - an ftp site
+of underworld industries - also info on 'alternative media / alternative
+music' network in /proj/amam - try get repdir to see who you should contact
+e-zine lunatic fringe and others stored, along with high weirdness by email,
+a 'stream-of-consciusness' project - a lot of this stuff i couldn't access
+properly owing to difficulties at MY end, but it all seems promising. some
+words from the guy who runs it:
+>welp, i would give you the alphabetic address/name of the site IF THERE
+>WERE ONE!  you see, we get a pool of about 30 (more if we need) IP
+>addresses to do with as we please.  the big boys upstairs (actually in
+>another building) who are in charge of assigning names will only do so
+>if they are "important" (mail servers, BIG machines).  the pool we have
+>are all SUPPOSED to just be for individual (DOS/mac) workstations.
+>however, i skimmed one of and made it the "pirated" uwi ftp site!! voila!
+>sorry!
+>
+>as for my blurb (by the nameless site!) you can include something like:
+>underworld industries (uwi) is dedicated to exploring new (or old) and
+>exciting experimental and [arguably] creative uses for technology.  oh
+>yeah, and we even like the old-fashioned experimental arts, too. (like
+>underground press, graphic arts, video, etc.)  check out the docs/uwi
+>directory on the ftp site for more info....
+>
+>[sound ok?]
+>-jon
+______________________________________________________________________________
+Bill the Cat | kca@caen.engin.umich.edu | UnderWorld Ind. UWI001, P.O.Box 4060
+Think freely | FINGER me for more info! | Ann Arbor, MI 48106-4060  USA  Earth
+
+see also: red.css.itd.umich.edu under "WEIRD POLITICS AND CONSPIRACY"
+          quartz.rutgers.edu under "WEIRD RELIGIONS"
+          slopoke.mlb.semi.harris.com under "PAGANISM etc"
+
+
+*** FORUMS FOR WEIRDNESS ON INTERNET BBS'S ***
+
+[as well as the topics listed, many bbs's have rooms dedicated to non
+sequiturs, free association, incongruous statements etc. since these
+rooms are changed frequently, I have not bothered to list them here - MP]
+[this section not updated since HWbEmail v0.0]
+
+Citadel BBSs
+
+128.255.40.203          ISCABBS         login New to join
+Spiritual Forum> Paganism And Magick> Philosophy> Cult Classics>
+Amazing Stories and Urban Legends> Paraphenomena> Alternative Press>
+ALTERNATIVE PRESS> i used to be a regular isca fanatic but now this is the only
+one i read - about as informative as alt.zines
+
+hpx5.aid.no             Skynet          login skynet
+Religion> Far Side of Computing> Predictions>
+
+quartz.rutgers.edu      Quartz BBS      login bbs
+Religion Issues> Witches Bew> Unexpl. Phenomena> Drugs>
+
+Hotel BBSs
+
+badboy.aue.com          Badboy's BBS    login bbs
+Boards: Rob, Underground
+
+chatsubo.nersc.gov      Chatsubo        login bbs
+Boards: TheNet
+
+jupiter.ee.msstate.edu  Mars            login bbs
+
+tiny.computing.csbsju.edu BBS / jodominik
+monoadm@city.ac.uk 138.40.11/21/31/41.1
+
+
+>From: "Alex R.N. Wetmore" <aw2t+@andrew.cmu.edu>
+One more bbs with some wierdness on it:
+yabbs - phred.pc.cc.cmu.edu - login as bbs or telnet to port 8888.  We
+have some political and hacker oriented stuff on ftp as well.  Also,
+note that redspread.css.itd.umich.edu also is running a bbs now (using
+the same software), so you might want to update your entry.
+
+*** INFORMATION SERVICES ***
+
+email nuts@ora.com for orderinng info re "!%@:: A Directroy of Electronic Mail
+Addressing and Networks" (a paper publication)
+
+amixinfo@markets.amix.com - amix is american information exchange - they
+are apparently an online information market (!?)
+- after the last Hwbemail was posted to Usenet the full Amixinfo blurb was
+posted, here are some excerpts:
+AMIX, the American Information Exchange, is something completely new --
+an online Information Marketplace (R).  On AMIX, anyone can both buy and
+_sell_ documents, software, or anything that can be stored digitally.
+Those who buy or sell customized information can carry out consulting
+contracts, even very small ones, easily and profitably.  AMIX handles all
+the funds transfer automatically.
+This Information Marketplace has been open for business continuously since
+January 1, 1992.  Consulting contracts are being made and fulfilled; 
+document sales are occurring on a daily basis in key markets; and information
+providers continue to "stock the shelves" with new goods in all markets.  
+The AMIX software allows customers to explore the system online with guest 
+access, and to register their own account online to receive full access.
+Customers who open their accounts now will have their monthly fees waived
+for the month in which they sign up and for the following month.
+To receive the AMIX software disk, enabling guest exploration of the system
+and self-registration, contact AMIX by email at amixinfo@markets.amix.com
+or by phone (415) 903-1015.
+What follows is an overview of AMIX: its concepts, structure, and function; 
+the market-building phase; and advantages of early entry into the market.
+[but i wont include this..]
+AMIX, AMIX Service, Information Marketplace, and Information Markets are 
+trademarks of the American Information Exchange Corporation. All other 
+product, brand, or company names are trademarks of their respective holders.
+(c) 1992 American Information Exchange Corporation
+- an interesting idea!
+
+archie@nic.funet.fi
+for info on how archie works - mail with Subject: 'help'
+
+Internet-drafts@nri.reston.va.us - send 'help' for information
+technical proposals for the future of the internet
+                                                 
+chop.isca.uiowa.edu - lots and lots of stuff. endless menu selections.
+this is something called 'panda', which you probably know more about than
+i do
+
+downwind.sprl.umich.edu 3000 - weather update
+
+info.cern.ch - a node on the WorldWide Web, an attempt to build up
+an online hypertext reference work.
+
+info.rutgers.edu - dictionary/thesaurus/familiar-quotations and a few
+other things. call up the 1991 world cia factbook and look at the entry
+for 'world'. they have the bible, koran, book of mormon organized so you
+can execute keyword / topic searches [any bets on how long it will be
+before they have the principia discordia?]
+
+>From billy@sol.acs.unt.edu Sun Oct 25 07:10:53 1992
+Submission: There is an effort to put all electronic journals, newsletters,
+zines, etc up in the Gopher system on the Internet.  It can be found on
+the University of North Texas Gopher (gopher.unt.edu port 70).
+
+Look at alt.internet.services for more.
+
+usenet.hist@ucsd.edu
+whois (-h nic.ddn.mil) un.org
+whois (-h nic.ddn.mil) nic.ddn.mil
+  [some people will need the bits in brackets, others not]
+
+A c10000-line list of mailing lists and their descriptions is available
+via ftp from coombs.anu.edu.au /coombspapers/interest-groups.9201.txt.
+(There *has* to be something shorter available; ftp-by-mail and watch your
+mailbox explode!) Some of the ones that follow aren't mentioned on that
+list however. UPDATE: A more up-to-date version of this list can be
+accessed via telnet through chop.isca.uiowa.edu - select online
+information, merit internet, other ifo servers, main gopher, ftp sites,
+popular ftp, interest group lists [that's my paraphrase of the necessary
+menu selections].
+
+NEW-LIST@VM1.NoDak.edu - presume it tells you about new lists
+
+pit-manager.mit.edu /pub/usenet hundreds of directories with all sorts
+  of things archived it seems, eg /news.answers has heaps of faqs,
+  /alt.drugs a few alt.drugs regular postings
+
+NEWSPOSTING by mail - Once upon a time apparently, you could post
+to news by mailing ucbvax.berkeley.edu in the format
+  favourite-newsgroup@ucbvax.etc
+and the text of your message would be posted to favourite.newsgroup. That
+service isn't working any more, *but* someone told me that the same thing
+can now be done through cs.utexas.edu (I think).
+Scott yanoff says this is working but I say it isn't. but try one of the
+anonymous servers, eg email help@anon.penet.fi
+I NEED TO KNOW ABOUT OTHER ANONYMOUS SERVICES LIKE THIS ONE! the one in
+Finland is getting overworked, I am sure. Or in general any other news/mail
+gateways.
+
+acsnet.syr.edu SUMMIT
+
+ftpmail@decwrl.dec.com - send message "help" a bit slow lately
+bitftp@pucc.princeton.edu - haven't really tried
+
+ -FTP Mail              mail bitftp@pucc.princeton.edu
+   Body-of-letter: help or ftplist for a list of anon. ftp sites.
+
+see also the Scott Yanoff list at the end re:
+archie, archie mail servers, CARL, CHAT, faxgate [other stuff too]
+
+fidonet z:n/f
+=internet fn.ln@f.n.z.fidonet.org
+this is how to send email to someone on fidonet, from the internet
+
+*** DRUGS MAN!  ***
+IRC #drugs; check the LearyBot
+
+ftp.u.washington.edu should have the alt.drugs archives somewhere, from memory
+
+alt.drugs ??? DMT etc FAQ
+
+soda.berkeley.edu /pub/sfraves/chemistry/probchild.Z
+flubber.cs.umd.edu /other/tms/drug-politics
+
+AcidWarp
+        -much sought-after tripp-e grafix program       [from FC FAQ]
+psychedelic graphics - not at ecst.csuchico.edu any more
+ftp.rahul.net /pub/atman/UTLCD-preview/mind-candy/acidwarp.zip
+
+nic.funet.fi / ftp.funet.fi
+  /pub/pics/gif/pics/people/famous/*
+an albert hofmann gif
+
+leri archives [see elsewhere] have blotter gifs somewhere i think
+
+*** HACKING INFO AND LEARNING ABOUT THE NET ***
+IRC channels #hack and #mindvox
+
+Legion of Doom technical manual - ftp.eff.org /pub/cud/lod
+RIPCO BBS 312-528-5020
+
+grind.isca.uiowa.edu (128.255.19.233)
+you can telnet to this ftp site, login iscabbs - file descriptions appear
+whenever you list the directory contents.
+        /info/articles  Academic papers and news articles about hacking
+        /info/hacking   Quotations from "experts" about hackers and hacking
+        /info/journals
+                contains the following electronic journals: ane, ati,
+                bootlegger, cud, hnet, lod, narc, nim, phantasy, phrack,
+                phun, pirate, synd [and text file x - not a journal]
+
+[advice from wgibson@gaia.matrix]
+From Paco Xander Nathan              Dec 15, 92 11:00:55 am -0600
+Date: Tue, 15 Dec 92 11:00:55 -0600
+To: future@nyx.cs.du.edu
+Subject: learning email/Internet
+
+A lot of people have talked about email hacks here, and some have mentioned
+not being terribly familiar yet with Internet.  Here's a couple good
+pointers:
+0
+starters:
+_The Internet Companion_ by Tracy LaQuey, with Jeanne Ryer, forward by Al
+Gore.
+"A Beginner's Guide To Global Networking".  Hey, it's only eleven bucks,
+it's extremely readable, and even the direst Net guru can learn a few tricks
+here.  Tracy knows the Net, in vivid detail, and explains its workings at
+the level of somebody who knows enough to power up their Mac or PC.  ISBN
+0-201-62224-6, Addison-Wesley, 1993.  I'll post a better review to the Net
+later..  Send email to: "internet-companion@utexas.edu" for info, ordering,
+etc.
+
+not-so-novice:
+There's an email list called Cypherpunks outta Berkeley.  If U know what
+you're doing here, you might wanna get on it..  Lots of encryption
+discussion, but also the place where these anonymous remailers have been
+breeding.  Guaranteed that you'll learn more than you ever thought possible
+about email hacks, if you can grok that list's discussions.  Send email to:
+cypherpunks-request@toad.com
+
+pxn.
+----
+pacoid@wixer.cactus.org
+0
+*** WEIRD POLITICS AND CONSPIRACY ***
+alt.conspiracy of course, and talk.politics.*, and bit.listserv.politics
+
+THE SINGLE BEST ARCHIVE FOR THESE TOPICS IS
+red.css.itd.umich.edu (141.211.182.91) /poli/*  also /zines/*
+  ftp.css.itd.umich.edu (141.211.182.6) no longer valid for this
+This site contains, among other things:
+Arm The Spirit (Autonome Forum) - The Disability Rag - Encyclopedia of
+Associations - Future Culture FAQ - INAC (US Sinn Fein documents) - Maoist
+Internationalist Movement - NativeNet Archives - Organized Thoughts - P_News
+Practical Anarchy - Scream Baby - Workers World - many essays by individual
+contributors
+
+Comments from pauls@umich.edu who runs the site:
+"...red.css.itd.umich.edu has a world-writable incoming directory
+for submissions, whereas the other site does not.  Submissions may still
+be sent via email to pauls@umich.edu, although handling will be delayed
+relative to items uploaded via ftp.
+  "If you are an individual wishing to submit essays, you are guaranteed
+archival space (within reasonable space limits) for all politically-related
+non-copyrighted materials that you submit.  If you represent an organization
+seeking ftp site space, please send me a message to arrange archival access.
+  "Furthermore, we now have a working mirror site of the Computer Underground
+Digest archives from the Electronic Frontier Foundation.  Save EFF some
+bandwidth and visit our site!  The CuD archives are _only_ on the
+red.css.itd.umich.edu site, and _not_ not the ftp.css.itd.umich.edu site.
+  "Please email all queries to pauls@umich.edu
+  "If you wish to submit items to the CuD archives, please contact
+their archivist at cudarch@eff.org"
+
+see SUPPLEMENT FOR LIST OF THE CONTENTS OF THIS SITE
+
+at red.css.itd.umich.edu   the.truth.hurts
+dont know if email address is still valid
+>From PETERW@ucsvax.ucs.umass.edu Fri Nov 13 01:09:21 1992
+The following is the text copy of a newspaper written for and distributed
+at the March for Women's Lives, April 1992.
+-------------------------------------------------------------------------
+The Truth Hurts
+A product of the Truth Hurts Foundation
+"Dedicated to presenting reality, despite its painful nature"
+Table of Contents
+The Truth Hurts Foundation is... - Baby and Me, and Big Brother Makes Three -
+You Need Not Have a Wombful of Blues - Feast and Famine - The Economics of
+Education: Classism Perpetuated - AIDS: Doctoring Reality - GE Brings Death
+to Good People - Burning Righteous, But Burning Blind - Graphics List
+
+The Truth Hurts Foundation is a collective of three people.  This 
+publication was created with high intensity and a low budget.  The 
+Foundation is now in its embryonic phase, but we'd love to have an 
+interconnecting network of members nationwide.  If you liked our 
+newspaper, and want to become a member of the Truth Hurts 
+Foundation, write to:
+P.O. Box 3111
+Amherst, MA 01004
+Membership fee is your name, address, and a letter expressing a 
+sincere desire to tap into the fullest potential of our species.
+...
+For copies of these graphics, please write or email us for orginal copies 
+of this and other artwork.  If you reprint any of our articles, please 
+include the PO Box.  Thanks.
+The Truth Hurts
+PO Box 3111
+Amherst, MA 01004
+peterw@student.umass.edu
+
+.................................................................
+Copyright (c) 1993 by Barricada Internacional.
+Barricada Internacional is published monthly in English by South
+North Communication Network, P.O. Box 410150, San Francisco, CA
+94141-0150. The Spanish-language edition is printed and
+distributed by Barricada Internacional, Apartado 23.296, 08080
+Barcelona, Spain. Subscriptions to the printed edition are US $35
+per year.
+The Electronic Edition is distributed by NY Transfer News
+Collective. Subscriptions are US $30 per year. Subscribe and
+receive the complete text delivered each month to your Internet
+mailbox.
+To subscribe, please send your Internet e-mail address and
+indicate the Spanish or English edition. For more details, contact
+NY Transfer News Collective via Internet: nyxfer@panix.com OR
+nytransfer@igc.apc.org, OR by direct modem: 1-718-448-2358.
++ This article may not be re-sold or repackaged as part of any +
++ commercial "product."   FREE distribution only is permitted. +
++             For distribution information, contact:           +
++ NY Transfer News Collective    *  Direct Modem: 718-448-2358 +
++ All the News that Doesn't Fit  *  Internet: nyxfer@panix.com +
+
+activ-l@mizzou1.missouri.edu   activists' list
+
+listserv@uvmvm.uvm.edu
+sub 1-union yourname   - (anarcho?)syndicalism
+- I was told that this list is mostly "orthodox doofuses" who "quote Das
+Kapital as if it were the bible". unseen by me.
+
+AYN-RAND@ua1vm.ua.edu - haven't checked up on this one, discovered it in a
+mail header
+
+solan@math.uio.no - "non serviam, the radical newsletter devoted to the
+philosophy of Max Stirner" - just starting up - he also has the whole text of
+"The Ego and His Own" available, I think in German and English.
+1st issue now seen, pretty good. archived at red ftp.
+
+"Postmodern Society and Neoconservatism" ATEITTINEN@JYLK.JYU.FI
+[this essay will be sent upon request]
+
+Counterev-L
+    Contact: ae852@yfn.ysu.edu (Jovan Weismiller)
+    Purpose: This list is under the aegis of l'Alliance Monarchists
+    and is dedicated to promoting the cause of traditional monarchy
+    and the Counter Revolution.  We believe in government based on
+    natural law principles, decentralization, subsidiarity, an economy 
+    based on the principles of distributive justice, and the defense of 
+    traditional Western values.
+    We believe in a Europe, United, Traditional, and Free from the
+    Atlantic to the Urals, but we oppose the centralizing bureaucracy
+    of the Maastricht treaty.  While we are based in the US, we are 
+    affiliated with L'Alliance pour la maintenance de la France en Europe, 
+    and we have members, as well as fraternal relations with the monarchist
+    organizations, in most Western European countries.
+    We work for the strengthening of existing monarchies, the restoration
+    in those countries with a monarchist tradition, and the building up
+    of an infrastructure appropriate to the instuaration of monarchy in
+    those countries without a living monarchist tradition.
+note for loompanics subscribers: check out The World Power Foundation and The
+Rebirth of Aristocracy
+
+deja-vu.aiss.uiuc.edu JohnSwitzer's Rush Limbaugh summaries archived
+
+9nov89-l@DBOTUI11.BITNET (not seen by me)
+send SUB 9NOV89-L your_real_name to LISTSERV%DBOTU11.BITNET@VM1.NODAK.EDU
+
+Arm The Spirit On-line (Autonome Forum)
+aforum@moose.uvm.edu
+red.css.itd.umich.edu /poli
+        -header "ATS: e-mail request"
+        -anti-capitalist/anti-imperialist e-magazine    [from the FC FAQ]
+- autonome forum sends out a very interesting range of materials.. press
+releases from kurdish rebels, stuff on black panthers who've been in jail for
+20 years, "etc". mostly has to do with people & groups who are literally
+fighting with their lives for something
+                                       
+anarchy-list@cwi.nl **
+anarchy; most subscribers are american
+write to anarchy-list-request
+Comrade Porcupine on this list has a MUSH with an anarchist/political section,
+but i forget the address!
+
+nic.funet.fi / ftp.funet.fi
+  /pub/doc/coup/val-l/ussr.22  from valentine smith's famous mailing list,
+notes on the '91 coup in the xussr
+
+cardell@lysator.liu.se - in charge of subscription requests for practical
+@narchy online, which he coproduces with cmunson@macc.wisc.edu
+very good ezine
+ALSO runs spunk-list@lysator.liu.se, for Spunk Press, which appears to be a
+still somewhat inchoate attempt to create a globally linked anarchist press
+with anonline collective whose materials will be archived at red ftp.
+
+grind.isca.uiowa.edu (128.255.19.233)
+you can telnet to this ftp site, login iscabbs - file descriptions appear
+whenever you list the directory contents.
+        /info/jfk       JFK conspiracy files, alt.conspiracy.jfk archives
+
+kurt@eskimo.celestial.com
+will send a copy of Bob Black's excellent noncopyright essay "The
+Abolition of Work" on request - also available via ftp from
+red ftp, I think /poli/Resources/Essays/abolishWork
+
+libernet-request@dartmouth.edu - libertarianism/objectivism i guess
+libernet
+    Contact: libernet-request@dartmouth.edu (Barry S. Fagin)
+    Purpose: Libernet is a Libertarian mailing list.  The list is
+    available in two modes: as a mail reflector and as a digest.
+
+MASONIC list - contact ptrei@bistromath.mitre.org
+Masonic Digest
+    Contact: ptrei@mitre.org (Peter Trei)
+    Purpose: The Masonic Digest is a moderated forum for discussion of
+    Free Masonry, affiliated groups, and other fraternal orders.  As
+    moderator, I do not pass on ay message which contains or purports to
+    contain material I am obliged to conceal, or which I believe members
+    of other orders are obliged to conceal.  Within that restriction, I am
+    as liberal as possible.  Postings from non-Masons are welcome.  So
+    is criticism, as long as it is reasoned and in good taste.
+
+NativeNet
+    Contact: gst@gnosys.svle.ma.us (Gary S. Trujillo)
+    Purpose: To provide information about and to discuss issues
+    relating to indigenous people around the world, and current
+    threats to their cultures and habitats (e.g. rainforests).
+
+objectivism-request@vixie.sf.ca.us **
+objectivism discussion list - seems to be fairly low traffic - to access the
+archives mail objectivism-lissterv@vix.com with the single-line msg 'help'
+
+[ftp] slopoke.mlb.semi.harris.com /pub/incoming/ronell
+Transcript of an interview with radical feminist Avital Ronell, from Re/SEARCH
+#13, "Angry Women". Fascinating ideas. May not last long at slopoke as it is a
+copyright violation.
+
+world.std.com
+/obi/Rants  Online Book Initiative  eg the whole Principia Discordia, or
+  66.questions, your basic introduction to Holocaust Revisionism
+
+unseen: ec@INDYCMS.BITNET  European Community
+
+and of course Bill Clinton has an email address, I think at Compu$erve, but
+it will be constantly plastered over the net [my excuse for not having it
+here] {what's _al_gore_'s email address, huh?}
+
+*** ZINE REVIEWS ***
+alt.zines, maybe soon alt.zines.electric
+Watch out for Interzine!! The irregularly produced zine devoted to "interviews
+in cyberspace". The first and so far only issue is a chat with Jagwire X,
+founder of the AUtopia list on the idea of an ocean-going New Edge colony
+[autopia-request@wixer.cactus.org - or maybe bigtex.cactus.org now], and it's
+archived somewhere at red.css.itd.umich.edu. Watch out for Rez in Issue #2!
+(Also while we're on the topic: also check out IRC #cIRCle, future home of the
+Academ-E...)
+
+Alternative Press> room in ISCA BBS - the only one I read regularly these days
+
+Some last-minute additions: pdm@ucrmath.ucr.edu maintains an
+"Electronic/Industrial/Etc zines list" (note, those are snail-mail zies)
+which has just been posted to alt.zines, alt.industrial and
+rec.music.industrial; and spingo@panix.com wants you to send him your
+ezine, I think for his BBS.
+
+ftp.msen.com
+/pub/newsletters/F5-E/*  Factsheet Five Electric - zine reviews
+
+au462@cleveland.freenet.edu
+home of luigi - bob drake - editor/assembler of taproot, "a quarterly
+publication of independent, underground, and experimental language-centred
+arts..." who have put out over 40 collections of such - now taproot is
+experimentally going online with a collection of zine reviews. i have seen
+issue #0, part 1, which contains those reviews; i am not a zine person
+myself (i have my hands full with what i'm getting over the net!!) but
+some of the stuff reviewed looked really interesting. there's also reviews
+of poetry chapbooks (?) (unseen) and future issues will include mailart
+sections. [speaking of which, is there such a thing as internet mailart
+yet?] send a request and luigi-bob will mail you with whatever he has.
+worth getting. and say you liked it if you did (same applies to all these
+people); feedback is essential at this stage of development.
+
+*** CYBERPUNK AND THE "NEW EDGE" ***
+
+FUTURE CULTURE IS _THE_ MAILING LIST FOR THIS TOPIC. Andy Hawks on the list:
+
+To post to the FutureCulture list, send your message to:
+
+   future@nyx.cs.du.edu
+
+ALL Requests to FutureCulture must be sent to:
+
+  future-request@nyx.cs.du.edu
+
+[All request messages should garner an auto-reply msg.  ]
+[If future-request does not *consistently* work for you ]
+[then please send your message to:  ahawks@nyx.cs.du.edu]
+0
+The subject of request mail must have one of the following:
+
+    subscribe realtime    -subscribe in realtime (reflector) format
+    subscribe digest      -subscribe in daily-digest (1 msg / day format)
+    subscribe faq         -subscribe to faq only (1 msg every few months)
+    unsubscribe realtime
+    unsubscribe digest
+    unsubscribe faq
+    help                  -receive a help file
+    send info             -receive this file
+    send faq              -receive a recent copy of the faq if you need one
+                           (list subscribers *automatically* receive this)
+
+* When unsubscribing, you must unsubscribe from the same address you
+  subscribed from.  (IMPORTANT!)
+
+* To change formats, first send a message unsubscribing from the crrent
+  format, and then send another message to resubscribe.
+
+* Please note that when posting to the list, you should expect to
+  receive at least 1 "Failed Mail" message because, inevitably, there is
+  a problem with the addresses of one or more of the subscribers.  Sorry.
+
+list administrator:     andy (hawkeye)(dali)(freshjive)
+                        ahawks@nyx.cs.du.edu
+                        ahawks@mindvox.phantom.com
+_______________________________________________________________________________
+
+I do not keep archives of the digests, or the list in general.  So, if
+you're looking for archives, I can't help you out, probably.  But it
+wouldn't hurt to ask on the list.
+
+If you're looking for an FTP site that carries FutureCulture related
+stuff, try:
+                ftp.css.itd.umich.edu /poli/future.culture.d
+                ftp.eff.org pub/cud/papers/future
+                ftp.u.washington.edu public/alt.cyberpunk
+                redspread.css.itd.umich.edu
+
+If you have IRC access, look for the '#future' channel.  If it's not
+there, start it up!  Don't wait for the #future, make the #future.  =)
+
+You can also find the FutureCulture FAQ on the IRC, with the
+#CyberPunk Bot.  Join Channel #CyberPunk and type: /msg CyberBot send info.
+_______________________________________________________________________________
+
+If the list is dead, you might try posting something new.  Here are
+some suggestions:
+
+computer underground
+cyberculture
+cyberpunk (literary and cultural movements)
+cyberspace
+new edge
+nootropics or other drugs
+raves
+technoculture
+virtual reality
+music, movies, books, magazines that fit into the mold
+
+NOTE [from me]: YOU CANT GET AGRIPPA or AGR1PPA FROM future-request ANY MORE.
+[Andy had space problems at Nyx.] Just post to alt.cyberpunk asking for a
+copy, and you'll get 10 mocking flames and 100 emailed copies.
+
+The EFF [stolen from FC FAQ]
+-------
+EFF History
+by John Perry Barlow
+ftp.eff.org /pub/eff/historical/eff-history
+
+EFF Information
+ftp.eff.org /pub/eff/about-eff
+
+EFF Legal Case Summary
+ftp.eff.org /pub/eff/historical/legal-case-summary
+
+EFF Mission Statement
+ftp.eff.org /pub/eff/mission-statement
+
+EFF News (EFFector Online)
+effnews-request@eff.org
+
+EFF Press release (founding)
+ftp.eff.org /pub/eff/historical/founding-announcement
+
+The EFF and Virtual Communities
+by Mike Godwin
+ftp.eff.org /pub/eff/papers/eff-and-virtual-communities
+
+cs.dal.ca (129.173.4.5) /pub allegedly big cyberpunk archives can't see em
+
+bladex@bigtex.cactus.org **
+home of Scream Baby e-zine - an occasional publication but very very good -
+Blade X appears to be hip to all the right things - archived at
+red.css.itd.umich.edu - there's a paper zine I haven't seen
+ftp.eff.org /pub/journals/ScreamBaby  scream-baby.xxx92 {sep, oct, nov, dec}
+
+ccappuc@caticsuf.csufresno.edu "CuD ripoff with different info" - CPSR press
+releases - Usenet reader responses - send message with body "Please add my
+E-mail address to the mailing list" - specify maximum number of bytes or
+lines you can take
+
+dfp-request@underg.ucf.org - digital free press, archived at EFF ftp.eff.org]
+
+FringeWare, Inc.
+fringeware-request@wixer.cactus.org
+0       -Paco Xander Nathan's company
+they sell everything, including the McKenna/Meyer "TIMEWAVE ZERO" software
+
+future-request@nyx.cs.du.edu **
+andy hawks' famous FutureCulture list
+the FAQ is a fantastic document - available via ftp from umich.edu
+FCult archives in .ARJ form /pub/atman at ftp.rahul.net
+rahul also has agrippa, acidwarp
+ 
+glove-list-request@karazm.math.edu  Atari PowerGlove [from Mondo 2000]
+
+jagwire@bigtex.cactus.org - runs the AUtopia mailing list. FutureCulture
+subscribers will know about AUtopia - the proposal for a technocolony/TAZ
+at sea, perhaps like the Grenadians in "Islands in the Net"
+autopia-request@bigtex.cactus.org
+
+leri-l@??? **
+leary - mckenna - the singularity. the electronic commune. thousands of
+lines of text everyday; guaranteed to crash lesser mailers.
+one of the net's many elites
+on the move - contact moore7004@iscsvax.uni.edu for current address
+
+mind-l-request@asylum.sf.ca.us
+mind machines - inquire and they'll send you a useful info list - there should
+be a bitnet address but unfortunately i dont have it
+        an old blurb:
+        [Last Updated 12-October-1991]
+   MindMachine Digest is a list devoted to discussions
+   on the use, construction, and future potential
+   of mind machines. Mind machines are electronic devices
+   or methods that non-invasively alter human consciousness.
+   Other topics of discussion can include: meditation,
+   accelerated learning, hypnosis, float tanks, and other
+   methods of altering consciousness. A strong emphasis is placed
+   on the scientific study of these methods as well as the
+   construction of mind machines devices.
+   ...
+        LIST OWNER:   Dana Nibby
+
+[ftp] quartz.rutgers.edu /pub/subgenius/transhuman.Z
+What this is doing in the subgenius directory I don't know - transcript of the
+chapter from "Are You a Transhuman?" by FM2030 [formerly FM Esfandiary] in
+which he outlines the ideology he tentatively designates "Up-Wing" -
+pro-physical immortality, pro-space colonization, "telespheres",
+teledemocracy, "networks of intimacy" etc etc. also available via anon ftp
+from slopoke, /pub/incoming/upwinger. These ideas have a lot in common with
+Extropian ideas (see elsewhere) except that FM's slant is more collectivist in
+its orientation I think.
+
+surfpunk@osc.versant.com (SURFPUNK Technical Journal)
+unseen by me. an excerpt from surfpunk was posted somewhere that i _do_ read,
+and this was the "sig" (can anyone translate for me what i presume to be
+spanish at the end?):
+
+The SURFPUNK Technical Journal is a dangerous multinational hacker zine
+originating near BARRNET in the fashionable western arm of the northern
+California matrix.  Quantum Californians appear in one of two states,
+spin surf or spin punk.  Undetected, we are both, or might be neither.
+________________________________________________________________________
+
+Send postings to <surfpunk@osc.versant.com>, subscription requests
+to <surfpunk-request@osc.versant.com>.  MIME encouraged.  Xanalogical
+archive access soon.  Copyright Infringement Is Your Best Entertainment Value.
+________________________________________________________________________
+
+                        Cambie su inodoro viejo de 5-7 galones por un
+                        nuevo de desag\"u\'e m\'odico de 1.6 galones y reciba
+                        $50 de reembolso de parte de California Water
+                        Service Company.  Llame al (415) 367-6800 ahora y
+                        obtenga una lista de inodoros de desag\"ue m\'odico
+                        aprobados y requisitos para ser elegible.
+
+Psyche e-zine - contact X91007@phillip.edu.au - speculative science / culture
+-------------------------------------------------------
+Announcement: New Electronic Magazine 'Psyche'.
+[first issue out march '93?]0
+Examples of some of the general areas that Psyche will cover
+are: the mind-body problem; altered-states-of-consciousness;
+psychoactive drugs; shamanism; dream states; hypnosis;
+artificial intelligence; meditative states; ecstatic
+religious states; blindsight; language and mind.
+In an attempt to offer a grounding in some of the central
+themes of Psyche, major review articles of influential
+ideas/books/movements will also be solicited. Examples of
+what these might be are: John Searle's Chinese Room Problem;
+Daniel Dennett's book 'Consciousness Explained'; Gordon
+Wasson's theories regarding Soma; Roger Penrose's book 'The
+Emperor's New Mind'.
+While Psyche will not be peer-reviewed this does not mean
+that it will become a haven for New Age/Lunatic Fringe ideas.
+I have just completed a BSc Honours majoring in psychology,
+and I am currently studying the way the brain codes the
+position of objects. I would like to balance by skills with
+others and so am particularly interested in getting in
+contact with people with backgrounds in either computer
+science, philosophy or anthropology to act as sub/co-editors.
+-------------------------------------------------------0
+some new edge zines with email addresses [cribbed wholly from the FC FAQ]
+                                                         |              |
+                                                         |   Magazines: |
+                                                         |______________|
+
+
+CyberEdge Journal
+928 Greenhill Road
+Mill Valley, CA 94941
+415.383.2458 (voice)
+415.389.0251 (fax)
+bdel@well.sf.ca.us
+       -covers vr and related topics
+       -$129 for 6 issues
+0
+EXTROPY: The Journal of Trans-humanist Thought
+PO Box 57306
+Los Angeles, CA 90057-0306
+       -$9 two issues (one year)
+[editor Max More, more@ucsc.edu -mp]
+0
+Fluxu8
+fluxu8@well.sf.ca.us
+rderek@world.std.com
+       -magazine described as "Mondo 2000 without the gloss"
+       -email for info
+
+Hack-Tic
+pb 22953, 1100 DL
+Amsterdam, The Netherlands
+31.20.6001480
+ropg@ooc.uva.nl (Internet)
+       -published near that hotbed of hackers in holland/amsterdam
+       -European counterpart to 2600
+       -$2.30 US an issue
+
+Intertek
+Steve Steinberg
+325 Ellwood Beach #3
+Goleta, CA   93117
+steve@cs.ucsb.edu
+       -hacking, cyberspace, interviews, designer drugs, cryonics, etc.
+       -$4 an issue
+
+Iron Feather Journal
+PO Box 1905
+Boulder, CO   80306-1905
+sprother@nyx.cs.du.edu
+       -hacking, anarchy, techno-phun, underground info, raves, activism
+       -$2 an issue
+
+Mondo 2000
+PO Box 10171
+Berkeley, CA    94709
+415.845.9018 (phone)
+415.649.9630 (fax)
+mondo2k@well.sf.ca.us
+mondo2k@mindvox.phantom.com
+       -your guide to all things cyberpunk and some things not
+       -$24 for 5 issues (published quarterly)
+
+2600
+PO Box 752
+Middle Island, NY   11953-0752
+516.751.2600 (office)
+516.751.2608 (fax)
+2600@well.sf.ca.us
+       -the famous hacker's zine
+       -subscriptions are $21 for 4 issues (published quarterly)
+       -back issues are $25 / year
+
+Whole Earth Review
+PO Box 38
+Sausalito, CA   94966-9932
+(Whole Earth runs The Well [Whole Earth Lectronic Link] - well.sf.ca.us)
+       -combines new age, techno-culture, california fads, etc.
+       -$20 year for subscriptions
+
+*** MISCELLANEOUS ZINES ***
+
+sokay@mitre.org - home of 'Armadillo Culture", which also gets posted to
+usenet it seems - "being the excremeditation of a hyperactive armadillo's
+activities, opinions, and other stuff..." - still haven't *read* the damn
+thing - "cool ezine" - Andy Hawks in the FC FAQ
+
+tibbetts@hsi.hsi.com - home of the Unplastic News, also archived by EFF
+Unplastic No 5 has just come out.
+
+InterText
+    Contact: intertxt@network.ucsd.edu (Jason Snell)
+
+    Purpose: InterText is a bi-monthly fiction magazine with over
+    1000 subscribers worldwide.  InterText publishes in two formats:
+    straight ASCII and PostScript (for Postscript compatible laser
+    printers).  For more information, to ask about subscribing, or for
+    submission guidelines, maili intertxt@network.ucsd.edu.  Back
+    issues may be FTPed from network.ucsd.edu, in the /intertext
+    directory.
+
+export.acs.cmu.edu  /pub/quanta  Quanta e-zine
+
+network.ucsd.edu
+        InterText          network.ucsd.edu:/intertext
+        Athene        network.ucsd.edu:/intertext/Athene
+
+*** TASTELESS AND DISGUSTING THINGS ***
+
+bediger@nyx.cs.du.edu
+KAKA SUTRA - Tasteless Sex Acts (from alt.tasteless FAQ)
+
+case@diku.dk
+  "Paul Spinrad (pspinrad@ads.com) once wrote a 'Bodily Functions Survey'
+with questions covering nasal hygiene, vomiting, urination, defecation and
+flatus expulsion. Send email with the header 'cancer cunt puke, I hate you
+I hate you!' to case@diku.dk." (from the alt.tasteless FAQ)
+  - according to the FAQ case can also send you "Recycled Jokes Files"
+(necrophilia jokes, vomit synonyms, etc), various classic alt.tasteless
+stories (the gerbil-and-meat grinder story, Scrotum Self Repair),
+and the alt.tasteless theme song.
+
+weird-l@brownvm.brown.edu **
+contact listserv@brownvm.brown.edu - sub l your_name
+This appears to be 95% surrealistic  vignettes. Not really my cup of tea.
+
+*** COPYRIGHT VIOLATIONS ***
+
+coppinge8817@iscsvax.uni.edu
+has copies of Monty Python scripts HOLY GRAIL, LIFE OF BRIAN, MEANING OF LIFE
+apparently lots of people on alt.fan.monty-python have these but like to
+withhold them from newbies. or some such. anyhow, i have an appeal for
+information: i'd like to keep a list of all copyright violations available
+on the net - transcribed texts that is. if you have any, or know where
+they can be found, contact me!
+
+*** MU*S ***
+
+MUD
+    Contact: jwisdom@gnu.ai.mit.edu (Joseph Wisdom)
+    Purpose: If you are new in the MUD world, or are simply looking
+    for new places to get into, try subscribing to Internet Games
+    MUD-List today! Make sure to include the string "mud list" in the
+    subject header.
+
+tinymuck-sloggers
+    Contact: tinymuck-sloggers-request@piggy.ucsb.edu (Robert Earl)
+    Purpose: Forum for programmers, wizards, and users of the
+    extensible, programmable TinyMUD derivative known as TinyMUCK
+    (current version: 2.2).
+
+tinymush-programmers
+    Contact: tinymush-programmers-request@cygnus.com
+    Purpose: Discussion devoted to the programming language integral
+    to the TinyMUSH subfamily of mud servers.  (See the rec.games.mud
+    FAQ for more general information about muds).
+
+DragonMUD 134.114.64.6 4201
+
+Trippy MUSH - 128.153.16.13 7567 - not a mud/mush/muck/moo fan myself
+but this might be the one that gets me addicted. [well, not, as it turned out]
+this is a really interesting place! others that have been recommended to me
+but which i have not seen are Cyberion City (michael.ai.mit.edu, dont know port
+number) and Global MUSH (lancelot.cif.rochester.edu 4201). read
+rec.games.mud if you're interested in this sort of thing
+
+mudlist@glia.biostr.washington.edu
+list of working MUDs - updated every Friday
+
+and remember! Divination Web - seismo.soar.cs.cmu.edu 9393 - magickal themes
+
+*** IRC (INTERNET RELAY CHAT) ***
+
+I know very little about IRC, but through the FutureCulture mailing list [see
+"CYBERPUNK AND THE NEW EDGE"] I have learned of channels #future, #drugs
+[featuring a LearyBot], and #CyberPunk featuring a CyberBot. Both the LearyBot
+and the CyberBot also act as fileservers.
+well this isnt true any more - I now spend half my time on IRC - try channels
+#leri, #cIRCle, #mindvox, #future. telnettable IRC servers:
+ircclient.itc.univie.ac.at 6668
+cc.nsysu.edu.tw login irc
+  bbs chatsubo.nersc.gov has a global IRC server [login bbs, then new to create
+account]
+  IRC is also offered to users of the bbs at tolsun.oulu.fi login box, wait
+several days for registration
+Try I think alt.irc for the IRC FAQ.
+Just in this edition of Hwbemail I will reproduce it:
+[WELL IN FACT IT IS NOW IN THE SUPPLEMENT]
+
+*** ROLE-PLAYING GAMES ***
+
+Cthulu [sic]
+    Contact: cthulhu-request@cs.qmw.ac.uk
+    Purpose: A mailing list for discussion about *the* horror frp. CoC.
+
+cyberpunkRPG
+    Contact: cyberrpg-request@veritas.com
+    Purpose: The cyberpunk mailing list is primarly for the
+    discussion of cyberpunk role-playing games.  The discussion is not
+    limited to any game system.  Subjects of a peripheral nature are
+    welcome as long as they don't get out of hand.  There is one
+    rule on this mailing list: the moderator gets to add new rules at
+    will.
+
+flashlife
+    Contact: flashlife-request@netcom.com (Carl Rigney)
+    A mailing list for GMs of Shadowrun and other cyberpunk
+    roleplaying games to discuss rules, scenarios, ask questions,
+    make up answers, and similar fasfax.
+
+*** CULT CLASSICS ***
+from <fitz@wang.com>
+Subject: You've been added to the pkd mailing list
+To: pkd-adds@wang.com
+Date: Mon, 4 Jan 93 23:20:39 EST
+0
+Everybody getting this message has been added to the PKD mailing list, as
+requested (though some of you requested it months ago; I apologize for the
+delay).  Welcome to the list.  In response to questions:
+
+There's no material available by ftp currently, but this may become
+possible at some point.
+0
+If you want to unsubscribe, or change your mailing address, send mail to
+<pkd-list-request@wang.com>.  If you want to send something for
+distribution to the list, mail it to <pkd-list@wang.com>.  The list tends
+to stay quiet for weeks at a time, so if there's something you want to
+post, please go ahead.
+        - - - - - - - - - - - - - - - - - - - - - -
+adolph-a-carrot-request@andrew.cmu.edu (not seen by me)
+severed heads and other bands on the ralph label - there are a zillion
+mailing lists devoted to various groups, i'm not gonna list em all, i just
+like the name of this one - another fun name is jump-in-the-river-request
+@PRESTO.IG.COM (sinead o'connor) (as always, not seen by me)
+
+A.Rice@HAMPVMS.BITNET - anne rice discussion groupppppp
+send sub requests to ngustas@hampvms.bitnet
+
+audrey.levels.unisa.edu.au (130.220.16.88)
+/pub/twin-peaks.timeline.Z - 5000 lines of blow-by-blow description
+
+Black Adder quotes - yshah@lucpulit.luc.edu - alt.comedy.british
+
+ -Dante Project         telnet library.dartmouth.edu or 129.170.16.11
+   offers: Divine Comedy and reviews.  (Login: connect dante)
+
+dark-shadows
+    Contact: shadows-request@sunee.waterloo.edu (Bernie Roehl)
+about the gothic tv series
+
+dead-heads@fuggles.acc.virginia.edu  Grateful Dead
+
+douglas adams, galactic guide [alt.douglas-ad faq]
+
+jarre-request@cs.uwp.edu / cs341a002@husky1.stmarys.ca ???
+
+FWAKE-L  contact mokelly%IRLEARN.BITNET@cunyvm.cuny.edu
+
+PYNCHON - contact userdog1@cc.sfu.ca - userdog1 DOES NOT EXIST
+
+sf-lovers-request@rutgers.edu (not seen by me)
+elbereth.rutgers.edu SF lovers archive
+
+voynich-request@rand.org - for serious discussion of the mysterious Voynich
+  MS (also see below un FTP section)
+
+ccu.umanitoba.edu /pub/simcity/simcheat.zip - speaks for itself
+
+glia.biostr.washington.edu  /pub/queensryche  lyrics etc
+
+"FIDO 1:124/4229" lot of files relating to filk, SCA,
+   "Black Book of Locksley" etc
+
+*** POPULAR (AND NOT-SO-POPULAR) MUSIC ***
+Thomas.Mueller@mixcom.com - email for Skinny Puppy samples list
+
+[info concerning the debbie gibson newsletter, & grunge and indie lists
+courtesy Newfoundland Puppy]
+Debbie Gibson
+> ...Any moderator can put you on the list, but the head
+> guy seems to be Felix Ng, so I'd suggest using his email address for
+>0HWBeM ....
+>     Felix Ng : fng@nyx.cs.du.edu
+
+grunge-list
+> To subscribe to the grunge-list type:
+> SUBSCRIBE GRUNGE-L your name
+> ... in the main body of a letter, and send it to listserv@ubvm.cc.buffalo.edu
+> To send a message to the grunge-list, write it and send it to
+> grunge-l@ubvm.cc.buffalo.edu and the letter will bounce to every
+> subscriber. Voila!
+
+indie list
+>0Ah...! It's a weekly digest devoted to "indie" music - that is
+>0(generally) music found outside the corporate mainstream on small
+>0independent labels. Good source of info for that kinda of stuff,
+>0and a very loose editorial policy (no flames, try to keep stuff
+>0relevant to music, and mention major-label bands as little as
+>0possible).
+> To subscribe, contact Liz Clayton at lclayton@uhuru.uchicago.edu .
+>0To submit an article, send it to me at houk@athena.cs.uga.edu .
+>0For a FAQ and general info, contact Mark Cornick at mcornick@delphi.com .
+>0For back issues, FTP to cs.uwp.edu in pub/music/lists/indie.
+>0For those without FTP access, contact Sean Murphy at
+>0    skmurphy@phoenix.princeton.edu .
+
+punk-list@cs.tut.fi - totally unseen by me, I think I inquired long ago & got
+no response, but I see crosspostings from there on anarchy-list all the time
+
+MAILLIST, BOOTHELP etc via mwilkenf - rare U2 live recording, Bruce hornsby's
+1977 senior recital tape, strange pink floyd stuff, lots of dio in one, etc
+
+*** RAVES ***
+(mostly from alt.rave FAQ - none seen by me)
+
+there is supposed to be a virtual rave, telnet sfraves.berkeley.edu 7283 I
+think. havent seen it.
+
+sfraves is apparently the biggie, subscribed to by people as diverse as TOPY
+and the DEA.
+sfraves-request@soda.berkeley.edu (San Francisco, Bay Area)
+  - ftp archives at soda.berkeley.edu /pub/sfraves
+socal-raves-request@uscd.edu (Southern California)
+ne-raves-request@silver.lcs.mit.edu (North/Eastern U.S.)
+Minnesota rave list - mail ivan@staff.tc.umn.edu for details
+UMD-centric list - mail cyberpun@wam.umd.edu
+    Purpose: SFRaves is about the "rave" club scene in San Francisco.
+    Even though it's locally focused, people from all over the world
+    are on SFRaves.  It is an unmoderated list.
+    Purpose: The NERaves list was started as a North Eastern United
+    States/Canada equivalent of SFRaves.  The list provides a forum
+    for people to discuss the "rave" music/club/dance scene.  For the
+    purposes of the list, "North Eastern" is loosely defined as from
+    Chicago --> East and from Washington DC --> North, including 
+    Ontario, Quebec, and the Mritime Provinces.  People from outside 
+    this area are welcome, too!  NERaves is an unmoderated list.
+
+NetJam
+    Contact: netjam-request@xcf.berkeley.edu) Craig Latta
+    Purpose: NetJam provides a means for people to collaborate on musical
+    compositions, by sending Musical Instrument Digital Interface (MIDI)
+    and other files (such as MAX patchers and notated scores) to each
+    other, mucking about with them, and resending them.  All those with
+    MIDI-compatible (and other interesting) equipment, access to emailing
+    and compression facilities and to the Internet and who are interested 
+    in making music are encouraged to participate.
+    Please email netjam-request@xcf.berkeley.edu with the subject line
+    "request for info".
+
+bpm-request@andrew.cmu.edu - DJing mixing music etc - "the DJs' e-list" -andy
+
+soda.berkeley.edu /pub/sfraves/chemistry/probchild.Z
+  Albert Hofmann's "LSD My Problem Child"
+ftp.eff.org /pub/journals/ScreamBaby  scream-baby.xxx92 {sep, oct, nov}
+flubber.cs.umd.edu /other/tms/drug-politics
+cs.dal.ca (129.173.4.5) /pub allegedly big cyberpunk archives can';t see em
+cs.uwp.edu /pub/music/pictures/alt.rave -> mjbrown@magnus.acs.ohio-state.edu
+  alt.raver photos - nothing there yet
+
+cs.uwp.edu /pub/music/pictures/alt.rave -> mjbrown@magnus.acs.ohio-state.edu
+  alt.raver photos - nothing there yet
+
+*** SOME "IN" PLACES ON THE NET ***
+
+I) The WELL (Whole Earth 'Lectronic Link)
+
+You can access the Well by      telnet 192.132.30.2
+                                telnet well.sf.ca.us
+You can dial up:                Call for the number
+The Support Staff:
+                 Telephone (415) 332-4335, Monday-Friday 9-5 Pacific
+Time
+                 Send electronic mail to <support>
+                 Fax # (415) 332-4927
+The WELL charges:
+         -$15/mo service charge
+         -$2/hr WELL use
+         -$4/hr connect surcharge to a limited number of high speed
+modems
+                at (415) 332-8410
+                (hourly charges are billed by the minute)
+         Fees for storage exceeding the initial alottment of 512K are
+        billed:
+         -$20/mo for each meg (1024K) (prorated)
+          Additional fees are charged for:
+         -$25 processing fee to open or switch to a billed account
+         -$18 service fee for returned checks
+         -1.5% balance >60 days late charge
+ The WELL credits:
+         -The initial 5 hours of WELL use at $2/hr to all new accounts
+         -$10 to each user mentioned as the first referral source
+          by a new user
+ Current billing options:
+         -credit card (VISA or MasterCard)
+         -direct bill or invoice
+
+ii) MindVox Overture telnet phantom.com login mindvox
+iii) LaUNChpad BBS   telnet launchpad.unc.edu login launch
+iv) Nyx BBS          telnet nyx.cs.du.edu login new
+  I wanted to put blurbs for Mindvox, launchpad and Nyx here but dont have
+  them to hand as we go to press..
+
+Who are Turing.ORG?
+
+*** MISCELLANEOUS, AND UNFINISHED BUSINESS ***
+
+cs.uwp.edu /pub/misc/lyrics
+
+purity tests, internet hunt [records / comments?]
+usenet penpals news.ans
+
+ -Fileserver via Email  mail smiley@uiuc.edu
+   In body-of-message: Filesend: help  and on a separate line:  Filesend: list
+
+hhc@athena.mit.edu
+for The Complete list of dxphobic dxsayings (for the calculus-fearing)
+
+nancy@genie.slhs.udel.edu
+email version of Calligraphic Button Catalogue - apparently you can get
+buttons bearing witty slogans on just about any damn topic - BEWARE! full
+file well over 1000 lines of text
+
+PURTOPOI list - contact ucc@mace.cc.purdue.edu
+fast@garnet.berkeley.edu - SUB LEN
+
+isae@iastate.edu - wants to tell you about 'netrek' - realtime network game
+
+urbanites-request@psyche.mit.edu - send urbanites-request in subject line
+urban survival (not seen by me)
+
+vampyre   listserv@guvm.georgetown.edu
+
+andy.bgsu.edu Unix Vote by Mail - not seen [can't reach it]
+
+ccu.umanitoba.edu /pub/simcity/simcheat.zip - speaks for itself
+
+penguin.gatech.edu  /pub/leri  the leri-l archives, all sorts of
+  interesting original work, topical essays etc
+next door is /pub/movies, in which some sort of movie rating scheme is
+underway
+
+wuarchive.wustl.edu
+/doc/minsky/option.chapters  chapters left out of "The Turing Option"
+  (Marvin Minsky and Harry Harrison, 192)
+
+bbrigade@world.std.com - "anarchist stuff" - quote
+langserv@hebrew.cc.columbia.edu  no subject - help
+
+nic.ddn.mil renwick-hippilan-0.2txt
+china92.txt
+
+theory.lcs.mit.edu /pub/papers/Plotkin [COMPUTATIONAL THERY -UNSEEN]
+
+                     AXE: e-mail newsletter
+    A quarterly electronic journal  dedicated to contemporary French
+Language  Modern  and  Postmodern  Literature  ( Quebec,  Belgium,
+Switzerland, Africa, Caribbean). Published essentially in French.
+    To subscribe to the journal, one need send only the command SUB
+AXE-LIST Firstname Lastname [where  Firsname Lastname are the first
+and  last names of the individual subscriber] bt electronic mail to
+the  addresse:  LISTSERV@VM1.MCGILL.CA  Electronic subscribers will
+receive  instructions  on   how   to  order  a  list  of  available
+articles,  how to retrieve full texts of those articles, and how to
+Cancel  their  subscriptions.  To  make  access to the journal more
+manageable,  acces  is  provided  to individual articles, rather to
+entire  issues.  Interested  readers  my order all articles from an
+issue.  Inquiries for the list should be send to Janusz PRZYCHODZEN
+at McGill University in Canada (CXZN@MUSICA.MCGILL.CA)
+0    AXE-TALK is the discussion group for the electronic journal AXE
+(AXE-LIST).    Subscriptions   to  AXE-TALK   is   independent   of
+subscription  to  AXE-LIST;  if  you  are  not  subscribed  to  the
+discussion  group, and  would like to be, send command SUB AXE-LIST
+Firstname Lastname    by    electronic   mail   to   the   address:
+LISTSERV@VM1.MCGILL.CA
+    A   directory   of   all  AXE-LIST  articles  is  available  on
+Comserve.  To  obtain  the  list,  send  the  following  command to
+LISTSERV@VM1.MCGILL.CA: INDex AXE-LIST
+
+
+*** SOME FILES RECENTLY UPOADED TO FTP SITES ***
+[unchanged from HWBE2.0 these files can be found at
+slopoke.mlb.semi.harris.com /pub/weirdness
+red.css.itd.umich.edu /zines/weirdness]
+-- look for future uploads of interesting stuff at these sites also --
+
+Along with High Weirdess by Email I have recently upoaded the followig files
+to the slopoke ftp site, directory /pub/incoming. They may have been moved or
+deleted by the time you read this, but use archie to see if there are copies
+left anywhere else.
+
+ronell    Transcript of an interview with radical feminist
+                Avital Ronell.
+
+upwinger        Exposition of the "Up-Wing" ideology by futurist
+                FM-2030 aka FM Esfandiary.
+
+bush.con        Chapter from Jonathan Vankin's 1991 book on
+                conspiracies, all about George Bush.
+
+schismat        Tom Maddox writing about Bruce Sterling's novel
+                "Schismatrix".
+
+prescrip        "The Prescriptures" (from "The Book of the SubGenius")
+
+stclair  "Doug St Clair" (=Ivan Stang) reviewing "Three-Fisted
+                Tales of `Bob'" in MONDO 2000
+
+poison    "Poison for the Heart" by Kevin Solway. Unlike the
+                above texts, which are copyright and have been reproduced
+                without permission, this work of philosophy is explicitly
+                anticopyright.
+
+Version 2.0 of the Scriptures of the Church of Virtuality/Reality
+-----------------------------------------------------------------
+scripture.000 prefatory material
+scripture.001 introduction to the basics of v\r
+scripture.002 miscellaneous ideas and short pieces
+scripture.003 general theme: the net
+scripture.004 general theme: altered states of consciousness
+scripture.005 Qix sees the world; "Diary of a Net Fiend"
+scripture.006 countdown to AO v1.0; early CafeNet material from Pippin
+scripture.007 transcription of insomniac tape by Qix, and Usenet stuff
+
+as well as
+
+evasion       The complete text of Celia Green's remarkable short book
+                "The Human Evasion"
+letters       "Letters Between Enemies", over a years' worth of
+                philosophical correspondence
+wit4wis       "Wit For Wisdom", compiled by Kevin Solway
+drs4bob       Some words from "Doctors for `Bob'"
+
+Stuff on the "Committee of 300" alleged to run the world
+--------------------------------------------------------
+300a          Part I of "The Conspirators' Hierarchy"
+300b          Part II of "The Conspirators' Hierarchy"
+300gif        Diagram of the links in the Conspiracy
+
+waves         Stuff from Waves Forest's newsletter "What Now"
+thompson      Essays and poetry by William Irwin Thompson
+mckenna       "New Maps of Hyperspace" by Terence McKenna
+all24         Draft material for the novel-in-progress "Alpha and Omega"
+moravec       Hans Moravec answering Roger Penrose
+extropia      About the Extropian philosophy and mailing list
+loopy         About quantum gravity, knot theory and other topics
+[remember, see math.princeton.edu, /pub/fycfung/baezpapers for the real
+archive on this topic]
+
+
+   -------------------------------------------------------
+
+
+        SUPPLEMENT TO high weirdness by email v2.1
+
+*** what this file is ***
+
+At the last minute, trying to put something together for release, I have
+simply joined together some "unprocessed" files - they describe:
+i] some things from the slopoke ftp site
+ii] contents of the red.css political archive [ftp]
+iii] scott yanoff's internet resource list
+iv] an IRC FAQ
+v] some stuff 'left over' from the future-culture FAQ
+vi] cult of the dead cow newfiles
+vii] ftp.rahul.net archive contents
+viii] email addresses for sf fan groups
+In the interests of getting info out, etc, this hodgepodge is going out in a
+separate file - if anyone wants to archive it as well, & you're on a dos
+system, I suggest weird2-1.doc and weird2-1.sup as file names.
+
+
+*** STUFF AT THE SLOPOKE FTP SITE ***
+- all these files available from slopoke ftp site
+Files on Chaos Magic and from Peter Carroll's latest book.
+ Liber Files from various Thelemic authors. Uploaded by Grendel,
+mimir@u.washington.edu from The Sacred Grove BBS (206)634-1980.
+ Enochian Files uploaded by Grendel, mimir@u.washington.edu. These are
+from The Sacred Grove BBS (206)634-1980.
+Descriptions of files on this disk:
+Etemple.txt -- The complete text of the chapbook "Enochian Temples"
+Lowertem.txt -- The Lower Temple. Instructions for constructing altars for
+                the temple from the "servient" squares of the Angelic Tablets
+Cacodemo.txt -- Invoking the Cacodemons with the Enochian Temples.
+Firetemp.txt -- A Ritual for the Construction of a Temple of the Fire Tablet.
+                A more elaborate example of a ritual for "Enochian Temples"
+                Makes use of Thelemic symbolism.
+Firstkey.txt -- An analysis of the First Angelic Key
+Temabyss.txt -- Invoking the "Abyss" Experience with Enochian Temples.
+Aeonpers.txt -- The INRI/IRNI formulas, their relation to the Temple
+                initiatory system and the Set/Horus duality. The cosmic
+                effects of the Temples, and suggestions for using the
+                Temples. Contains some hype, which can be safely ignored.
+SetHorus.txt -- Further examination of the Set / Horus mythos, its
+                astrological characteristics and relation to the IRI/IRNI
+                formulas.
+
+Alnotes.txt --  Random notes on the gematria of Liber AL vel Legis
+Archer.txt --   The Book of the Archer. Describes a long-term magickal
+                exercise using the magician's astrological chart as a
+                lamen.
+Heptagrm.txt -- An experimental Ritual of the Heptagram, for use with
+                John Dee's "Heptarchic" magickal system.
+Hexrit.txt --   An experimental Ritual of the Hexagram, using Enochian
+                divine names and a revised interpretation of the INRI
+                formula.
+Initseq.txt --  Divine Creation and Initiation. A VERY esoteric paper,
+                not describable in simple terms.
+Keytwo.txt --   Experiments with the Second Enochian Key. Describes
+                attempts to determine the true use of the Second Key.
+Paths.txt --    A brief listing of the path attributes in Frater Achad's
+                Tree of Life.
+TheLand.txt --  Medieval Social Structures and Achad's Tree of Life.
+                Briefly describes the close relation between these two
+                areas.
+ZRound.txt --   The Zodiacal Round. A series of meditations on the
+                precessional zodiac sequence as series of steps in the
+                creative process. Received from Enochian sources.
+Gematria.zip -- A gematria database program. Included data files
+                contain the entire contents of Sepher Sephiroth,
+                plus an additional 1100 Hebrew words. The Enochian
+                data files contain the entire Calls, all divine names
+                from the Tablets, the Heptarchia, the Aethyrs, and
+                numerous additional words from Dee's records.
+ Ceremonial Magick Files
+ Orgone Committee Files uploaded by Grendel (mimir@u.washington.edu) sysop
+        - the orgone committee sounds _really weird_
+benjamin rowe files
+Contents of this disk:
+ANATOMY.TXT -- Frater Achad's "Anatomy of the Body of God"
+ANATFIGS.ZIP -- Zipped file containing the diagrams for "Anatomy of the Body of God"
+REVIVAL.TXT -- Frater Achad's "The Egyptian Revival"
+ACHDTREE.GIF -- Diagram of Frater Achad's "restored" Tree of Life to accompany "The Egyptian Revival"
+SABIAN.TXT -- A listing of the 360 "Sabian Symbols"
+SENIORS.TXT -- The magickal record of a series of invocations of the Seniors of the Enochian Tablet of Earth
+INRI-TBL.DOC -- Tables of correspondences for the INRI / IRNI formula, with comments.
+NEWAEON.TXT -- A work-in-progress concerning the astrological symbolism of the New Aeon.
+AEONGIFS.ZIP -- Diagrams to go with NEWAEON.TXT
+
+
+
+
+*** POLITICAL ARCHIVES CONTENTS LIST ***
+based on Index for ftp archives on red.css.itd.umich.edu in /poli
+Updated 12/10/92
+zines have since been moved to /zines, where Factsheet Five Electric archives
+are also kept..
+
+0-About.the.site 1-Area.index 2-FTP.by.mail  3-How.to.submit 4-Index
+./Amazons.Intl:
+_ai.readme ai.02 ... ai.22 ai.FAQ ai.index
+
+./Arm.the.Spirit:
+Misc/ PKK/ RAF/ RZ/ qts.readme ats12 ats13
+
+./Arm.the.Spirit/Misc:
+biotech biotech.discuss open.borders why-antia.pamphlet
+
+./Arm.the.Spirit/PKK:
+PKK.background PKK.update PKK.update.2
+
+./Arm.the.Spirit/RAF:
+_red.army.fraction counter.power iraq raf.history raf.prisoners sevillano
+world.econ.summit
+
+./Arm.the.Spirit/RZ:
+_revolutionary.cells gerd.albartus
+
+./Armadillo.Culture:
+armadillo.04
+
+./BAD.brigade:
+BAD-Broadside-#1 ... BAD-Broadside-#8 BAD-Pamphlet-AIDS BAD.pamphlets
+
+./Disability.Rag:
+_disability.rag.readme dr13.1 dr13.2
+
+./ECN:
+
+./EOA:
+free.publicity questionnaire
+
+./Env-Link:
+el.921203a el.921203b
+
+./Essays:
+Chomsky/ Conspiracy/ _index abolishWork community.policing durruti.interview
+free.speech.battle.1 free.speech.battle.2 free.vanunu gulf.crisis.1
+gulf.crisis.2 libertarian.platform presumed spatial.decon the.truth.hurts
+world.government
+
+./Essays/Chomsky:
+3rd.world.at.home chomsky.anarchism.1970 chomsky.loot chomsky.on.economics
+chomsky.vain_hopes
+
+./Essays/Conspiracy:
+NOTE.IMPORTANT README.pacifica.radio.stations bush.clinton.drugs.1
+bush.clinton.drugs.2 bush.clinton.drugs.3 cancer.injection.1 ...
+cancer.injection.6 chemotherapy.1 ... chemotherapy.5 cia.torture.1
+cia.torture.2 contras federal.mind-control.1 ... federal.mind-control.7
+food.radiation.1  food.radiation.2 food.radiation.4 inslaw.01 ... inslaw.18
+inslaw.report.toc kennedy.01 ... kennedy.21
+
+./Future.Culture:
+FAQ.921001 FAQ.921017 _future.culture.readme
+
+./History:
+AMRC.bombing.1970
+
+./INAC:
+_inac.readme british.counterinsurgency coughlin.interview gays.and.ira
+historical.revisionism  human.rights.assembly hunger.strike.history
+irish.police.and.south.africa irish.revisionism irish.women job.discrimination
+mandela.and.ira partition partition.and.women trail.of.tears unions
+woman.murdered womens.conference
+
+./IWW:
+about.the.iww bay.area.iww iww.preamble
+
+./LaRouche:
+020192.tv 030892.tv 053092.tv 091192.tv 102192.tv 102592.tv casino.mondial
+larouche.program.01...larouche.program.21 lincoln.1... lincoln.3 tv.1...tv.8
+
+./MIM:
+MIM.essays/ _literature.list _mim.readme mn1 ... mn9
+
+./MIM/MIM.essays:
+ad.mt1 albania american.leninism anti.idealism china cpp.on.mao cpp.on.mao2
+democratic.socialism feminist.newspapers flying.review gonzalo.in.prison
+kampuchea korea korea.and.taiwan lester.thurow pacifism peru peru.gonzalo
+public.housing.profits reply.to.trotskyist reply.to.trotskyist.5
+state.ownership violence.pt1 violence.pt2 where.buffalo.roam yugoslavia
+
+./MPCC:
+_mpcc.readme factsheet nptn.doc
+
+./NativeNet:
+1492/ General/
+
+./NativeNet/1492:
+Essay/ Event/ Index Media/ Misc/ Myths/ Organizations/ Printed/ Resources/
+
+./NativeNet/1492/Essay:
+aim-statement awair-essay guatemala-conf herstory heyerdahl-talk indian-child
+kuna-statement newsweekchalng peopleshistory weatherford winona-laduke
+
+./NativeNet/1492/Event:
+Current/ Past/
+
+./NativeNet/1492/Event/Current:
+bayarea-events denver-action environ-events hgw-detail hgw-intro
+indiana-event stlouis-event
+
+./NativeNet/1492/Event/Past:
+conferences denver-action guyana-commem hum-rts-conf panama-pilgrim
+
+./NativeNet/1492/Media:
+carib-ghosts deep-dish-tv pbs-series van-homelands
+
+./NativeNet/1492/Misc:
+1492-stories haiti-tourism jamaica-poll latinam-damage
+
+./NativeNet/1492/Myths:
+10-91... 10-92
+
+./NativeNet/1492/Organizations:
+500yrs-resist congr-ind-orgs info-request introductions misc-orgs
+
+./NativeNet/1492/Printed:
+500yrs-booklet 500yrs-reader books las-casas.book nacla-report new-visions
+
+./NativeNet/1492/Resources:
+canadaradiopgm org-resources teach-resource
+
+./NativeNet/General:
+
+./Non.Serviam:
+README.non.serviam Stirner/
+
+./Non.Serviam/Stirner:
+README.Stirner der.einzige.sea.hqx
+
+./Organized.Thoughts:
+ot.1 ... ot.4
+
+./P_News:
+total 100
+README.pnews class.struggle guyana hatespeech ortega our.nazis
+sovietcap tax.the.rich
+
+./Peoples.Tribune:
+pt-19.48 pt-19.49
+
+./Phirst.Amendment:
+1a.1 1a.4
+
+./Practical.Anarchy:
+_pa.readme pa-1.1 pa-1.2 pa-1.3
+
+./Purps:
+purps01 ... purps44
+
+./Resources:
+FOIA.how.to ftp.FAQ igc.info internet.bbs.list manufacturer.phone.numbers
+nixpub.lst ny.transfer.info pdial radical.address.list
+special.internet.connections weirdness
+
+./Scream:
+scream920926 scream921012 scream921102
+
+./Screams.of.Abel:
+intermosh.03 ... intermosh.15 soa.01 soa.02
+
+./Unplasticnews:
+unplasticnews.1 ... unplasticnews.7
+
+./Workers.World:
+Sam.Marcy/ Series.capitalist.rule/ Series.workers.change.world/
+WW.Essays/ _workers.world.readme
+
+./Workers.World/Sam.Marcy:
+_sam.marcy.readme bugsy.txt capitalist.crisis clinton.and.workers
+economy.and.election feet.of.clay marxism.and.insurrection pentagon.mania
+pentagon.plans.war russian.cwp ussr.collapse ussr.yesterday.today
+vault.keepers yeltsin-gaidar.crisis yeltsin.in.decline yugoslavia
+
+./Workers.World/Series.capitalist.rule:
+capitalist.rule.01 ... capitalist.rule.25
+
+./Workers.World/Series.workers.change.world:
+workers.change.world.1 ... workers.change.world.6 workers.change.world.index
+
+./Workers.World/WW.Essays:
+ballots.and.bullets che.in.nyc uvf.interview war.for.oil
+                ++++++++end contents list+++++++++
+
+
+
+*** SCOTT YANOFF'S LIST ***
+I am appending the following list which was emailed to me. It is the
+work of Scott Yanoff rather than myself, and is a compilation of general
+resources rather than "weirdness", but I thought it was too good to pass up.
+
+Forwarded message:
+>From DURFLING@AC.GRIN.EDU Thu Nov 19 10:02:33 1992
+Message-Id: <9211191702.AA00445@nyx.cs.du.edu>
+X-Disclaimer: Nyx is a public access Unix system run by the University
+        of Denver.  The University has neither control over nor
+        responsibility for the opinions or correct identity of users.
+Date: Thu, 19 Nov 92 9:25:47 cdt
+From: "Finagle, etc. (Durflinger,Edward M)" <DURFLING@AC.GRIN.EDU>
+To: MPORTER@nyx.cs.du.edu
+
+
+
+
+          * SPECIAL INTERNET CONNECTIONS:    Last Update: 11/3/92 *
+          * Compiled By:  Scott Yanoff -  yanoff@csd4.csd.uwm.edu *
+* A + by an entry designates new entries/changes to the list since last update *
+  
+ -Agricultural Info.    telnet psupen.psu.edu or telnet 128.118.36.5
+                         PENpages                              (Login: PNOTPA)
+                        telnet caticsuf.csufresno.edu or telnet 129.8.100.15
+                         CSU Freso ATI-NET                     (Login: super)
+                        telnet eureka.clemson.edu or telnet 130.127.8.3
+                         CUFAN (Clemson U Forestry & Ag. Net.) (Login: PUBLIC)
+                        ftp ftp.sura.net (get file pub/nic/agricultural.list,
+                         it contains agricultural email lists & services.)
+                       +mail almanac@oes.orst.edu
+                         body-of-message: send guide  also: send mail-catalog
+ 
+   offers: Agricultural info (livestock reports, current market prices, etc.)
+ 
+ -Am. Philos. Assoc.    telnet atl.calstate.edu or telnet 130.150.102.33
+   offers:  BBS for APA.  (Login: apa)
+ 
+ -Archie                telnet archie.mcgill.ca or 132.206.2.3         (Canada)
+                        telnet archie.funet.fi or 128.214.6.100  (Finland/Eur.)
+                        telnet archie.au or 139.130.4.6             (Aussie/NZ)
+                        telnet archie.cs.huji.ac.il or 132.65.6.5      (Israel)
+                        telnet archie.doc.ic.ac.uk or 146.169.11.3 (UK/Ireland)
+                        telnet archie.sura.net or 128.167.254.179    (USA [MD])
+                        telnet archie.unl.edu or 129.93.1.14         (USA [NE])
+                        telnet archie.ans.net or 147.225.1.2         (USA [NY])
+                        telnet archie.rutgers.edu or 128.6.18.15     (USA [NJ])
+                       +telnet archie.kuis.kyoto-u.ac.jp or 130.54.20.1 (JAPAN)
+                       +telnet archie.nz or 130.195.9.4           (New Zealand)
+   offers: Searches all ftp sites for any program you want.  (Login: archie)
+ 
+ -Archie Mail Servers   mail archie@<INSERT ONE OF ABOVE ADDRESSES HERE>
+   Subject: help  Offers: alterative Archie access to those w/o ftp or telnet.
+ 
+ -Auroral Activity      finger aurora@xi.uleth.ca or finger aurora@142.66.3.29
+   offers: Auroral activity warnings/watches/sightings, updated hourly.
+ 
+ -Baseball Scores       finger jtchern@ocf.berkeley.edu for scores/standings OR
+                        mail jtchern@ocf.berkeley.edu  w/Subject: MLB
+   offers: The latter will subscribe you to receive Major League scores daily!
+ 
+ -Backgammon Servers    telnet 134.130.130.46 4321
+                        telnet solana.mps.ohio-state.edu 3200 or 128.146.37.78
+   offers: Play Backgammon! (Login: guest)
+ 
+ -Billboard Charts      finger buckmr@aix.rpi.edu
+   offers: U.S. Top Pop singles for the week.
+ 
+ -CARL                  telnet pac.carl.org or 192.54.81.128
+   offers: Online database, book reviews, magazine fax delivery service.
+ 
+ -CHAT                  telnet debra.dgbt.doc.ca or telnet 142.92.36.15
+   offers: Interactive AIDS document and simulated conversation (Login: chat)
+ 
+ -Chess Server          telnet valkyries.andrew.cmu.edu 5000 or 128.2.232.4 5000
+  offers: Play/watch real-time chess with human opponents. Type 'help' for help
+ 
+ ?C64 Archive Server    mail twtick@corral.uwyo.edu
+   Subject: Mail-Archive-Request  Body-of-letter: help (hit return) end
+ 
+ -Dante Project         telnet library.dartmouth.edu or 129.170.16.11
+   offers: Divine Comedy and reviews.  (Login: connect dante)
+ 
+ +Diplomacy             mail judge@milton.u.washington.edu
+   offers: Play the SSI game Diplomacy via email. Body-of-letter: help
+ 
+ -DUATS                 telnet duat.gtefsd.com or telnet 131.131.7.105
+                        telnet duats.gtefsd.com or telnet 131.131.7.106
+  offers: Aviation weather, flight planning. (Login: <last name>)
+         The first address is for certified pilots, the second for uncertified.
+ 
+ -Earthquake Info.      finger quake@geophys.washington.edu or 128.95.16.50
+   offers: Recent quake info (location, time, magnitude, etc.)
+ 
+ -E-Math                telnet e-math.ams.com or 130.44.1.100
+   offers: Am. Math. Soc. bbs w/ software and reviews. (Login/Password: e-math)
+ 
+ -FaxGate               mail FaxGate@elvis.sovusa.com
+   offers: Send a Fax via computer.  In body-of-message: help
+ 
+ -FDA BBS               telnet fdabbs.fda.gov or telnet 150.148.8.48
+   offers: FDA bbs (News releases, Aids info, consumer info...) (Login: bbs)
+ 
+ -FEDIX                 telnet fedix.fie.com or telnet 192.111.228.33
+   offers: info. on scholarships, minority assistance, etc. (login: fedix)
+ 
+ -Freenet               telnet freenet-in-[a,b,c].cwru.edu or 129.22.8.47
+                        telnet yfn.ysu.edu or 192.55.234.27 (Login: visitor)
+   offers: USA Today Headline News, Sports, etc...
+ 
+ -Fileserver via Email  mail smiley@uiuc.edu
+   In body-of-message: Filesend: help  and on a separate line:  Filesend: list
+ 
+ -FTP Mail              mail ftpmail@decwrl.dec.com
+   Subject:(hit return) Body-of-letter: help (return) quit Offers:ftp via email
+ 
+ -FTP Mail              mail bitftp@pucc.princeton.edu
+   Body-of-letter: help or ftplist for a list of anon. ftp sites.
+ 
+ -FTP Sites/Archives    ftp ocf.berkeley.edu or ftp 128.32.184.254
+   offers: Docs, 5 puritytests, the Bible, Dec. of Ind, lyrics..cd /pub/Library
+                        ftp wuarchive.wustl.edu or rainbow.cse.nau.edu or
+   offers: Gif archive, pc software. plaza.aarnet.edu.au or erratic.bradley.edu
+                        ftp ftp.uu.net
+   offers: You name it, it's here!
+                        ftp archive.umich.edu
+   offers: Software for MS-Dos computers, Mac, Amiga, Apple2, Apollo...
+                        ftp oak.oakland.edu
+   offers: A huge software archive for PCs and UNIX.
+                        ftp ftp.sura.net
+   offers: How-to's about internet (how to email, ftp, telnet, etc.) in /pub/nic
+ 
+ -Genetics Bank         mail gene-server@bchs.uh.edu
+                       +mail retrieve@ncbi.nlm.nih.gov
+                       +mail blast@ncbi.nlm.nih.gov
+   Subject: help  Offers: genetic database/nucleic acid/protein sequence.
+ 
+ -Geographic Server     telnet martini.eecs.umich.edu 3000 or 141.212.99.9 3000
+   offers: Info by city or area code (Population, Lat./Long., Elevation, etc).
+ 
+ -Georgetown Med. Lib.  telnet mars.georgetown.edu or telnet 141.161.40.4
+  (Login: medlib  Password: dahlgren  Last name: netguest)
+ 
+ -GO Server             telnet lacerta.unm.edu 6969 or telnet 129.24.14.70 6969
+                        telnet icsib18.icsi.Berkeley.EDU 6969
+                        telnet cnam.cnam.fr 6969 or telnet 192.33.159.6 6969
+   offers:  Join others and play a game of GO. (Login/Password: go)
+ 
+ -Gopher                telnet consultant.micro.umn.edu or telnet 134.84.132.4
+                        telnet panda.uiowa.edu or telnet 128.255.63.234
+                        telnet gdunix.gd.chalmers.se or 129.16.221.40 (SWEDISH)
+                        telnet gopher.uiuc.edu or telnet 128.174.33.160
+                        telnet gopher.unt.edu or telnet 129.120.1.42
+                        telnet tolten.puc.cl or telnet 146.155.1.16 (CHILE)
+                       +telnet wsuaix.csc.wsu.edu  (Login: wsuinfo)
+  Offers:  access to other services, gophers, documents, etc. (Login: gopher)
+ 
+ -Guitar Chords/TAB     ftp ftp.nevada.edu or ftp 131.216.1.11
+   offers: Tablature/Chords for guitar in /pub/guitar.
+ 
+ -Ham Radio Callbooks   telnet callsign.cs.buffalo.edu 2000 or 128.205.32.2 2000
+                        telnet ham.njit.edu 2000 or telnet 128.235.1.10 2000
+   offers: National ham radio call-sign callbook.
+ 
+ -Handicap/Medical Site ftp handicap.shel.isc-br.com or ftp 129.189.4.184
+   offers: anonymous ftp of software and medical info.
+ 
+ -HP Calculator BBS     telnet hpcvbbs.cv.hp.com or telnet 15.255.72.16
+   offers:  BBS for HP Calc. users, with chat mode.  (Login: new)
+ 
+ +Hpcwire               telnet hpcwire.ans.net or telnet 147.225.1.51
+   offers: Excellent menu-driven information searches. (Login: hpcwire)
+ 
+ -Hytelnet Server       telnet access.usask.ca or telnet 128.233.3.1
+   offers: univ. & library catalogues around the world. (Login: hytelnet)
+ 
+ -INFO - Rutgers CWIS   telnet info.rutgers.edu or 128.6.26.25
+   offers: Dictionary, thesaurus, CIA world fact book, quotations database.
+ 
+ -Info/Software Server  telnet rusmv1.rus.uni-stuttgart.de or 129.69.1.12
+   offers: journals, unix stuff, etc. login: infoserv or softserv
+ 
+ ?Inter-Ntwk Mail Guide telnet 192.134.69.8 1643
+  offers: List known networks and connections to/from them, help emailing.
+ 
+ -Internet Resrce Guide ftp nnsc.nsf.net
+   offers: compressed/tar'd list of net resources in /resource-guide.txt.tar.Z
+ 
+ -Iowa Politcl. Stk Mkt telnet ipsm.biz.uiowa.edu or 128.255.44.2
+  offers: Buy & sell shares in political candidates. (Non profit research proj.)
+ 
+ -IP Address Resolver   mail resolve@cs.widener.edu
+                        mail dns@grasp.insa-lyon.fr  (body of letter: help)
+   usage: in body-of-letter: site <address here>  Mails you IP address of site.
+ 
+ -IRC Telnet Client    ?telnet bradenville.andrew.cmu.edu or telnet 128.2.54.2
+                        telnet ara.kaist.ac.kr or 143.248.1.53 (Login: irc)
+                        telnet ircserver.itc.univie.ac.at 6668
+   offers: Internet Relay Chat access, like a CB on the computer.
+ 
+ -ISAAC                 telnet isaac.engr.washington.edu or 128.95.32.61
+   offers: Info. System for Advanced Academic Computing, for IBM users.
+ 
+ -Law Library           telnet liberty.uc.wlu.edu or telnet 137.113.10.35
+                        ftp sulaw.law.su.oz.au (cd /pub/law)
+   offers: Law libraries and legal research. (Login: lawlib)
+           Offers copies of laws for each state, computer laws, and more!
+ 
+ -Library Catalogs      ftp dla.ucop.edu (pub/internet/libcat-guide)
+   offers: "Library Catalogs on the Internet:  Strategies for Selection
+    and Use" document (how, but not where; also get one of the following).
+                        ftp ftp.unt.edu (library/libraries.txt)
+   offers: "Accessing Bibliographic Databases" document.
+                        ftp ariel.unm.edu (library/internet.library)
+   offers: "Internet-Accessible Catalogs and Databases" document.
+ 
+ -Library of Congress   telnet dra.com or 192.65.218.43
+   offers: COPY of Library of Congress (Assumes terminal is emulating a vt100).
+ 
+ -List of Lists         ftp ftp.nisc.sri.com or ftp 192.33.33.22
+                        mail mlol-request@wariat.org (music list of lists)
+   offers:  List of interest groups/email lists in /netinfo/interest-groups.
+ 
+ -Lunar/Planet. Instit. telnet lpi.jsc.nasa.gov or telnet 192.101.147.11
+   offers: Resources on Geology, Geophys, Astron., Astrophys. (Login: lpi)
+ 
+ -Lyric/Music Server    ftp ftp.uwp.edu
+                        ftp ftp.iastate.edu (/pub/lyrics)
+   offers: Lyrics, chords/tablature, and music pictures. (/pub/music/...)
+ 
+ -Mac Software Archive  ftp sumex-aim.stanford.edu
+   offers:  Ftp'able software for the Macintosh computers. (cd to /info-mac)
+ 
+ -Mail Srver/Usr Lookup mail mail-server@pit-manager.mit.edu
+   in body of mail message: send usenet-addresses/[name searching for]
+ 
+ -MOLIS                 telnet fedix.fie.com or telnet 192.111.228.33
+   offers:  Minority Online Information Service.  (Login: molis)
+ 
+ -Music Newsletter      mail listserv@vm.marist.edu (internet) or
+                        mail listserv@marist (bitnet)
+  Body-of-letter: SUBSCRIBE UPNEWS <your full name>  Offers: Reviews, intviews.
+ 
+ -NASA Headline News    finger nasanews@space.mit.edu
+   offers: Daily press releases from NASA.
+ 
+ -NASA SpaceLink        telnet spacelink.msfc.nasa.gov or 192.149.89.61
+   offers: Latest NASA news, including shuttle launches and satellite updates.
+ 
+ -Nat'l Education BBS   telnet nebbs.nersc.gov or telnet 128.55.160.162
+   offers: Education BBS (Login: guest)
+ 
+ -NED                   telnet ned.ipac.caltech.edu or telnet 134.4.10.118
+   offers: NASA Extragalactic Database.  (Login: ned)
+ 
+ -Netfind User Lookup   rlogin/telnet bruno.cs.colorado.edu or 128.138.243.151
+   offers: Given a name and org./school, finds a user for you (login: netfind)
+ 
+ -NetLib                mail netlib@ornl.gov
+                        mail netlib@uunet.uu.net
+   Subject:(hit return) Body-of-letter: send index  Offers: Software thru email
+ 
+ -News Mail Servers     mail [newsgroup]@cs.utexas.edu
+   offers: Post to Usenet news via email. (eg. [newsgroup] = alt-bbs)
+ 
+ -NICOL                 telnet nisc.jvnc.net or telnet 128.121.50.7
+   offers: Access to internet resources, Elec. Publishing Service (Login: nicol)
+ 
+ -NICOLAS               telnet dftnic.gsfc.nasa.gov or telnet 128.183.10.3
+   offers: Network Info. Center On-Line Aid System  (Login: dftnic)
+ 
+ -NNTP News Servers     telnet sol.ctr.columbia.edu 119 or 128.59.64.40 119
+                        telnet rusmv1.rus.uni-stuttgart.de 119 or 129.69.1.12
+                        telnet news.fu-berlin.de 119 or 130.133.4.250 119
+   offers: Telnetable access to post to the Usenet news.
+ 
+ +NOAA                  telnet nodc.nodc.noaa.gov or telnet 140.90.235.10
+   offers: Nat'l Oceanic and Atmos. Admin.  Lots of data!  (Login: NOAADIR)
+ 
+ -NODIS                 telnet nssdc.gsfc.nasa.gov or telnet 128.183.36.25
+                        telnet nssdca.gsfc.nasa.gov or telnet 128.183.36.23
+   offers: Menu-driven access to Nat'l Space Science Data Center (Login: nodis)
+ 
+ -Nuclear Data Center   telnet bnlnd2.dne.bnl.gov or telnet 130.199.112.132
+   offers: National nuclear data.  (Login: nndc)
+ 
+ -Oceanic Info. Center  telnet delocn.udel.edu or telnet 128.175.24.1
+   (Login: info)
+ 
+ -Oracle                mail oracle@iuvax.cs.indiana.edu  w/ subject: help
+   offers: The Usenet Oracle answers all your questions!
+ 
+ -OSS-IS                ftp soaf1.ssa.gov
+                        mail info@soaf1.ssa.gov with "send index" as your msg.
+  offers: Many FAQ's, ftp lists, library and service lists, gov't documents.
+ 
+ -PaperGate             mail PaperGate@elvis.sovusa.com
+    offers: Send a letter via computer.  In body-of-message: help
+ 
+ -Public-Access Unix    telnet nyx.cs.du.edu or 130.253.192.68
+   offers:  Free account, with access to various UNIX features. (login: new)
+ 
+ -Public-Access Unix    telnet hermes.merit.edu or telnet 35.1.48.150
+                        telnet m-net.ann-arbor.mi.us or telnet 35.208.17.4
+   (Which host: um-m-net  Enter 'g' for guest.  login: newuser)
+ 
+ -Public-Access Unix   telnet digex.com or 192.55.213.2
+   offers:  full internet services, anonymous accounts, privacy orientation.
+ 
+ -Readers Guide         telnet lib.uwstout.edu or telnet 144.13.12.1
+   offers: Readers Guide to periodical literature, online.
+ 
+ -Recipe Archives       ftp gatekeeper.dec.com  (cd pub/recipes)
+                        ftp mthvax.cs.miami.edu (cd /recipes)
+   offers: Anonymous ftp site for MANY food recipes.
+ 
+ -SDDAS                 telnet espsun.space.swri.edu 540 or 129.162.150.99 540
+   offers: SW Research Data Display & Analysis Center.
+ 
+ -SERVICES              telnet wugate.wustl.edu or 128.252.120.1
+   offers: Access to nearly every listed service! (Login: services)
+ 
+ -Sid's Music Server    mail mwilkenf@silver.ucs.indiana.edu
+   Subject: BOOTHELP  Offers: Lists of rare live recordings, cd's for sale.
+ 
+ -Software Server (ASK) telnet askhp.ask.uni-karlsruhe.de or 192.67.194.33
+   offers:  On-line software search.  (Login/password: ask)
+ 
+ -Spacemet              telnet spacemet.phast.umass.edu or 128.119.50.48
+   offers:  Science/space bbs.
+ 
+ -SPAN                  telnet nssdca.gsfc.nasa.gov or telnet 128.183.36.23
+   offers: Space Physics Analysis Network (Login: SPAN_NIC)
+ 
+ ?SPIES BBS             telnet goonsquad.spies.com telnet 130.43.9.3
+   offers: Readnews, IRC, many other features.  (Login: bbs)
+ 
+ -StatLib Server        mail statlib@lib.stat.cmu.edu
+   Mail with line: send index. Offers: Prgms, Datasets, etc. for statisticians.
+ 
+ -STIS                  telnet stis.nsf.gov or 128.150.195.40
+   offers: Science & Technology Information System. (Login: public)
+ 
+ -Stock Market Report   telnet a2i.rahul.net or telnet 192.160.13.1
+   offers: Public access unix for a fee, market report is free! (Login: guest)
+ 
+ -Supreme Court Rulings ftp ftp.cwru.edu
+   offers: ASCII files of Supreme Court rulings in directory /hermes
+ 
+ -Tropicl Strm Forecast finger forecast@typhoon.atmos.colostate.edu
+   offers: Seasonal forecast for Atl. Ocn.  Also: finger forecast@129.82.107.24
+ 
+ -UMD Info Database     telnet info.umd.edu or telnet 128.8.10.29
+   offers: Info. docs on many subjects, incl. Supr. Crt Decisions (Login: info)
+ 
+ -UNC BBS               telnet bbs.oit.unc.edu or telnet 152.2.22.80
+   offers: Access to Library of Congress and nationwide libraries (Login: bbs)
+ 
+ -WAIStation            telnet quake.think.com or telnet 192.31.181.1
+                        telnet nnsc.nsf.net or telnet 128.89.1.178
+                        telnet wais.funet.fi or telnet 128.214.6.100
+   offers: Wide Area Info. Service. (Login: wais) FTP think.com for more info.
+ 
+ -Weather Service       telnet downwind.sprl.umich.edu 3000 or 141.212.196.177
+   offers: City/State forecasts, ski conditions, earthquake reports, etc.
+ 
+ -Weather Maps          ftp vmd.cso.uiuc.edu
+   offers: Surface analysis & current infrared weather maps GIFs. (cd wx)
+ 
+ -Webster               telnet moose.cs.indiana.edu 2627 or 129.79.254.191 2627
+   offers: Dictionary/Spelling service.  Type "HELP" for info.  (ALL CAPS!)
+ 
+ -Whois Service List    ftp sipb.mit.edu (pub/whois/whois-servers.list)
+   offers: List of "whois" servers.
+ 
+ -Whois Service         telnet nic.ddn.mil or telnet 192.112.36.5
+   offers: Way to find internet address given a keyword. To access type: whois
+ 
+ -World-Wide Web        telnet info.cern.ch or telnet 128.141.201.74 (SWISS)
+                        telnet eies2.njit.edu or telnet 128.235.1.43 (USA [NJ])
+                        telnet vms.huji.ac.il or telnet 128.139.4.3  (ISRAEL)
+                        telnet info.funet.fi or telnet 128.214.6.100 (FINLAND)
+   offers: Access to various documents, lists, and services. (Login: www)
+ 
+ -ZIB Electronic Libr.  telnet elib.zib-berlin.de or telnet 130.73.108.11
+   offers: Library of software, links to other libraries. (Login: elib)
+ 
+  * NOTE: NO LOGIN NAMES OR PASSWORDS ARE REQUIRED UNLESS STATED OTHERWISE! *
+    NOTE: FOR FTP SITES, LOGIN AS ANONYMOUS, PASSWORD IS YOUR EMAIL ADDRESS.
+  * (C) 1992. No changes are to be made to this document without the author's
+    written consent.  Reproduction/distribution without my permission IS
+    allowable so long as this document is left fully intact.
+__________________________________________________________________ 
+Here's a list of info you probably already have...but I know the address 
+for PostNews by mail is in here.  You can also post news on Launchpad, 
+UNC-Chapel-Hill's great BBS, if you mail in a form for a *free* account 
+(you can join via telnet, but then you only get readmail priv's)
+
+Oh, and if you have an interesting tidbits update list...please add me. 
+
+SLACK,
+the Rev. Finagle
+Name: E.M. Durflinger                    | Finagle's Law:
+Handles: Finagle, Stygmata               | The perversity of the univers
+Email: durfling@grin1.bitnet             |  tends towards a maximum.
+        durfling@ac.grin.edu             |
+        durfling@euler.math.grin.edu     |  "Don't just eat that hamburger--
+        wrnc97b (*prodigy*)              |    eat the HELL out of it!"
+Bear code: B4/7 f+ w dc g+ k++! s(+) r- p|      --J.R. "Bob" Dobbs
+Phone: +1-515-236-8496                   |      
+USnail Mail:                             |+++I am a .sig virus! Copy me
+        834 Park Street                  | into your .sig file and aid
+        Grinnell, IA 50112               | in my propagation!!!+++++++   
+_________________________________________________________________________
+"If I can't dance, I don't want to be part of your revolution"-Emma Goldman
+_________________________________________________________________________
+
+*** THE IRC FAQ ***
+(1) What is IRC?
+        IRC stands for "Internet Relay Chat". It was written by Jarkko
+Oikarinen (jto@tolsun.oulu.fi) in 1988. Since starting in Finland, it
+has been used in some 20+ countries spanning the globe.  It was designed
+as a replacement for the "talk" program but has become much much more
+than that. IRC is a multi-user chat system, where people convene on
+"channels" (a virtual place, usually with a topic of conversation) to
+talk in groups, or privately.
+        IRC gained international fame during the late Persian Gulf War,
+where updates from around the world came accross the wire, and most
+people on irc gathered on a single channel to hear these reports.
+
+(2) How is IRC set up?
+        The user runs a "client" program (usually called 'irc') which
+connects to the irc network via another program called a "server".
+Servers exist to pass messages from user to user over the irc network.
+
+(3) How do I use a client?
+        You either compile the source yourself, have someone else on
+your machine compile the source for you, or use the TELNET client.
+"telnet bradenville.andrew.cmu.edu". Please only use the latter when you
+have no other way of reaching irc, as this resource is quite limited.
+
+(4) Where can I get source for the irc client?
+UNIX client-> cs.bu.edu /irc/clients
+              plod.cbme.unsw.edu.au
+              nic.funet.fi pub/unix/irc
+              ftp.informatik.tu-muenchen.de pub/net/irc
+              slopoke.mlb.semi.harris.com
+              there is also a client avaliable with the server code.
+EMACS elisp-> cs.bu.edu /irc/clients/elisp
+              nic.funet.fi
+              ftp.informatik.tu-muenchen.de
+              slopoke.mlb.semi.harris.com
+EMACS elisp "irchat"->  cs.bu.edu /irc/clients/elisp
+                        lehtori.cc.tut.fi:/pub/irchat
+                        nic.funet.fi:/pub/irchat
+VMS ->        cs.bu.edu /irc/clients/vms
+              coombs.anu.edu.au
+REXX client for VM->    cs.bu.edu /irc/clients/rxirc
+                        ftp.informatik.uni-oldenburg.de pub/irc/rxirc
+MSDOS->         cs.bu.edu /irc/clients/msdos
+                freebie.engin.umich.edu:/pub/irc/clients/MSDOS
+
+Macintosh->     cs.bu.edu /irc/clients/macintosh
+                sumex-aim.stanford.edu /info-mac/comm
+
+(5) Which server do I connect to?
+        It's usually best to try and connect to one geographically
+close, even though that may not be the best. You can always ask when you
+get on irc. Here's a list of servers avaliable for connection:
+                csd.bu.edu
+                ucsu.colorado.edu
+                badger.ugcs.caltech.edu
+                ug.cs.dal.ca
+                nic.funet.fi
+                vesuv.unisg.ch
+                munagin.ee.mu.oz.au
+                sunsystem2.informatik.tu-muenchen.de
+
+This is, by no means, a comprehensive list, but merely a start. Connect
+to the closest of these servers and join the channel #Twilight_Zone
+When you get there, immediately ask what you want. Don't say "I have a
+question" because then hardly anyone will talk.
+
+(6) OK, I've got a client and I'm connected to a server? Now what?
+        It's probably best to take a look around and see what you want
+to do first. All irc commands start with a "/", and most are one word.
+Typing /help will get you help information. /names will get you a list
+of names, etc.
+
+The output is typically something like this-> (Note there are more
+channels than this, this is just sample output).
+
+Pub: #hack      zorgo eiji Patrick fup htoaster
+Pub: #Nippon    @jircc @miyu_d
+Pub: #nicole    MountainD
+Pub: #hottub    omar liron beer Deadog moh pfloyd Dode greywolf SAMANTHA
+
+"Pub" means public (or "visible") channel. "hack" is the channel name.
+"#" is the prefix (see number 7 below). A "@" before someone's nickname
+indicates he/she is the "Channel operator" of that channel. A Channel
+Operator is someone who has control over a specific channel. It can be
+shared or not as the first Channel Operator sees fit. The first person
+to join the channel automatically gets Channel Operator, and can share
+it with anyone he/she chooses (or not).
+0
+(7) I hear this talk about "+" channels, but I don't see any. What were
+they?
+        "+" channels were in older server versions. They no longer
+exist, and probably will stay dead in later code revisions.
+
+(8) What are good channels to try while using irc?
+        #hottub and #initgame are almost always teeming with people.
+#hottub is meant to simulate a hot tub, and #initgame is non-stop game
+of "inits" (initials). Just join and find out!
+        Many irc operators are in #Twilight_Zone ... so if you join
+that channel and don't hear much talking, don't worry, it's not because
+you joined, operators don't talk much on that channel anyways!
+0
+(9) How can I find out more about how + and # channels are changing?
+        ftp to cs.bu.edu and look at irc/irc-2.7.CHANGES
+
+(10) What if someone tells me to type something cryptic?
+        Never type anything anyone tells you to without knowing what it
+is. There is a problem with typing a certain command with the ircII
+client that gives anyone immediate control of your client (and thus can
+alter your account environment also).
+0
+(11) What is NickServ? What if I can't remember my NickServ password?
+        To quote from NickServ's help text, NickServ's purpose is to
+keep unique nicknames on irc. NickServ sends a warning to anyone else
+who signs on with your nickname.  If you don't use IRC for 10 weeks,
+your nickname expires for reuse.
+0
+        Only a NickServ operator can change your nickserv password.
+To find out which NickServ operators are online, send
+/msg NickServ@service.de OPERWHO
+
+Nicknames with a "*" next to them are online at the time.
+
+(12) What is IPCLUB? GIF-Archives of IRC-persons?
+        IPCLUB stands for IRC Picture Club. It is an E-Mail service
+provided by tommi@phoenix.oulu.fi for all the users of the Internet. For
+more help, mail tommi@phoenix.oulu.fi with the subject of "IPCLUB/HELP".
+0
+(13) Where can I learn more?
+        A good place to start might be downloading the irc tutorials.
+They're avaliable via anonymous ftp from cs.bu.edu in
+/irc/support/tutorial.* .. You can also join various IRC related mailing
+lists. "operlist" is a list that discusses current (and past) server
+code, routing, and protocol. You can join by mailing
+operlist-request@eff.org. You can join the irchat mailing list by
+mailing irchat-request@cc.tut.fi. There is a low traffic ircII mailing
+list, mail dl2p+@andrew.cmu.edu to be added. Another mailing list,
+ircd-three@eff.org, exists to discuss protocol revisions for the 3.0
+release of the ircd, currently in planning. Mail
+ircd-three-request@eff.org to be added to that.
+0
+(13) What do I do if I'm still confused or have additions to this posting?
+        email hrose@eff.org or ask for help (in #Twilight_Zone) on irc.
+
+
+
+*** LEFTOVERS FROM THE FUTURE CULTURE CYBEROGRAPHY ***
+this is all stuff from the FC FAQ which ought to be included just because it's
+on the net, but which for one reason or other I haven't put in the other
+sections yet.
+________________________________________________________________________
+                                     |                                  |
+                                     |   E-Magazines/Articles/Digests   |
+                                     |__________________________________|
+0
+0
+Across the Electronic Frontier
+by Mitch kapor and John Perry Barlow
+ftp.eff.org /pub/eff/papers/across-electronic-frontier
+        -explanation of EFF, goals
+
+Activist Times Incorporated
+gzero@tronsbox.xei.com
+ftp.eff.org /pub/cud/ati
+       -political, hacking, anarchy
+       -newsgroup alt.society.ati
+
+Agrippa:  A Book of the Dead
+by William Gibson
+ftp.rahul.net under /pub/atman/UTLCD-preview/assorted-text/agrippa.arj
+0
+AI Information
+ftp uunet.uu.net ai
+flash.bellcore.com /pub
+gargoyle.uchicago.edu /pub
+solaria.cc.gatech.edu /pub
+0
+Alcor information
+ftp.eff.org /pub/cud/alcor
+0       -an e-mail privacy suit
+0
+Amiga Files
+archive.umich.edu
+plains.nodak.edu /pub
+ucsd.edu /pub
+ux1.cso.uiuc.edu
+0
+Anarchy 'N' Explosives
+ftp.eff.org /pub/cud/ane
+0       -anarchy, phreaking
+0
+Anime Info
+oinker.ucsb.edu /pub/anime
+0
+Apple II Files
+archive.umich.edu /apple2
+cobalt.cco.caltech.edu /pub/apple2
+ftp.uu.net /systems/apple2
+plains.nodak.edu /pub/apple2
+tybalt.caltech.edu /pub/apple2
+wuarchive.wustl.edu /systems/apple2
+0
+ArachNet:  E-Journal of Virtual Culture
+listserv@uottawa.bitnet
+        -message body:  SUB ARACHNET <firstname> <lastname>
+        -journal of all aspects of on-line life
+0
+Basic Networking
+ftp.eff.org /pub/cud/misc/basic1.net
+       -Telenet
+
+Baudy World of the Byte Bandit:
+A Post-modernist Interpretation of the Computer Underground
+by Jim Thomas and Gordon Meyer
+ftp.eff.org /pub/cud/papers/baudy.world
+0
+Being In Nothingness
+by John Perry Barlow
+milton.u.washington.edu
+0        /public/virtual-worlds/papers/Barlow.BeingInNothingness.Z
+
+Beyond CyberPunk HyperCard Stack
+archive.umich.edu /mac/hypercard/fun
+ra.nrl.navy.mil /MacSciTech/programming/hypercard
+scavengerhunt.rs.itd.umich.edu /mac/etc/demo
+wuarchive.wustl.edu /mirrors3/archive.umich.edu/mac/hypercard/fun
+0
+Bootlegger
+ftp.eff.org /pub/cud/bootlegger
+       -cracking, hacking
+
+Chalisti
+ftp.eff.org /pub/cud/chalisti
+       -German hacking, associated with the Chaos Computer Club
+       -written in German
+
+Chaos Computer Club Files
+ftp.eff.org /pub/cud/ccc
+ftp.titania.mathematik.uni-ulm.de /info/CCC
+        -written in German
+0
+Cheap Virtual Reality Info
+ftp.u.washington.edu /public/virtual-worlds
+0
+CHiNA
+ftp.eff.org /pub/cud/misc/china2.3
+0        -hacking, etc.
+0
+Commercial Virtual Reality Info
+ftp.u.washington.edu /public/virtual-worlds
+0
+Computers and Academic Freedom
+listserv@eff.org <add comp-academic-freedom-news>
+       -computing freedom, mostly deals with college campuses
+0
+Computer Crime: Current Practices, Problems and Proposed Solutions
+by Brian J. Peretti
+ftp.eff.prg /pub/cud/papers/computer.crime
+0
+Computer Crime Laws
+ftp.eff.org /pub/cud/law
+       -computer crime laws for almost every state
+       -international laws as well
+0
+Computer Down-Underground Digest
+digest@nacjack.gen.nz
+ftp.eff.org /pub/cud/cdugd
+       -CUD for Australia, New Zealand
+0
+Computer Underground Digest
+tk0jut2@niu.bitnet
+ftp.eff.org /pub/cud/cud
+red.css.itd.umich.edu
+        -"USA Today" of Cyberspace and computer underground
+0
+Concerning Hackers Who Break into Computer Systems
+by Dorothy E Denning
+ftp.eff.org /pub/cud/papers/denning
+0
+The Constitution in Cyberspace
+by Laurence Tribe @ CFP #1
+ftp.eff.org /pub/cud/papers/const.in.cyberspace
+0
+Corrupted Programmers International
+ftp.eff.org /pub/cud/cpi
+        -viruses
+
+Crime and Puzzlement
+by John Perry Barlow
+ftp.eff.org /pub/cud/papers/crime.puzzle
+0
+Crime and Puzzlement 2
+by John Perry Barlow
+ftp.eff.org /pub/eff/papers/crime-and-puzzlement-2
+0
+Crime and Puzzlement & 2600
+ftp.eff.org /pub/cud/papers/cp.2600
+0
+Cryonics
+kqb@whscad1.att.com
+0
+CryptoAnarchist Manifesto
+soda.berkeley.edu /pub/cypherpunks
+
+Cryptography Glossary
+soda.berkeley.edu /pub/cypherpunks
+0
+Cult of the Dead Cow files
+ftp.eff.org /pub/cud/cdc
+0        -hacking, phreaking, anarchy, etc.
+0
+Cultural Information
+ftp nic.funet.fi /pub/culture
+0
+Cybernetics
+listserv@bingvaxu.cr.birminghamton.edu
+       -sub cybsys-l full_name
+0
+Cyberpunk Archive
+ftp.u.washington.edu /public/alt.cyberpunk
+       -alt.cyberpunk and related archives maintained by Tim Oerting
+0
+Cyberpunk FAQ
+ftp.u.washington.edu public/alt.cyberpunk
+       -Tim Oerting's excellent guide to cyberpunk
+0
+Cyberpunk RPGs
+cyberrpg-request@veritas.com
+0
+Cyberspace Chronicle
+ftp.eff.org /pub/cud/misc/cyberspace-1.1
+       -hacking, cyberpunk
+
+Cyberspace and the Legal Matrix: Laws or Confusion?
+by Lance Rose
+ftp.eff.org /pub/cud/papers/cyberspace
+0
+Cypherpunks Announcement List
+cypherpunks-announce-request@toad.com
+       -lower volume
+0
+Defense Data Network Blues
+ftp.eff.org /pub/cud/misc/defense
+0
+Digital Free Press
+dfp-req%underg@uunet.uu.net
+ftp.eff.org pub/cud/dfp
+       -hacking, information, etc.
+0
+Drug Information
+jyu.fi /pub/alt.drugs
+ftp.u.washington.edu /public/alt.drugs
+0
+Ecstacy Info
+ftp.u.washington.edu /public/alt.drugs
+0
+Electrix
+ftp.eff.org /pub/cud/misc/electrix-001
+       -hacking
+0
+Electropolis: Communication & Community on Internet Relay Chat
+by Elizabeth M. Reid
+ftp.eff.org /pub/cud/papers/electropolis
+0
+4AD
+listserv@jhuvm.hcf.jhu.edu <sub 4ad-l>
+       -discussion of bands on the 4AD label
+0
+FactSheet Five - Electronic
+jerod23@well.sf.ca.us
+ftp.msen.com /pub/newsletters/F5-E
+ftp.u.washington.edu /public/alt.cyberpunk
+src.doc.ic.ac.uk /literary/newsletters/f
+       -the e- version of the famous zine
+
+FBI Computer Systems
+ftp.eff.org /pub/cud/papers/fbi.systems
+0
+Florida Raves
+steve@sunrise.cse.fau.edu
+0
+Folklore
+qurtz.rutgers.edu /pub/folklore
+0
+Freaker's Bureau International
+au530@cleveland.freenet.edu
+ftp.eff.org /pub/cud/fbi
+       -anarchy, hacking, cyberpunk
+0
+Frontal Lobotomy
+141.214.4.135
+      -ezine
+0
+General Hacking Info
+ftp.eff.org
+grind.isca.uiowa.edu
+        -good places to start
+
+General Net Info
+ftp.uu.net
+nic.ddn.mil
+wuarchive.wustl.edu
+pit-manager.mit.edu
+ftp.u.washington.edu
+       -for the more anal stuff (RFCs, netinfo and the like)
+0
+Gibraltar
+gibraltar-request@maestro.mitre.org
+       -discussion of artistic and progressive music
+0
+GIF Pictures (general archives)
+ahkcus.org
+apocalypse.engr.ucf.edu /pub/images
+hubcap.clemson.edu /pub
+solaria.cc.gatech.edu /pub
+0
+GlobeTrotter
+ftp.eff.org /pub/cud/misc/globe-1.x
+0       -hacking around the world, cyberpunk
+
+Hacker's-Network
+ftp.eff.org /pub/cud/misc/hnet.1
+       -hacking, published in Britain
+0
+Hacker's Unlimited
+ftp.eff.org /pub/cud/misc/hun-1.2
+0       -hacking, phreaking
+0
+IBM Files
+caf.mit.edu
+solaria.cc.gatech.edu /pub
+ucselx.sdsu.edu /pub
+0
+Informatik
+inform@doc.cc.utexas.edu
+ftp.eff.org /pub/cud/inform
+       -hacking, phreaking, computer underground, cyberpunk, etc.
+0
+Intro to the Computer Underground
+by The Butler
+ftp.eff.org /pub/cud/papers/intro
+0
+IRC (Internet Relay Chat) Info
+cs.bu.edu
+ftp.eff.org /pub/irc
+cs.utk.edu /pub
+speedy.cs.uiuc.edu /pub
+
+The Jargon File
+(same as The Hacker's Dictionary)
+wuarchive.wustl.edu /pub
+ftp.uu.net /doc
+merit.edu /pub/doc
+nic.funet.fi /pub/doc
+pit-manager.mit.edu /pub
+0
+Kcah
+ftp.eff.org /pub/cud/misc/kcah.*
+       -hacking, computer underground
+0
+KLF/ORB List
+klf-request@asylum.sf.c.us
+asylum.sf.ca.us /pub/klf
+0
+Legion of Doom/Hackers Technical Journals
+ftp.eff.org /pub/cud/lod
+       -hacking, brought to you by the famous masters
+
+LSD Info
+ftp.u.washington.edu /public/alt.drugs
+0
+Lunatic Fringe
+141.214.4.135
+0
+Mac Files
+mac.archive.umich.edu
+0
+Manchester
+manchester-request@irss.njit.edu
+irss.njit.edu /pub/manchester
+       -bands from manchester, raving, shoegazing, etc.
+0
+Manual of the Anarchist
+ftp.eff.org /pub/cud/misc/anarch.man
+
+Marijuana Info
+ftp.u.washington.edu /public/alt.drugs
+0
+Maryland Raves
+cyberpun@wam.umd.edu
+0
+MidWest Raves
+ajbennett@miavx1.acs.muohio.edu
+0
+MindVox:  The Overture
+ftp.eff.org /pub/cud/papers
+ftp.u.washington.edu /public/alt.cyberpunk
+       -excellent essay by Patrick Kroupa (Lord Digital) on MindVox
+0
+MUD Info
+oinker.ucsb.edu /pub/mud
+jwisdom@gnu.ai.mit.edu
+      -"mud list" in subject
+0
+Music  (lyrics/discographies/etc.)
+ftp.uwp.edu /pub/music
+
+National Security Anarchists
+ftp.eff.org /pub/cud/nsa
+      -phreaking, hacking
+0
+NE (NorthEastern) Raves
+ne-raves-request@silver.lcs.mit.edu
+0
+Network Information Access
+nia@nuchat.sccsi.com
+ftp.eff.org /pub/cud/nia
+       -hacking, computer underground, etc.
+0
+Network Policies
+ftp.eff.org /pub/cud/networks
+       -policies of various networks
+0
+New Fone Express
+ftp.eff.org /pub/cud/nfx
+0       -hacking, phreaking
+
+New Music
+nm-list-request@beach.cis.ufl.edu
+       -new music list
+0
+Nootropics Info
+ftp.u.washington.edu /public/alt.drugs
+0
+Now It Can Be Told: Mad Hackers' Key Party
+Transcript of TV Show
+ftp.eff.org /pub/cud/papers/rivera
+
+Nuclear Anarchists phreakers hackers (NARC)
+ftp.eff.org /pub/cud/narc
+0       -hacking, carding
+0
+OnoSendai Announcement
+ftp.u.washington.edu /public/alt.cyberpunk
+0       -press release by the new VR company
+0
+Operation Sundevil Information
+ftp.eff.org /pub/cud/papers/sundevil
+0
+PGP (Pretty Good Protection) Encryption Source
+soda.berkeley.edu /pub/cypherpunks
+0
+Phantasy
+Mercenary@f515.n141.z1.fidonet.org
+ftp.eff.org /pub/cud/phantasy
+       -anarchy, hacking
+0
+Phrack
+listserv@stormking.com
+<subscribe phrack Your_Name> in message body
+ftp.eff.org /pub/cud/phrack
+       -historic cyberspace hack/phreak/cu-news zine
+
+Phreakers/Hackers/Anarchists
+ftp.eff.org /pub/cud/misc/pha.2
+       -just what it says
+0
+Phreaker's Handbook
+ftp.eff.org /pub/cud/misc/phreak1.bok
+       -a phreaker's handbook
+0
+Phreaker's Handbook #1
+ftp.eff.org /pub/cud/misc/tph-1
+       -another phreaker's handbook
+0
+Phuckin Phield Phreakers
+ftp.eff.org /pub/cud/ppp
+       -phreaking
+0
+P/hun
+ftp.eff.org /pub/cud/phun
+0       -phreaking, hacking
+0
+Pirate
+ftp.eff.org /pub/cud/pirate
+0       -pirating, software cracking
+0
+Playlist
+playlist-request@ecst.csuchico.edu <sub [name]>
+       -mostly alternative radio/dj playlists and discussion
+0
+PowerGlove List
+listserv@karazm.math.uh.edu <subscribe glove-list me@my.site>
+karazm.math.uh.edu /pub/VR
+0
+Psilocybin Info
+ftp.u.washington.edu /public/alt.drugs
+0
+Punk
+punk-list-request@cpac.washington.edu
+       -punk music
+0
+Quanta
+export.acs.cmu.edu  /pub/quanta
+ftp.eff.org /pub/cud/misc/journals
+       -fiction ezine
+0
+Rebel's Riting Guild
+ftp.eff.org /pub/cud/misc/rrg.1
+       -virus
+
+Rights of Expression in Cyberspace
+by R. E. Baird
+ftp.eff.org /pub/cud/papers/rights-of-expr
+0
+RISKS Digest
+risks-request@csl.sri.com
+crvax.sri.com risks
+0       -the RISKS of computing in our lives
+0
+Robert Anton Wilson (e-interview)
+slopoke.mlb.semi.harris.com /pub/wilson.on.cis
+0
+School Network Policies
+ftp.eff.org /pub/cud/schools/*
+0
+Scream Baby
+bladex@wixer.cactus.org
+ftp.eff.org /pub/journals/ScreamBaby
+red.css.itd.umich.edu /poli
+0
+The Secret Service, UUCP, and the Legion of Doom
+by Kevin Mullet
+ftp.eff.org /pub/cud/papers/lod_ss.Z
+
+Security
+cert.sei.cmu.edu /pub
+0
+SmartDrugs Info
+ftp.u.washington.edu /public/alt.drugs
+0
+The Social Organization of the Computer Underground
+Masters' Thesis by Gordon Meyer
+ftp.eff.org /pub/cud/papers/meyer
+0
+SOUND News and Arts
+quartz.rutgers.edu /pub/journals
+141.214.4.135
+       -e- version of the popular zine
+0
+SouthEast Raves
+dickenjd@ctrvx1.vanderbilt.edu
+0
+Stelarc Review
+ftp.u.washington.edu public/alt.cyberpunk
+       -review of the cyberpunk performance artist
+0
+Sterling Essay
+ftp.u.washington.edu /public/alt.cyberpunk
+       -speech by Bruce Sterling on the Information Society
+0
+Survival Research Laboratories (SRL) Info
+ftp.u.washington.edu /public/alt.cyberpunk
+0       -info on the industrial robot group
+
+Syndicate Reports
+ftp.eff.org /pub/cud/synd
+0       -phreaking, telco info, etc.
+0
+TAP-Online
+ftp.eff.org /pub/cud/tap
+0       -phreaking, hacking, anarchy
+0
+TechnoNomads (Steve Roberts)
+technomads-request@bikelab.sun.com
+       -the guy featured on Donahue & Mondo's list
+       -nomadness, ham radio, mobile communities, etc.
+0
+Telecom Privacy Digest
+telecom-priv-request@pica.army.mil
+0
+Telecom Digest
+telecom-request@eecs.nwu.edu
+0       -deals with all aspects of telecommunications
+
+Title 18
+ftp.eff.org /pub/cud/law/us.e-privacy
+       -relating to computer crime & email privacy.
+0
+Tom Maddox on Cyberpunk
+ftp.u.washington.edu /public/alt.cyberpunk
+       -essay by Tom Maddox on cyberpunk
+0
+The Turing Option (2 unpublished chapters)
+by Harry Harrison and Marvin Minsky
+wuarchive.wustl.edu /doc/minsky
+ftp.u.washington.edu /public/alt.cyberpunk
+0
+UK Raves
+listserv@orbital.demon.co.uk
+subscribe uk-rave <your name>
+uk-raves@orbital.demon.co.uk
+0
+UnderWorld Industries
+141.214.4.135
+       -group network putting out underground media
+0
+United Phreaker's Inc.
+ftp.eff.org pub/cud/upi
+       -phreaking, hacking, etc.
+0
+UnPlastic News
+tibbetts@hsi.hsi.com
+ftp.eff.org /pub/cud/misc/journals
+0
+Virtual Reality Info
+sugrfx.acs.syr.edu /pub
+sunee.waterloo.edu /pub
+ftp.u.washington.edu public/alt.cyberpunk
+ftp.u.washington.edu public/virtual-worlds
+
+Virtual Reality List
+listserv@uiucvmd.bitnet
+subscribe virtu-l <full_name>
+0
+Virtual Reality Research Info
+ftp.u.washington.edu /public/virtual-worlds
+0
+Virus-l Digest
+krvw@cert.sei.cmu.edu
+(also virus-l on BITNET)
+0       -discussion of viruses and all aspects of 'em
+0
+WAX:  The Discovery of Television Among the Bees
+a film by Davids Blair
+ftp.u.washington.edu  /public/alt.cyberpunk
+141.214.4.135
+0       -reviews and info about David Blair's cyberdelic film
+
+Worldview - Der Weltanschauung
+request@fennec.sccsi.com [i think this may be wrong -mp]
+ftp.eff.org /pub/cud/wview
+        -hacking, computer underground, church of subgenius,
+         political, etc.
+0
+Zen and the Art of the Internet
+by Brendan Kahoe
+ashley.cs.widener.edu /pub/zen
+csn.org pub/net/zen
+quartz.rutgers.edu pub/internet/zen
+
+
+ ((___))
+ [ x x ] cDc communications
+  \   /  Global Domination Update - shortform
+  (' ')  #10 - January 1, 1993
+   (U)
+0
+New gNu NEW gnU new GnU nEW gNu neW gnu nEw releases for January, 1993:
+0
+ _________________________________/Text Files\_________________________________
+
+201: "One Wrong Move" by The Deth Vegetable.  We start '93 off right with this
+strong cDc debut from Deth Veggie.  An artist with a shotgun?  You KNOW it's
+gonna be rad.
+0
+202: "Monster Jennifer, or Celibacy Can Kill You" by Omega.  Another '93 cDc
+debut by Omega, sysop of Moody Loners With Handguns BBS and author of a tech
+article published in the November, '92 issue of MONDO 2000.  Let's sing!
+"Jennifer, hey, it's Jennifer... she's got a penis, hey wow, she's really
+beautiful and kinda crazy... HEY!  IT'S JENNIFER!"
+0
+203: "The Briefing" by Reid Fleming.  Yet ANOTHER cDc debut, this one a
+gripping tale of political intrigue and space aliens.  "Mr. President, you're
+NOT on Candid Camera."
+
+204: "Life in General" by Video Vindicator.  Mr. Fraud himself takes keyboard
+in hand to deliver a heaping batch of opinions for you to ponder.  He disses
+lame females!  He disses lame cars!  This file's got it all!
+0
+205: "That Which Strikes Terror Into the Hearts of Men" by Lady Carolin.  A
+creepy old house, a dorky womanizer, and a mad grrrl with a chainsaw boogie
+down!  Wooh!  It's the battle of the sexes!  ACTION!  ZOW!!
+0
+206: "The Power of Art" by THE NIGHTSTALKER.  It's the crazed man with feces on
+his mind, mailing lumps of his bowel's best work to the President's lovely
+daughter.  How touching!  Never let it be said that cDc lacks tender-hearted
+affection!  We're all very fuzzy and warm.
+0
+207: "F23" by Obscure Images.  Ominous cyberpunk innuendo stuff with
+mind-control and Catholic confessions.  You know it's REAL cyberpunk 'cause it
+was a t-file FIRST.
+0
+208: "A Visit to the Slaughterhouse" by Transderm-Nitro.  Hey hey - let's go on
+a pleasant little jaunt down to the slaughterhouse and kill us some cows!
+Yeehaw.  It's educational - Mr. Nitro breaks it on down for YOU.  Dead cows,
+it's a subject EVERYONE's interested in.
+0
+209: "Helmet Interview: July 17, 1992" by G.A. Ellsworth.  Transcription of
+G.A. interviewing Page Hamilton, singer and bandleader of Helmet.
+0
+210: "My Shit, and How to Strangle It" by Tequila Willy.  He's wacky and he's
+got intestinal worms!  Read all about it!
+0
+         All files are available NOW from ftp.eff.org in pub/cud/cdc.
+0
+
+
+
+
+Subject: ftp://ftp.rahul.net/pub/atman/
+To: future@nyx.cs.du.edu
+Date: Sat, 9 Jan 93 17:18:00 PST
+
+# #   The ftp site for acidwarp is ftp.rahul.net, in /pub/atman/mind-candy.
+#
+# I've tried to connect there several times. It always just hangs. Anyone
+# else had any luck?
+
+I got in with no problem this afternoon.  
+The path is a little different than above.     
+Some intersting stuff here.
+Here's a deep of /pub/atman, which I trimmed down with vi.
+Notice it looks like backs of futureCulture are there, too.
+
+                                                striiick
+                                                strick@osc.versant.com
+

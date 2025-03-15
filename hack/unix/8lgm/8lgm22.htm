@@ -1,0 +1,149 @@
+<HEAD>
+<TITLE>
+[8lgm]-Advisory-22.UNIX.syslog.2-Aug-1995
+</TITLE>
+</HEAD>
+<BODY>
+<HR>
+<H1>
+		[8lgm]-Advisory-22.UNIX.syslog.2-Aug-1995
+</H1>
+<P>
+<H2>VULNERABLE PROGRAMS:</H2>
+<P>
+	All programs calling <CODE>syslog(3)</CODE> with user supplied data, without 
+	checking argument lengths.
+<P>
+<H2>KNOWN VULNERABLE PLATFORMS:</H2>
+<P>
+<UL>
+<LI>	SunOS 4.1.*
+</UL>
+<P>
+<H2>KNOWN SECURE PLATFORMS:</H2>
+<P>
+	None at present.
+<P>
+<H2>DESCRIPTION:</H2>
+<P>
+	<CODE>syslog(3)</CODE> uses an internal buffer to build messages.  However
+	it performs no bound checking, and relies on the caller to
+	check arguments passed to it.
+<P>
+<H2>IMPACT:</H2>
+<P>
+	Local and remote users can obtain root access.
+<P>
+<H2>REPEAT BY:</H2>
+<P>
+	We have written an example exploit to overwrite <CODE>syslog(3)</CODE>'s
+	internal buffer using SunOS <CODE>sendmail(8)</CODE>.  However due to the
+	severity of this problem, this code will not be made available
+	to anyone at this time.  Please note that the exploit was fairly
+	straightforward to put together, therefore expect exploits to be
+	widely available soon after the release of this advisory.
+<P>
+	Here is a edited sample of using a modified telnet client to
+	obtain a root shell through SunOS <CODE>sendmail(8)</CODE> on a sparc
+	based machine.
+<P>
+<PRE>
+	legless[8lgm]% syslog_telnet localhost smtp
+	Trying 127.0.0.1 ...
+	Connected to localhost.
+	Escape character is '^]'.
+	220 legless.8lgm.org Sendmail 4.1/SMI-4.1 ready at Sun,\
+	 27 Aug 95 15:56:27 BST
+	mail from: root
+	250 root... Sender ok
+	rcpt to: root
+	250 root... Recipient ok
+	data
+	354 Enter mail, end with "." on a line by itself
+	^]
+	syslog_telnet>
+<P>
+	### At this point, we provide some information to the modified
+	### telnet client about the remote host.  Then sparc instructions
+	### are sent over the link within the body of the message to 
+	### execute a shell.
+	###
+	### As soon as data is finished (with .), sendmail will eventually
+	### report, through <CODE>syslog(3)</CODE>, data about this message.  syslog's
+	### internal buffer will be overwritten, and our supplied
+	### instructions are executed.
+<P>
+	Hit <cr>, then .<cr>
+	 
+	.
+	/usr/bin/id;
+	uid=0(root) gid=0(wheel) groups=0(wheel)
+	/bin/sh: ^M: not found
+	uptime;
+	  3:57pm  up  1:25,  5 users,  load average: 0.11, 0.05, 0.00
+	/bin/sh: ^M: not found
+	exit;
+	Connection closed by foreign host.
+<P>
+	### Here we can see that sendmail has execed a shell as root,
+	### and that we can type commands.  (lines ending in ; are
+	### user input through the telnet client).
+	###
+	### This exploit could be further expanded upon to encapsulate
+	### instructions within the body of a message, which can then 
+	### be mailed out to a site (ie without the necessity to connect
+	### directly to the smtp port).  This may be used to bypass
+	### firewalls.
+</PRE>
+<P>
+<H2>WORKAROUNDS:</H2>
+<P>
+	We have two methods to ensure that <CODE>syslog(3)</CODE> can not be used in
+	the above manner.
+<P>
+	Fix <CODE>syslog(3)</CODE>, to perform bound checking.  Shared libraries
+	can be then fixed to use the new function.  Statically linked
+	programs will require rebuilding.
+<P>
+	Alternatively, ensure all calls to <CODE>syslog(3)</CODE>, by all programs,
+	check all arguments passed to <CODE>syslog(3)</CODE>.
+<P>
+	Ideally both of the above should be implemented.
+<P>
+<H2>FIX:</H2>
+<P>
+	Contact vendors for fixes.
+<P>
+<H2>STATUS UPDATE:</H2>
+<P>
+	The file:
+<P>
+        [8lgm]-Advisory-22.UNIX.syslog.2-Aug-1995.README
+<P>
+	will be created on www.8lgm.org.  This will contain updates on 
+	any further versions which are found to be vulnerable, and any
+	other information received pertaining to this advisory.
+<P>
+<HR>
+<P>
+<H2>FEEDBACK AND CONTACT INFORMATION:</H2>
+<P>
+<PRE>
+	majordomo@8lgm.org	(Mailing list requests - try 'help'
+				 for details)
+<P>
+	8lgm@8lgm.org		(Everything else)
+</PRE>
+<P>
+<H2>8LGM FILESERVER:</H2>
+<P>
+	All [8LGM] advisories may be obtained via the [8LGM] fileserver.
+	For details, '<CODE>echo help | mail 8lgm-fileserver@8lgm.org</CODE>'
+<P>
+<H2>8LGM WWW SERVER:</H2>
+<P>
+	[8LGM]'s web server can be reached at <A HREF="http://www.8lgm.org">http://www.8lgm.org</A>.
+	This contains details of all 8LGM advisories and other useful
+	information.
+<HR>
+</BODY>

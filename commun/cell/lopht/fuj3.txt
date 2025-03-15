@@ -1,0 +1,71 @@
+                FUJITSU 364 (COMMANDER IIX) and 170 portable
+
+                NAM Type:  EEPROM
+            Manufacturer:  Fujitsu
+              Programmer:  Handset
+          ESN Prefix DEC:  133
+                     HEX:  85
+ ESN, S/N Match Required:  Yes (manufacturer prefix + last 4 or 5 digits)
+    Programmable Handset:  Yes
+      Available Channels:  832
+
+    Programming Sequence:  Power On
+                           F + LOCK
+                           Power Off
+                           Power On
+                           # + 626 + # + 7764726 (within 10 seconds)
+                           Hold * key until tone stops
+                           Enter data for each step then press STOR
+                           Press SEND to write data
+
+                       # of digits
+        System ID Format:  5    XXXXX
+        Local Use Option:  1    1
+              MIN Option:  1    1
+           Mobile Number:  10   XXX-XXX-XXXX
+           Station Class:  2    08 (mobile) 14 (portable)
+  Initial Paging Channel:  3     333 or 334
+   Access Overload Class:  2    XX
+        Preferred System:  1    1 (A) or 0 (B)
+         Group ID Format:  2    XX
+                    Lock:  3 or 4
+              Call Timer:  1    4
+               Auto Lock:  1    1
+        Call Restriction:  1    1
+
+Call Timer - 1  Timer Off
+             2  6-seconds
+             3  30-seconds
+             4  60-seconds
+
+Auto Lock - 1  Manual lock, no out
+            2  Manual lock, no calls
+            3  Auto lock, no out
+            4  Auto lock, no calls
+
+Call Restriction - 1  No restriction
+                   2  No memory dialing
+                   3  No long-distance
+                   4  Both 2 and 3
+                   5  memory calls only
+
+Programming steps for NAMs 2 thru 4: Power On
+                                     Unlock phone (if locked)
+                                     F + 7 + (NAM 2, 3 or 4)
+                                     F + LOCK
+                                     Power Off
+                                     Power On
+                                     Follow programming code and steps from
+                                      top
+
+   Horn alert (364 only):  F + #/AUX
+         New Unlock Code:  NAM
+           System Select:  F + 1 + X
+                            X=1 AB Pref A
+                            X=2 BA Pref B
+                            X=3 A Only
+                            X=4 B Only
+                            X=5 Home
+
+To confirm setting, press RCL + F + X
+

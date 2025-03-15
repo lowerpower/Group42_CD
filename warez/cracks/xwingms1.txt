@@ -1,0 +1,113 @@
+After finding out the X-Wing crack from the EPIC TRIO Software Group
+did not work after mission disk one (Imperial Pursuit) was installed,
+I decided to try hacking it myself.
+
+I worked out that the TRIO crack altered bytes 79840-2 (hex) in the
+file frontend.ovl from E8 6D 29 to B8 01 00.
+
+After fooling around for an hour I eventually found a place in the new
+overlay file where the code looked pretty much like the old one, and
+edited the appropiate bytes, and, lo and behold!  It worked.
+
+So, after installing the Imperial Pursuit Mission Disk, use XTree Gold
+or Norton's Disk Editor or something to go to position 7BE50 (hex)
+and alter the bytes E8 75 29 to B8 01 00 (or search for the pattern
+to find the right position).
+
+NOTE:  THIS IS FOR THE GAME LOADED STRAIGHT OFF THIS DISK.  IF YOU
+INSTALL THE LOCKING PATCH AVAILABLE AS ip1a.zip ON, E.G., FTP.UWP.EDU
+IN pub/msdos/games/temp, THEN SEE THE BOTTOM OF THE FILE.
+
+So, here's my first ever IBM crack.  Well, OK, it's not really mine,
+I just used a bit of lateral thinking & TRIO's old crack to do it.
+Thanks go to the Trio Guys.
+
+I then decided to decipher the file the TRIO guys used for the original
+X-Wing crack to work with their file altering program.  So, if you get
+their hackit.exe file out of the original crack archive (xwingcrk.zip)
+and then use the following as the .hac file, it'll fix frontend.ovl for
+you automatically, so you don't have to bother about using XTree or Norton.
+
+Standard Disclaimer:  Use at your own risk, works for me.  Make a backup
+of the original frontend.ovl just in case (I suggest doing this for
+any change).
+
+The use of the names XTree, Norton, and Norton's Disk Editor is in no
+means meant to undermine their copyright, etc.  In fact, I heartily
+recommend such products.  Norton is registered trademark of Symantec,
+XTree Gold of the XTree Company, X-Wing (or the X-Wing Space Combat
+Simulator, at least) is one of LucasArts.
+
+Purple Pete
+
+<------------  Cut here, save file as, say, xwingms1.hac ------------->
+frontend.ovl
+?
+?
+?
+?                      ----------------------------------------
+?                      |                X-WING                |
+?                      |                                      |
+?                      |     Another quality HAC from EPIC    |
+?                      |                                      |
+?                      |         TRIO  Software Group         |
+?                      |                                      |
+?                      |   Adjusted for Imperial Pursuit by   |
+?                      |                                      |
+?                      |             Purple  Pete             |
+?                      ----------------------------------------
+s991
+b80
+o232
+n184
+b81
+o117
+n1
+b82
+o41
+n0
+?
+?
+?                       Successful....!!
+<------------  Cut here, save file as, say, xwingms1.hac ------------->
+
+NB:  IF YOU HAVE INSTALLED THE LOCKING PATCH FROM ip1a.zip THEN THE ABOVE
+WON'T QUITE WORK.
+
+This is because frontend.ovl has been enlarged slightly, and the position
+to edit the bytes has changed to 7BEB0.  Searching for the byte pattern
+will still work, however.
+
+For this new frontend.ovl use the following hac file:
+
+<------------  Cut here, save file as, say, xwingm1a.hac ------------->
+frontend.ovl
+?
+?
+?
+?                      ----------------------------------------
+?                      |                X-WING                |
+?                      |                                      |
+?                      |     Another quality HAC from EPIC    |
+?                      |                                      |
+?                      |         TRIO  Software Group         |
+?                      |                                      |
+?                      |   Adjusted for Imperial Pursuit by   |
+?                      |                                      |
+?                      |             Purple  Pete             |
+?                      ----------------------------------------
+s991
+b176
+o232
+n184
+b177
+o117
+n1
+b178
+o41
+n0
+?
+?
+?                       Successful....!!
+<------------  Cut here, save file as, say, xwingm1a.hac ------------->
+

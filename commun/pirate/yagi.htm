@@ -1,0 +1,138 @@
+<html>
+<head><title>Group 42 Sells Out</title></head>
+<center>
+<img alt="Group 42 Sells Out!" src="../../g42slogo.gif">
+<hr size=1>
+<h2>BUILD A YAGI-UDA ANTENNA</h2>
+<h3>Todd Nichols  -- Spring 1992</h3>
+<i>HTML'ed by Group42</i>
+</center>
+<p>
+     Often one needs to improve reception of a particular radio or television 
+station.  One effective way to do this is to build a Yagi-Uda, or Yagi, 
+antenna.  This is a traveling-wave  structure which, as the number of elements 
+increases, has improved directivity, gain, and front-to-back ratio (and 
+additional sidelobes).  The basic antenna is composed of one reflector (in the 
+rear), one driven element, and one or more directors (in the direction of 
+transmission/reception).  The "zero-order" version of the Yagi has all 
+elements one-half wavelength long and spaced one-quarter wavelength apart.  
+The two designs presented here - a 3-element and a 6-element antenna - have 
+been optimized for improved all-around performance, so their lengths and 
+spacings are non-uniform.
+<p>
+     Each design's parameters (element lengths and spacings) are given in 
+terms of wavelength, so an antenna for any given frequency is easy to design.  
+Moreover, these antennas' gains rise slowly up to the design frequency and 
+fall off sharply thereafter. It is therefore easier (and smarter) to make the 
+design frequency a little higher (dimensions a little smaller) than desired, 
+so that the antenna will work despite "manufacturing tolerances". One final 
+note: all the following performance figures are theoretical calculations! 
+That means, for instance, that the actual gain will be slightly less than that 
+given.
+<p>
+     The first design is a 3-element Yagi [1].  For a 50-ohm feed, the gain is 
+7.6 dBi, the F/B is 18.6 dB, and the input impedance is 33-j7.5 ohms.  
+Bandwidth is 15 percent.
+<p>
+<pre>
+     reflector       -----------------    0.500 lambda
+
+                                          0.2 lambda
+
+     driven            -------------      0.460 lambda
+
+                                          0.2 lambda
+
+     director            ---------        0.419 lambda
+</pre>
+     The second antenna is a 6-element Yagi [2].  The gain is 14.73 dBi and 
+the F/B is 10.04 dB.  These figures assume the element diameter to be 0.003369 
+wavelength.  HPBW is 37 degrees, with first sidelobes down 10.9 dB.  Total 
+length is about 1.69 wavelengths; when cutting the boom, be sure to leave a 
+little extra at the ends.
+<p>
+<pre>
+
+     reflector      -------------------   0.476 lambda
+
+                                          0.250 lambda
+
+     driven           ---------------     0.452 lambda
+
+                                          0.289 lambda
+
+     director           -----------       0.436 lambda
+
+                                          0.406 lambda
+
+     director           -----------       0.430 lambda
+               
+                                          0.323 lambda
+
+     director           -----------       0.434 lambda
+
+                                          0.422 lambda
+
+     director           -----------       0.430 lambda
+</pre>
+
+     Now for construction.  A relatively inexpensive but robust method will be 
+described.  Of course, for even less money, one could use scrap wire or coat 
+hangers, and an old broom handle or some other piece of insulating scrap.  My 
+favored materials are 300-ohm twin-lead (for television applications), 
+3/4" x 1/2" wood stock (from McGuckins, for example), and 1/8" copper-plated 
+steel brazing rod (also from a hardware store).  These materials are cheap; a 
+piece of wood 8 feet long is less than $2, and 3-foot-long metal rods are 
+about 20 cents apiece.  The wood is cut with a saw, and the rods are cut with 
+heavy wire cutters and the ends are filed smooth.  Holes are drilled in the 
+wood (preferably with a drill press, so that they are perpendicular); they 
+should be a little snug fit for the rod.  After the rods are cut, they are 
+pushed into the wood and centered.  That is the easy part.
+<p>
+     The driven element is a litte more difficult.  Since I use these a lot 
+for television, I feed them with twin-lead; therefore I use a folded-dipole 
+driven element.  By itself, a folded dipole has a 277-ohm impedance, which is 
+a good match to 300-ohm twin-lead.  Of course the presence of the other 
+elements will reduce the input impedance some, but there is still a good match.
+Note that no balun is required, either, since twin-lead is a balanced 
+transmission line.  Now if the frequency is high enough, the driven element 
+can be made of one piece of rod.  Push a long enough piece of rod through the 
+driven element hole and bend it in at each end.  Bend up the rods at the 
+center (don't let them touch) and cut them off, leaving 1/4" or so sticking 
+up.  Solder the twin-lead to the cut ends and tape it down to the wooden boom.
+If the driven element is too long, then cut a rod to the right length, but 
+extend it about 3/8".  Put it into the hole.  Then take a piece of cardboard 
+or plastic and put two holes into it about 1/4" apart (make two).  Cut two 
+pieces of rod slightly longer than half of the dipole; bend up the ends about 
+1/2" or so. Those bends will go in the middle.  Slide the plastic or cardboard
+spacers onto the rods to keep them from shorting.  Wrap some wire around the 
+two rods at the ends and solder.  Wrap tape around the rods near the boom.  
+Solder the twin-lead as for the other type of driver, and the antenna is 
+finished.
+<p>
+<hr size=1>
+<center>
+<h4>REFERENCES</h4>
+</center>
+
+1.  Milligan, Thomas.  Modern Antenna Design, 1985, McGraw-Hill Book Company, 
+    pp. 333-335.
+<p>
+
+2.  Cheng, David K.  Field and Wave Electromagnetics, 1983, Addison-Wesley 
+    Publishing Company, pp. 535-537.
+<p>
+
+<hr size=5 noshade>
+<center>
+<h4>
+<a href="../../index.htm">HOME</a> |
+<a href="../../about.htm">GROUP 42</a> |
+<a href="../../disclaim.htm">DISCLAIMER</a> |
+<a href="../../help.htm">HELP</a>
+<br>
+Copyright &copy 1984-1996, Group 42
+</h4>
+</center>
+</html>
+

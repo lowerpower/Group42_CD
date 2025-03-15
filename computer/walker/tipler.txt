@@ -1,0 +1,137 @@
+                  Tipler's "Physics of Immortality"
+
+         Rant / Review by John Walker -- kelvin@fourmilab.ch
+                           October 26, 1994
+
+I just finished Frank Tipler's "The Physics of Immortality", (1994:
+ISBN 0-385-46798-2) which I'd really looked forward to reading ever
+since I heard it was out, and my reaction is...*ouch*--what a
+disappointment!  Nothing prepared me for just how B-A-D it is.
+
+First of all, the exquisite heaviness of writing.  Other than the
+first chapter, I really admired Barrow and Tipler's "Anthropic Cosmic
+Principle", and now I guess it's clear how much of the actual
+wordcraft in that volume was the work of Barrow (this is also apparent
+when one compares POI with Barrow's recent solo outing "Pi in the
+Sky").  At least in ACP all the fumbling through ancient and modern
+theories of philosophy was confined to the first chapter.  Here it's
+interleaved with what purports to be the scientific argument.  I wish
+he'd put it into an "Appendix for Poets" or something.  Suppose you
+grant all the essentials of his substantive argument.  Then who could
+conceivably care how much it resembles or doesn't resemble various
+myths of antiquity and/or philosophical schools?  And if you don't
+accept his scientific reasoning, is it rational that its resemblance
+to various common myths should give it additional credence?  He says
+himself, near the end, that it shouldn't.  So if not, Frank, why not
+spare us the 150 pages of turgid prose devoted to that stuff?
+
+But this is style.  On to the substance.
+
+I don't have any trouble at all imagining nanotechnology, von Neumann
+probes, AI exceeding human intelligence within 50 years, or the
+biosphere expanding to fill the entire galaxy and eventually the
+universe.  Given the nature of life, I'd say it's inevitable unless
+the seeds of life in the universe are sufficiently rare that random
+extinction events wipe the slate clean before the process compounds
+into geometric expansion.  But none of that is new, and Tipler tells
+it less clearly than others already have.
+
+But it's a long way from the Antipodal Galaxy to the Omega Point, and
+it's on that road where, unless I'm missing something, the wheels fall
+off Starship Eternity.  Reading through the main text, I noted many
+apparent gaping holes in his arguments or assumptions of facts
+contrary to the best available knowledge, all made without the
+slightest discussion of the issues involved.  I hoped that these would
+be covered in the "Appendix for Scientists" and, indeed, many are
+discussed.  And virtually all are dismissed with the all-purpose
+argument: "That is ruled out by the Omega Point Boundary Condition."
+Look at this one, on page 505, "Thus the worry ... that quantum
+fluctuations would necessarily wipe out life at a final singularity is
+obviated with the Omega Point Boundary Condition, because in this case
+the universe continues to exist *because* life itself does; quantum
+fluctuations large enough to destroy life cannot occur because they
+are prevented by the boundary condition from forming."
+
+Well now I feel a lot better.  Really.  Here, I was worried about just
+how life would continue to process information, not to mention at an
+exponentially diverging rate, as not only atoms and subatomic
+particles were dissociated but spacetime started to let go at the
+Planck temperature but...not to worry, the OPBC comes to the rescue
+and *forces* physics to obey.  What's more, why worry about a big rock
+hitting the Earth, destruction of the biosphere by inadvertent human
+action, accidental nuclear war, etc. etc.?  Surely the Boundary
+Condition rules out those much smaller worries as well.  Don't worry;
+be happy.
+
+Then there's the problem about not being able to make up his mind just
+how the information will be reconstituted that will allow the precise
+resurrection of the dead.  Several times he flip-flops, here saying
+that since all world lines converge on the Omega Point, no information
+has been lost (the black holes having been popped by a semi-mystical
+process about which more later), and there admitting that opacity and
+thermalisation of information may present a bit of a problem after all
+but, hey, we'll just get out the old soldering gun and conjure up a
+computer with a storage capacity of 10^10^70 bits, which lets us
+simulate all possible quantum states of all possible humans, and to
+Hell with the lost information since it's in there somewhere by
+exhaustive enumeration.  Uhhh, well, maybe that isn't enough, so
+to be safe (p. 225) "...it might be necessary to replicate the entire
+visible universe.  But, as I showed above, all possible visible
+universes can be replicated down to the quantum state if the computer
+capacity is at least 10^10^123 bits.  In the far future, the universal
+computer capacity will be far, far above this."
+
+Are we giggling yet?
+
+Ok, the visible universe has around 10^80 particles in it.  The
+universe at Tipler's point of maximum expansion is, say, 10,000 times
+bigger (he's cagy about the number, mentioning 3000 only for an
+intermediate stage).  So, cube 10,000 and we get 10^12.  Which,
+multiplied by 10^80 gives us 10^92.  Hmmmmm.  That's quite a bit
+smaller than 10^10^70, not to mention 10^10^123.  But, you see, we're
+not using mere matter to store bits anymore.  We're using (drumroll)
+the Higgs field, just as we're twiddling the Higgs field to make the
+whole bloody universe collapse asymmetrically, with the whole universe
+becoming a delay line memory.  And when will this happen?  Also on p.
+225, "between 10^-10^10 and 10^-10^123 seconds before the Omega Point
+is reached".  Whew, saved by the Gong of Doom.
+
+And how are we going to use the Higgs field to compute, organise
+information systems out of free quarks and pure energy, etc., etc.?
+Silence.  But the Boundary Condition Postulate guarantees we will!
+
+Fine, so I make up a boundary condition that says that on Easter Day,
+2001, Jesus Christ will return, raise the dead, etc.  Unreasonable?
+Not at all.  My boundary condition makes it inevitable.
+
+And what about the black holes?  I take the last existing copy of the
+complete works of Tipler and heave it across the event horizon of my
+TidyTrash[tm] home black hole.  In comoving proper time, they go zorp
+into the singularity and are crushed into nothingness--according to
+everything we know, the information is lost, and Tipler suggests
+nothing to the contrary.  Now somehow (unexplained), Tipler's Taub
+universe event horizon can opener makes the black hole horizon go
+away.  What about the singularity?  Well, it seems you now have a very
+large number of naked singularities (since no way is known to get rid
+of them, nor does Tipler suggest such) converging toward the Omega
+Point, which should make things even more interesting for the
+universal brain emerging there.
+
+And finally, though I could go on and on, who really accepts that the
+indistinguishability of quantum states mandates a continuity of
+consciousness?  Suppose we didn't have to wait for the Omega Point?
+Suppose there were a computer today (or in 1000 years) which could run
+a completely faithful simulation of me--even a simulation at the
+quantum level so good the Pauli Exclusion Principle wouldn't let us in
+the same room.  Would it *be* me?  Would my consciousness somehow be
+shared between my existing brain and the replica machine?  If so, how
+would this work if the brain and computer were separated by several
+light years?  And if not, then what difference does it make if 10^32
+years of death intervene before the simulation begins to run?  That's
+supposed to *cause* continuity of consciousness?
+
+What a pile of crap.  I'm just glad he didn't base his arguments too
+heavily on nanotechnology, AI, or von Neumann probes; it would have
+given them all a bad name.  The review in Nature called POI a
+"masterpiece of pseudoscience".  I disagree; I don't think it's that
+good.

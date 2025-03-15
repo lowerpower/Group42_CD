@@ -1,0 +1,71 @@
+GENERAL ELECTRIC MINI II
+
+NOTES:  This is a dual NAM portable unit.
+        NAM is on EEPROM
+        The ESN prefix is 134 decimal, 86 hex (Mitsubishi)
+        See file MITSTEST.TXT for test mode information.
+        General Electric: 1-800-528-7711
+
+NAM PROGRAMING:
+
+1.  Press PWR key for one second to turn power on.
+
+2.  Wait for wake up cycle to finish & display to clear.
+
+3.  Within ten seconds press and hold the END key while entering
+    6 2 8 2 9 0 5.
+
+4.  Press SEND to store data and increment the step number.
+
+5.  Press END to complete programing and exit at any time.
+
+
+PROGRAMING DATA:
+
+STEP#    #OF DIGITS/RANGE    DISPLAY             DESCRIPTION
+
+01       0 OR 1              DUAL NO             DUAL NAM
+02       10 DIGITS           NO1                 MIN (AREA CODE & TEL#)
+03       00000 - 32767       SID1                SYSTEM ID
+04       0 OR 1              LU1                 LOCAL USE MARK
+05       0 OR 1              EX1                 EXTENDED ADDRESS MARK
+06       0333 OR 0334        IPCH1               INITIAL PAGING CHANNEL
+07       2 DIGITS            ACCOLC1             ACCESS OVERLOAD CLASS
+08       0 OR 1              PREF1               PREFERRED SYSTEM (0=B,1=A)
+09       2 DIGITS            GIM1                GROUP ID (10 IN USA)
+10       0 OR 1              RI1                 ROAM INHIBIT
+11       0 OR 1              DTX1                VOX MODE
+12       0 OR 1              AR1                 SYSTEM AUTO REDIAL
+
+If you entered "0" in step 01 go to step 24
+
+2ND NAM DATA:
+
+13       10 DIGITS           NO2                 MIN (AREA CODE & TEL#)
+14       00000 - 32767       SID2                SYSTEM ID
+15       0 OR 1              LU2                 LOCAL USE MARK
+16       0 OR 1              EX2                 EXTENDED ADDRESS MARK
+17       0333 OR 0334        IPCH2               INITIAL PAGING CHANNEL
+18       2 DIGITS            ACCOLC2             ACCESS OVERLOAD CLASS
+19       0 OR 1              PREF2               PREFERRED SYSTEM (0=B, 1=A)
+20       2 DIGITS            GIM2                GROUP ID (10 IN USA)
+21       0 OR 1              RI2                 ROAM INHIBIT
+22       0 OR 1              DTX2                VOX MODE
+23       0 OR 1              AR2                 SYSTEM AUTO REDIAL
+
+24       4 DIGITS            SEC                 SECURITY CODE
+25       0 OR 1              EE                  END TO END (DTMF) DIALING
+26       0 OR 1              C TONE              CONTINUOUS DTMF
+27       0 OR 1              AL                  AUTO LOCK
+28       0 OR 1              BEEP                CALL TIMER AUDIO BEEP
+29       0 OR 1              BO                  3 WATT BOOSTER OPTION
+
+NOTES:
+
+Install lock code with phone out of programing mode, enter FCN 7 SSSS
+LLL CLR, where SSSS is the security code and LLL is the new lock code.
+
+LOCK: F 2.  UNLOCK: Enter three digit code, press SEND.
+
+SYSTEM SELECT: F 1 displays current then press one of the following to change:
+0 = Pref/non pref, 1 = Non pref/pref, 2 = Home only, 3 = Pref only, 4 = Non

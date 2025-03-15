@@ -1,0 +1,140 @@
+<HTML>
+<TITLE>WS_FTP32 Password Encryption Defeated</TITLE>
+<CENTER>
+  <H1>WS_FTP32 Password Encryption Defeated</H2>
+  <H4>Written by <A HREF="mailto:mindrape@goodnet.com">Donald Moore</A> (MindRape)</H4>
+  <H2>
+<hr size=1>
+  <I>Abstract</I><BR>
+<hr size=1>
+  </H2>
+</CENTER>
+<FONT SIZE=3>
+This document will explain how to defeat WS_FTP32 client side password encryption and a temporary
+solution to resolve this problem.  The ease of defeating of this encryption
+scheme is very alarming, since majority of Windows users on the Internet use
+WS_FTP32 as their main ftp client.  To defeat the encryption routine only
+takes a few lines of <A 
+hREF="wscrksrc.htm">C code</A>. <P>
+I would like to thank Nightshd and Yoshi for bringing up this topic and
+assisting in defeating it!
+<P>
+This document is still in draft, so if you find any problems please 
+email me <A HREF="mailto:mindrape@goodnet.com;staheli@goodnet.com">Damaged Cybernetics</A>.
+<P>
+If you have questions or concerns about this weakness please contact its
+author, <A HREF="mailto:junodj@martinez.ipswitch.com">John A. Junod</A> or
+contact him at his <A HREF="mailto:junodj@csra.net">alternative site</A>.
+
+<CENTER>
+  <H2>
+<hr size=1>
+    <I>Disclaimer</I><BR>
+<hr size=1>
+  </H2>
+</CENTER>
+As always <A HREF="http://www.goodnet.com/~staheli">Damaged Cybernetics</A> promotes the usage of it's documents for
+educational purposes only.  If you feel you have a issue concerning our
+information distrubtion, please contact <A HREF="mailto:mindrape@goodnet.com;staheli@goodnet.com">us</A>.
+<CENTER>
+  <H2>
+<hr size=1>
+    <I>How serious is this?</I><BR>
+<hr size=1>
+  </H2>
+</CENTER>
+<UL>
+  <LI>People running a variant of Windows.  Windows NT being an exception, for
+  if configured properly it can be secure.  However this does <B>NOT</B> fix the
+  problem!
+  <LI>Home users, goverment agencies and corporations use this as their main ftp
+  client.  Home users are generaly excluded unless you have very nasty friends.
+  Goverment agencies and business are more at risk, since Windows is not a very
+  secure operating system.
+</UL>
+<CENTER>
+  <H2>
+<hr size=1>
+    <I>Password Details</I><BR>
+<hr size=1>
+  </H2>
+</CENTER>
+
+<UL>
+  <LI>Passwords are a maximum of 78 characters.
+  <LI>Passwords can contain letters, numbers and high end ASCII (MS-DOS) characters.  Most
+      users only use letters and numbers in their passwords.
+  <LI>Password lengths are always divisible by 2.
+  <LI>Passwords once encrypted are stored as hex string in an INI file called
+      WS_FTP.INI.  It is either located in the Windows home directory or in WS_FTP
+      home directory.<P>
+     <I>
+       Example:<BR>
+       [Test System]<BR>
+       HOST=0<BR>
+       UID=MindRape<BR>
+       PWD=6162636465<BR>
+       PASVMODE=0<BR>
+     </I>
+  <LI> Two 1 digit hex values make up one ASCII character.  For example this hex
+       string contains '69626A'.  It's character makeup is this, (69)(62)(6A), which is
+       3 characters.
+  <LI> The hex string is stored as a C style string.  It's index is starting at 0.
+</UL>
+<CENTER>
+  <H2>
+<hr size=1>
+    <I>Defeating It</I><BR>
+<hr size=1>
+  </H2>
+</CENTER>
+The password encryption is fairly simple,  it closely resembles a Ceasar Cipher.
+<P>
+For every two 1 digit hex value, concatenate them together to produce 1 hex
+value.  Then take it's index (C Styled) in the string and substract from
+the hex value.  This will produce the correct ASCII value.
+<P>
+Example:<BR>
+Lets take the password '48666E6F73255D767A756E2C' (from WS_FTP.INI) and try to
+decrypt it.
+<P>
+First break down the string into it true hex values.<BR>
+(48)(66)(6E)(6F)(73)(25)(5D)(76)(7A)(75)(6E)(2C)
+<P>
+Since this is a C Style string, it's index starts as 0.  Lets decode the
+password now.
+<P>
+(0x48)-0 = 48 = H<BR>
+(0x66)-1 = 65 = E<BR>
+(0x6E)-2 = 6C = L<BR>
+(0x6F)-3 = 6C = L<BR>
+...<BR>
+<P>
+Eventually it produces the string 'Hello World!'.
+<P>
+Here is some <A 
+HREF="wscrksrc.htm">C
+source code</A> to do it for you.
+
+<P>
+
+<CENTER>
+  <H2>
+<hr size=1>
+    <I>Work Around</I><BR>
+<hr size=1>
+  </H2>
+</CENTER>
+The recommended work around is not to use the Save Password feature of WS_FTP32.
+This is generally a good idea across all secured applications.  For without the
+password encryption scheme being publicly reviewed and also the implementation
+of such a scheme, one should <B>NEVER</B> trust any feature such as this.
+<P>
+<CENTER>
+<hr size=1>
+  &copy; 1995 Damaged Cybernetics
+  <P>
+</CENTER>
+</FONT>
+</HTML>
+

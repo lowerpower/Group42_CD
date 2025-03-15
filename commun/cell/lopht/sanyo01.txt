@@ -1,0 +1,50 @@
+SANYO CMP310
+
+NOTES:  This is a dual NAM unit.
+        The ESN prefix is 175 decimal & AF hex.
+        Sanyo: 416-421-8344
+
+NAM PROGRAMING:
+
+1.  Turn power on.
+
+2.  Within ten seconds enter: M (MUTE) 3 1 0 #.
+
+3.  Enter 2 5 6 7 2 5 2 RCL.
+
+4.  The up arrow key stores and increments each step.  See exceptions
+    after step 13 below.
+
+5.  Press CLR to correct an entry.
+
+
+PROGRAMING DATA
+
+STEP#    #OF DIGITS/RANGE    DISPLAY        DESCRIPTION
+
+01       10 DIGITS           TEL NO         MIN (AREA CODE & TEL NUMBER)
+02       00000 - 32767       SID            SYSTEM ID
+03       0 OR 1              Local Use      LOCAL USE MARK
+04       0 OR 1              MIN MARK       MIN MARK
+05       0333 OR 0334        IPCH           INITIAL PAGING CHANNEL
+06       2 DIGITS            Accolc         ACCESS OVERLOAD CLASS
+07       0 OR 1              Prefer Sys     PREFERRED SYSTEM
+08       2 DIGITS            GIM            GROUP ID (10 IN USA)
+09       4 DIGITS            Lock Code      LOCK CODE
+10       0 OR 1              End to End     END TO END (DTMF) DIALING
+11       0 OR 1              A/B SELECT     ALLOW USER A/B SYS SELECT
+12       0 OR 1              Area Code      DISPLAY AREA CODE
+13       0 OR 1              DTX            DTX/VOX TRANSMISSION
+
+PRESS STO INSTEAD OF UP ARROW AFTER STEP 13.
+
+14       STO OR CLR          STO OR CLR     PRESS STO TO CONTINUE
+                                            OR CLR TO ABORT
+15       END, 2 OR 3         SELECT 1-3     PRESS END TO FINISH, 2
+                                            FOR NAM 2 OR 3 FOR NAM 3
+
+REPEAT STEPS 01 THROUGH 09 FOR NAM 2 AND/OR 3.  NOTE THAT EACH NAM HAS
+IT'S OWN INDEPENDANT LOCK CODE.  PRESS STO INSTEAD OF UP ARROW AFTER
+STEP 09, LOCK CODE.
+
+LOCK: PRESS F 5, THEN FOLLOW MENU, UNLOCK: ENTER 4 DIGIT CODE

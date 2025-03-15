@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN" "html.dtd">
+<HTML>
+<HEAD>
+<TITLE>Black Box Plans</TITLE>
+</HEAD>
+<BODY BGCOLOR="#505050" TEXT="#FFFFFF" LINK="#DFDFDF" VLINK="#BFBFBF" ALINK="#008000">
+
+<H1>Black Box Plans</H1>
+<HR>
+<P>Black Box Plans                                 by The Jolly Roger
+
+<br><br>Introduction:
+<br>------------
+<br>At any given time, the voltage running through your phone is about 20
+Volts. When someone calls you, this voltage goes up to 48 Volts and rings
+the bell. When you answer, the voltage goes down to about 10 Volts.
+The phone company pays attention to this. When the voltage drops to 10,
+they start billing the person who called you.
+
+<br><br>Function:
+<br>--------
+<br>The Black Box keeps the voltage going through your phone at 36 Volts,
+so that it never reaches 10 Volts. The phone company is thus fooled
+into thinking you never answered the phone and does not bill the caller.
+However, after about a half hour the phone company will get suspicious
+and disconnect your line for about 10 seconds.
+
+<br><br>Materials:
+<br>---------
+<br>1 1.8K 1/2 Watt Resistor
+<br>1 1.5V LED
+<br>1 SPST Switch
+
+<br><br>Procedure:
+<br>---------
+<br>(1) Open your phone by loosening the two screws on the bottom and
+lifting the case off.
+<br>(2) There should be three wires: Red, Green, and Yellow. We'll be working
+with the Red Wire.
+<br>(3) Connect the following in parallel:
+<br>     A. The Resistor and LED.
+<br>     B. The SPST Switch.
+<br>In other words, you should end up with this:
+<br>              (Red Wire)
+<br>           !---/\/\/\--O--!
+<br>(Line)-----!              !-----(Phone)
+<br>           !-----_/_------!
+<br>          /\/\/\ = Resistor
+<br>          O      = LED
+<br>          _/_    = SPST
+<br>
+<br>Use:
+<br>---
+<br>The SPST Switch is the On/Off Switch of the Black Box. When the box is off,
+your phone behaves normally. When the box is on and your phone rings,
+the LED flashes. When you answer, the LED stays on and the voltage
+is kept at 36V, so the calling party doesn't get charged. When the box
+is on, you will not get a dial tone and thus cannot make calls.
+<br>Also remember that calls are limited to half an hour.
+
+<br>                                      ------------Jolly Roger
+
+p.s. Due to new Fone Company switching systems & the like, this
+may or may not work in your area. If you live in bumfuck Kentucky,
+then try this out. I make no guarantees! (I never do...) ----JR
+
+
+<H6>The creator of this page and any links it may lead to hereby takes no responsability or liability for anything that happens as a result of reading anything on this page or anything contained in subsequent pages. Users read at their own risk. It is <EM><STRONG>NOT</STRONG></EM> reccomended that the user do anything described in this and subsequent pages. Doing so may result in serious trouble, arrest, injury, and possibly deportation or death. Thank you. </H6>
+<A HREF="index1.htm"><IMG SRC="backto.gif"></A>
+</BODY>
+
+
+</HTML>

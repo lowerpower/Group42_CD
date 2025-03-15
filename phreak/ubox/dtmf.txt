@@ -1,0 +1,701 @@
+; dtmf.asm:  PWM DTMF dialer
+;
+; Copyright 1992, 1995 Eric Smith
+;
+; dtmf.asm is free software; you can redistribute it and/or modify it under the
+; terms of the GNU General Public License version 2 as published by the Free
+; Software Foundation.  Note that I am not granting permission to redistribute
+; or modify dtmf.asm under the terms of any later version of the General Public
+; License.
+;
+; This program is distributed in the hope that it will be useful (or at least
+; amusing), but WITHOUT ANY WARRANTY; without even the implied warranty of
+; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General
+; Public License for more details.
+;
+; You should have received a copy of the GNU General Public License along with
+; this program (in the file "COPYING"); if not, write to the Free Software
+; Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+;
+; $Header: /usr/home/kolwynia/eric/pic/dtmf/RCS/dtmf.asm,v 1.16 1995/06/06 18:07:48 eric Exp eric $
+
+	device	PIC16C54,HS_OSC,WDT_OFF,PROTECT_OFF
+
+f	equ	1               ; for destination argument
+w	equ	0               ; for destination argument
+
+ind	equ     0               ; used for indirect through FSR
+rtcc	equ     1               ; real time clock/counter
+pc	equ     2               ; program counter
+fsr	equ     4               ; file select register (index register)
+
+status	equ     3               ; status register:
+cf	equ     0               ;  bit 0 = carry flag
+dcf	equ     1               ;  bit 1 = digit carry flag
+zf	equ     2               ;  bit 2 = zero flag
+pdf	equ     3               ;  bit 3 = power down flag
+tof	equ     4               ;  bit 4 = time out flag
+				;  bits 5,6,7 do not apply to PIC16C54
+
+nothing equ     0               ; used to return nothing from subroutines
+
+porta	equ     5               ;I/O port RA:
+pabit0  equ     0               ;  bit 0 = unused
+led     equ     1               ;  bit 1 = low turns on LED
+pwm2    equ     2               ;  bit 2 = PWM speaker output 1
+pwm3    equ     3               ;  bit 3 = PWM speaker output 2
+
+portb   equ     6               ;I/O port RB:
+colm0   equ     0               ;  bit 0 = keypad column 0
+colm1   equ     1               ;  bit 1 = keypad column 1
+colm2   equ     2               ;  bit 2 = keypad column 2
+colm3   equ     3               ;  bit 3 = keypad column 3
+row0    equ     4               ;  bit 4 = keypad row 0
+row1    equ     5               ;  bit 5 = keypad row 1
+row2    equ     6               ;  bit 6 = keypad row 2
+row3    equ     7               ;  bit 7 = keypad row 3
+
+;
+; Where it's at...
+;
+ram     equ     08h             ; start of usable RAM
+body    equ     000h            ; start of program memory
+
+freep0  set     0               ; free words of page zero
+freep1  set     0               ; free words of page one
+
+	org     ram             ; start of RAM
+
+one:    ds      1               ; holds the value 1 for incrementing W
+zero:   ds      1               ; holds the value 0 for two's-complementing W
+c4f:    ds      1               ; holds the value 04fh for SIN scaling
+
+row:    ds      2               ; row sine phase (fixed point)
+colm    ds      2               ; column sine phase (fixed point)
+rowfrq: ds      2               ; row increment (fixed point)
+colmfrq: ds     2               ; column increment (fixed point)
+iter:   ds      2               ; iteration count for DTMF burst in sample
+				;    periods
+
+newsamp: ds      1               ; sample value being calculated
+oldsamp: ds      1               ; last sample (currently being output)
+
+digidx: ds      1               ; index into phone number
+digit:  ds      1               ; current digit
+temp:   ds      1
+
+kcol:	ds	1		; key scan column
+krow:	ds	1		; key scan row
+
+freeram equ     020h-.
+
+	org     body            ; start of ROM
+
+	if      .-000h
+	error   "loop0 is not at 000h"
+	endif
+
+loop0:   
+	call    incrow          ; 25
+	call    waste6          ; 6
+	call    inccol          ; 15
+	call    calccol         ; 18
+	call    pulse           ; 28
+
+; LOOP is the entry point to the DTMF burst generator.  LOOP1 falls into it.
+; LOOP can't be called as a subroutine (main line only),
+; outputs one DTMF burst.  The two's complement of the duration of the
+; burst in sample intervals is stored in ITER.  When the loop completes,
+; it jumps to NXTDIG (from INCPHAS, see the comments there).
+
+loop0a: nop                     ; 1
+loop:   bsf     porta,pwm3      ; 1
+	bsf     porta,pwm2      ; 1
+	movf    newsamp,w       ; 1
+	movwf   oldsamp         ; 1
+	andlw   070h            ; 1
+	movwf   pc              ; 2
+
+incrow: goto    incrowx
+inccol: goto    inccolx
+
+flash:  goto    flashx
+pause:  goto    pausex
+
+	ds      0
+freep0  set     freep0+0
+
+	if      .-010h
+	error   "loop1 is not at 010h"
+	endif
+
+loop1:  
+	call    incrow          ; 25
+	call    waste8          ; 8
+	call    inccol          ; 15
+	call    pulse           ; 28
+loop1b: nop                     ; 1
+loop1a: movf    colm+1,w        ; 1
+	btfsc   colm+1,6        ; 1 is it the 2nd half of a half cycle?
+	subwf   zero,w          ; 1 then complement to effect a subtract from 64
+	andlw   07fh            ; 1 reduce to 6 bits for 90 degrees     
+	call    sinetbl         ; 6  and get amplitude
+
+	btfsc   colm+1,7        ; 1 is amplitude supposed to be negative?
+	subwf   c4f,w           ; 1 change polarity of sine amplitude
+	
+	addwf   newsamp         ; 1
+	rrf     newsamp         ; 1
+	goto    loop            ; 9
+
+	ds      1
+freep0  set     freep0+1
+
+	if      .-020h
+	error   "loop2 is not at 020h"
+	endif
+
+loop2:  
+	call    incrow          ; 25
+	call    waste7          ; 7
+	call    pulse           ; 28
+	call    inccol          ; 15
+	goto    loop1a          ; 25
+
+waste8: nop                     ; 1
+waste7: nop                     ; 1
+waste6: nop                     ; 1
+waste5: nop                     ; 1
+waste4: retlw   nothing         ; 4 (includes call)
+
+	ds      6
+freep0  set     freep0+6
+
+	if      .-030h
+	error   "loop3 is not at 030h"
+	endif
+
+loop3: 
+	call    inccol          ; 15
+	nop                     ; 1
+	call    pulse           ; 28
+	call    incrow          ; 25
+	call    waste6          ; 6
+	goto    loop1a          ; 25
+
+	ds      10
+freep0  set     freep0+10
+
+	if      .-040h
+	error   "loop4 is not at 040h"
+	endif
+
+loop4:  
+	call    pulse           ; 28
+	call    incrow          ; 25
+	call    waste6          ; 6
+	call    inccol          ; 15
+	goto    loop1b          ; 26
+
+;
+; DTMF keypad frequency matrix:
+;
+;               :       :       :       :       :
+;               : 1209  : 1336  : 1477  : 1633  :
+;       ........!_______!_______!_______!_______!
+;               !       !       !       !       !
+;       697     !   1   !   2   !   3   !   A   !
+;       ........!_______!_______!_______!_______!
+;               !       !       !       !       !
+;       770     !   4   !   5   !   6   !   B   !
+;       ........!_______!_______!_______!_______!
+;               !       !       !       !       !
+;       852     !   7   !   8   !   9   !   C   !
+;       ........!_______!_______!_______!_______!
+;               !       !       !       !       !
+;       941     !   *   !   0   !   #   !   D   !
+;       ........!_______!_______!_______!_______!
+
+
+
+; These equates are used to make the row and column tables easier to read.
+;
+; These equates define the phase increments necessary to generate sine
+; waves of the appropriate frequencies for DTMF tones.  The values are
+; computed with the formula 256 * Tsamp * Freq.  The 256 accounts
+; for the effective domain of the sine function (256 steps = 2 * PI
+; radians).  Sure would be nice to have an assembler with floating point!
+
+frq697  equ     2284    ; @int(65536.0*50e-6*697.0)
+frq770  equ     2523    ; @int(65536.0*50e-6*770.0)
+frq852  equ     2792    ; @int(65536.0*50e-6*852.0)
+frq941  equ     3084    ; @int(65536.0*50e-6*941.0)
+frq1209 equ     3962    ; @int(65536.0*50e-6*1209.0)
+frq1336 equ     4378    ; @int(65536.0*50e-6*1336.0)
+frq1477 equ     4840    ; @int(65536.0*50e-6*1477.0)
+frq1633 equ     5351    ; @int(65536.0*50e-6*1633.0)
+
+
+; Tables to set the row and column frequencies for a key.
+; The values in these tables are increment sizes for stepping through the
+; sine table.
+
+rowtabl: addwf   pc
+	 retw    frq697&0ffh,frq770&0ffh,frq852&0ffh,frq941&0ffh
+
+rowtabh: addwf   pc
+	 retw    frq697>>8,frq770>>8,frq852>>8,frq941>>8
+
+coltabl: addwf   pc
+	 retw    frq1209&0ffh,frq1336&0ffh,frq1477&0ffh,frq1633&0ffh
+
+coltabh: addwf   pc
+	 retw    frq1209>>8,frq1336>>8,frq1477>>8,frq1633>>8
+
+
+; Output a pulse of 0 to 15 cycles.
+; Enter with the pulse width (in cycles) in W and with the PWM pin
+; set to the high state.
+;
+; 28 cycles (including call)
+;
+; W=0 ends pulse on 22th cycle after beginning of call
+; W=15 ends pulse on 7th cycle after beginning of call
+
+pulse:
+	movf    oldsamp,w       ; 1
+	andlw   00fh            ; 1
+	addwf   pc              ; 2 calculate first half of delay
+	nop                     ;   delay...
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	bcf     porta,pwm2      ; 1 set PWM output to negative side
+	bcf     porta,pwm3      ; 1
+	xorlw   0fh             ; 1 compute remaining delay
+	addwf   pc              ; 2 calculate second half of delay
+	nop                     ;   delay...
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	retlw   nothing         ; 2
+
+
+; This is a sine wave for 360 degrees per 256 table entries, scaled by
+; 127, such that 1.0 = $7F hex.
+;
+; Only 65 locations (0 to 90 degrees in steps of 2pi/256) are used in order
+; to save space, as a full sine table would take up all of zero page.
+;
+; The values are signed fractions, i.e., s.fffffff
+; All values in the table are positive since it is for the first
+; quadrant.
+
+; 6 cycles (including call)
+
+;sinetbl:        addwf   pc
+;       retw    000h,003h,006h,009h,00ch,010h,013h,016h
+;       retw    019h,01ch,01fh,022h,025h,028h,02bh,02eh
+;       retw    031h,033h,036h,039h,03ch,03fh,041h,044h
+;       retw    047h,049h,04ch,04eh,051h,053h,055h,058h
+;       retw    05ah,05ch,05eh,060h,062h,064h,066h,068h
+;       retw    06ah,06bh,06dh,06fh,070h,071h,073h,074h
+;       retw    075h,076h,078h,079h,07ah,07ah,07bh,07ch
+;       retw    07dh,07dh,07eh,07eh,07eh,07fh,07fh,07fh
+;       retw    07fh
+
+sinetbl: addwf   pc
+	retw    40,41,42,43,44,45,46,47
+	retw    48,49,49,50,51,52,53,54
+	retw    55,56,57,58,58,59,60,61
+	retw    62,62,63,64,65,65,66,67
+	retw    68,68,69,70,70,71,71,72
+	retw    72,73,73,74,74,75,75,76
+	retw    76,76,77,77,77,78,78,78
+	retw    78,78,79,79,79,79,79,79
+	retw    79
+
+       if      0
+; This is how we would do it if we had floating point and repeat:
+pi     equ     3.141592653
+sinetbl: addwf   pc
+angle  set     0
+       rept    65
+       retlw   _fix(127.0*_sin(_float(angle)*pi/128.0)+0.5)
+angle  set     angle+1
+       endm
+       endif
+
+
+; GETDIG is the actual phone number we want to dial.
+;
+; If I'd get macros working we could have a nice macro to define a
+; phone number.
+;
+; mapping:  0 1 2 3 4 5 6 7 8 9 * #
+;           d 0 1 2 4 5 6 8 9 a c e
+;
+; f indicates the end of the number
+;
+; Currently the code assumes that phone numbers are four bytes each, which
+; is long enough for seven digit local numbers.
+
+getdig: addwf   pc
+	retw    04ah,0a8h,000h,00fh     ; 499-7111 (WWV)
+	retw    055h,050h,010h,01fh     ; 555-1212 (information)
+	retw    012h,045h,068h,09fh     ; 234-5678 (test)
+	retw    012h,045h,068h,09fh     ; 234-5678 (test)
+	retw    012h,045h,068h,09fh     ; 234-5678 (test)
+	retw    012h,045h,068h,09fh     ; 234-5678 (test)
+;maxdig equ     2*((.-getdig)-1)
+maxdig  equ     7
+
+
+; CALCCOL is the longest subroutine that doesn't have to entirely reside in
+; page zero, so we position it to begin at 0ffh in order to free as much of
+; page zero as possible.
+
+freep0  set     freep0+(0ffh-.)
+	ds      0ffh-.
+	org     0ffh
+
+; CALCCOL computes the column tone sample, and adds in the previously
+; computed row tone sample.
+
+; 18 cycles (including call)
+
+calccol:
+	movf    colm+1,w        ; 1
+	btfsc   colm+1,6        ; 1 is it the 2nd half of a half cycle?
+	subwf   zero,w          ; 1 then complement to effect a subtract from 64
+	andlw   07fh            ; 1 reduce to 6 bits for 90 degrees     
+	call    sinetbl         ; 6  and get amplitude
+
+	btfsc   colm+1,7        ; 1 is amplitude supposed to be negative?
+	subwf   c4f,w           ; 1 change polarity of sine amplitude
+	
+	addwf   newsamp         ; 1
+	rrf     newsamp         ; 1
+	retlw   nothing         ; 2
+
+; INCCOL updates the sine wave phase for the column tone, and tests
+; for completion of the tone.
+;
+; There is a great ugliness in the way this subroutine deals with
+; the tone completion.  INCCOL is called from the main line code
+; in one of five places (LOOP0, LOOP1, LOOP2, LOOP3, or LOOP4).  Since we
+; know we are called by main, if the tone is over we just jump to
+; NXTDIG, disregarding the return address on the stack (and leaving
+; it there).  This saves some cycles in the main line tone loop, to
+; maximize the available range of PWM duty cycles.  Kudos to Howard!
+
+; 15 cycles (including call to extender)
+
+inccolx:
+	movf    colmfrq,w       ; 1 add low byte of colmfrq to low byte of colm
+	addwf   colm            ; 1
+	movf    colmfrq+1,w     ; 1 add high byte of colmfrq to high byte of colm
+	btfsc   status,cf       ; 1
+	addwf   one,w           ; 1 alternate: incf colm+1
+	addwf   colm+1          ; 1
+	
+	incf    iter            ; 1 increment iteration count
+	btfsc   status,zf       ; 1
+	incfsz  iter+1          ; 1
+	retlw   nothing         ; 2
+	bcf     porta,pwm2      ;   turn off pwm outputs
+	bsf     porta,pwm3
+	goto    nxtdig          ;
+
+; INCROW is responsible for updating the sine wave phase for
+; the row tone, and calculating the sample.
+
+; 25 cycles (including call to extender)
+; We could add up to five additional cycles to INCROW and adjust the delays
+; in LOOP[0-4].  This could be used to look for key press/release, etc.
+
+incrowx:
+	movf    rowfrq,w        ; 1 add low byte of rowfrq to low byte of row
+	addwf   row             ; 1
+	movf    rowfrq+1,w      ; 1 add high byte of rowfrq to high byte of row
+	btfsc   status,cf       ; 1
+	addwf   one,w           ; 1 alternate: incf row+1
+	addwf   row+1           ; 1
+
+	movf    row+1,w         ; 1
+	btfsc   row+1,6         ; 1 is it the 2nd half of a half cycle?
+	subwf   zero,w          ; 1 then complement to effect a subtract from 64
+	andlw   07fh            ; 1 reduce to 6 bits for 90 degrees     
+	call    sinetbl         ; 6  and get amplitude
+
+	btfsc   row+1,7         ; 1 is amplitude supposed to be negative?
+	subwf   c4f,w           ; 1 change polarity of sine amplitude
+
+	movwf   newsamp         ; 1
+	retlw   nothing         ; 2
+
+
+;======================== PROGRAM ENTRY POINT =========================
+
+; Initialize the hardware
+
+reset:
+;       clrwdt                  ; reset watchdog timer
+;       movlw   3fh             ; external edge to timer
+;       option                  ; high to low edge for timer
+				; prescaler assigned to watchdog
+				; prescaler divide by 128 for now
+
+	movlw   1               ; initialize the value of one to allow W to be
+	movwf   one             ; incremented by using "addwf one,w"
+	movlw   0               ; initialize the value of zero so we can
+	movwf   zero            ; calculate the two's complement of W using
+				; "subwf zero,w"
+	movlw   04fh
+	movwf   c4f
+
+	bcf     porta,pwm2      ; turn off PWM output
+	bsf     porta,pwm3
+	bsf     porta,led       ; turn off LED
+
+	movlw   0f0h            ;porta:
+	tris    porta           ;  bit 0 = output (unused)
+				;  bit 1 = output (LED)
+				;  bit 2 = output (PWM speaker)
+				;  bit 3 = output (sync pulse for debug***)
+				;  bits 4-7 = inputs (no pins on 16C54)
+
+
+	movlw   0ffh            ;drive port b output pins high
+	movwf   portb
+
+	movlw   30h             ; portb:
+	tris    portb           ;  bit 0 = output (column 0) not used
+				;  bit 1 = output (column 1)
+				;  bit 2 = output (column 2)
+				;  bit 3 = output (column 3)
+				;  bit 4 = input  (row 0)
+				;  bit 5 = input  (row 1)
+				;  bit 6 = output (row 2) not used
+				;  bit 7 = output (row 3) not used
+
+
+;======================== MAIN LOOP =========================
+
+main:
+	movlw   0
+	call    flash
+
+	if	0		; should be ifdef	test
+
+	clrf	colmfrq
+	clrf	colmfrq+1
+
+	movlw	07h
+nxtdig:	incf	digit
+	movf	digit,w
+	andlw	07h
+	movwf	digit
+	btfsc	digit,2
+	goto	nxtd1
+	
+	call    rowtabl
+	movwf   rowfrq
+	movf    digit,w
+	call    rowtabh
+	movwf   rowfrq+1
+	goto	nxtd2
+
+nxtd1:	andlw	03h
+	call	coltabl
+	movwf	rowfrq
+	movf	digit,w
+	andlw	03h
+	call	coltabh
+	movwf	rowfrq+1
+
+dur1:   equ     65000    ; duration 3.25 S
+nxtd2:
+        movlw   (-dur1)&0ffh
+	movwf   iter
+        movlw   ((-dur1)>>8)&0ffh
+	movwf   iter+1
+
+	goto    loop
+
+	else
+
+keyscan:
+	movlw   010h
+	movwf   krow
+ks1     movlw   002h
+	movwf   kcol
+
+ks2     movf    kcol,w
+	xorlw	0ffh
+	movwf   portb
+	movf    krow,w
+	andwf   portb
+	btfsc   status,zf
+	goto    ks9
+
+	bcf     status,cf
+	rlf     kcol,f
+	btfss   kcol,4
+	goto    ks2
+	
+	bcf     status,cf
+	rlf     krow,f
+	btfss   krow,6
+	goto    ks1
+
+	goto    keyscan
+
+; at this point, row is 10h or 20h, and column is 2, 4, or 8
+
+ks9:    movlw   10h
+	xorwf   krow,f          ; row is now 00h or 30h
+	rlf     kcol,f          ; col is now 04h, 08h, or 10h
+	rlf     kcol,f          ;    08h, 10h, or 20h
+	movlw   30h
+	andwf   kcol,w          ; col (in w) is 00h, 10h, or 20h
+	addwf   krow,w          ; now 00h, 10h, 20h, 30h, 40h, or 50h
+	movwf   digidx
+	decf    digidx,f
+
+nxtdig:
+	clrf    rowfrq		; assume we're going to generate a delay
+	clrf    rowfrq+1
+	clrf    colmfrq
+	clrf    colmfrq+1
+
+;	clrf	colm		; set initial row and column phase
+;	clrf	row
+;	clrf	colm+1
+;	clrf	row+1	
+
+	incf    digidx
+;	goto    nxtd1
+;	goto    main
+
+nxtd1:
+	bcf     status,cf
+	rrf     digidx,w        ; shift it right.  if it's odd, pause
+	btfsc   status,cf
+	goto    nxtd3
+
+	movwf   temp
+	bcf     status,cf
+	rrf     temp,w
+
+	call    getdig          ; get a pair of digits
+	movwf   digit
+
+	btfss   digidx,1        ; get the particular digit
+	swapf   digit
+
+	movf    digit,w         ; if it's an f, we're done
+	andlw   0fh
+	xorlw   0fh
+	btfsc   status,zf
+	goto    main
+
+;       movf    digit,w
+;       andlw   00fh
+;       call    flash
+
+	movf    digit,w
+	andlw   3               ; get the column frequency
+	call    coltabl
+	movwf   colmfrq
+	movf    digit,w
+	andlw   3
+	call    coltabh
+	movwf   colmfrq+1
+
+	rrf     digit           ; now shift digit right two bits
+	rrf     digit,w
+	andlw   3
+	movwf   digit
+
+	call    rowtabl
+	movwf   rowfrq
+	movf    digit,w
+	call    rowtabh
+	movwf   rowfrq+1
+
+dur1:   equ     3000    ; duration 150 mS
+nxtd2:
+        movlw   (-dur1)&0ffh
+	movwf   iter
+        movlw   ((-dur1)>>8)&0ffh
+	movwf   iter+1
+
+	goto    loop
+
+dur2:   equ     6000    ; duration 300 mS
+nxtd3:
+	movlw   (-dur2)&0ffh
+	movwf   iter
+	movlw   ((-dur2)>>8)&0ffh
+	movwf   iter+1
+
+	goto    loop
+
+	endif
+
+flashx: andlw   0fh
+	addwf   one,w
+	movwf   temp
+flash1: bcf     porta,led
+	call    pause
+	bsf     porta,led
+	call    pause
+	decfsz  temp
+	goto    flash1
+
+	movlw   8
+	movwf   temp
+flash2: call    pause
+	decfsz  temp
+	goto    flash2
+
+pausex: movlw   0ffh
+	movwf   temp+1
+	movwf   temp+2
+pause1: decfsz  temp+1
+	goto    pause1
+	decfsz  temp+2
+	goto    pause1
+	retlw   nothing
+
+
+;===================== HARDWARE VECTORS =====================
+
+freep1  set     freep1+(01ffh-.)
+	org     01ffh           ; reset vector of PIC16C54
+	goto    reset           ; start of program
+
+	end

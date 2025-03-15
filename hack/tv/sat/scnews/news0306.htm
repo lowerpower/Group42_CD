@@ -1,0 +1,90 @@
+<HTML><HEAD>
+<TITLE>News as of March 06, 1996</TITLE>
+</HEAD><BODY><H1 ALIGN=Center><B><I>Pirate War Causes Shut-Off of Battery Cards</I></B>
+</H1><P>
+<P ALIGN=Justify>The first two shutoffs of the battery cards which are used
+to receive both the audio and video of all services offered by DirecTV and
+
+U.S.S.B.occurred on New
+
+<IMG ALIGN=Right SRC="program.gif" ALT="Photo of battery card being reprogrammed"
+WIDTH="320" HEIGHT="240">Years Eve and Superbowl Sunday. Those shutoffs were
+
+hiccups. All services were shut off and turned back on approximately one second later. The first time this ECM (Electronic
+
+Countermeasure) was used it was successful in shutting off the battery cards.  The ECM exploited the faster speed of the authorized cards.
+They could handle the fast shutoff and turn-on while the pirate cards could
+not. Less than 3 days later the developers of the cards had written
+new code for the main program. It was called main01.enc. Main01 instructed the battery cards to ignore the quick shut-off
+and turn-on. Mainxx is the main program in the card. It is encrypted and
+it
+
+controls the operation of the smartcard. Those who loaded the main01 program into their battery cards were uneffected by the second hiccup
+ECM on Superbowl Sunday. [The photo shows a battery card being reprogrammed.One end is in the programmer
+
+and the other end has a plastic capsule over the chips. A GE DSS unit is
+in the background. There is a test clip on the EEPROM.]
+<P ALIGN=Justify>Since that time there has been a split of the original
+
+developers and one of the individuals decided to produce his own version
+of the battery cardusing the proprietary software originally developed by the team. The original
+
+3-chip battery card uses a Dallas DS5002 processor. The knocked off version
+is a two-chip (2 chips on the battery card) and it uses a Dallas DS5000 with
+a built-in battery and an Atmel AT89C51. The reason given for using the 5000 was that the 5002 is not common and anyone
+
+purchasing quantities would be suspect, but there is more to it than that.
+The Dallas DS5000 is not as secure as the 5002 and DirecTV was apparently
+able to read the microcode in it and write a routine to shut it down. The
+
+microcode is the operating system for the card and it is also responsible
+for decryption. It is a common practice when pirates split for one to get
+the other's product shut off in order to make his own look better and it
+appears that is what has happened here. The original battery cards were shut
+off on February 29 while the knock-offs continue to work. The knock-off cards
+
+have an important feature which the original cards do not have. They are
+
+self-writing. Simply insert the card in the cardslot and it will update the
+24C16 EEPROM itself. It is not necessary for consumers to be involved in
+
+programming at all. Note that the 3-chip cards will also auto-program but it can take up to 2
+days. They require 2 hits.
+<P>A new program has been written to turn the 3-chip cards back on. It is
+
+main04.enc and it is available now from those who sell battery cards. We
+do not carry such files on our own BBS. It replaces main03.enc which had
+bugs.
+Consumers will have to get their cards
+
+re-programmed. The clone ID's were not shut off so the clone number files
+still work. Note that as soon as DirecTV gets this program they will design
+ECMs to turn it off. This will happen very quickly if is posted on bulletin
+
+boards. There will probably be a cycle of shut-offs and new mainxx.enc files.
+It appears that only consumers who are able to program their own cards will
+be able to continue to use their 3-chip battery cards. One day last week
+the 3-chip cards were being shut off every hour. 
+<P>For the benefit of those in countries like Canada where it appears to
+be legal to use battery cards we are doing a major article on how to program
+
+battery cards. It appears in the newsletter which will be mailed next week.
+The article includes the use of the $150 programmer being sold by Open Skies
+and others and the use of our Examiner which is a do-it-yourself unit which
+can easily be built for $20 worth of common parts (not included) with our
+
+instructions, schematics software and connection point package ($49.95 +
+$6 for C.O.D. Scrambling News 716-874-2088. <U>Special Deal</U> - The Examiner
+
+and a 12 issue subscription to Scrambling News for only $69.95).
+<P>On another matter, we suggest you avoid contact with the Toledo website
+for reasons we will discuss at a later time. 
+<H1 ALIGN=Center><B><I>&copy; 1996 by Scrambling News and David
+Lawson</I></B>
+</H1><P>
+<P>
+<P>
+<P>
+<P>
+<P>
+</BODY></HTML>

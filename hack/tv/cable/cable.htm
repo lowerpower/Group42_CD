@@ -1,0 +1,1051 @@
+<html>
+<head><title>Group 42 Sells Out [Cable Hacking]</title></head>
+<body background="cable1.gif">
+<center>
+<h2>4X and G-Man's Guide to Hacking Cable</h2>
+<h3>(c)1993,94,95 Group 42</h3>
+</center>
+<hr size=5 noshade>
+<h3>IMPORTANT_NOTICE</h3>
+<i>
+The ownership of a signal descrambler does NOT give the owner the right
+to decode or view any scrambled signals without authorization from the
+proper company or individual.  Use of such a device without permission
+may be in violation of state and/or federal laws.  The information
+contained herein is intended to serve as a technical aid to those person
+seeking information on various scrambling technologies.  No liability by
+myself or my employer is assumed for the (mis)use of this information. 
+</i><p>
+<hr size=5 noshade>
+<h3>Other References</h3>
+<i>Video Scrambling and Descrambling for Satellite and Cable TV</i> by
+Rudolf F. Graf and William Sheets (ISBN 0-672-22499-2) US$20.00. 
+Published in 1987, it is somewhat dated but is useful for understanding
+what is happening when a video signal is scrambled.  Covered topics
+include SSAVI, gated sync, sine wave, subcarrier recovery, outband,
+VideoCipher II, B-MAC, etc.  246 pages.
+<p>
+
+<hr size=5 noshade>
+<h3>Scrambling_Technologies</h3>
+
+<h4>Traps (Traps/Addressable Taps)</h4>
+A cable system may not be scrambled at all. Some older systems (and many
+apartment complexes) use <i>traps</i> or <i>filters</i> which actually
+<b>remove</b> the
+signals you aren't paying for from your cable. (These are negative traps
+because they remove the WHOLE signal.) These systems are relatively
+secure because the traps are often located in locked boxes, and once
+a service technician finds out they're missing or have been tampered
+with (by pushing a pin through a coax trap it to change its frequency,
+for example), it's a pretty solid piece of evidence for prosecution.
+Another method is where the head-end ADDS an extraneous signal about
+2.5 MHz above the normal visual carrier which causes a tuner to think
+its receiving a very strong signal--the tuner then adjust the automatic
+gain control and buries the real signal. If you pay for the service, the
+cable company adds a <i>positive trap</i> which then REMOVES the extraneous
+injected signal so it becomes viewable. (This system is very easy to
+circumvent by building your own notch filter, so it is not very commonly
+used.) Advantages to a cable system with this technology is that you
+don't need a cable box--all your cable-ready TVs, VCRs, etc. will all
+work beautifully. The disadvantage is that pay-per-view events are not
+possible, and that every time someone requests a change in service, a
+technician has to be dispatched to add/remove the traps.
+<p>
+An article for building a tunable notch filter to block data 
+streams sent just above the FM band was in the April 1992 issue of
+Radio-Electronics (pp. 37-39). Notch filters (as well as kits for
+them) for other frequencies are frequently advertised in Nuts & Volts
+magazines as <i>beep</i> filters and the like.
+<p>
+Becoming more and more popular, not only because of the Cable Act of
+1992 but also in an effort to stop <i>pirates</i> are addressable taps. Many
+cable companies will be moving to this technology in the near future,
+(which they call <i>interdiction</i>). These are devices located at the pole,
+where your individual cable feed is tapped from the head-end. Similar
+to addressable converters, they each have a unique ID number and can be
+turned on/off by a computer at the head-end. Any stations which you are
+not paying for are filtered out by electronicly switchable traps in the
+units. (Including the whole signal if you haven't paid your bill or had
+the service disconnected.) {Several patents have already been issued for
+various methods of making SURE you don't see a channel you don't pay
+for.} Again, these almost <b>guarantee</b> an end to piracy and don't have any
+of the disadvantages of the manual traps. Plus, they provide a superior
+signal to those customers paying for service because they no longer need
+complicated cable boxes or A/B switches -- and they can finally use all
+of the <i>cable-ready</i> capabilites of the VCR, TV, etc. About the only
+known attack on this type of system is to splice into a neighbors cable,
+which again provides plenty of physical evidence for prosecution.
+<p>
+<hr size=1 noshade>
+<h3>Sine-Wave</h3>
+Early Oak (and some very early Pioneer boxes) employed a sine-wave sync
+suppresion system. In this system, the picture would remain vertically
+stable, but wiggling black bars with white on either side would run
+down the center of the screen. The lines were caused by a 15,750 Hz
+sine-wave being injected with the original signal, causing the sync
+separator in the TV to be unable to detect and separate the sync pulses.
+Later, Oak came out with a <i>Vari-Sync</i> model, which also removed a
+31,500 Hz sine-wave added to the signal. Oak was one of the first to
+use extra signals (<i>tags</i>) as a counter-measure for pirate boxes -- in
+the normal mode, a short burst of a 100 KHz sine-wave (the tag signal)
+would be sent during the VBI, along with the AM sine-wave reference
+on the audio carrier and scrambled video. They would then put the AM
+sine-wave reference signal onto the audio carrier, leave the video
+alone, and NOT send the tag. Any box which simply looked for the AM
+sine-wave reference would effectively scramble the video by adding a
+sine-wave to the unscrambled video! Real decoders looked for the tag
+signal and still worked correctly. Other combinations of tag/no tag,
+scrambled/unscrambled video were also possible.
+<p>
+<hr size=1 noshade>
+<h3>6 dB In-Band Sync Suppression</h3>
+Early Jerrold boxes used in-band gated sync suppression. The horizontal
+blanking interval was suppressed by 6 dB. A 15.734, 31.468 or 94.404
+KHz reference signal (conveniently all even multiples of the horizontal
+sync frequency) was modulated on the sound carrier of the signal, and
+used to reconstruct the sync pulse. An article in February 1984 issue
+of Radio-Electronics explains this somewhat-old technique. Converters
+which have been known to use this system include the Scientific-Atlanta
+8500-321/421, a number of Jerrold systems [see numbering chart], Jerrold
+SB-#, SB-#-200, SB-#A, RCA KSR53DA, Sylvania 4040 and Magnavox Magna
+6400.
+<p>
+<hr size=1 noshade>
+<h3>Tri-mode In-Band Sync Suppression</h3>
+A modification to the 6dB sync suppresion system, dubbed <i>tri-mode</i>,
+allows for 0, 6 and 10 dB suppression of the horizontal sync pulse. The
+three sync levels can be varied at random (as fast as once per field),
+and the data necessary to decode the signal is contained in unused lines
+during the VBI (along with other information in the cable data stream.)
+See the February 1987 issue of Radio-Electronics for a good article
+(both theory and schematics) on the tri-mode system. Converters which
+have been known to use this system include a number of Jerrold systems
+[see numbering chart], Jerrold SBD-#A, SBD-#DIC, Jerrold Starcom VI
+(DP5/DPV models), Regency, Scientific- Atlanta 8550-321 and early
+Pioneer systems.
+<p>
+<hr size=1 noshade>
+<h3>Out-Band Sync Suppression</h3>
+Out-band gated sync systems also exist, such as in early Hamlin
+converters. In this system, the reference signal is located on an
+unused channel, usually towards the higher end (channels in the 40's
+and 50's are common, but never in the low 30's due to potential false
+signalling.) The signal is comprised of only sync pulse information
+without any video. Tuning in such a channel will show nothing but a
+white screen and will usually have no audio.
+<p>
+<hr size=1 noshade>
+<h3>SSAVI / ZTAC</h3>
+SSAVI is an acronym for Synchronization Suppression and Active Video
+Inversion and is most commonly found on Zenith converters. ZTAC is an
+acronym for Zenith Tiered Addressable Converter. Besides suppressing
+sync pulses in gated-sync fashion, video inversion is used to yield
+four scrambling modes (suppressed sync, normal video; suppressed sync,
+inverted video; normal sync, inverted video; and normal sync, normal
+video).<p>
+The horizontal sync pulses of an SSAVI signal can be absent
+completely, at the wrong level, or even present, and can be varied on
+a field-by-field basis. Any decoder for an SSAVI (or similar) system
+has to be able to separate a video line into its two basic components--
+the control and picture signals. In SSAVI, the horizontal sync is never
+inverted, even if the picture is. So a method of inverting the picture
+without inverting the control section is necesary. This is complicated
+by the fact that almost every line in an SSAVI signal has no horizontal
+sync information, making it difficult to perform the separation (since
+the usual reference point--the horizontal sync pulse--is gone).
+<p>
+In the
+older suppressed-sync system, the sync pulse could be recovered from the
+gating signal buried in the audio subcarrier, but SSAVI is <i>pilotless</i>.
+The key to this system relies on the strict timings imposed by the NTSC
+standard--if you can locate one part of the signal accurately, you
+can determine where everything else should be mathematically. Since
+the cable company is sending a digital data stream---the security and
+access-rights--during the VBI of the signal, the VBI makes a great place
+to find a known point in the signal. Obviously if the electronics in the
+cable box can locate this information, so can electronics outside the
+cable box! :-)
+<p>
+The only constant in the SSAVI system are the horizontal sync pulses
+during the VBI (the first 26 lines of video), which are sent "in the
+clear". The pulses from the VBI can be used as a reference for a
+phase-locked loop (PLL) and used to supply the missing pulses for the
+rest of the video frame. With 20 or so reliable pulses at the beginning
+of each frame, you can accurately generate the missing 240 or so pulses.
+Of the 26 lines in the VBI, lines zero through nine are left alone by
+request of the FCC, lines 10 to 13 are commonly used to transmit a
+digital data stream, line 21 contains closed-caption information, while
+other lines are used for a variety of <i>stuff</i> depending on the cable
+system and the channel you're watching. When you tune to a scrambled
+channel with a cable box, logic circuits in the unit count the video
+lines, read the transmitted data stream, and compare the transmitted
+data with the information stored in the box. If the box is authorized
+to receive the signal with that particular data stream, the decoder
+is enabled and the scrambled signal becomes viewable. If not, the
+signal is passed through without being decoded, or more commonly, a
+<i>barker</i> channel (whose channel number is sent via the data stream) is
+automatically tuned instead. This prevents people from using the unit
+as a tuner for <i>add-on descramblers</i> often advertised in the back of
+electronics magazines.
+<p>
+In the SSAVI system, the video can be sent with either normal or
+inverted picture information. The descrambler needs a way to determine
+whether to invert the video or not. Originally this information could
+be found on line 20, but has since moved around a lot as the popularity
+(and knowledge) of the system increased. In any event, the last half of
+the line would tell the decoder whether to invert the picture or not. If
+the rest of the field was not inverted, the last half of the line would
+be black. If the video in the rest of the frame was inverted, the last
+half of the line would be white.
+<p>
+The Drawing Board column of Radio-Electronics starting in August '92
+and going through May '93 described the system and provided several
+circuits for use on an SSAVI system. Note that audio in the system can
+be <i>scrambled</i> - usually by burying it on a subcarrier that's related
+mathematically to the IF component of the signal.
+<p>
+Addressable data for Zentih systems is sent in the VBI, lines 10-13,
+with 26 bits of data per line.
+<p>
+<hr size=1 noshade>
+<h3>Tocom systems</h3>
+The Tocom system is similar to the Zenith system since it provides three
+levels of addressable baseband scrambling: partial video inversion,
+random dynamic sync suppression and random dynamic video inversion.
+Data necessary to recover the signal is encrypted and sent during lines
+17 and 18 of the VBI (along with head-end supplied teletext data for
+on-screen display). The control signal contains 92 bits, and is a 53 ms
+burst sent just after the color burst. Up to 32 tiers of scrambling can
+be controlled from the head-end. Audio is not scrambled.
+<p>
+<hr size=1 noshade>
+<h3>New Pioneer systems</h3>
+The newer 6000-series converters from Pioneer supposedly offer one
+of the most secure CATV scrambling technologies from a <i>major</i> CATV
+equipment supplier. From the very limited information available on the
+system, it appears that false keys, pseudo-keys and both in-band and
+out-band signals are used in various combinations for a secure system.
+From U.S. patent abstract #5,113,441 which was issued to Pioneer in
+May '92 (and may or may not be used in the 6000-series converters, but
+could be), "An audio signal is used on which a key signal containing
+compression information and informaton concerning the position of a
+vertical blanking interval is superimposed on a portion of the audio
+signal corresponding to a horizontal blanking interval. In addition,
+a pseudo-key signal is superimposed...so that the vertical blanking
+interval cannot be detected through the detection of the audio signal...
+Descrambling can be performed by detecting the vertical blanking
+interval based on the information...in the key signal, and decoding
+the information for the position which is transmitted in the form of
+out-band data. Compression information can then be extracted from
+the key signal based on the detected vertical blanking interval, and
+an expansion signal for expanding the signal in the horizontal and
+vertical blanking periods can be generated."
+<p>
+Note that Pioneer boxes are <i>booby-trapped</i> and opening the unit will
+release a spring-mechanism which positively indicates access was gained
+to the interior (and sends a signal to the head-end on a two-way system,
+and may disable the box completely.) {See U.S. patent #4,149,158 for
+details.} The unit cannot be reset without a special device.
+<p>
+Pioneer systems transmit their addressing data on 110.0 MHz, and there
+are several programmable <i>cubes</i> that can activate these systems.
+<p>
+The data is a manchester I encoded FSK signal at ~6kHz data rate,
+this data is easly readable using software developed by Group 42
+that will be available on the next release of this disc.
+<p>
+<hr size=1 noshade>
+<h3>New Scientific-Atlanta Systems</h3>
+Some of the early S-A boxes used 6 dB only sync suppression (some of
+the 8500 models), and some of the 8550 boxes are tri-mode systems.
+The three digit number after the model (such as 321) is a code which
+indicates the make of the descrambler in the unit. Apparently some of
+the newer S-A boxes use a technique called <i>dropfield</i>, and some
+of the newer 8600 and 8570 models use baseband methods (see Jerrold
+Baseband below).
+<p>
+Scientific-Atlanta systems transmit their FSK addressing data on 106.2 or
+108.2 MHz.  There are several programmable <i>cubes</i> that can activate
+these systems.  On the newest 8600 systems the the addression data is
+hidden elsewhere, possibly the video blanking region.
+<p>
+<hr size=1 noshade>
+<h3>Oak <i>Sigma</i> Systems</h3>
+This a secure system which replaces the horizontal sync of each line
+of video with a three-byte digital word. Video is switched from
+inverted to non-inverted between scene changes, and the colorburst
+frequency is shifted <i>up</i>. This is a standard <i>suppressed</i> sync
+video scrambling method and is relatively simple to defeat with the
+appropriate circuitry. HOWEVER, the three-byte digital word in the
+area where the sync normally is contains audio and sync information.
+The first two bytes contain a digitized versions of the audio, the
+third byte contains sync information (and perhaps addressing data?) The
+two bytes of digitized audio are encrypted; a separate carrier signal
+contains the decryption keys for the digital audio datastream.
+<p>
+<hr size=1 noshade>
+<h3>Jerrold Baseband (dpbb and CFT model units)</h3>
+Jerrold has gone one step further in scrambling the signal at the
+baseband level.  Other less complicated methods like tri-mode scramble
+the signal at the RF level (ie. the channel 73 signal is scrambled when
+the signal is already modulated on channel 73.)  With baseband scrambling
+the signal is scrambled, then modulated on the desired channel.  Using
+this method the scrambling device has more control and more complicated
+methods can be used.<p>
+The most popular way to defeat these systems is to use a <i>test chip</i>
+or a cube device to activate the original Jerrold equiptment.  Addon
+descramblers are more difficult to build since you have to convert
+the signal to baseband levels, descramble, then remodulate the singnal.
+<p>
+Cable Companies have been experementing with several new methods of
+defeating test chips and cubes, most notably is the use of <i>Multi
+Mode</i> and adding an extra checksum byte in the FSK data packet
+format.  Pirates are starting to clone cable companies test boxes
+to get around the most problem areas of multi mode and newer test
+chips and cubes are getting smarter to combat both multimode and
+the extra checksum bytes.
+<p>
+
+<hr size=1 noshade>
+<h3>Chameleon</h3>
+The research and development division of Fundy Cable Ltd., NCA
+Microelectronics, has a systemd dubbed <i>Chameleon</i>. They claim it is
+a cost-effective solution that prevents pay TV theft by digitally
+encrypting the video timing information of sync suppression systems. The
+company claims the technology has been proven to be effective against
+pirate and tampered boxes. Supposedly, existing decoders can be upgraded
+to Chameleon technology with a low-cost add-in circuit, and that the
+card's sealed custom IC, developed by NCA, is copy-proof.
+<p>
+<hr size=1 noshade>
+<h3>VideoCipher</h3>
+The VideoCipher system is now owned by General Instrument and is used
+primarily for satellite signals at this time. VideoCipher I is the
+"commercial" version which uses DES (Data Encryption Standard)-encrypted
+audio AND video. A VCI descrambler is not available for "home" owners.
+VideoCipher II is the now-obsolete system which used a relatively simple
+video encryption method with DES-encrypted audio. (Specifically, the
+audio is 15 bit PCM, sampled at ~44.1 KHz. It is mu-law companded to
+10 bits before transmission.) This has recently been replaced by the
+VideoCipher II+, which has been incorporated as the 'default' encryption
+method used by VideoCipher IIRS (a smart-card based, upgradeable
+system). Supposedly, coded data relating to the digitized, encrypted
+audio is sent in the area normally occupied by the horizontal sync
+pulse in the VCII system. (The Oak Sigma CATV system uses a similar
+technology.) Several methods existed for pirating the VCII based system,
+and some SUPPOSEDLY exist for the new VCII+ format, although this has
+never been verified.
+<p>
+<hr size=1 noshade>
+<h3>DigiCable/DigiCipher</h3>
+DigiCipher is an <i>upcoming</i> technology being developed by General
+Instrument for use in both NTSC and HDTV environments. The DigiCipher
+format is for use on satellites, and the DigiCable variation will
+address CATV needs. It provides compression algorithms with forward
+error correction modulation techniques to allow up to 10 "entertainment
+quality" NTSC channels in the space normally occupied by one channel.
+It provides true video encryption (as opposed to the VCII-series which
+only DES encrypts the audio). In a Multiple Channel Per Carrier (MCPC)
+application, the data rate is ~27 MB/second via offset QPSK modulation.
+Audio is CD-quality through Dolby AC-2 technology, allowing up to four
+audio channels per video channel. The system uses renewable security
+cards (like the VCIIRS), has 256 bits of <i>tier</i> information, copy
+protection capability to prevent events from being recorded, commercial
+insertion capability for CATV companies, and more. The multichannel NTSC
+satellite version of DigiCipher started testing in July of 1992, and
+went into production several months later.
+<p>
+<hr size=1 noshade>
+<h3>B-MAC</h3>
+MAC is an acronym for Mixed Analog Components. It refers to placing TV
+sound into the horizontal-blanking interval, and then separating the
+color and luminance portions of the picture signal for periods of 20
+to 40 microseconds each. In the process, luminance and chrominance are
+compressed during transmission and expanded during reception, enlarging
+their bandwidths considerably. Transmitted as FM, this system, when used
+in satellite transmission, provides considerably better TV definition
+and resoluton. Its present parameters are within the existing NTSC
+format, but is mostly used in Europe at this time.
+<p>
+<hr size=5 noshade>
+<h2>Miscellaneous Information</h2>
+<h3>Two-Piece vs. One-Piece</h3>
+There are both advantages and disadvantages to the one-piece and
+two-piece descramblers often advertised in the back of electronics
+magazines. Most <i>one-piece units</i> are real cable converters, just
+like you'd get if you rented one from the cable company. It has the
+advantages of <i>real</i> descrambling circuitry and the ability to
+<i>fit-in</i>
+well when neighbors come over (avoids those <i>my box doesn't look like
+that...or get all these channels!</i> conversations. A disadvantage is
+that if you move or the cable company installs new hardware, you may now
+have a worthless box -- most one-piece units only work on the specific
+system they were designed for. Another disadvantage is that if the box
+has not been modified, it can be very easy for the head-end to disable
+the unit completely. (See Market Codes & Bullets, below.)
+<p>
+A <i>two-piece unit (combo)</i> usually consists of an any-brand cable TV
+tuner with a third-party <i>descrambler</i> (often referred to as a <i>pan</i>)
+which is designed to work with a specific scrambling technology. The
+descrambler typically connects to the channel 3 output of the tuner,
+and has a channel 3 output which connects to your TV. (Although some
+tuners have a <i>decoder loop</i> for such devices.) They have the advantage
+that if you move or your system is upgraded, you can try to purchase a
+new descrambler -- which is much cheaper than a whole new set-up. You
+also can select the cable TV tuner with the features you want (remote,
+volume control, parental lockout, baseband video output, etc.) Two-piece
+units typically cannot be disabled by the data stream on your cable.
+(Note however that there ARE add-on <i>pans</i> manufactured by the same
+companies who make the one-piece units that DO pay attention to the data
+stream and can be disabled similarly!) The main disadvantage is that a
+third-party descrambler MAY not provide as high of quality descrambling
+as <i>the real thing</i>, and it may arrouse <i>suspicion</i> if someone
+notices your <i>cable thing</i> is different from theirs.
+<p>
+<hr size=1 noshade>
+<h3>Jerrold Numbering System</h3>
+To decode older Jerrold converters, the following chart may be helpful.
+<pre>
+ __ __ __ __ - __ __ __
+ |  |  |  |    |  |  |
+ |  |  |  |    |  |  |___ T = two-way capability, C = PROM programmable
+ |  |  |  |    |  |
+ |  |  |  |    |  |______ DI = Inband decoder, DO = Outband decoder,  
+ |  |  |  |    |          PC = Single pay channel, A = Addressable
+ |  |  |  |    |
+ |  |  |  |    |_________ Output channel number (3 very common)
+ |  |  |  |    
+ |  |  |  |______________ D or I = tri-mode system, N = parental lockout   
+ |  |  |                    feature (6 dB-only systems are "blank" here)
+ |  |  |
+ |  |  |_________________ M = mid-band only, X = thru 400 MHz,
+ |  |                     Z = thru 450 MHz, BB = baseband
+ |  |   
+ |  |____________________ S = Set-top, R = Remote
+ | 
+ |_______________________ D = Digital tuning, J = Analog tuning
+</pre>
+
+Also note that some Jerrold converters (particularly the DP5 series
+and some CFTs) have a tamper-switch, and that opening the box will
+clear the contents of a RAM chip in the converter. This may or may not
+be corrected by letting the unit get <i>refreshed</i> by the head-end
+FSK data stream.
+<p>
+Most Jerrold systems in the United States and Canada transmit their
+addressing data on 97.5, 106.5 or
+108.5 MHz.  Some DPV7 and DPBB7 models have S7, S8, or S9 as
+the last numbers on there modle numbers, these correlate to 97.5,
+106.5 and 108.5 Mhz directly.  CFT model numbers almost always
+use 108.5Mhz.  DPV5 and older units mostly use 106.5Mhz.
+In Europe 122.75 Mhz seems to be the addressing frequency used,
+at least in several parts of Jolly old England.
+<p>
+The datastream is Manchester II encoded FSK, with approximately
+a 14kHz clock.  And is fully readable with software developed
+by Group 42 available on a future relase of this disc.
+<p>
+<hr size=1 noshade>
+<h3>Scientific-Atlanta Suppressed Sync Boxe Numbering</h3>
+<pre>
+
+Model 8600 - _ _ _ _
+             | | | |
+             | | | |___ Impulse PPV Return: N=none, T=telephone, R=RF
+             | | |_____ Dual cable option: N=none, D=dual cable
+             | |_______ Descrambler type: S=SA standard, K=oak
+             |_________ Channel: S=selectable channel 3/4
+   The 8600 has 240 character on-screen display, multimode scrambling, 
+   8 event 14 day timer, and is "expandable"...
+
+Model 859_ - 7 _ 7 _
+         |     |   |
+         |     |   |__ Dual cable option: D=dual cable
+         |     |______ Descrambler: 5=SA scrambling+video inversion,
+         |                          7=5+Oak
+         |____________ 0=No Impulse PPV, 5=Telephone IPPV, 7=RF IPPV
+   The 8590s feature volume control, multimode scrambling, 8 event
+   14 day timer...
+
+Model 858_ - _ 3 _ - _ 
+         |   |   |   |__ Dual cable option: D=dual cable
+         |   |   |______ Data carrier: 6=106.2 MHz, 8=108.2 MHz
+         |   |__________ Channel: 3=channel 3, 4=channel 4
+         |______________ 0=No Impulse PPV, 5=Telephone IPPV, 7=RF IPPV
+   The 8580s use dynamic sync suppression, 8 event 14 day timer, and
+   built-in pre-amp.
+
+The 8570 is similar to the 8580.
+
+Model 8550 - _ _ _
+             | | |__ 1=108.2 MHz data stream
+             | |____ Jerrold, dropfield, SA descrambling
+             |______ Channel: 3=channel 3
+   The 8550 is not a current model; it can be replaced with an 8580-321.
+</pre>
+Non-addressable products include the 8511, 8536, 8540 and 8490.
+<p>
+The SA models below 8600 transmit there FSK addressing data on
+one of two frequencies.  It is ~32kHz Manchester I encoded signal
+that is easly read by software developed by Group 42 avalable on
+the next release of this disc.
+<p>
+
+<hr size=5 noshade>
+<h3>Market Codes</h3>
+Note that almost every addressable decoder in use today has a unique
+<i>serial number</i> programmed into the unit -- either in a PROM,
+non-volatile RAM, EAROM, etc. This allows the head-end to send commands
+specifically to a certain unit (to authorize a pay-per-view events, for
+example.) Part of this <i>serial number</i> is what is commonly called a
+<i>market code</i>, which can be used to uniquely identify a certain cable
+company. This prevents an addressable decoder destined for use in
+Chicago from being used in Houston. In most cases, when a box receives a
+signal with a different market code, it will enter an <i>error mode</i> and
+become unusable. This is just a friendly little note to anyone who might
+consider purchasing a unit from the back of a magazine -- if the unit
+has not been <i>modified</i> in any way to prevent such behavior, you could
+end up with an expensive paper weight... (see next section)
+<p>
+<hr size=5 noshade>
+<h3>Test Chips</h3>
+So-called <i>test chips</i> are used to place single-piece converters (that
+is, units with both a tuner and a descrambler) into full service. There
+are a number of ways to accomplish this, but in some cases, the serial
+number/market code for the unit is set to a known <i>universal</i> case
+or, better yet, the comparison checks to determine which channels to
+enable/disable are bypassed by replacing an IC in the unit. Hence, the
+<i>descrambler</i> will always be active, no matter what. This latter type of
+chip is superior because it cannot be disabled and is said to be <i>bullet
+proof</i>, even if the cable company finds out about a <i>universal</i>
+serial number. (When the cable company finds out about a universal serial
+number, it is easy for them to disable the converter with a variation on
+the <i>bullet</i> described below.)
+<p>
+<hr size=5 noshade>
+<h3>Cubes</h3>
+Another type of <i>test device</i> has been advertised in magazines such as
+Electronics Now (formerly Radio-Electronics) and Nuts & Volts. It's
+called a <i>cube</i> and it SIMULATES the addressing data signal for a cable
+box, most commonly for those from Pioneer and Jerrold (the Zenith data
+stream is sent in the VBI, making this apporach more difficult). You
+plug the cable into one side, where it filters out the real data signal,
+and out the other side comes a normal signal, but with a new data
+stream. (There are also <i>wireless</i> cubes which you just periodically set
+near your box with the cable disconnected to <i>refresh</i> it.)
+<p>
+This new data signal tells whatever boxes the cube addresses to go
+into <i>full-service</i> mode (including any cable company-provided boxes).
+Sometimes it is a non-destructive signal, and if the the <i>cube</i> is
+removed from the line, the real data signal gets to the electronics
+inside and the converter goes back to normal <i>non-test</i> mode. Note
+that sometimes it IS destructive: there are some cubes that re-program
+the electronic serial number in a converter to a new value. This type
+has the advantage that it will work with any converter the cube was
+designed to test (but changes the serial number to some <i>preset</i> value).
+The <i>non-destructive</i> versions of a cube usually require that you
+provide the serial number from the converter you're interested in
+<i>testing</i>. That way a custom IC can be programmed to address that
+converter with the necessary data. (Otherwise the converter would ignore
+the information, since the serial number the cube was sending and the
+one in converter wouldn't match.)
+<p>
+The best cubes that we have seen are the <i>Stealth FSK</i> and
+<i>RFT-2</i> units.  These seem to offer the most trouble free performance,
+don't require a serial number, and are non-destructive devices.
+<p>
+There are some newer cubes on the market called <i>genesis</i> FSKs that
+will reboot (or reactivate) a shut down box.
+<p>
+<hr size=5 noshade>
+<h3>Bullets</h3>
+First and foremost, <b>THE <i>BULLET</i> IS NOTHING MORE THAN THE NORMAL
+CABLE FSK DATA STREAM WITH THE APPROPRIATE <i>CODE</i> TO DISABLE A
+CONVERTER WHICH HAS NOT BEEN ACKNOWLEDGED BY THE CABLE COMPANY.</b>
+For instance, the head
+end could send a code to all converters which says <i>unless you've been
+told otherwise in the last 12 hours, shut down.</i> All legitimate boxes
+were individually sent a code to ignore this shut down code, but the
+pirate decoders didn't get such a code because the cable company doesn't
+have their serial number. So they shut down when the see the <i>bullet</i>
+code.
+<p>
+The <i>bullet</i> is NOT a harmful high-voltage signal or something as
+the cable companies would like you to believe -- if it was, it would
+damage anyone with a cable-ready TV or VCR connected to the cable (not
+something the cable company wants to deal with!)
+<p>
+The only way to get <i>caught</i> by such a signal is to contact the cable
+company and tell them your illegal descrambler just quit working for
+some reason. :-) Not a smart thing to do, but you'd be surprised,
+especially if it's someone else in the house who calls, like a spouse,
+child, babysitter, etc.  While we're on the subject, it's also not a
+good idea to have cable service personnel come into your residence and
+find an unauthorized decoder...
+<p>
+<hr size=5 noshade>
+<h3>Time Domain Reflectometry / Leak Detection</h3>
+The cable company can use a technique called <i>Time Domain Reflectometry</i>
+(TDR) to try and determine how many devices are connected to your cable.
+In simple terms, a tiny, short test signal is sent into your residence
+and the time domain reflectometer determines the number of connections
+by the various <i>echoes</i> returned down the cable (since each device
+is at a different point along the cable, they can be counted.) Each
+splitter, filter, etc. will affect this count. A simple way to avoid
+being <i>probed</i> is to install an amplifier just inside your premises
+before any connections. This isolates the other side of the cable from
+the outside, and a TDR will only show one connection (the amplifier).
+<p>
+The cable company also has various ways of detecting signal <i>leaks</i>
+in their cable. The FCC REQUIRES them to allow only so much signal to
+be radiated from their cables. You may see a suspicious looking van
+driving around your neighborhood with odd-looking antennas on the roof.
+These are connected inside to field strength meters which help locate
+where the leaks are coming from so they can be fixed (to prevent a
+fine from the FCC!) If you've tampered with a connection at the pole
+(say, to hook up a cable that had been disconnected) and didn't do a
+good job, chances are the connection will "leak" and be easily found by
+such a device. This can also happen INSIDE your residence if you use
+cheap splitters/amplifiers or have poorly-shielded connections. The
+cable company will ask to come inside, and bring with them a portable
+field strength meter to help them locate the problem. Often they will
+totally remove anything causing the leak, and may go further (e.g.,
+legal action) if they feel you're in violation of your contract with
+them (which you agree to by paying your bill.) Obviously it's a bad
+idea to let cable service personnel into your house if you ARE doing
+something you shouldn't (which you shouldn't be in the first place), but
+if you DON'T let them in (as is your right), it will definitely arouse
+suspicion. Eventually you will have to let them in to fix the "leak", or
+they will disconnect your cable to stop the leak altogether. (After all,
+it's a service, not a right, to receive cable!)
+<p>
+
+<hr size=5 noshade>
+<h3>Some Common Ways Pirates Get Caught</h3>
+There are many ways for a <i>pirate</i> to get caught. Since stealing cable
+is illegal in the U.S., you can be fined and sent to jail for theft of
+service. Cable companies claim to lose millions of dollars in revenue
+every year because of pirates, so they are serious in their pursuit of
+ridding them from their system.
+<p>
+<ul>
+<li>A pirate will often show-off the fact they can get every channel
+   to their friends. Pretty soon lots of people know about it, and then
+   the cable company offers a "Turn In A Pirate And Get $50" program. A
+   "friend" needs the money and turns the pirate in...
+<p>
+<li>A pirate (or more likely, unsuspecting housemate of a pirate who
+   knows nothing about whats going on) calls the cable company to report a
+   problem with the equipment or signal. The cable company makes a service
+   call and finds gray-market equipment connected to the cable...
+<p>
+<li>During a pay-per-view event such as a fight, the cable company offers
+   a free T-shirt to all viewers. Little does the pirate know that just
+   before that message appeared on the screen, legitimate viewer's boxes
+   were told to switch to another channel WHILE STILL DISPLAYING THE
+   ORIGINAL CHANNEL NUMBER (yes, cable boxes can do this.) So now the
+   legitimate subscriber continues to see the "original" signal (without
+   the T-shirt offer), while the pirate gets an 800 number plastered on
+   the screen. The pirate calls, and the cable company gets a list of all
+   potential pirates...
+<p>
+<li>The cable company temporarily broadcasts some soft-core pornography
+   onto what is supposed to be The Disney Channel (and vice-versa). They
+   simultaneously reprogram subscriber converters to re-map the channels
+   correctly, so the change is transparent to all but non-company 
+   converters. Those who call to complain about the "non-Disney" 
+   entertainment (or cartoons on the Playboy channel :-) are more than 
+   likely to have gray-market decoders...
+<p>
+<li>A big cable descrambler business gets busted. The authorities
+   confiscate their UPS shipping records and now have a list of
+   "customers" who most likely ordered descramblers for illegitimate
+   use...
+<p>
+</ul>
+And this is only the beginning. Unconfirmed reports of the cable company
+driving around with special equipment allowing them to determine what
+you're watching on your TV (like HBO, which you don't pay for) have also
+been mentioned (but unlikely.)
+<p>
+Of course, the best thing to do is simply PAY FOR WHAT YOU WATCH!  Then
+you don't have to worry about the possibility of a prison term, criminal
+record, hefty fine, etc.
+<p>
+<hr size=5 noshade>
+<h3>The Universal Descrambler</h3>
+In May of 1990, Radio-Electronics magazine published an article on
+building a <i>universal descrambler</i> for decoding scrambled TV signals.
+There has been much talk on the net about the device, and many have
+found it to be lacking in a number of respects. Several modifications,
+hoping to fix some of the problems have also been posted, with limited
+success. The Universal Descrambler relies on the presence of the
+colorburst for its reference signal. In a normal line of NTSC video,
+the colorburst is 8 to 11 cycles of a 3.579545 MHz clock (that comes
+out to 2.31 microseconds) which follows the 4.71 microsecond horizontal
+sync during the horizontal blanking interval. <p>
+
+Since a large
+number of scrambling systems depend on messing with the horizontal sync
+pulse to scramble the picture, the Universal Descrambler attempts to
+use the colorburst signal to help it replace the tainted sync pulse.
+Unfortunately, random video inversion is still a problem, as are color
+shifts which occur from distorted or clamped colorburst signals, etc.
+Most people have not had very good results from the system, even after
+incorporating some modifications.
+<p>
+<hr size=5 noshade>
+<h3>Glossary of Related Terms</h3>
+
+<b>CATV:</b>   Acronym for Community Antenna TeleVision. Originally cable TV
+        came about as a way to avoid having everyone in a community have
+        to spend a lot of money on a fancy antenna just to get good TV
+        reception.  Really all you need is one very good antenna and 
+	then just feed the output to everyone.  It was called Community
+        Antenna Television (CATV).  Of course, it has grown quite a bit
+        since then and everyone now just calls it cable TV.  The old
+        acronym still sort-of works.<p>
+<b>Converter:</b>
+	A device, sometimes issued by the cable company, to "convert"
+	many TV channels to one specific channel (usually channel 3).  
+	Used early-on when VHF & UHF channels were on different dials
+	(and before remote controls) to provide "convenience" to cable
+	customers.  Now mostly considered a nuisance, thanks to the
+	advent of cable-ready video equipment, they are mainly used as
+        descramblers.<p>
+	An "addresable" converter is one that has a unique serial number
+        and can be told (individually by FSK or other signal) by the
+        head-end to act in a
+	certain manner (such as enabling channel x, but not channel y). 
+	Addressable converters nearly always contain descramblers for
+	decoding premium services subscribed to by the customer. 
+<p>
+<b>Colorburst:</b>
+	Approximately 8 to 10 cycles of a 3.579545 MHz clock sent during
+	the HBI.  This signal is used as a reference to determine both 
+	hue and saturation of the colors.  A separate colorburst signal 
+	is sent for each line of video, and are all exactly in phase (to 
+	prevent color shifts). 
+<p>
+<b>Control Signal:</b>
+	The first 11.1 microseconds of a line of NTSC video.  The signal
+	area from 0 to 0.3 volts (-40 to 0 IRE units) is reserved for
+	control signals, the rest for picture information.  If the
+	signal is at 0.3 volts (or 0 IRE) the picture will be black. 
+	See IRE Units; Set-up Level. 
+<p>
+
+<b>Cube:</b> A test device that generates an FSK signal to the cable box to
+activate itself into full service mode also called FSK device or FSK unit.
+The first Cubes were named because of the cube shaped box that they were
+sold in.
+<p>
+
+<b>Field:</b>  One half of a full video frame.  The first field contains
+	the odd numbered lines, the second field contains the even
+	numbered lines.  Each field takes 1/60th of a second to
+	transmit.  Note that both fields contain a complete
+	vertical-blanking interval and they both (should) have the same
+	information during that interval.  Since the NTSC standard is
+	525 lines, each field contains 262.5 lines--therefore it's the
+	half-line that allows the two fields of a frame to be
+	distinguished from one another.  See Frame; Line. 
+<p>
+
+<b>Frame:</b>  An NTSC video signal which contains both fields.  A frame
+	lasts 1/30th of a second.  See Field; Line. 
+<p>
+<b>FSK:</b>  Acronym for Frequency Shif Keying.  A common data modulation
+        method.  Addressable cable systems usually send there control
+        information using this method.
+<p>
+<b>FSK Device:</b> See Cube.
+<p>
+
+<b>Head-end:</b>
+	The main cable distribution facility where your CATV signal
+	originates from.  (Easily identifed by several large satellite
+	dishes, some smaller ones, and usually an antenna tower.)
+<p>
+
+<b>HBI:</b> Acronym for Horizontal Blanking Interval.  The first 11.1
+	microseconds of a line of video.  It contains the front porch,
+	the 4.71 microsecond horizontal sync pulse, the 2.31
+	microseconds of colorburst, and the back porch.  The horizontal
+	sync pulse directs the beam back to left side of the screen.
+	Almost every scrambling method in use today mutataes this part
+	of the signal in some way to prevent unauthorized viewing.  See
+	Colorburst.
+<p>
+<b>Interlace:</b>
+	Term used to describe the dual-field approach used in the NTSC
+	standard.  By drawing every other line, screen flicker is
+	increased--but if all the lines were painted sequentially, the 
+        top would begin to fade before the screen was completely "painted". 
+        (Computer monitors, which do "paint" from top to bottom, do not
+        have the problem due to higher refresh rates.)
+<p>
+<b>IPPV:</b>   Impulse Pay-Per-View.  A method whereby a viewer can order a
+	pay-per-view event "on impulse" by just pushing an "Order" (or
+        similar) button on a remote control or cable converter keypad.
+        A customer's purchases are sent back to the head-end via a
+	standard telephone connection (the converter dials into the cable
+	co. computer and uploads the data) or via radio frequency (RF) if 
+	the cable supports two-way communication (most don't).  A pre-set
+	maximum number of events can be ordered before the box requires 
+	the data to be sent to the head-end for billing purposes.
+<p>
+<b>IRE Units:</b>
+	IRE is an acronym for Institute of Radio Engineers.  The NTSC
+	standard calls for a peak-to-peak signal voltage of 1 volt. 
+	Instead of referring to the video level in volts, IRE units are
+	used instead.  The IRE scale divides the 1- volt range into 140
+	parts, with zero-IRE corresponding to about 0.3V.  The full
+	scale goes from -40 IRE to +100 IRE.  This is convenient scale
+	to make a distinction between control signals (< 0 IRE) and
+	picture signals (> 0 IRE).  See Control Signal. 
+<p>
+<b>Line:</b>   A video signal is a series of repeated horizontal lines,
+	consisting of control and picture information.  The color NTSC
+	standard allows a total time of 63.56 microseconds for each
+	line, and each frame is composed of 525 lines of video
+	information.  The first 11.1 microseconds make up the horizontal
+	blanking interval, or control signal, the following 52.46 
+	microseconds make up the picture signal.  See HBI; VBI.
+<p>
+<b>NTSC:</b> Acronym for National Television Standards Committee (or
+	Never The Same Color, if you prefer :-) 
+<p>
+<b>Picture Signal:</b>
+	The 52.46 microseconds of signal following the control signal. 
+	Information in this area is between 0 and 100 IRE units.  See
+	IRE Units. 
+<p>
+<b>PPV:</b> Acronym for Pay-Per-View.  A revenue-enhancing system where
+	customer's pay to watch a movie or event on a "per view" basis.
+	Cusomers usually place a phone call to a special number and order
+	the event of their choice; some systems provide Impulse PPV.
+	The presence of a PPV movie channel or your system guarantees
+	you have addressable converters.  See IPPV.
+<p>
+<b>Set-up Level:</b>
+	Picture information technically has slightly less than 100 IRE
+	units available.  That's because picture information starts at
+	7.5 IRE units rather than at 0 IRE units.  The area from 0 to
+	7.5 IRE units are reserved for what is commonly called the
+	"set-up level".  Having a small buffer area between the control
+	signal information and the picture information is a "fudge
+	factor" to compensate for the fact that real-life things that
+	don't always work as nicely as they do on paper. :-)  See IRE
+	Units. 
+<p>
+<b>VBI: </b>Acronym for Vertical-Blanking Interval.  The first 26 lines of
+	an NTSC video signal.  This signal is used to direct the beam
+	back to the upper-left corner of the screen to start the next
+	frame.  In order for the horizontal sync to continue operating,
+	the vertical pulse is serrated into small segments which keep
+	the horizontal circuits active.  Both actions can then take
+	place simultaneously.  The VBI is the most common place for 
+	"extra" information to be sent, such as various test signals, 
+	and in some cable systems, a data stream.
+<p>
+<hr size=5 noshade>
+<h3>Television Frequency Chart</h3>
+
+The following chart lists frequency information for the "standard"
+carrier sets. In an HRC (Harmonically Related Carrier) system, all
+picture carrier frequencies are derived from a 6 MHz oscillator, so
+all channels except 5 and 6 will be 1.25 MHz lower than usual. Channels
+5 and 6 will be 0.75 MHz HIGHER than usual. An IRC (Incrementally
+Related Carrier) system, all channels are at their normal frequency
+except for channels 5 and 6, which will be 2 MHz higher than usual.
+<p>
+
+Some older TV sets can't receive any channels except 5 and 6 on an
+HRC system, and can't receive channels 5 and 6 on an IRC system. This
+is also true of some cable converters. A few converters are set up
+to allow HRC or IRC operation but with channels 5 and 6 on different
+numbers -- 55 and 56, or 55 and 66. (Tnx to David Sharpe and Ed Ellers
+for this info!)
+<p>
+<center>
+<hr size=1 noshade>
+<h4>VHF-Low Band</h4>
+<pre>
+<b>
+                   Center  Video    Color    Sound   Osc.
+ Channel   Band    Freq.  Carrier  Carrier  Carrier  Freq.
+</b>
+    TVIF   40-46     43    41.25    44.83    47.75    ---
+    2      54-60     57    55.25    58.83    59.75    101
+    3      60-66     63    61.25    64.83    65.75    107
+    4      66-72     69    67.25    70.83    71.75    113
+    5      76-82     79    77.25    80.83    81.75    123
+    6      82-88     85    83.25    86.83    87.75    129
+</pre>
+<h4>FM (Pseudo)</h4>
+<pre>
+  FM-1     88-94     91    89.25    92.83    93.75    ---
+  FM-2     94-100    97    95.25    98.83    99.75    ---
+  FM-3    100-106   103   101.25   104.83   105.75    ---
+</pre>
+<h4>VHF-Mid Band (CATV)</h4>
+<pre>
+ A2-(00)  108-114   111   109.25   112.83   113.75    155
+ A1-(01)  114-120   117   115.25   118.83   119.75    161
+  A-(14)  120-126   123   121.25   124.83   125.75    167
+  B-(15)  126-132   129   127.25   130.83   131.75    173
+  C-(16)  132-138   135   133.25   136.83   137.75    179
+  D-(17)  138-144   141   139.25   142.83   143.75    185
+  E-(18)  144-150   147   145.25   148.83   149.75    191
+  F-(19)  150-156   153   151.25   154.83   155.75    197
+  G-(20)  156-162   159   157.25   160.83   161.75    203
+  H-(21)  162-168   165   163.25   166.83   167.75    209
+  I-(22)  168-174   171   169.25   172.83   173.75    215
+</pre>
+<h4>VHF-High Band</h4>
+<pre>
+    7     174-180   177   175.25   178.83   179.75    221
+    8     180-186   183   181.25   184.83   185.75    227
+    9     186-192   189   187.25   190.83   191.75    233
+   10     192-198   195   193.25   196.83   197.75    239
+   11     198-204   201   199.25   202.83   203.75    245
+   12     204-210   207   205.25   208.83   209.75    251
+   13     210-216   213   211.25   214.83   215.75    257
+</pre>
+<h4>VHF-Super Band (CATV)</h4>
+<pre>
+  J-(23)  216-222   219   217.25   220.83   221.75    263
+  K-(24)  222-228   225   223.25   226.83   227.75    269
+  L-(25)  228-234   231   229.25   232.83   233.75    275
+  M-(26)  234-240   237   235.25   238.83   239.75    281
+  N-(27)  240-246   243   241.25   244.83   245.75    287
+  O-(28)  246-252   249   247.25   250.83   251.75    293
+  P-(29)  252-258   255   253.25   256.83   257.75    299
+  Q-(30)  258-264   261   259.25   262.83   263.75    305
+  R-(31)  264-270   267   265.25   268.83   269.75    311
+  S-(32)  270-276   273   271.25   274.83   275.75    317
+  T-(33)  276-282   279   277.25   280.83   281.75    323
+  U-(34)  282-288   285   283.25   286.83   287.75    329
+  V-(35)  288-294   291   289.25   292.83   293.75    335
+  W-(36)  294-300   297   295.25   298.83   299.75    341
+</pre>
+<h4>VHF-Hyper Band (CATV)</h4>
+<pre>
+ AA-(37)  300-306   303   301.25   304.83   305.75    347
+ BB-(38)  306-312   309   307.25   310.83   311.75    353
+ CC-(39)  312-318   315   313.25   316.83   317.75    359
+ DD-(40)  318-324   321   319.25   322.83   323.75    365
+ EE-(41)  324-330   327   325.25   328.83   329.75    371
+ FF-(42)  330-336   333   331.25   334.83   335.75    377
+ GG-(43)  336-342   339   337.25   340.83   341.75    383
+ HH-(44)  342-348   345   343.25   346.83   347.75    389
+ II-(45)  348-354   351   349.25   352.83   353.75    395
+ JJ-(46)  354-360   357   355.25   358.83   359.75    401
+ KK-(47)  360-366   363   361.25   364.83   365.75    407
+ LL-(48)  366-372   369   367.25   370.83   371.75    413
+ MM-(49)  372-378   375   373.25   376.83   377.75    419
+ NN-(50)  378-384   381   379.25   382.83   383.75    425
+ OO-(51)  384-390   387   385.25   388.83   389.75    431
+ PP-(52)  390-396   393   391.25   394.83   395.75    437
+ QQ-(53)  396-402   399   397.25   400.83   401.75    443
+ RR-(54)  402-408   405   403.25   406.83   407.75    449
+</pre>
+<h4>UHF Broadcast Band (Broadcast)</h4>
+<pre>
+   14     470-476   473   471.25   474.83   475.75    517
+   15     476-482   479   477.25   480.83   481.75    523
+   16     482-488   485   483.25   486.83   487.75    529
+   17     488-494   491   489.25   492.83   493.75    535
+   18     494-500   497   495.25   498.83   499.75    541
+   19     500-506   503   501.25   504.83   505.75    547
+   20     506-512   509   507.25   510.83   511.75    553
+   21     512-518   515   513.25   516.83   517.75    559
+   22     518-524   521   519.25   522.83   523.75    565
+   23     524-530   527   525.25   528.83   529.75    571
+   24     530-536   533   531.25   534.83   535.75    577
+   25     536-542   539   537.25   540.83   541.75    583
+   26     542-548   545   543.25   546.83   547.75    589
+   27     548-554   551   549.25   552.83   553.75    595
+   28     554-560   557   555.25   558.83   559.75    601
+   29     560-566   563   561.25   564.83   565.75    607
+   30     566-572   569   567.25   570.83   571.75    613
+   31     572-578   575   573.25   576.83   577.75    619
+   32     578-584   581   579.25   582.83   583.75    625
+   33     584-590   587   585.25   588.83   589.75    631
+   34     590-596   593   591.25   594.83   595.75    637
+   35     596-602   599   597.25   600.83   601.75    643
+   36     602-608   605   603.25   606.83   607.75    649
+   37     608-614   611   609.25   612.83   613.75    655
+   38     614-620   617   615.25   618.83   619.75    661
+   39     620-626   623   621.25   624.83   625.75    667
+   40     626-632   629   627.25   630.83   631.75    673
+   41     632-638   635   633.25   636.83   637.75    679
+   42     638-644   641   639.25   642.83   643.75    685
+   43     644-650   647   645.25   648.83   649.75    691
+   44     650-656   653   651.25   654.83   655.75    697
+   45     656-662   659   657.25   660.83   661.75    703
+   46     662-668   665   663.25   666.83   667.75    709
+   47     668-674   671   669.25   672.83   673.75    715
+   48     674-680   677   675.25   678.83   679.75    721
+   49     680-686   683   681.25   684.83   685.75    727
+   50     686-692   689   687.25   690.83   691.75    733
+   51     692-698   695   693.25   696.83   697.75    739
+   52     698-704   701   699.25   702.83   703.75    745
+   53     704-710   707   705.25   708.83   709.75    751
+   54     710-716   713   711.25   714.83   715.75    757
+   55     716-722   719   717.25   720.83   721.75    763
+   56     722-728   725   723.25   726.83   727.75    769
+   57     728-734   731   729.25   732.83   733.75    775
+   58     734-740   737   735.25   738.83   739.75    781
+   59     740-746   743   741.25   744.83   745.75    787
+   60     746-752   749   747.25   750.83   751.75    793
+   61     752-758   755   753.25   756.83   757.75    799
+   62     758-764   761   759.25   762.83   763.75    805
+   63     764-770   767   765.25   768.83   769.75    811
+   64     770-776   773   771.25   774.83   775.75    817
+   65     776-782   779   777.25   780.83   781.75    823
+   66     782-788   785   783.25   786.83   787.75    829
+   67     788-794   791   789.25   792.83   793.75    835
+   68     794-800   797   795.25   798.83   799.75    841
+   69     800-806   803   801.25   804.83   805.75    847
+   70*    806-812   809   807.25   810.83   811.75    853
+   71*    812-818   815   813.25   816.83   817.75    859
+   72*    818-824   821   819.25   822.83   823.75    865
+   73*    824-830   827   825.25   828.83   829.75    871
+   74*    830-836   833   831.25   834.83   835.75    877
+   75*    836-842   839   837.25   840.83   841.75    883
+   76*    842-848   845   843.25   846.83   847.75    889
+   77*    848-854   851   849.25   852.83   853.75    895
+   78*    854-860   857   855.25   858.83   859.75    901
+   79*    860-866   863   861.25   864.83   865.75    907
+   80*    866-872   869   867.25   870.83   871.75    913
+   81*    872-878   875   873.25   876.83   877.75    919
+   82*    878-884   881   879.25   882.83   883.75    925
+   83*    884-890   887   885.25   888.83   889.75    931
+</pre>
+<hr size=1 noshade>
+</center>
+
+* Channels 70-83 have been allocated to land mobile communication
+  services.  Operation, on a secondary basis, of some television
+  translators may continue on these frequencies.<p>
+
+<hr size=5 noshade>
+
+<center>
+
+<h4>
+<a href="../../../index.htm">HOME</a> |
+<a href="../../../about.htm">GROUP 42</a> |
+<a href="../../../disclaim.htm">DISCLAIMER</a> |
+<a href="../../../help.htm">HELP</a>
+<br>
+Copyright &copy 1984-1996, Group 42
+</h4>
+
+</center>
+
+</html>
+

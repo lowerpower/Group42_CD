@@ -1,0 +1,164 @@
+THE SACRED THREE STEPS FOR PROGRAMMING MOTOROLA PHONES
+
+Step 1: Determine programming sequence from the following list.
+~~~~~~~ This sequence will allow access to programming mode.
+
+Handset or                      Model           Programming     Sellar
+Portable Type                   Number          Sequence        Code
+-------------------------------------------------------------------------------
+SCN 2004                        4500L           3               A
+SCN 2005                        4500XL          3               A
+SCN 2007                        3000            6               B
+SCN 2022                                        6
+SCN 2023                        6800XL          6               A
+SCN 2033                                        5
+SCN 2034                                        6
+SCN 2042                        Credit Card     N/A
+SCN 2043                        MC200,MODAR 4   4               C
+SCN 2056                        1900,2200,2900
+SCN 2080                        BLAUPUNKT       6
+SCN 2081                                        5
+SCN 2083                        6800XL          6               A
+SCN 2084                                        2
+SCN 2085                                        6
+SCN 2090                        MC500           6               C
+SCN 2094                        TOYOTA          6
+SCN 2104                        AUDI            6
+SCN 2115                                        6
+SCN 2119                        4500XL          3
+SCN 2120                        5000            6               B
+SCN 2124                        2600,AC320      6               B,E
+SCN 2126                                        4
+SCN 2127                                        4
+SCN 2128                                        4
+SCN 2129                        DYNA-GRAY       4
+SCN 2133                        6000X           1
+SCN 2134                                        6
+SCN 2144                        INFINITI        5
+SCN 2165                                        4
+SCN 2166                                        4
+SCN 2168                                        4
+SCN 2174                                        3
+SCN 2175                                        4
+SCN 2180                                        4
+SCN 2194                        MC300           4               C
+SCN 2195                                        6
+SCN 2200                        PULSAR          4
+SCN 2201                        PULSAR          4
+SCN 2202                        PULSAR          4
+SCN 2204                        MC500           4
+SCN 2208                        SEARS           4
+SCN 2209                        MONTGOMERYWORDS 4
+SCN 2210                                        3
+SCN 2222                        ACURA           6
+SCN 2223                        ACURA FS        6
+SCN 2238                        GM              6
+SCN 2251                        DYNA-GRAY       6
+SCN 2252                                        4
+SCN 2259                        TRACER PULSAR   4
+SCN 2260                        PCC             4
+SCN 2278                        INFINITI        5
+SCN 2282                        PIONEER         6
+SCN 2283                        PIONEER         6
+SCN 2295                                        6
+SCN 2301                        LEXUS           6
+SCN 2329                                        6
+SCN 2330                        AC 250          6               E
+SLN 2020                        6000X           1               A
+SLN 2121                                        1
+SLN 2025                        2000X           4               B
+T180B                           NAUTILUS-bk     4
+T180W                           NAUTILUS-wt     4
+TLN 2659                        6000X           1               B
+TLN 2674                        4000C/5000      2               B/C
+TLN 2724                                        1
+TLN 2726                                        2
+TLN 2733                        6000            2               B
+TLN 2734                                        2
+TLN 2777                        2000X           4               B
+TLN 2867                                        1
+TLN 2879                                        2
+UD71419                         ROLLS ROYCE     6
+1632570                         GM              2
+1644364                         GM              2
+1648752                         GM              2
+1648764                         GM              2
+4410351C4                       A AUDI          6
+750                                             2               C
+8000BC                                          2               B
+8000BCX                                         1               B
+8000H                                           2
+8500                                            1               A
+869872106                       BLAUPUNKT       6
+9000/ULTRA CLASSIC                              6               B/C
+950/950X                                        2               B
+9800XL                                          6               A
+PERSONAL (w/ menu button)                       6
+PERSONAL (w/o menu)                             1
+
+        SELLER CODES
+        ~~~~~~~~~~~~
+        A: Motorola Direct
+        B: US West Cellular
+        C: McCaw (Cell One)
+        D: LA Cellular
+        E: Ameritech
+
+Step 2: Once the phone model and sequence number are identified, determine
+~~~~~~~ the program access sequence from this list.
+
+                 PROGRAM ACCESS SEQUENCES
+Sequence
+Number
+  1     FCN + Security Code + Security Code + RCL
+  2     STO + # + Security Code + Security Code + RCL
+  3     CTL + 0 + Security Code + Security Code + RCL
+  4     CTL + 0 + Security Code + Security Code + (*)
+  5     FCN + 0 + Security Code + Security Code + MEM
+  6     FCN + 0 + Security Code + Security Code + RCL
+
+(*) CTL - Control button is either a button on keypad or the VOLUME
+    button on the left side of the handset
+
+NOTE: Factory Programmed Security Code is 000000
+
+
+Step 3: PROGRAMMING SEQUENCE
+~~~~~~~
+        Power On
+        Enter program access sequence with 10 seconds
+        Prompt 01 is displayed
+        Repeatedly press * to increment (contents of locations
+         are displayed)
+        Press SEND to write NAM information
+        (press # prior to SEND for 2nd Number)
+        (to enable 2nd number, bit 5 step 10 must be
+         enabled and phone must be software equipped
+         for 2nd number)
+
+STEP                        # of digits
+1       System ID               5    XXXXX
+2       Area Code               3    XXX
+3       Mobile Number           7    XXX-XXXX
+4       Station Class           2    XX
+5       Access Overload         2    XX
+6       Group ID                2    XX
+7       Security Code           6    XXXXXX
+8       Unlock Code             3    XXX
+9       Initial Paging Channel  4    0333 or 0334
+10      Program Opt(1)          6    XXXXXX
+11      Program Opt(2)          3    XXX
+
+Program Options
+Step 10                         Step 11
+~~~~~~~                         ~~~~~~~
+Disable int speaker             Long tone DTMF
+Local Use                       Handset Speaker
+    Enable (carry phone only)
+MIN Mark                        Eight Hour Timeout
+   in Convertible
+Auto Recall
+Second phone #
+ (must have software)
+Diversity
+

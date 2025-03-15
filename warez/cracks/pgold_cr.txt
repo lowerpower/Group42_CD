@@ -1,0 +1,14 @@
+
+in the "piratesg.exe" file, search for:
+
+	34 05 00 00 74 5C 8B DE FF
+		    ^^ ^^
+	Change to:
+		    vv vv
+	34 05 00 00 90 90 8B DE FF
+
+
+
+This works on the first verison of "Pirates Gold", and should work on
+the upgraded file as well.
+

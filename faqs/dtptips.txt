@@ -1,0 +1,231 @@
+
+Tips and Suggestions for Desktop Publishing in General
+--------------------------------------------------------------------
+
+These are a several postings lumped together that provide numerous tips
+and suggestions in the art of Desktop Publishing. If you have anything 
+to add, please be sure to post it to the group and ask that it be added
+to this file.
+
+Geof.
+[gwp@cs.purdue.edu]
+
+
+First Posting ------------------------------------------------------
+
+
+Since many of you may never have heard of a magazine called Personal
+Publishing, I thought it was worth sharing a couple of their tips on the
+biggest Crimes a Desktop Publisher can make.
+
+If you have heard of the magazine, and can get a copy, it's the May 1990
+issue.  Here's some of the main points the magazines makes on improving your
+documents!
+
+Cindy Stone
+  BITNET Mail:    STONEC@IUBACS
+  INTERNET Mail:  STONEC@GOLD.UCS.INDIANA.EDU
+ 
+
+*	Novice desktop publishers think that fully justified type looks more
+professional.  They're wrong -- the results are neither pretty nor professional.
+Justified type causes ugly rivers of white, particularly on 3, 4 or more column
+layouts.  The solution is use fewer columns or switch to rag right.  Many 
+studies say that rag right columns are easier on the eye.
+
+*	Many novices tend to think that every item has to be set off from every
+other item with a box around it or rules.  This creates cluttered designs.  
+The solution is to use boxes and rules sparingly and use white space and artwork
+more often to separate things.  (They also suggest that we stop trying to cram
+as much on a page as possible, and use more pages whenever we can.)
+
+*	According to most professionals, the biggest failure of novice desktop
+users is the failure to proofread.  They say the desktop publisher should
+avoid proofreading their own copy -- we're too familiar with it and we'll miss
+glaring mistakes, even in headlines!  Proofing words backward, by beginning at
+the end of an article and reading one word at a time was suggested.  As this 
+eliminates comprehension and forces you to read only one word at a time for
+spelling.
+
+*	Just because the Adobe Library has 500 typefaces, doesn't mean you have
+to use them all.  Limit each publication to just a few to avoid clutter.  
+Less is more, and many professionals say two typefaces are best per document.
+
+*	Body text is often too big with novices.  Just because pagemaker's
+default font is 12 point doesn't mean you have to use 12 pt for body text.
+It's too big.  As a general rule body text can be set in 8, 9 or 10 pt
+and you can devote the extra white space to larger leading or larger display
+type -- e.g., use schoolbook or bookman instead of times as they are larger
+types than times roman.
+
+*	Never use underlining -- use italics instead.  In the old days a type-
+writer couldn't do italics, so you had to underline.  Today there's no excuse
+for using underlining.  So when you want to emphasize something, or it's a 
+title of a magazine, book etc. use italics.
+
+*	Only typists use 2 space bars after a period.  Desktop publishers
+should only use one.  Mac users who can't break the habit should try a free
+utility called Onespace.  It can be downloaded from CompuServe's DTP forum.
+
+*	Avoid using a great deal of reverse type.  Reverse adds tremendous "weight"
+to a page and will grab all the attention on that page.  Ask yourself if this
+idea really deserves that much attention?
+
+*	Crummy kerning is a major "faux pas" with novices.  PageMaker is con-
+figured to not automatically kern any text that is 12 pts or smaller.  PM users
+should modify this in the paragraph dialog box (control or command M).  Even
+with the auto kerning on, PM may leave the bulk of your text unkerned.  Start
+kerning headlines if nothing else!
+
+*	Learn to use em dash and stop using two hyphens (--).  In PM, an emdash
+is achieved by pressing Ctrl + Shift + = in the PC version simultaneously.  Mac
+version is option + shift + hyphen.
+
+
+Hope you enjoyed the article -- (I'd use an em dash on the VAX if I had one)
+it isn't my suggestions, just the editor's of Personal Publishing. Many of them, 
+however, are good for those of us trying to get better looking stuff out
+of PageMaker.
+
+
+
+Second Posting ------------------------------------------------------
+
+I recently came upon another tip list for desktop publishers. This list
+was put out by Publish! and appears to be an annual event. The title to
+the booklet is "101 Best Desktop Publishing Tips". I have included only
+a few of these 101 tips in hopes that you will contact the company directly
+for the entire booklet. There are many tips covering the entire design 
+process and citing tips for a large variety of programs.
+
+Everything is a direct quote except for my own comments that are 
+delimited by [brackets]. 
+
+Geoff Peters
+
+
+Weight of Small Caps
+----------------------------------------------------------------
+  Small caps created by reducing regular capital letters -- as most 
+  programs do -- appear much lighter than refular capitals. To 
+  compensate, use a heavier weight of your font for the small caps.
+
+  [In a related tip, they suggest] When creating display type using
+  very different point sizes of the same face, use a bolder version
+  of the small letters to better match the weight of the larger type.
+  Although the proportion varies from face to face, when the small 
+  type is about two-thirds the weight of the larger, a semibold used 
+  for the smaller type will generally match the weight of the larger. 
+  When the small type is about half the size of the larger characters,
+  try using a full bold.
+  
+Numeric Kerning
+----------------------------------------------------------------
+  In most fonts, the numerals 0 through 9 have equal widths so that 
+  they line up when you use them in tables or other vertical listings.
+  The numeral 1 is much narrower than the others, however, and you 
+  might want to add some standard combinations that include 1 to your 
+  fonts' kerning tables -- when it appears next to other numerals, a
+  period, a dollar sign, and so on. Just make sure you turn kerning
+  off for all tabular matter to ensure correct alignment.
+  
+Ensuring a true center
+----------------------------------------------------------------
+  To get an attractive rag in centered text, it's common practice
+  to use carriage returns to break lines at desired points. This 
+  can leave you with lines that begin or end with word spaces that
+  will make your lines appear off-center. After hand-breaking such 
+  lines, remove the unnecessary spaces for a better appearance.
+  
+True Ellipses
+----------------------------------------------------------------
+  The dots of the ellipsis character found in most fonts (...) are
+  much narrower than those in traditional ellipses. For a better 
+  looking ellipse, build your own. Use three periods (four if the
+  ellipsis ends a sentence), and separate the periods by nonbreaking
+  spaces [Ctrl/Comm-<space> in Pagemaker] to keep them together.
+  
+  [Dave Mandl suggests using en-spaces instead of full size spaces.
+  Plus, the Macintosh has a built-in ellipse that may be adequate,
+  accessible by pressing option-semicolon.]
+  
+Inches, Feet, Minutes and Seconds
+----------------------------------------------------------------
+  The only proper primes (used to indicate feet, inches, minutes, 
+  and seconds) in PostScript fonts are found in the Symbol font.
+  But you can easily create equally professional-looking primes 
+  just by using italic versions of the standard typewriter-style
+  quotes on your keyboard.
+  
+Color and Small Lines
+----------------------------------------------------------------
+  When applying colors to your designs, keep in mind that thin 
+  lines (.25 point or less) and delicate type at small point sizes
+  should be composed of no more than two process colors. Most 
+  high-speed presses are not precise enough to exactly register 
+  all four plates on such thin elements.
+  
+Desktop Items
+----------------------------------------------------------------
+  Like a real table surface, the desktop area (outside the page 
+  boundaries) is a great place for sticking scraps and pieces while 
+  working on a page. But when you go to output the page, Postscript
+  processes those extra items internally even though they don't 
+  print. To speed printing, remove scraps from the desktop, either
+  by deleting them or moving them to a blank page (just be sure to
+  specify not to print that page). This becomes particularly 
+  important when you send the files to a service bureau. The extra
+  items outside the page make the file much larger, drastically
+  slowing a high-resolution imagesetter.
+  
+  [This is a good point, but I would say that unless you are having
+  an inordinate amount of time for local printing or you are sending
+  it to a service bureau, not to worry about it. See PMTIPS.FAQ, 
+  section III for more information regarding the desktop.]
+  
+Start-up Page in PostScript printers
+----------------------------------------------------------------
+  Many people find that the start-up page printed by a PostScript
+  laser printer each time it's turned on is a waste of both time
+  and paper. You can disable this feature by sending a special 
+  PostScript message to the machine. Here's how:
+  
+  Type the following in any word processing program and save it as
+  ASCII or text only:
+      
+       serverdict begin 0 exitserver
+       statusdict begin
+       false setdostartuppage
+       end
+       
+  Using a PostScript download utility such as SendPS 2.0, download
+  the file to the printer. To turn the start-up page back on, 
+  simple change the word "false" to "true" and download the code
+  again.
+  
+Heavy Paper on Laser Printers
+----------------------------------------------------------------
+  If you experience frequent paper jams when printing on cover-
+  weight stock with a LaserWriter, you're probably using the wrong
+  paper for that printer. Overcome this by smoothing the leading
+  edge of each sheet with a burnishing tool or the smoothly curved
+  plastic top of a ball-point pen.
+  
+  [hmm -- just don't yell at me if it still jams! ;) ]
+  
+True Black
+----------------------------------------------------------------
+  For process printing, choosing 100 percent black often yields
+  muddy results on the press. Many printers create richer blacks
+  by combining several of the process colors (cyan, yellow, and
+  magenta). For example, try 100 percent cyan and 100 percent 
+  black, and use this new color instead of the default black 
+  available in the application. Check with your print house for 
+  its recommendation, too.
+  
+
+-----------------------------------------------------------------------------
+If you have a tip, post it to the group or let me know so that we can include
+it in our listing!
+
+Thanks! Geof.

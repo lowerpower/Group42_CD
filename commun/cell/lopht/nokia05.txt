@@ -1,0 +1,38 @@
+NOKIA 6000
+
+NOTES:  This is a quad NAM unit.
+        The ESN prefix is 165 decimal & A5 hex.
+        Nokia: 813-536-5553
+
+NAM PROGRAMING:
+
+1.  Turn power on.
+
+2.  Enter * 3 0 0 1 # S S S S S SEL 9 END where SSSSS is the security code
+    1 2 3 4 5 is the factory default.
+
+3.  If the above was successful the phone will display "PROGRAM NAM 1"
+
+4.  Press STO to continue, or use volume keys to scroll to other NAMS.
+    You can also scroll to "PROGRAM SECURITY" if you want to change the
+    security code, and "OTHER PARAMS" to enter up to five "emergency"
+    numbers.  Press STO when the desired option is displayed.
+
+5.  Press STO to store each item.
+
+6.  Turn phone off and leave off for ten seconds to complete programing.
+
+
+PROGRAMING DATA
+
+STEP#    #OF DIGITS/RANGE    DISPLAY        DESCRIPTION
+
+
+01       00000 - 32767       HOME SYS       SYSTEM ID
+02       0 OR 1              ACCESS M       MIN MARK
+03       0 OR 1              LOCL OPt       LOCAL USE MARK
+04       10 DIGITS           OWN NUM        MIN (AREA CODE & TEL#)
+06       333 OR 334          PAGING Ch      INITIAL PAGING CHANNEL
+         3 DIGITS            SECOND CH      IPCH FOR DIGITAL SYSTEMS
+07       2 DIGITS            O-LOAd CLASS   ACCESS OVERLOAD CLASS
+09       2 DIGITS            GROUP Id       GROUP ID (10 IN USA)

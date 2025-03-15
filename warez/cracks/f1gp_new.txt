@@ -1,0 +1,45 @@
+This is an update to the unprotect for Microprose
+World Circuit Formula 1 Grand Prix.
+
+The first unprotect is for the original version of the
+game.  The second is for the game which has had the 
+modem update applied.  Check to make sure the file
+date and size matches before applying either unprotect.
+
+If the first unprotect is applied to the modem update
+version, it may appear to work, but you will not be
+able to calibrate the joystick correctly.
+
+The second unprotect will not work at all with the
+first release of the game.
+
+Note that neither of these two unprotects have delayed
+side effects, like loss of control of the car after a
+lap or two.  Other unprotects were rumored to have this 
+sort of problem.
+
+---------------------------------------------------------
+(1)
+WORLD CIRCUIT Formula 1 Grand Prix (ORIGINAL VERSION 1.03)
+ 
+FILE TO SEARCH:  GP.EXE
+ORIGINAL FILE SIZE: 332840  DATE: 11-25-92
+SEARCH STRING:  BA 43 00 B0 00 EE 4A 4A
+CHANGE TO:      BB 92 0B B8 0B 00 5A CB
+
+Always enter same word at protection screen: monza
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+(2)
+WORLD CIRCUIT Formula 1 Grand Prix (MODEM UPDATE VERSION 1.04)
+ 
+FILE TO SEARCH:  GP.EXE
+ORIGINAL FILE SIZE: 321716  DATE: 3-4-93
+SEARCH STRING:  B8 00 00 9A 0A 08 64 8B C1 EB 02
+CHANGE TO:      B8 0B 00 9A 25 08 64 8B BB E4 02 
+
+Always enter same word at protection screen: monza
+---------------------------------------------------------
+

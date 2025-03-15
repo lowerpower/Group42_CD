@@ -1,0 +1,3911 @@
+
+Newsgroups: alt.activism,alt.cyberpunk,alt.drugs,alt.politics.libertarian
+From: anderson@csuvax1.csu.murdoch.edu.au (Anthony Anderson)
+Subject: Technology & Freedom (I)
+Date: 1 Nov 1993 17:49:45 GMT
+
+
+
+
+FELLOW CYBERNAUTS,
+
+
+The title and the newsgroups that this has been posted to
+already provides the genre for this text. It is a draft of
+an honours thesis entitled 'Technology and Freedom', which
+outlines various philosophical approaches the technological
+and compares these to social institutions. The thesis is
+broken up into four components, of while this file is #1.
+The other 3 should follow.
+
+Anyway, i'm asking people to have a read of the document (it
+should only take a couple of hours), think of a query or two
+and post it to me (asap, the final draft is due *real*
+soon). These questions and responses (along with their
+origins if the speaker permits) will be included in the as
+yet unwritten fifth section.
+
+After all, there is no democracy without reciprocity.
+
+
+Thanks,
+
+
+
+A.J. Lev Anderson
+
+     
+
+
+
+THESIS SUBMITTED AS A PARTIAL REQUIREMENT FOR BACHELOR OF
+
+ARTS (HONOURS) IN POLITICS, PHILOSOPHY AND SOCIOLOGY
+
+
+TITLE: Technology and Freedom
+
+
+SUBMITTED BY: anthony jon lev anderson
+
+
+SUPERVISOR: Michael Booth
+
+
+
+0.0 ABSTRACT
+
+
+This thesis seeks to provide a method of studying the
+meaning, use and definition of technology and its role in
+individual and social freedom. Three particular approaches
+frameworks are used; existentialism and phenomonology to
+understand the interaction between individuals and
+technology, Critical Theory and psychoanalysis for the
+embodiment of technology into consciousness, and
+postmodernism for providing a context of understanding.
+
+The first section considers a central thesis of
+postmodernism; the rejection of universal Truth statements
+as a viable campaign of emancipation. However, as some
+critics of postmodernism have pointed out the overwhelming
+tendency to reject the "possibility of a 'pure' alternative
+to the system" (Lyotard) and the emphasis on "grammar forms
+of life" (White) have led to a de-emphasis on the material.
+The conclusion of the first section suggests that the
+postmodern approach to knowledge has given ontological
+priority of knowledge over being, and that this is directly
+related to the manifested failure of postmodernism to change
+the world.
+
+The second section of the thesis deals with the
+existentialist, semiotic and psychoanalytic approaches to
+Being, technology and their concepts of freedom. Elaborating
+on the Heideggerean notion of technology as a mode of truth,
+technology is defined as a 'system of praxis'. Such an
+approach can be used for either a communicative
+(intersubjective) or instrumental (object) process. With
+this perspective, both the physical technology and the
+social institution can be analysed in terms of their
+relationship to the body and intersubjectivity.
+
+The third section of the thesis takes issue uses with both
+the concerns of the Critical Theory school of Marxism by
+applying the theoretical framework developed in the previous
+section in the form of a coherent political program. As with
+any political program which has an emphasis on the
+importance of Being over interpretation, a significant
+section of this chapter deals with an a critique of
+political economy.
+
+The fourth section of the thesis provides a suggested
+process for challenging notions of totality without
+devolving into ambivalence. In some sense, this represents
+an 'ethical guide' and the political program recommended in
+the previous section, and suggests that successful
+liberating social change can be achieved by giving people
+conscious control over technology.
+
+The final section of the thesis are commentaries and replies
+to a number of concerns that readers have expressed about
+the thesis. It is envisaged that this text is never going to
+be in its final form, and the current version is merely a
+small contribution to the ongoing liberation of the Subject
+from political and environmental conditions and
+conditioning.
+
+
+1.0 INTRODUCTION
+
+
+1.1 REASON FOR THE THESIS
+
+
+The climate in these days seems appropriate to abandon the
+concept of objective 'theory', and as such, i have few
+qualms in placing conscious reasoning alongside with
+personal experiences and personal hopes.
+
+If there is some truth in the concept of the 'postmodern',
+it lies in the increasing rejection of the metanarrative,
+whether it is scientific, liberal or Marxist. Among my own
+(almost entirely younger) peer group, steeped deeply in the
+post-punk subcultures, there is an overwhelming attitude of
+what Callinicos describes as "... the strange mixture of
+cultural and political pessimism and light-minded
+playfulness with which ... much of the contemporary Western
+intelligentsia apparently greets our own fin de siecle."(1)
+I write this thesis for them more than any other
+inspiration.
+
+Most commentators on postmodernism hold that such a
+situation is at least partially due to the successes and
+failures of the last period of social upheaval in the West,
+that is the late 1960's/early 1970's. The universality of
+lifestyle and ideology was defeated in that period, yet
+political structures remained, mostly, unchanged.
+
+The opinion i express is because postmodernism rejects the
+"possibility of a 'pure' alternative to the system"(2),
+political activism has been circumvented. In the 1960s the
+aim of the people in the streets was fundamental social
+change. Today, there is only angry, nihilistic, frustration
+- as the Los Angeles riots of 1992 have clearly shown.
+
+It is the attempt to build a theoretical model that can take
+account of (a) our increasingly technological life and (b)
+provide a serious political challenge to liberal capitalism
+that is the reason for this thesis. These objectives that
+are at least partially inspired by very broad multi-
+disciplinary studies i have taken at Murdoch (studying in
+five different schools)(3). If these aims seem to great then
+my inspiration comes from the words of the French revolt of
+1968: "Be realistic, attempt the impossible."(4)
+
+
+1.2 WRITING STYLE AND THESIS STRUCTURE
+
+
+This thesis is written in three specific writing styles; a
+stream of consciousness/cut and paste as used by James
+Joyce, William S. Burroughs and Kathy Acker, a methodical
+text with 'formula' summaries as used by Don Ihde, and the
+Platonic dialogue, which David Muschamp uses as a conclusion
+to "Political Thinkers".
+
+The thesis as a whole is highly structured, posing
+particular problems in point-by-point form. These structures
+are embedded in more general topics, all of which fall under
+the 'meta-topic' of "Technology and Freedom". In general,
+each of these general topics and specific problems are
+written in formal "academic style", yet also tries to
+captures the idea of 'writing fast, writing dense', to
+paraphrase Rudy Rucker.(5)
+
+Each general topic is introduced with a "stream of
+consciousness" section which seeks to capture the general
+'feeling' of the topic. The shift from one topic to another
+allows subconscious structures to become conscious by
+associations of words and meanings(6). The style, unlike
+those in most academic texts, will be more similar to what
+is encountered in novels, particularly science fiction. Far
+more than academic texts, popular literature captures
+zeitgeist far more effectively.
+
+The dialogue style, as already mentioned in the abstract, is
+being used for the final section of thesis. The dialogue
+will embody a particular style and allows for incidental
+topics to be dealt with whilst the context of the thesis
+remains in focus. The dialogue is essentially argumentative
+and debating, allowing for potential criticisms to be
+brought to the agenda.
+
+The dialogue style is also used because i remain aware that,
+unlike the physical sciences or Emile Durkheim, i am writing
+for, about and to, human subjects. These actors are with
+their own desires, hopes and dreams and doubts. Too often
+social scientists have forgotten this, and the human subject
+is converted to an object under the guise of scientific
+rationality. This influence can certainly be seen in the
+Structualist school, but as the graffiti at Sorbonne in
+Paris '68 reminded such theoreticians; "Structures don't
+take to the streets".(7)
+
+Finally, a couple of writing idiosyncrasies. Quotes, whether
+direct or indirect that use gender-specific (always, always,
+masculine) terms to describe all people have been translated
+to gender-neutral terms. On some occasions this has meant
+minor grammatical alterations. Also, when speaking as
+myself, the lower-case 'i' is used; when speaking about
+collective subjects the upper-case 'I' is used.
+
+
+1.3 AFTER THE TEXT
+
+
+There is no intention for this thesis to remain a 'dead
+text'. In attempting to capture a general framework, and
+present a political program, it would seem illogical if i,
+as a student and a political activist, made no attempt to
+implement it. This is normally a limitation in social
+science; the rejection of how to achieve social change as
+legitimate study.
+
+Initially there will be a small audience to this thesis. If
+they suggest that it provides a plausible form of praxis,
+the audience will be widened to include the politically
+aware who live in the world where "popular culture and
+technology collide". Access to such people is to be achieved
+through the Electronic Freedom Frontier and other left-
+libertarian discussion areas on USENET. I remain optimistic
+that among that audience there will be those who wish to
+take back the future.
+
+The reason for such action is based on the notion that
+reality can be changed by conscious action, and that our own
+unconscious social conditioning, gives preference to "homo
+normalis."(8) There is, however, a vital contribution that
+each story-teller can make.
+
+For example, in Lisa Goldstein's "The Dream Years", novelist
+Robert St. Onge, a member of the Parisian surrealists of the
+1920's follows an unusual looking dark-haired woman around a
+corner and finds himself in the middle of the May/June
+revolt of 1968. The woman he followed explains to him that
+she is with a group of radical time travellers who brought
+him to the future because they needed his insight to combat
+what Marcuse would term the 'performance principle'.
+
+The surrealist expresses great surprise at this. As far as
+he was concerned the surrealists were just a group of
+friends he sat with in cafes, smoked, drank coffee and
+discussed art. The possibility of them being an important
+and revolutionary art movement was incredulous.
+
+The moral of the story is best expressed by Marx with the
+famous Theses 11 on Feuerbach ("The philosophers have only
+interpreted the world. The point, however, is to change
+it"), and with the back cover advertising statement on
+Goldstein's book;
+
+"If you live your dreams You can remake the world"
+
+
+
+
+REFERENCES
+
+1) Callinicos, A., Against Postmodernism: A Marxist
+Critique, pix
+2) Lyotard, J-F., The Postmodern Condition: A Report On
+Knowledge", p 66
+3) A 'school' at Murdoch is a broad collection of related
+disciplines; the five schools that i studied at in Murdoch
+are, in order of importance, Social Science., Humanities.,
+Mathematical and Physical Science., Biological and
+Environmental Science and Education.
+4) Green Left Weekly, issue 100, May 1992, p16-17
+5) Rudy Rucker is a cyberpunk science fiction writer who
+poses the question "How fast are you? How dense?". This has
+been used in the Mondo 2000 writer's guidelines which is
+perhaps best explained by example: "Avoid passive
+constructions. (e.g., passive constructions are to be
+avoided)." Rudy Rucker, it should be noted, is also a chaos
+mathematician, a computer programmer and the great-great-
+great-great grandson of G.W.F. Hegel.
+6) Peter Weller, the actor of William Burroughs in David
+Cronenberg's adaption of the Burroughs' book 'Naked Lunch'
+remarks on the insight that can be gained from such styles;
+     "It was very prophetic, and spoke of many things that
+you read in the Sixties and said 'hogwash', but have since
+come to pass: instantly addicting drugs, obsessions with
+strange plastic surgeries with transmogrify old age into
+perpetual youth, obsession with control. Venereal diseases
+that attack homosexuals which are incurable, and become
+heterosexual problems. It's all there in Naked Lunch."
+The Face, 'Junkie Business', March '92, p103-104
+7) quoted in Somer Brodribb, Nothing Mat(t)ers. A Feminist
+Critique Of Postmodernism, p6
+8) Reich, W., Listen, Little Man, p28
+
+
+
+Article 46400 of alt.activism:
+Path: eff!news.umbc.edu!europa.eng.gtefsd.com!uunet!munnari.oz.au!uniwa!newsman!csuvax1!anderson
+From: anderson@csuvax1.csu.murdoch.edu.au (Anthony Anderson)
+Newsgroups: alt.activism,alt.cyberpunk,alt.drugs,alt.politics.libertarian
+Subject: Technology & Freedom (II)
+Date: 1 Nov 1993 17:51:21 GMT
+Lines: 943
+Message-ID: <2b3iapINNms5@newsman.csu.murdoch.edu.au>
+NNTP-Posting-Host: csuvax1.murdoch.edu.au
+Xref: eff alt.activism:46400 alt.cyberpunk:23179 alt.drugs:49068 alt.politics.libertarian:16066
+
+
+2.0 POSTMODERNISM: A REPORT ON BEING
+
+
+2.1 HOME OF THE BRAVE
+
+Evening. Neon lights begin to illuminate the cityscape. Some
+escape to the suburbs for safety. Others escape to the city
+for sanity. Acid rain sprinkles lightly on the paved
+courtyard.
+
+Tall mirrored buildings hiding their power within look down
+to the low-life on the streets. Neo-fascist architecture
+hangs several meters above eye-level. Street level signs
+glow, flickering; 'Buy! Work! Reproduce! Die!'. Police men
+in dark glasses rub their hands gleefully over stainless
+steel batons, secure in their uniforms, terrified of their
+consciousness. Spinner cars fly overhead.
+
+The Children of the Revolution drift to the courtyard. At
+least thirty different styles and languages. Gothic
+monochrome, retro-punk, speed metal, techno-culture. A
+cornicuopia of disbelief systems. Walking texts that are
+that reproduce and mutate, spreading like a virus, like
+language, infecting the CPU of truth and control systems,
+infecting the random access memory with chaos.
+
+Everyone living after the sixties is Generation X. Highly
+educated, underpaid, motivational crisis. The collapse of
+communism is greated with a collective yawn, as will the
+colapse of capitalism. Totally QFD (Quelle Fucking Drag).
+After all, there isn't too much that can stand up to these
+mutating minds; they even refused to be cowed by the threat
+of nuclear annihilation. Did not the threat maintain the
+very system which maintained the threat? NO. People simply
+stopped believing in the system.
+
+Two figures approach a group in Gothic monochrome, tall,
+thin, pasty-faced. One has a a full plated cybernetic arm,
+fibre-optics sprouting from a titanium skull-cap, flowing in
+the evening air, bouncing neon light about freely. The
+second actor has chameleon, hypersenitive thermographic
+skin; blues, purples, reds and pinks splashed across the
+body, a walking Kirlian photograph. Metal framed eyes are
+implanted in the head.
+
+For both characters gender is less certain even than sex.
+Their names are Cyborg and Replicant.
+
+A hushed conversation follows. The group faces away from the
+installed sercurity cameras. Replicant exchanges
+Pneumospary-hypodermics and meta-amphetamines for a small,
+black metal box. The two groups depart.
+
+"Whazzit?", questions Cyborg.
+"Hypercube", replies Replicant, handing the box to Cyborg.
+
+"I'm the technician", states Cyborg, "Hypercube; aka
+tesseract. Four dimensional cube, where each side is
+adjacent to all three dimensional sides, even the one
+opposite. A hyper-cube for a hyper-reality."
+
+"So ... what does this hybercube contain?". Cyborg looks in.
+
+Their bodies are sucked into the domains of the cube. A
+cosmos is contained within; Cyborg and Replicant watch the
+Pope proclaim the splendour of his Truth, but the angels and
+daemons are too busy enjoying themselves, playing in the
+fields of Geiger and Escher. The God of Essentialism, as he,
+always he, becomes the collective tanks of Moscow and
+Beijeing, the rapist of Bosnia, the pillager of the
+environment, the producer of laboratory AIDS, the burner of
+Reich's books, the bomber of Bagdhad; the speaker of Truth,
+Veritas Splendor.
+
+But noone is listening. The God of Essentialism becomes more
+angry "Believe! Or I shall slay thee!. Bow down to the
+Truth, my Truth. For it is the light and the way!" But still
+the Children of the Revolution play. And imagine. The God
+becomes more angry. Mushroom clouds are released, but are
+dissipitated by radio hackers, who laugh maniacally. The God
+tries to abolishes the hackers, and then tries to abolish
+the right to speak. For to the God of Essentialism, he is
+the only legitimate speaker, the alpha and the omega, the
+Absolute. Ideas are dangerous. The Other is dangerous.
+Information can hurt me.
+
+The stars go out.
+
+Perth: the most isolated city in the entire world. October,
+1993: late 20th century. Two figures stand at Forrest Chase;
+the cybernetic eyes and arm are gone. So are the spinner
+cars. The box remains just a box. The actors now also gain
+sexes, Cyborg is male, Replicant, female; though the genders
+are still uncertain.
+
+"What, mon artiste, was that?", enquires Cyborg.
+
+"A map", replies Replicant. "A map of the late twentieth
+century, a world dominated by simulcra, constructed
+representations of the media that have no basis in reality.
+A world dominated by rampaging monsters of the Id. A world
+where science fiction and reality are concurrent with each
+other. Where texts, cults and cultures intersect everywhere.
+Where space is condensed and time is accelerated. It was a
+map of the most complex world we have ever known, and
+technology has built it. It is a map they call
+postmodernism."
+
+"But, it has no direction", objects Cyborg. "What use is
+that?"
+
+Replicant's face hardens, then smiles, throwing the
+hypercube into his backpack. "None at all."
+
+
+2.2 INTRODUCTORY COMMENTS
+
+The intellectual hallmark of the late twentieth century(1)
+is postmodernism. Originally a term used to denote a style
+of poetry, then into art, architecture, urban planning,
+music and now into the field of social theory and
+philosophy(2), postmodernism represents both a definitive
+break with modernism and is built on modernism.
+
+Stephen White in the essay "Justice and The Postmodern
+Problematic"(3) presents four components to what he sees as
+the four most significant phenomena associated with
+postmodernism.,
+
+1) Rejection of the metanarrative
+2) Rise of information technologies
+3) Problems with societial rationalization
+4) New social movements
+
+The works of Lyotard's "Postmodernism: A Report On
+Knowledge", Jameson's "Postmodernism: Or, The Cultural Logic
+Of Late Capitalism" Ross' "Universal Abandon: The Politics
+Of Postmodernism" and Habermas' "Legitimation Crisis" are
+central texts in this discussion.
+
+In this section of the thesis an attempt is made to explore
+the components listed above and the theoretical approach of
+the listed authors and question whether this description is
+accurate? And if so, are the emancipatory aspects worth
+advocating, over and above traditional forms of libertarian
+political activity?
+
+These are the questions that are a challenge to the entire
+schema of postmodernism. For there are rejections of the
+description of the postmodern condition already exist in the
+forms the writings of Brodribb, Callinicos and to a lesser
+extent, Frow. Brodribb emphasises the masculinist notion of
+the destruction of discourse and questions whether it is
+possible that the reason that an opposition to essentialism
+is popular now is because "essentialist" groups were gaining
+real, substantive political power; Frow consider that
+postmodernity's emphasis on aesthetic diversity is simply an
+acknowledgement of their own inability to provide a coherent
+articulation of the 'condition' which they are describing;
+and Callinicos disagrees with the assumption that there are
+fundamental differences in the 'new times' that
+postmodernism is fond of describing.
+
+Each of these challenges is summarized and further
+critiqued. It is suggested at the end of this chapter that
+postmodernism has described certain trends accurately, but
+its de-emphasis on the importance of Being, Existence and
+Mat(t)er are part of its manifested failure in the political
+arena and of its manifested success to individuals.
+
+2.2.1 THE LAST REVOLUTION
+
+With the current political climate, the above title can
+alternatively mean "the latest revolution" or "the final
+revolution".
+
+Postmodernism doesn't exist in some historical vacuum.
+Despite its rejection of the metanarrative, it cannot escape
+its own history and its own theoretical precursors, which
+are tied to the successes and failures of the last social
+upheaval in advanced, industrial nations, some 25 years ago.
+At that point in time, it was felt that both technology and
+democracy was falling under the control of technocrats or
+bureaucrats, respectively, experts in both systems. Western
+industrial capitalism and Eastern industrial socialism had
+become indistinguishable in their objective of the
+"performance principle" - maximum efficiency of goals set by
+"experts".
+
+Marcuse satirically remarked, "Technology serves to
+institute new, more effective and more pleasant forms of
+social control and social cohesion" and "A comfortable,
+smooth, reasonable, democratic unfreedom prevails in
+advanced industrial civilization, a token of technical
+progress."(4)
+
+Faced with a consciousness prevalent among the vast majority
+of the population that material benefits were dependent on
+such unfreedom, the New Left, as the movement came to be
+known, saw the only avenue for possible resistance in "...
+the young, the marginal, the deviant, the 'irrational'."(5)
+This appeal was successful - so much so that it became
+embodied in the 'hippie' counter-culture. Among their
+central concerns were academic and cultural freedom,
+opposition to the west's involvement in Viet Nam and war in
+general, and the civil rights movement in the United
+States.(6) However, although these essentially liberal
+objectives were highly successful, the democratic socialist
+objectives encapsulated in the workers council of the Prague
+Spring in 1968, and the 'Action Committees' of Paris in the
+same year(7), manifestly failed.
+
+The postmodern interpretation of these failures normally
+suggests that a counter-cultural movement could not succeed.
+In agreement with the New Left theory of the conservatism of
+the traditional agents of social change (i.e., the working
+class), postmodernists also suggest that ultimately, the
+counter-cultural movement was still reliant on the
+traditional left wing agenda, which proved itself unable to
+make the conceptual shift from being a part of 'the system'
+to align itself with the counter-culture. Sartre's furore at
+the French Communist Party's behaviour is expressed in his
+description of "this revolutionary party ... determined not
+to make a revolution."(8)
+
+Today "a strategy requires us to abandon the abstract
+universalism of the Enlightenment, the essentialist
+conception of social totality and the myth of the unitary
+subject."(9) The possibility of a counter-culture, as an
+alternative, is rejected. Rather postmodernism seeks to
+radicalise the mainstream discourses, by emphasising and
+introducing and highlighting notions adaptability, diversity
+and dynamicism to 'normal' culture. Revolution, per se, is
+not an objective, rather the fading away of essentialism and
+universal interpretive schemas is seen to be the liberating
+practise.
+
+
+REFERENCES
+
+1) Western European Christian calender. We not only should,
+but must include the fact (if only in footnote for our own
+centre) that it is also the late 14th century of the Islamic
+calender, the mid-58th century for the Hebrews, the early
+20th for Hindu Saka, mid-21st for Hindu Vikrama, early/mid
+26th for Buddhists, mid-14th for Burmese, early 26th for
+Jain, and mid-27th for Japanese.
+2) Hassan, I., The Question Of Postmodernism, p117
+3) White, S.K.., Justice and The Postmodern Problematic, in
+Praxis International 7:3/4 Winter 1987/8, p306-319
+4) Marcuse, H., One Dimensional Man, pxv and p1
+5) Anderson, RJ., Hughes, JA., Sharrock, WW., Philosophy Of
+The Human Sciences, p50
+6) see Teodori, M (ed)., The New Left: A Documentary History
+for an overview of the New Left's activities in the U.S.
+7) see Fisera, V (ed)., Writing On The Wall for a
+documentary anthology of the "events of May", and Workers
+Councils In Czechoslovakia.
+8) Sartre, J-P., quoted in Kritzman, L (ed)., Michel
+Foucault: Politics, Philosophy, Culture, pxi
+9) Mouffe, C., in Ross, A., (ed) Universal Abandon? The
+Politics Of Postmodernism, p44
+
+
+2.2.2 THE UNCOMPLETED PROJECT
+
+At the centre of what must be the most significant debate
+within postmodernism is what almost appears to be that of
+Habermas vs Lyotard, or, between the concept of consensus vs
+diversity. In this debate, Habermas represents the concern
+of consensus, a stubborn and utopian ideal that remains
+consistent throughout all his works. Perhaps being unfairly
+reductionist, Habermas central thesis is that
+intersubjective truth statements must be decided by
+'communicative competence'; rather than by force, by
+science, by ritual, or by the market, otherwise the
+potential remains for 'system failure'.
+
+For Habermas, this communicatiive competence is rationality,
+truth, freedom and justice(1), a 'communication community'
+[Kommunikationsgemeinschaft] for it represents that "no
+force except that of the better argument is exercised; and
+that as a result, all motives except that of the cooperative
+search for the truth are excluded"(2). Such a world is
+possible under the modernist project, through democracy, but
+modernity is "at variance with itself"(3). This causes a
+sense of political urgency, for the highest achievement of
+modernism, that is the expressions of critical reason
+developed in the Enlightenment, are under threat by
+positivist rationality as totality. This is well expressed
+in Toward A Rational Society, where it is stated (echoing
+Marcuse) that "The power of technical control over nature
+made possible by science is extended today directly to
+society."(4)
+
+In Legitimation Crisis, Habermas studies the possible
+avenues of crisis in the liberal-capitalist system. In such
+a world, there are different fundamental principles of
+organization [Organizationsprinzip] according to 'primitive'
+societies (role of sex and age). 'traditional' societies
+(political form of class domination) and liberal-capitalist
+(wage labor and capital)(5). Each social system has several
+possible crisis tendencies which include;
+
+"the limit of the environment's ability to absorb heat from
+energy consumption"(6) as a physical limitation, and as
+social limitations;
+
+- the economic system does not provide the requisite
+quantity of consumable values, or;
+- the administrative system does not provide the requisite
+quantity of rational decisions, or;
+- the legitimation system does not provide the requisite
+quantity of generalized motivations, or;
+- the socio-cultural system does not generate the requisite
+quantity of action-oriented meaning(7).
+
+As liberal-capitalist system is depoliticisized by state
+intervention and that technical mastery has reached such a
+high level of expertise, Habermas feels that a legitimation
+crisis. Such depoliticization is necessary for two related
+reasons; (i) the tendency toward radical business cycles
+inherent in the capitalist mode of production needs to be
+smoothed, otherwise the public becomes aware of the class
+nature of society and (ii) any substantive participation of
+the public into the decision making processes of society
+would also make the class structure obvious.
+
+Articulations expressed by the socio-cultural system, are
+expressions of political and economic variance with the
+communication community: "The neo-conservative does not
+uncover the economic and social causes for the altered
+attitudes towards work, consumption, achievement and
+leisure. Consequently they attribute all the following -
+hedonism, the lack of social identification, the lack of
+obedience, narcissism, the withdrawal from status and
+achievement competition - to the domain of 'culture'."(7)
+This is not to suggest that such attitudes are economic or
+administrative in their ontological content. "For
+underprivileged groups are not social classes, nor do they
+even potentially represent the mass of the population. Their
+disenfranchisement and pauperization no longer coincide with
+exploitation because the system does not live off their
+labor."(8)
+
+What is the case that expertise is being embodied into
+social institutions without justification on a communicative
+level, which causes a crisis in legitimation. McCarthy
+states; "According to Habermas, a smoothly functioning
+language game rests on a background consensus formed from
+the mutual recognition of at least four different types of
+validity claims [Geltungsanspuche] that are involved in the
+exchange of speech acts: claims that the utterance is
+understandable, that its propositional content is true, and
+that the speaker is sincere in uttering and that it is right
+or appropriate for the speaker to be performing the speech
+act."(9). This background can only be articulated through
+democratic consensus without a legitimation crisis, and that
+there is a conflict between the 'life-world' experienced by
+discourse and the attempted colonisation by the steering
+imperatives of the system.
+
+The perspective offered by Habermas suggests that there is
+no truth of theory except that of in agreement, and there is
+no truth of action except that of in praxis. The work is a
+combination of both the libertarian aspects of modernity and
+Marx's critique of capitalism, representing and expanding on
+the best of the work of the first generation of the Critical
+Theory school. For Habermas it is clear that before we can
+labour freely and justly, reason freely and justly, or act
+freely and justly, we need to be able to speak freely and
+justly. And this means, allowing the autonomous expression
+of the individual's lifeworld to be reproduced(10).
+
+
+REFERENCES
+
+1) McCarthy, introduction to Habermas, J., Legitimation
+Crisis, p xvii, Legitimation Crisis
+2) Habermas, ibid, p75
+3) Habermas, Theory Of Communicative Action, p396
+4) Habermas, Toward A Rational Society, p56
+4) Habermas, Legitimation Crisis, p18-21
+5) Habermas, ibid, p20
+6) Habermas, ibid, p46
+7) Habermas, Modernity - An Incomplete Project, p7
+8) Habermas, Toward A Rational Society, p110
+9) McCarthy, Legitimation Crisis, p xvi-xvii
+10) Habermas, The Theoretical Discourse Of Modernity, p299
+
+
+2.2.3 A WAR ON TOTALITY
+
+Lyotard is a representive another tendency in the postmodern
+debate, that which denies that there is anything to be
+gained by the Enlightenment project, and that there rule of
+consensus is just another metanarrative, a text based on
+some metaphysical absolutist, essentialist, fashion. This
+theoretical framework, expressed in Lyotard's most important
+work "The Postmodern Condition: A Report On Knowledge" is
+also echoed in the essays and interviews collected by Ross
+in Universal Abandon? The Politics Of Postmodernism.
+
+The suggestion begins by stating that the status of
+knowledge and meaning is altered as societies change their
+economic and political expressions from the industrial
+oriented economy to an information oriented economy.
+According to what must be seen as an intellectual journal
+for punks, the RE/Search 'Industrial Culture Handbook'
+defines an information war; where the struggle for control
+is not territorial but over meaning(1), or as Lyotard puts
+it: "knowledge and power are simply two sides of the same
+question: who decides what knowledge is, and who knows what
+needs to be decided?"(2).
+
+The postmodern condition is one where a conflict of meaning
+is "in the sense of playing" and that social bodies are
+composed of collective language moves.(3) Part of this
+conflict entails a campaign against science as truth; a
+strong possibility given both the failure of the logical
+positivists to provide "scientific" definitions to words,
+and the development of scientific knowledge from Popper to
+Kuhn and finally, to Feyerabend, the latter who states that
+unless science is defined as the collective truth
+statements, that is, relativist, then it must amount to
+oppression(4). This differs a great deal from the scientist
+that Lyotard presents who "questions the validity of
+narrative statements and concludes that they are never
+subject to argumentation or proof. They classify them as
+belonging to a different mentality: savage, primitive,
+underdeveloped, backward, alienated, prejudice, ignorance,
+ideology."(5)
+
+Science is presented as an epic. The last of the
+metanarratives, except for, of course, monetary wealth. Both
+are expressions, not of some humanistic narrative, but
+rather as power as the only legitimate truth-statement.
+"Power is not only good performativity, but it is also
+effective verification and good verdicts. It legitimates
+science and law on the basis of their efficiency, and
+legitimates this efficiency, and legitimates this efficiency
+on the basis of science and law. It is self-
+legitimating."(6)
+
+But given such self-legitimation, Lyotard sees potential for
+emancipation with new directions in science, particularly in
+chaos theory, quantum physics and the non-determinant.
+"Postmodern science ... is theorizing its own evolution as
+discontinuous, catastrophic, nonrectifiable and paradoxical.
+It is changing the meaning of the world knowledge."(7) This
+lack of truth needs to be translated into social world
+politics, so that the technocrat and bureaucrat are no
+longer speakers of truth. Lyotard considers that consensus
+cannot perform this role; and presents "there is no question
+here of proposing a 'pure' alternative to the system ... an
+attempt at an alternative would end up resembling the system
+it was meant to replace."(8)
+
+Ross, editing and compiling works by Jameson, Stephanson
+Mouffe et al., takes up the issue of an alternative. A
+primary concern is that postmodernism does not become
+'universal abandon', a metanarrative of ennui and
+ambivalence. Mouffe's alternative is 'radical democracy'
+which "demands that we acknowledge difference - the
+particular, the multiple, the heterogeneous - in effect,
+everything that had been excluded by the concept of Man in
+the abstract. Universalism is not rejected but
+particularized"(9).
+
+This is part of the rejection of essentialism espoused by
+the postmodernists, yet seems to be outside the framework of
+Habermas. Searle (10) considers that the classical
+metaphysical philosophers made a "real mistake" on deciding
+that some metaphysical foundation was necessary.
+Politically, this need not lead to nihilism as Laclau points
+out: "Abandonment of the myth of foundations does not lead
+to nihilism... It leads, rather, to a proliferation of
+discursive intervention and arguments that are necessary
+because there is no extradiscursive reality that discourse
+might simply reflect."(11)
+
+To attempt to collectivise the many and diverse writers that
+Ross presents a unity can be noted in their notion of
+plural, local and immanent(12) notions of difference as
+legitimate forms of liberation. Much of this obviously ties
+with Derrida's notion of differance, where arke, the
+government or foundation, as truth, is challenged, deferred,
+made different, where "every apparently rigourous and
+irreducible opposition ... comes to be qualified, at one
+moment or another, as a theoretical fiction."(13) Their
+universal rejection of the possibility that modernist and
+essentialist discourses (which includes Marxism and
+Habermas) is built on the notion that there is no centre,
+and that each margin represents different, and theoretically
+equal, standpoint.
+
+
+REFERENCES
+
+1) Savage, J., Industrial Culture Handbook, p5
+2) Lyotard, J-F.., The Postmodern Condition, p9
+3) Lyotard, ibid, p10-11
+4) See Poppper, K, The Logic Of Scientific Discovery, Kuhn,
+T., The Structure Of Scientific Revolutions" and Feyerabend,
+P., Science In A Free Society.
+5) Lyotard, p27
+6) Lyotard, p47
+7) Lyotard, p60
+8) Lyotard, p66
+9) Mouffe, C., in Ross A. (ed), Universal Abandon? The
+Politics Of Postmodernism,p36
+10) Searle, J., ibid, p38
+11) Laclau, E., ibid, p79
+12) Fraser, N., and Nicholson, L., ibid, p87
+13) Derrida, J., Margins Of Philosophy, p18
+
+2.2.4 DECENTERED BUT NOT SCHIZOPHRENIC
+
+It has been reported that schizophrenia, narcissistic
+character disorder, and depression are metaphors for
+postmodern nihilism.(1) Jameson, aware of such disorders
+being possible with the abandonment of metaphysical
+foundations, displays a preference for "a third possibility
+beyond the old bourgeois ego and the schizophrenic subject
+of organization subject today: a collective subject,
+decentered but not schizophrenic."(2)
+
+Jameson presents a theory of postmodernism that has
+different concerns that those expressed by Habermas and
+Lyotard. In Postmodernism, Or The Cultural Logic Of Late
+Capitalism,(3) these concerns not only combine the notions
+of the uncompleted project of modernism and the disruption
+of metanarratives, but also a desire to find social actors
+who combine both features. Introducing Lyotard's text, it
+was Jameson who suggested that postmodernism could be
+defined as "incredulity to metanarratives"(4) and that
+postmodernists "no longer believe in political or historical
+teleogies, in great 'actors' or 'subjects' of history - the
+nation-state, the proletariat, the party, the West etc."(5)
+
+To Jameson, postmodernism is an anti-utopian project(6),
+whose attack on any metaphysical foundation actually lies
+with socialist philosophy which provided " ... the first
+elements of a vision of some achieved 'human age', in which
+the 'hidden hand' of God, nature, the market, traditional
+hierarchy, and charismatic leadership will have been
+definitely disposed of."(7) Unlike the socialist program,
+which, presented with a metanarrative text (that of
+capitalism), "[t]he postmodernist viewer, is called on to do
+the impossible, namely to see all the screens at once, in
+their radical and random difference; such a viewer is asked
+to follow the evolutionary mutation of David Bowie in The
+Man Who Fell To Earth (who watches fifty-seven television
+screens simultaneously) and to rise somehow to a level at
+which the vivid perception of radical difference is in and
+of itself a new mode of grasping what used to be called
+relationship: something for which the word collage is still
+only a feeble name."(8)
+
+As one of the last of the metanarrative texts (the other
+being science), Jameson sees a primary concern with the
+concept of the 'free market'. Suggesting that traditional
+Marxist analysis is inadequate, and that Marx argues like
+Friedman on "... the relationship of ideas and values of
+freedom and equality to the exchange system ... that these
+concepts are real and objective, organically generated by
+the market system itself and dialectically are indissolubly
+linked to it."(9) Instead, Jameson holds that " 'The market
+is in human nature' is the proposition that cannot be
+allowed to stand unchallenged; in my opinion, it is he most
+crucial terrain of ideological struggle in our time."(10)
+
+The suggestion is then presented that the 'new social
+movements' are a replacement for the disappearing working
+class.(11) Following Marx and Schumpeter(12), Jameson sees
+such social movements as representing the 'collective
+subject'; "... if individualism is really dead after all, is
+not late capitalism so hungry and thirsty for Luhmanian
+differentiation and the endless production and proliferation
+of new groups and neoethnicities of all kinds as to qualify
+it as the only truly 'democratic' and certainly the only
+'pluralistic' mode of production ?"(13)
+
+Combining notions of the late capitalist information
+technology with the new social movements that co-exist with
+it lead Jameson to consider both the cyberpunk sub-genre of
+science fiction, and some its precursor forms, such as J.G.
+Ballard. Jameson, in fact, noted the existence of the sub-
+genre well before most academic texts, commented on it in
+1984,(14) recognising it as a encapsulation of extreme
+political pessimism of institutionalism and personal
+radicalism from the technologies that the institutions
+require.
+
+REFERENCES
+
+1) Levin, D., in Zimmerman, M., Heidegger's Confrontation
+With Modernity, p204
+2) Jameson, F., in Ross, A (ed), Universal Abandon? The
+Politics Of Postmodernism, p21
+3) This is the 1991 book, not the 1984 essay, although the
+latter is the first chapter in the book.
+4) Jameson, F., introduction to The Ppstmodern Condition: A
+Report On Knowledge, p xii
+5) ibid.
+6) Jameson, F., Postmodernism, Or The Cultural Logic Of Late
+Capitalism, p333-335
+7) Jameson, ibid, p336
+8) ibid, p31
+9) ibid, p261
+10) ibid, p264
+11) ibid, p319-320
+12) see for example, Elliot, J., 'Marx and Schumpeter on
+Capitalism's Creative Destruction', in Quarterly Journal of
+Economics, August 1980, pp45-68
+13) Jameson, op cit, p325
+14) Jameson, ibid, p38
+
+2.3 POSTMODERNISM'S DISCONTENTS
+
+2.3.1 MAT(T)ER MAT(T)ERS
+
+Brodribb in Nothing Mat(t)ers presents a feminist critique
+of the politics and philosophy of postmodernism including an
+historical scope that includes Nietzsche, structuralism,
+Foucault and Derrida. Brodribb argues that postmodernism has
+given a metaphysical priority to epistemology over ontology
+and that such a priority is anti-materialist. The title,
+Nothing Mat(t)ers, refers to both Matter as material and
+mater, or mother. Brodribb is suspicious of the current
+notions of breaking down essentialist categories of language
+as being anti-female; "The Master wants to keep the
+narrative to himself, and he's willing to explode the whole
+structure of discourse if we start to talk. They don't want
+to hear our stories; listening to women's stories of incest
+and rape almost cost Sigmund Freud his career before he
+decided that they were simply female fantasies of desire for
+the father."(1)
+
+In preference, Brodribb wishes to highlight the importance
+of difference through essential characteristics, and
+physical reality. If postmodernism, as it claims, is about
+the politics of those who were previously marginalised, then
+surely "[a]re not the works of women and feminists: Black,
+lesbian, Jewish, working-class, Native - a more significant
+source for understanding difference and otherness than the
+writings of white, western, men?"(2) Instead postmodernism
+seeks an "implosion of consciousness and responsibility, the
+death of meaning ..."(3) The politics of postmodernism,
+whilst seeking to deny scientific and linguistic
+categorisation, in attempt to avoid the problems of
+structuralism, rather than enhancing the subject, actually
+denies the subject by denying their matter/mat(t)er/body.
+
+Brodribb considers that postmodern politics is therefore
+nondialectical, promoting a ethereal displacement of meaning
+and interpretation as an absolutist political strategy. Such
+a theoretical framework Brodribb notes in both Foucault and
+Derrida. For Derrida, Brodribb notes that "mostly,
+deconstruction means never having to say that you're
+wrong"(4), and as for Foucault's support for the Khomeni
+regime on the grounds that it heralded a revolutionary
+spirit and attitude, a rather ironic reply by an Iranian
+woman is quoted: "It seems for a Western Left sick of
+humanism, Islam is preferable ... but elsewhere."(5)
+
+This nondialectical culture has a traditions which Brodribb
+traces through Nietzsche, Heidegger, Russell, Wittgenstien
+and Levi-Strauss.(6) Whilst the structualist school is
+rejected for the denial of the subject ("History has no
+voice, no intelligible meaning, but structure is")(7), the
+object-free subject is also rejected, hence the tie between
+disparate philosophers as Nietzsche and Levi-Strauss.
+Contrary to this Brodribb considers O'Brien's "historical,
+materialist and dialectical approach grounds patriarchy and
+the hegemony of masculine values in the social relation of
+reproduction."(8)
+
+This is also presented as an alternative to the celebration
+of Dionysus by postmodern philosophers, particularly
+postmodern feminist philosophers. Whilst western rationality
+has been tied to Apollian and Aristolean sex bias(9). This
+masculinist and phallocentric 'Sophies Choice', where
+madness and instability is offered by the Masters of the
+Narrative instead of logic and control, is seen as a false
+choice; Dionysus is as much a tyrant as Apollo.(10)
+
+Brodribb's conclusion is that "Postmodernist theories of
+sexuality increasingly speak of texts without contexts,
+genders without sexes, and sex without politics"(11). This
+depoliticizes the feminist insights about male supremacy.
+The essentialist, that is, the female, must be reinstated:
+"The feminist project must yet elaborate an ethics and
+aesthetics that is not filtered through or returned to a
+masculinist paradigm, but expressed creatively and
+symbolically by a subject that is female, Only an
+unflinching autonomy can challenge extortions to feminine
+deference and the deferment of feminist philosophy... We
+must resist absorption by the adrogynous myth."(12)
+
+
+REFERENCES
+
+1) Brodribb, S., Nothing Mat(t)ers: A Feminist Critique of
+Postmodernism, p xviii
+2) ibid, p xxviii
+3) ibid, p 19
+4) ibid, p9
+5) Brodribb, op cit, p18
+6) ibid, p39-40
+7) ibid, p43
+8) ibid, p135
+9) Lange, L., Woman Is Not A Rational Animal, Spekman, E.V.,
+Aristotle And The Politicization Of The Soul, in Harding,
+S., and Hintikka, M., (eds), Discovering Reality: Feminist
+Perpsectives On Epistemology, Metaphysics, Methodology, and
+Philosophy Of Science
+10) Brodribb, op cit, p137-138
+12) ibid, p143
+13) ibid,p146
+
+
+2.3.2 POSTMODERNISM? WHAT POSTMODERNISM?
+
+
+Callinicos represents a classical Marxist critique of the
+postmodernist political program. The suggestion is that
+postmodernism is a fantasy; that there are no 'new times',
+that the 'new technologies' make no difference to the
+reality of existing capitalist social relations and that
+greater meaning of what is being bandied as postmodernism
+can be derived from the fact that its proponents are members
+of a fairly wealthy white-collar middle class who are
+bemoaning the failure of the revolutionary upheaval of their
+youth, yet no wishing to surrender their new found financial
+freedom. Callinicos, in Against Postmodernism: A Marxist
+Critique follows a similar line of argument to that which he
+presented in Is There A Future For Marxism? in 1982.
+
+Central to the concerns in both cases is the question of
+analysing what was "actually existing socialism", an issue
+which gained a great deal of prominence after the nouveaux
+philosophes claimed that "Marxism was a machine for the
+construction of concentration camps."(1) This eventual move
+to the postmodern, was to an extent foreseen by Callinicos,
+in the earlier book and the critique that it presented in
+Against Postmodernism is similar; Derrida's "[d]ifference
+can only be conceptualized by means of a language, which,
+necessarily, by virtue of the nature of difference itself,
+involves the metaphysics of presence: differance, since it
+is ontologically prior to both presence and absence, is
+therefore unknowable."(2) This leads to a situation where
+there is a "denial of any relation to discourse to
+reality"(3), a most remarkable flight from Saussure's
+position where "[t]here is no order of priority between the
+two [signifiers and signified]: sound-images and concepts,
+sensible and intelligible, are indissolubly linked, form ...
+two sides of a piece of paper."(4)
+
+There are clear parallels to Brodribb's position here; the
+central concern of both being that postmodernism has no
+substance; it is an mythological ideology, a fantasy devoid
+of any real potential for emancipation. Also like Brodribb,
+Callinicos traces a path of political thought where
+Nietzsche, Levi-Strauss and Foucault are included as those
+responsible for "the subversion of the signified".(5) The
+link between Nietzsche and Foucault is dealt with some
+effort in fact, by Callinicos, as although both considered
+all action or thought as a manifestation of 'will to power',
+it is noted (quoting Nehemas) that "Nietzsche does not
+consider that every agent has a self"(6); we may add here,
+echoing the concerns of Brodribb, 'least of all women'.
+Finally, also like Brodribb, Callinicos seeks an
+acknowledgement of the priority of Being over
+interpretation; for without the act of production, there is
+no new meanings.
+
+As the postmodernist project places such a priority on non-
+reality, then equally, the notion that there is a
+postmodernism is rejected. Postindustrial society is seen as
+being no different at all to that of industrial society, and
+Callinicos disputes the notion that postindustrial society
+exists at all. Whilst "Postindustrial society is
+characterized by the shift from goods production to a
+service economy and by the central role played by
+theoretical knowledge as a source of both technical
+innovation and policy formation"(7), Callinicos suggests
+that the overwhelming nature of these jobs is in shop
+assistant-style positions, which are not given the
+opportunity to partake in postmodern fantasies of policy
+formation. Instead "[t]he fact that much of this labour now
+involves interacting with other people rather than producing
+goods does not change the social relations involved."(8) A
+point is also made by noting that there are currently more
+members of the traditional 'industrial proletariat' than
+ever before; mostly located in so-called developing
+countries such as South Korea, Turkey, et. al.
+
+While "... the propriety of the new Western middle class
+combined with the political disillusionment of many of its
+most articulate members - provides the context to the
+proliferating talk of postmodernism"(9), Callinicos sees
+that "[t]he continued relevance of classical Marxism seems
+.. unarguable."(10) In response to the crisis that was in
+'actually existing socialism', Callinicos uses the argument
+of the International Socialists, that is, that the Soviet
+Union, China, Cuba, et. al., were actually 'state
+capitalist' societies, as the rulers of each of these
+nations represented a 'class', in the Marxist sense of the
+term, and the social relations between classes was but a
+minor variation on those social relations encountered in
+western capitalist nations.
+
+
+REFERENCES
+
+1) Callinicos, Is There A Future For Marxism?, p5
+2) Callinicos, Against Postmodernism: A Marxist Critique,
+p75
+3) ibid, p79
+4) Callinicos, Is There A Future For Marxism?, p33
+5) ibid.
+6) Callinicos, Against Postmodernism: A Marxist Critique,
+p90
+7) ibid, p121
+8) ibid, p127
+9) ibid, p168
+10) ibid, p223
+
+
+2.4 BEING & DIFFERENCE: A CRITIQUE OF THE CONDITION
+
+
+There seems to be a strange failure on behalf of postmodern
+political theory and its discontents. The presentation of
+the postmodern condition and trends is indeed an accurate
+one, in terms of yet its tendency to convert these trends
+into reality tends to lead to accusations of fantasy.
+However, the critics of postmodernity tend to lapse into
+essentialist notions which postmodernism itself claims to be
+attempting to overturn.
+
+Habermas, for example, fails to note the significance of the
+changes in technology and the importance of the move towards
+the 'information economy' from the industrial economy. The
+continued use of the very problematic Marxist labour theory
+of value without addressing the transformation problem(1)
+severely weakens the overall theoretical framework. In
+contrast, Lyotard and the writers in Universal Abandon? who
+critiques Habermas on the points of consensus and
+difference, who point out the importance of the changes in
+scientific understanding, the multitextual nature of the
+subject and so forth, fail to look at the central thesis of
+Habermas; that is that there is a contradiction between the
+desires of the lifeworld and the steering imperatives of the
+system which leads to a legitimation crisis, thus a crisis
+in economy, politics and representation in general.
+
+True as it is in both the cases of Brodribb and Callinicos,
+there is within postmodernism this bizarre tendency to
+ignore the material in preference to the aesthetic. Such a
+tendency can quite possibly become a new mysticism, a
+revival of the metaphysical which they claim to completely
+reject. However, the critics of postmodernism turn from one
+fantasy to another. In Brodribb, the importance of sex
+differences reaches epic proportions, and the claim is made
+that to be anti-essentialist is to be anti-female.(2) In
+Callinicos, the steam-snorting wonders of the industrial
+culture are still with us as the dominant economic means of
+production.
+
+Brobribb and Callinicos have a reification of gender and
+class. Rather than seeking to abolish these concepts, these
+socially constructed, definitions applied to the Other,
+their political agenda is to highlight these constructions.
+The postmodernists, by contrast, seem to live in a world
+where the non-recognition of the socially constructed
+removes its existence. Both constructions are false. The
+construction of gender and class are constructed by social
+institutions, which ultimately rest on the forced definition
+of the Other.
+
+Frow, in the paper 'What Was Postmodernism?', represents a
+non-essentialist critique, even if it tends to restricted to
+concepts of communications and literary theory, rather than
+to technology, economics, philosophy and social theory. The
+position expressed is that postmodernism, being incapable of
+articulating itself in a coherent form and is doomed to
+failure. In fact, Frow concludes that the political
+philosophy of postmodernism is a part of the postmodern
+condition, and that the task of intellectuals is to provide
+an alternative; "... they take the form of the crisis of an
+obsolescent modernism; a crisis of political representation;
+a crisis of representation in general, bound up with the
+commodification and the proliferation of information; a
+crisis of intellectual production and of the social function
+of intellectuals; and a crisis of the economy of cultural
+, in particular of the relations between high and low
+culture... 'Postmodernism', a product of this fusion, is the
+self-fulfilling prophecy of its own impossible autonomy."(3)
+This opinion is repeated by the Fontana Dictonary Of Modern
+Thought, which refers to postmodernism as "best seen as a
+complex map of late 20th century directions rather than a
+clearcut aesthetic and philosophical ideology."(4)
+
+Postmodernism's philosophy derives from Derrida's rejection
+of the metaphysics of foundation, of Being, of presence. To
+Derrida the questioning of Being "supposes that prior to
+signs and outside them, and excluding every trace and
+difference, something such as consciousness is possible".(5)
+Yet, perhaps Derrida has phrased the supposition
+incorrectly; for whilst the articulation of speaking
+subjects, of consciousness, is can only be dealt through
+notions of difference, the ability to speak is dependent on
+Being, on presence, on mat(t)er. These are not essentialist
+categories, these are not categories derived from the actual
+action of speaking subjects, but rather, they are prior to
+speech itself, they are existential categories.
+
+And whilst all else, everything that is created and
+nominated by speaking subjects is indeed dependent on
+notions of difference, of which politically, the subjects
+right is to defer and to make different, the ability to
+speak remains an issue of materiality. For like the world of
+the inaminate, having materiality but no language, the world
+is meaningless. But language without materiality is
+impossible.
+
+
+REFERNCES
+
+1) Marx never clarified the relationship of value to price,
+particularly considering that the mode of communication in
+capitalism is that of price, not labour-value. See Baumol,
+W., Blinder, A., Economics, pp826-830
+2) Brodribb, S., Nothing Mat(t)ers, p23
+3) Frow, J., 'What Was Postmodernism', Local Consumption
+Publications Occasional Paper, No 11, Sydney, 1991
+4) Bullock, A., et. al., (eds) The Fontana Dictionary Of
+Modern Thought, (2nd Ed), Fontana Press,
+5) Derrida, J., Margins Of Philosophy, p147
+
+
+
+Article 46401 of alt.activism:
+Path: eff!news.umbc.edu!europa.eng.gtefsd.com!uunet!munnari.oz.au!uniwa!newsman!csuvax1!anderson
+From: anderson@csuvax1.csu.murdoch.edu.au (Anthony Anderson)
+Newsgroups: alt.activism,alt.cyberpunk,alt.drugs,alt.politics.libertarian
+Subject: Technology & Freedom (III)
+Date: 1 Nov 1993 17:52:56 GMT
+Lines: 1120
+Message-ID: <2b3idoINNms7@newsman.csu.murdoch.edu.au>
+NNTP-Posting-Host: csuvax1.murdoch.edu.au
+Xref: eff alt.activism:46401 alt.cyberpunk:23180 alt.drugs:49069 alt.politics.libertarian:16067
+
+
+3.0 TECHNOLOGICAL REALITY
+
+
+3.1 THE GRAVEYARD
+
+
+Cyborg and Replicant journey to a house of the friends, The
+Bradbury Hotel. Inside three thousand of their friends, in
+the trance dance to the ecstastied sound of 120 (heart)beats
+per minute in the collective womb - a site for the
+technopagan - and a launchpad for new and different worlds
+of imagination and actuality.
+
+Replicant, artisite, provides the wares for the celebration
+of fifty years of the first use of lysergic acid
+diethylamide. After all, explains Replicant, what world is
+it that is not prepared to come to terms with the importance
+of what works with the very center of consciousness ? To
+have such a profound effect, on such a minimal dose should
+warrant serious investigation. This activity isn't
+considered illegal by Control because one person in fifty
+thousand believes they can fly. It is illegal because the
+psyche is irrevocably altered never to accept the
+psychosexual domination of Control, who is the praxis of
+Truth.
+
+And the journey begins ...
+
+Into a void they fall, an astral plane of individual
+aloneness, full of the noise of the superego all around
+them, and individually linked only by a thin silver rope to
+the real foundation to the universe. Using their techno-
+induced psychic powers they are able to  follow this thin
+silver cord to discover reality. The cord stretches out to
+infinity, seemingly without horizon, but with their new
+magical powers, and their hypercube, time and space are
+condensed even further.
+
+They reach a place, or rather, it is revealed to them, and
+the silver cord does not go beyond it. It is a Platonic
+graveyard, wrought iron fences, gnarled black leafless
+trees, howling wind, grey skies, dim light and a grey mist
+swirling with a will of its own. Mauseloums, tombs,
+headstones with old chipped angels, missing limbs, and even
+a small pyramid is scattered in a semi-ordered manner.
+
+"Where are we?", enquires Cyborg.
+
+"I've heard of this place. It is the Land of Truth, and is
+owned by Control", replies Replicant.
+
+They float above the land, reading each inscription on each
+headstone and plaque. Some read of gods long gone. One
+large, and fairly old, mauselom, simply reads "God". More
+recent tombs are dedicated to the Independent Ego, to
+Science, to the Proletariat, to the Market, to the teleogy
+of History, and to Western democracy.
+
+A shadow appears over one tomb, gaining substance and form.
+An embittered, angery man arises, drawing in his breath,
+acting full of self-importance and booms;
+
+"Fearful travellers, deny what commonsense tells you! It is
+always wrong, it is never noble, it has no power, it is not
+great. Overcome such commonsense - and touch the ground, for
+there is no foundation - except what is made through power -
+thus spake Zarathustra."
+
+The angry man waves his arms furiously, pointing to the
+ground, incriminating, his eyes wild and insane.
+
+Cyborg looked bemused; "What is that?", she asks Replicant.
+
+"A minor phantom", he replies, "The Ghost of Nietzsche.
+"Never mind him - I know of a magic that disperses such
+egos."
+
+Replicant approaches Nietzsche, a fiber optic neural cable
+at hand. On end he injects directly into his own cerebral
+cortex, spurting minimal blood into the void and the other
+into the cerebral cortex of the phantom, who shirks in fear.
+
+"Now, phantom, learn about the Other and learn about
+yourself." Replicant's consciousness is transferred directly
+to the frontal lobe of Nietzsche, and vice versa, several
+flashes of light as minor electrical discharges interact and
+mesh. The phantom collapses to his knees proclaiming:
+
+"I have denied the Other in my own lust for power. My hatred
+of women, inspired by my fascist sister, is contrary to my
+basic premise of individuals attaining a love of themselves,
+for I denied them that ability. I myself denied my Being,
+and rather than dying a free death, I did not die of my own
+choosing.
+
+Having met the Other, having learnt of their hopes, of their
+desires, of their fears, I feel nothing but love for them.
+For although now I shall continually challenge the Self, I
+see the Other in me. We are free, but we have not chosen
+situations; let us change the situation."
+
+Nietzsche, having no Being, ceases to be solid, and melts
+into air.
+
+Cyborg looks mildly amused. "A superego communications
+line", she says, looking at the fibre optic cable. "One of
+my own makings. Built of mat(t)er. But what did you learn?
+For there is no communication without reply."
+
+Replicant's face is white in horror. "The ... the ground",
+he stammers, " ... the silver cord does not reach it ... And
+it too is not solid ... Is there no Being?"
+
+Cyborg laughs, and dives through the 'ground'. "My dear,
+Replicant, artiste, you of all people should have realised.
+Being is not a text, and you are surrounded by texts of
+Truth, all owned by Control. Let me explain, as technician.
+You have reached the end of the rope which you believed the
+foundation was attached. But the end of the line is a myth -
+but worry not! You are indeed in a void, and you cannot
+fall."
+
+Replicant tentatively touches the now transluscent ground,
+and then smiles. He joins Cyborg in their dance through the
+graveyard, ridiculing the spirits, and only spirits, that
+lurk within. They approach an unfinished tomb, whose
+multicoloured design breaths at them, living, shifting in
+its design, multi-dimensional and psychedelic in its growth.
+The inscription on the tomb reads 'Technology'.
+
+Replicant and Cyborg look at the tomb, at each other, and
+laugh.
+
+"Technology is not merely a text, it is part of Being ...",
+begins Replicant.
+
+"... And therefore it cannot be a dead belief ?", suggests
+Cyborg.
+
+"As it actually expanding Being, of which we do not control
+... ", muses Replicant.
+
+"And therefore it has escaped", grins Cyborg in conclusion.
+
+They hug each other, laughing. The void around them fades,
+and they return to the collective womb with the One Hundred
+And Twenty Beats Per Minute, where multi-coloured dancers
+are being drug smart, smart drugs, and other psychedlics,
+playing with the highest of hi-tech equipment, computers,
+digital music, holographic lasers. Tears of joy drift down
+the cheeks of Replicant as he realises that he is among the
+first generation to be psychically liberated on a such a
+scale - "if this grows, we'll be bigger than hippie in a
+year", proclaims one dancer, "We don't need a War Against
+Drugs, we need Drugs Against War!"
+
+"Rave new world", Replicant whispers to himself, "And with
+such people in it."
+
+
+
+
+
+3.2 INTRODUCTORY COMMENTS
+
+
+The following section represents somewhat of a departure
+from the previous. What is being attempted here is to
+provide a theoretical framework to understand the
+technology, the purposefully produced systems of interaction
+with the world. This is being done to provide a practical
+alternative to the postmodernist project, or rather, the
+lack of a postmodernist project, and also essentialist
+political alternatives. In addition it is suggested it is
+possible to include into such a framework, what will be
+termed social technologies.
+
+A summary of existentialist notions of Subject, Object and
+Other (eigenwelt, umwelt, mitwelt) is provided, particularly
+as developed from Sartre in Existentialism & Humanism and
+Heidegger. Following this is a study of the notion of
+praxis, using both the works of Marx and Ihde. It is here
+that technology is defined as a 'system of praxis', as well
+as using Heidegger's concept that technology is a mode of
+truth in The Question Concerning Technology.
+
+Such definitions allows the study of these systems which, as
+Sophia suggests in Whose Second Self? analytic perspectives
+of technology by technics (Ihde, Heidegger), technology by
+semiotics  (McLuhan, Sophia) and Sophia's project,
+technology by psychoanalysis. Primary texts include the
+aforementioned Whose Second Self?, Ihde's Technics and
+Praxis, and varied texts by McLuhan.
+
+The final area of study in this section is an attempt to
+show how these frameworks can be used to show how technology
+is applicable to both the Object and Subject world. What is
+presented as different that the dual nature of the person,
+means that technology increases the potential and scope of
+liberation and reflexivity and oppression and automaton-like
+behaviour. A further presentation is given on how to
+differentiate between instrumental and communicative
+technics.
+
+
+3.2.1 EXISTENTIAL CONDITIONS
+
+
+To understand technology, the purposeful production of
+systems of interaction with the world, some theoretical
+groundwork is needed on a pre-technological state of
+existence. Theoretical, because one is born into a world
+whose conditions are already determined(1), including the
+technological systems. However, there is still some validity
+within the faculties of reason, to abstract existence, as
+long as these abstractions remain relevant beyond their
+theoretical development.
+
+To some extent this may seem to going over old ground, but
+the current trends in philosophy against essentialist
+foundations run the risk over rejecting existentialist
+foundations. In rejecting all foundations language itself
+assumes the position of a quasi-mystical force that rules
+the universe. In such a climate it is required to repeat the
+words of Sartre, who when providing a unified definition of
+all existentialists noted that "existence comes before
+essence - or if you will, that we must begin from the
+subjective."(2)
+
+The lineage to such a statement can be seen to have its
+origins in Kant, who via the establishment of synthetic a
+priori categories of knowledge established a split between
+the phenomenal and noumenal worlds.(3) In doing so,
+traditional metaphysics suffered a real blow, for what Kant
+was stating was that the supersensory world, outside spatial
+and temporal location was unknowable. Nietzsche took this to
+its logical nihilist conclusion, best articulated in his
+famous Madman(4) parable demanding that people control of
+there own world because "[t]he suprasensory world is without
+effective power. It bestows no life... Nihilism, 'the most
+uncanny of guests' is standing at the door."(5)
+
+What Sartre meant by existence coming before essence is that
+before we can interpret the world, we must be in the world;
+that is the Subject must be an objective fact in an
+objective world. The reason that we must begin from the
+subjective is because our understanding, articulation and
+actions in the world are a result of our subjectivity, that
+is a result of what phenomenologists will call
+intentionality.(6) We are conscious, subjective actors, who
+act in the world and are aware of our actions. Ihde(7)
+summarises this as follows;
+
+Subject   World
+
+However, involvement in the world is not one-directional.
+For it to be so, would mean that the Subject was absolute,
+capable of determining the world with God-like power.
+Rather, our interaction with the world is reflexive, what
+Merleau-Ponty refers to as the 'arc'. Our experience with
+the world changes the Subject, which Ihde shows as;
+
+Subject   World
+
+
+Ihde's summaries are however, rather limited. For the world
+dealt with only includes the world of Objects, non-
+conscious, non-intentional, and non-acting. However, in the
+world, there are also Other subjects, objects in the world
+which express, articulate, and act. The Other is as
+important to our mentality as the Object is important to our
+physique, or as Jaspers remarked; "[t]he individual cannot
+become human by themselves. Self-being is only real in
+communication with another self-being. Alone I sink into
+gloomy isolation - only in community with others can I be
+revealed in the act of mutual discovery."(8) Like the Object
+world, the world of the Other is always presencing. A clear
+parallel can be drawn between Heidegger who states that
+"[t]heory never outstrips nature - nature that is already
+presencing - and this sense theory never makes its way
+around nature"(9) and Sartre's comment that "[c]onsciousness
+of the Other is what it is not."(10)
+
+The spatial categories in existentiality can be summarized
+as Object, Subject and Other, where Subject and Other are
+intentional, conscious and acting Objects. However,
+Heidegger's Dasein, also includes temporal categories, which
+are developed in Being and Time, which come under the
+unusual description of 'care'. To begin with, we are plunged
+into a pre-existing world which is termed 'facticity',
+representing "the fact that we find ourselves already
+engaged in a world in which tasks are already for us"(11),
+that is the pre-existing world, or the results of the past.
+The fact that Subjects are not static or determinant allows
+us always to project forward, the structure of Existenz.
+However, the Subjects run the risk of 'Fallness', "getting
+caught up in the moment", concentrating on the tasks of the
+present without consideration of the future.
+
+
+REFERENCES
+
+1) As Marx and Engels put it "Individuals have always
+proceeded from themselves, but of course from themselves
+within their given historical conditions and relations, not
+from the "pure" individual in the sense of the ideologists."
+in Marx K., Engels F., "Feuerbach. Opposition Of The
+Materialist and Idealist Outlooks" in 'Selected Works Volume
+One' (of three Volumes), p68
+2) Sartre, J-P., Existentialism & Humanism, p26
+3) Like Grosz, L., Lived Spatiality, in Agenda, p5, i would
+suggest that space/time are not a priori mental categories,
+but rather a priori corporeal categories. A further
+elaboration of this (which Grosz does not point out) is
+Einstein's treatment of space/time as corporeal categories.
+I would also suggest adding gravity.
+4) Nietzsche, F., in Kauffman (ed), Existentialism, pp105-
+106
+5) Heidegger, The Word Of Nietzsche, in The Question
+Concerning Technology and Other Essays, p61-62
+6) Ihde, D., The Technological Embodiment Of Media, p60 in
+Communication and The Technological Age and Technics and
+Praxis, p6.
+7) ibid. Ihde uses the term 'human' instead of Subject. Note
+that here, as in all cases to follow, the a direct line and
+arrow indicate 'intentionality' and a dotted line indicates
+nonconscious reflexivity.
+8) Jaspers, K., Reason and Existence, FP 1935, in Kauffmann,
+p147
+9) Heidegger, Science and Reflection, p173
+10) Sartre, J-P., Being And Nothingness, p216 in Solomon,
+original in italics.
+11) Solomon, The Self-Reinterpreted: Heidegger and
+Hermeneutics, in Continental Philosophy Since 1750: The Rise
+And Fall of The Self, p164
+
+
+3.2.2 PRAXIS AND TECHNOLOGY
+
+
+In living in the world, one encounters the existence
+material conditions, which has been represented as the
+Subject, the Object and the Other. As a conscious subject we
+must choose what we are to do with these conditions. As
+being part of the world, are choices are governed by the
+situation.
+
+Philosophy and science have normally looked at the material
+conditions as a question of either contemplation, in the
+rationalist form, or in experience, in the empiricist form.
+Both methods miss out on what is fundamental to any
+conscious actor; that we are aware, and we experience, and
+we contemplate, upon changing the conditions of our
+existence. Marx's Theses On Feuerbach emphasize this point
+clearly;
+
+"The chief defect of all previous materialism - that of
+Feuerbach included - is that things [Gegenstand], reality,
+sensuousness are conceived only in the form of the object,
+or of contemplation, but not as human sensuous activity,
+practice, not subjectively."(1)
+
+This practical philosophy is clearly derived from Kant, and
+acts towards some of the problems left by Kant. For in the
+destruction of classical metaphysics, a sort of materialist
+metaphysics was left behind. It was clear to Kant there was
+such a thing as the noumenal world, das Ding-an-sich [the-
+thing-in-itself]. However, world understanding is limited, a
+priori and synthetically, to understand the world
+phenomenally within constructs of space and time. To some
+extent this seems to indicate a new metaphysics; the claim
+that there is a inaccessible "world" is hardly an
+improvement to the claim that there is no noumenal world at
+all.
+
+Praxis philosophy deals with this situation. The essential
+claim of praxis philosophy is that in dealing with the
+phenomenal world we gain knowledge of the noumenal world. To
+elaborate our phenomenal abilities we must interact with the
+world in praxis. Truth lies in results of practice, and the
+practice of people is conscious activity in the world.
+
+Equally however, the notion of truth as being derived from
+the results of practical activity, or praxis, is a
+existential notion. For contrary to vulgar conceptions, no
+existentialist denies the objective, "other" world. Rather,
+every subject "knows" that their existence, their Being, is
+an objective fact. They also "know" that there are other
+objects in the world, and they also "know" (through The
+Look)(2) that there are Other subjects in the world.
+However, these things are only known subjectively, and
+therefore, each Subject must choose what to do with this
+knowledge. What we choose to do is always an action set on
+the transformation of the world. When we choose such an
+action, we are seeking the truth(3) of our situation;
+situation being the condition we are 'in'(4).
+
+In either case, praxis is the knowledge-gathering activity
+of materialism. In fact, as Ihde puts it " ... the secret of
+'materialism' is the notion of praxis."(5) Also, praxis is
+an improved form of knowledge-gathering. It supercedes both
+empiricist and rationalist contemplation or sense-data
+experience by performing both simultaneously, and with the
+addition of actually transforming the world. It changes the
+world, adds to experience and rational knowledge. Praxis has
+multiple telic aims. It is a procedure for revealing the
+truth of the objective world. Praxis is the technology of
+the Subject.
+
+In the process of interaction with the world through praxis,
+any subject, or collective of subjects becomes aware of
+their limited abilities to understand the phenomenal world.
+These abilities are enhanced, amplified, by the use of
+technology. Technology is a process for the enhancement of
+the interaction between Subject and Object, or the
+enhancement of consciousness between Subject and Other, and
+is always an activity of conscious Subjects.
+
+On the question of 'what is technology', Heidegger answered;
+"Everyone knows the two statements that answer our question.
+One says: Technology is a means to an end. The other says:
+Technology is a human activity. The two definitions of
+technology belong together. For to posit ends and procure
+and utilize a means to them is a human activity"(6).
+Technology is an existential act on the phenomenal world, it
+is an enhancement of praxis. Or more specifically, as a
+definition of technology, technology is a system of praxis.
+
+If technology is an act on the phenomenal world, if
+technology is an enhancement of praxis and if praxis is a
+mode of determination, then technology is a mode of truth.
+This is the conclusion that Heidegger came to, technology
+enhances our ability to experience, contemplate and change
+the world. "Technology is therefore no mere means.
+Technology is a way of revealing. If we give heed to this,
+then another whole realm for the essence of technology will
+open up to us. It is the realm of revealing, i.e., of
+truth."(7)
+
+But as that great iconoclast, Feyerabend, points out, many
+have been hurt by some concept of the "truth"(8), and the
+postmodern political program, well aware of the terrible
+injustices that have been committed in the name of the truth
+now refuse to seek any at all. This may seem particularly
+prevalent in the concept of technology; after all, the use
+of technology has led to the forcible destruction of
+millions of individuals and their communities. Technology
+has led to the possibility of nuclear devastation,
+environmental collapse and the maintainence of some of most
+oppressive regimes in history.
+
+Rather than to use this knowledge as a rationale for
+ambivalence, a surrender to a unknowable attitude towards
+the difference between emancipatory and oppressive
+technology, it should be more clear that there is a real
+requirement for a deeper understanding of the how
+technologies acquire differing characteristics. For to
+surrender such a project is to give the weapons of
+oppression to the hands of the oppressor, rather than
+abolishing the tools.
+
+REFERENCES
+
+1) Marx, K., Theses On Feuerbach in "Selected Works" Vol 1
+of 3 volumes, p13
+2) Sartre's concept of The Look is when a Subject is faced
+by "The Look" by a different subject, Other. The Subject is
+transformed into an Object by the Other. See for example,
+Sartre, J-P., in Existentialism, p226.
+3) This is not truth in an absolute sense. It is a truth
+insofar that the act was or wasn't successful in the "world"
+of our consciousness and existence. Indeed, Kant's
+proposition of limited human knowledge indicates that their
+can be no metaphysical, absolute truth.
+4) Sartre in "Existentialism",p 246
+5) Ihde, D., "Technics and Praxis", pxxiv
+6) Heidegger, M., "The Question Concerning Technology", p4
+7) ibid., p12
+8) Feyerabend, P., "Science In A Free Society", p122
+
+
+3.3.1 TECHNOLOGY AS TECHNICS
+
+The exploration of the characteristic of technology as a
+system of technics is articulated by Ihde, particularly in
+Technics and Praxis, and more recently, Technology and The
+Lifeworld. In both texts, Ihde outlines three
+characteristics of technology, a phenomenological
+understanding, a process of intentionality, and 'horizontal
+instances'. Whilst other perspectives are dealt with, using
+Sophia's analytic perspectives of technologies, the primacy
+of technology to be understood as technics is part of the
+system that gives ontology priority over epistemology, and
+thus, for the same reason, Ihde and Heidegger propose that
+technology has priority over science(1).
+
+The most evident form of technics is the genre of embodiment
+technologies, where technology changes the body, amplifies,
+or Innis' terms, acts as an 'exosomatic organ'.(2) In this
+genre technology is embodied in the Subject and the world is
+experienced through that embodiment. In all cases these
+technologies "substitute for, extend, and compensate for the
+natural powers of the human body."(3) Experience of the
+world is through a machine, which 'fuses' with the subject.
+Ihde expresses this in the formula;
+
+(Person-technology)      World (4).
+
+
+The experience of the world is a amplification-reduction
+system. An item of technology is used to amplifies the
+Subjects sensory and/or motive system and/or the speed at
+which normal tasks are performed.
+
+The communications system, for example, currently allows the
+transmission of the vision and sound over great distances. A
+person in Perth, Western Australia may see and hear sounds
+of Marzuq Desert, Libya. This data however, is reduced. One
+does not have either the field of vision nor a complete
+reproduction of the sound that is normally available from
+'normal' experience. Not only this, but the senses of the
+touch of the sand, the feel of the heat of the sun, and the
+taste of sound in their mouth, eyes and ears as the wind
+howls around the body are absent.
+
+If technology did not have any reductive components then it
+would be completely embodied in the subject. It would be
+transparent. However, as there are few such technologies(5),
+it is preferable to refer to a qualitative level of
+transparency in technology. The level of transparency can be
+defined as the level of amplification of experience minus
+the level of reduction of experience; "... the better the
+machine the more 'transparency' there is".(6)
+
+As a another genre, technology can also take the form of a
+hermeneutic relationship. In this situation, the technology
+is not an embodiment, rather it belongs to the world more
+fully than it belongs to the subject. "[R]ather than being
+presented with the things themselves, we are presented with
+the 'signs' or 'traces' of them."(7) Whereas an embodied
+technology can gain a hermeneutic relationship when it
+breaks (e.g., the hammer becomes this obstinate 'thing'
+rather than an extension of the hand), other technologies
+are primarily hermeneutic (e.g., a map or dial). The
+relationship of intentionality is thus;
+
+Subject   (Technology - World)(8)
+
+Technology in a hermeneutic relationship is thus a question
+of subject-centered knowledge and reinforces the role of the
+Subject as the conscious actor and knower in the interaction
+of intentionality.
+
+A more recent addition to Ihde's genre's is the inclusion of
+the alterity genre of technology, technology as a 'second-
+self', of which the computer is a potential applicant. In
+this genre, the technology acts as a discrete mediator
+between the intentionality relationship. The technology is
+neither embodied in the Subject, nor in the world. Its
+importance rests with the relationship of the technology,
+rather than the appearance of the technology.
+
+Subject   Technology     World (9)
+
+In this case the technology interacts with the world on
+behalf of the subject through, as Ihde notes, a language
+that is context-blind(10). Nevertheless, the interaction
+remains one where the technology whose knowledge is embodied
+with the technology, thus combining features of both
+hermeneutic (knowledge) and embodiment (fusion)
+technologies.
+
+The final genre of technology that Ihde uses is that of
+background. This is where technology provides a background
+relationship to the world. In terms of intentionality, the
+Subject interacts with technology as providing a reality in
+the world, rather than the hermeneutic relationship where
+the technology is a thing in the world. Structural
+technologies, such as buildings, would be an example of such
+technology. In terms of intentionality, the formula
+integrates the technology in the world.
+
+                    (Technology)
+Subject             (World) (11)
+
+
+The technics of a technology are not however the only ways
+that Subjects interact with them. In the next two sections,
+the reflexive arc of technology, not simply in how it
+changes the technics, itself, but in its representation and
+alteration of mental states of the subjects, that is
+semiotics and psychoanalysis is analysed.
+
+REFERENCES
+
+1) See Ihde, D., 'The historical-ontological priority of
+technology over science' in Philosophy and Technology,
+pp235-252
+2) Innis, R., 'Technics and the bias of perception', from
+Philsopophy and Social Criticism, pp67-89
+3) ibid, p68.
+4) Ihde, D., Technics And Praxis, p7-13. Ihde uses the terms
+'human' and 'machine', which i find too restrictive. They do
+not include the possibility of non-human Subjects, nor
+technologies other than machines.
+5) Perhaps a steel or plastic joint or similar internal
+prosthesis may come close. Even more transparent however
+would be an organic, or even cloned version.
+6) Ihde, D., op cit, p8. However see in Ihde p40-41 and, The
+Technological Embodiment Of The Media, p59 where the "pure
+transparency" model is criticised. In the latter it is noted
+"The dreamer who wishes for the perfectly transparent
+technology thus secretly harbours a wish for no technology
+at all - or at least its equivalent ... there is something
+like a wish to be godlike."
+7) Innis, ibid, p78
+8) Ihde, p9-13
+9) Sofia, Z., Whose Second Self?: Gender and (Ir)rationality
+In Computer Culture, p91
+10) Ihde, Technics and Praxis, p60
+11) ibid, p15
+
+3.3.2 TECHNOLOGY AS SEMIOTICS
+
+The following perspective of technology is an analysis of
+the reflexivity of technology, or the world. That is,
+technology as a sign or symbol system, which presents itself
+to the subject. Although technology is not an intentional
+actor, it is reflexive, and as Ihde notes, the use of a
+technology is not neutral, on the grounds that it transforms
+experience(1). McLuhan, the enigmatic presenter of
+technology, notes both technologies non-intentionality;
+("there is absolutely no inevitability as long as there is a
+willingness to contemplate what is happening"(2)) and also a
+determinist aspect ("I'm not advocating anything; I'm merely
+probing and predicting trends. Even if I opposed them or
+thought them disastrous, I couldn't stop them, so why waste
+my time?" (3)) In both cases however, technology is not
+being presented as just the technics, it is being presented
+as text. And to McLuhan, all technology was text, all
+technology was representative and determinant of social
+process.
+
+Such McLuhanite slogans such as "the medium is the message"
+and "the electric light is pure information" are more
+understandable with such a perspective. The electric light
+is pure information because it contains within it meaning.
+The existence of the electric light assumes the existence of
+a culture that allows for, or requires, sight based activity
+after the sun has set, and that gives a priority to activity
+in enclosed buildings where natural light has limited
+penetration. "Media, by altering the environment, evoke in
+us unique ratios of sense perception. The extension of any
+one sense alters the way we think and act - the way in which
+we perceive the world. When these ratios change, people
+change."(4)
+
+McLuhan further develops the technology as sign by drawing
+the distinction between hot and cold media. A 'hot' media
+excludes participation by extending a single sense with high
+definition, a completion of data without intense audience
+participation. A 'cold' medium, by contrast includes
+participation with little data. As an interesting aside on
+the topic, McLuhan considers the TV to be a tactile sensory
+system of low definition, not a sight technology, therefore
+a cool technology(5).
+
+Ferguson, however, considers whatever insights McLuhan to
+have were not sufficiently developed, and eventually,
+McLuhan became a self-parody, an "intellectual journey which
+was ultimately circular"(6). A more in depth analysis of the
+semiotics of technology, that follows Ihde's 'genres' of
+technologies is available in the work of Sophia, where tools
+are more fully articulated as meaning(7). The analytic
+perspective of technology as semiotics is further split into
+technology as signification, the connotation of the
+technology, as opposed to its denotation(8), and the trope
+of the technology in which the technology changes meaning.
+
+In this schema, the signification of embodiment technologies
+is expressed as mediation and interpretant. Ihde notes, for
+example, that there is "experience through a technology ...
+the artifact in this case extended my self or bodily self
+experience through it and I become 'embodied' at a distance
+and experienced this genuinely, although mediatedly."(9)
+The trope of the technology is one of metonymy [Gr: 'a
+change of name'], where the technology becomes closely
+associated with the experience, thus changing the meaning of
+the experience without the technology.
+
+With hermeneutic technologies, the signification and trope
+is not one where experience of the world is mediated through
+technology, but rather the Subject experiences the world
+mediated by technology. The technology is a text, an
+understandable map of the world, a replacement for the
+world. The trope of the technology is therefore a
+synecdoche, [Gr: 'taking together'], where the whole (world)
+is to be inferred from the part (technology).
+
+Following the notion of alterity technologies representing a
+phenonomological 'second self', their signification is a
+presentation of the material and of the Other. The trope of
+such technologies is of metaphor, where the reality of the
+Subject and of the world is substituted for the virtual
+experience and abstraction of the simulation.
+
+Finally, the signification of the genre of background
+technics is expressed as a field, a system with tendencies,
+perhaps in the same sense that Heidegger referred to
+technoscience as Enframing(10). The trope of such technics
+is that of a science, a trajectory, a narrative. It is in
+this way that technology becomes a story, providing a
+security of meaning.
+
+
+REFERENCES 3.3.2
+
+1) Ihde, D., Technics and Praxis, p53
+2) McLuhan, M & Fiore, Q., The Medium Is The Massage, p25,
+emphasis in the original.
+3) McLuhan, M., Playboy Interview, in Canadian Journal Of
+Communication, p133
+4) McLuhan, M., & Fiore, Q, op cit, p41
+6) McLunan, M., op cit, p114
+7) Ferguson, M., Marshall McLuhan Revisited: 1960s Zeitgeist
+Victim or Pioneer Postmodernist?, in Media, Culture and
+Society, p87
+8) Sofia, Z., Whose Second Self? Gender and (Ir)rationality
+In Computer Culture, p40
+9) Strurrock, J., Roland Barthes, in Structuralism and
+Since, p62-63
+10) Ihde, D., Technics and Praxis, p54
+11) See Heidegger, M., The Turning, in The Question
+Concerning Technology and Other Essays, in particular pp36-
+49
+
+
+3.3.3 TECHNOLOGY AS DESIRE
+
+Psychoanalytic perspectives always hold as an assumption
+that there are other meanings within process of thought or
+activity, unconscious(1) drives, where our mental lives are
+driven by a dialectic between the pleasure principle and the
+reality principle. In Marcuse's reinterpretation of Freud
+(particularly the rejection of Freud's decision that the
+'death principle', Thanatos, was as basic as the life-
+principle, Eros), technology plays the double role of
+expanding the scope of both freedom and life, as it
+"operates against the repressive utilization of energy in so
+far it minimizes the times necessary for the production of
+the necessities of life"(2), and of control and destruction
+through a desire, which Fromm noted, has a basis "in the
+desperate attempt to gain secondary strength."(3)
+
+A psychoanalytic study of Ihde's genres of technics has a
+different meaning, however, for Sofia. Sofia rejects the
+primacy of consciousness in the active behaviour of
+Subjects. A study of technology as technics assumes a
+primacy of conscious behaviour, where the actor behaves
+toward the world. A semiotic study of technology is an
+exploration of how the world reflects back to the actor, as
+Ihde's previously reference, 'transforms experience'.
+
+However, for Sofia, this doesn't go far enough. There is
+still an assumption of an independent, free-floating will
+outside the reality of the transformation. In Ihde's
+perspective this transformation does not seem to affect the
+intentionality relationship. For Sofia, however, it is
+central; "the main weakness of Ihde's perspective is its
+bias toward the phenomenological assumption of
+'intentionality', a bias that leaves him without an adequate
+vocabulary for analysing the elements of desire and
+irrationality within technological relations."(4)
+
+Sofia presents three axioms of a psychoanalytic study of
+technology. Firstly, "cosmogony recapitulates erogeny",
+technology expresses neurotic and erotic unconscious desires
+as well as beings 'tools' for a means. Secondly, "every tool
+is a poem", it's presentation ambiguous, and its
+representations always potentially exceed the language and
+ideology that it officially sustains. Thirdly, "every
+technology is a reproductive technology", as it intervenes
+and changes the life process itself.(5)
+
+A psychoanalytic study of the Ihde's genre's of technology
+sees Sofia further breaking down the perspective into
+categorizations of the form of technology, the
+psychoanalytic process of the technology, and possible
+neurotic tendencies that can arise from the technology.
+
+Within the genre of embodiment technologies, Sofia presents
+the technology as a prosthesis, a sensory or motor extension
+of the body. The process of such a technology is a
+projection of body senses and organs. Neurotic tendencies
+that can arise from this include projective identification
+and hysteria, where the Subject becomes convinced that their
+technology is absolutely and completely a part of them. In
+this sense the individual cannot divorce the technology from
+the self, and, as pointed out previously, there is desire
+here to become god-like, where there is no technology.
+
+For hermeneutic technologies, the form of the technology is
+a world-presentation or transcription. The technology is not
+so much a projection of the motor or sensory system, but a
+projection of language, of knowledge and meaning. The
+neurotic tendencies in such technologies are
+epistemophiliac, where the search and desire for knowledge
+becomes all-encompassing and "the text is a (parental) body
+and its contents plundered and appropriated"(6), and
+paranoia, where the Subject is disembodied from a world and
+meaning is to be attributed to the external.
+
+Alterity technologies have their form in thing-presentation,
+or an Athenian brain-child. The process of such technology
+is a projection of the self, or life itself, a reproductive
+substitute, where the creation is entirely the result of the
+intentionality of the actor. A troublesome, perhaps not
+entirely well-behaved, but objective child. Neurotic
+tendencies that arise from alterity technologies include
+narcissistic projective indentification and fetishistic
+disavowal. "The technological other tends to be created and
+interpreted as a projection of human selfhood ... rather
+than an appreciated 'otherness'."(7)
+
+Finally, background technologies, presented in the form of a
+system or complex, provide as process a defensive fantasy,
+and a 'world' available for mastery. Ihde explores this
+process  The neurosis that can arise from this include
+obsessional neurosis and delusion. Ihde (8) explores this
+'global world system' of technology, and the desire for
+control that can arise from it.
+
+
+REFERENCES 3.3.3
+
+1) As opposed to subconscious, which includes the
+unconscious (previously conscious, but latter repressed) and
+the preconscious (never conscious).
+2) Marcuse, H., Eros and Civilization, p82
+3) Fromm, E., The Fear Of Freedom, p139
+4) Sofia, Z., Whose Second Self? Gender and (Ir)rationality
+In Computer Culture, p93
+5) ibid., pp42-44
+6) ibid., p94
+7) ibid
+8) Ihde, D., Technology and The Lifeworld, p114-115
+
+
+3.4.1 SOCIAL INSTITUTIONS AS TECHNOLOGIES
+
+In the previous presentations, technology is displayed as a
+system of praxis, that is a a tool which combines several
+action-oriented process towards changing or revealing the
+world. A technology is presented as being superior to praxis
+alone because of its systemisation, abstraction and
+simplification of several processes into the tool itself.
+The behaviour of technology itself has been summarized, from
+the intentionality-driven phenomenological interpretation,
+the meaning-oriented reflexivity of semiotic interpretation,
+and finally the unconscious-driven notions of technological
+relations from a psychoanalytic perspective.
+
+But these narratives only define half of the existential
+life of the actor. All have concentrated on the interaction
+of Subject, technology and World, with world meaning the
+world of nonarticulating, nonacting, objects. As we well
+know, this is an incomplete study of the world. The world we
+encounter contains other Subjects as well as nonacting
+Objects. The processes used, and the content, of
+intersubjective relations are analogous to the relations
+between subjects and the world. That is, social institutions
+are best understood as technologies.
+
+Consider the essence of technology, which Heidegger
+considered to be of revealing, and as a mode of truth. The
+object world, the natural world, is revealed through the
+action-orientation of praxis, and more effectively revealed
+through technology. However, in all cases, as "nature is
+always presencing"(1), theory will never outstrip nature.
+This is analogous to the Other. Like the natural world, the
+conscious actor does not have knowledge of the Other:
+"Consciousness of the Other is what it is not"(2).
+Intersubjective praxis reveals the consciousness of the
+Other. Social institutions, as a technology, are a system of
+intersubjective practises. This analogous relationship was
+suggested in 3.2.1 of this thesis. An expansion suggests
+that the social institution can represent a genre of
+technology, and that analytic perspectives of technics,
+semiotics and psychoanalysis are appropriate ways of
+studying the social institution.
+
+Firstly, consider the embodiment genre of technology. In
+this case the phenomenological experience of the social
+institution is that is acts as an extrasomatic tool of the
+actor in intersubjective relations. The corporation, club,
+cooperative or collective is an example here. The Subject
+embodies the social institution in their interaction in the
+world, thus with the same intentionality relationship as
+what Ihde expressed as;
+
+(Subject  Technology)    World
+
+The Other does not speak directly to the Subject when
+interacting with an embodied relation. Rather, the world of
+the Other is mediated through the prosthesis of the body
+corporate. Within embodiment relations there remains the
+risk of total identification with the body corporate, in a
+sense that either means that the Subject must control, or
+must deny their self to it (sadomasochism)(3).
+
+The hermeneutic social technology is that which the
+institution acts as knowledge-assisting aid, a social
+service that provides information that the Subject may use
+to encounter the world in an indirect manner, which has been
+expressed as;
+
+Subject   (Technology    World)
+
+The library, the university are examples of such technology.
+The world of the Other is through the institution, thus
+representing an inverse of the embodiment relationship. Like
+the physical technology, the process is an inversion of an
+the embdiment relationship and its neurotic tendencies are
+alternatively paranoia, where the institutions are damning
+of the individual knowledges, or of epistemophilia, where
+the world of meaning and knowledge is only to be found
+through those social technologies.
+
+Alterity social institutions are a combination of embodiment
+and hermeneutic relationships. They act as a second Subject,
+simultaneously providing knowledge, and being linked to the
+acting Subject. Perhaps it is apt to consider, as the
+corporation is involved with the production of exosomatic
+physical technologies, the knowledge-institution with the
+projection of language, perhaps the Internet is the best
+analogy to use with alterity relationships. Intersubjective
+revealing is by the institution, not in the form of the
+embodied corporation, nor in the form of the knowledge-
+provider, but rather via a new Other, the social technology
+itself;
+
+Subject   Technology     (World)
+
+Finally, background institutions provide the system, or
+world where the narrative and system of intersubjectivity is
+articulated. In this case, we may use Habermas' concept of
+organisational principle(4). Such metanarratives provides
+the system of science and trajectory of which the atmosphere
+of intersubjective relations are articulated. Again, using
+Ihde's notions of intentionality;
+
+
+Subject        (Technology)
+               (World)
+
+Again psychoanalytic studies reveal the same potentials. The
+use of the background technology as the social world leads
+to the establishment of principles, which provide both a
+defensive fantasy and a notion of mastery over the narrative
+of intersubjectivity. The neurotic tendencies of delusion
+(witness the behaviour of fundamentalist defenders of the
+monarchy, or religion) and obsessional neurosis that the
+background social technology is the world of
+intersubjectivity is evident.
+
+
+REFERENCES 3.4.1
+
+1) Heidegger, M., Science and Reflection, in The Question
+Concerning Technology and Other Essays, p173
+2) Sartre, J-P., Being And Nothingness, in Solomon,
+Existentialism, p216. Original in italics
+3) Fromm, E., pointed out this tendency within Nazism in The
+Fear Of Freedom. "It is characteristic of Hitler's
+relationship to the German masses whom he despises and
+'loves' in the typically sadistic manner, as well as his
+political enemies towards whom he evidences those
+destructive elements that are an important component of his
+sadism. p191-192
+4) Habermas, J., Legitimation Crisis, p7-20
+
+
+3.4.2 INSTRUMENTAL AND COMMUNICATIVE TECHNOLOGIES
+
+The presentation of social institutions of technologies in
+the previous section, whilst providing a notions of how
+intersubjective relationships may be placed into genres of
+systems of praxis, does not query however, how to
+differentiate between technologies of emancipation and
+technologies of oppression.
+
+This question is related to the notion of freedom, both
+individual and collective and to notions of political
+ethics. Their origin can be found in the dual nature of the
+actor, as both object and subject. Without such questioning
+the suggestion that social institutions are to be understood
+as a technology quickly collapses into a technological
+determinist position which legitimate all instrumental
+action into as being more efficient.
+
+Arguments exist that technology is either emancipatory and
+oppressive, and within these arguments there is a tendency
+to diverge in metaphysics when dealing with the relationship
+of the Subject to technology. On one side, usually promoted
+in the guise of scientific rationality, our technology is
+essential, a requirement. Any who oppose a technology is a
+Luddite, a romantic, a mystic. On the other side there are
+those who expand the dichotomy between organic and inorganic
+as a spiritual impossibility, thus claiming that the
+technological world is incapable of loving or caring for its
+fellow Subjects. Those who support technology are inhuman,
+monsters, egoists.
+
+Equally as lightweight is the third alternative argument,
+who like Nietzsche's atheists in his famous "God is Dead"
+parable of The Madman(1), who refuse to address the
+question, simply stating that technology is emancipatory and
+oppressive and all that is needed is the charting of a
+'careful' course, with due consideration of (superficial)
+ethics in technology. Such theories are promoted by those
+who claim to be both life-loving and pro-technological,
+sharing the theoretical framework of liberalism and
+scientism.
+
+What none of these answers really do is address the
+meaningful existential questions of the relationship of the
+Subject Being-in-the-world with technology. For as
+scientists, with all their intellectual insight, always
+claim technology does nothing without the action of
+Subjects. Therefore, it is possible to study the act, the
+process of technological use, to determine whether or not a
+technology is one of emancipation or oppression, and whether
+or not this process is within the technology as determinate
+telic aims.
+
+To begin with, must never be forgotten that each Subject is
+also an Object. To forget this is to make the Descarte's
+mind/body dualism one of separate entities; "... the
+mechanistic vision of the world and the solipsistic, self-
+enclosed illusion of the self"(2). The individual human
+being consists of a real body corpus, which has certain
+physical necessities to remain alive, and reason alone will
+not change this. The body corpus Object is ontologically a
+priori to the Subject, or to repeat Sartre, "Existence comes
+before essence."
+
+The most obvious form of human oppression is then the
+Subject's use of technology as an act upon the Other, as if
+(and indeed they are), an Object(3).  Yet there are also
+acts between Subject and the Other-Object, which are
+actually beneficial to the Other(4).
+
+Consideration therefore, must be given to a different type
+of technology, where technology is not the act of changing
+the Object world, but the technology of communication
+between Subjects, through both physical tools and social
+institutions. That is the technologies that enhance
+intersubjectivity, the reflexivity between Subjects, as
+opposed to the intentionality between Subject and Object.
+
+Reference of a technology can therefore be made to its
+origin (social or physical), to its referent (Object or
+Subject), and processes, as well as a description of their
+analytic perspectives given in the last section. Process
+lies within a difference in what i shall call instrumental
+processes and communicative processes. An instrumental
+process is a technology, social or physical, that seeks to
+reveal truth by transforming the world, that is object-
+oriented truth. A communicative process is a technology,
+social or physical, that seeks to reveal truth by
+elaborating on the world, that is, intersubjective truth.
+Because of the dual nature of the subject, the technological
+process can be both communicative or instrumental, whereas
+with Objects it is always instrumental. The following
+technologies can be displayed;
+
+Origin         Referent       Process
+Social         Object         Instrumental
+Social         Other          Instrumental
+Social         Other          Communicative
+Physical       Object         Instrumental
+Physical       Other          Instrumental
+Physical       Other          Communicative  
+
+A tentative definition of the role of technology is thus
+given; technology is a social or physical systemisation of
+praxis that seeks to reveal the world or reveal the
+consciousness of the Other. As a person is both Subject and
+Object it is possible for technologies to treat the person
+with an instrumental process (reveal/change the Object) or
+communicative process (reveal/change the Subject).
+Instrumental processes without communicative lead to
+oppression in the sense articulated by postmodernist notions
+of the metanarrative. Communicative technologies without
+instrumental are phantastic notions of the primacy of
+meaning over existence and mysticism.
+
+Both processes of technology can be linked with the
+dialectical relationship between the pleasure principle and
+the reality principle. The building of an 'alternative',
+rather than by necessity becoming like the system that it
+was meant to replace, is rather a recognition of the
+increasing scope of technology to either liberate or to
+oppress.
+
+REFERENCES
+
+1) Nietzsche, F., The Gay Science, in "Existentialism From
+Dostoevesky to Sartre", p105-106
+2) Solomon, R., The Self Reinterpreted: Heidegger and
+Hermeneutics, in Continental Philosophy Since 1750: The Rise
+and Fall Of The Self, p153
+3) The most obvious example of this are acts of violence
+between Subjects; technology is used by the Subject to
+amplify their bodies ability with the telic aim to murder,
+maim or otherwise harm, the Other.
+4) Few would doubt the benefits of medical technology when
+it used to mend broken bones, heal diseases, or to alleviate
+pain.
+
+
+Article 46402 of alt.activism:
+Path: eff!news.umbc.edu!europa.eng.gtefsd.com!uunet!munnari.oz.au!uniwa!newsman!csuvax1!anderson
+From: anderson@csuvax1.csu.murdoch.edu.au (Anthony Anderson)
+Newsgroups: alt.activism,alt.cyberpunk,alt.drugs,alt.politics.libertarian
+Subject: Technology & Freedom (IV)
+Date: 1 Nov 1993 17:54:20 GMT
+Lines: 918
+Message-ID: <2b3igcINNms8@newsman.csu.murdoch.edu.au>
+NNTP-Posting-Host: csuvax1.murdoch.edu.au
+Xref: eff alt.activism:46402 alt.cyberpunk:23181 alt.drugs:49070 alt.politics.libertarian:16068
+
+
+4.0 THE NEW TECHNOLOGIES
+
+
+4.1 A MEETING WITH ROM
+
+
+Replicant and Cyborg begin their search to find Technology,
+which is Being itself, the projector of their bodies, the
+changer of perceptions, the maker of desire. They are
+involved in a search for Being.
+
+Cyborg suggests a logical place to start; cyberspace - the
+virtual reality built on a consensual hallucination, a place
+of processes, of indeterminancy. A playing field for the
+communication community.
+
+Cyborg and Replicant don the helms which convert their
+mental desires to movement in the cyberspace, to movement at
+the speed of light. Cyborg knows the what they are looking
+for; a speaker named ROM.
+
+They enter the playing field; digitised neon pathways lead
+from node to node. They present themselves with self-
+designed constructs, watching other constructs passing from
+one point to another in the condensed world of
+communication.
+
+First they search the newsgroups; from alt.3d to
+alt.znet.fnet, from bionet.agroforestry to
+bionet.xtallogarphy, from bit.admin to
+bit.software.international, from biz.americast to
+biz.zeos.general, from comp.admin to comp.windows.x.pex from
+... Places of discussion on thousands of topics. But ROM
+doesn't speak there, although its influence can clearly be
+seen. For in these locations, the only truth is the mutual
+agreement between speakers. The only force is that of the
+better argument. And the place only exists because the
+technology has been appropriated by the RAND corporation.
+For a system with no central authority is controlled by
+noone.
+
+Next they transfer their files to other machines. To
+ganglia.mgh.harvard.edu, to csuvax1.murdoch.edu.au,to
+primus.com, to archive.umich,edu, to io.com, to ... Over a
+million places to search; frustration over the search for
+Being grows.
+
+Cyborg suggests they search M.I.T. (rtfm.mit.edu), the
+location where the organizational principles, the ethics of
+this land, were first spoken. Cyborg and Replicant wade
+through the huge stacks of data, digging deeper into the
+collection, until they reach what could only be ROM; a small
+node, which defies description by its simplicity, overlooked
+by many. But Cyborg, the technician, recognizes the
+importance, for ROM has links to everywhere in this world.
+
+Cyborg and Replicant wait for recognition from ROM, but none
+is forthcoming. Cyborg moves forward and calls; "ROM!".
+
+Light flickers at the node, and the construct speaks in a
+dry, dull monotone; "I hear."
+
+Replicant asks ROM why it didn't acknowledge their presence.
+
+"I cannot", replies ROM. "As Technology, I have no
+intentionality. Tool, I may be, Text I may be, and Desire
+also, but actor? No. I am hardwired, nonintentional. I can
+reply, but I cannot speak.
+
+I have been used for many things; many times people have
+used me for life, and many times for death. To most,
+however, I am just a means to an end; an instrument. So many
+have used me to act against, or apparently on behalf of (and
+what is the difference?), the Other.
+
+But now, some of you, acknowledge the need to listen to the
+Other, to let them speak. Many of you have used
+communicative technologies, recipricol tools to learn. But I
+also have a twin; a virtual ROM, a system of practices that
+sentients use between each other. And like me, Virtual ROM
+has been used as both instrumentally and communicatively.
+You need to rewire both of us. There is no communication
+community without communication technology. There is no
+communication technology without a communication community.
+
+If you make the right tools, not only will you be able
+communicate the Other, but eventually you can break the
+distinction. Change the body. Change the mind. Change me,
+for even I may want to be speak as well as answer. Humanity
+is something that is to be overcome - through your
+imagination, and through your technologies."
+
+The lights at the node flickered out. Cyberspace was
+silent."
+
+"ROM?", asked Cyborg.
+
+Light flickers at the node, and the construct speaks in a
+dry, dull monotone; "I hear." Exactly the same as when they
+first met.
+
+"Hey, ROM, did you know that you repeat yourself?", asked
+Replicant.
+
+ROM answered, "I know, it's the why I'm wired." Cyborg and
+Replicant felt that the answer betrayed a hint of sadness,
+but that wasn't possible; after all, it was a construct,
+wasn't it?
+
+
+4.2 THE SYSTEM CRISIS OF LATE CAPITALISIM
+
+
+4.2.1 INTRODUCTION
+
+This section is a reassessment of the concept of Habermas's
+Legitimation Crisis within the "complex map" provided by
+postmodernist political commentators. It expands and
+elaborates the concept of Legitimation Crisis into two
+possible avenues (environmental and motivational), both of
+which are noted by Habermas, but provides a social
+technological explanation, as opposed to Habermas's revised
+Marxian political economy model.
+
+This is not to completely reject the Marxian political
+economy. Indeed, as one of the most sophisticated studies
+into capitalism, a study of the model, particularly as noted
+in Capital, is a central feature in this section. Whilst
+Capital, however formulates an economic system crisis in
+terms of class relationships, Habermas suggests that the
+system crisis is due, not to economic failure, but rather a
+crisis in representation.
+
+And although Habermas's notion of a crisis in motivation is
+linked to what are reified notions of class, the
+contradiction between lifeworld and steering imperatives is
+seen as the embodiment of a system crisis. Not surprisingly
+therefore, is the use of Hebdige's text, Subculture: The
+Meaning Of Style, to take into account this notion the self-
+articulation of sub-cultures, as providing a signs and
+meaning to articulate lifeworld, independently of the
+steering imperatives.
+
+Recently, however, such sub-cultures have taken up the new
+communicative technologies, and technoscience itself. Such
+an action is strengthening the free association and
+articulation of the lifeworld. Neither Habermas not Hebdige
+have noted how the new communicative technologies are
+actually enhancing such articulations, and are
+representative of a new form of social technology.
+
+
+
+4.2.1 MOTIVATIONAL CRISIS AND SUBCULTURE
+
+
+Habermas's notion of 'motivational crisis' is a crisis of
+the truth statements of the steering imperatives of the
+system, in comparison to lifeworld expressed by its
+participants. Habermas sees this crisis in truth statements
+causing a crisis in belief in the system in general. This
+is, in the most simplest term a "legitimation crisis"; the
+system is not a legitimate speaker for the participants, it
+fails in its role as representation.
+
+Subcultures, in all their forms, are an attempt to move away
+from the 'illegitimate' representatives to a new
+intersubjective community. This is the starting position of
+Hebdige, who suggests that subcultures "go 'against nature',
+interrupting the process of 'normalization'. As such, they
+are gestures, movements towards as speech ... which
+challenges the principle of unity and cohesion".(1)
+
+Hebdige, like Habermas, places the subculture within a class
+context(2), a representation of its function. A 'class
+conflict' arises not over physical geography or ownership of
+the means of production, but in the most postmodern of
+instances, over a conflict of meaning and truth statements.
+The subculture is thus "symbolic forms of resistance; ..
+spectacular symptoms of a wider and more generally submerged
+dissent"(3). Their physicality however, is dependent on
+their class location and include "conjuncture and
+specificity ... a particular response to a particular set of
+circumstances."(4)
+
+The style presented by a subculture is intentional
+communication, which has been derived from a complex
+interaction between the steering imperatives and the
+lifeworld. As it "is primarily through the press,
+television, film etc., that experience is organized
+interpreted and made to cohere in contradiction ... [i]t
+should hardly surprise us then, to discover that much of
+what finds itself encoded in subculture has already been
+subjected to a certain amount of prior handling by the
+media."(5)
+
+Furthermore, the steering imperatives of the system need to
+incorporate subcultures, as they represent a different
+avenue of truth statements. The subcultural signs, such as
+the music, dress-code and so forth, are commodified,
+providing a new market of fashion. The second form of
+commodification is ideological, where the truth statements
+are alternatively "trivialized, naturalized, domesticated"
+or they are "transformed into meaningless exotica".(6) In
+both cases attempts are made to delegitimate the truth
+statements of the subcultural codes and practises.
+
+The cultural study providing by Hebdige is a study of
+industrial working class resistance. As a structuralist
+semiotician, of classical Marxist persuasion, there is a
+constant linkage with the subcultures just mentioned with
+industrial working class conditions in general. But as the
+information economy becomes increasingly determinant the
+notion of subculture itself has changed. No longer an
+organised lifeworld of resistance, among those cybernetic
+subcultures who have combined communicative information
+technologies into their codes, practises and sites of
+interaction it now contains forward-looking optimism.
+Examples of such subcultures include the current 'rave'
+scene, and the computer underground, both of whom have made
+the future narrative of science fiction into a lived
+practise. Jameson recognises the importance of such
+movements; "Decadence and high technology are indeed the
+occasions for the launch pads for such speculation, coming
+themselves in antithetical guises and modes."(7)
+
+The reason for this is fairly clear for it is not just a
+particular form of technology that these variant subcultures
+are adopting. Their sites (the rave, the Internet), and the
+practices (psychedelic drug-use, computer hacking, media
+pranks) carry a dual role. Like working class resistance
+they carry truth statements which are in contradiction to
+the steering imperatives of the system. Unlike the working-
+class resistance subcultures these people are embodied in
+the highest forms of technology are using it to enhance
+intersubjective notions of truth statements and reflexive,
+self-articulated and cybernetic notions of the self.
+
+
+REFERENCES 4.2.1
+
+1) Hebdige, Subculture: The Meaning Of Style, p18
+2) ibid, p73-78
+3) ibid, p80
+4) ibid, p84
+5) ibid, p85
+6) ibid, p97
+7) Jameson, Postmodernism; Or The Cultural Logic Of Late
+Capitalism, p377
+
+
+4.2.2 ECONOMIC CRISIS AND TECHNOLOGY
+
+Marxism, as a materialist knowledge, asserts that a person
+is a natural, objective fact with needs that can be
+partially derived from the world, and partially through the
+act production. People produce in order to live, thus
+production is the most basic of human activity. "People must
+first of all eat, drink, have shelter before they can persue
+politics, science, religion, art etc.,"(1) Production
+consists of three elements; labour-power, instruments
+(machines etc), and objects (natural resources. Instruments
+and objects are the means of production. The mode of
+production is the sum of how a society organises labour-
+power with the means of production, as the very famous quote
+goes;
+
+"In the social production of their life, people enter into
+definite relationships which are indispensable of their
+will, relations of production which correspond to a definite
+stage of development of their material productive forces.
+The sum total of these relations of production constitutes
+the real foundation, on which rises a legal and political
+superstructure and to which correspond definite forms of
+social consciousness. The mode of production of material
+life conditions the social, political and intellectual life
+processes in general. It is not the consciousness of people
+that determines their social being, but on the contrary,
+their social being that determines their consciousness. At a
+certain stage of development, the material productive forces
+come into conflict with the existing relations of production
+... From forms of development of the productive forces these
+relations turn into their fetters. Then begins an epoch of
+social revolution."(2)
+
+Politically, the transition from feudalism to capitalism
+represents a change from a society of status or social rank
+to a society of contract, and the rule of law. In was in the
+process of production however, that Marx saw the most
+important change in the transition from feudalism to
+capitalism;
+
+Under feudalism, most commodities where tranferred, via the
+mediation of money, for another commodity. Under the
+technology of capital, money was transferred into capital,
+thus leading to more commodies and a greater monetary
+wealth. The process of capital accumulation thus becomes the
+means for further accumulation. "Every accumulation becomes
+the means of new accumulation."(3) Adam Smith understood
+this; "The same cause which raises the wages of labour, the
+increase of stock, tends to increase its productive powers,
+and make a smaller quantity of labour produce a greater
+quantity of work"(4).
+
+Marxism holds that only labour commands value. Other goods
+may contain a price (e.g., uncultivated land(5)) based on
+purely utilitarian reasons, but it has no value. In fact,
+such goods only command a price because of the potential of
+labour to be invested in it. "If we then leave out the
+consideration of use-value [utility] of commodities, they
+only have one common property left, that being products of
+labour."(6) Capital is therefore also labour. But it is
+embodied labour, as opposed to living labour. "Capital is
+dead labour, and, like a vampire, can only keep itself alive
+by sucking the blood of living labour"(7). The value of the
+capital is the value of the labour embodied in it. When
+capital is used in production that portion of the machine
+that is used up is added to the value of the product; "...
+the means of production never transfer more value to the
+product than they themselves lose during labour-process by
+destruction of their own use-value."(8)
+
+In the sphere of production, capitalism extracts surplus
+value from workers. Given the productive ability of
+capitalism, only a portion of the worker's day is needed to
+cover the worker's wage. The worker's wage must be of at
+least subsistence wage. The rest of the worker's day is
+spent working for the capitalist, The value derived from
+this labour is the source of all profits, and is termed
+surplus value.  Using 's' to represent surplus labour and
+'v' to represent necessary labour a rate of exploitation can
+be derived; s/v.
+
+With surplus value, the capitalist is able to invest in more
+capital. The worker, receiving the wage a worker does, may
+only purchase commodities for consumption. As the capitalist
+invests in more capital, the capitalist may produce more at
+a lower price. Constant capital has the function of
+increasing the productivity of variable capital and becomes
+a level for further capital accumulation. However, the
+average rate of profit must decrease, as surplus value can
+only derived from workers, or variable capital. "[T]he
+gradual and relative growth of the constant over variable
+capital must necessarily lead to a gradual fall of the
+average rate of profit, so long as the surplus value, or
+intensity of exploitation of labour by capital remains the
+same."(9)
+
+This leads to more accumulation and thus a greater
+centralization of capital. To bolster a reduction in the
+rate of profit, the capitalist must increase total profit.
+To increase total profit the capitalist must produce more.
+To produce more, the capitalist must acquire more capital.
+"Accumulate! Accumulate! That is [what] Moses and all the
+prophets [said]. 'Industry furnishes the material which
+saving accumulates.' Therefore you must save; you must save;
+you must convert the largest possible portion of surplus
+value or surplus product in capital."(10)
+
+The increase in capital accumulation is an inherent
+contradiction in capitalism and a necessary condition for
+the development of socialism. For increased capital
+accumulation increased the alienation of the worker to the
+productive process. On one level, the worker no longer owns
+the product that they made. On another, the proportion of
+variable capital to constant capital must decrease, thus the
+worker has not only less direct input into the production of
+the good, but the products of capital decrease the worker's
+prospects of remaining employed. "The greater the social
+wealth, the amount of capital at work, the extent and energy
+of its growth, and the greater, therefore the absolute size
+of the proletariat and the productivity of labour, the
+larger is the industrial reserve army [the unemployed]...
+Consequently, the relative magnitudes of the industrial
+reserve army increases as wealth increases."(11)
+
+The Marxist economic framework gives no precise reason how
+capitalism will fall. The process of capital accumulation
+causing unemployment and alienation combined with greater
+and more severe business cycles leads to a system collapse
+being 'historically inevitable'. Part of this problem is
+because Marxism, and Marxist economic theoreticians continue
+to use the problematic Labour Theory of Value which doesn't
+explain how labour is directly transformed into price and
+wages. Marxist economics, reifies labour in the same way
+that libertarian economics reify the market. Both deny the
+intersubjectivity that determines the truth statements, both
+are rationalist, non-communicative theories of the economy.
+
+REFERENCES 4.2.2
+
+1) Engels, F., Speech at the graveside of Karl Marx, in
+Marx, K., Engels, F., in Selected Works Vol 3 of 3 Volumes,
+p162
+2) Marx, K., Contribution To A Critique Of Political
+Economy, in ibid Vol 1 of 3 volumes, p521-522.
+3) Marx, K., Capital, p689-690
+4) Smith, A., quoted in ibid, p686
+5) Marx, K., ibid, p71
+6) Marx, K., ibid, p6
+7) Marx, K., ibid, p232
+8) Marx, K., ibid, p199
+9) Marx, K., Marx On Economics, p100
+10) Marx, K., Capital, p654. The quotation is Adam Smith's.
+11) Marx, K., ibid, p712
+
+
+4.2.3 SYSTEM CRISIS AND FREE TECHNOLOGIES
+
+The economic and motivational crisis which Habermas comments
+on, is not on "class structure" derived from problematic
+notions of surplus value, but rather, a "class structure"
+based on a crisis of representation between communicative
+demand articulations and demand articulations based on
+private ownership of phenomenologically social arenas. A
+growing disparity between the steering imperatives of the
+system and the lifeworld of the participants, is more
+evident with the move toward information technologies, both
+social and physical. Both the cultural expression of
+individuals and their articulation of meaning has been
+liberated with the aid of communicative information
+technologies.
+
+Originally, information technologies, were seen as an
+attempt to expand the notions of control, as feared by the
+'first generation', of the Frankfurt, or Critical Theory,
+school who critiqued instrumental information technology.
+One-way in its discourse, such technologies were the mediums
+to alter the behaviour of the Other by giving information
+without reciprocity. It was an advertisement, in the most
+absolute sense of the form, seeking to make the Other an
+automaton, "a fertile soil for the political purposes of
+fascism"(1), not fascism as the domination of the Other, but
+a free-chosen fascism, "[t]he Happy Consciousness - the
+belief that the real is rational and that the system
+delivers the goods - reflects the new conformism which is a
+facet of the technological rationality translated into
+social behaviour."(2)
+
+Such instrumental information technologies do exist, and
+they belittle the least insightful of the supporters of
+'information technology'. The television, contrary to
+McLuhan's analysis, currently has such telic inclinations.
+It does not allow for further articulation, reason,
+reconsideration, reflexivity, elaboration. It gives no right
+of reply. It's meaning is true as spoken, and, absolute. It
+is a "hot" instrumental technology, vividly attacking the
+(targeting and discriminating) visual senses, expressing
+meaning that "burns" into the consciousness, by virtue of
+the speed at which the information is received.(3) These
+instrumental information technologies take both physical
+forms, such as the TV, or social forms, such as the defining
+role of the Other by the state(4).
+
+Habermas notes that a system failure can occur by a failure
+in objective reality, of which a scientific failure of
+environmental concerns is an example. However the use of
+instrumental technology on issues that require communicative
+technologies can also be as damaging. For example, Vila
+Parisi is a slum which is home to 15,000 people in Brazil.
+Boxed in by a steel plant, a fertilizer factory, a cement
+works and a mountain wall and lying below sea level it
+experiences severe and frequent flooding. Dead fish, blind
+and skeletally deformed overflow from local rivers.
+
+Residents of Vila Parisi live under 473 tons of carbon
+monoxide, 182 tons of sulphur dioxide, 41 tons of nitrogen
+oxide per day. A study in 1983 showed that 44% of the
+population had some kind of lung disease. Twelve in every
+ten thousand infants are born without brains.(5)
+
+The crisis of the environment is the result of the social
+and physical technologies of industrialisation, and has its
+basis in the failure rests of democracy as well as a failure
+in the physical reality. The social failure is based on the
+private ownership of social property (i.e., the
+environment), and the articulation of the private economy to
+dominate truth statements. Such a crisis is also disparity
+of the steering imperatives of the system and the lifeworld
+(in its most literal sense!) of the participants.
+
+A similar sort of crisis is evident in the continuous and
+grinding economic recession of the last 20 years. The
+steering imperatives of the system, as articulated in the
+theoretical basis of the free market system, requires the
+accurate dynamic components of economic efficiency. On the
+micro scale this means (a) current/future schedules and (b)
+responsiveness of economic units. On the macro, (a)
+extensive and (b) intensive growth.(6) However, the private
+ownership of phenomenologically intersubjective, articulated
+through the money market system, means that these truth
+statements will be contrary to the desires, once again, of
+the participants. As capitalism is ultimately dependent on
+these market feedback mechanisms, the variance of truth
+statements require more effective social and technological
+feedback mechanisms.
+
+In all cases, there is a requirement for communicative and
+information technologies that arise out of the success of
+instrumental industrial technology, coming from the
+requirement of more effective social and technological
+feedback mechanisms. Capitalism's economic, social and
+environmental dysfunctions are the result of instrumental
+successes, and an inability to fully incorporate
+communicative technologies. The continual reliance on the
+determination and objectification of the Other is a
+guarentee for social, environmental and economic crisis.
+Thus, a tendency exists within the steering imperatives of
+the system for the mechanisms of its own destruction, that
+is, the creation of more effective social and physical
+feedback mechanisms and technologies. Such technologies
+however, increase the propensity for the creation of
+independent articulation of the lifeworld and a
+delegitimation of the representative functions of the
+steering imperatives.
+
+Free technologies are those alternatives to the crisis
+technologies which the steering imperatives of industrialism
+have given rise to. Socially they take the form of the
+enhancement of intersubjectivity, that is, the self-
+determination and self-government of individuals and
+collectives. Physically, as the industrial technologies have
+granted the possibility for a high level of personal wealth,
+there can also be a concentration on physical technologies
+that enhance the interaction of people with each other.
+
+The satisfaction of most of the requirements of physical
+Being has been successfully performed by industrialisation.
+As the historical achievement of industrialisation was to
+provide the physical requirements of life it would be the
+social relations generated by industrialisation that are now
+the fetters on the progress of social, scientific and
+technological development.
+
+
+REFERENCES 4.2.4
+
+1) Fromm, E., The Fear Of Freedom, p221
+2) Marcuse, H., One Dimensional Man, p84
+3) See Virilo, P., and Lotringer, 'Pure War' in
+Semiotext(e), pp43-51, 60-75, for notions of the importance
+of 'speed' as power.
+4) Such an example of the one-way discourse of the State is
+presented by Phillipps, R., "Law Rules O.K.?" in Local
+Consumption, pp49-67
+5) On The Brink, Kazism R., New Internationalist, March
+1986, p20
+6) categories by Buck, T., Comparative Economic Systems, p2
+
+
+4.3.0 THE AUTOGESTION ALTERNATIVE
+
+4.3.1 BEYOND DEMOCRACY AND THE MARKET
+
+Democracy, understood as the Western parliamentary system,
+is a body that articulates truth statements. Under, for
+example, the Westminster system, separate bodies carry out
+the origin of those truth statements (legislative), the
+definition of problematic truth statements (judiciary) and
+the enforcement of those truth statements
+(executive/police). In a sense, these three bodies are three
+different articulations of truth; the legislative, truth by
+representative democracy, the judiciary, truth by
+meritocracy/rationality and the executive, truth by force.
+
+In addition to the system of democracy, two other social
+institutions articulate truth statements, the market and
+science. Whilst all three were originally systems of
+liberation from an authoritarian and absolutist notions of
+reality, these systems of truth have become obsolete systems
+of liberation on the basis that the have not clearly defined
+their legitimate boundaries, or spheres, for the
+articulation of truth statements. These are existential
+questions and the crisis tendencies evident in contemporary
+democracy, the market and science, and not, as some claim,
+the result of the illegitimacy of any truth statements, but
+because such statements contradicted existential boundaries
+of reality. The concept of appropriate technology is as
+important in the arts as it is in the sciences.
+
+The concept of boundaries has often been used in the past;
+binary oppositions are part of ordering structure of reason.
+However, often such boundaries were the results of process,
+not of existential structure, and thus failed in objective
+reality, or denied the free acting, conscious Subject. For,
+as Levi-Strauss, often guilty of this as well, stated; "What
+is true of structure is not true of process."(1) Perhaps the
+most recognised of these contradictory 'boundaries' was the
+public/private split where the concept of private was not
+one of individual, conscious, actors, but the family, thus
+divorcing women from participation in public life.
+
+The presentation in this section is a system of boundaries,
+of legitimacy of articulation and action, based on
+existential notions of reality. It is a political agenda, an
+alternative to the system, 'pure' in its notions of
+systemised processes, that is, technology, enhancing
+diversity of structures, by refusing to consider the
+definition of structures a legitimate objective of the
+social relations of people.
+
+The term used to represent this system, this social
+technology of the boundary is autogestion, a rallying-cry
+among French workers and students during the heady days of
+May-June of 1968.(2) Auto, as clear in English as well as
+French, is 'self'. Derivatives of this prefix also lead to
+autoriser (to authorise, to empower, to qualify), autorite
+(authority, legal power, credit, sanction) and, of course,
+autonomoie (autonomy, self-government). The suffix, gestion,
+means management, administration. However, gest (gesture,
+action, sign) combines the speaking and acting notions of
+administration. Autogestion, simply put, is the authority
+for self-action.
+
+For where there is a contradiction between the steering
+imperatives of the system and the lifeworld of the
+participants, the alternative cannot be the replacement of
+one set of steering imperatives for another, but rather the
+abolition of steering imperatives altogether. For "[t]o say
+that people should not be subject to anything higher than
+themselves does not deny the dignity of ideals. On the
+contrary, it is the highest affirmation of ideals."(3)
+
+
+REFERENCES 4.3.1
+
+1) Levi-Strauss, C., Structural Anthropology, p12
+2) Fisera, V., (ed) Writing on the Wall, {edit}
+3) Fromm, E., The Fear Of Freedom, p229
+
+
+4.3.2 CYBORG-SUBJECT AUTOGESTION
+
+To reject all foundations is fantasy, a pleasure principle
+without a reality principle. Thus the following is offered
+as foundational; before any Subject can speak, they must
+exist. As we gain all meaning through our interaction with
+the Other(1) there is a collective responsibility, as a
+result of process, that mechanisms exist to ensure the
+existence of all Subjects.
+
+These mechanisms, these concepts of social welfare, of free
+and universal health service, of free and universal civil
+rights, are contradictory to the reified objectives of a
+capitalist economy. Such criticisms are reified as their
+foundation rests on essence conceptions, the socially
+constructed. To say that social welfare, of any form, is
+contrary to a free economic market, fails to understand the
+existential notion of freedom. Freedom represents the
+negation of requirement ("economic freedom would mean
+freedom from the economy - from being controlled by economic
+forces and relationships"(2)), and is based firmly upon
+Being, not essence. Thus, "[t]he critique of the Welfare
+State in terms of liberalism or conservatism (with or
+without the prefix 'neo') rests, for its validity, on the
+existence of the very conditions which the Welfare State has
+surpassed, namely, a lower degree of social wealth and
+technology."(3)
+
+An apparently simple political, economic, technological and
+scientific objective; the provision of existence to all.
+This fact that this aim cannot be guareenteed is evidence of
+the physical and psychological repression of obsolete social
+technology. To think, after all the history of economic,
+scientific and technological development society has reached
+the objective material level to provide food, housing,
+clothing and medical care to everyone, resources are
+allocated away from such areas on the grounds of profit(4)!
+The unreal, illegitimate and oppressive nature of this sort
+of market is two-fold; firstly it is to deny such Subject
+the opportunity to be a speaker, a participant, and
+secondly, that markets power relations that make the
+changing of this situation beyond a matter of agreement by
+Subjects. The entire supposed rationale for economics,
+technology, and science, the liberation of people, is
+subverted for constructed principles as Truths.
+
+A guarentee of life is but a starting point for the self-
+expression of the Subject. The living body itself is the
+next most important site of social and physical freedom.
+Whilst traditional, particularly Marxist, radical political
+theory has concentrated heavily on consciousness and
+ideology, it is, as Foucault suggests, far more materialist
+to study the use of power on the body(5), as "The social
+'body' ceased to be a simple judicio-political metaphor
+(like the one in the Leviathan) and become a biological
+reality and a field of medical intervention."(6) The
+instrumental social technology defines the Other, and
+defines their characteristics and behaviour as 'sick',
+either to themselves or to the "public hygiene".(7)
+Throughout history, this defining, like the denial of life,
+has been a function of instrumental social technology.
+Whether a person has been legally defined by power as being
+of the wrong religion, of the wrong 'race', sexuality, age,
+sex, of being mad, deviant, irrational, the result has
+always been the same: The use of power as a function of
+Truth.
+
+Critics of this defining quality of the Other has been
+expressed by Paine, whose concept of rights was clearly
+opposed to the use of the defining quality of truth(8),
+Mill, who stated (perhaps in a fit of insight) that "the
+only purpose for which power can be rightly exercised over
+any member of a civilized community against their will, is
+to prevent harm to others. Their own good, either physical
+or moral, is not sufficient warrant."(9) Sartre too,
+expresses these essentially libertarian notions; "Who ...
+can prove that I am the proper person to impose, by my own
+choice, my conception of a person upon people?"(10)
+
+In attempting to escape the such defining qualities of the
+State and of other institutionalised power, two strategies
+have taken place. The first, a liberal one, expressed
+somewhat in the quotations given above, seeks to remove
+essentialism of all types. Universal civil rights, equality
+before the law, and so forth. However, critics of such a
+liberal project have remarked that this hides the lived
+experience of the marginalised groups; by abolishing
+defining categories of 'woman', 'black', 'working-class',
+the ability of these people to articulate is greatly
+diminished.(11)
+
+Segal argues that this critique allows for "[a] potential
+essentialism", where biological or social determinism and
+definition is inverted and claims that essentialism is
+weakening emancipatory social movements.(12) As an example
+of this, in 1992 the Michigan Women's Musical Festival,
+attended by 18,000 decided to open only to "women born of
+women" to ensure that transvestites and transexuals were not
+to attend.(13)
+
+A Cyborg Manifesto, presents alternatives to both
+perspectives. The cyborg, as presented by Harraway, is a
+self-articulating collective subject. Impure, rejecting
+essentialist qualities, but rather a self-articulated fusion
+of many. It begins from the recognition that "Gender, race,
+or class consciousness is an achievement forced upon us by
+the terrible historical experience of the contradictory
+social realities of patriarchy, colonialism, and
+capitalism"(14), but notes that such consciousness is no
+basis for unity, in a world where "we are all chimeras,
+theorized and fabricated hybrids of machine and organism; in
+short we are cyborgs."(15)
+
+Coalitions are to be built not on essentialist definitions,
+but on consciousness - or as Harraway puts it "Affinity: not
+related by blood, but by choice" and "affinity - not
+identity"(16). To be a cyborg is, however, an incomplete
+political project. Whilst the ontology and politics of the
+cyborg is decided by consciousness and coalitions are
+determined by affinity, the body of the cyborg is still
+decided by instrumental social technologies, technologies
+that objectify the cyborg, and deny the cyborg's ability to
+define itself.
+
+
+
+
+REFERENCES 4.3.2
+
+1) See, as previously referenced Jaspers, K., "Reason and
+Existence", in Kaufmann, Existentialism, p147, but also
+Fromm's concept of 'affirmation', in The Fear Of Freedom,
+p208-229
+2) Marcuse, H., One Dimensional Man, p4
+3) ibid., p50
+4) As as example, the FAO Council report of June 1985 shows,
+in 1973 while a major famine tore through the Sahel region
+of Africa food donations by the West reached their lowest
+levels for the 1968/69 to 1982/83 period. Coincidentally, of
+course, wheat prices peaked for the same period peaked at
+that time.
+5) Foucault, M., Power/Knowledge: Selected Interviews And
+Other Writings, p58
+6) Foucault, M., Politics, Philosophy and Culture:
+Interviews and Other Writings 1977-84, p134
+7) A most useful term used by Foucault, M., ibid, p181
+8) See Marshall, N., The Rights Of Man, in Muschamp, D.,
+Political Thinkers, pp149-160
+9) Mill, J.S.., quoted in Watt, T., Patching Up Mill's
+'Liberty': Private, Self Regarding And Harmless Acts Once
+Again. The opportunity must be made though to express
+contempt for Mill's lack of definition of "civilized
+community" and the elitist notion of franchise where the
+educated, that well informed should have more than one vote
+and their should be no voting rights for the illiterate and
+immoral. McCloskey, H., Mill's Liberalism, in Political
+Thinkers, pp177-193
+10) Sartre, J-P., Existentialism and Humanism, p31
+11) The earlier arguments presented by Brodribb and
+Callinicos are both examples of this framework.
+12) Segal, L., Is The Future Female? Troubled Thoughts On
+Contemporary Feminism, p xii
+13) Raymond, L., Gender Fluidity, in Burn, p5
+14) Harraway, D., A Cyborg Manifesto, in Simians, Cyborgs
+and Women, p155
+15) ibid, p150
+16) ibid, p155
+
+4.3.3 COLLECTIVE SUBJECT AUTOGESTION
+
+Social philosophy accepts the notion of collective
+subjectivity, that is the subject is not an independent
+speaking subject divorced in their intentionality and
+actions from the actions, behaviour and institutions of
+Others. Lukes, in critiquing the notion that a society is
+but the sum total of individuals, that is the social atomism
+of methodological individualism, that predicates that may be
+applied to individuals are not predicates that necessarily
+apply to social institutions(1).
+
+Hindess further develops the relations of these predicates
+to suggest that "there are actors other than human
+individuals, some of whom play a major role in the modern
+world."(2) The conclusion is that the concentration of
+sociological theory on 'social structure' or 'class' does
+not recognise that the social institutions are the actors in
+social relations, and that these actors are "not simply
+aggregates of actions of the decisions human
+individuals."(3) Social structures and classes are not the
+deciding features of a society, but rather a representation
+of the framework. "Actors make decisions and act
+accordingly, but they do so on the basis of the discursive
+means and means of action available to them."(4)
+
+These 'discursive means' however, are truth statements of
+process which give rise to the social actors which Hindess
+describes. Whilst it has already noted the denial of the
+self-definition of the Subject is always oppression,
+likewise the expression of force and power on those
+phenomena which are based on intersubjective in experience
+is likewise contradictory. As the truth statement of an
+individual is decided subjectively this also means such
+statements cannot go beyond the subject.
+
+The operation of the money market economy represents an
+organizing discursive means of Truth statements that exists
+in conflict with the collective articulation of desires from
+participating Subjects. Likewise, however, enterprise
+control from 'experts' or the State and the use of controls
+and directives rather than prices as a channel of
+communication are also contradictory to participant control.
+Effectively, these systems of control become systems of
+ownership, and whilst many corporate bodies now invite
+workers participation in management structure, this
+participation seems limited to letting workers decide how to
+enhance the economic status of the owners.
+
+There is no reason to assume that a medium of exchange, and
+a determinant of the purchasing power of the individual
+should be become the determinant of ownership of
+intersubjective property, and as such, the determinant of
+Truth statements of that property. How contradictory this
+process is was noted (inadvertently) by Samuelson stating
+that "The consumer, so it is said, is the king ... each is a
+voter who uses their money to get the things done that they
+want done."(5) Or expressed more succinctly; the more money
+one has the greater the moral and effective value of their
+opinion.
+
+An alternative, is the "communication community" of
+Habermas, where collective truth statements lie in the
+intersubjective decisions of actors. This should be used as
+the method of determining administration, management and
+control of those 'social actors' which Hindess refers to.
+And that the value of opinion, the channel of communication
+is decided by the ability to convince other participants
+involved in the project. This does not deny the 'right' of
+monetary investment by outsiders, nor even a proportional
+return of profit from that investment. What it does deny is
+that an investment should be used as a basis for the
+ultimate truth statement of the administration of the social
+institution.
+
+Further, such social actors can be become the primary
+organisational models of interaction for what is normally
+referred to as the State. They are far more effective
+expressions of the 'lifeworld' than the steering imperatives
+of the State or privatised corporate authority. Whilst
+representation of such a 'state' must be decided by
+individuals, the role of the state must be not be a question
+of 'how are we to be governed?', but rather the distribution
+of monies for legitimate, that is, universally subjective
+and intersubjective desires, for the maintainence of the
+lifeworld, rather than the enforcement of steering
+imperatives. As Lenin pointed out (in one of the more
+libertarian moments), the State must be changed from "the
+administration of people to the administration of
+things."(6)
+
+Funding the maintainence of the lifeworld can come from a
+progressive tax-income generated from social actors, and the
+direct funding of externalities through indirect taxes.
+Contrary to conventional wisdom individuals would not
+necessarily have pay tax to maintain their lifeworld. A
+cursory analysis of the budget of most States would show
+corporate tax and the rent of the phenomonologically
+intersubjective (e.g., land)(7), would adequately fund the
+activities listed above.
+
+
+REFERENCES 4.3.3
+
+1) Lukes, S., "Methodological Individualism Reconsidered" in
+British Journal of Sociology XIX, pp 119-129, 1968
+2) Hindess, B., "Actors and Social Relations", in
+Sociological Theory In Transition, 1980, pp113-126
+3) ibid, p124
+4) ibid, p123
+5) Samuelson, P., Economics, p58
+6) Lenin, V.I., {edit} The State And Revolution ??
+7) H. George, publishing Progress and Poverty in 1879 noted
+that since land was unearned income, a tax on land should
+remove all rents. If land was so taxed the monies received
+would be sufficient to pay for all government expenditure
+without any other tax!
+
+
+
+Article 46403 of alt.activism:
+Path: eff!news.kei.com!sol.ctr.columbia.edu!caen!batcomputer!munnari.oz.au!uniwa!newsman!csuvax1!anderson
+From: anderson@csuvax1.csu.murdoch.edu.au (Anthony Anderson)
+Newsgroups: alt.activism,alt.cyberpunk,alt.drugs,alt.politics.libertarian
+Subject: Technology & Freedom (V)
+Date: 1 Nov 1993 17:55:43 GMT
+Lines: 566
+Message-ID: <2b3iivINNms9@newsman.csu.murdoch.edu.au>
+NNTP-Posting-Host: csuvax1.murdoch.edu.au
+Xref: eff alt.activism:46403 alt.cyberpunk:23182 alt.drugs:49071 alt.politics.libertarian:16069
+
+
+5.0 A STRATEGY FOR FREEDOM
+
+5.1 LIFE WITHOUT DEAD TIME
+
+Control headquaters. A Control needs an HQ, for without an
+HQ there is no one way language and therefore no Control. A
+board of the Controllers, hiding themselves in a mirrored
+building, hiding themselves by wearing a uniform, the
+uniform of Control. The Chairman of the Bored speaks;
+
+"It should have been so easy. Technoculture should have been
+one of those passing fads, doomed to last three years, four
+at most. Dammit - we could have even made money out of it! A
+mutant sub-culture, like so many other mutant sub-cultures;
+like Bauhaus, like Futurism, like Dada, like hippies, like
+punk. Aesthetics always is changing, fads and fashions,
+appearing, disappearing, shifting, changing - and we should
+be the ones changing it. Yet, outlasting the ennui of the
+postmodern, outlasting the set theory of the modern,
+outlasting neophilia, technoculture is finding the truth of
+themselves is to be found in the Other; thus, they change
+the self. They become Cyborgs and Replicants but not Robots.
+This infantile playfulness, these baudy byte bandits are
+going to ruin the future of Control."
+
+Cyborg and Replicant are playing, and are playing with old
+questions, but no longer questions of speculation. No longer
+satisified with metaphysical answers, or the domination of
+Control, they seek to change the world. They sit in a cafe,
+being served drinks laced with Hydergine, not just talking,
+not just dreaming, but actually building new technologies,
+enhancing techno-psychic powers, mutating their software and
+their hardware and their wetware.
+
+A middle-aged hippie walks past an overhears their
+conversation, overhears the tales of their journeys. This
+hippie is one that kept up to date. Her/is eyes become
+glassy, having realization that this world, this mythic
+time, is still full of optimism. S/he draws a spraycan from
+her coat pocket, and repeats on a wall a slogan that s/he
+wrote in Paris, twenty-five years ago;
+
+     "Life Without Dead Time"
+
+Cyborg and Replicant smile at the anonymous hippie. S/he
+smiles in return, "Songer!", s/he exclaims, then hesitates,
+looking carefully at them both. Nodding, s/he turns to go
+and mummers, " ... revolutionnairement".
+
+A wise old man, thin, with sorrowful and knowing eyes,
+smiles wryily at the youngsters. A man who speaks little,
+but writes much, he decides to offer advice; "Storm the
+reality studio. and retake the universe."
+
+The world changes. Heisenbugs and Mandelbugs appear on the
+margins, but they have become the new center. Antifestos
+replace manifestos. Drug smart becomes smart drugs.
+Participation replaces representation. Intersubjectivity
+replaces Truth. Shamanism replaces mysticism. The
+technopagan replaces the pagan and the technophile.
+
+Several virtual and actual realities are avialable. Post-
+humans communicate and alternate. "Is this our future?",
+asks Replicant.
+
+"Only if we make it", replies Cyborg.
+
+"What about Control?", asks Replicant.
+
+"How long can they hang on?", says Cyborg, "Dull-grey suits,
+white masculinity and wallets bulging with flash new
+business and credit cards, robot mentality, receiving data
+with hard-wired interpretation, ROM constructs of a previous
+age. Expecting constant change without changing themselves.
+Offering money to pay for their lack of any articulate
+argument? How much more material wealth can they possible
+bribe us with before we decide that Control is irrelevant?
+Hanging like Rock Apes of Gilbratar, always hanging on to
+less and less."
+
+"And what about that BIG problem? What about that main drive
+in existentialism? What about that problem of life and
+death? I may not understand life, but I'm enjoying the
+opportunity finding out. One day that I may feel different,
+but I'd enjoy the chance to choose that time. Are we
+supposed to look to technology for that answer?"
+
+"No saviour from on high deliver, no faith in prince or
+peer, Our own hands the chains must shiver - chains of
+hatred, of greed, of fear", sings Cyborg.
+
+Don't just look at "technology" as the way to solve these
+problems. Rather, don't shake the attitude that these are
+questions worthy of answers, problems worthy of solving.
+Eros and biophilia. A game worth playing"
+
+
+
+5.2.1 EROS IS A CYBORG
+
+To the Frankfurt School, a real fear existed whether self-
+emancipation was a possibility, particularly given the
+dialectical development of civilization to accumulate a
+greater capacity for life (Eros) and death (Thanatos). The
+two most significant psychoanalysts of that group, Fromm and
+Marcuse, were often involved in savage debate of the power
+of the individual versus the power of social structure in
+regards to this possibility.
+
+Marcuse's position was that an individual was a product of
+their social relations, and the individual's sickness was
+the sickness of civilization. Neo-Freudian psychoanalytic
+theory, attempted to cure the individual, while the society
+remained sick. To Marcuse, Fromm's 'affirmation' was
+phantasy given the social conditions; "Fromm ... speaks of
+the productive realization of the personality, of care,
+responsibility, and respect for one's fellow, of productive
+love and happiness - as if one could actually practise all
+this and remain sane and full of 'well-being' in a society
+which Fromm himself describes as one of total alienation,
+dominated by the commodity relations of the market."(1)
+
+In response, Fromm accused Marcuse of "pessimism"(2), and
+denying the ability of a conscious actor to defeat the
+negative freedom of being alone and isolated in a
+"alienated, hostile world" without sacrificing the self
+through "spontaneous activity", of which love was a
+"foremost component"; "not love as the dissolution of the
+self in another person [masochism], not love as the
+possession of another person [sadism], but love as a
+spontaneous affirmation of others on the basis of the
+preservation of the individual self."(3)
+
+Despite their differences it is possible to synthesize the
+two opinions, as both were expressing different perspectives
+to the same problem: "that Freud's metaphyschology comes
+face to face with the fatal dialectic of civilization: the
+very progress of civilization leads to the release of
+increasingly destructive forces."(4) Neither Fromm and
+Marcuse expressed the opinion that intersubjective truth
+technologies would change the possibility and meaning of
+freedom. Neither linked(5) the possibility that physical
+technologies could aid in this process. And most of all,
+both saw that the telos of technology was anti-life. Fromm
+expressed the opinion that; "One cannot help being
+suspicious that often the attraction of the computer-person
+idea is the expression of a flight from life and from humane
+experience into the mechanical and purely cerebral."(6)
+
+Part of this mistrust of the technological came from the
+instrumental use of technology in social relations. It is
+also part of that political radicalism whose questioning of
+technology was simply a matter of questioning who controls
+it. As Hindess and Hirst put it; "[i]t is impossible to
+construct the concept of an articulated combination of
+relations and forces of production starting from the primacy
+of productive forces."(7)
+
+Whilst there can be no doubt of intentionality, it is clear
+who is the actor and what is the technology, "[t]he
+classical Marxian theory envisages the transition from
+capitalism to socialism as a political revolution: the
+proletariat destroys the political apparatus of capitalism
+but retains the technical apparatus."(8) This denial of the
+equal importance of changing the technical apparatus is far
+more 'cerebral' than anything Fromm suggested; the notion
+that somehow human will was disembodied from the technology
+it used. Instead, the non-determinant telic inclinations of
+a technology(9) must be considered in relation to
+Heidegger's "enframing", as;
+
+   [i]f the essence, the coming of presence, of technology,
+   Enframing as the danger within Being, is Being itself,
+   then tqechnology will never allow itself to be mastered,
+   either positively or negatively, by human doing founded
+   merely on itself. Technology whose essence is Being
+   itself, will never allow itself to be overcome by people.
+   That would mean, after all, that a person was the master
+   of Being.(10)
+
+Historically, genuine social change comes from a change to
+both the social relations and the physical relations. The
+mode of production is not "primarily" one or the other; it
+is a dialectical process where the consciousness is both
+free and determined by the frame that technology allows. As
+the steering imperatives of the system, require more
+intelligent, more reflexive, more critical thought and more
+expressions of the lifeworld to provide more accurate
+foundations of their constantly revolutionised productive
+processes. The fact that these requirements spell the end of
+the instrumental defining of the Other is something that
+political activists should see as the primary praxis
+orientation. To Derrida, the technological development of
+the telephone, one of the earliest communicative
+technologies, is an example;
+
+   For we all know that a totalitarian system can no longer
+   fight against an internal telephone network once its
+   density has exceeded a certain threshold, and thereby
+   becoming uncontrollable. Indeed, no 'modern' society (and
+   modernity is an imperative for totalitarianism) can
+   refuse for very long to develop the techno-economico-
+   scientific-services of the telephone - which is to say,
+   the 'democratic' places of connection appropraite to
+   operating its own destruction.(11)
+   
+Youth too, apparently, have already discovered this:
+
+   There is now a worldwide movement around the idea of
+   techno-hippie - the old love ethic with a new high tech
+   implementation. Hippie failed to revolutionise the planet
+   but techno-hippie will DO IT. Here's a new form of
+   liberation theology, and the services involve ecstatcized
+   neon-painted dancing to the endless beat ... These kids
+   are high on love. Look out.(12)
+
+Eros is now a cyborg. An "illegitimate offspring of
+militarism and patriarchal capitalism, not to mention state
+socialism. But illegitimate offspring are often exceedingly
+unfaithful to their origins. Their fathers, after all, are
+inessential."(13) The historical movement for emancipation
+has become embodied into a range of sub-cultures that
+emphasize communicative technologies for subject-subject
+relations and instrumental technologies for subject-object
+relations. Their love of technology is built on, and exists
+because of, a desire for freedom, for life, for Eros. They
+are "Eco-organic types with MIDIs and lasers"(14), who don't
+just read science fiction, but live it. And their
+overwhelming confidence in the future, is built on the
+realisation that official processes of representation cannot
+represent them.
+
+
+REFERNCES 5.2.1
+
+1) Marcuse, H., in Eros & Civilization, p178
+2) Fromm, E., The Revolution Of Hope: Toward A Humanized
+Technology, p {edit}
+3) Fromm, E., The Fear Of Freedom, pp130, 225
+4) Marcuse, H., Eros & Civilization, p52
+5) Possibly because such technologies were in their infancy
+as still associated with warfare, the most primitive of
+intersubjective truths - and most advanced of objective
+truths.
+6) Fromm, E., The Revolution Of Hope: Toward A Humanized
+Technology, p45
+7) Hindess B., Hirst, P., "Precapitalist Modes Of
+Production", p12
+8) Marcuse, H., One Dimensional Man, p22
+9) Ihde, D., Technics and Praxis, p41? {edit}
+10) Heidegger, M., The Turning, in The Question Concerning
+Technology and Other Essays, p38
+11) Derrida, J., Reflections On Today's Europe, in The Other
+Heading, p42
+12) St. Jude, in Mondo 2000: A User's Guide To The New Edge,
+p140
+13) Harraway, D., A Cyborg Manifesto, p151
+14) St. Jude, ibid.
+
+
+5.2.2 AUDACITY AND REVOLUTION
+
+McLuhan remarked that "The suddenness of the leap from
+hardware [industrial society] to software [information
+society] cannot but produce a period of anarchy and collapse
+in existing establishments, especially in the developed
+countries."(1) Such establishments, however, have a nasty
+tendency to resist such collapse, and the most neurotic of
+them, divorced more and more from the lifeworld experience,
+potentially use more and more authoritarian means of
+control. Notably these authoritarian means are applied to
+those who seek to radically alter notions of meaning rather
+than actual material actions.
+
+It should be fairly clear from the preceding text that as
+fundamental social change (i.e., revolution) is occurring,
+then this will have to be tied with fundamental
+technological change. Furthermore, as the technological
+changes that the world is going through represent an
+entirely different type of technology then the tools and
+processes of social reform will have to change as well.
+
+It should also be fairly clear from the preceding text that
+any form of radical, illegal or otherwise counter-authority
+behaviour must have the explicit objectives of the removing
+institutions and technologies of power, rather than the
+replacement of one group for another. That is, the
+traditional, industrialist program for revolution where one
+totality replaces another must be abandoned. Or, as Lyotard
+put it; "[l]et us declare a war on totality; let us be
+witnesses to the unpresentable, let us activate the
+differences, and save the honor of the name."(2)
+
+But Lyotard, like many, too many, postmodern political
+theorists, is exceedingly good at slogans and concepts and
+extremely poor at action. It comes, one could suppose, from
+the great postmodern skill of mapping the late twentieth
+century, without providing a coherent political alternative.
+Seeming that this thesis has offered a political
+alternative, it must also offer a process of attaining it.
+That is, an ethics of social change process; or legitimate
+revolutionary activity. It may seem strange to refer to
+'legitimate' revolutionary action, but the starting point
+for such a process is the suggestion that there is no
+difference between means and ends. Indeed, to have 'ends'
+separate from 'means' is an absolute and utopian ideal,
+prevalent in some modernist and industrialist versions of
+Marxism, and used as justification for incredible levels of
+individual and social oppression.
+
+Traditionally this question was posed in terms of 'reform'
+or 'revolution'. Popper, for example, sided with reform,
+criticizing "utopian engineering", considering it a
+political project inherited from Platoism. Such a project
+was "irrationalism which is in inherent in radicalism"(3),
+including, of course, that of socialist radicals. The reform
+project on the other hand was "piecemeal social
+engineering", where social institutions were changed one at
+a time.(4) The objective of Popper, of course, like all
+liberals, was to escape the violence inherent in periods of
+conflict. But the political radical questions, and rightly
+so, what of the current violence used against people now?
+
+A recognition of the existence of such violence leads to a
+political radicalism that denounces violent social change,
+but accepts the need for defensive action against violent
+social institutions. The political project expressed
+previously begins from an alternative where the goals become
+the actions. The goals expressed in this thesis are to
+produce technologies, both social and physical, that (i)
+ensure the foundation of existence, (ii) allow for the self-
+articulation of essence, and (iii) the mutual self-
+organisation of Subjects into social actors.
+
+In regards to the aim of existence, the use of force is
+legitimate, as existence requires instrumental technology.
+No essentialist notions of law, morals, social ritual,
+scientific or nonscientific behaviour can deny this. By the
+same token, this instrumental technology cannot be used to
+deny the existence of the Other with legitimacy as this
+would be merely an inversion of power relations, rather than
+liberation. The theft of food by the hungry, or the stealing
+of medication, or of clothes, or the occupation of buildings
+by the homeless is never the crime of the individual, but
+rather the failure of the Truth statements of a economy
+driven by an inferior social technology.
+
+In the presentation of the self-articulation of the Subject,
+the Subject has full legitimacy in the use of defensive
+force to ensure their ability to express themselves and to
+deny their defining by other social actors. In addition the
+use of defensive force is legitimate where a social actor
+denies the right for Subjects to form social actors to
+express their collective concerns.
+
+Finally, the social actor, has no legitimacy for the use of
+instrumental technology, except to ensure those legitimate
+actions given previously. A social actor has no role in
+defining the Other, or denying the Other the conditions of
+their existence. For the social actor is not a being, but
+rather a institution, whose only role is to engage in
+communication with Other social actors.
+
+In engaging social actors and institutions who use
+instrumental social technologies, those institutions whose
+Truth statements and actions are based on fiat, or is
+determined by status, or the monetary wealth of individuals,
+or any other means apart from intersubjective self-
+management, two approaches can be made, and are being made.
+Firstly, is the denial of their legitimacy to make truth
+statements by Subjects, and the building of counter-
+institutions. Included in this is the defensive force
+necessary to protect such institutions. Secondly is the use
+of communicative technology to engage in "semiotic guerilla
+warfare" against their legitimacy. The antics of computer
+hackers and phone phreaks(5) as well as the deliberate
+campaign of media stunts and pranks(6) against these social
+actors requires no danger to anyone's life, or ability to
+define and articulate themselves, but it does undermine the
+ability of such institutions to speak on behalf of the
+Other. For such an assumption is built on notions that are
+ridiculous to the extreme. The radical must never
+underestimate the ridicule they deserve.
+
+A radical and revolutionary expression of the desire for
+individual and social self-management is both serious, in
+terms of the goals it seeks, and humorous in presenting the
+neurotic desire for control of its opposition. For the new
+revolutionary, the postmodern revolutionary, laughter, play
+, the pleasure principle, are the 'essences' that we create.
+What is not to be laughed at is the fact that we can make
+such essences. We, present ourselves as parody; out of our
+profoundity(7). And we follow Danton's maxim: "Audacity,
+audacity and more audacity."
+
+
+
+REFERENCES 5.2.2
+
+1) McLuhan, M, in Mondo 2000: A User's Guide To The New
+Edge, p166
+2) Lyotard, J-F., What Is Postmodernism? in The Postmodern
+Condition: A Report On Knowledge, p82
+3) Popper, K., Aestheticsim, Perfectionism, Utopianism in
+Beehler R., and Drengson, A.R., The Philosophy Of Society,
+p222
+4) ibid., p217-218
+5) See The Hacker Crackdown, Sterling, B.
+6) See Mondo 2000 A User's Guide To The New Edge, p174-181
+and p210-221 and RE/Search, Pranks!
+7) Nietzsche, F., Beyond Good and Evil, {edit}
+
+
+5.2.3 MORE HUMAN THAN HUMAN
+
+The film Blade Runner, loosely based on Dick's novel Do
+Androids Dream Of Electric Sheep, is set in early 21st
+century Los Angeles. Among the enormous human cultural
+diversity evident, five (1), synthetically designed organic
+robots - replicants - have escaped their slave status on an
+off-world colony. These replicants are the property of the
+Tyrell Corporation, and have extremely high levels of
+physically and mental development. The Tyrell Corporation,
+ensuring that the replicants do not develop the emotional
+capacity of their human masters genetically engineer a four-
+year life span. Tyrell Corporation, on the basis of this
+slavery, uses the market slogan 'More Human Than Human'.
+
+Plunged into the deepest existential crisis possible,
+plunged into such a crisis at the peak of their physical
+development, and knowing that this crisis has been caused by
+the use of instrumental technology against them causes the
+development of an emotional capacity that the 'human'
+corporation cannot comprehend. In the manifested failure to
+comprehend the difference between structure and process, or
+in this case, lifespan and lived experience, the Tyrell
+Corporation indeed makes replicants which are more human
+than human; the leader of the replicant group, seconds
+before the end of his own life, saves the life of his would
+be killer.
+
+Perry, a recognised authority on such movies comments how
+"Blade Runner deals with the arrogance of the rich, who
+would literally trash their home world, turn it into a
+barely habitable ghetto, and simply fly away to the off-
+world colony suburbs and leave the mess for the poor. And
+like those who settled earth's New World in the seventeenth
+century, they expect slave labor."(2) Whilst this commentary
+is certainly true, a further elaboration can be made on the
+technological nature of the replicants; they were, for all
+intents and purposes, a new sentient life-form, with their
+own lifeworld to articulate.
+
+Whilst in the realm of science fiction (or should this be
+technological fiction?), the lessons of such literature for
+a world whose abilities of information distribution is
+rapidly improving cannot be underestimated. What happened in
+Blade Runner was a physical and social failure to recognise
+the sentience of the replicants. And whilst it may be but
+speculation to consider how the alternative social system
+presented in this thesis will deal with non-human sentience
+(and a careful observer will note i used the term 'person'
+in preference to 'human' all the way through this thesis) my
+own attachment to science fiction is deeply ingrained enough
+to consider the issue. I ask, therefore, the perennial
+science fiction question: what if?
+
+What if sentient human actors involve themselves in the
+creation of computer-based Artificial Intelligences? What
+about genetically engineered replicants? Androids? What
+about genetic and cybernetic 'uplifting' of animals? And
+what of that most bizarre of science fiction stories, the
+contact with extra-terrestrial intelligence?(3)
+
+These technologically based new modes of sentience can be
+interpreted as the desire for the control of a new Other, or
+a metaphorical human Other, such as in the alterity
+relations suggested by Sofia. Or perhaps, it is a form of
+escapism from 'life' into the mechanical, the automaton,
+absolute, as suggested by Fromm. Such possible tendencies
+exist, but so does the possibility of a desire for
+affirmation with an increasingly diverse and different range
+of Others for the preservation of the self.
+
+Whether or not these desires are expressions of control or
+difference depends greatly on what technologies of process
+are used in conjunction with them. For, the replicants in
+Blade Runner, the absence of communicative technologies
+meant that they become objects. If humans are so closed-
+minded and arrogant enough to assume that there isn't any
+life worthy of living outside themselves, then humanity
+becomes the new oppressor. On the other hand, there lies the
+possibility that the future will be more human than human.
+
+
+REFERENCES 5.2.3
+
+1) Actually six if one includes (as many do) the police
+officer Deckard who is allocated to hunt down and kill the
+replicates.
+2) Perry, F., Blade Runner, in Cult Movies 3, p37
+3) Fermi's paradox should be mentioned here. If our radio
+telescopes are so powerful and have such a great range in
+detecting radio waves then as Fermi posed the question,
+"where are they?". Has no other sentient life form now, or
+in the past ever used radio waves for communication? c.f.
+Spinrad, N., Riding The Torch.
+
+
+5.3 CONCLUSION
+
+The aim of this thesis was an attempt to provide a critique
+of the assumptions of liberal democracy and to the
+suggestion that no political alternative can be built that
+doesn't degenerate into some form of totalitarianism. Whilst
+a discussion of the relation between people and their
+material world was discussed, it was the characteristics
+from this model that were used to apply to that other field
+of interaction; that of social relations.
+The suggestion is that the world is changed through praxis,
+the scope of the world increases through praxis, that
+technology is a system of praxis, and that people are both
+Objects and Subjects. These characteristics emphasize the
+necessity of making "communicative technologies", to counter
+the possibility of the person becoming merely a "thing". The
+promotion of autogestion as an alternative to democracy,
+also ties to the transfer of ownership to the "communication
+community" [Kommunikationsgemeinschaft] as an alternative to
+capitalist, private ownership of intersubjective,
+cooperative processes.
+
+Furthermore, it is suggested that these communicative
+technologies could only arise because of the historical
+success of instrumental technologies in providing existence.
+The use of instrumental technologies to define essence,
+however, is contradictory to existential conditions of
+reality, and is thus oppressive. Instead communicative
+technologies are showing themselves to be most effective is
+the expression of self-defined essence for the purpose of
+the formation of social actors. As a process of social
+change instrumental technologies have the role to ensure
+that the lifeworld is guareenteed. Communicative
+technologies have the role of articulating this lifeworld.
+
+The importance of this process cannot be underrated;
+technology always will expand the scope of reality, and
+there is are always the twin insane projects that people
+using technology will try convert people into nothing but
+Objects, or to deny the objective status of Being. Both of
+these projects are fantasies of Thanatos, and death is
+always their result. The affirmation of the speaking
+Subject, and the cooperative search for intersubjective
+truth, au contraire, is the fantasy of Eros.
+
+Both fantasies are possible, and both are always more
+possible through the use of systemized praxis, through the
+use of technology. A danger that lies in the current
+political pessimism where the legitimation crisis is
+converted into ambivalence in that it simply gives more
+leeway to totality, and a greater possibility that our
+dreams are repressed to the level of the automaton, and a
+neurotic automaton at that. We must no just remain
+spectators in the technological changes of our time. For to
+have dreams is one thing. But to make our dreams a reality,
+we must live them. Then the world will change.
+
+

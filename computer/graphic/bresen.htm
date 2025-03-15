@@ -1,0 +1,232 @@
+<HTML>
+
+<HEAD>
+<TITLE>Bresenham's Line Algorithm</TITLE>
+</HEAD>
+
+<BOdY>
+
+<HR SIZE=5><CENTER>
+<H1>Derivation of Bresenham's Line Algorithm</H1>
+</CENTER>
+
+<CENTER>
+<P><I>Derivation for first octant based on version in Hearn & Baker's "Computer Graphics"<p>
+Explanations and Generalizations written by Kenny Hoff
+<BR>September 2, 1995
+</I>
+</CENTER>
+<P>
+
+<HR SIZE=5>
+<H2><I>Overview of Problem</I></H2>
+Given to line endpoints, we are trying to find the "in-between" points on a pixel grid.
+Bresenham's line algorithm determines subsequent points from the <i>start</i> point by
+making a <i>decision</i> between the two next available points by determining which is 
+closer to the <i>ideal</i> point.
+<P>
+
+<HR>
+<H2><I>Derivation of Algorithm</I></H2>
+<UL>
+
+<LI>Given two endpoints (Ax,Ay) and (Bx,By). One can be chosen as the start point
+( x(k),y(k) ). The choice is purely arbitrary. From this start point, we have eight 
+possible choices for the next pixel in the line. We need to isolate these eight choices
+into only two. If we restrict the slope for now to (0<=slope<=1) and assume (Ax < Bx), we know that we
+can simply <i>step</i> in x one pixel at a time to the right and determine what y value to choose 
+next. Given ( x(k),y(k) ), the next <i>ideal</i> point will be ( x(k)+1, y ) where
+y = m*(x(k)+1) + b. But we must choose between ( x(k)+1, y(k) ) or ( x(k)+1, y(k)+1 ).
+These points represent the one just to the right and the one to the right and one up
+respectively.
+<P>
+
+<LI>How do we decide between these points? We now have the following:<br>
+start point: <b>( x(k),y(k) )</b><br>
+next two available points: <b>( x(k)+1, y(k) )</b> and <b>( x(k)+1, y(k)+1 )</b><br>
+location of next <i>ideal</i> point: <b>( x(k)+1, y )</b> where <b>y = m*(x(k)+1) + b</b>
+(<i>Point-Slope line equation</i>)<br>
+We must choose the closest point to the <i>ideal</i>. So first we must find the distances
+to the two available choices from the ideal location.
+<P>
+
+<LI>Distance between point-to-right and ideal = <b>d1 = y - y(k)</b><br>
+Distance between point-to-right-and-up and ideal = <b>d2 = (y(k)+1) - y</b><br>
+So we can simply choose subseqent points based on the following:<br>
+if (d1<=d2) then choose point-to-right: ( x(k)+1, y(k) )<br>
+if (d1>d2) then choose point-to-right-and-up: ( x(k)+1, y(k)+1 )<br>
+However, since we are trying to develop a FAST way of doing this, we will not be 
+comparing these values in such a manner; instead we will create a <i>decision variable</i>
+that can be used to quickly determine which point to use.
+<P>
+
+<LI>How do we do create this <i>decision variable</i>? First, instead of comparing the
+two values to each other, we can simply evaluate (d1-d2) and simply test the sign to
+determine which to choose. Make sense? If d1 > d2 then (d1-d2) will be positive, etc.
+So now if (d1-d2) is positive (greater than zero) choose point-to-right-and-up OR
+if (d1-d2) is negative or zero (less than or equal to zero) choose point-to-right.
+This is nice and clear, but I'm afraid we must complicate things a little in order to
+get a REAL speedups.
+<P>
+
+<LI>Evaluate (d1-d2) as follows:
+<B>(d1-d2)</B>  =  <B>y - y(k) - ( (y(k)+1) - y )</B>  =  <B>y - y(k) - (y(k)+1) + y</B><BR>
+now substitute using <b>y = m*(x(k)+1) + b</b>. . .<br>
+<B>(d1-d2)</B>  =  <B>m*(x(k)+1) + b - y(k) - (y(k)+1) + m*(x(k)+1) + b</b><br>
+= <B>2*m*(x(k)+1) - 2*y(k) + 2*b - 1</B><br>
+<P>
+
+<LI>Reduce this evaluation by finding <b>slope</b> and substituting:<br>
+slope = m = dY/dX where dY = abs(By - Ay) and dX = abs(Bx - Ax)<br>
+so now (d1-d2) = <B>2*(dY/dX)*(x(k)+1) - 2*y(k) + 2*b - 1</B><br>
+expand first term so (d1-d2) = <B>2*(dY/dX)*x(k) + 2*(dY/dX) - 2*y(k) + 2*b - 1</B><br>
+<P>
+
+<LI>To simplify this expression we will create a new decision variable P(k):<br>
+<B>P(k) = dX * (d1-d2)</B> this is will remove the divisions and will still keep the<br>
+same sign for the decision. Why? Because dX is always positive!<br>
+Evaluate P(k) as follows:<br>
+P(k) = dX * ( <B>2*(dY/dX)*x(k) + 2*(dY/dX) - 2*y(k) + 2*b - 1</B> )<br>
+= <B>2*dY*x(k) + 2*dY - 2*dX*y(k) + 2*dX*b - dX</B><br>
+rearrange terms to get <B>P(k) = 2*dY*x(k) - 2*dX*y(k) + 2*dY + 2*dX*b - dX</B><br>
+OR <B>P(k) = 2*dY*x(k) - 2*dX*y(k) + c</B> where constant c = 2*dY + dX*(2*b - 1)<br>
+(this remains constant regardless of choice of x and y; this notation aids in computation
+of dP)
+<P>
+
+<LI>What now? We have a decision variable that can be calculated very quickly, but it
+still requires a complete evaluation of P(k) for each point along the line. Since changes
+in P(k) will be linear, we can evaluate subseqent P(k) values <i>incrementally</i> by 
+finding a constant change in P(k) for each subsequent point. How? By evaluating an
+incremental change in the decision function using <i>Forward-Differencing</i>: 
+<B>change in P = dP = P(k+1) - P(k)</B>
+<P>
+
+<LI>dP is evaluated as follows:<br>
+P(k+1) - P(k) = 2*dY*x(k+1) - 2*dX*y(k+1) + c - 2*dY*x(k) + 2*dX*y(k) - c<br>
+= 2*dY*x(k+1) - 2*dY*x(k) - 2*dX*y(k+1) + 2*dX*y(k)<br>
+= <B>2*dY*(x(k+1) - x(k)) - 2*dX*(y(k+1) - y(k))</B><br>
+observe that since we are stepping in x (by 1), <B>(x(k+1) - x(k)) = 1</B><BR>
+so, with substitution <B>dP = 2*dY - 2*dX*(y(k+1) - y(k))</B><BR>
+there are two possibilities for <B>(y(k+1) - y(k))</B>, 0 or 1 depending on if we
+choose point-to-right or point-to-right-and-up.<BR>
+<B>dP = 2*dY - 2*dX*(0) = <FONT SIZE=+1>2*dY</FONT></B> if point-to-right is chosen<br>
+<B>dP = 2*dY - 2*dX*(1) = <FONT SIZE=+1>2*dY - 2*dX</FONT></B> if point-to-right-and-up is chosen
+<P>
+
+<LI>Now we know how much to increment the decision variable based on the point chosen, but
+now we must find the initial decision value P(0). We must evaluate using the FULL equation
+(with constant) for P(k).<BR>
+P(k) = 2*dY*x(k) - 2*dX*y(k) + 2*dY + dX*(2*b - 1)<BR>
+P(0) = 2*dY*x(0) - 2*dX*y(0) + 2*dY + dX*(2*b - 1)<BR>
+what is b? using the point-slope line equation, y(0) = m*x(0) + b; so <B>b = y - m*x(0)</B><BR>
+substitute b. . . <BR>
+= 2*dY*x(0) - 2*dX*y(0) + 2*dY + dX*(2*(y(0) - m*x(0)) - 1)<BR>
+substitute m = dY/dX. . . <BR>
+= 2*dY*x(0) - 2*dX*y(0) + 2*dY + dX*(2*(y(0) - (dY/dX)*x(0)) - 1)<BR>
+= 2*dY*x(0) - 2*dX*y(0) + 2*dY + 2*dX*(y(0) - (dY/dX)*x(0)) - dX<BR>
+= 2*dY*x(0) - 2*dX*y(0) + 2*dY + 2*dX*(y(0) - (dY/dX)*x(0)) - dX<BR>
+= 2*dY*x(0) - 2*dX*y(0) + 2*dY + 2*dX*y(0) - 2*dY*x(0) - dX<BR>
+<B><FONT SIZE=+1>P(0) = 2*dY - dX</FONT></B>
+<P>
+
+<LI>So there it is; the entire algorithm has been derived, but what now? We have the 
+following "tools" to generate a line (only in the first octant):<br>
+<UL>
+<LI>The endpoints: <B>(Ax, Ay)</B> and <B>(Bx, By)</B>
+<LI>change in x: <B>dX = abs(Bx - Ax)</B>
+<LI>change in y: <B>dY = abs(By - Ay)</B>
+<LI>start point (chosen arbitrarily): <B>(Ax, Ay)</B>
+<LI>initial decision value: <B>P(0) = 2*dY - dX</B>
+<LI>point choice conditions:
+	<UL>
+	<LI><B>if (P <= 0)</B> choose point-to-right
+	<LI><B>if (P > 0)</B> choose point-to-right-and-up
+	</UL>
+<LI>increments in P (dP) based on choices:
+	<UL>
+	<LI>if point-to-right is chosen, increment P by <B>(2*dY)</B>
+	<LI>if point-to-right-and-up is chosen, increment P by <B>(2*dY) - (2*dX)</B>
+	</UL>
+</UL>
+</UL>
+<P>
+
+<HR>
+<H2><I>Implementation of Algorithm for First Octant</I></H2>
+Using the "tools" derived in the previous section it should be fairly simple to construct
+an algorithm that draws a line in the first octant (0 <= Slope <= 1). Before going on to the
+other octants, lets go through the necessary steps for this one:
+	<UL>
+	<LI>Calculate and store absolute value of changes in X and Y between endpoints.
+	<LI>Calculate and Store initial decision value ( P(0) ).
+	<LI>Calculate and Store decision value increments; one for choosing point-to-right
+	    and one for choosing point-to-right-and-up.
+	<LI>Create loop that will process all points stepping in X (from Ax to Bx)as follows:
+		<UL>
+		<LI>Plot the pixel at the start point
+		<LI>Check decision variable:
+			<UL>
+			<LI>if decision variable P is positive (P>0),
+			    then point-to-right-AND-UP must be chosen; so start point x and y values must
+			    be incremented by one and decision variable (P) must be incremented by
+			    the appropriate dP value ( (2*dY) - (2*dY) ).
+			<LI>if decision variable P negative or zero (P<=0),
+			    then point-to-right must be chosen; so start point x-value must be
+			    incremented by one and decision variable (P) must be incremented by
+			    the other dP value (2*dY).
+			</UL>
+		</UL>
+	</UL>
+<P>
+
+<HR>
+<H2><I>Implementation of Algorithm for Four Octants with Slopes -1 to 1</I></H2>
+This one is easy. In the previous implementation when we checked the decision variable, we
+always incremented x and y by ONE (POSITIVE ONE). The dX and dY values are always positive
+regardless of which line is chosen (with slope -1 to 1). If we keep the start point as 
+point A, we can determine the SIGN of the values to increment by. So if Ax < Bx, we know
+that x will be incremented by one, BUT if Bx < Ax, we know that x will be DECREMENTED by one.
+The same thing for the y values: if Ay < By, y will be incremented by one; and if By < Ay, y
+will be decremented by one. This one is quite easy to implement with only a few adjustments in
+the previous implementation. Since the decision variable and its possible increments are 
+calculated by dX and dY, and they are always positive, we ONLY need to change the sign of the
+increments for x and y. So in essence, we deciding subsequent points based on the calculations
+for the first octant only, but instead of stepping in x and y in a positive direction we are
+checking to determine which way we should "step". We are simply moving these four octants into
+the first for calculations.
+<P>
+
+<HR>
+<H2><I>Generalized Implementation for all Directions</I></H2>
+This one is a bit more complex and requires a careful examination of the four-octant version.
+Since the slope was restricted from -1 to 1, we were always able to step in x by one and simply
+determine the next y-value. This works because there is always one y value for each x value 
+along the line. This does not work stepping in y for these slopes since there will be more
+than one x value for each y along the line. With slopes -1 to 1, y is said to be <i>dependent</i>
+on x; y being the dependent variable and x being the independent variable. With slopes greater than
+1 or less than -1, y becomes the independent variable.
+<P>
+So what now? We must check for the slope of the line: is it within our previous bounds where x
+is independent or is it where y is independent. Each type must be drawn differently. If the
+slope is within -1 and 1, then the previous implementation will suffice, but if the slope is
+out of this range, we must take the previous implementation and swap all x and y values to
+"move" the calculations back into the first octant. This includes swapping dX and dY.
+Care must be taken to ensure that it will step in y and only step in x if the decision
+variable chooses point-to-right-and-up.
+<P>
+This completes the generalized version of the Bresenham's line drawing algorithm. The actual
+coded implementation will reveal many possible efficiency considerations. I have deliberately
+left out my <i>version</i> in this document to allow an unbiased interpretation of the
+Bresenham derivation. In the very least, the code should have no floating point numbers, 
+multiplication or division operations, or even any comparisons to any number other than zero
+(they are slower); only additions, bit-shifts, and comparisons to zero are allowed. Good Luck!
+<P>
+
+<HR>
+written by Kenny Hoff 
+(<A HREF="mailto:hoffkx@timewarp.uncg.edu">hoffkx@timewarp.uncg.edu</A>)
+
+</BODY>
+
+</HTML>

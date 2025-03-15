@@ -1,0 +1,334 @@
+<html>
+<title>Overview of GSM (extended abstract)</title>
+<hr>
+<center><h2>Overview of the GSM Cellular System <br>
+Extended Abstract
+</h2>
+<p>
+<h4>John Scourias<br>
+University of Waterloo<br>
+jscouria@neumann.uwaterloo.ca</h4></center>
+<h3> Abstract</h3>
+<h5>
+  GSM, the Global System for Mobile
+  communications, is a digital cellular 
+  communications system which has rapidly gained acceptance and 
+  market share worldwide, although it
+  was initially developed in a 
+  European context.  In addition to digital transmission, GSM
+  incorporates many advanced services and features, including
+  ISDN compatibility and worldwide roaming in other GSM networks.  
+  The advanced services and architecture of GSM have made it
+  a model for future third-generation cellular systems, such as UMTS.
+  This paper will give an overview of the services offered by GSM, the 
+  system architecture, the radio transmission structure, and the
+  signalling functional architecture.
+</h5>
+<h3>Introduction and history of GSM</h3>
+
+The development of GSM started in 1982, when the 
+Conference of European Posts and Telegraphs (CEPT) formed a study group
+called Groupe Sp&eacute;cial Mobile (the initial meaning of GSM).  The
+group was to study and develop a pan-European public cellular system
+in the 900 MHz range, using spectrum that had been previously allocated.
+At that time, there were many incompatible analog cellular systems
+in various European countries.  Some of the basic criteria for their
+proposed system were:
+<ul>
+<li> Good subjective speech quality
+<li> Low terminal and service cost
+<li> Support for international roaming
+<li> Ability to support handheld terminals
+<li> Support for range of new services and facilities
+<li> Spectral efficiency
+<li> ISDN compatibility
+</ul>
+
+In 1989, the responsibility for GSM was transferred to the European
+Telecommunication Standards Institute (ETSI), and the Phase I
+recommendations were published in 1990.  At that time, the
+United Kingdom requested a specification based on 
+GSM but for higher user densities with low-power mobile stations, and
+operating at 1.8 GHz.
+The specifications for this system, called Digital
+Cellular System (DCS1800) were published 1991.  Commercial operation
+of GSM networks started in mid-1991 in European countries.  By the 
+beginning
+of 1995, there were 60 countries with operational or planned
+GSM networks in Europe, the Middle East, the Far East, Australia,
+Africa, and South America, with 
+a total of over 5.4 million subscribers.
+
+<h3>Services provided by GSM</h3>
+
+GSM was designed having interoperability with ISDN in mind, and
+the services provided by GSM are a subset of the standard ISDN services.
+Speech is the most basic, and most important, teleservice provided by
+GSM.
+<p>
+In addition, various data services are supported, with user bit rates up
+to 9600 bps.  Specially equipped GSM terminals can connect with PSTN,
+ISDN, Packet Switched and Circuit Switched Public Data Networks, through several
+possible methods, using synchronous or asynchronous transmission.
+Also supported are Group 3 facsimile service, videotex, and teletex.
+Other GSM services include a cell broadcast service, where messages
+such as traffic reports, are broadcast to users in particular cells.
+<p>
+A service unique to GSM, the Short Message Service, allows users to
+send and receive point-to-point alphanumeric messages up to a few tens 
+of bytes.
+It is similar to paging services, but much more comprehensive, allowing
+bi-directional messages, store-and-forward delivery, and acknowledgement 
+of successful delivery. 
+<p>
+Supplementary services enhance the set of
+basic teleservices.  In the Phase I specifications, supplementary services
+include variations of call forwarding and call barring, such as Call
+Forward on Busy or Barring of Outgoing International Calls.  Many more
+supplementary services, including multiparty calls, advice of charge,
+call waiting, and calling line identification presentation will be
+offered in the Phase 2 specifications.
+
+<h3>System architecture</h3>
+
+The functional architecture of a GSM system can be broadly divided
+into the mobile station, the base station subsystem, and the
+network subsystem.  Each subsystem is comprised of functional
+entities which communicate through the various interfaces using
+specified protocols.
+
+<h5>Mobile Station</h5>
+
+The mobile station in GSM is really two distinct entities.  The
+actual hardware is the mobile equipment, which is anonymous.  
+The subscriber information, which includes a unique identifier
+called the International Mobile Subscriber Identity (IMSI), is
+stored in the Subscriber Identity Module (SIM), implemented as
+a smart card.  By inserting the SIM card in any GSM mobile
+equipment, the user is able to make and receive calls at that terminal
+and receive other subscribed services.  By decoupling subscriber
+information from a specific terminal, personal mobility is provided
+to GSM users.
+
+<h5>Base Station Subsystem</h5>
+
+The Base Station Subsystem is composed of two parts, the Base
+Transceiver Station (BTS) and the Base Station Controller (BCS).
+The BTS houses the radio tranceivers that define
+a cell and handles the radio (Um) interface protocols with the mobile 
+station.
+Due to the potentially large number of BTSs, the requirements for a BTS are
+ruggedness, reliability, portability, and minimum cost.
+<p>
+The Base Station Controller (BSC) manages the radio resources for one 
+or more BTSs, across the Abis interface.  It manages the radio interface 
+channels (setup, teardown, frequency hopping, etc.) as well as 
+handovers.  
+
+<h5>Network Subsystem</h5>
+
+The central component of the Network Subsystem is the Mobile services
+Switching Center (MSC).  It acts like a normal switching node of the
+PSTN or ISDN, and in addition provides all the functionality needed
+to handle a mobile subscriber, including registration, authentication,
+location updating, inter-MSC handovers, and call routing to a roaming subscriber.
+These services are provided in conjuction with four intelligent
+databases, which together with the MSC form the 
+Network Subsystem.  The MSC also
+provides the connection to the public fixed networks.
+<p>
+The Home Location Register (HLR) contains all
+the administrative information of each subscriber registered in the
+corresponding GSM network, along with the current location of the subscriber.
+The location assists in routing incoming calls to the mobile, and is 
+typically the SS7 address of the visited MSC.  There is logically 
+one HLR per GSM network, although it may be implemented as a distributed
+database.
+<p>
+The Visitor Location Register contains selected administrative information
+from the HLR, necessary for call control and provision of the subscribed
+services, for each mobile currently located in the geographical area
+controlled by the VLR.  Although the VLR can be 
+implemented as an independent unit, to date all manufacturers of switching
+equipment implement the VLR together with the MSC, so that the geographical
+area controlled by the MSC corresponds to that controlled by the VLR.  
+The proximity of the VLR information to the MSC speeds up access
+to information that the MSC requires during a call.
+<p>
+The other two registers are used for authentication and security purposes.
+The Equipment Identity Register (EIR) is a database that contains a list of
+all valid mobile equipment on the network, where each mobile equipment
+is identified by its International Mobile Equipment Identity (IMEI).  An
+IMEI is marked as invalid if it has been reported stolen or is not
+type approved.  The Authentication Center (AuC) is a protected database 
+that stores a copy of the secret key stored in each subscriber's SIM card,
+used for authentication and ciphering on the radio channel.
+
+<h3>Radio transmission aspects</h3>
+
+The radio spectrum in the bands 890-915 MHz for the uplink (mobile 
+station to base station) and 935-960 MHz for the downlink has been
+reserved in Europe for mobile networks.  At least 10 MHz in each band
+was reserved explicitly for GSM.  This 2x25 MHz spectrum
+is divided into 200 kHz carrier frequencies using FDMA.  
+One or more carrier
+frequencies are assigned to individual base stations, and each carrier is
+divided into eight time slots using TDMA.  Groups of eight consecutive
+time slots form <b>TDMA frames</b>, with a duration of 4.615 ms.  
+A transmission channel occupies one time slot position within a TDMA
+frame.  TDMA frames of a particular carrier
+frequency are numbered, and both the mobile station and the base station
+are synchronized on this number.  Larger frames are formed from groups 
+of 26 and 51 TDMA frames (there are also larger groups), and
+position within such frames defines the type and function of a channel.
+<p>
+There is a basic distinction between <b>dedicated</b> and <b>idle</b>
+modes, that arises from on-demand channel allocation due to spectrum
+scarcity.  Dedicated, or traffic, channels provide a bi-directional point-to-point
+transmission link to a mobile subscriber.  Full-rate Traffic Channels
+(TCH/F) and half-rate Traffic Channels (TCH/H) are allocated together 
+with a low bit-rate Slow Associated
+Control Channel (SACCH), which typically transmits measurements needed for
+handover decisions.  There are also eighth-rate Traffic Channels, also
+called Stand-alone Dedicated Control Channels (SDCCH), which are used
+primarily for transmitting location updating information.  In
+addition, a TCH slot can be pre-empted for signalling, in which case
+it is called a Fast Associated Control Channel (FACCH), which can be
+either full-rate or half-rate. TCHs are defined within a 26-frame 
+multiframe.
+<p>
+Common channels can be accessed both by idle mode mobiles, in order
+to change to dedicated mode, and by dedicated mode mobiles, to monitor
+surrounding base stations for handover information.  The common channels,
+which are defined within a 51-frame multiframe, include:
+<dl>
+<dt>Broadcast Control Channel (BCCH)
+<dd> Continually broadcasts,
+      on the downlink, information including base station identity, 
+      frequency allocations, and frequency-hopping sequences.
+<dt>Frequency Correction Channel (FCCH) and Synchronisation Channel
+      (SCH)
+<dd> Used to synchronise the mobile to the time slot structre of a 
+      cell by defining the beginning of a TDMA frame.
+<dt>Random Access Channel (RACH)
+<dd>Slotted Aloha channel used by the
+      mobile to request access to the network.
+<dt>Paging Channel (PCH)
+<dd> Used to alert the mobile station of
+      incoming call.
+<dt>Access Grant Channel (AGCH)
+<dd>Used to allocate an SDCCH to
+      a mobile for signalling (in order to obtain a dedicated channel), 
+      following a request on the RACH.
+</dl>
+
+<h5>Speech and channel coding</h5>
+
+Speech in GSM is digitally coded at a rate of 13 kbps, so-called
+full-rate speech coding.  This is
+quite efficient compared with the standard ISDN rate of 64 kbps.
+One of the most important Phase 2 additions will be the introduction
+of a half-rate speech codec operating at around 7 kbps, effectively
+doubling the capacity of a network.  
+<p>
+This 13 kbps digital stream (260 bits every 20 ms)
+has forward error correction added by a convolutional encoder.
+The gross bit rate after channel coding is 22.8 kbps (or 456 bits every
+20 ms).  These 456 bits are divided into 8 57-bit blocks, and the result is 
+interleaved amongst eight successive time slot bursts for protection
+against bursty transmission errors.
+<p>
+Each time slot burst is 156.25 bits and contains two 57-bit blocks,
+and a 26-bit training sequence used for equalization.  A burst is
+transmitted in 0.577 ms for a total bit rate of 270.8 kbps, and is
+modulated using Gaussian Minimum Shift Keying (GMSK) onto the 200 kHz
+carrier frequency.  The
+26-bit training sequence is of a known pattern that is compared with
+the received pattern in the hope of being able
+to reconstruct the rest of the original signal.  Forward error control
+and equalization contribute to the robustness of GSM
+radio signals against interference and multipath fading.
+<p>
+The digital TDMA nature of the signal allows several processes intended to
+improve transmission quality, increase the mobile's battery life, 
+and improve spectrum efficiency.  These include discontinuous transmission, 
+frequency hopping and discontinuous reception when monitoring the paging
+channel.  Another feature used by GSM is power control, which attempts
+to minimize the radio transmission power of the mobiles and the BTS, 
+and thus minimize the amount of co-channel interference generated.
+
+<h3>Network aspects</h3>
+
+Radio transmission forms the lowest functional layer in GSM.  In
+any telecommunication system, signalling is required to coordinate the
+necessarily distributed functional entities of the network.  The
+transfer of signalling information in GSM follows the layered OSI
+model.  On top of the physical layer described above is the data link
+layer providing error-free transmission between adjacent entities, based
+on the ISDN's LAPD protocol for the Um and Abis interfaces, and on
+SS7's Message Transfer Protocol (MTP) for the other interfaces.
+The functional layers above the data link layer are responsible for
+Radio Resource management (RR), Mobility Management (MM) and Call
+Management (CM).
+<p>
+The RR functional layer is responsible for providing a reliable
+radio link between the mobile station and the network infrastructure.
+This includes the establishment and allocation of radio channels on
+the Um interface, as well as the establishment of A interface links
+to the MSC.  The handover procedures, an essential element of cellular
+systems, is managed at this layer, which involves the mobile station,
+the base station subsystem, and, to a lesser degree, the MSC.  Several
+protocols are used between the different network elements to provide
+RR functionality.
+<p>
+The MM functinal layer assumes a reliable RR-connection, and is responsible for 
+location management and security.  Location management involves the
+procedures and signalling for location updating, so that the mobile's
+current location is stored at the HLR, allowing incoming
+calls to be properly routed.  Security involves the authentication of
+the mobile, to prevent unauthorised access to the network, as well
+as the encryption of all radio link traffic.  The protocols in the
+MM layer involve the SIM, MSC, VLR, and the HLR, as well as the
+AuC (which is closely tied with the HLR).  The machines in the
+network subsystem exchange signalling information through the Mobile
+Application Part (MAP), which is built on top of SS7.
+<p>
+The CM functional layer is divided into three sublayers.  The Call
+Control (CC) sublayer manages call routing, establishment, maintenance, and 
+release, and
+is closely related to ISDN call control.  The idea is for CC to be as
+independent as possible from the underlying specifics of the mobile network.
+Another sublayer is Supplementary Services, which manages the
+implementation of the various supplementary services, and also allows 
+users to access and modify their service subscription.  The final sublayer
+is the Short Message Service layer, which handles the routing and delivery of
+short messages, both from and to the mobile subscriber.
+
+<h3>Conclusion</h3>
+
+The development of GSM is the first step towards a true personal
+communication system that will allow communication anywhere, anytime,
+and with anyone.  The functional architecture of GSM, employing intelligent
+networking principles, and its ideology,
+which provides enough standardization to ensure compatibility, but
+still allows manufacturers and operators freedom, has been widely adopted
+in the development of future wireless systems.
+
+<h3>References</h3>
+
+M. Mouly and M.-B. Pautet, <b>The GSM System for
+Mobile Communications</b>, 1992.
+
+<p>
+M. Mouly and M.-B. Pautet, <i>GSM Protocol Architecture: Radio
+Sub-system Signalling</i>, 
+IEEE 41st Vehicular Technology Conference, 1991.
+<hr>
+<address><a href=http://ccnga/uwaterloo.ca/~jscouria/>John Scourias</a> | 
+jscouria@neumann.uwaterloo.ca | August 3, 1995
+</address>
+</html>
+
+
+
+

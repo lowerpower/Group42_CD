@@ -1,0 +1,71 @@
+                           F15 Strike Eagle
+
+[SIMULATION VIEWS]                   [PRIMARY FLIGHT CONTROLS]
+Normal View            (F1 Key)      Accelerate           (= Key) 
+Full Frontal View      (F2 Key)      Max Accel Power      (shft = Key)
+Rear View              (F3 Key)      Afterburner          (a Key)
+Pilot View             (F4 Key)      Decelerate           (- Key)
+Remote View            (F5 Key)      Cut Throttle         (shft- Key)
+Side View              (F6 Key)      Automatic Pilot      (p Key) 
+Missile View           (F7 Key)      Directional Controls (arrow Keys)
+Padlock View           (F8 Key)    
+Tactical View          (F9 Key)      [SECONDARY FLIGHT CONTROLS]
+Reverse Tactical View  (F10 Key)     Next Sequence Point+       (s Key)
+Zoom In View           (z Key)       Next Sequence Point-       (shft s Key)
+Zoom Out View          (x Key)       Upfront Controller Toggle  (u Key)
+Front/Back Seat        (' Key)       Running Lights             (shft l Key)
+Look Up/Down           (/ Key)       Eject                      (shft e Key)
+Look Left              (< Key)       Landing Gear               (g Key) 
+Look Right             (> Key)       Brake                      (b Key)
+Keypad View Controls   (2-8 Keys)    Picture (AWACS)            (shft p Key)
+
+[SIMULATION CONTROLS]                [APG-70 RADAR CONTROLS]
+Escape                 (ESC Key)     Radar Activate Toggle      (r Key) 
+Joystick Recalibrate   (Alt j Key)   Long/Short Range Scan      (INSert Key)
+Quit                   (Alt q Key)   TWS                        (DELete KEy)
+Pause                  (Alt p Key)   Radar Range Selection      (HOME Key) 
+Accelerate Time        (shft t Key)  Auto Aquisition/Boresight  (END Key)   
+Normal Time            (t Key)       Atenna-Up 5 Degrees        (PAGEUP Key)
+Keyboard Sensitivity   (alt k Key)   Atenna-Down 5 Degrees      (PAGEDWN Key)
+                                     Designate Target           (BACKSPACE)
+                                     Lock-up Target             (l Key)
+                                     Break Lock                 (k Key)
+
+[ECM CONTROLS]                       [MULTI-PURPOSE DISPLAY CONTROL KEYS]
+Jammer Activate Toggle (j Key)       Pilot MPD/MPCDs     
+Release Chaff          (c Key)       Front Left MPD             (1 Key)
+Deploy Flare           (f Key)       Front Right MPD            (2 Key)
+                                     Front Center MPCD          (3 Key)
+
+[MASTER MODES]                       Weapon Officer MPD/MPCDs
+Master Toggle Mode     (m Key)       Rear Outer Left MPCD       (4 Key)
+                                     Rear Inner Left MPD        (5 Key)
+Air-to-Air Mode (AA)                 Rear Inner Right MPD       (6 Key)
+Short Range Missile    (2 Key)       Rear Outer Right MPCD      (7 Key)
+Medium Range Missile   (3 Key)       Place Display In Command   (alt Key +
+Fire Missile           (SPACEBAR)                       Display Number 1-7)
+IFF                    (i Key)       Toggle Display Views       (alt Key + 
+                                                        Display Number 1-7)
+Air-to-Ground Mode (AG)              Zoom In (When Applicable)  (z Key) 
+Left Wing Station      (4 Key)       Zoom Out (When Applicable) (x Key)
+Left Conformal Station (5 Key)
+Centerline Station     (6 Key)       [HUD CONTROLS]
+Right Conformal Station(7 Key)       Increase Hud Brightness    (h Key)
+Right Wing Station     (8 Key)       Decrease Hud Brightness    (shft h Key) 
+Drop Ordinance         (SPACEBAR)    FLIR (HUD Night Vision)    (shft f Key)
+Bombing Mode           (shft b Key)  Declutter HUD              (d Key)
+Jettison AG Ordinance  (shft j Key)
+
+ALL MODES (NAV, AA, AG)              [SLEW CONTROLS (TRAINING MODE ONLY)]
+Guns                   (1 Key)       Slew North                 (alt s)
+Fire Guns              (ENTER Key)   Slew West                  (alt z
+                                     Slew East                  (alt c) 
+[TRAINING MODE CONTROLS]             Slew South                 (alt x)                                     
+Training Mode Key      (alt t Key)   
+Resupply Key           (alt r Key)   [MODEM CHAT MODE KEYS]
+Day/Night Forward                    CHAT MODE                  (; Key)
+  Acceleration         (alt = Key)   Canned Messages            (F1-F10 Keys
+Day/Night Backward                                         with CHAT Mode On)
+  Acceleration         (alt - Key)
+
+Downloaded From P-80 International Information Systems 304-744-2253

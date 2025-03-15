@@ -1,0 +1,1378 @@
+[< All of the following cheats are tested (when possible) on my versions of the
+   games, on my 386-sx20.  They all work with my equipment.
+
+   Anyone not knowing how to 'edit' files to perform some of these cheats
+   can write to me (or anyone) for more information.
+
+   Any problems, questions, submissions please mail to:
+
+   Paul Gosse    paulg@garfield.cs.mun.ca
+
+   Enjoy. >]
+===============================================================================
+ARKANOID
+--------
+Status: Untested
+Source: Unknown
+
+Pause the game with the Space Bar. Now type 'DSIMAGIC' and press Space to
+unpause the game.
+
+A yellow capsule, 'DS' will fall. Catch it. Now the following keys
+will make the following capsules fall at any time.
+
+B - Break        (Opens gates and awards bonus points)
+C - Catch        (Holds ball)
+D - Disruption   (Split into 3 balls)
+E - Expand       (Makes vaus larger)
+L - Laser        (Gives you a laser used with mouse button)
+P - Extra Player (Self Explanatory)
+S - Slow         (Slows down ball)
+
+In addition, pressing 'F' will send you to the last level to fight DOH.
+Be sure to give yourself lots of lives first.
+
+You can skip any level by using ENTER on the keypad.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ARKANOID II  THE Revenge of Doh
+-------------------------------
+Status: Untested
+Source: Unknown
+
+There are several different cheats for this one.
+
+On the high score screen, type 'DEBBIE S' for unlimited lives.
+
+When you die, wait until the title screen appears. Press CAPS LOCK, then
+type 'DALEY-88'.  You will then continue on the same level you died on.
+
+On the title page, type 'ROBOCOPPETER' for continuous mode.
+
+When you die, wait until the title screen appears. Press CAPS LOCK, then
+type 'MAGENTA'.  Now when playing, hit 'S' to skip levels.
+
+Or for unlimited lives the 'edit' way:
+
+SEARCH: revofdoh.dat
+STRING: FE 0E 97 04
+CHANGE: 90 90 90 90
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+BATTLETECH
+----------
+Status: Untested
+Source: The Mad Hacker
+
+        You don't have enough C-Bills?  Well, this will help.
+Save your game and use PCTools, with the GAME# (# = number
+of the save game) ready.  Edit the bytes at offset 05D5(hex)
+and 05D6(hex).  Replace them with 0070.  That should give
+you about 28762 C-Bills when you return to the game.  You
+may go as high as FF7F, which will total 32767, but I
+wouldn't want to go higher than that, or there could be a
+program interpretation messup.
+
+[< Thanks to Bob Igo for submitting this one. >]
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+BRUCE LEE
+---------
+Status: Untested
+Source: The Mad Hacker
+
+        (This is for the disk version only.)  First, Bruce Lee is an
+excellent product.  It's just that (aaarrrggghhh) you have no "falls"
+left, and you feel yourself quite near the finish of the game.
+Suddenly, one of those little dots floating on the floor taps your
+foot and you get zapped.  You see the sign "Game Over" and you
+feel pretty pissed, and wish tou could open the drive and rip the
+disk to shreds - but wouldn't that be a waste?
+
+        One thing you could do is play option C, one player vs. your
+opponent played by the other player.  But this time, play alone, and
+make sure the second joystick is calibrated wrong.  If the computer
+sees that the Green Yamo isn't moving, it will take over, so a
+wrong calibration will make it move all of the time.  So, you're
+playing, but that stupid ninja is in your way and it won't let you
+win.
+
+        So, fix it!  Eliminate him.  And this is how you do it.  Get a disk
+utility, preferrably Norton Utilities.  Zap the Bruce Lee disk.  Make
+the following changes to a backup copy.
+
+   Sector   Offset From         To
+   271      139         09   63
+            354         09      63
+
+>>>Note from Bob:  These are probably decimal values.  Assuming they are,
+>>>you'll probably want to use this table:
+>>>Sector       Offset   From   To
+>>>10F          8B       09     3F
+>>>             162      09     3F
+>>>......of course, I could be wrong.
+
+        That's all there is to it.  Now you play, the Green Yamo flying
+around crazily, and the ninja... hmm... the ninja seems to appear
+for a quick second then disappear.  That's what's supposed to
+happen and there's your fix.  Bye!
+
+[< Thanks to Bob Igo for submitting this one. >]
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CASTLE WOLFENSTINE 3d Episode 1
+-------------------------------
+Status: Tested
+Source: Ben Rudiak-Gould
+
+(v1.0 means Wolf3D version 1.0 and v1.1 means Wolf3D version 1.1)
+
+To enter the mode, do the following:
+
+1.  Invoke Wolfenstein 3-D with the "next" parameter (wolf3d -next)
+    for v1.0, or the "goobers" parameter for v1.1.  You can also use
+    whatever other command-line parameters you want.
+
+2.  Begin or restore a game.  While in the game, hold down the TAB,
+    CONTROL, and ENTER keys simultaneously for v1.0, or the LEFT SHIFT,
+    ALT, and BACKSPACE keys for v1.1.  You should get a message stating
+    that debugging keys are now available.
+
+That's it!
+
+To use debugging mode commands, hold down the TAB key and one of the
+letter keys listed below simultaneously:
+
+B   Changes the screen border color.  Don't ask me why it's here, but
+    it's here.
+
+C   Displays the number of statics, doors, and actors in the level.  I
+    believe that statics are things like food and ammo that you can
+    pick up, and actors are the bad guys.  Doors should be
+    self-explanatory.
+
+E   Moves you ahead two levels.  That's right, not one level, but two.
+    Unlike the W command (see below), this also takes you to the "level
+    completed" screen and gives you percentages, bonuses, etc.
+
+F   Displays your current position on the level (X,Y) and orientation (A).
+
+G   Turns what Id calls "GOD mode" on and off.  Basically it just
+    means that you're invincible.
+
+H   Hurts you (-16% health).  Not much use to us, but I guess Id had
+    to debug their damage code just like everything else.
+
+I   "Free items."  Ups your health, ammo, and score, and gives you the
+    next most powerful weapon.  (Machine gun if you didn't have it,
+    very large machine gun if you did.)
+
+M   Displays memory usage.  Loads of fun.
+
+N   Turns "No clipping" on or off.  This lets you walk through walls.
+    Wall-walking does STRANGE things to the graphics (try approaching a
+    door from the side and opening it).  It also does strange things
+    to the bad guys.  If you walk into a room through the wall, often
+    they won't notice you at all, even if you walk right in front of
+    them or fire your machine gun (in some direction besides at them,
+    of course).
+
+O   Changes the main viewscreen to a map of the current level, which
+    you can scroll through using the movement keys or the mouse.  It's
+    neat, but I wish that it wasn't so ugly.  Those numbers are from
+    the internal level format.  ESC will get you out.  Unfortunately
+    this command doesn't work in v1.1.
+
+P   Pauses the game, without putting up the little "Paused" window.
+    I guess this makes it nice for taking a screen shot, although in
+    v1.1 it changes the screen border to an ugly white.
+
+Q   Bombs the machine in v1.0.  Exits the game in v1.1.  Both of these
+    functions are about equally useless.
+
+S   Turns slow motion on or off.  If you have a slow computer you
+    don't need this.
+
+T   Pops up a window which displays graphics and sounds from the game.
+    Use the left and right arrow keys to page through the entries.
+    If you come to a blank entry, keep going.  You'll know when you've
+    reached the end (500-something) because you won't be able to go
+    any higher.  ESC exits.  v1.1 has some interesting graphics that
+    v1.0 lacks, including two sprites which are particularly intriguing.
+    Don't bother calling Apogee and making yourself look like a fool
+    only to be told that you didn't win anything; I already did.  (You'll
+    understand what I mean when you've seen the sprite.)
+
+V   Asks you how many extra VBLs you want.  High values seem to make
+    the game sluggish and not much else.
+
+W   Warps to any level.  10 is the secret level.
+
+X   "Extra stuff."  It definitely does something, but I can't figure
+    out what.  Let me know what you find.
+
+There is one other debugging feature, demo recording mode, that is
+not accessed in the same way as the other commands.  To record a demo,
+follow step one from the beginning of this article, and then hold down
+TAB at the title screen (the one with B.J. hiding from a guard).
+Unfortunately, there doesn't seem to be any way to display these demos
+after they've been recorded, but if you've ever had a secret desire
+to play Wolfenstein 3-D with a big "DEMO" sign at the top of the
+screen, this is how to do it.
+
+
+[< And here are some misc. edits from Michael Yakubovich >]
+
+Wolfenstein 3D, v1.1 (for the 1st episode at least)
+
+FILE: WOLF3D.EXE
+You have to use UNLZEXE.
+
+Unlimited ammo
+ORIGINAL: FF 0E D8 87 0E E8 44 F4
+PATCH   : 90 90 90 90 == == == ==
+
+Irreducible health (god mode does same thing)
+ORIGINAL: 29 36 D6 87 83 3E D6 87 00
+PATCH   : 90 90 90 90 == == == == ==
+
+With this patch you won't see the blasts when the Nazis shoot at you; those
+blasts are pain when you use god mode and a lot of guys shoot at you at the
+same time: the whole screen goes red. You still will be hit, however,
+if you don't use a patch for health or god mode.
+ORIGINAL: 83 3E 3C 96 00 74 2F A1 3C 96
+PATCH:    == == == == == EB == == == ==
+
+If you want to use the LIM feature, but want to keep your score try this:
+ORIGINAL: C7 06 DA 87 03 00 C7 06 CE 87 00 00 C7 06 CC 87 00 00
+PATCH   : EB 0A 90 90 90 90 == == == == == == == == == == == ==
+
+And this will get rid of a need to press a key after using LIM.
+ORIGINAL: 9A 09 0B 19 17 9A 30 0A 26 0B 83 3E 6F 8E 00 75 03
+PATCH   : EB 03 90 90 90 == == == == == == == == == == == ==
+
+All the patches seem to be working, but I only tested them for half an hour,
+so no flames please. And ALWAYS SAVE you original file.
+
+Note: I didn't test these patches on all 6 episodes (I have only 1).
+My search strings are long I know, but I wanted to be sure there are no more
+occurences of these strings in the file.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+COMMANDER KEEN 1
+----------------
+Status: Untested
+Source: Jeffery Foy
+
+Press C-T-SPACE to get all the 'goodies'.
+
+Press  G-O-D  to enable God Mode.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+COMMANDER KEEN 4, 5, & 6
+------------------------
+Status: Tested on Keen 4
+Source: Jeffery Foy and Frederik Abelson
+
+There is a debug mode for these games:
+
+A+2+<enter>  = Debugging keys  (need to use this one first or the
+               others below don't work...)
+
+<F10>+J      = Extended JUMP mode
+<F10>+I      = Free Items (gives you all the jewels and a wetsuit)
+<F10>+N      = No clipping (float right through walls and ceilings
+               and floors ... NOTE: makes you disappear if you're
+               already on the main floor)
+<F10>+G      = GOD mode (nothing can kill you in this mode)
+<F10>+W      = Warp to level (numbered 1 to 18)
+
+NOTE: where a sequence is in <>, you press and hold that key in addition
+to the other keys in the sequence. Also, don't press the + for those
+sequences -- that's just to make things prettier on screen.
+
+
+There is also a practice mode available that will give you infinite lives to
+practice a certain level.  The only problem with this is that if you use the
+control panel, you can only play paddle war or return to the game or the
+system locks up.  Also, if you leave the level in any way (finishing it, etc)
+the system will lock up.
+
+To practice, boot the game with:  KEEN4E /TEDLEVEL ??
+    where ?? can be any number from 0 to 18.
+
+   0 - Shadowlands                   11 - Pyramid of the Moons
+   1 - Border Village                12 - Pyramid of Shadows
+   2 - Slug Village                  13 - Pyramid of the Gnosticene Ancients
+   3 - Perilous Pit                  14 - Pyramid of the Forbidden
+   4 - Cave of the Descendants       15 - Isle of Tar
+   5 - Chasm of Chills               16 - Isle of Fire
+   6 - Crystalus                     17 - Well of Wishes
+   7 - Hillville                     18 - Bean-with-Bacon Megarocket
+   8 - Sand Yego
+   9 - Miragia
+  10 - Lifewater Oasis
+
+[< I'm sure the are more /TED switches, but I don't know them. >]
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                                                                 
+COSMIC COSMO
+------------
+Status: Untested
+Source: Kathleen Bedard
+
+Press  C-0-F10  simultaneously for full health and nine bombs.
+
+[< And a debug mode! >]
+
+Press TAB-F12-DEL simultaneously to enable the debug mode.
+
+  F10-W   Warp to any level
+  F10-G   God mode  (toggle)
+  F10-M   Memory Status
+
+[< Apogee debug modes are starting to look repetative. >]
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+D/GENERATION
+------------
+Status: Untested
+Source: Bob Igo
+
+	This game was quite easy to solve, without any edits.
+However, once I finished it, I found that I had this urge to
+make edits to it, just to keep in practice.  So, if you ever
+have a chance to play the game, please play it the right way
+first, and then go back and make the edits.
+
+	Finding the info was easy as well.  I just played the
+game, saved it after I was on different floors, and wrote
+down all the information that was on the saved game,
+game.dat.  Then, I compared the information based on what
+was different about the saved games (# of lives, # of lives
+saved, # of grenades, scene, floor, stuff possessed) and
+eventually, through trial and error, I came up with the
+following information about the file, game.dat:
+
+hex offset      what it is      recommended range
+-----------------------------------------------------
+02                      scene - 1               ?
+06                      lives           00-7F
+07                      lives saved     00-7F
+08                      floor           ?
+09                      grenades                00-30
+0F                      bombs           00-30
+10                      freezes         00-30
+11                      shields         00-30
+12                      laser fields    00-30
+13                      packages                01
+21                      time left               00-30
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEATH TRACK
+-----------
+Status: Untested
+Source: Michael Yakubovich
+
+FILE: DT.EXE
+
+Use this patch and laser battery will never be exhausted again!
+ORIGINAL: 83 3E 0E 9B 00 75 03 E9 7B 01 FF 0E 0E 9B
+PATCH   : == == == == == == 07 == == == 90 90 90 90
+
+This one gives you unlimited ammo.
+ORIGINAL: 83 3E 5C 8E 00 75 03 E9 93 02 FF 0E 5C 8E
+PATCH   : == == == == == == 07 == == == 90 90 90 90
+
+For unlimited number of missles:
+ORIGINAL: 83 3E 86 9A 00 75 03
+PATCH   : C6 06 == == 0A EB ==
+
+For unlimited number of terminators:
+ORIGINAL: 83 3E 38 92 00 75 03
+PATCH   : C6 06 == == 0A EB ==
+
+For unlimited number of mines:
+ORIGINAL: 83 3E 04 5C 00 75 03
+PATCH   : C6 06 == == 0A EB ==
+
+And unlimited number of caltrops:
+ORIGINAL: 83 3E DC 96 00 75 03
+PATCH   : C6 06 == == 0A EB ==
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ELITE PLUS
+----------
+Status: Untested
+Source: Joost Schuur 
+
+A while back I posted a question, whether someone had succeded in decoding
+the save game file for Elite Plus and especially the checksum generated by
+the programm. I didn't get the response I wanted, but managed to find out
+how to get more money then you'll ever need. Here goes:
+
+1. Save games are 226 bytes long, with an at least 16-bit checksum at the end.
+
+2. The string containing the amount of credits, from offset 20 (hex) to 32
+   (hex) is a dummy. It is _not_ the actual amount of money you have,
+   just the ASCII represenation.
+
+3. The actual amount of money is encoded in at least the three bytes offset
+   8c, 8d, and 8e. Convert this number into a decimal and divide it by 10
+   to get the actual amount of cash. Thus, 03e8 (hex), which is 1000 (dec)
+   corresponds to 100.0 credits. However, the checksum in the save game file
+   still prevents tampering with it.
+
+4. The solution: Alter the default game you start of with in ELITE.EXE itself
+   with a hex file editor of your choice. The defualt game you start of with
+   starts at offset 11366 (At least it does in my version.  Scan the file for
+   '100.0 credits' to be sure). Look for the bytes 03 e8 00 (100.0 credits) and
+   replace them by 40 42 0f. Now you have 100000 credits whenever you start
+   a game from scratch.
+
+5. About half of the future save file can be found in elite.exe and you can
+   alter some other values to change name, hyperspace system selected, missiles
+   etc. However I just flew my ship from Lave to Leesti (Tech level 10) and
+   bought my stuff there, with all the extra cash I had.
+
+   I used Elite Plus release V3.1. I have no idea if there are other versions
+out, but the offset I mentioned will most certainly be different then.
+
+Thanks go to Bob Igo for decoding the cash format.
+
+   I seem do have found the bytes that correspond to your rating.  They're
+the four bytes before the name (e.g. JAMESON). Strange enough, they're
+there twice. In elite.exe at the beginning they're set to 00 00 00 00, and
+setting them to ff 00 ff 00 gives you a deadly rating (I think).
+00 04 00 04 makes you 'elite' then :-0.
+
+I wonder why they're there twice?
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	      
+EYE OF THE BEHOLDER II 
+----------------------
+Status: Untested
+Source: Young Chung
+
+There may be errors, and if they are detected, please let me know by e-mail.
+My address is at the end of the file.
+
+
+With each item name are the 2-byte hex representations used in the save file.
+They range from 00 00 to D3 01 (notice the lowbit-highbit order).  Anything
+beyond D3 01 is up to you to explore (beware of system crashes!).
+
+NOTE ON Lowbit-Highbit order:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Machines using Intel 80x86 chips, such as IBM and compatibles, place the
+least significant byte first.  That is, Hex digits in a Hexadecimal number
+are place in reverse order.  For example, 237643 in decimal is equivalent to
+24 42 F0, but it would be represented as F0 42 24 by placing the least
+significant byte "F0" first, then "42" and finally "24".
+Thus the above example of 00 00 to D3 01 is actually 00 00 to 01 D3, which
+is 0 to 467 in decimal.
+
+The save file has the following format: (might not be accurate)
+
+(byte "01")
+Character Name: (11 bytes)
+Abilities: (2 bytes each, first is current, second is maximum)
+           in-order: Strength, Percentage, Intelligence, Wisdom, Dexterity
+                     Constitution, Charisma
+Hit point: (4 bytes, first two are current, second two are maximum)
+(2 bytes that I'm not sure what they are)
+Race and Sex (1 byte)
+          00 Human Male            06 Dwarf Male
+          01 Human Female          07 Dwarf Female
+          02 Elf Male              08 Gnome Male
+          03 Elf Female            09 Gnome Female
+          04 Half-Elf Male         0A Halfling Male
+          05 Half-Elf Female       0B Halfling Female
+Character Class (1 byte)
+          00 Fighter               08 Fighter/Mage
+          01 Ranger                09 Fighter/Mage/Thief
+          02 Paladin               0A Thief/Mage
+          03 Mage                  0B Cleric/Thief
+          04 Cleric                0C Fighter/Cleric/Mage
+          05 Thief                 0D Ranger/Cleric
+          06 Fighter/Cleric        0E Cleric/Mage
+          07 Fighter/Thief
+Alignment (1 byte)
+          00 Lawful Good     03 Lawful Neutral    06 Lawful Evil
+          01 Neutral Good    04 True Neutral      07 Neutral Evil
+          02 Chaotic Good    05 Chaotic Neutral   08 Chaotic Evil
+Character Picture (1 byte)
+Food (1 byte)  00 to 64 representing 0 - 100 %
+Character Levels (3 bytes, 1 byte for each class)
+Experience Points (12 bytes, 4 bytes for each class, note: high-bit low)
+(168 bytes, I'm not sure what they represent)
+(NOTE: each item below takes up 2-bytes)
+(====  If you assign invalid items (i.e. Helmet on Feet) the system would
+       crash when you click on that character during the game)
+Right Hand Item (i.e. Weapons, shields, scrolls, books, etc..)
+Left Hand Item (i.e. Ditto ^)
+14 items in the backpack
+Arrows (See note below)
+Body Armour (i.e. Robe, cloak, platemail, etc..)
+Wrist Armour (i.e. Bracer)
+Head Armour (i.e. Helmet)
+Neck Armour (i.e. Necklace, Amulet, etc..)
+Feet Armour (i.e. Boots)
+3 items in waistpack  (i.e. rocks, daggers, etc..)
+First finger (i.e. Rings)
+Second finger (i.e. Ditto ^)
+(Then some more bytes of unknown purpose, then the next character)
+
+NOTE ABOUT ARROWS:
+~~~~~~~~~~~~~~~~~
+Notice that there is only one slot for arrows, but it is possible to have
+more than one arrow during the game.  To compensate for this, some arrows
+are specially numbered to represent the number of arrows a character is
+carrying. (i.e. E8 00 for 2 arrows, up to EF 00 for 9 arrows(max)).  But,
+don't take my word for it.
+
+ARMOUR:
+~~~~~~
+Gold Platemail: 1F 01, AF 01
+Platemail: 24 00, 95 00, B5 00, 46 01
+Banded Armour: 58 00, 43 01
+Dragon Skin Armour: 77 01
+Chainmail: 17 00, C4 00, 7C 01
+Scalemail: 38 00
+Scalemail(+1): B2 01, B9 01, C9 01
+Leather Armour: 01 00, 7D 00
+Leather Armour(+1): BF 01
+Cloak: 37 00
+Cloak "Moonshade": E7 00
+Robe: 02 00, 64 00, D2 00, 68 00, AC 01
+
+Shield: 1F 00, B3 01, BA 01, CA 01
+Shield(+1): C0 00
+Shield (Face): C1 00
+Polished Shield: 4A 00, 7F 01, 86 01, 87 01, 93 01, 94 01, 95 01
+Blue Shield: 96 00, 45 01
+
+Helmet: 23 00, 68 00, B7 00
+Helmet (Horns): 98 00
+Blue Helmet: C7 00, 47 01
+
+Bramma's Boots: 90 01
+Leather Boots: 67 00, EF 00, 69 00
+Blue Leather Boots: B8 00, 44 01
+
+Jhona's Cloak: 55 00, 91 01
+Bracers of Protection: 35 00, CE 00, 49 01, 67 00
+Amulet: 36 00, 4B 00, D1 00, 4A 01
+Amulet of Life: 5F 00, 62 00, 85 01, B0 01
+Amulet of Death: 63 00, B1 01
+Amulet of Resurrection: 97 01
+Necklace: 5A 00
+Red Ring: 2D 00, 7D 01
+Blue Ring: 2E 00, 0D 01, 8E 01
+Ring of Adornment: 2F 00
+Crimson Ring: 56 00, AA 01, AB 01
+Ring of Protection: 59 00
+
+WEAPONS:
+~~~~~~~
+Sling: 25 00, 76 00, 98 01
+Dart: 31 00, BA 00, BC 00
+Blue Dart: BB 00
+Arrow: 34 00, DD 00, DE 00, D8 00, D9 00, DA 00, DB 00, DC 00, DD 00, DE 00
+       DF 00, F3 00, F4 00, 4F 01, 50 01, 51 01, 52 01, 53 01
+Wooden Bow: 32 00, F0 00
+Iron Bow: 33 00, 4E 01
+Spear: 57 00
+Staff: 03 00, 6A 01
+Curved Staff: CB 00
+Wand: 3B 00, 60 00, 16 01, 29 01, 78 01
+Dagger: 04 00, 83 00, BD 00, BE 00, C3 00, 63 01, 6B 01, 6C 01
+Rusty Dagger: F2 00
+Dagger "Yargon": 7B 00
+Dagger "Sa Shull": B1 00
+Stone Dagger: 9A 01
+Short Sword: 05 00, 37 00, 76 00
+Short Sword(+1): C1 01
+Curved Short Sword: 41 01
+Short Sword "Sting": 86 00
+Long Sword: 7A 00, 97 00, B6 00, C5 00, B4 01, BB 01
+Long Sword "Hath Kull": CD 00
+Long Sword "Hunger": 2A 01
+Two handed Sword: 3D 00, 10 01, 18 01
+Halberd: 6E 01
+Flail: 3A 00
+Axe: 16 00, D7 00, 28 01
+Axe "The Bait": 85 00
+Mace: 1A 00, A2 00, 75 01
+Mace(+1): CB 01
+Mace "Thumper": 79 00
+Polearm: 5B 00, 35 01
+Polearm "Leech": 42 01
+Crystal Hammer: 53 00, 6F 01
+
+ITEMS:
+~~~~~
+Lock Picks: 06 00, 21 01, C8 01
+Set of Bones: 13 00, 74 00
+A Complete Set of Elf Bones: 93 00, 24 01
+A Complete Set of Dwarf Bones: A6 00
+Skull: 20 00, 91 00, A3 00, A7 00, A8 00, AD 00, C8 00, CA 00, CC 00, 1B 01
+       39 01, 79 01, A1 01, A5 01
+Femur: 21 00, 92 00, A9 00, AA 00, AE 00, B2 00, B3 00, C0 00, C2 00, 1A 01
+       33 01, 38 01, 5F 01, 63 01, 65 01, 66 01, 73 01, 7A 01, 9F 01, A0 01
+       A2 01, A3 01, A4 01
+Rock: 10 00, 64 00, 65 00, 66 00, 67 00, 68 00, 69 00, 6A 00, 6B 00, 6C 00
+      A1 00, AB 00, AF 00, B0 00, F5 00, F6 00, F7 00, F8 00, 96 01, A6 01
+Parchment: 1C 00, 72 00, 78 00, 9B 00, 9C 00, 9D 00, 1E 01, 23 01, 54 01
+           92 01
+Tuning Fork: 41 00 (?)
+Vial: 42 00 (?)
+Trident: 43 00 (?)
+Starfire: 54 00, 8B 01
+Sceptre of Kingly Might: 5C 00
+The Shell of Rejoice: A9 01
+Khelben's Coin: 5D 00, B8 01
+Mapaj: A8 01
+Coin: 5E 00
+Sticky Paper: 61 00, AD 01
+
+KEYS:
+~~~~
+Grey: 11 00, 6F 00
+Copper: 12 00, 70 00, FF 00, 17 01, 2F 01, 32 01
+Skull: 1D 00, 82 00, 84 01
+Dark Moon: 1E 00, 8D 00, C6 00, DC 00, E1 00, 5B 01, 5C 01, 5D 01, 5E 01
+Spider: 26 00, AC 00, D3 00, D9 00
+Bone: 40 00, 3D 01
+Mantis: 48 00, 2B 01
+Crystal: 4D 00, 8D 01
+Shell: 4E 00, 8C 01
+Crimson: 50 00, 89 01
+
+POTIONS:
+~~~~~~~
+Giant Strength: 18 00
+Cure Poison: 8F 00, B4 00, 34 01, 3E 01, 3F 01, 40 01, 57 01, 58 01
+Vitality: 90 00, 13 01
+Speed: 9E 00
+Healing: 9F 00, A0 00, C9 00, E0 00, 11 01, 48 01, 60 01, 61 01, 62 02
+         6D 01
+Extra Healing: DF 00, 12 01, 14 01, 55 01, B7 01, BE 01, C4 01, CE 01
+
+FOOD:
+~~~~
+Rations: 19 00, FD 00, FE 00, 7B 01
+Iron Rations: 0A 00, 6D 00, 6E 00, 8B 00, 8C 00, 99 00, D4 00, D5 00, D6 00
+              08 01, 09 01, 0A 01, 0B 01, 0C 01, 0D 01, 0E 01, 0F 01, 2E 01
+              71 01, B5 01, B6 01, BC 01, BD 01, C2 01, C3 01, CC 01, CD 01
+Rotten Food: 7C 00, 3B 01, 3C 01
+Rotten Ration: 72 01
+
+MAGIC:
+~~~~~
+Spell Book: 07 00, 94 00, 20 01, C5 01, CF 01
+Cleric's Holy Symbol: 08 00, D2 01
+Paladin's Holy Symbol: 1B 00, 1C 01
+Mage Scroll of Magic Missile: 71 00, C6 01, D0 01
+               Blur: 7E 00
+               Lightning Bolt: A4 00, 15 01
+               Haste: D0 00
+               Detect Magic: E4 00
+               Shocking Grasp: E5 00
+               Fireball: E6 00, 74 01, C7 01, D1 01
+               Remove Curse: F1 00
+               True Seeing: F9 00
+               Improved Identity: 00 01, 83 01
+               Invisibility: 27 01
+               Invisibility 10' Radius: 9B 01
+               Dispell Magic: 2D 01
+               Disintegrate: 5A 01
+               Hold Monster: 7E 01
+               Stone to Flesh: 8A 01
+               Flesh to Stone: 9D 01
+               Ice Storm: 8F 01
+               Cone of Cold: A7 01
+               Wall of Fire: 99 01
+               Fear: AE 01
+Cleric Scroll of Neutralize Poison: 73 00, 8E 00, A5 00
+                 Raise Dead: 75 00, E3 00, 19 01, 56 01
+                 Cure Serious Wound: 89 00, 8A 00, D3 01
+                 Create Food: FB 00, FC 00
+Magic Dust: 7F 00, 80 00, 81 00, 22 01, 25 01, 26 01
+
+SPECIAL ITEMS:
+~~~~~~~~~~~~~
+Stone Gem: 27 00
+Stone Dagger: 28 00, 9A 01
+Stone Sphere: 29 00
+Stone Cross: 2A 00
+Stone Necklace: 2B 00
+Glass Sphere: 30 00, DA 00, DB 00, 30 01, 4B 01, 4C 01, 4D 01
+??? : 3A 00
+Red Gem: 44 00, 03 01, 3A 01
+Green Gem: 45 00, 02 01
+Blue Gem: 46 00, 01 01
+Purple Gem: 47 00
+Tropelet Gem: 04 01, 05 01, 06 01, 07 01
+Soul Gem: 80 01
+Heart Gem: 81 01
+Body Gem: 82 01
+Mantis Idol: 49 00, 31 01
+Eye of Talon: 4C 00, 88 01
+Tooth: 4F 00, 9E 01
+Talon's Tongue: 51 00
+Hilt of Talon: 52 00, 9C 01
+Talon: FA 00
+North Wind: 77 00
+East Wind:
+South Wind: E1 00
+West Wind: B9 00
+
+[< Thanks to Bob Igo for sending me this one. >]
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+F29 RETALIATOR
+--------------
+Status: Tested
+Source: Unknown
+
+For your name, enter 'THE DIDYMEN'.  Click on the colonel ICON and hit
+return.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INDIANA JONES and THE LAST CRUSADE
+----------------------------------
+Status: Untested
+Source: Unknown
+
+On the title screen, type 'IEHOVAH'.  The screen should flash.  During the
+game 'L' will skip levels, 1 and 2 will go to the halfway points of the
+level.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+THE LAST NINJA
+--------------
+Status: Untested
+Source: The Mad Hacker
+
+        Not enough lives?  Well, save your game and enter your hex-
+style editor with that saved game file open for editing.  Change the
+byte at offset 59(hex) to FF.  The FF will give you 255 lives.  The
+bottom status screen will be cluttered with "lives", but they won't
+affect the game.
+
+[< Thanks to Bob Igo for this submission. >]
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+LEISURE SUIT LARRY II
+---------------------
+Status: Untested
+Source: Unknown
+
+Press ALT-X to bypass the proof of age questions.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+LEMMINGS
+--------
+Status: Mostly tested
+Source: Unknown
+
+Lemmings' codes
+
+Rating: FUN        Rating: TRICKY      Rating: TAXING      Rating: MAYHEM
+
+ 1 - (none)         1 - HCEONONPDX      1 - MFMCCJONFM      1 - NKMFLGCLHP
+ 2 - IJJLDNCCCN     2 - CINNONHQDL      2 - FMCKKMMOFO      2 - KNOHGONMHS
+ 3 - NJLDLCADCY     3 - CAJJLDMBEV      3 - ICGNOONPFM      3 - ONHGGKONHM
+ 4 - HNLHCIOECW     4 - KJHLDMCCEO      4 - CKNOMFMQFL      4 - FLGKJOMOHK
+ 5 - LDLCAJNFCK     5 - OHLLICADEO      5 - GCJKNLHBGT      5 - HGCNOMNPHL
+ 6 - DLCIJNLGCT     6 - HLDMCMOEEX      6 - KKKLLHGCGL      6 - GOOMMNHQHX
+ 7 - LCANLLDHCO     7 - LDMCCJNFEP      7 - NKNDHGCDGR      7 - GCJKLDMBIQ
+ 8 - CINNLDLICJ     8 - DMCMJLLGEY      8 - ILDLGKOEGL      8 - KJILDMGCIX
+ 9 - CEKHMDLJCO     9 - ICGNLNMHEC      9 - LDLGCJOFGU      9 - NILDMGCDIU
+10 - MJHMDLCKCW    10 - CMNLLDMIEO     10 - DLGKJOLGGO     10 - ILDMGKOEIO
+11 - OJOLHCGLCO    11 - CCJIMDMJEP     11 - LGCNOLDHGL     11 - LLIGCJMFIK
+12 - HMDLCIOMCJ    12 - KKIOLICKEP     12 - GKNOLDLIGU     12 - DMGKJOLGIR
+13 - MDLCAKLNCS    13 - OHOLICALEJ     13 - GCJIMLHJGY     13 - MGCNOLDHIO
+14 - DLCIJNMOUM    14 - HMDMCINMEL     14 - KKIMDLGKGO     14 - GKNOLDMIIX
+15 - LCANNMDPCJ    15 - MDMCAJLNEU     15 - NIMDLGGLGO     15 - GGJIMDMJIL
+16 - CINNMDLOCS    16 - LMBIJNOOEY     16 - IMDLGONMGX     16 - KJIMDMGKIQ
+17 - CAKHLFLBDU    17 - ICANNMLPEQ     17 - MDLGCJMNGM     17 - NKMDMGCLIP
+18 - IJJLNHCCDS    18 - CINLMDMQET     18 - DLGOJMMOGJ     18 - IMDMGKNMIW
+19 - NJNNHCADDR    19 - CCKHNNIBFP     19 - LGGNMMDPGW     19 - OLIGCKMNIW
+20 - HLFLCMNEDW    20 - KJKLFMCCFU     20 - GKNOOLHQGT     20 - LIGKJOOOIQ
+21 - LNHCAKNFDS    21 - NILFMCGDFT     21 - GCJINNHBHU     21 - MGCNOMDPIX
+22 - FLCMKLLGDJ    22 - KNNICONEFU     22 - KJKLFLGCHJ     22 - GKNOMDMQIQ
+23 - LCAOLLFHDS    23 - NNICGKOFFO     23 - OINNHGCDHL     23 - GGJILFMBJU
+24 - CIOLLFLIDL    24 - NMBKJONGFU     24 - ILFLGONEHR     24 - OJILFMGCJO
+25 - CEJHOFHJDO    25 - MCCOMLFHFY     25 - LFLGCJOFHY     25 - NKLFMGCDJJ
+26 - OKHMFLCKDM    26 - BKNONFIIFP     26 - NHGOKONGHM     26 - ILFMGONEJU
+27 - NJMFLCACDU    27 - CCJKMFMJFU     27 - LGCNOLFHHO     27 - LNIGCJMFJU
+28 - HMNHCIOMDQ    28 - OKKONICKFY     28 - GOOOLNHIHQ     28 - FMGKJOLGJU
+29 - ONHCAKNNDN    29 - OIMFMCCLFJ     29 - GCJIOFHJHU     29 - MGCNOLFHJR
+30 - FHCMKLMODO    30 - KMFMCKNMFT     30 - KJIMFLGKHQ     30 - GKNONNIIJQ
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+OH NO MORE LEMMINGS
+-------------------
+Status: Untested
+Source: Unknown
+
+TAME LEVEL
+
+01. ---------- 50  50  1 4 Down & out Lemmings
+02. IHRTDLCCAR 50  50  1 4 Rent-a-Lemming
+03. LRTDLCADAO 50  50  1 4 Undercover lemming
+04. RTDLCILEAH 50  50  1 4 Downwordly Nobile lemmings
+05. TDLCAHTFAO 50  50  1 4 Smuggle up to a lemming
+06. DLCIHUTGAJ 50  50  1 4 Intsy-wintsy... lemming!
+07. LCALUTDHAG 50  50  1 4 Who's that lemming
+08. CILUTDLIAP 50  50  1 4 Dangerzone
+09. CAHRUDKJAR 50  50  1 4 And now this...
+10. IHRUDLCKAK 50  50  1 4 New lemmings on the block
+11. LRUDLCALAH 50  50  1 4 With compliments
+12. RUDLCILMAQ 50  50  1 4 Citizen lemming
+13. UDLCAHVNAJ 50  50  1 4 Thunder-lemmings are go!
+14. DLCIITUOAR 50  50  1 4 Get a little extra help
+15. LCALVUDPAP 50  50  1 4 Not just a pretty lemming
+16. CILVUDLQAI 50  50  1 4 Gone with the lemming
+17. CAHRTFLBBL 50  50  1 4 Honey, i saved the lemmings
+18. IHRTFLCCBE 50  50  1 4 Lemmings for presidents!
+19. LRTFLCADBR 50  50  1 4 Lemming Productions present...
+20. RTFLCILEBK 50  50  1 4 Custom built for lemmings
+
+CRAZY LEVEL
+
+01. TFLCAHVFBD 50  96  1 3 "That's a good level"
+02. FLCIHTTGBK 80 100 99 4 Dolly simple
+03. LCALUTFHBJ 50  96 80 4 Many lemmings make level work
+04. CILTTFLIBQ 20 100 99 3 Lemming Express
+05. CAHRUFLJBE 80 100  1 4 24 hour lemathon
+06. IHRUFLCKBN 20 100  1 3 The stack
+07. LRUFLCALBK 50 100  1 3 And now, the end is near
+08. RUFLCILMBD 80  93  1 4 Keep on trucking
+09. WNHCEIVNBH 20 100 50 1 On the antarctic coast
+10. FLCIHVUOBF 80  98  1 3 Rocky VI
+11. LCAMTUFPBR 80  10  1 1 No problemming!
+12. BIMTUNLQBT 80  93  1 3 Lemming friendly
+13. CAIPTDMBCK 20  50  1 3 It's a trade off
+14. IHRTDMCCCF 50  90  1 4 Time waits for no lemming
+15. LRULICADCH 50  88  1 3 Worra load of old blocks!
+16. RVLICILECQ 16 100  1 3 Across the gap
+17. TDMCAHVFCD 50  99  1 3 Digging for victory
+18. DMCIITTGCL 50  90 10 3 No problem
+19. ICAMTVLHCO 50  90  5 3 Don't panic
+20. CILVVLIICI 20  50  1 4 Ice ice lemming
+
+WILD LEVEL
+
+01. BAHRWLMJCN 60  88  5 4 Pop you top!!!
+02. IHPUDMCKCL 80  75  1 4 Lemming hotel
+03. LPUDMCELCM 60  81  1 3 Lemming rhythms
+04. PUDMCIMMCS 80 100  1 4 Meeting adjourned
+05. UDMCAHVNCM 80  85  1 4 Lemming head
+06. LICMHVWOCP 80 100  1 2 Just a quicky
+07. MCALVUDPCS 80 100 99 2 You take the high road
+08. CILVUDMQEL 10 100  1 1 It's a tight fit
+09. CAHRTFMBDO 40 100 50 4 Ice station lemming
+10. IHRTFMCCDH 80  75  1 3 Higgledy Piggledy
+11. MRTNICADDJ 50  98  1 3 Mutiny on the bounty
+12. PTFMCIMEDM 50  80  1 3 Snow joke
+13. TNICAHTFDL 80  93 10 3 Onward and upward 
+14. NICMHUVGDJ 80  87  5 4 Ice spy
+15. ICEMVVNHDH 50  80  5 3 The silence of the Lemmings
+16. CIMVTNIIDK  1 100  1 3 Take care, sweetie
+17. CAHRUFMJDH 80 100  1 3 The chain with no name
+18. IHRUFMCKDQ 80  75  1 3 Dr Lemming Good
+19. MPUNICELDE 80  81  1 4 Lemmingpelica
+20. PUFMCMLMDI 30  96  1 4 Got anything... Lemmingy???
+
+WICKED LEVEL
+
+01. UFMCAHTNDN 60  80  1 2 Lemming Tomato ketcup facility
+02. NICMHVUOOQ 1  100  1 4 Introducing super lemming
+03. MCALVUFPDF 50 100  1 3 This corrsion 
+04. CILVUFMQDO 50  60  1 4 Oh no! It's the 4th dimension!
+05. GAHRTDHBEM 20 100  1 3 Chill out!
+06. IHRTDLGCEJ 80  37  1 8 Pop til you drop!
+07. MPTLLFADEM 80  90  1 2 Last Lemming to Lemming Central
+08. PVLHGMMEEI 50  90  1 4 A towering problem
+09. VLHGAHVFEO 50  90  1 4 How on Earth?
+10. DLGIHTTGEP 50  96 20 4 Temple of Love
+11. LGALTTDHEM 50  80 10 4 Rocky road
+12. GILVTLHIEL 80  97 60 4 Suicidal tendencies
+13. GEHPUDLJEL 80  87  1 4 Almost nearly virtual reality
+14. IHPWLHGKEG 80  98  1 3 The Lemming learning curve
+15. MPUDLGALEO 50  80  1 4 Spam, spam, spam, egg and Lemming
+16. RULHGILMEM  6  83 75 1 Five alive
+17. ULHGEITNEI 30  96 10 3 Down the tube
+18. DLGIHTUOEI 60  83  1 4 Lots more where they came from
+19. HGAMTWLPEM 50  82  1 2 Up, down or round and round
+20. GIMTULHQED 70  97  1 2 The Lemming Funhouse
+
+HAVOC LEVEL
+
+01. GAIPTFLBFS 80  95  1 4 Tubular lemming
+02. IIPTFLGCFL 30  96  1 4 Be more than just a number
+03. LPTFLGADFH 50 100  1 4 It's the price you have to pay
+04. RTFLGILEFS 20 100  1 3 The race against cliches
+05. TFLGAHVFFL 20 100  1 4 There's madness in the method
+06. FLGIHVTGFE 50 100  1 4 Now get out of that!
+07. LGALVTFHFR 20  75 50 3 Creature discomforts
+08. GILTNNHIFM 50  90  1 4 Lemming about town
+09. GAIPUFLJFL 50 100  1 4 Aaaaaarrrrrrgggggghhhhhh!!!!!!
+10. IHRUFLGKFF 21  14 50 1 Flow control
+11. MRWFHFALFQ 80 100  1 4 Welcome to the party, pal!
+12. RUFLGILMFL 80 100  1 3 It's all a matter of timing
+13. UFLGAHVNFE 80  93  5 4 Highland fling
+14. FLGMHTUOFP 80 100 40 1 Synchronised Lemming
+15. LGALVUFPFK 10  80 20 6 Have an ice day
+16. GILTUNHQFF 50  90 80 2 Scaling the heights
+17. GAIPVLIBGI 80  97 20 2 Where lemmings dare
+18. MHPTDMGCGO 70  97 99 4 Lemmings in a situation
+19. MPTDMGADGI 80 100 30 3 Looks a bit nippy out there
+20. ETDMGILEGS 60  83  1 7 Look before you lead!
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+LODE RUNNER V3.0
+----------------
+Status: Untested
+Source: Michael Yakubovich
+
+This will allow you to edit the Master Files.
+
+FILE: LR.COM
+
+SEARCH: 3B 06 9D 79 75 06 3B 1E 9F 79 74 11
+CHANGE: == == == == EB 17 == == == == EB ==
+
+SEARCH: 74 3B A1 75 AA 3D 02 00
+CHANGE: EB == == == == == == ==
+
+[< If there is anyone out there who doesn't know how this is done then
+   ask and ye shall receive. >]
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+MARTIAN DREAMS
+--------------
+Status: Untested
+Source: Arthur Johnson
+
+Obtaining the cheat keys in this game is similar to the process used in Savage
+Empire. However, the keys are not laid-out in such a simple list. Using your
+favorite disk/file editor (such as ZipZap7.14) that counts from sector 0 and
+displays 0 -> 511 bytes per sector, edit "game.exe" in the following way:
+   - Goto sector #195
+   - Starting at byte #12 ( the value should be $39 and its mate $26), copy
+     pairs of bytes to the same sector starting at #232. Skip $EE $2F pairs.
+     Be very careful that you get the pairs copied correctly, or horrible
+     things could happen to your machine!!! Remember I'm counting from 0 when
+     I mention these numbers.
+   - The final bytes you should copy will be $F3 $22. All in all, you should
+     have copied23 pairs of numbers.
+If these bytes don't match at the locations I've specified, you probably have
+a different version of the game. In that case DON'T TRY THESE MODIFICATIONS!!!
+
+In any event make a backup copy of game.exe before trying the modification.
+
+ALT-213: time, location, map picture
+ALT-214: teleports to desired X, Y, Z location
+ALT-215: Wait one hour
+ALT-221: Shoot a Divine Flare. Don't know what it does.
+ALT-222: De-solidify Avatar to walk through things (party can't follow)
+           Once you know the location you can teleport your part to the
+           location.
+ALT-223: Go to the location of a certain NPC
+           Some locations are:
+             01 - Yourself
+             02 - Spector
+             03 - Nellie Bly
+             04 - Dibbs
+             05 - Sherman
+             06 - Chshekt
+             0a - Melies
+             10 - Tesla
+             11 - Freud
+             12 - Blood
+             13 - Garrett
+             14 - Pukchep
+             15 - Plashef
+             16 - Xaktsesh
+             18 - Cooter
+             19 - Duprey
+             1a - Yellin
+             1b - Calamity Jane
+             1c - Buffalo Bill
+             1d - Wisp
+
+Alt-224:  Look at an NPC [Using NPC Number]
+Alt-225:  Play SFX       [I like this option, neat, if only they had
+play music]
+Alt-226:  Play SFX Again?
+Alt-227:  Change an NPC's flags.
+Alt-228:  Talk to an NPC [Using NPC Number, so does Alt 227]
+Alt-229:  Do a Midgame!
+Alt-232:  Pump Barge Info [I don't know what this is]
+Alt-233:  Analyize [No idea here]
+Alt-234:  Create Item [Oh, no, not ANOTHER list of item numbers!]
+Alt-242:  Heal Party
+Alt-243:  Show free k for tiles
+
+Also, teleport to   X: 06F  Y: 07A  Z: 0
+It's a VERY interesting area.  Seems to have every little subplot in the gam
+that is necesarry to win.  Haven't tried winning there yet.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+OUT OF THIS WORLD
+-----------------
+Status: Untested
+Source: Dave Ritacco
+
+Here are the codes for the 'levels':
+
+	ldkd
+	htdc
+	clld
+	xddj
+	flxc
+	ddrx
+	hrtb
+	brtd
+	tfbb
+	txhf
+	ckjk
+	lfck
+
+
+[< Respectively. >]
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+OUTRUN
+------
+Status: Unverified
+Source: Unknown
+
+While playing enter 'RED BARCHETTA' to access the cheat mode, then try:
+
+T - Increase time by 10 seconds (after 100 secs time looks garbled)
+S - Skip Level
+B - Restart current level (and get bonus points)
+
+[< I can't get it too work.  Maybe it's just me.  :-)  >]
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+POPULOUS
+--------
+Status: Untested
+Source: Unknown
+
+Enter 'KILLUSPAL' on the title screen and you will be warped to level 999.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+PRINCE OF PERSIA
+----------------
+Status: Tested
+Source: Unknown
+                 [< Sorry, I lost your name. >]
+
+Boot the game with "PRINCE MEGAHIT" and you will have the following added
+features:
+
+Scrolling: Up    : U         Scrolling may affect the game status:
+	   Down  : N         - killed men may come to life!
+	   Left  : H
+	   Right : J
+
+	   +/-     : Time Up/Down
+(toggle)   SHIFT-B : Show redrawn sections only
+	   C       : Show some mysterious codes
+	   SHIFT-C : More mystery codes
+(toggle)   SHIFT-I : Invert screen
+	   K       : Kill on-screen opponent
+	   SHIFT-L : Go to next level (no time lost)
+	   SHIFT-S : Gain health point 
+	   SHIFT-T : Gain health capacity point
+	   SHIFT-W : Feather-falling mode
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+SHADOWLANDS
+-----------
+Status: Untested
+Source: Bob Igo
+
+          This cheat is by no means complete.  What I have found out so far is
+but a hint of what can be done.  The game uses a rather different technique for
+its items, the likes of which I've never seen before.  In most adventure games
+that I've seen, the items in the game, even the unique ones, were simply given
+by a single hex number, followed by a number which stated whether that item
+was equipped or otherwise in use.  By this method, you could equip all your
+characters with a unique weapon, regardless of whether or not the game would
+allow them to equip it due to their class.
+
+          In ShadowLands, *every* item is unique.  Recall the apples in the
+orchard when you start the game?  Yes; each apple is unique, and apparently
+points to a central database somewhere (presumably elsewhere in the huge saved
+game file).  So is the bow you can get in the upper-right corner of the
+wilderness area.  How did I discover this?  Well, first of all it seemed
+suspicious that my character with 5 apples had a different hex number for
+each apple.  I thought that something like 80 01 meant that he had an apple
+which was in his inventory, and that there was possibly a hex shift for the
+next apple, which would show where it was in the inventory.  This way, the
+position of the item would be independent of where in the character file it
+was stored.  I considered this for a while and shrugged.  It wasn't until I
+copied the hex value for the bow to one of my other characters that I realized
+what I was dealing with.  When one character would fire the bow at a monster,
+each bow would be reduced in uses (arrows).  I stared at the screen and
+remarked, "Huh?"  Yes; this was one bow shared between two characters.  Imagine
+this from the game world's point of view. :)  The thing is, this will work for
+a few items for a while.  The shield is not copyable, but I think that sticks
+and knives, etc. are.  The problem comes when you go to save your game.  The
+program must verify all the character data before saving, because your copied
+bow turns to static before the save.  I feel sorry for my poor character who
+thought he had a nice bow and was left with static. ;)  Anyway, I'm still
+working on it, and it looks like I will be for a long while.  In the meantime,
+I have found the following hex offsets in the character file that you can
+change to your advantage:
+
+Character #1
+ attribute       Offset
+------------------------
+Magic Level    |  1A51
+Cur. Strength  |  1A52
+Max. Strength  |  1A62
+Max. HP        |  1A66
+------------------------
+
+          Because this is a real-time adventure game, and not one in which
+time only progresses if you move from square X to square Y, it is much harder
+to do file comparisons on the saved data, since so much junk you don't care
+about will have changed in addition to the stuff you want to know about.
+
+          Look for more edits to come.  If you have tried editing this or
+have succeeded in doing more than I have, please let me know.  In case this
+gets widely distributed, my email address is ri09+@andrew.cmu.edu
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+SIMCITY
+-------
+Status: Tested
+Source: Sean Gilley
+
+Type FUND for $10,000.  Each third time, you get a disaster, normally in the
+form of an earthquake.    (reference "Mastering SimCity")
+
+I don't know if this cheat works with the windows version.
+
+[< According to a friend of mine, it occurs randomly for her. >]
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+TECHNOCOP
+---------
+Status: Untested
+Source: The Mad Hacker
+
+        If you start with only 5 lives and must go through 11 levels of
+harsh battle, I don't think you'll make it, unless you are lucky and
+fast enough to get extra lives.  But you can save your game, and
+use PCTools to change the byte at offset 5(hex) to 05.  This will
+return you to 5 lives.  I tried fixing it with FF, but I found out that
+it doesn't work - I lose as if I had no lives left.  You can attempt
+to screw around with other bytes and hopefully get more lives
+than five.
+
+[< Thanks to Bob Igo for submitting this. >]
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+TEST DRIVE
+----------
+Status: Untested
+Source: Unknown
+
+Hold down the button while going around turns and you will not hit the wall
+or fall off of the cliff (other cars can still hit you).
+
+[< This sounds really hard to beleive. >]
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+TEST DRIVE II
+-------------
+Status: Untested
+Source: Unknown
+
+Try typing the following during the game for interesting results:
+
+aerf     - Fast acceleration and quick braking (and free life)
+           Keep retyping it for lots of lifes.
+gass    - Jump to gas station with amazing average time and score
+gasst   - Jump to gas station and use real average time and score
+,bruce   - Change sign on level 2 from 'Play Grand Prix Circuit' to
+           'Bruce Dawson Wrote This'
+6outran  - unknown
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ULTIMA VII
+----------
+Status: Untested
+Source: Unknown
+
+There are two that I have listed and probably are more.  Both are untested.
+
+The 'spam' cheat:
+
+Talk to Iolo, say  "Spam,spam,spam,humbug"
+and then enter a number from 0 to 255.
+The game simply converts the ASCII code to an object.
+
+
+The cheat menu:
+
+Boot the game with  Ultima7 ABCD& 
+			     
+The & is ALT-255.  Hold down alt and enter 255 on the keypad.  Now when you
+start playing press F2 for the cheat menu.
+The cheat menu allows alteration of your character, and anyone elses,
+teleportation to other places, and other things too numerous to mention,
+including Power Avatar (invincibility).  
+
+If someone wants to compile a list of the cheat menu function, please do and
+please send me a copy for this list.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+WING COMMANDER
+--------------
+Status: Tested
+Source: Unknown
+
+Tested on Wing Commander 1 & 2 and Special Operations 1.
+
+Boot the game with:  WC Origin -k
+		     WC2 Origin -k
+		     and etc.
+
+This will give you indestructable shields as well as:
+
+		  ALT-DELETE    destroy targeted enemy
+		  ALT-INSERT    destroy all enemies in area
+
+[< These commands can also destroy friendly ships so use them carefully! >]
+[< WC -k Origin  give the destroy commands, but not the infinite shields. >]
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+WIZADRY V
+---------
+Status: Untested
+Source: Sir-Tech  (via Computist Magazine)
+
+        Use of a good sector editor (NU from Norton Utilities for example) can
+allow one to modify selected data to create a playable set of characters for
+Wizardry V, rather than the 'wimps' one usually starts with.  This gives a
+player a chance to play with 'decent' characters.  Data resides on sectors 92
+-93-94 (a disk has sectors 0-719 decimal).
+
+>>>Note from Bob: It would seem as if this is meant to be done on a floppy,
+>>>so I'd suggest scanning for the name of your characters in text to find
+>>>where they are and in what file, if you have this installed on a hard drive.
+>>>You can probably still use the offsets given, but you may have to just
+>>>eyeball it.
+
+Conts.          Char.1  Char.2  Char.3  Char.4  Char.5  Char.6
+Sector          92      92      92-93   93      93-94   94
+
+                (All the following locations are in Hex)
+
+#chars in name  0       F6      1EC     1D8     CE
+char name (15 MAX)      1-F     F7-105  1ED-1FB E3-F1   1D9-1E7 CF-DD
+#chars in passwd        10      106     1FC     F2      1E8     DE
+pswd name (15 MAX)      11-1F   107-115 1FD-B   F3-101  1E9-1F7 DF-ED
+race (1 to 5)   20      116     C       102     1F8     EF
+class (0 to 7)  22      118     E       104     1FA     F0
+alignment (1 to 3)      24      11A     10      106     1FC     F2
+
+lockbit (boolean), status, age (integer), ability, saving throw (go here)
+
+>>>I'm not sure what that's supposed to mean.  I guess he got lazy and
+>>>didn't finish the job.  If anyone else cares to finish it up, send it
+>>>to either Paul or myself.
+
+Gold (LO-HI bytes)      34-35   12A-12B 20-21   116-117 C-D     102-103
+items held (8)  3A      130     26      11C     12      108
+actual items    3C-5B   132-151 28-47   11E-3D  14-33   10A-129
+        (8 bytes ea)
+experience (LO-HI)      5C-5F   152-155 48-4B   13E-141 34-37   12A-12D
+previous level  62      158     4E      144     3A      130
+current level   64      15A     50      146     3C      132
+current Hit Points      66-67   15C-15D 52-53   148-149 3E-3F   134-135
+maximum Hit Points      68-69   15E-15F 54-55   14A-14B 40-41   136-137
+
+spells known, max spell available, current spell available, fight level.
+armor class, regeneration, poison, autokill, number of swings, damage (go here)
+
+>>>Same thing, I would think
+
+Race: 1=Human, 2=Elf, 3=Dwarf, 4=Gnome, 5=Hobbit
+Class: 0=Fighter, 1=Mage, 2=Priest, 3=Thief, 4=Bishop, 5=Samurai, 6=Lord,
+7=Ninja
+Alignment: 1=Good, 2=Neutral, 3=Evil
+
+Good ones to change:    Hex     Decimal
+#Gold...............    5555    21845
+#Experience.........    55555   349525
+#Hit Points.........    C7      199
+
+        Be careful; putting in too large a number makes the value negative.
+
+>>>Note from Bob:  When this happens, never enter a number greater than
+>>>7F FF ... FF (or FF ... FF 7F when stored in reverse) where the number
+>>>of FF's is dependent on how big the largest value for the number is.
+>>>So, in the above example, you could put up to 7FFF for gold and 7FFFFF for
+>>>experience, I think.  From the table, it would seem as if Hit points can
+>>>go up to 32767 decimal.
+
+[< Thanks go to Bob Igo for submitting (and color commentating :)) this one. >]
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ZANY GOLF
+---------
+Status: Untested
+Source: Marc Batchelor
+
+        For those interested in obtaining unlimited
+strokes, follow this procedure:
+
+DEBUG ZANY.COM
+S100 FFFF 8A 84 F4 59 3C 01 F5
+XXXX:YYYY
+UYYYY
+
+MOV AL, [SI+ZZZZ]               Write down ZZZZ
+CMP 01
+CMC
+
+AYYYY
+XXXX:YYYY
+
+MOV AL,05
+MOV [SI+ZZZZ],AL                ZZZZ is obtained from above
+RET
+
+        This provides unlimited strokes WITHOUT
+affecting total scoring.  Therefore, if you do hit
+the ball 49 times on the energy hole, it shows up
+on your score card.  Enjoy.
+
+[< Thanks to Bob Igo for submitting this. >]
+
+###############################################################################
+That's all the cheats I have at this posting.  I would have more if people
+send me some more.
+
+Thanks to all the people that contributed.
+
+---
+Paul Gosse
+paulg@odie.cs.mun.ca     paulg@garfield.cs.mun.ca     paulg@docboy.cs.mun.ca
+
+How to quit smoking: Stop putting cigarettes in your mouth and lighting them.
+                 - William Rushton  {a founder of Private Eye Magazine}

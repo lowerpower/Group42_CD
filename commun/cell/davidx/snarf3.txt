@@ -1,0 +1,104 @@
+                        Introduction.                    
+                        ~~~~~~~~~~~~~                               
+Hello again.
+        Much has happened since the release of SNARF!.TXT & SNARF2.TXT. 
+I released a file called PAIRINFO.TXT, which provided information on the 
+decoding procedure to be applied once the datastream had been recovered.
+
+The major purpose of this Tfile is to set some sort of ISO standard for
+snarfers, I will also include some additional information that may be 
+useful to budding snarfer builders.
+
+DaVeX. July 1995.
+
+                           Proposals
+                           ~~~~~~~~~
+
+To enable software to be compatible with all snarfers, I propose the 
+following:-
+
+        1}   All data recovery to TTL including XOR to be done in hardware.
+
+        2}   The interface to the PC to be CELLTRAK compatible.
+
+             Pin 10 = clock
+             Pin 15 = data
+
+             This will allow hardware to be tested before the software
+             is written. Run up CELLTRAK, and once monitoring of the 
+             forward channel is underway, remove the lead from the 
+             parallel port and plug in the snarfer hardware with the 
+             input tuned to a forward channel too, if normal paging 
+             info continues to scroll up the screen and the busy/idle 
+             flag on the status bar behaves normally, then you can be 
+             99.9% sure your hardware is werking correctly.
+
+        3}   Software must recognise inverted data and take the nescessary
+             steps. ( See additional info (1) below.)
+
+        4}   All snarfer builders following these guidelines pay 100 quid
+             into my swiss bank acc. :-)
+
+This will achieve two results, hardware will be relatively simple to test,
+and it opens the door to all the ace coders without hardware to develop 
+software for snarfing indepently of hardware builders.
+
+For those without PC's that are attempting to get snarfing, GO BUY A PC!
+
+
+                            Additional info
+                            ~~~~~~~~~~~~~~~
+
+        This is just extra info that may or may not be useful whilst trying
+to build the hardware.
+
+        1}      The ETACS and AMPS specifications define a NRZ encoded logic 1
+                as a LOW to HIGH transition in the center of a databit period.
+                The polarity of the demodulated datastream is dependent on the 
+                local oscillator in the receiver being used.
+
+        2}      Clock recovery extracts an 8 or 10 kHz (ETACS or AMPS) phase
+                locked clock signal from the Manchester encoded datastream.
+
+        3}      Manchester decoding is achieved by exclusive ORing the 
+                recovered Manchester encoded data with the recovered clock.
+
+        4}      The clock recovery PLL on the reverse control channel has
+                3.75ms of dotting (ETACS) and 3ms (AMPS) in which to lock,
+                or wordsync will be missed.
+
+         5}     A transmitted pair (along with the dross) takes 156ms to send.
+                (ETACS). 125ms (AMPS).
+
+         6}     Snarfing follows an exponetially square qubic variant of sods
+                law, you either get loads or fuck all.
+
+
+
+                                          Greets
+                                          ~~~~~~
+Alphabetical.
+
+                Atrocity
+                Cherokee
+                Eck
+                Jono
+                Maelstrom (long live the legend)
+                MiniMaster
+                Neuromancer
+                Phantasm
+                Pulse
+                TuRBo
+                Vladimir
+
+
+                                   C00l B0ards
+                                   ~~~~~~~~~~~
+                1066
+                AlmostDead
+                DockMaster
+                Duk&Cover
+                The Sprawl
+                Unauthorised Access
+
+

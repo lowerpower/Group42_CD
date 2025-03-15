@@ -1,0 +1,375 @@
+<HTML>
+<HEAD>
+<TITLE>Meridian Mail</TITLE>
+</HEAD>
+
+<BODY>
+<PRE>
+
+
+                           MMM       MM MERIDIAN
+                         MMMMM     MMMMM
+                        MMMMMM   MMMMMM
+                       MMM MMM MMM MMM      MMM       MM MAIL
+                       MMM  MMMMM  MMM     MMMMM     MMMMM
+                     MMM   MMM   MMM     MMMMMM   MMMMMM
+                    MMM         MMM     MMM MMM MMM MMM
+                   MMM         MMM     MMM  MMMMM  MMM
+                  MMM         MMM     MMM   MMM   MMM
+                 MMM         MMM     MMM         MMM
+                MMM         MMM     MMM         MMM
+               MMM         MMM     MMM         MMM
+              MMM         MMM     MMM         MMM
+             MMM         MMM     MMM         MMM
+
+                                  Copyright (c) Northern Telecom, 1993
+
+
+</PRE>
+
+
+<CENTER><H1>Introduction To The Meridian Mail Voice Mail System</H1></CENTER>
+
+
+<FONT SIZE=5>&copy;1995 Cold Fire</FONT>
+
+
+
+I've just read the distinctly un-Complete Guide to Hacking Meridian Voice
+Mail by Substance in issue #47 of Phrack. Now that I've managed to stop 
+laughing I've written this file to explain more fully the characteristics
+and use of the Meridian Mail syste.<P>
+
+This file is not intended as a guide to hacking the system, any fool can 
+do that, but to explain the workings of the system, as far as I've 
+managed to work out anyway. While Substance might have little more on his
+tiny mind that how to abuse the system, most phreaks are more interested 
+in understanding the workings of the system, then abusing it. I wouldn't
+mind so much if Substance was good at fraud, but he isn't, for example in
+his explanation of the mailbox options menu:<P>
+
+&gt;Mailbox options 0       (Changes operator code (not useful)<P>
+
+Lets see, an option that allows us to change the number that callers are 
+put through to when they hit zero for assistance. Could this be useful to
+someone looking to abuse the system? Perhaps this could be changed to an 
+external number? Maybe this method of dialling out can sometimes be used
+when normal methods are blocked? But no, Substance in his wisdom decides
+to dismiss it as "not useful", rather than trying to find out what it does
+as any true phreak would have done. Maybe you'd better stick to your
+3l33t code lines.<P>
+
+All I can say is Erik Bloodaxe must have been pretty desperate for stuff 
+to put in this issue. And to Substance, this isn't meant to be a personal
+attack, but it's people like you who give hacking a bad name.<P>
+
+Now that I've finished slagging off Substance, on with the rest of the 
+file. This is in no way a complete guide to the system, concentration 
+mostly on the user interface. Many of the details in here may be 
+incorrect, they've mostly being worked out throuh personal experience and
+knowledge of how other Voice Mail systems work. Feel free to correct me if
+I've got anything wrong. Also this files is only based on Meridian's in
+the UK, while there are probably no real differences between the UK
+Meridian's and US ones, there are slight differences in the set-up and
+defaults.<P>
+
+
+<H3>THE MERIDIAN RANGE</H3>
+
+
+
+To start with Meridian Mail is an add-on for the Meridian range of 
+switches made by <A HREF="http://www.nortel.com/">Northern Telecom</A>. 
+Meridian switches are marketed and sold in the United Kingdom by <A
+HREF="http://www.bt.com/">British Telecom</A>.
+The Meridian range consists of at least the Meridian Compact, Modular and
+Option models. The Meridian 1 Option system comes in various size 
+11/21//51/61 and 71. The Meridian Mail voice-mail option is for the 
+Option models and so it is the Option models I will concentrate on here.
+Option11 will refer to all the Option models a I don't think there's any
+real software differences other than size between them.<P>
+
+The Meridian range is not cheap, the price of a Meridian Compact CPU is 
+about 2000 UK Pounds from BT, however they can be got second hand for 
+about 200 Pounds.<P>
+
+Because of its price the Meridian 1 Option 11 and Meridian Mail 
+voice-mail option is only used by reasonably large companies. Also 
+because the Meridian Mail system is an add-on for the main switch rather 
+than a stand alone voice-mail system it is rarely used by companies 
+rentingout mailboxes. There are far more suitable systems for this sort of
+use.<P>
+
+The Meridian Option PABX is supposedly difficult to program, It uses an 
+OS called X11, so system administrators have can buy software for various
+platforms which can then be used to program the PABX through it's 
+programming serial port. For example Switchview comes with its own 
+database and runs under UNIX. It consists of modules, e.g. System Admin.,
+Directory, Cable management, etc.<P>
+
+There is also the Meridian Administrator Tool, made by NT and available 
+from BT, this runs under Windows on a 286+. This includes a terminal
+emulation facility for programming the parts of the system that MAT 
+doesn't reach. The Meridian Communications Adapter with Visit software
+allows management of Voice-mail via Windows too.<P>
+
+Many company's use call loggers which record every call made through the 
+system, including calls made through dial out facilities in voice-mail. 
+This includes recording of the extension the call is made from. It is 
+likely that where Calling Line Identifiation is available this information
+can be recorded too.<P>
+
+
+<H3>CALLER ID AND MERIDIANS</H3>
+
+
+<I>Note: this is all specific to UK Caller ID</I>
+
+Option 11's connected via ISDN have CLI capabilities, and in theory will 
+feed the information directly through to 2616 Digital Feature Phones and 
+2008 Phones equipped with display modules. However in practise this is 
+not always the case, while the remote caller's number is displayed
+correctly on the Attendant console it is not passed through to the display
+handsets on DDI calls. BT suspect that this is a bug in the NT code.
+However they may have fixed this problem by now. I think that it's the
+same with LI on analogue lines, but I couldn't say for sure, most large
+Meridian systems are connected via ISDN30 anyway.  As far as I know the
+Meridian Compact and Modular systems will not support CLI at all.<P>
+
+<H3>MERIDIAN MAIL</H3>
+                           
+
+The Meridian Mail Voice Mail system is one of the most sophisticated, as 
+well as answering calls it can handle intelligent call routing,
+distribution groups, out-dialling, dialling the sender of the message,
+etc.<P>
+
+Because the versatility of the Meridian Mail system it can be difficult 
+to spot one. There are four main set-ups you might come across.<P>
+
+<H4>1) Log-In Box</H4>
+
+This is the rarest set-up you're likely to come across, however it is 
+instantly recognisable. Basically this is where an DDI number has been 
+set up just to receive calls from people calling to collect messages. 
+Obviously small companies do not want to pay for an extra line just for
+people collecting messages, especially if the volume of mail is low, so
+this is only likely to be on a DDI or 0800 line on a very large system. 
+If you do find one of these you'll here a digitised women's voice say
+"Meridian Mail" followed by the normal login prompt: "Mail Box" if you
+don't enter a number you'll here "Please enter your mailbox number 
+followed by square sign, For more information press star". Once you've
+entered a number followed by # you'll here "Password". For example try 
+0800 318409.
+
+<H4>2) DDI Numbers</H4>
+
+This will act just like an answer phone, e.g.: "Hi you've reached Mark 
+Richardson at ABC Inc, unfortunately I'm away from the phone at the 
+moment so please leave a message after the beep". If the outgoing message
+has not been recorded you might get "The person at extension XXXX is not
+available to take your call" or if they've recorded their personal
+verification "xxxxxxx is not available to take your call". Some times a
+company will not have used the more advanced features and the main number
+also be set up in this way. To access a mailbox from this set-up, while 
+the outgoing message is playing press star. Once the beep has sounded just
+press # to stop recording. Once you've done this you'll get a menu giving
+you various options for recording a message. To get a list of all the
+options available press *. * is the help key in Meridian Mail if you get
+stuck at any time just press *. This menu is just a cut down version of
+the main mailbox menu. At this point to log in to a box press 81 you'll
+then get the log in prompt described above. A good example can be found on
+0800 622581.
+
+<H4>3) Call Routing</H4>
+
+This is one of the most advanced features of Meridian Mail, and it allows
+the caller to decide where he wants be routed to, e.g. "Press One for 
+Sales, Two for Technical Support", it can also be used to allow the 
+caller to enter the extension number they want, e.g. "Enter the extension
+number and press square". If you get this sort of message just get to a
+mail box then follow the instructions as if you'd got through to a DDI
+box. You may also come across set ups  where pressing * or # re-starts the
+message and pressing any other key gives a error message, and at the end 
+of the message you get transferred to a mail box. In this case you must
+wait until you've been transferred into a mailbox then break in. An
+example of call distribution is on 0800 136214.
+
+<H4>4) Outgoing Message Only</H4>
+
+In this case there's nothing much you can do. Pressing * or # will just 
+restart the message and any other key gives a "beep! That selection is 
+not recognised, please make another choice" the outgoing message may 
+replay a couple of times and will then disconnect you. This type of set-up
+is usually found on systems that have been abused or are owned by
+companies that don't want you to leave them a message, e.g. Banks who
+don't want to take responsibility for net getting messages. If you find
+one of these your best bet is to call during office hours and try and 
+talk a DDI number for some dept out of the receptionist.
+
+
+<H3>DIFFERENT TYPES OF MAIL BOX</H3>
+
+
+
+Unlike many Voice Mail systems Meridian Mail has no Administrators Box. 
+The Administrators box is usually a box that has special options, such as
+the ability to add new mail boxes, remove old boxes, change passwords 
+etc. Unfortunately there isn't one on meridian Mail. When the 
+administrator add mail boxes though they do have several classes of 
+service they can use for boxes, e.g.:<P>
+
+<DL>
+
+<DT>Login Box<DD> Callers dialling this ext. number will get a "Meridian 
+Mail, Mailbox" prompt.
+
+<DT>Distribution List<DD> This is simply a box set-up so that a message 
+send to it will be distributed to every on else on this list. This is so that individual users don't have to maintain their own personnel distribution lists.
+
+<DT>Express Messaging<DD> People calling this mailbox no, will get a 
+prompt: "Express Messaging, Mail Box Number" This is to save people having to call your ext. no and wait for it to ring out before leaving a message.
+
+<DT>Prompt Maintenance<DD> Dialling this extension will give you a 
+"Prompt Maintenance, menu ID" this allows you to change the prompts in menus
+
+
+</DL>
+
+There's also a box that allows you to change peoples outgoing 
+message and verification remotely, i.e. without logging in to their 
+mailbox and changing them.<P>
+
+There are probably others but those are the most common.
+
+
+<H3>MAILBOX NUMBERS AND PASSWORDS</H3>
+
+
+There is no set length for mail box numbers and they range from 2 - 6 
+digits depending on the size and set up of the system. 4 digits is almost
+always the length though.<P>
+
+There is also no default mailboxes as there are on other systems, however
+3000 is usually a good bet in the UK.<P>
+
+The default password on Meridian Mail systems is the message number. If 
+this doesn't work try the mailbox number backwards, passwords can be from
+4 - 16 digits long, and you can't use recently used password. You only 
+have 3 tries to get the mailbox number right before it disconnects you. If
+the wrong password is entered too many times then the mail box will lock
+and even the real owner will not be able to get in. The number of tries
+necessary depends on the system in the UK its usually 9, you can tell a
+box has been locked if you enter the mailbox number and a password and it
+tells you to contact your system administrator after only one try instead
+of three.
+
+
+<H3>DIAL IN PORT</H3>
+
+
+
+Meridian Mail dial in ports are rarely found on DDI lines, but can be 
+found by scanning extensions within the company, many other interesting
+things can be found this way too. They are always, in my experience 2400 
+baud modems and give no prompts. To get a prompt you need to press CTRL W
+this will give you a menu with two options. CONSOLE and MMI, select MMI
+(Man Machine Interface) and you'll get that nice Meridian Mail logo.
+From there press F1 to logon. After that you're on your own.
+
+
+<H3>USING YOUR MAILBOX</H3>
+
+
+
+When you login to your mailbox there are several greetings you may 
+hear:<P>
+
+"your mail box is empty, to compose a message press 75, for mailbox 
+commands press 8*"<BR>
+"You have X new messages, message X from " <BR>
+"You have no new messages, message one from "<P>
+
+<UL>
+0 - Zero on its own will transfer you to the operator assistance number. 011 will let you look up names in the directory. 0XXXX will dial that number, assuming its passes the call blocking mask.<BR>
+1 - Rewinds the current message about 10 seconds<BR>
+2 - Play message<BR>
+3 - Fast Forwards the current message by 10 seconds<BR>
+4 - Previous Message<BR>
+5 - Record, used when composing or forwarding a message.<BR>
+6 - Next Message<BR>
+7 - Message Commands(Sub Menu)<P>
+<UL>
+    0 - Message Options (Sub Menu, can only be used on outgoing messages)<P>
+<UL>
+        1 - Urgent, tag a message for urgent delivery.<BR>
+        2 - Standard, tag a message for standard delivery.<BR>
+        3 - Economy, tag a message for economy deliver.<BR>
+        4 - Private, tag a message private (private messages cannot be forwarded to other users)<BR>
+        5 - Acknowledgement, tag a message for acknowledgement, you'll be send an acknowledgement message when the message is received.<BR>
+        6 - Timed Delivers, specify a time and date for delivery.<P>
+</UL>
+    1 - Reply, sends a message to the sender of the message. Can only be used on incoming messages from mailboxes on the same system.<BR>
+    2 - Play envelope - Gives all the details of the messages, such as who its from, time, if it was urgent, attached messages etc., etc.<BR>
+    3 - Forward, forward the message to another user.
+    4 - Reply All, record a message to all the senders of the messages in your mailbox.<BR>
+    5 - Compose, compose a message to other users, either just one, a distribution list, or several boxes.<BR>
+    6 - Delete, deletes message, or if used on an deleted message restores it.<BR>
+    9 - Sends a message you've just recorded.<P>
+</UL>
+8 - Mail Box Commands (Sub Menu)<P>
+<UL>
+    0 - Mailbox Options (Sub Menu) (Not always available on earlier versions of the software)<P>
+<UL>
+        1 - Change Operator Assistance Number<P>
+</UL>
+    1 - Login, enters the login process.<BR>
+    2 - Greeting (Sub Menu)<P>
+<UL>
+        1 - External, record a greeting to be played to external callers.<BR>
+        2 - Internal, record a greeting to be played to internal callers.<P>
+</UL>
+    3 - Log-off<BR>
+    4 - Password Change, change your password, enter your new password twice and your old password.<BR>
+    5 - Distribution Lists, create distribution lists.<BR>
+    6 - Goto, goto a message number in your mailbox.<BR>
+    9 - Personal Verification, record a personal verification which will be played instead of your mail box number to message recipients.<P>
+</UL>
+9 - Call Sender, when used on an incoming message will dial the extension of the sender, if the number is known.<P>
+</UL>
+
+Notes on the outdial features:<P>
+
+The dial through feature on Meridian Mail is relatively advanced allowing
+the system administrator to build sophisticated blocking masks. However 
+this is not usually done. Most systems will either allow all numbers, 
+just ones to their range of extensions or none at all. This means that if 
+a company has extensions ranging from in the 2XXX range then Meridian Mail
+can be set up to disallow all numbers other than those starting with 2.
+However if the system has been set up badly then it may disallow all
+numbers, even those stored in the directory, so even dialling by name will
+be disallowed. As with most UK PABX systems the prefix for an outside line
+is 9, so from the mail box menu dialling 0+9+ACN will, if no call blocking
+is in place dial the given number If this does work it will almost
+certainly work for all UK Inland numbers. Most will also
+allowinternational calls.<P>
+
+Notes on distribution lists:<P>
+
+Users can have up to nine personal distribution lists, numbered 
+surprisingly from 1-9, each distribution list can have from one to about 
+one hundred mailbox numbers in it. To create a distribution list press 
+85, enter the number of the distribution list and press #; Press 75 to
+enter the mailbox numbers, 76 to delete an existing lists;2 to listen to a
+list or 4 to return to the main menu.<P>
+
+
+That just about covers all the basic facilities of the Meridian Mail 
+system, if anyone has any questions on anything I've covered or failed to
+cover. Or any corrections to make I can be reached at <A 
+HREF="mailto:coldfire@paranoia.com">ColdFire@paranoia.com</A>
+</BODY>
+</HTML>
+
+
+

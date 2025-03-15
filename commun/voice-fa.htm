@@ -1,0 +1,604 @@
+<HTML>
+
+<HEAD>
+
+<TITLE>FAQ: How can I use the Internet as a telephone?</TITLE>
+<link rel="stylesheet" type="text/css" href="../style.css">
+<BASE HREF="http://www.northcoast.com/~savetz/voice-faq.html">
+<META NAME="GENERATOR" CONTENT="Internet Assistant for Word 2.0 Beta">
+</HEAD>
+
+<BODY>
+
+<H1>FAQ: How can I use the Internet as a telephone?</H1>
+
+
+<B>Newsgroups:</B> <A HREF="news:northcoast.support">northcoast.support</A>
+, <A HREF="news:alt.internet.services">alt.internet.services</A>
+, <A HREF="news:alt.bbs.internet">alt.bbs.internet</A> , <A HREF="news:alt.culture.internet">alt.culture.internet</A>
+, <A HREF="news:alt.winsock.voice">alt.winsock.voice</A> , <A HREF="news:alt.winsock.ivc">alt.winsock.ivc</A>
+, <A HREF="news:comp.sys.mac.comm">comp.sys.mac.comm</A> , <A HREF="news:comp.os.ms-windows.apps.comm">comp.os.ms-windows.apps.comm</A>
+, <A HREF="news:news.newusers.questions">news.newusers.questions</A>,
+
+<P>
+<A HREF="news:comp.compression">comp.compression</A>, <A HREF="news:comp.dsp">comp.dsp</A>,
+<A HREF="news:comp.speech">comp.speech</A>, <A HREF="news:comp.os.ms-windows.apps.winsock.misc">comp.os.ms-windows.apps.winsock.misc</A>
+<PRE>
+Archive-name: internet-services/voice-faq
+Last-Modified: 1995/10/22
+Version: 0.3
+
+FAQ: How can I use the Internet as a telephone?
+Version 0.3 - Oct 22 1995
+
+* This is a DRAFT FAQ. This document is new and in transition. If you
+notice that software for doing speech over the Internet is  missing from
+this list, or information herein needs updating, please send e-mail to
+<A HREF=mailto:savetz@northcoast.com>savetz@northcoast.com</A> *
+
+This document is copyright 1995 by Kevin M. Savetz and Andrew Sears. 
+All rights reserved.  More legal stuff is near the end of this file.
+
+
+</PRE>
+
+<HR>
+
+<H1>TABLE OF CONTENTS
+</H1>
+
+<PRE>
+Can I use the Internet as a telephone?
+What do I need to call others on the Internet?
+   How does it work?
+What do I need to call others on the Internet?
+How do I make calls using a modem?
+Is the sound quality as good as a regular telephone?
+Is there a noticeable delay in hearing the other user?
+What is the difference between full duplex and half duplex?
+What is multicasting?
+Can I talk to users of other phone software?
+What software is available?
+   For the Mac: Maven, NetPhone, CU-Seeme, PGPfone
+   For Windows: Speak Freely, CU-Seeme, Internet Phone, Digiphone,
+	        Internet Voice Chat, Internet Global Phone, Web Phone
+   For UNIX: Speak Freely, nevot, vat, mtalk, ztalk
+Legal Stuff
+Where to Find this Document
+
+
+</PRE>
+
+<HR>
+
+<H1>CAN I USE THE INTERNET AS A TELEPHONE?
+</H1>
+
+<PRE>
+Yes. In recent months, several programs have become available that will
+let you, equipped with the right computer hardware, an Internet
+connection, and special software, to speak (voice) in real-time over 
+the Internet - in effect using the network like a telephone.
+
+Some of the programs available to do voice on the 'net is free, others
+are commercial. Many of these products are ready for prime time, but
+others are still very experimental.
+
+</PRE>
+
+<H2>HOW DOES IT WORK?
+</H2>
+
+<PRE>
+It's magic! Audio conferencing programs work by digitizing your speech as
+you talk and sending the digital data over the Internet. But there's a
+problem: a typical modem connection has limited bandwidth - 14.4KBPS
+modems can send and receive a maximum of 1,800 bytes of non-compressible
+data each second. Telephone quality speech needs 8,000 bytes per second
+of bandwidth. There are two solutions to the problem: get more
+bandwidth, or compress the sound information before transmitting it.
+Although both solutions are used, most programs compress the audio. 
+
+There are a variety of methods for encoding and compressing sound data,
+and as you might expect, the standards aren't necessarily very standard,
+yet. The quality of the audio you'll send and receive depends on the
+application you're using, the speed of your computer and the compression
+method used. In my tests, audio is usually understandable, albeit less
+clear than a phone call. Still, talking across the country or around the
+world for the cost of an Internet connection is kind of amazing, and
+easy on the wallet.
+
+You and the associate you are talking to need to be using software that
+can transmit and receive the same protocol. That doesn't necessarily
+mean you need the same software, or even the same type of computer. For
+instance, the GSM protocol is pretty standard. However, some programs
+can only use proprietary encoding methods, so they'll only communicate
+with the same software on the other side of the wire. Standard
+compression methods are:
+     GSM: for more information: <A HREF="http://www.cs.tu-berlin.de/~jutta/toast.html">http://www.cs.tu-berlin.de/~jutta/toast.html</A>
+     CVSD
+     RTP: Real Time Protocol
+
+</PRE>
+
+<H2>What do I need to call others on the Internet?</H2>
+
+<PRE>
+Besides the software, you will need an Internet connection  You'll also
+need a fairly speedy computer(25 Mhz).  Although the exact specs vary from 
+program to program, a Mac Classic or a PC XT generally won't do the trick :-) 
+Your computer will a sound card with speakers and microphone. All sound cards 
+will have a microphone jack in the back of them.
+
+</PRE>
+
+<H2>What do I need to do voice conferencing on the Internet with
+a modem?</H2>
+
+<PRE>
+All you need is a version of Winsock and a SLIP/PPP connection.  The bare 
+minimum for good quality sound is a 14.4k modem.  The quality of a 14.4k 
+connection will depend largely on the software and the error rate of your 
+telephone line.  A 28.8k modem should give excellent quality for most all 
+applications.
+</PRE>
+
+<H2>Is the sound quality as good as a regular telephone call?
+</H2>
+
+<PRE>
+Surprising to most people, if you have a good Internet connection then
+the sound quality is comparable to a regular phone call.  However the sound
+quality varies dramatically between applications and depends largely on the
+local capacity at each end.  In nearly all cases, the limiting factor will
+not be the speed and capacity of the Internet, but will depend on the local 
+work at each end.  If you have a good local network connection then some 
+applications give sound quality significantly better than a regular telephone
+call because they use 16 bit signals rather than 8 bit signals in regular 
+phone lines.
+</PRE>
+
+<H2>Is there a noticeable delay to hear the other user?</H2>
+
+<PRE>
+The answer to this also depends on the application and local connection.  
+For most applications, you might notice a delay if you try really hard, but
+for good connections it seems be in the range of .01-.05 seconds.  A delay over
+.05 seconds might be noticeable on the normal telephone system because you will
+hear an echo, but calls over the Internet are sent differently do not produce 
+an echo.
+</PRE>
+
+<H2>What is the difference between full duplex and half duplex?
+</H2>
+
+<PRE>
+In a full duplex conversation, you can speak and hear the other person at 
+the same time.  In half duplex, only one person can speak at the same time,
+and if you speak while the other person speaks, then you will not be able to 
+hear each other.  In these applications, you usually press a button to speak
+Most applications are starting to support both full duplex and half duplex 
+modes.  Your sound card will either be full duplex or half duplex, which 
+will control which mode you can operate in.  Most new Macs and many Unix
+stations come equipped with full duplex sound cards, but most PC's do not.
+When you load the application, if it does not let you choose full-duplex
+mode, then you probably have a half duplex card.
+</PRE>
+
+<H2>What is multicasting?</H2>
+
+<PRE>
+Multicasting allows one user to send packets to several users for conferencing.
+The M-Bone is overlay on the Internet that will allow one site to broadcast
+to many users minimizing bandwidth usage.  In addition to being used for voice
+conferencing, multicasting can be used to make the Internet a broadcast service 
+to allow users to hear live radio broadcast or even see live video of events like
+Space Shuttle launchings.
+
+</PRE>
+
+<H2>Can I talk to users across PC/Mac/Unix platforms?</H2>
+
+<P>
+Yes.  Speak freely offers full compatibility between Windows and
+Unix users.  CU-Seeme offers full 
+<P>
+compatibility between Mac and PC users.
+<H2>Can I talk to users of other phone software?</H2>
+
+<PRE>
+Maybe.  To talk to others using different software you need to have the 
+same type of connection scheme and the same type of compression.  There 
+are two standards emerging for establishing connections that are emerging, 
+VAT and RTP which are compatible with each other.  Since VAT was the first 
+working voice conferencing program, many other applications have mimicked 
+its method of establishing a call.  Programs using RTP will use the same 
+connection procedure but will have added capabilities to control call quality.  
+Those applications that conform to the RTP/VAT standard include Maven, 
+Netphone, Vat, Nevot and soon Speak Freely.  GSM seems to be emerging as 
+the compression standard and is supported by Maven, Netphone, Speak Freely,
+Internet Global Phone and Nevot.  There are also slight variations between
+the compression algorithms that might still cause compatibility problems.
+If you are using a commercial product with proprietary compression, then 
+you are out of luck because you will not be able to talk with others 
+because they want everyone else to buy their software.
+  
+</PRE>
+
+<HR>
+
+<H1>WHAT SOFTWARE IS AVAILABLE?</H1>
+
+<H2>For the Mac</H2>
+
+<H3>MAVEN
+</H3>
+
+<PRE>
+Maven was the first Internet audio conferencing tool for Macintosh. Maven
+is free software, but it is a bandwidth hog. Maven requires a minimum of
+16KBPS, so even in its lowest quality sampling mode, it requires just a
+little bit more bandwidth than a 14.4KBPS modem can give you. The
+program can talk to other Macs running Maven, as well as the UNIX vat
+program.  For those who have the bandwidth capabilities, it probably
+offers the best sound quality for a Mac.
+
+Platform: Macintosh, 16BPS of bandwidth
+Encoding/compression: vat or Maven-proprietary
+Features:  Full/Half Duplex
+Negatives:  Uses more than 14.4k of bandwidth
+Mailing list: send e-mail:
+     To: <A HREF=mailto:listserv@cnidr.org>listserv@cnidr.org</A>
+     Body: subscribe maven your name
+Software: <A HREF="ftp://sunsite.unc.edu/pub/packages/infosystems/maven">ftp://sunsite.unc.edu/pub/packages/infosystems/maven</A>
+	   <A HREF="ftp://ftp.univie.ac.at/systems/mac/info-mac/comm/tcp">ftp://ftp.univie.ac.at/systems/mac/info-mac/comm/tcp</A>
+Cost: free
+</PRE>
+
+<H3>NETPHONE
+</H3>
+
+<PRE>
+NetPhone, like Maven, it gives an Internet-connected Macintosh the
+ability to do audio conferencing. But NetPhone works over slower
+connections, even with a 14.4KBPS modem. At a sampling rate of 10,000
+samples per second, the sound quality isn't wonderful, but the voice of
+my NetPhone compatriots are certainly understandable. There's a free
+demo version of NetPhone available that limits calls to 90 seconds.
+
+Platform: Mac LC or faster, 14.4KBPS modem
+Encoding/compression: vat, CVSD, GSM
+Features: User Directory, Full/Half duplex, Good Compatibility/VAT compatible
+	   WWW Compatible
+Negatives:  often has poor sound quality, demo only last for 90 seconds
+E-mail: <A HREF=mailto:netphone-orders@emagic.com>netphone-orders@emagic.com</A>
+Web page: <A HREF="http://www.emagic.com/">http://www.emagic.com/</A>
+Software: <A HREF="http://www.emagic.com/">http://www.emagic.com/</A>
+Cost: $75 per copy, or $125 for two copies. Free demo.
+</PRE>
+
+<H3>PGPFONE</H3>
+
+<PRE>
+This product comes from the makers of the PGP encryption scheme.  It is
+currently only available in beta format for Macs, but a Windows 95
+version will be available soon.  The encryption scheme used in the application
+is banned for US export, and because of current lawsuits against the makers 
+of PGP, users outside the US must use a different version.  The current 
+version only supports full duplex sound cards.
+Encoding:  PGP
+Features:  Good encryption
+Negatives:  Only beta version, Only full duplex sound cards supported
+Web page: <A HREF="http://web.mit.edu/network/pgpfone/">http://web.mit.edu/network/pgpfone/</A>
+Cost:  Free
+</PRE>
+
+<H3>CU-Seeme for Mac</H3>
+
+<PRE>
+(see description in Windows section)
+</PRE>
+
+<H2>For Windows</H2>
+
+<H3>SPEAK FREELY 5.3 FOR WINDOWS</H3>
+
+<PRE>
+Speak Freely is written <A HREF="http://www.fourmilab.ch">John Walker</A>, the founder of Autodesk.  <B>It is
+free</B> and one of the best applications available.  It offers 
+many features more advanced than commercial software such as
+ voice mail, multicasting, encryption, and usually offers the 
+excellent sound quality.  Its GSM compression routine requires a high-end
+486 or Pentium processor.  Will work for 14.4 modems with GSM, but sound 
+quality is degraded.  Current version is not compatible with other software 
+except for Speak Freely for Unix.  Version 6.0 will be compatible with the 
+VAT/RTP standard and will include DVI4 and L16 compression and will include a 
+user directory accessible from within the application and on the WWW.
+The complete <A HREF="http://www.fourmilab.ch/netfone/windows/speakfs.zip">source code</A> is also available.
+Platform: Windows 3.1, 386 Enhanced Mode, Winsock, 14.4KBPS modem
+Encoding/compression GSM, ADPCM, PCM, PGP, DES, IDEA.  
+Features:  Voice Mail, good variety in compression/encoding, excellent sound
+	quality, Full/Half Duplex, multicasting for conferences, WWW compatible
+Negatives: sound quality is marginal over 14.4k modems
+E-mail: <A HREF="mailto:kelvin@fourmilab.ch">kelvin@fourmilab.ch</A>
+Web Page: <A HREF="http://www.fourmilab.ch/netfone/windows/speak_freely.html">http://www.fourmilab.ch/netfone/windows/speak_freely.html</A>
+Software:  <A HREF="http://www.fourmilab.ch/netfone/windows/speakfb.zip">Windows</A> (http://www.fourmilab.ch/netfone/windows/speakfb.zip )
+	    and <A HREF="http://www.fourmilab.ch/netfone/unix/speak_freely-5.3.tar.gz">Unix</A> (http://www.fourmilab.ch/netfone/unix/speak_freely-5.3.tar.gz)
+Voice Chat Room: <A HREF="http://rpcp.mit.edu/~asears/voice.html">http://rpcp.mit.edu/~asears/voice.html</A>
+Cost:  Free
+</PRE>
+
+<H3>CU-SEEME FOR WINDOWS AND MAC</H3>
+
+<PRE>
+CUSeeMe is a project of  Cornell University for audio and video conferencing 
+over the Internet.  Sound quality is good, but might have problems with a 
+14.4k connection.  Viewing images is impossible at 14.4k and is slow and 
+28.8k, but audio conferencing will work without images.  Users can transmit 
+images using a <A HREF="http://www.pcworld.com/connectix/qcchoice.html">camera</A> that can be purchased for as little as $99, but 
+<B>a camera is not needed.</B>   One main advantages of CU-Seeme for audio 
+conferencing is that users can either connect directly to each other or 
+they can enter a conference at a reflector.  In addition, CU-Seeme 
+probably offers the best compatibility with other applications.
+Features:  Good conferencing capabilities, and allows for video conferencing,
+	    good sound quality, compatible across Windows/Mac, WWW compatible
+Negatives:  Need at least a 28.8k connection
+Web Page: <A HREF="http://cu-seeme.cornell.edu/">http://cu-seeme.cornell.edu/</A>
+Listserv: Send message &quot;Subscribe CU-SEEME-L Firstname Lastname&quot; 
+	   to <A HREF="mailto:LISTPROC@cornell.edu">LISTPROC@cornell.edu</A>
+Software: <A HREF="http://cu-seeme.cornell.edu/get_cuseeme.html">http://cu-seeme.cornell.edu/get_cuseeme.html</A>, <A HREF="ftp://cu-seeme.cornell.edu/pub/CU-SeeMe/PC.CU-SeeMeW0.70b1/cuseeme.zip">Windows</A>, <A HREF="ftp://CU-SeeMe.cornell.edu/pub/CU-SeeMe/Mac.CU-SeeMe0.80b2/CU-SeeMe.68k0.80b2.bin">Mac</A> &amp; <A HREF="ftp://CU-SeeMe.cornell.edu/pub/CU-SeeMe/Mac.CU-SeeMe0.80b2/CU-SeeMe.ppc.0.80b2.bin">Power Mac</A>
+</PRE>
+
+<P>
+                
+<H3>INTERNET PHONE
+</H3>
+
+<PRE>
+Internet Phone runs on top of Internet Relay Chat, providing you with a
+list of on-line users and topics of conversation, making it easy to find
+new people to chat with. Quickly becoming one of the most used applications
+because the software makes it easy to find others to talk to.  The main
+disadvantage is that that the software is one of the few application that
+only offer proprietary compression scheme, which makes it impossible for
+it to be compatible with other applications.  The test version only allows 
+for one minute of conversation before it times out.
+
+Platform: Windows 3.1, 33 MHz 486 or faster, Winsock 1.1, 14.4KBPS modem
+Encoding/compression: Internet Phone proprietary
+Features:  Excellent user directory, full/half duplex, low bandwidth demands
+Negatives: Demo limited to one minute, not compatible with any other software,
+	    Cannot make connections without using IRC
+E-mail: <A HREF=mailto:info@vocaltec.com>info@vocaltec.com</A>
+Web page: <A HREF="http://www.vocaltec.com/">http://www.vocaltec.com/</A>
+          User directory: <A HREF="http://www.pulver.com/">http://www.pulver.com/</A>
+Software: <A HREF="ftp://ftp.vocaltec.com:/pub">ftp://ftp.vocaltec.com:/pub</A> (one minute demo)
+Listserv: Send Message &quot;subscribe iphone&quot; to <A HREF="mailto:majordomo@pulver.com">majordomo@pulver.com</A>
+Cost: $99
+</PRE>
+
+<H3>DIGIPHONE</H3>
+
+<PRE>
+This is application just recently was made available.  Because they do not
+offer a test version, little is known about how effective it works.  
+According to news releases they had preorders totaling over $1 million.  
+Digiphone can come by itself or in a complete package which includes
+a Web browser, E-mail, telnet, FTP, voice messaging and caller ID.
+While it seems that they have invested heavily in advertising, they
+offer no WWW distribution of their product.
+Features:  Good integration with other Internet applications
+Negatives:  not available on the Internet, not compatible with other software
+E-mail: <A HREF="mailto:custserv@planeteers.com">custserv@planeteers.com</A>
+Web page: <A HREF="http://www.planeteers.com/">http://www.planeteers.com/</A>
+Software:  None Available on the Internet
+Compression:  Proprietary
+Cost:  $89.95 alone or $149.94 w/ complete package
+</PRE>
+
+<H3>INTERNET GLOBAL PHONE
+</H3>
+
+<PRE>
+Internet Global Phone is not a clean, ready-to-use application. In fact,
+it is very much a work in progress. Internet Global Phone is a
+&quot;technology demonstration project&quot; providing a code platform for two way
+real-time voice exchange over the Internet. The details of the project
+are documented in an article in Dr. Dobb's Journal in December 1994. If
+you like hacking in Microsoft Visual C++, you too can hack on Internet
+Global Phone. IGP currently lacks a real user interface, but it really more
+useful for people to look at the source code in Visual C++. 
+
+Platform: Windows 3.1, 20 MhZ 386 or faster, 14.4KBPS modem
+Encoding/compression: GSM
+E-mail: <A HREF=mailto:lsing@tor.hookup.net>lsing@tor.hookup.net</A> (Sing Li)
+Software: <A HREF="ftp://ftp.cica.indiana.edu:/win3/demos/IGP*">ftp://ftp.cica.indiana.edu:/win3/demos/IGP*</A>
+Source code: <A HREF="ftp://ftp.cs.tu-berlin.de:/pub/local/kbs/tubmik/gsm/ddj">ftp://ftp.cs.tu-berlin.de:/pub/local/kbs/tubmik/gsm/ddj</A>
+Cost: free
+
+
+</PRE>
+
+<H3>INTERNET VOICE CHAT
+</H3>
+
+<PRE>
+Internet Voice Chat provides almost - but not quite - real-time
+communication. Unlike other communications programs, it doesn't send
+sound as you speak -- it waits until you finish to compress and send the
+sound. The result is a slower-paced conversation with frequent gaps.
+(On-the-fly compression is planned for a future version.) Once the
+shareware is registered, the program includes features line an answering
+machine and call screening functions.
+
+Platform: Windows 3.1, 386 or faster, Trumpet Winsock 2.0B, 14.4KBPS
+Encoding/compression: Internet Voice Chat proprietary
+E-mail: <A HREF=mailto:ivcsupp@aol.com>ivcsupp@aol.com</A>
+Newsgroup: <A HREF="news:alt.winsock.ivc">news:alt.winsock.ivc</A>
+Web page: <A HREF="http://futures.wharton.upenn.edu:80/~ahrens26/ivc.html">http://futures.wharton.upenn.edu:80/~ahrens26/ivc.html</A>
+Cost: shareware, $25
+
+</PRE>
+
+<H3>WEBPHONE</H3>
+
+<PRE>
+Webphone is an unreleased product of Quarterdeck.  Their aim will be to
+integrate Webphone with their Web browser.
+<B>Not Yet Released
+</B>Web page: <A HREF="http://www.qdeck.com/qdeck/press/webphone.html">http://www.qdeck.com/qdeck/press/webphone.html</A>
+Cost:  Less than $50
+</PRE>
+
+<H2>For UNIX</H2>
+
+<H3>Speak Freely for Unix</H3>
+
+<PRE>
+(See Version information above in the Windows Section)
+</PRE>
+
+<H3>NEVOT
+</H3>
+
+<PRE>
+NEVOT (Network Voice Terminal) provides voice communications using
+unicast, simulated multicast or IP multicast, using the vat or RTP
+protocols. Requires a high-end workstation.
+
+Encoding/compression: vat, RTP, GSM, LPC
+Platforms: SunOs 4.1, Solaris 2, Irix, HP/UX
+Features: RTP/VAT compatible, good controls, WWW compatible
+Web site: <A HREF="http://www.fokus.gmd.de/step/employees/hgs/nevot/nevot.html">http://www.fokus.gmd.de/step/employees/hgs/nevot/nevot.html</A>
+          <A HREF="http://www.cs.tu-berlin.de/~jutta/toast.html">http://www.cs.tu-berlin.de/~jutta/toast.html</A>
+Software: <A HREF="ftp://gaia.cs.umass.edu/pub/hgschulz/nevot">ftp://gaia.cs.umass.edu/pub/hgschulz/nevot</A>
+          <A HREF="ftp://ftp.fokus.gmd.de/pub/minos/nevot">ftp://ftp.fokus.gmd.de/pub/minos/nevot</A>
+Cost: free
+
+
+</PRE>
+
+<H3>VAT
+</H3>
+
+<PRE>
+Vat was the first audio conferencing tool for the Internet. Requires a
+high-end UNIX machine.  The VAT standard for setting up a call is quickly
+becoming the dominant standard along with RTP, which will allow users of
+different applications to communicate.
+
+Encoding/compression: vat
+Platforms: Sun Sparcstation, Silicon Graphics and DECstation 5000
+Software: <A HREF="ftp://cs.ucl.ac.uk/mice/videoconference/vat/">ftp://cs.ucl.ac.uk/mice/videoconference/vat/</A>
+Cost: free
+
+</PRE>
+
+<H3>MTALK
+</H3>
+
+<PRE>
+<KBD>MTALK is an &quot;very alpha&quot; experimental voice-talk system for LINUX. It
+uses low bandwidth (approx. 1 KBPS) and claims to work even on computers
+with very low bandwidth connections. Requires a LINUX workstation with a
+Soundblaster compatible sound-card. 
+
+Encoding/compression: unknown
+Platforms: Linux
+E-mail: <A HREF=mailto:misch@elara.fsag.de>misch@elara.fsag.de</A>
+Software: <A HREF="ftp://sunsite.unc.edu/pub/Linux/apps/sound/talk/">ftp://sunsite.unc.edu/pub/Linux/apps/sound/talk/</A>
+Source code: <A HREF="ftp://sunsite.unc.edu/pub/Linux/apps/sound/talk/">ftp://sunsite.unc.edu/pub/Linux/apps/sound/talk/</A>
+Cost: free</KBD>
+</PRE>
+
+<H3>ZTALK
+</H3>
+
+<PRE>
+Simple, &quot;Extremely alpha&quot; voice software for Linux. Includes a voice mail
+feature.
+
+Encoding/compression: GSM
+Platforms: Linux
+E-mail: <A HREF=mailto:feinmann@cs.mcgill.ca>feinmann@cs.mcgill.ca</A>
+Source code: <A HREF="ftp://sunsite.unc.edu/pub/Linux/apps/sound/talk/">ftp://sunsite.unc.edu/pub/Linux/apps/sound/talk/</A>
+Cost: free
+
+
+</PRE>
+
+<HR>
+
+<H1>LEGAL STUFF
+</H1>
+
+<PRE>
+This document is copyright 1995 by Kevin M. Savetz and Andrew Sears. 
+All rights reserved.
+
+Permission for the following types of distribution is hereby granted,
+provided that this file is distributed intact, including the above
+copyright notice:
+     - non-commercial distribution
+     - posting to Internet archives, BBSs and online services
+     - distribution by teachers, librarians and Internet trainers
+     - inclusion on software/FAQ/Internet-oriented CD-ROMs
+
+Permission for commercial distribution may be obtained from the editor.
+SHARE THIS INFORMATION FREELY AND IN GOOD FAITH. DO NOT DISTRIBUTE
+MODIFIED VERSIONS OF THIS DOCUMENT.
+
+This document is new and in transition. If you notice that something
+important is missing, or information herein needs updating, please
+contact the editor.
+
+The editor and contributors have developed this FAQ as a service to the
+Internet community. We hope you find it useful. This FAQ is purely a
+volunteer effort. Although every effort has been made to insure that
+answers are as accurate as possible, no guarantee is implied or
+intended. While the editor tries to keep this document current, remember
+that the Internet and its services are constantly changing, so don't be
+surprised if you happen across statements which are obsolete. If you do,
+please send corrections to the editor. Corrections, questions, and
+comments should be sent to Kevin Savetz at <A HREF=mailto:savetz@northcoast.com>savetz@northcoast.com</A> or
+Andrew Sears at <A HREF="mailto:asears@mit.edu">asears@mit.edu</A>  Please indicate what version of this 
+document to which you are referring.
+
+
+</PRE>
+
+<HR>
+
+<H1>WHERE TO FIND THIS DOCUMENT
+</H1>
+
+<PRE>
+This file WILL BE BUT ISN'T YET posted twice monthly (on the 5th and
+19th of each month) to Usenet newsgroups
+
+You can find it on the WorldWideWeb:
+<A HREF="http://www.northcoast.com/~savetz/voice-faq.html">http://www.northcoast.com/~savetz/voice-faq.html</A>
+<A HREF="http://rpcp.mit.edu/~sears/voice-faq.html">http://rpcp.mit.edu/~sears/voice-faq.html</A>
+
+You can receive each new edition of this document automatically via
+electronic mail, if you are so inclined. This is a low-volume list, with
+updates every few weeks. To subscribe, send e-mail:
+     To: <A HREF=mailto:voice-faq-request@northcoast.com>voice-faq-request@northcoast.com</A>
+     Subject: subscribe voice-faq
+     Body: &lt;ignored&gt;
+
+You can also receive it once via electronic mail (without subscribing to
+automatic updates).
+     To: <A HREF=mailto:voice-faq-request@northcoast.com>voice-faq-request@northcoast.com</A>
+     Subject: archive
+     Body: send voice-faq
+
+You WILL BE ABLE TO BUT CAN'T YET receive it via anonymous FTP:
+<A HREF="ftp://rtfm.mit.edu:/pub/usenet/news.answers/internet-services/voice-faq">ftp://rtfm.mit.edu:/pub/usenet/news.answers/internet-services/voice-faq</A>
+
+###end of document###
+</PRE>
+
+</BODY>
+
+</HTML>

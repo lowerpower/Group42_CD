@@ -1,0 +1,8 @@
+Crack for SUPAPLEX by Satch.
+ 
+File: SUPAPLEX.EXE
+Search for  : E8 E9 05 E8 98 87
+Replace with: -- -- -- 90 90 90
+ 
+
+

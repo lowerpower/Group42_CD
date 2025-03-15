@@ -1,0 +1,1523 @@
+8.  PRIVACY AND INTELLECTUAL FREEDOM IN THE DIGITAL LIBRARY
+    Friday, March 20, 1992
+
+    Chair:  Marc Rotenberg, Computer Professionals for
+                            Social Responsibility
+
+    Panel:  Robert Walton, CLSI, Inc.
+            Gordon Conable, Monroe (MI) County Library
+                            System
+            Jean Armour Polly, Liverpool (NY) Public Library
+            Steve Cisler, Apple Computing
+
+
+ROTENBERG: Oftentimes we speak about privacy and freedom as
+if they are two competing goals, but I think the lesson that
+we may have to learn from this panel is that, in fact, they
+are complementary goals.  During the last several years it
+has become clear in the United States Congress and a number
+of other places as well that libraries continue to be the
+source for some of the best ideas about how to protect
+personal privacy in record-keeping systems.  We're going to
+be hearing more about that on this panel.
+
+But something else has happened in the last several months
+that should be particularly interesting to the people who are
+participating in this conference and interested in the
+application of the First Amendment and traditional press
+freedoms to the computer networks.  In October this past
+year, Judge Peter Leisure, who's a federal district court
+judge in New York City, issued an opinion in a case called
+Compuserve vs. Cobbie.  At issue in that case was a question
+of the publication of allegedly defamatory material through
+the Compuserve service.  Now the question that Leisure
+confronted was whether to analogize the Compuserve service to
+a traditional publisher like the New York Times or the
+Washington Post, or whether perhaps to adopt a different
+model, like a library or a bookstore or a newsstand.  The
+conclusion that Leisure reached in trying to find the most
+robust framework to promote the free flow of information was
+that under the traditional newspaper analysis, Compuserve
+might well be held liable for the publication of defamatory
+information.  But if instead Compuserve was viewed as a
+library, as a bookstore, or as a newsstand, which could not
+possibly be responsible for reviewing the contents or the
+words of all the publications that they helped to
+disseminate, then they would not be held liable.  Leisure
+reasoned that therefore this was the better approach to
+promote the flow of information in the new emerging
+electronic environment.  I think that's a very interesting
+insight and may provide some guidance for how we understand
+the computers, freedom, and privacy world.
+
+Let me begin now by introducing our first speaker.  He is
+Robert Walton, the president of CLSI, the oldest and largest
+library automation vendor in the world, with headquarters in
+Newtonville, Massachusetts.  Prior to assuming the presidency
+of CLSI, he was president of Walton-Bridge Consulting in
+Austin, Texas, a leading library automation consulting and
+marketplace research firm.  Mr. Walton is well known to the
+library community, having over fifteen years experience as an
+executive automation consultant faculty member and as a
+writer and a librarian.  Bob Walton.
+
+
+WALTON: Good morning.  Since we are going to try and stay on
+time, my ten minutes is ticking on the large $3000 tick-off
+clock down in the other end of the hall, so what we'd like
+to do is walk you through a series of slides.  I've been
+asked to try and represent a point of view, primarily as a
+producer of technologies that libraries can assume, and how
+this might have an impact on some of the topics that we are
+focused on today.  We'll have to dim the lights if we're
+going to use the slides.
+
+If you were to go to a typical library school and try and
+understand the focus of what librarians are taught to do in
+terms of the purpose of their institutions, clearly it's a
+very traditional role of recognizing that the library has
+been primarily a place.  It's not a service, it's a group of
+walls within which books and materials are located.  We're
+now in the process as a profession of trying to change the
+image of what a library is to less of a place and more of a
+service.
+
+INSERT FIG. 8-1 & CAPTION: "Figure 8-1"
+
+Figure 8-1 is an inscription at Enoch Pratt that really is
+used and characterizes what most librarians view as their
+purpose -- that is, to be a source of wisdom, a source of
+information that can allow anyone of any socioeconomic
+bracket to have access to the world's information.
+
+INSERT FIG. 8-2 & CAPTION: "Figure 8-2"
+
+In contrast to that would be something I would call the
+indictment (Figure 8-2), and that is a statement made by a
+faculty member at Emory which basically says that our current
+libraries as institutions today are really nothing more than
+warehouses -- they are buildings that hold material.  They
+remain static, they remain focused on what librarians like to
+do -- which is collect things, not distribute things -- and
+his indictment would indicate that we have the greatest
+amount of opportunity through the use of technology to begin
+to see this change.
+
+If we were to look at my colleague vendors, the firms that
+supply automated systems to libraries, and how that's going
+to make a shift in the tone and the focus of our perspective
+as a profession, unfortunately we don't hold much hope that
+we are going to see a significant change over the near term,
+and it may be the long term before things begin to really
+focus in new and sort of broadening directions.  If we were
+to look at high, modern, and low as the R&D dollars of
+library automation vendors today, most of those dollars are
+focused on fulfilling prior commitments which have not been
+met (Figure 8-3).  In technology, we call that contract
+commitments; if we are normal people, we call it lying before
+you have a product.
+
+INSERT FIG. 8-3 & CAPTION: "Figure 8-3"
+
+The second priority is to try and adjust to what can only be
+called the promiscuous growth of technology--the ability to
+handle the variety of platforms that all types of
+institutions, including libraries, are desperate to acquire.
+The less expensive and more available they become, the more
+we as software providers are desperately scrambling to
+support as many of these platforms as possible to remain
+viable.  If you look on the low end, where we should be
+investing most of our dollars in terms of broadening our
+emphasis, it ought to be on delivering full text, moving to
+expert systems, working on archival imaging as opposed to
+traditional text-oriented databases, and looking at things
+that have to do with incorporating statistical and non-
+textual data into the function we call a library to begin to
+really expand access.
+
+Charles Hildreth, who is one of the early developers of the
+online catalog, really summed it up best (Figure 8-4).  He
+says that we should be really focusing on trying to develop
+an online catalog, which would be an online library, where we
+begin to really envision our role as serving people that may
+never come into a building.  Perhaps some of these buildings
+that we've invested in will simply become mausoleums of the
+future and not really be the focus of what we as librarians
+do.
+
+INSERT FIG. 8-4 & CAPTION: "Figure 8-4"
+
+A good example of this would have been found in the Wall
+Street Journal article that caught my eye.  The front page
+article was titled, "Plug in, Sign on, and Read Milton
+Electronic Classic.  Project Gutenberg is sending good books
+to computers everywhere for free."  Here's an English
+professor at a small liberal arts college in Illinois who's
+tired of waiting for libraries, so he's bought a bunch of
+PCs, hired a bunch of students, and they're keying in full
+text of the classic books and distributing them over the
+Internet.  His goal is to have as many as 10,000 titles by
+the year 2000 --they only have twelve titles completely done
+today, and at 25 per year, obviously he's got a little way to
+go.  The interesting thing about the article was the
+reactions of some of his fellow faculty members at his
+university, and I quote one, "Are you a Communist?"
+(laughter)
+
+INSERT FIG. 8-5 & CAPTION: "Figure 8-5"
+
+If you look at the predictions of Alan Turing (Figure 8-5),
+the problem that we in libraries have, being fairly
+conservative as a profession, is that we don't believe many
+of the claims of what technology has to offer us as an
+institution.  In fact, if we look back on what Alan Turing
+said about the things that were going to come when he made
+these predictions in 1950, most of the communities said,
+"What's wrong with you, Alan? Are you nuts?"  I think we can
+very clearly see that those things have really come to
+fruition.
+
+The second excuse that librarians use is that the ultimate
+drop in cost of these technologies, as publicly-based
+institutions, has got to stop.  Well, how cheap can it really
+get? Surely we're going to hit a point where we can't
+continue to see drops in cost so that the technology can
+become more embraceable by the libraries that perhaps are not
+the wealthiest in the country.
+
+INSERT FIG. 8-6 & CAPTION: "Figure 8-6"
+
+The reality is that if you really look at the cost of these
+technologies, as probably you know as well as I, it's really
+in terms of the intellectual effort that goes into the design
+of them.  It's not really the cost as focused on raw
+materials that go into the devices.  We're reaching a point
+now where between 2 to 5% of the cost of most workstations is
+actually raw material cost (Figure 8-6), and the rest is
+actually the development cost and the amortization of
+knowledge.  It's also the marketing -- it pays for the
+airline tickets to come speak at ACM.  All of these factors
+that are not really material costs are added into the
+material, and are included in how you package and sell that
+particular technology.
+
+INSERT FIG. 8-7 & CAPTION: "Figure 8-7"
+
+If we were to look, for example, at all of the monographic
+publications of 1990 (Figure 8-7), including not only popular
+trade material, but also proceedings of conferences, academic
+papers, etc., there are approximately 70,000 titles published
+in that year.  Using even today's fairly antiquated disk
+storage technology, a library could have full-text online
+storage of every publication of 1990 for about $250,000.  And
+you can see the trend lines that develop.
+
+Certainly if we understand the importance of time as a
+resource in itself, and we look at our own careers ten or
+fifteen years from now, libraries do have definitely within
+their embrace a massive amount of information that they're
+going to have to cope with.
+
+This information is going to pose a number of significant
+problems for a library.  If we look at the barriers to this
+type of a library situation, it's not going to be technology.
+Librarians still tend to focus on the technology.  We as
+vendors encourage that because it's something we can control.
+
+INSERT FIG. 8-8 & CAPTION: "Figure 8-8"
+
+The real issues for a library are going to be the following
+(Figure 8-8): intellectual ownership of the information --
+it's not simple, as you probably understand from the focus of
+this conference -- the issue of how publishers are going to
+benefit from electronic distribution as opposed to paper
+distribution, where they have much more control and can
+exercise a greater amount of security.  There are a lot of
+legal liability issues, and there's certainly institutional
+egoism.  As we look at the problems of networking, they're
+much less technical than they are a matter of institutional
+egos that have to begin to stop talking about "my library"
+and start talking about "my consortium."  And then we have
+the obvious economic impacts, which are going to be important
+for many public libraries as they try and understand the
+impact that they're going to have in creating, not a
+classless society, but perhaps a more class-oriented society
+based upon one's ability to pay.
+
+INSERT FIG. 8-9 & CAPTION: "Figure 8-9"
+
+Even on something as simple as open access to the
+information, we haven't accomplished some of the things that
+we all hold to be basically fundamental in terms of our
+impression of what a library has, and that is free access to
+information (Figure 8-9).  As we've seen what Bill Moffett
+did at the Huntington, California library with the Dead Sea
+Scrolls, and as we look at the way even presidential papers
+are restricted in terms of their access and the timeliness of
+their release, clearly we have a long way to go, regardless
+of the technology, in simply making information available.
+Some people think that is a technological barrier and not an
+intellectual one.
+
+INSERT FIG. 8-10 & CAPTION: "Figure 8-10"
+
+We also are going to have to understand the issue of
+information malpractice (Figure 8-10).  For the first time,
+libraries are not going to be passive distributors of
+information, they are going to be active authors of
+information.  They're not going to author the information
+itself, they are going to repackage it, they're going to
+develop interfaces, they're going to allow intelligent
+systems to guide people to conclusions based upon the way
+that they present that information.
+
+Traditionally, malpractice has been something that has not
+been a big concern to libraries because they have been
+protected by the general theory that as long as you exercise
+some skill and are prudent in a use of a particular tool, you
+are not personally liable.
+
+INSERT FIG. 8-11 & CAPTION: "Figure 8-11"
+
+However, as we look at the traditional limitations going
+away, we begin to see some disturbing trends.  In the last
+three years, there have been three cases (Figure 8-11), which
+we don't have time to discuss in detail now, which indicate
+that there are going to be liabilities for libraries and
+private providers of information as they begin not only to
+repackage information, but also when the information provided
+to them is inaccurate.  They are going to be held
+responsible.  Perhaps the most damning of these was the
+second one -- the Brocklesby case, where they repackaged FAA
+data and put it into graphical form using a CAD/CAM system.
+A pilot, enjoying looking at a map, instead of a table of
+data, flew his plane into a mountain that wasn't supposed to
+be there.  Even though the FAA data was in error, even though
+the private library that had packaged this and produced it as
+an alternate tool was absent of malice, they were found
+guilty and had to pay not only consequential but punitive
+damages.
+
+INSERT FIG. 8-12 & CAPTION: "Figure 8-12"
+
+If we look at what's going to change this, the catalyst of
+improving technology is going to be important for the
+following reasons (Figure 8-12): we're going to see drops in
+costs to lead libraries that will exacerbate the issues I
+raised before, and we're going to see changes in policy that
+will put pressure on libraries to either get in or out of the
+information business in a more aggressive way.  I think the
+way that we'll reach success on that will be the death or
+resignation of some of our key library managers.  (laughter)
+Thank you very much. (applause)
+
+
+ROTENBERG: Thank you.  Our next speaker is Gordon Conable.
+Gordon is director of the Monroe County Library System, in
+Monroe, Michigan.  He is vice president of the Freedom to
+Read Foundation, and the immediate past chair of the American
+Library Association's Intellectual Freedom Committee.
+Gordon?
+
+
+CONABLE: Good morning.  There's a tension that librarians
+deal with between the free flow of information and respect
+for the privacy of individuals.  This conflict arises in much
+of what we do -- it is central to the ethical obligations of
+librarianship that turns many of us prematurely gray.
+Librarians use computers to control the circulation of their
+materials by matching records of the items which they hold
+with records of the patrons who borrow or use them.  These
+computers can provide bibliographic access to information
+-- digital storage is an increasingly functional way to store
+and retrieve vast quantities of text.  Librarians use
+computers to facilitate resource sharing, interlibrary loans,
+and document delivery; and libraries, like all other
+institutions in the information business, are living
+through the transformation of document production,
+publication, retention, distribution, and organization from
+paper to electronic forms.
+
+The role of libraries as custodians of recorded information
+is being transformed.  The role of librarians as organizers,
+mediators, and searchers is being transformed.  The role of
+librarians as advocates of free expression is being
+transformed.  As automation alters the way we carry out our
+traditional tasks -- the acquisition, organization,
+maintenance, and distribution of information in physical,
+primarily paper, formats -- we must ensure that our new
+methods still reflect the underlying principles which define
+our purpose.
+
+Most current applications of automation in libraries are in
+inventory control, access, and circulation.  We call the
+first of these bibliographic control, by which we mean the
+physical and intellectual description of packages of
+information, books, etc., for the purpose of identification
+of them and retrieval of them.  The model is still based
+around the requirements of organizing and handling physical
+objects in print format in a manner which accommodates their
+storage and the browsing retrieval of them.  We take books
+and we describe what they look like, and then we describe
+their intellectual content in a manner that they can be
+housed so that topics of the same subject matter are
+physically next to each other on shelves.  This is labor
+intensive.  Automation has allowed us to save a great deal of
+time and increase our productivity because every library in
+the world doesn't have to do the description independently
+any more.
+
+If we were not storing things in print form, what we would
+have to do in terms of the retrieval mechanism and the
+classification and description would be very different.  So,
+as we migrate into full text storage in electronic format,
+the task of organizing libraries becomes very different.
+
+Circulation is transaction control which matches the
+inventory of physical objects, books -- units of information
+-- with an inventory of users.  It's based on the old model
+-- we still want to issue library cards.  But what automation
+does is enable us to gather a great deal more information
+about the user and the use that they make of library
+materials than we ever could under manual systems.  And this
+raises serious ethical questions about the privacy of the
+individuals and our ability to protect the confidentiality of
+use of materials.
+
+Libraries, particularly publicly-funded libraries, are
+institutions which derive their function and their
+justification from the First Amendment.  The American system
+recognizes not only broad rights of free expression, but also
+a corollary right to receive information freely without
+government interference.  This corollary right has been
+recognized in the courts, including the U.S. Supreme Court,
+as necessary for free speech to have meaning.  If there is no
+right to receive a speaker's ideas, the effect of the speech
+is as effectively muzzled as if the speaker were gagged.  For
+librarians, the right to receive information without
+government interference also means the right to receive it
+confidentially.  The privacy of one's thought processes and
+of the subject matter that one is thinking about -- the
+individual's proprietary right to inquiry, if you will -- is
+central to individual intellectual freedom.
+
+There is an increasing array of attempts to attribute
+exposure to certain types of expression with a causation of
+criminal or antisocial behavior.  This is the Ted Bundy
+theory of criminal responsibility: I read Playboy, therefore
+I raped and murdered.  This theory is being embodied
+in pending federal legislation, in state legislation, in
+tort claims, and in creative criminal defense.  Fortunately,
+American case law still rejects the notion that "monkey see
+monkey do" is an enforceable legal principle or an adequate
+criminal defense.  However, there are increasing and
+persistent attempts to validate this simplistic explanation
+of disturbing, frightening, or threatening behavior.  This
+reinforces the notion that the right to privacy of
+information use is a necessary protection if free inquiry is
+to continue to exist.  For if we judge each other by what we
+assume to be the consequences of what we read, we surrender a
+crucial element of our freedom.
+
+In an era where information resources are indistinguishable
+from economic resources as a basis for power, libraries are
+one of the few leveling forces in the society.  This happens
+to be consistent with Andrew Carnegie's dream, which
+motivated him to give a lot of money to establish public
+libraries in this country in the first place.  Carnegie felt
+the library was the institution which would enable the common
+person to lift himself up by his bootstraps -- the gender is
+not a mistake in the case of Andrew Carnegie -- and what he
+meant was that the information would allow the individual to
+achieve economic accomplishment in the society.  That's why
+Carnegie thought it was important that libraries be free,
+that there was a public good in making it possible for
+anyone, regardless of his or her means, to have access to the
+information which would economically empower them, or
+politically empower them.  This only works if libraries
+continue to be supported as a public good, without fee and
+without charge -- tax support of these services, and keeping
+of them open for all, without fees.
+
+The change in technology makes this hard to maintain because
+the economics of electronic information are different from
+the economics of print information, and there's a political
+transition that libraries are having some difficulty making.
+Two recent court cases reinforce the perception of the
+importance of the free public library and the right to access
+of information, if freedom is to continue to remain in this
+country.  One of those is a case in Morristown, New Jersey in
+which the library passed regulations which limited the rights
+of an indigent person to access that library.  The case has
+had a lot of media attention, but the judge in the case, a
+federal court judge, ruled that the right to receive
+information in the library was a First Amendment right, and
+that government regulations which basically excluded people
+for arbitrary, capricious, or economic reasons had imposed
+upon their First Amendment right to receive information.  The
+case is on appeal, but if the basic principle is upheld, a
+large blow will have been struck for the principle that the
+government has a function in providing access to information
+to all, regardless of means.  And if that is so, the strength
+of America's libraries will have been substantially
+reinforced.
+
+The other case is not one about which I feel so optimistic,
+and that case, I think, was referred to by Robert Peck
+yesterday -- Rust vs. Sullivan -- which arose out of abortion
+controversy, but basically has established at the Supreme
+Court level a legal principle in this country that funding
+dictates the content of speech, and that if the federal
+government gives you a dime in any way, they can dictate what
+you say, and they can muzzle what you say.  This is an
+extremely disturbing precedent because it says that the power
+of the purse to control speech is now established as the law
+of the land, and it is just beginning to be applied in areas
+other than abortion.  This is the first major inroad of
+federal enforcement of politically-correct speech, and it is
+ironic that this court ruling came out in the same week that
+President Bush made a speech decrying politically-correct
+speech on campuses.
+
+There are other issues that libraries face in relation to
+automation and that relate to the privacy of patron use.  One
+of those has to do with database licensing, since some
+databases are licensed with the expectation that the users of
+those databases be limited by some sort of characteristic.
+There are business databases which cannot be marketed to
+labor organizations.  Libraries which do not screen their
+users by these kinds of classifications are faced with a
+dilemma if they buy into those kinds of licensing agreements.
+
+Another issue that I want to mention is the question of
+archival integrity.  A book is printed, and while books do
+not last forever, they have some permanence --  once the
+words are printed on the page, they remain that way until
+another book is printed.  Electronic information is much more
+malleable, creating a problem that librarians are sensitive
+to -- that if you can change the text electronically and
+rapidly, revisionists have a powerful new tool.  If we are to
+have any kind of a permanent record of what we were thinking
+at any given time, this is an issue which will have to be
+confronted and dealt with.
+
+Librarians have addressed and thought for 100 years about
+many of the issues which are being discussed at this
+conference.  We have promulgated opinions, policies,
+interpretations, and statements on these subjects; we have
+been concerned about the protection of the content as much as
+we have about the technological delivery of the information.
+Many of the people in this room are coming to these subjects
+from the point of view of technological delivery of
+information.  As you address the implications of the
+technology upon the content of the information, which is
+after all the most important part of it, come and talk to us.
+We know a great deal about it; we've written some things
+about it.  This is our intellectual freedom manual -- the
+fourth edition will be out in June.  Buy it, you'll find some
+things that apply.  Thank you very much.  (applause)
+
+
+ROTENBERG: Our third speaker is Jean Armour Polly, who is the
+assistant director for public services at the Liverpool
+Public Library.  She has been a strong advocate for public
+technology in libraries, and is a member of five of the
+sponsoring organizations of this conference.  She is also a
+co-host of the Apple Library Users Group SIG on the WELL.
+
+
+POLLY: You guys get to guess which five I belong to.  I think
+you can probably guess.  I thought that I had fifteen
+minutes; I discovered I have ten, so I'm just going to whip
+through these overheads, and we're going to talk just a
+little bit.  If you see anything that you're real interested
+in, give me a call or send me E-mail.
+
+Insert Fig. 8-13 & caption "Figure 8-13"
+
+Everybody always wants to know, well, where in the world is
+Liverpool Public Library, and Figure 8-13 shows you.  We're
+in the central part of New York state, in NYSERNET country.
+Oh, and I'm supposed to say that the ALA -- American Library
+Association -- does have an 800 number: 1-800-530-8888.  You
+can call us toll-free and get all sorts of cool information
+on intellectual freedom and all of our publications.
+(audience interruption -- "wrong number") Oh, that's what
+they gave me -- what is the number now?  1-800-545-2433.
+Thank you --an update, version 2.0.
+
+Insert Fig. 8-14 & caption "Figure 8-14"
+
+Figure 8-14 showsthe top ten factoids of Liverpool Public
+Library in the computing era, the last ten years.  We're
+celebrating ten years of public computing, we've got a public
+lab, we've got seven or eight computers of all varieties and
+flavors, Macs, PCs, Apple-IIs, what-not, we've got a lot of
+stuff there.  I don't have time to tell you all about it.
+Since 1984, we've been circulating software for home use.
+We've got about 1500 titles, and, of course, multiple copies
+of those titles.  We are in full compliance with the Computer
+Software Rental and Loan Act of 1990 -- we don't have time to
+talk about it.  We have a staff LAN, we have lots of people
+in our computer department.  We're very unusual for a public
+library, and we like to think of ourselves as a center of the
+public computing universe in libraries in America. (laughter)
+Let's see, we do a lot of nontraditional services -- we do
+file transfer, we do scanning, and we do serve the patrons.
+We get a lot of people who come in and say, "My entire life
+is on this disk, and I have no backup."  We help them out.
+
+We run our own Apple Library Apple users group there at the
+library, and we have about 150-some members now.  We have
+free membership, we have meetings and newsletters and what-
+not.  We ran a public electronic bulletin board -- I'm going
+to talk about it on the next view-graph.  We had a free
+public site to take advantage of the GENIE Desert Storm E-
+mail free service that they ran during the Desert Storm
+conflict, and I think we were the first public library to
+offer that service in a public setting.  Subsequently,
+several others picked up on that.  We also ran Operation
+Oasis, which was an airlift that the computer department ran.
+I don't know why the computer department ran that -- we have
+a lot of strange people in our department.  We did three
+airlifts with 60,000 pounds of stuff, including 13,000 books
+and games, puzzles, you name it, we sent it.  We're a Library
+of Congress American Memory beta test site -- I don't have
+time to talk about it.  This is a wonderful project and I'll
+be happy to send you more stuff on it.  Basically, it's an
+interactive video disk out-of-the-archives-and-into-the-
+streets type of thing of original materials for people to
+use.  We're an Apple Library of Tomorrow test site, and of
+course, the number one factoid is that we are the smallest
+public library with an Internet host.  Running out of time
+here.
+
+
+Just briefly, we ran the electronic bulletin board.  We were
+the first library east of Chicago to run one.  There were
+really no BBSs in our area, which is why we decided to fill
+the void, plus we thought there should really be a publicly-
+run BBS opportunity for people to share information.  In our
+area, and I'm sure this is true in your areas too, there are
+boards that are run by people that may or may not support the
+Constitution.  So we decided, seeing that we've had this 100
+years of experience with the Constitution and intellectual
+freedom, that it would be a real good idea for the library to
+run one.  Well, actually the dates I showed were wrong.  We
+ran it for about two and a half or three years before we
+finally took it down.  During that time we pretty much
+experienced all the intellectual freedom issues known to man,
+or to woman, as the case may be.  We let anybody come in and
+use the computer, home computer, or any kind of computer
+could come in.  We let people use online pseudonyms, but they
+had to give us their real names.  We posted our rules and
+regs in the welcome message so everybody knew when they came
+in the door what the deal was.  We didn't allow any kind of
+illegal activities discussed, and there would be no
+profanity.  How did we get around that? The particular
+software we ran had an obscenity filter in it (laughter),
+which meant that we had to have a meeting to figure out all
+the obscene words that we knew.  (laughter) Well, it was a
+fun meeting, and not something that they taught me in library
+school (laughter), but it made for an interesting meeting, as
+I said.  We hadn't allowed for people that could swear but
+could not spell.  (laughter)  We also didn't realize that you
+could be really dirty without ever spelling a word out in its
+entirety and our parser was not that sophisticated.
+
+Insert Fig. 8-15 & caption "Figure 8-15"
+
+Figure 8-15 lists some of the stuff we had on the night shift
+BBS, and one of things that we did grapple with was religious
+fanatics on the board.  Now we ran this, keep in mind this
+was mid-80's, a 48K Apple II Plus with three disk drives.
+Now I'm not talking 1.2 gigs here -- I'm talking 5-1/4-inch
+floppy drives.  Remember those? There was a certain amount of
+space that we allotted to message bases, and once that filled
+up, it would delete the oldest messages.  Well, in an
+evening, if you had a particular ax to grind, you could
+pretty much fill up the message base and take up all the
+publicly-accessible space.  Well, this wasn't good, and one
+of the groups that was doing this was a particular religious
+group which shall remain nameless unless you catch me in the
+hall later.  (laughter) These folks decided that they would
+fill up all the message boards every night with copyrighted
+material.  Well, that was our out.  We did not allow
+copyrighted material on the board, once we found out it was
+copyrighted.  Another thing that happened was people did not
+want to read this information, so we gave this particular
+group their own message board and people could either go
+there and read it or not go there and read it.  We called it
+the 200 Club (laughter) because in the Dewey Decimal System,
+the 200 range is for religion and philosophy. (laughter)
+Well, librarians have a sense of humor, and in Cyberspace we
+have to do this too.  Anyway, what pulled the plug on this
+finally was that we had a proliferation of boards in our
+area, and time and resources.  Of course, libraries never
+have enough of either.  But the third thing was what really
+pulled the plug -- it was the specter of government
+regulation that scared us off.  We didn't want to be a test
+site to test a case for the FBI, although now I find out if I
+had just encrypted my files, I probably would have been okay.
+We didn't want to be a place where pedophiles could solicit
+children, so after upholding our public-spirited principles
+for so long and so well, we gave up with a whimper.
+
+But we're not gone forever.  Recently, a year ago, our mid-
+level regional came to us and courted us, and we got married
+to the Internet.  How am I doing on time? Oh, pretty badly.
+
+What did this experience teach me? Well, acquire what people
+want, make everything available to everybody, and make it
+free to come in the door and look, give everyone library
+cards but get some ID first, don't let people appropriate
+your materials without your knowing about it, if they screw
+up there may be a fine, let them know that, if you break
+something tell someone, and don't use library materials in
+the bathtub. (laughter)
+
+Okay, what am I doing with my Internet connectivity? Well,
+I'm doing a whole bunch of cool stuff-- I'm FTP-ing all over
+the place, I'm telnetting into probably your sites, but my
+real thing is--I want to get my library clients interested in
+what they can do with networking.  I want them especially to
+ask for public access to the NREN because if they don't ask
+for it, they probably won't get it.  Well, much has been made
+of this public on-ramp to this data highway, but we need more
+than just the on-ramp.  We need the travel brochures, we need
+the rest stops, we need the AAA of networking.  I don't know
+who's going to be providing that service.  It may be public
+libraries, it may be mid-level regionals, it may be NSF, it
+may be a combination of all of those things.
+
+I'm concerned about the GPO Window project -- I think it's
+going to be wonderful, it's a one-stop shopping for
+government information.  But I'm concerned about it and I
+wanted to ask this question yesterday and didn't get a chance
+to.  A few years ago, the IRS decided to stop the mass
+distribution of its forms, and they decided to dump this on
+libraries.  This particular thing has caused libraries many
+problems indeed.  We distribute at our library about 70,000
+forms every year.  Well, we have to pay somebody to order all
+those forms early on, and distribute them; we have to figure
+out some way to keep it staffed there and keep the items
+stocked that people want.  And it really has created quite a
+burden for us.  A few libraries nationally have decided not
+to provide this service at all, but that's difficult when the
+patrons are banging down the door asking, Well, why don't you
+provide this?  They're even asking me in New York, well, why
+don't you have state forms for California?  (laughter) I
+mean, you wouldn't believe what people want.  Well, I'm
+concerned that GPO Windows may just say, well, here's all
+this cool electronic information.  Where's my public's on-
+ramp to that? Are they going to give me network connectivity?
+Are they going to give me equipment? I think they've got to
+think about this stuff, too, not just create the information
+and then not give me a way to get it.
+
+Okay, really fast, as we know, it's the electronic frontier
+and, of course, pioneers often have to deal with harsh
+environments.  Well, we've got to humanize that, and I've got
+permission here from Mr. Cerf to talk about that all pioneers
+have to deal with this harsh environment, but around the
+campfire of a glowing off-hook light, we need to see bards
+like Vint Cerf delivering his soliloquy "Rosencrantz and
+Ethernet": (laughter)
+
+   All the world's a net! And all the data in it merely
+     packets
+   Come to store and forward in the queues a while
+     and then are
+   Heard no more.  'Tis a network waiting to be
+     switched!
+
+   To switch or not to switch? That is the question.
+     Whether
+   'Tis wiser in the net to suffer the store and forward
+     of
+   Stochastic networks or to raise up circuits against a
+     sea
+   Of packets and, by dedication, serve them.
+
+   To net, to switch.  To switch, perchance to slip!
+   Aye, there's the rub.  For in that choice of switch,
+   What loops may lurk, when we have shuffled
+     through
+   This Banyan net? Puzzles the will, initiates
+     symposia,
+   Stirs endless debate and gives rise to uncontrolled
+   Flights of poetry beyond recompense. (applause)
+
+Thank you.
+
+If I could just take one more minute, not only that, but
+we've got Emily Post News, foremost authority on proper net
+behavior:
+
+  "Dear Ms. Post News: How long should my signature be?"
+  "Dear Verbose: Please try to make your signature as long as
+  you can-- it's much more important than your article, of
+  course, so try to have more lines of signature than text.
+  Try to include a large graphic made of ASCII characters
+  plus lots of cute slogans and wisdom.  Be sure to include a
+  complete map of Usenet which needs .signature to show how
+  anyone gets mail to you for any site in the world.  Include
+  Internet gateways and how people on your own site can mail
+  to you."
+
+Okay, really fast, I just want to make an announcement that
+we have indeed humanized the network to the extent that Elvis
+has an E-mail account at my house.  (laughter) You can write
+to him at LPL.ORG.  Well, I guess I've taken up all my time
+here -- I just want to say that we got NREN okay, now we need
+money for the K through 12 sites in the public libraries,
+which will give the rest of us the access.
+Telecommunications helps us overcome what has been called the
+tyranny of distance and we do have the global village.  How
+are we going to use it?
+
+And this is my last thing, I promise you, Marc.  One
+illustration of the power of the net, which I think we all
+have to keep in mind, a lot of us last fall got an E-mail
+from Dave Hughes, who's not here so I can talk about him.
+Dave Hughes sent an E-mail to all of us and said, put down
+your cursor, call up Gore's office -- here's the number --and
+lobby for K through 12 funding for NREN.  Well, later I asked
+Hughes how it went, how many phone calls did you generate? He
+said that he read the observation by the Houston reporter at
+10:00 PM, he'd posted his reaction by 1:00 AM, and the deluge
+hit Gore's office by noon -- 14 hours.  He doesn't have a
+count, but judging from the reaction, by 2:00 PM on the
+working day, a senior Gore official called him and asked him
+to call off the dogs (laughter).  He posted on five systems
+-- the WELL, Metanet, Echo, Compuserve, Comprivate --
+Rendiscussion on the Internet, and in Roger's Bar on his own
+system.  It must have been in the score of calls, I would say
+the hundreds of calls, and it was made more significant
+because they were from so many different places, so many
+different people, not affiliated with each other in any way
+other than interest in the issue.  He says it's a
+verification of Toffler's reference to "adhocracy" replacing
+bureaucracy -- people forming up around a task or issue, then
+dissolving again out into Cyberspace, something networks make
+possible in spades.  And I think librarians and other
+Internauts like those of you in this room, have to become
+advocates of advocacy.  On the net you can either be a
+signpost, a roadblock, or a line noise, and I would encourage
+all of you to get involved by joining a listserv, getting
+involved with Compuserve or the WELL or CPSR, and join EFF
+and all of those organizations.  Don't just put your notes
+away and think that the conference is over, because it's just
+beginning.  Thanks.  (applause)
+
+
+ROTENBERG: That was wonderful, Jean, thank you.  I'm going to
+offer a slight correction now, because I've heard the story
+of that phone call between Gore's aide and Dave Hughes as
+well, and I don't think the word that Gore's aide would use
+would be "called" -- I think he would say probably instead,
+"begged and pleaded," because it was quite a response.
+
+The next speaker is Steve Cisler, and Steve is the senior
+scientist at Apple Computer Library.  He works with the
+information retrieval projects at Apple and also the Apple
+Library of Tomorrow research grants.  Steve?
+
+
+CISLER: Thanks very much, Marc.  You may have noticed in the
+news last night, or perhaps this morning, that the postal
+director of Congress resigned because of inappropriate perks
+for Congress.  I have a number of overdue record notices for
+Newt Gingrich, for George Bush, and Bob Dole, and James
+Billington is going to ... Well, let me stop it right here.
+(laughter)  Because of privacy concerns.
+
+Bruce Sterling has written about offshore data havens, and
+I'd like you to think of libraries, especially public
+libraries, as sort of privacy havens.  I'm going to talk
+about an incident that I, as a public library user, would
+like to share with you.
+
+In the September 1991 Scientific American issue on networks
+and computing, Mark Weiser wrote about ubiquitous computing.
+At Olivetti in England, researchers are wearing small devices
+that perform some simple tracking and call forwarding
+functions that will benefit the researcher as well as that
+person's colleagues.  I learned the other day from a member
+here that the lunchroom at Olivetti has both a privacy area
+and a connected area, where if you are wearing these small
+devices you can be traced.  Or, if you want to eat or chat or
+read a book in private, you can.  I like to think of the
+library as a place where you can connect up to the word of
+electronic and print information, but still retain a good
+deal of personal privacy and be assured that others won't be
+able to find out what you read, viewed, or the questions you
+asked the reference librarian, be that a person or a software
+surrogate.
+
+Although I don't work in public libraries any more, I still
+use them.  There are several county branches and a city
+branch within about a fifteen-minute bike ride, and some
+member of our family goes to one of these every couple of
+days.  At the checkout counter of the Saratoga Library there
+is a posted notice reminding people that all library records
+are private, and they cited the California civil code number.
+
+My own awareness of privacy issues changed after attending
+the CFP-1 conference.  Last spring I had written an article
+for the Library and Information Technology Association
+covering issues of privacy and reuse of personal data by the
+American Library Association and other related issues.  So I
+called the county librarian of Santa Clara County, a woman
+named Susan Fuller, to see if there was really any story
+behind the poster that was so prominent.  What follows is
+really a summary of articles in the San Jose Mercury News,
+conversations with Fuller and Lani Yoshimura, the branch
+librarian in Gilroy, who's also very active in an
+intellectual freedom committee in California, as well as a
+letter from Gary Strong, the California state librarian.  And
+I think it shows the way censorship is tied to privacy issues
+in libraries.  It also raises the issues of industry
+standards at odds with First Amendment concerns, freedom of
+choice, and the role of citizen watchdog groups in how our
+public institutions are run.
+
+In September 1990, a magic shop owner by the name of Steve
+Dawson, whose establishment was very near the Milpitas Branch
+Library, noticed that a kid had a video of "Beverly Hills
+Cop."  He was really shocked to find out that the kid had
+checked it out at the library nearby.  "Beverly Hills Cop" is
+R-rated, but you should keep in mind that the MPAA system of
+rating movies is not accepted by the library community.  This
+is a motion picture industry standard and it really takes the
+decisions of what is appropriate and suitable for a child out
+of the hands of parents and puts it in the hands of theater
+owners and groups such as Blockbuster or Warehouse.  A lot of
+people accept it as law, but it is by no means that.
+
+Now the county library has an open access policy that allows
+anybody to get a card and to check out any circulating
+materials.  What's more, no parent can request to see the
+circulation records of a child, or for that matter, a spouse.
+The library's policy is that it's up to the parent, or
+parents, to establish values and guide their child, but that
+the child has rights to privacy.  Anyway, Dawson, the magic
+shop owner, argued against this stand at the Library
+Commission meeting later that year -- this is in 1990 -- and
+again at the County Board of Supervisors.  The San Jose
+Mercury News in an editorial initially backed Dawson's idea
+that a parent should okay their kids' use of R-rated films.
+Librarians really unanimously opposed this, and the newspaper
+used rather different standards for judging books than for
+movies.  The newspaper had also been writing in support of 2
+Live Crew in Florida at that time, but they'd withheld
+support for an issue much closer to home.  Naturally, the
+newspaper backed access rights to printed material, but it
+kind of weaseled out of the same standards for non-print.
+Later, the editorial committee at the newspaper narrowly
+changed its view and decided that since kids could see "Fatal
+Attraction" or "Robocop" on TV, messing around with the
+library system just to keep them from getting at the movies
+was not worth it, so they sort of came around to the library
+stance.
+
+The County Board of Supervisors had a really large meeting,
+and they voted 3-2 not to support Dawson's plan.  Then they
+had a unanimous vote to support the library's open access
+policy.  The reason for the difference in the vote was that
+part of the previous split vote was really due to Dawson's
+own board member supporting his constituent's plea.  Now the
+county library sends out a notice now to parents of underage
+cardholders and reminds them of the open access policy and
+what kind of freedom that means for their kids.  The parent
+may ask to have the card revoked, but it's only for a 6-month
+period, and the child can go back and get a card again
+without the parents' permission, so it's really sort of all
+or nothing.  So far, though, nobody has elected to have their
+child's card revoked.
+
+Dawson was not pleased with this compromise or with the
+decision of the board, so he wrote to Governor Wilson, who
+turned the letter over to Gary Strong, the California state
+librarian, who replied to the owner of the Magic Touch.  In
+his reply, he reiterated the library profession's views on
+labeling, on restricting access, on providing the widest
+range of materials possible, and on the need of parents to
+talk with children to impart values, etc.
+
+I was really impressed with the support within our community,
+within the library community, and a bit surprised about the
+San Jose Mercury News waffling on the issue.  But I was very
+proud of my own library's commitment to the privacy of even
+young library users.  And what's important is a consistent
+system of support from our national organization, our state
+library, the county library, and on down to the grassroots
+level.  So that's one reason why it's really nice to work
+inside the library system.
+
+I now work in a library in the advanced technology group at
+Apple, and we work, as Marc said, with information retrieval
+projects, with the grant program -- by the way, we support
+Project Gutenberg and we're doing a new project with the Dead
+Sea Scrolls that will be very exciting -- and we perform
+typical corporate library tasks, such as online literature
+searching.  We also have a large user group with 17,000
+members, and we have a 100-page quarterly magazine.  As you
+can imagine, we've had a lot of requests for our list of
+subscribers, both from sales and marketing people inside the
+company and from third-party vendors outside.  But we
+believe, as I learned really at the last conference, that, as
+Alan Westin predicted, most databases of personal information
+will be consensual.  So ours is right now and we haven't
+given it out to anybody except other librarians who wanted to
+start a local users group in the area.  So I was a little
+annoyed to have my own professional association sell mailing
+labels with my name and address to other vendors, even after
+I wrote on the application form not to do so.  While I can't
+get angry at a data clerk who ignores such a plea, I did
+write the director and after many months, I did get a
+response.  Then I got even more response when they found out
+I was going to be doing a little talk on this.  (laughter)
+But really, let me hasten to say that you can opt out, you
+don't have to have your information sold to vendors.  I'd
+prefer to have an opt-in box, my own Peace Corps volunteer
+group in northern California has that.  But, it's a
+consideration of revenue flow within a non-profit group.
+
+On the WELL, Kevin Kelly, former editor of the Whole Earth
+Review, recently posted a very timely treatise on privacy as
+a commodity.  He said, "Information is so valuable that even
+its absence is worth something.  We are in the first days of
+a great awakening as ordinary citizens realize that ordinary
+information about themselves is something one can sell or
+save."  And he made these predictions: government will slowly
+weasel out of the business of being a guarantor of privacy.
+The middle class will have the least privacy, partly because
+the rich can afford it, and the poor won't really use the
+instruments of credit that deprive many of us of privacy, and
+the information commons, that place where information is
+pooled to be shared, will become endangered and those that
+survive will do so by endogenous self-government, rather than
+national policies.  And then finally, he said, "the co-
+evolution of privacy and information will take place
+according to the rules of the private sector."  Now, I find
+his essay provocative, but I still firmly believe that the
+library, especially the public library system, will continue
+to be an information commons, a protector of privacy and a
+counterforce to those practices of direct marketing
+professionals who believe they are doing us a favor by narrow
+casting electronic text, print material, and in the future
+broadband network video and sound messages.  Thank you very
+much.  (applause)
+
+
+ROTENBERG: We have time for questions, if people would like
+to go to the mikes -- there are three mikes out.  Rick?
+
+
+AUDIENCE MEMBER: I'm Rick (name inaudible).  I'm very
+sympathetic and supportive of the attempts of the library
+community to get themselves involved with NREN.  But one
+thing has always puzzled me a bit.  Given the Supreme Court
+decision about abortion counseling, given the political
+climate and the attacks on the National Endowment for the
+Arts and so on, isn't the library community a little
+concerned about pushing for federal subsidy of a national
+infrastructure?
+
+
+CONABLE: Well, I mean that question suggests that the battle
+is over and that we've lost.  I don't know that that's the
+case.  There was small glimmer of hope in the Rust decision
+-- the Chief Justice in writing his opinion wrote an
+exception for the university, asserting that it was such a
+traditional marketplace of ideas that applying the strings
+over content restrictions in the university would be
+inappropriate.  Now I happen to think that fit the political
+agenda of the President, who was bashing politically-correct
+speech at the moment, but I would hope that we will be
+successful in asserting and establishing that libraries fit
+within that loophole as well.  That's really the fight of the
+next two or three years of greatest significance in this
+area, but I'm not ready to concede it yet and we could use
+your help in winning it.
+
+
+ROTENBERG: Yes, sir?
+
+
+KIM: My name's Gene Kim, I'm a student at Purdue University.
+Yesterday in the FOIA discussions, various library officials,
+representatives, expressed their enthusiasm for being the
+vehicle of delivery for government documents.  I guess my
+question is directed to Jean Armour Polly, where she
+expressed some annoyance at being the vehicle for delivery
+for IRS forms.  I'm wondering what you see as the library's
+role in the future for serving the rest of the public sector
+and the rest of us.
+
+
+POLLY: Well, we need to do it, of course, but how is that
+impacting my local taxpayers who are paying the salaries and
+what not? That was the whole problem with the IRS stuff, just
+that it was such an impact on us just to provide the service
+well.  I mean, sure, you can just order a few of the normal
+forms, and then they give you whatever the IRS number is,
+which is all the reproducible tax forms, but a lot of people
+don't want to do that, they want the actual form in hand.
+And like I said, I gave out 70,000 forms last year.  I don't
+know that that's part of our mission, I guess, but it would
+have been nice if the IRS would have given us some money to
+do that.  They just take it away and it's left to us to sort
+of pick up the pieces.  We're out there in the front lines --
+they're down here, insulated, or they're at the end of a dial
+tone with a busy signal, and we're out there.  So yes, GPO
+Window, I want to have it, I want it yesterday.  I've got a
+terminal, I've got connectivity, but I'm the only one --there
+are about five public libraries on the Internet.
+
+
+CISLER: Also, having just connectivity and even a nice
+workstation won't be anywhere near enough to handle GPO
+Window.  There has to be a vehicle for internal support to
+allay the concerns of the librarians.  I visited with some of
+the document librarians about a year and a half ago when the
+Window proposal first came up, and they were really already
+tired by the problems they were facing at that time.  There's
+going to have to be a lot more thought than just about the
+hardware and the networks, but about internal support for the
+plans, especially if the plans are top down.
+
+
+CONABLE: There is a precedent, however, for fiscal support.
+My library happens to be one of six public libraries in the
+country which is a depository of all of the publicly-
+available data from the Nuclear Regulatory Commission, and we
+have a nice little contract with the federal government --
+they pay us to provide that service.  All we have to do is
+get that applied to the GPO Window proposal and to the IRS
+forms and the rest of those sorts of things and then we will
+be very happy to handle it.  We'll be able to handle it.
+
+
+WALTON: I'd like to add that I hope libraries won't resist
+this trend, actually.  We can talk about funding a particular
+project, but what we fail to realize is that libraries have
+been the primary distribution point for federal documents for
+probably the last 100 years.  There's something called
+regional and selective depository collections now in paper
+form.  We're spending tens of millions of dollars on just the
+paper documents that we're trying to store, and we're
+building huge warehouses to hold them until they become more
+accessible to electronic means and better access points.
+Government documents are not a terribly friendly nurturing
+system to use (laughter), and there needs to be an increased
+ability to have access to them-- this is now becoming an
+issue, because people are beginning to see government
+documents as a real opportunity and a resource for them.  The
+concern I have is that we are beginning to see only a few
+libraries take a very strong leadership position in using
+them, and I'll use one as an example.  Gonzaga University,
+which is a private Catholic college in Spokane, Washington,
+received a $10 million grant from the Department of
+Agriculture to provide information of the Department of
+Agriculture to the inland Northwest.  So we're not even
+talking about library funding agencies of the federal
+government contributing to that process -- that was done
+because they had a very strong visionary at that particular
+institution.  Here we have one of the largest single grants
+given to a library that I'm aware of going to a private
+Catholic college.
+
+
+FREEDMAN: I'm Maurice Freedman, and I'm from the Westchester
+Library system.  A couple of points, one just in response to
+that last comment.  There are depository libraries -- land
+grant universities and several major public libraries --whose
+job is to make available all government documents.  They get
+complete depository status, the documents go to them to make
+them available to the public.  The electronic doorway is
+going to solve all kinds of problems for those libraries--
+storing them, creating access to them, cataloging them.  All
+these miserable manual library problems in many respects will
+be mitigated or done away with through the electronic window.
+Now, the Liverpool Public Library isn't one of those
+depository libraries, but the depository libraries, it is
+anticipated, will get support and certainly will get free
+access to them.  Now the libraries are going to have to do
+the staffing and all the rest of it, but the major university
+libraries have all kinds of online systems and online
+searching capacities already.  I think they'll welcome it.
+
+Okay, the number that Jean Polly gave originally was at my
+request, it is 1-800-530-8888 -- we're begging of you, if you
+care about the public having a right to know, we're asking
+people around the country to call that number and say you
+believe in library service, you want library service, and you
+want it to be better funded.  That's 800-530-8888, my name is
+not Jerry Brown.  (laughter) The 800 number is a number that
+was set up for National Library Week and is lasting for the
+next two or three weeks, and we're trying to get people to
+call.  The president of the Association, who was supposed to
+be here and who I replaced on the program yesterday, said
+they are getting tons of calls and don't have enough money to
+add 800 lines (or however that's handled), because the volume
+is so terrific.  Please call and register your support of
+libraries.  Your name is being taken, (laughter) and
+forwarded to your Congressperson, and being given as your
+support, so it's real important that you as a voter do this
+in support of libraries.
+
+I'd like a last comment -- forgive me, or indulge me in this
+-- in relation to Bob Walton's comment that libraries will be
+dead as we know them.  I guess I've been involved with
+technology and computers since 1968, but I always get thrown
+into a Luddite position.  Let me ask three different people
+here for information, and each of them offers to give me the
+information in response to my giving them my Internet number.
+I don't have an Internet number.  The overwhelming majority
+of the people in this country do not have Internet numbers.
+It's going to be a while before you find most people in this
+country communicating over the Internet or NREN.  Okay? And
+the public library also contains this thing called a book.
+Technologically, it's idiocy to have people typing full text
+in when there's scanners that can do it a lot more accurately
+and quickly than someone keying.  But it took about 1500
+years to develop really good means of putting information on
+a page, and we've had printing since somewhere around the
+800's when it was invented in China.  Reading a book, a
+printed page and all the rest of that, is far better than the
+displays we have now on our screens, and there are certain
+kinds of things, like novels, poetry, all the rest of that
+ilk, that you're still going to want in hard copy.  And I
+don't know that the laser's going to do the job, either.  But
+in any case, we're not quite dead yet, and there's a function
+even in the electronic world for guidance and help -- people
+can't make it through those electronic databases and all the
+rest of it without a lot of guidance, and we're there to
+offer it.  And those who can't afford to pay, the public
+library's making them available at no charge and no fee.
+
+WALTON: Mitch and I have argued about this for years.  I'm
+not saying the public library is dead; what I'm saying is if
+you want a very good treatise on what I was trying to do,
+there's a good summary by a man named Clement Bezold, who
+made a presentation at the White House conference.  He's from
+DC Institute of Alternative Futures.  He gives three
+scenarios for the future of public libraries -- I'm not
+talking about the next few years, I'm talking about through
+the year 2030 -- and he says that, unfortunately, public
+libraries are not getting with it, and they'll be left behind
+because of the way the technology is developing and the
+ability of people to pay for information.
+
+
+AUDIENCE MEMBER: The 800 number that Mitch Freedman gave is
+the number to call for this current program in support of
+libraries.  The other one is simply the 800 number for the
+American Library Association.
+
+
+ROTENBERG: See, this is why Jerry Brown put it on cardboard.
+(laughter) So there would be no confusion.  It's also why the
+newspapers blacked it out.  Jean?
+
+
+POLLY: I just wanted to say one thing about GPO Window.  It's
+true that we've got these depository libraries, but a few
+of them are in large urban public libraries, and the other
+ones are in university libraries.  They're really not serving
+my patron.  My patron's out in the sticks, really, and I want
+to be able to get to GPO Window right from my reference desk,
+and I want them to be able to call in right from home, too.
+I think the public library better position itself, though,
+because otherwise reference service as we know it is going to
+be gone.  People are going to be able to get this information
+without ever calling me, although I think that you're right,
+the public library is probably going to be helping people
+find their way through the Internets and providing these tour
+guide functions.
+
+
+ROTENBERG: We have just about twelve minutes left, so I'm
+going to ask people if they can ask short questions or brief
+statements.
+
+
+GLENN TENNEY: I will make no statement other than to ask
+two quick questions.  We agree that libraries are being bled
+to death -- there's a funding question here.  You mentioned
+depositories -- right now one depository in California has
+online access to the Patent Office.  That does not serve the
+needs of any state that large.  You can have one library with
+access -- how do we do it? Do we go and get a grant for one
+depository which then covers an area that it can't cover?  Or
+do we try to say simply that the federal government should
+fund all libraries in the entire country and support them?
+Period.  A funding question here.  My library's shortening
+hours, the library itself is going into the information
+broker business seeking out business in the area in which we
+live, and selling their services.  Is that the way we're
+going to do it? Question on funding.  The second question is
+how can we get the libraries -- simple question -- to online
+catalog so I can dial in? It's not a funding question,
+because I volunteered to my library to do it for them for
+free, and they said, Well, we're thinking about it, it will
+be a few years yet.  So -- the two questions.  How do we do
+that?
+
+
+CONABLE: Well, the funding is a problem and there isn't an
+answer because this country is in the process of trying to
+dismantle the public sector.  It's trying to dismantle the
+public sector because everybody thinks they're entitled to
+buy their way out of the public sector because the public
+sector is deteriorating to the level that it's useless to the
+people who can afford the alternatives.  The only way you can
+afford the alternatives is to buy them privately, and that
+means that you don't want to pay taxes to support them for
+the public good.  It's a vicious cycle and a very serious
+problem.  I think we need to start thinking about the
+implications of that because it will eventually come home to
+roost.  It is coming home to roost, and I don't have a real
+good answer for that one, but we need to start addressing it.
+The other answer is that the public libraries have
+traditionally and historically been locally supported, and in
+fact, most of their money in most of the country comes from
+the local level.  The issue here is that there are some
+opportunities available to us that the current governing
+structure and local tax bases are probably inadequate to
+support.  So we have to start looking at what those things
+are and if we can build a politically salable rationale for
+funding some of these kinds of advancements at either the
+state level or the federal level.  The problem with the
+higher levels of government is that the further away from the
+roots that you get, the more strings there are attached.
+Given my pessimistic view of the current administration's
+information policy, I don't know how we're going to reconcile
+this.  So, I don't have a good answer, but I recognize the
+problem.
+
+
+WALTON: I have a quick answer.  Having worked for fifteen
+years with over 300 libraries doing projects before I came to
+CLSI, I have never worked with a library that had money.  I
+have never been in a library that said they had money.  So if
+we're going to abdicate the future because we're waiting for
+Santa Claus to come and give us additional funding, we might
+as well just forget it.  The way we're going to move ahead is
+through entrepreneurship, which has been growing in libraries
+-- management entrepreneurship where you get people who are
+not held by the traditional bounds of what they've been told
+they can't do.  They begin to develop innovative projects,
+and from those you begin to build the capability and
+recognition by the public that certain things are an
+important part of the library.  Wal-Mart wasn't built
+overnight.  It took 20 years, and I think that as libraries
+and specific institutions have great success with some of the
+kinds of things we've heard about in Liverpool, for example,
+other libraries will become impressed with this.  They will
+begin to investigate it and they'll eventually grow.  But
+it's going to take time.
+
+
+CISLER: I'd like to say to Glenn that I think you could
+easily start a very local campaign in the online community to
+get people to put pressure on the county or San Mateo City
+Library, and I think they would listen to that.  Also, all
+their colleagues up and down the San Francisco peninsula are
+online so there's sort of a professional impetus to match
+their services.
+
+(inaudible comments)
+
+AUDIENCE MEMBER: ...of ... University, one of the more
+retrograde universities, at least in terms of the issues
+we're discussing.  A couple of quick points or questions.
+One is that, despite GPO Windows, we should be aware of what
+I think is the most nefarious and slick attempt under the
+Paperwork Reduction Act to block access to government
+information by defining records, what is in a database, and
+whether or not the people will have the right to get at it.
+And that the power of that and this unbelievably important
+issue has sort of been swept under the rug.  Only the ALA,
+very few other agencies other than ALA, have been fighting
+this, and it's a lonely battle out there.  It would be nice
+if more people, especially in this group, got together on
+making database access a key point.  If GPO hides all of this
+information, the key information, it doesn't matter what's in
+Windows.  The second is I think that we have great
+opportunity here.  Discussions earlier, on Wednesday, I guess
+it was, were talking about how elitist things like NREN and
+Internet are, blocking the people's access, and what I'd like
+to ask the panel is to comment on the role of the public
+library in providing information to what could be a new class
+of information poor in America.  Thank you.
+
+
+CISLER: Well, there is an interesting example in the city of
+Santa Monica.  They put up a system called the Public
+Electronic Network through a grant from Hewlett-Packard and
+they linked it to their Inlex library automation system so
+that people could not only go online to look up information,
+but they could also go into public places and use terminals
+and interact with the City Council on a variety of issues.
+The most famous one is where the homeless community used the
+public access terminals to negotiate, I believe, showers and
+storage facilities for some of their shopping carts.  These
+are people who probably would not have shown up at a City
+Council meeting for fear or embarrassment or whatever.
+And yet they did use the electronic communications to achieve
+something.  And that stands out because it is not done in
+many places, but it is an interesting example.
+
+
+POLLY: We hope to have Internet access in our public lab
+sometime this year.  There are pockets of this -- there's the
+Cleveland Freenet, for example; there's the whole Freenet
+idea.  And there are other pockets besides what Steve
+mentioned.
+
+
+WARWICK: Hi, I'm Shelly Rochelle Warwick of Rutgers, but
+I'm also a librarian.  I feel that some of the people on the
+panel seem to feel that charging for library services is not
+such a bad thing, and I'm very concerned by seeing this.
+There is a tremendous differentiation between those that can
+afford to pay and the blocking of access, and also even with
+the providing of government information through CD-ROM, which
+then puts a tremendous financial burden on the libraries,
+even though they may have some equipment in place to support
+all the various databases.  I'm wondering if the panel would
+address whether they think that entrepreneurship, or
+basically charging for services, is a positive trend, or
+whether it will be a necessary trend in libraries.
+
+
+CONABLE: I don't think it's either positive or necessary, and
+it irritates the hell out of me to hear people say that it
+is.  This is a public good -- that is not an obsolete notion.
+I mean, the whole point here, if we're going to have
+libraries at all, is that we have as a society and a
+government a commitment to access to information as the
+absolute basic need if we're going to be a self-governing
+society.  And even modest fees are actual barriers to access
+-- significant and substantial barriers to access.  People
+who are making six-figure salaries and who are profiting
+through the development and marketing of this technology
+don't understand that a 50-cent charge or a dollar charge
+will keep tens of thousands of people away from the
+information.  Now we cannot continue to do this -- it is not
+good social policy.  If we continue to do it, we're going to
+have real problems.  We have real problems.  The library is a
+very modest public investment in the idea that everyone has a
+right to receive the information they need.  Very modest --
+it averages about 1% of the total of state and local funding.
+That's cheap, folks! What you get for that 1% is worth a
+great deal more to the quality of our collective lives than
+that 1%.  It is one of the biggest payoffs on any dollar that
+we spend for any public service.  You can cut all sorts of
+government expenditures.  This is one that we should all be
+lobbying to substantially jack up and increase.  If we get
+real about it, funding is not going to be such a critical
+issue.  And selling our services to the small businessmen on
+Main Street will not support these services for everyone
+else, and selling these services to the big corporation will
+not happen -- they will buy it in a proprietary system in a
+way that they want to do it.  Let's get real.  (applause)
+
+
+CISLER: I would like to say on a very narrow scale within
+Apple, our library does not charge back for any services,
+which can be fairly unusual in a special library situation.
+Nor does our networking center, whereas a lot of other groups
+within Apple are pressed to become so-called profit centers.
+We feel that, well, we have a little sign up that says, "A
+couple of months in the lab will save you two hours in the
+library." (laughter) And it's really true -- we have a very
+strong following, and there has been no pressure to charge
+for DIALOG searches.  Admittedly, we have a much higher
+budget and it's a whole different atmosphere, but I just want
+to give you the point that the belief system carries forth
+from the public libraries to the special libraries as well.
+
+
+WALTON: I'd like to add a cautionary note.  There is, in
+fact, an organization called the Information Industry
+Association which lobbies sort of in opposition to ALA for a
+lot of the privatization of data.  They're alive and well,
+and they're very, very active in setting policy and
+priorities.  The other thing we have to understand is that in
+this last year, for example, the Ameritech Corporation, which
+is one of the regional Bells, purchased NOTIS, a large
+academic system based in Chicago.  They're currently looking
+into Dynix -- they're not doing this to be altruistic to
+libraries.  They are looking toward the future of being able
+to distribute for profit data which they believe the
+libraries are not supplying to large segments of our
+population.  The view I think of many information providers
+is they have the long-term view is that there is a self-
+fulfilling prophecy in libraries -- that libraries serve a
+very important role for a certain segment of a population.
+And there are many people in a community, perhaps a majority,
+who don't use the library at all.  Part of those will never
+use the library, and I think they believe that part of them
+don't use it because of a convenience factor, because of
+their lifestyles, and because they simply have alternative
+sources of information they'd like to see.  I can assure you
+they're going to market aggressively to those particular
+populations.  If you're concerned that there's going to be
+socioeconomic divisions because of this, you're absolutely
+right.
+
+
+ROTENBERG: We're heading toward the end here.  The screen
+reminds me a little bit of a video game, particularly Missile
+Command, and I can see my cities being destroyed (laughter)
+as we get towards zero, so I think we'll take Vint as the
+last question.
+
+
+CERF: Thank you very much.  First I wanted to apologize to
+any Shakespeareans in the audience who might have been taken
+aback by that little poem. (laughter)  It occurred to me as I
+was listening to this very interesting, and in some cases
+entertaining, talk that we might find the notion of publisher
+changing in a dramatic way.  It's probably come up in the
+course of the last few days, and I apologize, I could not be
+here earlier.  Maybe everyone will become a publisher. It's
+just like what happened in the telephone system -- somebody
+predicted in 1935 that the rate of telephone growth and usage
+meant that by 1950 or 1955 everyone would have to be a
+telephone operator in order for the system to work.  Oddly
+enough, that's exactly what happened, but it happened because
+we were able to put computers into the system and do the
+switching automatically.  So the question I guess I have for
+the panel is that if indeed the act of publishing in an
+electronic environment is something we are all empowered to
+do, how does that change the role of the library? The library
+will no longer have to be the archive of everything, but the
+place you go to find out where the other stuff is?
+
+
+CISLER: I think people are either going to ask electronically
+or face to face what's the good stuff out there.  Just show
+me the good stuff, and I think we'll serve that need long
+after there's software agents finely tuned and running on all
+nodes.
+
+
+CONABLE: I trust that our primary role, or one of our primary
+roles, will continue to be the defense of everyone's right to
+free expression in all of its manifestations.  The right to
+access, the right to speak, the right to publish, the right
+to find out, the right to know.  That's probably the most
+important thing we do, and all of the rest of it is our tools
+and our means of doing that.  That doesn't change because the
+technology changes.
+
+
+ROTENBERG: Thank you all.  (applause)
+
+
+

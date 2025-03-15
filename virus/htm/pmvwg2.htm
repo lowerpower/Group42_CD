@@ -1,0 +1,83 @@
+<HTML>
+<HEAD>
+<TITLE>VIRUS Source Tutorial</TITLE>
+</HEAD>
+<BODY>
+<PRE>
+
+
+    At last, how to protect yourself from polymorphic viruses
+
+ My past two columns concerning the threat presented by polymorphic
+viruses triggered an informative conversation with the industry's
+chief virus researcher, John McAfee. During that conversation I
+learned that things are even worse than I'd supposed.
+ It turns out that the " Dark Avenger" bulletin board system, which
+disseminates virus code, has recently published the complete source
+code for the Dark Avenger Mutation engine. The mutation engine is
+nothing less than a first-class code kernel that can be tacked on
+to any existing or future virus to turn it into a nearly impossible
+to detect self-encrypting polymorphic virus.
+ My examination of a sample virus encrypted by the Mutation Engine
+provided by McAfee revealed alarming capabilities. Not only do Dark
+Avenger Mutation Engine viruses employ all of the capabilities I
+outlined in last week's theoretical polymorphic virus column, but
+they also use a sophisticated reversible encryption algorithm
+generator.
+ The Mutation Engine uses a metalanguage-driven algorithm generator
+that allows it to create an infinite variety of completely original
+encryption algorithms. The resulting unique algorithms are then
+salted with superflous instructions, resulting in decryption
+algorithms varying from 5 to 200 bytes long.
+ Because McAfee has already received many otherwise known viruses
+that are now encapsulated with the Mutation Engine's polymorphic
+encryption, it's clear that viruses of this new breed are now
+traveling among us.
+ It is clear that the game is forever changed; the sophistication
+of the Mutating Engine is amazing and staggering. Simple pattern-
+matching virus scanners will still reliably detect the several
+thousand well-known viruses; however these scanners are completely
+incapable of detecting any of the growing number of viruses now
+being cloaked by the Dark Avenger Mutation Engine.
+ So what can we ultimately do to twart current and future software
+viruses? After brainstorming through the problem with some of our
+industry's brightest developers and systems architects, I've
+reached several conclusions:
+ First, scanning for known viruses within executable program code
+is fundamentally a dead end. It's the only solution we have for the
+moment, but the detectors can only find the viruses they are aware
+of, and new developments such as the Mutation Engine render even
+these measures obsolete.
+ Second, detecting the reproductive proclivities of viruses on the
+prowl is prone to frequent false alarms and ultimately complete
+avoidance. With time the viruses will simply circumvent the
+detectors, at which time the detectors will only misfire for self-
+modifying benign programs.
+ Third, the Achilles' heel of our current DOS-based PC is its
+entirely unprotected nature. As long as executable programs( such
+as benign and helpful system utilities) are able to freely and
+directly access and alter the operating system and its file system,
+our machines will be vulnerable to deliberate viral attack.
+ So here's my recommendation.
+ Only a next-generation protected mode operating system can enforce
+the levels of security required to provide complete viral immunity.
+By marking files and code overlays as "read and execute only" and
+by prohibiting the sorts of direct file system tampering performed
+by our current crop of system utilities, such operating systems
+will be able to provide their client programs with complete viral
+immunity.
+ The final Achilles' heel of a protected-mode operating system is
+the system boot process, before and during which it is still
+potentially vulnerable. By changing the system ROM-BIOS' boot
+priorty to favor hard disc booting over floppy, thios last viral
+path can be closed and blocked as well.
+
+  note; Steve Gibson is the developer and publisher of SpinRite and
+president of Gibson Research Corp., based in Irvine, Calif. Send
+comments to InfoWorld via MCImail (259-2147) or fax them to (415)
+358-1269
+
+</PRE>
+</BODY>
+</HTML>
+

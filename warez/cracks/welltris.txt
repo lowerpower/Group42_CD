@@ -1,0 +1,19 @@
+Crack> Welltris by Spectrum Holobyte 
+ 
+crack written by Michael Yakubovich 
+ 
+FILE: WELLTRIS.EXE 
+ 
+1st: 
+ORIGINAL: C6 46 E9 FF FF 06 92 10 
+CRACK   : == == == 00 == == == == 
+ 
+2nd: 
+ORIGINAL: 8A 97 29 07 B6 00 3B C2 74 09 B8 06 00 50 E8 8A B3 44 44 
+CRACK   : == == == == == == == == EB == == == == == == == == == == 
+ 
+3rd: 
+ORIGINAL: 8A 97 3A 02 B6 00 3B C2 74 09 B8 06 00 50 E8 83 DC 44 44 
+CRACK   : == == == == == == == == EB == == == == == == == == == == 
+ 
+ 

@@ -1,0 +1,100 @@
+ 
+                   HACKING THE FOVC
+ 
+This hack assumes you can:
+1. put your MOTOROLA phone into test mode
+2. unmute audio
+3. load channel numbers until you find something worth listening to.
+ 
+Problem:  When listening to something interesting (a conversation),
+just when that sexy sounding horny broad begins to give her
+phone number to some lucky guy, HANDOFF!!! then static... DAMN!
+ 
+Trick:    Hack the FOVC.
+ 
+    a quick definition:  FOVC  = FOward Voice Channel
+                         FOCC  = FOward Control Channel
+                         REVC  = REverse Voice Channel
+                         RECC  = REverse Control Channel
+ 
+As the phone travels through cells, the FOVC is where the tower tells
+the phone to adjust power levels for the current cell or to change to
+a new channel for use in the new cell. This info can be hacked apart.
+So. When you've found a good conversation, don't be lazy! Enter 40#!
+This makes the phone listen for commands on the voice channel
+(embedded in the audio portion- you can hear it as a "bump" sound). It
+will just sit there and the display will read '40' , but the
+conversation will still be audible.  Now when the phone receives a
+FOVC command (a 40 bit sequence) data will flow across the display, in
+hex format, and stop. Listen to the phone, if the conversation is
+still there, then the command was only to adjust power levels. If the
+conversation is gone, then its a handoff. If you only got a power
+adjustment command just press # or clr,  which ever gets you back to
+the ' prompt. Enter 40# and keep listening. You can also use the # key
+to cancel the 40# command, if you want to change channels or something.
+ 
+ 
+If it was a handoff, its time for some quick math. You have to convert
+some of the numbers to binary, and then to decimal. I don't know how
+many characters your phone's display will show. Mine only shows the
+last seven of the ten hex digits. Count left from the end 6 digits.
+Write down that digit and the next two on a piece of paper, ie:
+ 
+ 
+    ???j16djjj    j=junk numbers  (hex numbers range from 0-9,a-f)
+       / \
+      these are lost due to scrolling
+ 
+       write down  16d then convert it to a binary string:
+ 
+       1 = 0001
+       6 = 0110
+       d = 1101    (d=13)
+ 
+       now you have a binary string like this:  000101101101
+       throw away the first 2 bits and get:       0101101101
+       convert this to decimal and get:                  365
+ 
+ 
+365 is the new channel the conversation has moved to! Enter 110365#
+and voila! You too, can hear the horny babe's phone number!
+ 
+Don't forget to enter 40# again, as the call may be moving quickly
+through cells ( small cells or freeway driving ) or the call can get
+bounced around by the tower for cell traffic purposes.
+ 
+Here's one more example of the hex>binary>decimal conversion.
+ 
+        ???j5aejjj
+ 
+        5  =  0101
+        a  =  1010
+        e  =  1110
+ 
+        full string        = 010110101110
+        truncate 2 msb     =   0110101110
+        convert to decimal =          430
+ 
+ 
+That's all for today! Anybody having similar hacks, please post!
+ 
+Also, if anyone can help with the following questions, THANK YOU!!!
+ 
+1.  What are the pinouts and specs on the MOTOROLA FLIP phone data
+    jack?
+ 
+2.  I know that three of the pins are a "proprietary" data bus. This
+    comes from a tech at motorola. HOW DOES THIS BUS WORK???
+ 
+3.  When loading channels into the synthesizer with 11xxxx#, the
+    phone goes to a preset frequency for receiving and a different
+    frequency (45 khz lower?) for transmitting. Can the frequency
+    table be shifted to allow a phone in test mode to RECEIVE the
+    REVERSE channels instead of only the foward channels???
+ 
+ 
+      ********* attn FLAMERS:   MAKE HACK, NOT FLAME....  ***********
+ 
+             ********** Life is short, HACK HARD! ********
+ 
+                    ******    JUST HACK IT   ******

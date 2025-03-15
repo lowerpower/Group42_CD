@@ -1,0 +1,92 @@
+<html>
+<b>
+<pre>
+Newsgroups: sci.electronics
+From: schuch@phx.mcd.mot.com (John Schuch)
+Subject: IR Opto Detector Schematic Diagram
+Date: Thu, 15 Jul 1993 19:37:04 GMT
+
+
+I received a lot of requests for this so I'll go ahead
+and post it. This is a "cheap'n'dirty" circuit designed
+for minimum part's count, not sound quality or gain.
+
+Have fun.
+
+John
+
+______________________________________________________________
+
+
+Infrared Light Detector : (c) 1993 John R. Schuch
+____________________________________________________
+
+This circuit converts infrared light into sound.
+Modulated IR light, like that from remote controls,
+IR received by the phototransistor and is amplified by
+the LM386 IC. The IC in turn drives a small 8 Ohm
+speaker. Unmodulated IR light, like that from an
+incadescent light bulb, produce no sound so the
+phototransistor also turns on an LED indicating the
+presence of IR light.
+____________________________________________________
+
+                      _________________
+                      [IR Photo Trans.]
+9Vdc----[20K RES]--+--[emit       coll]--+--[20K RES]----Gnd
+                   |  [____ base______]  |
+                   |                     +---------------------+
+                   +--[10K Ohm Pot]--Gnd                       |
+                             ^                                 |
+    +------------------------+                                 |
+    |         LM386                                            |
+    |       +---u---+                                          |
+    |     nc|1     8|nc                                        |
+    +-------|2     7|nc                                        |
+         Gnd|3     6|9Vdc                                      |
+         Gnd|4     5|-----[+100uF-]--[8 Ohm Skeaker]--Gnd      |
+            +-------+                                          |
+                      +----------------------------------------+
+                      |
+             [       base       ]
+      +------[emit          coll]-----[270 Ohm]---9Vdc
+      |      [Gen Pur NPN trans.]
+      |
+      +------[LED  |>| ]----Gnd
+
+____________________________________________________________
+
+NOTES:
+
+- All of the parts for this circuit are available from your
+  local Radio Shack for a few dollars. RS also has a great
+  little case for the project (# 270-294), but you better
+  build it small.
+
+- My prototype used the phototransistor from the index sensor
+  of a junked floppy disk drive. Make sure you get the
+  transistor and not the IR LED, they look very simular.
+
+- The transistor driving the LED can be any general purpose
+  NPN device. 2N2222 and 2N3904 are a couple of common parts
+  that will work.
+
+- The LM386 amplifies the incomming signal by about 20 times.
+  The potentiometer adjusts the level of the signal feeding
+  the amplifier. Adjust the pot until amplifier starts to feed
+  back and then back it off a little. See the data sheet for
+  the LM386 for details about increasing the gain.
+
+- This circuit was designed as a quick, simple tester to check
+  IR remote controls and as such was designed to use as few
+  parts and cost as little as possible. The design could be
+  improved for audio fidelity, sensitivity and gain. I'd love
+  to see any improvements you make.
+
+
+John
+
+<end of file>
+</pre>
+</b>
+</html>

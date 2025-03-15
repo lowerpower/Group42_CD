@@ -1,0 +1,80 @@
+Doctor Who presents:
+Motorola series 2 and 3 transceivers
+
+25 pin cable pin defenitions
+
+ 
+
+Pin	Designation/Function
+
+---	--------------------
+
+ 1	Transmit Audio / ON - OFF Function
+
+ 2	Mobile / Transportable Select line
+
+ 3	Ground (A+ return), one of 2 black wires. Both are required for proper
+
+	operation
+
+ 4	Battery A+, one of 2 red wires. Both are required for proper operation.
+
+ 5	Ignition Sense Lead, green with a black tracer.
+
+ 6	Receiver Audio to handset (RX High), pin 8 on the handset connector
+
+ 7	Ground
+
+ 8	Regulated +9.5 volts to handset, pin 2 on handset connector
+
+ 9	Ground
+
+10	Auxiliary Alert, yellow with black tracer, used to blow the horn or
+
+	flash the headlights. Provides a ground function. NOTE: 1/2 amps
+
+	maximum current. The recommended method is to drive a relay
+
+	(e.q. MOT 59K813674). Ignition Sense, pin 5, must be low for this
+
+	function to work.
+
+11	T-Data, one of the 3-wire bus lines, to pin 3 of the handset connector.
+
+12	C-Data, one of the 3-wire bus lines, to pin 4 of the handset connector.
+
+13	Ground
+
+14	Transmit Audio Shield
+
+15	Transmit Audio
+
+16	Battery A+, one of two red wires. Both are required for proper 
+
+	operation.
+
+17	Ground, one of two black wires. Both are required for proper operation.
+
+18	R-Data, one of the 3-wire bus lines, to pin 5 of the handset connector.
+
+19	Receiver Audio to External Speaker.
+
+20	Ground for Receiver Audio (Shield) to External Speaker.
+
+21	Manual Test Line. When tied low places the telephone in TEST MODE.
+
+22	Ground
+
+23	Handset Logic Ground, to handset connector pin 1
+
+24	Handset Audio Ground, to handset connector pin 6
+
+25	Accessory Ground, to External Speaker.
+
+ 
+
+
+-end
+ 
+
+

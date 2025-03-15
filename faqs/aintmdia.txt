@@ -1,0 +1,729 @@
+Archive-name: internet/media-coverage-faq/part1
+Posting-Frequency: three times per month
+URL: http://www.cybernothing.org/jdfalk/html/aim-c.html
+
+_ _ _ _ __ __ __ ___ ___ ____ _______________ ____ ___ ___ __ __ __ _ _ _ _
+                  |                                     |
+_ _ _ _ __ __ __ _|_    ALT.INTERNET.MEDIA-COVERAGE    _|_ __ __ __ _ _ _ _
+                  |            CHARTER & FAQ            |
+_ _ _ _ __ __ __ _|_ ___ ____ _______________ ____ ___ _|_ __ __ __ _ _ _ _
+
+By J.D. Falk <jdfalk@cybernothing.org> and Tristan Louis <tristan@dorsai.org>.
+Contributors include David Lesher <wb8foz@netcom.com> and many others. 
+
+The current version of this document can always be found at the following:
+        WWW     http://www.cybernothing.org/jdfalk/html/aim-c.html
+        FTP     ftp.cybernothing.org
+                          /pub/jdfalk/media-coverage/media-coverage.FAQ.1
+                                                     media-coverage.FAQ.2
+                (and, of course, *.answers FAQ archives around the world.)
+        EMail   Send a message to <aim-c@cybernothing.org> with a subject
+                line of "gimme media-coverage.FAQ.1" (no quotes, body will be
+                ignored.)  Segment 2 would be "gimme media-coverage.FAQ.2"
+        USENET  Posted three times per month to alt.internet.media-coverage,
+                alt.answers, and news.answers
+
+Release 9508.01
+
+TABLE OF CONTENTS (SEGMENT ONE)
+
+I. What is alt.internet.media-coverage?
+
+        1. Which topics are appropriate?
+        2. How do I contact the media?
+                A. Press releases
+                B. Letters to the Editor
+        3. Statement on advertising
+        4. Statement on copyright
+        5. Official alt.internet.media-coverage archives
+
+II. Journalists' Common Questions
+
+        1. What is the Internet?
+        2. How does it work?
+        3. What can I do with it?
+                A. Electronic Mail (EMail)
+                B. USENET Newsgroups
+                C. Chat (IRC)
+                D. Remote Access (telnet)
+                E. Information Gathering (FTP, Gopher, and WWW)
+        4. Who is on it?
+        5. Where can I find statistics?
+                A. Statistics about the Internet
+                B. Statistics about Journalism and the Internet
+
+(SEGMENT TWO -- in the next file or message)
+
+III. Other 'net resources
+
+        1. Related newsgroups & mailing lists
+                A. About journalism and/or the media
+                B. Local groups
+                C. Not actually related (but look like they could be)
+                D. Assorted interesting groups & lists
+        2. World Wide Web, Gopher, FTP
+                A. Sites with lists of other sites
+                B. Assorted interesting sites
+_ _ _ _ __ __ __ ___ ___ ____ _______________ ____ ___ ___ __ __ __ _ _ _ _
+
+        "The people who write the news are on the online services.
+         The people who make the news are on the Internet.
+         Where would you rather be?"
+                             -- Andrew Kantor, Internet World
+_ _ _ _ __ __ __ ___ ___ ____ _______________ ____ ___ ___ __ __ __ _ _ _ _
+
+I. What is alt.internet.media-coverage?
+
+        The newsgroup alt.internet.media-coverage was first created on
+June 15, 1994 by the newsadmin at nova.avid.com for "Discussion of
+how/why/when/where the media covers the internet and its functions."  This
+definition was later adjusted to read as follows: 
+
+> Discussion of the internet as it relates to television, radio, newspapers, 
+> and magazines.  
+> 
+> There seems to be a growing number of media spots/sound bytes on the internet
+> these days, and I'm attempting to provide a place for this type of discussion.
+>
+> The original idea for this group came from someone in news.admin.misc.
+
+        So far, this purpose has held true -- regular readers of the group
+post pointers to articles or upcoming television or radio events, and then
+critique them later.  In many cases, the authors of the article or report
+will join in the discussion -- and this, of course, is the future of media
+relations with the public. 
+        Many of the groups' regular participants work in the media in one 
+form or another, and are polite enough to make that clear at the end of 
+their messages; however, it should not be taken that they speak for their 
+respective companies unless otherwise noted (though a slight bias is to 
+be expected.)
+
+I.1. Which topics are appropriate?
+
+        As described above, just about anything to do with how "The Media"
+reports on the 'net is germane to this group.  Critique a new magazine,
+cc: your letters to the editor, etcetera.
+        Often, these critiques will lead towards other discussions,
+including politics, origins of the 'net, semantics, etcetera.  This is
+fine, though good netiquette demands that it be crossposted and
+followed-up to other groups before it gets out of hand.
+        It is _not,_ in any way, shape, or form, for press releases or job
+requests (and, yes, we've had both.) There are other places for press
+release type material (see below) and there are many *.jobs groups.
+        It is also not for advertisements of any type, though we'll let
+short things like "look at the new issue of Massive Media Mogul Magazine
+for an article on the politics of electronic communication" get past
+because they're actually useful. 
+
+I.2. How do I contact the media?
+
+I.2.A. Press releases
+
+        It is considered /extremely/ bad netiquette to send large messages
+to people, or to add them to mailing lists, without asking their
+permission first.  This also holds true with press releases. 
+        Before beginning to send press releases to anybody, contact them
+with a short, polite message asking if it would be okay to send press
+releases to that account.  Even if it's not, they will probably be able to
+tell you which EMail address to send 'em to for the specific publication
+or show that they work for.
+
+I.2.B. Letters to the Editor
+
+        The EMail addresses for "letters to the editor," comments,
+questions, subscriptions, or anything like that will usually be found
+within the first few pages of the publication (usually in the same section
+that lists the "snail" mail addresses and fax numbers.)
+
+I.3. Statement on advertising.
+
+        Though the debates about commercializing the 'net and allowing 
+advertising and so forth still rage on, there is a general consensus 
+among experienced 'net users that off-topic advertising (that which does 
+not relate to the purpose of the group) should not be allowed.
+        There are two main reasons for this.  One, nobody wants to be
+forced to read advertisements for products which they would not be likely
+to be interested in.  Two (and this one is the most important one of all),
+nobody wants to have to _pay_ for the privelege of reading such 
+advertisements.
+        Because of that (and because this document is as close as we want
+to get to "rules"), please understand that alt.internet.media-coverage is
+not and will never be the right place to advertise your products.  We
+don't mind seeing a short message like "Hi, I'm the editor of Massive
+Media Mogul Magazine, we'll have a big article on USENET in our next
+issue" from time to time -- but be warned that your article _will_ be
+critiqued.
+        Anything longer (especially press releases) is not appreciated.
+
+I.4. Statement on copyright
+
+        Copyright laws are an ever-changing, usually misunderstood mess 
+in the United States, and when you remember that the 'net is worldwide 
+then the mess is even worse.  So it is possible, though not likely, that 
+what I've typed here is wrong.  Still, please try to abide by it.
+        It is illegal to reproduce an article in its entirety and post it
+to alt.internet.media-coverage or any other group without permission from
+the copyright holder(s) (usually the publisher and/or author.) It is
+becoming quite common for the author of an article to post it to the group
+themselves as soon as they get permission from the editors, and this is
+encouraged so long as the article in question is actually related to the
+Internet and/or USENET.
+        It may or may not be illegal, but is definately rude (and should
+be illegal), to quote people's postings to alt.internet.media-coverage or
+any other group in your own articles without permission from the author. 
+The mere fact that this group is open to the public is not enough -- you
+must still ask permission first.
+
+        For more information, check out the Copyright Law FAQ in: 
+        FTP charon.amdahl.com /pub/misc.legal/Copyright-FAQ/
+
+        There's also a much longer Copyright FAQ at:
+        FTP ftp.netcom.com /pub/ca/carollt/law/copyright/faq/
+
+I.5. Official alt.internet.media-coverage archives
+
+        The newsgroup archives are accessable at:
+        WWW http://www.cybernothing.org/jdfalk/html/aim-c.html
+
+        These archives have been processed into HTML, and date back to
+June 5, 1995.  There is also a .ZIP (compressed) file containing the
+original textual data of each of those messages. 
+        Please note that inclusion in the archives does NOT mean that the
+message was appropriately posted to alt.internet.media-coverage in the
+first place; in fact, an unfortunately large number of off-topic messages
+are archived there.  For best results, always refer to this document when
+deciding if your message would be appropriate or not.
+_ _ _ _ __ __ __ ___ ___ ____ _______________ ____ ___ ___ __ __ __ _ _ _ _
+
+II. Journalists' Common Questions
+
+        Often, journalists will post a message asking for information
+about the 'net.  To get you started, here's a few answers, plus pointers 
+towards some of the best resources for more information.
+
+II.1. What is the Internet? 
+
+        The Internet is a network of networks. A network is a group of
+computers hooked up together. In the late sixties and early seventies, the
+American government decided to create a network that would hook up several
+computers throughout the country. This network, know as Arpanet, was the
+precursor to the internet. Shortly thereafter, more universities started
+to hookup to this network. Because each of the universities were running
+different networks, this new Wide-Area Network (WAN) was called the
+Internet for Inter (between) Networks. 
+        The Internet is not the information superhighway.  It is not 
+cyberspace.  It is the Internet.
+
+II.2. How does it work?
+
+        The fundamental base of the internet is a computer tool called
+TCP/IP (Transmission Control Protocol/ Internet Protocol). TCP/IP is
+essentially the computer language of the Internet. Much like you and I are
+currently conversing in English, computers need a common language. TCP/IP
+allows computers to exchange information easily. 
+
+II.3. What can I do with it?
+
+II.3.A. Electronic Mail (Email)
+
+        The most popular tool on the internet is Email. It's just like
+        writing a letter and taking it to the post office except for a few
+        things: you don't have to worry about stamps and envelopes and
+        your letter will get anywhere in the world in 3 days or less. In
+        most cases, your mail can take no more than 3-4 minutes to get to
+        the other side of the globe. 
+
+II.3.B. USENET Newsgroups
+
+        In the early eighties, some young internauts decided that writing
+        to someone by Email was great but that it would be better if you
+        shared information through some sort of newspaper. Thus was born
+        Usenet, the discussion area of the internet. Take your local
+        newspaper and imagine that it is broken down into about 10,000
+        sections, (called "newsgroups") each of them covering a different
+        subject. That in itself would be pretty impressive.  But, what
+        makes usenet _truly_ amazing is that not only can you read the
+        stories written in each of those newsgroups (they are called
+        'posts' or messages) but you can reply via email to the authors or
+        post your follow-up on the article for all readers of the
+        "newsgroup" to see. Usenet, in other words, is like a giant
+        "interactive" newspaper. 
+
+        Please note that there is an ongoing debate about whether the
+        term "Internet" is truly all-inclusive enough to include Usenet.
+        The main argument against it is that not all Usenet-capable
+        computers are connected to the Internet, and vice versa.
+        Therefore, it is best to not confuse the two terms.
+
+        For more information, check out the Bible of USENET at:
+        WWW     http://www.clark.net/pub/usenet-b/www/home.html
+        FTP     ftp.clark.net pub/usenet-b/info/bible-faq
+
+        Another invaluable reference is entitled "How To Find The Right
+        Place To Post," and can be found at (one line):
+        http://www.ccs.ohio-state/edu/hypertext/faqs/usenet/
+                finding-groups/general/faq.html
+
+II.3.C. Chat (IRC)
+
+        Of course, usenet was all good and great but someone decided that
+        it lacked _instant_ interaction.  So, he or she created Internet
+        Relay Chat (IRC for short), which can easily be called the CB
+        radio of the internet. IRC was built in a vein that is somewhat
+        similar to usenet (see above for description of usenet) with each
+        channel covering a particular subject.  There are literally
+        thousands of IRC channels ranging from the raunchy (#hotsex) to
+        the holy (#christian) where people converge to chat for hours on
+        end. 
+
+        Of course, there's a FAQ for IRC as well, at:
+        FTP cs-ftp.bu.edu  /irc/support/alt-irc-faq
+
+II.3.D. Remote Access (telnet)
+
+        If your computer is connected to the Internet, you can (in
+        general) log onto it remotely from another Internet location. 
+        This is called "telnet" or "rlogin".  For example, at Internet
+        trade shows, the sponsor generally sets up a bank of terminals
+        connected to a local computer.  Visitors use them to check mail,
+        file reports, etc. 
+
+II.3.E. Information Gathering (FTP, Gopher, and WWW)
+
+        One of the great things about the internet is the amount of
+        information that is available. There are essentially 3 different
+        ways to read stored information across the internet: FTP, Gopher,
+        and the World Wide Web (WWW).  FTP, which stands for File Transfer
+        Protocol, allows you to exchange computer files. To get such files
+        you connect (via the "ftp" command) to an ftp site, a computer
+        which stores files.  Both programs and references are stored on
+        ftp sites.  Many sites allow anyone (hence the term 'anonymous')
+        to read/copy these. 
+
+        Internet users often compile sets of information called FAQs
+        (pronounced "faks" -- FAQ stands for Frequently Asked Questions,
+        though the term now means any informational document, frequently
+        asked or otherwise) and place them on sites so that other users
+        can access them easily.  In the past few years, many companies 
+        and governments have also started to make more and more
+        information available online, such as text of bills under
+        consideration. 
+
+        A gopher server is essentially an ftp site organized in an easy to
+        use menu. By moving arrows up, down, left and right, you can go
+        through menus of information without having to worry about the
+        internet addresses for the computer on which the information is
+        physically stored, or even the filename used to store it.
+
+        As powerful a tool as gopher is, it is currently being majorly
+        overshadowed and may someday be completely supplanted by the World
+        Wide Web (WWW), which takes the interconnectivity of gopher
+        servers and adds quite a bit more flexibility. The most attractive
+        feature of WWW is that it allows one to mix graphics, text, and
+        even sound, music, or moving video on what appears to be one
+        "page," or screen of information.  Instead of being a simple 
+        menu-like interface as with Gopher, the World Wide Web can be
+        organized in hypertext paragraphs, where all you need to do is
+        click on (or otherwise select) a phrase, graphic, etcetera to
+        retreive more information on it. 
+
+        The most popular and best-known viewer program for the World
+        Wide Web is called 'Netscape.'  Also, for those who do not have a
+        fast enough connection or powerful enough terminal to handle all
+        the graphics, 'Lynx' is a text-only World Wide Web browser.  
+        There are a growing number of other browsers currently avaliable,
+        including Cello and SuperMosaic, but Netscape, NCSA Mosaic, and
+        the University of Kansas' Lynx are the standards by which all
+        others are measured. 
+
+        For more info on the World Wide Web, use your WWW browser and
+        access the one of the WWW FAQs at:
+        WWW http://sunsite.unc.edu/boutell/faq/www_faq.html
+
+        For more information on Netscape, try:
+        WWW http://home.netscape.com/
+
+II.4. Who is on it?
+
+        Anybody and, eventually, everybody.  Contrary to popular
+        stereotypes, the Internet is used by as amazing a variety of
+        people as one is likely to meet on the streets of any large city
+        -- and also people who avoid meeting people on the streets of large
+        cities.  Interests and personalities vary widely, and as such the
+        only possible pigeonhole into which _all_ 'net users can be 
+        placed is "they all have at least a rudimentary knowledge of 
+        computer use."
+
+        Some people only have access to Email and Usenet while others have
+        what is generally defined as "full access" (access to all the
+        services). If one considers Email and News as "being on the
+        internet," it is easy to estimate a population of about 20
+        million coming from all walks of life. On the other hand, if full
+        access is considered, I would hazard a count of about 3-5 million
+        hackers, students, academics, and dedicated users.  This number is
+        growing daily, even if you don't include the major online 
+        services; for example, in Washington, D.C., USA metropolitian
+        area, there are approximately twenty-five totally seperate companies 
+        offering that type of "full access," with new ones showing up all
+        the time. 
+
+II.5. Where can I find statistics?
+
+        Hearkening back to its roots as a network for educational 
+        research (but not all the way back to its /real/ roots, military
+        communications), the Internet is full of statistics on different
+        things.
+
+II.5.A. Statisics about the Internet
+
+        Well, as we said above, it's pretty much impossible to garner 
+        reliable statistics about the users.  However, each specific site
+        has to be registered with a reliable, nonpartisan system (this
+        being the InterNIC), we've found some stastics on the makeup of
+        the networks and computers connected to the Internet.  A study
+        release by the Internet Society in February, 1994 stated that of 
+        the networks connected to the Internet:
+
+                53% were commercial
+                27% were research (including commercial research)
+                9% were governmental
+                6% were defense related
+                5% were educational
+
+        Note that all of these statistics are extremely out of date now.
+
+        More statistics about the Internet and related networks can be
+        found at the following sites:
+
+        Internet Index  http://www.openmarket.com/info/internet-index/
+        Business Statistics  http://tig.com/IBC/Statistics.html
+
+II.5.B. Statisics about Journalism and the Internet
+
+        Paul Ross <paul@paulross.demon.co.uk>, a freelance photo-
+        journalist, did a data search of the worlds' newspapers and
+        magazines in the commercial database service Dialog, looking for
+        the number of articles written about the 'net during the 1990's,
+        and came up with the following numbers: 
+
+                Year    Mentions
+                1990     2,579
+                1991     3,289
+                1992     5,578
+                1993    11,244
+                1994    79,513
+
+        He points out, though, that this listing is not representative 
+        of /every/ publication, and there is probably some duplication and
+        omission (for example, no New York Times.)
+
+        Another Paul, Paul Kainen <kainen@netcom.com>, replied:
+                "Extrapolating these numbers, by the year 2000, I predict
+                 the extinction of all life on the planet since we'll be
+                 buried in 100's of feet of newspapers to accomodate the
+                 Internet stories!"
+
+        A more complete listing of Paul Ross's research is avaliable in a 
+        seperate file, avaliable via the following:
+        WWW     http://www.cais.com/jdfalk/html/aim-c.html
+        FTP     cais.com, /pub/jdfalk/media-coverage/coverage-stats
+_ _ _ _ __ __ __ ___ ___ ____ _______________ ____ ___ ___ __ __ __ _ _ _ _
+
+This document is Copyright (c) 1995 by J.D. Falk and Tristan Louis, all
+rights reserved.  Permission is granted for it to be reproduced
+electronically on any system connected to the various networks which make
+up the Internet, USENET, and FidoNet so long as it is reproduced in its
+entirety (either in two parts as here, or combined), unedited, and with
+this copyright notice intact. 
+-- 
+
+Archive-name: internet/media-coverage-faq/part2
+Posting-Frequency: three times per month
+URL: http://www.cybernothing.org/jdfalk/html/aim-c.html
+
+_ _ _ _ __ __ __ ___ ___ ____ _______________ ____ ___ ___ __ __ __ _ _ _ _
+                  |                                     |
+_ _ _ _ __ __ __ _|_    ALT.INTERNET.MEDIA-COVERAGE    _|_ __ __ __ _ _ _ _
+                  |            CHARTER & FAQ            |
+_ _ _ _ __ __ __ _|_ ___ ____ _______________ ____ ___ _|_ __ __ __ _ _ _ _
+
+Segment II of Release 9508.01
+
+TABLE OF CONTENTS (SEGMENT TWO):
+
+III. Other 'net resources
+
+        1. Related newsgroups & mailing lists
+                A. About journalism and/or the media
+                B. Not actually related (but look like they could be)
+                C. Assorted interesting groups & lists
+        2. World Wide Web, Gopher, FTP
+                A. Sites with lists of other sites
+                B. Assorted interesting sites
+_ _ _ _ __ __ __ ___ ___ ____ _______________ ____ ___ ___ __ __ __ _ _ _ _
+
+III. Other 'net resources
+
+        Though alt.internet.media-coverage is a great resource for 
+journalists, its main purpose is and will always be for anybody, 
+non-journalists and journalists alike, to discuss how the 'net is 
+portrayed by major media.
+        P. Fehrmann has listed most if not all of the Journalism resources 
+avaliable on the Internet at:
+        gopher://una.hh.lib.umich.edu/00/inetdirsstacks/journ%3afehrmann
+
+        Many other newsgroups, mailing lists, and 'net sites deal with 
+related issues.  Here's just a sampling of the best....
+
+III.1. Newsgroups and mailing lists
+
+        Not all related newsgroups and mailing lists are listed here, but 
+I hope to have all of 'em later on.  If you are a devotee of a group 
+which is not listed here, but should be, please EMail <jdfalk@cais.com> 
+with a short blurb so I can include it here.
+
+III.1.A. About journalism and the media
+
+alt.cable-tv.re-regulate
+        This group attracts cable television industry people who are
+        primarily interested in keeping up-to-date on federal and state
+        regulation and consumers who have views to air about the cable
+        television industry.
+                        -- Cgbg@aol.com
+
+alt.journalism.gonzo
+        A newsgroup about gonzo journalism in general and Hunter S.
+        Thompson in particular.  Our net motto should be: "When the net
+        gets weird, the pros turn here".
+                        -- Kevin M. McGrath <kmcgrath@pipeline.com>
+
+alt.journalism.objective
+        alt.journalism.objective is a Usenet newsgroup for grassroots news
+        and feature reporting.  The single goal is to showcase high-
+        quality, minimally-biased journalism written by anyone on the
+        Internet.  Articles can be on any subject that a newspaper or
+        magazine might carry.  Daily news is preferred. 
+                        -- Jeff Chan <chan@shell.portal.com>
+
+alt.journalism.students
+        The alt.journalism.students newsgroup is meant to be a forum for
+        the discussion of issues of special importance to journalism
+        students.  These issues include, but are not limited to:
+        journalism programs, student papers, broadcasts, writing,
+        internships, professors, journalistic techniques and points of
+        law.  The newsgroup invites participation from students around the
+        world and of all ages -- high school, undergraduate and graduate
+        students alike. 
+                        -- Kevin Thom <kthom@chat.carleton.ca>
+
+alt.radio.networks.cbc
+        Discusses the Canadian Broadcasting Corporation's radio networks. 
+        The newsgroup has only existed since roughly the beginning of
+        December, and consequently discussion has been minimal so far. 
+                        -- Peter K. Taylor <ptaylor@Canada.Sun.com>
+
+        Of particular note is that the CBC is getting involved in the
+        Internet in a big way. Many of their shows have e-mail addresses,
+        and other things like WWW sites and sound files are coming on-line
+        as well. 
+                        -- Colin R. Leech <ag414@freenet.carleton.ca>
+
+alt.radio.digital
+        Gateway for the RADIO-L mailing list (see below.)
+
+alt.radio.networks.npr
+        Discussions regarding National Public Radio (U.S.) it's
+        programming, politics, trends, and the underlying issues thereof. 
+        Mostly literate discussions with relatively few diatribes.
+                        -- Skip Winitsky <skipwin@ritz.mordor.com>
+
+rec.radio.broadcasting
+        A moderated newsgroup dedicated to radio professionals,
+        para-professionals and others interested in broadcast radio.  We
+        cover almost every radio-related topic under the sun, from the
+        technical to formatics to who is who.  Rec.radio.broadcasting also
+        has an email digest called AIRWAVES RADIO JOURNAL.  For more
+        information, send email to info@airwaves.com and request our FAQ. 
+                        -- <rrb@deja-vu.aiss.uiuc.edu>
+
+        For more information, the newsgroup's official Web site is:
+        WWW     http://radio.aiss.uiuc.edu/~rrb/
+
+RADIO-L@UMINN1 (BITNET)
+RADIO-L@vm1.spcs.umn.edu (Internet)
+        The RADIO-L discussion list is a forum for addressing the issues
+        involved in the transition to a Digital Audio Broadcasting (DAB)
+        standard in the United States and other countries. Discussion
+        regarding the relative technological merits of various DAB
+        proposals, as well as the social and economic implications of a
+        transition to DAB, is welcome and encouraged on this list.
+                        -- Ron Stone <ston0030@gold.tc.umn.edu>
+
+        For more information, the RADIO-L FAQ is archived at:
+        WWW     ftp://vm1.spcs.umn.edu/radio-l.601/FAQ
+        FTP     vm1.spcs.umn.edu  /radio-l.601/FAQ
+
+III.1.B. Not actually related (but look like they could be)
+
+        The following newsgroups and mailing lists look (going just by the
+name) as if they could well be related to the media.  However, they are
+most emphatically not for that purpose.
+
+aus.radio (Australia)
+        This group has nothing to do with the media.  It's charter is for
+        'AMATEUR RADIO' and related topics, which falls into more of a
+        hobby/pasttime concept.  This group is often misused for media
+        related topics, but that's not it's charter.
+                        -- Rob Mayfield <mayfield@itd.adelaide.edu.au>
+
+triangle.radio (North Carolina, USA)
+        The Triangle.Radio newsgroup is not a broadcast/media newsgroup.
+        It is aimed at Amateur Radio operators in the Research Triangle
+        area of North Carolina (Raleigh-Durham-Chapel Hill). 
+
+        Journalists looking for Amateur Radio tie-ins to local stories
+        might find help on Triangle.Radio.  Hams are frequently involved
+        in emergency communication, public-service work, and we're an
+        interesting hobby.
+
+        BTW, I'm the North Carolina Public Information Coordinator for our
+        national organization, the American Radio Relay League.
+                        -- Gary Pearce <kn4aq.gary@mms.raleigh.nc.us>
+
+III.1.C. Assorted interesting groups & lists
+
+alt.culture.usenet
+        Basically for discussions of anthropology (or sociology, or even
+        psychology) of the community sprung up around the usenet groups. 
+        Alas, it has started attracting so many idiotic crossposts from 
+        other, unrelated groups, that it now takes a killfile to get much 
+        worthwhile information from it.
+                        -- Jim Jewett <jimj@eecs.umich.edu>
+
+        The alt.culture.usenet FAQ can be found at the URL:
+        http://www.wpi.edu/~boigy/text/a.c.u.FAQ.current
+
+alt.culture.internet
+        For the net in general.  In theory, this would cover things like web 
+        pages, and leave usenet to the usenet group, but in practice,
+        there tends to be an awful lot of overlap, and "clued->a.c.u; 
+        unclued->a.c.i" would be almost as accurate (but still not very)
+        as a division based on the actual names.
+                        -- Jim Jewett <jimj@eecs.umich.edu>
+
+alt.usenet.kooks
+        For discussing usenet's native kooks.  Particularly mind-bending
+        posts from other groups will often be reposted here.
+                        -- Jim Jewett <jimj@eecs.umich.edu>
+
+alt.usenet.surveys
+        Where all the "I'm conducting a survey" posts _ought_ to go ...
+        also the right place to discuss how to do net surveys right,
+        though this discussion is sporadic.
+                        -- Jim Jewett <jimj@eecs.umich.edu>
+
+III.2. FTP/Gopher/WWW sites
+
+        What with the veritable explosion of information avaliable mostly
+or only on the World Wide Web, most of this list is made up of WWW 
+sites.  Often, the same information is avaliable via FTP or Gopher from 
+that same site.  Here's how to tell:
+
+        WWW     http://www.example.org/amazingstuff/info.html
+
+                        might also be
+
+        Gopher  gopher.example.org
+
+                        and/or
+
+        FTP     ftp.example.org
+                directory /pub/amazingstuff
+
+        A little experimentation is usually the best (if not the only) 
+way to figure it out.
+
+III.2.A. Sites with lists of other sites
+
+Electronic Newsstand
+        WWW     http://www.enews.com
+        Gopher  gopher.enews.com
+
+        An amazing number of publications, from AGNI to Chrysler Power 
+Magazine to Field & Stream to The Jewish Enquirer to Political Science 
+Quarterly to Vibe to Yellow Silk.
+        Also include information about subscribing to a number of
+electronic versions of paper media, such as NEWSDAY DIRECT and the L.A. 
+Times Online. 
+
+I.B.M.'s News Rack
+        WWW     http://www.ibm.net/menu09.html
+
+        Though probably not originally meant for the public at large, "big
+blue" has provided a great service in this WWW page -- it includes links
+to just about every WWW or Gopher site set up by various publications and
+other forms of major media, as well as weather reports, public 
+media-related sites, and much more.
+
+Yahoo at Stanford
+        WWW     http://akebono.stanford.edu/yahoo/News/
+
+        A very complete collection, including most if not all of the 
+sites below and probably a number of others as well.  Looks as if it 
+probably has a very good graphical interface, but is still easily 
+navigated by text-only browsers.
+
+America OnLine's News Hotlist
+        WWW     http://www.blue.aol.com/Hotlist/NewsHotlist.html
+
+        Much like IBM's News Rack, America OnLine has compiled a lengthy
+listing of media-related sites, which is open to the general public as
+well as its own users.  It is thought (but not confirmed) that eventually
+this will also include information previously only avaliable to paid
+subscribers of the system.
+
+III.2.B. Assorted interesting sites
+
+        These sites are ones which may be of interest to journalists 
+looking for more information on the 'net.  Not all are guranteed to be 
+useful, but they are certainly interesting.  (Note that many, but not 
+all, are also referenced in the text above.)
+
+History of the 'net
+        ftp://umcc.umich.edu/pub/users/seraphim/doc/nethist8.txt
+
+List of USENET FAQs
+        http://www.cis.ohio-state.edu/hypertext/faq/usenet/FAQ-List.html
+
+Another list of FAQs    http://www.cs.ruu.nl/cgi-bin/faqwais
+
+About FAQs              http://www.cis.ohio-state.edu/hypertext/
+                                faq/usenet/faqs/about-faqs/faq.html
+
+Finding & Writing FAQs  http://www.best.com/~ii/internet/faqs.html
+
+Bible of USENET         http://sunsite.unc.edu/usenet-b/home.html
+                or      FTP ftp.clark.net pub/usenet-b/info/bible-faq
+
+Newsgroup Archives
+ftp://ftp.neosoft.com/pub/users/claird/news.lists/newsgroup_archives.html
+
+List of Mailing Lists   http://www.neosoft.com/internet/paml
+
+Copyright FAQ           FTP ftp.netcom.com /pub/ca/carrolt/law/copyright/faq/
+Copyright Law FAQ       FTP charon.amdahl.com pub/misc.legal/Copyright-FAQ/
+
+Hacker Jargon           http://www.fwi.uva.nl/~mes/jargon/
+List of Lists           ftp://ftp.nisc.sri.com/netinfo/
+_ _ _ _ __ __ __ ___ ___ ____ _______________ ____ ___ ___ __ __ __ _ _ _ _
+
+This document is Copyright (c) 1995 by J.D. Falk and Tristan Louis, all
+rights reserved.  Permission is granted for it to be reproduced
+electronically on any system connected to the various networks which make
+up the Internet, USENET, and FidoNet so long as it is reproduced in its
+entirety (either in two parts as here, or combined), unedited, and with
+this copyright notice intact. 
+
+-- 
+
+

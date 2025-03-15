@@ -1,0 +1,222 @@
+
+
+                                   STUNGUN
+                          All work done by APOLLO.
+
+
+The usual bull:
+
+Disclaimer:
+------------
+This is an High Voltage electrical device and must be used with discretion.
+The builder agrees to assume all liability for any damages and bodily injury
+(both primarily and secondary) which may result from the use or misuse of
+this product. I make no claims as to the user's safety or stopping power of 
+this device.In other words, I don't give a damn when you stun somebody down
+on the stairs, and he breaks his neck by falling down.
+ 
+You're free to use this program; However, if you use this device in hold-ups
+or bank robbery, 5% of the plunder must be paid to me. I accept cash and all
+major credit cards are welcome !
+
+
+WHAT IS IT ???
+--------------
+
+The following plan show how to construct a device, capable of stunning any
+moving lifeform on earth.It can be build into a holster.The device produces
+an intimidating plasma or lightning like discharge that in most cases 
+discourages an encounter.This effect occurs as a visual audible display
+between the contacts immediately when power is applied.A physiological
+effect requires contact to certain parts of the anatomy to produce the
+stunning disabling function.The electrical output energy is small and
+usually will not cause any tissue damage.When contact is made to the subject,
+he may be stunned and paralysed for up to several minutes.The high voltage
+output can penetrate the heaviest of clothing and due to the contact spacing
+will deliver highly jamming electrical pulses that will override the
+nervous system causing temporary paralysis and loss of voluntary control.
+That's why this stun-gun doesn't work on aliens who have no or another
+nervous system.Cyborgs and androids however, can be defeated or even
+destroyed and send to the eternat space-time-continuum by using this device.
+
+
+What do ya need ??
+
+1   R1     1K 1/4 watt resistor
+1   R2     100 to 200 ohm 1 watt resistor
+1   R3     2.2 to 2.7K 1 watt resistor
+1   R4     10 ohm 1/4 watt resistor
+2   R5,8   100 ohm 1/4 watt resistor
+1   R6     Selected resistor-nominally 68K 1/4 W
+1   R7     22 to 27K 1/4 Watt resistor
+1   C1     10 mfd @25V to 35V elect cap
+1   C2     3.9 mfd @350V cap
+1   C3     1 mfd @25V to 50V elect cap
+2   D1,2   IN4001 diode 50V
+6   D3,4,5 IN4007 diode 1000V
+    6,7,8
+2   Q1,2   D40D5 NPN pwr tab tran
+1   Q3     2N2646 UJT
+1   SCR1   MCR 106-8 or C107D or 2N4444
+1   T1     Type I pc transformer
+2   T2,3   50KV pulse transformer (25KV @200V)
+1   SW     Push button switch
+1          8 AA cell battery pack
+
+CIRCUIT THEORY
+--------------
+
+The circuit consists of 2 basic sections: the inverter 
+power supply and the capacitor discharge section.
+
+The inverter section consists of swithching transistors Q1 and Q2
+that alternately switches the primary windings of a saturable core
+transformer (T1). A high voltage square wave is induced in the secondary of T1
+via the switching action and is rectified by diode bridge D3,4,5,6.Base
+current drive for Q1 and Q2 is obtained by a tertiary feedback winding on T1
+and is applied in the correct phase to turn the appropriatetransistor 'ON'.
+This base current is limited by resistor R2. Diodes D1 and D2 provide a
+return path for the base current flowing in the opposite transistor
+respectively.R1 serves to unbalance the circuit to initiate swithching.A
+voltage of approx. 400 volts is obtained in this circuit from a 9.6 volt Nicad 
+battery.Higher powered operation may be obtained by increasing to a 12 Volt
+battery pack,however, more space is required and care must be taken not to
+over rate the components if continued use is anticipated.
+
+The capacitor discharge section consists of 2 opposite phased high voltage
+pulse transformers T2,T3 being current pulsed via SCR1 shorting a charged
+capacitor C2 across their primaries. C2 and the primary inductance of T2,T3
+provides a ringing wave whose negative overshoot commutates SCR1 to turn 'Off'.
+It is imporant that this primary inductance be sufficient so when combined with
+capacitor C2 allows a ringing frequency with a period considerably larger
+than the required commutation turn off time of the SCR1. iode D8 provides
+energy recovery of the negative overshoot component of this discharge pulse.
+Transformer T2,T3 now force induces 'out of phase' high voltage pulses in
+their respective secondaries with a high instantaneous peak current.Diode D7
+and R3 limit the DC current to the SCR1 and prevents DC lock on,which also
+provides a high impedance to the negative turn 'off' pulse.
+SCR1 is triggered by the UJT pulse timing circuit consisting of Q3.Pulse 
+repetition rate is determined by capacitor C3 and the charging trimpot R6.
+SCR1 switch rate can be adjusted from 1 to 50 pps.Higher pulse rep rates may
+have a tendancy to overload the inverter power supply,where it will be unable
+to supply the current necessary to charge C2,consequently with its charge
+voltage dropping off.
+The voltage output is about from 50-100000 volts at a peak current of 1-2 Amps
+The energy waveforms consists of a train of 30 microsec pulses decaying 
+exponentially.This produces a moderately painful electric shock and is what
+causes the temporary jamming of the nervous system but will not electrocute
+due to the low average current plus the fact that the current flow is only
+across a small section of the body,that is between the contact electrodes.
+The peak power of this device is 25000 watts plus.
+The outputs of T2 and T3 are the output contacts of the device. T2 and T3 are
+phased for different outputs.Now when the switch is pushed,a continuous
+sparking occurs between these points producing the visual and audible effect.
+
+About the schematic :
+
+This is the first time that I drew a schematic with AsciI chars. Maybe it
+therefore doesn't look 100% professional. However I'm sure that you'll know
+what I mean with this schematic.
+
+Some things you need to know :
+As i tryed to malke this drawing compatible with most printers,i didn't
+use the 'arrow'-char. Therefor the emitter is indicated with an 'e' on Q1 and
+Q2.
+
+I preferred to draw the bridge,as bridges are mostly drawn,so I couldn't draw
+the diodes as I did with D7. That's why I indicated the Kathode with the letter
+'k'.So in this schematic, D3 points up,D4 points down,D4 points down and D6 up.
+                           
+
+SCHEMATIC
+----------
+
+              зддддддддд©
+              Ё         o
+              Ё      k / \
+              Ё     D3    D4
+              Ё     /      k\     (w)     D7               R3
+              Ё  здo         oдддддддддддд>Ёддддддддддддд/\/\/\ддддддддддд©
+              Ё  Ё  \      k/                                             Ё
+              Ё ///  D5   D6                                              Ё
+              Ё       k\ /                                                Ё
+              Ё         o                                                 Ё
+              Ё A       юддддддд©B                                        Ё
+              Ё                 Ё                                         Ё
+              ю~~~~~~~~~~~~~~~~~ы                                         Ё
+               дддддддддддддддддддддддддддддддддддддддддддддддд           Ё
+            T1 дддддддддддддддддддддддддддддддддддддддддддддддд           Ё
+                                                                          Ё
+зддддддддддддд~~~~~~~~~~~~~~дoд~~~~~~~~дддддддддд©  здд~~~~~~~~~дд©       Ё
+ЁE                         G Ё F                HЁ  ЁC           DЁ       Ё
+Ё                            oдддR1дддддддддoддддедды             Ё       Ё
+Ё                            Ё              Ё    Ё                Ё       Ё
+Ё                 зддддддддддo             R2    Ё                Ё       Ё
+Ё               +дад+        Ё              Ё Ё  /                Ё       Ё
+ \              batt.        oдддддддд©     oд╢/  Q2              Ё       Ё
+Q1 \Ёдддoдддд©    б          Ё        Ё     Ё Ё\                  Ё       Ё
+   /Ё  дад   Ё    o щS      дад       Ё    дад   \e               Ё       Ё
+e/     /Ё\ D1Ё    o щW    C1 О        Ё D2 /Ё\    Ё               Ё       Ё
+ Ё      Ё    Ё    Ё          Ё  commonЁ     Ё     Ё               Ё       Ё
+ юддддддoддддеддддoддддддддддoддддoдддедддддoдддддo               Ё       Ё
+             юддддддддддддддддддддедддеддддддддддддддддддддддддддды       Ё
+                                  Ё   Ё                                   Ё
+                                  Ё   Ё                                   Ё
+                                 ///  Ё                                   Ё
+                                      Ё                                   Ё
+                                      Ё                                   Ё
+  здддддддддддддддддддддддддддддддддддеддддддддддддддддддддддддддддддддддды
+  Ё                                   Ё
+  Ё                                   юдoдддддддд©
+  Ё                                     Ё        R6
+  Ё                                     R5       Ё
+  Ё                                     Ё        R7
+  Ё                                     Ё 4 ш    Ё
+  Ё                                     юдддш____o
+  Ё           здддддддддддддддддддoдддддддддш 1  Ё      <---  Q3
+  Ё           Ё                   Ё       2 ш    Ё
+  Ё           Ё                   R4            дад
+  Ё           Ё                   Ё             C 3
+  Ё           Ё                   Ё              Ё
+  Ё           Ё                  ///            ///
+  юдддддoдддддедддoдддд╢(дддд╝oддд©    T2    зэээээээээээээээээээ
+        Ё A   Ё   Ё    C2     Ё  AЁ   ЁЁ    Ё       center pin
+SCR1    V     Ё   Ё           Ё   )    ЁЁ    (                   :
+      ъъъъъ   Ё  дад          Ё   )    ЁЁ    (
+      K Ё \ G Ё  /Ё\ D8       Ё   )    ЁЁ    (                   :
+        Ё   \ды   Ё           Ё   )    ЁЁ    (                   approx
+        Ё         Ё           Ё   )    ЁЁ    (                100.000 Volts
+       ///       ///          Ё   )    ЁЁ    (            between these points
+                              Ё  CЁ          юдддд© E            :
+                              Ё   Ё               Ё
+                         здд╝oеддды               Ё              :
+                        ///  Ёюддд©    T3    ээээээээээээээээээээ
+                             Ё  B )    ЁЁ    (    Ё  center pin
+                             Ё    )    ЁЁ    (    Ё
+                             Ё    )    ЁЁ    (    Ё
+                             Ё    )    ЁЁ    (    Ё
+                             Ё    )    ЁЁ    (    Ё
+                             юдддды          юдддды
+                                D              
+
+
+
+Assemble as shown.Note position of transistors,polarity of diodes and
+capacitors.Nothe that when using the special pc transformer T1,it can be
+inserted in two ways.A way to determine the correct position is to measure
+the resistance of the two windings and identify 'em.The one with the lower
+reading goes toward Q1 and Q2.
+
+Connect up 8 AA Nicads (or whatever).
+Connect a voltmeter to point (w). Momentarily press S1 and note a voltage of
+approx. 400VDC. If no voltage is present, the circuit must be troubleshot.
+If you did your homework well and Murphy's 1st Law 'whatever can go wrong,
+will go wrong' is broken, you should detect a HV pulsing at the output pins
+of T2 and T3.
+
+Adjust R6 for a discharge from 5 to 30 shots/sec. This should correspond to
+a battery current of 1 to 2 Amps when measured by connecting a current meter
+across the switch.Caution, coz this action shorts out S1. The pulse rep. rate
+should not be set where the battery current exceeds 2 Amps.
+
+

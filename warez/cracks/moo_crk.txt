@@ -1,0 +1,8 @@
+In starmap.exe search for:
+	75 0D C7 06 CE 43
+
+and replace the 75 0D with 90 90
+
+It's around offset 70610
+
+This works for the 1.1 beta patch, not sure about the others. 

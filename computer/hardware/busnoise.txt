@@ -1,0 +1,39 @@
+From: jkubicky@cco.caltech.edu (Joseph J. Kubicky)
+Subject: Re: Noise problems on the PC bus
+
+>A while back I designed a 12bit A/D card to plug into the IBM-PC bus and
+>have had a lot of trouble reducing the noise levels which feed through
+>from the supply +5V rail and digital ground. I generate +/- 5 and 
+>+/- 12 volts on the card with DC/DC converters and use decoupling at 
+>each analog IC (16uF tant and .01uF ceramic) and use a ground plane in 
+>the analog section of the board.
+
+Many years ago I tried to build a decent A/D circuit with a switching
+supply and I had a similar experience.  While good grounding is important,
+it may not be enough.  Particularly, be aware that many switching
+converters, even those spec'd for low-noise output, still pass any
+INPUT noise through (that is, the spec really speaks to the amount
+of additional switching noise introduced).  Thus, you're really
+at the mercy of the power supplied by the PC's switcher (which is
+usually pretty ugly, particularlly on a loaded bus).
+
+Analog Devices suggests a circuit in their 1992 Amplifier Application
+Guide for filtering a 5V (digital) supply for use in single-supply analog
+applications.  Should work just as well for dual-supply (with appropriate
+modifications):
+
+   -------/==\------*-------*------*------  +5 (filtered)
+          \__/      |       |      |
+         2 turns   ---     ---    ---
+          around   /-\     /-\    ---
+        Fair-Rite   |       |      |
+     #2677006301    |       |      |
+      ferrite bead  |       |      |
+   -------/==\------*-------*------*------  +5 return (filtered)
+          \__/    100uF   10-22uF  0.1uF
+                  elec.    tant.   cer.
+
+In the book they show rather dramatic reduction of high-speed
+switching transients for loads up to 100mA.  For much higher loads
+you'll have to be careful not to saturate the ferrites.
+

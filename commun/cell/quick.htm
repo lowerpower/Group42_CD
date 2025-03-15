@@ -1,0 +1,121 @@
+<BODY Bgcolor="#ffffff" text="#000000" link="#ff0000" vlink="#660099">
+<h1><center><IMG SRC = "smhand.gif" vspace=25 ALIGN = "top"><br>Cool8's Quick and Simple guide to the Cellular Network</H3>
+</h1><br></center>
+
+<strong>
+<center>
+<A HREF = "#1">[The cells.] </a><br>
+<A HREF = "#2">[What happens when you ring a mobile number.] </a><br>
+<A HREF = "#3">[What happens when a Mobile rings out.] </a><br>
+<A HREF = "#4">[So what does the Identity of a fone consist of.] </a><br>
+<A HREF = "#5">[Err, if the ESN is permanent how the hell is Cloning possible?] </a><br>
+<A HREF = "#6">[Ok how did they clone Jack blogg's fone number then.] </a><br>
+</center>
+</strong>
+
+<A name="1"></A>
+<h3>The cells</h3>
+
+In the UK there are 2 main cellular networks, there are others but the ones 
+we discuss here are the analogue services provided by Vodafone
+and Cellnet
+Both these networks operate on exactly the same technical sprecification,
+ie. there is no difference between the phones. Each network has towers all 
+over the country known as cell-sites. A cell site is basically a 16 channel
+TX/RX connected to the network nerve center. Each tower usually covers an area
+of a few miles this area is called a cell.
+<br><br>
+Each tower constantly transmits a stream of data on one fixed channel, this 
+is known as the Forward Control Channel. This channel is the one the mobile
+fones are always listening to when in standby. The network in theory always
+knows which cell contains which fones at any particular time, this is because 
+when a mobile is switched on it transmits a data burst containing the phones
+identity. This data is picked up by a tower (or maybe more than one tower) 
+and that phone is then registered in that cell. The phones also retransmit 
+this data every 10 or so seconds. This data burst is transmitted by the mobile
+ 45mhz below the towers tranmit FCC frequency, this is called the Reverse Control Channel. 
+<br><br> 
+<A name="2"></A>
+<h3>What happens when you ring a mobile number.</h3>  
+
+Since the network already knows where a particular fone is when someone 
+rings that number the cell tower pages the phone and allocates it free
+TX and RX channels known as the Voice channels. The phone then switches 
+to these new channels and begins to ring, when the user answers the 
+conversation takes place on the same channels. The mobiles transmit channel is 
+always 45mhz below the RX channel. If the user is travelling at the time 
+his signal will obviosly drop the further away he moves from a tower. 
+When this happens the network senses that the signal is getting to weak 
+and allocates a another channel on a nearer tower. This is done by the 
+tower transmitting a short data burst on the RX voice channel telling the
+fone which channel to jump to, known as "Hand Off". If when you ring a 
+mobile fone that has not been registerd recently in a cell the network asks 
+all the towers in the country to try and find the fone, this is called 
+paging. Basically the tower sends out a signal to force the fone to 
+register onto the network. Once this happens the call gets placed. If the 
+the fone cannot be found, either because the fone is switched off (dead battery)
+or in a area where the coverage is too low, you get a message telling you 
+that mobile is switched off and to try later. 
+<br><br>
+<A name="3"></A>
+<h3>What happens when a Mobile rings out.</h3>
+
+When the mobile user dials out a data burst is transmit on the Reverse Control
+Channel to the Tower. This data burst contains the phones identity and the 
+number being dialled. Once the network has verified that the Identity is 
+valid the voice channels are allocated and the call goes through. If the 
+Identity of the fone is dodgy probaly because of unpaid bills the network cuts you
+off straight away, sometimes the voice channels get allocated so the network 
+can tell you to go away and contact your service provider after this you 
+get cut off.  
+
+<br><br>
+<A name="4"></A>
+<h3>So what does the Identity of a fone consist of.</h3>
+
+This is where the phreakin comes in. Each phone has a unique Electronic Serial
+Number (ESN for short) this is burned into some permanent memory in the fone 
+at the factory, and it is unchangeable (err... well supposed to be). The other 
+stuff is the  MIN number which is basically the actual fones telephone number. 
+Actually with the MIN the first 4 digits are replaced by 4 other digits ie.
+0831-123456 becomes 2344-123456 I don't quite know why this is done, there is
+no mathamatical relationship between the numbers you will need a 
+lookup table. 
+There are other bits that get transmitted to the tower but to keep it 
+simple we'll ignore them for the time being. The MIN number along with a
+ few other parameters is programmed by the dealer from where you puchased your fone. 
+This is called the NAM programing short for Numerical Access Module basically 
+this is the permament memory in the fone that contains along with the MIN, 
+other bits of data to tell the fone which Network it is connected to so it 
+can tune in to the correct towers, Vodafone or Cellnet. The Lock password 
+etc. are also stored in the NAM.  
+<br><br>
+<A name="5">
+<h3>Err, if the ESN is permanent how the hell is Cloning possible?</h3>
+
+Basically the ESN can be changed with the right knowledge and tools. So if 
+you wanted an extension phone this should be easy to do. I'm sure that 
+manufacturers could make it exteamly difficult for this type of reprogramming 
+or chipping but its not the case. A lot of the newer fones are indeed 
+almost un-chippable but theres always a bright spark who figures it out. 
+The older the fone the more likely that it can be chipped, the easiest and 
+most popular fones for this purpose have got to be the Motorolas. The fones 
+are usually connected to a PC via some homemade lead/interface and 3rd party 
+software used to actually read and alter the ESN/NAM. <br><br>
+<A name="6">
+<h3>Ok how did they clone Jack blogg's fone number then.</h3>
+
+Because of the grey area about discussing such things, I will only go into this
+very vagely. You will be able get more info from some of the links. Basically 
+the "pirates" listen to the reverse control channels, when a phone registers 
+onto the network it transmits its ESN/MIN pair which is picked up by the 
+tower and anyone else with the right gear. Talk about crap security!!! IN 
+phreaker terminology this is known as snarfing or grabbing pairz. I strongly 
+disuade any of you from trying this as it is illegal probably even more illegal
+to make call's using some elses ESN/MIN pair. <br>
+If someone manages to get your pair and tots up huge bills on your account, 
+your service provider usually ammends your bill to your monthly average. Your
+existing ESN is killed off. If they can't program a new ESN with your  
+fone number into your existing fone, you are usually issued a different fone.  
+<br><br>  
+</head>

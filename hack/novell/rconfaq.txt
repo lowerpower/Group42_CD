@@ -1,0 +1,373 @@
+RCONSOLE Hacking
+
+In this article I intend on showing you how to extract the RCONSOLE password
+from a sniffer trace to gain access to a Novell Netware's server console.
+While versions 3.x and 4.x employ packet signature and encryption techniques
+for a user to login, RCONSOLE (Remote CONSOLE) used a single password to 
+launch a remote session to the server's console, allowing an administrator 
+to type in commands as if they are at the console itself. 
+
+While this article assumes some basic Netware knowledge, I do want to cover
+a few items regarding security.
+
+Security Quick Basics
+---------------------
+
+There are 5 different levels of security within Netware at the file level. 
+These are:
+
+1. Not logged in. All you need is a connection to the server, you do not
+need to log in. This level of access allows running the most simple commands,
+such as LOGIN.EXE, SLIST.EXE, and basically any utility loaded into the
+SYS:LOGIN directory that doesn't require additional access.
+
+2. Logged in. Basic access controlled through Trustee Rights.
+
+3. Operator access. Operators have basic access and can control print queues,
+run a few special commands including FCONSOLE.
+
+4. Supervisor access. Full access to the file system. This is the access level
+most guarded, as you can get to any and every file on the system, administer
+and control virtually every aspect from user access to server configuration
+to security.
+
+5. OS access. This is the level of access that processes running on the 
+server run at. Most commands typed in at the console run at this level, and 
+while you cannot access the file system at the level of detail that you can 
+as a Supervisor, you can certainly open the door for Supervisor access. NLMs 
+(Network Loadable Modules) are programs that when loaded at the console 
+become a part of the Netware OS environment. Some NLMs stay loaded, some 
+perform their task and then unload themselves, but all of them run at this 
+level of security. Gaining access to the console gives you this level of 
+access.
+
+What we are going to cover is an inherit weakness within the security system 
+of Netware -- remote access to the console. While Novell has gone to great
+lengths to ensure adequate security for security levels 1-4 listed above,
+RCONSOLE access is protected by a single password with simple encryption, 
+encryption that can be broken. One of the tools I will refer to is RCON.EXE. 
+This utility, written by itsme of the Netherlands (author of HACK.EXE, 
+KNOCK.EXE and several other notorious Netware tools), allows you to take 
+information gained from a sniffer trace of the RCONSOLE initialization 
+conversation and break the encryption -- essentially "decrypting" the 
+RCONSOLE password.
+
+Once you have the RCONSOLE password, you can employ other techniques to open
+a door to the entire file system -- Supervisor access.
+
+The hardest part, in my opinion, is getting the trace. Most of the 
+information in this article involves technical items based on predictable and
+repeatable facts. But getting the capture of a trace using a sniffer can be 
+very tricky. You are dealing with a few different items - accessability, 
+availability, and timing.
+
+Accessability
+-------------
+
+You will need access to the network. Specifically, you will need to run your 
+sniffer trace either on the server's segment or the user's segment, otherwise 
+you may never see the conversation. While it is possible to run the trace on 
+a segment over which the traffic passes, it is easier to find out the segment 
+of the user. The easiest way is to log into the a server that the target user 
+logs into and type USERLIST /A. From the list you should see the network and 
+the node address. The network number is the segment the user is on, and the 
+node address is the 12-digit hex number burnt into the network interface card 
+(NIC), also known as the MAC, or Media Access Control address.
+
+Of course the proceeding paragraph assumes you have physical access to the 
+network. It is possible to dial into a LAN running pcAnywhere, install a 
+DOS-based sniffer, and capture packets. It is also possible to get to a Unix
+box and start up a sniffer there. I will not get into those details here, but
+you have to assume that the System Administrator doesn't have the pcAnywhere 
+dial-in machine right there at his desk, or you can get by the firewall. S/he
+might notice a sniffer running and start a trace.
+
+Availability
+------------
+
+Running a sniffer trace is pretty CPU intensive. The CPU must be fast enough 
+to copy all info from the NIC's buffer to RAM without missing a packet. If 
+your sniffer is filtering information, that is, if it is looking at the 
+insides of each packet and only saving those that meet certain criteria, this 
+can be even more CPU intensive. Some of you may have already noticed a big 
+dilemma. You have to have a sniffer running on a computer that can handle a 
+decent amount of CPU activity (486 recommended), attached to a specific 
+network, and allowed to run without someone walking up and noticing. And the 
+brings us to the last problem.
+
+Timing
+------
+
+This one is the kicker. If you can meet the previous requirements, then you 
+are left with the hardest one -- getting the actually packet captured. This 
+can be accomplished in one of two ways. First, through some social 
+engineering you can create a need for the Sys Admin to launch RCONSOLE, or 
+you can filter out and look for that single packet that contains the 
+password. 
+
+The first way is a bit tricky, but not impossible. Posing as a new employee,
+call the Sys Admin and say that when you try to log in you keep getting the
+message "The SUPERVISOR has disabled the login function". To fix this, the
+normal thing to do is type ENABLE LOGIN at the console prompt. The Admin will
+invariably launch RCONSOLE to correct the problem, and then you have your
+packet. S/he will tell you that everything looks okay, so then say "my 
+computer is locked up". They will probably conclude that the problem is at
+your workstation and advise you to reboot, with the chances being very good
+they'll say "When it comes up you should be okay, so call me back if there
+is a problem" and then hang up. Fine. You've got the packet.
+
+The second one depends on your sniffer. If it can actually analyze packets
+in real time, have it capture only packets between the Sys Admin's desk and
+the server, plus only save SPX packets. If it only works using a pattern
+match of some kind, use the detailed information on identifying the packets
+to find a specific pattern for your sniffer to key off of. At the end of the 
+next section are some pattern matching tips.
+
+A final note on accessability, availability, and timing -- a carefully placed
+laptop with an Ethernet PCMCIA running sniffer software AND filtering
+capabilities will get you everything.
+
+Analyzing the Packets
+---------------------
+
+Once you've captured packets from your user, you need to be able to look at
+the data and interpret it. You must be able to find the packets coming from 
+the user going to the server. Depending on your sniffer, this may prove to be
+quite a task. Most of the high-priced sniffers allow you to filter on 
+addresses and packet type, and these features are great for finding exactly 
+what you need. But the low-end solutions, especially freeware or shareware, 
+may have little or no filtering capability, and that means looking at a lot 
+of hex dumps.
+
+But we will assume that you know how to use your sniffer (or get the dump 
+from a promiscuous network card) and at least get to the point of finding the
+user's and the server's conversation. To help you find these packets, we will
+discuss ways to find the addresses.
+
+Now here are the first three packets that are sent after the user has hit 
+enter after entering the password.
+
+Ethernet packet sent from the workstation to the server to establish the SPX 
+connection:
+
+ADDR  OFFSET
+BASE  00 01 02 03 04 05 06 07  08 09 0A 0B 0C 0D 0E 0F
+----  -- -- -- -- -- -- -- --  -- -- -- -- -- -- -- --
+0000  00 80 29 00 34 35 00 00  A2 00 3D 77 00 2A FF FF
+0010  00 2A 04 05 00 00 00 03  00 00 00 00 00 01 81 04
+0020  00 00 00 02 02 60 8C A7  E9 AA 50 0E C0 00 44 00
+0030  FF FF 00 00 00 00 00 06  ED 05 00 00
+
+The server responses:
+
+ADDR  OFFSET
+BASE  00 01 02 03 04 05 06 07  08 09 0A 0B 0C 0D 0E 0F
+----  -- -- -- -- -- -- -- --  -- -- -- -- -- -- -- --
+0000  00 00 A2 00 3D 77 00 80  29 00 34 35 00 2A FF FF
+0010  00 2A 01 05 00 00 00 02  02 60 8C A7 E9 AA 50 0E
+0020  00 00 00 03 00 00 00 00  00 01 81 04 80 00 90 82
+0030  44 00 00 00 00 00 00 00  08 00 5A 7F
+
+And the password is sent:
+
+ADDR  OFFSET
+BASE  00 01 02 03 04 05 06 07  08 09 0A 0B 0C 0D 0E 0F
+----  -- -- -- -- -- -- -- --  -- -- -- -- -- -- -- --
+0000  00 80 29 00 34 35 00 00  A2 00 3D 77 00 AC FF FF
+0010  00 AC 04 05 00 00 00 03  00 00 00 00 00 01 81 04
+0020  00 00 00 02 02 60 8C A7  E9 AA 50 0E 40 00 44 00
+0030  90 82 00 00 00 00 00 06  FE FF 47 45 5A 4D 4C 24
+0040  8C 9C 8A 3A B3 46 33 25  13 15 6E 94 94 4F C0 5B
+0050  08 14 A5 0A 70 E5 F2 0B  F4 70 AA 03 FA 3F C4 88
+0060  C0 79 FF 85 CB 0B 27 56  B6 D3 CF 8E 2D 9F 7D 25
+0070  85 25 7C E8 B3 95 29 AF  8C 8E 4E 11 EE F7 37 8C
+0080  35 C4 AD A3 F9 80 18 4E  0C CD 9E 26 0B 65 2A 3B
+0090  1A 1E F4 AD 43 BB 6E 06  35 8C 49 3B 3B 3A B6 00
+00A0  39 CB 17 6B C2 5C 63 38  D1 0B 3C A0 EB B0 40 66
+00B0  87 DE E6 3E 1C 2A 12 FC  A2 37                  
+
+To explain a bit of what is going on, let's look at what makes up these 
+packets, starting with the first one.
+
+Offset 00h through 0Dh is the Data Link Control layer:
+
+ADDR  OFFSET
+BASE  00 01 02 03 04 05 06 07  08 09 0A 0B 0C 0D 0E 0F
+----  -- -- -- -- -- -- -- --  -- -- -- -- -- -- -- --
+0000  00 80 29 00 34 35 00 00  A2 00 3D 77 00 2A        Offset 00h through 0Dh
+                                                        is the Data Link
+                                                        Control layer.
+
+0000                                             FF FF  Start of IPX header, 
+0010  00 2A 04 05                                       FF FF is a checksum
+                                                        10h and 11h is the IPX 
+                                                        length, 12h is the
+                                                        transport control, 13h
+                                                        is the IPX packet type 
+                                                        (05 is SPX).
+
+0010              00 00 00 03  00 00 00 00 00 01 81 04  14h through 1Fh is the
+                                                        packet destination
+
+0020  00 00 00 02 02 60 8C A7  E9 AA 50 0E              20h through 29h is the
+                                                        packet source
+
+0020                                       C0 00 44 00  2Ch starts the SPX 
+                                                        section with 2Ch the
+                                                        control type, 2Dh the
+                                                        datastream type, and
+                                                        2Eh and 2Fh the SPX
+                                                        source connection ID.
+
+0030  FF FF 00 00 00 00 00 06                           30h and 31h are the 
+                                                        destination connect
+                                                        ID. FF FF is a 
+                                                        broadcast or the 1st
+                                                        SPX packet in this 
+                                                        conversation. The 
+                                                        next 3 byte pairs are
+                                                        the sequence number,
+                                                        the acknowledgement 
+                                                        number and the 
+                                                        allocation number.
+
+0030                                       ED 05 00 00  The minimum length for
+                                                        a packet will be 60
+                                                        bytes, so if there 
+                                                        is no data then the
+                                                        last 4 bytes are 
+                                                        padded with junk.
+
+Pattern Matching Tips 
+
+1. Look for FF FF xx xx xx 05 to find an SPX packet starting at offset 0Eh.
+2. The address of the server starts at offset 14h, in the above packet it is 
+   00000003:000000000001 with an IPX socket of 8104. All IPX conversations use                  
+   IPX socket numbers, so pattern match off of 14h through 1Dh.   
+3. The address of the user starts at offset 20h, in the above packet it is 
+   00000002:02608CA7E9AA with an IPX socket of 500E. Pattern match on offset
+   20h through 29h.
+
+With the information above you should be able to identify an SPX packet when 
+you see one, and identify the addresses of the server and the user. Now let's
+use this information to get what we need out of the third packet we've
+captured, the one with the RCONSOLE password.
+
+ADDR  OFFSET
+BASE  00 01 02 03 04 05 06 07  08 09 0A 0B 0C 0D 0E 0F
+----  -- -- -- -- -- -- -- --  -- -- -- -- -- -- -- --
+0000  00 80 29 00 34 35 00 00  A2 00 3D 77 00 AC FF FF
+0010  00 AC 04 05 00 00 00 03  00 00 00 00 00 01 81 04
+0020  00 00 00 02 02 60 8C A7  E9 AA 50 0E 40 00 44 00
+0030  90 82 00 00 00 00 00 06  FE FF 47 45 5A 4D 4C 24
+0040  8C 9C 8A 3A B3 46 33 25  13 15 6E 94 94 4F C0 5B
+0050  08 14 A5 0A 70 E5 F2 0B  F4 70 AA 03 FA 3F C4 88
+0060  C0 79 FF 85 CB 0B 27 56  B6 D3 CF 8E 2D 9F 7D 25
+0070  85 25 7C E8 B3 95 29 AF  8C 8E 4E 11 EE F7 37 8C
+0080  35 C4 AD A3 F9 80 18 4E  0C CD 9E 26 0B 65 2A 3B
+0090  1A 1E F4 AD 43 BB 6E 06  35 8C 49 3B 3B 3A B6 00
+00A0  39 CB 17 6B C2 5C 63 38  D1 0B 3C A0 EB B0 40 66
+00B0  87 DE E6 3E 1C 2A 12 FC  A2 37                  
+
+What we need is the network address (offset 20h through 23h), the node 
+address (offset 24h through 29h) and the actual encrypted password. In the
+data section starting at 38h, 38h will always be FE and 39h will always be 
+FF. The next 8 bytes will be the password bytes. I know what you're thinking,
+there's a lot of other bytes there, but the first 8 are the significant ones.
+Not exactly C2, are we?
+
+Running RCON
+------------
+
+From the example above, the password is 47455A4D4E248C9C, the network is
+00000002 and the node is 02608CA7E9AA. Therefore you would run RCON as 
+follows:
+
+RCON 47455A4D4E248C9C 00000002 02608CA7E9AA
+
+It will response with the following:
+
+decrypted pw:
+0000 : 47 45 5a 4f 4e 44 00 3b e9 aa 15 15 15 17 17 75  - GEZOND.;È™.....u
+node address after encryption:
+0000 : 11 11 11 13 13 71 9d b8 e5 a6                    - .....qù∏Â¶      
+
+As you can see, the RCONSOLE password is "GEZOND".
+
+The Next Step
+-------------
+
+Now a few things to keep in mind when accessing the console remotely. When 
+using RCONSOLE, your activities are being recorded. So after getting the
+password, don't just jump into RCONSOLE without planning on doing something
+to cover your tracks. And to cover your tracks you must gain access to the
+file system.
+
+A quick note -- since the Supervisor password also works with RCONSOLE,
+always try to login as Supervisor with the password you have uncovered. If
+you get in, great. Full access to the file system.
+
+Now I'm not going to go into a LOT of detail here, but there are several
+techniques you can use to gain access to the file system as Supervisor. All
+of the ones I'm going to mention involve uploading NLMs to the file server
+and then running them. RCONSOLE has a built-in option to upload files to
+the server (hit * on the keypad and select the option for transferring
+files to the server). You should immediately upload a nefarious NLM to gain
+file system access and wipe your tracks. Here is a quick example, once again 
+assuming some general Netware admin knowledge:
+
+1. At the system console, type in UNLOAD CONLOG. If CONLOG is loaded, every
+response to every command at the console is being written to a file. The 
+CONLOG.NLM comes with 4.x but works with 3.x.
+
+2. Upload BURGLAR.NLM and create a new user with Supervisor rights, or 
+upload SETPWD.NLM and reset a Supervisor equivalent user ID's password
+(BURGLAR.NLM and SETPWD.NLM can be found on the Internet).
+
+3. Exit RCONSOLE and login.
+
+4. Delete BURGLAR.NLM or SETPWD.NLM and purge it from the system.
+
+5. If CONLOG was loaded, find and delete or edit the CONSOLE.LOG file to 
+remove your activity. Delete or edit SYS$LOG.ERR and remove any activity 
+you create there. If you delete these files, purge them. If you edit these
+files, use FILER to reset the ownership of the file.
+
+Of course the quick-witted admin might notice CONLOG isn't loaded -- if I
+think an admin is going to notice that, I reboot the server by running an
+NCF file with the following lines:
+
+REMOVE DOS
+DOWN
+EXIT
+
+When running this NCF file, I remain remoted into the console in case I need 
+to answer Yes to the "are you sure" questions. For more information on
+creating and running NCF files, refer to one of hundreds of Netware books
+currently available at any bookstore.
+
+Conclusions
+-----------
+
+Well, the first conclusion is that Netware's RCONSOLE utility isn't very
+secure! If you are an administrator, the only way to thwart this type of
+attack at this time is to upgrade to 4.x and use packet signature.
+
+Of course the other items to recap are 1) you are going to need a little
+time and access, both at the RIGHT time; 2) you are going to have to have a
+couple more tools (like SETPWD.NLM or BURGLAR.NLM) to gain file system
+access; 3) it is highly recommended you work quickly (duh); and 4) you should
+cover your tracks as best you can.
+
+Have fun and happy hacking.
+
+[ Thanks to itsme for coding RCON.EXE and Jeff Carr for assisting in testing
+of the techniques of this article. RCON.EXE can be found at ftp.fastlane.net
+in the /pub/nomad/nw directory. ]
+
+
+
+
+
+
+

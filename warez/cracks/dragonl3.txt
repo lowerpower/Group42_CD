@@ -1,0 +1,13 @@
+Crack> DRAGON'S LAIR:ESCAPE FROM SINGE'S CASTLE By Sulivan Bluth/Readysoft
+crack written by anonymous
+
+File         : dlescap1.dat
+Search For   : 833C0075632BC0CD102BD2B700B402CD
+Replace With : 833C007563C704D204EB5DB700B402CD
+                        --------------
+File         : dlescap2.dat
+Search For   : 01E2F30BFB81F739F53B3C7501CB8CD3
+Replave With : 01E2F30BFB81F739F5893C7500CB8CD3
+                                 ----  --
+Notes : Disables the password protection.
+        You will no longer be prompted for a password.

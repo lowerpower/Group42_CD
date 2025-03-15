@@ -1,0 +1,23 @@
+--- How to Crack the Protection on "Lemmings"
+
+
+After installing the game on your hard drive, run the file LEMMINGS.BAT.
+Follow the on-screen instructions about computer type.
+
+When the game tries to run, if you do not have the original disk in drive
+A or B, the game will crash. That's okay. If you *do* have the original
+disk in A or B, it will go the Title Screen Menu from which you should
+exit to DOS.
+
+Either way, the program will create a hidden file named RUSSELL.DAT.
+First, use a Hex Editor like Norton Utilities to edit the file. Change the
+very first char at the very beginning of the file to 00 and save it.
+
+Next, by whatever method you prefer, change the attributes of that file to
+HIDDEN, ARCHIVE, and READ-ONLY.
+
+From now on, the game will still check for the original disk but will always
+go on to the Title Screen regardless. You may want to make sure that a disk
+of some kind is in drive A or B to prevent damage from head knock.
+
+Have Fun! :)

@@ -1,0 +1,464 @@
+[netinfo/foreign-tac-phones.txt                                       9/95]
+
+
+                 TAC DIALUPS SORTED BY LOCATION 
+
+
+FOREIGN COUNTRIES
+
+BELGIUM
+
+      Chievres
+         (CHIEVRES.MMT.DDN.MIL)
+            361-5778 [1200 bps]
+            361-5779 [1200 bps]
+
+GERMANY
+
+      Ansbach
+         (ANSBACH.MMT.DDN.MIL)
+            467-2141  (R8) [300/1200 bps] {B}
+            467-2142  (R8) [300/1200 bps] {B}
+            467-2143  (R8) [300/1200 bps]
+
+      BAD KREUZNACH
+         (BDKRZNCH.MMT.DDN.MIL)
+            490-7369 (1200 bps)
+            490-7366 (1200 bps)
+
+      Babenhausen
+         (BABENHS.MMT.DDN.MIL)
+            348-3530 (R8) [300/1200 bps] {B}
+            348-3532 (R8) [300/1200 bps] {B}
+            348-3531 (R8) [300/1200 bps] {B}
+
+      Bad Kreuznach
+         (ANDERSON-BKS.MMT.DDN.MIL)
+            334-5900 [300/1200 bps] {B}
+            334-5901 [300/1200 bps] {B}
+
+      Bamberg
+         (BAMBERG.MMT.DDN.MIL)
+            469-7311 [300/1200 bps]
+            469-7310 [300/1200 bps]
+
+      Darmstadt
+         (DARMSTADT.MMT.DDN.MIL)
+            (DSN) 314-348-6165 (M) [300/1200 bps]
+            (DSN) 314-348-6374 (M) [300/1200 bps]
+
+      Friedbrg
+         (FRIEDBRG.MMT.DDN.MIL)
+            (DSN) 324-3360 [300/1200 bps] {B}
+                  324-3362 [300/1200 bps] {B}
+                  324-3363 [300/1200 bps] {B}
+
+      Giebelstadt
+         (GIEBELSTADT.MMT.DDN.MIL)
+            352-7570 (R8) [300/1200 bps] {B}
+            352-7580 (R8) [300/1200 bps] {B}
+
+      Giessen
+         (PENDELTON-BKS.MT.DDN.MIL)
+             (DSN) 314-343-6818 (R4) (M) [1200 bps] {V.22}
+                       343-6819 [1200 bps]
+                       343-6820 [1200 bps]
+                       343-6821 [1200 bps]
+
+      Graffenwoehr
+         (GRAFFENWOEHR.MT.DDN.MIL)
+             (DSN) 314-475-7274 (R4) (M) [1200 bps] {V.22}
+                       475-7275 [1200 bps]
+                       475-7276 [1200 bps]
+                       475-7277 [1200 bps]
+                       475-7375 [1200 bps]
+                       475-7376 [1200 bps]
+                       475-7377 [1200 bps]
+                       475-7378 [1200 bps]
+
+      HEIDELBERG
+         (COLEMNBK.MMT.DDN.MIL)
+            382-5482  [300/1200 bps] {B}
+            382-5483  [300/1200 bps] {B}
+
+         (CAMPBLLBKS2.MT.ARMY.MIL)
+            [None known]
+
+      Heidelburg
+         (CAMPBELL-BKS.MT.DDN.MIL)
+             (DSN) 314-370-7366 (M) [1200 bps] {V.22}
+             (DSN) 314-370-7489 (M) [1200 bps] {V.22}
+             (DSN) 314-370-7719 (M) [1200 bps] {V.22}
+             (DSN) 314-370-7743 (M) [1200 bps] {V.22}
+                       370-6179 [1200 bps]
+                       370-6186 [1200 bps]
+                       370-6187 [1200 bps]
+                       370-6188 [1200 bps]
+
+      Illeshem
+         (ILLESHEM.MMT.DDN.MIL)
+            (DSN)467-4900 [300/1200 bps]
+            (DSN)467-4901 [300/1200 bps]
+
+      Kaiserslautern
+         (KSRSKTRN.MMT.DDN.MIL)
+            483-6238 (R8) [300/1200/2400/4800/9600 bps] {B}
+            483-6263 (R8) [300/1200/2400/4800/9600 bps] {B}
+            483-6099 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+      Kirch Goens
+         (KIRCHGNS.MMT.DDN.MIL)
+            346-7430 (1200bps)
+            346-7431 (1200bps)
+            346-7432 (1200bps)
+
+      Kitzingen
+         (KITZINGEN.MMT.DDN.MIL)
+            355-2479 (R8) [300/1200 BPS] {B}
+            355-2449 (R8) [300/1200 BPS] {B}
+            355-2469 (R8) [300/1200 BPS] {B}
+            355-2459 (R8) [300/1200 BPS] {B}
+
+      Munchweiler
+         (SEMBACH.MT.DDN.MIL)
+             +49 6302-67-6481   (R4) (C) [1200 bps] {V.22}
+             (DSN) 314-496-6481 (R4) (M) [1200 bps] {V.22}
+                       496-6482 [1200 bps]
+                       496-6483 [1200 bps]
+                       496-6491 [1200 bps]
+                       496-6374 [1200 bps]
+                       496-6375 [1200 bps]
+                       496-6376 [1200 bps]
+                       496-6378 [1200 bps]
+
+      Nuernberg
+         (DARBY.MT.DDN.MIL)
+             (DSN) 314-460-7470 (R4) (M) [1200 bps] {V.22}
+                       460-7471 [1200 bps]
+                       460-7472 [1200 bps]
+                       460-7473 [1200 bps]
+
+      Ramstein
+         (RAMSTEIN.MT.DDN.MIL)
+            480-2759 [1200 bps] {V.22} German DSN/ETS numbers
+            480-2760 [1200 bps]
+            480-2761 [1200 bps]
+            480-2762 [1200 bps]
+            480-2763 [1200 bps]
+            480-2768 [1200 bps]
+            480-2769 [1200 bps]
+            480-2770 [1200 bps]
+            480-2771 [1200 bps]
+            480-2772 [1200 bps]
+            480-2773 [1200 bps]
+            480-2774 [1200 bps]
+
+      Schweinfurt, Ledward Barracks
+         (SCHWEINFURT.MMT.DDN.MIL)
+            (DSN) 354-6854 (R8) [300/1200 BPS] {B}
+            (DSN) 354-6855 (R8) [300/1200 BPS] {B}
+            (DNS) 354-6777 (R8) [300/1200 BPS] {B}
+            (DSN) 354-6214 (R8) [300/1200 BPS] {B}
+
+      Schwetzingen
+         (SCHWETZINGEN.MMT.DDN.MIL)
+            [None known]
+
+      Seckenheim
+         (HAMMOND.MT.DDN.MIL)
+            380-7704 [1200 bps] {B}
+            380-7705 [1200 bps] {B}
+            380-7706 [1200 bps] {B}
+            380-7707 [1200 bps] {B}
+
+      Stuttgart
+         (ROBINSON.MT.DDN.MIL)
+            420-6577 [1200 bps]
+            420-6578 [1200 bps]
+            420-6579 [1200 bps]
+            420-6580 [1200 bps]
+
+      Stuttgart-Vaihingen
+         (PATCH.MT.DDN.MIL)
+             +011-49-711-680-5722 (C) [9600 bps]
+             (DSN) 314-430-5722   (M) [9600 bps]
+             (DSN) 314-430-5723   (M) [9600 bps]
+             (DSN) 314-430-5814   (M) [9600 bps]
+             (DSN) 314-430-5718   (M) [9600 bps]
+             (DSN) 314-430-5719   (M) [9600 bps]
+             (DSN) 314-430-5720   (M) [9600 bps]
+             (DSN) 314-430-5721   (M) [9600 bps]
+             (DSN) 314-430-5724   (M) [9600 bps]
+            
+                       430-5725 [1200 bps]
+                       430-5726 [1200 bps]
+
+         (PATCH2.MMT.DDN.MIL)
+            (DSN) 430-5777 (R8)  [300/1200] {B}
+            (DSN) 430-5778 (R8)  [300/1200] {B}
+
+      Vilsek
+         (VILSEK.MMT.DDN.MIL)
+            476-2061  (R8) [300/1200 bps] {B}
+            476-2062  (R8) [300/1200 bps] {B}
+            476-2063  (R8) [300/1200 bps] {B}
+            476-2064  (R8) [300/1200 bps] {B}
+
+      WORMS
+         (BAUMHLDR.MMT.DDN.MIL)
+            485-7630 (1200 bps)
+            485-7631
+            485-7632
+            485-7633
+
+      Wiesbaden
+         (WIESBADEN.MT.DDN.MIL)
+            337-6044 [1200 bps]
+            337-6045 [1200 bps]
+            337-6046 [1200 bps]
+            337-6047 [1200 bps]
+
+      Wurzburg
+         (LEIGHTON.MT.DDN.MIL)
+            350-6504 [1200 bps]
+            350-6505 [1200 bps]
+            350-6506 [1200 bps]
+            350-6507 [1200 bps]
+            350-6508 [1200 bps]
+            350-6509 [1200 bps]
+            350-6521 [1200 bps]
+            350-6522 [1200 bps]
+
+GUAM
+
+      Andersen Air Force Base
+         (ANDERSEN.MT.DDN.MIL)
+             (DSN) 315-366-2041 (R8) (M) [300/1200/2400/4800/9600 bps]
+             (DSN) 315-366-2051 (R8) (M) [300/1200/2400/4800/9600 bps]
+
+      Finegayan
+         (FINEGAYAN.MT.DDN.MIL)
+             (DSN) 315-355-5071    (R8) (M) [300/1200/2400/4800/9600] {B}
+             (DSN) 315-355-5696/97 (R2) (M) [300/1200/2400/4800/9600] {B}
+             (DSN) 315-355-5701/02 (R2) (M) [300/1200/2400/4800/9600] {B}
+             (DSN) 315-355-5803/04 (R2) (M) [300/1200/2400/4800/9600] {B}
+             (DSN) 315-355-5935/36 (R2) (M) [300/1200/2400/4800/9600] {B}
+
+ITALY
+
+      Agnano, Naples
+         (AGNANO.MT.DDN.MIL)
+                +39 81-724-4541 (C) [1200 bps] {V.22}
+             (DSN) 314-625-4150 (M) [1200 bps] {V.22}
+             (DSN) 314-625-4425 (M) [1200 bps] {V.22}
+             (DSN) 314-625-4541 (M) [1200 bpa] {V.22}
+             (DSN) 314-625-4543 (M) [1200 bps] {V.22}
+             (DSN) 314-625-4544 (M) [1200 bps] {V.22}
+             (DSN) 314-625-4620 (M) [1200 bps] {V.22}
+
+      Capodichino Italy
+         (CAPODICHINO.MT.DDN.MIL)
+            +39  (81) 724-5451 (R2) (C) [9600 bps]    {R}
+            (DSN) 314-625-5451 (R8) (M) [9600 bps]
+                      625-5452          [9600 bps]
+                      625-5453          [9600 bps]
+                      625-5454          [9600 bps]
+                      625-5455          [9600 bps]
+                      625-5456          [9600 bps]
+                      625-5457          [9600 bps]
+                      625-5458          [9600 bps]
+
+      Coltano Army Barracks
+         (COLTANO.MT.DDN.MIL)
+             (DSN) 314-633-7438 (M) [300  bps] {V.21}
+             (DSN) 314-633-7389 (M) [300  bps] {V.21}
+             (DSN) 314-633-7470 (M) [1200 bps] {V.22}
+             (DSN) 314-633-7493 (M) [1200 bps] {V.22}
+             (DSN) 314-633-7494 (M) [1200 bps] {V.22}
+             (DSN) 314-633-7061 (M) [1200 bps] {V.22}
+             (DSN) 314-633-7011 (M) [1200 bps]
+             (DSN) 314-633-7061 (M) [1200 bps]
+             (DSN) 314-633-7165 (M) [1200 bps]
+             (DSN) 314-633-7176 (M) [1200 bps]
+             (DSN) 314-633-7272 (M) [1200 bps]
+             (DSN) 314-633-7280 (M) [1200 bps]
+             (DSN) 314-633-7293 (M) [1200 bps]
+             (DSN) 314-633-7372 (M) [1200 bps]
+             (DSN) 314-633-7380 (M) [1200 bps]
+
+      Sigonella, Sicily
+         (SIGONELLA.MT.DDN.MIL)
+            (DSN) 314-624-5945 (M) [9600 bps]
+            (DSN) 314-624-5946 (M) [9600 bps]
+            (DSN) 314-624-5948 (M) [9600 bps]
+            (DSN) 314-624-5949 (M) [9600 bps]
+            (DSN) 314-624-5950 (M) [9600 bps]
+            (DSN) 314-624-5947 (M) [9600 bps]
+            (DSN) 314-624-5765 (M) [9600 bps]
+            (DSN) 314-624-5766 (M) [9600 bps]
+
+      Vicenza
+         (VICENZA.MT.DDN.MIL)
+            634-7004 [1200 bps]
+            634-7006 [1200 bps]
+            634-7012 [1200 bps]
+            634-7015 [1200 bps]
+            634-7033 [1200 bps]
+            634-7036 [1200 bps]
+            634-7098 [1200 bps]
+            634-7214 [1200 bps]
+            634-7312 [1200 bps]
+            634-7318 [1200 bps]
+            634-7326 [1200 bps]
+            634-7335 [1200 bps]
+
+JAPAN
+
+      Camp Zama
+         (ZAMA.MT.DDN.MIL)
+             (DSN) 315-263-3113 (R16) (M) [300/1200/2400/4800/9600 bps] {B}
+
+      Fort Buckner
+         (BUCKNER.MT.DDN.MIL)
+             (DSN) 315-641-7410 (R16) (M) [300/1200/2400/4800/9600 bps] {B}
+
+      Yokosuka
+         (YOKOSUKA.MT.DDN.MIL)
+            (DSN) 315-243-5399 (R8) (M) [300/1200/2400/4800/9600 bps] {B}
+
+      Yokota Air Base
+         (YOKOTA.MT.DDN.MIL)
+             (DSN) 315-225-2611 (R16) (M) [300/1200/2400/4800/9600 bps] {B}
+
+KOREA
+
+      TCC, Yongsan
+         (YONGSAN.MT.DDN.MIL)
+            (DSN) 315-723-1007 (R24) (M) [300/1200/2400/4800/9600 bps] {B}
+
+      Taegu
+         (WALKER.MT.DDN.MIL)
+            (DSN) 314-764-5611 (R16) [300/1200/2400/4800/9600 bps]
+
+NETHERLANDS
+
+      Holland
+         (ROTTERDAM.MT.DDN.MIL)
+            362-2505 [1200 bps]
+            362-2506 [1200 bps]
+            362-2507 [1200 bps]
+            362-2508 [1200 bps]
+
+PANAMA
+
+      Corozal
+         (COROZAL.MT.DDN.MIL)
+            (DSN) 285-6120 (R8) (M) [300/1200/2400/4800/9600 bps] {B}
+            011-507-85-6120 (R8) (C) [300/1200/2400/4800/9600 bps] {B}
+
+SPAIN
+
+      Rota
+         (ROTA.MT.DDN.MIL)
+            (DSN) 314-727-2208 (M) [9600 bps]
+                      727-2062 (M) [9600 bps]
+                      727-2090 (M) [9600 bps]
+                      727-2139 (M) [9600 bps]
+                      727-2319 (M) [9600 bps]
+                      727-2499 (M) [9600 bps]
+                      727-3189 (M) [9600 bps]
+                      727-3198 (M) [9600 bps]
+
+TURKEY
+
+      Ankara
+         (INCIRLIK.MT.DDN.MIL)
+             +90 711-105-6165   (C) [1200 bps] {V.22}
+             (DSN) 314-676-6165 (M) [1200 bps] {V.22}
+             +90 711-105-6151   (C) [1200 bps] {V.22}
+             (DSN) 314-676-6151 (M) [1200 bps] {V.22}
+                       676-6622 (M) [1200 bps]
+                       676-6623 (M) [1200 bps]
+                       676-6624 (M) [1200 bps]
+                       676-6625 (M) [1200 bps]
+                       676-6942 (M) [1200 bps]
+                       676-6943 (M) [1200 bps]
+
+      Izmir
+         (IZMIR.MT.DDN.MIL)
+             (DSN) 314-675-3801 (R4) (M) [300/1200 bps] {v 21}
+                       675-3802          [1200 bps]
+                       675-3803          [1200 bps]
+                       675-3804          [1200 bps]
+
+UNITED KINGDOM
+
+      Chicksands
+         (CHICKSANDS.MMT.DDN.MIL)
+            (DSN) 314-234-2678 [300/1200 bps] {B}
+            (DSN) 314-234-2644 [300/1200 bps] {B}
+            (DSN) 314-234-2645 [300/1200 bps] {B}
+            (DSN) 314-234-2677 [300/1200 bps] {B}
+
+      Croughton Royal Air Force Base
+         (CROUGHTON.MT.DDN.MIL)
+            236-8441 [1200 bps]
+            236-8442 [1200 bps]
+            236-8443 [1200 bps]
+            236-8444 [1200 bps]
+
+      Lakenheath
+         (LAKENHEATH3.MMT.DDN.MIL)
+            [None known]
+
+      London
+         (LONDON2.MMT.DDN.MIL)
+            235-4170 [300/1200 bps] {B}
+            235-4185 [300/1200 bps] {B}
+            235-4045 [300/1200 bps] {B}
+            235-4057 [300/1200 bps] {B}
+
+      Mildenhall Royal Air Force Base
+         (MILDENHALL.MT.DDN.MIL)
+             (DSN) 314-238-3368 (R4) (M) [1200 bps] {V.22}
+                       238-3369          [1200 bps]
+                       238-3370          [1200 bps]
+                       238-3371          [1200 bps]
+                       238-3364          [1200 bps]
+                       238-3367          [1200 bps]
+                       238-3365          [1200 bps]
+                       238-3366          [1200 bps]
+
+      Uxbridge
+         (HILLINGDON.MT.DDN.MIL)
+            230-3196 [1200 bps]
+            230-3197 [1200 bps]
+            230-3198 [1200 bps]
+            230-3292 [1200 bps]
+            230-3275 [1200 bps]
+            230-3177 [300  bps]
+            230-3178 [300  bps]
+            230-3179 [300  bps]
+
+
+
+  Notes:
+
+  1.  Rotary lines are in parenthesis following the phone number.
+      For example, "(R10)" indicates a rotary with 10 lines.
+
+  2.  (M) = Military DoD Telephone System, (C) = Commercial Telephone System.
+
+  3.  Modem compatibility is in curly braces {}.
+
+       B/V  = Bell and Vadic
+       B    = Bell 212A only
+       24   = 2400 Baud capability          (CCITT V.22 bis)
+       V.21 = European Standard CCITT V.21  (300 baud)
+       V.22 = European Standard CCITT V.22  (1200 baud)
+       V.23 = European Standard CCITT V.23  (1200/600 baud)
+
+  4.  This list is contained in the file /netinfo/foreign-tac-phones.txt on
+      the NIC.DDN.MIL host.
+
+End of file

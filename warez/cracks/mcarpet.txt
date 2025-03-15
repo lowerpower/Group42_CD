@@ -1,0 +1,19 @@
+ 
+*  First while in the game bring your carpet to a complete    
+*  stop, then type the "I" key (don' press enter). You'll now  
+*  see a cursor and a prompt. Type "ratty" then press enter.   
+                                                            
+Now all of the following codes will work.                   
+                                                            
+1. ALT F1-ALL SPELLS                                        
+2. ALT F2-ALL MANA                                          
+3. ALT F3-DESTROY OTHER PLAYERS                             
+4. ALT F4-DESTROY ALL BALLOONS                              
+5. ALT F5-DESTROY CASTLES                                    
+6. ALT F6-HEAL                                               
+7. ALT F7-DESTROY ALL CREATURES CURRENTLY LIVING IN GAME.    
+8. SHIFT-C-WIN LEVEL                                         
+                                                            
+                             
+*  Start Magic Carpet with "CARPET -LEVEL n" where n is a    
+*  level number from 0-69.  

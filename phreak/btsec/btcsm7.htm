@@ -1,0 +1,688 @@
+<HTML>
+<HEAD>
+<TITLE>Software and Data</TITLE>
+</HEAD>
+<BODY>
+<BASEFONT SIZE=3>
+<HR>
+<CENTER><H1><B>Software and Data</B></H1></CENTER>
+<HR>
+
+<H2>Contents</H2><P>
+<UL>
+
+<LI>7.1   Introduction<P>
+
+<LI>7.2   Software installation and maintenance
+<LI>7.2.1 Software changes
+<LI>7.2.2 Protection of production systems
+<LI>7.2.3 Software copyright
+<LI>7.2.4 System backup
+<LI>7.2.5 Failures and recovery<P>
+
+<LI>7.3   Log faciliffes and system data
+<LI>7.3.1 Log facilities
+<LI>7.3.2 Logging system activity
+<LI>7.3.3 Logging user activity
+<LI>7.3.4 Checking logs
+<LI>7.3.5 Retention of logs and journals
+<LI>7.3.6 Condition records
+<LI>7.3.7 Storage of logs in microfiche form
+<LI>7.3.8 Encryption of system data
+<LI>7.3.9 Back-up copies<P>
+
+<LI>7.4   Data sensiffvity
+<LI>7.4.1 Data ownership<P>
+
+<LI>7.5   Storage
+<LI>7.5.1 Write protection
+<LI>7.5.2 Labelling
+<LI>7.5.3 Documentation
+<LI>7.5.4 Extraneous magnetic influences<P>
+
+<LI>7.6   Disposal of media
+<LI>7.6.1 Magnetic media
+<LI>7.6.2 Disposal of computer equipment
+<LI>7.6.3 Documents, printout and consumables<P>
+
+<LI>7.7   Computer viruses
+<LI>7.7.1 Vulnerability of systems
+<LI>7.7.2 What a computer virus does
+<LI>7.7.3 Detection of computer viruses
+<LI>7.7.4 Group policy on computer viruses
+<LI>7.7.5 Guidance<P>
+</UL>
+<HR>
+<H4>7.1 Introduction</H4><P>
+
+It is a security objective that software and data are correct complete and available
+to authorised users. Full use should be made of the security features provided by
+the operating system to achieve this objective. If software needs to be written,
+security and audit requirements should be considered at the system design stage.
+Users must ensure that the Statement of Requirements document contains a
+definition of security requirements and access restrictions.<P>
+
+<H4>7.2 Software installation and maintenance</H4><P>
+
+<H4>7.2.1 Software changes</H4><P>
+
+All software modifications to a computer system must be authorised and fully
+recorded. The modification log should be held by the system administrator.
+Emergency patches (those that are not scheduled) must be properly documented
+and reviewed by the appropriate authority within one working day.<P>
+
+Checks should be implemented to ensure that only one change is carried out at a
+time. If development pressure compels the packaging of changes in order to
+minimise the system testing overheads, the checking must be even more vigilant.<P>
+
+Expert personnel should check all new and modified software for correctness and
+completeness with special regard to the possibility of security flaws. It should also
+be verified to ensure that it functions according to design, that it does not
+adversely affect other functions in the system and that no unauthorised changes
+have been made to the system. These checks should be conducted on an off-line
+system and not on operational machines.<P>
+
+Verification should be performed after all software changes and on a regular basis.<P>
+
+While full verification testing of the type outlined above is not always possible due
+to operational constraints, use of unverified software provided by a third party
+represents an unknown quantity from a security viewpoint, especially in cases
+where the source code is not available. In any case assurances must be obtained
+from the supplier about the integrity of the software and especially about the
+removal of undeclared commands incorporated for debugging purposes.<P>
+
+It is preferable that user software should be written in a high level language. Only
+compiled programs should be released. Source code should only be available to
+the programmer creating or amending the program or for the verification of the
+validity of any changes; this applies equally to operational Job Control Language
+text. Job Control Language which cannot be compiled should be held in a discrete
+library store with controlled access.<P>
+
+<H4>7.2.2 Protection of production systems</H4><P>
+
+Ideally the software development cycle should involve a separation of
+Development, Test and Production environments. These three areas often have
+quite different security requirements. As far as technical restraints and costs
+permit, they should be isolated from each other. Technical and procedural<P>
+
+controls should be applied to the promotion of software from Development to Test
+and from Test to Production environments. Special care should be taken to protect
+the integrity of code accepted into Production use.<P>
+
+<H4>POLICY 7.1: VERSION CONTROL OF SOFTWARE</H4><P>
+
+Software shall be subject to version control to ensure that only current and
+approved software is in use on an electronic system.<P>
+
+<H4>POLICY 7.2: PROTECTION OF DATA IN SYSTEM TESTING</H4><P>
+
+Live data shall not be used in system testing. Test data derived from, and
+traceable to, live data shall be afforded a similar level of protection to the
+original source.<P>
+
+<H4>POLICY 7.3: SOFTWARE OF UNKNOWN INTEGRlTY</H4><P>
+
+Unless a trustworthy method has been used to create and distribute software
+then the integrity of the software shall be considered to be unknown and shall
+not be used on BT systems.
+
+<H4>POLICY 7.4: LIMITED USE OF DEVELOPMENTAND MAINTENANCE
+SOFTVVARE</H4><P>
+
+Software that can be used to modify existing programs on systems (such as
+editors and compilers) shall be restricted in their use to authorised staff. Any
+such software that is not needed for operational reasons shall be removed.
+
+<H4>POLICY 7.5: EMERGENCY ACCESS TO PRODUCTION SYSTEMS</H4><P>
+
+Emergency access to Production systems, using powerful utilities, for the
+purpose of data repair shall be subject to rigorous change control and every
+access of this nature must be recorded.<P>
+
+<H4>7.2.3 Softvare copyright</H4><P>
+
+The Copyright, Designs and Patents Act 1988 expressly accords computer
+programs the same copyright protection as written documentation. When BT
+owns the copyright in a computer program because it was written in-house or
+under a contract assigning copyright to BT, it is BT policy to mark the program
+appropriately. Details on how to mark information are contained within the
+Information Security Code.<P>
+
+<H4>POLICY 7.6: COPYRIGHT OF BT SOFTWARE</H4><P>
+
+All software written in BT, or written for BT under a contract which provides for
+ownership of copyright by BT, shall be clearly marked so as to identify BT as
+the owner of copyright in such software.<P>
+
+<H4>POLICY 7.7: COPYRIGHT IN NON-BT SOFTWARE</H4><P>
+
+Copyright law restrictions prohibiting the unauthorised copying, modification
+or unlicensed use of software and software documentation, in which the
+copyright is not owned by BT, shall be respected at all times.<P>
+
+Unless BT has been granted an appropriate licence by the copyright owner,
+software and software documentation in which the copyright is owned by anyone
+other than BT, must not be copied, modified or used in BT. Where BT has a
+licence, the terms of the licence, including any limitations on copying, modifying
+or using such software and software documentation must be complied with at all
+times. Copyright markings applied by the copyright owner must not be removed
+(unless expressly permitted under the licence).<P>
+
+<H4>7.2.4 System backup</H4><P>
+
+Interruptions to normal working may be caused by such events as fires, hardware,
+software or environmental failures and malicious damage.<P>
+
+<H4>POLICY 7.8: SYSTEM BACKUP</H4><P>
+
+Copies of the current versions of the system software, data, and accompanying
+documentation shall be safely stored and available so as to enable a quick and
+controlled recovery in case of a processing interruption.<P>
+
+<H4>7.2.5 Failures and recovery</H4><P>
+
+All abnormal program terminations should be monitored by the system to permit
+control to be passed to system recovery routines when necessary. Any software
+failure must be documented and investigated as this may be an indication of a
+breach in security.<P>
+
+There should also be controls to ensure the validity of the software itself.<P>
+
+<H4>POLICY 7.9: RECOVERY FROM PROCESSING FAILURES</H4><P>
+
+The planning of systems shall take into account the need to detect failures of
+software and hardware and provide recovery features such that the integrity of
+the data shall not be compromised.<P>
+
+<H4>7.3 Log facilities and system data</H4><P>
+
+System data is the information used by the operating system and application
+software to control and monitor access to system resources by users. Logs kept by
+the system form a large component of system data.<P>
+
+<H4>7.3.1 Log facilities</H4><P>
+
+A system log is required to identify users who have invoked transactions so as to
+assign accountability. The logs should reflect both system performance and user
+activity and each event on the system log should have an associated reference
+number and be time-stamped.<P>
+
+It is essential that log hard copy and log software, eg reporting programs for logs
+held on disk or tape, should be afforded maximum protection from unauthorised
+modification and should be unaffected by system restarts etc. Hard copy logs
+should be kept for critical system logs. The pages of a hard copy log should be
+pre-numbered so that it may readily be checked for completeness.<P>
+
+<H4>7.3.2 Logging system activity</H4><P>
+
+System activity should be recorded on the log to include matters such as:
+<UL>
+<LI>processing software errors,
+<LI>program aborts,
+<LI>crashes,
+<LI>machine failures,
+<LI>restarts
+</UL>
+together with information about causes.<P>
+
+<H4>7.3.3 Logging user actinty</H4><P>
+Monitoring user activity is especially dependent on the existence of a user activity
+log and may be regarded as an audit trail for the detection of unauthorised activity
+and identification of its origination. The user activity log should record such
+events as the following and include for each record any relevant information such
+as date, time, physical access point or port, UID, and nature of the attempt:<P>
+<UL>
+<LI>all system log on attempts (successful or unsuccessful),
+<LI>all log off events,
+<LI>all attempts by users to access system facilities outside their range of privilege,
+<LI>all attempts by users to access data files belonging to other users in contravention
+of system access controls,
+<LI>all attempts by users to employ commands outside their range of privilege
+<LI>all use of high level privilege.
+</UL>
+The log should particularly include all security-relevant events, that is, interaction
+and attempted interaction with the security system such as:<P>
+<UL>
+<LI>password changes (although without logging password values)
+<LI>access to restricted or critical system tables
+<LI>modification of privilege lists
+</UL>
+<H4>POLICY 7.10: ELECTRONIC SYSTEM ACTIVlTY RECORDS</H4><P>
+
+An audit log of the system activity shall be maintained and regularly reviewed
+so as to identify abnormal system or user activity. Activity records shall be kept
+of events on all High Impact Systems, particularly of any activity which might
+be abnormal. Abnormal activity shall raise an alarm.<P>
+
+<H4>7.3.4 Checking logs</H4><P>
+
+While it may be impracticable to scrutinise an entire system log by hand, a regular
+spot check must be made on random samples of the log and on periods of
+unusually high logon activity, or access at abnormal hours. Project documentation
+should give precise instructions regarding the checking of system logs.<P>
+
+The use of a software tool to separate unusual log entries from routine and
+non-contentious information which would enable a more careful scrutiny to be
+made, should be considered. Specialist audit packages, data test equipment are
+examples.<P>
+
+<H4>POLICY 7.11: CHECKING OF LOGS</H4><P>
+
+System logs shall be regularly checked so as to detect unauthorised system
+activity. The use of automated techniques shall be considered.<P>
+
+<H4>POLICY 7.12: CONTROL OF AUDIT TOOLS</H4><P>
+
+The automated tools used to analyse the system log files shall be protected and
+subject to management and control procedures.<P>
+
+<H4>7.3.5 Retention of logs and journals</H4><P>
+
+The length of the retention period should take into account audit and legal
+requirements, error recovery and investigation of any unusual occurrences.<P>
+
+<H4>7.3.6 Condition records</H4><P>
+
+Hard copy logs of important system parameters, data modifications, and details
+pertaining to hardware and software conditions, must be securely maintained by
+the system administrator. Iis permits a comparison to the system state after
+events such as software updates, fix or patch insertions and system restarts to
+verify that no accidental or unauthorised changes have been made. Parameters to
+be verified include:<P>
+<UL>
+<LI>billing options,
+<LI>access control features,
+<LI>user privilege profiles,
+<LI>audit trails,
+<LI>configuration management.
+</UL>
+This inforrnation can be used to provide legally submissable evidence concerning
+the correctness of the system in the pursuance of Section 69 of the Police And
+Criminal Evidence Act (1984).<P>
+
+<H4>POLICY 7.13: LOGGING OF FAULT REPORTS</H4><P>
+
+A log shall be kept of fault reports by users, and hardware and software
+maintenance on systems.<P>
+
+<H4>POLICY 7.14: AUDlTS AND JOURNALS</H4><P>
+
+All audit and journals of system activity shall be retained or archived for a
+reasonable amount of time in the event that the information is required for
+evidential purposes.<P>
+
+<H4>7.3.7 Storage of logs in microfiche form</H4><P>
+
+Special precautions must be taken to preserve the usefulness of logs as evidence if
+they are processed onto microfiche. The people responsible for the operation of
+the process and the subsequent storage must provide clear evidence that there
+can have been no interference with the logs during the process, or with the
+subsequent microfiche.<P>
+
+<H4>7.3.8 Encryption of system data</H4><P>
+
+Particularly sensitive files and data such as password listings should be given
+extra protection by being encrypted by the system. Passwords in particular should
+be one-way encrypted such that the original data cannot be recovered under any
+circumstances.<P>
+
+<H4>7.3.9 Back-up copies</H4><P>
+
+A system backup must be taken by system management personnel at regular
+intervals, the frequency of which will reflect the importance of the system and the
+impact of a system failure. The backup data should be stored securely
+o£ premises. Current copies of all on-site system images should be kept in
+approved locked, fire-resistant cabinets.<P>
+
+A definitive copy of important data files must be securely maintained and used by
+system management to detect unauthorised changes to such things as access
+control mechanisms, user rights profiles, backup controls and audit mechanisms.
+Any file amendments must be logged.<P>
+
+<H4>POLICY 7.15: BACKUP OF SENSITIVE DATA</H4><P>
+
+Sensitive information shall be backed up by a cycle of copies, devised so that
+the system can be brought into service after any accidental or deliberate
+erasure of data.<P>
+
+<H4>7.4 Data sensitivity</H4><P>
+
+Systems that perform security functions, or which safeguard commercially
+sensitive information whereby the failure to protect the confidentiality, integrity,
+availability of that information would cause:<P>
+<UL>
+<LI>a substantial loss to BT,
+<LI>a substantial gain to a competitor,
+<LI>severe embarrassment to BT,
+<LI>serious loss of confidence in BT, or
+<LI>a serious reduction of BT's standing in the community, or relationships generally,
+</UL>
+are called HIGH IMPACT SYSTEMS.<P>
+
+<H4>7.4.1 Data ownership</H4><P>
+Data ownership is an essential element in safeguarding BT's commercially
+sensitive information. The Data Owner is responsible for identifying the value and
+sensitivity of their data. This decision must be respected by all users and systems.
+Ownership conveys both responsibility for, and authority to:<P>
+<UL>
+<LI>judge the value and importance of the information,
+<LI>assign a sensitivity level,
+<LI>specify operational controls and permitted uses,
+<LI>communicate control and protection requirements to users and custodians.
+</UL>
+<H4>POLICY 7.16: DATA OWNERSHIP</H4>
+
+All data shall have an owner who is responsible for deciding its sensitivity.<P>
+
+<H4>7.5 storage</H4><P>
+It is essential that software and data stored on magnetic or equivalent media
+should be properly handled, stored and protected so as to ensure the accuracy and
+completeness of all records. A full set of all software and data must be retained and
+filed for backup and recovery purposes.<P>
+
+<H4>7.5.1 Write protection</H4><P>
+Where possible all storage media should be write-protected prior to shipping and
+at all times when not active in the system.<P>
+
+<H4>7.5.2 Ibelling</H4><P>
+Magnetic media should be labelled with a unique identifier and the relevant
+privacy marking if appropriate. Methods of marking may be:<P>
+<OL>
+<LI>Magnetic tape spools - attaching marked labels to the front flange, and/or the
+edge of their protective canisters, and/or the front of any suspension rings used to
+support the tape spools during storage.
+<LI>The front and back faces of cassettes and spines of protective boxes should be
+clearly marked.
+<LI>Removable magnetic disks and disk packs should be marked on the top of the
+disk or pack or labels fixed to the top and side of the storage covers.
+<LI>Floppy disks should be labelled on one side as specified by the manufacturer. If
+disks are kept in boxes, the front and back of these should also be marked.
+<LI>A log should be kept of their use with the following information included:
+<UL>
+<LI>system name and reference number,
+<LI>date and time of last use,
+<LI>present privacy status,
+<LI>other corresponding tapes or disks,
+<LI>name or initials of the person responsible for their use.
+</UL></OL>
+<H4>POLICY 7.17: MARKING OF MEDIA</H4><P>
+
+Media shall be marked to indicate the most sensitive information on the media
+in accordance with the Information Security Code. Where a medium is shared
+it should be treated as containing the highest sensitivity level that may be
+stored upon it.<P>
+
+<H4>POLICY 7.18- MARKING OF DATA</H4><P>
+
+Data shall be marked in accordance with the Information Security Code.<P>
+
+<H4>7.5.3 Documentation</H4><P>
+
+Systems specifications, program listings, details of test data etc. for systems
+containing sensitive information must be accorded a similar degree of protection
+as that of the computer held data. They should be marked with the appropriate
+privacy marking, locked away when not in use and spare copies held securely
+either in a fire-resistant safe or at another location.<P>
+
+<H4>7.5.4 Extraneous magnetic influences</H4><P>
+
+Magnetic media may be corrupted accidentally simply by being in the wrong
+location. Most electronic and electrical equipment generates a magnetic field
+either of a permanent nature or specifically when powered up. Such magnetic
+fields can both corrupt and erase data stored on disks and tapes.<P>
+
+Floppy disks are much more prone to corruption from magnetic sources than hard
+disks and it is recommended that when not in use they should be stored away
+from office electrical equipment such as electronic typewriters, printers,
+computers or telephones.<P>
+
+<H4>7.6 Disposal of media</H4><P>
+
+<H4>7.6.1 Magnetic media</H4><P>
+
+Magnetic and optical media holding sensitive information requires precautions to
+be taken before its reuse or disposal. Media which is damaged may be read easily
+by sophisticated equipment. Even magnetic media which is overwritten many
+times using seemingly complex patterns may be read using specialist techniques.
+Details of the secure destruction facility may be found in chapter 10.<P>
+
+<H4>POLICY 7.19: ERASURE AND DESTRUCTION OF MEDIA</H4><P>
+
+Where media is to leave the boundary of a system, or there is a requirement to
+change a disk drive, or other vise dispose of media, one of the following rules
+shall be applied.<P>
+<DL>
+<DT>A<DD>Destruction of media, using facilities approved by the Director of Security
+and Investigation.<P>
+
+<DT>B<DD>Overwriting of media, using a technique approved by the Director of
+Security and Investigation.<P>
+
+<DT>C<DD>Reformatting, using a fail safe operating system low level format facility.<P>
+
+<DT>D<DD>Release permitted, but only to reputable companies with which BT has a
+non-disclosure agreement.<P>
+
+<DT>E<DD>Bulk erasing (degaussing), using equipment approved by the Director of
+Security and Investigation.<P>
+
+<DT>X<DD>This option is not permitted.<P>
+</DL>
+The sensitivity level refers to the highest sensitivity of the information that has
+ever been stored on the media.<P>
+
+<H4>Fixed Disks</H4><P>
+<PRE>
+Sensitivity level  Damaged disks  Trade in disks
+
++3                   A                   A
+3                    A                   A
+2                    D                   B
+1                    D                   B/C
+
+Removable Media
+
+                  Disposal  Disposal  Reuse    Reuse
+Sensitivity level damaged   good      on same  within
+                  media     media     system   BT
+
+  +3                A         A         c        x
+  3                 A         A         C        B
+  2                 A         C/E       C/E      B
+  1                 E         C/E       -        -
+
+
+</PRE>
+If in the opinion of the system owner, the cost to BT of destroying media
+outweighs the value of the information, the system owner may seek approvel from
+DSecI to take alternative action. Also. see chapter 13 of the ISC.<P>
+
+<H4>7.6.2 Disposal of computer equipment</H4><P>
+
+Computer systems which are withdrawn from service pose a serious threat to BT
+if they are not processed properly before disposal. All systems to be disposed of by
+BT must have the disk formatted or destroyed according to policy 7.19. No
+software must reside on the hard disk of any machines which are disposed of,
+apart from the operating system. Entitlement to these must be documented at the
+time of the transfer. All master copies of software should be either retained or
+returned to the local computer administration unit for re-allocation. Managers
+should note the possible conflict of interest associated with the local scrapping and
+subsequent sale to BT people. If equipment is to be locally scrapped, the
+procedure for doing this must be documented and all records must be made
+available for audit and scrutiny.<P>
+
+<H4>POLICY 7.21: DISPOSAL OF COMPUTER EQUPMENT</H4><P>
+
+No computer equipment containing non-volatile data storage capabilities that
+has been used for processing IN STRICTEST CONFIDENCE information shall
+be disposed of as surplus equipment until it has been examined by a person
+approved by the Director of Security and Investigation to ensure that all
+sensitive inforrnation has been removed.<P>
+
+<H4>7.6.3 Documents, printout and consumables</H4><P>
+
+IN STRICTEST CONFIDENCE waste must be disposed of under direct BT
+supervision by burning, shredding using a Director of Security and Investigation
+approved shredder, or by using a disintegrator.<P>
+
+IN CONFIDENCE waste including personal and other sensitive data must be
+destroyed by burning, shredding, or disintegration. For large quantities of IN
+CONFIDENCE material, use can be made of the approved sensitive waste paper
+collection services.<P>
+
+<H4>POLICY 7.22: DESTRUCTION OF PRINTER-BASED MATERIAL</H4><P>
+
+Sensitive media shall be destroyed in accordance with the Information Security
+Code.<P>
+
+<H4>7.7 Computer viruses</H4><P>
+
+A computer virus is an element of executable software that can be transferred
+between programs, or between computers, with or without the knowledge of the
+users. When triggered by an event determined by the perpetrator of the virus, it
+can carry out any of a wide range of unauthorised activities. Examples include
+infecting other programs or the operating system, sending infected messages to
+other systems, deleting files. Furthermore, these unauthorised events may occur
+while giving the impression that the computer is functioning normally.<P>
+
+These actions can be malicious or benign, but in any event they breach the
+integrity of the system. Given BT's dependency on computerised systems for
+business-critical activities, it is essential that the integrity of such systems is
+maintained.<P>
+
+<H4>7.7.1 Vulnerability of systems</H4><P>
+
+Computer systems can be designed with built in capabilities to resist viruses. This
+may be achieved by erecting logical compartments enforcing strict segregation of
+the operating system, and the program areas and data areas of each user. Another
+measure is to prohibit terminals that have media entry capability or can be
+connected to untrusted networks.<P>
+
+While these restrictions may pary solve the problems for defence systems, they
+are onerous, impractical and too expensive for most commercial of fice systems, IT
+systems and network management systems. Because most commercial computer
+systems are vulnerable to viruses, the primary protection depends mainly on
+management policy and the active co-operation of the users to ensure that viruses
+are not introduced into systems. However, many of the working practices that
+have evolved with the Personal Computers encourage virus propagation.
+Borrowing or lending disks containing programs or utilities is typical example.<P>
+
+Downloading of software from the public databases and bulletin boards is
+particularly risky.<P>
+
+<H4>7.7.2 What a computer virus does</H4><P>
+
+A virus does two things. Firstly it has a mechanism to propagate itself For
+instance the perpetrator of the computer virus may attach it to a commonly run
+program or routine. Having carried out the legitimate function of the program, the
+virus takes control and attaches a copy of itself onto other programs that are
+resident, either directly or by altering the operating system. Thus once a
+computer has been infected it may infect the programs on any other floppy disk
+placed in its environment. These in turn may infect any other computer in which
+the infected disk is placed.<P>
+
+Unless strict precautions are taken, advanced viruses are capable of causing
+infection to remote computers via networking facilities.<P>
+
+The second feature of the virus is its function. The function can consist of any
+activity that can be performed by the computer. The virus function can be
+triggered by any detectable event, eg: a time, a date, execution of a particular
+routine, receipt of a message, deletion of a file or cancellation of a UID.<P>
+
+In short, a computer virus is self-replicating software used to propagate a Trojan
+Horse or Logic Bomb.<P>
+<H4>7.7.3 Detection of computer viruses</H4><P>
+
+In the event of discovering a virus the Local Computing Help Desk should be
+contacted immediately for advice. For most parts of the business, this will be the
+GCS Help Desk. The suspect machine and disks which have been used on the
+machine should not be used further until the Help Desk has been contacted.
+Programs are now becoming available for most popular machines that claim to be
+able to prevent, detect or eradicate virus infections. These tools may certainly help
+to detect the presence of viruses. Unfortunately the indeterminate nature of
+computer viruses makes an absolute guarantee of detection virtually impossible.
+Nevertheless, virus detection tools should be regarded as a contributory factor in
+maintaining computer system integrity.<P>
+
+The prevention of virus attack demands a fundamental shift of behavioural pattern
+on the part of users of micro- and mini-systems. Many of the procedures that have
+evolved to help and assist colleagues now need to be reconsidered in the context
+of possible attack by computer viruses. For instance, operating system, program
+or utility disks must not be borrowed or lent. Manufacturers source disks must be
+securely protected, not left inside the instruction manual in the open. Transit
+disks, that is those containing data files, should not be bootable or contain any
+executable files. Except when being written to at the beginning of the transfer
+process, the disks should be write- protected.<P>
+
+<H4>7.7.4 Group policy on computer viruses</H4><P>
+
+BT attaches considerable importance to the integrity of its computer systems,
+particularly those systems that provide applications that are critical to the smooth
+functioning of the Business. The recent emergence of computer viruses presents a
+serious threat to BT s computer systems.<P>
+
+<H4>POLICY 7.23: VIRUSES: RESPONSIBILITY OF USERS</H4><P>
+
+It is the personal responsibility of each individual to ensure that viruses are not
+introduced into any BT system, or customers' system, that they come into
+contact with.<P>
+
+<H4>POLICY 7.24: VIRUSES: POLICY FOR HIGH IMPACT SYSTEMS</H4><P>
+
+Detailed procedures on combating virus attacks shall be prepared for the
+security of systems for which the impact of security failure is high. These
+policies are to be submitted to Director of Security and Investigations for
+concurrence.<P>
+
+<H4>POLICY 7.25: VIRUS DETECTION</H4><P>
+
+All disks inserted into customers' PCs must be virus checked before hand,
+using approved virus detection software, or be certified as being virus free by
+the manufacturer.<P>
+
+<H4>7.7.5 Guidance</H4><P>
+
+Utilities are available for many popular machines that claim to be able to prevent,
+detect or eradicate computer viruses. While their rigour and scope is unproven,
+they may certainly help detect the presence of viruses. Nevertheless, the primary
+objective is to avoid infection in the first place by means of careful operating
+procedures.<P>
+
+The following steps should be followed by users to reduce the possibility of any
+system being infected by computer viruses:<P>
+<OL>
+<LI>Reduce the risk by only using software that is sourced directly from reputable
+manucturers and for which there is a customer/supplier contract that identifies
+a requirement for quality so%ware.
+
+<LI>Machine-readable media containing master copies of operating systems, programs
+or utilities should be locked away securely at all times.
+
+<LI>Computers containing executable copies of operating systems, programs and
+utilities should be kept within a local secure perimeter, else some means of logical
+access control should be deployed to prevent malicious infection.
+
+<LI>Operating system and program media should never be lent, borrowed or
+exchanged (except where the highest levels of personal trust prevail) .
+
+<LI>Machine-readable media used for data file exchange should contain only the data.
+Media should be inspected for executable files.
+
+<LI>Machine-readable media should not be exposed to systems whose integrity is
+unknown, for example, systems at home or university systems.
+
+<LI>Public-domain programs shall not be downloaded, and in particular, computer
+games should not be held or played on BT machines. Where games arrive as a
+part of a software package they should be erased.
+
+<LI>All incoming and outgoing machine-readable media should be checked for known
+viruses. The preferred method of doing this is on a standalone machine, dedicated
+to that purpose (commonly called a sheep-dip PC). For further information on the
+approved high integrity product, please refer to section 11.
+</OL>
+<HR>
+<CENTER><ADDRESS>&copy;1995 Cold Fire<BR>
+</ADDRESS>
+</CENTER><HR>
+</BODY>
+</HTML>

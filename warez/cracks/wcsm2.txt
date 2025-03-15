@@ -1,0 +1,8 @@
+Wing Commander Secret Missions 2 Crack^M M
+^M M
+^M 
+Adapted by Christopher Pilon from a crack by Vartan NarinianI^M 
+^M 
+search for 55 8B EC 83 EC 04 8D 46 FC 50 9A CA 0B^M 
+^M 
+Replace the first one with CB (RETF)^M  

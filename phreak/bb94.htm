@@ -1,0 +1,198 @@
+<HTML>
+<HEAD>
+<TITLE>Blueboxing in '94</TITLE> </HEAD>
+<BODY BACKGROUND="phone.jpg"> <CENTER>
+<HR SIZE=5 WIDTH=469>
+<H1>Blueboxing in '94</H1>
+<H2>(C5 for the masses)</H2>
+<H2>by Maelstrom/PHaTE!</H2>
+<HR SIZE=5 WIDTH=469>
+</CENTER>
+
+<I>taken from CoTNo issue 4</I><P>
+
+Well, I've been promising DeadKat an article since COTNO #1, and was
+searching frantically for a subject that I could write a useful/informative
+article on...having failed dismally in my quest, I decided to turn my
+attention to a beginners guide to present day blueboxing.  This article
+will only deal with the practical uses of CCITT 5 (C5) signalling systems,
+and NOT with the more advanced systems such as R2.  Becoming familiar with
+C5 signalling will provide you with a good grounding in blueboxing,
+therefore making understanding a guide on a future system easier.  And so
+to the main text...
+
+
+<H3>"You just blast 2600hz right?"</H3>
+
+No.  All too often when blueboxing is mentioned in the context of actually
+doing it today, some dolt pipes up with this.  Treasure your old Mark Tabas
+files, for they contain some excellent information even today, especially
+concerning routing codes, but forget all about the R1 signalling described
+within his 'Better Homes and Blueboxing' guide.  The system we are
+concerned with today is C5, so swiftly clear the limited space available in
+your mind.  The first point I would like to make is that you will NOT be
+siezing trunks within your own country.  The focus of your attentions will
+be those 1-800 wonders known as 'Country Direct' numbers, which will
+connect you to the telephone system of some far-off nation for the princely
+sum of $0.00.  While these are certainly not the only countries you should
+experiment with, South American and Asian countries are usually the best
+bet for a C5 connection that you can seize.  From nearly all European
+locations it is possible to bluebox over Chile for example, and lines to
+Columbia, the Philipines, Taiwan and Thailand are also often C5 connections
+to your country.  While these provide a good starting point for your
+adventures with C5, don't restrict your attempts to only the aforementioned
+places...You never know what you might find...
+
+
+<H3>"So, uhh, what next?"</H3>
+
+After dialling a country direct number to a country on C5, you will usually
+hear a very audible 'chirp' (some may choose to call it a 'ping' even...)
+when the line is picked up.  This is the moment to start sending the tones
+required to manipulate the line for your purposes.  A few countries using
+C5 may not give you a 'chirp' when your call is connected, but when the
+call is disconnected.  Before you can start to signal your call, you will
+need to 'sieze a trunk'.  To do this you send a compound signal of 2600hz
+and 2400hz for approx. 150-450ms.  On sending this signal the line should
+respond with a sound similar to the one you heard when your call to the
+country direct was completed.  Next you send a 2400hz signal, usually for
+approximately the same length of time as the first compound signal.  The
+delay between these two tones is often crucial, so experimentation is
+essential.  There are no concrete rules for siezing a C5 line, although I
+usually use 150ms length for both tones as a starting point.  If playing
+the first tone leads to immediate disconnection then decrease the length of
+the tone - if the opposite is the case, and the line ignores your first
+signal, then increase its length (personally I use steps of 10ms but feel
+free to jump up 50ms if you feel the urge).  BillSF of HackTic Holland
+informs me that newer C5 systems nearly always require timings of 150ms per
+signal +/-20ms, and with an inter-signal delay of 10/20ms, and I have also
+found this to be true.  When you have successfully gained control of the
+line, you will have by this time heard two acknowledgements from the line,
+one per signal sent.  At this point you are ready to begin signalling your
+call.  The first digit you must dial is the KP1 or KP2 signal.  This
+determines that the call is either terminal (local), or transit
+(international) respectively.  An international call is usually what we
+want, so we send the following dialstring: KP2+countrycode+0+acn+ST.  For
+example, if we wanted to dial the Colorado office of the Secret Service, we
+would send KP2+103038661010+ST.  If we wanted to place a call to a number
+in a European country then the dialing format is identical.  This is the
+correct dialing format in accordance with all the technical CCITT 5 texts I
+have read, but not always the correct method in practice.  Macao (country
+code 853) was long known to be breakable from the United Kingdom before
+anyone figured out that the correct routing was
+KP2+00+countrycode+number+ST, so again the key word is experiment.  Not all
+countries will 'play fair' in terms of their accepted routings.
+	To place a call to within the country you are calling couldn't be
+simpler however.  The correct format is KP1+0+number+ST, and I have never
+found any nation deviating from this template.  One interesting route to
+note at this point is KP1+2+Code11+ST (see freq. list for Code11), which
+will nearly always connect you with the inward operator in the country
+whose country direct number you have dialled.  Lots of interesting
+information may be gleaned from a conversation with these operators, such
+as correct routings, and most operators are more than willing to furnish
+you with the routings for their technical assistance/engineering
+departments, who will further assist you, often to the point of telling you
+the exact timings you require.  Remember that their equipment is telling
+them that you are an operator, so feel free to spin any suitable yarn about
+testing international connections etc., and also bear in mind that in 99%
+of cases the operator's limited grasp of the english language is in your
+favour.
+	Also, be prepared to try other digits in place of 0 between ccode and
+number in the dialstring for a transit call.  KP2+ccode+2+number+ST will
+usually work for example, and in some cases is the only way to route the
+call (the country direct to Taiwan from the UK was a good example of this).
+The digits 0,1,2 and 9 are the only ones I have found to be acceptable in
+this way, but I wouldn't discount the possibility of being able to use
+others over some nations.
+
+
+<H3>"It doesn't work?"</H3>
+
+Then you're doing something wrong.  Not all countries will allow you to
+place transit calls over their lines so if you really have experimented
+with that line and had little or no success then move on, there's no real
+shortage of country direct numbers on C5...  You might want to try sending
+a short burst of 2400hz previous to breaking/siezing the trunk to 'free'
+the transit lines.  I have found this to be neccessary on the country
+directs from the UK to Brazil and French Guiana in order to place a transit
+call successfully.  Another thing to bear in mind is the fact that the
+country you are trying to (ab)use may only call: a) Countries in close
+proximity, and/or b) One or two countrycodes.  This is true of certain
+lines in Canada, and also of most South American C5 links to the UK.  Trial
+and error is the only way to establish if this is the case on any given
+dialup.
+
+
+<H3>"D3Y M0Ni+0R D3 LiN3Z" & "They have 2600hz detectors you know..."</H3>
+
+Well, what can I say?  You never make use of a pure 2600hz tone, so even if
+it IS filtered/detected you don't have to worry.  The most obvious way I
+can see of being detected blueboxing is to make 10hrs of international
+calls per day over whichever 1-800 direct you're using.  Very few telco's
+are going to ignore 140 calls/day to Guyana Direct per month.  Use your
+common sense to avoid detection, that's it.
+
+
+   <H4>CCITT 5 Signalling frequencies</H4>
+
+<PRE>
+
+Digit                           Freqs
+
+  1                              700 & 900  hz
+  2                              700 & 1100 hz
+  3                              900 & 1100 hz
+  4                              700 & 1300 hz
+  5                              900 & 1300 hz
+  6                             1100 & 1300 hz
+  7                              700 & 1500 hz
+  8                              900 & 1500 hz
+  9                             1100 & 1500 hz
+  0                             1300 & 1500 hz
+ KP1                            1100 & 1700 hz
+ KP2                            1300 & 1700 hz
+ ST                             1500 & 1700 hz
+ C11                             700 & 1700 hz
+ C12                             900 & 1700 hz
+
+</PRE>
+
+(These are the C5 signalling frequencies I use nearly every day, so if you
+spot an inaccuracy in the above frequency set you are cordially invited to
+blend your phallic muscle...)<P>
+
+
+Now to the timings.  All the normal digits (0-9) should be 55ms in length
+and have a 55ms delay in accordance with the technical specificiations
+laid out in the CCITT manuals.  However, in practice these timings may be
+decreased to as little as 30ms per digit, perhaps even less in
+exceptional cases.  The command and operator digits (KP1/2, ST, C11/12)
+are usually 100ms in length, with the delay the same as that set for the
+normal digits.  Certain South-American countries that I have (ab)used have
+required that the command digits, more specifically the KeyPulse signals
+and the ST, be much shorter than this, although usually still with a length
+longer than that of digits 0-9.
+
+
+<H3>End note.</H3>
+
+That's all folks.  If you don't know how to produce these tones then you 
+shouldn't really be reading this - go read your SimCity 2k docs...
+If anyone has any questions regarding anything contained in the above text, 
+or indeed any C5 queries, you can mail me at: <A HREF="mailto:mael@phantom.com">mael@phantom.com</A> or if you're
+lucky you can catch me on IRC in #phreak.  If there's any interest I might
+even write a sequel to this rather hurried guide...<P>
+<DL>
+<DT><EM>QUICK NOTE</EM><DD> This author of this article is Scottish, and as such I have
+used correct English spellings rather than the American versions...8)...
+<DT><EM>DEDICATION</EM><DD> This article is dedicated to Coaxial/PHaTE, who has had a
+rather torrid time of it lately (legally...).  Good luck and I hope 
+everything works out for you.<P>
+
+</DL>
+-Maelstrom/PHaTE<P>
+
+
+<HR SIZE=4>
+</BODY>
+</HTML>

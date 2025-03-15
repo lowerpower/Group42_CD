@@ -1,0 +1,32 @@
+#! GameDirector V. 1.1 or later
+# JUDGE definitions for Prince of Persia
+# This editor is used on prince.sav file.
+
+module "Prince of Persia Editor" {
+    desc "JUDGE definitons for Prince of Persia"
+    desc "1992, Jack Hwang"
+    absolute "Game Data" {
+        desc "This record allows changes on time, life points, and level."
+        field "Time" {
+            desc "The number of minutes remained for finishing"
+            desc "the game.  Range: 1 - 59."
+            data 0 2 uword
+            entry 2 10 2 25 2 dec
+        }
+        field "Level" {
+            desc "The level where the game is saved. (1 - 12)"
+            desc " "
+            desc "This is a tricky field.  You should avoid changing"
+            desc "the value here.  Just change life points and time"
+            desc "to survive the game."
+            data 4 2 uword
+            entry 3 10 3 25 2 dec
+        }
+        field "Life points" {
+            desc "The number of life points left. (1 - 20)"
+            data 6 2 uword
+            entry 4 10 4 25 2 dec
+        }
+    }
+}
+

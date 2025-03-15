@@ -1,0 +1,85 @@
+<html>
+<head><title>Group 42 Sells Out</title></head>
+<center>
+<img alt="Group 42 Sells Out!" src="../../../g42slogo.gif">
+</center>
+<hr size=5 noshade>
+<center>
+<h3>Advanced NetWare Security Cracker</h3>
+<h4>Version 1.00</h4>
+</center>
+<h4>WHAT IS NETCRACK?</h4>
+<ul>
+<b>NetCrack</b>--the   Advanced  NetWare   Security  Cracker--is  a
+software  utility for use with  networks operating under the
+Novell   Advanced  NetWare  network  operating  system.  The
+NET$OS.EXE  file is patched so that the security information
+created  with  SYSCON is  disabled.  NetCrack  is compatible
+with  Advanced NetWare 86 and  Advanced NetWare 286 Versions
+1.00 through 2.15.
+</ul>
+<h4>HOW DOES NETCRACK WORK?</h4>
+<ul>
+<b>NetCrack</b> installs  patches io the  NET$OS.EXE file to
+disable use of the security information created with SYSCON.
+Security  data is  maintained in the  files NET$BIND.SYS and
+NET$BVAL.SYS   located  in  SYS:SYSTEM.  NETCRACK  will  not
+damage  the existing security  files.  The original security
+may   be  restored   by  invoking   the  original  unpatched
+NET$OS.EXE.
+<p>
+<b>NetCrack</b> may be used to gain access to a fileserver when the
+SUPERVISOR  password is unknown.  It is  necessary to have a
+copy  of  NET$OS.EXE from  SYS:SYSTEM or  to generate  a new
+operating  system with the  correct driver set.  This backup
+copy  of  NET$OS.EXE is  the  target file  for  the NETCRACK
+utility.
+<p>
+To  use  NETCRACK,   boot  DOS on  the  fileserver.  Execute
+NETCRACK.  Select  the  CRACK  option  from  the  menu  with
+the  backup  copy  of  NET$OS.EXE  as  the target.  CHECKSUM
+the  patched  operating  system.  Then  invoke  the  patched
+NET$OS.EXE  from  Drive  A:.  This  will  bring  up NetWare.
+LOGIN  as SUPERVISOR from  any workstation.  PASSWORD is not
+required.  The  NET$BIND.SYS and  NET$BVAL.SYS files  may be
+flagged  Read/Write  (RW)   and  deleted.  Then  invoke  the
+original  unpatched operating system,   login as SUPERVISOR,
+and setup new security with SYSCON.
+<p>
+If  using NETGEN to  create a backup  operating system,  the
+NET$OS.EX1  and  NET$OS.EX2  files must  be  concatenated as
+follows:<p>
+<ul>
+<i>COPY/B NET$OS.EX1+NET$OS.EX2 NET$OS.EXE</i>
+</ul>
+<p>
+If using NETGEN with high capacity diskettes,  NET$OS.EX1 is
+the target for NETCRACK.
+<p>
+If you only have 360K diskette drives available, you may use
+the  program SPLIT to split your patched NET$OS.EXE into two
+pieces which will fit on 360K diskettes.
+<p>
+</ul>
+<h4>THE SOFTWARE:</h4>
+<ul>
+<li><a href="netcrack.exe">Netcrack Software.</a>
+<li><a href="split.exe">Split Software.</a>
+</ul>
+<p>
+<hr size=5 noshade>
+
+<center>
+
+<h4>
+<a href="../../../index.htm">HOME</a> |
+<a href="../../../about.htm">GROUP 42</a> |
+<a href="../../../disclaim.htm">DISCLAIMER</a> |
+<a href="../../../help.htm">HELP</a>
+<br>
+Copyright &copy 1984-1996, Group 42
+</h4>
+
+</center>
+
+</html>

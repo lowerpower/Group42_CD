@@ -1,0 +1,7 @@
+WORLD CIRCUIT Formula 1 Grand Prix
+ 
+FILE TO SEARCH:  GP.EXE
+SEARCH STRING:  BA 43 00 B0 00 EE 4A 4A
+CHANGE TO:      BB 92 0B B8 0B 00 5A CB
+
+Always enter same word at protection screen: monza

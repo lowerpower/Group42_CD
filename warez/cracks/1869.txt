@@ -1,0 +1,5 @@
+CRACK by Hawk> 1869
+File: 1869.exe
+Search for:   3e 2b 5e 02 74 50 
+Replace with: -- -- -- -- eb --
+

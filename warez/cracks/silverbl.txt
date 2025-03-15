@@ -1,0 +1,6 @@
+Crack> Secret of Silverblades from SSI 
+crack written by The Flash 
+ 
+Using PCshell or Norton Utilities, search the file START.EXE for 
+5C 0C 74 33 9A and change 74 to EB.  Next, search GAME.OVL for 
+02 1E 72 1D and change 72 to EB.

@@ -1,0 +1,88 @@
+<head>
+<title>[8lgm]-Advisory-10.UNIX.SCO-at.10-Feb-1992</title>
+</head>
+<body>
+<hr>
+<H1>[8lgm]-Advisory-10.UNIX.SCO-at.10-Feb-1992
+</H1>
+<P>
+<P>
+<H2>PROGRAM:</H2>
+<P>
+	at(1)
+<P>
+<H2>VERSION:</H2>
+<P>
+	SCO UNIX 3.2v4.2
+<P>
+<H2>DESCRIPTION:</H2>
+<P>
+	at(1) can be used to execute arbitrary commands as group cron.
+<P>
+<H2>IMPACT:</H2>
+<P>
+	Any user with access to at(1) can become root.
+<P>
+<H2>REPEAT BY:</H2>
+<P>
+	Exploit details will not be made available, until a patch is
+	provided.
+<P>
+<h2>FIX:</h2>
+<P>
+	Obtain a patch from SCO.
+<P>
+<h2>WORKAROUND:</H2>
+<P>
+	Deny access to at(1) for normal users (see man page for details.)
+<P>
+<H2>DISCUSSION:</H2>
+<P>
+	at(1) was originally designed to run setuid root.  SCOs version of
+	at runs setgid cron, but still handles privileges as if running
+	euid 0.
+<P>
+<H2>FEEDBACK AND CONTACT INFORMATION:</H2>
+<P>
+<PRE>
+        8lgm-bugs@bagpuss.demon.co.uk           (To report security flaws)
+<P>
+        8lgm-request@bagpuss.demon.co.uk        (Mailing list additions -
+						 processed automatically;
+						 just send any message)
+<P>
+        8lgm@bagpuss.demon.co.uk                (Everything else)
+</PRE>
+<P>
+        System Administrators are encouraged to contact us for any
+        other information they may require about the problems described
+        in this advisory.
+<P>
+        We welcome reports about which platforms this flaw does or does
+        not exist on.
+<P>
+        NB: 8lgm-bugs@bagpuss.demon.co.uk is intended to be used by
+        people wishing to report which platforms/OS's the bugs in our
+        advisories are present on.  Please do *not* send information on
+        other bugs to this address - report them to your vendor and/or
+        comp.security.unix instead.
+<P>
+<h2>8LGM MAILING LIST:</h2>
+<P>
+	Send any message to 8lgm-request@bagpuss.demon.co.uk and the
+	address you mail from will automatically be added to the list.
+<P>
+	If you need to subscribe to an address you cannot mail from
+	(eg an alias), send mail to 8lgm@bagpuss.demon.co.uk and request
+	to be added to the list.  Due to our mail volume, we appreciate
+	it if you can use 8lgm-request instead; thus if	you need to
+	subscribe an alias, please look into using, say sendmail -f,
+	if possible.
+<P>
+<h2>8LGM FILESERVER:</h2>
+<P>
+	All [8LGM] advisories may be obtained via the [8LGM] fileserver.
+	For details, 'echo help | mail 8lgm-fileserver@bagpuss.demon.co.uk'
+<P>
+<hr>
+</body>

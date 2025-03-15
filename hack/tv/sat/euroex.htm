@@ -1,0 +1,460 @@
+<HTML>
+<TITLE>Has DSS Been Hacked?</TITLE>
+<BODY><BR>
+<H1>Satellite Piracy - <I>The European Experience</I></H1>
+<I>By John McCormac - Editor Of Hack Watch News</I>
+<P> 
+In mid-1994 the RCA digital satellite system (DSS) was introduced. 
+The system is digital and therefore takes advantage of compression 
+techniques to squeeze a number of channels into the bandwidth that 
+would normally be occupied by a single satellite TV channel. 
+</P>
+<P>
+The  DSS  is  currently transmitting from  a  pair  of  co-located 
+satellites  at  101 Degrees West. Since the  satellites  used  are 
+transmitting on a higher frequency with higher power, the size  of 
+the  dish  is also smaller. It is only the size of a pizza  pan  - 
+about  18  inches  in  diameter. Currently  there  are  about  150 
+channels being transmitted. More will be added. But something from 
+the past is worrying people - piracy!
+</P>
+<P>
+In the late 1980s and early 1990s piracy haunted the large dish C-
+Band satellite television. Could the same thing happen to the  DSS 
+system?  Only time will tell. The DSS encryption is based  on  the 
+VideoCrypt  access control system. The European analog version  of 
+VideoCrypt  has  been repeatedly compromised by hackers  over  the 
+last five years.
+</P>
+<H2> Europe - The Present Situation </H2>
+<P>
+There are three main scrambling systems in European satellite  TV. 
+The  first and most obvious is VideoCrypt. This system is used  by 
+BSkyB and a number of other channels. (BSkyB is the broadcaster of 
+the  Sky Multichannels Package which carries three movie  channels 
+and  a  few general entertainment channels for the  Irish  and  UK 
+markets) There are an estimated 2.5 Million Sky subscribers  using 
+VideoCrypt smart cards to gain access to this programming.
+</P>
+<P>
+The  second principal system is EuroCrypt-M. It is used  by  Canal 
+Plus, TV3, TV1000, FilmNet and a few others. There may be as  many 
+as 400,000 satellite subscribers to these channels. The market for 
+these  channels  is  mainland  Europe  and  they  have  many  more 
+subscribers on cable. The third scrambling system is Nagra Syster, 
+the only one that is still secure from signal hackers. It is  used 
+by  Premiere, Canal Plus and Teleclub. While hackers are  actively 
+working  on  a viable hack, the system has fared well  during  the 
+past four years.
+</P>
+<P>
+One major difference between between Europe and the United  States 
+is  the uniformity of American laws and their enforcement.  Piracy 
+has  thrived in Europe because each nation has its  own  copyright 
+laws  and generally only protects its own channels. This makes  it 
+possible,  for  example, to legally sell pirate smart  cards  that 
+allow access to BSkyB's VideoCrypt encoded channels throughout all 
+of Europe except in the United Kingdom (UK).
+</P>
+<P>
+The VideoCrypt system as used by DSS in the United States  differs 
+from the European implementation. The European implementation is a 
+purely  analog system that only scrambles the video. The DSS is  a 
+completely  digital  system that encrypts  the  digitally  encoded 
+video  and  audio. However there are some similarities.  The  most 
+obvious is the smart card.
+</P>
+<P>
+The  European  VideoCrypt system, like DSS, is based on  a  secure 
+detachable  processor - the removable smart card holds all of  the 
+critical  data.  The smart cards are both  the  systems'  greatest 
+strength  and  weakness. Smart cards permit  the  broadcasters  to 
+change  or  upgrade  their conditional  access  system.  In  small 
+quantities  it can be relatively inexpensive but when there are  a 
+few  million cards to be replaced, the costs increase. BSkyB  paid 
+21 Million pounds for their last card change. Originally they  had 
+planned  to  change  their cards on a three to  six  month  cycle. 
+Unfortunately when they changed their cycle, they gave the hackers 
+enough time to hack the smart cards.
+</P>
+<P>
+DSS faces a similar threat. Since the VideoCrypt system in  Europe 
+has  been totally compromised, European pirates have  already  set 
+their  sights  on DSS. Some sources have reported  that  DSS  has, 
+indeed,  been hacked already and that pirate cards will be on  the 
+market by August. Even if it proves untrue, European hackers  have 
+an  intimate  understanding of the VideoCrypt system and it  is  a 
+good starting point for a hack on DSS.
+</P>
+
+<H2> What Is VideoCrypt? </H2>
+<P>
+The  European  implementation  of  VideoCrypt  is  a  video   only 
+scrambling  system. The active video section of each line  is  cut 
+and rotated about one of 256 points. The cutpoint for each line is 
+generated from the output of a Pseudo Random Number Generator.
+</P>
+<P>
+The  seed for the PRNG is derived from the data  transmitted  over 
+the air along with the video. The decoder extracts and passes this 
+data  to the smart card. The smart card runs the  seed  generation 
+algorithm and returns the correct seed to the decoder. The decoder 
+itself  is essentially "dumb" because the main cryptography  takes 
+place inside the smart card.
+</P>
+<P>
+VideoCrypt  decoders  contain a few built-in  algorithms  to  stop 
+pirate  card  from being used in the decoders. However  due  to  a 
+programming  error  on  many of the original  decoders  and   IRDs 
+(integrated  receiver-decoders), the most powerful algorithm,  the 
+Fiat  Shamir Zero Knowledge test, did not work properly.  Although 
+the same authentication algorithm as used in the DSS system, it is 
+doubtful that the same error was made.
+</P>
+<P>
+<H3> The Fall Of VideoCrypt </H3>
+<P>
+VideoCrypt  was hacked in fifteen seconds because it  contained  a 
+fundamental  flaw that was common to most of the smart card  based 
+systems designed in the 1980s. The data flow between the card  and 
+the  decoder could be tapped just like a phone  conversation.  The 
+data could be fed to other decoders and they could all decode  the 
+programming from the data produced by the one authorized card. 
+</P>
+<P>
+This hack, presented in a article written about the security of 
+smart  card  based scrambling systems, is known  as  the  McCormac 
+Hack. It works and is in operation in Spain where it is feeding an 
+MMDS  (multipoint microwave distribution system) network from  one 
+smart card. 
+</P>
+<P>
+The  ease  with which VideoCrypt could be hacked  was  terrifying. 
+Here was this system that was advertised as the most  pirate-proof 
+system yet developed and it was hacked. It was only the  beginning 
+of the nightmare for Sky and News Datacom.
+</P>
+<H3> The Infinite Lives Hack </H3>
+<P>
+Another  major hack on the security of the VideoCrypt  system  was 
+the  Infinite Lives hack. At the time, the smart cards were  using 
+EPROM technology. These cards needed 21 Volts to program them.  By 
+limiting  this  voltage  to 12 Volts or so,  it  was  possible  to 
+prevent Sky from reprogramming or turning off the cards. (This  is 
+a variant of the hack on the France Telecom phone cards where  the 
+programming voltage pad was covered so that the payphone could not 
+overwrite the card.)
+</P>
+<H3> The KENtucky Fried Chip Hack </H3>
+<P>
+The  KENtucky Fried Chip was named after Ken Crouch, the  head  of 
+Sky's Security Department. The hackers had modified the program in 
+the IC that controlled the smart card interface. It would read the 
+identity of the smart card inserted in the decoder. Then it  would 
+look  to  see  if  there was a  kill  message  addressed  to  that 
+particular  card  and if there was, the modified  program  ensured 
+that  the kill message never reached the card. This  technique  of 
+modifying  the  operation  of an IC in the  decoder  is  known  as 
+"chipping"  in the US. It was the first incident of this  type  of 
+hacking in Europe. In the DSS system, the smart card interface  is 
+controlled by a custom microcontroller.
+</P>
+<H3> The Ho Lee Fook Hack </H3>
+<P>
+The  name  of  this  hack on VideoCrypt is more  to  do  with  the 
+exclamation  uttered by people told of the hack. It was  a  direct 
+replacement  for a smart card.
+</P>
+<P>
+The first version drew heavily on the KENtucky Fried Chip hack. It 
+modified  the  same chip so that it contained the  same  algorithm 
+as  the  authorized  smart  card.  Thus  the  first  cardless  Sky 
+VideoCrypt  decoder was born - something considered impossible  by 
+News Datacom. They had used Fiat-Shamir's Zero Knowledge Test  and 
+had integrated into the VideoCrypt system for just such an  event. 
+Strangely  it never worked. 
+</P>
+<P>
+This first version of the hack was too insecure and too expensive. 
+The solution was in a low cost microcontroller known as a PIC. The 
+PIC  controller range is manufactured by Arizona  Microchip.  They 
+are  RISC  microcontrollers  and  as  such  can  give  a  superior 
+performance   over   conventional  microcontrollers   in   certain 
+applications.  Pirate  smartcards  happened to  be  one  of  these 
+applications.
+</P>
+<P>
+In early June 1993, the first PIC smart card was developed. It was 
+coded up on a wet Saturday afternoon somewhere in Europe. This was 
+now  a  genuine  pirate  smart card -  the  very  thing  that  the 
+brochures on VideoCrypt said were impossible. Sky's VideoCrypt was 
+to  remain  completely smashed for approximately one  year  -  the 
+remaining lifetime of the Sky's 07 card. 
+</P>
+<P>
+All of the Sky channels, and almost every other VideoCrypt encoded 
+channel  were  available from the pirates.  The  minor  electronic 
+countermeasures  (ECMs) that News Datacom implemented were  easily 
+dealt with by hackers often within a few minutes. 
+</P>
+<P>
+A leap in hacking technology had been made. The newer versions  of 
+the pirate cards were reprogrammable. With a modem it was possible 
+to  transmit a card update to  all the European dealers  within  a 
+few hours. 
+</P>
+<P>
+Since their technological attempts to control hacking had  failed, 
+Sky  and  News  Datacom sought help from the Law.  At  first  they 
+attacked the pirates in the UK but then stupidly moved to Ireland.
+</P>
+<H3> VideoCrypt - The Irish Court Case - A Question Of Copyright </H3>
+<P>
+The  law was cut and dried in the UK. Fortunately Ireland  is  not 
+part of the UK. A major precedent was set when Sky tried to pursue 
+David  Lyons  of  Satellite  Decoding  Systems,  an  Irish   based 
+business, through the Irish courts. Sky alleged that the copyright 
+of the software in their Sky smart card had been infringed.
+</P>
+<P>
+Through  a combination of technological ignorance and  reluctance, 
+Sky  were  defeated.  They  never  provided  any  proof  that  the 
+copyright of their software had been infringed. They claimed  that 
+since  both cards decoded their channels, it was obvious  that  it 
+was  their software in both cards. It was pointed out that   2+2=4 
+but  so  does 1+1+1+1=4. They failed to  distinguish  between  the 
+output  of the software and the actual software. The  Judge  ruled 
+against Sky.
+</P>
+<H3> The TV-Crypt </H3>
+<P>
+Perhaps  the most significant event of 1994 in the hacking  world, 
+was  the formation of the TV-CRYPT. It is a  non-commercial  group 
+interested in exploring scrambling systems. In some respects it is 
+like  the DESUG that was formed to hack the VideoCipher II in  the 
+mid  1980s. This is where the Omigod hack originated from.  It  is 
+also where the Phoenix hack was stolen from.
+</P>
+<P>
+When  Sky  One was scrambled in September of 1993,  many  European 
+viewers  were  cut  off  from  watching  Star  Trek  -  The   Next 
+Generation.  The final season, Season 7, was about to be shown  on 
+Sky  One.  A  high proportion of hackers  watch  Star  Trek.  What 
+followed was only logical. 
+</P>
+<P>
+The  logical  answer  was an emulator  program  for  the  personal 
+computer  to drive the decoder. Some of the commercial hacks  were 
+examined and in one case the code was extracted from one of the Ho 
+Lee  Fook  chips.  The  code from  the  8052  microcontroller  was 
+transcoded  into  C.  From there it was transformed  into  the  PC 
+program  known as Season 7 or Omigod. The pronunciation is  Oh  My 
+God!
+</P>
+<P>
+The distribution of the Omigod hack only took a few hours. It  was 
+available on all major BBSes and at many internet sites in Europe. 
+There were even copies floating around at the Cable And  Satellite 
+Show in London, one of the biggest trade shows in Europe. Most  of 
+the  top hackers in Europe were together in the same place at  the 
+same time.
+</P>
+<H3> Dark Wednesday - Sky Switch To 09 </H3> 
+<P>
+The  reality of the situation was beginning to tell on  Sky.  They 
+could  no longer evade the problem and they switched to their  new 
+smart cards - issue 09. Although Sky had been sending these  cards 
+out since February it wasn't until May 18th that the pirates cards 
+ceased to operate. The Omigod program stopped working. Sky had, or 
+so they thought, won the war. The fun had only just begun.
+</P>
+<H3> The Great Code Auction </H3>
+<P>
+Something  decidedly strange happened on June 20th. There  was  an 
+auction in the Dorchester Hotel. Sky's 09 code was being auctioned 
+off. More importantly it worked. Sky's smart card was compromised 
+again.
+</P>
+<P>
+It  is  not known how much money changed hands but the  theory  is 
+that  it was in the hundreds of thousands of pounds.  The  pirates 
+and hackers were worked day and night to upgrade their cards  with 
+the  new code. In bars throughout the UK, queues formed  of  eager 
+customers, their beer in one hand and a pirate card in the  other. 
+The  new code did not last long. Sky and News Datacom struck  back 
+with  another  ECM. This one was good. It was  difficult  for  the 
+hackers to solve.
+</P>
+<P>
+The  timing of the event had sown the seeds of uncertainty in  the 
+minds  of pirates. Was it a sting by Sky? Was it a totally  pirate 
+operation? The full story has not yet been established. There  was 
+so much lying and deception going on that it was difficult to know 
+who  was involved. 
+</P>
+<P>
+What  followed  was  a  long  hot  summer  of  false  starts   and 
+disgruntled  customers. It seemed that Sky was winning as some  of 
+the  pirates  customers were signing up with Sky  again  but  most 
+decided to go with EuroCrypt-M cards and watch other channels.  It 
+was  also possible to obtain a smart card from legal  outlets  and 
+have  it authorized for a few weeks. This ensured that  those  who 
+wanted to view Sky were able to.
+</P>
+
+<H3> The Phoenix Program </H3>
+<P>
+The  code  auctioned in June made its way to  the  TV-CRYPT  group 
+where it was analyzed. The algorithm was an improvement on the  07 
+algorithm, but there was something else. 
+</P>
+<P>
+By  rewriting  the  code it was possible  to  generate  a  correct 
+checksum  for  any packet of data. By using  a  decoder  emulation 
+program it was possible to have an authorized smart card treat any 
+data packet sent to it as valid.
+</P>
+<P>
+This was a significant discovery. Sky's VideoCrypt system operated 
+on  an  over  the  air authorisation  procedure.  Therefore  if  a 
+data packet with a correct checksum was sent to a card it would be 
+possible  to switch on cards without the intervention of Sky.  The 
+card  would  not be able to tell the difference between  a  packet 
+from a decoder emulator program and the real decoder.
+</P>
+<P>
+By phoning Sky and having them turn on some legitimate cards  over 
+the  air, it was possible to build up an understanding of how  the 
+authorisation scheme worked. The program was called Phoenix  after 
+the  mythical  bird.  By the first week  in  August,  the  Phoenix 
+program was posted.
+</P>
+<P>
+To  the TV-CRYPT the Phoenix program was an intellectual  exercise 
+to  see how the VideoCrypt system worked. Some pirates saw  things 
+differently. They sold the program in some cases for thousands  of 
+pounds. 
+</P>
+<H3> Genesis - Exodus - Exitus </H3>
+<P>
+The Star Trek influence runs through these hacks. Genesis was part 
+of  the  plot  of one of the Star Trek movies. One  of  the  first 
+commercial  hacks was named Genesis. This was the  combination  of 
+the  Phoenix code and a blocker program. The combined program  was 
+loaded  into a PIC16C84 microcontroller. One device could turn  on 
+all channels on a Sky card and block any kill signal that Sky sent 
+to that card.
+</P>
+<P>
+Sky had totally lost control of their access control system.  Even 
+the  09 issue cards that Sky had previously turned off were  being 
+reauthorized. The problem had gotten out of control. Sky and  News 
+Datacom were searching desperately for some solution.
+</P>
+<P>
+It seemed that Sky, through their Quick Start scheme had  supplied 
+the  pirates with all the genuine Sky cards that they needed.  The 
+going  price for a QS card in September reached 60  pounds  (about 
+$95).  The  legitimate  dealers were getting them from  Sky  at  5 
+pounds per card (about $8).
+</P>
+<P>
+After  what can be described as a war of attrition,  News  Datacom 
+came up with an ECM that completely killed the cards activated  by 
+Genesis  blockers.  These dead cards could  not  be  reauthorized. 
+However  September 1994 was a very bad month for Sky. From  pirate 
+sources,  who  were monitoring the over the air  data,  it  became 
+apparent that Sky were trying to kill every card that it could not 
+account  for. In that month alone, Sky killed 569430 cards. It  is 
+not clear how many of these were QS cards and how many were people 
+just giving up watching the Sky channels. The October kill  figure 
+was 220073.
+</P>
+<H3> Legal Action In The UK </H3>
+<P>
+Sky  eliminated  its  security  department  in  March  1993   even 
+though  this internal group had succeeded in stemming the flow  of 
+piracy  in the UK. It was a stupid decision for which  they  would 
+pay dearly.
+</P>
+<P>
+A  deluge  of  ill-considered legal action  followed  in  the  UK. 
+Sky  prosecuted  the "small guys"  who did not have the  money  to 
+defend  themselves. These people were breaking the law in  the  UK 
+but  in  prosecuting  it was a  public-relations  nightmare.  They 
+created martyrs.
+</P>
+<P>
+In one case Sky drew the media's attention by trying to claim that 
+the  defendant was a main dealer for Genesis blockers. However  as 
+the  defendant had only 300 blockers, it was obvious that  he  was 
+not a larger dealer.
+</P>
+<P>
+In  a  Sky affidavit in the case it was estimated  that  Sky  lost 
+2.25  million pounds to piracy between January 01 and May 18 1994. 
+According  to  their  estimates  there  50,000  subscribers  lost. 
+According to Hack Watch News, there were about 300,000 pirate  Sky 
+cards  in the UK at the beginning of the year. 
+</P>
+<P>
+The  09 issue of cards in February 1994 cost Sky approximately  21 
+million  pounds. The next card issue, 0A, due in September 1995, will 
+probably cost another 21 million pounds ($30 Million). 
+</P>
+<P>
+Another  card  issue (0B) would be necessary in February  1995  if 
+Sky  wants  to maintain the security of its  system.  The  present 
+annual cycle is not short enough to deter pirates. Sky  originally 
+planned to change the cards every three to six months. This  would 
+provide the pirates with a moving target. When the company changed 
+to  a  longer cycle hackers saw the system as a very  big  sitting 
+duck.
+</P>
+<H3> The Cloning Of VideoCrypt </H3>
+<P>
+A  sure sign that VideoCrypt was defeated was that it was  cloned. 
+The clone system, called KeyCrypt, was demonstrated at the  London 
+Cable  and  Satellite  Show in April 1994. The  company  that  had 
+cloned it, Hi Tech Xtravision, had previously  reverse-engineered 
+a rather complex Application Specific Integrated Circuit (ASIC) as 
+part  of  a hack on a digital audio system. They also  had  a  far 
+better  idea for a customized smart card which would prove  a  lot 
+more  difficult  to  hack.  A  case  perhaps  of  poacher   turned 
+gamekeeper.
+</P>
+<P>
+Despite the potential benefits of KeyCrypt, broadcasters who  want 
+to use it can't. Some undecided copyright issues prevent them from 
+doing so.
+</P>
+<H3> The Present Day </H3>
+<P>
+At  the time of writing, VideoCrypt is still hacked. There  are  a 
+few working Omigod programs available for the PC and the MAC  that 
+can hack all of the VideoCrypt channels. These programs are free - 
+most  of the BBSes in Europe have copies. When Sky  implements  an 
+ECM, the modified versions of the programs are posted on the BBSes 
+within  a few hours - an embarrassing situation for  News  Datacom 
+and Sky.
+</P>
+<P>
+Many  of  the pirate smart cards on the market  now  use  American 
+technology.  One  card  has a keypad. When there is  an  ECM,  the 
+pirate card user just telephones an answering service to  retrieve 
+set  of numbers. He then enters the numbers on the keypad and  the 
+pirate card resumes operation. Another card uses a modem. So  when 
+there is an ECM the modem does all of the hard work.
+</P>
+<P>
+Things  will change over the next few months though if Sky  brings 
+out  its  new 0A card. Then the pirates may be defeated  -  for  a 
+while.  However, the problem is that nobody is sure how  long  the 
+new card will remain unhacked. The most important lesson that  the 
+DSS broadcasters could glean from the European experience is  that 
+the  cards  have to be changed every six months. Otherwise  it  is 
+certain that they will be hacked.
+</P>
+</P>
+<P><B><I>Copyright (c) 1995 Hack Watch News</I></B></P>
+</BODY></HTML>

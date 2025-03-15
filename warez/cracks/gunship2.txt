@@ -1,0 +1,8 @@
+Gunship
+
+Remove passcodes
+STAR.EXE
+000026CC: E8 90
+000026CD: F5 90
+000026CE: 16 90
+000026D5: 74 EB

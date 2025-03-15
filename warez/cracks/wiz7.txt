@@ -1,0 +1,641 @@
+  Go into Debug or Norton utilities and edit the hex code in your savegame.
+The first character name is approx offset decimal 10,000 from the start of
+the savegame file. The first item starts at offset 64 from the first letter
+of the characters name. The second item is offset 12 from the first item etc.
+Each character has 20 items. The example gives 255(FF) sparkle stix(31 01).
+IMPORTANT: when you change an item the graphic and weapon power will not be
+correct. 1. Assign the item
+         2. get into the game
+         3. drop the item
+         4. pick up the item
+         This will fix the graphic and the weapon power. You should follow
+         steps 1 thru 4 for every new item.
+
+Example:
+
+char             itemname    graphic
+name               __|__       __|__ amount         start of next item
+|                  |   |       |   | |              |
+Ninja1          03 31 01 01 00 02 12 FF 85 00 00 00 01
+<-----offset 64----><-------------offset 12---------->
+
+
+The following is a complete list of every item in the game:
+
+Item           itemname  graphic
+
+empty           00 00
+dagger          01 00    00 00
+main gauche     02 00
+baselard        03 00    00 01
+wakizashi       04 00    00 33
+rapier          05 00
+cutlass         06 00
+tarnished sword 07 00    00 01
+longsword       08 00    00 01
+broadsword      09 00    00 01
+katana          0A 00    00 10
+bastard sword   0B 00
+claymore        0C 00
+bearded war axe 0D 00
+battle axe      0E 00    00 03
+anointed flail  0F 00
+war sceptre     10 00
+mace            11 00    00 04
+staff           12 00    01 11
+mourning star   13 00
+hammer          14 00
+war hammer      15 00
+spear           16 00    01 09
+awl pike        17 00    01 09
+quarter staff   18 00    01 11
+bo              19 00    01 11
+halberd         1A 00
+bite dagger     1B 00    00 00
+feather dart    1C 00
+sling           1D 00
+bullet stone    1E 00
+short bow       1F 00
+long bow        20 00
+willow arrow    21 00    04 16
+lt. crossbow    22 00
+quarrel         23 00
+poiguard        24 00
+stiletto        25 00
+walriblade      26 00
+ninjato         27 00
+flamberge       28 00
+zweihander      29 00
+no-dachi        2A 00
+bipennis        2B 00
+zizka star(mace)2C 00    00 04
+bec de corbin   2D 00
+bullwhip        2E 00
+shuriken        2F 00    02 15
+sai             30 00
+nunchaku        31 00
+lance           32 00
+monstrance      33 00
+fanchard        34 00
+naginata        35 00
+chromatic lyre  36 00
+poets lute      37 00
+spike stone     38 00
+shrike arrow    39 00    04 16
+barbed arrow    3A 00    04 16
+angels tongue   3B 00
+poison dagger   3C 00    00 00
+spear +2        3D 00    01 09
+broadsword +1   3E 00
+vorpal blade    3F 00
+dragon slayer   40 00
+bushido blade   41 00
+poison dart     42 00
+crusaders axe+2 43 00
+hayai bo        44 00
+holy basher     45 00
+lute of sloth   46 00
+pipes of doom   47 00
+impaling stone  48 00
+ta-hi stone     49 00
+enchanted bow   4A 00
+armor piercer   4B 00
+vipor arrow     4C 00
+hv. crossbow    4D 00
+hunter quarrel  4E 00
+sirens wail     4F 00
+thieves dagger  50 00
+blade cuisinart 51 00
+spear of death  52 00
+sword of fire   53 00    07 3B
+axe of many rune54 00
+maiden head     55 00    00 05
+vulcan hammer   56 00    00 34
+ravens bill     57 00
+cat-o-nine tails58 00
+horn promethius 59 00
+silent lyre     5A 00
+wrist rocket    5B 00
+medusa stone    5C 00
+great bow       5D 00
+mystic arrow    5E 00    04 16
+peacemaker arrow5F 00    04 16
+seige albarest
+  crossbow      60 00
+lightning bolt
+  arrow         61 00    04 16
+tomb of demons  62 00
+lyre of cakes   63 00
+sword of 4 winds64 00
+stave of 12stars65 00
+sword of hearts 66 00
+saint bastard   67 00
+fany            68 00
+estoc de olivia 69 00
+the avenger     6A 00
+muramasa blade  6B 00    00 33
+excalibur       6C 00
+blades of aesir 6D 00
+diamond eyes    6E 00
+maenads lance   6F 00
+zatoichi bo     70 00
+faust halberd   71 00
+elven bow       72 00
+rammbus staff   73 00
+wakizachi +1    74 00    00 33
+death star      75 00
+stun rod        76 00    01 69
+shock rod       77 00    01 69
+cloth shirt     78 00
+cloth pants     79 00
+robes (U)       7A 00    07 3C
+robes (L)       7B 00    08 3D
+fur halter      7C 00
+chamois shirt   7D 00
+suede doublet   7E 00
+suede pants     7F 00
+skull cap       80 00    06 40
+feathered hat   81 00    06 41
+sandals         82 00    0A 2E
+buskins         83 00
+fur legging     84 00
+quilt tunic     85 00
+quilt legging   86 00
+leather cuiruass87 00
+leather hauberk 88 00
+leather legging 89 00
+leather helm    8A 00
+cuir gauntlets  8B 00
+leather boots   8C 00
+buckler shield  8D 00
+breast plate    8E 00
+steel helm      8F 00
+tarnished mail  90 00
+chain hauberk   91 00
+chain chaussess 92 00
+mail coif       93 00
+mail mittens    94 00
+chain hosen     95 00
+round shield    96 00
+oliveskindoublet97 00
+plate mail (U)  98 00
+plate mail (L)  99 00
+bascnet         9A 00
+steel gauntlet  9B 00
+solleret        9C 00
+heater shield   9D 00
+ninja garb (U)  9E 00    07 5D
+ninja garb (L)  9F 00    08 5E
+ninja cowl      A0 00    06 5C
+tabi boots      A1 00    0A 5F
+wizards cone    A2 00
+mitre           A3 00
+death shroud    A4 00
+robes +1 (U)    A5 00    07 3C
+robes +1 (L)    A6 00    08 3D
+do-maru (U)     A7 00
+do-maru (L)     A8 00
+bracers defence A9 00
+bronze cuirass  AA 00
+leather greaves AB 00
+studded hauberk AC 00
+studded chaussesAD 00
+oleviskinleggingAE 00
+phrygian cap    AF 00
+helm & coif     B0 00
+kabuto          B1 00
+silken gloves   B2 00
+chamois gloves  B3 00
+copper gloves   B4 00
+shield ofsoaringB5 00
+chainmail +1 (U)B6 00
+chainmail +1 (L)B7 00
+jazeraint tunic B8 00
+jazeraint skirt B9 00
+bronze greaves  BA 00
+tosei-do (U)    BB 00
+tosei-do (L)    BC 00
+deathmail       BD 00
+plate mail+2 (U)BE 00
+plate mail+2 (L)BF 00
+burgonet helm   C0 00
+bascinet&camail C1 00
+cap of wiles    C2 00
+silver gloves   C3 00
+silver solleret C4 00
+magnetic boots  C5 00
+dragon kite     C6 00
+anoited cloak   C7 00
+platemail+3 (U) C8 00
+platemail+3 (L) C9 00
+chamail+2 (U)   CA 00
+chamail+2 (L)   CB 00
+fairie cap      CC 00
+mitre de sanct  CD 00
+cloak of fortuneCE 00
+staff of doom   CF 00
+robes enchant(U)D0 00    07 3C
+robes enchant(L)D1 00    08 3D
+gown of death(U)D2 00
+gown of death(L)D3 00
+armet           D4 00
+mantis gloves   D5 00
+mantis boots    D6 00
+forest cape     D7 00
+iufstfneps badgeD8 00
+iufstftufs badgeD9 00
+heaume helmet   DA 00
+flak vest       DB 00
+flak jacket     DC 00
+studcuir skirt+2DD 00
+studcuir bra+2  DE 00
+ebony plate (U) DF 00
+ebony plate (L) E0 00
+hi-kane do (U)  E1 00
+hi-kane do (L)  E2 00
+rock crystals   E3 00
+brimstone nuggetE4 00
+aromatic salts  E5 00
+manta roots     E6 00
+lions claws     E7 00
+ju-ju stones    E8 00
+dragons teeth   E9 00
+displacer cloak EA 00
+crusader helm   EB 00
+ebony heaume    EC 00
+coit devinemail ED 00
+devine mail (U) EE 00
+devine mail (L) EF 00
+enarald talismanF0 00
+shadow cloak    F1 00
+ring invisible  F2 00
+amulet healing  F3 00
+ring of stars   F4 00
+silver cross    F5 00
+valentine necklaF6 00
+jeweled cushion F7 00
+rubber whitebearF8 00
+blackbelt 5flowrF9 00
+helazoid pendantFA 00
+vitrolic warder FB 00
+midnight cloak  FC 00
+medicine bag    FD 00
+light shield    FE 00
+scarab necklace FF 00
+light sword     00 01
+frontier phaser 01 01
+power pack      02 01
+cobaltine glove 03 01
+garland of roses04 01
+pk crystal      05 01
+cameo locket    06 01
+diamond ring    07 01
+musket          08 01
+blunder buss    09 01
+powder & shot   0A 01
+ring of truth   0B 01
+ring resounding 0C 01
+ring shielding  0D 01
+mystics ring    0E 01
+ring pro frost  0F 01
+ring pro magic  10 01
+bat necklace    11 01
+amulet spiders  12 01
+amulet stillness13 01
+amulet airs     14 01
+amulet illusions15 01
+amulet life     16 01
+ankh of might   17 01
+ankh of youth   18 01
+ankh of speed   19 01
+ankh dexterity  1A 01
+ankh sanctity   1B 01
+ankh of life    1C 01
+ankh of death   1D 01
+ankh of healing 1E 01
+cross of turning1F 01
+cross protection20 01
+book of demons  21 01
+mana stone      22 01
+stone pro airs  23 01
+stone new life  24 01
+staff charming  25 01
+staff blessing  26 01
+stave of silence27 01
+staff paralysis 28 01
+haunting stick  29 01
+stave undead    2A 01
+winter wand     2B 01
+pandoras wand   2C 01
+crystal wand    2D 01
+wand of winds   2E 01
+bag of death    2F 01    05 6D
+bag of tricks   30 01    05 6D
+sparkle stix    31 01    02 12
+icicle stix     32 01    02 12
+cracker stix    33 01    02 12
+fire stix       34 01    02 12
+rocket stix     35 01    02 12
+amulet asphixiat36 01
+amulet magic    37 01
+amulet rainbows 38 01
+rod of sprites  39 01
+
+POTIONS
+resurrect       3A 01
+cask ill repute 3B 01
+lt. heal        3C 01    0C 20
+mod heal        3D 01    0C 20
+hv heal         3E 01    0C 20
+mod stamina     3F 01    0C 67
+hv stamina      40 01    0C 67
+cure lt cond    41 01
+cure poison     42 01
+cure paralysis  43 01
+cure stone      44 01
+cure disease    45 01
+superman        46 01
+cherry bomb     47 01    0C 64
+fire bomb       48 01    0C 64
+poison bomb     49 01
+acid bomb       4A 01
+stink bomb      4B 01
+holy water      4C 01
+invisible potion4D 01
+
+SCROLLS
+magic screen    4E 01    0E 21
+magic missle    4F 01    0E 21
+terror          50 01    0E 21
+dispel undead   51 01    0E 21
+slow            52 01    0E 21
+knock knock     53 01    0E 21
+hold monsters   54 01    0E 21
+whipping rocks  55 01    0E 21
+missle protect  56 01    0E 21
+armorplate      57 01    0E 21
+enchanted blade 58 01    0E 21
+haste           59 01    0E 21
+fireball        5A 01    0E 21
+blink           5B 01    0E 21
+illusion        5C 01    0E 21
+conjure         5D 01    0E 21
+levitate        5E 01    0E 21
+zap undead      5F 01    0E 21
+resurrect       60 01    0E 21
+armormelt       61 01    0E 21
+crush           62 01    0E 21
+confusion       63 01    0E 21
+wizard eye      64 01    0E 21
+remove curse    65 01    0E 21
+restfull        66 01    0E 21
+healfull        67 01    0E 21
+blades          68 01    0E 21
+locate object   69 01    0E 21
+locate person   6A 01    0E 21
+
+BOOKS
+shielding       6B 01    0E 31
+airs            6C 01    0E 31
+resting         6D 01    0E 31
+barriers        6E 01    0E 31
+knocks          6F 01    0E 31
+direction       70 01    0E 31
+detection       71 01    0E 31
+haste           72 01    0E 31
+watchbells      73 01    0E 31
+blessings       74 01    0E 31
+charming        75 01    0E 31
+levitation      76 01    0E 31
+firewalls       77 01    0E 31
+seeing          78 01    0E 31
+unhexing        79 01    0E 31
+banishing       7A 01    0E 31
+anti-magic      7B 01    0E 31
+icewalls        7C 01    0E 31
+
+POWDER
+skeleton-death  7D 01    10 22
+tumeris-blink   7E 01    10 22
+creation-create 7F 01    10 22
+farie-sleep     80 01    10 22
+sneeze-itching  81 01    10 22
+flash-blinding  82 01    10 22
+snake-poison    83 01    10 22
+bone-weaken     84 01    10 22
+widows-deadlypoi85 01    10 22
+
+FOOD
+dungores ale    86 01
+bread rolls     87 01
+golden apples   88 01    0F 63
+bunch bananas   89 01    0F 63
+mosers tea      8A 01
+bottle old jake 8B 01
+milk magnesia   8C 01
+
+
+faerie stick    8D 01    02 12
+gossamer gown(U)8E 01
+gossamer gown(L)8F 01
+
+MAPS
+*temple*        90 01    0E 21
+*boat*          91 01    0E 21
+*serpent*       92 01    0E 21
+*dragon*        93 01    0E 21
+*sphinx*        94 01    0E 21
+*crypt*         95 01    0E 21
+*legend*        96 01    0E 21
+*crystal*       97 01    0E 21
+*star*          98 01    0E 21
+*globe*         99 01    0E 21
+*fools*         9A 01    0E 21
+journey map kit 9B 01
+
+
+book of relics  9C 01    0E 31
+filchers band   9D 01
+flynns cap      9E 01    06 41
+
+
+goatfoot boots  9F 01
+knock picks     A0 01
+nothing         A1 01
+nothing         A2 01
+cane of corpus  A3 01
+inn key         A4 01
+parchment       A5 01    0E 21
+skull bones     A6 01
+black wafer     A7 01
+prison key      A8 01
+letter boerigardA9 01
+iron key        AA 01
+pewter key      AB 01
+copper penny    AC 01    0E 73
+rebus egge      AD 01
+deadmans hair   AE 01    05 6D
+old city key    AF 01
+book of fables  B0 01    0E 31
+control card    B1 01
+nothing         B2 01
+key gorn king   B3 01
+armory key      B4 01
+crown key       B5 01
+key of azure    B6 01
+ring steel keys B7 01
+murkatos words  B8 01    0E 31
+bonsai tree     B9 01
+bone combs brushBA 01
+polished plate  BB 01
+gem of power    BC 01
+salted munk meatBD 01
+munk innards    BE 01
+well coins      BF 01
+bean pentacles  C0 01
+bean of wands   C1 01
+bean of swords  C2 01
+bean of cups    C3 01
+diamond coin    C4 01
+amber coin      C5 01
+ruby coin       C6 01
+emarald coin    C7 01
+moonstone       C8 01
+smoking pipe    C9 01
+mystery pastilleCA 01
+pipe&pastille   CB 01
+cable trolly    CC 01
+note xen xheng  CD 01
+finger rod      CE 01
+longstem spade  CF 01
+tydnab emyt     D0 01
+crux crossing   D1 01
+finger rod      D2 01
+finger rod      D3 01
+thermalpineappleD4 01
+mystery ray     D5 01
+ymmus paw       D6 01
+t'rang portbook D7 01
+tx -coder       D8 01
+red rubber ball D9 01
+brass key       DA 01
+silver key      DB 01
+signet ring     DC 01
+feather weight  DD 01
+ring reflextion DE 01
+wooden dowel    DF 01
+black pyramid   E0 01
+lodestone       E1 01
+rubber band     E2 01
+tarnished key   E3 01
+spool handle    E4 01
+painted ball    E5 01
+black ball      E6 01
+bar & rope      E7 01
+vine 250'       E8 01
+vine 500'       E9 01
+vine 750'       EA 01
+vine 1000'      EB 01
+necromatic helm EC 01
+golden teeth    ED 01
+golden ears     EE 01
+golden nose     EF 01
+golden eyes     F0 01
+elysiad divinityF1 01
+majestik wand   F2 01
+red rosis       F3 01
+purple plumac   F4 01
+white dahlia    F5 01
+yellow lione    F6 01
+blue mythia     F7 01
+notched shaft   F8 01
+rusted keys     F9 01
+munks key       FA 01
+key good keep   FB 01
+onyx key        FC 01
+key the temple  FD 01
+holy covenant   FE 01
+wikum powerglobeFF 01
+practice target 00 02
+humpa card      01 02
+inf #1 orders   02 02
+inf #2 orders   03 02
+inf #3 orders   04 02
+inf #4 orders   05 02
+inf #5 orders   06 02
+inf #6 orders   07 02
+yamos dispatch  08 02
+jonga powder-
+  dispel undead 09 02    10 22
+golden idol     0A 02
+key the beasts  0B 02
+key the stone   0C 02
+coffer key      0D 02
+coffer key      0E 02
+coffer key      0F 02
+coffer key      10 02
+coffer key      11 02
+key of ascension12 02
+chrome key      13 02
+cornu demonspawn14 02
+ring of demons  15 02
+ashes of diam   16 02    10 22
+stone of gates  17 02
+book immortals  18 02
+jewel of the sun19 02
+coil the serpent1A 02
+credit card     1B 02
+storage key     1C 02
+key of light    1D 02
+helazoids banner1E 02
+ring the globe  1F 02
+locket the tomb 20 02
+key the dragon  21 02
+key the tombs   22 02
+key the crypts  23 02
+key the skulls  24 02
+key the gorrors 25 02
+key the gate    26 02
+key the waters  27 02
+vitalins device 28 02
+astral dominae  29 02
+comm link device2A 02
+old city key    2B 02
+rosis & mythia  2C 02
+plumac & lione  2D 02
+orchid ambrosia 2E 02
+dahlia water    2F 02
+snakes speed    30 02    0C 20
+golden medalion 31 02
+old gate key    32 02
+sea shells      33 02
+freckled wh ball34 02
+beanie          35 02
+gnarled wheel   36 02
+umbrella        37 02
+rubber shoe(1)  38 02
+
+error messages and blanks.
+The end as far as I went. Have fun   Mad Max
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

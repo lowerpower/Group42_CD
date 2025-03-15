@@ -1,0 +1,2837 @@
+
+                   A GUIDE TO INTERNET RESOURCES
+                                FOR
+              NON-PROFIT PUBLIC SERVICE ORGANIZATIONS
+
+                           compiled by
+
+                Sarah Nesbeitt and Richard Truxall
+            School of Information and Library Studies
+                   The University of Michigan
+                   (public-services@umich.edu)
+
+                           Version 2.0
+                     Last Updated:  2/10/95
+                           Size:  123K
+
+PLEASE NOTE:
+Permission to use, copy, and distribute this document in whole
+or in part for non-commercial purpose and without fee is hereby
+granted provided that this permission notice and appropriate
+credit to this document's authors be included in all copies.
+Commercial use of this document requires prior written consent
+from the authors.  The authors assume no responsibility for
+errors, omissions, or results of using the information contained
+herein.
+
+   Copyright (c) 1994,1995 by Sarah Nesbeitt and Richard Truxall
+
+*****************************************************************
+
+                          TABLE OF CONTENTS
+
+
+1.  INTRODUCTION
+
+        1.1.  Statement of Purpose
+        1.2.  How to Use this Guide
+
+2.  INFORMATION ON NON-PROFIT PUBLIC SERVICE ORGANIZATIONS
+
+(an "*" indicates a source not previously included in this guide)
+
+        2.1.  GENERAL SOURCES
+                2.1.1.  alt.co-ops
+                2.1.2.  Association for Research on Nonprofit
+                        Organizations and Voluntary Action
+                        discussion list (ARNOVA-L)
+              * 2.1.3.  Australia and New Zealand Third Sector
+                        Research discussion list (ANZTSR)
+                2.1.4.  Center for Civil Society International
+              * 2.1.5.  Chronicle of Philanthropy mailing list
+                2.1.6.  Institute for Global Communications
+                2.1.7.  Internet Nonprofit Center
+                2.1.8.  Internet Resources for Not-for-Profits
+                2.1.9.  Nonprofit Organizations on the Internet
+                2.1.10. soc.org.nonprofit
+                2.1.11. soc.org.service-clubs.misc
+                2.1.12. US Non-Profit Organizations discussion
+                        list (USNONPROFIT-L)
+          2.2.  FUNDING OPPORTUNITIES
+                2.2.1.  Catalog of Federal Domestic Assistance
+                2.2.2.  Department of Education Office of
+                        Educational Research and Improvement
+                        (OERI)
+                2.2.3.  FEDIX/MOLIS/HERO Information Exchange
+                2.2.4.  Foundation Center
+                2.2.5.  Fundraising and Development discussion
+                        list (FUNDLIST)
+                2.2.6.  Grant discussion list (GRANTS-L)
+                2.2.7.  Granting Agency Deadlines
+                2.2.8.  National Institutes of Health Grants
+                2.2.9.  University of Idaho grants database
+                        (includes "Grant Getters' Guide to the
+                        Internet")
+        2.3.  MANAGEMENT
+                2.3.1.  National Center for Nonprofit Boards
+                2.3.2.  Training and Development discussion list
+        2.4.  PHILANTHROPY
+                2.4.1.  Giving discussion list (GIVING)
+                2.4.2.  Planned Giving discussion list (GIFT-PL)
+        2.5.  VOLUNTEERISM
+                2.5.1.  VISTA Online mailing list (VISTA-L)
+                2.5.2.  Volunteers in Service to America
+                        discussion list (VISTANET)
+
+3.  BUSINESS AND CORPORATE INFORMATION
+
+        3.1.  EDGAR filings with the Securities and Exchange
+              Commission
+        3.2.  Holt's Stock Market Reports
+
+4.  GOVERNMENT INFORMATION (EXCLUDING FUNDING SOURCES)
+
+        4.1.  Americans With Disabilities Act
+        4.2.  Bureau of the Census
+        4.3.  Bureau of Justice Statistics
+        4.4.  Corporation for National and Community Service
+        4.5.  Current Social Service Legislation
+        4.6.  Demographic Information:  Florida State University
+        4.7.  Department of Commerce
+        4.8.  Department of Health and Human Services
+                4.8.1.  Federal Poverty Guidelines
+                4.8.2.  Health Care Finance Administration
+                        (Medicare and Medicaid)
+                4.8.3.  Morbidity and Mortality Weekly Report
+                4.8.4.  Social Security Administration
+        4.9.  Department of Housing and Urban Development
+        4.10. Enterprise Communities and Empowerment Zones
+      * 4.11. Federal Register (full text)
+      * 4.12. Internal Revenue Service (including tax forms)
+        4.13. State Government Information on the Internet
+
+5.  INFORMATION ON HUMAN SERVICE PROGRAMS AND ACTIVITIES
+
+        5.1.  SOURCES COVERING ENTIRE REALM OF HUMAN SERVICES
+                5.1.1.  AT&T 800 Directory on the Internet
+              * 5.1.2.  Computers in the Social Sciences list
+              * 5.1.3.  European Network for Information Technology
+                        in Human Services (ENITH) Web page
+              * 5.1.4.  Feminist Social Work discussion list
+              * 5.1.5.  Field Education for Social Workers list
+                5.1.6.  Human Services Research Institute
+                5.1.7.  National Empowerment Center
+                5.1.8.  National Referral Center Master File
+                5.1.9.  Penpages
+                5.1.10. Social Work discussion list (SOCWORK)
+        5.2.  ADOPTION SERVICES
+              * 5.2.1.  Internet Adoption Photolisting
+        5.3.  CHILDREN, YOUTH, AND FAMILIES
+                5.3.1.  Children, Youth, and Family Consortium
+                5.3.2.  National Extension Children, Youth, and
+                        Family Network (CYFERNet)
+                5.3.3.  ParentLink Community Connection
+        5.4.  COMMUNITY AND URBAN DEVELOPMENT
+              * 5.4.1.  Community Development Banking discussion list
+                5.4.2.  Community Economic Development discussion
+                        list (CED-NET)
+              * 5.4.3.  Futurework discussion list
+                5.4.4.  National Association of Regional Councils
+                        (NARC)
+                5.4.5.  Participatory Rural Appraisal discussion
+                        list (PRA)
+                5.4.6.  Urban Community Development discussion
+                        list (CD4URBAN)
+                5.4.7.  Urban Studies and Planning Housing and
+                        Community Development discussion list (URSP-HCD)
+              * 5.4.8.  Urban Wildlife discussion list (URBWLF-L)
+        5.5.  COMMUNITY NETWORKING
+                5.5.1.  Center for Civic Networking
+                5.5.2.  Communitarians discussion list
+                5.5.3.  Community Idea Net
+                5.5.4.  Community Networking discussion list
+                        (COMMUNET)
+                5.5.5.  Community-Wide Education and Information
+                        Services discussion list (CWEIS)
+              * 5.5.6.  Frankford Plan mailing list
+                5.5.7.  Networks and Community Newsletter
+              * 5.5.8.  New Mexico Communet discussion list
+                5.5.9.  Links to Other Community Networks
+        5.6.  DISABILITY INFORMATION
+              * 5.6.1.  Americans with Disabilities Act discussion
+                        list
+                5.6.2.  Cornucopia of Disability Information
+              * 5.6.3.  Disability Resources, Products, and Services
+        5.7.  EMERGENCY SERVICES
+                5.7.1.  1-800 Hotline Numbers from National
+                        Empowerment Center
+        5.8.  FOOD DISTRIBUTION AND NUTRITION
+                5.8.1.  Food and Nutrition Center
+                5.8.2.  Hungernet / Hungerweb
+        5.9.  GRIEF AND BEREAVEMENT
+              * 5.9.1.  Griefnet
+        5.10. HOUSING AND HOMELESSNESS
+                5.10.1. Cohousing discussion list (COHOUSING-L)
+              * 5.10.2. Homelessness discussion list
+                5.10.3. Housing, Hunger, and Welfare
+        5.11. IMMIGRANTS AND REFUGEES
+                5.11.1. Forced Migration discussion list (forced-
+                        migration)
+                5.11.2. Migration News
+        5.12. MENTAL HEALTH SERVICES
+              * 5.12.1. Alzheimer Web
+                5.12.2. National Institute of Mental Health Gopher
+        5.13. SEXUAL ABUSE AND FAMILY VIOLENCE
+                5.13.1. Intimate Violence discussion list (INTVIO-L)
+                5.13.2. Intimate Violence electronic journal
+                        (EJINTVIO)
+                5.13.3. PAVNET (Partners Against Violence)
+              * 5.13.4. SafetyNet (Domestic Violence Resources)
+        5.14. SUBSTANCE ABUSE SERVICES
+                5.14.1. Alcohol discussion list (ALCOHOL)
+                5.14.2. Drug Abuse discussion list (DRUGABUS)
+
+6.  CREDITS AND ACKNOWLEDGMENTS
+
+7.  APPENDICES
+        7.1.  How to Find this Guide
+        7.2.  Other Useful Guides
+        7.3.  Alphabetical Index
+        7.4.  Tool Index
+
+****************************************************************
+
+1.  INTRODUCTION
+
+1.1.  Statement of Purpose
+
+We have created this guide in order to help administrators
+and employees of non-profit, public service organizations
+easily locate relevant information on the Internet.
+We have worked in conjunction with Metro Detroit Comnet,
+a consortium of non-profit social service organizations in
+metropolitan Detroit, in order to help identify the topics
+that would be useful to their member organizations.  We
+hope that the Internet community at large finds the
+information in this guide useful as well.
+
+In creating this guide, we have included only resources
+that are publicly available on the Internet.  Any resources
+that require extra fees for access were omitted.
+
+This guide assumes a basic familiarity with the Internet,
+its terminology, and how to find a useful resource given
+an Internet address.  If you, in reading this guide, come
+across any terms that you do not understand, please refer
+to any of the numerous online or print guides to the
+Internet.  For beginners, we recommend Ed Krol's "The
+Whole Internet: A User's Guide and Catalog," available
+in most bookstores.
+
+We welcome any comments or suggestions on this guide, and
+we especially encourage readers to send us information on
+additional resources we may have missed.  Please forward
+any such information to public-services@umich.edu.
+
+A final note for those with World Wide Web access:  an
+HTML version of this guide, providing direct access to
+the resources described here, is currently available at
+http://asa.ugl.lib.umich.edu/chdocs/nonprofits/nonprofits.html.
+
+1.2.  How to Use this Guide
+
+We have organized this guide by subject, as we believe that
+will be the easiest way for you to locate the information that
+you are interested in finding.  We have attempted to include
+as much information about each resource as possible, and have
+provided this in the following basic format headings:
+
+TYPE:  Nature of resource:  Gopher, WWW site, mailing list, etc.
+
+ADDRESS:  For mailing lists, this field provides information
+on how to post messages.  For other sites, this field gives
+the address of the resource and the menus you'll need to
+select to find it.
+
+SUBSCRIBE: Subscription information (mailing lists only).
+
+URL:  The Uniform Resource Locator (URL) is used for
+locating information on the World Wide Web, a hypertext-
+based navigation tool which is becoming widely used.  It
+explains the type of access tool used, the address, and
+directory needed, using the following basic format:
+
+        tool://host.domain:port/path/file
+
+As an example, one URL for the Clearinghouse where this
+guide is located is:
+        
+        http://http2.sils.umich.edu/~lou/chhome.html
+
+CONTACT:  Who to contact with comments or questions about
+a resource.
+
+COMMENTS:  A description of the resource's contents and
+and evaluative information to help you determine whether
+or not the resource will help you *before* you spend time
+trying to find it.
+
+There are numerous ways that you can utilize this guide fully.
+We've listed the three primary methods below:
+
+Method #1:  You can easily use this guide online.  Once you
+find a section that you are interested in, you can do a
+search for that section of the document.  The method for
+this will vary depending on the software you are using, but
+we will give an example as though you are dialing in using
+VT100 emulation (which is the most common form of dial up
+access).  For most remote gopher software, you only need to
+type either an "s" or a "/" (without the quotes), and you will
+be asked to enter a search string.  At this point, type in the
+number of the section that you are interested in (or a subject
+if you would rather).  For example, if you wanted to go to the
+alphabetical index, you would simply type a 7.3 and hit the
+enter key, and bingo, you are taken right to the section that
+you want.  If all else fails, check your software documentation
+or ask your system administrator if you have trouble searching
+this (or any other) document.
+
+Method #2:  You can download the document onto a disk and open
+it as a word processing file.  This allows you to electronically
+search for specific sections by using the "find" function of your
+word processing program.  For the best results in keeping the
+formatting of this document intact, make sure that the margins
+are set to 1" on each side, and the font is set to 10
+characters per inch.
+
+Method #3:  You can also print out this document in its
+entirety.  We have included an alphabetical index and a tool
+index of resources in order to help facilitate the use of a
+printed version of the guide.  A 10 cpi printer font will
+give the best results.
+
+A NOTE TO THOSE WHO ACCESS INTERNET RESOURCES BY E-MAIL ONLY:
+We suggest you retrive the following guide, which will
+explain how to access Gopher and WWW resources over
+e-mail.  Send an e-mail message to listserv@ubvm.cc.buffalo.edu
+with a blank subject, and "GET INTERNET BY-EMAIL NETTRAIN F=MAIL"
+(without the quotes) in the message body.
+
+
+2.  INFORMATION ON NON-PROFIT PUBLIC SERVICE ORGANIZATIONS
+
+2.1.  General Sources
+
+2.1.1.  alt.co-ops
+
+TYPE:      Usenet newsgroup
+COMMENTS:
+Discussions on this newsgroup cover all aspects of the co-op
+and co-op structure, from legal aspects of forming a co-op to the
+future of co-ops with regard to the Internet and electronic
+communication.  The traffic on this newsgroup has reached the
+point of 5-10 messages per day, which makes it an easy newsgroup
+to follow.  The discussions are generally quite enthusiastic,
+as many of the posters are relatively new to the Internet.
+We would expect this list to grow in the future as more co-ops
+become an active part of the Internet.
+
+2.1.2.  Association for Research on Nonprofit Organizations
+        and Voluntary Action discussion list (ARNOVA-L)
+
+TYPE:      E-mail discussion list
+ADDRESS:   arnova-l@wvnvm.wvnet.edu (to post)
+SUBSCRIBE: E-mail to listserv@wvnvm.wvnet.edu; use "subscribe
+           arnova-l <your name>" in message body.  Subscrip-
+           tions are not automatic, and requests will be
+           forwarded to the list owner.
+CONTACT:   Roger Lohmann (rlohman@wvnvm.wvnet.edu)
+COMMENTS:
+ARNOVA-L is a restricted list aimed at researchers and
+research-oriented practititioners interested in non-profit
+organizations, volunteerism, and philanthropy.  This list
+was started by several members of ARNOVA (the Association
+for Research on Non-Profit Organizations and Voluntary
+Action) and continues to maintain informal ties to this
+organization.  All postings are in English, and although
+most subscribers are American, over a dozen countries are
+represented in total.  Past messages are archived at the
+above Listserv site.
+
+2.1.3.  Australia and New Zealand Third Sector Research
+        discussion list (ANZTSR)
+
+TYPE:      E-mail discussion list
+ADDRESS:   anztsr@qut.edu.au (to post)
+SUBSCRIBE: Send e-mail to mailserv@qut.edu.au; use "subscribe
+           anztsr" in message body
+CONTACT:   Myles McGregor-Lowndes (m.mcgregor@qut.edu.au)
+COMMENTS:
+This list appears to have branched off the ARNOVA list, and
+is dedicated to research on non-profit organizations in
+Australia and New Zealand.  As yet, *very* low volume; perhaps
+a message every few weeks.
+
+2.1.4.  Center for Civil Society International (CCSI)
+
+TYPE:     World Wide Web site (reachable through telnet)
+ADDRESS:  telnet to solar.rtd.utk.edu; type "friends" at login
+          prompt, and then choose "Center for Civil Society
+          International"
+          Users in the former Soviet Union can reach the same
+          site by telnetting to april.ibpm.serpukhov.su and
+          typing "friends" at the login prompt.
+URL:      http://solar.rtd.utk.edu/~ccsi/ccsihome.html
+CONTACT:  Greg Cole (gcole@solar.rtd.utk.edu) on the USA end
+          OR Natasha Bulashova (natasha@ibpm.serpukhov.su) in
+          the Newly Independent States (NIS).
+COMMENTS:
+CCSI is an international clearinghouse for local organizations
+in North America to establish links with counterpart organiz-
+ations in the former Soviet Union; it helps individuals and
+voluntary organizations in Russia and the NIS to identify
+North American contacts.  Their home page (accessible through
+the above URLs and telnet addresses) is very well organized,
+and provides profiles of 140 US organizations, information on
+how North Americans can locate service opportunities in the
+NIS, funding opportunities, and profiles of voluntary organ-
+izations in the NIS.  CCSI also puts out a monthly news
+bulletin which is included here.
+
+2.1.5.  Chronicle of Philanthropy mailing list
+
+TYPE:      Electronic mailing list
+SUBSCRIBE: Send e-mail to chronicle-request@nonprofit.com; use
+           "subscribe chronicle <your name and organization>"
+           in message body.
+CONTACT:   Editors (editors@nonprofit.com)
+COMMENTS:
+The Chronicle of Philanthropy, America's premier magazine for
+the nonprofit world, now has an electronic mailing list which
+supplements the paper issue.  Every other Tuesday, the editors
+will mail out summaries of current issues relating to nonprofits;
+on the Tuesdays in between, subscribers will receive listings of
+forthcoming conferences and workshops for different regions in
+the United States.
+
+2.1.6.  Institute for Global Communications
+
+TYPE:      Gopher
+ADDRESS:   gopher gopher.igc.apc.org
+URL:       gopher://gopher.igc.apc.org:70/11/orgs
+CONTACT:   igc-info@igc.apc.org
+COMMENTS:
+This Gopher provides space for non-governmental organiz-
+ations to inform Internet users as to their programs.
+Over thirty organizations are listed here, and their
+emphases range from dispute and conflict resolution to
+women's issues to rainforest action.  May be useful for
+non-profits to see what other organizations across the
+country are doing.
+
+2.1.7.  Internet Nonprofit Center
+
+TYPE:      Gopher
+ADDRESS:   gopher people.human.com / Internet Nonprofit
+           Center
+URL:       gopher://people.human.com:70/11/inc
+           OR http://human.com/inc (for new Web site)
+CONTACT:   Cliff Landesman (clandesm@panix.com)
+COMMENTS:
+Provides information useful for nonprofit employees, volunteers,
+and potential donors, including:  a list of organizations who
+received highest marks from the American Institute of Philanthropy,
+annual reports of national nonprofit organizations, a bibliography
+of relevant literature, and "volunteers wanted" notices.  INC's new
+Web page also contains a database of information on over 5000
+non-profit organizations (still under construction).
+
+2.1.8.  Internet Resources for Not-for-Profits
+
+TYPE:      Single document
+ADDRESS:   gopher toby.scott.nwu.edu / Interest Groups and
+           Social Movements/ Internet Resources for Non-Profit
+           Organizations
+           Also available via the Clearinghouse for Subject-
+           Oriented Internet Resource Guides.
+URL:       gopher//una.hh.lib.umich.edu/00/inetdirsstacks/
+           notprofit%3aheydorn
+CONTACT:   Munn Heydorn (munn@interaccess.com)
+COMMENTS:
+This is a guide similar to this one, providing a long listing
+(few descriptions) of Internet sources of potential use to non-profit
+health and human service organizations.  Munn Heydorn's list, in
+contrast to this guide, is organized by type of resource (e-mail list,
+Gopher, etc.) and includes references to net-based support groups.  It
+also provides a lengthy description on how people not hooked up to the
+Internet can access the sources.  Aimed at non-profit organizations as
+well as the recipients of their services.  Updated frequently.
+
+2.1.9.  Nonprofit Organizations on the Internet
+
+TYPE:      World Wide Web page
+URL:       http://www.ai.mit.edu/people/ellens/non.html
+           http://www.ai.mit.edu/people/ellens/non-nopic.html
+           (no graphics)
+CONTACT:   Ellen Spertus (ellens@ai.mit.edu)
+COMMENTS:
+This is a page consisting of brief descriptions of and links
+to national non-profit organizations (some of which are included
+in this guide) with information on the World Wide Web.  Many of the
+links provide brochure-type information on the various organizations.
+Many topics are covered, from food banks to civil liberty to the
+performing arts.  An "icon-free" version of this page is available for
+those of us whose systems take forever to load images.  May be useful
+to see what other programs across the country are accomplishing.
+This page also includes 1993 financial data for many nonprofits
+across the country.  New non-profits are added here regularly.
+
+2.1.10.  soc.org.nonprofit
+
+TYPE:      Usenet newsgroup
+COMMENTS:
+Discussions on this group cover all topics related to non-
+profits: funding, technology, programming, and whatever else
+subscribers wish to discuss. Most contributors seem to be employees
+or volunteers of non-profit organizations.  List volume is on the
+average 5-10 messages per day.  We find this to be one of the primary
+Internet sources for non-profit administrators to consult.  A FAQ
+for the group was completed in Nov. 1994 and can be reached as
+follows:
+        ftp to eskimo.com
+        path /evergreen
+        FAQ is in 4 parts: filenames are npofaq7.1of4 up to
+        npofaq.4of4
+        or via the URL http://www.eskimo.com/~pbarber.
+
+2.1.11.    soc.org.service-clubs.misc
+
+TYPE:      Usenet newsgroup
+COMMENTS:
+Generally, this list includes posting such as Rotarians looking for
+other Rotarians on the Internet.  There is not much discussion
+regarding the formation, function, organization or future of
+service clubs.  This is a very light newsgroup, with perhaps 3
+postings per day.
+
+2.1.12.    US Non-Profit Organizations discussion list
+
+TYPE:      E-mail discussion list
+ADDRESS:   usnonprofit-l@coyote.rain.org
+SUBSCRIBE: E-mail to majordomo@coyote.rain.org; use
+           "subscribe usnonprofit-l" in message body
+CONTACT:   Not provided
+COMMENTS:
+This mailing list is a mirror of the above (2.1.10) newsgroup,
+soc.org.nonprofit, created for individuals without Usenet access.
+List traffic is on the average of 5-10 messages per day.
+
+2.2.  Grants and Funding
+
+2.2.1.  Catalog of Federal Domestic Assistance
+
+TYPE:      Searchable WAIS index
+ADDRESS:   telnet to solar.rtd.utk.edu, login as "gopher" / Federal
+           Government Information / Catalog of Federal Domestic
+           Assistance ; OR
+           gopher to solar.rtd.utk.edu / Federal Government
+           Information / Catalog of Federal Domestic Assistance
+URL:       gopher://solar.rtd.utk.edu/11/Federal/CFDA
+           telnet://solar.rtd.utk.edu
+CONTACT:   Server created eklein@dungeon.sura.net
+COMMENTS:
+The Catalog of Federal Domestic Assistance is a searchable
+directory of financial and nonfinancial assistance programs
+that "provide benefits to the American Public."  The programs
+listed in this database are administered by departments and
+establishments of the Federal Government.  This is a very valuable
+database, as it is extremely easy to use and contains a wide range
+of grants, loans, scholarships and other types of financial
+assistance on a wide variety of topics.
+
+2.2.2.  Dept of Education Office of Education Research &
+        Improvement (OERI)
+
+TYPE:      Gopher
+ADDRESS:   gopher gopher.ed.gov / US Department of Education
+           Programs / Guide to Programs
+URL:       gopher://gopher.ed.gov:70/11/gen_progs/guide
+CONTACT:   Telephone: (202) 219-1547
+           Fax: (202) 219-1817
+           Mail: INet Project Manager
+           U.S. Department of Education
+           Office of Educational Research and
+           Improvement/EIRD
+           555 New Jersey Ave. N.W., Room 214b
+           Washington, D.C.  20208-5725
+           (gopheradm@inet.ed.gov)
+COMMENTS:
+This gopher provides access to a variety of databases that
+include statistics and research and development information
+the is aimed toward the improvement of teaching and learning.
+The information contained in this gopher obviously deals with
+educational institutions, but it also has information on
+adult literacy, vocational, and bilingual programs.
+This gopher also includes information on School-to-Work
+programs that offer funding to state and local institutions
+that are working with high school students in order to
+provide an easier transition into the workforce.  This gopher
+offers a wide variety of information, but it is also indexed,
+which means that users can easily search for information
+relevant to their needs.
+
+2.2.3.   FEDIX/MOLIS/HERO Federal Information Exchange
+
+TYPE:      Gopher and World Wide Web databases
+ADDRESS:   gopher fedix.fie.com
+           telnet fedix.fie.com
+URL:       gopher://fedix.fie.com/1
+           telnet://fedix.fie.com
+           http://web.fie.com/
+CONTACT:   FEDERAL INFORMATION EXCHANGE, INC.
+           A Diversified Information Services Company
+           (E-mail: comments@fedix.fie.com)
+           Main Office : 555 Quince Orchard Road, Suite 200
+           Gaithersburg, Maryland 20878; (301) 975-0103
+           Fax: (301) 975-0109; Helpline: (301) 975-0103
+           Branch Office : 1413 K. Street N.W.
+           Washington, D.C. 20006; (202) 842-2311
+COMMENTS:
+Both the FEDIX (Federal Information Exchange Database) and the
+MOLIS (Minority On-Line Information Service) were created and
+implemented by the Department of Energy and are currently run
+in cooperation with various higher education institutions. The
+FEDIX database contains information on a wide range of federal
+agency programs and opportunities to the higher education
+community, including research opportunities, program contacts,
+scholarships, research equipment, procurement notices, and
+minority opportunities.  The MOLIS database provides compre-
+hensive research and institutional data on Historically Black
+Colleges and Universities and Hispanic Institutions. This
+database includes information on research centers, facilities,
+and equipment; pre-college and education programs; scholarships
+and fellowships; emerging capabilities; revenues and expen-
+ditures, degrees and enrollment; faculty profiles; and
+administrative personnel data.
+
+There is a help line that provides assistance to users of
+the FEDIX or MOLIS systems.  The number for the help line
+is 301-975-0103 and is available Monday through Friday 8:30
+a.m. to 4:30 p.m. Eastern Time, except on federal holidays.
+Free user guides are available on request by calling the
+helpline.
+
+HERO (The Higher Education Resources and Opportunities)
+provides information for women and minorities seeking grant
+and scholarship information.  The database lists the sources
+by institution, and as of the creation of this guide, there
+were only two institutions participating (Johns Hopkins
+University and the University of Virginia).  The information
+provide is very general, but it does give contact
+information.
+
+2.2.4.  The Foundation Center
+
+TYPE:      Gopher
+ADDRESS:   gopher itsa.ucsf.edu / Researcher Tools / The
+           Foundation Center
+URL:       gopher://itsa.ucsf.edu/11/Researcher%20Tools/
+           The%20Foundation%20Center
+           OR http://fdncenter.org/ for Web page
+CONTACT:   Judith Margolin
+           Vice President for Public Services
+           The Foundation Center
+           79 Fifth Avenue
+           New York, New York 10003-3076 OR
+           webmaster@fdncenter.org for Web page
+COMMENTS:
+The Foundation Center in a nonprofit organization that was
+established in 1956 to provide a means for easier access to
+information on philanthropic giving.  This online resource,
+however, does not contain any information on specific grant or
+funding opportunities.  What is included in the gopher is a
+list, broken down by state, of libraries or other organizations
+that offer free access to the many publications that are helpful
+to grantseekers.  Included in the entry is an address and phone
+number for each institution.  The Web page contains useful
+information on researching foundations and current issues of the
+Philanthropy News Digest, a periodical which summarizes phil-
+anthropy-related articles from the major media.
+
+2.2.5.  Fundraising and Development discussion list
+        (FUNDLIST)
+
+TYPE:      E-mail discussion list
+ADDRESS:   fundlist@jhuvm.hcf.jhu.edu (to post)
+SUBSCRIBE: E-mail to listserv@jhuvm.hcf.jhu.edu; use
+           "subscribe fundlist <your name>" in message body
+CONTACT:   Not provided
+COMMENTS:
+Fundlist is an extremely active list, providing at
+least 10 messages per day.  The discussions are limited to
+university alumni organizations or other organizations
+seeking to raise funds for institutions of higher education.
+While much of this information does not directly apply to the
+average nonprofit organization, they do discuss _many_
+fundraising ideas that could be adapted by other
+organizations seeking to raise money.
+
+2.2.6.  Grant Discussion List (GRANTS)
+
+TYPE:      E-mail discussion list
+ADDRESS:   grants-l@gsuvm1.bitnet
+SUBSCRIBE: E-mail to listserv@gsuvm1.bitnet; use "subscribe
+           grants-l <your full name>" in message body
+CONTACT:   Not provided
+COMMENTS:
+An very inactive list, perhaps one or two messages per
+week.  The stated goal of this list is to "to promote
+external funding  for international education and research."
+Following its proposed goal, the list offers information on
+international travel grants and international funding
+opportunities, but it also provides some general grant
+information, such as conferences or workshops that are
+currently being offered.  The list is archived by month.
+
+2.2.7.  Granting Agency Deadlines
+
+TYPE:      Gopher
+ADDRESS:   We could not locate this database's specific
+           location via Gopher menus.  If anyone reading
+           this manages to find it, please let us know!
+URL:       gopher://ukcc.uky.edu/1menu%20UKR200%21191/
+           DEADLINE.INFO
+CONTACT:   Not provided
+COMMENTS:
+This gopher lists deadlines for many government and non-
+government granting agencies.  Included are four broad subject
+categories of agencies:
+        Arts/Humanities/International
+        Education/Human and Community Development
+        Health/Mental Health
+        Science/Engineering
+Each category is then broken down by agency, listed in
+alphabetical order.   Only by going one step further does the
+user actually get to a list of the programs.  For each
+program, there is a brief description of the scope of the
+program, most recent deadlines and an address and phone
+number to contact for more information.  Many of the
+deadlines listed for these programs are not kept up to date,
+which would make it necessary to contact the agency directly
+in order to get the current information.  This is an
+excellent database to use to get an idea of funding
+opportunities available for various types of organizations.
+
+2.2.8.  National Institute of Health Grants
+
+TYPE:      Gopher
+ADDRESS:   gopher gopher.nih.gov / Grants and Research
+           Information
+URL:       gopher://gopher.nih.gov/11/res
+CONTACT:   The NIH Institutional Affairs Office
+           (301) 496-5366
+           (gopher@gopher.nih.gov)
+COMMENTS:
+The National Institute of Health Grants gopher deals
+primarily with research-oriented, health-related issues.
+Many of their programs are designed to be obtained in
+conjuction with a university or large research facility, which
+does not suit the information in this database very well for
+the smaller nonprofit organizations.  Larger nonprofits,
+however, may find much of this information useful.  The
+information in this gopher is easily searchable, which limits
+the amount of time needed to browse through the many listings
+to see if there are any funding opportunities that match the
+grant seeker's topic.  It is possible to search for programs
+that were announced within the last 6 weeks, or for programs
+that have been announced from 1992 to the present.  For each
+program listing, there is a fairly detailed program
+description, deadline dates, the issue of the NIH Guide in
+which the announcement was included.
+
+2.2.9.  University of Idaho Grants Database
+
+TYPE:      Gopher
+ADDRESS:   gopher gopher.uidaho.edu / Science, Research,
+           and Grant Information / Grant Information
+URL:       gopher://gopher.uidaho.edu/11s/e-pubs/grant
+CONTACT:   James Kearney
+           College of Education, #301
+           University of Idaho
+           Moscow, ID 83844-3080
+           tel: 208/885-6610
+           (jkearney@raven.csrv.uidaho.edu)
+COMMENTS:
+This is an excellent place to begin searching for potential
+funding information.  This gopher clusters all of the sources
+cited above into one menu, which makes going from one source
+to another significantly easier.  This gopher also includes the
+_Grant Getters Guide to the Internet_, which is a well designed
+and frequently updated document that provides valuable information
+regarding grant information available over the Internet.
+
+2.3.  Management
+
+2.3.1.  National Center for Nonprofit Boards (NCNB)
+
+TYPE:      Gopher
+ADDRESS:   gopher ncnb.org / Organizations on IGC Networks
+           Gopher / National Center for Nonprofit Boards
+URL:       gopher://ncnb.org:7002/1/
+CONTACT:   ncnb@ncnb.org
+COMMENTS:
+Up and running since August 1994, this gopher is a resource
+from the National Center for Nonprofit Boards, a nonprofit
+organization designed to help other nonprofit leaders improve their
+management skills.  Though many of the menu items are still under
+construction, it currently provides answers to common questions about
+nonprofit boards, a list of workshops they give around the country,
+and publications (paper) available for purchase by mail.  Useful for
+those who wish to see a list of available resources.
+
+2.3.2.  Training and Development discussion list
+
+TYPE:      E-mail discussion list
+ADDRESS:   trdev-l@psuvm.psu.edu (to post)
+SUBSCRIBE: E-mail to listserv@psuvm.psu.edu; use "subscribe
+           trdev-l <your name>" in message body
+CONTACT:   Not provided
+COMMENTS:
+A high-volume list (up to 20 msg/day), this list focuses on
+human resource issues such as training, development, and the
+general management of employees.  Not for non-profits only,
+though many topics here will likely interest non-profit
+administrators.
+
+2.4.  Philanthropy
+
+2.4.1.  Giving discussion list (GIVING)
+
+TYPE:      E-mail discussion list
+ADDRESS:   giving@envirolink.org (to post)
+SUBSCRIBE: E-mail to listproc@envirolink; use "subscribe
+           giving <your name>" in message body
+CONTACT:   Cliff Landesman, list owner (clandesm@panix.com)
+COMMENTS:
+A list for donors, volunteers, and anyone interested in
+philanthropy and volunteer activity.  Postings on individual
+organizations are encouraged.  Fairly low traffic - several
+messages per week.
+
+2.4.2.  Planned Giving Discussion List (GIFT-PL)
+
+TYPE:      E-mail discussion list
+ADDRESS:   gift-pl@vm1.spcs.umn.edu (to post)
+SUBSCRIBE: E-mail to listserv@vm1.spcs.umn.edu; use
+           "subscribe gift-pl <your name>" in message body
+CONTACT:   Not provided
+COMMENTS:
+A discussion of planned giving topics; around 5-10
+postings/day.  A large part of the discussion revolves around
+gift planning and development issues in academic settings,
+though some topics may be of interest to non-profits.
+
+2.5.  Volunteer Activity
+
+2.5.1.  VISTA Online Newsletter
+
+TYPE:      Electronic Newsletter
+SUBSCRIBE: E-mail to listserv@american.edu; use "subscribe
+           vista-l <your full name>" in message body
+CONTACT:   Brian Geoghegan
+           VISTA Recruitment Coordinator
+           (bgeohegan@delphi.com)  OR
+           John Zelson
+           VISTA Recruiter
+           (73302.2504@compuserve.com)
+COMMENTS:
+VISTA Online is a biweekly electronic newsletter from VISTA
+(Volunteers in Service to America), a national service program
+now part of AmeriCorps which is aimed at alleviating poverty
+in this country.  The bulletin contains VISTA assignment openings,
+program updates, and profiles of past and present volunteers.
+Aimed at former, current, and potential volunteers; libraries
+and career centers; professional groups.
+
+2.5.2.  Volunteers in Service to America discussion list
+        (VISTANET)
+
+TYPE:      E-mail discussion list
+ADDRESS:   vistanet@sjuvm.stjohns.edu (to post)
+SUBSCRIBE: e-mail to listserv@sjuvm.stjohns.edu; use
+           "subscribe vistanet <your full name>" in message body.
+CONTACT:   Brian Geoghegan                John Zelson
+           List Owner, VISTAnet           List Owner, VISTAnet
+           VISTA Recruitment Coordinator  VISTA Recruiter
+           Washington, DC                 Philadelphia, PA
+           bgeoghegan@delphi.com          73302.2504@compuserve.com
+COMMENTS:
+VISTAnet is a forum for former and current volunteers from
+VISTA (Volunteers in Service to America) to network with each
+other as well as with VISTA sponsors.  VISTA is a national service
+program which is currently part of AmeriCorps, President Clinton's
+new service initiative.  Volunteers and workers at other national
+service programs and non-profit agencies are encouraged to join.
+Also posted to this list is NewsFlash, a publication of VISTA
+and the Corporation for National and Community Service.  Very
+low traffic (several messages/week); contributors are
+primarily current and former VISTA volunteers.
+
+3.  BUSINESS AND CORPORATE INFORMATION
+
+3.1.  EDGAR filings with Securities and Exchange Commission
+
+TYPE:      Gopher menu with searchable index OR
+           World Wide Web site OR
+           FTP file server
+ADDRESS:   gopher town.hall.org / SEC EDGAR OR
+           ftp town.hall.org / edgar
+URL:       gopher://town.hall.org:70/11/edgar OR
+           http://www.town.hall.org/edgar/edgar.html OR
+           ftp://town.hall.org/edgar
+CONTACT:   E-mail to help@edgar.stern.nyu.edu, with words
+           "send (topic)" in message body, (topic) being the
+           subject you wish help on, such as "WWW."  According
+           to the documentation, however, this help feature
+           will not provide any more information other than
+           what's already available online.
+COMMENTS:
+This server contains all of the electronic filings to the
+Securities and Exchange Commission that are available to the
+public.  Any non-electronic filings are or filings prior to
+1994 are not available through this service.   This service
+is maintained by Mead Data Central on behalf of the Federal
+Government.  Also included on this server is a Guide to
+Corporate SEC Filings, which provides a wealth of information
+regarding the corporate information available through the SEC
+filings.
+
+3.2.  Holt's Stock Market Reports
+
+TYPE:      Daily news bulletin
+ADDRESS:   gopher wuecon.wustl.edu (port 671) / Holt's Stock
+           Market Reports
+URL:       gopher://wuecon.wustl.edu:671/11/holt
+CONTACT:   Bob Parks (bparks@wuecona.wustl.edu) for comments
+           on the Gopher
+           G. Holt (gholt1@nvm.com) for comments on the Reports
+COMMENTS:
+A daily bulletin on the stock market, including:  figures for
+major stocks from Amex, Dow Jones, and NASDAQ exchanges; currency
+exchange rates; interest rates; most active stocks from various
+categories; and more.  Each file is approximately 20K.  Files are
+automatically placed on the Gopher around 5:30 pm of the day
+of the report.
+
+
+4.  GOVERNMENT INFORMATION (EXCLUDING FUNDING SOURCES)
+
+4.1.  Americans With Disabilities Act
+
+TYPE:      Gopher
+ADDRESS:   gopher val-dor.cc.buffalo.edu / Government
+           Documents
+URL:       gopher://val-dor.cc.buffalo.edu:70/00/.legislation
+           /.ada.txt
+CONTACT:   Not provided
+Includes the full text of the Americans with Disabilities Act
+of 1990 and much more.  Also provided are an overview of the
+Act, with regulations specifically for public services, and
+guidelines for specific facilities to follow when providing
+accessibility.  Non-profit administrators may also be interested
+in the texts of two other public laws available here:
+the Elderly and Handicapped Act of 1984, and the Technology-
+Related Assistance for Individuals with Disabilities Act of
+1988.  An excellent starting point.
+
+4.2.  Bureau of the Census
+
+TYPE:      Gopher and WWW page
+ADDRESS:   gopher gopher.census.gov
+           gopher://gopher.census.gov/ (for Gopher site)
+URL:       http://www.census.gov/   (for WWW site)
+CONTACT:   gatekeeper@census.gov
+COMMENTS:
+The Gopher site (gopher.census.gov) includes numerous
+PostScript files on the demographics of particular ethnic
+groups and text files of data from the County and City Data
+Book (state and local rankings and data; includes
+poverty rankings by city), among other things.  Many might
+find it inconvenient to have to download PostScript files
+before they can be used, and this gopher is not as organized
+as it could be.  For this reason, we suggest these additional
+sites for Census data.  The Census Bureau gopher does include
+links to these sites.
+
+The University of Michigan Library Gopher,
+gopher://una.hh.lib.umich.edu:70/00/census
+(US summaries from 1990 census; detailed analyses of
+Michigan state, county, and township data)
+
+The University of Missouri Gopher,
+gopher://bigcat.missouri.edu:70/00/reference/census
+(Basic Tables from 1990 census, Basic Demographic Trends
+in ASCII and Lotus format, population estimates for
+counties)
+
+The Census Bureau's WWW site (http://www.census.gov/) is
+quite new and undergoes revision regularly, but for the most
+part the data available here is the same as on its Gopher.
+The "Other Excellent Sites" section links to other Census
+information providers on the net.
+
+4.3.  Bureau of Justice Statistics
+
+TYPE:      Gopher
+ADDRESS:   gopher gopher.usdoj.gov / Office for Justice
+           Programs / Bureau of Justice Statistics
+URL:       gopher://justice2.usdoj.gov:70/1/ojp/bjs
+CONTACT:   gopher@usdoj.gov
+COMMENTS:
+This Gopher, a publication of the US Department of Justice's
+Bureau of Justice Statistics, provides press releases and
+statistics on the perpetrators and victims of crime in the US.
+Although it may seem as if most of the statistics are out of
+date as they only cover crime activity up to 1993, most of the
+statistics here were not available to be published until
+1994.  Topics range from figures on violence against women to
+the race of prisoners to child rape victims.  Most of the
+additions to this gopher seem fairly recent, but we were not
+able to tell how often it is updated.
+
+4.4.  Corporation for National and Community Service
+
+TYPE:      Gopher
+ADDRESS:   gopher cyfer.esusda.gov / Americans Communicating
+           Electronically / Corporation for National and
+           Community Service
+URL:       gopher://cyfer.esusda.gov:70/11/ace/cncs
+CONTACT:   letters@ace.esusda.gov, for comments on Americans
+           Communicating Electronically gopher
+COMMENTS:
+This is the place for data on AmeriCorps, President Clinton's
+new national service initiative.  Listed are the first wave of
+AmeriCorps national service programs, final regulations, service
+programs, a mission statement, a resource guide, and press
+releases.  A final section gives the recipients of national
+service grants to institutes of higher education.  The information
+here is organized fairly coherently, although we were unable
+to tell how often it is updated.  The Americans Communicating
+Electronically (one gopher-level up) gopher is
+also an excellent resource for government information.
+
+4.5.  Current Social Service Legislation
+
+TYPE:      Gopher
+ADDRESS:   gopher gopher.legislate.com
+           Legislation / 104th Congress Legislation /
+           Arranged by Category
+URL:       gopher://gopher.legislate.com:70/00/Legislation
+CONTACT:   legislate@legislate.com
+COMMENTS:
+The LegiSlate gopher has available information about all
+bills from the 104th Congress, arranged by subject
+category.  (Bills are also organized alphabetically, by
+sponsor, by chamber, and are searchable by keyword.)
+Of special interest to public service non-profits are
+"family, welfare, and human services," "health and medicine,"
+and "housing and urban development."  Included are the full
+text of the each bill (typically the last option), a brief
+description, a short legislative history, and
+more.  The subject categories here are fairly simple, and
+searching by keyword will likely locate any relevant bill.
+
+4.6.  Demographic Information:  The FSU Demography Gopher
+
+TYPE:      Gopher
+ADDRESS:   gopher gopher.fsu.edu / Information from Units /
+           FSU Population Center
+URL:       gopher://gopher.fsu.edu/11/FSU/Popctr
+CONTACT:   Carl Schmertmann
+           Center for the Study of Population
+           Florida State University
+           Tallahassee, FL 32306-4063 USA
+           Phone: (904) 644-1762
+           Fax:   (904) 644-8818
+           (schmertmann@fsu.edu)
+COMMENTS:
+The FSU Demography Gopher is maintained by the Center for the
+Study of Population at Florida State University, with the assistance
+of FSU Academic Computing and Network Services.  Included in the
+gopher are working paper titles, abstracts and ordering information
+for the Florida State and other population centers.  This gopher also
+contains links to various other sites which contain downloadable
+population data, news bulletins or software.
+
+4.7.    Department of Commerce
+
+TYPE:      Gopher and WWW site
+ADDRESS:   gopher sunny.stat-usa.gov (Economic Conversion
+           Info Exchange)
+           gopher cher.eda.doc.gov   (Economics and Statistics
+           Admin)
+URL:       http://www.doc.gov/       (Entire Department)
+           gopher://sunny.stat-usa.gov
+           gopher://cher-eda.doc.gov
+CONTACT:   stat-usa@doc.gov
+COMMENTS:
+Because the various agencies of the Department of Commerce
+are located in many different places on the Internet, it's useful
+to have one location (the WWW site) that ties them all together.
+It links to all DOC agencies and programs with information on the
+net, including the two Gophers mentioned above.  Also included is the
+current US Budget.  However, the layout of the WWW page isn't the
+easiest to follow, as it isn't clear how the various agencies
+fit together.
+
+4.8.  Department of Health and Human Services
+
+TYPE:      Gopher and WWW site
+ADDRESS:   gopher gopher.os.dhhs.gov
+URL:       gopher://gopher.os.dhhs.gov:71/
+           http://www.os.dhhs.gov/
+CONTACT:   tthompso@os.dhhs.gov (for WWW site)
+           Bob Cooley (bcooley@os.dhhs.gov) (for Gopher site)
+COMMENTS: The DHHS Home Page (WWW site) links to the below sites as well
+as to sites of other agencies of DHHS.  Also included are its mission
+statement and a staff directory, as well as abstracts of DHHS program
+evaluations. It's fairly well organized, given that this Web page is
+brand new and still under construction.  The Gopher site contains
+primarily the same information; more easily located here is the Admin-
+istration for Children and Families, which gives specific details on
+its programs and grants.
+
+4.8.1.  Federal Poverty Guidelines
+
+TYPE:      Single document
+URL:       http://www.os.dhhs.gov/0/aspe/poverty/poverty.html
+CONTACT:   US Department of Health and Human Services
+COMMENTS:
+This document lists the guidelines for what is defined as
+"living in poverty" for the fifty states and Washington, DC,
+in 1994.  It was previously published in the February 10,
+1994, _Federal Register_, but having it available on the World
+Wide Web is handy for quick reference.  These guidelines were
+developed by the Department of Health and Human Services.
+
+4.8.2.  Health Care Finance Administration (Medicare and
+        Medicaid)
+
+TYPE:      World Wide Web page
+URL:       http://www.ssa.gov/hcfa/hcfahp2.html
+CONTACT:   tanzalon@gate.hcfa.gov
+COMMENTS:
+Here, the Health Care Finance Administration posts press
+releases, research initiatives, and general information
+about the Medicare and Medicaid programs.  Information here
+is updated fairly frequently.  Of special note is the Medicare
+1994 Handbook.  Unfortunately, a file supposedly containing 85
+commonly asked questions about the HCFA is currently blank,
+but this will likely change in the near future.
+
+4.8.3.  Morbidity and Mortality Weekly Report
+
+TYPE:      Weekly report
+ADDRESS:   gopher cwis.usc.edu / The Health Science Campus /
+           Periodicals / Morbidity and Mortality Weekly Report
+URL:       gopher://cwis.usc.edu/00/The_Health_Science_Campus
+           /Periodicals/mmwr
+CONTACT:   Not provided
+COMMENTS:
+Provided here is the most current issue as well as back
+issues from June 1993 to the present.  The most current issue
+is a bit inconveniently located, being last in a long string of
+menu choices.  Reported here are results of research on morbidity
+and mortality as well as recent statistics.  Each issue is
+approximately 30-40 pages (~45K) long.
+
+4.8.4.  Social Security Administration
+
+TYPE:      Gopher and WWW page
+ADDRESS:   gopher oss968.ssa.gov
+URL:       gopher://oss968.ssa.gov:70/1
+           http://www.ssa.gov/
+CONTACT:   Bruce Carter (bwcarter@ssa.gov) for Gopher
+           webmaster@ssa.gov for WWW page
+           OR 1-800-772-1213
+COMMENTS:
+In the SSA's Gopher are general information on Social
+Security cards, benefits, and statistics from the Social
+Security Bulletin, among other things.  In addition, the
+Frequently Asked Questions list will likely save a lot of
+calls to the national office.  A positive step, however, is
+a Spanish version of everything on this Gopher under the
+first menu option.  The World Wide Web page contains
+everything on the Gopher with the addition of the Handbook,
+a policy forum, the current annual report, the FY95 budget,
+and the full text of general informational publications.
+The SSA will become an independent agency on March 31, 1995.
+
+4.9.  Department of Housing and Urban Development
+
+TYPE:      Gopher
+ADDRESS:   gopher gopher.hud.gov
+URL:       gopher://gopher.hud.gov:70/1/
+CONTACT:   postmaster@hud.gov
+COMMENTS:
+At the present time, the only menu items which present
+information on HUD are its mission statement (from 10/93)
+and some functions of the various HUD offices.  The other
+options - over  90% of menu choices - lead nowhere
+or are unavailable, which is unfortunate.  It was not clear
+whether this Gopher is still under construction.  Two main
+menu items, PAVNET (section 5.13.3 below) and Americans
+Communicating Electronically are indeed useful sources but
+have little direct relation to the functions of HUD.
+
+As things stand now, this Gopher isn't terribly useful.  We
+are including mention of it in this guide in the hopes that one
+day things will be fixed.
+
+4.10.  Enterprise Communities and Empowerment Zones
+
+TYPE:      Gopher
+ADDRESS:   gopher cyfer.esusda.gov / Americans Communicating
+           Electronically / Enterprise Communities and
+           Empowerment Zones
+URL:       gopher://cyfer.esusda.gov:70/11/ace/ezec
+CONTACT:   letters@ace.esusda.gov, for comments on Americans
+           Communicating Electronically gopher
+           Janice Knutson (jknutson@esusda.gov) for questions on
+           urban programs
+           Beverly Gillot (rda@tele.fmha.gov) for questions on
+           rural programs
+COMMENTS:
+Includes press releases, speeches, and general information on
+the EC/EZ programs, including descriptions of available
+resources, a FAQ ("Frequently Asked Questions") list about rural
+and urban EC/EZs, contact names by state, and an application guide.
+Some files are also available in WordPerfect and PostScript formats.
+Many of the guides here are actually the texts of press releases
+and briefings.  A useful collection of primary source material about
+the programs.  The Gopher is well organized for the most part,
+but it is not always clear from the titles just what the
+binary files contain.
+
+4.11.   Federal Register (Full Text)
+
+TYPE:      Telnet site
+ADDRESS:   telnet to 128.206.1.3 (via Columbia Online Information
+           Network) OR
+           telnet to 198.137.188.2 (via Seattle Public Library)
+URL:       telnet://128.206.1.3 OR telnet://198.137.188.2
+CONTACT:   Not provided
+COMMENTS:
+At last, the full text of the Federal Register is available
+free of charge on the Internet, via two community-based systems:
+Columbia Online Information Network (COIN) in Columbia, MO, and
+the Seattle (WA) Public Library.  Both sites contain the same
+information, so use whichever has the least traffic.  At both
+locations, information from the Federal Register is searchable
+by keyword.  There is a maximum number of logins each system
+can handle at once (usu. 5) so searching during off hours would
+be a good idea.
+
+Instructions for accessing FR from COIN:  telnet to 128.206.1.3,
+log in as "guest," and select the following from the menus:
+  (5) Government Center
+   (4) Access the Government Center
+    (2) United States of America
+     (1) GPO Access
+Enter your terminal type (usually vt100).  Use the arrow keys to
+select a database, and mark your choice by pressing <space> then
+<enter>.  At this point, enter the keywords you want to search on.
+
+Instructions for accessing FR from Seattle:  telnet to 198.137.188.2,
+log in as "library," set your terminal correctly (usually vt100), and
+select the following menu choices:
+ (14) Internet and Seattle Community Net
+  (1) Internet and Seattle Community Network
+   (3) Government Printing Office Online Access
+Press "c" to connect.  You may be asked to reenter your terminal type.
+At this point, follow the directions above for selecting a database
+and searching by keyword.
+
+4.12.  Internal Revenue Service
+
+TYPE:      World Wide Web page
+URL:       http://www.ustreas.gov/treasury/bureaus/irs/irs.html
+CONTACT:   Not provided
+COMMENTS:
+Tax forms, directions for filing, and a list of answers to
+frequently asked questions are available here on the IRS's
+Web page.  As of early February 1995, 1994 tax forms are not
+available here yet, but with luck this will change soon.  In
+order to view the forms, you will need the Adobe Acrobat
+reader (a piece of software available for download here).
+
+4.13.  State Government Information on the Internet
+
+TYPE:      Gopher
+ADDRESS:   gopher cwis.usc.edu / Other Government and
+           Information Resources / Gophers by Subject /
+           Gopher Jewels / Government / State Government
+URL:       gopher://cwis.usc.edu/11/Other_Government_
+           and_Information_Resources/Gophers_by_Subject/
+           Gopher_Jewels/government/states
+CONTACT:   Not provided
+COMMENTS:
+Gopher Jewels (a system of organizing Gopher resources by
+subject) includes a list of state government gophers, listed
+by state.  Because each Gopher here is organized by a different
+group of people from almost every state, no generalizations can
+be made about their contents.  In any case, the address is provided
+here for non-profits interested in learning more about state
+government information sources.
+
+
+5.  INFORMATION ON HUMAN SERVICE PROGRAMS AND ACTIVITIES
+
+5.1.  Sources Covering Entire Realm of Human Services
+
+5.1.1.  AT&T 800 Directory on the Internet
+
+TYPE:      World Wide Web site
+URL:       http://att.net/dir800
+CONTACT:   Patricia G. Selden, Publisher
+           (dir800@mail.att.net)
+           OR call 1-800-562-2255 for information.
+COMMENTS:
+This WWW site contains the electronic version of AT&T's
+directory of 1-800 phone numbers (although the documentation
+states that not everything from the printed version is
+duplicated here).  At present, one can access these numbers
+either alphabetically by category or organization name;
+keyword searching capabilities are expected shortly.
+Though most of the entries are for companies and products,
+there are many categories which could be used by non-profits
+for information and referral.  Of note are the categories
+"social service organizations," "adoption services," "child
+abuse information and treatment centers," "women's organ-
+izations," and more.  Some numbers belong to local or state
+organizations, while others belong to national hotlines.
+Keyword searching will greatly improve access to this site.
+
+5.1.2.  Computers in the Social Sciences (CUSSNET) discussion
+        list
+
+TYPE:      E-mail discussion list
+ADDRESS:   cussnet-list@stat.com (to post)
+SUBSCRIBE: Send e-mail to listserv@stat.com; use "subscribe
+           cussnet-list <your name>" in message body
+           OR, to receive digests of messages, use "subscribe
+           cussnet-digest <your name>" in message body
+CONTACT:   cussnet-request@stat.com
+COMMENTS:
+This is a list for social workers, counselors, human service
+workers, and everyone else interested in the applications and
+implications of information technology in the social sciences.
+Fairly low traffic (at most, several messages/day).
+
+5.1.3.  European Network for Information Technology in
+        Human Services (ENITH) Web page
+
+TYPE:      World Wide Web page
+URL:       http://www.uia.ua.ac.be/u/enith
+CONTACT:   enith@psws.uia.ac.be
+COMMENTS:
+The highlight of this newly-developed (1/95) page is an
+abstracting-indexing service that provides, free of charge,
+over 850 references and abstracts for articles on the use
+of information technology in human services.  Articles are
+searchable by keyword, author, or journal.  In addition,
+information on ENITH's projects, publications, and upcoming
+conferences is available here.
+
+5.1.4.  Feminist Social Work discussion list
+
+TYPE:      E-mail discussion list
+ADDRESS:   femsw-l@moose.uvm.edu (to post)
+SUBSCRIBE: Send e-mail to listproc@moose.uvm.edu; use "subscribe
+           femsw-l <your name>" in message body
+CONTACT:   Katy Biron (kbiron@moose.uvm.edu)
+COMMENTS:
+This new list (1/95) branched off of the Social Work
+discussion list recently; discussions here are meant to cover
+how feminism fits with social work.  Conversation debating
+the validity of feminism itself is discouraged.
+
+5.1.5.  Field Education discussion list
+
+TYPE:      E-mail discussion list
+ADDRESS:   sw-fieldwork@nmsu.edu
+SUBSCRIBE: Send e-mail to listserv@nmsu.edu; use "subscribe
+           sw-fieldwork <your name>" in message body
+CONTACT:   Gerald Vest (gvest@nmsu.edu)
+COMMENTS:
+This list is directed toward social workers in the field, and
+field education specifically; potential listmembers include
+field directors, coordinators, students, and supervisors.
+
+5.1.6.  Human Services Research Institute
+
+TYPE:      Gopher, E-mail discussion lists, FTP Site,
+           File by Mail Server
+ADDRESS:   gopher gopher.std.com / Non-Profit Organizations /
+           Human Services Research Institute
+           ftp ftp.std.com / nonprofit / hsri
+URL:       gopher://ftp.std.com/11/nonprofits/hsri
+CONTACT:   Jonathan Hurwitz (postmaster@hsri.org)
+           Mail: Human Services Research Institute
+           2336 Massachusetts Avenue
+           Cambridge MA 02140
+           PHONE (1) 617 876-0426      tecenter@hsri.org
+           FAX   (1) 617 492-7401      tecenter@world.std.com
+COMMENTS:
+This system is part of the Evaluation Center at the Human
+Services Research Institute, and is funded to help provide
+assistance with the evaluation of adult mental health
+system change.  This gopher can be broken down into four
+separate parts, all of which revolve around different
+aspects of adult mental health system evaluation and health
+care reform.  Each part is actually a listserv discussion
+group that is archived at this gopher site.  The four parts
+are as follows:
+
+NHCTEN (Topical Evaluation Network on National Health Care
+Reform) - which focuses on the effects of the national health
+care reforms on mental health care and substance abuse systems.
+To subscribe to the listserv, send an e-mail message to:
+majordomo@world.std.com with "subscribe nhcten" as the
+message body.
+
+OUTCOME (Topical Evaluation Network on Outcomes
+Evaluation) - which attempts to "develop a broad
+collective expertise with regard to problems assessing
+and analyzing outcomes of interventions aimed at improving
+mental health."  To subscribe to the listserv, send an
+e-mail message to:
+majordomo@world.std.com with "subscribe outcometen" as
+the message body
+
+LEGALTEN (Topical Evaluation Network on Legal & Forensic
+Issues in Mental Health) - focuses on the relationship
+between the mental health system, the criminal justice
+system and the courts.  To subscribe, send an e-mail
+message to:
+majordomo@world.std.com with "subscribe legalten" as the
+message body
+
+EVALTEN (Topical Evaluation Network on Evaluation
+Methodology & Statistics) - focuses on providing a
+network of individuals to provide all aspects of survey
+development and statistical analysis of mental health
+systems.  To subscribe to this discussion list, send
+an e-mail message to:
+majordomo@world.std.com with "subscribe evalten" as the
+message body.
+
+There is also a File by Mail Server which allows users that
+only have e-mail access to send for files.  To learn how to
+use this service send an e-mail message to the following address:
+tecinfo@hsri.org, with "request" (in all lowercase letters)
+as the subject line and "get help" as the message body.
+
+5.1.7.  National Empowerment Center
+
+TYPE:      Gopher
+ADDRESS:   gopher gopher.std.com / Non-Profit Organizations
+           / The National Empowerment Center
+URL:       gopher://gopher.std.com:70/11/nonprofits/
+           empowerment-ctr
+CONTACT:   Not available
+COMMENTS:
+This resources contains a vast wealth of information.
+Some of the topics included at this site are : the
+Americans with Disabilities Employers Manual and other
+ADA information, depression, health care and health care
+reform, disability statistics, etc.  The list is quite
+impressive (and too long to include in its entirety).
+Many of the sources are papers or text documents that
+present a perspective on a particular issue, such as the
+document entitled _Invisible in the U.S.A._ which discusses
+post-recovery experiences for mentally ill persons.
+Of particular interest might the informtion regarding the
+following:
+
+Gifts in Kind America, which is an organization that
+collects and redistributes used computer equipment to
+non-profit organizations.
+
+Information regarding the National Institute on Disability
+and Rehabilitation Research, which includes disability and
+rehabilitation research.
+
+This is certainly a site worth taking a moment to look at, as it contains
+a wealth of potentially useful information.
+
+5.1.8.  National Referral Center Master File
+
+TYPE:     Telnet site / Database
+ADDRESS:  telnet to locis.loc.gov / choose "organizations"
+          from main menu
+URL:      telnet://locis.loc.gov
+CONTACT:
+COMMENTS:
+We cannot emphasize enough the potential value this
+database from the Library of Congress holds for non-
+profit organizations wishing to contact organizations
+with similar focus across the country.  The system
+contains over 12,000 entries for American organizations,
+including address, phone, information services provided
+by each, areas of concern, a brief description, their
+library holdings, publications they produce, and whether
+there is any charge to use their services (most will
+provide information about their organizations and programs
+at no charge).
+
+The database can be used as an instant "information and
+referral service" to find information on or to direct clients
+to a variety of national, state, and local organizations.
+The one drawback to this database is its user-unfriendli-
+ness; we suggest going through the help screens thoroughly.
+One hint:  "BRWS <subject-area>" will display the names of
+all organizations concerned with a given subject.  Searches
+can also be limited to a given city or state if desired.
+
+5.1.9.  Penpages
+
+TYPE:      Telnet Databases
+ADDRESS:   telnet psupen.psu.edu / login as your two letter
+           state abbreviation (MI, NY, etc.) or as WORLD if you
+           are logging in from outside the United States
+CONTACT:   PENpages Coordinator
+           405 Ag Admin Building
+           University Park, PA  16802
+           Internet:  PPMENU@PSUPEN.PSU.EDU
+           BITNET:    PPMENU@PSUPEN
+           Phone:     (814) 863-3449
+COMMENTS:
+Penpages is a series of full text databases that can easily be
+searched in order to find relevant information on a wide variety
+of topics.   Because Penpages is maintained by the College of
+Agricultural Sciences at Pennsylvania State University, there
+is a tremendous amount of agricultural oriented information.
+The system is certainly not limited to agricultural
+information, which makes useful for most any organization.
+The following databases are included in Penpages:
+           IFAN - International Food And Nutrition database
+           MAPP - National Family Database
+           Senior Series Database
+           The 4-H Youth Development Database
+           Cooperative Extension System (CES) Diversity &
+              Pluralism Database
+These databases provide a wide range of documents that can be
+obtained through Penpages.  The databases are all searched
+simultaneously, so that users do not need to attempt to determine
+which database fits their needs best.  The documents are provided
+by universities and other organizations that have created documents
+that fit the scope of Penpages and credit and contact information
+is given for each article.  The documents are arranged by topics,
+such as homeless, aging or youth, which makes searching for
+documents fairly easy.  The system is different than most other
+Internet accessible databases, so it may take the user a few extra
+minutes the first time that Penpages is used.  Once you've learned
+how to maneuver within the system, finding information should be
+fairly easy.
+
+5.1.10.  Social Work discussion list (SOCWORK)
+
+TYPE:      E-mail discussion list
+ADDRESS:   socwork@uafsysb.bitnet OR
+           socwork@uafsysb.uark.edu (to post)
+SUBSCRIBE: E-mail to listserv@uafsysb.bitnet; use "subscribe
+           socwork <your name>" in message body
+CONTACT:   Cindy L. Jones (cljones@uafsysb.uark.edu)
+COMMENTS:
+A high-volume list (10-20 messages per day), SOCWORK
+contains discussion among social workers both in academia
+and out in the field.  Members typically talk about social
+programs currently in progress and ask advice to see how
+their peers would handle a given situation.  As with many
+high-volume lists, flame wars occasionally develop.  However,
+this is a forum recommended to all interested in social work,
+especially those individuals involved in the running of
+a shelter or crisis service organization (if their mailboxes
+can handle it).  NOTE: New list address as of 2/95.
+
+5.2.  Adoption Services
+
+5.2.1.  Internet Adoption Photolisting
+
+TYPE:     World Wide Web page
+URL:      http://www.gems.com/adoption
+CONTACT:  Annette Thompson (annette69@delphi.com)
+COMMENTS:
+The primary purpose of this Web page is to make available
+photos and descriptions of children available for adoption
+via international adoption agencies.  Also here is an
+excellent listing of adoption information available
+elsewhere on the Internet.  A list of answers to commonly
+asked questions about adoption (quite a comprehensive
+list) is forthcoming.
+
+5.3.  Children, Youth, and Families
+
+5.3.1.  Children, Youth and Family Consortium
+
+TYPE:     Gopher
+ADDRESS:  gopher gopher-cec.mes.umn.edu (port 80)
+URL:      gopher://gopher-cec.mes.umn.edu:80/11/
+CONTACT:  Jan Joannides, Office Manager
+          12 McNeal Hall, 1985 Buford Avenue
+          University of Minnesota, St. Paul  MN  55108
+          612/626-1212 (cyfstaff@staff.tc.umn.edu)
+COMMENTS:
+The Children, Youth, and Family Consortium was established in
+1991.  The Gopher contains many statistical reports, brochures
+and newsletters which include such topics as poverty rates,
+fertility rates, teen gun deaths, and poverty among single
+mothers, to name a few.  The gopher also contains the _KID COUNT
+DataBook_, an electronic book that contains a wealth of
+information regarding the situation of children in our
+society.  Included in the _KID COUNT DataBook_ are chapters on
+children dependent on AFDC, children born to mothers under 18
+and abused and neglected children.  While much of the information
+is specific to Minnesota, some of it is also broadened to include
+the entire nation.
+
+5.3.2.  National Extension Children, Youth and Family Network
+        (CYFERNet)
+
+TYPE:      Gopher
+ADDRESS:   gopher gopher-cyfnet.mes.umn.edu
+           telnet gopher-cyfnet.mes.umn.edu / login: cyfnet
+URL:       gopher://gopher-cyfernet.mes.umn.edu:4242
+CONTACT:   National Network for Children,
+           Youth & Families Tech Coord Team
+           Minnesota Extension Service
+           340 Coffey Hall
+           1420 Eckles Ave.
+           University of Minnesota
+           St. Paul, MN 55108
+           Trudy Dunham                 Bob Rubinyi
+           tdunham@mes.umn.edu          rrubinyi@mes.umn.edu
+           612-624-2247                 612-624-2708
+           fax: 612-625-1731            fax: 612-625-220
+COMMENTS:
+This gopher contains information about collaborative efforts
+between universities, government and public service/community
+oriented organizations that provide services to at risk children,
+youths and families.  The gopher is broken down by the type of
+programs that are being pursued.  These programs include the
+following:
+           Child Care
+           Collaborations (technical assistance to Youth at Risk
+              programs)
+           Family Resiliency
+           Science & Technology Literacy
+           Youth at Risk Community-based Projects
+           National 4-H Collection of Reviewed Youth Curricula
+           Children, Youth and Family Development Resources
+           Population Statistics for Children, Youth and Family
+           Funding Sources for CYF Projects
+For each section, the gopher provides information regarding the
+programs, including contact names and information.
+
+5.3.3.   ParentLink Community Connection
+
+TYPE:      Gopher
+ADDRESS:   gopher bigcat.missouri.edu / Community and Social
+           Services Center / ParentLink  OR:
+           telnet bigcat.missouri.edu / login as: guest / Community
+           and Social Services Center / ParentLink
+URL:       gopher://bigcat.missouri.edu/11/community/Parent_Link
+           telnet://bigcat.missouri.edu:70
+           login as: guest / Community and Social Services Center
+           / ParentLink
+CONTACT:   PARENTLINK
+           University of Missouri
+           212 Whitten Hall
+           Columbia, MO  65211
+           1-800-552-8522 or (314) 884-6312
+COMMENTS:
+The ParentLink Community Connection is a listing of organizations
+that provide human services in the state of Missouri.  The program
+is easily identify organizations that provide the type of service
+that they are interested in.  Although the information provided in
+specific to organizations located in Missouri, it is an example of
+one means of providing online access to non-profit, public service
+organizations.
+
+5.4.  Community and Urban Development
+
+5.4.1.  Community Development Banking discussion list
+
+TYPE:      E-mail discussion list
+ADDRESS:   CommunityDevelopmentBanking-L@cornell.edu (to post)
+SUBSCRIBE: Send e-mail to listproc@cornell.edu; use "subscribe
+           CommunityDevelopmentBanking-L <your name>" in message
+           body
+CONTACT:   William Myers (alternatives-myers@cornell.edu)
+COMMENTS:
+This new (12/94) list contains discussion of Community Development
+credit unions and related issues, including non-profits involved
+in the support of community development banking.
+
+5.4.2.  Community Economic Development discussion list
+        (CED-NET)
+
+TYPE:      E-mail discussion list
+ADDRESS:   ced-net@sfu.ca (to post)
+SUBSCRIBE: E-mail to majordomo@sfu.ca; use "subscribe ced-
+           net" in message body
+CONTACT:   John Jespersen (jjespers@sfu.ca)
+COMMENTS:
+This is a newly created (9/94), unmoderated discussion list
+covering the trends, opportunities, and changes in community
+economic development.  Its goal is to focus on what communities
+can do for themselves in terms of programs and funds, among other
+things.  Fairly low-traffic.
+
+5.4.3.  Futurework discussion list
+
+TYPE:      E-mail discussion list
+ADDRESS:   futurework@csf.colorado.edu (to post)
+SUBSCRIBE: Send e-mail to listserv@csf.colorado.edu; use "subscribe
+           futurework <your name>" in message body
+CONTACT:   Sally Lerner (lerner@watserv1.uwaterloo.ca)
+COMMENTS:
+This list focuses on ways for communities worldwide to deal with
+economic globalization and technological change.  Hosted by
+Communications for a Sustainable Future in Boulder, CO, this
+new (1/95) list is still fairly low-traffic.
+
+5.4.4.  National Association of Regional Councils (NARC)
+
+TYPE:      Gopher
+ADDRESS:   gopher narc.org / National Association of Regional
+           Councils
+URL:       gopher://narc.org:70/11/.NARC
+CONTACT:   Not provided
+COMMENTS:
+The National Association of Regional Councils (NARC) is a
+national nonprofit organization made up of substate and
+interstate regional agencies engaged in planning and policy
+making in the following areas of interest to non-profits:
+land use, housing, aging, and workforce development.  Included
+here are reports from NARC task forces, news bulletins from the
+past several months (including reports on the local impact of
+federal legislation), and general information about NARC and
+its affiliates.  This Gopher became operational in August 1994,
+and it is expected to soon provide survey information on regional
+councils and Metropolitan Planning Organizations (MPOs).
+
+5.4.5.  Participatory Rural Appraisal discussion list (PRA)
+
+TYPE:      E-mail discussion list
+ADDRESS:   pra@uoguelph.ca (to post)
+SUBSCRIBE: E-mail to listserv@uoguelph.ca; use "subscribe pra
+           <your full name>" in message body
+CONTACT:   Susan Rimkus (srimkus@uoguelph.ca)
+           Lance Robinson (lrobinso@uoguelph.ca)
+COMMENTS:
+PRA is a low-volume list covering intentional change
+initiated by members of a community.  Discussion topics include
+the nature of empowerment and the development of workshops
+on community development.  Past messages are automatically
+archived at the above Listserv site.
+
+5.4.6.  Urban Community Development discussion list
+        (CD4URBAN)
+
+TYPE:      E-mail discussion list
+ADDRESS:   cd4urban@u.washington.edu (to post)
+SUBSCRIBE: E-mail to listproc@u.washington.edu; use "subscribe
+           cd4urban <your name>" in message body
+CONTACT:   Al Boss, List Owner (al@u.washington.edu)
+COMMENTS:
+CD4URBAN is a medium-volume (5-7 messages/day on average) list
+dealing with all topics involving community development in
+urban areas.  Common discussion subjects include enterprise
+communities and empowerment zones, other zoning regulations,
+and low-income housing development.  Past messages are auto-
+matically archived at the above listproc site.
+
+5.4.7.  Urban Studies and Planning Housing and Community
+        Development discussion list (URSP-HCD)
+
+TYPE:      E-mail discussion list
+ADDRESS:   ursp-hcd@umdd.umd.edu (to post)
+SUBSCRIBE: E-mail to listserv@umdd.umd.edu; use "subscribe
+           ursp-hcd <your full name>" in message body
+CONTACT:   Not provided
+COMMENTS:
+This list is a forum for discussion of housing, community
+development, and urban planning issues among students, faculty,
+and professionals.  Discussion often includes information about
+policies of the Department of Housing and Urban Development.
+Fairly low volume:  several messages maximum per day.  Messages
+are automatically archived.
+
+5.4.8.  Urban Wildlife discussion list (URBWLF-L)
+
+TYPE:      E-mail discussion list
+ADDRESS:   urbwlf-l@uriacc.uri.edu (to post)
+SUBSCRIBE: Send e-mail to listserv@uriacc.uri.edu; use "subscribe
+           urbwlf-l <your name>" in message body
+CONTACT:   Not provided
+COMMENTS:
+URBWLF-L is designed to facilitate discussion between urban
+planners, the private sector, and the general public on issues
+relating to the management of wildlife in urban settings.  This
+list is sponsored by the Urban Wildlife working group of the
+Wildlife Society.  Nuisance wildlife concerns may also be
+addressed here.
+
+5.5.  Community Networking
+
+5.5.1.  Center for Civic Networking
+
+TYPE:      Gopher
+ADDRESS:   gopher gopher.std.com / Membership and Professional
+           Associations/ CCN - The Center for Civic Networking
+URL:       gopher://gopher.std.com/11/associations/civicnet
+CONTACT:   For info about CCN's policy work and associational
+           activities, contact Richard Civille,
+           rciville@civicnet.org, 202-387-6030.
+           For info about CCN's pilot programs and networking
+           services, contact Miles Fidelman,
+           mfidelman@civicnet.org, 617-241-9205.
+COMMENTS:
+The Center for Civic Networking is a non-profit organization
+whose goal is to help develop models of beneficial uses of the
+Internet for local, regional and national organizations and
+governments.   Included in this gopher is information on
+developing a sustainable information network, policy issues
+regarding electronic development, information regarding
+municipalities and local governmental information networks.
+This gopher also contains a link to the Institute for the Study
+of Civic Values, which contains information on building a civic
+oriented community through the use of technology.  This gopher
+does not contain much raw data information, such as statistics or
+phone numbers.  What it does provide are potential visions of
+networking possibilities that could be applied to most any
+non-profit, public service oriented organization.
+
+5.5.2.  Communitarians discussion list
+
+TYPE:      E-mail discussion list
+ADDRESS:   communitarians@civic.net (to post)
+SUBSCRIBE: E-mail to majordomo@civic.net; use "subscribe
+           communitarians" in message body
+CONTACT:   Not provided
+COMMENTS:
+Co-sponsored by the Center for Civic Networking (section
+5.5.1 above), the Communitarians list is made up of individuals
+dedicated to "shoring up our moral, political, and social
+environment."  The Communitarian philosophy includes a commitment
+to the welfare of the community.  Very low traffic:  several
+messages per week at the maximum.
+
+5.5.3.  Community Idea Net
+
+TYPE:      Gopher
+ADDRESS:   gopher president.oit.unc.edu / Worlds of SunSITE --
+           by Subject / US and World Politics / Community_Idea_Net
+             OR:
+           telnet president.oit.unc.edu / login as: gopher, enter
+           vt100 at the "TERM=" prompt, use the following path:
+           Worlds of SunSITE -- by Subject / US and World Politics
+           / Community_Idea_Net
+URL:       gopher://president.oit.unc.edu :70/11/../.pub/Politics
+           / Community_Idea_Net
+CONTACT:   Terry Sullivan
+           sullivan@SUNSite.UNC.EDU
+COMMENTS:
+This gopher is generally geared toward local government managers,
+although the information contained in it could also prove quite
+useful to non-profit organizations (particularly those working
+closely with local government units).  This gopher contains
+descriptions of actual projects used by local government to
+overcome difficult political, financial, and policy difficulties.
+Each description contains a brief description of programs that
+worked, along with contact information to allow the user to
+obtain more detailed information.  The gopher is searchable, so
+that the user can easily locate project descriptions that match
+their situation.  The database contains articles on a wide
+variety of topics, which makes it a useful resource for just
+about any organization working with local governments.
+
+5.5.4.  Community Networking discussion list (COMMUNET)
+
+TYPE:      E-mail discussion list
+ADDRESS:   communet@uvmvm.uvm.edu
+URL:       E-mail to listserv@uvmvm.uvm.edu; use "subscribe
+           communet <your full name>" in message body
+CONTACT:   Not provided
+COMMENTS:
+Communet is a fairly high-traffic list (up to 25-30 messages
+per day) about community networking.  Common discussion topics
+include the hows and whys of setting up a new community network,
+the relationship between local government and social service
+agencies, the role of the community in education, and more.
+Occasionally, high-volume unrelated tangents develop out of the
+conversation.  Many organizers of community networks
+contribute to this discussion.  Recommended for non-profit
+organizations who wish to set up or be part of community networks.
+
+5.5.5.  Community-Wide Education and Information Services
+        discussion list (CWEIS)
+
+TYPE:      E-mail discussion list
+ADDRESS:   cweis@mtn.org (to post)
+SUBSCRIBE: E-mail to listproc@mtn.org; use "subscribe cweis
+           <your full name>" in message body
+CONTACT:   John Ladwig (jladwig@mtn.org)
+           and Tamara Blaschko (trb@mtn.org), list owners
+COMMENTS:
+CWEIS discusses the Community-Wide Education and Information
+Service initiative and is set up as a forum for discussion of
+CWEIS programs across the country.  Traffic is fairly light,
+ranging from 0-5 messages per day.  In addition to this list,
+the CWEIS initiative has a new Web page at the address
+http://www.cpb.org/cweis/CWEIS.HTM, which describes the
+individual initiatives across the country.
+
+5.5.6.  Frankford Plan mailing list
+
+TYPE:      E-mail discussion list
+ADDRESS:   frkdplan@bts.com
+SUBSCRIBE: Send e-mail to server%plf@bts.com; use "subscribe
+           frkdplan" in message body
+CONTACT:   Sam Rennie (plf!desktop@bts.com)
+COMMENTS:
+This is a new (1/95) list specifically for those participating
+in Philadelphia's new revitalization effort (the Frankford plan)
+but everyone involved in similar programs involving community
+arts, recreation, housing, education, safety, and revitalization
+is invited to contribute and share their wisdom.
+
+5.5.7.  Networks and Community Newsletter
+
+TYPE:      Gopher
+ADDRESS:   gopher gopher.well.sf.ca.us / Community /
+           communets / Networks and Community
+URL:       gopher://gopher.well.sf.ca.us:70/11s/Community/
+           communets/net.com
+CONTACT:   Stephen Covington
+           cvington@netcom.com
+COMMENTS:
+This newsletter presents current information regarding community
+based activities on the Internet.  The topics cover vary widely,
+although they generally include announcements of new Internet
+services (mostly World Wide Web) for those wanting to keep current
+on the wide variety of issues that affect networking.
+
+5.5.8.  New Mexico Communet discussion list
+
+TYPE:      E-mail discussion list
+ADDRESS:   nmcommunet@laplaza.taos.nm.us
+SUBSCRIBE: E-mail to nmcommunet-request@laplaza.taos.nm.us; leave
+           subject line blank and use "subscribe nmcommunet <your
+           name>" in message body.
+CONTACT:   Richard W. Bryant (rb@laplaza.taos.nm.us)
+COMMENTS:
+This list, sponsored by the community network La Plaza Telecom-
+munity Foundation in Taos, NM, concerns community networking
+issues specific to New Mexico.
+
+5.5.9.  Links to Other Community Networks
+
+TYPE:      Gopher and WWW sites
+ADDRESS:   gopher info.senecac.on.ca / Interesting Places /
+           Community Free-Nets
+URL:       gopher://info.senecac.on.ca/11/internet/freenets OR
+           http://herald.usask.ca/~scottp/freewww.html
+CONTACT:   Not provided; different for each community network
+COMMENTS:
+Both of these sites provide links to local community
+networks on the Internet.  Some are Gopher-based, others
+are Web-based, and others (mainly the Free-Net sites)
+must be telnetted to.  Because many of these community
+networks contain information on local social service
+organizations, we have included a link to them here so
+that non-profits can discover what programs are being run
+in other areas of the country.
+
+5.6.  Disability Information
+
+5.6.1.  Americans with Disabilities Act (AWD) discussion
+        list
+
+TYPE:      E-mail discussion list
+ADDRESS:   awd@counterpoint.com (to post)
+SUBSCRIBE: Send e-mail to majordomo@counterpoint.com; use
+           "subscribe awd <your e-mail address> in message
+           body
+CONTACT:   Hal P. Kingsley, Moderator (hal@counterpoint.com)
+COMMENTS:
+New as of 1/95, this list covers discussion on the Americans
+with Disabilities Act (ADA), the Rehabilitation Act, the Fair
+Housing Amendments Act, and other legislation related to
+discrimination and/or disability compliance.
+
+5.6.2.  Cornucopia of Disability Information
+
+TYPE:      Gopher
+ADDRESS:   gopher val-dor.cc.buffalo.edu
+URL:       gopher://val-dor.cc.buffalo.edu/1
+CONTACT:   Jay Leavitt (leavitt@ubvmsb.cc.buffalo.edu)
+COMMENTS:
+This Gopher provides information on national, state
+(NY), local (Buffalo), and university (SUNY Buffalo)
+sources of disability information.  Of interest here
+are resource guides from NARIC (National Rehabil-
+itation Information Center) on how to deal with
+various disabilities; government documents including
+the ADA (described earlier in this guide); and other
+national information sources on disabilities.
+
+5.6.3.  Disability Resources, Products, Services,
+        and Communication
+
+TYPE:      World Wide Web page
+URL:       http://disability.com
+CONTACT:   Evan Kemp Associates (webmaster@eka.com)
+COMMENTS:
+Evan Kemp Associates, a corporation providing products and
+services for the disability community, has a new (1/95) Web
+page that contains *numerous* links to other disability
+resources on the Net, descriptions of their products, and
+the opportunity to obtain a free issue of their magazine.
+
+5.7.  Emergency Services
+
+5.7.1.  1-800 Hotline Numbers
+
+TYPE:      Gopher File
+ADDRESS:   gopher gopher.std.com / Non-Profit Organizations /
+           The National Empowerment Center / Directory of Hot
+           Lines
+URL:       gopher://gopher.std.com/00/nonprofits/empowerment-ctr
+           /Directory%20of%20Hot%20Lines
+CONTACT:   Not Available
+COMMENTS:
+This list is actually a file on the National Empowerment Center
+gopher, but we felt that it needed to be singled out so that
+users could have an easy path to follow to get to the Hotline
+Numbers.
+
+5.8.  FOOD DISTRIBUTION AND NUTRITION
+
+5.8.1.  Food and Nutrition Information Center
+
+TYPE:      Gopher
+ADDRESS:   gopher ra.esusda.gov / Food and Nutrition
+           Information Center, USDA
+URL:       gopher://ra.esusda.gov/11/fnic
+CONTACT:   FNIC Nutritionists (fnic@nalusda.gov) or
+           Food and Nutrition Information Center
+           National Agriculture Library
+           Rm 304, 10301 Baltimore Blvd
+           Beltsville, MD  20705-2351
+COMMENTS:
+This gopher, part of the National Agriculture Library of the
+USDA, presents information on current nutrition topics.
+According to information on the gopher, nutritionists at the
+above address will respond to questions regarding nutrition with
+printouts from the AGRICOLA database (if necessary).  No actual
+databases or software packages are available through the Internet,
+unfortunately, though files here provide details on what they
+contain.  In addition, some menu options are currently blank,
+leading us to believe that the gopher is still under
+construction.
+
+5.8.2.  Hungernet / Hungerweb
+
+TYPE:      Gopher and WWW sites
+ADDRESS:   gopher.brown.edu
+URL:       gopher://gopher.brown.edu:70/11/brown/departs/
+           worldhun/hungerne
+           http://www.hunger.brown.edu/hungerweb
+CONTACT:   Daniel Zalik (dz@cs.brown.edu)
+COMMENTS:
+Various reports, documents, articles, and speeches
+(historical and current) about hunger and its impact on the
+world's peoples.  Also provided are extensive definitions of
+various hunger terms, some with bibliographies.  Some hunger
+statistics and a special report on Rwanda are provided.  Although
+the WWW site seems to work fine, the Gopher occasionally refuses
+connections.
+
+5.9.  GRIEF AND BEREAVEMENT
+
+5.9.1.  Griefnet (Rivendell Resources)
+
+TYPE:     Gopher
+ADDRESS:  gopher to garnet.msen.com / Good Causes / Rivendell
+          Resources
+URL:      gopher://garnet.msen.com:70/11/causes/rivendell
+CONTACT:  Cendra Lynn (cendra@rivendell.org)
+COMMENTS:
+The Griefnet gopher contains information on resources related
+to death, dying, bereavement, and emotion and physical loss.
+Of note for non-profits are its resource directory of support
+groups and agencies, a directory of professionals, a biblio-
+graphy, and descriptions of mailing lists related to grief
+and bereavement.
+
+5.10.  HOUSING AND HOMELESSNESS
+
+5.10.1.  Cohousing discussion list (COHOUSING-L)
+
+TYPE:      E-mail discussion list
+ADDRESS:   cohousing-l@uci.com (to post)
+SUBSCRIBE: E-mail to listserv@uci.com; use "subscribe
+           cohousing-l <your name>" in message body
+CONTACT:   Fred Holson, list owner (fholson@uci.com)
+COMMENTS:
+Cohousing is a type of collaborative housing first developed
+in Denmark in the early 1970's.  This list is similar in
+tone and content to "alt.co-ops," mentioned earlier; it
+discusses cooperative housing in all its forms.
+Back issues of this list are archived at the gopher at
+garnet.berkeley.edu (port 1250) under "Housing, Hunger,
+and Welfare," also part 5.10.3 of this guide.
+
+5.10.2.  Homelessness discussion list
+
+TYPE:      E-mail discussion list
+ADDRESS:   homeless@csf.colorado.edu (to post)
+SUBSCRIBE: Send e-mail to listserv@csf.colorado.edu; use "subscribe
+           homeless <your full name>" in message body
+CONTACT:   Dee Southard, list owner (southard@oregon.uoregon.edu)
+COMMENTS:
+A new (1/95) list dedicated to discussion of the problem of homeless-
+ness, sponsored by Communications for a Sustainable Future, Boulder,
+Colorado.  People both homeless and "homed" are expected to contribute
+to the discussion.  An archive of Frequently Asked Questions lists
+and bibliographies related to homelessness is available at the URL
+http://csf.colorado.edu/psn.
+
+5.10.3.  Housing, Hunger, and Welfare information
+
+TYPE:      Gopher
+ADDRESS:   gopher garnet.berkeley.edu 1250 / Housing, Hunger,
+           and Welfare
+URL:       gopher://garnet.berkeley.edu:1250/11/.housing
+CONTACT:   newman@garnet.berkeley.edu
+COMMENTS:
+This menu is maintained by the The Electronic Democracy
+Information Network (EDIN).   Contained on this menu is
+information regarding housing discrimination, articles by
+the census bureau on income, wealth and poverty, archives of
+discussions on cohousing, as well as links to the Hungernet,
+the Department of Housing and Urban Development gopher, and
+legislation regarding family, welfare and human services and
+legislation regarding housing and urban development.  While this
+gopher contains mostly links to other sites, the information that
+is housed here could be extremely useful, such as the Census Bureau
+articles.  Although there is not much there, as the Internet grows,
+the information housed on this gopher will potentially grow into
+an extremely useful archive.
+
+5.11.  Immigration and Refugees
+
+5.11.1.  Forced Migration discussion list (forced-migration)
+
+TYPE:      E-mail discussion list
+ADDRESS:   forced-migration@mailbase.ac.uk (to post)
+SUBSCRIBE: E-mail to mailbase@mailbase.ac.uk; use "join
+           forced-migration" in message body
+CONTACT:   Not provided
+COMMENTS:
+This low-volume list (several messages/week) primarily
+covers the forced migration of people from Rwanda,
+although in theory this list could cover discussion
+of any group of refugees.
+
+5.11.2.  Migration News
+
+TYPE:           Monthly Newsletter
+ADDRESS:        migrant@primal.ucdavis.edu
+SUBSCRIBE:      Send your e-mail address to
+                migrant@primal.ucdavis.edu
+URL:            gopher://dual.ucdavis.edu
+CONTACT:        Philip Martin
+                Department of Agricultural Economics
+                University of California, Davis
+                Davis, CA 95616 USA
+COMMENTS:
+Migration News is a brief newsletter that allows those who
+are interested in migration and immigration issues to keep
+abreast of current information in a short period of time.
+The articles are short, providing a brief look at the topics.
+Within each issue, the topics are broken up by region,
+including: North America, Europe, Asia, and Other. The back
+issues of Migration News are available by pointing your
+gopher to dual.ucdavis.edu.
+
+5.12.  Mental Health Services
+
+5.12.1.  Alzheimer Web
+
+TYPE:      World Wide Web page
+URL:       http://werple.mira.net.au/~dhs/ad.html
+CONTACT:   David Small (david_small@muwayf.unimelb.edu.au)
+COMMENTS:
+Aimed toward researchers and clinicians, this Web page has
+answers to common questions about Alzheimer's, links to
+research laboratories, links to many related sites,
+and a database of papers on the topic.
+
+5.12.2.  National Institute of Mental Health gopher
+
+TYPE:      Gopher
+ADDRESS:   gopher gopher.nimh.nih.gov
+URL:       gopher://gopher.nimh.nih.gov:70/
+CONTACT:   gopher-adm@gopher.nimh.nih.gov
+COMMENTS:
+As of the writing of this guide, this gopher contained no
+information directly related to the National Institute of Mental
+Health.  There are menu choices available for information
+regarding programs, but they are empty (as of the writing of this
+guide).  It did contain information regarding ftp archives for
+software, but that was about it.  I expect that the empty menus
+will be filled with information, so it might not be a bad idea to
+check this resource periodically if this is an organization that
+could provide you with useful information.
+
+5.13.  Sexual Abuse and Family Violence
+
+5.13.1.  Intimate Violence discussion list (INTVIO-L)
+
+TYPE:      E-mail discussion list
+ADDRESS:   intvio-l@uriacc.uri.edu (or intvio-
+           l@uriacc.bitnet) (to post)
+SUBSCRIBE: E-mail to listserv@uriacc.uri.edu; use "subscribe
+           intvio-l <your full name>" in message body
+CONTACT:   Glenn Wolfner (famviol@uriacc.uri.edu)
+COMMENTS:
+A list covering all aspects of family violence, including
+child abuse, sexual abuse, domestic violence, and dating
+violence.  Sponsored by Federal Partnerships Against Violence,
+National Institute of Justice.  In contrast to other lists on
+family violence, the primary contributors to INTVIO-L tend to
+be members of organizations providing crisis services
+and researchers in social work.  The output of the list can
+range from 1-2 messages to 10 messages/day.
+
+5.13.2.  Intimate Violence electronic journal (EJINTVIO)
+
+TYPE:      Electronic journal
+SUBSCRIBE: E-mail to listserv@uriacc.uri.edu; use "subscribe
+           ejintvio <your full name>" in message body
+CONTACT:   Glenn Wolfner, Executive Editor
+           (famviol@uriacc.uri.edu)
+COMMENTS:
+The Intimate Violence electronic journal aims to present the
+latest information on research and treatment on all aspects of
+family violence.  Submissions are accepted from students and
+professionals engaged in family violence research and treatment.
+Past contributors have included directors of women's centers,
+social psychologists, and scholars.  Flame wars, especially
+regarding the OJ Simpson trial, are becoming more common.
+
+5.13.3.  PAVNET (Partners Against Violence)
+
+TYPE:      Gopher
+ADDRESS:   gopher cyfer.esusda.gov / PAVNET
+URL:       gopher://cyfer.esusda.gov:70/11/violence
+CONTACT:   jgladsto@nalusda.gov
+COMMENTS:
+This is an excellent resource for information about current
+violence prevention programs and funding opportunities for such.
+PAVNET is a network of 33 clearinghouses and resource centers
+that contribute data to a resource guide relating to violence
+and youth at risk.  Numerous branches of the federal government
+are responsible for PAVNET's creation.  An introductory message
+mentions that all information from this resource guide will soon
+be available on this Gopher, and as far as we could discern, the
+information is indeed already here.  Outlined are 550 projects,
+100 government and private sources, 30 sources for funding, and
+200 listings for training materials in various categories.  Model
+programs for violence prevention are also profiled.
+
+5.13.4.  SafetyNet (Domestic Violence Resources)
+
+TYPE:     World Wide Web page
+URL:      http://www.interport.net/~asherman/dv.html
+CONTACT:  Aliza Sherman (asherman@interport.net)
+COMMENTS:
+This new Web page contains statistics (with sources listed) on
+domestic violence, a handbook from a Boston battered women's
+center, a list of relevant agencies, and bibliographies.  Part
+of this page is still under construction, but according to
+the creator, more information will be added shortly.  Also
+included are links to other related sites on the Web.
+
+5.14.  Substance Abuse Services
+
+5.14.1.  Alcohol and Drug Studies discussion list (ALCOHOL)
+
+TYPE:      E-mail discussion list
+ADDRESS:   ALCOHOL@LMUACAD.BITNET (to post)
+SUBSCRIBE: E-mail to LISTSERV@LMUACAD.BITNET; use "SUB ALCOHOL
+           your-full-name" in message body
+CONTACT:   Phillip Charles Oliff (FXX1@LMUACAD.BITNET)
+COMMENTS:
+This discussion list is an extremely active list, producing
+at least 10 messages per day.  Most of the discussion
+revolves around personal experiences with alcohol, drug
+abuse, Alcoholics Anonymous, or other individual situations.
+Although it does also include some information that is useful
+to administrators of nonprofit organizations, such as
+conference announcements, most of the discussions are
+reminicent of support groups or philosophical debates over
+the nature of alcohol or drug abuse.  This tends to make
+this list extremely difficult to use as a means to easily
+locate usable resources or information.
+
+5.14.2.  Drug Abuse Education Information and Research
+         discussion list (DRUGABUS)
+
+TYPE:      E-mail discussion list
+ADDRESS:   DRUGABUS@UMAB.BITNET (to post)
+SUBSCRIBE: E-mail to LISTSERV@UMAB.BITNET; use "subscribe
+           drugabus <your name>" in message body
+CONTACT:   Treat Tschirgi (TTSCHIRG@UMAB.UMD.EDU)
+COMMENTS:
+This discussion list is an active list, about 5-10 messages
+per day.  Much of the discussion revolves around philosophical
+issues, but it also includes discussions about current
+publications (books, magazines, and newsletters), as well as
+information about new electronic resources.  Many of the people
+who post to this list are counselors, psychiatrists, editors,
+etc., which makes this a very useful list for those working in
+fields that involve drug abuse.
+
+6.  CREDITS AND ACKNOWLEDGMENTS
+
+Sarah Nesbeitt (nesbeitt@sils.umich.edu) is a recent
+(December 1994) graduate of the School of Information and
+Library Studies at the University of Michigan.  She has been
+active on the Internet since 1987.  Sarah is currently working
+in the University of Michigan's Graduate Library, and is a
+former librarian for the reference library at the Center for
+Nonprofit Enterprise at Work, Ann Arbor, MI. For more information,
+write to the above e-mail address or visit her WWW Home Page:
+URL:  http://http2.sils.umich.edu/~nesbeitt/HomePage.html.
+
+Richard Truxall (rtruxall@umich.edu) is the Continuing Education
+Consultant for the Library Network, which is located in Wayne,
+Michigan.  The Library Network is the largest cooperative in Michigan,
+consisting of more than 60 libraries in four counties, and serving
+more than 2.5 million Michigan residents.  Richard is also the
+President of _fish internet consulting_, which provides training,
+seminars, resource organization and individualized user manuals for
+organizations interested in using the Internet effectively.  For more
+information on _fish internet consulting_, send an e-mail message to
+fishinfo@aol.com.  For more information feel free to visit his home
+page at the following URL:
+        http://www.sils.umich.edu/~rtruxall/HomePage.html
+
+We would like to thank the following individuals for their
+comments, suggestions, and ideas for material presented here
+in this guide.  Peter Morville, Larry Coppard, Debbie Kroopkin,
+Don Austin, and Tom Jenkins of Metro Detroit Comnet served as
+our "user group" and made numerous suggestions of subject
+areas that would be useful to include in such a guide.  Metro
+Detroit Comnet is a computer-based communication, conferencing,
+training, and information-sharing system serving public service
+organizations in metro Detroit.  More information on Comnet can
+be found on the Internet via their new Web home page,
+http://ics.soe.umich.edu/comnet.  Munn Heydorn's guide for
+not-for-profits (mentioned earlier) provided us with
+additional ideas on useful lists and sites.  Lou Rosenfeld
+and other members of the Internet Resource Discovery Project
+at the University of Michigan contributed numerous ideas as to
+the organization of resource guides for the Clearinghouse. Last
+but not least, we would like to thank the many individuals
+on the Internet (past, present, and future) who have encouraged
+us in this endeavor and continue to suggest useful resources.
+
+Thanks also to Matthew Newell (mnewell@gatecoms.gatecom.com) for
+taking on the thankless job of reformatting and laying out the printed
+version of this guide.
+
+7.  APPENDIX
+
+7.1.  HOW TO FIND THIS GUIDE
+
+This guide makes its permanent home in the University of
+Michigan's Clearinghouse for Subject-Oriented Internet
+Resource Guides; new versions will appear here first.
+Guides from the Clearinghouse may be obtained in the
+following ways:
+
+Via anonymous FTP:
+        ftp to una.hh.lib.umich.edu
+           path:  inetdirsstacks
+                filename: pubservice:truxnes
+
+Via Gopher:
+        gopher to gopher.lib.umich.edu
+           \ What's New and Featured Resources
+            \ Clearinghouse
+             \ All Guides
+              \ Non-Profit Orgs. (Nesbeitt, Truxall)
+
+Via the World Wide Web:
+        URL:  http://una.hh.lib.umich.edu/00/inetdirsstaccks/pubservice
+              %3atruxnes
+
+The Web version of this guide, providing links to resources
+mentioned here, is also available:
+        URL:  http://asa.ugl.lib.umich.edu/00/chdocs/nonprofits/
+              nonprofits.html
+
+7.2.  OTHER RELEVANT GUIDES
+
+Many of the individual topics mentioned in this guide are
+more completely described by other subject-based Internet
+resource guides.  We recommend looking at these sources for
+further information on the following topics.  For the most
+part, however, these guides are addressed to a different
+audience than non-profit administrators and workers.
+
+Disability Resources on the Internet /
+     Dean Martineau
+Emotional Support Resources:  Chronic Illness,
+     Physical Loss, and Bereavement /
+     Joanne Juhnke and Chris Powell
+Federal Government Resources on the Internet /
+     Blake Gumprecht
+Federal Regulatory Information on the Internet /
+     John Brandt and Annette Lagace
+Internet Resources for Not-For-Profits /
+     Munn Heydorn
+Networks and Community Resources on the Internet /
+     Sam Sternberg
+Grant Getters' Guide to the Internet /
+     James Kearney
+     (gopher://gopher.uidaho.edu/11s/e-pubs/grant)
+
+In all but the last example, these guides are located
+in the Clearinghouse for Subject-Oriented Internet
+Resource Guides, University of Michigan:
+URL:  http://asa.ugl.lib.umich.edu/chhome.html.
+
+
+7.3.  ALPHABETICAL INDEX
+
+
+Note:  In the following index, in the case of E-mail discussion
+lists, both list name (i.e., COMMUNET) and descriptive name
+(i.e., Community Networking) have been included to provide
+better access.  In addition, primary headings from the Table
+of Contents have also been indexed.
+
+Alcohol and Drug Studies discussion list.............5.14.1
+alt.co-ops............................................2.1.1
+Alzheimer Web........................................5.12.1
+Americans with Disabilities Act.........................4.1
+Americans with Disabilities Act discussion list.......5.6.1
+ARNOVA-L..............................................2.1.2
+Association for Research on Nonprofit Organizations...2.1.2
+     and Voluntary Action discussion list
+AT&T 800 Directory on the Internet....................5.1.1
+Australia and New Zealand Third Sector Research
+     discussion list..................................2.1.3
+Bureau of the Census....................................4.2
+Bureau of Justice Statistics............................4.3
+Business Information......................................3
+Catalog of Federal Domestic Assistance................2.2.1
+CD4URBAN..............................................5.4.6
+CED-NET...............................................5.4.2
+Center for Civic Networking...........................5.5.1
+Center for Civil Society International................2.1.4
+Children, Youth, and Family Consortium................5.3.1
+Children, Youth, and Family sources.....................5.3
+Chronicle of Philanthropy mailing list................2.1.5
+Cohousing discussion list............................5.10.1
+Communitarians discussion list........................5.5.2
+Community and Urban Development sources.................5.4
+Community Economic Development discussion list........5.4.2
+Community networking sources............................5.5
+Community-Wide Education and Information Services.....5.5.5
+     discussion list
+Computers in the Social Sciences discussion list......5.1.2
+Cornucopia of Disability Information..................5.6.2
+Corporate Information.....................................3
+Corporation for National and Community Service..........4.4
+Current Social Service Legislation......................4.5
+CUSSNET...............................................5.1.2
+CWEIS.................................................5.5.5
+Department of Commerce..................................4.7
+Demographic Information:  Florida State University......4.6
+Department of Education Office of Educational.........2.2.2
+     Research and Improvement (OERI)
+Department of Health and Human Services.................4.8
+Department of Housing and Urban Development.............4.9
+Disability Resources, Products, and Services..........5.6.3
+Disability sources......................................5.6
+Drug Abuse Education Information and Research........5.14.2
+        discussion list
+DRUGABUS.............................................5.14.2
+EDGAR Filings with the SEC..............................3.1
+EJINTVIO.............................................5.13.2
+Emergency Services sources..............................5.7
+Enterprise Communities and Empowerment Zones...........4.10
+European Network for Information Technology in the....5.1.3
+        Human Services
+EVALTEN...............................................5.4.6
+Family Violence sources................................5.13
+Federal Information Exchange Database.................2.2.3
+Federal Poverty Guidelines............................4.8.1
+Federal Register.......................................4.11
+FEDIX.................................................2.2.3
+Feminist Social Work discussion list..................5.1.4
+Field Education (for Social Workers) discussion list..5.1.5
+Food and Nutrition Center.............................5.8.1
+Food Distribution and Nutrition sources.................5.8
+Forced Migration discussion list......................5.9.1
+Foundation Center.....................................2.2.4
+Frankford Plan (Philadelphia) discussion list.........5.5.6
+Funding Opportunities...................................2.2
+FUNDLIST..............................................2.2.5
+Fundraising and Development discussion list...........2.2.5
+GIFT-PL...............................................2.4.2
+GIVING................................................2.4.1
+Giving discussion list................................2.4.1
+Government Information....................................4
+Grant discussion list.................................2.2.6
+Grant-Getters' Guide to the Internet..................2.2.9
+Granting Agency Deadlines.............................2.2.7
+GRANTS-L..............................................2.2.6
+Griefnet..............................................5.9.1
+Health Care Finance Administration....................4.8.2
+HERO..................................................2.2.3
+Higher Education Resources and Opportunities..........2.2.3
+Holt's Stock Market Reports.............................3.2
+Homelessness discussion list.........................5.10.2
+Hotline Numbers.......................................5.7.1
+Housing and Homelessness sources.......................5.10
+Housing, Hunger, and Welfare.........................5.10.3
+Human Services Research Institute.....................5.1.4
+Hungernet / Hungerweb.................................5.8.2
+Immigrants and Refugees sources........................5.11
+Institute for Global Communications...................2.1.6
+Internal Revenue Service...............................4.12
+Internet Adoption Photolisting........................5.2.1
+Internet Nonprofit Center.............................2.1.7
+Internet Resources for Nonprofit Organizations........2.1.8
+Intimate Violence discussion list....................5.13.1
+Intimate Violence electronic journal.................5.13.2
+INTVIO-L.............................................5.13.1
+LEGALTEN..............................................5.1.6
+Management..............................................2.3
+Medicare / Medicaid...................................4.8.2
+Mental Health Services sources.........................5.12
+Migration News.......................................5.11.2
+Minority On-Line Information Service..................2.2.3
+MOLIS.................................................2.2.3
+Morbidity and Mortality Weekly Report.................4.8.3
+National Association of Regional Councils.............5.4.2
+National Center for Nonprofit Boards..................2.3.1
+National Empowerment Center...........................5.1.7
+National Extension Children, Youth, and Family........5.3.2
+        Network
+National Institute of Mental Health..................5.12.2
+National Institutes of Health Grants..................2.2.8
+National Referral Center Master File..................5.1.8
+Networks and Community newsletter.....................5.5.7
+New Mexico Communet discussion list...................5.5.8
+NHCTEN................................................5.1.6
+Non-Profit Boards discussion list.....................2.3.2
+Nonprofit Organizations on the Internet...............2.1.9
+NPBOARDS-L............................................2.3.2
+Other Community Networks..............................5.5.9
+OUTCOMETEN............................................5.1.6
+ParentLink Community Connection.......................5.3.3
+Participatory Rural Appraisal discussion list.........5.4.5
+Partners Against Violence............................5.13.3
+PAVNET...............................................5.13.3
+Penpages..............................................5.1.7
+Philanthropy............................................2.4
+Planned Giving discussion list........................2.4.2
+PRA...................................................5.4.5
+SafetyNet (Domestic Violence Sources)................5.13.4
+Sexual Abuse sources...................................5.13
+Social Security Administration........................4.8.4
+Social Work discussion list..........................5.1.10
+soc.org.nonprofit....................................2.1.10
+soc.org.service-clubs.misc...........................2.1.11
+SOCWORK..............................................5.1.10
+State Government Information...........................4.13
+Substance Abuse services...............................5.14
+Topical Evaluation Network on Evaluation..............5.1.6
+        Methodology & Statistics
+Topical Evaluation Network on Legal & Forensic........5.1.6
+        Issues in Mental Health
+Topical Evaluation Network on National Health.........5.1.6
+        Care Reform
+Topical Evaluation Network on Outcomes Evaluation.....5.1.6
+Training and Development discussion list..............2.3.2
+University of Idaho Grants Database...................2.2.9
+Urban Community Development discussion list...........5.4.6
+Urban Studies and Planning Housing and Community......5.4.7
+        Development discussion list
+Urban Wildlife discussion list........................5.4.8
+URSP-HCD..............................................5.4.7
+USNONPROFIT-L........................................2.1.12
+US Non-Profit Organizations discussion list..........2.1.12
+VISTA-L...............................................2.5.1
+VISTANET..............................................2.5.2
+VISTA Online mailing list.............................2.5.1
+Volunteerism............................................2.5
+Volunteers in Service to America discussion list......2.5.2
+
+
+7.4.  TOOL INDEX
+
+The resources are broken up into the following categories:
+
+        Electronic Journals             Telnet Resources
+        E-Mail Discussion Groups        Usenet Newsgoups
+        FTP Resources                   WAIS Resources
+        File By Mail Servers            World Wide Web Resources
+        Gopher Resources
+
+Many of the gopher sites are also included in the World Wide Web
+section of this index, since any Web browser (such as Mosaic or
+Lynx) can access these gophers.
+
+**** Electronic Journals ****
+
+Chronicle of Philanthropy mailing list................2.1.5
+EJINTVIO.............................................5.13.2
+Intimate Violence electronic journal.................5.13.2
+Migration News.......................................5.11.2
+Networks and Community newsletter.....................5.5.7
+VISTA-L...............................................2.5.1
+VISTA Online mailing list.............................2.5.1
+
+**** E-Mail Discussion Groups ****
+
+Alcohol and Drug Studies discussion list.............5.14.1
+Americans with Disabilities Act discussion list.......5.6.1
+ARNOVA-L..............................................2.1.2
+Association for Research on Nonprofit Organizations...2.1.2
+     and Voluntary Action discussion list
+Australia and New Zealand Third Sector Research.......2.1.3
+     discussion list
+CD4URBAN..............................................5.4.6
+CED-NET...............................................5.4.2
+Center for Civic Networking...........................5.5.1
+Cohousing discussion list............................5.10.1
+Communitarians discussion list........................5.5.2
+Community Economic Development discussion list........5.4.2
+Community-Wide Education and Information Services.....5.5.5
+     discussion list
+Computers in the Social Sciences discussion list......5.1.2
+CUSSNET...............................................5.1.2
+CWEIS.................................................5.5.5
+Drug Abuse Education Information and Research........5.14.2
+     discussion list
+DRUGABUS.............................................5.14.2
+EVALTEN...............................................5.1.6
+Feminist Social Work discussion list..................5.1.4
+Field Education (for Social Workers) discussion list..5.1.5
+Forced Migration discussion list.....................5.11.1
+Frankford Plan (Philadelphia) discussion list.........5.5.6
+FUNDLIST..............................................2.2.5
+Fundraising and Development discussion list...........2.2.5
+GIFT-PL...............................................2.4.2
+GIVING................................................2.4.1
+Giving discussion list................................2.4.1
+Grant discussion list.................................2.2.6
+GRANTS-L..............................................2.2.6
+Homelessness discussion list.........................5.10.2
+Intimate Violence discussion list....................5.13.1
+INTVIO-L.............................................5.13.1
+LEGALTEN..............................................5.1.6
+New Mexico Communet discussion list...................5.5.8
+NHCTEN................................................5.1.6
+Non-Profit Boards discussion list.....................2.3.2
+NPBOARDS-L............................................2.3.2
+OUTCOMETEN............................................5.1.6
+Participatory Rural Appraisal discussion list.........5.4.3
+Planned Giving discussion list........................2.4.2
+PRA...................................................5.3.3
+Social Work discussion list..........................5.1.10
+SOCWORK..............................................5.1.10
+Topical Evaluation Network on Evaluation..............5.1.6
+        Methodology & Statistics
+Topical Evaluation Network on Legal & Forensic........5.1.6
+        Issues in Mental Health
+Topical Evaluation Network on National Health.........5.1.6
+        Care Reform
+Topical Evaluation Network on Outcomes Evaluation.....5.1.6
+Training and Development discussion list..............2.3.2
+Urban Community Development discussion list...........5.4.6
+Urban Studies and Planning Housing and Community......5.4.7
+        Development discussion list
+Urban Wildlife discussion list........................5.4.8
+URSP-HCD..............................................5.4.7
+USNONPROFIT-L........................................2.1.10
+US Non-Profit Organizations discussion list..........2.1.10
+VISTANET..............................................2.5.2
+Volunteers in Service to America discussion list......2.5.2
+
+**** File By Mail Servers ****
+
+Human Services Research Institute.....................5.1.6
+
+**** FTP Resources ****
+
+Center for Civic Networking...........................5.5.1
+EDGAR Filings with the SEC..............................3.1
+Human Services Research Institute.....................5.1.4
+
+**** Gopher Resources ****
+
+Americans with Disabilities Act.........................4.1
+Bureau of the Census....................................4.2
+Bureau of Justice Statistics............................4.3
+Catalog of Federal Domestic Assistance................2.2.1
+Center for Civic Networking...........................5.5.1
+Children, Youth, and Family Consortium................5.3.1
+Cornucopia of Disability Information..................5.6.2
+Corporation for National and Community Service..........4.4
+Current Social Service Legislation......................4.5
+Department of Commerce..................................4.7
+Demographic Information:  Florida State University......4.6
+Department of Education Office of Educational.........2.2.2
+        Research and Improvement (OERI)
+Department of Health and Human Services.................4.8
+Department of Housing and Urban Development.............4.9
+EDGAR Filings with the SEC..............................3.1
+Enterprise Communities and Empowerment Zones...........4.10
+Federal Information Exchange Database.................2.2.3
+Federal Register.......................................4.11
+FEDIX.................................................2.2.3
+Food and Nutrition Center.............................5.8.1
+Foundation Center.....................................2.2.4
+Grant-Getters' Guide to the Internet..................2.2.9
+HERO..................................................2.2.3
+Higher Education Resources and Opportunities..........2.2.3
+Holt's Stock Market Reports.............................3.2
+Hotline Numbers.......................................5.7.1
+Human Services Research Institute.....................5.1.6
+Hungernet / Hungerweb.................................5.8.2
+Institute for Global Communications...................2.1.6
+Internet Nonprofit Center.............................2.1.7
+Internet Resources for Nonprofit Organizations........2.1.8
+Migration News.......................................5.11.2
+Minority On-Line Information Service..................2.2.3
+MOLIS.................................................2.2.3
+Morbidity and Mortality Weekly Report.................4.8.3
+National Association of Regional Councils.............5.4.2
+National Center for Nonprofit Boards..................2.3.1
+National Empowerment Center...........................5.1.7
+National Extension Children, Youth, and Family........5.3.2
+        Network
+National Institute of Mental Health..................5.12.2
+National Institutes of Health Grants..................2.2.8
+Networks and Community newsletter.....................5.5.7
+Other Community Networks..............................5.5.9
+ParentLink Community Connection.......................5.3.3
+Partners Against Violence............................5.13.3
+PAVNET...............................................5.11.3
+Social Security Administration........................4.8.4
+State Government Information...........................4.13
+University of Idaho Grants Database...................2.2.9
+
+**** Telnet Resources ****
+
+Catalog of Federal Domestic Assistance................2.2.1
+Center for Civil Society International................2.1.4
+Federal Information Exchange Database.................2.2.3
+FEDIX.................................................2.2.3
+HERO..................................................2.2.3
+Higher Education Resources and Opportunities..........2.2.3
+National Extension Children, Youth, and Family........5.3.2
+        Network
+National Referral Center Master File..................5.1.6
+ParentLink Community Connection.......................5.3.3
+Penpages..............................................5.1.7
+
+**** Usenet Newsgroups ****
+
+alt.co-ops............................................2.1.1
+soc.org.nonprofit....................................2.1.10
+soc.org.service-clubs.misc...........................2.1.11
+
+**** WAIS Resources ****
+
+Catalog of Federal Domestic Assistance................2.2.1
+
+**** World Wide Web Resources ****
+
+Alzheimer Web........................................5.12.1
+Americans with Disabilities Act.........................4.1
+AT&T 800 Directory on the Internet....................5.1.1
+Bureau of the Census....................................4.2
+Bureau of Justice Statistics............................4.3
+Catalog of Federal Domestic Assistance................2.2.1
+Center for Civil Society International................2.1.4
+Children, Youth, and Family Consortium................5.3.1
+Cornucopia of Disability Information..................5.6.2
+Corporation for National and Community Service..........4.4
+Current Social Service Legislation......................4.5
+Department of Commerce..................................4.7
+Demographic Information:  Florida State University......4.6
+Department of Education Office of Educational.........2.2.2
+        Research and Improvement (OERI)
+Department of Health and Human Services.................4.8
+Department of Housing and Urban Development.............4.9
+Disability Resources, Products, and Services..........5.6.3
+EDGAR Filings with the SEC..............................3.1
+Enterprise Communities and Empowerment Zones...........4.10
+European Network for Information Technology in the....5.1.3
+        Human Services
+Federal Information Exchange Database.................2.2.3
+Federal Poverty Guidelines............................4.8.1
+Federal Register.......................................4.11
+FEDIX.................................................2.2.3
+Food and Nutrition Center.............................5.8.1
+Foundation Center.....................................2.2.4
+Grant-Getters' Guide to the Internet..................2.2.9
+Granting Agency Deadlines.............................2.2.7
+Health Care Finance Administration....................4.8.2
+HERO..................................................2.2.3
+Higher Education Resources and Opportunities..........2.2.3
+Holt's Stock Market Reports.............................3.2
+Hotline Numbers.......................................5.7.1
+Human Services Research Institute.....................5.1.6
+Hungernet / Hungerweb.................................5.8.2
+Institute for Global Communications...................2.1.6
+Internet Adoption Photolisting........................5.2.1
+Internet Nonprofit Center.............................2.1.7
+Internet Resources for Nonprofit Organizations........2.1.8
+Medicare / Medicaid...................................4.8.2
+Migration News.......................................5.11.2
+Minority On-Line Information Service..................2.2.3
+MOLIS.................................................2.2.3
+Morbidity and Mortality Weekly Report.................4.8.3
+National Association of Regional Councils.............5.4.4
+National Center for Nonprofit Boards..................2.3.1
+National Empowerment Center...........................5.1.7
+National Extension Children, Youth, and Family........5.3.2
+        Network
+National Institute of Mental Health..................5.12.1
+National Institutes of Health Grants..................2.2.8
+National Referral Center Master File..................5.1.8
+Nonprofit Organizations on the Internet...............2.1.9
+Other Community Networks..............................5.5.9
+ParentLink Community Connection.......................5.3.3
+Partners Against Violence............................5.13.3
+PAVNET...............................................5.13.3
+SafetyNet............................................5.13.4
+Social Security Administration........................4.8.4
+State Government Information...........................4.13
+University of Idaho Grants Database...................2.2.9
+
+

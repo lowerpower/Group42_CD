@@ -1,0 +1,86 @@
+
+
+Motorola Cellphone Serial Numbering
+-----------------------------------
+The Mechanical Serial Number (MSN) [also called serial number, SN,
+or even S], may be either 10 or 11 characters in length.  The first
+3 characters constitute the Accounting Product Code (APC).  Typically
+the APC is not of interest to the field, with a single exception: the
+Express 850 is easily distinguished from retail Step-up models by its
+APC of 572.  The fourth character is the location of manufacture.
+The fifth character is the year of manufacture, and the sixth character
+is the month of manufacture.  The next four characters constitute the
+actual serial number of that telephone.  Finally, if there is no
+eleventh character, the warranty period is one year; if there is an
+eleventh character it stipulates a warranty period which may be
+determined from the chart below.
+
+
+Year              Month
+Code   Year       Code     Month           Warranty Period Definition
+----   ----       -------  --------       ----------------------------
+ H     1983       A or B   January        A - 1 year     P - 5 years
+ J     1984       C or D   February       B - 3 years    Q - 3 years
+ K     1985       E or F   March          C - 5 years    R - 3 years
+ L     1986       G or H   April          D - 2 years    S - 3 years
+ M     1987       J or K   May            E - None       T - OEM telephone
+ N     1988       L or M   June           F - 90 Days    U - 90 days(refurbs)
+ P     1989       N or P   July           H - 3 years    W - 4 years
+ Q     1990       Q or R   August         L - 3 years    X - 5 years
+ R     1991       S or T   September      M - 1 year     Y - 3 years
+ S     1992       U or V   October        N - 5 years    Z - 3 years
+ T     1993       W or X   November
+ U     1994       Y or Z   December
+
+
+
+For example, consider a Series-III tranceiver: Model No. S2447B
+                                               SN        194ERN6175
+         place of 
+        manufacture
+            |
+            | month of manufacture
+            | |
+   MSN:  194ERN6175Y
+             |     |
+             |     warranty period
+             |
+          year of
+        manufacture
+
+
+Using the date chart(s) above, the following info is easily determined:
+
+  E ==> place of manufacture
+  R ==> year of manufacture ==> 1991
+  N ==> month of manufacture ==> July
+  6175 ==> actual serial # of telephone
+  Y ==> warranty period ==> 3 year warranty
+
+
+
+Locating the Mechanical Serial Number (MSN)
+-------------------------------------------
+
+  Mobile Tranceivers (units with a handset):
+
+    Series I or Series II Tranceiver      located on the front of the
+    [big black or silver box]             tranceiver between the DB-25                                                 
+                                          data-port and the round antenna
+                                          connector
+
+    Series III Tranceiver                 located on the top of the
+    [slim black box]                      tranceiver unit toward the
+                                          end with the antenna jack
+
+  Handheld Portables:
+
+    Older 8000's ["bricks"]               located on the bottom the handheld
+
+    Newer 8000's and Ultra Classics       located on the back (behind the
+                                          battery) near the top
+
+    DPC's, Lites, Ultra Lites,            located on the back (behind the
+    and Pocket Telephones                 battery) near the top     
+
+-end

@@ -1,0 +1,5 @@
+CRACK> Dragon Strike
+File: Main.exe
+Search for:   8A 05 2E 3A 04 74
+Replace with: -- -- -- -- -- EB
+Note: There are two occurences of this search pattern replace both.

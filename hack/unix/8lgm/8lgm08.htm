@@ -1,0 +1,239 @@
+<head>
+<title>[8lgm]-Advisory-8.UNIX.SunOS-kernel.11-Nov-1994</title>
+</head>
+<body>
+<hr>
+<H1>[8lgm]-Advisory-8.UNIX.SunOS-kernel.11-Nov-1994
+</H1>
+<P>
+<P>
+<H2>PROGRAM:</H2>
+<P>
+        SunOS 4.1.x kernel
+<P>
+<H2>VULNERABLE OS's:</H2>
+<P>
+        SunOS 4.1.x
+<P>
+<P>
+<H2>DESCRIPTION:</H2>
+<P>
+	A problem was reported to bugtraq by dawagner@phoenix.princeton.edu
+	(David Wagner) showing that unprivileged users can panic the
+	SunOS 4.1.x kernel if the TMPFS filesystem is in use.
+<P>
+	The purpose of this advisory is to provide a workaround for
+	this problem.  This patch has been successfully tested by a number
+	of people on the bugtraq list.
+	
+<H2>IMPACT:</H2>
+<P>
+	Any user can crash the system.
+<P>
+<H2>REPEAT BY:</H2>
+<P>
+	Assuming /tmp is a tmpfs filesystem:
+<P>
+<PRE>
+		% cd /tmp
+		% /usr/etc/mknod fifo p
+		% ln fifo link
+		% ls -ClFg link fifo
+</PRE>
+<P>
+	Obviously do not do this, unless you have the authority to
+	install the fix below.
+<P>
+<H2>DISCUSSION:</H2>
+<P>
+	The problem actually occurs with any 'special' file on the
+	tmpfs filesystem.  tmp_link() incorrectly updates the link count
+	(va_nlink in struct vattr) in the snode's vnode rather than in
+	the real vnode.
+<P>
+<h2>WORKAROUND & FIX:</H2>
+<P>
+<OL>
+<li> Contact your vendor for a patch.
+<P>
+<li> In the meantime either install the workaround given
+	   below, or avoid using TMPFS mounted filesystems.
+</OL>
+<P>
+<P>
+<pre>
+8<------------------------- cut here -------------------------
+
+/*
+ * 8lgm_tmpfs.c -  SunOS 4.1.x TMPFS bugfix.
+ * Copyright (C) 1994 by [8LGM].
+ *
+ * This works around a fatal bug in tmpfs, reported to Bugtraq
+ * by dawagner@phoenix.princeton.edu (David A. Wagner) on 2/11/94.
+ *
+ * Bug:
+ *	cd /tmp; /usr/etc/mknod fifo p; ln fifo link; ls -ClFg link fifo
+ * 	panics the kernel with a bus error.
+ *
+ * To use:
+ * 	cc -c -O -DKERNEL -D<kernel-arch> 8lgm_tmpfs.c
+ * 	modload 8lgm_tmpfs.o
+ */
+
+#include <sys/types.h>
+#include <sys/conf.h>
+#include <sys/buf.h>
+#include <sys/param.h>
+#include <sys/errno.h>
+#include <sys/user.h>
+#include <sys/time.h>
+#include <sys/vfs.h>
+#include <sys/vnode.h>
+#include <sys/ucred.h>
+#include <sys/syslog.h>
+#include <sundev/mbvar.h>
+#include <sun/autoconf.h>
+#include <sun/vddrv.h>
+
+extern	struct vnodeops tmp_vnodeops;
+struct	vdldrv vd;
+
+int	(*real_tmp_link)();
+int	loaded_8lgm = 0;
+
+int
+tmp_link_8lgm(vn, dirp, name, cred)
+	struct vnode *vn;
+	struct vnode *dirp;
+	char *name;
+	struct ucred*cred;
+{
+	struct vnode *real_vn;
+	
+	if (!(VOP_REALVP(vn, &real_vn)))
+		vn = real_vn;
+	return ((real_tmp_link)(vn, dirp, name, cred));
+}
+
+
+int
+load_8lgm_tmpfsfix()
+{
+	int	x;
+
+	x = splhigh();
+	real_tmp_link = tmp_vnodeops.vn_link;
+	tmp_vnodeops.vn_link = tmp_link_8lgm;
+	splx(x);
+	return(0);
+}
+
+
+int
+unload_8lgm_tmpfsfix()
+{
+	int	x;
+
+	x = splhigh();
+	tmp_vnodeops.vn_link = real_tmp_link;
+	splx(x);
+	return(0);
+}
+
+
+int
+xxxinit(function_code, vdp, vdi, vds)
+	unsigned int function_code;
+	struct vddrv *vdp;
+	addr_t vdi;
+	struct vdstat *vds;
+{
+	bzero(&vd, sizeof(vd));
+	vd.Drv_magic = VDMAGIC_PSEUDO;
+	vd.Drv_name = "8lgm-tmpfs";
+
+	switch(function_code) {
+		case VDLOAD:
+			if (loaded_8lgm) {
+				log(LOG_INFO, "8lgm: tmpfs fix module loaded\n");
+				return(EEXIST);
+			}
+			vdp->vdd_vdtab = (struct vdlinkage*)&vd;
+			load_8lgm_tmpfsfix();
+			loaded_8lgm++;
+			log(LOG_INFO, "8lgm: tmpfs fix module loaded\n");
+			return(0);
+		case VDUNLOAD:
+			return (unload(vdp, vdi));
+		case VDSTAT:
+			return(0);
+		default:
+			return(EIO);
+	}
+}
+
+
+static int
+unload(vdp, vdi)
+	struct vddrv *vdp;
+	struct vdioctl_unload *vdi;
+{
+	if (loaded_8lgm == 0) {
+		log(LOG_INFO, "8lgm: tmpfs fix module not loaded!\n");
+		return(0);
+	}
+	unload_8lgm_tmpfsfix();
+	loaded_8lgm = 0;
+	log(LOG_INFO, "8lgm: tmpfs fix module unloaded\n");
+	return(0);
+}
+
+8<------------------------- cut here -------------------------
+</pre>
+<P>
+-----------------------------------------------------------------------
+<P>
+<H2>FEEDBACK AND CONTACT INFORMATION:</H2>
+<P>
+<PRE>
+        8lgm-bugs@bagpuss.demon.co.uk           (To report security flaws)
+<P>
+        8lgm-request@bagpuss.demon.co.uk        (Mailing list additions -
+						 processed automatically;
+						 just send any message)
+<P>
+        8lgm@bagpuss.demon.co.uk                (Everything else)
+</PRE>
+<P>
+        System Administrators are encouraged to contact us for any
+        other information they may require about the problems described
+        in this advisory.
+<P>
+        We welcome reports about which platforms this flaw does or does
+        not exist on.
+<P>
+        NB: 8lgm-bugs@bagpuss.demon.co.uk is intended to be used by
+        people wishing to report which platforms/OS's the bugs in our
+        advisories are present on.  Please do *not* send information on
+        other bugs to this address - report them to your vendor and/or
+        comp.security.unix instead.
+<P>
+<h2>8LGM MAILING LIST:</h2>
+<P>
+	Send any message to 8lgm-request@bagpuss.demon.co.uk and the
+	address you mail from will automatically be added to the list.
+<P>
+	If you need to subscribe to an address you cannot mail from
+	(eg an alias), send mail to 8lgm@bagpuss.demon.co.uk and request
+	to be added to the list.  Due to our mail volume, we appreciate
+	it if you can use 8lgm-request instead; thus if	you need to
+	subscribe an alias, please look into using, say sendmail -f,
+	if possible.
+<P>
+<h2>8LGM FILESERVER:</h2>
+<P>
+	All [8LGM] advisories may be obtained via the [8LGM] fileserver.
+	For details, 'echo help | mail 8lgm-fileserver@bagpuss.demon.co.uk'
+<P>
+<hr>
+</body>

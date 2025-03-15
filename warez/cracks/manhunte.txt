@@ -1,0 +1,26 @@
+Unprotect Manhunter NY by Sierra
+
+
+Search the file MHVOL.1 for the following three byte hex string:
+
+                      41 06 7A
+
+And change them to:
+
+                      7F C3 00
+
+Use PCTOOLS or NORTONS to search and replace the bytes. Else, follow
+the following debug script:
+
+debug mhvol.1 <return> 
+-e 1b7e <return>
+41.7F <space> 06.C3 <space> 7A.00 <return>
+-w <return>
+-q <return>
+
+
+Bart Montgomery
+Atlanta PCUG BBS
+(404) 433-0062
+
+

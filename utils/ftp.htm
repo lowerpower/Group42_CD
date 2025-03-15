@@ -1,0 +1,193 @@
+<HTML>
+<HEAD>
+<TITLE>Dealing with compressed/archived files</TITLE>
+</HEAD>
+<BODY>
+<H1>Dealing with compressed/archived files</H1>
+<P>
+Some of the information is provided by anonymous ftp servers around the world,
+and such files are marked with [ftp]. Accessing such files can occasionally
+cause problems as they are usually compressed and some are archives, so a few
+terms are explained here.  Sources of programs to perform
+de-compression/de-archiving are also given, but please be aware that these are
+only an example. The locations of these programs may move over time and of
+course newer improved versions will appear. 
+<P>
+<UL>
+<LI>Anonymous ftp is provided by the TCP/IP ftp service where you normally user
+a userid of anonymous and for a password give your email address. This is done
+automatically for you when you acces the file via the web page. However if your
+server does not provide ftp access you may get "permission denied". If you do
+have problems, it is always worthwhile trying to access the file via ftp
+rather than www.  The URL will give you the name of the machine to contact and
+the file to access.
+<P>
+<LI>Compressed files. The large files provided via anonymous ftp are usually
+compressed to speed the transfer. These files should always be transferred in
+binary if using the ftp command. Some www servers cannot handle compressed
+files, and if so you should try ftp instead. You may also need to uncompress
+the file after transfer if your server can't handle that particular
+compression algorithm. The type of compression is usually determined by the
+suffix on the filename. E.g.
+<P>
+<DL>
+<DT>.zip
+<DD>The DOS pkzip format. The usual DOS utility to uncompress them is pkunzip,
+and on Unix its usually unzip. Both programs are freely available.
+<DT>.Z
+<DD>The Unix compress program created them,. Use uncompress to undo them.
+<DT>.tar
+<DD>A Unix tar archive. Use tar xf <filename> to extract the files from it.
+<DT>.tar.Z
+<DD>A compressed tar file. Uncompress then use tar xf ...
+<DT>.z or .gz
+<DD>A gziped file. Use gzip -d <filename> to uncompress it.
+<DT>.tgz
+<DD>A gziped tar file. 
+</DL>
+</UL>
+<P>
+<H2>Uncompressing *.Z files in MSDOS</H2>
+<P>
+If you are using an MSDOS system you will need comp430d.exe to 
+uncompress the *.Z files.  This is a public domain program that can be 
+obtained by anonymous FTP from:
+<P>
+<BLOCKQUOTE>
+<TT>Location: oak.oakland.edu<BR>
+Directory: SimTel/msdos/compress<BR>
+File:          comp430d.zip</TT>
+</BLOCKQUOTE>
+<P>
+Put it in a directory accesable from your Path and unzip it.  Then, as the 
+accompanying documentation says, "the best thing to do is to copy it to 
+compress.exe, uncompre.exe and zcat.exe....  To uncompress a *.Z file, 
+simply type uncompress *.Z"
+<P>
+<H2>Uncompressing *.zip files in MSDOS</H2>
+<P>
+If you need an unzipper, you can get the latest version of pkzip (2.04g) 
+from:
+<P>
+<BLOCKQUOTE>
+<TT>Location: oak.oakland.edu<BR>
+Directory: pub/msdos/zip<BR>
+File:          pkz204g.exe</TT>
+</BLOCKQUOTE>
+<P>
+This is shareware, free for non-commercial use.  Put it in a directory 
+accesable from your path.  To unzip a *.zip file, type pkunzip filname (the 
+.zip extension is optional).
+<P>
+Reference: Useful MSDOS Programs at SIMTEL20 and Garbo (Part 1 of 
+2) by Samuel Ko (kko@sfu.ca) 30 March 1993.  This is regularly posted to 
+a number of Internet news groups including news.answers.
+<P>
+<H2>Untaring *.tar files in MSDOS</H2>
+<P>
+This is an optional step, I find it more convenient to load the 
+uncompressed file into a word processor and use it there.  If you do this 
+you will see occasional blocks of strange characters (mainly 'y') which are 
+an artifact of taring - just ignore them.
+<P>
+If you do want to untar, use tar.exe.  This is a public domain program that 
+can be obtained by anonymous FTP from:
+<P>
+<BLOCKQUOTE>
+<TT>Location: ftp.cso.uiuc.edu<BR>
+Directory: pc/exec-pc<BR>
+File:          tar.zip</TT>
+</BLOCKQUOTE>
+<P>
+Put it in a directory accessable from your Path and unzip it.  Unzipping 
+produces a lot of files.  You only need tar.exe, tar.1 and tar.5 (the last two 
+are documentation) - the others can be deleted.
+<P>
+The commands to use are:
+<P>
+<BLOCKQUOTE>
+<DL>
+<DT>tar tf xxx.tar
+<DD>Lists archived files
+<DT>tar xf xxx.tar
+<DD>Untars them
+<DT>tar xvf xxx.tar
+<DD>Untars them and tells you what it's doing
+</DL>
+</BLOCKQUOTE>
+<P>
+If it finds a file that it can't easily convert to a DOS file name (eg 
+1851.Lin.Lec.01) it will prompt you for a replacement.  On my system just 
+typing a reasonable file name followed by Return dosen't work.  If you 
+experience this problem, try typing a reasonable file name *followed by Ctrl 
+Z* then Return.
+<P>
+<H2>Uncompresing and unarchiving on the Apple Mac</H2>
+<P>
+<H3>Binhex, Zip, UUencode, etc., on Apple Macintosh computers.</H3>
+<P> 
+On Apple Macintosh computers, running System 7.0 or later, what is
+currently probably the easiest way of dealing with many if not all of file
+encodings and compression schemes in common use is to use StuffIt Expander
+together with DropStuff with Expander Enhancer.
+<P> 
+StuffIt Expander expands archives from the archive-based compression
+formats: StuffItT and Compact ProT, or which have been "encoded" in BinHex
+4.0 format.
+<P> 
+With DropStuff with Expander Enhancer installed, StuffIt Expander is also
+able to decompress files that were compressed on Unix systems and IBM-PCs
+and compatibles, including ZIP (.zip), and ARC (.arc) archives; AppleLink
+(.pkg) packages; gzip (.gz), Unix Compress (.Z), UUencoded (.uu), and
+StuffIt SpaceSaver files.
+<P>
+To decompress or decode a file when you have both these programs installed
+you can use Drag & Drop, i.e.:
+<P> 
+<OL>
+<LI>In the Finder, select the icon of the relevant file.
+<P>
+<LI>Drag it over the StuffIt Expander icon until it is highlighted.
+<P>
+<LI>Let go of the mouse/trackball button.
+</OL>
+<P> 
+StuffIt Expander will open and you will see a progress dialog. When
+everything is decompressed or decoded, StuffIt Expander automatically
+quits, leaving the resulting converted file alongside the original file.
+<P>
+Alternatively your Web browser may well have a facility by means of which
+you can arrange that it automatically invokes StuffIt Expander as a "helper
+application" - how this is set up depends on the particular browser you are
+using.
+<P> 
+Both of these programs are copyright, Aladdin Systems, Inc., 165 Westridge
+Drive, Watsonville, CA 95076, USA (email: aladdin@well.com).
+<P> 
+Stuffit Expander is Freeware, but DropStuff with Expander Enhancer is
+Shareware. You may use DropStuff with Expander for up to 15 days, after
+which a shareware fee of $30 is due.
+<P> 
+Both programs are available on many standard Mac archives.
+<P> 
+<H3>"tar" archives on Apple Macintosh computers.</H3>
+<P> 
+Amongst the various means of dealing with file archives in the UNIX "tar"
+format (obtained via binary ftp) one of the easiest is to use Suntar. With
+Macs running System 7.0 or later one can use drag & drop to launch the
+program and open the "tar" archive, so that one can then select which files
+are to be extracted.
+<P> 
+Suntar is freeware developed by Sauro & Gabriele Speranza, via Cappuccini
+18, 40026 Imola, Italy (email: speranza@cirfid.unibo.it)
+<P>
+The program is available on many standard Mac archives.
+<P>
+<H2>Further help on decompression</H2>
+<P>
+A very comprehensive document on 'cross-platform' compression/archiving
+utilites is available from
+<A
+HREF="ftp://ftp.cso.uiuc.edu/pub/doc/pcnet/compression">&LT;ftp://ftp.cso.uiuc.edu/pub/doc/pcnet/compression&GT;</A>
+</BODY>
+</HTML>

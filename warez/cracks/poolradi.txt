@@ -1,0 +1,56 @@
+Crack> Pool of Radiance by SSI
+
+crack written by Les B. Minaker of Canada
+
+     Requirements:
+PC-Tools or Norton Utilities
+     I was getting really annoyed at the copy
+protection with this game, so I got out my sector
+editor and started poking around.  Eventually I
+found the answer.
+     First install the program normally by unarcing
+it onto your hard drive or 7 floppies.
+
+     *Note:* I had absolutely no luck unarcing it onto
+floppies.  It took me an hour and didn't even run!
+(But, it did install to the hard drive O.K.)  Part of
+the install is configuring the program for your
+system.
+
+     Once you have the program installed:
+
+1. Find the file named START.EXE and rename
+it to something else like STARTBAK.EXE.
+
+2. Copy the file STARTBAK.EXE to
+START.EXE.  This renames the original and
+makes the copy the executable program.
+
+3. Using PC-Tools VIEW-EDIT mode or Norton
+Utilities Hex Editor, call up the file
+START.EXE.
+
+4. Find the 13 following words with the Hex-
+Editor and change each one to HAHAHA (or
+any 6 Capital letters - not lowercase!) and save
+the changes to disk in the file START.EXE:
+
+>>>Note from Bob: It's easier to change all the
+>>>words you find to Hex 00.  Then, just press
+>>>'enter' when asked for the code check.
+>>>However, his way works as well.
+
+BEWARE, ZOMBIE, NOTNOW, COPPER, DRAGON, EFREET,
+FRIEND, JUNGLE, KNIGHT, SAVIOR, TEMPLE, VULCAN,
+WYVERN
+
+5. When you enter the program and are asked for
+the code from the Translation Wheel, type
+HAHAHA and you're in!
+
+     That's all there is to it.  It is understood, of
+course, that this unprotect is only to be used by
+legitimate owners of the game - who have tired o
+spinning that &%@# code wheel!
+
+

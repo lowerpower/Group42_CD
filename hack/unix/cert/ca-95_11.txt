@@ -1,0 +1,177 @@
+=============================================================================
+CA-95:11                        CERT Advisory
+                              September 19, 1995
+                        Sun Sendmail -oR Vulnerability
+-----------------------------------------------------------------------------
+
+The CERT Coordination Center has received reports of problems with the -oR
+option in sendmail. The problem is present in the version of sendmail that is
+available from Sun Microsystems, Inc. in SunOS 4.1.X, including patches
+100377-19 (for SunOS 4.1.3), 101665-04 (for SunOS 4.1.3_U1), and 102423-01
+(for SunOS 4.1.4).
+
+***This vulnerability is widely known and is currently being actively
+   exploited by intruders.***
+
+The CERT staff recommends installing the appropriate patches as soon as they
+are available from Sun Microsystems. Alternatives are installing a wrapper
+or installing sendmail version 8.6.12; see Section III for details. (Although
+sendmail 8.7 recently became available, we have not yet reviewed it.)
+
+As we receive additional information relating to this advisory, we will
+place it in:
+
+        ftp://info.cert.org/pub/cert_advisories/CA-95:11.README
+
+We encourage you to check our README files regularly for updates on
+advisories that relate to your site.
+
+-----------------------------------------------------------------------------
+
+I.  Description
+
+    There is a problem with the way that the Sun Microsystems, Inc.
+    version of sendmail processes the -oR option.  This problem has been
+    verified as existing in the version of sendmail that is in SunOS
+    4.1.X, including patches 100377-19 (for SunOS 4.1.3), 101665-04 (for
+    SunOS 4.1.3_U1), and 102423-01 (for SunOS 4.1.4).
+
+    The -oR option specifies the host, called the mail hub, to which mail
+    should be forwarded when a user on a client of that hub receives
+    mail.  This host can be identified with the -oR option on the command
+    line as
+
+        -oRhost_name
+
+     or in the configuration file as:
+
+        ORhost_name
+
+     or by NFS mounting the /var/spool/mail directory from a file server,
+     probably from the mail hub.  In this case, the host name of the file
+     server is used as the forwarding host identified as host_name above. 
+     All these configurations are vulnerable.
+
+II. Impact
+
+     By exploiting the vulnerabilities, local users may be able to
+     gain unauthorized root access and subsequently read any file on the
+     system, overwrite or destroy files, or run programs on the system. 
+     Remote users cannot exploit this vulnerability.
+
+III. Solutions
+
+     A. Install a patch from Sun when it becomes available.  As of the date
+        of this advisory, patches are not available to fix this problem.
+
+     B. Install the sendmail wrapper available from
+
+        ftp://ftp.cs.berkeley.edu/ucb/sendmail/sendmail_wrapper.c
+        ftp://ftp.auscert.org.au/pub/auscert/tools/sendmail_wrapper.c
+
+        Checksum:
+
+          MD5 (sendmail_wrapper.c) = fb53f92b6fc539766cd69e8b08909ba1
+
+     C. An alternative to using the patch or wrapper is to install
+        sendmail 8.6.12 and the sendmail restricted shell program ("smrsh").
+        (Although sendmail 8.7 recently became available, we have not yet
+        reviewed it.)
+
+        1. Install sendmail 8.6.12
+           
+           Sendmail is available by anonymous FTP from
+
+         ftp://ftp.cs.berkeley.edu/ucb/sendmail
+         ftp://info.cert.org/pub/tools/sendmail/sendmail.8.6.12
+         ftp://ftp.auscert.org.au/pub/mirrors/ftp.cs.berkeley.edu/ucb/sendmail
+         ftp://ftp.cert.dfn.de/pub/tools/net/sendmail
+
+           Checksums:
+
+           MD5 (sendmail.8.6.12.base.tar.Z) = 31591dfb0dacbe0a7e06147747a6ccea
+           MD5 (sendmail.8.6.12.cf.tar.Z) = c60becd7628fad715df8f7e13dcf3cc6
+           MD5 (sendmail.8.6.12.misc.tar.Z) = 6212390ca0bb4b353e29521f1aab492f
+           MD5 (sendmail.8.6.12.patch) = 10961687c087ef30920b13185eef41e8
+           MD5 (sendmail.8.6.12.xdoc.tar.Z) = 8b2252943f365f303b6302b71ef9a841
+
+           A note on configuration:
+           
+           Depending upon the currently installed sendmail program, switching
+           to a different sendmail may require significant effort, such as
+           rewriting the sendmail.cf file.  We strongly recommend that if
+           you change to sendmail 8.6.12, you also change to the
+           configuration files that are provided with that version. 
+
+           In addition, a paper is available to help you convert your sendmail
+           configuration files from Sun's version of sendmail to one that
+           works with version 8.6.12: "Converting Standard Sun Config Files to
+           Sendmail Version 8" by Rick McCarty of Texas Instruments Inc.  
+
+           This paper is included in the sendmail.8.6.12.misc.tar.Z file and
+           is located in contrib/converting.sun.configs.
+
+        2. Install the sendmail restricted shell program 
+
+           To restrict the sendmail program mailer facility, install
+           the sendmail restricted shell program (smrsh) by Eric Allman 
+           (the original author of sendmail), following the directions
+           included with the program. 
+
+           Copies of this program may be obtained from
+
+             ftp://info.cert.org/pub/tools/smrsh
+             ftp://ftp.uu.net/pub/security/smrsh
+
+             The checksums are
+
+             MD5 (README)  = fc4cf266288511099e44b664806a5594
+             MD5 (smrsh.8) = 35aeefba9714f251a3610c7b1714e355
+             MD5 (smrsh.c) = d4822ce7c273fc8b93c68e39ec67739c
+
+
+---------------------------------------------------------------------------
+The CERT Coordination Center thanks AUSCERT for providing the sendmail
+wrapper. 
+---------------------------------------------------------------------------
+
+If you believe that your system has been compromised, contact the CERT
+Coordination Center or your representative in the Forum of Incident
+Response and Security Teams (FIRST).
+
+If you wish to send sensitive incident or vulnerability information to
+CERT staff by electronic mail, we strongly advise that the email be
+encrypted.  The CERT Coordination Center can support a shared DES key, PGP
+(public key available via anonymous FTP on info.cert.org), or PEM (contact
+CERT staff for details).
+
+Internet email: cert@cert.org
+Telephone: +1 412-268-7090 (24-hour hotline)
+           CERT personnel answer 8:30 a.m.-5:00 p.m. EST(GMT-5)/EDT(GMT-4),
+           and are on call for emergencies during other hours.
+Fax: +1 412-268-6989
+
+Postal address:  CERT Coordination Center
+                 Software Engineering Institute
+                 Carnegie Mellon University
+                 Pittsburgh, PA 15213-3890
+                 USA
+
+CERT advisories and bulletins are posted on the USENET newsgroup
+comp.security.announce. If you would like to have future advisories and
+bulletins mailed to you or to a mail exploder at your site, please send mail
+to cert-advisory-request@cert.org.
+
+Past CERT publications, information about FIRST representatives, and
+other information related to computer security are available for anonymous
+FTP from info.cert.org. 
+
+
+
+Copyright 1995 Carnegie Mellon University
+This material may be reproduced and distributed without permission provided it
+is used for noncommercial purposes and the copyright statement is included.
+
+CERT is a service mark of Carnegie Mellon University.
+
+

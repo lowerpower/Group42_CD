@@ -1,0 +1,24 @@
+Motorola / AMPS handset specifications:
+-----------=?> Doctor Who <?=-----------
+ 
+
+RJ-45       DB-25        Description
+
+-----       -----        -----------
+
+  1           23            ground
+
+  2            8             9.5 V
+
+  3           11         3-wire databus "true"
+
+  4           12          complimentary line
+
+  5           18          return data line
+
+  6           24            audio ground
+
+  7            1           rcv hi
+
+ 
+

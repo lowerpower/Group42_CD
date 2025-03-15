@@ -1,0 +1,803 @@
+ ---------------------------------------------------------------------------
+ 1.3.4 UK ESN/MIN grabbing                  by DaveX                [ 030k ]
+ ---------------------------------------------------------------------------
+                                                                      
+No originality is claimed for all this text file, big bits of it were
+ripped out of the excellent DNA.TXT which dealt with the AMPS (USA) cellular
+system, but these have been modified to relate to the ETACS (UK) system which
+has subtle differences. All I have done is collate the information I have 
+gathered and placed it in one file to make life easier for YOU.
+
+The requirements for snarfing ESN/MIN pairs are:
+
+a scanner which covers the cellular band.
+a piece of hardware (modem) to convert the burbubly noises to TTL 
+a computer with a TTL input port (printer port) 
+
+Scan the band for the telemetry channels, (burbubly noises) there are two   
+blocks of these one belongs to Cellnet and the other Vodafone.              
+
+Find the strongest one and set the scanner to exactly 45 MHz lower than     
+the burbubly noise, this is the channel the local phones will be logging
+to and making calls on.
+
+Feed the output of the scanner to your homemade 8000 baud modem and connect the
+modems output to your printer port.
+Then set running your peice of megasnarfing software that you write once you
+have constructed the modem, and hey presto (or hey tescos), you log the 
+pairs to disk for later use. 
+
+There is in this file ALL the info required to successfully snarf pairs, the
+only thing you don't get is the job done for you.                           
+
+==============================================================================
+MOBILE IDENTIFICATION NUMBER (MIN) 
+There are two parts to the 34-bit MIN.
+They are derived from a cellular phone number as follows: 
+
+-------------------------------------------------------------------
+MIN2 - a ten bit number representing 234 which is the UK (area) code
+
+
+           STD   MIN2 FIRST (First digit of No.)                            
+           0836  234  0                                                     
+           0860  234  2                                                     
+           0831  234  4                                                     
+           0374  234  5                                                     
+           0850  234  6                                                     
+           0585  234  9                                                     
+                                                                            
+                                                                            
+Take each digit in turn and add 9 to it then use the leftmost digit of the  
+result.
+                                                                            
+2+9=11 = 1    3+9=12 = 2   4+9=13 = 3
+
+so 234 converted is 123 which is converted directly to binary giving:
+
+                   0001111011
+
+---------------------------------------------------------------------------
+MIN1 - a 24 bit number representing FIRST + the 6-digit phone number.
+giving 7 digits in all.
+
+The first four bits of MIN1 are just the binary of FIRST.
+
+The next 10 bits are computed the same way as MIN2, only the first 3 digits 
+of the phone number are used. 
+
+The last next ten bits of MIN1 are encoded using the final three digits of
+the phone number in the same way.
+
+So, MIN1 for 2 - 763112 would be:
+
+FIRST                                    2  
+(get Phone Number)                       2   763        112
+(modify digits where appropriate)       (2)  652        001
+(convert each part to a binary number)  0010 1010001100 0000000001
+
+Thus the complete 34-bit Mobile Identification Number for (2342)-763-112 is:
+                                                          (0860)-763-112
+                2     763         112       234
+                __   ________   ________   ________   
+               /  \_/        \_/        \_/        \
+       MIN  =  0010 1010001100 0000000001 0001111011
+               \________________________/~\________/
+                         MIN1                MIN2
+----------------------------------------------------------------------------
+
+ELECTRONIC SERIAL NUMBER (ESN)
+The serial number for each phone is encoded as a 32 bit binary number.
+
+The ESN is an 8-digit hexadecimal number, which is encoded directly to binary:
+
+ Serial Number  =   821A056F
+        Digits  =   8    2    1    A    0    5    6    F
+           ESN  =   1000 0010 0001 1010 0000 0101 0110 1111
+
+----------------------------------------------------------------------------
+When this fone (0860-763112) logs the network, the data sent is thus.
+
+101010101010101010101010101010111100010010xxxxxxx       dotting.word.sync.dcc
+10101110xxxx001010100011000000000001xxxxxxxxxxxx        min1
+10101110xxxx001010100011000000000001xxxxxxxxxxxx        min1
+10101110xxxx001010100011000000000001xxxxxxxxxxxx        min1
+10101110xxxx001010100011000000000001xxxxxxxxxxxx        min1
+10101110xxxx001010100011000000000001xxxxxxxxxxxx        min1
+0001xxxxxxxxxxxxxx000000000001111011xxxxxxxxxxxx        min2
+0001xxxxxxxxxxxxxx000000000001111011xxxxxxxxxxxx        min2
+0001xxxxxxxxxxxxxx000000000001111011xxxxxxxxxxxx        min2
+0001xxxxxxxxxxxxxx000000000001111011xxxxxxxxxxxx        min2
+0001xxxxxxxxxxxxxx000000000001111011xxxxxxxxxxxx        min2
+000010000010000110100000010101101111xxxxxxxxxxxx        esn
+000010000010000110100000010101101111xxxxxxxxxxxx        esn
+000010000010000110100000010101101111xxxxxxxxxxxx        esn
+000010000010000110100000010101101111xxxxxxxxxxxx        esn
+000010000010000110100000010101101111xxxxxxxxxxxx        esn
+etc. etc. etc. etc. etc. etc.
+
+xxxxx variable items, parity, SCM etc.
+
+This is the minimum block needed to recover the pair, the starting place to
+find to decode the required info is the WORD_SYNC_FLAG  111100010010  find 
+this, and you're halfway home.
+
+All blocks are 48 bits long, and repeated five times, the required info is in 
+the first 36 bits and the remaining 12 bits are a crc/parity word. 
+(See further on for asm routine for calculating crc/parity values).
+
+All relevant info, esn/min1/min2, are in the first 3 words, the optional blocks
+4 & 5 contain the dialled digits if the fone is trying to make a call.
+
+-----------------------------------------------------------------------------
+Each Cell Control Site uses a maximum of 16 channels, up to 4 of which
+may be control channels. There will always be at least 1 control channel
+available in each cell. Cellular Towers are easily identified by the
+flat triangular platforms at the top of the mast, with short vertical
+antennas at each corner of the platform.
+-----------------------------------------------------------------------------
+
+SUPERVISORY AUDIO TONE (SAT)
+A mobile phone must be able to recognize and retransmit any of the
+three audio frequencies used as SAT's.
+
+These tones (and their binary codes) are:
+    (00)  5970 Hz
+    (01)  6000 Hz
+    (10)  6030 Hz
+
+The SAT is used during signaling, but not during data transmission.
+The binary codes are sent during data transmission to control which of the
+SAT tones a mobile phone will be using. 
+Each cell site (or tower) uses only one of the three SATs. The mobile
+transmitter returns that same SAT to the tower.
+Tone recognition must take place within 250 milliseconds.
+
+SIGNALING TONE (ST)
+A 8 KHz tone is used for signaling by mobile phones during alert, handoff,
+certain service requests, and disconnect.
+
+DATA TRANSMISSION
+Cellular Phones use a data rate of 8 Kilobits per second, and must be 
+accurate to within one bit per second.
+Frequency Modulation (FM) is used for both voice and data transmissions.
+
+                 CELLULAR TELEPHONE SIGNALING FORMATS
+===========================================================================
+(RECC) Reverse Control Channel (mobile-to-tower on control channel)
+ RECC Message Format:
+ ----------------------------------------------------------
+  Seizure Precursor:
+   Dotting     (30 bits)     1010101010101010101010101010101
+   Word Sync   (11 bits)     11100010010 
+   DCC         (7 bits)      xxxxxxx         Digital Color Code (DCC)
+                                                Received  Coded
+                                                --------  -------
+                                                00        0000000    
+                                                01        0011111
+                                                10        1100011
+                                                11        1111100
+  Message: (from one to five words in length)
+   First Word  repeated 5 times (240 bits)
+   Second Word repeated 5 times (240 bits)
+   Third Word  repeated 5 times (240 bits)
+   Fourth Word repeated 5 times (240 bits)
+   Fifth Word  repeated 5 times (240 bits)
+  ----------------------------------------------------------
+There are 4 types of RECC messages:
+    Page Response Message
+    Origination Message
+    Order Confirmation Message
+    Order Message
+
+These are composed of combinations of the following message words:
+
+Abbreviated Address Word:
+ F    (1 bit)    1                         (first word indicator)
+ NAWC (3 bits)   xxx                       (number of additional words to send)
+ T    (1 bit)    x                         (0=response,1=origination/order)
+ S    (1 bit)    x                         (1=serial number will be sent)
+ E    (1 bit)    x                         (1=area will to be sent)
+      (1 bit)    0
+ SCM  (4 bits)   xxxx                      (station class mark)
+ MIN1 (24 bits)  xxxxxxxxxxxxxxxxxxxxxxxxx (coded 7 digit phone number)
+ P    (12 bits)  xxxxxxxxxxxx              (Parity)
+   
+Extended Address Word:
+ F     (1 bit)    0
+ NAWC  (3 bits)   xxx
+ LOCAL (5 bits)   xxxxx         (local control - system specific)
+ ORDQ  (3 bits)   xxx           (order qualifier)
+ ORDER (5 bits)   xxxxx         (order code)
+ LT    (1 bit)    x             (1=last try)
+       (8 bits)   00000000
+ MIN2  (10 bits)  xxxxxxxxxx    (coded Area Code)
+ P     (12 bits)  xxxxxxxxxxxx
+
+Serial Number Word:
+ F      (1 bit)    0
+ NAWC   (3 bits)   xxx
+ SERIAL (32 bits)  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx (serial number)
+ P      (12 bits)  xxxxxxxxxxxx
+
+First Word of Called Address: [D1..D16 are the encoded digits]
+ F    (1 bit)    0
+ NAWC (3 bits)   xxx
+ D1   (4 bits)   xxxx                     Table of Digit Codes:
+ D2   (4 bits)   xxxx                 -----------------------------
+ D3   (4 bits)   xxxx                 1 0001     7 0111   NULL 0000
+ D4   (4 bits)   xxxx                 2 0010     8 1000
+ D5   (4 bits)   xxxx                 3 0011     9 1001
+ D6   (4 bits)   xxxx                 4 0100     0 1010
+ D7   (4 bits)   xxxx                 5 0101     * 1011
+ D8   (4 bits)   xxxx                 6 0110     # 1100
+ P    (12 bits)  xxxxxxxxxxxx
+
+Second Word of Called Address:
+ F    (1 bit)   0
+ NAWC (3 bits)  000
+ D9   (4 bits)  xxxx      (encoded digits, see above table)
+ D10  (4 bits)  xxxx
+ D11  (4 bits)  xxxx
+ D12  (4 bits)  xxxx
+ D13  (4 bits)  xxxx
+ D14  (4 bits)  xxxx
+ D15  (4 bits)  xxxx
+ D16  (4 bits)  xxxx
+ P    (12 bits) xxxxxxxxxxxx
+===========================================================================
+
+(RVC) Reverse Voice Channel (mobile-to-tower on voice channel)
+ RVC Message Format:
+ --------------------------------------------------------------
+ Dotting         (101 bits) 101010101....101 
+ Word Sync       (11 bits)  11100010010
+ Repeat 1 Word 1 (48 bits)  xxxxx ... xxxxx
+ Dot             (37 bits)  1010101010101010101010101010101
+ Word Sync       (11 bits)  11100010010
+ Repeat 2 Word 1 (48 bits)  xxxxx ... xxxxx
+  .                 .
+  .                 .       [same pattern of repetition]
+  .                 .
+ Dot             (37 bits)
+ Word Sync       (11 bits)
+ Repeat 5 word 1 (48 bits)
+ Dot             (37 bits)
+ Word Sync       (11 bits)
+ Repeat 1 Word 2 (48 bits)
+ Dot             (37 bits)
+ Word Sync       (11 bits)
+ Repeat 2 Word 2 (48 bits)
+  .                  .
+  .                  .      [same pattern of repetition]
+  .                  .
+ Dot             (37 bits)  1010101010101010101010101010101
+ Word Sync       (11 bits)  11100010010
+ Repeat 5 word 2 (48 bits)  xxxxx ... xxxxx
+-----------------------------------------------------------
+ There are two kinds of RVC messages:
+
+  Order Confirmation Message  
+  Called Address Message
+
+----------
+Order Confirmation Message Word:
+ F     (1 bit)   1
+ NAWC  (2 bits)  00
+ T     (1 bit)   1
+ LOCAL (5 bits)  xxxxx
+ ORDQ  (3 bits)  xxx
+ ORDER (5 bits)  xxxxx
+       (19 bits) 0000000000000000000
+ P     (12 bits) xxxxxxxxxxxx
+---------
+---------
+Called Address Message, First Word:
+ F    (1 bit)   1
+ NAWC (2 bits)  01
+ T    (1 bit)   0
+ D1   (4 bits)  xxxx
+ D2   (4 bits)  xxxx
+ D3   (4 bits)  xxxx
+ D4   (4 bits)  xxxx
+ D5   (4 bits)  xxxx
+ D6   (4 bits)  xxxx
+ D7   (4 bits)  xxxx
+ D8   (4 bits)  xxxx
+ P    (12 bits) xxxxxxxxxxxx
+
+Called Address Message, Second Word:
+ F    (1 bit)   1
+ NAWC (2 bits)  00
+ T    (1 bit)   0
+ D9   (4 bits)  xxxx
+ D10  (4 bits)  xxxx
+ D11  (4 bits)  xxxx
+ D12  (4 bits)  xxxx
+ D13  (4 bits)  xxxx
+ D14  (4 bits)  xxxx
+ D15  (4 bits)  xxxx
+ D16  (4 bits)  xxxx
+ P    (12 bits) xxxxxxxxxxxx
+--------
+===========================================================================
+
+(FOCC) Forward Control Channel (tower-to-mobile on control channel)
+ FOCC Message Format:
+ --------------------------------------
+ Dotting         (10 bits) b1010101010
+ Word Sync       (11 bits) b11100010010
+ Repeat 1 word A (40 bits) bxxxxxxxxxxbxxxxxxxxxxbxxxxxxxxxxbxxxxxxxxxx
+ Repeat 1 word B (40 bits)            A Busy/Idle Bit (b) is inserted
+ Repeat 2 word A (40 bits)            at the beginning of Dotting and
+ Repeat 2 word B (40 bits)            Word Sync, and every 10 bits
+ Repeat 3 word A (40 bits)            during word repetitions beginning
+ Repeat 3 word B (40 bits)            at the start of the first word.
+ Repeat 4 word A (40 bits)            b=1 when the RCC is Idle.
+ Repeat 4 word B (40 bits)            b=0 when the RCC is Busy.
+ Repeat 5 word A (40 bits)
+ Repeat 5 word B (40 bits) bxxxxxxxxxxbxxxxxxxxxxbxxxxxxxxxxbxxxxxxxxxx
+ Dotting         (10 bits) b1010101010
+ -------------------------------------
+There are three types of FOCC messages: 
+
+ Mobile Station Control Message
+ Overhead Message
+ Control-filler Message
+
+Mobile Station Control Message: (one,two or four words)
+------------------------------
+Abbreviated Address Word: 
+ TT   (2 bits)  0x         (00=if one word sent, 01=if multiple words sent)
+ DCC  (2 bits)  xx         Digital Color Code
+ MIN1 (24 bits) xxxxxxxxxxxxxxxxxxxxxxxx
+ P    (12 bits) xxxxxxxxxxxx
+
+Extended Address Word: (two versions of this word occur)
+ -----------------------------   -----------------------------
+ TT    (2 bits)  10              TT   (2 bits)  10
+ SCC   (2 bits)  11              SCC  (2 bits)  xx    [not=11]
+ MIN2  (10 bits) xxxxxxxxxx      MIN2 (10 bits) xxxxxxxxxx
+       (1 bit)   0                    (1 bit)   0 
+ LOCAL (5 bits)  xxxxx           VMAC (3 bits)  xxx         (attenuation code)
+ ORDQ  (3 bits)  xxx             CHAN (11 bits) xxxxxxxxxxx (channel number)
+ ORDER (5 bits)  xxxxx              P (12 bits) xxxxxxxxxxxx
+ P     (12 bits) xxxxxxxxxxxx
+
+First Directed-Retry Word:
+ TT      (2 bits)  10
+ SCC     (2 bits)  11       SAT Color Code
+ CHANPOS (7 bits)  xxxxxxx  channel position relative to first access channel
+ CHANPOS (7 bits)  xxxxxxx 
+ CHANPOS (7 bits)  xxxxxxx
+         (3 bits)  000 
+ P       (12 bits) xxxxxxxxxxxx 
+
+Second Directed-Retry Word:
+ TT      (2 bits)  10
+ SCC     (2 bits)  11
+ CHANPOS (7 bits)  xxxxxxx
+ CHANPOS (7 bits)  xxxxxxx
+ CHANPOS (7 bits)  xxxxxxx
+         (3 bits)  000
+ P       (12 bits) xxxxxxxxxxxx
+-------------------------------
+-------------------------------
+Overhead Messages:
+  System Parameter Overhead Message:
+  Global Action Overhead Message:
+  Registration Identification Message:
+  Control-filler Message:
+
+System Parameter Overhead Message:
+----------------------------------
+System Parameter Word 1:
+ TT   (2 bits)  11
+ DCC  (2 bits)  xx
+      (3 bits)  000
+ NAWC (4 bits)  xxxx
+ OHD  (3 bits)  110           (overhead message type)
+ P    (12 bits) xxxxxxxxxxxx
+
+System Parameter Word 2:
+ TT     (2 bits)  11
+ DCC    (2 bits)  xx
+ S      (1 bit)   x     (serial number flag)
+ E      (1 bit)   x     (extended address flag)
+ REGH   (1 bit)   x     (registration for home stations)
+ REGR   (1 bit)   x     (registration for roaming stations)
+ DTX    (1 bit)   x     (discontinuous transmission flag)
+        (1 bit)   0
+ N-1    (5 bits)  xxxxx (number of paging channels in system minus 1)
+ RCF    (1 bit)   x     (read-control-filler flag)
+ CPA    (1 bit)   x     (combined paging/access flag)
+ CMAX-1 (1 bit)   x     (number of access channels in system minus 1)
+ END    (1 bit)   x     (1=last word of overhaed message train)
+ OHD    (3 bits)  111
+ P      (12 bits) xxxxxxxxxxxx
+-------------------------------
+-------------------------------
+Global Action Overhead Messages:
+
+ Rescan Global Action Message:
+    TT  (2 bit)   11
+    DCC (2 bits)  xx
+    ACT (4 bits)  0001
+        (16 bits) 0000000000000000
+    END (1 bit)   x
+    OHD (3 bits)  100
+    P   (12 bits) xxxxxxxxxxxx
+
+ Registration Increment Global Action Message:
+    TT      (2 bits)  11
+    DCC     (2 bits)  xx
+    ACT     (4 bits)  0010
+    REGINCR (12 bits) xx    (registration increment)
+            (4 bits)  0000
+    END     (1 bits)  xx
+    OHD     (3 bits)  100
+    P       (12 bits) xx
+
+ New Access Channel Set Global Action Message:
+    TT     (2 bits)  11
+    DCC    (2 bits)  xx
+    ACT    (4 bits)  0110
+    NEWACC (11 bits) xxxxxxxxxxx  (new access channel starting point)
+           (4 bits)  0000
+    END    (1 bit)   x
+    OHD    (3 bits)  100
+    P      (12 bits) xxxxxxxxxxxx
+
+ Overload Control Global Action Message:
+    TT     (2 bits)  11
+    DCC    (2 bits)  xx
+    ACT    (4 bits)  1000
+    OLCD0  (1 bit)   x     (overload class flags)
+    OLCD2  (1 bit)   x
+    OLCD3  (1 bit)   x
+    OLCD4  (1 bit)   x
+    OLCD5  (1 bit)   x
+    OLCD6  (1 bit)   x
+    OLCD7  (1 bit)   x
+    OLCD8  (1 bit)   x
+    OLCD9  (1 bit)   x
+    OLCD10 (1 bit)   x
+    OLCD11 (1 bit)   x
+    OLCD12 (1 bit)   x
+    OLCD13 (1 bit)   x
+    OLCD14 (1 bit)   x
+    OLCD15 (1 bit)   x
+    END    (1 bit)   x
+    OHD    (3 bits)  100
+    P      (12 bits) xxxxxxxxxxxx
+
+ Access Type Paramters Global Action Message:
+    TT  (2 bits)  11
+    DCC (2 bits)  xx
+    ACT (4 bits)  1001
+    BIS (1 bit)   x                  (busy/idle status flag)
+        (15 bits) 000000000000000
+    END (1 bit)   x
+    OHD (3 bits)  100
+    P   (12 bits) xxxxxxxxxxxx
+
+ Access Attempt Parameters Global Action Message:
+    TT            (2 bits)  11 
+    DCC           (2 bits)  xx
+    ACT           (4 bits)  1010
+    MAXBUSY-PGR   (4 bits)  xxxx    (maximum busy occurrences, page response)
+    MAXSZTR-PGR   (4 bits)  xxxx    (maximum seizure tries, page response)
+    MAXBUSY-OTHER (4 bits)  xxxx    (maximum busy occurrences, other accesses)
+    MAXSZTR-OTHER (4 bits)  xxxx    (maximum seizure tries, other accesses)
+    END           (1 bits)  x
+    OHD           (3 bits)  100
+    P             (12 bits) xxxxxxxxxxxx
+
+ Local Control 1 Message:
+    TT            (2 bits)  11
+    DCC           (2 bits)  x
+    ACT           (4 bits)  1110
+    LOCAL CONTROL (16 bits) xxxxxxxxxxxxxxxx  (any local control code)
+    END           (1 bits)  x
+    OHD           (3 bits)  100
+    P             (12 bits) xxxxxxxxxxxx
+
+ Local Control 2 Message:
+    TT            (2 bits)  11
+    DCC           (2 bits)  xx
+    ACT           (4 bits)  1111
+    LOCAL CONTROL (16 bits) xxxxxxxxxxxxxxxx
+    END           (1 bits)  x
+    OHD           (3 bits)  100
+    P             (12 bits) xxxxxxxxxxxx
+-------------------------------
+Registration Identification Message:
+
+   TT    (2 bits)  11
+   DCC   (2 bits)  xx
+   REGID (20 bits) xxxxxxxxxxxxxxxxxxxx    (registration ID)
+   END   (1 bit)   x
+   OHD   (3 bits)  000
+   P     (12 bits) xxxxxxxxxxxx
+------------------------------------
+Control-Filler Message:
+
+   TT   (2 bits) 11
+   DCC  (2 bits) xx
+        (6 bits) 010111
+   CMAC (3 bits) xxx            (current mobile attenuation)
+        (7 bits) 0011001
+   WFOM (1 bit)  x              (wait for overhead message)
+        (4 bits) 1111
+   OHD  (3 bits) 001
+   P    (12 bits) xxxxxxxxxxxx
+===========================================================================
+(FVC) Forward Voice Channel: (tower-to-mobile on voice channel)
+ FVC Message Format: * BUSY/IDLE bits are inserted into FVC messages in a
+                       format similar to that of FOCC messages)
+ --------------------------------------------------------------
+ Dotting         (101 bits) 101010101...101 
+ Word Sync       (11 bits)  11100010010
+ Repeat 1 Word   (40 bits)  xxxxx...xxxxx
+ Dot             (37 bits)  1010101010101010101010101010101
+ Word Sync       (11 bits)  11100010010
+ Repeat 2 Word   (40 bits)  xxxxx...xxxxx
+ Dot             (37 bits)
+ Word Sync       (11 bits)
+ Repeat 3 Word   (40 bits)
+ .                   . 
+ .                   .      [same pattern of repetition]
+ .                   .
+ Dot             (37 bits)  1010101010101010101010101010101
+ Word Sync       (11 bits)  11100010010
+ Repeat 11 Word  (40 bits)  xxxxx...xxxxx
+-----------------------------------------------------------
+ There is only kind of FVC message:
+
+Mobile Station Control Message:
+
+Mobile Station Control Word: (two versions of this word occur)
+ -----------------------------   -----------------------------
+ TT    (2 bits)  10              TT   (2 bits)  10
+ PSCC  (2 bits)  xx              PSCC (2 bits)  xx          (present SAT code)
+       (9 bits)  000000000            (9 bits)  000000000 
+ LOCAL (5 bits)  xxxxx           VMAC (3 bits)  xxx         (attenuation code)
+ ORDQ  (3 bits)  xxx             CHAN (11 bits) xxxxxxxxxxx (channel number)
+ ORDER (5 bits)  xxxxx              P (12 bits) xxxxxxxxxxxx
+ P     (12 bits) xxxxxxxxxxxx
+
+===========================================================================
+                    CELLULAR TELEPHONE MESSAGE CODES
+============================================================================
+ 
+Here are the codes used in Message Word subfields during data transmissions.
+ 
+============================================================================
+Mobile Station Automatic Attenuation Levels
+ 
+Mobile Attenuation Code (MAC)
+      Power Classifications
+MAC     I      II     III       Nominal ERP Power Outputs
+---    ---     ---    ---       Class      ERP   Level
+000      6      2     -2        ---------  ----  --------
+001      2      2     -2        Class I    4W    ( 6 dBW)
+010     -2     -2     -2        Class II   1.6W  ( 2 dBW)
+011     -6     -6     -6        Class III  0.6W  (-2 dBW)
+100    -10    -10    -10
+101    -14    -14    -14
+110    -18    -18    -18
+111    -22    -22    -22
+      (Attenuation in dBW)
+=========================================================
+ 
+Station Class Mark (SCM)
+ 
+SCM       Station Class, Transmission
+----      ----------------------------
+xx00      Class I
+xx01      Class II
+xx10      Class III
+ 
+00xx      Continuous Transmissions
+01xx      Discontinuous Transmissions
+ 
+(for example 0010 means Class I Continuous Transmissions)
+=========================================================
+ 
+Digital Color Code (DCC)
+Received  Coded
+--------  -------
+00        0000000
+01        0011111
+10        1100011
+11        1111100
+=======================================
+ 
+SAT Color Code (Supervisory Audio Tone)
+ 
+Code  Frequency
+----  ---------
+00    5970 Hz
+01    6000 Hz
+10    6030 Hz
+11    (not a channel designation)
+====================================
+ 
+Digit Code (for dialed numbers etc.)
+Digit  Code
+-----  ----
+1      0001
+2      0010
+3      0011
+4      0100
+5      0101
+6      0110
+7      0111
+8      1000
+9      1001
+0      1010 (zero is encoded as a binary ten)
+*      1011
+#      1100
+Null   0000 (when no digit present)
+===================================
+ 
+Order and Qualification Codes
+ 
+Order  Qual  Function
+-----  ---   ---------------------
+00000  000   page (or origination)
+00001  000   alert
+00011  000   release
+00100  000   reorder
+00110  000   stop alert
+00111  000   audit
+01000  000   send called-address
+01001  000   intercept
+01010  000   maintenance
+ 
+01011  000   change to power level 0
+01011  001   change to power level 1
+01011  010   change to power level 2
+01011  011   change to power level 3
+01011  100   change to power level 4
+01011  101   change to power level 5
+01011  110   change to power level 6
+01011  111   change to power level 7
+ 
+01100  000   directed retry - not last try
+01100  001   directed retry - last try
+ 
+01101  000   non-autonomous registration - do not make whereabouts known
+01101  001   non-autonomous registration - make whereabouts known
+01101  010   autonomous registration - do not make whereabouts known
+01101  011   autonomous registration - make whereabouts known
+ 
+11110  000   local control
+ 
+             (All other codes are reserved)
+==============================================================
+ 
+Overhead Message Type
+ 
+Code Order
+---- ------------------
+000  registration ID
+001  control-filler
+010  (reserved)
+011  (reserved)
+100  global action
+101  (reserved)
+110  word 1 of system parameter message
+111  word 2 of system parameter message
+=======================================
+ 
+Global Action Message Types
+ 
+Code  Action Type
+----  -----------
+0000      (reserved)
+0001  rescan paging channels
+0010  registration increment
+0011      (reserved)
+0010      (reserved)
+0011      (reserved)
+0100      (reserved)
+0101      (reserved)
+0110  new access channel set
+0111      (reserved)
+1000  overload control
+1001  access type parameters
+1010  access attempt parameters
+1011      (reserved)
+1100      (reserved)
+1101      (reserved)
+1110  local control 1
+1111  local control 2
+====================================================================
+The "polynomial" that generates the parity word is given as:
+
+         12     10     8     5     4     3     0
+gB(X)=  X   +  X   +  X  +  X  +  X  +  X  +  X
+
+asm routine for calculating parity field:
+----------------------------------------------------------------------
+seg_a   segment byte public
+        assume  cs:seg_a, ds:seg_a
+
+
+        org     100h
+
+
+start   proc    far
+        jmp     real_start
+
+crcval  dw      0               ; accumulated CRC value
+
+start   endp
+
+
+
+updcrc  proc    near            ; follow carefully!
+        push    ax              ; save input value (in case needed elsewhere)
+        mov     cx,0Ch          ; CX is loop counter for 12 bits in AX
+        mov     bx,crcval       ; Load the old CRC value
+loop1:  shl     bx,1            ; Shift old value 1 left
+        test    ax,800h         ; see if hi bit of input is set
+        jz      nocary_1        ; no, so skip next 2
+        or      bx,1            ; yes, shift into CRC count (with OR)
+        and     ax,7FFh         ; remove the high bit (test! is this needed?)
+
+nocary_1:
+        shl     ax,1            ; shift input 1 left for next time.
+        test    bx,1000h        ; test crc value for overflow
+        jz      nocary_2        ; no, do nothing
+        and     bx,0FFFh        ; yes, then remove overflow bit
+        xor     bx,539h         ; do the XOR (see below)
+nocary_2:
+        loop    loop1           ; go back and do some more bits if needed
+        mov     crcval,bx       ; save the accumulated CRC value
+        pop     ax              ; restore what we came in with
+        ret                     ; and back
+updcrc  endp
+
+
+
+clrcrc  proc    near            ; just clear the CRC value
+        mov     crcval,0
+        ret
+clrcrc  endp
+
+;----------------------------------------------------------------------
+
+; try the data - split into 3 12 bit words and a 12 bit CRC
+; if you call the routines with the 3 12 bit words and then
+; call it again with AX=0000 then the CRCVAL should be the same
+
+
+        ;101011110001001001011101000111111000 - 101111110000
+
+real_start:
+        call    clrcrc          ; clear it to start
+        mov     ax,0af1h        ; first 12 bits 1010 1111 0001
+        call    updcrc          ; generate
+        mov     ax,025dh        ; next 12 0010 0101 1101
+        call    updcrc          ; generate
+        mov     ax,01f8h        ; last 12 0001 1111 1000
+        call    updcrc          ; generate
+        mov     ax,0bf0h        ; the CRC value 1011 1111 0000
+        call    updcrc          ; generate
+                                ; THE RESULT SHOULD BE 0000 if ok
+
+
+        mov     ax,4c00h        ; terminate and return to DOS
+        int     21h
+
+seg_a   ends
+
+        end     start
+----------------------------------------------------------------------
+
+The Parity bits are irrelevant to hacking Cellular ID codes however, because
+message words are repeated many times in each message block, and the ID
+fields (MIN1, MIN2 and ESN ) can simply be lifted from the most
+frequent (and most likely error-free) message words in the block.

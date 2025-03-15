@@ -1,0 +1,1306 @@
+From irit!cix!corton!mcsun!uunet!darwin.sura.net!gatech!rutgers!cmcl2!prism.poly.edu!vm.poly.edu!JROGERS Tue Jun 30 14:54:27 WET DST 1992
+Article: 3038 of comp.sys.ibm.pc.games
+Path: irit!cix!corton!mcsun!uunet!darwin.sura.net!gatech!rutgers!cmcl2!prism.poly.edu!vm.poly.edu!JROGERS
+From: JROGERS@vm.poly.edu
+Newsgroups: comp.sys.ibm.pc.games
+Subject: TOP UNPROTECTS # 1 POST!
+Message-ID: <1680A88A6.JROGERS@vm.poly.edu>
+Date: 18 Jun 92 14:43:02 GMT
+Sender: news@prism.poly.edu (netnews)
+Organization: Polytechnic University
+Lines: 814
+
+Due to VAST demand, I am posting my TOPS unprotection files.
+ 
+ 
+ 
+TIRED OF PROTECTION
+PRESENTS
+               TOP COMPUTER HEALTH COMPENDIUM V 2.0
+               FIX THAT SICK COPY PROTECTED PIECE OF SOFTWARE WITH
+               UNPROTECTS FROM TOP.
+                          TOP IS TIRED OF PROTECTION, HOW 'BOUT YOU?
+               TO CONTACT TOP..  JUST WAIT!  WE WILL COME OUT WITH MORE
+               AT A LATER DATE.
+ 
+                                             PAGE 1
+ 
+ 
+ 
+ 
+Page Line#  Software Name       Page Line#  Software Name
+---- -----  -----------------   ---- -----  -----------------
+   4   70   Mickey Mouse          18  392   Pro Tennis
+   5   93   Silent Service ][     19  415   Face tris ]I[
+   6  116   Star Control          20  438   Stunt Driver
+   7  139   Donald Duck           21  461   CastleVania
+   8  162   Thier Finest Hour     22  484   Miami Vice
+   9  185   Strike Fleet          23  507   Welltris
+  10  208   Tunnels of Arm.       24  530   Curse of Azure Bonds
+  11  231   Thunder Strike        25  553   The Third Courier
+  12  254   Blades of Steel       26  576   Buck Rogers
+  13  277   M1 Abrams Tank        27  599   Empire
+  14  300   Escape from Hell      28  622   Ogre
+  15  323   World tour Golf       29  645   Rad Warrior
+  16  346   BattleChess           30  668   TransWorld
+  17  369   PowerDrome            31  691   Thexder ][
+ 
+ 
+                                 PAGE 2
+ 
+Page Line#  Software Name       Page Line#  Software Name
+---- -----  -----------------   ---- -----  -----------------
+  32   714  Dambusters            46  1036  Dragon's Lair 1
+  33   737  Zany Golf             47  1059  Life and Death 1
+  34   760  F-16 Strike Sim.      48  1082  Spirit of Excalibur
+  35   783  Wonderland            49  1105  Command HQ
+  36   806  Overlord              50  1128  Summer Games
+  37   829  VGA ABC Football      51  1151  Champions of Krynn
+  38   852  MechWarrior           52  1174  Dragon Strike
+  39   875  Sim Earth             53  1197  Joan of Arc
+  40   898  Weird Dreams          54  1220  Secret of Silverblades
+  41   921  Troika Russian        55  1243  Breach ][
+  42   944  SpaceAce              56  1266  MidWinter
+  43   967  Space Quest IV        57  1289  Keef The Thief
+  44   990  Secret Missions ][    58  1312  Mavis Typing Tutor
+  45  1013  Death Knights Krynn   59  1335  Heroes of the Lance
+ 
+ 
+                                          PAGE 3
+Mickey Mouse's Runaway ZOO.
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: Mickey.exe
+SEARCH STRING: 3B FE
+CHANGE: FE
+TO: FF
+NOTES:THIS WILL ENABLE YOU TO USE ANY NUMBER TO BYPASS THE COPY PROTECTION
+        scheme. Cracker was Majik/Mage.
+ 
+ 
+                                  PAGE 4
+Silent Service ][
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: SS2.EXE
+SEARCH STRING: 75 41 2B C0 50 50
+CHANGE: 75 41
+TO: 90 90
+NOTES:  Cracker Was Majik.
+ 
+ 
+                                         PAGE 5
+Star Control from Accolade
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: starcon.ovl
+SEARCH STRING: 74 05 1B C0 1D FF FF 3D 01 00
+CHANGE: 74 05
+TO: EB 05
+NOTES:  Cracker was Majik.
+ 
+ 
+                                              PAGE 6
+Donalds Alphabet Chase
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: donald.exe
+SEARCH STRING: 3B 76 FC
+CHANGE: 3B 76 FC
+TO: 90 3B F6
+NOTES:  Cracker was Majik/Mage.
+ 
+ 
+                                                   PAGE 7
+BATTLE OF BRITIAN:THEIR FINEST HOUR FROM LUCAS FILMS
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: bob.exe
+SEARCH STRING: 36 24 75 08 B8 01 00
+CHANGE: 75
+TO: 74
+NOTES:  Cracker was Majik.
+ 
+ 
+                                              PAGE 8
+Strike Fleet from Lucas Films
+ 
+EDITOR: Debug
+COMMANDS:
+RENAME sf.exe sf.x
+DEBUG sf.x
+U 1000:3839   (should be e8 46 02) the call to doc check
+E 1000:3939 90 90 90 (NOP out the offending code)
+W
+Q
+REN sf.x sf.exe
+NOTES:  Cracker was Majik.
+ 
+ 
+                                                 PAGE 9
+Tunnels of Armageddon From California Dreams
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: tunnels.exe (The .EXE loader file on this one)
+SEARCH STRING: 0A 08 0B C0 75 17
+CHANGE: 75
+TO: EB
+NOTES:  Cracker was Majik.
+ 
+ 
+                                          PAGE 10
+Thunder Strike
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: TS.EXE
+SEARCH STRING: E8 92 72
+CHANGE: E8 92 72
+TO: 90 90 90
+NOTES:  Cracker was Majik.
+ 
+ 
+                                             PAGE 11
+Blades of Steel from Konami
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: play.exe
+SEARCH STRING: 3B 46 F6 74 14
+CHANGE: 74
+TO: 75
+NOTES:  Cracker was Majik.
+ 
+ 
+                                        PAGE 12
+M1 Abrams Tank simulator from Dynamix
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: The Loader file
+SEARCH STRING: 74 18 E8 11 F3
+CHANGE: 74
+TO: EB
+NOTES:  Cracker was Majik.
+ 
+ 
+Escape from Hell from Electronic Arts.
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: The Loader file
+SEARCH STRING: 83 7E D6 02 7D 03
+CHANGE: 03
+TO: 0D
+NOTES: You will have to press <ENTER> twice at the doc check for some reason.
+Cracker was Majik.
+ 
+ 
+                                             PAGE 14
+World Tour Golf
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: wtg.exe
+SEARCH STRING: 83 C4 08 0B C0 75 10
+CHANGE: 75 10
+TO: 74 41
+NOTES: Cracker was Majik.
+ 
+ 
+                                                PAGE 15
+BattleChess
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: chess.exe
+SEARCH STRING: 74 EB FE
+CHANGE: 74
+TO: 75
+NOTES: Cracker was Majik. This crack does not slow down the computer and action
+as did others.  You will still have to press enter 3 times to get into the
+game.
+ 
+ 
+                                         PAGE 16
+Power Drome
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: pd.exe
+SEARCH STRING: 74 07 3A 05 75 09 47
+CHANGE: 74
+TO: EB
+NOTES: Cracker was Majik.
+ 
+ 
+                                      PAGE 17
+Pro Tennis
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: EGA.COM, CGA.COM, HGA.COM
+SEARCH STRING: 74 39
+CHANGE: 74 39
+TO: EB 39
+NOTES: Cracker was Majik. Sorry about the Tandy - no crack at this time.
+ 
+ 
+                                 PAGE 18
+FACES (Tetris 3?)
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: faces.exe
+SEARCH STRING: 75 09 FF 46 FC
+CHANGE: 75 09
+TO: EB 17
+NOTES: Cracker was Majik.
+ 
+ 
+                                                 PAGE 19
+Stunt Driver from Spectrum Holobyte
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: stunt.exe
+SEARCH STRING: 74 06 9A F4 A6 E1 FE
+CHANGE: 74
+TO: EB
+NOTES: Cracker was Majik.
+ 
+ 
+                                              PAGE 20
+CastleVania
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: cega.exe,ctgy.exe, ccga.exe
+SEARCH STRING: 3B 46 E2 75 0B
+CHANGE: 75
+TO: 74
+NOTES: Cracker was Majik.
+ 
+ 
+                                         PAGE 21
+Miami Vice
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: mvg.exe
+SEARCH STRING: 9A FE 0B F1 0E
+CHANGE: 9A FE 0B F1 0E
+TO: 90 90 90 90 90
+NOTES: Cracker was Majik.
+ 
+ 
+                                  PAGE 22
+Welltris from Spectrum Holobyte
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: loader file
+SEARCH STRING: 74 09 B8 06 00 50 E8
+CHANGE: 74
+TO: 75
+NOTES: THIS OCCURS TWICE.  DO IT BOTH TIMES! Also must do Second part of crack.
+Cracker was Majik.
+ 
+Part 2
+EDITOR: PCshell/Norton
+FILE TO SEARCH: loader file
+SEARCH STRING: 74 04 C6 46 E9 FF FF 06
+CHANGE: 74
+TO: 75
+NOTES:  Cracker was Majik.
+ 
+ 
+ 
+                           PAGE 23
+Curse of the Azure Bonds from SSI
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: game.ovr
+SEARCH STRING: 3A 46 FD 74 1C 8D 7E D0
+CHANGE: 74
+TO: 75
+NOTES: Cracker was Majik.
+ 
+ 
+ 
+                                           PAGE 24
+The Third Courier
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: TTC.EXE
+SEARCH STRING: 75 03 E9 98 01
+CHANGE: 75 03
+TO: 90 90
+NOTES: Cracker was Majik.
+ 
+ 
+                                               PAGE 25
+Buck Rogers
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: start.exe
+SEARCH STRING: 3C 01 74 05
+CHANGE: 74
+TO: EB
+NOTES: Cracker was Majik. Press enter 3 times to enter the game.
+ 
+ 
+                                               PAGE 26
+Empire: Wargame of the Century
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: empire.exe
+SEARCH STRING: AA 0C 74 03 E9 40 FE
+CHANGE: 74
+TO: EB
+NOTES: Cracker was Majik.
+ 
+ 
+                                        PAGE 27
+Ogre from Origin
+ 
+EDITOR: Debug
+COMMANDS:
+DEBUG ogre.ovl
+E234e 90 90 90 90
+W
+q
+NOTES:  Cracker was Bob Barker.
+ 
+ 
+                                           PAGE 28
+Rad Warrior
+ 
+EDITOR: Debug
+COMMANDS:
+RENAME rw.exe rw
+DEBUG rw
+e 5837 eb 4e 90
+w
+q
+RENAME rw rw.exe
+NOTES:  Cracker was Bob Barker.
+ 
+                                              PAGE 29
+TransWorld GERMAN Import
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: twcolor.exe
+SEARCH STRING: E8 0B FC
+CHANGE: E8 0B FC
+TO: 90 90 90
+NOTES: Cracker was Majik/Mage.
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: twmono.exe
+SEARCH STRING: E8 C9 F8
+CHANGE: E8 C9 F8
+TO: 90 90 90
+NOTES: Cracker was Majik/Mage.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                           PAGE 30
+Thexder ][: Firehawk from sierra
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: game.exe
+SEARCH STRING: E8 46 00 E8 DF 00 E8 E8 00 E8
+CHANGE: Last E8
+TO: C3
+NOTES: Cracker was Majik.
+ 
+ 
+                                  PAGE 31
+Dambusters from Accolade
+ 
+EDITOR: Debug
+COMMANDS:
+DEBUG dambust.com
+e 0316 90 90 eb 06
+w
+q
+NOTES:  Cracker was Bob Barker.
+ 
+ 
+                                             PAGE 32
+ZANY Golf
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: Zany.com
+SEARCH STRING: E8 95 25 3C 0D F5
+CHANGE: 3C 0D F5
+TO: E9 74 01
+NOTES: Cracker was The Mage, TANDYLAND users are out of luck. Don't have a
+       TANDY
+ 
+ 
+                                             PAGE 33
+F-16 Strike Fighter
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: GROUND.OVL
+SEARCH STRING: 75 06 3B 0E EA 0E 74 1F
+CHANGE: 74  and 06
+TO: EB and 00   respectively..  ie 74 - EB and 06-00
+NOTES: Cracker was Majik.
+ 
+ 
+                                                 PAGE 34
+WONDERLAND: Dream the Dream
+ 
+Part 1 - Volume Label
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: INSTALL.EXE
+SEARCH STRING: 0B C0 74 03 E9 46 FF
+CHANGE: 74
+TO: EB
+NOTES: Cracker was Majik.
+ 
+Part 2 - DOC check
+ 
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: GAME.EXE
+SEARCH STRING: CD 21 33 D1
+CHANGE: CD 21 33 D1
+TO: 90 BA 19 03
+NOTES: Cracker was Majik.  Type 'THE' at the Doc check to get past it.
+ 
+ 
+                                       PAGE 35
+Overlord from Virgin Mastertronic
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: GAME.EXE
+SEARCH STRING: 31 32 74 15
+CHANGE: 74
+TO: EB
+NOTES: Cracker was The Mage.
+ 
+ 
+                                           PAGE 36
+ABC's VGA Monday Night Football.
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: MONDAY.EXE
+SEARCH STRING: 3A 91 80 3E D4 C3 00 74 F1
+CHANGE: 74 F1
+TO: EB 24
+NOTES: Cracker was The Mage.
+ 
+ 
+                                        PAGE 37
+MechWarrior from Activision
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: MW_MAIN.EXE
+SEARCH STRING: 04 00 FF 1E 2C 00
+CHANGE: FF 1E 2C 00
+TO: E9 31 01 90
+NOTES: Cracker was The Mage.
+ 
+ 
+                                      PAGE 38
+Sim Earth from Maxis Software
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: SIMEARTH.EXE
+SEARCH STRING: 74 03 E9 46 01
+CHANGE: 03 to 00
+CHANGE: 46 to 40
+NOTES: Cracker was Majik/Mage.
+ 
+ 
+                                             PAGE 39
+Weird Dreams
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: WEIRD.EXE
+SEARCH STRING: 0B C0 75 05 B8 01 00 EB 0D
+CHANGE: 75 05
+TO: EB 12
+NOTES: Cracker was The Mage.
+ 
+ 
+                                               PAGE 40
+Troika -3 Russian Games
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: TROIKA.EXE
+SEARCH STRING: 75 05
+CHANGE: 75 05
+TO: EB 65
+NOTES: 1st occurance of the search string is to be edited.
+       Cracker was The Mage.
+ 
+ 
+                                         PAGE 41
+SpaceAce
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: SPACEACE.EXE
+SEARCH STRING: 75 16 BE 15 07
+CHANGE: BE 15 07
+TO: EB 14 90
+NOTES: Cracker was The Mage.
+ 
+ 
+                                            PAGE 42
+Space Quest IV
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: SCIDHUV.EXE
+SEARCH STRING: FF 77 04 FF 77 02 9A 4C 02
+CHANGE: 02 9A 4C 02
+TO: 04 9A 4C 02
+NOTES: Cracker was Majik.
+ 
+ 
+                                               PAGE 43
+Wing Commander Secret Missions ][
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: SM2.EXE
+SEARCH STRING:  0B C0 75 14 B8 DA 3B
+CHANGE: 75
+TO: EB
+NOTES: Cracker was Majik.
+ 
+ 
+                                  PAGE 44
+Death Knights of Krynn
+ 
+Part 1:
+EDITOR: PCshell/Norton
+FILE TO SEARCH: START.EXE
+SEARCH STRING:  9A 25 00 4A 00
+CHANGE: 9A 25
+TO: EB 4B
+NOTES: Cracker was The Flash.
+ 
+ 
+Part 2:
+EDITOR: PCshell/Norton
+FILE TO SEARCH: GAME.OVL
+SEARCH STRING: 80 BD F6 01 0A 72
+CHANGE: 72
+TO: EB
+NOTES: Cracker was The Flash.
+ 
+ 
+ 
+ 
+                                 PAGE 45
+Dragons Lair 1
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: GAME.EXE
+SEARCH STRING:  E8 27 36 E8 7F 27
+CHANGE: 27 36
+TO: 4C 1D
+NOTES: Cracker was The Flash.
+ 
+ 
+ 
+                                PAGE 46
+Life and Death 1
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: L&D.EXE
+SEARCH STRING:  6C 19 74
+CHANGE: 74
+TO: EB
+NOTES: Cracker was The Flash.
+ 
+ 
+                                             PAGE 47
+Spirit of Excalibur
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: EXCAL.EXE
+SEARCH STRING:  74 36 B8 06 00
+CHANGE: 74
+TO: EB
+NOTES: UNLZEXE the EXCAL.EXE file before you Crack it.  After You apply
+the patch then LZEXE it back.  If you need LZEXE package get it at your
+fine Shareware systems, Ask a Friend, or just Forget about the crack  :>
+Cracker was The Flash.
+ 
+ 
+                                      PAGE 48
+Command HeadQuaters
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: CHQ.EXE
+SEARCH STRING:  83 C1 A4 01
+CHANGE: All of them to
+TO: 90 90 31 A9
+NOTES:NOW, LOOK RIGHT ABOVE THEM AND CHANGE THE 48 (OFFSET F2B1) TO A C8
+                        AND CHANGE THE 87 (OFFSET F2BE  TO A 85.
+Cracker was The Flash.
+ 
+ 
+                                                   PAGE 49
+Summer Games
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: THEGAMES.EXE
+SEARCH STRING:  E8 BA
+CHANGE: E8 BA
+TO: E9 8E
+NOTES:  Cracker was The Flash.
+ 
+ 
+                                            PAGE 50
+Champions of Krynn from SSI
+ 
+Part 1:
+EDITOR: PCshell/Norton
+FILE TO SEARCH: START.EXE
+SEARCH STRING:  74 33
+CHANGE: 74
+TO: EB
+NOTES:  Use first occurance only. Cracker was The Flash.
+ 
+Part 2:
+EDITOR: PCshell/Norton
+FILE TO SEARCH: GAME.OVL
+SEARCH STRING:  72 1D
+CHANGE: 72
+TO: EB
+NOTES:  Use first occurance only. Cracker was The Flash.
+ 
+ 
+ 
+ 
+ 
+                              PAGE 51
+Dragon Strike from SSI
+ 
+Part 1:
+EDITOR: PCshell/Norton
+FILE TO SEARCH: MAIN.EXE
+SEARCH STRING:  06 56 C6 06 18 ... FF 1E 14
+CHANGE: FF 1E 14
+TO: E9 64 01
+NOTES: Need to DO part 2. Cracker was The Flash.
+ 
+Part 2:
+EDITOR: PCshell/Norton
+FILE TO SEARCH: MAIN.EXE
+SEARCH STRING:  06 56 C6 06 18 ... FF 1E 14
+CHANGE: FF 1E 14
+TO: E9 64 01
+NOTES: Need to do both.  Cracker was The Flash.
+ 
+ 
+                                         PAGE 52
+Dragon Strike from SSI
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: JOAN.EXE
+SEARCH STRING:  9A 02 00 EF 1F
+CHANGE: All
+TO: 90's
+NOTES: Cracker was The Flash.
+ 
+ 
+ 
+ 
+                                 PAGE 53
+Secret of Silverblades from SSI
+ 
+Part 1:
+EDITOR: PCshell/Norton
+FILE TO SEARCH: START.EXE
+SEARCH STRING:  5C 0C 74 33 9A
+CHANGE: 74
+TO: EB
+NOTES: Cracker was The Flash.
+ 
+Part 2:
+EDITOR: PCshell/Norton
+FILE TO SEARCH: GAME.OVL
+SEARCH STRING:  02 1E 72 1D
+CHANGE: 72
+TO: EB
+NOTES: Cracker was The Flash.
+ 
+ 
+ 
+ 
+ 
+                             PAGE 54
+Breach ][
+ 
+EDITOR: PCshell/Norton
+NOTES: Cracker was The Flash.
+ 
+Another LZEXE'd file.
+ 
+Either UNLZEXE "BREACH2.EXE" and search for "83 c4 02 90 0e e8 2a 48"
+                             and change to   "" "" "" e9 93 02 "" ""
+OR
+Search "BREACH2.exe" for "04 72 48 84 ee be"
+        Change to        "89 e1 2a 48 09 dd"
+        Look back about 8-9 bytes and the "9a" should be changed to a "3a".
+ 
+        The First way would be the BEST as compression is a tricky thing. I
+        tested it both ways and it worked.
+ 
+                                                        -The Flash <TOP>
+ 
+ 
+ 
+ 
+                                 PAGE 55
+Midwinter
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: MIDWINTR.EXE
+SEARCH STRING:  E8 59 01 2E FF
+CHANGE: 2E FF
+TO: EB 18
+NOTES: Cracker was The Flash.
+ 
+ 
+                                           PAGE 56
+Keef the Thief
+ 
+Part 1
+EDITOR: PCshell/Norton
+FILE TO SEARCH: KF.EXE
+SEARCH STRING:  3B 46 06 74 03 E9
+CHANGE: 74
+TO: EB
+NOTES: Cracker was The Flash.
+ 
+Part 2
+EDITOR: PCshell/Norton
+FILE TO SEARCH: KF.EXE
+SEARCH STRING:  75 13 0E E8 13 FF
+CHANGE: 75
+TO: EB
+NOTES: Cracker was The Flash.
+ 
+ 
+ 
+ 
+                                   PAGE 57
+Mavis Beacon Typing Tutor
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: MAVIS.EXE
+SEARCH STRING:  75 27 FF
+CHANGE: 75
+TO: EB
+NOTES: Cracker was The Flash.
+ 
+ 
+ 
+ 
+ 
+ 
+                                 PAGE 58
+Heroes of the Lance
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: START.EXE
+SEARCH STRING:  74 1A BB
+CHANGE: 74
+TO: EB
+NOTES: Cracker was The Flash.
+ 
+ 
+ 
+                                     PAGE 59
+NOTE:  This may be the End of The TOP Healing library v 2.0 but it
+is sadly not the end of Copy Protection disease and so the TOP Doctors will go
+on and try to keep you updated.
+ 
+If you know how to reach TOP and wish to help in the never ending Copy
+Protection Battle.  Volunteer!  We NEED you!
+                                                        The Mage
+                                                        TOP President
+                                                        Can be found
+                                                        everywhere
+ 
+ 
+
+
+From irit!cix!corton!mcsun!uunet!darwin.sura.net!gatech!rutgers!cmcl2!prism.poly.edu!vm.poly.edu!JROGERS Tue Jun 30 14:54:47 WET DST 1992
+Article: 3039 of comp.sys.ibm.pc.games
+Path: irit!cix!corton!mcsun!uunet!darwin.sura.net!gatech!rutgers!cmcl2!prism.poly.edu!vm.poly.edu!JROGERS
+From: JROGERS@vm.poly.edu
+Newsgroups: comp.sys.ibm.pc.games
+Subject: TOP UNPROTECTS # 2 POST!
+Message-ID: <1680A894D.JROGERS@vm.poly.edu>
+Date: 18 Jun 92 14:45:49 GMT
+Sender: news@prism.poly.edu (netnews)
+Organization: Polytechnic University
+Lines: 463
+
+Due to VAST demand, I am posting the two TOP files
+of game unprotects.
+ 
+TIRED OF PROTECTION
+PRESENTS
+TOP COMPUTER HEALTH COMPENDIUM ][ V 2.0
+FIX THAT SICK COPY PROTECTED PIECE OF SOFTWARE WITH
+UNPROTECTS FROM TOP.
+TOP CRACKERS:  THE MAGE, MAJIK (BUSTER), THE FLASH, GRON
+     THE MAD DOCTOR, THE WATCHER, THE ENTITY
+     TOP HOME BOARD IS THE MAGE'S LAIR BBS
+     TOP IS TIRED OF PROTECTION, AREN'T YOU?
+                                                                        Page 1
+ 
+Page Line#  Software Name       Page Line#  Software Name
+---- -----  -----------------   ---- -----  -----------------
+   3    47  Modem Wars            19   415  Bo Jackson Baseball
+   4    70  Railroad Tycoon       20   438  Mike Ditka's Football
+   5    93  Secont Front 1.0      21   461  Martian Dreams
+   6   116  Sargon IV             22   484  BAttleChess VGA
+   7   139  Drum Blaster          23   507  Buck Rogers
+   8   162  Ctrl-Alt              24   530  TOPGun DangerZone
+   9   185  Crusher               25   553  Dusk of the Gods
+  10   208  Centurion             26   576  Final Four BasketBall
+  11   231  Arkanois ][ (cht)     27   599  Golden Axe
+  12   254  The Immortal          28   622  Search for the king 1.1
+  13   277  Haunted SB Prog.      29   645  Sargon V
+  14   300  The Perfect General   30   668  Strip Poker 3
+  15   323  Pool of Darkness      31   691  Blood Wych
+  16   346  Drakken               32   714  Carribean Contraband
+  17   369  Algebra Blaster       33   737  Riders of the Rohan
+  18   392  Second Front v 1.01   34   760  BattleHawks 1942
+                                                                        Page 2
+Modem Wars
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: WAR.EXE
+SEARCH STRING: A0 E1 14 3A 06 C4
+        This is what you will see :
+SPECIAL NOTE:
+        This is what you will see :
+a0 e1 14 3a 06 c4 76 75 12 a0 e2 14 3a 06 c5 76 75 09
+                     ^^ ^^                      ^^ ^^
+Change to            90 90                      90 90
+ 
+Look about 7 or 8 bytes farther and there will be a 74 10. Change the 74
+ to EB.
+                                                  -THE FLASH <TOP>
+ 
+ 
+                                           PAGE 3
+Railroad Tycoon
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: GAME.EXE
+SEARCH STRING: 75 2A 8B 46 f6 39 46 FC 74 03
+CHANGE: 74 03
+TO: EB 03
+NOTES:  Cracker Was The Flash.
+ 
+ 
+                                       PAGE 4
+Second Front from SSI
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: START.EXE
+SEARCH STRING: 75 1F 1E B8 7E 29
+CHANGE: 75 1F
+TO: 90 90
+NOTES:  Cracker Was the Flash.
+ 
+ 
+                                                 PAGE 5
+Sargon IV
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: SARGON4.EXE
+SEARCH STRING: 9A 98 20 24 06 C7
+CHANGE: 9A 98 20
+TO: E9 CD 00
+NOTES:  Cracker Was The Flash
+ 
+ 
+                                                PAGE 6
+Drum Blaster
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: DBLAST.EXE
+SEARCH STRING: 55 8B EC 83 EC 08 0E
+CHANGE: 55
+TO: CB
+NOTES:  Time Delay removal.  Cracker Was The Flash
+ 
+ 
+                                                      PAGE 7
+Ctrl-Alt
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH:  CTRL-ALT.EXE
+SEARCH STRING: 83 3E 28 14 02 75 0C
+CHANGE: 75
+TO: EB
+NOTES:  Type of Protection: Only 2 TSR's at a time.
+Cracker Was The Flash
+ 
+ 
+                                                     PAGE 8
+Crusher
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH:  CRUSHER.EXE
+SEARCH STRING:  SEE NOTES SPECIAL
+NOTES:  Type of Protection:Delay & Shareware version.  Cracker Was The Flash
+SPECIAL:
+    *   Search for 'c0 75 03 e9 09 00'  <-- This registers it
+                       ^^
+                       EB
+    *   Search again for the same 6 bytes and change the second occurence.
+ 
+    *   Search for '74 42 8b'   <-- This removes end delay. Works on most
+                    ^^              of his games including Islewars
+                    EB
+    *   Search for 'ff 0e c4 00' <-- This gives unlimited lives
+                    ^^ ^^ ^^ ^^
+                    90 90 90 90
+    *   Search for 'ff 0e c2 00' <-- This gives unlimited bombs
+                    ^^ ^^ ^^ ^^
+                    90 90 90 90
+ 
+                                                  PAGE 9
+Centurion
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH:  OVL0.OVL
+SEARCH STRING:  C0 74 06 FF
+CHANGE:  74
+TO: EB
+NOTES:  Cracker Was The Flash
+ 
+ 
+                                            PAGE 10
+Arkanoid II - DOHs Revenge
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH:  REVOFDOH.DAT
+SEARCH STRING:  FE 0E 97 04
+CHANGE: ALL
+TO: 90's
+NOTES:  This is a Cheat, No lives lost.  Cracker Was The Flash.
+ 
+ 
+                                                    PAGE 11
+The Immortal
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH:  IMMORTAL.EXE
+SEARCH STRING:  E8 04 00 69 63 54
+CHANGE:  E8
+TO:  C3
+NOTES:  Cracker Was The Mad Doctor
+ 
+ 
+                                        PAGE 12
+Haunted House SoundBlaster special effects
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: DBLAST.EXE
+SEARCH STRING:  55 8B EC 83 EC 08 0E
+CHANGE:  55
+TO:  CB
+NOTES:  Cracker Was The Flash
+ 
+ 
+                                             PAGE 13
+The Perfect General
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH:  GENERAL.EXE
+SEARCH STRING:  75 0E 9A 0A
+CHANGE:  75 0E
+TO:  EB 09
+NOTES:  Cracker Was The Flash
+ 
+ 
+                                     PAGE 14
+Pool of Darkness
+ 
+EDITOR: PCshell/Norton
+How to do it:
+        GAME.OVL
+        Search for '9a 74 0b 25 08 74 03 e9 7e'
+        Change to  '"" "" "" "" "" eb "" "" ""'
+        Search for '9a 74 0b 25 08 75 06 c6'
+        Change to  '"" "" "" "" "" 90 90 ""'
+NOTES:  Cracker Was The Flash
+ 
+ 
+                                     PAGE 15
+Drakken
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH:  DRAKM.CC1
+SEARCH STRING:  FA 75 22 F8 06
+CHANGE: 75
+TO: EB
+NOTES:  Cracker Was The Mad Doctor
+ 
+ 
+                                 PAGE 16
+Algebra Blaster
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: INSTALL.EXE
+SEARCH STRING: E8 F1 01
+CHANGE: E8 F1 01
+TO: 90 90 90
+NOTES:  The First Accourance of the Search String.  Cracker Was Majik
+ 
+ 
+                                           PAGE 17
+Secont Front v 1.01
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH:  START.EXE
+SEARCH STRING: 3A 86 59 FD 75 1F
+CHANGE: 1F
+TO: 00
+NOTES:  Cracker Was The Flash
+ 
+ 
+                                                PAGE 18
+Bo Jackson Baseball
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH:  BALL.EXE
+SEARCH STRING:  9A 4C 04
+CHANGE:  9A 4C
+TO: EB 14
+NOTES:  Cracker Was The Mad Doctor
+ 
+ 
+                                                               PAGE 19
+Mike Ditka's Football
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH:  MDFB.EXE
+SEARCH STRING: 75 6B 05 00
+CHANGE:  75 6B
+TO: 90 90
+NOTES:
+ 
+re-search MDFB.exe for:
+Part 2:    75 12 8E 46
+           ^^ ^^
+           90 90
+ 
+now look in DAT101.DAT for:
+part 3:    E8 A1 B7 B8 01
+           ^^ ^^ ^^
+           90 90 90
+ 
+ 
+ 
+                           PAGE 20
+Martian Dreams
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH:
+SEARCH STRING: 74 08 8B 5E 0A
+CHANGE:  74
+TO:  EB
+NOTES:  Cracker Was The Mad Doctor
+ 
+ 
+                                 PAGE 21
+BattleChess -VGA-
+ 
+PART 1.
+EDITOR: PCshell/Norton
+FILE TO SEARCH: CHESS.EXE
+SEARCH STRING: EB FE C4 5E
+CHANGE:  EB FE
+TO:  90 90
+NOTES:  Cracker Was The Flash
+ 
+PART 2.
+EDITOR: PCshell/Norton
+FILE TO SEARCH: CHESS.EXE
+SEARCH STRING: 3D 02 00 7D
+CHANGE:  02
+TO:  00
+NOTES:  Cracker Was The Flash
+ 
+ 
+ 
+ 
+                                     PAGE 22
+Buck Rogers from SSI
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: START.EXE
+SEARCH STRING: 9A 25 00 59
+CHANGE:  9A 25 00 59
+TO:  EB 0C 00 58
+NOTES:  Cracker Was The Flash
+ 
+ 
+                                   PAGE 23
+Danger Zone (Top Gun)
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH:
+        Ega  Version use EFRONT.OVL
+        Mcga Version use MFRONT.OVL
+        Vga  Version use VFRONT.OVL
+SEARCH STRING: 9C 2B C0 50
+CHANGE:  2B C0 50
+TO:  E9 58 02
+NOTES:  Cracker Was The Flash.
+ 
+ 
+ 
+                                          PAGE 24
+Dusk of the Gods
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: RUNTIME.1
+SEARCH STRING: 75 23
+CHANGE:  75 23
+TO:  EB 1C
+NOTES:  Cracker Was The Flash.
+        To unprotect game :
+                Search for 75 23
+                Change to  eb 1c
+ 
+ 
+                           PAGE 25
+Final Four Basketball
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: NCAA.EXE
+SEARCH STRING: B8 28 00 50 9A AD 00
+CHANGE:  9A AD 00
+TO:  E9 46 03
+NOTES:  Cracker Was The Mad Doctor
+ 
+ 
+                                     PAGE 26
+Golden Axe
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: AXE.DAT
+SEARCH STRING: E8 AB 04
+CHANGE:  AB 04
+TO:  A4 05
+NOTES:  Cracker Was The Mad Doctor
+ 
+ 
+                                   PAGE 27
+Search for the King v 1.1
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: EXE.EXE
+SEARCH STRING: 39 87 22 66 75 05
+CHANGE:  05
+TO:  00
+NOTES:  Cracker Was Majik.
+ 
+ 
+                                                   PAGE 28
+Sargon V
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: SARGON5.EXE
+SEARCH STRING: 8E D6 EB A8
+CHANGE:  8E D6
+TO:  D1 17
+NOTES:  Cracker Was The Mad Doctor
+ 
+ 
+                                        PAGE 29
+Strip Poker 3
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: POKER.EXE
+SEARCH STRING: 75 03 E9 1B
+CHANGE:  75 03
+TO:  90 90
+NOTES:  Cracker Was The Flash.
+ 
+ 
+                                  PAGE 30
+Blood Wych
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: MAIN EXE files
+SEARCH STRING: B8 FD CD
+CHANGE:  B8
+TO:  C3
+NOTES:  Cracker Was The Flash.
+ 
+ 
+                                          PAGE 31
+Carribean Contraband 2.0 2.3 2.4
+ 
+EDITOR: PCshell/Norton
+File        CARIB24.EXE
+        Hunt for 75 5c 83
+        Swap to  eb 06 83
+        ------------------
+FIle        CARIB23.EXE
+        Hunt for 75 69 83
+        Swap to  eb 06
+        ------------------
+File        CARIB20.EXE
+        Hunt for 75 64 8d
+        Swap to  90 90
+        ------------------
+NOTES:CRACKER WAS THE FLASH. I HAD TO UN PKLITE CARIB20 TO MAKE THE CHANGES.
+        If any of the versions are PKLITEd or LZEXEd you will have to
+        uncompress them. If the file is under 60k, then it has been
+        compressed. They normally are in the 70k range.
+ 
+ 
+ 
+              PAGE 32
+Riders of the Rohan
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: ROHAN.EXE
+SEARCH STRING: 74 03 E9 5C 01 9A
+CHANGE: 74 03
+TO: EB 0F
+NOTES: Cracker was The Flash.
+ 
+ 
+ 
+ 
+                                      PAGE 33
+Battlehawks 1942
+ 
+EDITOR: PCshell/Norton
+FILE TO SEARCH: BH.EXE
+SEARCH STRING: 38 43 F4 74 E2 C6 06
+CHANGE: 74
+TO: EB
+NOTES: Cracker was Gron.
+ 
+ 
+                                       PAGE 34
+I Hope that the TOP Unprotect Library ][ has helped you out of your COPY
+PROTECTION Problems.  Hard Work and a lot of Time has gone into this
+Library and so therefor I hope if you run across TOP somewhere, please
+say HI and if you can ..  Help us out.
+        This Issue we Welcome Many new Faces but in our -TOP- Unprotect
+Division we Welcome GRON and The Mad Doctor.  Both are excellent Crackers
+and we thank them for their support!
+ 
+                                                        The Mage
+                                                        TOP President
+                                                        Can be found
+                                                        everywhere.
+ 
+
+
+

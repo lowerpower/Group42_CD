@@ -1,0 +1,70 @@
+        Unprotect for Jack Nicklaus' Unlimited Golf and
+                                     Course Design
+        ------------------------------------------------------------
+
+        As a legal owner of this excellent game, you are enjoying
+        {the best computer golf on the market.  However, you have to
+        put up with that pesky code wheel.  This file tells you how
+        to disable the code wheel and course sheet inquiries in the
+        golf game and course designer.
+
+        Credit is due to Reed McKenna for providing the basic
+        information I needed to "crack" the code.
+
+        This has only been tested on the following versions of
+        the software:
+
+        GOLF.EXE     6-15-90 7:26pm   82345 bytes
+        DESIGN.EXE   6-15-90 7:16pm   72691 bytes         and
+
+        GOLF.EXE     9-19-90 9:52am   82503 bytes
+        DESIGN.EXE   9-19-90 8:51am   76307 bytes
+
+        I you have neither of these versions, you may try this
+        unprotect at your own risk.  These unprotects require Norton
+        Utilities, PC Tools, or the like.  You should know how to
+        use your utility program to search for hex bytes in a file
+        and change bytes (see your manual for details).
+
+
+
+        ------------------------------------------------------------
+        Steps to unprotect GOLF.EXE:
+
+        1)  Copy GOLF.EXE to G.EXE - you only want to edit a backup
+                                            of your file!
+
+        2)  Search G.EXE for the bytes  11 83 3E
+
+        3)  Change the three bytes to   11 EB 0D
+
+        4)  Save the modified file.
+
+        5)  Test the program by running G.EXE just as you would run
+            GOLF.EXE - if it works, you've done it!
+
+        If you wish, you may delete GOLF.EXE and rename G.EXE to
+        GOLF.EXE.
+        ------------------------------------------------------------
+        Steps to unprotect DESIGN.EXE:
+
+        1)  Copy DESIGN.EXE to D.EXE
+
+        2)  Search D.EXE for the bytes  E8 B3 13
+
+        3)  Change the three bytes to   90 90 90
+
+        4)  Save the modified file.
+
+        5)  Test the program by running D.EXE just as you would run
+            DESIGN.EXE
+
+        If you wish, you may delete DESIGN.EXE and rename D.EXE to
+        DESIGN.EXE.
+        ------------------------------------------------------------
+
+                     Enjoy!
+                                   - Shep Bostin
+                                     Arlington, VA
+
+

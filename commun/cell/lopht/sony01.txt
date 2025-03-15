@@ -1,0 +1,58 @@
+SONY CMH1, CMH20
+
+NOTES:  These are dual NAM units.
+        The ESN prefix is 154 decimal and 9A hex.
+        Sony: 1-800-578-7669
+
+NAM PROGRAMING:
+
+1.  Plug in the Sony programing adaptor or put a 10k resistor accross the
+    contacts marked X:
+
+                   ________________________
+                  |                        |
+                  |   O  O  O  O  O  X     |  <----- Top row.
+                  |                     0  |  <----- Antenna connector.
+                  |   O  X  O  O  O  O     |  <----- Bottom row.
+                  |________________________|
+
+2.  Turn phone on.
+
+3.  Enter 5 9 3 1 FCN STO.
+
+4.  Press 0 for NAM 1, or 1 for NAM 2.
+
+5.  Press 1 to access full programing mode.
+
+6.  The STO key stores and increments each step.
+
+7.  The RCL key decrements each step.
+
+8.  The END key completes and exits programing mode after step 16.
+
+
+PROGRAMING DATA:
+
+STEP#    #OF DIGITS/RANGE    DISPLAY        DESCRIPTION
+
+01       00000 - 32767       SID            SYSTEM ID
+02       10 DIGITS           MIN            AREA CODE & TEL NUMBER
+03       3 DIGITS            PREFIX         AREA CODE
+04       4 DIGITS            SECRET         LOCK CODE
+05       0000 - 1110         OPT            DIGIT 1 = AUTO REDIAL
+                                            DIGIT 2 = INCOMING/OUTGOING
+                                                      CALL TIMER:
+                                            (0=IN & OUT, 1 = OUT ONLY)
+                                            DIGIT 3 = ENABLE CALL TIMER
+                                            DIGIT 4 = NOT USED
+06       0 OR 1              RM             ROAM INHIBIT
+07       0 OR 1              LU             LOCAL USE MARK
+08       0 OR 1              EX             MIN MARK
+09       1110                SCM            STATION CLASS MARK
+10       333                 DCCA           "A" SYS IPCH
+11       334                 DCCB           "B" SYS IPCH
+12       2 DIGITS            GIM            GROUP ID (10 IN USA)
+13       0 OR 1              SYSTEM         ALLOW USER SYSTEM SELECT
+14       0 OR 1              PS             PREFERRED SYSTEM
+15       2 DIGITS            ACCOLC         ACCESS OVERLOAD CLASS
+16       0 OR 1              EE             END TO END (DTMF) DIALING

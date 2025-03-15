@@ -1,0 +1,22 @@
+             --->>  Invincibility for Wing Commander  <<---
+
+
+The following cheats will give all four of the available ships 9999 worth
+of armor. This should be enough to get through to the end of the game,
+even if you go like a bat out of hell. The offsets assume you have something
+like Norton's diskedit, or hexed (available at simtel).
+
+Beginning Offset:        Change to:
+17F47                    0F 27 0F 27
+17FB6                    0F 27 0F 27
+18025                    0F 27 0F 27
+18094                    0F 27 0F 27
+
+Also, to get rid of the copy protection at the beginning of the game try:
+
+Offset:                  Change to:
+4A2DF                    CB
+
+That should do it for ya!
+
+Craig

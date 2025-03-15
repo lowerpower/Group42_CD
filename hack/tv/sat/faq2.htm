@@ -1,0 +1,883 @@
+<html>
+<head>
+<title>Gisle's World - PAY-TV FAQ by John McCormac
+</title>
+</head>
+
+<body>
+
+
+<CENTER><h2>Pay TV FAQ by John McCormac</h2></CENTER>
+<CENTER><i>John McCormac</i><p></CENTER>
+
+<hr>
+
+<pre>
+FAQ - Decoding Pay TV (European Scrambling Systems) - 1.4 (Part 1 Of 2)
+
+===========================
+Last Update: 20-Nov-95
+===========================
+
+0.0 Disclaimer / Explanation
+
+1.0 What is a scrambling system?
+    1.1 Overview of scrambling in Europe
+    1.2 Characteristics of the major European Scrambling Systems
+
+2.0 Hacking Pay TV
+    2.1 Is it legal ?
+    2.2 VideoCrypt Smart Cards
+    2.3 What is Season or Omigod software ?
+    2.4 Where can I get the Season software ?
+    2.5 The Season Cardadapter
+    2.6 I can't ftp, Can someone post the file for me ?
+    2.7 What are blockers and what is Phoenix ?
+    2.8 Is there a D2-Mac Eurocrypt M version of Season ?
+    2.9 Is there a hack on Nagra ?
+    2.10 PIC source code for hacks.
+    2.11 Other smart card projects for hacks.
+
+3.0 Finding out more
+    3.1 Who / what is the TV-crypt, how can I join ?
+    3.2 Reading List
+
+4.0 Netiquette On The Newsgroups
+
+5.0 Credits
+
+0.0 Disclaimer / Explanation :
+==============================
+Please read the following carefully :
+
+This  FAQ  is provided for educational purposes only and  will  be 
+posted    every    two    weeks    in     alt.satellite.tv.europe, 
+alt.satellite.tv.crypt. What you do with the information herein is 
+your  business.  The contributors to this FAQ do  not  necessarily 
+condone the illegal use of the devices or programs mentioned here. 
+The  contributors to this FAQ are in no way liable for any  damage 
+to equipment, revenue, or sanity as a result of the use or  misuse 
+of this information.
+
+
+1.0 What Is A Scrambling System ?
+-===============================-
+
+A  scrambling system is applied to a television signal  to  ensure 
+that  it  is  only  receivable by the audience  for  which  it  is 
+intended. The more cynical amongst us may rephrase that to  "those 
+who  have paid to receive it". Therefore a good scrambling  system 
+is  one  that  can effectively make the picture  unusable  to  all 
+except those who have paid.
+
+There  are  two  basic  types  of  scrambling  system:  dumb   and 
+addressable. The dumb system does not have any over-the-air  (OTA) 
+addressing.  As  a result the channel cannot turn  a  subscriber's 
+descrambler  off. This type of system is cheap and offers  minimal 
+security. As a result it is not used for high value channels.
+
+An addressable scrambling system is more complex in that it allows 
+the  channel  to individually turn on and off  descramblers.  Most 
+systems in operation today are addressable.
+
+The basis of a scrambling system is the method by which it renders 
+the  picture  unwatchable.  The  early  scrambling  systems   were 
+analogue.  These  systems  interfered with  the  synch  pulses  or 
+inverted  the video either on a frame, field or line  basis.  Some 
+actually  delayed  each line by one of three delays on  a  pseudo-
+random basis.
+
+All of the analogue scrambling systems were vulnerable and offered 
+little  protection  to the channel using them. It was  trivial  to 
+build  a  descrambler that worked in an identical  manner  to  the 
+official descrambler.
+
+As  the years and technology advanced, more complex  systems  came 
+into  operation.  These systems were digital based  systems.  They 
+digitised the picture or sound information and manipulated it.  In 
+order  to descramble or decode the picture, the picture had to  be 
+digitised and then decoded.
+
+VideoCrypt,  D2-MAC  EuroCrypt  M & S and  Nagra  Syster  are  all 
+digital  systems. They all digitise the video in order  to  decode 
+it. VideoCrypt and D2-MAC use line cut and rotate to scramble  the 
+picture.  Nagra Syster uses Line Shuffle to scramble the  picture. 
+It takes a block of lines and changes the order. 
+
+All  of the above systems are smart card based. They rely  on  the 
+fact that the smart card can be economically replaced in the event 
+of  a  hack.  The  concept behind this  is  that  of  "The  Secure 
+Detachable Microcontroller". The older systems designs were  based 
+on the "Secure Embedded Microcontroller" concept. This concept was 
+fundamentally  flawed  in that if there was a hack on  the  secure 
+microcontroller  (the chip that held the system's  secrets),  then 
+all of the decoders would have to be replaced or upgraded.
+
+1.1 Overview of scrambling in Europe
+-==================================-
+
+There  are about six or seven different systems in use in  various 
+parts  of  Europe.  The three most  common  ones  are  VideoCrypt, 
+EuroCrypt   and Nagravision. Of course there are variants of  each 
+of these systems. VideoCrypt 1 and VideoCrypt 2 are good  examples 
+of  this  variants  concept. VideoCrypt  comes  in  two  versions, 
+VideoCrypt  I and VideoCrypt  II. They are parallel, and the  idea 
+is that VC I is to be used  inside the  UK and Ireland, and VC  II 
+in the rest of Europe. 
+
+Since Europe is still a multi-copyrights area, there is often  the 
+need to sell the programming on one channel to two markets. Rather 
+than  create two separate channels, it is often easier to use  the 
+same  channel,  with the same scrambling system but  two  distinct 
+datastreams.
+
+The  scrambling system is the same - line cut and rotate, but  the 
+information to descramble it is encrypted in the VideoCrypt 1  and 
+VideoCrypt 2 datastreams. The datastreams are sent out on the  one 
+channel.  Therefore the channel is available  both in the  UK  and 
+the  continent  using  what  on the  surface  appears  to  be  two 
+different systems. Of course this underlines an important flaw  in 
+using  two or more datastreams on one scrambling system - if  only 
+one  of these datastreams is hacked, then there is effectively  no 
+more protection for the channel.
+
+Almost  all  efforts at cracking VideoCrypt has   concentrated  on 
+VideoCrypt  1 variant. VideoCrypt 2 has not been much of a  target 
+as there is not enough premium programming available to warrant  a 
+hack.  There are VideoCrypt 1 <> VideoCrypt 2 adaptors. These  are 
+plug-in  boards  with the switchable 68705 / 8752s  that  allow  a 
+VideoCrypt  1  decoder to be converted to use as  a  VideoCrypt  2 
+decoder and vice versa.
+
+JSTV  is  the  only broadcaster that  broadcasts Europe wide using 
+VideoCrypt I. This channel differs from the standard in that it is 
+a  very  high  fee channel but it is also  very  much  a  minority 
+interest  channel  since it broadcasts programmes for  the  Ex-pat 
+Japanese market.
+
+Multiplexed Analogue Component (MAC) is a transmission   standard. 
+The  scrambling system overlay is EuroCrypt. EuroCrypt comes in  a 
+number  of  variants  (M, S, S2) but according  to  European  law, 
+EuroCrypt-M is the European standard. Nobody takes much notice  of 
+that anyway.
+
+France  Telecom developed EuroCrypt. Since the system is  open  as 
+regards the scrambling algorithms, France Telecom chose a modified 
+form  of the US Data Encryption Standard algorithm.  They  removed 
+the  initial  and end permutations to make it run  faster  in  the 
+smart  card. They also believed that this algorithm would  be  top 
+secret and unhackable.
+
+Eurocrypt-M is the commonest.  Only four channels (Sweden 1 and 2, 
+Norway  2  and TV Erotica) use Eurocrypt S, the two first  in  the 
+less used D-MAC variant.
+
+An older MAC variant, B-MAC, is used by the American  Forces Radio 
+and Television Service, The Satellite Information Services  Racing 
+Channel  and  several  business TV  applications.  Gradually  this 
+system is fading out of use.
+
+The  B-MAC system applies relatively simple line delay  scrambling 
+to the MAC video and hard encrypts the digital audio and  teletext 
+services.  The  hacks  on  this system  involve  cloning  a  valid 
+subscriber  identity  number and then arranging  for  a  continual 
+supply  of weekly keys. These keys are programmed into  an  EEPROM 
+chip in the decoder.
+
+There are two flavours of B-MAC in operation in Europe: B-MAC  525 
+and  B-MAC  625. The numbers refer to the line  numbers.  The  525 
+variant  is used for the US AFRTS service and the 625  version  is 
+used  for the Racing Channel. Pirate decoders for  these  services 
+are expensive, typically costing in excess of five hundred pounds. 
+The problem of course is arranging the continual flow of keys.
+
+Nagravision  is also known as Syster and as Nagra, and is used  in 
+France,   Spain,  Turkey   and  Germany.  Unlike  VideoCrypt   and 
+Eurocrypt,   Nagravision decoder  boxes  are  not for  sale.  They 
+are   only  rented  out  to subscribers, but still operate with  a 
+smart  card. Nagravision  has not been cracked, and there  are  no 
+known pirate cards. Nagravision is  now  replacing  the older  and 
+less secure  Discret  system  in France.
+
+Apart from these three big systems, others include Luxcrypt,  used 
+by  the  Dutch  RTL networks (a box, no  card  -  decoders  easily 
+available)  and  Smartcrypt (box & card, used by  the  French  RTL 
+channel;  boxes  now available for sale in France). Even  the  old 
+SATPAC  system as used by FilmNet before they switched  to  D2-MAC 
+has been used lately.
+
+
+1.2 Characteristics of the major European scrambling systems
+-==========================================================-
+
+VideoCrypt 1:
+
+TV Standard: PAL
+Video: Line Cut And Rotate
+Audio: None
+Smart Card: Yes
+Users: BSkyB Multichannels, Adult Channel, Eurotica, JSTV etc.
+Hack Status: 10 Card In Operation - One Claimed Hack
+Pirate Cards: Not Yet
+Season Programs: Not Yet
+
+VideoCrypt 2:
+
+TV Standard: PAL
+Video: Line Cut And Rotate
+Audio: None
+Smart Card: Yes
+Users: Discovery, FilmNet.
+Hack Status: Secure due to lack of interest.
+Pirate Cards: No
+Season Programs: No
+
+D2-MAC EuroCrypt-M: 
+
+TV Standard: D2-MAC
+Video: Line Cut And Rotate on Chroma And Luma
+Audio: Encrypted Digital
+Smart Card: Yes
+Users: FilmNet, TV1000, TV3, Canal Plus.
+Hack Status: Hacked
+Pirate Cards: Yes
+Season Type Programs: Yes
+
+D2-MAC EuroCrypt-S: 
+
+TV Standard: D2-MAC
+Video: Line Cut And Rotate on Chroma And Luma
+Audio: Encrypted Digital
+Smart Card: Yes
+Users: TV Erotica.
+Hack Status: Hack advertised.
+Pirate Cards: Advertised
+Season Type Programs: No
+
+Nagra Syster: 
+
+TV Standard: PAL
+Video: Line Shuffle
+Audio: Spectrum Inversion
+Smart Card: Yes, key shaped rather than conventional card shape.
+Users: Premiere, Canal Plus.
+Hack Status: Possible, shortage of decoders prevents major damage.
+Pirate Cards: No
+Season Type Programs: No
+
+LuxCrypt: 
+
+TV Standard: PAL
+Video: Frame / Average Peak Level Inversion with synch replacement
+Audio: Digital PCM but not used
+Smart Card: No. Just a dumb and cheap system.
+Users: RTL-4 Veronique
+Hack Status: Totally compromised
+Pirate Cards: No
+Season Type Programs: No
+
+B-MAC: 
+
+TV Standard: B-MAC
+Video: Line Delay
+Audio: Hard Encrypted with DES like algorithm
+Smart Card: No
+Users: AFRTS, SIS Racing Channel
+Hack Status: Hacked. Cost of decoders / key feeds are a problem.
+Pirate Cards: No
+Season Type Programs: No
+
+2.0 HACKING PAY TV 
+==================
+
+2.1 Is it legal ?
+-===============-
+
+The  cynical  answer would be that it is only illegal if  you  get 
+caught.  The  legal  position on hacking varies from  country   to  
+country. Basically  a  good rule is that a channel being  uplinked  
+from   a particular  country  is  probably going to be   protected  
+by   that country's  laws. For example hacking Sky in  the  United 
+Kingdom   is  illegal under that country's laws.  However  hacking 
+FilmNet  in  the UK may not be directly protected under  the  UK's 
+law.  TV1000 on the other hand is partially uplinked from  the  UK 
+and   is  therefore  protected  under  UK  law  even  though   the 
+pornography  transmitted on the channel would not be permitted  to 
+be  uplinked  from  the UK. A rather sly sidestep gets around this 
+issue - the hardcore pornography is not uplinked from the UK.
+
+In  fact,  TV1000  has  threatened  UK dealers with  legal  action 
+many  times but with few results. The problem of piracy on  TV1000 
+in the UK has got to such a state that taking legal action against 
+one or two dealers would not have any greater effect.
+
+Europe  is still a multi-copyright area. It is therefore  possible 
+for Sky and FilmNet to purchase the rights to show the same  film. 
+Perhaps in the future, the copyright issue will be worked out  and 
+we  will have a single copyright area for Europe, but for  now  we 
+have to cope with the current mess.
+
+To  date most of the prosecutions for piracy in the UK  have  been 
+against people who have been  too visible. It is not  economically 
+viable for a channel  to prosecute  every  user of a pirate  smart 
+card.  Instead   they  will generally concentrate on  dealers  and 
+distributors. 
+
+Of course they may also decide to make an example of an individual 
+pirate  card user. The logic of the legal departments of  channels 
+is not as predictable as that of their engineering departments.
+
+If you get caught you are unlikely to be able to plead any  clever 
+excuse   that  you  may come up with. More importantly, could  you 
+afford the expensive legal mouthpiece to argue your case?
+
+
+2.2 VideoCrypt Smart Cards
+-========================-
+
+On 31/10/95 Sky switched over to the new 10 card. The  fundamental 
+result of this is that ALL season programs and pirate smart  cards 
+do not work anymore.
+
+Pirate smart cards are cards that have been manufactured to hack a 
+channel.  They are, in most cases totally different from  official 
+smart cards. The majority of these cards are based on the PIC16Cxx 
+series  of microcontrollers. Other variations have been  seen  but 
+the PIC16Cxx cards are the commonest.
+
+Over the past few months, the more expensive end of the market has 
+tended  towards  the  Battery Cards. These cards  use  the  Dallas 
+Semiconductors FP5002 secured microcontroller and are updatable by 
+the  card user. It is simply a question of dialing a phone  number 
+and getting the set of numbers to punch into the Battery Card.
+
+There is also a trade in what are referred to as Grey Market smart 
+cards.  These  are official cards, that are  exported  to  another 
+country.  Generally  it  is a one for one trade  with  the  broker 
+taking  a  commission. For example, a Sky  subscription  would  be 
+taken  out  in  the UK and a FilmNet subscription would  be  taken  
+out   in  Sweden.   The  cards  would  then be   swapped   via   a  
+broker.   The  subscriptions  would be kept up  to  date  by  both 
+parties.  The  legal position  on  this activity is not  clear  as 
+the  channels  benefit from the transaction in that they both  get 
+subscriptions. It  does rely on mutual trust.
+
+Purchasing  a  pirate card involves risk. There is  a  probability 
+that  the pirate card will be killed in the future.  The  channels 
+will  implement  electronic countermeasures to try and  kill   the  
+pirate  cards.  Technically speaking, no pirate card can  ever  be 
+100% safe. This  point  has  been proven too frequently  over  the  
+last  few months.
+
+The  system  used  by FilmNet Plus and TV1000  (among  others)  is 
+EuroCrypt-M.  This system has been continually hacked since  1992. 
+In  terms  of value for money, users of EuroCrypt-M  pirate  smart 
+cards  have  fared better. This is because the channels  have  not 
+frequently  implemented  countermeasures. Of  course  the   recent 
+countermeasure by TV1000 has had a devastating effect. Most of the 
+pirate smart cards have been knocked out. 
+
+The  VideoCrypt system, as used by Sky and the Adult Channel,  has 
+been  updated more regularly. The present Sky card is issue 10  or 
+in  technical  terms, the 0A card. It is commonly referred  to  as 
+issue 10 but the reason for the 0A reference is purely  technical. 
+In hexadecimal, the number 10 is represented as 0A.
+
+In  addition to issuing a  new smart  card every year or  so,  Sky 
+and  News  Datacom also  implement countermeasures  to  knock  out 
+pirate smart  cards. Over  the  last few months, the time  between 
+these countermeasures has only been a few weeks. For about a month 
+preceding the switch to 10, Sky was in a transition from issue  09 
+to  10. Therefore they did not execute that many ECMs during  that 
+period. This is because the 10 card only had a simplified  version 
+of the 09 algorithm in order to cope during this transition stage.
+
+As   a direct result ECMs such as key changes, many of the  pirate 
+cards have had to be  sent back  to  the  dealer for upgrade. Some  
+innovative  pirates  have designed their cards (The Battery Cards) 
+so that they can be upgrade by the  customer. The  solutions   for 
+the  countermeasures  are recorded as a  set  of numbers   on   an 
+answering machine. The customer  rings  the  phone number with the 
+answering  machine and gets the update numbers.  He  then   enters  
+them   into   the pirate card via  a  key  pad.   Other  solutions 
+such as a modem on the pirate card have also been seen.
+
+In  real terms, anyone purchasing a pirate card is taking a  risk. 
+The pirate card will eventually be hit by a countermeasure. If  it 
+is  not,  then  the channel may issue a new smart  card  with  the 
+consequence that all of the old pirate smart cards will be knocked 
+out.
+
+The  cost  of the new pirate 10 cards, when they hit  the  market, 
+will  be in the region of two hundred pounds or so. At  present  a 
+price of 498 DM is being quoted by one pirate card vendor. 
+
+-- end part 1 --
+
+FAQ - Decoding Pay TV (European Scrambling Systems) - 1.4 (Part 2 Of 2)
+
+===========================
+Last Update: 20-Nov-95
+===========================
+
+2.3 What is Season or Omigod software?
+-====================================-
+
+At the time of writing, NONE of the Season programs are working on 
+channels encrypted with the 10 codes. There have been at least two 
+spoof  attempts  over  the last few weeks. One of  this  is  named 
+SEASON10.ZIP and is very definitely a fake.
+
+The   Season software began life as an attempt by Markus Kuhn  and 
+others to watch  the  final season  of  Star Trek: TNG. The  final 
+season was season  7.  As  a result,  the first working PC program 
+that  decoded Sky  was  named SEASON7.  The first version of  this 
+program  appeared  in  March  of 1994. At the  time,  the  current 
+issue  of  the  Sky card was Issue  7.  Therefore  some  confusion 
+arose.
+
+The  term  Omigod  (Oh  My God!) was also  used  to  describe  the 
+programs. Well the preceding hack using the PIC cards was known as 
+the  Ho  Lee Fook hack! Over the months from March  to  May  1994,  
+versions  for  different computers appeared. Many  of  these  were 
+posted on the alt.satellite.tv.europe newsgroup.
+
+On  May  18th 1994 Sky changed from issue 07 cards to  their   new 
+issue  09 card. In hacker terms, May 18th is referred to  as  Dark 
+Wednesday.  The  09  card proved harder to hack  but  a  temporary 
+solution appeared in June of that year. It only lasted a few  week 
+before  Sky changed codes again. Though some attempts at an  issue 
+09  SEASON  hack were made, the change of code by Sky  stopped  it 
+cold. Well at least until just before Christmas.
+
+Last  Christmas,  no less than three versions of the  SEASON  hack 
+appeared. Two of them worked on the PC and the other one worked on 
+the  Apple MAC. Of course Sky was paying attention and on  January 
+4th  1995,  they  implemented a countermeasure  that  knocked  out 
+pirate cards and all of the SEASON hacks. The war between Sky  and 
+the pirates had recommenced. Updated versions of the SEASON  hacks 
+became   available. This spiral  of countermeasure and update  has 
+continued  until the present. The issue of the new Sky  card,  has 
+changed the situation somewhat. The VideoCrypt SEASON hack is  now 
+living on borrowed time.
+
+The  algorithm in the 09 card issue is far more  complex than  the 
+one  used in the 07 card. While the 07 algorithm was   not  really  
+designed   to be  extremely upgradable, the 09  algorithm  is   an 
+extremely flexible algorithm. No doubt the 10 card algorithm  will 
+build heavily on the lessons of the 09.
+
+At present only The Adult Channel (UK soft porn) and Eurotica  (UK 
+Hard Core Porn) are decoded by VideoCrypt SEASON programs. None of 
+the  official  Sky channels will be decoded by any of  the  SEASON 
+programs available.
+
+
+2.4 Where can I get the software from ?
+-======================================-
+
+Currently  there are working versions of the SEASON hacks for  the 
+Adult Channel and Eurotica available on almost every European BBS. 
+There  are  many  ftp and webpages (WWW) where  the  programs  are 
+freely  available.  There  are no  known   versions   that   cover 
+VideoCrypt 2. (A hack on JSTV was claimed a few months ago).
+
+There  are many version of SEASON: Voyager, SEASON, Freeview  etc. 
+All  of these have stopped working on the Sky channels  since  Sky 
+switched  to  their  10  cards. However  in  the  meantime,  these 
+programs  are  available  at all good sites, a few  of  which  are 
+listed below.
+
+
+ftp:
+
+ ftp.uni-erlangen.de
+     /pub/Multimedia/VideoCrypt/     
+
+ ftp.paranoia.com
+     /pub/users/defiant
+     
+ ftp.ua.pt
+     /pub/misc/satellite
+
+ helvetica.gw.chnet.ch
+
+
+
+Note the capital letters and the forward slashes (/). They do make 
+a  difference  as most of the ftp sites are run  on  UNIX  systems 
+where the case of the characters makes a difference.
+
+
+
+2.5 The Season Cardadapter
+-========================-
+
+The computer has to be connected to the VideoCrypt decoder via  an 
+interface. This interface is sometimes referred to as an Omigod or 
+Season  interface. It is essentially a simple design  that  allows 
+the  RS232 serial port of the computer to be connected to the  TTL 
+levels  of  the card socket. Most of the versions  of  the  Season 
+software  include a text file on the construction details of  this 
+interface in a file called ADAPTER.TXT.
+
+Details of the adapter are on Erlangen in the directory :
+
+     /pub/Multimedia/VideoCrypt/cardadapter/
+
+
+
+The artwork for making the PCB interface is available in postcript 
+form at:
+
+ftp harley.pcl.ox.ac.uk
+     /pub/crypt/smartpc/smart.ps
+
+ftp joule.pcl.ox.ac.uk
+     /pub/mark/smart.ps
+
+http://joule.pcl.ox.ac.uk/~mark/sat.html
+
+http://www.paranoia.com/~defiant
+
+http://www.gpl.net/paulmax
+
+This  software uses very accurate timing for the  decoding,  there 
+are  several reports that this software runs OK on  some  machines 
+and not on others. Please expect problems and try slowing your CPU 
+down  as a first fix. Problems are reported about  different  COMM 
+cards,  Memory Managers and so called Serial Device drivers  (like 
+fossils).  It's  best  to run the Season  software  on  a  'clean' 
+machine
+
+
+2.6 I can't ftp. Can someone post it for me ?
+-===========================================-
+
+If  you  can't  use  ftp  from  your  account  then  get  yourself 
+acquainted  with  ftpmail.  As well as allowing  you  to  get  the 
+software  yourself and keeping traffic in the group down, it  will 
+also enable you  to get any software on any subject !
+
+For  details  of how to use ftpmail send a message with  the  word 
+"help"in the body to:
+
+bitftp@wm.gmd.de
+ftpmail@ftp.uni-stuttgart.de
+ftpmail@grasp.insa.lyon.fr
+ftpmail@ieunet.ie
+ftpmail@plearn.edu.pl
+ftpmail@doc.ic.ac.uk
+
+The files will be returned in a format known as uuencoded.  You'll 
+need a uudecoder to make these into useful files. These are widely 
+available for all platforms although if you can't ftp you'll  have 
+to  work out how to get one. More details on email use of the  net 
+are on Super Channel CNBC text page 188.
+
+2.7 What are blockers and what is Phoenix?
+-========================================-
+
+In  the middle of the summer of 1994, there was little success  in 
+hacking  Sky. A program was written in the TV-CRYPT for testing  a 
+theory.  The theory dealt with the over the air addressing  system 
+on  VideoCrypt. The question was: "could the  presently  available 
+knowledge be used to switch on or off a Sky  card?". At that time, 
+the  available knowledge consisted of the fragment of the 09  code 
+that was killed in June and a working knowledge of how Sky encoded 
+card  numbers  in  their  over  the  air  addressing  system.  The 
+available knowledge was sufficient.
+
+The  computer  program  written  to test  the  theory  was  called 
+Phoenix.   Since  most  of  the  cards  experimented   upon   were 
+Quickstarts  that Sky had killed, Phoenix, the mythical bird  that 
+rises from its own ashes seemed a good name.
+
+Of  course the program fell into the hands of commercial  pirates. 
+The  Phoenix  program on its own was useful to switch  on  the  09 
+Quickstarts that Sky had killed. It was also being used to  switch 
+on  all  channels  on  a Sky  card  with  only  the  Multichannels 
+subscription.  It was a Musketeer hack - all for one and  one  for 
+all. But that hack name had already been used.
+
+Unfortunately these reactivated cards were only lasting a few days 
+before   being killed again by Sky. Then when Sky increased  their 
+kill cycle the cards only lasted a few hours. Some solution had to 
+be found.
+
+The solution lay in a hack of 1992 - the KENtucky Fried Chip. This 
+was a modified version of the smart card - decoder microcontroller 
+in the VideoCrypt decoder. It stopped Sky from turning off a  card 
+by  examining each over the air packet for the identity number  of 
+the  card  in the  card socket and stopping  such  a  packet  from 
+reaching  the smart card. Sky could not kill the card because  the 
+card never received the kill instruction.
+
+Of course the chip used in the decoder was too expensive and there 
+was  a rather large number of redundant PIC16C84 chips  available. 
+The first blockers to hit the market had the blocking program in a 
+PIC16C84.  They consisted of a card socket, a PIC16C84 and a  PCB. 
+The  official card, having being activated by the Phoenix  program 
+would  then only be used in the blocker. Luckily it was not  named 
+the Condom hack.
+
+Of  course  the  popularity  of  these  devices  soon  meant  that 
+individually  activating  the Quickstart cards  with  the  Phoenix 
+program was taking too much time. The solution was to  incorporate 
+the Phoenix routines in the PIC16C84. These new blockers were more 
+successful.  Over  the months from August to November,  they  were 
+given   a  bewildering  array  of  names;   Genesis,   SunBlocker, 
+Sh*tblocker, Exodus. 
+
+Naturally Sky were a little upset with this resurrection of  their 
+dead  cards. Their response, at first was purely technical.  Later 
+in  1994,  they took legal action in the Uk  against  some  people 
+supplying blockers.
+
+There  was  more  to  the VideoCrypt 09  smart  card  than  people 
+realised.  The most important aspect was that Sky  could  actually 
+write to the card. The instructions for doing this were carried in 
+the  same  packets that carried the  activation  and  deactivation 
+instructions.
+
+The  blockers only looked for the specific identity number of  the 
+card  in the card socket. As long as that identity number did  not 
+appear in the packet, it was let straight through to the card. Sky 
+had managed to knock out a number of cards while they were in  the 
+blockers.
+
+Some  of  these countermeasures were reversible in that  the  card 
+itself  was not completely dead. One of Sky's countermeasures  did 
+actually  hit the card in a manner that effectively locked it.  At 
+that  point,  the blockers were becoming irrelevant -  there  were 
+working pirate smart cards for VideoCrypt.
+
+The  Phoenix  program, in various guises, still works.  Of  course 
+some  of  the  newer smart cards from Sky have been  found  to  be 
+resistant to being activated with Phoenix.
+
+At  present  there is some PIC source code that has  been  labeled 
+10BLOCK.ZIP. It is believed that this is not actually the code for 
+a 10 Blocker but merely 09 Blocker code that does not work on  10. 
+Using  this  code in the hope that it would stop a 10  card  being 
+killed is dangerous to say the least.
+
+
+2.8 Is there a D2-MAC EuroCrypt-M Version of The Season Hack?
+-===========================================================-
+
+The simple answer is yes. The main program is MACcess. Though  the 
+original  author of the MACcess program did not update it  due  to 
+the sheer abuse of the program. The comments from a few ungrateful 
+idiots wanting the new version and at the same time insulting  the 
+original author for not supporting the program irritated not  only 
+the author but many hackers as well.
+
+Someone has patched the new FilmNet and TV1000 keys into an  early 
+version of the program. The patched program is available on  BBSes 
+and ftp sites as MAXS-15A.ZIP
+
+The  EuroCrypt-M  system  is DES based.  In an   ironic   way  the 
+system's greatest strength  was  its  greatest weakness. Again the 
+progression  from  pirate  smart card  to  computer  program   was 
+apparent. 
+
+Another key change by FilmNet is expected in the next few weeks.
+
+2.9 Is there a hack on Nagra?
+-============================-
+
+There  is no OMIGOD program for hacking Nagra. What  occurred  was 
+that  some  JAFA  from the  English  consumer  publication,  "What 
+Satellite"  heard about a program for monitoring the  Nagra  card-
+decoder  communications  and  ignorantly assumed that  it  was  an 
+OMIGOD hack.
+
+Though there is possibly a smartcard based hack, the main  problem 
+is  getting  an  adequate supply of  Syster  decoders.  Of  course 
+marketing  the  hack  in the home area of  the  channel  would  be 
+suicidal.
+
+It  would  be easy to replicate  the  pirate smart  card  but  the 
+decoders  are  not  easy to get.  Therefore  with  access  to  the 
+decoders  controlled  it  is a very  good   demonstration  of  the 
+philosophy of total access control.
+
+
+2.10 PIC Source code for hacks
+-============================-
+
+Since  late  April,  there has been no security  on  the  PIC16C84 
+microcontrollers.  This  is ironic  because  this  microcontroller 
+formed  the  backbone  of the European piracy  business.  In  late 
+April,  the  information  on  popping  (extracting  the  protected 
+contents  of  the chip's memory) the PIC16C84 was published  in  a 
+USENET newsgroup. An article on this can be found on the following 
+webpages:
+
+http://www.hackwatch.com/~kooltek/picbust
+
+http://www.iol.ie/~kooltek/picbust 
+
+As  a  result of this information being published on  the  USENET, 
+result  everybody found out how to pop the PIC. All the  code  for 
+the D2-MAC hacks and the Sky hacks were laid bare.
+
+The source code for the PIC based D2-MAC cards is widely available 
+on the net. The following WWW pages have D2-MAC code:
+
+http://www.paranoia.com/~defiant
+
+http://www.gpl.net/paulmax  
+
+
+2.11 Other Smart Card Projects
+-============================-
+
+A  number  of designs of DIY smart cards for  VideoCrypt  appeared 
+during the lifetime of the 09 card. With the switch to 10, most of 
+these became redundant unless the software could be converted  for 
+D2-MAC. As soon as we establish which ones are converted or are in 
+the process of being converted, we will list them in this FAQ.
+
+
+3.0 FINDING OUT MORE
+====================
+
+3.1 Who are / what is the TV-CRYPT and how can I subscribe ?
+-==========================================================-
+
+The TV-CRYPT is a closed mailing list. It was set up to enable the 
+discussion of the methods and technology of TV scrambling systems. 
+It  is  more of a forum for the exchange of  ideas  than  anything 
+else.
+
+Contrary  to  popular  belief,  it  is  not  a  private  means  of 
+distributing  the most recent copies of software for hacking  Sky. 
+Neither is it an "elite" group of super hackers whose sole  intent 
+is to hack channels just to watch the movies.
+
+It  is  an  "by invitation only" list. If you  can  demonstrate  a 
+knowledge  of  scrambling systems through your posts here  in  the 
+newsgroup, then you may be invited to join.
+
+3.2 Reading List
+-==============-
+
+Obviously the new developments will be listed in further  versions 
+of  this FAQ. Since this FAQ will be posted every few  weeks  from 
+now on, it should be a fairly good source of information.
+
+The de-facto standard text on encryption and scrambling systems is 
+John  Mc  Cormac's Black Book. Currently in edition  4,  the  book 
+gives  the reader a complete overview of the industry and  systems 
+in use in Europe.
+
+European Scrambling Systems - Black Book 4
+ISBN 1-873556-03-9
+Waterford University Press
+MC2 (Publications Division)
+22 Viewmount
+Waterford
+Ireland
+Fax +353-51-73640
+BBS +353-51-50143
+e-mail jmcc@hackwatch.com
+
+
+4.0 Netiquette On A.S.T.E  &  A.S.T.C  &  R.V.S.E
+=================================================
+
+The  first  rule is that there are no hard and fast  rules.  There 
+are,  however  some  protocols  designed to  reduce  the  risk  of 
+incineration.
+
+The newsgroups alt.satellite.tv.europe and  alt.satellite.tv.crypt 
+are  the groups where overt discussion of scrambling  systems  and 
+attacks on scrambling systems are considered worthy topics.
+
+A  few  months  ago, there was a schism  in  the  newsgroups.  The 
+standard     European     satellite     television      newsgroup, 
+alt.satellite.tv.europe     split    into    two.    The     first 
+rec.video.satellite.europe, became part of the REC hierarchy. This 
+is  the proper group for discussion of general European  satellite 
+television  topics.  Please do not post messages  asking  for  the 
+latest  hack  on  the  R.V.S.E  group.  The  second  group  became 
+alt.satellite.tv.crypt. 
+
+The  alt.satellite.tv.crypt newsgroup is where the  discussion  of 
+scrambling  systems  and  hacking is meant  to  be  conducted.  It 
+started  out as a European group but there are  many  non-European 
+readers.  The  alt.satellite.tv.europe group was  supposed  to  be 
+phased out but this does not seem to have happened yet.
+
+Please  bear in mind that some people have to pay to download  the 
+newsgroups.  In  the past few months there have been a  few  flame 
+wars     about    posting    UUENCODED    binaries    into     the 
+alt.satellite.tv.crypt  and  alt.satellite.tv.europe  groups.  The 
+argument  on this is that the procedure is now to upload any  file 
+to  a  popular ftp site and announce that it  is  available  there 
+rather than posting it as a UUENCODED message. 
+
+Advertising  of devices on the newsgroups is another subject  that 
+draws strong reactions. It is unfortunately now a fact of life. If 
+you  have to advertise, then observe the standard Usenet  protocol 
+of including the word AD or ADVERT in the subject line. Only  post 
+to  the groups where relevant. If you are posting an advert for  a 
+device  with  European  usage  do not post  in  the  US  satellite 
+newsgroups.
+
+In   many  European  countries  there  are complex   legal   rules  
+regarding  'goods to be  used  for  criminal purpose'. If we  keep 
+the  discussion at an 'educational' level, for personal   use  the 
+group  should attract much less attention.  There is  also a  grey 
+area  of the law that is presently  untested.  This surrounds  the 
+possible  prosecution  of Internet service  providers  because  of 
+material  they  carry.  If  the newsgroup  becomes  a   source  of 
+software  for hacking pay TV you may find your site  removes   it, 
+just  as  some providers strip  the  alt.binaries.pictures.erotica 
+groups.
+
+
+5.0 CREDITS
+===========
+
+Major contributors :
+
+John McCormac (jmcc@hackwatch.com)
+Knut Vikor (knut.vikor@smi.uib.no)
+
+Contributors: 
+Martyn Williams (martyn@euro.demon.co.uk)
+Rene Vreeman (renev@intouch.nl)
+Linus Surguy (lis@mfltd.co.uk)
+Brian McIlwrath (bkm@starlink.rutherford.ac.uk)
+
+Maintained By: John McCormac (jmcc@hackwatch.com)
+
+Please  send  any  corrections to  faqman@hackwatch.com  with  the 
+subject ERROR or CORRECTION.
+
+********************************************
+John McCormac            * Hack Watch News
+jmcc@hackwatch.com       * 22 Viewmount, 
+Voice&Fax: +353-51-73640 * Waterford,
+BBS: +353-51-50143       * Ireland
+********************************************
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: 2.6.2
+
+mQCNAzAYipsAAAEEALG4YPhxWa1oYexjamDpej0c9xap5/jDYk7mwVsEHr6Crh9O
+7DN5SWqai7eN7WTWTnH7yaz7KOuEllneMOTkzfi4jXfJV4ucdiTy32l6XGRnA7Lg
+0QLttAa9FoWg/fBbcXCj1059POVg2IfhG60hNZDjTILK2stU1h2xG2ju3k8ZAAUR
+tBdtYzJAY2l4LmNvbXB1bGluay5jby51aw==
+=/y7Z
+-----END PGP PUBLIC KEY BLOCK-----
+
+</pre>
+
+<HR>
+
+</BODY>
+</HTML>  

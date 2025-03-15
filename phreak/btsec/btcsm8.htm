@@ -1,0 +1,424 @@
+<HTML>
+<HEAD>
+<TITLE>Administration</TITLE>
+</HEAD>
+<BODY>
+<BASEFONT SIZE=3>
+<HR>
+<CENTER><H1><B>Administration</B></H1></CENTER>
+<HR>
+
+<H2>Contents</H2><P>
+<UL>
+
+<LI>8.1    Introduction<P>
+
+<LI>8.2    Personnel
+<LI>8.2.1  Staff instruction, training and responsibilities
+<LI>8.2.2  Specific areas of responsibility
+<LI>8.2.3  General areas of responsibility
+<LI>8.2.4  Separation of duties
+<LI>8.2.5  Definition of duties
+<LI>8.2.6  Staff mobility
+<LI>8.2.7  Breaches of security
+<LI>8.2.8  Marking
+<LI>8.2.9  Removal of documentation
+<LI>8.2.10 Information provided to outsiders
+<LI>8.2.11 Disclosure of customer information<P>
+
+<LI>8.3    Disaster protection<P>
+<HR>
+</UL>
+<H4>8.1 Introduction</H4><P>
+
+This section considers the administrative aspects of computer security. It must be
+appreciated that all the technical security measures identified in earlier chapters
+depend on the cooperation of the people who implement and operate the system.
+It follows that these measures must be supported by appropriate procedural
+guidelines and suitably informed staff.<P>
+
+Some principles of wide applicability are identified, but their implementation will
+depend on the size of the operation in question and on local organisation.<P>
+
+<H4>8.2 Personnel</H4>
+
+<H4>8.2.1 Staff instruction, training and responsibilities</H4>
+
+All staff using computers and communications equipment should receive
+instruction on security in general, and staff in particularly responsible positions
+must be given special training. The observance of security procedures must be
+supervised on a routine basis.<P>
+
+In particular there should be close supervision of system support staff as they
+often have unlimited access to all aspects of the system. Training should include
+information on:<P>
+<UL>
+<LI>Local security measures, emergency procedures, backup processing and disaster
+recovery plans,
+<LI>Group commercial security policy,
+<LI>disciplinary and legal consequences associated with unauthorised use and abuse
+of resources or positions of trust,
+<LI>commercial conditions applying, such as non-disclosure agreements, intellectual
+property issues and privacy markings.
+</UL>
+If temporary or casual staff (including agency stafl) are to be employed in areas
+where they have access to sensitive data, consideration must be given to the risks
+involved. Specific guidance can be found in the Information Security Code.<P>
+
+All staff must respect copyright in documentation or computer software when that
+copyright is not owned by BT. They must not copy or modify such material unless
+BT is permitted to do so. Staff must use such material only as permitted and must
+not remove any copyright marking applied by a copyright owner.<P>
+
+<H4>POLICY 8.1: TRAINING</H4><P>
+
+Managers shall ensure that their staff have received adequate security training
+or instruction before allowing them to use BT systems.<P>
+
+<H4>POLICY 8.2: PERSONNEL CONSIDERATIONS</H4><P>
+
+Employees working on high impact systems shall be trustworthy.<P>
+
+<H4>8.2.2 Specific areas of responsibility</H4><P>
+Areas of specific security responsibility must be identified for each system. An
+individual, or where possible, individuals should be designated as responsible for
+the definition, implementation and review compliance of the relevant security
+policies and procedures specific to each area.<P>
+Particular areas include:<P>
+<UL>
+<LI>UID and Password administration, including user authorisation procedures,
+<LI>procedures relating to dialup access,
+<LI>administration of user privilege authorisations,
+<LI>administration and control of system resources,
+<LI>control of software (design, installation, changes and maintenance),
+<LI>media library,
+<LI>handling of security violations.
+</UL>
+<H4>8.2.3 General areas of responsibility</H4><P>
+
+Whether or not responsibilities are divided among a number of individuals, there
+should always be an individual manager responsible for overall security and with
+authority over all aspects of a system. In this manual the term 'systems
+administrator' refers to the person responsible for the day to day administrative
+operation of a particular system. Where a system shares resources, this term also
+includes the person responsible for the day to day operation of these resources.<P>
+
+For larger systems an individual should be appointed who should be responsible
+for all aspects of systems security including the reliable and timely inspection of all
+system and security logs and for any actions arising, also for monitoring the
+investigation of breaches of security and liaising with the other security bodies as
+necessary. The individual must have, or be trained to have, adequate knowledge of
+computing to be able to handle his responsibilities and should have written
+instructions on the procedure to be followed in the event of a security failure.<P>
+
+In the case of small systems the above duties may be combined in which case it is
+the responsibility of the managers concerned to ensure that all information under
+their control is safeguarded.<P>
+
+<H4>POLICY 8.3: SECURITY RESPONSIBILITY</H4><P>
+
+Every system shall have an individual who is responsible for the security of that
+system.<P>
+
+<H4>8.2.4 Separation of duties</H4><P>
+
+The 'need to know' principle must always be applied to security. As far as staffing
+constraints allow, individual responsibilities should be segregated so that no
+employee has complete control or performs all aspects of a sensitive process or
+operation. Individuals should only be permitted access to those resources which
+are essential to their allotted tasks.<P>
+
+Particular attention must be paid to the following areas:<P>
+<UL>
+<LI>applications should be produced to a specification and independendy tested and
+certified to ensure that only code related to those requirements is produced.
+Those responsible for development should have no access to either the
+operational software or data.
+
+<LI>operations and software support staff should not have access to the applications
+source code which should preferably be developed on resources which have no
+physical connection with the operational resources.
+
+<LI>authorisation and scheduling of operational work should be separated from
+physical operating and those responsible for running the processors should have
+no access to the output.
+
+<LI>systems programmers (software support staff) should not be given direct control
+of operational processors and their activities should be subject to greater scrutiny
+than other staff.
+
+<LI>data library storage should be separate from physical operating, authorising and
+scheduling.
+</UL>
+<H4>POLICY 8.4: PRIVILEGE LIMITATION</H4><P>
+
+Authorised users shall be given the minimum level of privileges necessary for
+them to fulfil their duties. Where necessary, duties shall be separated to
+prevent collision.<P>
+
+<H4>8.2.5 Definion of duties</H4><P>
+
+Detailed written procedures should also be established for the guidance of those
+responsible for operations, and especially for personnel involved in sensitive
+activities such as physical access control, system controls, system management
+and backup and recovery plans. Every project and system should provide detailed
+instructions to users regarding the security procedures to be followed.<P>
+
+<H4>POLICY 8.5: GENERAL SECURITY RESPONSIBILITIES</H4><P>
+
+BT staff shall respect the security markings on BT property and handle it
+accordingly.<P>
+
+<H4>POLICY 8.6: DEFINITION OF DUTES</H4><P>
+
+All jobs having a specific security role must have written job descriptions which
+fully describe their security responsibilities.<P>
+
+All BT staff shall be personally responsible for, and accountable for, the
+security of their area of work.<P>
+
+<H4>8.2.6 Staff mobility</H4><P>
+
+Where it is known that an individual is leaving BT, unless local management is
+satisfied that no security risk is involved, they must remove the employee from the
+computer environment immediately and:<P>
+<UL>
+<LI>delete all access privileges and recover any special access hardware issued to the
+individual (such as passcards, keys, cryptographic or challenge units),
+<LI>cancel or change all passwords known to that employee,
+<LI>change codes for physical access doors or locks known to that employee,
+<LI>advise the employee of his legal responsibilib to keep business information
+confidential even after leaving,
+<LI>recover all other property relating to the computer operation, for example,
+manuals and documentation.
+</UL>
+Consideration must be given, especially in cases of disciplinary proceedings
+leading to dismissal, to deny that individual access to BT premises and
+information. It is not a requirement that the individual work out his notice. Where
+an individual is departing a computer related dub but staying on in BT, local
+management should take the measures detailed above where appropriate to
+preserve security<P>
+
+<H4>POLICY 8.7: STAFF LEAVING BT</H4><P>
+
+Managers shall review the security implications of allowing continued access to
+BT systems by anyone who is known to be considering leaving the company, or
+is under notice.<P>
+
+<H4>8.2.7 Breaches of security</H4><P>
+
+All breaches of security shall be reported to line management. Known or
+suspected criminal offences shall be reported immediately to the BT SecID
+Investigation and Detection Unit (I&amp;DU) Help Desk. In this context, criminal
+offences will include those misdemeanours criminalised under the Computer
+Misuse Act 1990:<P>
+<UL>
+<LI>Unauthorised access to computer material,
+<LI>Unauthorised modification of computer material.
+</UL>
+Note that, because a computer virus propagates itself by means of unauthorised
+program modification, the introduction of computer viruses into BT may constitute
+a criminal offence.<P>
+
+<H4>POLICY 8.8: REPORTING OF SECURITY INCIDENTS</H4><P>
+
+Security incidents shall be reported to line management. Known or suspected
+criminal offences shall be reported immediately to the BT SecID Investigation
+and Detection Unit (I&amp;DU).
+<P>
+
+<H4>8.2.8 Marking</H4><P>
+
+All documentation (including soware and information stored on computer media
+such as discs) must be marked with the appropriate security marking. It should be
+subject to the rules set out in the Information Security Code as regards storage,
+transmission, and destruction. The security marking should be reproduced on all
+printed output and preserved if copied or transmitted.<P>
+
+<H4>8.2.9 Removal of documentation</H4><P>
+
+Administrators shall ensure that no media, data, files, reports or other
+documentation, should be removed from sensitive computer areas without the
+specific authorisation of line management in accordance with normal defined
+practices.<P>
+
+<H4>8.2.10 Information provided to outsiders</H4><P>
+
+All release of information to non-BT personnel must be in accordance with the
+Information Security Code and the Data Protection Act.<P>
+
+When data has to be provided to outsiders for operational rather than service
+reasons (eg system dumps to equipment or software providers) a written and
+legally binding agreement should first exist to ensure confidentiality. These
+agreements should ensure that any information given is only used for the purpose
+of clearing faults. A record should be kept of all such exchanges of information.<P>
+
+Numerous questionnaires are sent by outside companies to managers within BT.
+All such requests for information should be forwarded to the relevant Business
+Information Security Managers (BISMs) for consideration as to whether
+completion and return is desirable. As a general guide, information about BT's
+computing activities should not be released unless:<P>
+<UL>
+<LI>there is a statutory obligation, or
+<LI>it is part of publicity for BT services and would be commercially advantageous.
+</UL>
+If information is released, care must be taken so that, for example, no advantage to
+a competitor might accrue. Only a very general indication should be given of
+hardware configuration, software in use and applications processed. Individuals
+should only be named if a contact point is required.<P>
+
+<H4>8.2.11 Disclosure of customer information</H4><P>
+
+Customer information must not be disclosed unless its release has been approved
+in accordance with the Information Security Code, the Data Protection Act, and
+complies as necessary with the operating licence granted to BT.<P>
+
+<H4>8.3 Disaster protection</H4><P>
+
+BT is wholly dependent on computing systems for the profitability, continuity, and
+control of its business. It is thereore vital that the availability and security of these
+services is not compromised by a major disruption or disaster, such as physical
+damage to the system hardware or large scale corruption of the system software
+or data. This requires that business and operational plans and practices are in
+place to ensure that the risk of disaster is minimised and that systems continue to
+deliver the agreed levels of service, taking into account risk and cost. The Disaster
+Protection Unit exists within D&amp;P to set standards and give advice. (See section
+10).<P>
+
+A disaster is defined as any circumstance in which one or more critical business
+computer application(s) is not available to BT for internal or external customer
+requirements as a result of:<P>
+
+serious or catastrophic loss of, or failure of access to:<P>
+<UL>
+<LI>site
+<LI>building
+<LI>power and air-conditioning
+<LI>data network
+<LI>computer centres
+<LI>dispatch
+<LI>control centres
+<LI>software
+</UL>
+non-availability greater than the number of hours determined by business impact
+review.<P>
+
+This policy provides a high-level statement applicable to all BT Group computing
+capability. It is compliant with government legislation and with BT's Information
+Security Code.<P>
+
+<H6>Prevention</H6><P>
+
+All buildings which contribute to the delivery of computer-derived services and
+data must have physical security measures implemented to reduce the risk of a
+disaster.<P>
+
+BT should provide suitable standards of physical security to reduce the risk of
+disaster occurring. The prevention measures should be monitored through
+periodic reviews to determine the level of risk and adequacy of the measures to
+meet the risks. Where shortfalls in protection are identified, prevention measures
+should be implemented, taking into account risk and impact.<P>
+
+<H6>Recovery</H6><P>
+
+All major BT systems must be assessed to determine the value of the application
+to the business process and operation, specifically the loss to the company as a
+result of their unavailability. This business impact review process should assess
+the costs, tangible and intangible, of an application's unavailability over a period of
+time to identify the requirements for fallback and the optimum point for recovery.<P>
+
+A recovery options analysis will produce the practical options for those
+applications deemed to require recovery in the event of a disaster. The
+recommended option will be chosen, taking into account the cost of recovery and
+the business requirements of recovery.<P>
+
+New applications must have recovery processes built in during system
+development, based on user-defined fatlback design requirements. Existing
+systems should be enhanced to the required level of fallback.<P>
+
+Prevention and contingency plans must be provided for all computer centres and
+multi-user systems. These will detail the procedures and information aimed at
+reducing the risk of disaster and to provide contingent procedures that will allow
+recovery of all applications to a fallback site.<P>
+
+Recovery plans must be provided for each application to detail the management
+requirements and responsibilities for recovering from a disaster, together with
+instructions for recovering the critical applications.<P>
+
+The effectiveness of the recovery facilities must be tested through a
+comprehensive rehearsals programme.<P>
+
+<H6>Strategy</H6><P>
+
+Adherence to the policy will be affected by the development, implementation,
+operation and maintenance of a computing disaster protection strategy. The
+strategy will be maintained in line with business needs, corporate obligations and
+technical evolution.<P>
+
+Standards, working level procedures, audits and physical practices will be visible
+at all levels of management and will demonstrate that the policy is understood and
+that the strategy is implemented.<P>
+
+The requirements of the policy must be met before the commencement of live
+operations for all new applications systems.<P>
+
+<H4>POLICY 8.9: DISASTER PROTECTION</H4><P>
+
+Owners of the operations of critical and high impact computer systems must
+ensure that a disaster does not prevent the delivery of the agreed levels of
+service, taking into account risk and cost.<P>
+
+<H4>POLICY 8.10: DISASTER PREVENTION</H4><P>
+
+Facilities which provide BT with critical computer services, or access to those
+services, shall be protected at all times from exposure to serious or catastrophic
+loss<P>
+
+<H4>POLICY 8.11: DISASTER RECOVERY</H4><P>
+
+Procedures, hardware and software facilities shall be in place at all times to
+ensure that in the event of disaster, access to critical computer-based
+information and services will be restored.<P>
+
+<H4>POLICY 8.12: DISASTER STORAGE FOR PCs</H4><P>
+
+Disaster storage for personally-controlled systems and data is the responsibility
+of the owner.<P>
+
+<H4>POLICY 8.13: DISASTER RECOVERY RESPONSIBILlTY</H4><P>
+
+The owner of the operation of centrally-controlled systems and data is the
+custodian of the data and responsible for ensuring recovery is possible if there
+is a disaster.<P>
+
+<H4>POLICY 8.14: DISASTER STORE LOCATION</H4><P>
+
+Storage of critical or sensitive files must be away from the electronic system, in
+a separate building off-site, as access to the disaster store may be denied.<P>
+
+<H4>POLICY 8.15: DISASTER STORE ENVIRONMENT</H4><P>
+
+The security and environmental control must match the requirements of the
+data being stored and a firesafe used to store data awaiting transfer to the
+disaster store.<P>
+
+<H4>POLICY 8.16: DISASTER STORAGE</H4><P>
+
+Where the storage is of user data or software, it must be with prior knowledge
+and agreement of the user.<P>
+
+<H4>POLICY 8.17: DISASTER MEDIA ACCESS</H4><P>
+
+Procedures must exist to ensure only authorised personnel have access to, or
+are able to request movement of, a user's backup data.<P>
+
+<H4>POLICY 8.18: DISASTER AUDIT</H4><P>
+
+Facilities must exist that enable the user to audit the procedures.<P>
+
+<HR>
+<CENTER><ADDRESS>&copy;1995 Cold Fire<BR>
+</ADDRESS>
+</CENTER><HR>
+</BODY>
+</HTML>

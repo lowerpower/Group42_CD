@@ -1,0 +1,728 @@
+                =======================================
+                T H E   N E W   F O N E   E X P R E S S
+                =======================================
+
+   The newsletter of the Society for the Freedom of Information (SFI)
+
+                           Electronic Edition
+            Central distribution site is Secret Society BBS
+                  (314) 831-9039, WWIVNet 3460, 24hrs
+
+
+-------------------------------------------------------------------------------
+
+The publisher, SFI, distribution site(s), and authors contributing to the NFX
+are protected by the Bill of Rights in the U.S. Constitution, which
+specifically protects freedom of speech and freedom of the press.  The
+information provided in this magazine is for informational purposes only, and
+the publisher, SFI, distribution site(s) and authors are not responsible for
+any problems resulting from the use or publication of this information.  Nor
+is SFI responsible for consequences resulting from authors' actions.  This
+disclaimer is retroactive to all previous issues of the NFX.
+ 
+We accept article submissions of nearly any sort, about
+hack/phreak/anarchy/gov't/nets/etc.  Send mail to the publisher (The
+Cavalier) at any of these addresses:
+
+WWIVnet           [15@3460]  
+WWIVlink          [442@13468]
+VMB               (301) 771-1151. hit #, then 140.
+Ripco             [send mail to Silicon Avalanche]
+Project Phusion   [send mail to Silicon Avalanche]
+
+The printed edition of the newsletter is available for $14 (U.S.) per year on
+paper.  Send mail to the New Fone Express, Box 639, 15405 Michigan Rd.,
+Woodbridge, VA 22191.  Don't forget your name and address.
+
+To download the New Fone Express, call Secret Society at 314-831-9039 and log
+on as NFX, password NFX, phone# 0000, or see the distribution list elsewhere
+in this magazine. 
+
+-------------------------------------------------------------------------------
+
+
+Highlights for Issue #4/September 1991
+======================================
+
+* Gas Tank Blues ... by Antisocial
+    (see article #1)
+
+* Astrolite ... by Maelmord
+  (see article #2)
+
+* Updated SS7 Area Table ... edited
+  (see article #3)
+
+* Distribution Site List ... by the Cavalier
+  (see article #4)
+
+* AS/400 Product List ... by the Cavalier
+  (see article #5)
+
+* Cracking Confidentials ... by Doc Scurlock
+  (see article #6)
+
+* Trendwatcher ... edited
+  (see article #7)
+
+* Editorial ... by the Cavalier
+  (see article #8)
+
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+
+Gas Tank Blues
+
+
+        Equipment:
+        
+Wooden bowl                     Paper towel
+Wooden spoon                    Glass bottle
+Blender                         Gel Capsule
+Funnel                          Plastic container
+Coffee filter                   Sublimed Sulfur
+2 Cups of hot water             Methscopolamine Nitrate
+Paper plate
+
+        Procedure:
+        
+1.  Mix one part Methscopolamine Nitrate and two parts Sublimed Sulfur into
+the wood bowl. (Total: 3/4 cup of powder)
+2.  Mix the powders together with the wooden spoon until all the lumps are
+ground into a very fine powder.
+3.  Pour 3/4 a cup of the powder into the blender and add the two cups of hot
+water.
+4.  Blend the substance until the powder is completely saturated in the
+water.
+5.  While the substance is being mixed by the blender take a coffee filter
+and lay it flat to form a circle.
+6.  Fold the filter by fourths into a triangle and place it in the funnel.
+7.  Place the funnel with the filter in the neck of the bottle.
+8.  Turn off the blender and pour the yellowish liquid into the funnel (with
+the filter present)
+9.  If you folded the filter correctly a mushy yellow powder shall form in
+the funnel.
+10.  Remove the funnel from the neck of the bottle and throw the bottle with
+the liquid away.
+11.  Take the paper towel and place it on the paper plate.
+12.  Remove the filter from the funnel and spread the mushy yellow powder
+evenly on the plate that contains the paper towel.
+13.  Let the powder sun dry for one full day or until the substance is dry.
+14.  Make sure that the substance is fully dry.  Test this by letting the
+powder fall from your hand, if the powder forms clumps then you should retry
+step 13.
+15.  Pack the powder tightly into the gel capsule without breaking the
+capsule itself.
+16.  Store the capsules in a dry place for further use.
+17.  Store any extra powder in a plastic container.
+
+
+        Use:
+        
+      When placed into a gas tank of any motor vehicle the gel capsule will be
+dissolved, when the gas makes contact with the powder it will expand and form
+a very hard substance.  When the car is started and the gas, along with
+substance, is pumped through the system more damage will occur than if you
+placed sugar or sand in the gas tank.  If the car is not started then the
+substance will begin to eat away at the metal of the gas tank, thus causing
+damage and having the victim not being able to replace gas into his tank
+until he or she has it fixed.
+
+
+                                    Typed, Tested, and Produced
+                                          by: ANTISOCIAL
+
+[TC: Antisocial can be reached through WWIVNet as ANTISOCIAL@3460.]        ><
+
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+
+Astrolite
+
+     Astrolite is a liquid explosive known as the most explosive reaction
+known to man short of a nuclear explosion.  Astrolite is a clear, odor-less
+compound formed by the mixing of Ammonium Nitrate and Anhydrous Hydrazine to
+form Astrolite-G and the addition of fine mesh Aluminum to form Astrolite
+A-1-5.  It is considered moderately to fairly stable and retains its
+explosivity even when mixed with other substances.  If Astrolite is poured
+into sand, its qualities are unchanged and a liquid land mine is formed. 
+Astrolite is detonated by electric charge, but unpredictable results may
+develop if exposed to flame or heat including sporadic burning and
+explosions.
+     Due to the nature of the chemicals involved and their relative toxicity,
+MSDS sheets have been consulted and important information has been taken from
+them.
+
+     **WARNING**
+     The information given concerning these chemicals is NOT complete.  The
+most relevant information is included.
+
+Ammonium Nitrate * Ammonium Saltpeter * Herco Prils * NA 1942 (DOT) * Nitric
+Acid, Ammonium Salt * UN 0222 (DOT) * UN 1942 (DOT) * UN 2426 (DOT) *
+Varioform I
+
+Acute Effects:
+  May be harmful by inhalation, ingestion, or skin absorption.
+  Causes eye and skin irritation.
+  Material is irritating to mucous membranes and upper respiratory tract.
+Target Organs:
+  Blood
+  Central Nervous System
+  To the best of our knowledge, the chemical, physical, and toxicological
+properties have not been thoroughly investigated.
+First Aid:
+  In case of contact flush eyes or skin with copious amounts of water for at
+least 15 minutes.  Remove contaminated articles of clothing.
+  If inhaled, remove to fresh air.
+  If ingested call a physician and wash out mouth if person is conscious.
+Extinguishing Media:
+  Water Spray
+Incompatibilities:
+  Strong reducing agents
+  Strong acids
+  Finely powdered metals
+Combustion or Decomposition:
+  Nitrogen oxides
+  Ammonia
+The following metals react explosively with fused Ammonium Nitrate below 200
+C: ALUMINUM, ANTIMONY, BISMUTH, CADMIUM, CHROMIUM, COBALT, COPPER, IRON,
+LEAD, MAGNESIUM, MANGANESE, POTASSIUM, SODIUM, NICKEL, TIN, ZINC, TITANIUM,
+as well as BRASS and STAINLESS STEEL.
+Ignites or reacts on contact with: PHOSPHORUS, UREA, SULPHUR, POTASSIUM
+NITRATE, SAWDUST, SUGAR, TRINITROANISOLE,  CHARCOAL, CYANOGUANIDINE,
+POTASSIUM PERMANGANATE, ACETIC ACID, ACETIC ANHYDRIDE.
+
+
+Anhydrous Hydrozine * Diamide * Diamine * Hydrazine (ACGIH,DOT,OSHA) *
+Hydrazyna (Polish) * RCRA Waste Number U133 * UN 2029 (DOT) * UN 2030 (DOT)
+
+Note: You may have heard about the incident in California concerning a tanker
+truck of this substance involved in an accident.  This substance is also
+known as rocket fuel, and is extremely toxic.  You now have a more clear
+knowledge of the far-reaching effects of such an accident, and if you haven't
+heard, you now know why. (What? Me, make a remark about possible government
+cover-ups?  NEVER!...)
+
+Target Organ Data:  (fun, isn't it?)
+  Sense organs and special senses (Olfaction Tumors)
+  Sense organs and special senses (Other eye effects)
+  Behavioral (Convulsions or effect on seizure threshold)
+  Lungs, thorax or respiration (Dyspnea)
+                               (Tumors)
+  Gastrointestinal (Colon tumors)
+  Liver (Tumors)
+  Endocrine (Thyroid tumors)
+  Blood (Tumors)
+        (Leukemia)
+        (Lymphoma including Hodgkin's Disease)
+  Paternal Effects (Testes, Epididymis, Sperm Duct)
+  Maternal Effects (Ovaries, Fallopian Tubes)
+  Effects on Fertility (Post-implantation Mortality)
+  Effects on embryo or fetus (Fetotoxicity)
+                             (Fetal Death)
+  Specific Developmental Abnormalities (Central Nervous System)
+                                       (Musculoskeletal System)
+                                       (Urogenital System)
+  Effects on newborn (Viability index)
+  Tumorigenic (Carcinogenic by RTECS Criteria)
+              (Neoplastic by RTECS Criteria)
+              (Equivocal Tumorigenic Agent by RTECS Criteria)
+Acute Effects:
+  May be fatal if inhaled, swallowed, or absorbed through skin.
+  Material  Is extremely destructive to tissue of the mucous membranes and
+upper respiratory tract,eyes and skin.
+  Inhalation may be fatal as a result of spasm, inflammation and edema of the
+larynx and bronchi, chemical pneumonitis and pulmonary edema.
+  Symptoms of exposure may include burning sensation, coughing, wheezing,
+laryngitis, shortness of breath, headache, nausea, vomiting and death.
+  Vomiting
+  May cause allergic reaction
+  Can cause CNS depression
+  Exposure can cause:
+    Damage to:
+      Eyes
+      Liver
+      Kidneys
+      Lungs
+Chronic Effects:
+  Carcinogen
+  May alter genetic material
+  Target Organs:
+    Nerves, Blood, Liver, Kidneys
+First Aid:
+  In case of contact flush eyes or skin for at least 15 minutes.  Remove
+contaminated clothing and shoes.
+  Assure adequate flushing of eyes by separating the eyelids with fingers.
+  If inhaled, remove to fresh air.
+  If not breathing, give artificial respiration.
+  Call a physician
+  Discard contaminated clothing and shoes
+Appearance and odor:
+  Clear colorless liquid
+Explosion level Information:
+  Lower Explosion Level: 4.7%
+  Upper Explosion Level: 99.99%
+Extinguishing Media:
+  Water Spray
+  Carbon Dioxide
+  Dry Chemical Powder
+Fire and Explosion Hazards:
+  Flammable Liquid
+  Vapor may travel considerable distance to source of ignition and flash
+back.
+  Catches fire if exposed to air.
+  May explode when heated.
+  Reducing Agent.
+Incompatibilities:
+  Oxidizing Agents
+  Oxygen
+  Copper
+  Zinc
+  Organic Materials
+Combustion or Decomposition:
+  Nitrogen Oxides
+Handling and storage precautions:
+  Faceshield (8-inch minimum)
+  Do not breathe vapor
+  Do not get in eyes, on skin, on clothing
+  Avoid prolonged or repeated exposure
+  Wash thoroughly after handling
+  Highly toxic
+  Corrosive
+  Carcinogen
+  Mutagen
+  Keep tightly closed
+  Keep away from heat, sparks, and open flame
+  Store in a cool dry place.
+WARNING:
+  Hydrazine vapor in air is flammable at 4.7 to 100% Hydrazine by volume -
+handle under nitrogen!  Some metals and alloys including monel, bronze,
+brass, cadmium, gold, molybdenum and stainless steel with more than 0.5%
+molybdenum or rust cause decomposition of Hydrazine.
+
+
+Instructions for the Formation of Astrolite 
+
+Astrolite G
+     ** All measurements are by weight **
+2:1 chemical ratio
+
+2 Parts Ammonium Nitrate to 1 Part Anhydrous Hydrazine
+
+1. Put the 2 parts Ammonium Nitrate in a large beaker with sufficient space
+to accommodate the bubbling reaction with the addition of Anhydrous
+Hydrazine.
+2. Slowly and carefully add the Anhydrous Hydrazine.
+3. The effervescent reaction liberates ammonia gas.
+4. When the reaction slows, stir carefully and slowly for at least 5 minutes.
+5. The Astrolite G is finished.
+
+The compound formed is Hydrazonium Nitrate.
+
+Astrolite A-1-5
+
+     Add to the Ammonium Nitrate 20% by weight of the Ammonium Nitrate 100
+mesh or finer Aluminum.
+Astrolite A-1-5 has a higher power than Astrolite G due to electrons donated
+by the Aluminum, but has a lesser velocity than Astrolite G.
+     This article falls under disclaimers found elsewhere in this newsletter
+and those disclaimers which are retro-active and/or forward acting.
+
+Maelmord ><
+ disclaimers found elsewhere
+
+[TC: Maelmord may be contacted through WWIVnet at MAELMORD@3460.]           ><
+
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+
+Updated SS7 Area Table
+
+(Areas with SS7 as of 08/91)
+
+Area                        / Telco
+============================/========================
+Dallas, TX                  / Southwestern Bell
+Atlanta, GA                 / BellSouth
+Tampa, FL                   / BellSouth?/GTE
+Boise, ID                   / USWest
+All of New Jersey           / United & NJ Bell
+Las Vegas, NV               / Centel
+Virginia                    / Contel/C&P
+Washington, D.C.            / Contel/C&P
+Kentucky                    / GTE
+Austin, TX                  / Southwestern Bell
+Olathe, KS                  / Southwestern Bell
+Los Angeles, CA             / Pacific Bell
+Maine                       / Bell Atlantic?
+Vermont                     / Bell Atlantic?
+Michigan                    / Ameritech
+Maryland                    / Contel/C&P
+Nebraska                    / Ameritech
+Tennessee                   / BellSouth?
+South Carolina              / BellSouth?
+West Virginia               / Contel/C&P
+New Orleans, LA             / GTE?
+============================/========================
+                                                              ><
+
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+
+Distribution Sites
+
+      As of 08/91, the public distribution sites with the New Fone Express
+include:
+
+            * Secret Society                     The Logic Board
+            (314) 831-9039                       (518) 356-5711
+            3/1200 bps                           3/12/2400 bps
+            WWIVNet 3460                         WWIVnet 5852
+            Central Distribution Site
+
+            Solsbury Hill                        The Portal/Angel Station
+            (301) 428-3268                       (314) 434-4873
+            3/12/24/9600HST                      3/12/24/9600HST
+            Usenet feed                          FidoNet: 1:100/445
+            1500+ text files                     Official EFF/CUD Archive Site
+
+      A * indicates a system with a 'captive account,' or an account
+specifically for downloading the NFX.  Solsbury Hill may be supporting one in
+the near future.        
+      
+      Many thanks to the sysops supporting the NFX, and free speech in
+general.                                                                    ><
+
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+
+AS/400 Product Line
+
+      IBM's relatively new line of midrange 'computing solutions' are rapidly
+gaining acceptance in medium- to large- sized businesses.  This article
+provides a quick rundown on the AS/400 models currently in production and
+some common software products.  However, most business-specific applications
+seem to be either custom-written or vertical-market types provided by IBM. 
+This article deals with the D models.  Note: Each successive model entry
+builds on the last in the same processor line.  In other words, within the
+9404 processor models, the D25 has all the features of the D20, and the D20
+has all the features of the D10.  Also, DASD is a form of a hard drive
+storage array.  The AS/400s are built at IBM's Rochester, Minnesota facility.
+
+      AS/400 9402              Models D04 and D06
+
+      These two models are a 'low-cost introduction' to the AS/400 line.  Both
+come with 8 Mb of RAM standard, an 800-Mb DASD (Direct Access Storage
+Device), a 120-Mb quarter-inch tape backup, a communications adapter and
+either a twinax or an ASCII workstation controller.  (Twinax is a type of
+cabling.)   The D04 is expandable to 16MB RAM, 1.6GB DASD, and up to 28
+twinax or 12 ASCII workstations.  The D06 supports up to 20MB of RAM, 1.6GB
+DASD, and up to 54 workstations.  They are both slightly smaller than a tower
+AT system. 
+      The base price for the D04 is $12,500, and the base D06 costs $16,500.
+
+      AS/400 9404              Models D10, D20, D25
+
+      These three models are the low- to mid-range of the AS/400 line.  The
+D10 comes with 8 MB standard, and is expandable to 32MB.  It includes a 525Mb
+quarter-inch tape backup and 800Mb of DASD.  The DASD is expandable to 4.8GB. 
+Optionally, the D04 can handle 80 local twinax workstations, 72 ASCII
+workstations, and two LAN connections.  The D20 is a D10 with RAM
+expandability to 40MB, thereby increasing the machine's transaction
+capability.  The D25 allows for memory expandability to 64MB, thanks to a
+32MB main storage card.  The D20 and D25 have a sister tower about as large
+as the main unit, the same size as the D04.  The D25 has a box-like
+protrusion on the top of the sister tower.
+      The base prices are $14,600 for the D10, $28,500 for the D12, and
+$61,900 for the D25.
+
+      AS/400 9406              Models D35, D45, D50, D60, D70 and D80
+
+      These six models are the top of the AS/400 line, ranging in size from
+the 'five-drawer file cabinet' size of the D35 to the 'large' D80, probably
+about 6« feet high, 4 feet deep and 30 feet long.  All six are rack-mounted
+and come with two communication lines standard, one used for 'Electronic
+Customer Support,' another IBM 'innovation.'  They have standard battery
+backup and 1.28GB of DASD storage.  They use fiber-optic buses, which allow
+for higher speeds and the capability to place DASD storage units up to 100
+meters away from the CPU.
+      The D35's RAM can be expanded up to 72MB of RAM, 28.7GB of DASD, and
+supports up to 240 local workstations, 16 communications lines, 4 LANS and up
+to 8 optical dataservers (probably jukeboxes), each with a capacity of
+19.5GB.  It also supports two direct bus connections.
+      The D45 can be expanded to support up to 400 local twinax workstations,
+8 optical dataservers and 32 communications lines.  According to IBM's
+estimate, the D45 handles up to 45% more transactions than the D35.
+      The D50 has a 128MB RAM capacity. along with DASD expandability of
+49.3GB.  It supports up to 600 twinax workstations, 4 LANs, 32 communication
+lines, 14 optical dataservers and 3 bus connections.  All models starting
+with the D50 also use "high-speed, intelligent memory," probably a processor
+cache.
+      The D60 is expandable to 192MB RAM, 76.7GB of DASD storage, 800 twinax
+workstations, 4 LANs, 32 communication lines, 14 optical dataservers and 5
+bus connections.
+      The D70 is expandable up to 256MB RAM, 76.7GB of DASD, and supports DASD
+mirroring for a maximum DASD capacity of 38.3GB, if the system is fully
+mirrored.  It supports up to 1200 twinax workstations and 48 communication
+lines.
+      The D80 is the top of IBM's AS/400 line, incorporating not only 2,000
+local twinax workstations, 64 communication lines, 124.3GB of DASD, 384MB of
+main memory and up to seven bus connections, but also IBM's N-WAY
+Multiprocessor Architecture, which consists of two processors 'arranged in
+parallel fashion.'  (I'd guess it's a shared-memory system.)
+      Base prices: D35, $30,000; D45, $62,700; D50, $105,000; D60, $200,000;
+D70, $310,000; D80, $595,000.
+
+      Operating System/400
+
+      The OS/400 product is the 'only IBM-supported' operating system that the
+AS/400 line runs on.  Currently up to version 2 release 1, OS/400 supports
+SAA, mirroring, auxiliary DASD storage pools, and concurrent maintenance
+(allowing malfunctioning hard drives to be replaced while the mirrored system
+stays online).
+
+      Summary
+
+      Many important and interesting applications run on AS/400s, such as
+Callpath/400 or perhaps the ATM Network application.  They are definitely
+worth looking into.  A list of commands for OS/400 can be found on Angel
+Station or Secret Society. (See the list above this article of NFX
+Distribution Sites.)                                                        ><
+
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+
+Cracking Confidentials
+
+     Welcome to a new corner in the newsletter this month.  I have decided to
+start posting some info about the IBM Pirate world in addition to the Phreak
+world info that is available here.  What I hope to due in the future is offer
+you the chance to see what new games are out and what new games are planning
+to come out.
+     Well the long-awaited "Secret Weapons of the Luftwaffe" is out now. 
+After over nine months of delays Lucasfilm has finally started shipping copies
+of the game directly out to customers. You can order it directly by calling
+1-800-STARWARS, and it should retail at around $40 from what I have heard. 
+Also expected to ship this month is Mega Fortress, which is based on the book
+"Flight of the Old Dog."
+     Origin Systems has also announced that Wing Commander 2 is due out on
+software shelves of Babbages stores by the end of the month. This comes after
+much hyping of the game and a push back of a few months.
+     America On-Line has also introduced a new D&D on-line game. You must
+download from them the game and then run it external from the AOL software
+that they provide to you. It allows you to operate in the familiar AD&D Gold Box
+environment that SSI has made very popular. The game cost $19.95 to down, but
+there is no additional charge to play it on-line. You are also supposed to be
+able to interact with other players that are on-line in a real-time
+environment to allow groups to explore the game together.
+     Rumors have that due to America On-Line's interactive graphical games,
+Genie also has similar plans in the works. It seems that they have 
+contracted Kesmai to develop a new multi-play MechWarrior to run on the Genie
+network.  It is supposed to encompass some of the politics between the houses
+and it is supposed to allow players to join and form units to accomplish 
+missions or simply challenge other players to duels.  There is even supposed
+to be a way to announce these challenges over the net and allow players to place
+bets on the outcome for more gaming money.  Apparently it is being play-
+tested on a VAX right now.
+     There is also going to be a Harpoon on-line multi-player game on Genie. 
+It seems that Don Gilman, who is the creator of the PC version, has play-tested
+it and is quite impressed with the work. There is no word at this time though
+when it will be made available to the public.
+     It seems that Data East has picked up the license from FASA to create a
+computer game of their popular Shadowrun cyberpunk role-playing game. Also
+speaking of cyberpunk games, Dynamix was please enough with the response they
+got from Rise of the Dragon, that they are planning on going to do a sequel
+to it.
+
+     Here is a list of the new games that have come out in the last few
+months.
+
+A-10 Tank Killer 1.5
+Armageddon 2525
+Back to the Future 3
+Castles
+Corporation
+Rock 'n Roll
+Tom & the Ghost
+Moonshine Racers
+D-Generation (Beta version)
+Forgotten Worlds
+Mario Andretti's Racing Challenge
+The Terminator
+Vengeance of Excalibur
+Gateway to the Savage Empire
+Lemmings
+Xenocide
+Chuck Yeager's Combat Simulator
+Martian Dreams
+Eagle Rider
+Transworld
+Team Yankee
+Predator 2
+Falcon 3.0 (Demo)
+Wing Commander 2 (Demo)
+Leisure Suit Larry 5 (Demo)
+Might & Magic 3 (Demo)
+Rules of Engagement
+MegaTraveller 2
+Gold of the Aztecs
+Worlds at War
+Where in America's Past is Carmen
+
+     This is just a few of the games that have come out in the last few
+month. I'm not even going to try and include all of the imports that have been
+coming in because that would about double the above list.
+
+     Ok let's look at some of the new games that are planning on coming out.
+
+Tony La Russa's Baseball
+Magic Candle 2
+Bard's Tale Construction Set
+Pool of Darkness (AD&D)
+F-117A Stealth Fighter
+Conflict: Middle East
+Legends of Robin Hood
+The Rocketeer
+Conspiracy
+Ultima VII - The Black Gate
+Romance of the 3 Kingdoms 2
+L'Empereur
+The Perfect General
+The Lost Admiral
+World Class Soccer
+Thunder Hawk
+Might & Magic 3
+Leisure Suit Larry 5
+Megafortress
+Wordtris (3rd in line of Tetris)
+Pro Tennis Tour 2
+Murder
+Conan the Cimmerian
+Shuttle
+Wing Commander 2
+Falcon 3.0
+Indiana Jones & The Fate of Atlantis
+Police Quest 3: The Kindred
+Secret of Money Island: LeChuck's
+Earthlin
+Codename: White Shadow
+Strike Commander
+Sim-Ant (it's really a game)
+SimCity 2
+Civilization
+Crisis in the Kremlin
+UltraBot:Sancation Earth
+
+     Some of the games listed above have ads in the magazines showing what
+they should look like once they are out, and others are games that I have read
+about from insider columns that talk about games that are scheduled to be
+brought out.
+
+     If you would like to know more about a game, or possibly see a review of
+a game, let us know and we will try to do our best.  Thanks.
+
+
+                        by-
+                               Doc Scurlock
+
+[TC: Doc Scurlock can be reached c/o The Cavalier in one of the addresses in
+ the header.]                                                               ><
+
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+
+Trendwatcher
+
+      Note: Special thanks to Doc Scurlock and Silicon Avalanche for some of
+the information contained herein.
+
+      Baron Majette, the first person to be charged in the Operation Sundevil
+investigation, was sentenced last week to 120 days in a "shock incarceration"
+center and five years' probation and was ordered to pay restitution of nearly
+$20,000.  Majette, who authorities said used the handle of Doc Savage, was
+charged in March with telephone and credit-card fraud, among other crimes. 
+Majette pleaded guilty to a reduced charge of a single felony in May. 
+(Computerworld, July 22, 1991)
+      Better erase all those pirated copies of Autocad -- Autodesk, the maker
+of the computer-aided design package, has been busting organizations right
+and left.  One of the more prominent is Southern Technical College, which
+among other penalties, was forced to pay a "six-figure settlement" to
+Autodesk.
+      Borland has recently purchased Ashton-Tate, the maker of dBase.
+      Comsec, the security firm founded by former members of the Legion of
+Doom, recently social-engineered several security firms, claiming to be an
+executive from Landmark Graphics, a Houston, TX-based software publisher.
+      A Next computer at the Electronic Frontier Foundation was recently
+hacked into through rexd (a remote-execution daemon), according to Effector. 
+      Apple Computer has put in a request to the FCC to allocate the 1850 to
+1990 MHz band for its wireless LAN, called Data-PCS.  This frequency band, in
+contrast to the 18-GHz band used by the Altair LAN, is a lot easier to
+interfere with or monitor.
+      Automatic teller machines, or ATMs, exchange data at 2400 BPS over a
+packet network.  The machines change their DES-based encryption keys every 10
+minutes, based on an initial seed value supplied in a call by the net handler
+when the machine powers up.
+      CompuCom is selling a $200 module for their modems that will
+automatically supply Caller ID information to the computer when called.
+      LTC Telephone, which serves Texas, Massachusetts, Nevada, and New
+Mexico, has been calling around recently to inquire about calls that could be
+'double-billed,' and asking if the callee can supply the phone number and/or
+name of the person that called them.
+      THG has been busted by Novell.  Two THG boards are down, Red Dot and
+Wishlist, and THG thinks there are more busts planned.
+      Knight Lightning has graduated from the University of Missouri-Columbia,
+and is going off to Washington D.C. to be an EFF (Electronic Frontier
+Foundation) lobbyist.
+      The FCC has voted 5-0 to relax regulation on AT&T's long-haul
+communication products, such as the ASDS line and private digital lines.
+      AT&T is taking a $1.5 billion writeoff to modernize its PBX product line
+in response to challenges from Northern Telecom in the form of its Meridian
+One Option 11 PBX (mentioned in NFX #2).  AT&T is discontinuing the Merlin 2,
+Merlin Plus, and the System 25 low-end PBXs, along with the mid-range System
+75 and 85 switches.  The new AT&T low/mid-range PBX, the Merlin Legend, is
+capable of interfacing with AT&T's high-end Definity switches.
+      The U.S. Government is expected to file its response to a lawsuit lodged
+against law enforcers in the U.S. Department of Justice, the U.S. Secret
+Service and a security chief at Bellcore.  The suit, which cites a variety of
+First- and Fourth-Amendment violations, was filed by the Electronic Frontier
+Foundation in May.  
+      The U.S. Senate Judiciary Committee approved a bill that would impose
+criminal penalties for software copyright infringement.  The bill would
+impose a fine of up to $250,000 and a prison term of up to two years for
+illegal reproduction or distribution of 11 to 49 software copies.  Currently,
+first-time piracy is a misdemeanor.  (Both from Computerworld, August 12,
+1991)
+      In a brilliant display of true IBM foresight, IBM is discontinuing the
+8514/A graphics card on Oct. 2, because it has been outmoded (quite
+literally) by IBM's XGA card.                                               ><
+
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+
+Editorial
+"The U.S.S.R. and rolling..."
+
+      News: We've dropped our subscription price $10!  Since it's now cheaper
+for us to copy it, it's now cheaper for you to buy it.  Check out the header
+for more info.
+
+      The Soviet Union (if it's still a union at the time I'm writing this) is
+starting to dip into mass chaos.  Now, call me opportunistic, but wouldn't it
+be great to get some Russians into hack/phreak?  (more like, call me crazy.) 
+No, but seriously: their telephone network is not worth the wire that
+connects it.  And since there's no shortage of genuine shit-disturbers in the
+USSR, why not?  Oh well, 'twas an idea.....  This issue has turned out a lot
+better than I thought it would.  For one thing, we now have a regular piracy
+column written by Doc Scurlock: "Cracking Confidentials."  Check it out,
+along with the article written by Antisocial on "Gas Tank Blues."  Maelmord
+got really gung-ho and typed in the better part of the Material Safety Data
+Sheets for Ammonium Nitrate and Anhydrous Hydrazine (wonderful stuff, eh?),
+along with instructions on what to do with 'em.  As for Silicon Avalanche's
+Pick Tutorial installment, that has been postponed until next month.
+
+      I don't have that much to say this month, other than to say this: If you
+write an article for us and you're willing to give us your name and address,
+you'll get a FREE printed edition of the issue your article is in.  Thanks
+in advance if you decide to.
+
+      Until next time.. "Thanks for your support."                         ><

@@ -1,0 +1,666 @@
+<TITLE>VC II+ DIAGNOSTIC DATA</TITLE>
+<PRE>
+          VC II+ DIAGNOSTIC DATA (OSD Screen notation V1.07)
+
+
+About this file:  It consists of 4 parts.  Starting out with a
+simple representation of the On Screen Display using letters of the
+alphabet, then progressing to more information.  Part 4 includes
+portions of the first 3 parts in an effort to have as much information
+handy in one place when trying to figure out what YOUR OSD is showing
+you.  Firmware versions newer than V1.07 (circa 1990) will have a
+somewhat different layout, but most of the info is still correct.
+
+Hope you find this file of use.  It's taken many hours to get it in
+shape.  If you know any of the "Unknown" fields, find errors, or
+can expand on any of the data, please send the info to:
+
+          mikey@slic.cts.com  and/or  hughes@gary.enet.dec.com
+          ----------------------------------------------------
+
+
+                              P A R T  1
+                              ----------
+
+V1.07
+1)  aaaaaaaa-aa-aa              b-c
+2)  3:dddd  2:dddd  1:dddd   0:dddd
+3)  
+4)  ee       fff-fff-fff       gg-h
+5)  iiii-iiii   iiii-iiii.ii   iiii
+6)  jj-kk-ll   m  nnnn  o p  qqqqqq
+7)  rrrr-ssss-tttt u v      wxxxxxx
+8)  y.zzE-aa/b.ccE-dd   ee    f:ggg
+
+          --------------------------------------------------
+
+                              P A R T  2
+                              ----------
+
+              DIAGNOSTIC DATA (Annotated; Short Version)
+
+V1.07
+Code version
+
+
+1)  aaaaaaaa-aa-aa              b-c
+    Unit Address                IPPV
+
+2)  3:ddd  2:dddd   1:dddd   0:dddd
+    Tiers  Tiers    Tiers    Tiers
+
+3)  
+
+4)  ee       fff-fff-fff       gg-h
+             Geographic Location
+                               Time Zone
+                                  Daylight Zone
+
+5)  iiii-iiii   iiii-iiii.ii   iiii
+    General Insturment information only
+
+6)  jj-kk-ll   m  nnnn  o p  qqqqqq
+    Category Number     Sync Type
+       Category Sequence  Program Sequence
+          Channel Number     Frame Count
+               ?  Sync 24 Count
+
+7)  rrrr-ssss-tttt u v      wxxxxxx
+    Unit Address Messages   Free preview Status
+         All Messages        Epoch Frame Count
+              Frame Count Messages
+                   Sync State
+                     Service Selection
+
+8)  y.zzE-aa/b.ccE-dd    ee   f:ggg
+    ? Short Term BER     Audio Holds
+          ?? ? Long Term BER  Scrambling Mode
+                   ??           Authorization Status
+
+          --------------------------------------------------
+
+                              P A R T  3
+                              ----------
+
+               DIAGNOSTIC DATA (Annotated; Long Version)
+
+V1.07
+
+Firmware Revision
+
+
+
+LINE 1)  aaaaaaaa-aa-aa              b-c
+
+[a]  Unit Address (identity) of the descrambler.
+     Format: hexadecimal
+     Range: 02406000 - 02FFFFFF
+     NOTE: the unit address range will increase as necessary.
+
+[b]  IPPV Enable (IPPV) indicates whether this unit is currently
+          enabled to purchase IPPV programs.
+     Format: binary
+     Values: "1" indicates unit is enabled to purchase IPPV programs.
+             "0" indicate unit is not enabled to purchase IPPV   
+                 programs.
+
+NOTE: A value of "1" does not necessarily mean that IPPV tiers have
+been assigned to this unit, however.
+
+[c]  Unknown
+
+
+
+LINE 2)  3:dddd  2:dddd   1:dddd   0:dddd
+
+[d]  Line 2 contains the tiers assigned to the unit.
+
+
+
+LINE 3)  
+
+Line 3 is intentionally left blank.
+
+
+
+LINE 4)  ee       fff-fff-fff       gg-h
+
+Line 4 displays the following information (set when a unit receives
+it's initial authorization).
+
+[e] Unknown
+
+[f]  Geographic Location is a 36-bit number representing the location
+          of the descrambler in 3 coordinates (x,y,z).  Each point on
+          the earth can be given a location in this way, accurate to
+          with in couple of miles.  This information is used for
+          circular blackouts.
+
+     Format: hex-hex-hex
+     Range: 000-000-000 to FFF-FFF-FFF
+
+[g]  Time Zone is the number of half-hours away from the International
+          Dateline the descrambler is located.
+
+     Format: hexadecimal
+     Range: 0 - 2F
+     Values: 04 = Hawaii
+             08 = Pacific Standard Time  (PST)
+             0A = Mountain Standard Time (MST)
+             0C = Central Standard Time  (CST)
+             0E = Eastern Standard Time  (EST)
+             10 = Atlantic Standard Time (AST)
+
+[h]  Daylight Savings Enable (Daylight) indicates whether the unit is
+          to implement daylight saving time.
+
+     Format: binary
+     Values: "1" indicates the descrambler is to implement daylight
+                 savings time when notified that daylight saving time
+                 is in effect.
+             "0" indicates the descrambler never implements daylight
+                 savings time.
+
+
+
+LINE 5)  iiii-iiii   iiii-iiii.ii   iiii
+
+[i]  Line 5 is for General Instrument information only.
+
+
+
+LINE 6)  jj-kk-ll   m  nnnn  o p  qqqqqq
+
+Line 6 displays the following information:
+
+[j]   Current Category Number
+      Format: hexadecimal
+      Range: 00 - FF
+
+[k]   Current Category Sequence number.  This number increments by 1
+          each month.  Since the number is derived from a decryption,
+          it will be incorrect if the seed in the unit are lost.
+      Format: hexadecimal
+      Range: 00 - FF
+
+[l]   VideoCipher Channel Number, formerly known as "Provider ID".
+      Format: hexadecimal
+      Range: O1 - FF
+
+[m]   Known
+
+[n]   Sync-24 detection counter is the count of the sync-24
+          detections.  Approximately 28 should be detected every
+          second.
+      Format: decimal
+      Range: 0000 - 9999
+
+[o]   Sync Type identifies the kind of sync-24 being detected.
+      Format: decimal
+      Values: 0 = no sync-24's detected.
+              4 = VideoCipher sync-24 detected.
+
+[p]   Current program epoch increments after each program (modula 4).
+      Format: decimal
+      Range: 0 -3
+
+[q]   Current Frame Count.  It should increment by 15 every 2 seconds.
+      Format: hexadecimal
+      Range: 000000 - FFFFFF
+
+
+
+LINE 7)  rrrr-ssss-tttt u v      wxxxxxx
+
+Line 7 contains the following information:
+
+[r]   Number of good Unit Addressed messages received.  Unit Addressed
+          messages are CATEGORY, REKEY (authorization message),
+          PASSWORD, RESET, DESCRAMBLER POLL, or TEXT messages.
+      Format: decimal
+      Range: 0000 - 9999
+
+[s]   Number of all non-FRAME COUNT messages (all messages) received
+          by the unit.
+      Format: decimal
+      Range: 0000 - 9999
+      NOTE: Count can be zeroed out by hitting a zero on keyboard.
+
+[t]   Number of Frame Count messages received by the unit.  This
+          counter is a good indicator of the VideoCipher II Plus
+          signal quality.  If the number is increasing rapidly, then
+          signal quality is good, but this number increasing slowly or
+          sporadically then the signal quality is poor.  It should
+          increment by 15 every 2 seconds.
+      Format: decimal
+      Range: 0000 - 9999
+      NOTE: Count can be zeroed out by hitting a zero on keyboard.
+
+[u]   Current Sync State.
+      Format: decimal
+      Values: 0 = Non VC channel
+              1 = VC sync-24 seen, waiting for messages
+              2 = fade has occurred.  Will either recover (go to 3) or
+                    drop to 0
+              3 = full acquired, awaiting authorization or not
+                    authorized
+              4 = fully authorized, subject to circular blackout and
+                    rating lockout.
+
+[v]   Current Service Selection indicates which service is currently
+          selected and is being output.  Utility Data is available
+          simultaneously with the VideoCipher Video/Audio service.
+      Format: hexadecimal
+      Values: 0 = VideoCipher Video/Audio
+
+[w]   "*" (astrick) indicates free preview is in effect.
+
+[x]   Epoch Frame Count, the frame count at which the current program
+          ends.
+      Format: hexadecimal
+      Range: 0000 - FFFF
+
+      NOTE: The message counters can be zeroed by pressing "0" on the
+            RCU or front panel.
+
+
+
+LINE 8)  y.zzE-aa/b.ccE-dd    ee   f:ggg
+
+[y]   Unknown
+
+[z]   Short-term Bit Error Rate (BER) is a count of the number of
+          detected bit errors in exponential notation over the last 4-
+          5- seconds.
+
+[a]   Unknown
+
+[b]   Unknown
+
+[c]   Long-term Bit Error Rate (BER) is a count of the number of
+          detected bit errors in exponential notation over the last 45
+          seconds.
+
+[d]   Unknown
+
+[e]   Audio Holds represents the ability of the module to successfully
+          descramble the scrambled input signal.
+      Format: hexadecimal
+      Range: 0 - FF
+      NOTE: Video and audio are muted when this value exceeds 90
+            (muted at 14 for the VCII).
+
+[f]   Scrambled Mode
+      Format: alpha
+      Values: "S" = Full scrambled
+              "P" = Processed Unscrambled
+              "F" = Fixed Key
+
+[g]   Authorization State:
+      Format: alpha
+      Values: "-OC"  Old Category rekey; Possible causes:
+                         unit hasn't received this monthly category
+                              rekey message;
+                         unit seeds have been lost due to tampering or
+                              battery failure;
+                         unplug unit for 30 seconds and retry.        
+              "-MP"  Missing Program rekey information; Possible
+                     causes: 
+                         tuned to a channel in a different category
+                              (e.g. DBS unit on a CATV-only channel);
+                         brand new unit (never authorized) that needs
+                              initial authorization via an instant
+                              trip message;
+                         unplug for 30 seconds and retry.
+              "-ME"  Missing Event Blackout; the unit is awaiting the
+                         receipt of ALL circular blackout messages for
+                         this event before it can calculate it's
+                         authorization status. 
+              "-CB"  Circular Blackout; this program is blacked in
+                         your area.
+              "-PL"  Purchasable but Locked out; this program is
+                         offered of IPPV but a rating impediment
+                         exists.  To purchase the program or to view
+                         the FREEVIEW, either raise the rating ceiling
+                         (via Rating Ceiling OSD) or over-ride the
+                         rating lockout (as prompted when the VIEW key
+                         is pressed).
+                    NOTE: rating over-ride is valid for the duration
+of                       the program even if the unit tuned to another
+                         channel and back again.  The only way to
+                         cancel rating over-rides is to press the
+                         "OFF" key on the IRD.
+              "-SL"  Subscribed but Locked out; unit is subscribed to
+                         this program but a rating impediment exists. 
+                         To view the program either raise the rating
+                         ceiling (via Rating Ceiling OSD) or over-ride
+                         the rating lockout (as prompted when the VIEW
+                         key is pressed).
+              "-NS"  No subscription, unit is not subscribed to this
+channel.
+              "-NI"  Not IPPV enabled; this unit is not enabled of
+                         IPPV purchase.  To become enabled for IPPV
+                         purchases, an IPPV account must be set up
+                         with the Satellite Video Center (SVC) at 1-
+                         800-5VIDEO (1-800-548-4336).
+              "-TL"  To Late for Purchase; the program is nearly over
+                         and is no longer available for purchase (at
+                         the programmer's discretion).
+              "C"    Can be bought (CANBUY); the current program is
+                         offered for purchase and can be bought.
+              "B"    IPPV Purchased; the current program has been
+                         purchased; if the FREEVIEW is not over, the
+                         purchase can be canceled by:
+                         * Pressing the "VIEW" key and then pressing
+                              the "ENTER" key when prompted to "Press
+                              ENTER to cancel the program purchase".
+                         * Changing channels during the FREEVIEW.
+                         NOTE: If there is no FREEVIEW portion, or if
+                              the FREEVIEW is over, there is no way of
+                              canceling the program purchase.
+              "S"    Authorized Subscriber.
+
+          --------------------------------------------------
+
+                              P A R T  4
+                              ----------
+
+
+                DIAGNOSTIC DATA (Annotated; The Works)
+
+
+V1.07
+Firmware Revision
+
+
+LINE 1)  aaaaaaaa-aa-aa              b-c
+         Unit Address                IPPV
+
+[a]  Unit Address (identity) of the descrambler.
+     Format: hexadecimal
+     Range: 02406000 - 02FFFFFF
+     NOTE: the unit address range will increase as necessary.
+
+[b]  IPPV Enable (IPPV) indicates whether this unit is currently
+          enabled to purchase IPPV programs.
+     Format: binary
+     Values: "1" indicates unit is enabled to purchase IPPV programs.
+             "0" indicate unit is not enabled to purchase IPPV   
+                 programs.
+
+NOTE: A value of "1" does not necessarily mean that IPPV tiers have
+been assigned to this unit, however.
+
+[c]  Unknown
+
+
+
+LINE 2)  3:dddd  2:dddd   1:dddd   0:dddd
+           Tiers   Tiers    Tiers    Tiers
+
+[d]  Line 2 contains the tiers assigned to the unit.
+
+
+
+LINE 3)  
+
+Line 3 is intentionally left blank.
+
+
+
+LINE 4)  ee       fff-fff-fff       gg-h
+         ??       Geographic Location
+                                    Time Zone
+                                       Daylight Zone
+
+Line 4 displays the following information (set when a unit receives
+it's initial authorization).
+
+[e] Unknown
+
+[f]  Geographic Location is a 36-bit number representing the location
+          of the descrambler in 3 coordinates (x,y,z).  Each point on
+          the earth can be given a location in this way, accurate to
+          with in couple of miles.  This information is used for
+          circular blackouts.
+
+     Format: hex-hex-hex
+     Range: 000-000-000 to FFF-FFF-FFF
+
+[g]  Time Zone is the number of half-hours away from the International
+          Dateline the descrambler is located.
+
+     Format: hexadecimal
+     Range: 0 - 2F
+     Values: 04 = Hawaii
+             08 = Pacific Standard Time  (PST)
+             0A = Mountain Standard Time (MST)
+             0C = Central Standard Time  (CST)
+             0E = Eastern Standard Time  (EST)
+             10 = Atlantic Standard Time (AST)
+
+[h]  Daylight Savings Enable (Daylight) indicates whether the unit is
+          to implement daylight saving time.
+
+     Format: binary
+     Values: "1" indicates the descrambler is to implement daylight
+                 savings time when notified that daylight saving time
+                 is in effect.
+             "0" indicates the descrambler never implements daylight
+                 savings time.
+
+
+
+LINE 5)  iiii-iiii   iiii-iiii.ii   iiii
+
+[i]  Line 5 is for General Instrument information only.
+
+
+
+LINE 6)  jj-kk-ll   m  nnnn  o p  qqqqqq
+
+         Category Number     Sync Type
+            Category Sequence  Program Sequence
+               Channel Number     Frame Count
+                    ?  Sync 24 Count
+
+Line 6 displays the following information:
+
+[j]   Current Category Number
+      Format: hexadecimal
+      Range: 00 - FF
+
+[k]   Current Category Sequence number.  This number increments by 1
+          each month.  Since the number is derived from a decryption,
+          it will be incorrect if the seed in the unit are lost.
+      Format: hexadecimal
+      Range: 00 - FF
+
+[l]   VideoCipher Channel Number, formerly known as "Provider ID".
+      Format: hexadecimal
+      Range: O1 - FF
+
+[m]   Known
+
+[n]   Sync-24 detection counter is the count of the sync-24
+          detections.  Approximately 28 should be detected every
+          second.
+      Format: decimal
+      Range: 0000 - 9999
+
+[o]   Sync Type identifies the kind of sync-24 being detected.
+      Format: decimal
+      Values: 0 = no sync-24's detected.
+              4 = VideoCipher sync-24 detected.
+
+[p]   Current program epoch increments after each program (modula 4).
+      Format: decimal
+      Range: 0 -3
+
+[q]   Current Frame Count.  It should increment by 15 every 2 seconds.
+      Format: hexadecimal
+      Range: 000000 - FFFFFF
+
+
+
+LINE 7)  rrrr-ssss-tttt u v      wxxxxxx
+7)  rrrr-ssss-tttt u v      wxxxxxx
+         Unit Address Messages   Free preview Status
+              All Messages        Epoch Frame Count
+                   Frame Count Messages
+                        Sync State
+                          Service Selection
+
+Line 7 contains the following information:
+
+[r]   Number of good Unit Addressed messages received.  Unit Addressed
+          messages are CATEGORY, REKEY (authorization message),
+          PASSWORD, RESET, DESCRAMBLER POLL, or TEXT messages.
+      Format: decimal
+      Range: 0000 - 9999
+
+[s]   Number of all non-FRAME COUNT messages (all messages) received
+          by the unit.
+      Format: decimal
+      Range: 0000 - 9999
+      NOTE: Count can be zeroed out by hitting a zero on keyboard.
+
+[t]   Number of Frame Count messages received by the unit.  This
+          counter is a good indicator of the VideoCipher II Plus
+          signal quality.  If the number is increasing rapidly, then
+          signal quality is good, but this number increasing slowly or
+          sporadically then the signal quality is poor.  It should
+          increment by 15 every 2 seconds.
+      Format: decimal
+      Range: 0000 - 9999
+      NOTE: Count can be zeroed out by hitting a zero on keyboard.
+
+[u]   Current Sync State.
+      Format: decimal
+      Values: 0 = Non VC channel
+              1 = VC sync-24 seen, waiting for messages
+              2 = fade has occurred.  Will either recover (go to 3) or
+                    drop to 0
+              3 = full acquired, awaiting authorization or not
+                    authorized
+              4 = fully authorized, subject to circular blackout and
+                    rating lockout.
+
+[v]   Current Service Selection indicates which service is currently
+          selected and is being output.  Utility Data is available
+          simultaneously with the VideoCipher Video/Audio service.
+      Format: hexadecimal
+      Values: 0 = VideoCipher Video/Audio
+
+[w]   "*" (astrick) indicates free preview is in effect.
+
+[x]   Epoch Frame Count, the frame count at which the current program
+          ends.
+      Format: hexadecimal
+      Range: 0000 - FFFF
+
+      NOTE: The message counters can be zeroed by pressing "0" on the
+            RCU or front panel.
+
+
+
+LINE 8)  y.zzE-aa/b.ccE-dd    ee   f:ggg
+         ? Short Term BER     Audio Holds
+               ?? ? Long Term BER  Scrambling Mode
+                        ??           Authorization Status
+
+[y]   Unknown
+
+[z]   Short-term Bit Error Rate (BER) is a count of the number of
+          detected bit errors in exponential notation over the last 4-
+          5- seconds.
+
+[a]   Unknown
+
+[b]   Unknown
+
+[c]   Long-term Bit Error Rate (BER) is a count of the number of
+          detected bit errors in exponential notation over the last 45
+          seconds.
+
+[d]   Unknown
+
+[e]   Audio Holds represents the ability of the module to successfully
+          descramble the scrambled input signal.
+      Format: hexadecimal
+      Range: 0 - FF
+      NOTE: Video and audio are muted when this value exceeds 90
+            (muted at 14 for the VCII).
+
+[f]   Scrambled Mode
+      Format: alpha
+      Values: "S" = Full scrambled
+              "P" = Processed Unscrambled
+              "F" = Fixed Key
+
+[g]   Authorization State:
+      Format: alpha
+      Values: "-OC"  Old Category rekey; Possible causes:
+                         unit hasn't received this monthly category
+                              rekey message;
+                         unit seeds have been lost due to tampering or
+                              battery failure;
+                         unplug unit for 30 seconds and retry.        
+              "-MP"  Missing Program rekey information; Possible
+                     causes: 
+                         tuned to a channel in a different category
+                              (e.g. DBS unit on a CATV-only channel);
+                         brand new unit (never authorized) that needs
+                              initial authorization via an instant
+                              trip message;
+                         unplug for 30 seconds and retry.
+              "-ME"  Missing Event Blackout; the unit is awaiting the
+                         receipt of ALL circular blackout messages for
+                         this event before it can calculate it's
+                         authorization status. 
+              "-CB"  Circular Blackout; this program is blacked in
+                         your area.
+              "-PL"  Purchasable but Locked out; this program is
+                         offered of IPPV but a rating impediment
+                         exists.  To purchase the program or to view
+                         the FREEVIEW, either raise the rating ceiling
+                         (via Rating Ceiling OSD) or over-ride the
+                         rating lockout (as prompted when the VIEW key
+                         is pressed).
+                    NOTE: rating over-ride is valid for the duration
+                         of the program even if the unit tuned to
+                         another channel and back again.  The only way
+                         to cancel rating over-rides is to press the  
+                         "OFF" key on the IRD.
+              "-SL"  Subscribed but Locked out; unit is subscribed to
+                         this program but a rating impediment exists. 
+                         To view the program either raise the rating
+                         ceiling (via Rating Ceiling OSD) or over-ride
+                         the rating lockout (as prompted when the VIEW
+                         key is pressed).
+              "-NS"  No subscription, unit is not subscribed to this
+                         channel.
+              "-NI"  Not IPPV enabled; this unit is not enabled of
+                         IPPV purchase.  To become enabled for IPPV
+                         purchases, an IPPV account must be set up
+                         with the Satellite Video Center (SVC) at 1-
+                         800-5VIDEO (1-800-548-4336).
+              "-TL"  To Late for Purchase; the program is nearly over
+                         and is no longer available for purchase (at
+                         the programmer's discretion).
+              "C"    Can be bought (CANBUY); the current program is
+                         offered for purchase and can be bought.
+              "B"    IPPV Purchased; the current program has been
+                         purchased; if the FREEVIEW is not over, the
+                         purchase can be canceled by:
+                         * Pressing the "VIEW" key and then pressing
+                              the "ENTER" key when prompted to "Press
+                              ENTER to cancel the program purchase".
+                         * Changing channels during the FREEVIEW.
+                         NOTE: If there is no FREEVIEW portion, or if
+                              the FREEVIEW is over, there is no way of
+                              canceling the program purchase.
+              "S"    Authorized Subscriber.
+
+          --------------------------------------------------
+</PRE>

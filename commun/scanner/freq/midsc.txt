@@ -1,0 +1,519 @@
+--------MIDLANDS COMPREHENSIVE FREQUENCY DIRECTORY----------
+
+030.8400 +Itinerant                             Low Power H/T
+030.8600 +S.C. Dept. of Health & Environmental Control          Ch.1
+030.9000 +S.C. Dept. of Health & Environmental Control          Ch.2
+031.7800 +S.C. Forestry Commission      Forest Conditions       Ch.1
+033.1200 +Itinerant                             Low Power H/T
+033.1400 +Itinerant                             Low Power H/T
+033.4000 +Itinerant                             Low Power H/T
+033.9000 +Sumter County Fire Dept       Rural Low Band          Ch.1
+033.9800 +Irmo Fire District            (Private Channel)       Ch.1
+035.0400 +Itinerant                             Low Power H/T
+035.1000 +J & L Excavating              Operations              Ch.1
+035.1200 +Blossom Shop Florist  Delivery Sevice         Ch.1
+035.7200 +Harrison Sand Corp.   Operations              Ch.1
+035.9800 +Burriss Construction  Operations              Ch.1
+037.1800 +S.C. Dept. of Agriculture     Field Operations        Ch.1
+038.2000 +U.S. Army Aviation            MEDEVAC HELICOPTER      Ch.1
+038.3000 +U.S. Army Aviation            MEDEVAC HELICOPTER      Ch.2
+039.9600 +S.C. Dept. of Youth Services  Operations              Ch.1
+039.9800 +S.C. Dept. of Youth Services  Field Operations        Ch.2
+042.0600 +S.C. Highway Patrol/S.L.E.D.  car/car                 Ch.08
+042.0800 +S.C. Highway Patrol/S.L.E.D.  base/car                Ch.04
+042.1000 +S.C. Highway Patrol/S.L.E.D.  base/car                Ch.01
+042.1200 +S.C. Highway Patrol/S.L.E.D.  base/car                Ch.03
+042.1400 +S.C. Highway Patrol/S.L.E.D.  car/car                 Ch.07
+042.2600 +S.C. Highway Patrol/S.L.E.D.  car/car                 Ch.02
+042.3400 +S.C. Highway Patrol/S.L.E.D.  base/car                Ch.06
+043.0400 +Itinerant                             Low Power H/T
+043.4000 +Mustard Coleman Construction  Operations      Ch.1
+044.0000 +N.W. White Transport          Operations      Ch.1
+044.2600 +Fredrickson Motor Express             Operations      Ch.1
+044.3000 +Sun Services Sand & Soil              Delivery        Ch.1
+044.3600 +Hicklin Motor Line                    Operations      Ch.1
+045.0800 +S.C. Disaster Preparedness    South                   Ch.01
+045.1200 +Lexington County Public Works                 Ch.1
+045.2000 +Fairfield County Local Gov't  Public Works    Ch.1
+045.2400 +Lexington County Public Works                 Ch.2
+045.3600 +Richland County Public Works                  Ch.1
+045.4000 +Lexington County Public Works                 Ch.3
+045.4400 +Batesburg Local Government    Public Works            Ch.5
+045.4400 +Leesville Local Government    Public Works            Ch.5
+045.4400 +Saluda Local Gov't            Public Works            Ch.1
+045.4800 +S.C. Disaster Preparedness    North                   Ch.02
+045.5200 +Lexington County Public Works                 Ch.4
+045.6400 +Forest Acres Public Works                             Ch.1
+046.1000 +Horrell Hill V.F.D.   Fire Ops                Ch.1
+046.1200 +Horrell Hill V.F.D.   Fireground              Ch.2
+046.5200 +Winnsboro Fire Dept.          Operations              Ch.1
+046.5600 +Swansea Local Government      Public Works            Ch.1
+047.2200 +S.C. Highway Dept.            Maintenance             Ch.1
+047.2800 +S.C. Highway Dept.            Maintenance             Ch.4
+047.3400 +S.C. Highway Dept.            Maintenance             Ch.2
+047.3600 +S.C. Highway Dept.            Maintenance             Ch.3
+047.4200 +American National Red Cross   Columbia/Spartanburg    Ch.1
+047.9000 +Public Service Authority      Transportation          Ch.1
+047.9600 +Black River Electric CO-OP    Service Crews           Ch.1
+048.7600 +Dixie Pipeline Company        Natural Gas             Ch.1
+049.4400 +Dixie Pipeline Company        Natural Gas             Ch.2
+049.6500 +U.S. Army Aviation            MEDEVAC HELICOPTER      Ch.3
+049.7000 +U.S. Army Aviation            MEDEVAC HELICOPTER      Ch.4
+049.8000 +U.S. Army Aviation            MEDEVAC HELICOPTER      Ch.5
+114.7000 +CAE---Columbia Airport Beacon
+118.2000 +Columbia Airport              Approach/Departure
+118.8500 +Shaw A.F.B.                   Approach / Departure
+119.5000 +Columbia Airport              TOWER
+119.7500 +Columbia Airport              Clearance Delivery
+120.1500 +Columbia A.T.I.S. (Terminal Info System)
+121.0500 +Columbia Airport              Radar Approach
+121.5000 +Columbia Airport              EMERGENCY
+121.6000 +Civil Air Patrol              Operations
+121.9000 +Columbia Airport              Ground Control
+122.0000 +F.A.A. FLIGHT WATCH           WEATHER For Pilots
+122.8000 +Owens Field                   UNICOM
+122.8500 +Camden Airport                UNICOM
+122.9000 +Gaston Airport                UNICOM
+122.9000 +Pelion Airport                UNICOM
+122.9500 +Columbia Airport              Eagle Aviation
+122.9750 +Columbia Airport              UNICOM  (10,000 + Ft.)
+123.0250 +Columbia Airport              Helicopter Air to Air Freq.
+123.0250 +S.C. Aeronautics Commission   Air/Air Frequency
+123.0500 +Columbia Airport              Helicopter Unicom
+123.0750 +Columbia Airport              Helicopter Unicom
+123.4500 +Columbia Airport              Plane to Plane Freq.
+124.1500 +Columbia Airport              Radar Approach
+124.4000 +Owens Field                   Clearance Delivery
+124.7000 +Columbia Airport/Jacksonville A.R.T.T.C.
+124.9000 +Columbia Airport              Approach/Departure
+125.4000 +McEntire A.N.G.               Approach/Departure
+125.4000 +Shaw A.F.B.           Approach / Departure
+126.2000 +McEntire A.N.G.               TOWER
+126.6500 +Shaw A.F.B.                   TOWER
+127.8750 +Columbia Airport/Jacksonville A.R.T.T.C.
+129.3250 +Aeronautical Radio Inc.       Airline Enroute Freq.
+129.7500 +Aeronautical Radio Inc.       Piedmont Airlines
+129.9500 +Aeronautical Radio Inc.       Airline Enroute Freq.
+130.4250 +Aeronautical Radio Inc.       Airline Enroute Freq.
+130.4500 +Aeronautical Radio Inc.       Eastern Airlines        
+130.5250 +Aeronautical Radio Inc.       Airline Enroute Freq.
+130.7000 +Aeronautical Radio Inc.       Airline Enroute Freq.
+130.8750 +Aeronautical Radio Inc.       Airline Enroute Freq.
+131.4500 +Aeronautical Radio Inc.       Delta Airlines
+131.5500 +Aeronautical Radio Inc.       A.C.A.R.S.
+131.8000 +S.C. Aeronautics Comm.        S.L.E.D. Aviation
+131.9250 +Aeronautical Radio Inc.       Airline Enroute Freq.
+139.0750 +Fort Jackson          Range Control                   Ch.1
+139.1500 +Fort Jackson          Range Control                   Ch.2
+139.2250 +Fort Jackson          Range Control                   Ch.3
+142.1550 +Fort Jackson          Army M.A.R.S.   Input to 143.450 Ch.1
+142.3500 +Federal Emergency Management Agency   Simplex         Ch.1
+142.8750 +Fort Jackson          Operations                      Ch.4
+142.9750 +Federal Emergency Management Agency   Repeater        Ch.2
+143.3500 +Fort Jackson          Range Control           Ch.4
+143.4500 +Fort Jackson          Army M.A.R.S.   Repeater        Ch.2
+143.9000 +CIVIL AIR PATROL              Input to 148.1500       Ch.1
+143.9900 +U.S. Army M.A.R.S.    Repeater -- Little Mountain,SC  Ch.1
+145.0100 +Ham Radio Repeater (Packet)   Columbia,S.C.
+145.0100 +Ham Radio Repeater (Packet)   Sumter,S.C.
+145.0300 +Ham Radio Repeater (Packet)   Columbia,S.C.
+145.0500 +Ham Radio Repeater (Packet)   Columbia,S.C.
+145.2100 +Ham Radio Repeater            Gaston,S.C.
+145.4300 +Ham Radio Repeater            Edmund, S.C.
+145.5550 +Ham Radio                     National Simplex (Hamfests)
+146.5200 +Ham Radio                     National Simplex Frequency
+146.6400 +Ham Radio Repeater            Sumter,S.C.     
+146.6850 +Ham Radio Repeater            Newberry,S.C.
+146.7150 +Ham Radio Repeater            Columbia,S.C.
+146.7300 +Ham Radio Repeater            North Augusta,S.C.
+146.7600 +Ham Radio Repeater            Ft.Jackson, S.C.
+146.8200 +Ham Radio Repeater            St. Matthews,S.C.
+146.8800 +Ham Radio Repeater            Columbia,S.C.
+146.9400 +Ham Radio Repeater            Columbia ,S.C.
+147.0150 +Ham Radio Repeater            Sumter, S.C.
+147.0600 +Ham Radio Repeater            Shaw/Sumter,S.C.
+147.2100 +Ham Radio Repeater            Little Mountain,S.C.
+147.2400 +Ham Radio Repeater            Lancaster,S.C.
+147.2850 +Ham Radio Repeater            Aiken,S.C.      
+147.3300 +Ham Radio Repeater            Columbia, S.C.
+147.3900 +Ham Radio Repeater    Lexington,S.C.
+148.1500 +CIVIL AIR PATROL              Operations Repeater     Ch.2
+148.5150 +McEntire A.N.G.               Fire/Crash
+148.5450 +Shaw A.F.B.           Flightline Security     Ch.2
+148.6250 +Fort Jackson Fire Dept.       Operations              Ch.1
+148.9250 +Fort Jackson          Army Civil Air Patrol           Ch.1
+149.4750 +McEntire A.N.G.               Base Security
+149.8000 +Fort Jackson          Operations                      Ch.8
+150.5000 +Fort Jackson          Post Operations         Ch.2
+150.5150 +Shaw A.F.B.           Disaster Control        Ch.1
+150.5250 +Fort Jackson Moncreif Hospital        E.M.S.          Ch.1
+150.5500 +Fort Jackson Post Operations                          Ch.3
+150.8150 +Gardner Enterprises           TOW TRUCK
+150.8900 +Giles Exxon Service           TOW TRUCK
+151.1600 +S.C. Wildlife & Marine Resources      Little Mt       Ch.1
+151.2950 +S.C. Wildlife & Marine Resources      Orangeburg      Ch.2
+151.3100 +Columbia Local Government     Water,Sewer, etc        Ch.1
+151.3250 +S.C. Wildlife & Marine Resources      Aiken           Ch.3
+151.3400 +S.C. Wildlife & Marine Resources      Sumter          Ch.4
+151.3700 +S.C. Wildlife & Marine Resources      Rock Hill
+151.4150 +S.C. Wildlife & Marine Resources      Columbia        Ch.6
+151.4300 +S.C. Wildlife & Marine Resources      Charleston      Ch.7
+151.4450 +S.C. Wildlife & Marine Resources      Georgetown      Ch.8
+151.4900 +Itinerant                             Low Power H/T
+151.6250 +Itinerant                             Low Power H/T
+151.6550 +Columbia College              Operations              Ch.1
+151.6850 +Lexington High School School Operations       Ch.1
+151.6850 +U.S.C. Buildings & Grounds    Operations              Ch.1
+151.7450 +Auto Recovery Bureau          Operations      Ch.1
+151.7450 +Columbia Bible College        Operations              Ch.1
+151.8050 +Seven Oaks Elementary School Operations       Ch.1
+151.8350 +Columbia College              Operations              Ch.2
+151.9550 +Lexington High School School Operations       Ch.2
+151.9850 +Bell South                    Telephone Maintenance   Ch.1
+152.8700 +Hardaway Concrete             Delivery                Ch.1
+153.1100 +Allied Chemical & Fibers Inc   Plant Ops              Ch.1
+153.4700 +Newberry Electric CO-OP       Service Crews           Ch.1
+153.7850 +Columbia Local Government     Municipal Services      Ch.2
+153.8450 +Richland Memorial Hospital    Security                Ch.1
+153.9500 +Lugoff Vol. Fire Dept.        Operations              Ch.1
+154.0700 +Capital View Fire District    Operations              Ch.1
+154.1150 +S.C. Dept. of Mental Health   Operations              Ch.2
+154.1300 +Lexington County Fire Dept.   Fire Alert/Operations   Ch.1
+154.1600 +Fairfield County Fire Dept.   Operations              Ch.1
+154.2050 +Lexington County Fire Dept.   Fireground              Ch.3
+154.2200 +Newberry County Fire Dept.    Operations              Ch.1
+154.2350 +Cayce Dept. of Public Safety  Operations              Ch.1
+154.2500 +S.C. Fire Academy             Ops./Training           Ch.1
+154.3550 +Kershaw County Fire Dept.     Operations              Ch.1
+154.4300 +Lexington County Fire Dept.   Fireground              Ch.2
+154.5400 +Univ. of South Carolina       System Operations       Ch.1
+154.6000 +Richland County School District # 1           Ch.1
+154.6500 +S.C. Aeronautics Comm.        Operations              Ch.4
+154.6650 +State Law Enforcement Div.    Operations              Ch.01
+154.6950 +State Law Enforcement Div.    Operations              Ch.02
+154.7700 +State Law Enforcement Div.    Mobile/input to 155.580
+154.8000 +Sumter County Sheriff         Operations              Ch.1
+154.8750 +Sumter County Sheriff         Operations              Ch.2
+154.9800 +School Bus Maintenance        Statewide               Ch.1
+155.0400 +Cayce Local Government        City Services           Ch.1
+155.0850 +Newberry City Local Government                        Ch.1
+155.0850 +Prosperity Local Gov't        Public Works            Ch.1
+155.1450 +St. Matthews Fire Dept.       Operations              Ch.1
+155.1600 +S.C. Dept. of Mental Health   Security (HT)   Ch.1
+155.1750 +Lexington County Medical Center                       Ch.4
+155.2200 +Lexington County E.M.S.       Dispatch                Ch.1
+155.2200 +Richland County E.M.S.        Ambulance to Hospital   Ch.3
+155.2650 +Providence Medical Center     Columbia                Ch.4
+155.2800 +Baptist Medical Center Columbia                       Ch.4
+155.3100 +Camden Police/Kershaw County Sheriff                  Ch.1
+155.3400 +LIFEREACH HELICOPTER          Medical Airlift
+155.3400 +Regional E.M.S. Channel       Hospital / Ambulance    Ch.2
+155.3400 +Richland County E.M.S.        Hospital/Ambulance      Ch.4
+155.3550 +Lexington County E.M.S.       Ambulance to hospital   Ch.3
+155.3850 +Richland Memorial Hospital/U.S.C. Medical School      Ch.4
+155.4000 +Kershaw County E.M.S.         Operations              Ch.2
+155.4000 +Richland County E.M.S.        Ambulance to Hospital   Ch.5
+155.4300 +West Columbia Public Safety   Operations              Ch.1
+155.4450 +State Law Enforcement Div.    Special Operations      Ch.05
+155.4750 +State Law Enforcement Div.    N.L.E.E.C.              Ch.07
+155.4900 +Kershaw County Sheriff        Main Patrol             Ch.2
+155.5500 +Kershaw County Sheriff        car/car                 Ch.3
+155.5800 +S.C. Aeronautics Comm.        SLED Aviation OPS       Ch.03
+155.5800 +State Law Enforcement Div.    Narcotics               Ch.03
+155.6400 +S.C. Dept. of Corrections     OPERATIONS              Ch.01
+155.6850 +S.C. Dept. of Corrections     Field Operations        Ch.02
+155.7150 +East Richland County Public Service Authority
+155.7600 +S.C. Dept. of Transportation - ENFORCEMENT            Ch.1
+155.8200 +Richland County Local Gov't   Animal Control          Ch.1
+155.8800 +West Columbia Local Gov't     City Services           Ch.1
+155.9500 +State Police Intersystem      (link to all counties)
+156.0150 +Richland County E.M.S.        Simplex to 158.805      Ch.1
+156.4250 +Lake Murray Marina
+156.8000 +Lake Murray Marina
+156.8000 +Marine Emergency Channel # 16
+157.5000 +City Garage and Body          TOW SERVICE             Ch.1
+157.5150 +Allen's Servicecenter         TOW SERVICE             Ch.1
+158.4000 +Itinerant                             Low Power H/T
+158.7600 +Metropolitan Columbia Warning Net                     
+158.8050 +Richland County E.M.S.        Repeater                Ch.2
+158.8350 +Newberry County Local Gov't   Public Works            Ch.1
+158.9100 +State Law Enforcement Div.    WALKIE TALKIE           Ch.06
+158.9700 +State Law Enforcement Div.    Simplex to 154.695      Ch.09
+159.0900 +State Law Enforcement Div.    Simplex to 154.665      Ch.10
+159.2700 +S.C. Forestry Commission      Statewide Coordination  Ch.01
+159.3000 +S.C. Forestry Commission      Administration          Ch.02
+159.3750 +S.C. Forestry                 Newberry County         Ch.03
+159.4050 +S.C. Forestry                 Richland County         Ch.04
+159.4500 +S.C. Forestry         Lexington County        Ch.05
+159.5850 +G & P Trucking                Operations              Ch.1
+159.6450 +Carolina Freight Carrier      Operations              Ch.1
+159.9000 +Overnight Transport           Operations              Ch.1
+159.9300 +Thurston Trucking             Operations              Ch.1
+159.9750 +Roadway Trucking              Operations              Ch.1
+160.2300 +C.S.X. Railroad               Road                    Ch.1
+160.2450 +Norfolk Southern              Dispatch to Train       Ch.2
+160.2900 +C.S.X. Railroad               Yard                    Ch.5
+160.2900 +Norfolk Southern              Yard                    Ch.3
+160.3650 +Norfolk Southern              Carmen                  Ch.5
+160.3950 +C.S.X. Railroad               Yard                    Ch.7
+160.4700 +Norfolk Southern              Yard                    Ch.8
+160.4850 +C.S.X. Railroad               Yard                    Ch.8
+160.5000 +Norfolk Southern              Freight Agents          Ch.9
+160.5900 +C.S.X Railroad                Main Road               Ch.3
+160.5900 +Norfolk Southern              Yard                    Ch.10
+160.6500 +Norfolk Southern              Yard Clerks             Ch.6
+160.6650 +Norfolk Southern              Yard                    Ch.11
+160.8300 +Norfolk Southern              Train to Dispatch       Ch.2
+160.8600 +C.S.X. Railroad               Hump                    Ch.7
+160.8750 +C.S.X. Railroad               Police                  Ch.9
+160.8900 +C.S.X. Railroad               Yard                    Ch.y1
+160.9500 +Norfolk Southern              Road(Southern)          Ch.5
+160.9800 +C.S.X. Railroad               P.B.X.                  Ch.1
+161.0400 +C.S.X. Railroad               Yard                    Ch.9
+161.1000 +C.S.X. Railroad               Main Yard               Ch.4
+161.1450 +Norfolk Southern              Yard                    Ch.12
+161.1600 +C.S.X. Railroad               Yard                    Ch.10
+161.1900 +Norfolk Southern              Road(Common)            Ch.1
+161.2050 +Norfolk Southern      Railroad Police Intersystem     Ch.1
+161.2650 +C.S.X. Railroad               P.B.X.                  Ch.2
+161.2800 +Norfolk Southern              Police                  Ch.2
+161.3400 +C.S.X. Railroad               Yard                    Ch.11
+161.3700 +C.S.X. Railroad       Road / Dispatcher to Train      Ch.1
+161.4000 +C.S.X.                        Yard                    Ch.12
+161.4150 +Norfolk Southern              Carmen                  Ch.11
+161.4900 +Norfolk Southern      Passenger Excursion Road        Ch.6
+161.5200 +C.S.X. Railroad       Train to Dispatcher             Ch.2
+161.7000 +Cosmos Broadcasting   News relay                      Ch.1
+161.7300 +Cosmos Broadcasting   News Relay                      Ch.2
+161.7300 +Norfolk Southern              Special Events          Ch.1
+162.4000 +N.O.A.A. WEATHER      Columbia
+162.5500 +N.O.A.A. WEATHER      Greenville
+163.2000 +U.S. MARSHAL SERVICE          OPERATIONS              Ch.1
+163.4100 +Fort Jackson          Corps of Engineers              Ch.3
+163.4875 +Shaw A.F.B.                   Base Security           Ch.1
+163.5600 +Fort Jackson          Transportation                  Ch.1
+163.9600 +U.S. F.B.I.                   N.C. Repeater           Ch.1
+163.9750 +U.S. F.B.I.                   S.C. Repeater           Ch.2
+164.1000 +Fort Jackson Military Police  Simplex                 Ch.1
+164.1000 +U.S. SECRET SERVICE           "VICTOR" V.I.P. SECURITY Ch.11
+164.1750 +U.S. Veterans Administration Hospital Columbia
+164.4000 +U.S. SECRET SERVICE           "PAPA" V.I.P. SECURITY  Ch.7
+164.6000 +U.S. MARSHAL SERVICE          OPERATIONS              Ch.2
+164.6500 +U.S. A.T.F.                   OPERATIONS              CH.3
+164.6500 +U.S. SECRET SERVICE           "TANGO"(VIP SECURITY)   Ch.3
+164.8850 +U.S. SECRET SERVICE           "OSCAR"  MOTORCADE       Ch.12
+164.9850 +Fort Jackson Military Police  Traffic/Special Event   Ch.3
+165.0250 +U.S. SECRET SERVICE           "NOVEMBER" SECURITY     Ch.14
+165.0650 +Fort Jackson Military Police  Repeater                Ch.2
+165.0850 +U.S. SECRET SERVICE           "HOTEL" V.I.P. SECURITY Ch.9
+165.2050 +U.S. TREASURY                 FIELD OPERATIONS        Ch.11
+165.2100 +U.S. SECRET SERVICE           "MIKE" V.I.P. SECURITY  Ch.6
+165.2350 +U.S. CUSTOMS SERVICE          PRIMARY                  Ch.1
+165.2850 +U.S. A.T.F.                   PRIMARY                 Ch.1
+165.3500 +U.S. A.T.F.                   LOCAL OFFICES,SIMPLEX    Ch.6
+165.3750 +U.S. SECRET SERVICE           PRIMARY(Charlie)        Ch.1
+165.4350 +U.S. CUSTOMS SERVICE          OPERATIONS               Ch.2
+165.4600 +U.S. I.R.S. (C.I.D.)          U.S.D.T. Common Freq.    Ch.4
+165.7850 +U.S. SECRET SERVICE           "BAKER"(ESCORT FREQ.)   Ch.5
+165.7875 +U.S. CUSTOMS SERVICE          TACTICAL                 Ch.4
+165.9125 +U.S. A.T.F.                   OPERATIONS               Ch.5
+165.9500 +U.S. I.R.S. (C.I.D.)          OPERATIONS REPEATER      Ch.1
+166.0000 +U.S. I.R.S. (C.I.D.)          INVESTIGATIONS REPEATER  Ch.1
+166.2000 +U.S. Postal Service           Columbia Branch         Ch.1
+166.2100 +U.S. SECRET SERVICE           "INDIA" V.I.P. SECURITY Ch.10
+166.4000 +U.S. SECRET SERVICE           "GOLF" Common Repeater input
+166.4600 +U.S. A.T.F.                   U.S.D.T. Common Freq.   Ch.4
+166.4600 +U.S. CUSTOMS SERVICE          U.S.D.T. Common Freq.    Ch.3
+166.5100 +U.S. SECRET SERVICE           "ALPHA" SECURITY ESCORT Ch.8
+166.5350 +U.S. A.T.F.                   TACTICAL                Ch.2
+166.7000 +WHITE HOUSE ADVANCE TEAM      "QUEBEC"  STAFF RADIOS   Ch.15
+167.0000 +U.S. I.R.S. (C.I.D.)          OPERATIONS               Ch.2
+167.0250 +WHITE HOUSE ADVANCE TEAM      OPERATIONS              Ch.2
+167.0500 +F.C.C.                        Field Operations        CH.1
+167.1000 +U.S. I.R.S. (C.I.D.)          INVESTIGATIONS DIRECT    Ch.2
+167.2750 +U.S. F.B.I.                   OPERATIONS              Ch.1
+167.4100 +U.S. F.B.I.                   CAR TO CAR              Ch.3
+167.5600 +U.S. F.B.I.                   FIELD OPERATIONS        Ch.4
+167.6000 +U.S. F.B.I.                   CAR TO CAR              Ch.5
+168.5250 +U.S. Veterans Administration  Hospital  --Columbia    Ch.2
+169.7750 +Congaree Swamp National Monument      U.S. Dept of Interior
+169.9250 +U.S. SECRET SERVICE           "DELTA" SECURITY DETAILS Ch.13
+170.1500 +Capitol Communications        Operations              Ch.1
+173.2250 +Columbia Newspapers   Circulation,Reporters,etc.      Ch.1
+173.3750 +Columbia Newspapers Inc.      Reporters               Ch.2
+173.4100 +Moncrief Army Hospital        Paging                  Ch.1
+173.5625 +Shaw A.F.B.                   E.M.S. Medical Net      Ch.1
+173.5875 +Shaw A.F.B.                   Fire / Crash            Ch.1
+224.1200 +Ham Radio Repeater            Little Mountain,S.C.
+224.9000 +Ham Radio Repeater            Columbia,S.C.
+408.8250 +Federal Aviation Administration       Operations      Ch.1
+413.9500 +U.S. F.B.I. (S.C.)            TACTICAL                 Ch.1
+414.7000 +U.S. I.R.S. (C.I.D.)          Input to 418.225                
+415.2000 +U.S. F.B.I. (S.C.)            TACTICAL                 Ch.2
+416.3250 +U.S. Drug Enforcement Agency  Operations              Ch.1
+418.1750 +U.S. I.R.S. (C.I.D.)          TACTICAL                 Ch.3
+418.2250 +U.S. I.R.S. (C.I.D.)          REPEATER                 Ch.1
+418.9000 +U.S. Drug Enforcement Agency  Operations              Ch.2
+419.1750 +U.S. F.B.I. (S.C.)            TACTICAL                 Ch.3
+421.2500 +Ham Radio Repeater (SSTV)     Lexington,S.C.
+423.2500 +Ham Radio Repeater (SSTV)     Sumter,S.C.
+444.5250 +Ham Radio Repeater            Sumter/Shaw,S.C.
+451.0250 +Public Service Authority      Regulation Div.         Ch.1
+451.1500 +Mid Carolina Electric CO-OP   Operations              Ch.1
+451.1750 +Mid Carolina Electric CO-OP   Service                 Ch.2
+451.2000 +S.C.E.G.              Transportation(Buses)           Ch.1
+451.3250 +Bell South                    Telephone Maintenance   Ch.2
+451.8000 +Itinerant                     Low Power H/T
+451.8750 +Hardaway Sand & Concrete      Operations              Ch.1
+452.1250 +S.C. Dept of Corrections      Facility Ops            Ch.4
+452.2750 +S.C. Dept of Corrections      Facility Ops            Ch.5
+453.1000 +Columbia Fire Department      Central                 Ch.1
+453.2000 +St. Matthews Police           Sheriff                 Ch.2
+453.2250 +S.C. Criminal Justice Academy                         Ch.1
+453.2750 +Columbia Housing Authority                            Ch.1
+453.3000 +Saluda County Sheriff         Main Patrol             Ch.1
+453.3250 +Riverbanks Zoo                Operations              Ch.1
+453.4000 +Columbia Fire Department      East                    Ch.2
+453.4250 +S.C. E.T.V.                   Broadcast Operations    Ch.1
+453.4500 +Columbia Fire Department      West/Rural              Ch.3
+453.4500 +Regional Law Enforcement Channel      Piedmont        Ch.4
+453.4750 +Columbia Local Government     Engineering,Traffic     Ch.2
+453.5750 +Newberry Local Government     Public Works            Ch.3
+453.6250 +Capitol Complex Police        Executive Security      Ch.1
+453.6500 +Forest Acres Police           Main Patrol             Ch.1
+453.7500 +Capitol Complex Security      SENATE                  Ch.2
+453.7750 +Columbia Local Government     Main Operational Freq.  Ch.1
+453.8250 +U.S.C. Police Dept.           Patrol/Traffic          Ch.1
+453.8500 +U.S.C. Police Dept.           Coliseum/Stadium        Ch.2
+453.8750 +S.C. Div. Of Telecommunications                       Ch.1
+453.9000 +U.S.C. Police / Administration   Special Ops.         Ch.3
+453.9250 +Capital View Fire Dept.       Dispatch                Ch.1
+453.9250 +Columbia Disaster Preparadness                        Ch.1
+453.9750 +Blythwood Fire Dept.          Operations              Ch.1
+460.0250 +Columbia Police Dept. Car/Car (INFO)          Ch.1
+460.0500 +Columbia Police Dept. Regional Channel        Ch.5
+460.0500 +Lexington County Sheriff      Regional Channel        Ch.5
+460.0500 +Newberry County Sheriff       Regional Channel        Ch.3
+460.0500 +Regional Law Enforcement Channel      Midlands        Ch.5
+460.0500 +Richland County Sheriff       Regional Channel        Ch.5
+460.0750 +Richland County Sheriff       Patrol South Area       Ch.2
+460.1000 +Lexington County Sheriff      Main Patrol             Ch.1
+460.1250 +Columbia Police Dept. Patrol Operations       Ch.4
+460.1500 +Cayce Police Department       Main Patrol             Ch.1
+460.1500 +Lexington County Sheriff      Link                    Ch.4
+460.1500 +West Columbia Police Dept.    Main Patrol             Ch.1
+460.1750 +Newberry County Sheriff       Main Patrol             Ch.1
+460.2000 +Batesburg Police Dept.        Main Patrol             Ch.2
+460.2000 +Chapin Police Dept.           Main Patrol             Ch.2
+460.2000 +Columbia Airport Police       Patrol                  Ch.2
+460.2000 +Gaston Police Dept.   Main Patrol             Ch.2
+460.2000 +Irmo Police Dept.             Main Patrol             Ch.2
+460.2000 +Leesville Police Dept.        Main Patrol             Ch.2
+460.2000 +Lexington County Municipalities Police                Ch.2
+460.2000 +Lexington County Sheriff      Municipalities          Ch.2
+460.2000 +Lexington Police Dept.        Main Patrol             Ch.2
+460.2000 +Pineridge Police Dept         Main Patrol             Ch.2
+460.2000 +South Congaree Police Dept.   Main Patrol             Ch.2
+460.2000 +Springdale Police Dept.       Main Patrol             Ch.2
+460.2000 +Swansea Police Dept.          Main Patrol             Ch.2
+460.2250 +Columbia Police Dept. Investigators/Records   Ch.2
+460.2750 +Newberry Police               Patrol                  Ch.2
+460.3750 +Richland County Sheriff       South & East            Ch.1
+460.4000 +Fairfield County Sheriff      Main Patrol             Ch.1
+460.4500 +Lexington County Sheriff      Secondary Patrol        Ch.3
+460.4750 +Columbia Police Dept. Traffic/Special Ops     Ch.3
+460.5000 +Richland County Sheriff       North & West            Ch.2
+460.5500 +Richland County Sheriff       Investigators           Ch.4
+460.6000 +Cayce Dept. of Public Safety  Fireground      Ch.2
+460.6250 +Columbia Metropolitan Airport Public Safety   Ch.1
+461.0250 +Coca Cola Distributing        Operations              Ch.1
+461.0500 +Irmo High School              School Operations       Ch.1
+461.2000 +Lower Richland High School     School Operations      Ch.1
+461.3000 +Container Corp of Carolina   Garbage          Ch.1
+461.3375 +Capitol Center(ATT)   Operations              Ch.1
+461.3750 +Univ. of South Carolina       Computer Services       Ch.4
+461.4000 +Hobart Equipment Corp.        Service Crews           Ch.1
+461.4250 +C.W. Haynes Realty            Operations              Ch.1
+461.4750 +Midlands Technical College      Operations            Ch.1
+461.5500 +Cablevision of Columbia       Service Crews           Ch.1
+461.6000 +Container Corp of Carolina   Garbage          Ch.2
+461.6500 +Standard Parts Inc.   Delivery Service        Ch.1
+461.8000 +Columbia Coca Cola            Route Service           Ch.1
+461.9500 +Lower Richland Police Club            Operations      Ch.1
+462.0375 +Univ. of South Carolina       Russell House Ops       Ch.5
+462.1000 +Allen University              Operations              Ch.1
+462.1125 +Columbia Mall         Operations              Ch.1
+462.1750 +Macy's Department Store       Security                Ch.1
+462.3000 +Michelin Tire Corp.   Plant Ops               Ch.1
+462.5500 +General Mobile Radio Service  REPEATER                Ch.1
+462.5750 +General Mobile Radio Service  REPEATER                Ch.2
+462.6000 +General Mobile Radio Service  REPEATER                Ch.3
+462.6250 +General Mobile Radio Service  REPEATER                Ch.4
+462.6500 +General Mobile Radio Service  REPEATER                Ch.5
+462.6750 +General Mobile Radio Service  REPEATER                Ch.6
+462.7000 +General Mobile Radio Service  REPEATER                Ch.7
+462.7250 +General Mobile Radio Service  REPEATER                Ch.8
+462.7750 +Neighborhood Ranger   Home Security           Ch.1
+462.8000 +Michelin Tire Corp.   Plant Ops               Ch.2
+462.8750 +Marriott Hotel- Columbia      Operations              Ch.1
+462.9250 +Allied Fibers Inc.            Security                Ch.2
+463.3250 +Star Cablevision              Service Crews           Ch.1
+463.3750 +Communications Specialists Inc.  (Motorola Service)
+463.4000 Atlantic Pepsi & Soft Drink            Operations      Ch.1
+463.6250 +Wells Fargo Armored Car       Operations              Ch.1
+463.7500 +Richland County School District # 2                   Ch.1
+463.8250 +Total Comfort Heating & Air   Service Crews   Ch.1
+464.0000 +Cablevision of Columbia       Service Crews           Ch.2
+464.1750 +Stonehedge Construction       Operations              Ch.1
+464.3250 +Dreher High School            School Operations       Ch.1
+464.3750 +Holiday Inn City Center - Columbia                    Ch.1
+464.4000 +Williams Tower Service        Tall Tower Erection     Ch.1
+464.4250 +Holiday Inn Northeast -Columbia                       Ch.1
+464.4750 +S.C. State Fair Association   Operations      Ch.1
+464.5000 +Itinerant                             Low Power H/T   
+464.5500 +Itinerant                             Low Power H/T
+464.7250 +Marriott Hotel - Columbia     Security                Ch.2
+464.7750 +Hampton Inn Hotel West Columbia       Operations      Ch.1
+464.8750 +A.C. Flora High School        School Operations       Ch.1
+464.9250 +Columbia High School  School Operations               Ch.1
+464.9750 +Belk's Department Store       All Columbia Stores     Ch.1
+465.3000 +Columbia Police Dept. Surveillence            Ch.6
+505.7620 +W.LT.X.                       Channel 19 Audio
+851.1125 +S.C.E.G.              Operations                      Ch.1
+851.1375 +S.C.E.G.              Operations                      Ch.2
+851.1625 +S.C.E.G.              Operations                      Ch.3
+851.1875 +S.C.E.G.              Operations                      Ch.4
+851.2875 +S.C.E.G.              Operations                      Ch.5
+855.8375 +I.B.M.  Research & Development                        Ch.1
+857.8625 +Federal Express Parcel Delivery       Dispatch        Ch.1
+861.2125 +Motorola Trunked Business System                      Ch.1
+861.4625 +Motorola Trunked Business System                      Ch.1
+861.4875 +Motorola Trunked Business System                      Ch.1
+861.9375 +Motorola Trunked Business System                      Ch.1
+861.9625 +Motorola Trunked Business System                      Ch.1
+861.9875 +Motorola Trunked Business System                      Ch.1
+862.2125 +Motorola Trunked Business System                      Ch.2
+862.4625 +Motorola Trunked Business System                      Ch.2
+862.4875 +Motorola Trunked Business System                      Ch.2
+862.9375 +Motorola Trunked Business System                      Ch.2
+862.9625 +Motorola Trunked Business System                      Ch.2
+862.9875 +Motorola Trunked Business System                      Ch.2
+863.2125 +Motorola Trunked Business System                      Ch.3
+863.4625 +Motorola Trunked Business System                      Ch.3
+863.4875 +Motorola Trunked Business System                      Ch.3
+863.9375 +Motorola Trunked Business System                      Ch.3
+863.9625 +Motorola Trunked Business System                      Ch.3
+863.9875 +Motorola Trunked Business System                      Ch.3
+864.2125 +Motorola Trunked Business System                      Ch.4
+864.4625 +Motorola Trunked Business System                      Ch.4
+864.4875 +Motorola Trunked Business System                      Ch.4
+864.9375 +Motorola Trunked Business System                      Ch.4
+864.9625 +Motorola Trunked Business System                      Ch.4
+864.9875 +Motorola Trunked Business System                      Ch.4
+865.2125 +Motorola Trunked Business System                      Ch.5
+865.4625 +Motorola Trunked Business System                      Ch.5
+865.4875 +Motorola Trunked Business System                      Ch.5
+865.9375 +Motorola Trunked Business System                      Ch.5
+865.9625 +Motorola Trunked Business System                      Ch.5
+865.9875 +Motorola Trunked Business System                      Ch.5
+

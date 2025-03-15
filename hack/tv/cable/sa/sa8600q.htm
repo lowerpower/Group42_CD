@@ -1,0 +1,56 @@
+<html>
+<head><title>Group 42 Sells Out [SA8600 Stamp Fix]</title></head>
+<body background="cable1.gif">
+
+<center>
+
+<img alt="Group 42 Sells Out!" src="../g42slogo.gif">
+
+</center>
+
+<hr size=5 noshade>
+<center>
+<h2>SA8600 Stamp Test Chip</h2>
+by G-Man of Group 42
+<p>
+</center>
+The SA8600 Stamp Fix is a solid fix for the SA8600.  The
+<a href="8600s.obj">code</a> is burned onto a PIC16c54.
+<p>
+You wire up the pic with a RC OSc useing a 100pf cap and a 5K resistor.
+<pre>
+
+          PIC           SA Serial EE    (93*66 Equiv)
+       ------------     ------------
+       Pin 10 (RB4) --> Pin 01 Chip Select
+       Pin 11 (RB5) --> Pin 02 Clock
+       Pin 12 (RB6) --> Pin 03 Data In
+       Pin 13 (RB7) --> Pin 04 Data Out
+                           ORG=VCC
+and
+          PIC            SA 40 PIN 
+       ------------     ------------
+       Pin 18 (RA1) --> Pin 01 reset
+       Pin 01 (RA2) --> Pin 37 remote data in
+
+       Pin 04 (MCLR)--> Pin 40 +5v
+       Pin 14 (VDD) --> Pin 40 +5v
+       Pin 05 (VSS) --> Pin 20 GND
+</pre>
+Cut and lift PIN 22 of 40 PIN chip. Put a 470 ohm resistor between
+PIN 22 of 40 PIN chip and the CS (PIN 1) of the 8 pin EEPROM.
+This isolates two DIRECT CS output lines.
+<p>
+Solder the PICS RB4 to the EEPROM PIN 1 directly.
+All other connections you may find them where ever on the connector
+or directly to the EEPROM.
+<p>
+Pressing the <i>BUY</i> button will activate the descrambling.  If
+unit stops working press the <i>BUY</i> button again -or- unplug
+unit for 15 seconds and plug back in to reset the unit.
+<hr size=5 noshade>
+
+
+</html>
+ 
+

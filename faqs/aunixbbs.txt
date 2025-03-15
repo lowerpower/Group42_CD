@@ -1,0 +1,1115 @@
+Archive-name: unix-faq/bbs-software/faq
+Version: 1.4
+Last-modified: 1995/05/07
+
+This is the UNIX (TM) compatible BBS Frequently Asked Questions Answers.
+It is posted approximately monthly.
+
+The FAQ is in Message Digest Format, so that various newsreaders can
+automagically decompose it into its component parts.  These are the
+parts of the digest.
+
+1. What is a BBS?
+2. What is UNIX?
+3. What is Usenet?
+4. What BBS Software is covered?
+5. Acknowledgements
+6 - N.  The packages
+
+These listings are provided for informational purposes only.  I am not
+making recommendations (con or pro) here, simply telling what I know
+about each package that I have information for.  You are encouraged to
+evaluate each package for yourself to see if it matches your needs.
+                                Gregory G. "Wolfe" Woodbury
+
+----------------------------------------------------------------------
+
+From: news@wolves.durham.nc.us (G. Wolfe Woodbury)
+Subject: 1. What is a BBS?
+Date: Mon May  8 00:29:41 EDT 1995
+
+BBS is an acronym for Bulletin Board System.  This is software that allows
+a computer to be used as a message posting and reading system that has
+some similarities to a bulletin board you might find in an office
+or in a grocery store.  Users of the system can post messages and read
+messages posted by others.  Many computer BBSes also allow the users to
+send private messages to other users, andor to "download" files that are
+stored on the computer.  Some BBSes also allow users to run other
+programs (such as games) in addition to the BBS program.
+
+Some BBS programs allow the individual BBS systems to share messages by
+using a communications medium to exchange the messages via a standard
+protocol which the BBSes understand.  Such systems are "networked"
+BBSes.  There are several BBS Networks around the world. Among them are
+FIDOnet, WWIVnet, RIMEnet, VNET and Usenet.
+
+Some of the commercial computer service providers (e.g. CompuServe,
+Prodigy, America OnLine, etc.) provide BBS systems as part of their
+regular services.
+
+Care should be taken to distinguish between the "public" messages of a
+BBS system and "private" Electronic Mail message services that may be
+provided by a computer service.
+
+------------------------------
+
+From: news@wolves.durham.nc.us (G. Wolfe Woodbury)
+Subject: 2. What is UNIX?
+Date: Mon May  8 00:30:14 EDT 1995
+
+UNIX is a trademark of ??? Inc. (*) for its brand of
+multi-user, multi-tasking operating system software.  UNIX was developed
+at AT&T Bell Laboratories in the late 1960's and has become the most
+portable operating system ever developed.  This portability means that
+UNIX (or Unix-like) operating systems can run on nearly any computer
+that has been developed since 1975.  Unix-like operating systems run on
+computers from the Intel 8086 through the gamut to computers like the
+Cray X-MP and the Connection Machine 5.  Programs written for one 
+Unix-like system can be moved (fairly easily, if written with portability 
+in mind) from one Unix system to another with some minor editing and 
+re-compiling of the source code on the new machine.
+
+The history of Unix-like operating systems is quite complicated, and
+there are several versions of Unix-like operating systems in existence.
+The two major divisions of these are AT&T UNIX systems, and BSD Unix
+systems.  There are lots of others, but these two versions cover most of
+the territory in terms of portability issues.  Truly portable Unix
+software packages can examine the software environment and automatically
+configure themselves when the user compiles the package.
+
+Unix operating systems are flexible and portable for many reasons, and a
+detailed examination of that issue is not relevant here.  For more
+information see the Unix-FAQ posted regularly to comp.unix.questions.
+
+(*) At last sighting, the holder was Open Systems Foundation or someone
+like that.  Be sure that it is still held by someone!
+
+Just who *is* the actual holder of the TradeMark on UNIX is
+something that can change with bewildering rapidity.  At various times
+it has been the "offical" property of: AT&T, Bell Laboratories, Western
+Electric and other groups.  These names, of course, are also registered 
+TradeMarks of their respective owners. :-)
+
+------------------------------
+
+From: news@wolves.durham.nc.us (G. Wolfe Woodbury)
+Date: Tue Dec 14 00:54:16 EST 1993
+Subject: 3. What is Usenet?
+
+Usenet is a network message sharing system that exchanges messages in a
+standard format.  Messages are arranged into topical categories called
+newsgroups.  Newsgroups can be thought of as analogous to the channels
+in broadcast television.  The messages contain plain text information 
+(which may include encoded binary information) and a series of headers 
+that define who the message came from, when the message was posted, 
+where it was posted, where it has passed, and other administrative 
+information.
+
+Usenet/Netnews is a dual entity.  On one level is it merely the messages
+being passed from machine to machine using known protocols. On another
+level is it the people (the readers and posters of the messages) who
+interact with the computers.  Care should be taken to not get too
+confused when people talk about "Usenet is...." because of this duality.
+Usenet should not be mistaken for any underlying transport mechanisms that 
+provide other services in addition to the transfer of the messages.  
+That is, Usenet is not UUCP, Usenet is not a particular network or set 
+of networks (e.g. the Internet).
+
+One should also be careful to not confuse Usenet with any particular
+group of users.  That is, Usenet is *not* an american network, Usenet is
+not a network of computer scientists, and Usenet is not a network of
+system administrators.  It is a complete cross-section of all the sorts
+of folks who use computers either for work or play.  English *is* the
+common language of Usenet, but there is no guarantee that the users
+*know* english particularly well. :-)
+
+By one popular definition, Usenet is the newsgroups in the major
+categories of comp, misc, news, rec, sci, soc, and talk.  There are a
+number of other major "hierarchies" which may be worldwide (alt, bionet,
+vmsnet),  regional (usa, can, triangle), or even organizational
+(duke, ut, sun).  These message hierarchies use the NetNews protocols,
+and are colloquially called "Usenet", but purists can (and do) argue for 
+days about the distinctions.  I tend to use the term "NetNews" to refer 
+to the whole suite of programs and all the newsgroups in conglomeration.
+
+There is not enough room here to fully discuss the ins and outs of
+NetNews.  There are several NetNews groups that are dedicated to
+discussion of NetNews itself.  (news.* and alt.culture.usenet are
+examples, the `*' refers to any newsgroup that begins its name with a
+string of "news.")
+
+There are additional regular FAQ (frequently asked questions) postings
+in the newsgroup "news.announce.newusers" and the newsgroup "news.answers" 
+that provide much more information about this topic.
+
+------------------------------
+
+From: news@wolves.durham.nc.us
+Date: Sat Jan 15 19:26:36 EST 1994
+Subject: 4. What software is covered here?
+
+The following packages are covered in this FAQ.
+
+        AKCS
+        bbs_bk
+        brand-x
+        Caucus
+        Citadel/UX
+        Commune/IX
+        EBBS (Eagle's Nest)
+        GDXBBS
+        ix/MBox
+        Magpie
+        MBS
+        QueBBS
+        pbbs (Pink BBS)
+        PBBS (Pirate BBS)
+        TEAMate
+        TERM
+        UBBS (Ultimate)
+        Unidel
+        UniBoard (UnixBBS)
+        VA.PEN
+        Waffle
+        WhatBBS (a perl BBS)
+        XBBS
+        Z/Max Xchange
+        yabbs
+
+Known, but not covered (yet?):
+        (Anyone with information is invited to send email!)
+
+        CIX/CoSy
+        drealm
+        EIES
+        Freeport
+        ISCABBS
+        Mordor (ritz@mordor.com)
+        Participate
+        PicoSpan
+        SBBS (Sigma BBS)
+        Sentience
+        TurBoard (Linux port in progress?)
+
+Obsolete, covered
+
+        PNN (Princeton News Network)
+
+Minimal/Nil/No Coverage (by request)
+
+        Chris Petrelli's groupware project (by request)
+        COCONET
+        Pnet (no coverage at request of B.Blue)
+        UnAccess (request by Brandon Alberry, the author)
+
+
+To locate the packages listed above in the articles below, search for the
+short name listed in the Subject: headers.
+
+In the articles below, summary files for some of the received/collected
+information are available for anonymous uucp from wolves.durham.nc.us.
+The file name for the info file is in the Info-file: subheader.
+Wolves.durham.nc.us is located at +1 919-493-7111 (v.32bis/v.42bis/HST)
+        login: uanon  (no password)
+Also listed are the FTP sites and filenames for known or suspected
+copies of the packages.   Space and line-speed limitations prohibit
+the distribution of the packages themselves from Wolves.
+
+Corrections and additions to this list are welcome: news@wolves.durham.nc.us
+
+------------------------------
+
+From: news@wolves.durham.nc.us
+Date: Mon May  8 00:36:35 EDT 1995
+Subject: 5. Acknowledgements
+
+This FAQ is the product of a lot of research and correspondence with
+lots of folks.  Here is a partial listing of the folks who were kind
+enough to send information and corrections to me for use in this FAQ.
+If I've left someone out, write to me :-)
+
+Lars Aronsson(!), Bob Baskerville(!), Bill Brown, Lisa Carlson, 
+Tom Dell(!), Karl Denninger(!), Aydin Edguer(*), Ken Germann, 
+Avrum Goodblat, Judy Hallman, David Holland, Bob Kirkpatrick(!), 
+Hilbert Levitz, Michael Lyons, Stephen Manes(!), Bob Peterson, 
+Chris Petrilli, Riccardo Pizzi(!), Todd Radel, Gene Saunders, 
+Greg Seminara, Jay Snyder(!), Chris Stanford, Bill Fenner(#),
+Jim Tremblay, Alex Wetmore(!), Sanford Zelkovitz(!), Nick Zimmerman(!)
+Thomas Mechtersheimer, Bill Schwartz, Brian Dear(!), Bill Blue(!),
+Jared Quinn(!)
+
+(!)     Authors of packages providing information
+(*)     Special Thanks to Aydin Edguer
+(#)     Bill is keeper of the Waffle FAQ(?)
+
+
+UNIX is a trademark of ??????, Inc.  Other names are
+also trademarks and service marks of their various owners.  Their use in
+this message is not intended to convey any ideas other than the use of
+the names for identification purposes.
+------------------------------
+
+From: news@wolves.durham.nc.us
+Date: Mon Sep 28 23:00:00 EDT 1992
+Subject: AKCS
+Info-file: wolves!/news/Archives/UnixBBS/akcs
+
+AKCS    Version 7       commercial product      source available
+                                                Usenet compatibility
+
+    contact:    karl@ddsw1.mcs.com
+                Karl Denninger
+                3217 N. Sheffield
+                Chicago, IL  60657
+                +1 312 269 9058 (voice)
+
+    demo:       300-2400 bps modem line
+                +1 312 248 0900
+
+"AKCS is a threaded BBS/conferencing package with extraordinary versatility,
+ ease of use, performance and support."   -- Karl Denninger
+
+ Supplied in binary form for SINGLE CPU, AKCS is licensed for a fee based
+ on the cpu type.  Prices range from $500 to $1500, with a yearly
+ support fee of $100 - $250.  NFS support is $1000.  Source is $5000.00.
+ Custom porting is available for time and materials.
+
+ Fully configurable, threaded messages, termcap/terminfo type support,
+ private mail, file attachments, upload/download, full screen editor
+ (custom), external programs, security system.  AKCS newsgroups
+ available to licensees.
+
+------------------------------
+
+From: news@wolves.durham.nc.us
+Date: Mon Sep 28 23:00:00 EDT 1992
+Subject: bbs_bk
+Source-file: /news/Archives/Sources/Misc/bbs_bk/part01.Z
+comp.sources.misc: volume 13 issue 1
+
+bbs_bk          bourne shell freeware           source available
+                                                Usenet via unix
+
+    contact:    Bob Kirkpatrick
+                root@dogear.spk.wa.us
+
+    demo:       none known
+
+bbs_bk is a shell system that provides the primitive functionality for a
+BBS on Unix. Unix commands available determine how much real
+functionality is available.  Usenet is available via calls to the
+newsreader of choice on the system.  Editors depend on sysop choice.
+Download protocols depend on what is available on the underlying system
+
+bbs_bk  is a skeleton bbs that should allow an experienced unix user to
+provide basic BBS functions in short order when a need arises.  A
+special "bbs" user login is needed to start up the bbs capability.
+
+------------------------------
+
+From: news@wolves.durham.nc.us
+Date: Tue Sep 29 22:00:00 EDT 1992
+Subject: brand-x
+
+brand-X         C source freeware               source included
+                                                Usenet via unix
+
+    contact:    Bob Kirkpatrick
+                root@dogear.spk.wa.us
+
+    demo:       none known
+
+Brand-X is a C language skeletal BBS similar in flavor to bbs_bk (no
+suprize).  The sysop needs to know C and Unix fairly well to turn this
+package into something more than a toy.  Like bbs_bk, a bbs user id is
+required and the program takes care of its own user names.
+
+------------------------------
+
+From: news@wolves.durham.nc.us
+Date: Tue Sep 29 23:00:00 EDT 1992
+Subject: Caucus
+Info-file: wolves!/news/Archives/UnixBBS/Caucus.info
+
+Caucus          commercial package              source not generally available
+                                                Usenet via message import
+
+    contact:    Camber-Roth
+                A Division of Aule-Tek, Inc.
+                1223 Peoples Ave
+                Troy, NY  12180
+                1 518 273 0983 (voice)
+                1 518 276 6380 (FAX)
+                info@aule-tek.com
+
+    demo:       CASTANet
+                1 518 273 1467 (300-2400)
+                1 518 273 1508 (v.32bis v.42bis)
+                login: caucus
+                NEWUSER
+                voice assistance: 1 518 273 0983
+
+Caucus is a large and robust commercial package.  It is supported on
+several hardware platforms and provides a complete networed BBS
+solution.  User customization is supported.  I actually got two
+responses to requests for Caucus, from Aule-Tek, the owners, and another
+company that sent me information via paper mail.  Despite being asked
+for pricing, no pricing information was sent.
+
+I do know that the City of Santa Monica (California) selected Caucus as
+its platform for its Public Information System.
+
+------------------------------
+
+Subject: Citadel
+Date: Sat Jan 15 19:36:41 EST 1994
+From: news@wolves.durham.nc.us (G. Wolfe Woodbury)
+
+Citadel                 various                 source generally available
+                                                some versions have news
+        
+        Citadel is a whole world unto itself.  Citadel code is/was
+widely available, and it has been ported to may different platforms and
+environments.  From PC-clones, to the Amiga, to Unix, they all tend to
+work the same way.
+
+        Citadel uses a slightly different organizing metaphor.  There
+are rooms which may contain messages, files and bulletins (in any
+combination.)  You move from room to room and read the messages or
+browse the file lists.  You can "forget" rooms to unsubscribe, and there
+can be multiple operators on a Citadel system (sub-ops.)
+
+        Finding Citadel is problematical, I've been singularly
+unsuccessful in several attempts (even using archie.)
+Quartz.rutgers.edu may be the best bet.
+
+        (Authors of specific Citadel [Unix based] packages are invited
+        to write and gain fame and fortune in this FAQ!)
+
+------------------------------
+
+Subject: COCONET
+Date: Mon May  8 00:37:39 EDT 1995
+From: info@coconut.com (Brian Dear)
+
+COCONET v3.3            Commercial                      source - call for info
+                                                        Usenet - call for info
+Contact:        Brian Dear
+                info@coconut.com
+                Coconut Computing Inc.
+                7946 Ivanhoe Ave  Suite 303
+                La Jolla   CA  92037
+                +1 619 456 2002 (voice)
+                +1 619 456 1905 (FAX)
+Demo System:    Call or email for info.
+
+Description: 
+        At the request of the Company, no further information is
+        available for this product from this source.
+
+(Note: COCONET, Coconut, and CocoTalk are registered trademarks or
+trademarks of Coconut Computing, Inc.)
+
+------------------------------
+
+Subject: Commune/IX
+Date: Sat Apr  3 00:25:03 EST 1993
+From: news@wolves.durham.nc.us
+
+Commune/IX for Linux    commercial              source available?
+                                                NetNews available
+        
+     contact:   Michael Quigley
+                stmq@vm.marist.edu
+                mfq@world.std.com
+
+     demo:      no
+
+        Michael is developing yet another DOS look-alike UNIX BBS for
+the Linux platform.  This implies source availability, but since it
+looks like he wants to make it a commercial product, it is more likely
+to be a binary (object code) distribution rather than source.  The
+project sounds ambitious, with replacements for the mailer, and
+additional modules for connecting to FIDO Technology Networks, in
+addition to all the usual BBS features.
+        Pricing and availability are not known.  MQ comments that it
+will be a "low cost" system, with per-module pricing.
+
+------------------------------
+
+
+From: news@wolves.durham.nc.us
+Date: Wed Aug 11 19:55:34 EDT 1993
+Subject: EBBS   Eagle's Nest BBS
+FTP-Site: bbs.augsburg.edu:/files/bbs_software/Eagles.BBS.2.0.tar.Z
+FTP-Site: athena.erc.msstate.edu:/pub/Eagles.BBS.2.0.tar.Z
+
+EBBS            Eagle's Nest BBS                source included
+                                                Usenet unknown
+
+    contact:    Raymond Rocker
+                rocker@rock.b11.ingr.com
+                Guy Vega
+                gtvega@seabass.st.usm.edu
+
+    demo:       Eagles Nest BBS
+                seabass.st.usm.edu
+                login: bbs  password: bbs
+        or
+                Auggie BBS
+                bbs.augsburg.edu
+                login: bbs         (no password)
+                (Wm. Schwartz - sysop)
+
+This is an Extension of the Mars Pirate BBS code to enhance
+functionality and provide some network access.  It now features an IRC
+(Internet Relay Chat) client mode so that users can participate in IRC
+if allowed.  Usenet may be supported via shell access, but I haven't
+tried the demo system or read the code that closely.  It is in current
+use, so it has some support and merit.
+
+Notes are given to me that EBBS runs in a "chroot" environment.  It has
+hooks for "doors" and chat.  Known systems in use: SunOS4.1.x,
+ESIX/SysV, AIX 3.2, Ultrix, Alpha OSF/1.
+
+------------------------------
+
+From: news@wolves.durham.nc.us
+Date: Sat Feb 06 23:00:00 EDT 1993
+Subject: GDXBBS
+Info-file: wolves!/news/Archives/UnixBBS/gdx.info
+FTP_site: plains.nodak.edu:/pub/alt/gdxbbs
+
+GDXBBS          freeware bbs            source included
+                                        Usenet is planned
+    contact:    Jay A Snyder
+                jay@gdx.uucp
+    demo:       GDX-BBS (home system for GDX)
+                +1 717-737-3249 (WorldBlazer/PEP/v.32bis/v.42bis/etc...)
+
+This seems to be a fairly complete BBS system that is well-integrated
+into Unix (except for Usenet News).   The system looks easy to configure
+and provides linkages to standard E-mail (via smail or deliver).
+
+Usenet can be provided via external functions (doors).
+
+------------------------------
+
+Subject: Magpie for Unix
+Date: Sat Jan 15 19:51:29 EST 1994
+From: news@wolves.durham.nc.us
+Info-file: wolves!/news/Archives/UnixBBS/magpie.info
+
+Magpie for Unix         Shareware/commercial    source available for $$
+                                                NetNews planned
+        
+     contact:   Steve Manes
+                manes@magpie.nucenet.edu
+
+     demo:      yes?
+                magpie.nycenet.edu?
+
+        Magpie has a good reputation, but its limited availability
+(binaries only for SCO COFF compatible systems) is a drawback. It
+supports lots of nice features that are easy to provide via Unix, and
+seems aimed at K-12 school systems that want a "real product" for use
+with some standard platform.
+        Installation is via special login account, and BBS users do not
+have standard "/etc/passwd" accounts.  No pricing was posted for Source
+code availability.
+
+        I got a posting from Steve Manes, and he points out that the COFF
+binaries are a "Shareware" version.  NetNews support (using NOV
+database) is planned for version 2.4 (no ETA), but version 2.3 has
+UUCP/internet mail available for BBS users.
+
+        Recently announced was a version for AIX on the IBM RT
+        platform.
+
+------------------------------
+
+From: news@wolves.durham.nc.us
+Date: Tue Dec 14 00:58:41 EST 1993
+Subject: ix/MBox
+comp.sources.misc: volume 29 and volume 31
+
+ix/MBox         System V Unix BBS               source included
+                                                Usenet is basis
+
+    contact:    Volker Schuermann
+                Volker.Schuermann@unnet.wupper.de
+
+MBox is an excellent product, marred only by the lack of decent
+documentation in a language other than german.  Its basic services are
+those provided by Unix, and Unix services are required to run the BBS.
+The current version is limited to System V r3.2 Intel platforms, but
+should not be too hard to transfer to other System V platforms.
+
+C-News (or B-News) and a mail package are needed.
+
+Volker announced a new version recently, and there is an MBox mailing
+list.
+
+------------------------------
+
+From: news@wolves.durham.nc.us
+Date: Tue Sep 29 23:30:00 EDT 1992
+Subject: MBS
+
+MBS             Unix C language BBS             source included
+                (In alpha test)                 Usenet planned
+
+    contact:    Willam Davidsen
+                davidsen@crd.ge.com
+
+MBS is a new Unix based BBS.  Reminiscent of Citadel (there are rooms)
+the implementation is totally new and interesting.  All the basic
+functionality for a networked BBS is there, but it's still in
+development.  Usenet will be via message importing/exporting programs
+now being developed.  (Development has slowed down for a while.)
+
+------------------------------
+
+From: news@wolves.durham.nc.us
+Date: Thu Oct  1 00:40:00 EDT 1992
+Subject: pbbs (Pink BBS)
+alt.sources: Mar 04 00:17:00 GMT 1992
+
+pbbs            "Pink" shell BBS                partial source
+                                                Usenet via unix cmds
+
+    contact:    unknown
+    posted:     izcer@sdf.lonestar.org
+
+Pink BBS is a bare bones shell (bourne) BBS that relies heavily on
+external programs for its functionality.  The notable missing piece in
+the alt.sources posting was the "mkacct" program which apparently
+collected the information and installed a new unix uid account
+interactively.  This is NOT a secure system.
+
+------------------------------
+
+From: news@wolves.durham.nc.us
+Date: Wed Aug 11 19:45:04 EDT 1993
+Subject: PBBS (Pirate BBS)
+FTP-Site: bbs.augsburg.edu:/files/bbs_software/Pirates.BBS.1.9.tar.Z
+
+PBBS            "Mars" Pirate Unix BBS          source included
+                                                Usenet not supported
+
+    contact:    unknown
+
+    demo:       none
+
+The "Hotel Mars" bbs at Mississippi State was a legend in its own time,
+mostly for the furor it created on the internet.  Part of this was due
+to the unfortunate choice of name for the software, and the activities
+of a similar nature that occurred at one time.  I thought I had a copy
+of this one, but it isn't on-line here, so I apologize for the short
+schrift it is getting.   It does provide a complete BBS solution in
+messages, files and upload/download.
+
+        Once again, the Mars BBS is down, and supposedly for good this
+time. (Boo)   The code lives on in EBBS and several others.
+There is a report of 2.0 code being used at: badboy.aue.com login: bbs
+
+------------------------------
+
+Subject: PNN - Princeton News Network
+Date: Mon May  8 00:41:26 EDT 1995
+From: news@wolves.durham.nc.us
+Info-file: wolves!/news/Archives/UnixBBS/PNN.info
+
+PNN Princeton News Network      Freeware?       source available
+                                                NetNews supported
+        
+     contact:   
+
+     demo:      no?
+
+(Word has it that PNN is no longer available - look to the VA.PEN
+software for a similar large scale system.)
+
+[From PNN intro]
+Princeton News Network was developed by the Advanced Technologies Department
+of Princeton University. Project leaders include Howard Jay Strauss, Tom True,
+Joe Studholme, and Steve Albin.
+
+------------------------------
+
+Subject: Pnet
+Date: Tue Dec 14 00:33:30 EST 1993
+From: news@wolves.durham.nc.us (G. Wolfe Woodbury)
+
+Pnet                    commercial              unknown
+                                                NetNews unknown
+        
+     contact:   Bill Blue
+                bblue@crash.cts.com
+
+        Bill Blue admits that there is a program that is "called Pnet by
+the uninitiated"  but he requests that the UnixBBS FAQ not provide any
+summary of the package.  Don't bother the gentleman, folks.
+
+------------------------------
+
+From: news@wolves.durham.nc.us
+Date: Thu Nov 25 14:07:48 EST 1993
+Subject: QueBBS
+
+QueBBS          Unix C language BBS             source included
+                                                Usenet via import/export
+    contact:    qbbs@milo.ndsu.nodak.edu
+                North Dakota State University
+                Student ACM - SIGBBS
+
+QueBBS was written for the North Dakota State University by members of
+the Studen ACM chapter there.  It is a complete BBS service, with
+messages, files and private mail.  Usenet support is via special
+programs that import and export articles to/from the BBS and the news
+system on the computer.  Upload/download protocols depend on what is
+available, and are configurable.  Online help is available, menus are
+hard coded.
+
+There is a little confusion about whether the NoDak bbs is the same as
+the "quebbs" that is listed as available for Coherent.  Here is the
+results of an Archie search for quebbs.
+
+Results of Archie search at archie.sura.net:
+Search request for 'quebbs'
+Host nctuccca.edu.tw   (140.111.1.10 or 192.83.166.10)
+
+    Location: /Operating-Systems/Coherent/sources
+      DIRECTORY rwxr-xr-x       512  Apr  6  1993   quebbs
+    Location: /Operating-Systems/Coherent/mwcbbs
+      DIRECTORY rwxr-xr-x       512  Apr  6  1993   quebbs
+    Location: /Operating-Systems/Coherent/mwcbbs/quebbs
+      FILE      r--r--r--    302804  Sep 16  1992   quebbs.tar.Z
+    Location: /Operating-Systems/Coherent/sources/quebbs
+      FILE      r--r--r--      2761  Aug 15  1991   quebbs.patch.2.Z
+      FILE      r--r--r--     30639  Aug 12  1991   quebbs.patches.Z
+
+------------------------------
+
+From: news@wolves.durham.nc.us
+Date: Thu Nov 11 01:25:35 EST 1993
+Subject: TEAMate
+
+TEAMate         Commercial UNIX BBS             source NOT available
+                                                Usenet by import/export
+    contact:    bob%teamate@uunet.uu.net
+                Bob Baskerville
+                MMB Development Corp
+                904 Manhattan Ave
+                Manhattan Beach, CA 90266
+                1 310 318 1322
+
+    demo:       supernet.ans.net (147.225.1.51) [telnet]
+                1 310 318 8437 (8N1 vt100 1200-9600)
+                1 310 318 5302
+                login: public
+
+MMB is agressively pushing TEAMate as the "premier" Unix based BBS
+system in the country.  My inquiries netted me two copies of PR
+materials and several phone calls about the product.  The package looks 
+complete, with a full-fledged conferencing system, file support, and 
+full configuration management.  There is a (MSDOS) client program for 
+it called TEAMterm, that they say is freely distributable, but I 
+don't know where there is a copy on the net.  I had some problems with 
+the manual, which was obviously written by/for someone with absolutely 
+no knowledge of the Unix underpinnings.  The system is full screen, 
+form oriented, and uses the Unix termcap/terminfo libraries.
+
+Prices are steep(*), a single cpu intel license starts at $2000, and the
+full package starts at $5500.  More users bring the cost up rapidly,
+with an "unlimited users" full package totalling $63,000.  (Price list,
+july 1, 1992)  Systems supported include: Intel, Sun, HP-UX, DEC (RISC),
+IBM RS/6000, ATT 3b2, Sequent, DG, Silicon Graphics, and Tandem (UNIX).
+[Sequent 4+ cpu starts at 15,000, full: 40,200.  Most systems are going
+to be 4000-7500/12,800-21,900.] 
+
+* - recent mail from TEAMate folk say that a new lower cost (8-line)
+entry-level version is available starting around $2000.00.
+Additionally, they report new educational pricing and discounts.
+
+A GUI client/server version is planned for showing in August 1993.
+
+User support is friendly and knowledgable, I called to clarify the
+ability to include Usenet messages.  It would take a programmer a bit of
+time to do it, but it seems easy enough.
+
+------------------------------
+
+Subject: TERM from Century Software
+Date: Wed Aug 11 19:56:42 EDT 1993
+From: news@wolves.durham.nc.us (via Dave Nause)
+
+TERM                    commercial              source $$$$
+                                                Usenet possible?
+        
+     contact:   Century Software
+                (no email)
+                5284 South 320 West
+                Suite C-124
+                Salt Lake City UT  84107
+                801-268-3088
+
+     demo:      unknown
+
+
+        TERM is a commercial terminal emulation package for UNIX and DOS
+that supports file transfers and script driven interfaces.  According to
+a brief conversation with one of their folks after hours (good service!)
+the system *could* be used to create a BBS system.   FTP support is
+available in the package, and more literature is being sent to me for
+review.
+
+------------------------------
+
+Subject: UBBS
+Date: Sat Apr  3 00:13:49 EST 1993
+From: news@wolves.durham.nc.us
+
+UBBS (Ultimate)         free (?)                source available?
+                                                NetNews available (not yet)
+        
+     contact:   Jean-Francois Gagnon
+                jf@ichlibx.login.qc.ca
+                +1 514 253 8649 (BBS)
+
+     demo:      yes
+                +1 514 253 8649
+                +1 514 253 2753
+
+        This is a "clone" of Remote Access for Unix, written by JF for
+his public access Unix system in Quebec.  It has an email bridge, and he
+plans support for Usenet messages.  Write to JF for more information.
+
+------------------------------
+
+
+From: news@wolves.durham.nc.us
+Date: Thu Nov 11 01:20:41 EST 1993
+Subject: UniBoard (UnixBBS)
+FTP-site: wariat.org:/pub/uniboard/sysv/UNIB*[ABC].tar.Z
+FTP-site: wariat.org:/pub/uniboard/linux/UNIB*[LC].tar.Z
+
+UniBoard        Commercial Unix BBS             Source NOT available
+                                                Usenet is supported
+                                                binaries for Intel CPUs
+
+        contact:    Riccardo Pizzi
+                    pizzi@nervous.com
+                    Rimini, Italy
+
+        demo:       <several>
+                    +39-541-27135  (bbs.nervous.com in Italy) HST/PEP/V.32bis
+                    +1 216-481-1960 (wariat.org) [USA Dist. Site]
+                    +7 351 265 3601 (rich.chel.su!) (Chelyabinsk Russia?)
+                    see alt.bbs.unixbbs.uniboard
+
+UniBoard is a decent Unix BBS according to most reports.
+Price is reasonable, an 8-user license costing about $70 (US).   
+Full functions include Usenet news, email, files and online 
+chat/conferences.  Usenet and mail require the use of the underlying 
+Unix systems (C-news recommended.)  Security seems good,
+customization seems good.  Support for other networks (e.g. FIDO) is
+promised in the future.  ANSI character graphics support, color support.
+Support for multiple editors, etc.
+
+Latest information is available from Riccardo's mail server.  Mail to
+uniboard@nervous.com with "SEND LIST" in the message body.
+
+Linux is supported as of version 1.12.
+
+Note:
+        Downloading the files listed in the FTP site lines are not
+sufficient to run UniBoard.  You must still contact the folks listed in
+the documentation to obtain a "key" to make the BBS run.
+
+------------------------------
+
+From: unidel@bitsko.slc.ut.us (Unidel Administrator)
+Date: Mon Jul 12 13:20:43 EDT 1993
+Newsgroups: alt.sources
+Subject: Unidel, a UNIX/UseNet BBS and news/mail reader, part 1 of 7
+Keywords: Citadel, BBS, UseNet, mail, needs work
+Original-Date: 17 Nov 91 23:27:54 GMT
+Organization: Bitsko's Bar & Grill, Public Access, Salt Lake City, Utah, USA
+
+Unidel          Unix Citadel-like BBS                   Source included
+
+[I'm simply including the front end of the release notice from its
+posting to alt.sources last year. - gww]
+
+Submitted-by: unidel@bitsko.slc.ut.us
+Archive-name: Unidel/part01
+
+If I keep saying I'll wait until I get this cleaner before I post it,
+it may never get posted.  And prompted by yet another thread of "Where
+can I get a UNIX BBS with UseNet news?" I figured more fuel for the
+fires can't hurt :-).  What we have is this:
+
+     * UseNet news reader
+     * UseNet/UNIX/Internet mail reader (w/multiple mail areas)
+     * Looks like a Citadel room-based BBS system
+     * Secure shell (controlled access to external programs, uses rsh)
+     * External editors, file-transfer, chat/talk, CB
+     * Newsgroup and file permissions (r, r/w, hidden and invite-only)
+     * Freely-redistributable
+     * Has compiled once or twice each on SVR2 (Microport), SVR3,
+       SunOS 4.1 and UHC SVR4
+     * Can be used with CNews, BNews, SMail, Deliver, talk, rz/sz,
+       kermit, vi, emacs and more
+     * still contains a few, uh, unnecessary, uh, features  yea that's it.
+
+
+  You can play with it and download the source from Bitsko's Bar &
+Grill BBS, +1 801 566 6283 (Telebit), login 'guest', type RETURN for
+password.  Source and discussion is in the Unidel room.
+
+  Questions can be directed to unidel@bitsko.slc.ut.us
+
+Results of Archie search at archie.sura.net:
+
+Search request for 'unidel'
+Host athene.uni-paderborn.de   (131.234.2.32)
+Last updated 16:54 25 Jun 1993
+
+    Location: /unix/network/tools
+      FILE      rw-r--r--    117883  Mar 26  1992   unidel.tar.Z
+
+Host keos.helsinki.fi   (128.214.4.83)
+Last updated 23:29 29 Jun 1993
+
+    Location: /pub/archives/alt.sources
+      DIRECTORY rwxrwxr-x       512  May  3  1992   unidel-1.0
+
+Host nuri.inria.fr   (128.93.1.26)
+Last updated 01:57 14 May 1993
+
+    Location: /misc
+      FILE      rw-rw-r--    153656  May  4  1992   unidel-1.0.tar.Z
+      FILE      rw-rw-r--    124801  Nov 18  1991   unidel.tar.Z
+
+Host relay.iunet.it   (192.106.1.2)
+Last updated 03:33 14 May 1993
+
+    Location: /disk0/unix/bbs
+      FILE      rwxrwxr-x    127147  Dec 31 19:15   unidel.tar.Z
+
+Host sun0.urz.uni-heidelberg.de   (129.206.100.126)
+Last updated 02:34 11 Jun 1993
+
+    Location: /pub/net/unix
+      FILE      rw-rw-r--    117883  Nov 18  1991   unidel.tar.Z
+    Location: /pub/unix/network
+      FILE      rw-rw-r--    117883  Nov 18  1991   unidel.tar.Z
+
+------------------------------
+
+Subject: VA-PEN
+Date: Feb 24 23:30:00 EST 1993
+From: news@wolves.durham.nc.us
+Info-file: wolves!/news/Archives/UnixBBS/VA.PEN.info
+FTP_site:  ftp.virginia.edu:oub/VA.PEN
+
+VA-PEN                  freeware                source included
+                                                NetNews available
+        
+     contact:   Tim Sigmon
+                tms@holmes.acc.virginia.edu
+                Academic Computing Center
+                Gilmer Hall
+                University of Virginia
+                Charlottesville  VA  22903
+
+     demo:      none officially
+
+VA-PEN (Virginia Public Education Network) is a message system developed
+at UVa for the state's K-12 computer program.  It is based around C-news
+as the underlying conferencing mechanism, and support configurable
+menus, various upload/download protocols, and extensive on-line
+documentation.  The software (with modifications) is used on the
+Tallahasee Florida FreeNet machine.
+
+(I remember Tim Sigmon as a Duke Grad Student in the early days of
+Usenet. :-)
+
+------------------------------
+
+From: news@wolves.durham.nc.us
+Date: Feb 23 02:00:00 EST 1993
+Subject: Waffle
+Info-file: wolves!/news/Archives/UnixBBS/Waffle.FAQ
+FTP-site: halcyon.com[192.135.191.2]:~/pub/waffle/waf165.zip (Dos version)
+
+Waffle          Low Cost Unix BBS               Source Included (Unix only)
+                                                Usenet support via OS
+
+    contact:    Tom Dell
+                vox@darkside.com
+
+    Demo site:  halcyon.com
+
+Waffle is one of the premier Usenet BBSs for DOS, but there is
+relatively little activity about Waffle/Unix on the newsgroup.
+Waffle has a whole Usenet News newsgroup (comp.bbs.waffle) for
+discussion about it, and there is an excellent FAQ that is posted there
+periodically by Bill Fenner.   The author of Waffle is Tom Dell.
+Unix Waffle requires the presence of C-news or other native Unix-like OS
+NetNews support software.
+
+------------------------------
+
+Subject: WhatBBS
+Date: Tue Dec 14 00:28:47 EST 1993
+From: news@wolves.durham.nc.us (G. Wolfe Woodbury)
+
+WhatBBS                 free?                   source provided
+                                                NetNews unknown
+        
+     contact:   Jared Quinn
+                jarqui@scorch.apana.org.au
+
+     demo:      unknown
+
+        Jared Quinn posted some information about a Perl BBS to alt.bbs
+some time ago, and I haven't heard anything else about it for a while.
+
+------------------------------
+
+Subject: XBBS
+Date: Feb 23 23:10:00 EST 1993
+From: news@wolves.durham.nc.us
+comp.sources.misc: Volume 32 Issue 16  xbbs/partNN
+
+XBBS v7.?               Freeware                source included
+                                                NetNews via external
+                                                    commands (doors)
+        
+     contact:   Sanford Zelkovitz
+
+     demo:      
+
+                Contact info out of date - seeking more up-to-date info
+
+        XBBS is a decent BBS system for System V'ish systems.  The code
+is rather monolithic, and the menus are embedded in the code.  The
+system has similarities to the WWIV BBS in style.   Configuration is via
+static files that are position dependent.  Limited access groups are
+available, multilevel security is supported.  Access to NetNews is via
+shell escape(!) and might be insecure.  I've got XBBS running here at
+the Wolves Den (actually it is now the ISIS BBS :-)  with a fair number
+of modifications in place.   XBBS's user base is handled seperately from
+the Unixen /etc/passwd file, and runs as a "startup shell" from a "bbs"
+login.
+        The provided configurations allow for 99 message areas, 99 file
+areas, 99 "special interest groups", and individual messages are limited
+to 99 lines each.  There is no message import or export function.  The
+builtin text editor is all that is available.  Some of the support
+programs will require heavy modification if you change the directory
+structure of your layout from the "standard."   The "sysop" shell
+support command needs some work too.
+
+        Download/upload protocols are limited to Xmodem, Y modem, Z
+modem and kermit, and requires the installation of the RZ/SZ package
+from the net, and Unix Kermit.  XBBS can be brought up quickly and
+fairly easily if you can match the "standard layout" that Sandy
+recommends.
+
+------------------------------
+
+Subject: Z/Max XChange
+Date: Fri Apr  2 23:11:20 EST 1993
+From: news@wolves.durham.nc.us
+
+Z/Max XChange v3.2      commercial              source NOT available(?)
+                                                NetNews available
+        
+     contact:   Z/Max Computer Solutions
+                sales@zmax.com
+                8287 Loop Road, Radisson Woods Office Park
+                Baldwinsville, NY  13027
+                +1 315 635 1882 (voice)
+                +1 315 635 1908 (FAX)
+
+     demo:      yes
+                Z/Max Online Demo System
+                +1 315 635 1950 (2400)
+                +1 315 635 1947 (USR 9600 ?v.32)
+                Parameters: 8-N-1  Terminal emulation: vt100
+                login: zmax
+                Password: xchange
+                        Fill in new users screen
+                        call back in 24 hours :-(
+
+Z/Max has a very full featured Unix BBS here.  The package seems cleaner
+and more "professional" than TEAMate, and the price is also a bit more
+reasonable, even if the hardware supported is less extensive.
+Features: BBS, News (Usenet import supported), Files (upload/download -
+standard protocols plus external protocols), "doors", menu interface,
+graphical (character graphics) interface, on-line conferences, Email
+(internet access), multi-level (per-function) access security, custom
+editor (? vi or emacs access?), and full logging.
+Terminal support is flexible, and the system uses "curses" for its
+character graphics interface.
+Hardware: 80[34]86 Unix boxes (SCO, Interactive, AT&T, SVr4), 88000 BCS, 
+NCR, SEQUENT, Sun, IBM RS6000, HPUX, Dec Ultrix (4.2), AT&T 3B2.
+
+Typical Prices: (# of users)  (1-4) 695.00  (16) 1495 (32) 2495 (>32) 3995
+  30-day evaluation: 75.00   (+$25 for tape distribution)
+  prices effecive 3/1/93 - subject to change w/o notice (etc....)
+  Documents: 34.95, quick ref card - 2.95
+  1-year support/upgrades included, additional years - $400/year
+  There is a license upgrade cost schedule as well.
+There is a Dos overview/demo disk available.  (Bragware)
+
+There are a few Internet sites that use XChange as their interface for
+information management.  I haven't played with a Z/Max system yet, this
+is written from their poop sheets.
+
+------------------------------
+
+Subject: yabbs - Yet Another (UNIX) BBS
+Date: Wed Jun  9 22:44:12 EDT 1993
+From: aw2t+@andrew.cmu.edu (Alex R.N. Wetmore)
+Info-file: wolves!/news/Archives/UnixBBS/yabbs.info
+FTP_site:  phred.pc.cc.cmu.edu:/pub/yabbs/*
+FTP_site:  uglymouse.css.itd.umich.edu:?
+
+YABBS                   free                    source available
+                                                NetNews NOT available
+        
+     contact:   Alex R.N. Wetmore
+                aw2t+@andrew.cmu.edu
+
+     demo:      yes
+                telnet to phred.pc.cc.cmu.edu port = 8888. 
+                (note: down during summer 1993)
+
+I have recently put up a new version of the Yabbs (yet another bbs)
+software package on my machine (phred.pc.cc.cmu.edu).  This is a small,
+highly portable bbs package for unix that supports:
+  * up to 26 public message bases (plus one private area)
+  * multiuser talk
+  * g-files support (to put text files online, good for mirroring ftp
+    servers)
+  * up to 3 external editors and one external pager (I include keybinding
+    files for less and joe, and have source for a version of elvis with
+    some commands removed).
+  * has a menued structure (as opposed to command line structure of waffle)
+
+So far it has been proven to be very portable across unix variants. 
+Comes with full source (all pretty well commented) so changing it around
+isn't too hard.
+
+Current platform is 386bsd, portability may be affected by this.
+
+If you want to see a copy in action telnet to phred.pc.cc.cmu.edu 8888. 
+You can ftp the source from the same machine in /pub/yabbs.
+alex
+(uglymouse.css.itd.umich.edu also has sources.)
+
+------------------------------
+

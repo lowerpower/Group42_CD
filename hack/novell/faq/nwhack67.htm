@@ -1,0 +1,332 @@
+<HTML>
+
+<HEAD>
+
+<TITLE>Hacking Netware - API's & for Admins Only</TITLE>
+
+<META NAME="AUTHOR" CONTENT="Al Payne">
+</HEAD>
+
+<BODY>
+
+<H4>Section 06 - Netware APIs</H4>
+
+<P>
+<A HREF="#section_06_1">06-1. Where can I get the Netware APIs?</A>
+
+<P>
+<A HREF="#section_06_2">06-2. Are there alternatives to Netware's APIs?</A>
+
+<H4>Section 07 - For Administrators Only</H4>
+
+<P>
+<A HREF="#section_07_1">07-1. How do I secure my server?</A>
+<P>
+<A HREF="#section_07_2">07-2. I'm an idiot. Exactly how do hackers get in?</A>
+<HR>
+
+<P>
+Section 06
+<H1>Netware APIs</H1>
+
+<H3><A NAME="section_06_1"></A>06-1. Where can I get the Netware
+APIs?</H3>
+
+<P>
+Stateside call 1-800-RED-WORD, it's $50 USD, and includes a 2-user
+license of Netware 4.1. Most brand-name compilers will work, but
+if you're writing NLMs you'll need Watcom's latest. It's the only
+one I know of that will do NLM linking.<HR>
+<P>
+
+<H3><A NAME="section_06_2"></A>06-2. Are there alternatives to Netware's APIs?</H3>
+
+There are two that I am aware of.  Here is info on them -<P>
+
+Visual ManageWare by HiTecSoft (602) 970-1025<P>
+
+This product allows development of NLMs and DOS EXEs using a Visual Basic
+type development environment. Runtime royalty-free development without
+C/C++ and without Watcom. However links are included for C/C++ programs.
+The full SDK including compilers is USD$895.00. Pricey but looks good, I
+have not used this product.<P>
+
+Here is Teiwaz' edited report on the other -<P>
+
+Here is another source for 'c' libs for Netware.  He sells both DOS / Windows
+style libs.  The Small memory model size for DOS, a bit of source is free.<P>
+
+FTP<BR>
+oak.oakland.edu/SimTel/msdos/c/netclb30.zip<BR>
+Public Domain Small Mem Model Lib<P>
+
+Author<BR>
+Adrian Cunnelly - adrian@amcsoft.demon.co.uk<P>
+
+Price<BR>
+the current price in US Dollars is:<P>
+
+38  Dollars - All model libraries + windows DLL<BR>
+110 Dollars - Above + Source Code<P>
+<HR>
+Section 07
+<H1>For Administrators Only</H1>
+
+<H3><A NAME="section_07_1"></A>07-1. How do I secure my server?
+</H3>
+
+This question is asked by administrators, and I'm sure no hackers will read
+this info and learn what you admins might do to thwart hack attacks ;-)<P>
+
+One thing to keep in mind, most compromises of data occur from an employee
+of the company, not an outside element. They may wish to access sensitive
+personnel files, copy and sell company secrets, be disgruntled and wish to
+cause harm, or break in for kicks or bragging rights. So trust no one.<P>
+
+<H4>Physically Secure The Server</H4>
+
+
+This is the simplest one. Keep the server under lock and key. If the server
+is at a site where there is a data center (mainframes, midranges, etc) put it
+in the same room and treat it like the big boxes. Access to the server's room
+should be controlled minimally by key access, preferably by some type of key
+card access which can be tracked. In large shops, a man trap (humanoid that
+guards the room) should be in place.<P>
+
+If the server has a door with a lock, lock it (some larger servers have this)
+and limit access to the key. This will secure the floppy drive. One paranoid
+site I know of keeps the monitor and CPU behind glass, so that the keyboard
+and floppy drive cannot be accessed by the same person at the same time.<P>
+
+If you only load NLMs from the SYS:SYSTEM directory, use the SECURE CONSOLE
+command to prevent NLMs being loaded from the floppy or other location.<P>
+
+A hacker could load a floppy into the drive and run one of several utility
+files to gain access to the server. Or they could steal a backup tape or just
+power off the server! By physically securing the server, you can control who
+has access to the server room, who has access to the floppy drive, backup
+tapes, and the System Console. This step alone will eliminate 75% of attack
+potential.<P>
+
+<H4>Secure Important Files</H4>
+
+These should be stored offline. You should make copies of the STARTUP.NCF and
+AUTOEXEC.NCF files. The bindery or NDS files should be backed up and stored
+offsite. All System Login Scripts, Container Scripts, and any robotic or
+non-human personal Login Scripts should be copied offline. A robotic or
+non-human account would be an account used by an email gateway, backup
+machine, etc.<P>
+
+Compile a list of NLMs and their version numbers, and a list of files from
+the SYS:LOGIN, SYS:PUBLIC, and SYS:SYSTEM directories.<P>
+
+You should periodically check these files against the originals to ensure
+none have been altered.<P>
+
+Replacing the files with different ones (like using itsme's LOGIN.EXE
+instead of Novell's) will give the hacker access to the entire server. It is
+also possible that the hacker will alter .NCF or Login Scripts to bypass
+security or to open holes for later attacks.<P>
+
+<H4>Make a list of Users and their accesses</H4>
+
+Use a tool like Bindview or GRPLIST.EXE from the JRB Utilities to get a list
+of users and groups (including group membership). Once again, keep this
+updated and check it frequently against the actual list.<P>
+
+Also run Security (from the SYS:SYSTEM directory) or GETEQUIV.EXE from the
+JRB Utilities to determine who has Supervisor access. Look for odd accounts
+with Supervisor access like GUEST or PRINTER.<P>
+
+It is also a good idea to look at Trustee Assignments and make sure access is
+at a minimum. Check your run from Security to see if access is too great in
+any areas, or run TRSTLIST from the JRB Utilities.<P>
+
+Security will turn up some odd errors if SUPER.EXE has been run. If you are
+not using SUPER.EXE, delete and rebuild any odd accounts with odd errors
+related to the Bindery, particularly if BINDFIX doesn't fix them yet the
+account seems to work okay. If a hacker put in a backdoor using SUPER.EXE,
+they could get in and perhaps leave other ways in.<P>
+
+<H4>Monitor the Console</H4>
+
+Use the CONLOG.NLM to track the server console activity. This is an excellent
+diagnostic tool since error messages tend to roll off the screen. It will
+not track what was typed in at the console, but the system's responses will
+be put in SYS:ETC\CONSOLE.LOG. When checking the console, hit the up arrow
+to show what commands were last typed in.<P>
+
+While this won't work in large shops or shops with forgetful users, consider
+using the SECUREFX.NLM (or SECUREFX.VAP for 2.x). This sometimes annoying
+utility displays the following message on the console and to all the users
+after a security breach:<P>
+
+"Security breach against station <connection number> DETECTED."<P>
+
+This will also be written to an error log. The following message is also
+written the the log and to the console:<P>
+
+"Connection TERMINATED to prevent security compromise"<P>
+
+<H4>Turn on Accounting</H4>
+
+Once Accounting is turned on, you can track every login and logout to the
+server, including failed attempts.<P>
+
+<H4>Don't Use the Supervisor Account</H4>
+
+Leaving the Supervisor logged in is an invitation to disaster. If packet
+signature is not being used, someone could use HACK.EXE and gain access to the
+server as Supervisor. HACK spoofs packets to make them look like they came from
+the Supervisor to add Supe equivalence to other users.<P>
+
+Also, it implies a machine is logged in somewhere as Supervisor, if it has been
+logged in for more than 8 hours chances are it may be unattended.<P>
+
+<H4>Use Packet Signature</H4>
+
+To prevent packet spoofing (i.e. HACK.EXE) enforce packet signature. Add the
+following line to your AUTOEXEC.NCF -<P>
+
+<TT>SET NCP PACKET SIGNATURE OPTION=3</TT><P>
+
+This forces packet signature to be used. Clients that do not support packet
+signature will not be able to access, so they will need to be upgraded if you
+have any of these clients.<P>
+
+<H4>Use RCONSOLE Sparingly (or not at all)</H4>
+
+When using RCONSOLE you are subject to a packet sniffer getting the packets
+and getting the password. While this is normally above the average user's
+expertise, DOS-based programs that put the network interface card into
+promiscuous mode and capture every packet on the wire are readily available
+on the Internet. The encryption method is not foolproof.<P>
+
+Remember you cannot "detect" a sniffer in use on the wire.<P>
+
+Do NOT use a switch to limit the RCONSOLE password to just the Supervisor
+password. All you have done is set the password equal to the switch. If
+you use the line "LOAD REMOTE /P=", Supervisor's password will get in (it
+ALWAYS does) and the RCONSOLE password is now "/P=". Since the RCONSOLE
+password will be in plain text in the AUTOEXEC.NCF file, to help secure
+it try adding a non-printing character or a space to the end of the
+password.<P>
+
+And while you can use the encryption techniques outlined in 02-8, your
+server is still vulnerable to sniffing the password.<P>
+
+<H4>Move all .NCF files to a more secure location (3.x and above)</H4>
+
+Put your AUTOEXEC.NCF file in the same location as the SERVER.EXE file. If a
+server is compromised in that access to the SYS:SYSTEM directory is available
+to an unauthorized user, you will at least have protected the AUTOEXEC.NCF
+file.<P>
+
+A simple trick you can do is "bait" a potential hacker by keeping a false
+AUTOEXEC.NCF file in the SYS:SYSTEM with a false RCONSOLE password (among
+other things).<P>
+
+All other .NCF files should be moved to the C: drive as well. Remember, the
+.NCF file runs as if the commands it contains are typed from the console,
+making their security most important.<P>
+
+<H4>Use the Lock File Server Console option in Monitor (3.x and above)</H4>
+
+Even if the RCONSOLE password is discovered, the Supe password is discovered,
+or physical access is gained, a hard to guess password on the console will
+stop someone from accessing the console.<P>
+
+<H4>Add EXIT to the end of the System Login Script</H4>
+
+By adding the EXIT command as the last line in the System Login Script,
+you can control to a degree what the user is doing. This eliminates the
+potential for personal Login Script attacks, as described in section 03-6.<P>
+
+<H4>Upgrade to Netware 4.1</H4>
+
+Besides making a ton of Novell sales and marketing people very happy, you
+will defeat most of the techniques described in this faq. Most well-known
+hacks are for 3.11. If you don't want to make the leap to NDS and 4.1, at
+least get current and go to 3.12.<P>
+
+<H3><A NAME="section_07_2"></A>07-2. I'm an idiot. Exactly how
+do hackers get in?</H3>
+
+<P>
+We will use this section as an illustrated example of how these
+techniques can be used in concert to gain Supe access on the target
+server. These techniques show the other thing that really helps
+in Netware hacking - a little social engineering.
+<H4>Exploitation #1</H4>
+
+<P>
+Assume tech support people are dialing in for after hours support.
+Call up and pose as a vendor of security products and ask for
+tech support person. Called this person posing as a local company
+looking for references, ask about remote dial-in products. Call
+operator of company and ask for help desk number. Call help desk
+after hours and ask for dial-in number, posing as the tech support
+person. Explain home machine has crashed and you've lost number.
+Dial in using the proper remote software and try simple logins
+and passwords for dial-in software if required. If you can't get
+in call help desk especially if others such as end users use dial-in.
+<P>
+Upload alternate LOGIN.EXE and PROP.EXE, and edit AUTOEXEC.BAT
+to run the alternate LOGIN.EXE locally. Rename PROP.EXE to IBMNBIO.COM
+and make it hidden.
+<P>
+Before editing AUTOEXEC.BAT change the date and time of the PC
+so that the date/time stamp reflects the original before the edit.
+<P>
+Dial back in later, rename PROP.EXE and run it to get Accounts
+and passwords.
+<P>
+Summary - Any keystroke capture program could produce the same
+results as the alternate LOGIN.EXE and PROP.EXE, but you end up
+with a Supe equivalent account.
+<H4>Exploitation #2</H4>
+
+<P>
+Load a DOS-based packet sniffer, call the sys admin and report
+a FATAL DIRECTORY ERROR when trying to access the server. He predictively
+will use RCONSOLE to look at the server and his packet conversation
+can be captured. He will find nothing wrong (of course).
+<P>
+Study the capture and use the RCON.FAQ to obtain the RCONSOLE
+password. Log in as GUEST, create a SYSTEM subdirectory in the
+home directory (or any directory on SYS:). Root map a drive to
+the new SYSTEM, copy RCONSOLE.* to it, and run RCONSOLE. Once
+in try to unload CONLOG and upload BURGLAR.NLM to the real SYS:SYSTEM.
+Created a Supe user (i.e. NEWUSER) and then typed CLS to clear
+the server console screen.
+<P>
+Log in as NEWUSER. Erase BURGLAR.NLM, new SYSTEM directory and
+its contents.
+<P>
+Run PURGE in those directories. Turn off Accounting if on. Give
+GUEST Supe rights. Set toggle with SUPER.EXE for NEWUSER. Run
+FILER and note SYS:ETC\CONSOLE.LOG (if CONLOG was loaded) owner
+and create date, as well as SYS:SYSTEM\SYS$ERR.LOG owner and create
+date. Edit SYS:ETC\CONSOLE.LOG and remove BURGLAR.NLM activity,
+including RCONSOLE activity. Edit and remove
+<P>
+RCONSOLE activity from SYS:SYSTEM\SYS$ERR.LOG as well. After saving
+files, run FILER and restore owner and dates if needed. Run PURGE
+in their directories.
+<P>
+Logout and login as GUEST and set SUPER.EXE toggle. Remove NEWUSER
+Supe rights and logout. Login as NEWUSER with SUPER.EXE and remove
+GUEST Supe rights. Finally logout and login as GUEST with SUPER.EXE
+and turn on Accounting if it was on.
+<P>
+Summary - You have created a backdoor into the system that will
+not show up as somthing unusual in the Accounting log. Login as
+GUEST using SUPER.EXE and turn off Accounting. Logout and back
+in as NEWUSER with SUPER.EXE, do what you need to do (covering
+file alterations with Filer), and logout. Log back in as GUEST
+and turn on Accounting. The NET$ACCT.DAT file shows only GUEST
+logging in followed by GUEST logging out. 
+<HR>
+</BODY>
+
+</HTML>

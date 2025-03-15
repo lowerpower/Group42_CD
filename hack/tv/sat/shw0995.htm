@@ -1,0 +1,184 @@
+
+<HTML>
+<HEAD>
+<TITLE>Syndicated HackWatch - DSS Update</TITLE>
+</HEAD>
+<BODY>
+<H3>
+Issue Date: 09:95   Topics: DSS Update, Datacard Hack On DSS?
+</H3>
+<HR>
+<H2>
+DSS Update
+</H2>
+<P>
+Since  the  publication  of  the  articles  in  "Electronics  Now" 
+magazine  in the United States, there has been a lot of  confusion 
+as to the state of play. There are at least two different types of 
+hacks being spoken about. The first and most obvious is the pirate 
+smart  card  but  the second is a less obvious  and  perhaps  more 
+dangerous hack.
+<P>
+The  format of the second hack is a card reactivator. This  device 
+will  turn  deactivated DSS cards back on. It  may  also  activate 
+virgin cards. In this respect it is more difficult to estimate the damage due 
+to piracy. Existing subscribers to the minimum tier could use such a device to
+activate all levels on their smart card.
+<P>
+The  "Electronics  Now"  articles  did  apparently  ruffle  a  few 
+feathers, or to quote Satellite Retailer, "blow a few fuses".  The 
+article in Satellite Retailer was by Peter J.Brown and dealt  with 
+the  prospects for DSS. Some interesting figures were quoted,  the 
+ones relating to DSS IRDs in Canada were especially so.
+<P>
+The figure of DSS IRDs in Canada was put conservatively at  50,000 
+units  though  the more realistic figure was 100,000. That  is  no 
+small  figure  when  the   number of  active  DSS  subscribers  is 
+approximately  a  million. As soon as a Canadian  subscription  is 
+identified, the card is deactivated over the air.
+<P>
+Apparently the DBS establishment in the US was contacted about the 
+piracy  issue  by  Mr Brown. He describes  them  as  displaying  a 
+surprising degree of confidence and sprinkling their conversations 
+with  technobabble. The exact quote is "tantalizing references  to 
+new  technologies  and  new  tactical  approaches  that  were  not 
+revealed  or  even  necessary when early  European  DBS  outbreaks 
+surfaced."
+<P>
+The  quotation  above reveals that the News  Datacom  brainwashing 
+techniques  have  found  fertile  ground in  the  minds  of  these 
+executives. The whole idea that these characters seem to have that 
+the  piracy in European DBS was early shows how stupidly  ignorant 
+they must be.
+<P>
+The DBS piracy referred to is the piracy of the 09 Sky card.  This 
+card  has  been reverse-engineered and now can  be  electronically 
+dumped  in  about  thirteen minutes with a  personal  computer,  a 
+program  that  can  be found on many BBSes  and  a  $10  interface 
+circuit.
+<P>
+The  DSS system was launched at the same time as the 09  Sky  card 
+was  being activated. Therefore it is more than probable that  the 
+DSS card ROM and the Sky 09 card ROM are identical. The only major 
+differences would be in the EEPROM.
+<P>
+This is not mere speculation. Sky has apparently been short of  09 
+Sky  cards  and earlier this year had to withdraw  the  QuickStart 
+scheme  in order to maintain sufficient stock levels to cope  with 
+new subscribers.
+<P>
+As  the  stock levels have dwindled, they were  forced  to  either 
+prematurely  go  for  an 0A (next card issue) launch  or  seek  an 
+interim  supply of smart cards. The interim supply of smart  cards 
+just happened to have pads configured in an oval shape. This shape 
+would indicate the cards were probably manufactured by Philips but 
+there is something more incriminating.
+<P>
+The 09 Sky cards being issued to new subscribers have some  rather 
+strange  blacked  out  areas  on  areas  of  the  card  that  were 
+previously white. Scratching away this black ink reveals this card 
+to be a DSS smart card.
+<P>
+The  ROM  of the DSS card and the ROM of the Sky 09 card  must  be 
+significantly similar. This fact should scare the Hell out of  the 
+DSS  executives who so blithely dismissed piracy on their  system. 
+At  the  best,  hackers in the US will  not  have  to  modify  the 
+Season/OMIGOD  programs  to monitor the dataflow between  the  DSS 
+smart card and the IRD. The packet and datastructures may well  be 
+the same as the VideoCrypt system used here in Europe. There are a 
+few packet codes that have not seen use here in Europe. These ones 
+are probably used for the modem update for PPV in the DSS model.
+
+<H2>
+Datacard - A Hack On DSS?
+</H2>
+<P>
+In some senses, this is like a flashback to this time last year in 
+Europe.  A  decent hack on the Sky 09 Card was about a  month  and 
+half  away. The Phoenix program's routines were being adapted  and 
+incorporated into PIC16C84s so that Sky QuickStart cards could  be 
+activated  or reactivated. For Europeans this hack is  a  familiar 
+one. But then the common factor is News Datacom. They provided the 
+access control architecture in both systems.
+<P>
+The  current DSS Hack rumours deal with a Genesis  Blocker  device 
+for DSS. The device, known as "Datacard" is supposed to record the 
+activation  data  for the smart card and store this data  in  RAM. 
+Then when the card is switched off, the device will reactivate the 
+card.
+<P>
+The  Datacard  device is inserted into the DSS IRD and  the  smart 
+card is then inserted into a smart card socket on the Datacard. It 
+is not yet known what kind of microcontroller that the Datacard is 
+using but it probably will not be the PIC16C84. 
+<P>
+Though  most  of  the European Sky 09 Gemini /  Genesis  code  was 
+written for this microcontroller, it would be extremely foolish to 
+use  it.  The PIC16C84 microcontroller protection can  be  removed  
+with  using a diode. This would mean that the code for the  device 
+would  spread  like wildfire and would be on BBSes and  FTP  sites 
+with in a few hours.
+<P>
+As  of  this time, the reports have been anything but  clear.  The 
+status  of this device is not known. It does,  however,  represent 
+the first clear indication that there is a potentially  marketable 
+hack in waiting.
+<P>
+The market for this hack would not initially be the United States. 
+The forces arrayed against piracy there are terrifying to say  the 
+least.  The real market for this product would be  Canada,  Mexico 
+and the Caribbean Islands. These are the areas in which officially 
+there are supposed to be no DSS subscribers. 
+<P>
+The problem with this is that the there may be as many as  100,000 
+DSS  installations in Canada alone. As soon as the  US  subscriber 
+centre  determines  that a subscriber is not based in  the  United 
+States  it will kill the card. Reactivating these cards  with  the 
+Datacard or even blocking the card termination instructions  would 
+significantly  damage the DSS system and perhaps even force a  new 
+smart card issue.
+<HR><H3><tt>
+HackWatch &#174; is a subset of articles that appear in Hack Watch News &#174;. The 
+articles dealt with in this document are explored in greater detail in the current issue of 
+Hack Watch News.</TT></H3> 
+<HR>
+
+<H3><B><I>Copyright (c) 1995 Hack Watch News </I></B></H3>
+</BODY></HTML>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

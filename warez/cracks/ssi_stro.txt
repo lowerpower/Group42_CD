@@ -1,0 +1,36 @@
+This is a crack for SSI game STRONGHOLD. It was done and tested in 2 hours,
+so there could be some mistake in my crack. For sure I enclose words you need
+to type in (althought I don't know on which pages or line are they).
+
+So you have to find this sequence:
+8C C4 08 0B C0 75 10 FF 76 F8
+
+And replace it with this one:
+8C C4 08 31 C0 31 DB FF 76 F8
+
+
+8CC408	add sp,8		8CC408  add sp,8
+0BC0	or ax,ax		31C0    xor ax,ax
+7510	jnz 3115		31DB    xor bx,bx
+FF76F8	push [bp-8]     	FF76F8	push [bp-8]
+
+I could recommend you DiskEdit (or DE from Norton Utilities) or PcTools.
+If you don't know what means 8C C4 08, don't do it!
+
+Words you need:
+choose					movement
+button					gold
+plan					hit
+squares					swamps
+would					repair
+controlling				setting
+sage					when
+home					needed
+screen					spellcasting
+opponents				expense
+after (2,2)				dots (4,3)
+longbow					spells
+constructing
+
+Comments to:
+(kubecj@saguaro.vscht.cz)

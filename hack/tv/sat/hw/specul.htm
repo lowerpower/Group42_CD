@@ -1,0 +1,177 @@
+<HTML><HEAD><TITLE>0A Algorithm Speculations</TITLE>
+</HEAD><BODY>
+<HR>
+<H1>
+Speculations On The 0A Card Algorithm
+</h1>
+<Hr>
+<P>
+At  this point in time, there are a lot of worried pirates.  There 
+is no clear information on the 0A. According to some rumours it is 
+already  hacked.  According  to others it  is  using  a  different 
+processor. To put it bluntly, nobody is sure what is happening for 
+definite.
+<P>
+This  article examines some of the options that News  Datacom  has 
+open to it. Will they make the same mistakes again? Probably. They 
+seem  to have made a lot in the past and most of them seem  to  be 
+finance  based.  This latest card may be just a stop  gap  measure 
+until  the  newer RSA capable cards become  available  later  this 
+year.  Until that time, News Datacom is somewhat limited in  terms 
+of choice.
+<P>
+The  most obvious difference between the 0A and the 09 will  be  a 
+more  secure  algorithm.  The 07 algorithm was  rather  simple  in 
+construction but it was effective. Of the eight byte answer,  only 
+two bytes changed in any iteration. This of course left it open to 
+a streamlined bruteforce hack.
+<P>
+The  09 algorithm was very much an advance on the 07. While  still 
+being  register  based, it built upon the foundations  of  the  07 
+algorithm. It used multiplication as the main part of the function 
+in each iteration. But unlike the 07 algorithm, every byte of  the 
+eight  byte  answer changed on each iteration. This made  it  more 
+secure in cryptography terms.
+<P>
+The  0A algorithm will probably still draw on the hashing type  07 
+and 09 algorithms. This time a more lossy function will be used so 
+that each loop is not so reversible. This means that the  function 
+in each iteration will be single register based but will lose some 
+of  its  bits  in  the  calculation  due  to  the  result  of  the 
+calculation  being  greater  than eight bits.  
+<P>
+The  0A card will probably still be an eight bit  wide  processor. 
+Rather than regearing for a different processor, News Datacom  may 
+stick with the present Motorola 6805 based smart cards.
+<P>
+The  VideoCrypt system is a "Frozen Architecture" system. Most  of 
+the  functions and packet types are hard coded in the ROM  of  the 
+8052.  This  means  that changing them  is  impossible  without  a 
+retrofit  of the decoders in the market. This of course is  not  a 
+viable option. As a result News Datacom have had to improvise.
+<P>
+One of the primary differences between the 07 and the 09 algorithm 
+was  the  Nanocommand System. This was an attempt  at  making  the 
+smart  card more addressable and reprogrammable over the  air.  It 
+was a clever attempt at taking a system far beyond its limits  and 
+showed real ingenuity. If the code had not been popped out of  the 
+smart card then it is probable that the 09 card could have  lasted 
+until  at least September of this year. It was, however, let  down 
+by some fundamental flaws.
+<P>
+The  idea of using the data in the smart card's address  space  as 
+input  to the algorithm was explored a few years ago as  two  part 
+article.  It seems News Datacom may not have read the second  part 
+of the article which dealt with the downside of this process. With 
+this  type of address space / input data scheme, the  security  of 
+the complete smart card rests on the security of the algorithm. If 
+someone  discovers  the basic algorithm and key table  and  has  a 
+knowledge of how the address space data is called, he can dump out 
+the  entire address space by stepping through the  address  space. 
+This is essentially how the Vampire hack (see HWN 01:95) works. It 
+now  takes  about 14 minutes to dump out the Sky 09  smart  card's 
+address space.
+<P>
+Due to the constraints of the VideoCrypt system, News Datacom  may 
+well  be forced to use some similar scheme again in the  0A.  This 
+time  some  derivative  of the address space method  is  the  best 
+option. A simple lossy bit shuffle, or an EXOR with some  variable 
+would be the simplest options.
+<P>
+The  packet  encryption method will also have to be  changed.  The 
+EXOR  tables,  published  in  alt.satellite.tv.europe  each  month 
+proved a challenge but they were hackable. It was after all only a 
+few  lines  of C code. Perhaps the main flaw in this  was  that  a 
+single  repeating byte was used to encrypt the  subscriber  number 
+and nanocommand data.
+<P>
+Such  a change would require the access management software to  be 
+rewritten as it seems to be very much a function of this software. 
+This  apparently  has  been  carried  out  as  News  Datacom   was 
+advertising  its new and improved software at various trade  shows 
+recently.
+<P>
+The new packet encryption would have to be some sort of EXOR based 
+routine  that would generate a packet wide table from a few  input 
+bytes.  This would not be difficult. The objective here  would  be 
+the  denial  of information to anyone trying to hack  the  system. 
+This  is  different from the "Security By Obscurity"  method  that 
+News  Datacom  have  used  in  the  past  as  it  actively  denies 
+information.
+<P>
+Returning to the algorithm again, the constraints of  VideoCrypt's 
+mid eighties mindset become obvious. The evolution of the 07 to 09 
+algorithm  is  clear.  Both  seem to  be  register  based  hashing 
+functions. But there is a deeper reason for this.
+<P>
+The  data rate of the VideoCrypt system is very low in  comparison 
+to  other systems. It is designed to operate on noisy links.  This 
+is  why  VideoCrypt can tolerate more sparklies  than  many  other 
+systems. The data rate is roughly about 1 Kilobit/second.
+<P>
+With such a low data rate, there had to be some compromise between 
+seed  generation  data and access management  data.  The  solution 
+chosen  by  News  Datacom  was excellent.  It  reused  the  access 
+management data as the input data for the seed generation.
+<P>
+Of course the problem lies in the data. If the 0A was to change to 
+a calculation based algorithm, such as some RSA derivative,  there 
+would  have to be a split between the access management  data  and 
+the seed generating data. This would lead to a visible increase in 
+the  E0  packets which would then be used  for  access  management 
+data. The E8 packets would be used for the seed data.
+<P>
+The  checksumming  used in the 07 and the 09 cards relied  on  the 
+register  based hashing function. While it was certainly  cleverer 
+than  using  a  conventional method, it is somewhat  tied  to  the 
+register based hash. If the 0A algorithm changes to a  calculation 
+based algorithm, then the existing method cannot be used.  Instead 
+something  like a Cyclic Redundancy Check would have to  be  used. 
+The main problem here is using a checksum routine where it is  not 
+possible  to  spoof  the card. The present  checksum  routine  was 
+excellent  in  this respect and it also became part  of  the  seed 
+generation process.
+<P>
+The choice of checksumming will probably be dependent on the  type 
+of  algorithm  used in the 0A card. If they use a  register  based 
+hashing function, then the same form of checksum will be used.  In 
+terms of economy of data, they probably will use a register  based 
+hashing function and the present checksumming method. Despite  the 
+basic principle being known, the theory is still sound.
+<P>
+Perhaps  the easiest of all to upgrade is the set of  nanocommands 
+used  by  the  09. The tokens used could  easily  be  replaced  by 
+different  values. While most of the ones seen in 09 are based  on 
+writing   to  registers,  reading  registers  and   branching   to 
+subroutines,  it  would  be possible to vary the  actions  of  the 
+individual  nanocommands. It would also be include a small  super-
+encryption  routine  so  that the nanocommand  would  have  to  be 
+decrypted  before being acted upon. This super-encryption  routine 
+could be month based to coincide with the month code.
+<P>
+Pay  Per View has been an utter disaster for VideoCrypt. The  last 
+PPV  event, a Scottish soccer match, had more pirate viewers  than 
+official viewers. The fact that most of the original PPV  routines 
+were hard coded in the 8052 has effectively destroyed any of Sky's 
+hopes for a reasonably secure PPV implementation in the 09  card's 
+lifetime.  The  Scottish match was not really a PPV event  in  the 
+truest sense. 
+<P>
+Including PPV in the 0A would be difficult but not impossible.  In 
+fact  it  would  be an added bonus in terms  of  revenue  if  News 
+Datacom could get it running in the 0A. What may be included is an 
+event  based  system where a card will be enabled  for  a  special 
+event. The key to PPV is the Sky Subscriber Management Centre. The 
+Scottish  soccer match was aimed a pubs and clubs rather  than  at 
+the subscriber. In this way, Sky reduced the telephone usage to  a 
+bare  minimum. If Sky wants to run true PPV then they have  to  be 
+able  to  handle a few million calls in the space of a  few  days. 
+This would require a lot of telephone capacity. They may, instead, 
+choose  to reserve PPV for their new digital  television  services 
+that will start late this year.
+</P>
+<HR>
+<H3><B><I>Copyright &#169; 1995 Hack Watch News </I></b></H3>
+</BODY>
+</HTML>
+

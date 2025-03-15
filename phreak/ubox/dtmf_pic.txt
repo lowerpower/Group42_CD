@@ -1,0 +1,218 @@
+;
+; keypad tone generator with wakeup on keypress
+;
+
+		DEVICE PIC16C56,HS_OSC,PROTECT_OFF,WDT_OFF
+
+TONE_DURATION	equ	30000
+
+audioport	equ	RA
+ROWMASK		equ	00000001b
+COLMASK		equ	00000010b
+keyport		equ	RB
+KEYMASK		equ	00001111b
+col0		equ	RB.4
+col1		equ	RB.5
+col2		equ	RB.6
+
+temp		equ	09h
+colcount	equ	0ah
+ccount		equ	0bh
+rowcount	equ	0ch
+rcount		equ	0dh
+tonetimehi	equ	0eh
+tonetimelo	equ	0fh
+row0		equ	10h		; current state of key row 0
+row1		equ	11h		; current state of key row 1
+row2		equ	12h		; current state of key row 2
+keycode		equ	13h
+
+		RESET Start
+
+zzzzz
+		clrb	col0
+		clrb	col1
+		clrb	col2
+		sleep
+
+; KeyMap -- map key ID to DTMF tone code
+KeyMap
+		jmp	PC+W
+; straightforward matrix
+;		retw	0000b,0001b,0010b
+;		retw	0100b,0101b,0110b
+;		retw	1000b,1001b,1010b
+;		retw	1100b,1101b,1110b
+; PacTec brain damaged membrane keyboard
+		retw	1000b,0000b,1100b
+		retw	0100b,1001b,0001b
+		retw	1101b,0101b,1010b
+		retw	0010b,1110b,0110b
+
+
+;697 Hz		90	123A row
+;770 Hz		81	456B row
+;852 Hz		73	789C row
+;941 Hz		66	*0#D row
+;1209 Hz	52	147* col
+;1336 Hz	47	2580 col
+;1477 Hz	42	369# col
+;1633 Hz	38	ABCD col
+
+RowTab
+		jmp	PC+W
+		retw	90,81,73,66
+ColTab
+		jmp	PC+W
+		retw	52,47,42,38
+
+;
+; DTMF_send -- send a DTMF tone pair as encoded in W on entry.
+;	encoding is xxxxRRCC where x = dont care, RR = row#, CC = col#
+;
+
+DTMF_send
+		; get row and col encoding into rowcount,colcount
+		mov	colcount,W
+		mov	rowcount,W
+		and	colcount,#00000011b
+		rr	rowcount
+		rr	rowcount
+		and	rowcount,#00000011b
+
+		; replace with actual counts from lookup tables
+		mov	W,colcount
+		call	ColTab
+		mov	colcount,W
+		mov	W,rowcount
+		call	RowTab
+		mov	rowcount,W
+
+		; preload counters && timers
+		mov	rcount,rowcount
+		mov	ccount,colcount
+		mov	tonetimehi,#TONE_DURATION<
+		mov	tonetimelo,#TONE_DURATION>
+
+:dtmf_loop
+		; time to stop?
+		dec	tonetimelo
+		jnz	:keepon
+		dec	tonetimehi
+		snz
+		ret	; done! get out.
+
+:keepon
+		; wait for clock tick
+		mov	temp,RTCC
+:tickwait
+		mov	W,RTCC
+		xor	W,temp
+		jz	:tickwait
+
+		; decrement counters
+		djnz	rcount,:checkcol
+
+		; row count reached zero -- toggle audio and reset counter
+		mov	W,audioport
+		xor	W,#ROWMASK
+		mov	audioport,W
+		mov	rcount,rowcount
+:checkcol
+		djnz	ccount,:dtmf_loop
+
+		; col count reached zero -- toggle audio and reset counter
+		mov	W,audioport
+		xor	W,#COLMASK
+		mov	audioport,W
+		mov	ccount,colcount
+		jmp	:dtmf_loop
+
+Scan
+		clrb	col0
+		mov	row0,keyport
+		setb	col0
+		xor	row0,#KEYMASK
+		and	row0,#KEYMASK
+
+		clrb	col1
+		mov	row1,keyport
+		setb	col1
+		xor	row1,#KEYMASK
+		and	row1,#KEYMASK
+
+		clrb	col2
+		mov	row2,keyport
+		setb	col2
+		xor	row2,#KEYMASK
+		and	row2,#KEYMASK
+
+		ret
+
+Decode
+		clr	keycode
+
+		test	row0
+		jz	:tryrow1
+
+		; definitely a bit on in row0
+		mov	keycode,#1
+:loop0
+		snb	row0.0
+		ret
+		rr	row0
+		inc	keycode
+		jmp	:loop0
+
+:tryrow1
+		test	row1
+		jz	:tryrow2
+
+		; definitely a bit on in row1
+		mov	keycode,#5
+:loop1
+		snb	row1.0
+		ret
+		rr	row1
+		inc	keycode
+		jmp	:loop1
+
+:tryrow2
+		test	row2
+		snz
+		ret
+
+		; definitely a bit on in row2
+		mov	keycode,#9
+:loop2
+		snb	row2.0
+		ret
+		rr	row2
+		inc	keycode
+		jmp	:loop2
+
+Start
+		mov	OPTION,#00000100b	; RTCC @ 125 KHz
+		mov	!RB,#00001111b
+		mov	!RA,#0000b		; all outputs
+
+		setb	col0
+		setb	col1
+		setb	col2
+
+Wakeup
+		call	Scan		; read keyboard
+		call	Decode		; decode bit pattern to key ID
+		test	keycode
+		jz	:release	; if no key, don't send
+		dec	keycode
+		mov	W,keycode	; get key ID
+		call	KeyMap		; map key ID to DTMF code
+		call	DTMF_send	; send DTMF tone
+		; now wait for key to be released and sleep
+:release
+		call	Scan
+		call	Decode
+		test	keycode
+		jnz	:release
+		jmp	zzzzz

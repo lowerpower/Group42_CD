@@ -1,0 +1,42 @@
+<html>
+<head><title>Group 42 Sells Out [SA8500-321 Fix]</title></head>
+<body background="cable1.gif">
+
+<center>
+
+<img alt="Group 42 Sells Out!" src="../g42slogo.gif">
+
+</center>
+
+<hr size=5 noshade>
+<center>
+<h2>SA8500-321 Turn On</h2>
+by G-Man of Group 42
+<p>
+</center>
+
+
+The following procedure will allow the 8500-321 converter/descrambler
+to receive all scrambled and non-scrambled channels, even
+if it is shut down by the cable company.  It is not as nice a <i>fix</i>
+as the test chip mod and can have unwanted channel switching as
+a side effect.
+<p>
+<h4>Procedure</h4>
+Locate the main processor IC on the main P.C. board with the part number
+<b>MN1414</b> on it.  This is IC305 on the circuit board.  Now locate
+jumber W310 just below the IC.  Cut this jumper and install a .01uf
+disk capacitor across the now open jumper.  On the lead of the capacitor
+closest to the IC, solder a 22K resistor from this lead and connect the
+other end of the resistor to pin 21 on IC305.  The descrambler should
+now properly receive and descramble all channels.
+<p>
+If the descrambler changes channels by itself, the FSK data jumper
+needs to be cut to turn off the cable companies signal that is
+interfearing with the above modification.
+<p>
+<hr size=5 noshade>
+
+</html>
+ 
+

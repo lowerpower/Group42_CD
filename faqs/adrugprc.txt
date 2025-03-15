@@ -1,0 +1,1410 @@
+    Price Project report U.S., [end of] June '95
+
+NOTE: Use of the Price report data for any uses other than personal interest is
+prohibited without my explicit permission. Email me if you need this (I will
+usually give this permission fairly easily; I only want to keep track of who's
+using the price report for magazines, research etc.).
+
+This information has been collected through e-mail from a number of helpful
+people who contributed data. If your environment isn't listed below or if you
+have more information about it, please send your information (as brief as
+possible, please) to me (rich@weeds.xs4all.nl). You can send information
+anonymous to me in several ways:
+
+- Charcoal.com: Put an "X-Anon-To: rich@weeds.xs4all.nl" headerline in mail to
+<anonymus+clear@charcoal.com> (note misspelling!). You can request information
+about this remailer with an empty message to <anonymus+info@charcoal.com>.
+
+- Anon.penet.fi: Put the same headerline in mail to <anon@anon.penet.fi>, or
+mail to <rich%weeds.xs4all.nl@anon.penet.fi> if you can't add headerslines. The
+headerline can also be placed on the first line of the message. Information can
+be requested with an empty message to <help@anon.penet.fi>.
+
+- The Cypherpunk anonymous mailers; for instructions please read the file
+[soda.berkeley.edu:/pub/cypherpunks/remailer/hal's.remailer.gz].
+
+All mail received will be sanitized.  You may wish to encrypt mail before
+letting it leave your machine; see my .sig if you have PGP.
+
+
+*** Where to find the report ***
+
+- News: It is posted every month on alt.drugs, alt.drugs.psychedelics,
+        alt.drugs.pot and alt.drugs.hard
+- FTP: hyperreal.com:/drugs/misc/price.report.non-us and -.us
+- WWW: http://www.paranoia.com/drugs/
+- Mailing list: read on...
+
+*** List info ***
+
+The report is also send every month in a mailing list, at the same time as it
+is posted to the newsgroups. To subscribe, mail <report@weeds.xs4all.nl> (not
+rich@...!), with on the subject line: "Subscribe". To unsubscribe, use Subject
+"Unsubscribe" (Original, no?). These commands can be abbreviated to "S" and
+"U". (All commands without the quote characters).
+
+Normally commands will concern both the US and non-US report. To [un]subscribe
+only one of these lists, add a switch "/N" (non-US) or "/U" (US).
+
+The report will be sent to the email address you sent the request from (or the
+Reply-To line if it exists), except when you specify an other address on the
+subject line.
+
+Example subject line: "S" will subscribe you to both the US- and non-US report;
+"S /U my@list.account.com" will subscribe you to the US list only, using the
+specified email address.
+
+The body of the text will be ignored. Please keep it as small as possible to
+limit bandwidth.
+
+For privacy reasons, the email addresses of the recipients will not appear
+in the message text.
+
+***
+
+[note: not dated entries are from before spring '93]
+
+
+-Contents-
+Alabama:
+  Birmingham
+  Fairhope
+Alaska:
+  Valdez
+Arizona:
+  Buckeye
+  Phoenix
+  Tucson
+California:
+  Berkeley
+  Davis
+  Incline Village area (North Lake Tahoe)
+  Los Angeles
+  Sacramento
+  San Diego
+  San Francisco
+  San Rafael
+  Santa Cruz
+  South Bay Area
+Colorado:
+  Boulder
+  Denver
+Delaware:
+  Newark
+Florida:
+  Daytona Beach
+  Gainesville
+  Miami
+  Sarasota
+  Tallahassee
+  Venice
+  West Palm Beach
+Georgia:
+  Atlanta
+Hawaii;
+  Honolulu
+Idaho:
+  Boise
+Illinois:
+  Champaign
+  Chicago
+Indiana;
+  Muncie
+  Portage
+Iowa:
+  Des Moines
+Kansas:
+  Lawrence
+  Manhattan
+Kentucky;
+  Bowling Greene
+Maine:
+  Brunswick
+  Orono
+Maryland;
+  Baltimore
+  Dayton
+  Laurel
+Massachusetts:
+  Amherst
+  Boston
+Michigan;
+  Ann Arbor
+  Lansing (East)
+Minnesota:
+  Duluth
+Missouri:
+  Columbia
+Montana:
+  Billings
+Nevada:
+  Incline Village area
+New Hampshire:
+  Manchester-Plymouth area
+New Mexico
+New York:
+  Binghamton
+  Brooklyn
+  Buffalo
+  Ithaca
+  New York
+  Rochester
+  Staten Island
+  Syracuse
+North Carolina
+Ohio:
+  Columbus
+  Oberlin
+Oregon:
+  Portland
+Pennsylvania:
+  Philadelphia
+  Pittsburgh
+Rhode Island;
+  Providence
+Tennessee:
+  Memphis
+Texas:
+  Austin
+  Dallas;Fort Worth
+  Denton
+  Houston
+Utah;
+  Salt Lake City
+Virginia;
+  Chesapeake/Virginia Beach
+  Newport News
+  Washington DC
+Washington;
+  Kalawa
+  Seattle
+Wisconsin:
+  Madison
+  Milwaukee
+
+
+    State: Alabama
+Date: June '94
+Location: Birmingham
+Pot: $450 to $500/Quarter-pound; $40-45/Quarter-ounces. Quality: Most of this
+    pot is the standard stuff....not light, but not dark green, and usually
+    takes about 3 good bong hits to be stoned for a while...
+  * Light green fluffy stuff: $170 an ounce, or $50 a quarter ounce.
+Acid: When available, $5 a hit, $7 to $10 to the younger people.
+
+Date: June '94
+Location: Fairhope
+Pot: $400/quarter-pound, sometimes a pound for $1200 or so...
+Acid: $5/hit. Easier to get than in Birmingham
+Shrooms: "So plentiful that there is no market...everyone goes and gets them
+    themselves...you can pick 2 or 3 pounds of them by yourself in an hour or
+    so, if you go to one of the better fields..."
+
+
+    State: Alaska
+Location: Valdez
+Date: December '94
+Weed: (1/8ths; Increase price about $30-50 for a 1/4, depending on quality)
+  * about $40 for some good alaskan weed from the Mat-Su Valley in the summer.
+  * About $40 for just about anything in the winter. maybe 30-35$ for Mexican
+    weed.
+Rock (Crack): about 100-120 for a gram. Sometimes as low as 75$.
+Acid: about 4 bucks a hit. Hits are usually good quality. Quantity is usually
+    scarce though.
+Shrooms: about 30 to 50$ a quarter. but prices are always changing
+    dramatically.
+Note: The above are street prices. On the street service usually sucks as far
+as waiting is concerned. (pay now, get goods in a few minutes policy sometimes)
+Prices change dramatically considering quality for everything when winter
+hits. Change minorly about every two months. Acid and shrooms are available
+only if you yourself have connections. The stuff _rarely_ hits the streets.
+Same with coke and rock. in the winter, it never hits the streets.
+
+
+    State: Arizona
+Location: Dead Concert, Buckeye Lake
+Date: June 11, 1993
+Marijuana: $25/eighth, $45/quarter. Good quality.
+           Color: Light to middle green
+
+Location: Phoenix
+Date: June '94
+Weed: $250-300/ 1/4 lb, $750/lb. Dark green with very small buds, none bigger then about
+    1 inch in length.  The smoke is mild, with a quick reponse.  High ranges
+    from intense with visions to mild and depressed. Appears to be a strain of
+    indica and stavia mixed, or perhaps its the fruits of a stavia and indica
+    harvest mixed together. Supposedly a import from South America.
+  * Mexican Weed: $5.00/gram, $15.00 1/8th oz, $25.00 1/4 oz, $40.00 1/2 oz,
+    $75.00 1 oz, $160.00 1/4 LB, $300.00 1/2 LB, $500.00 1 LB, $8000/20 kilo.
+
+Location: Tucson
+Marijuana: Mexican: $65-$70/oz [June '93]
+           Low quality: $100/quarter pound [July '93]
+
+
+    State: California
+
+Location: Berkeley
+Date: March '94
+Lsd: $750/1000 doses- Orange suns on a yellow background.
+ [2nd source, June '94]
+Lsd: 5 hits $10. "Disappointing quality"
+ [3rd source, October '94]
+Cannabis: $60/eight. Excellent quality.
+ [4th source, November '94, UC Berkely]
+LSD: $1/tab (retail; purchased by dealer for less at UC berkely)
+
+Location: Davis
+ [May '95, UC Davis campus]
+Dirt Weed-  $20 1/8, all year long
+
+Location: Incline Village area (North Lake Tahoe, California/Nevada border)
+Date: February '94
+Marijuana:
+    * Mex (shitweed): $25/eight. It's actually better than what the name says.
+    I got really worked on this stuff.
+    * Green: $50/eigth. This had some really KIND bud in it- juicy and thick.
+    The smell was wonderful, and you can get pretty high after three bong
+    hits.  Unfortunetly kind of expensive for me.
+LSD: $5 a hit, or about $3 if you buy a lot of it. Quality is unknown.
+Mushrooms: $20 for an eight, about enough for 2 people. Quality also unknown.
+-Everything else is pretty hard to find.  Actually, shrooms and not pot are the
+    most common and easy-to-get drug around here.
+
+Location: Los Angeles area
+ [August '93]
+2C-B: $10-15 per hit; $5-7 for >100
+Crystal Meth: $20-25 1/4 gram
+ [4th source, March '94]
+Weed: Mex: $20/eigth on the street, $60/ounce from most Mexicans
+    'Ganje' Killer dope $60/eighth for *fat* eights. Might be $50-55 for
+    slightly lesser grade. $320/oz if you can find the right person. "Best
+    Weed Santa Barbara has ever seen!" High Times quote)
+Hash: not too bad quality, ~30/quarter.
+LSD Hits/Shrooms: Very hard to find, but average prices ($3-5 'cid, $20/eight
+    shrooms).
+Opium: Be real careful here.  There is some shit going around that smells like
+    Jasmine.  I think it's that Black Opium insence found in the back of HT.
+    It's $20/eighth, but don't waste your money.
+*Everything above except for the Kind prices are from around the Venice beach
+area.  The 'ganje' I've only been able to find up in Santa Barbara, but it's
+well worth the trip.
+ [5th source, November '94]
+Ecstacy: $20/hit (bought in LA, sellers' market)
+ [January '95]
+Shrooms: 1/8th $20-30, depending on quality and availability. About half an
+    1/8th will generally do.
+ [April '95]
+Ecstacy: $20/hit
+LSD: $1/tab (retail; purchased by dealer for less at UC berkely)
+
+Location: Sacramento
+Date: December 25, '94
+Chronic green bud: $20 per 1 gram (if lucky)
+
+Location: San Diego
+Date: April '94
+Speed: $20 per 1/4 gm, $80 per 1/16 oz
+ [2nd source, May '94]
+Mexican 'dirt' weed: $100/ounce, $15/eighth, $25/quarter
+Bud: up to $65/eigth "one or two hits cause you to trip"
+ [3rd source, November 15, '94]
+Cannabis:
+    * $20/ .25 oz. Okay, semi-shitty Mexican brown.
+    * $20 / .125 oz (1/8 oz) Excellent "New York Kind Green" ??? I mean really,
+      really good. Takes next to nothing to go insane.
+ [January 26, '95]
+Weed:
+  * Mexican shit: 1/2 oz for $35.  Pretty shitty stuff.
+  * Extremely fine yellow/orange hair: 1/4 for $50
+
+Location: San Francisco
+Date: June 93
+Mushrooms: psylocybe cubensis ~$75/ ounce.
+Methamphetamine: $100/gram
+MDMA: $150/gram (10 hits) "gone up a lot lately due to rave scene...used to be
+    $75/gram last year."
+U4Euh: (Verbosamine, Intellex, Ice) $125/ gram
+2CB: $100/ gram
+heroin: $200 gram
+cocaine: $75 gram
+mescaline: $50 gram
+ [2nd source, Bay Area, December '93]
+LSD: Purple shields $4/blotter, very weak (Suns are stronger, medium)
+ [3rd source, Bay Area, October '94]
+Cannabis: ~$20/gram.
+ [16th Street/Mission, March 26 '95]
+Heroin, tar: $80/full gram. Everywhere.
+Cocaine: $40-$60/full gram. Makes your face numb, but too happy to care.
+ [Mission District; Civic Center, Market Street; Tenderloin, March 26, 1995]
+Crack: $10/good-size rock. Suits from downtown are smoking it too.
+
+Location: San Rafael
+ [May 11 '95]
+Pot - Fluffy green buds (super stoney)  $60 1/8oz  $350/oz
+Speed - Crystal (the real deal)  $25 1/4g
+Speed - Crank (yellow) $90 1/16oz
+Ecstasy (MDMA) - $20 (capsules and pills)
+LSD - $3/dose
+
+Location: Santa Cruz
+Date: April '94
+Shrooms: $15/eighth, $25/quarter, $500/half pound. High quality.
+ [April 20, '95]
+Speed: $20 1/4g (good crystal)
+Buds: $55 1/8oz, $350oz Sticky Green (super stony)
+MDMA: $20 (capsules 120mg)
+ [June 3 '95]
+Speed: 1/4g (crystal) $20
+Green Buds: $55 1/8oz (Small buds w/ red hairs) $400/oz (Getting expensive!)
+Mex Buds: $30-$35 1/8oz (Lots of seeds, 2 big bong loads to get high)
+MDMA: $20 (capsules 120mg)
+LSD: $3/dose
+
+Location: South Bay Area (Mountain View, Cupertino, West San Jose, Sunnyvale)
+Date: May '93
+marijuana:
+- Green Bud #1: Light green in color.  Totally covered in red hairs.  Full,
+  big, mature buds (Some weigh in at 15+ grams each) good smell, great high.
+  Good availibility.
+  $60     3.5 grams
+  $425    1 oz.
+- Green Bud #2: Dark green nuggets.  Very dense and squishy.  Intoxicating
+  aroma. Burns well due to moisture content (not too dry, not too wet). This
+  is the one hit shit.  It comes around twice a year from Humboldt County.
+  Very hard to find, rarely available in quantities.
+  $55 3.0 grams
+  $400    1 oz.  (If you can find someone who can keep this much around)
+- Brown Mexican Bud #1: Shitty, shitty, shitty.  It looks shitty, smells
+  shitty, and tastes like burnt dirt.  A friend found a rusty screw in a 1/4
+  lb. sack.
+  $20     3.5 grams
+  $150    1 oz.
+  $500    1/4 lb.
+  $1700   lb.
+
+
+    State: Colorado
+Location: Boulder
+Marijuana:
+ [October '94]
+Pot: Green Bud; Weld County Grown "Oglebud". Same as last year fewer seeds,
+    skunk aroma, Northern lights strain. Good high 2 hits. $3500+ lb.
+Shrooms: right from the source. Nederland CO $4500 / 10 lbs distributor price.
+
+Location: Denver
+Date: November '93
+Hash: $10-20 a gram, $250-325 an oz, $900-950 quarter pound
+XTC: $15-25 a hit, $1700-2400/oz. Availability is irregular, quality unknown.
+LSD: $2-5 a hit, $70-150 a sheet (100 hits), $700-1000 ten sheets.
+    Availabilty irregular
+Mushrooms: $30-45 a quarter, $900-1100 a pound, $700-800 ten pounds+.
+    Availability somewhat better than lsd
+Heroine (black tar only, no china white powder): $15-20 for a small piece
+    1/20 to 1/30 of a gram, $120-180 for a half gram. Availability is good
+    but must be bought on the street.
+ [December '93]
+Marijuana: Good red hair commercial mexican- $90/OZ, $900/5 pounds
+ [March '94]
+MJ: 750-1000/pound for commercial mex. to get below $900 you need to know an
+    importer, preferably a mexican insider.  A friend got a pound for $650, but
+    it was moldy and didn't smell too good.  Still stony though.
+
+
+    State: Delaware
+Location: Newark
+Date: July 24th '93
+Alcohol: $1.75 domestics, $2.75 imports, $1.75+ mixed drinks. in a bar
+Marijuana: $45-55/quarter, decent stuff, good availability
+LSD: $4/hit; Recent brands: Snowmen, plain grey blotter; Availability: fair
+MDMA: $20-25/hit "variable, but usually good"
+Cocaine: $80/gram last summer for pretty good stuff, I don't keep track
+    of coke prices because I don't buy it very often.
+Note- "Just about anything is available here, nobody seems to have any trouble
+finding weed, hash, LSD, speed, coke or crack. MDMA availability seems to be
+highly correlated with certain parties where there is little or no beer and
+many weird looking people dancing all night that happen about once or twice a
+month. Shrooms, microdots that are alledgedly mescaline (but more likely one of
+its more potent analogues), ketamine, PCP, heroin and various pharmacuticals
+are all available but if you don't know the right people it might take a week
+or two to find them.
+
+
+    State: Florida
+
+Location: Daytona Beach [April '94]
+Pot: 120-1OZ 60$-1/2 40$-1/4 20-1/8. Sometimes good sometimes not so bad.
+Locally grown: 5$ a oz, Really shitty but 2 jays get ya there
+
+Date: August '93
+Location: Gainesville
+Pot - $40 / quarter ounce
+LSD - $5 a hit. Just starting to trickle back in after a 6 month drought.
+Nexus - $25 / capsule. Only place I know of to get it is a head shop.
+Shrooms - "still haven't seen them, only know of one person who has this
+           summer."
+
+Location: Miami
+ [Early 1993]
+LSD: hits $5 each; sheets $135 (white THICK blotter)
+ [November '94]
+MDMA: "Seems to be on the upswing in Miami, FL.  Waffers (previously mentioned)
+    are going for about $20 each.  This is most likely due to their sheer
+    abundance.  Also, some funky lab synthesized what they call "Red Turbos".
+    These look little tiny, little, red Advil pills.  Rummors claim that they
+    are very clean (chemically.  Few impurities and by-products) and leave you
+    no hang-over what-so-ever! Some people claim that they contain both MDMA
+    and MDA."
+-Note: Some people claim that MDEA (Eve) is surfacing in North Florida, but as
+of now it seems to be just another rumour.
+ [January '95]
+MDMA:
+  * Waffers are going for about $25 / tablet.  Discount prices are usually $200
+    / 10 waffers, or if you deal (or have the money I guess) $510 / 30 rolls.
+    No real complaints on quality, except for some unfortunate souls who seem
+    to have bough MDEA instead of MDMA.  Nothing really wrong with the Eve,
+    except that if you buy Adam, you expect Adam, not Eve!
+  * New MDMA tablets have surfaced (rumours claim that they are from Germany,
+    as of now it's still a rumour) that have the word "ADAM" printed on both
+    sides of the tablet. Excellent quality.  Prices range between $25 - $30.
+    Slightly longer trip length with standard strength.
+-Notes: Availability is very, very, very high. MDEA is definitely surfacing in
+  Miami, most of the times masked as MDMA.  Prices are usually the same, except
+  that the pills are pure white -- no brown specs in them at all.  Slightly
+  smaller in diameter, and the groove along the middle is not as deep as in
+  MDMA waffers.
+ [April '95]
+MDMA: -Rumour- "Double Stack Rolls, $30-40 per pill. Suppossedly, they are
+    twice as thick as normal MDMA "Rolls", while still having the same size
+    diameter.  Price seems to be rather steep for them. Quality reports are
+    very positive. Most people comment on how clean the pills are.  Apparently,
+    they are few to no impurities in them, and definitely no heroin.  I guess
+    that's why people have not been vomiting lately."
+    
+Location: Sarasota
+Date: November '94
+Cannabis: $30-40 1/4 ounce. Decent import available.
+LSD: $5 a hit. "White Blotter and Beavis butthead triple-dip"
+Shrooms "It's rain season, get 'em while the getting's good FREE"
+
+Location: Tallahassee
+ [January '95]
+Marijuana: $35-$45 a quarter, good quality.
+LSD: $5/hit
+N2O: $10/hit
+Mescaline: price unknown but readily available
+Heroin: $150/half a gram, good china white.
+Shrooms: $25/eigth, somewhat rare, not too hard to get.
+Cocaine: $150/gram $40/quarter gram.
+
+Location: Venice
+Date: November '94
+Hydro: 1/4 $40-$50. Beautiful buds, some shake, lots of red hairs and crystals,
+    two or three tokes = StOnEaLiTy! Expensive, but worth it. BIG BAGS!
+LSD: $100 1/4 sheet. Only large quantities available. B&B Triple Dip, Sonic,
+    Felix, Felix on the Moon. Expensive, but, when you're desperate..
+Shrooms: "The Psilocybin Gods Have Spoken!  Let it Rain!  FREE!"
+-Note: "Following a recent raid in Venice, FL, marijuana, and even worse, LSD,
+have been very hard to find.  However, people are starting to calm down,
+and availability is improving on Marijuana."
+
+Location: West Palm Beach
+ [January '95]
+Marijuana:
+  * Green Mexican. Sometimes lose, sometimes brickweed. From good to very good.
+    $15-20 an 1/8th, 50-60 1/2oz, 90-100 an ounce. Very available from all
+    kinds of sources.
+  * Kind Buds: Any variety is sold as local name "Krypto", best available is a
+    crystalized, lighter flourecent green Skunk #1. Most is not as good but
+    same price is charged. $50-65 an 1/8th, $90-125 a 1/4. Gotta be better
+    connected to get it regularly.
+  * On the street: "Nics" (Nickle bags) containing .5 to 1.5 grams of anything
+    from medicore mexian brown, to good green jamacian ganja can be bought from
+    from black dealers or "weed holes" the mariajuana equivalent of a Crack
+    house, for $5.
+LSD: Blotter acid. $5 a dose. most are weak 50-100ug. Some hits 250ug +.
+    Avalibility inconsistent, demand always greatly exceeeds supply. Need more
+    of it!
+P. Cubenesis Mushrooms: grow plentifully in cow fields all west of town and
+   especially Martin county. Pick all you want, don't get caught! *FREE*
+MDMA: Wafers and Gelcaps available around clubs, etc. Harder to get. $25-30
+Cocaine: Available fairly widely. $60-100 a gram.
+
+
+    State: Georgia
+Location: Atlanta
+Date: December '94
+Weed:  about $45/quater OZ, dry mexican.
+ [March '95]
+cocaine:
+  * $225 8-ball kick-ass chunks of rock. white or yellow, hardly cut
+  * $20 tiny-bag, mostly cut, sux, buy an 8-ball instead
+crystal meth: $25 -tiny-bag - sux too way cut
+pot:
+  * $30-35/qbag decent smoke
+  * kind bud $70-150 /qtr bag kick-ass one bowl fux you up hard
+ [March '95]
+Marijuana - $40 1/4 oz.; $100 1 oz.; $1000 1 lb. Very good bud sweet and
+    sticky. VERY plentiful.
+Blotter acid: (Felix the Cat) $4 a hit - $250 for a 100 hit sheet
+
+
+    State: Hawaii
+ [November '94]
+Crystal methamphetamine:
+    1 gram - $150-250
+    1/8 oz. - $850-1,000
+    1 lb. - $40-46,000.
+(According to the Narcotics Division of the Honolulu Police Department)
+
+Location: Honolulu
+  [April '95]
+Marijuana: Hawaii-grown, $600-800 per ounce, when it can be found.
+-Note: Eradication efforts in the islands have been highly effective. One
+result is that high-schoolers are turning more and more to crystal
+methamphetamine.
+ [May '95]
+X: $30.00 usually in clear capsules with a yellowish powder inside.
+pot: local grown is running $600.00 - $800.00 an ounce there have been some
+    "imports" going for $200.00 an ounce
+
+
+    State: Idaho
+Location: Boise
+Date: Winter/Early spring '95
+Marijuana- 
+  * Mexi-dry bud--$20/eighth,$90/oz..$1000/pound
+  * Nice, dark bud--25-30/eighth, most common..$150/oz,1500/lb..hard to find
+    more than 1/2 lb. from one person
+  * Killer green Bud--wet,KIND bud..rare, But an awesome smoke 45-$50/eighth,
+    90-100/quarter
+  * "Lsd-laced"--surprisingly common, $35/eigth
+Acid:
+  * Kaliedascope-$5/hit
+  * Felix, jesus christ:5-$10/hit..all acid is increasingly easy to get..
+Crank: very common, Price unknown
+Shrooms: somewhat rare except in summer...20-30 an eighth, mostly locally
+    harvested or grown..
+Crack, cocaine,heroine, etc....very expensive..need to have personal
+    connections, But is obtainable.
+Note- Many drugs here are from Oregon, 55 miles away..lax drug laws make the
+ drive to Ontario, Oregon, worth it.
+      
+
+    State: Illinois
+Location: Champaign (UIUC campus)
+Date: March '94
+MJ: $40 1/4. Beat-up, brown brick buds.  Not too much smell.  Decent high
+    considering what the stuff looks like.  You'll come down and be sleepy in
+    an hour.
+Shrooms: $25 1/8  $50 1/4. Consistent supply. Type Unknown. 1/16 is good for
+    about a 5hr trip.
+
+Location: Chicago
+ [March '94]
+Heroin: $20 bag, about 60-80 mg. Very fine white powder. Cut with sleeping
+    pills. High quality. Increasing availability. [West, Late February '94]
+Acid: $5/hit - blotter paper. "Ant"-acid. Common, but variable type. [North,
+    Early March '94]
+Methedrine: $10 bag. Cut with caffeine.  Large physical quantity, so so effect.
+    Common. [Truckstop, Late February '94]
+ [Hyde Park, June '94]
+Marijuana: $40/quarter.  Almost all nice, green buds. Nice!
+Hashish (unknown type): reputedly imported from Germany. Golden-brown.
+    Extremely mild effects, but very cheap and easily available.  $20/eight
+    grams.
+ [Hyde Park, October '94]
+Marijuana: compact, dark green buds, with a few seeds and stems, in a
+    black-tinted plastic packet.  Very nice, and relatively common.  $10 will
+    get you a little over a sixteenth of an ounce.
+ [Soldier Field; Rolling Stones concert, September 12, '94]
+Hashish (Morrocan Black): dark, with a nice flowery aroma.  Moderate effects.
+    $10/gram, or $20 for a three gram slab.
+ [Hyde Park, December '94]
+Marijuana: small, tight light green buds.  Unusual smell---indica,
+    perhaps? A $5 bag is enough to roll a decent blunt.
+Marijuana: dark green resinous nuggets, very tightly compressed, in
+    clear plastic ziplock bags with black spades imprinted on one
+    side.  Extremely potent.  $10/sixteenth-ounce.
+ [Hyde Park, January '95]
+Marijuana: extremely sticky, small to medium-sized pressed buds, with
+    few seeds and almost no shake.  Light green color; very strong
+    aroma. $20/eighth.
+ [Hyde Park, April '95]
+Marijuana: "baby sens".  Moist, medium-sized dark green buds with
+    orange hairs.  Next to no seeds.  It's not easy to get your hands
+    on this but it's well worth the trouble.  $60/half-ounce,
+    $100/ounce.
+
+
+    State: Indiana
+Location: Muncie
+Date: February '95
+Marijuana: About $35-$45 per 1/4; about $125 per OZ. Constant since about 3/94.
+Mushrooms: about $25 for an 1/8th and about $40 for a 1/4oz. But the shrooms
+    are REALLY tough to find and can rarely be found, even with quite a party
+    campus right here.
+
+Location: Portage
+ [October '93]
+LSD: Very good stuff. $3/dose, $90 half-sheet of 50. Availibility is good.
+    Usually takes a day to get.
+[20 December '93- Portage and surrounding cities]
+Marijuana: TIGHTLY compressed bud. Dark green, good 'skunky' smell. Strong
+    hits, one joint gets even the heaviest smoker stoned. Very easily obtained.
+    Delivered right to your door. $40 a 1/4 oz., and $120 an oz.
+Note: Slightly less than an ounce is only a misdemeanor in Indiana! They are
+searching a lot of vehicles, lately, so if you have an ounce or more, be
+careful, it's a stiff felony! Chesterton, Indiana, or neighboring city just
+spent a whopping $10,000 for a drug sniffing dog they now carry around to
+search vehicles on the spot. First month's statistics are 5 marijuana busts. Be
+warned!
+
+
+    State: Iowa
+Location: Des Moines
+Date: April '94
+Marijuana: 1/8 oz - $25, 1/4 oz - $45-50, 1/2 oz - $85-100, 1 oz - $140-170.
+    From the sources I've seen, bags are mostly buds, very little shake. Buds
+    are full of red hairs and have a strong, green odor, usually around 2-3
+    inches long.  General rule is to get it when shipments first come in, and
+    you'll end up with the longer buds with very few seeds, but a few big
+    stems.  Very intense high, 1 or two bong hits will send you flying, a
+    couple bongloads will knock you on your ass.
+LSD: $5-6  Everyone says it takes a couple hits to work
+Shrooms: $35 for an 1/8 oz., but I haven't seen 'em.  Pretty rare.
+[They really depend on how well you know the source, and availability.
+(Everyone seems to run out at the same time around here)]
+
+
+    State: Kansas
+Location: Lawrence
+ [January '95]
+Marijuana: 1/4 oz. $35.00; Q.P. $425.00. Dry green bud out of KC,
+    compressed, light seeds. Quality: Commercial Grade
+Note- Prices are down a bit since the KU students are back but the quality
+is lower too.
+
+Location: Manhattan
+Date: 2/14/94
+-All of these readily available-
+Mj: -Mexican commercial pressed, $45/quarter, $135/ounce. Average -- typical
+      mexican weed
+    -Good skunk bud, $55/quarter, $150/ounce. Very good -- 1-2 hit stuff.
+Cocaine (powder): $40/quarter-gram, $250/eight-ball 3.5g. Cut somewhat -- hard
+     to tell how much
+Crank,Speed,Methamphetamine: $40/quarter-gram, $250/eight-ball 3.5g. Less than
+     50% pure -- cut with some white vitamin tablet ?
+LSD (blank blotter): $5/hit. Average dose -- ~75 micrograms
+Mushrooms: $10/gram, $60/quarter. Good shrooms...always fun
+
+
+    State: Kentucky
+Date: November '94
+Cannabis: $25/ 1/8th "all bud"
+
+Location: Bowling Greene
+Date: April '94
+Lsd: $5/hit. Good quality.
+
+
+    State: Maine
+Location: Brunswick
+Date: October '93
+Marijuana: $165-$185/oz. Green and brown, flat compressed buds. Doesn't smoke
+    all that smooth but does the trick.  It is everywhere now, though harvest
+    is slowing down; prices will rise soon as the supply shifts to out of state
+    sources.
+    "kind bud": $45-$55 1/8 oz. Bright green with whitish crystals, nice
+    nuggets. Haven't gotten a chance to try any, but all reports are that this
+    is one hit dope.  Harder to find.
+LSD: Sporadic availibility. Snowmen: $3/hit $150/sheet  Plain ol' acid, nothing
+    special, not particularly speedy but not particularly strong. White Blotter
+    $4/hit. Got it once, similar to snowmen, couldn't tell the difference.
+Shrooms: Come and go, when they are here they are expensive but very good.
+    $25-$35 1/8 oz.
+
+Location: Orono
+Date: April '93
+LSD: $5/ hit "Quality varies slightly"
+     Availability "sparce, arid, very undependable"
+
+
+    State: Maryland
+ [October '94]
+Cannabis: ~$25/eight. Mediocre quality.
+
+Location: Laurel
+ [April 1, '95]
+Cannabis: 80$/ Oz. good (Red Hair)
+
+Location: Baltimore, MD,  USA
+ [March 10, '95]
+Cannabis: 10$/ gm. fair
+
+Location: Dayton, MD, USA
+ [April 16, '95]
+Cannabis: 120$/ Oz. excellent (Super Red Hair)
+
+
+    State: Massachusetts
+Location: Amherst
+Date: January '94
+MJ: 30 1/8 oz good, fluffy greed; $50-55 1/4 good, fluffy green; $$25 1/8 oz
+    for commercail, compact bud. $10 1/4 for leaf. 1 oz. = 130 for good bud;
+    1 oz. = 180 for KIND bud (no joke, the real thing)
+acid: $3 or $4 for a hit
+mushrooms: $25 1/8 oz.  $50 1/4 oz.
+
+Location: Boston
+ [February '94]
+MJ: $75/qtr for good, green, sticky, few seeds, or $250 oz if you buy bulk!
+    $40/qtr for mexican commercial grade, seeds'n'stems, gets the job done.
+ [3rd source, March '94]
+MJ: 1/8 oz. $25, 1/4 oz. $45, 1/2 oz. $75, 1 oz. $125, QP $375-$450 (depending
+    upon quality)
+ [4th source, April '94]
+Ecstasy: $20-25 / hit
+ [5th source, September '94]
+Cocaine: ~$60/gram
+ [6th source, September '94]
+Cocaine: ~$40-$50/gram
+ [Tufts University, February '95]
+Blotter LSD: "Lips and noses" (H.R.Giger-like print) $5
+ [February '95]
+Weed:
+  * Dirtweed: can vary from $20-40 1/8oz.
+  * Nice green ganja: firm $30-45 1/8 oz.
+  * Kindy's, or the krazy krystal killer buddah can range anywhere from $50-75
+    an 1/8 oz.
+
+
+    State: Michigan
+Date: March'94
+Shrooms: $15-$20/eighth
+Acid: $2-3/hit, $120/sheet
+
+Location: Ann Arbor
+ [December '94]
+Marijuana: $25-$35 1/8 oz $50-$60 1/4oz
+Acid: $4-$6 /hit
+shrooms: $30 1/8th
+Meth: $70 gram
+Coke: $75 gram
+Ephedrine (OTC): $8 for 250 25mg tablets
+opium: $10 gram
+
+Location: Lansing (East)
+Date: November '93
+Marijuana: $25/Eight, $45/Quarter. Good stuff, little red hairs.
+
+
+    State: Minnesota
+Location: Duluth
+Date: November '93
+Marijuana: Generic commericial run of the mill green: $60 per 1/4, $220 per
+    oz. or $125-175 per oz. depending on who you know.
+    One-hit-fall-down-and-spasm-wonder-weed $100 per 1/4 or $325 per oz.
+    depending on who you know. Availability scarce.
+
+
+    State: Missouri
+Date: Early May '94
+Acid: $5/hit. Blotter w/ Felix the cat print. Quality: "Absolutely AMAZING. I
+    took three hits of Felix, a couple bong hits, and my world was awash in
+    tracers and patterns, a veritable overload of visual information. Fairly
+    mentally disorienting, but not the worst. VERY strong". Sometimes available
+    in the rave scene.
+
+Location: Columbia, University of Missouri
+ [early December '94]
+Pot: Once of NEON green buds for $140.  That O-Z gave me the best buzzes of '94
+    and I miss it, but I saved the seeds and am waiting for the spring thaw.
+ [February '95]
+Pot: Standard red-haired commercial grade weed. Good buzz. $40 for a 1/4.
+
+
+    State: Montana
+Location: Billings
+ [June 1995]
+Marijuana: $25/eighth, $45-50/quarter, decent stuff, ok availability
+LSD: $6-7/hit; bad availability
+
+
+    State: Nevada
+Location: Incline Village area (North Lake Tahoe)
+- see Californian entry
+
+
+    State: New Hampshire
+ [June '95]
+Location: Manchester to Plymouth (Middle of State)
+Weed: Almost always available and in wide variety-
+  * Schwagg (crap) - $20 for 1/8
+  * Vermont Kind - $30 for 1/8
+  * Skunk - $30-35 for an 1/8
+  * Good Sativa/Jamaican (my fav- rare) - 35-40 for an 1/8
+Acid: More or less common, usually around once a month or so.
+  * White Blotter - $5-7 a hit
+  * Purple Jesus (simply amazing) - $10+ per hit
+Shrooms: Almost always in season (Cow country up here):
+  * Average 1/8 runs around $40
+  * Good 1/8 varries above $40
+  * Blue Honey - Rare, but available if looked for in right area.
+    REAL Expensive though, prices fluctuate.
+Hash: Blonde Hash - $40 for an 1/8. Fairly easy to get.
+
+
+    State: New Mexico
+Date: February '94
+MJ: * tex-mex $100 a z
+    * local indica $175 a z
+    * oregon sticky $250 a z
+
+
+    State: New York
+
+Date: November '94
+Location: Binghamton (university)
+Weed:
+  * Commercial Mexican: $25 1/8; abundant but not too great, medium grade for
+    commercial
+  * Kind Bud #1 $50-60 1/8, $20 gm.   Sticky crystalized kick ass bud. Stay
+    away from the grams though.
+  * Kind Bud #2 $50 1/8 Nice fluffy buds.  High is similar to KB#1, but not as
+    good tasting.
+  * Northern Lights #1 $50 1/8, $20 gm. ONE HIT SHIT. Four hits knocked the
+    shit out of me.
+  * NL#2 same as #1 except nice black streaks in it.
+Shrooms: dry, of various species: $30-35 1/8. I would say these are high end
+    shrooms, i ate a few stems and lost my mind.  Range from 2-5 caps per
+    eighth.
+Acid:
+  * $7 tab "Freshly Dipped" white blotter. Yeah right!! BUNK.  I laughed for
+    1/2 hour and had a sore back for a while.
+  * Jesus Christ $5 hit.  Very good, highly visual
+ [Binghampton, February '95]
+Weed:
+  * Commercial Bud #1:cheez bags  $10/gm.
+  * Commercial Bud #2: decent, seedy, shakey $380/3oz.
+  * Tompkins County Kind: Kind yes, but also pollenated.  I got the seeds
+    though! Expensive, but nice high.   $20/about 2 gm.
+  * KB#2: superkind shit! $300/oz.
+Mushrooms:
+  * 30-40 people did it on a saturday. Great vibes. Real good potency, slightly
+    moist $30 1/8.  Good bags.
+  * New Mushrooms #1  unknown potency, vibes, everything.  look good with large
+    caps to boot   $25 1/8
+  * New Mushrooms #2 $150 oz., will be sold for $30 1/8
+Acid:
+  * White blotter "Trains"  varying potence, a little weak, speedy, depends on
+    the person.   $3-5 hit.
+  * Liquid acid. Present in Binghamton, not on campus YET!  Rumored to be good.
+XTC: $25 half moon, $50 full moon, fuck it !  Wait for J-- to get it in!
+Nitrous: expensive, at headshops, $7/10  Supermarket $15/24
+
+Date: August '93
+Location: Brooklyn ("Prices apply generally for the whole NY area")
+Shrooms: 1/8th $20
+LSD: 1 tab (blotter square) $3 - $5
+Marijuana: 1/8th $30 - $35
+           1/4   $45 - $50
+  *the MJ prices are for street quality, ie. its not specially grown and
+   usually not called anything. sometimes referred to by name such as skunk,
+   chocolate thai, etc but the credibility is left up to the buyer to decide
+  *MJ is usually sold in Xbags rather than by weight. In other words you
+   would get a 20 bag (for $20) and hope that its large.
+ [other source, November '93]
+2CB: $10/hit. Largish gelcaps, white powder inside.  Takes effect in about
+    an hour, very ticklish sensation all over, feels good to be touched,
+    hallucinations kick in soon after and trip resembles acid thereafter.
+    Ends abruptly without the sleeplessness or lingering burnt-out feeling
+    of acid.
+
+Location: Buffalo
+Date: January '94
+Weed: $30 1/8 oz, $55 1/4 oz. do to good,  not to big.
+    $45 1/4 oz  shaggy bud (lot's o seeds)
+Acid: 1 hit, $5
+Mushrooms (from New York) $50 per 1/4 oz.
+
+Location: Ithaca
+Date: October '94
+Pot:  Price varies with quality:  $45/quarter for seedy ditchweed, $60/quarter
+    for kind mex, $65/quarter for better buds off the same damn plant :-)
+    Smaller bags can be purchased: $10/bud for about 1 gram-1.5 gram buds.
+ [January '95]
+Weed:
+  * 1/8th of superkind bright green nugget buds for $30. Insanely great high,
+    but it was the last of last year's harvest, so don't count on getting more
+    for a while.
+  * Standard sleepytime mex weed for $25/eighth.
+-Note: Prices have been going down.
+
+Location: New York
+ [March '94]
+LSD: $5/hit
+ [2nd source, November '94]
+Cannabis:  $10 for 1.8g to 2.4g. Quality always good, sometimes excellent,
+    sometimes Indica. This is a "store" local to my (low-income) neighborhood.)
+Blotter: $200/sheet. (Comments:  "imported";  good quality;  average strength;
+    no design (pure white blotter))
+ [January '95]
+Weed: Hawaiian Skunk, 10$ a dime., 90$ a quarter... WORHT EVERY PENNY!  20 Hits
+    and you see light visuals....  purple, and strong smell!
+ [Bronx, March 14 '95]
+Pot: about 130$ an oz. minimum, expect to pay up to 200$, it's worth it...
+-Note: "A LOT of good weed out there lately..  When you buy in quantity, it is
+    always sold under numerous names, with the different names representing
+    different strains ...  i.e. Indica, Lobo, Lethal, etc.......  The quality
+    is excellent, go for the BRIGHT green Indica (I thought Indica was purple?
+    Mumble...), excellent quality..."
+
+Location: Rochester
+Date: Sep/Oct '94
+LSD:
+    *White blotter: $3-$6 hit, hard to come by. misc potency not great.
+    *Speckled blotter (looks loke recycled paper or certs), nice. LONG trip,
+     probably $1-$2 more per hit than the white
+Marijuana: everywhere.
+    *Dry, green brown weed. Small buds (1/2 inch - 1inch) $20-$25 1/8 $80 1/2
+     oz. Really fast high, hits like a tank. Also somewhat seedy.
+    *Local Grown indoors, sometimes bags are damp. real nice high, large bags
+     (> 1oz) have 2"-3" buds in them.  Varying price but usually $20 1/8
+    *"Bud-Weed/Kind" Seen a couple of weird bags while "shopping", bags are all
+     > 1/2 oz, and consist of a number of 4"-5" buds, no seeds, no shake. The
+     buds have one solid stem in the center and are about 1" in diameter, looks
+     like the tops off someones local plants, but they try to pass them off as
+     imported.. $130-$180 oz. Killer high, buds stick to your fingers .
+ [March 17 '95-in city]
+Shrooms: 1/8 oz. for $30.  Quality was very poor.  Only a mild pot-like buzz
+    when the whole eighth was shared between two people.
+Marijuana, Hash, Thai stick: also available (and viewed) but prices weren't
+    asked. Hash (free sample given anyway) was of decent quality but nothing
+    really special. Marijuana and thai stick of unknown quality though thai
+    stick looked rather tempting.
+Heroin and Coke: also available in unknown quantities and qualities
+ [April/May '95-college campus]
+Marijuana:
+  * Regular bud #1:  nice green, usually moist and sticky with very happy,
+    usually long-lived effects (occasionally even mildly trippy) when enough is
+    smoked. Runs $25 an eighth.  This is the common price for most eighths up
+    here.
+  * Regular bud #2:  Often a fair amount of shake and stem, but an absolutely
+    incredible high nevertheless.  Rivals some of the kind varieties purcased
+    usually.  VERY reliable buy for a mere $40 a 1/4 oz.
+  * Kind bud #1:  Almost too moist, very nice light green color and nice sized
+    buds.  Very potent and smooth with a very refreshing smell to it.  $40 per
+    eighth.
+  * Kind bud #2:  Open the bag for two seconds (or even not at all) and the
+    whole room smells.  Overpowering to say the least.  Not as potent as the
+    price made it sound at $50 an eighth.  It was really good, but definitely
+    not worth that amount of cash.  Spending over $35-40 an eighth up here is
+    definitely not worth it, no matter what you're told.
+LSD: Comes round in spurts.  You'll go from seeing sheets available to
+    absolutely nothing at all for a month.  Not close to the availability that
+    pot has but still pretty common with a little waiting involved.  Never any
+    complaints about the quality... always been great at around $3-5 a hit.
+-Note: Prices have not varied at all in at least a year for the basic varieties
+    of pot that will be mentioned here.
+
+Location: Staten Island
+ [April '95]
+Shrooms: Sold in $10 bags, you usually need more than one. -or- $25 1/8th oz.
+    Out of season.  Not indigenous. (means be careful, you never know!)
+LSD: Blotter square $5 - Good to supreme (varies) - "Hearts+Ankhs" (red and
+    green), Tye Dye ("White Rose"), or pure white. Rectangle (not perforated)
+    $10 - "Green Monsters" (amazing).
+Marijuana: Usually sold in $10 bags (1.0 - 1.2 grams high quality extremely
+    sticky bud) or $5 nicks (1.0 grams of good hydro or red hair thai, fluffy
+    bud, excellent high) Dirt is always in fat ass bags, don't care to buy
+    them. 1/8th oz. $25 - $30 of good quality; 1/4th oz. $45 - $50 high quality
+    street (skunk, chocolate thai); 1 oz. of hydro $120 (excellent, mellow
+    high); 1 oz. of dirt $80 (save your mone)
+Hash: $10 for a razor head's worth, have heard green hash is here. Supposed to
+    be very expensive.  All hash is very hard to get.
+
+Location: Syracuse
+ [University, February '95]
+Weed:
+  * Good stuff. light green, almost kind bud...$35 for a fat eighth, $45 for a
+    quarter.
+  * Kind bud: $60 an eighth
+  * Hydroponic bud: $50 and eighth
+Ecstasy: $30 a pop
+Queludes: $35 a pill
+
+
+    State: North Carolina
+Date: Early-mid June '94
+Acid: $250/sheet(100 hits) (Felix the Cat; see Missouri entry). Availability:
+    "Good luck! You'll have to be connected to find it, but it's there!"
+
+
+    State: Ohio
+Location: Columbus
+ [June '94]
+LSD: $4/hit, $140/half sheet. Grey paper, medium dosage, nice visuals.
+    Availability sporadic
+MJ: $25/ 1/8, $40/ 1/4. Lots of seeds, but some pretty tight buds as well.
+ [September '94]
+Marijuana:Commercial - $20-$30 per eighth, $125+ ounze
+Marijuana:Kind       - $40+ per eighth, unknown per ounze
+Psylocibe:           - $25 eighth
+LSD:                 - $4-$5 hit, $150-$200/sheet
+
+Location: Oberlin
+Marijuana: Decent quality, $25-$35 per 1/8 ounce. ($25 per 1/8 in a half,
+           $35 for 1/8 by itself)
+LSD: $5 a hit blotter/liquid
+Shrooms: $30 an 1/8th. Nice.
+
+
+    State: Oregon
+Location: Portland
+ [January '94]
+MJ: $35 1/8 oz of GOOD bud, i mean good.
+Mushrooms= $400 1/2 lb.
+ [June '95]
+MJ -40$ an eighth or 15$ a gram, GOOOOD shit
+Shrooms- 25$ an eight- good?
+Marijuana: (must commonly called BUD around here) 1/8oz (common: 3.7 grams):
+    $40; 1/4oz : $75; 1/2oz : $130. Slightly wet, nice medium shade of green,
+    with red hairs and white crystals surronding nice, fat buds.
+Shrooms: 1/8oz : $20. Beautiful purplish, blue caps about 1 1/4" diameter,
+    dosage is about 1/8th oz. This will fry you for 7-8 hours.
+LSD: (most commonly called DOSES) 1 hit: $3; 10 hits: $25; 1/4 sheet (25 hits):
+    $40; 1/2 sheet (50 hits): $65; Full sheet (100 hits): $100-$130; Book (10
+    sheets, 1000 hits): $800. Basic white blotter, occasionally a pattern (I've
+    seen Mickey Mouse, a white blotter with "OOPS" on it, and some Hearts and
+    Ahnks) Liquid is rare. Milage varies, I've had trips last 18 hours...
+Ecstasy: 1 hit: $20 at Raves, $15-$25 elsewhere. Pretty much all around, Pills,
+    powder, capseles with powder in it. Each "hit" Contains a sand colored
+    powder. One hit will fry you, Two will fuck you up.
+
+
+    State: Pennsylvania
+Location: Philadelphia
+ [Various street corners, January 10 '95]
+PCP (Dust, Wet): Quality never really changes. Freshness and quantity vary from
+    corner to corner. $5/bag, $50/bundle (12 bags)
+ [January 21 '95]
+Cocaine: $70/16th, $120/eight ball, $20/half-gram. O.K. quality, better if you
+    buy the 16 or 8, it's still rocked and cut less.
+LSD: $10/3 hits. So-so strength, clean, Kaleidescope fractal design on back
+ [Club, January 18 '95]
+Ketamine (Special K): Medium-high quality. Xtremely clean. $10 per dose. They
+    could really give you a little more for the money.
+ [+Suburbs, March '95]
+Marijuana:
+  * Shwag: 1/8 oz. $20-25; 1/4 oz. $40; 1 oz. $100-$120.
+  * Kind:  1/8 oz. $50-85; 1 oz. $450-550
+LSD (acid): $3-5 per hit; $20-30 tenstrip; $75-250 per sheet. Depending on the
+    quality a user would be able to take as little as 1/2 a hit, or have to
+    take as many as 2 or 3 for a 6-8 hour psychedelic experience,
+Mushrooms: 1/8 oz. $20-30. Mushrooms around here vary in quality as well.  1/8
+    oz. will zoom 1-5 people, depending on the shrooms.
+x, e (MDMA): $20-30 per hit. "Philly's x is rarely pure MDMA, and is often
+    laced with what is apparently speed and heroin."
+
+Location: Pittsburgh
+ [November '93]
+2CB: $10/hit. Largish gelcaps, white powder inside.  Takes effect in about
+    an hour, very ticklish sensation all over, feels good to be touched,
+    hallucinations kick in soon after and trip resembles acid thereafter.
+    Ends abruptly without the sleeplessness or lingering burnt-out feeling
+    of acid.
+ [20 January '94]
+MJ: 1/2 ounce for $90. Quality ok- all bud/no leaves,though a bit too seedy.
+    Many busts lately, though availiability is still ok- but due to a new
+    dealer the quality decreased, not nearly as potent]
+ [January '95]
+Pot: 1/8th (just one huge bud!) $30; 3/4oz. ok shit $140; 1oz. GREAT SHIT!!!
+    $200 (well worth it!!!!!)
+Lsd: blotter is $5 a hit and worth it. 2 will get you fucked for 9-10 hours. at
+    raves: ok shit for $3 a hit. wouldn't reccomend it.
+Shrooms: $30 for enough to get 2 people fucked for a night.
+Percocet: $5 per pill (someone stole a ton so they are pretty cheap).
+ [March '95]
+Marijuana: FAT ounce for $80. "It used to be that you could only get them for
+    $200 and that is still the case for most of us."
+LSD: $7 a hit. Purple blotter/
+Mushrooms (psilos): $35 for an eighth of an ounce.
+
+
+    State: Rhode Island
+Date: November '93
+2CB: $10/hit. Largish gelcaps, white powder inside.  Takes effect in about
+    an hour, very ticklish sensation all over, feels good to be touched,
+    hallucinations kick in soon after and trip resembles acid thereafter.
+    Ends abruptly without the sleeplessness or lingering burnt-out feeling
+    of acid.
+  [2nd source, March '94]
+Marijuana: $10/gram
+  [3th source, October '94]
+MJ: $30 for an eighth of decent green weed, some shake and seeds in it, but not
+    too much.  $35 will get you better pot with more and bigger buds.  Once
+    FOAF got a quarter oz. of crappy seedy, shaky ditchweed for only $40.  $90
+    can get somebody a half oz with lots of shake but also huge kind buds.
+Shrooms:  $30/eighth for shrooms of varying quality.  (About one use in three
+    will make for an excellent trip)
+
+Location: Providence
+Date: February '95
+Weed: Quarter oz consisting of four very kind, huge fluffy green buds for $55.
+    Nice awake stone, not a downer weed at all.
+
+
+    State: Tennessee
+
+Location: Memphis
+  [June '95]
+Pot: regular Mex -- 1/4oz-$25 to $45 .. various kind bud -- 1/4oz-$90 to $100
+Hash: Hard to find. About $10 gram.
+Acid: $3 to $7 a hit
+Shrooms: $30-1/4oz
+MDMA: $20 per roll
+Coke: $80 to $120 for an 8-ball (3.5 grams)
+
+
+    State: Texas
+Location: Austin
+Date: April '94
+Marijuana:
+  * Commercial Mexican: $25/quarter. Bricked, *very* dry, seedy. Greener than
+    other recent batches, fewer red/orange hairs. Harsh smoke, lots of cough.
+    High is somewhat shallow, but has a decent duration.
+  * Commercial Mexican: $25/quarter. Same source as above, but much lighter
+    green, damper. Better, smoother toke, fewer seeds and stems. Stonier.
+  * G9: $90/qtr from the grower, $100+/qtr further down the line. This is
+    supposedly a (Northern Lights x Skunk #1) x (a whole slew of hybrids).
+    Whatever it is, it's the most potent smoke I've ever encountered in my
+    life. Let me repeat that. In my life. It looks like a vivid green and
+    red thai stick, with very little of the white crystalization seen on
+    some of the other Kind in town. The sticks are approximately 1 inch wide,
+    and about 1/2 inch thick. A .25 inch slice from a bud, cut into 4 pieces,
+    will absolutely fry a half-dozen people. Frighteningly good.
+  * Afghani Hash Plant: $100/quarter. Beautiful buds, a little loose. Leaves
+    (when dried) are a lighter green than I'd expected from an Afghani, with
+    whitish tints in some places, interspresed with brilliant shoots of deep
+    red and orange. Very energetic, spacey high.
+  * Green Spirit (Big Bud x Skunk #1): $90/quarter. Intense smell from the
+    skunk, the dried bud looks like it's been dipped in a sugar glaze there's
+    so much resin dried on it. High is very spacy, long-lasting (4-6 hours from
+    1 bowl) and good to groove on. Still around from last time (when I in-
+    correctly identified it as Green Vision. I blame the drugs :-).
+  * Local Skunk Bud, misidentified last time as Jamaican: $75/quarter. This
+    was grown outdoors locally (allegedly 300+ lbs.). Big fat nuggets of 
+    smooth green smoke, a bargain at the price, especially considering that
+    it is moderately-seeded. Lots of people are starting gardens from this
+    stuff. The high is medium duration, but very strong and mellow. If the
+    seeded bud is this potent, I can't wait to try some of the Sinse from
+    it...
+  * Reputable friends have reported seeing unharvested Hindu Kush #3, 
+    Northern Lights #2, Thai Skunk (Thai x Skunk #1), (Haze x Skunk #1),
+    Skunk #1 and 4-Way (Skunk x NL x NL x Skunk). It sounds like upcoming 
+    months will be Kind indeed here at the home of the the Armadillo.
+ [December '94]
+Hash and weed: w/ the same Afghan stamp, $300 an oz for weed, $800 an oz for
+    the hash. it's EXTREMLY good weed. "i take what i can get, but i would give
+    my right leg for that smoke"
+
+Location: Dallas
+Date: November '94
+Cannabis: $25 / 1/4th, "fairly good"
+ [Ft. Worth area, 2nd source, September '93]
+LSD: 50 hits of Mindblaster (paper)/$2.50 per hit "A little on the weak side
+    for me, 3 hits were okay, will try four next time. Friend said 2 were
+    definitely not enough."
+  - 50 hits of Black Dot (paper)/$2.90 per hit "Didn't get a chance to try
+    this one"
+
+Location: Denton
+Date: (Mostly) December '94
+MJ:
+  * Bud: 1/4 oz (usually 8 or 9 grams) $25 - 30, depending on who you know. 1
+    oz. runs $80 for about 30 - 33 grams; 1/4 lb. $250 [12-24-94]
+  * Killer Bud: 1/4 oz. (exact weight) $100, indica that was very fresh.
+    [Sep/Oct '94]
+Acid: Blotter: $5 a hit; Beavis & Butthead, White Blotter, Faces (lips and
+    noses), Fantastia, a few others come around every once in a while. I have
+    been told Faces is the most common, but a little dirty, while everyone
+    really liked B & B.
+Mushrooms: If you can pick 'em they are as free as air, but if you can't plan
+    on spending around $10 per serving, usually a gram of dried or 10 grams of
+    fresh. Variety: Ps. Cubensis all the way, very good mushrooms when in
+    season
+Mescaline:  If you can find it, which is rare, $10 a gram
+Notes: "I also have heard of liquid being available for around $7 a dose, not
+confirmed though. Mushrooms were available until the 1st of December and plan
+on them returning at the end of February or begining of March."
+
+Location: Houston
+ [Southwest Houston, Jan 24, 1994]
+MJ: Med. green, compressed, mexican: 1/2 lb $400.00, 1/4  lb $250.00, 1/16 lb
+    $80.00.
+ [December '94]
+Weed:
+  * Decent mexican, $25 a quarter, $75 an oz, and i have seen bricks for 400.
+  * Regular mexican: $20-25 a quarter, about $450 a p.
+  * Good green get ya super stoned mexican/homegrown, sour but natural scent
+    $500 an LB, 30 a quarter oz
+Acid:
+  * Speedy "space" (thats the design, space) acid; about $5 a hit. Not great. I
+    don't like it. Availability: comes and goes.
+  * Egyption peace symbol on print - $5 a hit, $200 a sheet.
+XTC:
+  * $20 club, $10 wholesale. $15 a piece for 3+, 10 for 50+, 20 -3. Wafer tab
+  with a line down the middle. Comes and goes.
+coke:
+  * $75 an eight ball for some decent stuff;
+  * $150 an eight for numb your teeth from your nose stuff
+  * $10 a quarter gram for shitty burn your nose shit
+  * $120 an eight ball for good shit, i mean g00d
+heroin: around, but hidden.
+methamphetamine: $10 a quarter g.
+ [February '95]
+Weed:
+  * Good redhair mex that i have been seeing ALOT, it comes in these really
+    tight bricks, i mean tight.... not the best for joint smoking, but great
+    for bowls! 75 an oz; i've seen it for 550 a pound ... and have been getting
+    it for 20 a quarter.
+  * Green moist (when i got it) leafy stuff that basicly just peels apart,
+    great joint smoke ... from same supplier, 20 a quarter, takes about a half
+    joint to put me over to the point i like to be, well worth the 20.
+  * Green sunrise, it's a big columbian growers title for this stuff. it's
+    around 300 an oz, and 1 hit will knock ya down, 2 will put you down for the
+    count. heh... but good smoke. oz's is all i see it in.
+Xtc: choclate chip - waffer tab w/ 1 line on one side, 20 a hit for 4 or less,
+    15 5+ .. talked to people selling 100 for 7 a piece, but didn't see it.
+    little dark specs in it, definatly impurities, but good x nonetheless.
+Acid: Only acid i've seen in quanity is flooding most of the nation from what i
+    hear from friends, it's egyptian rainbow, with an egyptian peace symbol and
+    a spade on one side, rainbow on the other. good cid. supposed to be alot of
+    it in new orleans for mati gras...
+Cocaine: About the same as always .. i've seen 1 g for 40
+ [March '95]
+XTC: $10/hit. 2 varieties, an older one that had a manurfacturing defect (too
+    weak), and the new excellent ones.
+Cannabis: Thai Stick, $30/stick. "REAL shit, opiated leaves w/ some sage (to
+    help burning) super mashed into a stick. it's supreme."
+LSD: "Informed reports say that houston is about to be flooded with acid, after
+    about 2 years of being "dry". Supposed to run about $1000 a book (1000).
+    Generic white and green blotter.
+ 
+
+    State: Utah
+Date: October '93
+Weed: ~$110-$135/oz. Killer bud ~$250/oz max.
+
+Location: Salt Lake City
+Date: May '93
+Weed: $25-$50/eigth, fair-extremely good. Availability: constant
+Acid: $3-$10/hit, crappy-extremely good. Availability: erratic
+Shrooms: $20/eighth. Availability: rare
+Mescaline: $10/good dose [1/5 gram]. Availability: rare
+
+
+    State: Virginia
+ [July '93]
+Weed: $50-$75 1/4, depending on quality.  $150 oz normal.
+Shrooms:  $35-$40 1/4
+Acid: $3-$5 hit, sheets vary widely.
+    Shrooms and weed widely available, acid flakey.
+
+Location: Chesapeake/Virginia Beach
+ [January '95]
+Cannabis:
+  * Green #1: Dark but very green buds, *barely* crystallized, OK smell, quite
+    a few seeds but no shake. Average+. $65 1/2 oz., $125 fat oz.
+  * Green #2: Really good buds. Lime green, fluffy, many crystals, bright red
+    hairs, fat heavy buds. Has a strong, piney smell. Best prices I've ever
+    seen for pot this good.  $20-25 1/8 oz., $70 1/2 oz., $130-135 oz.
+  * Green #3: Like #2, but better. In my opinion, not worth the price compared
+    to #2. $30-35 1/8 oz., $100 1/2 oz.
+  * The KIND: "Humble buds". From Humboldt County, Oregon. The Bubonic Chronic.
+    $55 1/8, worth every penny.
+Note: This is the peak of the season for buds in this area (Chesapeake,
+Virginia Beach, etc.). The harvest so far has more than made up for the DRY
+summer.
+
+Location: Newport News
+Date: November '94
+weed: 40-60$ 1/4 ounce, 135$ ounce "Mostly good, but there is a lot of laced
+    pot going around. Mostly laced with PCP or LSD."
+acid: 5-7$ a hit sheets as low 120$ as high as 180$
+shrooms: virtually non available, noone seems to have them since about Aug.
+-Note: "Drug busts are up, especially pot dealers and smokers. I know of 12
+people who have been caught since Sept."
+
+Location: Washington, DC
+ [November '93]
+MDMA: $30/hit. White gelcaps. Took a long time to come on, but lasted a long
+    time.
+K: Not sure how much this is going for, but I've seen it going around a lot
+    at raves, usually just being shared, not sold.
+ [2nd source, March '94]
+MJ: Kind bud, $50 / Eight
+ [3rd source, October '94]
+Hash: $11/gram. deep dark brown, very sticky
+Pot: Red-Hair- 35$ for an 1/8th and 150$ for an oz
+Acid: $4/hit. clear white sheets with minor perferations. According to
+    respondent laced with speed.
+-All these are easily available in Mount Pleasant, and Adams Morgan in WDC.
+
+
+
+    State: Washington
+ [old entry]
+marijuana: $40 an eighth, "outstanding"
+
+Location: Kalama (SW washington)
+ [June '95]
+Marijuana: ok green 35-40 eigth
+Shrooms: 15 g 25 1/8
+Lsd: 5$ a hit varying quality usually shitty
+
+Location: Seattle
+Date: August '93
+Marijuana: $35/eight; Green, sticky, smelly, doesn't weigh and is of
+    relatively low quality.  Available pretty regularly (but always look for
+    something better first).  (South Seattle area)
+MDMA: gelatin capsule filled with a white powdery substance $20 a hit.
+    Available infrequently. Capitol Hill area(Seattle WA)
+ [April 15 '94]
+MDMA: Medium to good quality, $60-$100/gram
+ [October '94]
+Psilocybe cubensis mushrooms (dried): $25 an eighth ($200/oz)
+ [February 15 '95]
+Marijuana: High-quality hydroponic, $45 1/4 oz.
+ [March '95]
+Cocaine: Moderately cut, $70 1/16 oz.
+ [May '95]
+Crystal Methamphetamine: $25 1/4 gram. All qualities.
+Cocaine:
+  * $60 1/16 oz., moderately cut
+  * $80 gram, clean.
+Marijuana: $40 1/8 oz. Exceptional quality
+Ecstacy:
+  * $20 tablet (100 mg?), medium quality, may contain 2CB.
+  * $200 gram, good quality
+
+
+    State: Wisconsin
+Location: Madison
+Date: August 1 '93
+LSD-25 : White blotter (.5 cm square), with picture of a barrel of monkeys
+    labelled FUN.  Very good quality.4 / dose.
+Nitrous Oxide : Whippits!  $7 / 10 carts, $16 / 24 carts, $25 / 4 carts.
+ [December '94]
+Weed: $90/half ounce, pretty decent, grown nearby.
+
+Location: Milwaukee (South Side/Suburban)
+Date: October '93
+Pot: $40/quarter, brickweed; potency of 8 (on scale to 10)
+Shrooms: Yellow cap(?) $8/gm ($95/oz)... "Good buzz off of 2gms - kind of
+    hard to get."
+Acid:   $3-5/hit; quality and features unknown (blotter)
+- "Can't find hash, opium (always rare), or XTC anywhere in the milwaukee
+   area."
+

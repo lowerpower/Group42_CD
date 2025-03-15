@@ -1,0 +1,8 @@
+Crack> Empire, Version 2.05e, 16-Apr-89 by Interstel 
+ 
+crack written by Michael Yakubovich 
+ 
+FILE: EMPIRE.EXE 
+ 
+ORIGINAL: 74 03 E9 40 FE 8E 06 18 7E 
+CRACK   : EB == 90 90 90 == == == == 

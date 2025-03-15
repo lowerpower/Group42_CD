@@ -1,0 +1,185 @@
+<html>
+<h2>INSTRUCTONS FOR THE HP48SX IR DECODER</h2>
+<ul>
+<li>1) The circuit diagram is attacted to this message, as a printable
+ASCII TTYpic. I should be printable on _any_ printer.
+<li>2) Construction and layout is not critical and any metohd should work.
+I used Verowire self-fluxing wiring system. I also socketed all the IC's,
+but that too is up to you!
+<li>3) De-coupling capacitors and power connections are not shown on the circuit
+diagram. Place a 0.1uF ceramic capacitor across the power connections on each
+IC. Also place a 10uF tantalum capacitor across the power connections close
+to the IR transmitter.
+<li>4) The IR LED and IR phototransistor should be mounted on the front panel of
+the unit. The LED goes on the Left, looking at it from outside. They must line
+up with the ones on you HP48 for transmission to occur at all. The range of the
+unit is about 2". 
+<li>5) The IR LED and phototransistor are critical. I used ones available from
+MAPLIN (see my earlier messages for the address), but the equivalents are:
+Phototransistor Maplin YY66W (Infra Red Sensor) = TIL78
+LED             Maplin YH70M (Infre-Red Emitter) = TIL38
+<li>6) The RS232 port links to the PC, not to the HP48 of course.
+<li>7) The circuit as given requires a +5V supply only. The MAX232 device (which
+is expensive and hard to obtain) can be replaced by a 1488 (transmitter)
+and 1489 (receiver) devices but then +/-12V are required for the 1488
+<li>8) Each section of multiple ic's is numbered. 'xx means 74lsxx. A total
+list of ic's required is:
+MAX232, 2*74ls393, 7425 (or 74ls25 if you can get one!), 74ls74, 74ls08, 74ls14
+74ls04.
+<li>9) A list of symbols used is: (as some are non-standard to get them into
+printable ascii)
+</ul>
+<b>
+<pre>
+-\/\/--    resistor
+
+!
+\
+/
+\    resistor
+/
+!
+ 
+  !!
+--!!-- capacitor
+  !!
+
+   !--!
+  +!  !+
+ -!!  !!-   Quartz Crystal
+  +!  !+
+   !--!
+
+
+!/
+!     NPN transistor
+!\!
+ -
+
+\\
+>>
+! /
+!/
+!\    IR phototransistor
+! \!
+ -
+
+ ! >>
+ V//
+---  IR LED
+ !
+
+ !\
+-! >o-   NOT gate
+ !/
+
+-!\
+ ! )-   AND gate
+-!/
+
+-)
+ )
+-)--\
+ )   >o-- NOR gate
+-)--/
+ )
+-)
+
+Good Luck!
+I am on ARD@UK.AC.BRIS.SIVA (JANET) = internet ARD@siva.bris.ac.uk
+
+  +5               
+  ----
+   !                       -----------------------------
+   !                       !                           !
+   /                       !                 ----+     o  '74
+   \ 10k              '04  ! '04   '04   '08 /// ! ---------
+\\ /        !\        !\   ! !\    !\            +-!D  S   !
+>> !--------! >o---+--! >o-+-! >o--! >o--!\        !      Q!
+! /         !/     !  !/     !/    !/    ! )-+     !       !o------+
+!/ IR       74ls14 ----------------------!/  !  +- !>  R   !       !
+!\  P/transistor                             !  !  ---------       !
+!_\!                                         !  !      o   +5      !
+   !              ----------------------------  !      !  ----     !
+   !              !                             !      !   !       !
+  ---             !                             !      -----       !
+  ///             !                             !                  !
+           '393   !        '14                  !                  !
+             ----------    !\                   !                  !
+             !    R   ! +- ! >o-+     '25       !                  !
+             !       A!-+  !/   +-----)         !                  !
+             !        !               )         +---+              !
+             !       B!---------------)--\    !\    !              !
+         +---!>       !               )   >o--! >o--+              !
+         !   !       C!---------------)--/    !/                   !
+         !   !        !               )       '14                  !
+         !   !       D!---------------)                            !
+         !    ---------                                            !
+         +-----------------------------------------------------+   !
+                                               '393     '393   !   !
+                2.45MHz                       !----!   !----!  !   !
+        '04     !--!       '04         '04    !   A!   !   A!  !   !
+        !\     +!  !+      !\          !\     !   B!   !   B!--+   !
+    ----! >o-+-!!  !!--+---! >o-----!--! >o---!>  C! +-!>  C!  !   !
+    !   !/   ! +!  !+  !   !/       !  !/     !R  D!-+ !R  D!  !   !
+    !        !  !--!   !            !         !----!   !----!  !   !
+    !  1k    !         !  1k        !          !        !      !   !
+    -/\/\----+  2n2    --/\/\-------!         ---      ---     !   !
+    !           ! !                 !         ///      ///     !   !
+    ------------! !-----------------+                          !   !
+                ! !                                            !   !
+   +5                                                          !   !
+  ----     !!        !! 4*22u                                  !   !
+   !     +-!!-+    +-!!-+                                      !   !
+   !     ! !! !    ! !! !                                      !   !
+   !     !    !    !    !                                      !   !
+   !    -------------------                                    !   !
+   !    !  C1       C2    !  +---------------------------------)---+     
+   +----!Vcc              !  !                                 !
+  ---   !                 !  !                                 !  +5
+  ---+  !                 !  !                                 ! ----
+   +----!+10v             !  !                                 !  !  >>
+        !                 !  !   +-----------------------------+  V //
+ PC     !                 !  !   !    '393                       ---
+RS232   !                 !  !   !   !----!                       ! IR
+  >-----!TxO1         TxI1!--+   !   !   A!              +-/\/\---+ LED
+ Tx     !                 !      !   !   B!       2N3904 ! 56R
+        !TxO2         TxI2!      +---!>  C!            !/
+        !                 !  +-------!R  D!----/\/\----!
+  >-----!RxI1         RxO1!--+       !----!    1k2     !\!
+ Rx     !                 !                            - !
+        !RxI2         RxO2!                              !
+        !                 !                             ---
+  >--+  !  -10V     Gnd   !                             ///
+ Sg  !  -------------------
+     !       !  !!  !
+     !       +--!!--+
+     !          !!  !
+    ---          +  !
+    ///             !
+                   ---
+                   ///
+
+</pre>
+</b>
+<hr size=1>
+<h3>HP IR FORMAT BELOW</h3>
+<i>Taken from ioguide.doc, ftp from
+ftp hpcvbbs.cv.hp.com, dir pub
+</i>
+<p>
+
+
+The IR port allows half-duplex communication between  systems  at
+2400  baud  using  pulses  of  infrared  light  instead of wires.
+Full-duplex is not used due to the need to suppress  reflections.
+The  format for IR transmission is similar to serial transmission
+except that a pulse of infrared light of 52 Ns duration (nominal)
+is used to transmit a zero-bit.  The absence of a pulse indicates
+a one-bit or  idle  condition.   Note  that  if  the  pulses  are
+stretched out to fill a bit time this becomes very similar to the
+serial signal.
+<p>
+<hr>
+</html>
+

@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>POP Reference</title>
+</head>
+<body bgcolor="#f0ece0">
+
+<H1>POP (Post Office Protocol) Techincal Reference</H1>
+<font size = 2> By Hunter<br>
+<em><a href="mailto:hunter@wicked.gt.ed.net">hunter@wicked.gt.ed.net</a></em>
+<font size=3>
+<hr>
+<em>Overview</em><br>
+POP (Post Office Protocol) is a protocol by which mail clients can check mail, retreive messages, and delete messages.  Most SMTP mail servers will also have POP implementation.   POP is usually at port 110 of a mail server.<p>
+
+<em>How to manually connect to a POP mail server</em><br>
+You will need a valid user name and password.  Beyond that, all that you need is a generic telnet client.  Local echo should be turned on so you can see what you type.  Also, it is important to note that POP servers do not handle backspaces, so you must type everything correctly.<p>
+
+Telnet to port 110 of your target POP server.  The server should respond with a generic welcome message.Type <STRONG> USER </strong> <em>username</em>. Type <strong>PASS </strong> <em>password</em>.  From this point, you have a variety of options (see commands below.)  Type 
+<strong>QUIT </strong> to disconnect.<p>
+<hr>
+
+<em>POP Command Quick Reference</em><br>
+<strong>USER </strong><em>username</em> - Identifies the user to the server.  Usage: <CODE>USER jack</CODE><BR>
+
+<strong>PASS </strong><em>password</em> - Enters user password.  Usage: <CODE>PASS secret</CODE><BR>
+
+<strong>DELE </strong><em>messagenumber</em> - Deletes a given message.  Usage: <CODE>DELE 1</CODE><BR>
+
+<strong>LIST</STRONG> - Lists messages in user mailbox.  Usage: <CODE>LIST </CODE><BR>
+
+<strong>RETR </strong><em>messagenumber</em> - Retrieves the text of a given message.  Usage: <CODE>RETR 1</CODE><BR>
+
+<STRONG>RSET </strong> - Resets the session.  Usage: <CODE> RESET </CODE><BR>
+
+<STRONG>QUIT </STRONG> - Disconnects. Usage: <CODE>QUIT</CODE><BR>
+<hr>
+<em>Sample Session - User input is in bold</em>
+<pre>
++OK POP3 server Area1n98.residence.gatech.edu ready <00012.27749538@Area1n98.res
+idence.gatech.edu>
+<STRONG>USER ROOT</STRONG>
++OK root welcome here
+<STRONG>PASS SECRET</STRONG>
++OK mailbox for root has 1 messages (1507 octets)
+<STRONG>LIST</STRONG>
++OK 1 messages (1507 octets)
+1 1507
+.
+<STRONG>RETR 1</STRONG>
++OK 1507 octets
+<EM>....Message Text....</em> 
+.
+<strong>DELE 1</strong>
++OK message 1 deleted
+<strong>LIST</strong>
++OK 0 messages (0 octets)
+.
+<strong>QUIT</strong>
++OK POP3 server Area1n98.residence.gatech.edu signing off.
+</pre>
+<hr>
+
+<font size=2> Last revison: 3.14.96 <br>
+Mail to: <A href="mailto:hunter@wicked.gt.ed.net">hunter@wicked.gt.ed.net</a>
+
+ 
+

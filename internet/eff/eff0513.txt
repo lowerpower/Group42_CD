@@ -1,0 +1,644 @@
+
+******************************************************************
+           //////////////     //////////////     //////////////
+         ///                ///                ///
+       ///////            ///////            ///////
+     ///                ///                ///
+   //////////////     ///                ///
+******************************************************************
+EFFector Online Volume 5 No. 13       7/23/1993       editors@eff.org
+A Publication of the Electronic Frontier Foundation   ISSN 1062-9424
+
+                  -==--==--==-<>-==--==--==- 
+                        In this issue:
+             Online Congressional Hearings Postponed
+             Summary of New Infrastructure Bill
+             EFF Joins Telecommunications Policy Roundtable
+                   -==--==--==-<>-==--==--==- 
+
+
+**************************************
+Online Congressional Hearing Postponed
+**************************************
+
+In the last issue of EFFector Online (Volume 5, Number 12, July 7, 1993),
+we announced an upcoming online Congressional hearing to be held over the
+Internet on July 26 at 9:30AM EDT.  Unfortunately, this event has been
+postponed until October or November.  The following note from Internet Town
+Hall organizer Carl Malamud explains:
+
+"I wanted to explain a bit more my understanding of why we
+are delaying the congressional hearings.  Please be very
+clear that I do not represent the committee and that this
+explanation is being sent in my capacity as the organizer
+of the Internet Town Hall.
+
+"The Internet Town Hall depends on voluntary donations from a
+large number of parties.  For this Internet Town Hall, we've
+had a tremendous outpouring of support from groups such as
+O'Reilly & Associates, Sun Microsystems, Cisco, ARPA, Empirical
+Tools and Technologies, BBN, UUNET, Metropolitan Fiber Systems,
+and many others.
+
+"The purpose of this broad coalition is to demonstrate how the
+Internet works and how the Internet can be made to work in the
+congressional process.  We wanted to make the point that there
+exists a general-purpose infrastructure that allows everything
+from email to IRC chat to WAIS databases to the World Wide Web
+to be accessed.
+
+"One of the key things we wanted to show the Congress was how 
+audio and video can work over a general purpose infrastructure 
+such as the Internet.  Rather than transmit video over the key 
+transit networks, which tend to get overloaded during events 
+such as the Internet Town Hall, ARPA had agreed to furnish the 
+use of DARTNET, the experimental advanced research network they 
+operate.
+
+"The underlying transmission facilities for DARTNET are operated
+by Sprint.  In order for the National Press Club, the headquarters
+site for the hearing, to be part of DARTNET we required a T1
+line from our facility to the Sprint point of presence a few
+blocks away.  We had requested Sprint to provide that T1 line
+and become part of the Internet Town Hall.
+
+"In the course of examining our request, Sprint postulated that
+furnishing a T1 line for a congressional hearing might violate
+congressional ethics laws.  There are in fact laws on the books
+that prohibit members of Congress or its committees from accepting
+in-kind donations over a certain value under certain circumstances.
+Sprint forwarded their concerns to the House Ethics Committee,
+and then later informed the Subcommittee on Telecommunications
+and Finance and my organization of their actions.
+
+"Needless to say, there are technical alternatives to the T1 line
+that we asked Sprint to furnish.  In fact, a single call to
+Metropolitan Fiber Systems resulted in a 10 Mbps virtual Ethernet
+using ATM between Washington, D.C. and Boston which is available 
+for the hearing when it does occur.
+
+"Even though the technical issue is solved, there still remains
+the ethics concern.  We firmly believe that a broad industry/government
+group volunteering time and money to show how the congressional
+process can be changed to include more input from the general
+public to be in the public interest.  However, we are equally
+adamant that *ANY* ethical concerns *MUST* be cleared before
+we proceed with the hearings.
+
+"The crux of the issue has to do with in-kind contributions.  If
+you are testifying before Congress, it is clearly allowed to bring
+in computers.  However, a donation to the underlying infrastructure
+of the congressional committee might be construed as an expense
+that must be reimbursed by the committee to the donor.  The purpose
+of such laws is to establish beyond the shadow of a doubt that
+the congressional process is clean and not subject to the undue
+influence of a particular interest group.
+
+"We will spend the next few months describing to congressional
+officials exactly what we have in mind for the hearings.  Since this
+will be a historical occasion, there is no precedent for on-line
+hearings.  We want to make sure that everybody is very comfortable
+with the issues and that officials believe that there is public
+benefit in such a demonstration.
+
+"I'd like to thank all the volunteers for their time and effort
+to date.  A tremendous amount of behind the scenes efforts has
+already taken place and we're hoping to salvage some of that
+effort so we don't have to start from scratch.  I'd also like
+to thank everybody on the network who sent in letters.  The
+Subcommittee and Congressman Markey were truly impressed at
+the volume and the quality of the commentary from the public
+through e-mail and are looking forward to a successful on-line
+hearing later in the year.
+
+"BTW, we're keeping congress@town.hall.org open ... no sense
+in cutting off communication!
+
+Carl Malamud
+Internet Multicasting Service"
+
+
+*******************************************************
+Telecommunications Infrastructure Act of 1993 (S. 1086)
+*******************************************************
+
+Introduced by Senators Danforth and Inouye on June 9, 1993
+First hearing scheduled: July 14, 9:30 AM
+
+A Summary by the Electronic Frontier Foundation
+
+The Senate Communications Subcommittee is now in the process of 
+considering legislation that would eliminate the legal monopoly that 
+local telephone companies have on local phone service, allow any 
+communications provider to offer local phone service, and allow local 
+telephone companies to compete fully in the cable television market.  
+The legislation's goal is to promote increased investment in the 
+nation's telecommunications infrastructure.
+
+The bill proposes many significant policy changes, chief among 
+which is a very rapid move toward deregulating the local telephone 
+companies' monopoly on local telephone service.  The policies proposed 
+are laid out in broad concepts, leaving the Federal Communications 
+Commission to wrestle with the actual implementation of the policies.
+
+LOCAL EXCHANGE COMPETITION
+
+One year after the bill is enacted, any company would be allowed 
+to offer local telephone service.  Potential new entrants that would be 
+allowed in the local exchange market under this bill include cable 
+television companies, wireless service providers, and even Bell 
+companies outside their current local exchange monopoly areas.  Any 
+State laws that would preserve the current telephone company monopoly 
+or limit the entry of competitors are pre-empted by the bill.
+
+TELECOMMUNICATIONS CARRIER OBLIGATIONS
+
+Any company that offers telecommunications service or is 
+interconnected with the local exchange carrier's network has several 
+obligations under this bill.  The definition of telecommunications 
+service is somewhat vague, but it certainly includes voice telephone 
+service, interactive data services used to carry information services, 
+and possibly one-way video services such as those currently provided by 
+cable television companies.  Carriers' obligations include:
+
+1. Interconnection
+
+All carriers that either provide telecommunications service or are 
+interconnected with a carrier that provides telecommunications 
+service must allow other carriers to interconnect with their network 
+for the purpose of providing telecommunications or information services 
+to users of either network.  Network operators must provide 
+interconnection under nondiscriminatory terms, on an unbundled basis.  
+Operators must also supply all necessary technical information to enable 
+others to interconnect and interoperate from one network to another.
+
+2. Universal Service
+
+All providers of telecommunications service must contribute to the 
+"preservation and advancement of universal service."  States, in 
+cooperation with the FCC, are responsible to make regulations that 
+establish the mechanism for supporting universal service in the newly 
+competitive telephone market.  The bill does provide, however, that any 
+universal service support should be given directly to "individuals and 
+entities that cannot afford the cost" of telecommunications service.  
+Subsidy for users' communications equipment is also allowed.
+
+3. Number Portability
+
+The FCC will establish regulations the provide for "portable" 
+numbers from all carriers as soon as possible.  Thus, a customer could 
+switch telecommunications providers without having to change telephone 
+numbers.  The administration of the numbering system would be removed 
+from Bellcore and placed with an "impartial entity."
+
+INFRASTRUCTURE FOR RURAL AREAS AND NONCOMPETITIVE MARKETS
+
+The bill recognizes that in a competitive market environment, 
+rural and "noncompetitive markets" may not enjoy the level of investment 
+necessary for providing advanced telecommunications services.  The 
+minimum level of service desired in the bill is that which would 
+"provide subscribers with sufficient network capacity to access to 
+information services that provide a combination of voice, data, image, 
+and video; and are available at nondiscriminatory rates that are based 
+on the reasonably identifiable costs of providing such services."  It is 
+not clear that such services would be interactive.  State regulators would 
+be given the primary responsibility to ensure that carriers have an 
+incentive to provide high-quality services to all areas.  If this 
+approach fails, the FCC is empowered to take action to have necessary 
+service delivered to these areas.
+
+NETWORK STANDARDS AND PLANNING
+
+All segments of the communications industry are encouraged to work 
+together to set voluntary standards for interconnection and 
+interoperability.  If the FCC determines that standards development is 
+not succeeding or is proceeding too slowly, it may set incentives or 
+deadlines for work to be completed.  The FCC may also impose mandatory 
+standards if the voluntary process fails.  
+
+The FCC and the States are required to ensure that advanced 
+telecommunications services are designed to be accessible to people with 
+disabilities.
+
+TELEPHONE COMPANY ENTRY INTO CABLE TELEVISION MARKET
+
+The current ban preventing local telephone companies from entering 
+the cable television market is lifted, in part.  Local phone companies 
+will be allowed, under the bill, to provide cable television service 
+within their serving area, if the service is provided by a 
+separate subsidiary and the phone company does not break any laws 
+regarding improper cross-subsidization between phone service and cable 
+services.  By the same token, cable companies that provide 
+telecommunications service must do so through separate subsidiaries and 
+obey laws regarding cross-subsidization.  Phone companies are still not 
+allowed to purchase more than 5 percent interest in any cable system 
+that provides services within the phone companies' service regions.
+
+CHANGES IN LONG DISTANCE RESTRICTIONS
+
+The restrictions on local phone companies against providing long 
+distance (InterLATA) telecommunications service are lifted, in part, by 
+the bill, to enable local phone companies to function more easily in the 
+cable television and cellular phone markets.  Bell companies would be 
+allowed to operate wireline and satellite links for the purposes of 
+distributing cable television signals over long distances.  Some 
+relaxation of the InterLATA restriction is also allowed to enable Bell 
+companies to carry cellular phone calls from one region to another, and 
+to hand off calls from one cellular system to another.  
+
+INFORMATION SERVICES SAFEGUARDS
+
+Bell companies that provide information services must do so 
+through a separate subsidiary in order to prevent cross-subsidies that 
+would be unfair to consumers of basic phone service and to information 
+service competitors.  The separate subsidiary must maintain separate 
+books and records, only engage in arms-length transactions with the Bell 
+company, and follow other regulations that the FCC issues regarding 
+accounting, tariffing, and business practices.
+
+PRIVACY OF CUSTOMER TRANSACTION INFORMATION
+
+Telecommunications carriers are prohibited from disclosing 
+information about individual customers unless there is an affirmative, 
+written request to do so by that customer.  Carriers must, however, make 
+any information (Customer Proprietary Network Information) that is 
+disclosed available equally to their affiliates and all competitors who 
+request the information.  Customer Proprietary Network Information 
+includes quantity, type, and technical characteristics of 
+telecommunications service used by a customer, as well as information 
+contained in bills received by the customer.
+
+[A complete copy of S.1086 is available by anonymous ftp on ftp.eff.org.]
+[Please direct any questions to eff@eff.org.]
+
+
+**********************************************
+EFF Joins Telecommunications Policy Roundtable
+**********************************************
+
+The Electronic Frontier Foundation is pleased to announce its participation
+in the newly formed Telecommunications Policy Roundtable.  With market
+actions fast outpacing the public policy process, it is critical that
+citizens' groups articulate basic public interest goals that can help frame
+the debate over information infrastructure policy.
+
+Organizations such as the Association of Research Libraries, the Center for
+Media Education, Computer Professionals for Social Responsibility, and the
+Institute for Civic Networking all played leading roles in initiating the
+Roundtable.  We thank these organizations, for creating the very important
+forum, in which a wide range of public interest organizations work together
+to frame common communications policy goals.  In addition to general
+participation in the group, EFF has agreed to focus its efforts on the
+public policy and legislative strategy taskforce of the Roundtable.
+
+The initial announcement of the Roundtable (posted to com-priv) contained
+some suggestion that EFF's work on infrastructure policy issues over the
+last year was narrow and lacking in vision.  Though we have never pretended
+to know, or be able to pursue, the solutions to all communications policy
+problems, we do feel that we have made a significant contribution to the
+infrastucture debate and to the effort to protect free speech and privacy
+in new electronic media.  Some criticize our emphasis on ISDN and other
+affordable digital media as too narrow.  We believe that our Open Platform
+policy efforts in support of ISDN have caused a major change in the way
+communications infrastructure policy is discussed.  With the example of
+ISDN, we showed that citizens do not have to wait around 20 years while
+RBOCs lay fiber-to-the-home.  Rather, with affordable, available
+technology, those who don't own telephone networks or cable television
+networks can start to create the applications and services that will shape
+our experience of the information age.  Our Open Platorm efforts are aimed
+at increasing the diversity of information sources, expanding the notion of
+universal service, increasing access to information, and protecting
+privacy. ISDN is not our final goal, but a first step that shows we should
+begin to expect the benefits of digital networking technology soon, at
+affordable rates, and with nondiscriminatory terms.
+
+In order to show that we are not stuck on ISDN, either as a technology or a
+policy goal, we convened a meeting of over 20 major public interest
+organizations on June 1, 1993 (several weeks before the Roundtable was
+announced), to discuss EFF's long-term policy concerns and to hear the views
+of other groups.  A section of the paper that we prepared for that meeting
+is appended to this message.  We hope that this will clarify that EFF does
+have a view of communications policy goals beyond ISDN.  We certainly
+invite comments on this document, but hope that in the future people who
+write about our positions will take the time to read our work first. 
+(Please see also an article in the July/August '93 issue of Wired Magazine
+by Mitchell Kapor, EFF's Chairman of the Board, "Where Is the Digital
+Highway Really Heading?  A Case for a Jeffersonian Information Policy" for
+a broad statement of EFF's infrastructure vision.)
+
+EFF has joined the Roundtable to be part of the process of framing a
+comprehensive public interest communications policy.  We are looking
+forward to the success of this effort.
+
+=========================================================
+TOWARD A NEW PUBLIC INTEREST COMMUNICATIONS POLICY AGENDA
+FOR THE INFORMATION AGE
+
+A Framework for Discussion
+
+by the Electronic Frontier Foundation
+
+June 1, 1993
+
+I.      Introduction
+
+For over a decade, techno-prophets have been predicting the
+convergence of telephone, computer and television technologies.  In this
+world, endless information would be available at the touch of a button, and
+many of life's chores would be simplified by artificially-intelligent
+personal assistants.  The prophesied results were said to be everything
+from a newfound global village enabled by democratized communications
+tools, to an Orwellian multimedia, mind-numbing, thought-controlling,
+consumer culture/police-state gone wild.  In the past, discussions of this
+convergence has been relegated to the musings of futurists and the arcana
+of telecommunications regulatory policy.  This year, however, the grand
+convergence is evident both on the front pages of national magazines and
+newspapers, as well as in the White House.  Telecommunications
+infrastructure policy -- the management of this grand convergence -- has
+arrived as a mainstream policy issue.
+
+Most telling of all, large investments are now being made in order
+to take advantage of business opportunities arising out of the convergence
+of television, computers, and telecommunications.  Despite existing
+regulatory barriers, a number of major corporations have undertaken major
+initiatives which blur the traditional media distinctions.  Regional Bell
+Operating Companies, including Bell Atlantic and US West, have announced
+multi-billion dollar infrastructure investment plans that position them to
+expand from the telecommunications market to the video entertainment
+market.  By the same token, cable television companies are crossing over
+from their traditional domain toward being able to offer telecommunications
+services.  Early in 1993, Time-Warner announced plans to offer interactive
+services and connections directly to long distance telephone networks for
+residential customers in Orlando, FL.  Six cable television companies also
+recently joined forces to purchase a company called Teleport, which
+competes directly with local telephone companies.  And finally, US West
+announced in May 1993 that it will purchase a multi-billion dollar stake in
+Time-Warner Entertainment Partners.
+
+All of these developments are being watched with great interest by
+Congress and the Administration.  No longer is telecommunications policy a
+matter of sorting out the special interests of newspaper companies,
+telephone companies, and cable companies.  Rather it has been re-christened
+as "information infrastructure" policy.  As such, it is recognized to have
+major implications for domestic economic development, global
+competitiveness, and science and technology policy.  The ultimate symbol of
+this increased interest in telecommunications policy is the Vice
+President's frequent declaration that the Clinton Administration is
+committed to promoting the creation of electronic superhighways in the
+1990s, just as the Vice President's father oversaw the construction of the
+interstate highway system in the 1950s.  
+
+Talk of superhighways and potential for new economic growth,
+though, may lead some to forget that in shaping information infrastructure
+policy, we must also be guided by core communications policy values.  The
+"highways" that are being built here are for speech as well as for
+commerce.  In order to preserve the democratic character of our society as
+we move into the Information Age, these key public interest communications
+policy goals must be kept at the forefront:
+
+o       Diversity of Information Sources:  Creating an infrastructure that
+promotes the First Amendment goal of availability of a maximum possible
+diversity of view points;
+
+o       Universal Service:  Ensuring a minimum level of affordable,
+interactive service to all Americans;
+
+o       Free Speech and Common Carriage:  Guaranteeing infrastructure
+access regardless of the content of the message that the user is sending;
+
+o       Privacy:  Protecting the security and privacy of all communications
+carried over the infrastructure, and safeguarding the Fourth and Fifth
+Amendment rights of all who use the information infrastructure;
+
+o       Development of Public Interest Applications and Services:  Ensuring
+that public interest applications and services that are not produced by
+the commercial market are available and affordable.
+
+Advances in telecommunications have tremendous potential to support all of
+these important communications policy values.  In many cases, inexpensive
+equipment exists that could give individuals and small organizations a
+degree of control over information that has never before been possible. 
+However, if not implemented with core communications values in mind, the
+technology will do more harm than good.  The convergence of historically
+separate communications media poses a major challenge to the public
+interest community.  The Electronic Frontier Foundation hopes to play a
+role with other public interest organizations in realizing the democratic
+potential of these new technologies.
+
+II.     Framing Public Interest Communications Policy Goals For The
+Information Age:  What Is at Stake in the Development of the Information
+Infrastructure
+
+A. Diversity of Information Sources
+
+Aside from the universal service guaranty, the driving communications
+policy value for the last 50 years has been promotion of the maximum
+diversity of information sources, with the greatest variety of viewpoints. 
+Most agree that from a diversity standpoint, the ideal environment is the
+print medium.  Compared to both the broadcast and cable television arenas,
+print is the vehicle for the greatest diversity of viewpoints and has the
+lowest publication and distribution costs.  Despite the regulatory steps
+taken to promote diversity in the mass media, the desired variety of
+opinion and information has never been fully achieved.
+
+The switched nature of advanced digital network technology offers
+to end the spectrum and channel scarcity problem altogether.  If new
+network services are deployed with adequate down- and up-stream capacity,
+and allow point-to-point communication, then each user of the network can
+be both an information consumer and publisher.  Network architecture that
+is truly peer-to-peer can help produce in digital media the kind of
+information diversity that only exists today only in the print media.  If
+network access is guaranteed, as is the case in the public switched
+telephone network, the need for content providers to negotiate for air time
+and channel allocation will be eliminated.  Even in a truly interactive
+network environment, the government will still need to provide financial
+support to ensure that public interest programming is produced and
+available, but channel set-asides per se will not be necessary.
+
+B. Universal Service:  From Plain Old Telephone Service to Plain Old Digital
+Service
+
+The principle of equitable access to basic services is an integral part of
+this nation's public switched telephone network.  From the early history
+of the telephone network, both government and commercial actors have taken
+steps to ensure that access to basic voice telephone services is affordable
+and accessible to all segments of society.  Since the divestiture of AT&T,
+many of the internal cross-subsidies that supported the "social contract"
+of universal service have fallen away.  Re-creation of old patterns of
+subsidy may no longer be possible nor necessarily desirable, but serious
+thought must be given to sources of funds that will guaranty that the
+economically disadvantaged will still have access to basic communications
+services.
+
+The universal service guaranty in the Communications Act of 1934
+has, until now, been interpreted to mean access to "plain old telephone
+service" (POTS).   In the information age, we must extend this guaranty to
+include "plain old digital service."  Extending this guaranty means
+ensuring that new basic digital services are affordable and ubiquitously
+available.  Equity and the democratic imperative also demand that these
+services meet the needs of people with disabilities, the elderly, and other
+groups with special needs.  Failure to do so is sure to create a society of
+information "haves" and "have nots."
+
+C. Free Speech: Common Carriage
+
+In a society which relies more and more on electronic communications media
+as its primary conduit for expression, full support for First Amendment
+values requires extension of the common carrier principle to all of these
+new media.  Common carriers are companies that provide conduit services for
+the general public.  The common carrier's duties have evolved over hundreds
+of years in the common law and statutory provisions.  Common carriers have
+a duty to:
+
+o     provide services in a non-discriminatory manner at a fair price, 
+o     interconnect with other carriers, and 
+o     provide adequate services
+
+The public must have access to digital data transport services, such as
+ISDN and ADSL, which are regulated by the principles of common carriage.  
+
+Re-shaping common carriage duties for new media environments is of
+critical importance as mass media and telecommunications services converge
+and recombine in new forms.  Telephone companies, the traditional providers
+of common carriage communications services, are moving closer and closer to
+providing video and content-based services.  By the same token, cable
+television companies, which have functioned as program providers, are
+showing great interest in offering telecommunications services.  In what is
+sure to be an increasingly complex environment, we must ensure that common
+carriage transport is available to those who want it.  
+
+Unlike arrangements found in many countries, our communications
+infrastructure is owned by private corporations, not the government. 
+Therefore, a legislatively imposed expanded duty of common
+carriage on public switched telephone carriers is necessary to protect free
+expression effectively.  A telecommunications provider under a common
+carrier obligation would have to carry any legal message, whether it is
+voice, data, images, or sound, regardless of its content.  For example, if
+full common-carrier protections were in place for all of the conduit services
+offered by the phone company, the terminations of "controversial" 900
+number services, such as political fundraising, would not be allowed, just
+as the phone company is now prohibited by the Communications Act from
+discriminating in the provision of basic voice telephone services.  As a
+matter of law and policy, the common carriage protections should be
+extended from basic voice service to cover basic data service, as well.
+
+D. Privacy
+
+With dramatic increases in reliance on digital media for communications, 
+the need for comprehensive protection of privacy in these media grows.  
+The scope of the emerging digital communications revolution poses major 
+new challenges for those concerned about protecting communications 
+privacy.  Communication that is carried on paper through the mail 
+system, or over the wire-based public telephone network, is relatively 
+secure from random intrusion by others.  But the same communication 
+carried, for example, over a cellular or other wireless communication
+system is vulnerable to being intercepted by anyone who has very
+inexpensive, easy-to-obtain scanning technology.  As such, access to 
+robust, affordable encryption technology will be critical to enable people
+to protect their own privacy.  Government controls on encryption systems,
+whether for law enforcement or national security reasons, raise grave
+constitutional issues and could undermine individuals' ability to protect
+the privacy of personal information and communications. 
+ 
+
+For more information contact:
+
+Electronic Frontier Foundation
+1001 G St, NW
+Suite 950 East
+Washington, DC  20001
+
+eff@eff.org
+
+A complete copy of this document is available by anonymous ftp at
+ftp.eff.org in the file named 
+"pub/EFF/papers/open-platform-discussion-1993."
+
+
+=============================================================
+
+     EFFector Online is published biweekly by:
+
+     Electronic Frontier Foundation
+     1001 G Street, N.W., Suite 950 East
+     Washington, DC  20001  USA
+     Phone:  +1 202 347 5400  FAX:  +1 202 393 5509
+     Internet Address:  eff@eff.org
+
+     Coordination, production and shipping by Shari Steele,
+     Director of Legal Services & Community Outreach (ssteele@eff.org)
+
+Reproduction of this publication in electronic media is encouraged.  Signed
+articles do not necessarily represent the view of the EFF.  To reproduce
+signed articles individually, please contact the authors for their express
+permission.
+
+     *This newsletter is printed on 100% recycled electrons.*
+=============================================================
+
+MEMBERSHIP IN THE ELECTRONIC FRONTIER FOUNDATION
+
+In order to continue the work already begun and to expand our efforts and
+activities into other realms of the electronic frontier, we need the
+financial support of individuals and organizations.
+
+If you support our goals and our work, you can show that support by
+becoming a member now. Members receive our bi-weekly electronic newsletter,
+EFFector Online (if you have an electronic address that can be reached
+through the Net), and special releases and other notices on our activities.
+ But because we believe that support should be freely given, you can
+receive these things even if you do not elect to become a member.
+
+Your membership/donation is fully tax deductible.
+
+Our memberships are $20.00 per year for students and $40.00 per year for
+regular members.  You may, of course, donate more if you wish.
+
+=============================================================
+Mail to: 
+         Membership Coordinator
+         Electronic Frontier Foundation
+         1001 G Street, N.W.
+         Suite 950 East
+         Washington, DC  20001  USA
+
+Membership rates:
+            $20.00 (student or low income membership)
+            $40.00 (regular membership)
+
+
+[   ]  I wish to become a member of the EFF.  I enclose: $_______
+[   ]  I wish to renew my membership in the EFF.  I enclose: $_______
+[   ]  I enclose an additional donation of $_______
+
+Name:
+
+Organization:
+
+Address:
+
+City or Town:
+
+State:            Zip:           Phone: (      )                  (optional)
+
+FAX: (      )                   (optional)
+
+E-mail address:
+
+I enclose a check [  ].
+Please charge my membership in the amount of $
+to my Mastercard [  ]  Visa [  ]  American Express [  ]
+
+Number:
+
+Expiration date:
+
+Signature: ______________________________________________
+
+Date:
+
+I hereby grant permission to the EFF to share my name with
+other nonprofit groups from time to time as it deems
+appropriate.                       Initials:______________________
+
+

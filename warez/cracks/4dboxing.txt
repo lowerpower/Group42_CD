@@ -1,0 +1,16 @@
+Crack> 4-d Boxing 
+
+crack gotten from bboard 
+
+4D BOXING 
+
+File: 4DBMCGA.EXE 
+There are 2 changes: 
+
+1)Find:  32 B8 05 46 
+  Change:         0A 
+
+2)Find:EE 03 E1 05 FD 07 01 08 11 0A 20 0C 31 0E 00 1C 50 00 
+Change:D1    E0    F4    00    10    27    30          2F 
+
+When you get a picture of boxer face, hit ENTER 2 times. 

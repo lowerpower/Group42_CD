@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+                            ANTEL RADIANT 950
+-------------------------------------------------------------------------------
+                NAM Type:  EEPROM
+            Manufacturer:  Sun Moon Star
+              Programmer:  Handset
+          ESN Prefix DEC:  178
+                     HEX:  B2
+ ESN, S/N match Required:  Yes
+      Available Channels:  Power On
+                           Enter sequence FCN + FCN + * + 950626 + *
+                           Software version will be displayed
+                           Enter NAM number (1 to 4) within 5 seconds + VOL UP
+                           Enter parameter for each step + # + VOL UP
+                            (to increment)
+                           To complete programming, press FCN + END
+
+                       # digits
+        System ID Format:  5     XXXXX + # + VOL UP
+           Station Class:  2     08 (Preset) + VOL UP
+           Mobile Number:  10    XXX-XXX-XXXX + # + VOL UP
+  Initial Paging Channel:  3     333 or 334 + # + VOL UP
+   Access Overload Class:  2     XX + # + VOL UP
+         Group ID Format:  2     XX + # + VOL UP
+             Lock Code A:  3     XXX + # + VOL UP
+             Lock Code B:  3     XXX + # + VOL UP
+        Local Use Option:  1     1 + # + VOL UP
+              MIN Option:  1     1 + # + VOL UP
+        Preferred System:  1     0(B) or 1(A) + # + VOL UP
+   End-to-End Signalling:  1     1 + # + VOL UP
+        Repertory Option:  1     1 + # + VOL UP
+       Horn Alert Option:  1     1 + # + VOL UP
+        Handsfree Option:  1     0(Disable) or 1(Enable) + # + VOL UP
+        Full Lock Enable:  1     0(Disable) or 1(Enable) + # + VOL UP
+         Enable Lock Mod:  1     1 + # + VOL UP
+Enable Partial Lock Mode:  1     0(Disable) or 1(Enable) + # + VOL UP
+
+Press FCN + END to exit program mode
+

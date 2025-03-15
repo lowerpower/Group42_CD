@@ -1,0 +1,7 @@
+Crack> Grand Prix Unlimited by Accolade 
+ 
+crack written by BUBBLE 
+ 
+File: GPU.EXE 
+Search: 83 7e e6 00 74 4e 
+Change: c6 46 e6 00 eb 4e 

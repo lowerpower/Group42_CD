@@ -1,0 +1,1746 @@
+From: offerman@einstein.et.tudelft.nl (Aad Offerman)
+Subject: *** CHIPLIST 2 ***
+
+    CHIP LIST by Aad Offerman, 13-12-93.
+
+Since there are a lot of questions about the differences between the various
+CPU's, this list has been compiled for the benefit of the net community.
+I hope it can answer some questions.
+
+This list is the result of collecting many snippets of information from
+Usenet. Although this is the second release, it will probably still contain
+some bugs. Any corrections, additions, or comments are welcome. Please reply
+by E-mail to:
+offerman@einstein.et.tudelft.nl.
+
+I will try to incorporate all replies in a next release. If there is enough
+interest, regularly posted new releases are a possibility.
+
+Contents:
+
+1  CPU
+1.1  Manufacturers
+1.1.1  Intel
+1.1.2  AMD
+1.1.3  IBM
+1.1.4  Chips & Technologies
+1.1.5  Cyrix
+1.1.6  Texas Instruments
+1.2  Intel i4004 CPU
+1.3  Intel i4040 CPU
+1.4  Intel i8008 CPU
+1.5  Intel i8080 CPU
+1.6  Intel i8085 CPU
+1.7  Intel i8086/i8088 CPU
+1.7.1  Intel i8086 CPU
+1.7.2  Intel i8088 CPU
+1.8  Intel i80186/i80188 CPU
+1.8.1  Intel i80186 CPU
+1.8.2  Intel i80C186 CPU
+1.8.3  Intel i80188 CPU
+1.9  NEC V30/V20 CPU
+1.9.1  NEC V30 CPU
+1.9.2  NEC V20 CPU
+1.10  Intel i80886 CPU
+1.11  Intel i80286 CPU
+1.12  Harris 80286 CPU
+1.13  Intel i80386 CPU
+1.13.1  Intel i80386/i80386DX CPU
+1.13.2  Intel i80386SX CPU
+1.13.3  Intel i80386SL CPU
+1.13.4  Intel RapidCAD CPU
+1.13.5  Intel i386SX microprocessor
+1.13.6  Intel i386CX microprocessor
+1.13.7  Intel i386EX microprocessor
+1.14  AMD Am386 CPU
+1.14.1  AMD Am386DX CPU
+1.14.2  AMD Am386DXL CPU
+1.14.3  AMD Am386DXLV CPU
+1.14.4  AMD Am386SX CPU
+1.14.5  AMD Am386SXL CPU
+1.15  IBM 386 CPU
+1.15.1  IBM 386SLC CPU features
+1.16  Chips & Technologies 386 CPU
+1.16.1  Chips & Technologies Super386 38600DX CPU
+1.16.2  Chips & Technologies 38605DX CPU
+1.16.3  Chips & Technologies 38600SX CPU
+1.17  IBM 386/486 hybrid CPU
+1.17.1  IBM 486DLC CPU
+1.17.2  IBM 486DLC2 CPU
+1.17.3  IBM 486BLX2 CPU (Blue Lightening)
+1.17.4  IBM 486BLX3 CPU (Blue Lightening)
+1.17.5  IBM 486SLC CPU
+1.17.6  IBM 486SLC2 CPU
+1.18  Cyrix 386/486 hybrid CPU
+1.18.1  Cyrix Cx486DLC CPU
+1.18.2  Cyrix Cx486SLC CPU
+1.18.3  Cyrix Cx486DLC / Cx486SLC CPU incompatibilities
+1.18.4  Cyrix Cx486DRu2 CPU
+1.18.5  Cyrix Cx486DRx2 CPU
+1.18.6  Cyrix Cx486SRx2 CPU
+1.19  Texas Instruments 386/486 hybrid CPU
+1.19.1  Texas Instruments TI486DLC CPU
+1.19.2  Texas Instruments TI486SLC CPU
+1.19.3  Texas Instruments TI486SXLC2 CPU (Potomac)
+1.19.4  Texas Instruments 386/486 hybrid CPU announcements
+1.20  Intel i80486 CPU
+1.20.1  Intel i80486DX CPU
+1.20.2  Intel i80486SL CPU
+1.20.3  Intel i80486DXL CPU
+1.20.4  Intel i80486SX CPU
+1.20.5  Intel i80486SXL CPU
+1.20.6  Intel i80486DX2 CPU
+1.20.7  Intel i80486DX3 CPU (announced)
+1.20.8  Intel i80486 CPU announcements
+1.21  AMD Am486 CPU
+1.21.1  AMD Am486DX CPU
+1.21.2  AMD Am486DXLV CPU
+1.21.3  AMD Am486DX2 CPU
+1.21.4  AMD Am486DX3 CPU (announced)
+1.21.5  AMD Am486SX CPU
+1.21.6  AMD Am486SX2 CPU
+1.21.7  AMD Am486 CPU announcements
+1.22  IBM 80486 CPU
+1.22.1  IBM 80486DX CPU
+1.22.2  IBM 80486SX CPU
+1.23  Cyrix Cx486 CPU
+1.23.1  Cyrix FasCache Cx486D CPU
+1.23.2  Cyrix FasCache Cx486S CPU
+1.24  Texas Instruments TI486 CPU
+1.24.1  Texas Instruments TI486SXL2 CPU (Potomac)
+1.25  Intel Overdrive CPU for Intel i80486 CPU
+1.25.1  Intel i80486DX2 CPU for Intel i80486DX CPU (ODPR)
+1.25.2  Intel i80486DX2 CPU for Intel i80486SX CPU (ODPR)
+1.25.3  Intel i80486DX2 CPU for Intel i80486DX CPU or Intel i80486SX CPU
+        (ODP)
+1.26  Intel Pentium CPU
+1.26.1  Intel P54C CPU
+1.26.2  Intel Pentium CPU announcements
+1.27  Intel Overdrive CPU for Intel Pentium CPU
+1.27.1  Intel P54M CPU
+1.28  VESA Local Bus (VLB)
+
+
+2  NPX
+2.1  Intel i8087 NPX
+2.2  Intel i80287 NPX
+2.3  AMD Am80287 NPX
+2.3.1  AMD Am80C287 NPX
+2.3.2  AMD Am80EC287 NPX
+2.4  Cyrix Cx287 NPX
+2.5  Intel i80187 NPX
+2.6  Intel i80287XL NPX
+2.7  Cyrix Cx82S87 NPX
+2.8  IIT IIT-2C87 NPX
+2.9  Intel i80387 NPX
+2.9.1  Intel i80387 NPX
+2.9.2  Intel i80387DX NPX
+2.9.3  Intel i80387SX NPX
+2.9.4  Intel i80387SL NPX
+2.10  Chips & Technologies 38700 NPX
+2.10.1  Chips & Technologies 38700DX NPX
+2.10.2  Chips & Technologies 38700SX NPX
+2.11  Cyrix Cx80387 NPX
+2.11.1  Cyrix FasMath Cx83D87 NPX
+2.11.2  Cyrix FasMath Cx387+ NPX
+2.11.3  Cyrix FasMath EMC87 NPX
+2.11.4  Cyrix FasMath Cx83S87 NPX
+2.11.5  Cyrix Cx387DX NPX
+2.11.6  Cyrix Cx387SX NPX
+2.12  IIT IIT-3C87 NPX
+2.12.1  IIT IIT-3C87 NPX
+2.12.2  IIT IIT-3C87SX NPX
+2.13  ULSI Math*Co 83C87 NPX
+2.14  ULSI Math*Co 83S87 NPX
+2.15  Weitek Abacus 1167 NPX
+2.16  Weitek Abacus 3167 NPX
+2.17  Cyrix Cx487DLC NPX
+2.18  Intel i80487 NPX
+2.18.1  Intel i80487SX NPX
+2.18.2  Intel i80487 NPX
+2.19  Weitek Abacus 4167 NPX
+
+
+
+
+    1  CPU
+
+    1.1  Manufacturers
+
+    1.1.1  Intel
+
+Intel makes the base models: i8086/8088, i80286, i80386, i80486, Pentium,
+                             i8087, i80287, i80387.
+
+
+    1.1.2  AMD
+
+AMD holds a second source license which dates back to the 8086. In the early
+days mainframe companies had a rule that no chip would be used in a design,
+unless it could be bought from at least two companies.
+
+AMD invented a CMOS process that was faster than Intel's and vendors started
+using them as a primary source.
+
+
+    1.1.3  IBM
+
+IBM's licensing arrangements with Intel preclude them from selling their CPU's
+directly. They can only sell these CPU's as long as they are sold with a
+minimum amount of 'added value'.
+
+
+    1.1.4  Chips & Technologies
+
+
+    1.1.5  Cyrix
+
+Cyrix implemented the chips they wanted to manufacture from the specifications
+of the originals. They had Texas Instruments produce these chips for them.
+
+
+    1.1.6  Texas Instruments
+
+Texas Instruments used to be Cyrix's major producer (SGS-Thompson was the
+other one). Recently, Texas Instruments stopped producing chips for Cyrix and
+now make their own chips under license from Cyrix.
+
+
+    1.2  Intel i4004 CPU
+
+4 bit data bus.
+12 bit address bus (multiplexed).
+
+1971.
+
+2300 transistors.
+
+
+    1.3  Intel i4040 CPU
+
+Intel i4004 CPU with extra features: more instructions,
+                                     interrupt support.
+
+4 bit data bus.
+12 bit address bus (multiplexed).
+
+1972.
+
+
+    1.4  Intel i8008 CPU
+
+8 bit data bus.
+16 bit address bus.
+
+1972.
+
+
+    1.5  Intel i8080 CPU
+
+8 bit data bus.
+16 bit address bus.
+
+1973.
+
+5E3 transistors.
+
+
+    1.6  Intel i8085 CPU
+
+8 bit data bus.
+16 bit address bus.
+
+
+    1.7  Intel i8086/i8088 CPU
+
+1 Mbyte address space, 64 kbyte per segment.
+
+
+    1.7.1  Intel i8086 CPU
+
+16 bit internal data bus.
+16 bit external data bus.
+20 bit address bus.
+Data and address bus are multiplexed.
+
+1978.
+
+4 MHz.
+5 MHz.
+8 MHz.
+10 MHz.
+12 Mhz.
+
+Used in IBM PC clones, IBM PC/XT clones.
+
+29E3 transistors.
+
+
+    1.7.2  Intel i8088 CPU
+
+16 bit internal data bus.
+8 bit external data bus (can co-operate with all Intel i8085 CPU
+                        periphery chips).
+20 bit address bus.
+Data and address bus are multiplexed.
+
+1979.
+
+5 MHz.
+8 MHz.
+10 MHz.
+12 MHz.
+
+Used in IBM PC, IBM PC/XT.
+
+
+    1.8  Intel i80186/i80188 CPU
+
+Intel i8086/i8088 CPU with extra features:
+  DMA,
+  timers,
+  extra instructions: all of the Intel i80286 CPU real mode instructions.
+
+
+    1.8.1  Intel i80186 CPU
+
+16 bit internal data bus.
+16 bit external data bus.
+20 bit address bus.
+
+1983.
+
+6 MHz.
+8 MHz.
+
+Technology: NMOS.
+
+
+    1.8.2  Intel i80C186 CPU
+
+Embedded version of Intel i80186 CPU.
+
+16 MHz.
+
+Technology: CMOS.
+
+
+    1.8.3  Intel i80188 CPU
+
+16 bit internal data bus.
+8 bit external data bus (can co-operate with all Intel i8085 CPU
+                        periphery chips).
+20 bit address bus.
+
+1983.
+
+6 MHz.
+8 MHz.
+
+Technology: NMOS.
+
+
+    1.9  NEC V30/V20 CPU
+
+Intel i80186/i80188 CPU upward instruction compatible.
+Extra features: extra instructions: BCD,
+                Intel i8080 CPU simulation,
+                fewer CPI (Cycles Per Instruction).
+
+
+    1.9.1  NEC V30 CPU
+
+Intel i8086 CPU pin compatible.
+
+10 MHz: $10.
+
+
+    1.9.2  NEC V20 CPU
+
+Intel i8088 CPU pin compatible.
+
+10 MHz: $10.
+
+
+    1.10  Intel i80886 CPU
+
+
+    1.11  Intel i80286 CPU
+
+Real mode: Intel i8086/i8088 CPU mode.
+Protected mode: 16 MByte address space, 64 kbyte per segment,
+                1 Gbyte virtual memory.
+
+16 bit data bus.
+24 bit address bus.
+
+1982.
+
+6 MHz.
+8 MHz, PLCC (Plastic Leaded Chip Carrier), $4.
+10 MHz, PLCC (Plastic Leaded Chip Carrier), $8.
+12 MHz, PLCC (Plastic Leaded Chip Carrier), $6.
+16 MHz, PLCC (Plastic Leaded Chip Carrier), $9.
+20 MHz.
+
+Used in IBM PC/AT.
+
+134E3 transistors.
+
+
+    1.12  Harris 80286 CPU
+
+Intel i80286 CPU instruction/pin compatible.
+
+25 MHz.
+
+
+    1.13  Intel i80386 CPU
+
+Real mode: Intel i8086/i8088 CPU mode.
+Protected mode: 64 Tbyte virtual memory, 4 Gbyte per segment.
+Virtual 8086 mode (V86 mode): parallel simulation of more virtual
+                              Intel i8086/i8088 CPU's.
+
+POPAD bug: EAX register is trashed when there is a memory access instruction
+           direct after the POPAD instruction.
+
+
+    1.13.1  Intel i80386/i80386DX CPU
+
+32 bit internal data bus.
+32 bit external data bus.
+32 bit address bus.
+
+1985.
+
+12 MHz (First 16 MHz CPU's had clock speed troubles and were released as
+       12 MHz items).
+16 MHz: early chips had a bug in the 32 bit MUL instruction (MUL bug).
+20 MHz: $29.
+25 MHz: $29.
+33 MHz: $39, 2000 mW.
+
+132 pin PGA (Pin Grid Array) package.
+
+275E3 transistors.
+
+
+    1.13.2  Intel i80386SX CPU
+
+32 bit internal data bus.
+16 bit external data bus.
+24 bit address bus.
+
+16 MHz: $18.
+20 MHz: $27.
+25 MHz: $30.
+
+
+    1.13.3  Intel i80386SL CPU
+
+Low power version of the Intel i80386SX CPU.
+Extra pins assigned for power management.
+
+Intel i80386SX CPU upward pin compatible.
+
+25 MHz.
+33 MHz.
+
+
+    1.13.4  Intel RapidCAD CPU
+
+Intel i80386 CPU with FPU (same implementation as Intel i80486DX CPU).
+
+The Intel RapidCAD CPU consists of a set of 2 chips. The Intel RapidCAD-1
+(132 pin PGA) contains the Intel i80386 CPU with FPU. The Intel RapidCAD-2
+(68 pin PGA) fits in the Intel i80387DX NPX socket and contains a PLA for the
+FERR signal generation.
+
+Intel i80386DX CPU / Intel i80387DX NPX pin compatible.
+
+1992.
+
+25 MHz.
+33 MHz: $239, 3500 mW.
+
+
+    1.13.5  Intel i386SX microprocessor
+
+Embedded version of Intel i80386SX CPU.
+Static core.
+
+24 bit address bus.
+
+Packaging: 100 pin PQFP (Plastic Quad Flat Package),
+           die,
+           military.
+
+16 MHz: 5 V, 0-16 MHz, 1993, $26.
+20 MHz: 5 V, 0-20 MHz, 1993, $26.
+25 MHz: 5 V, 0-25 MHz, 1993, $26.
+
+
+    1.13.6  Intel i386CX microprocessor
+
+Embedded version of Intel i80386SX CPU.
+Static core.
+
+SMM (System Management Mode): system & power management: idle, powerdown,
+                                powersave.
+
+26 bit address bus.
+
+Packaging: 100 pin PQFP (Plastic Quad Flat Package),
+           100 pin SQFP,
+           die,
+           military.
+
+12 MHz: 3 V, 0-12 MHz, 1993, $27.
+20 MHz: 3.3 V, 0-20 MHz, 1993, $27.
+25 MHz: 5 V, 0-25 MHz, 1993, $27.
+
+
+    1.13.7  Intel i386EX microprocessor
+
+Embedded version of Intel i80386SX CPU.
+Static core.
+
+SMM (System Management Mode): system & power management: idle, powerdown,
+                                powersave.
+
+26 bit address bus.
+
+Packaging: 132 pin PQFP (Plastic Quad Flat Package),
+           144 pin SQFP,
+           die,
+           military.
+
+16 MHz: 3 V, 0-16 MHz, 1994, $39.
+20 MHz: 3.3 V, 0-20 MHz, 1994, $39.
+25 MHz: 5 V, 0-25 MHz, 1994, $39.
+
+
+    1.14  AMD Am386 CPU
+
+Intel i80386 CPU instruction/pin compatible.
+Same core and microcode as Intel i80386 CPU.
+
+
+    1.14.1  AMD Am386DX CPU
+
+Low power.
+
+Intel i80386DX CPU pin/instruction compatible.
+
+16 MHz: 2-16 MHz.
+20 MHz: 2-20 MHz.
+25 MHz: 2-25 MHz.
+33 MHz: 2-33 Mhz.
+40 MHz: 2-40 MHz, $59.
+
+
+    1.14.2  AMD Am386DXL CPU
+
+Low power version of AMD Am386DX CPU.
+
+40 MHz.
+
+
+    1.14.3  AMD Am386DXLV CPU
+
+Low power, low voltage (3.3 V) version of AMD Am386DX CPU.
+
+
+    1.14.4  AMD Am386SX CPU
+
+Low power.
+Extra pins assigned for power management.
+
+Intel i80386SX CPU upward pin compatible.
+
+16 MHz: 2-16 MHz.
+20 MHz: 2-20 MHz.
+25 MHz: 2-25 MHz, $30.
+33 MHz: 2-33 MHz.
+40 MHz: 2-40 MHz.
+
+
+    1.14.5  AMD Am386SXL CPU
+
+Low power version of AMD Am386SX CPU.
+
+33 MHz: 0-33 MHz.
+
+
+    1.15  IBM 386 CPU
+
+Intel i80386 CPU instruction compatible
+Some instructions are executed faster than when executed by the
+Intel i80386 CPU.
+
+
+    1.15.1  IBM 386SLC CPU features
+
+Low power.
+Extra pins assigned for power management.
+
+8 kbyte cache.
+To be enabled via software.
+
+Intel i80386SX CPU upward pin compatible.
+
+
+    1.16  Chips & Technologies 386 CPU
+
+Intel i80386 CPU instruction compatible, including undocumented
+LOADALL386 instruction.
+Own microcode (clean room).
+Some instructions are executed faster than when executed by the
+Intel i80386 CPU.
+
+
+    1.16.1  Chips & Technologies Super386 38600DX CPU
+
+Intel i80386DX CPU pin compatible.
+
+Co-operation with an appropriate NPX causes communication problems, which
+cause the over-all performance to drop below that of an Intel i80386DX CPU
+with NPX.
+
+33 MHz: $80.
+40 MHz: 1650 mW.
+
+No longer available.
+
+
+    1.16.2  Chips & Technologies 38605DX CPU
+
+512 byte instruction cache.
+
+32 bit internal data bus.
+32 bit external data bus.
+32 bit address bus.
+Not Intel i80386DX CPU pin compatible.
+
+144 pin PGA.
+
+No longer available.
+
+
+    1.16.3  Chips & Technologies 38600SX CPU
+
+Intel i80386SX CPU pin compatible.
+
+Never released.
+
+
+    1.17  IBM 386/486 hybrid CPU
+
+Intel i80486 CPU instruction compatible, no FPU.
+Intel i80386 CPU bus interface.
+
+
+    1.17.1  IBM 486DLC CPU
+
+Intel i80386 CPU core, enhanced by IBM.
+
+16 kbyte cache: 4-way set associative.
+To be enabled via software.
+
+32 bit internal data bus.
+32 bit external data bus.
+32 bit address bus.
+Not Intel i80386DX CPU pin compatible.
+
+
+    1.17.2  IBM 486DLC2 CPU
+
+Clock doubled version of the IBM 486DLC CPU.
+
+Intel i80386 CPU core, enhanced by IBM.
+
+16 kbyte cache: 4-way set associative.
+To be enabled via software.
+
+Intel i80386DX CPU pin compatible.
+
+
+    1.17.3  IBM 486BLX2 CPU (Blue Lightening)
+
+Clock doubled version of the IBM 486DLC CPU.
+
+Intel i80486 CPU core and microcode.
+
+16 kbyte cache: 4-way set associative.
+To be enabled via software.
+
+Low power.
+Power management.
+
+Intel i80386DX CPU upward pin compatible.
+
+25/50 MHz: 1993.
+33/66 MHz: 1993.
+
+
+    1.17.4  IBM 486BLX3 CPU (Blue Lightening)
+
+Clock tripled version of the IBM 486DLC CPU.
+
+Intel i80486 CPU core and microcode.
+
+16 kbyte cache: 4-way set associative.
+To be enabled via software.
+
+Low power.
+Power management.
+
+Intel i80386DX CPU upward pin compatible.
+
+25/75 MHz: 1993.
+33/99 MHz: 1993.
+
+
+    1.17.5  IBM 486SLC CPU
+
+Intel i80386 CPU core, enhanced by IBM.
+
+16 kbyte cache: 4-way set associative.
+To be enabled via software.
+
+32 bit internal data bus.
+16 bit external data bus.
+24 bit address bus.
+Not Intel i80386SX CPU pin compatible.
+
+
+    1.17.6  IBM 486SLC2 CPU
+
+Clock doubled version of the IBM 486SLC CPU.
+
+Intel i80386 CPU core, enhanced by IBM.
+
+16 kbyte cache: 4-way set associative.
+To be enabled via software.
+
+Intel i80386SX CPU pin compatible.
+
+33/66 MHz, 1993.
+40/80 MHz, 1993.
+
+
+    1.18  Cyrix 386/486 hybrid CPU
+
+Intel i80486 CPU instruction compatible, no FPU.
+Own core (clean room): not 100% compatible.
+Intel i80386 CPU bus interface.
+
+
+    1.18.1  Cyrix Cx486DLC CPU
+
+First generation 40 MHz CPU's had a bug: using a NPX (Cyrix EMC87 NPX,
+Cyrix Cx83D87 NPX (until nov. 1991), IIT IIT-3C87 NPX) caused crashes. These
+are caused by synchronisation errors in FSAVE and FSTOR instructions. Later,
+improved CPU's have an AB prefix printed in the lower right corner. The
+Cyrix 387+ NPX (European name for Cyrix Cx83D87 NPX from nov. 1991) causes
+no trouble when co-operating with a bad Cyrix Cx486DLC CPU.
+
+1 kbyte unified cache: write-through, direct-mapped / 2-way set-associative,
+                       maximum of 4 non-cachable areas.
+Hit rate: 65% without support of cache by motherboard, because of flush at
+            DMA,
+          85% with support of cache by motherboard (Cache Coherency Support).
+To be enabled via software (BIOS).
+
+32 bit internal data bus.
+32 bit external data bus.
+32 bit address bus.
+Intel i80386DX CPU upward pin compatible.
+
+25 MHz: $55.
+33 MHz: $69.
+40 MHz: $89, 2800 mW.
+
+Clock Skewing Correction Circuit.
+
+Contains a fast extra 16x16 bit multiplier.
+
+Extra pins assigned for cache, power and A20 management:
+  cache management: KEN#,
+                    FLUSH#,
+                    RPLSET#,
+                    RPLVAL#,
+  power management: SUSP#,
+                    SUSPA#,
+  A20 management: A20M#.
+
+
+    1.18.2  Cyrix Cx486SLC CPU
+
+1 kbyte unified cache: write-through, direct-mapped / 2-way set-associative,
+                       maximum of 4 non-cachable areas.
+hit rate: 65% without support of cache by motherboard, because of flush at
+            DMA,
+          85% with support of cache by motherboard (Cache Coherency Support).
+To be enabled via software (BIOS).
+
+32 bit internal data bus.
+16 bit external data bus.
+24 bit address bus.
+Intel i80386SX CPU upward pin compatible.
+
+25 MHz: $128.
+33 MHz: $159.
+40 MHz.
+
+Clock Skewing Correction Circuit.
+
+Contains a fast extra 16x16 bit multiplier.
+
+Extra pins assigned for cache, power and A20 management:
+  cache management: KEN#,
+                    FLUSH#,
+                    RPLSET#,
+                    RPLVAL#,
+  power management: SUSP#,
+                    SUSPA#,
+  A20 management: A20M#.
+
+
+    1.18.3  Cyrix Cx486DLC / Cx486SLC CPU incompatibilities
+
+Same registers.
+Same instruction set.
+Differences in execution time of various instructions, average CPI (Cycles
+Per Instruction) about equal.
+
+Crashes with: NextStep,
+              DBOS 1.0 DOS extender of Salford FTN/386,
+              Fortran compiler.
+
+
+    1.18.4  Cyrix Cx486DRu2 CPU
+
+Direct Replacement Unit.
+'Clock doubled' version of the Cyrix Cx486DLC CPU.
+In fact a Cyrix Cx486DLC CPU with some additional hardware on a little PCB
+that fits in a PGA.
+
+2 kbyte cache.
+
+Intel i80386DX CPU upward pin compatible.
+
+16/32 MHz.
+20/40 MHz.
+25/50 MHz.
+
+
+    1.18.5  Cyrix Cx486DRx2 CPU
+
+Clock doubled version of the Cyrix Cx486DLC CPU.
+
+Incompatibilities: AT&T / Olivetti 386DX-16 and 386DX-20 systems,
+                   Sun i386 systems,
+                   Memorex 386 systems,
+                   IBM PS/2 Model 70/16 MHz (85 ns memory required),
+                   early Compaq Deskpro 386/16 MHz systems with 287 NPX (NPX
+                     to be removed).
+
+16/32 MHz: $279.
+20/40 MHz: $329, heat sink.
+25/50 MHz: $379, heat sink.
+
+
+    1.18.6  Cyrix Cx486SRx2
+
+Intel i80486 CPU instruction compatible, no FPU.
+Clock doubled.
+
+The chip is placed over the surface mounted Intel i80386SX CPU. The original
+CPU is disabled by using the FLOAT pin. Older 16 MHz Intel i80386SX CPU's can
+not be upgraded.
+
+1 kbyte cache.
+
+20 MHz, 1993.
+25 MHz, 1993.
+
+
+    1.19  Texas Instruments 386/486 hybrid CPU
+
+    1.19.1  Texas Instruments TI486DLC CPU
+
+Cyrix Cx486DLC CPU.
+
+
+    1.19.2  Texas Instruments TI486SLC CPU
+
+Cyrix Cx486SLC CPU.
+
+
+    1.19.3  Texas Instruments TI486SXLC2 CPU (Potomac)
+
+Texas Instruments TI486SLC CPU instruction/pin compatible.
+Clock doubled.
+
+Power management.
+
+8 kbyte internal cache.
+
+33 MHz: 3 V, 1993.
+33 MHz: 5 V, 1993.
+20/40 MHz: 3 V, 1993.
+25/50 MHz: 5 V, 1993.
+
+100 pin QFP (Quad Flat Package).
+
+
+    1.19.4  Texas Instruments 386/486 hybrid CPU announcements
+
+Rio Grande: Potomac follow-up.
+
+
+    1.20  Intel i80486 CPU
+
+Intel i80386 CPU upward instruction compatible.
+Extra instructions.
+
+8 kbyte unified cache: write-through, 4-way set associative, 128 sets *
+                       4 cache lines, 16 bytes per cache line, 4 write
+                       buffers, only invalidation of a complete cache line.
+
+32 bit internal data bus.
+32 bit external data bus.
+32 bit address bus.
+
+RISC-like execution unit:
+  5-stage pipeline,
+  barrel shifter,
+  conditional jump taken / not taken prediction.
+
+Burst mode memory access: first access: 2 clock cycles,
+                          every next access: 1 clock cycle.
+
+
+    1.20.1  Intel i80486DX CPU
+
+Build-in FPU.
+
+20 MHz.
+25 MHz, $219, 2600 mW, CHMOS IV.
+33 MHz, $275, 3500 mW, CHMOS IV.
+50 MHz, $499, 1991, 3875 mW, CHMOS V.
+
+Upgrading: Intel i80486DX2 CPU (ODPR), Intel Overdrive CPU (ODP:
+           Intel i80486DX2), Intel Overdrive CPU (ODPR: Intel Pentium CPU with
+           Intel i80486DX CPU bus interface), Intel Overdrive CPU (ODP:
+           Intel Pentium CPU).
+
+1989.
+
+168 pin PGA (Pin Grid Array).
+
+1.2E6 transistors.
+
+
+    1.20.2  Intel i80486SL CPU
+
+Intel i80486DX CPU with extra features: DRAM controller,
+                                        ISA controller,
+                                        local PI-bus controller (Peripheral
+                                          Interconnect),
+                                        power management.
+
+25 Mhz.
+33 MHz.
+
+Not Intel i80486DX CPU pin compatible.
+196 pin PQFP (Plastic Quad Flat Package).
+
+
+    1.20.3  Intel i80486DXL CPU
+
+Intel i80486DX CPU with extra features: SMM (System Management Mode),
+                                        stop clock,
+                                        power saving features.
+
+
+    1.20.4  Intel i80486SX CPU
+
+No build-in FPU: Intel i80486DX CPU with FPU disabled,
+                 currently FPU not implemented (resulting in a smaller chip,
+                                                plastic package).
+
+One extra pin assigned to allow an Intel i80487SX NPX to dissable this CPU.
+Not Intel i80486DX CPU upward pin compatible.
+168 pin PGA (Pin Grid Array).
+
+16 MHz, 1991.
+20 MHz, 1991.
+25 MHz, 1991, $85.
+33 MHz, 1991, $129.
+3.3 V.
+
+Upgrading: Intel i80486DX CPU (ODPR: Intel i80486DX CPU with
+           Intel i80486SX CPU pin layout), Intel i80486DX2 CPU (ODPR:
+           Intel i80486DX2 CPU with Intel i80486SX CPU pin layout),
+           Intel Overdrive CPU (ODP: Intel i80486DX2 CPU), Intel Overdrive CPU
+           (ODPR: Intel Pentium CPU with Intel i80486SX CPU bus interface),
+           Intel Overdrive CPU (ODP: Intel Pentium CPU).
+
+208 pin PQFP (Plastic Quad Flat Package).
+
+
+    1.20.5  Intel i80486SXL CPU
+
+Intel i80486SX CPU with extra features: SMM (System Management Mode),
+                                        stop clock,
+                                        power saving features.
+
+
+    1.20.6  Intel i80486DX2 CPU
+
+Clock doubled version of the Intel i80486DX CPU.
+Intel i80486DX CPU pin compatible.
+
+20/40 MHz.
+25/50 MHz, 4000 mW, $299.
+33/66 MHz, 4875 mW, $449.
+40/80 MHz (announced).
+50/100 MHz (announced).
+
+Upgrading: Intel Overdrive CPU (ODPR: Intel Pentium CPU with
+           Intel i80486DX CPU bus interface), Intel Overdrive CPU (ODP:
+           Intel Pentium CPU).
+
+
+    1.20.7  Intel i80486DX3 CPU (announced)
+
+Clock tripled version of the Intel i80486DX CPU.
+
+25/75 MHz, 3.3 V.
+33/99 MHz, 3.3 V.
+
+
+    1.20.8  Intel i80486 CPU announcements
+
+3,3 V versions of existing and new Intel i80486 CPU's.
+
+
+    1.21  AMD Am486 CPU
+
+Same core and microcode as Intel i80486 CPU's. Currently working on an own
+implementation. In between there are CPU's with recompiled 486 microcode.
+Intel i80486 CPU instruction/pin compatible.
+
+
+    1.21.1  AMD Am486DX CPU
+
+Intel i80486DX CPU instruction/pin compatible.
+
+33 MHz: 8-33 MHz, 1993, $306.
+40 MHz: 8-40 MHz, 1993, $306.
+
+
+    1.21.2  AMD Am486DXLV CPU
+
+Low power, low voltage (3.3 V) version of the AMD Am486DX CPU.
+
+33 MHz: 0-33 MHz, 1993.
+
+
+    1.21.3  AMD Am486DX2 CPU
+
+Clock doubled version of the AMD Am486DX CPU.
+
+25/50 MHz: 1993 $417.
+40/80 MHz (announced).
+
+
+    1.21.4  AMD Am486DX3 CPU (announced)
+
+Clock tripled version of the AMD Am486DX CPU.
+
+33/99 MHz.
+40/120 MHz.
+
+
+    1.21.5  AMD Am486SX CPU
+
+AMD microcode.
+
+Intel i80486SX CPU instruction/pin compatible.
+
+33 MHz, 1993.
+40 MHz, 1993.
+
+
+    1.21.6  AMD Am486SX2 CPU
+
+Clock doubled version of the AMD Am 486SX CPU.
+
+25/50 MHz: 1993.
+
+
+    1.21.7  AMD Am486 CPU announcements
+
+3,3 V versions of the AMD Am486DX CPU and the AMD Am486SX CPU.
+
+
+    1.22  IBM 80486 CPU
+
+Intel i80486 CPU instruction compatible.
+
+
+    1.22.1  IBM 80486DX CPU
+
+Intel i80486DX CPU instruction/pin compatible.
+
+
+    1.22.2  IBM 80486SX CPU
+
+Intel i80486SX CPU instruction/pin compatible.
+
+16 kbyte cache.
+
+
+    1.23  Cyrix Cx486 CPU
+
+    1.23.1  Cyrix FasCache Cx486D CPU
+
+Intel i80486DX CPU instruction compatible, build-in FPU.
+
+2 kbyte cache: write-back.
+
+Intel i80486DX CPU upward pin compatible.
+
+On-chip ventilator.
+
+40 MHz: 1993.
+
+
+    1.23.2  Cyrix FasCache Cx486S CPU
+
+Intel i80486SX CPU instruction compatible, no build-in FPU.
+
+2 kbyte cache: write-back.
+
+Intel i80486SX CPU upward pin compatible.
+
+40 MHz: 1993.
+
+
+    1.24  Texas Instruments TI486 CPU
+
+    1.24.1  Texas Instruments TI486SXL2 CPU (Potomac)
+
+Intel i80486 CPU instruction compatible, no build-in FPU.
+Clock doubled.
+
+Intel i80486SX CPU pin compatible.
+168 pin CPGA (Ceramic Pin Grid Array).
+
+Power management.
+
+8 kbyte internal cache.
+
+33 MHz: 3 V, 1993.
+40 MHz: 5 V, 1993.
+20/40 MHz: 3 V, 1993.
+25/50 MHz: 5 V, 1993.
+
+
+    1.25  Intel Overdrive CPU for Intel i80486 CPU
+
+Many 486 CPU motherboards contain an Intel Overdrive socket in which a more
+powerful CPU can be placed (ODP: OverDrive Processor), this being an
+Intel i80486DX2 CPU or an Intel Pentium CPU. It is possible to remove the old
+CPU while upgrading. All output pins of the original CPU are put in 3-state
+and the power consumption is reduced when the UP# pin (Upgrade Present) is
+activated.
+
+An Intel Overdrive CPU will be made available that will fit in the original
+PGA (ODPR: OverDrive Processor Replacement), so motherboards without an
+Intel Overdrive socket can be upgraded.
+
+At this moment it is still unsure if all motherboards with an
+Intel Overdrive socket can indeed be upgraded to an Intel pentium CPU. The
+Intel P24T CPU, the Intel Pentium CPU upgrade for the blue 238 pin PGA
+Overdrive socket, apears to produce too much heat for most thermally not
+compliant systems. It is not even sure if there will ever be an
+Intel Pentium CPU upgrade for those motherboards at all. For the newer
+motherboards with a 237 pin PGA Overdrive socket, that do satisfy the heat
+specifications, there will be an Intel Pentium CPU at 3,3 V with a ventilator
+on the IC.
+
+ZIF socket (Zero Insertion Force).
+
+
+    1.25.1  Intel i80486DX2 CPU for Intel i80486DX CPU (ODPR)
+
+20/40 MHz: $285.
+25/50 MHz: $359.
+33/66 MHz: $459.
+
+
+    1.25.2  Intel i80486DX2 CPU for Intel i80486SX CPU (ODPR)
+
+20/40 MHz: $285.
+25/50 MHz: $359.
+33/66 MHz: $459.
+
+
+    1.25.3  Intel i80486DX2 CPU for Intel i80486DX CPU or Intel i80486SX CPU
+            (ODP)
+
+33/66 MHz.
+
+
+    1.26  Intel Pentium CPU
+
+2-issue 5-stage superscalar with 8-stage pipelined FPU.
+Intel i80486 CPU upward instruction compatible.
+
+Multiprocessor support.
+Upgrading: adding more Intel Pentium CPU's.
+
+Parity checking at busses.
+
+Branch prediction using BTB (Branch Target Buffer).
+
+8 kbyte instruction cache.
+8 kbyte data cache.
+Both 2-way set associative.
+
+64 bit data bus.
+32 bit address bus.
+
+60 MHz: 1993, 17 W, $1000 (First 66 MHz CPU's had heat troubles and were
+                          released as 60 MHz items).
+66 MHz: 1993.
+
+P5.
+
+Manufacturing: 0.8 micron biCMOS, 3.1E6 transistors.
+
+
+    1.26.1  Intel P54C CPU
+
+Upgrading: Intel P54M Overdrive (2 CPU's co-operating).
+
+1993.
+
+
+    1.26.2  Intel Pentium CPU announcements
+
+3,3 V Intel Pentium-66/99 CPU
+      Intel Pentium-66/150 CPU.
+
+P6: 8.0E6 transistors, Oregon.
+P7: Santa Clara, CA.
+
+
+    1.27  Intel Overdrive CPU for Intel Pentium CPU
+
+    1.27.1  Intel P54M CPU
+
+Overdrive for Intel P54C CPU.
+
+
+    1.28  VESA Local Bus (VLB)
+
+The original VESA Local Bus was designed to work with CPU's using the 
+Intel i80386DX CPU, Intel i80486DX CPU and Intel i80486SX CPU pinout (32 bit
+data bus), running up to 40 MHz. There are also Pentium motherboards with
+VESA Local Bus compatible slots.
+
+A new version of the VESA Local Bus specification was released in 1993.
+
+
+
+
+    2  NPX
+
+    2.1  Intel i8087 NPX
+
+NPX for Intel i8086 CPU, Intel i8088 CPU, Intel i80186 CPU, Intel i80188 CPU.
+
+5 MHz (8087-3): $45.
+8 MHz (8087-2): $49.
+10 MHz (8087-1): 2400 mW, $85.
+
+40 pin CERDIP (CERamic Dual In-line Package).
+
+Technology: NMOS.
+
+
+    2.2  Intel i80287 NPX
+
+NPX for Intel i80286 CPU, Intel i80386 CPU.
+
+6 MHz.
+8 MHz.
+10 MHz: 2400 mW.
+
+1983.
+
+40 pin CERDIP (CERamic Dual In-line Package).
+
+Technology: NMOS.
+
+
+    2.3  AMD Am80287 NPX
+
+    2.3.1  AMD Am80C287 NPX
+
+Intel i80287 NPX instruction/pin compatible.
+Intel i80287 NPX core/microcode.
+
+10 MHz: $50.
+12 MHz: $50.
+16 MHz: $50.
+
+1989.
+
+40 pin CERDIP (CERamic Dual In-line Package).
+40 pin plastic DIP (Dual In-line Package).
+44 pin PLCC (Plastic Leaded Chip Carrier).
+
+Technoloy: CMOS.
+
+
+    2.3.2  AMD Am80EC287 NPX
+
+AMD Am80C287 NPX with power management.
+
+
+    2.4  Cyrix Cx287 NPX
+
+Intel i80287 NPX instruction/pin compatible.
+
+8 MHz.
+10 MHz.
+12 MHz: $69.
+16 MHz.
+20 MHz.
+
+
+    2.5  Intel i80187 NPX
+
+NPX for Intel i80C186 CPU.
+
+Intel i80387 NPX core/microcode.
+Intel i80387 NPX instruction compatible.
+
+12.5 MHz: 1989, 675 mW.
+16 MHz: 1989, 780 mW.
+
+40 pin CERDIP (CERamic Dual In-line Package).
+44 pin PLCC (Plastic Leaded Chip Carrier).
+
+
+    2.6  Intel i80287XL NPX
+
+NPX for Intel i80286 CPU, Intel i80386 CPU.
+
+Intel i80387 NPX core/microcode.
+Intel i80387 NPX instruction compatible.
+
+Intel i80287 NPX pin compatible.
+
+12.5 MHz: 1990, 675 mW, $85.
+
+40 pin CERDIP (CERamic Dual In-line Package).
+44 pin PLCC (Plastic Leaded Chip Carrier) (Intel i80287XLT NPX).
+
+Technology: CMOS.
+
+
+    2.7  Cyrix Cx2S87 NPX
+
+NPX for Intel i80286 CPU, Intel i80386 CPU.
+
+Intel i80387 NPX instruction compatible.
+Cyrix Cx83D87 NPX core/microcode (until november 1991)
+Cyric Cx387+ NPX core/microcode (from november 1991).
+
+6 MHz: 1991.
+8 MHz: 1991.
+10 MHz: 1991.
+12 MHz: 1991, $69.
+16 MHz: 1991.
+20 MHz: 1991.
+
+40 pin DIP (Dual In-line Package) (Intel i80287 NPX pin compatible).
+44 pin PLCC (Plastic Leaded Chip Carrier) (Intel i80287XLT NPX
+            pin compatible).
+
+Static core.
+Technology: CMOS.
+
+
+    2.8  IIT IIT-2C87 NPX
+
+NPX for Intel i80286 CPU, Intel i80386 CPU.
+
+IIT IIT-3C87 NPX instruction compatible.
+IIT IIT-3C87 NPX core/microcode.
+
+Intel i80287 NPX pin compatible.
+
+8 MHz: $29.
+10 MHz: $39.
+12 MHz: $60.
+16 MHz.
+20 MHz, 1989, 500 mW, $64.
+
+Technology: CMOS.
+
+
+    2.9  Intel i80387 NPX
+
+    2.9.1  Intel i80387 NPX
+
+16 MHz: 750 mW.
+20 MHz: 950 mW.
+25 MHz: 1250 mW.
+
+1986.
+
+68 pin, 2 row ceramic PGA (Pin Grid Array).
+
+Technology: 1.5 micron CHMOS III.
+
+
+    2.9.2  Intel i80387DX NPX
+
+NPX for Intel i80386DX CPU.
+Enhanced Intel i80387 NPX.
+
+16 MHz: $75.
+20 MHz: 525 mW, $75.
+25 MHz: 625 mW, $75.
+33 MHz: 750 mW, $75.
+
+1989.
+
+68 pin, 2 row PGA (Pin Grid Array).
+
+Technology: CHMOS IV.
+
+
+    2.9.3  Intel i80387SX NPX
+
+NPX for Intel i80386SX CPU.
+
+Intel i80387 NPX core/microcode.
+
+16 MHz: 740 mW, $75.
+20 MHz: 1000 mW, $75.
+25 MHz: $75.
+33 MHz.
+
+68 pin PLCC (Plastic Leaded Chip Carrier).
+
+
+    2.9.4  Intel i80387SL NPX
+
+NPX for Intel i80386SL CPU.
+
+Intel i80387DX NPX core/microcode.
+Extra features: cache controller,
+                programmable memory controller,
+                expanded memory support.
+Static core.
+
+Power management.
+
+16 MHz.
+20 MHz.
+25 MHz: $75.
+33 MHz.
+
+1992.
+
+Technology: CHMOS IV.
+
+
+    2.10  Chips & Technologies SuperMath 38700 NPX
+
+    2.10.1  Chips & Technologies SuperMath 38700DX NPX
+
+Intel i80387DX NPX instruction/pin compatible.
+
+Power Management.
+
+16 MHz: 1991.
+20 MHz: 1991.
+25 MHz: 1991.
+33 MHz: 1991.
+40 MHz: 1991.
+
+No longer available.
+
+68 pin ceramic PGA (Pin Grid Array).
+
+Technology: 1.2 micron CMOS.
+
+
+    2.10.2  Chips & Technologies SuperMath 38700SX NPX
+
+Intel i80387SX NPX instruction/pin compatible.
+
+Power management.
+
+16 MHz: 1991.
+20 MHz: 1991.
+25 MHz: 1991.
+
+No longer available.
+
+68 pin PLCC (Plastic Leaded Chip Carrier).
+
+
+    2.11  Cyrix 80387 NPX
+
+    2.11.1  Cyrix FasMath Cx83D87 NPX
+
+Intel i80387DX NPX instruction/pin compatible.
+
+Power management.
+
+Computations are executed faster than by Intel i80387DX NPX.
+
+Later versions (from november 1991) correctly co-operate with first generation
+Cyrix Cx486DLC CPU's, which were having synchronization problems, when
+co-operating with a NPX.
+
+16 MHz: $64.
+20 MHz: $64.
+25 MHz: $64.
+33 MHz: $64, 500 mW.
+40 MHz: november 1991, $59.
+
+1989.
+
+
+    2.11.2  Cyrix FasMath Cx387+ NPX
+
+European name for Cyrix FasMath 83D87 NPX from november 1991.
+
+40 MHz: november 1991.
+
+
+    2.11.3  Cyrix FasMath EMC87 NPX
+
+Also know as Cyrix AutoMath.
+
+Cyrix Cx83D87 NPX with extra features: memory-mapped mode.
+
+25 MHz.
+33 MHz: 2000 mW.
+
+121 pin PGA (121 pin EMC: Extended Math Coprocessor)
+
+
+    2.11.4  Cyrix FasMath 83S87 NPX
+
+Intel i80387SX NPX instruction/pin compatible.
+Cyrix Cx387+ NPX core/microcode after november 1991
+
+Power management.
+
+Computations are executed faster than by Intel i80387SX NPX.
+
+16 MHz: $57.
+20 MHz: 350 mW, $57.
+25 MHz: $57.
+33 MHz: $75.
+
+68 pin PLCC (Plastic Leaded Chip Carrier).
+
+
+    2.11.5  Cyrix Cx387DX NPX
+
+Intel i80387DX NPX instruction/pin compatible.
+
+16 MHz.
+20 MHz.
+25 MHz.
+33 MHz.
+40 MHz.
+
+
+    2.11.6  Cyrix Cx387SX NPX
+
+Intel i80387SX NPX instruction/pin compatible.
+
+16 MHz.
+20 MHz.
+25 MHz.
+33 MHz.
+
+
+    2.12  IIT IIT-3C87 NPX
+
+Not fully Intel i80387 NPX instruction compatible.
+Extra features.
+
+
+    2.12.1  IIT IIT-3C87 NPX
+
+16 MHz: $69.
+20 MHz: $69.
+25 MHz: $69.
+33 MHz: $69.
+40 MHz: 600 mW, $69.
+
+1989.
+
+Intel i80387DX NPX pin compatible.
+
+Technology: CMOS.
+
+    1.12.2  IIT IIT-3C87SX
+
+16 MHz: $69.
+20 MHz: $69.
+25 MHz: $69.
+33 MHz: $69.
+40 MHz.
+
+68 pin PLCC (Plastic Leaded Chip Carrier).
+
+Technology: CMOS.
+
+
+    2.13  ULSI Math*Co 83C87 NPX
+
+Intel i80387DX NPX instruction/pin compatible.
+
+20 MHz: 400 mW.
+25 MHz: 500 mW.
+33 MHz: 625 mW, $59.
+40 MHz: 750 mW, $59.
+
+1991.
+
+68 pin ceramic PGA (Pin Grid Array).
+
+Technology: CMOS.
+
+
+    2.14  ULSI Math*Co 83S87 NPX
+
+Intel i80387SX NPX instruction/pin compatible.
+
+Power management.
+
+16 MHz: 300 mW.
+20 MHz: 350 mW.
+25 MHz: 400 mW.
+
+68 pin PLCC (Plastic Leaded Chip Carrier).
+
+
+    2.15  Weitek Abacus 1167 NPX
+
+NPX for Intel i80386Dx CPU.
+
+Not Intel i80387 NPX instruction compatible.
+
+In fact a small PCB with three chips mounted on it.
+Not Intel i80387DX NPX pin compatible.
+
+
+    2.16  Weitek Abacus 3167 NPX
+
+NPX for Intel i80386DX CPU, Intel i80486 CPU.
+
+Not Intel i80387 NPX instruction compatible.
+
+Not Intel i80387DX NPX pin compatible.
+121 pin, 3 row PGA (Pin Grid Array) (EMC socket).
+Can be used together with Intel i80387DX NPX. If the motherboard has no apart
+PGA for the Abacus, two NPX's can be used simultaniously by installing an
+extra PCB, containing two PGA's, on the original PGA.
+
+20 MHz: $29.
+25 MHz: 1750 mW, $79.
+33 MHz: 2250 mW, $169.
+
+
+    2.17  Cyrix Cx4C87DLC NPX
+
+NPX for Cyrix Cx486DLC CPU.
+
+25 MHz.
+33 MHz.
+40 MHz.
+
+
+    2.18  Intel i80487 NPX
+
+NPX for Intel i80486SX CPU.
+
+
+    2.18.1  Intel i80487SX NPX
+
+In fact an Intel i80486DX with different pin layout (in Intel i80487SX NPX
+socket) and one extra pin assigned to disable the Intel i80486SX CPU. The
+Intel i80486SX CPU can be removed.
+
+20 MHz: 3250 mW.
+25 MHz: $329.
+
+169 pin PGA (Pin Grid Array).
+
+
+    2.18.2  Intel i80487 NPX
+
+In fact an Intel i80486DX with Intel i80486SX pin layout (in
+Intel i80486SX CPU socket).
+
+25 MHz: $329.
+
+
+    2.19  Weitek Abacus 4167 NPX
+
+NPX for Intel i80486 CPU.
+
+Not Intel i80387 NPX instruction compatible.
+
+25 MHz: 2500 mW, $299.
+33 MHz: $529.
+
+142 pin, 3 row PGA.
+
+
+
+
+Credits: MarK Nijdam ;-),
+         Norbert Juffa (norbert@iit.com):
+           Performance Comparison Intel 386DX, Intel RapidCAD, C&T 38600DX,
+           Cyrix 486DLC (Usenet),
+           Everything You Always Wanted to Know about Math Coprocessors
+           (Usenet).
+           
+
+Compiled, Copyright 1993 by A. Offerman. Permission to use, copy or
+distribute this document for non-commercial use is hereby granted, provided
+that this copyright and permission notice appear in all copies.
+
+This document is provided "as is" without expressed or implied warranty.
+
+The specific products and their respective manufacturers are not to be taken
+as endorsements of, nor commercials for, the manufacturer.
+-- 
+*************************************************************************
+*  A. Offerman  <offerman@einstein.et.tudelft.nl>                       *
+*  Delft University of Technology                                       *
+*  Department of Electrical Engineering                                 *
+*  Department of Computer Science                                       *
+*                                                                       *
+*  The Golden Rule: "He who has the gold makes the rules".              *
+*************************************************************************

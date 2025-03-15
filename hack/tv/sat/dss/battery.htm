@@ -1,0 +1,237 @@
+<html>
+<head><title>Group 42 Sells Out [DSS Hacking]</title></head>
+<body background="../../cable1.gif">
+
+<center>
+
+<img alt="Group 42 Sells Out!" src="../../../../g42slogo.gif">
+
+</center>
+
+<hr size=5 noshade>
+<center>
+<h2>Programming the Battery Card</h2>
+<h4>From American Hacker V1.7, (c)1996 American Hacker</h4>
+<h5>HTML'ed by Group42</h5>
+</center>
+<hr>
+<i>American Hacker is great source of timely information on the scrambling
+scene. Check out there WWW site at http://www.scramblingnew.com or
+drom them a snail mail at American Hacker, 3494 Delaware Ave., Buffalo,
+NY, 14217-1230.</i> - Group 42
+<p>
+<hr>
+<h4>Introduction</h4>
+To the best of our knowledge it is legal to use battery cards in Canada
+and some Caribbean countries.  We believe it is illegal to use them in
+the United States.  This is not a legal opinion.  Battery card users have
+had to have their cards reprogrammed twice recently and more reprogramming
+is ahead.  Most of those using battery cards never see the programming
+involved because there service is maintained by a professional dealer.
+Some may wish to maintain there own service or at least have an understanding
+of the process. Here is how it is done.  We present this information for
+educational purposes only.  The reader alone is responsible for obeying the
+laws of the country in which he resides.  Anti-static precautions must
+be take during the following procedure.
+<p>
+<img align=right src="pgm1.jpg">
+
+<h4>1. Install the Master Program</h4>
+The first step in programming the battery card is performed by the dealer.
+He purchases software which allows him to program a fixed number of cards.
+In order to get his own clone IRD numbers he sends in the official smartcard
+of an authorized unit.  This keeps the number of clones per master low that
+it is not practical for DirecTV to purchase cards in order to try to
+obtain the clone ID's.  Part of this program incudes a unique dealer ID.
+If a consumer goes to another dealer he will have to have that dealer
+reprogram his card with his master program.  The public has no access
+to the master program.
+<p>
+<h4>2. Archive the IRD Number</h4>
+It is important to archive the serial number of the IRD so it will always
+be possible to return the box to stock condition.  This is impoortant for
+authorized customers also.  As long as the IRD number is archived, the board
+can always be reprogrammed in case of memory loss.  Boards which have been
+modified can the be authorized the same as a box which is fresh from the
+factory.  The IRD number is obtained by pressing the TV/DSS and down arrow
+buttons simultaneously with the unit powerd up and the smartcard removed
+from its slot.  Depressing these buttons puts the box into Service Test
+mode.  When the test button is pushed a variety of tests are performed.  The
+IRD# is displayed on the first line and it consists of 10 characters.  A
+device costing $99 is being sold through magazine ads and it does only
+this.
+<p>
+<h4>3. Programming the Card</h4>
+<img align=right src="bcard.jpg">
+The card is programmed through the 18 pin edge connector which is on one
+end of the card.  Programmers sell for $150-$250 and they will program both
+the battery card and the EEPROM in the receiver.  The programmer used in this
+demo is the one sold by Open Skies and we had no problems with it.  A
+programmer can also be built for about $20 in commonly available parts.
+The mainxx file is programmed into the card first and then the IRD number
+file is programmed second.  The program used to do this is load.exe and
+the current version is 3.17 though earlier versions are circulating.
+<p>
+The programmer is connected to a parallel printer port via the cable marked
+card and the battery card is inserted. The edge connector on the card is
+only plated on one side and pins 12 thru 16 on the connector in the
+programmers have no connections in case orientation of the card in the
+programmer is an issue.  It is necessary to ensure that the card is
+inserted so it makes good contact.  Sometimes it is necessary to add 2
+or 3 layers of electrical tape on the back of the card.  After the
+card is inserted in the programmer it is turned on.  The LED indicates it is
+turend on.  Some programmers use a 9 volt battery while others use 155 volts
+and a transformer.
+<p>
+From the directory or disc the following is entered:
+<p>
+<pre>
+c:\program> load main04 [enter]
+
+Load Version 3.17
+Using printer port 3BCh
+Port not initailized: please remove and re-insert the card.
+Hit any key when ready.
+Reading 16420 bytes from main04.enc
+Timed out.... no Byte ACK
+
+</pre>
+This is a common error.  It may usually be corrected by turning the
+programmer off and then turning it back on 5 seconds later.  If the
+card still does not program, check the cables, and make sure the
+card is properly inserted.  It is possible to force the use of
+a particular printer port by adding -pn to the command line where
+n=3BC, 378 or 278.  The command line would look like this:
+<p>
+<pre>
+load main04 -p378
+</pre>
+Not that the .enc is not used.  When the card is successfuly programmed
+it looks like this:
+<p>
+<pre>
+c:\program> load main04
+
+Using printer port 3BCh
+Reading 16420 bytes from main03.enc
+Load successful, 16420 bytes sent.
+</pre>
+
+Once the mainxx file is loaded into the card the IRD number file must be
+loaded.  The number of the file represents the new IRD number which will
+appear during the diagnostic test.  It is not the real IRD number.
+The IRD number file is of the form xxxxxxxx.enc where x can represent
+any hex characters.  For example we will say the file is 21965f29.enc.
+Programming is as follows:
+<p>
+<pre>
+c:\program> load 21965f29
+
+Load Version 3.17
+Using printer port 3BCh
+Reading 3480 bytes from 21965f29.enc
+Load successful, 3480 bytes sent.
+</pre>
+Once the card has been successfully programmed the programmer may be turned
+off, and the card may be removed.
+
+<h4>4. Program the EEPROM</h4>
+<img align=right src="eeprom.jpg">
+
+U161 is an 8 pin 24C16 EEPROM located in the IRD.  The IRD number stored
+in this chip must be the same as that in the card.  The programmers we
+have seen have two seprate parallel cables.  This is because the
+programmers being sold contain two seprate circuits.  The DB-25 connector
+on one is marked <b>card</b> while the other is labeled <b>clip</b>.  The
+cable marked clip must be connected to the program the EEPROM.  The
+program used is called eep.exe.  The current version is 3.11.
+<p>
+The 16 pin test clip is connected to U161.  Pins 4, 5, 6 and 8 on IC U161
+are used for programming.  Pin 1 is at the top left side of the chip, pin 4
+is on the bottom left, pin 5 is on the bottom right and pin 8 is on the top
+right hand side.  The micro test clip is connected to the positive side of
+C553.  The battery card must be inserted in the card slot for this operation.
+Then the receiver is plugged in.  The on/off switch on the programmer is
+part of the circuit for programming the card so it is not used.  The file
+to be programmed into the EEPROM is the IRD number file, not the mainxx
+file.  In this case it is 21965f29.exp.  Progrmming proceeds as follows:
+<p>
+<pre>
+c:\program> eep
+
+EEP Version 3.11
+Using printer port 3BCh
+Enter ID, CR to exit: 21965F29
+21 96 5F 29: OK? [yN]
+Y
+Programming ID....
+Programmed OK
+Enter ID, CR to exit:
+</pre>
+The unit may then be unplugged and the test clips may be removed.
+<p>
+<h4>5. Finishing the Job</h4>
+<img align=right src="inside.jpg">
+A standard practice among dealers is to reverse the position of the card
+slot as shown in the photo.  This eliminates any potential problem which
+could be caused by the end of the batery card protruding fromt he receiver.
+Note that the black plastic housing which covers the chips on the cards
+prevents proper contact.  If the cardslot is not reversed the black
+protective housing may have to be filed back.  A message requesting that
+a valid smartcard be inserted probably means that the card is not
+inserted far enough.  To do this the front cover of the IRD must be
+removed but it is only held in place with plastic clips.  Two clips
+were hotglued in the unit we saw but the glue was easily removed.  The
+contact pad on the card should face down when it is inserted into the
+cardslot.  A dab of hot glue is then used to ensure that the card
+does not become loose.  When the black plastic guard which normally
+covers the smartcard is put in place it is not obvious that there is
+anything different about the unit.  When turned on the box received all
+services.
+<p>
+<h4>6. Restoring the Unit to Stock Condition</h4>
+It may be desireable at some point to restore the box to stock condition.
+Then it can be authorized like any other unit.  Some battery card users
+maintain some level of subscription so they are never without service
+during periods when the cards are shut off.  Units which are only subscribed
+during periods of card swaps or shutoffs due to ECM's fit a profile
+which could target them for additional ECM's.
+<p>
+In order to return the unit to stock condition it is necessary to use the
+first 8 characters of the IRD number which was archived earlier.  In our
+example the IRD number was 619C873291.  The steps are exactly the same as in
+step 4 except that now the official smartcard
+must be inserted into the cardslot instead of the battery card.  When the EEP
+program requests the ID to program, the first 8 characters of the IRD number
+are entered.  That is 619C8732.  Once compleated, the diagnostic test may
+be run to verify that the correct ID has been programmed.  The screen
+will read exactly as it does in step 4.
+<p>
+<hr>
+<h3>The Examiner: The Do-it-yourself Programmer</h3>
+<img align=left src="explor.jpg">
+Instructions are available from American Hacker for $49 includeing
+shipping.  It includes
+the latest version of EEP (Ver 3.11) and LOAD (Ver 3.17).  It includes
+all schematics and connection points.  The programmer and files can be
+used to program battery cards and U161.  Intended for those experienced
+in the assembly of electronic devices only.
+<br clear>
+<pre>
+A.H
+3494 Delaware Ave., #123,
+Buffalo, NY 14217-1230
+</pre>
+<h3>Other Sources</h3>
+<b>Open Skies</b> sells battery cards, programmers and carries the latest
+programming software.  They can be reached at <b>Voice Mail</b>(514)484-1603
+or by <b>fax</b> at (514)458-0798.
+<p>
+
+
+<hr size=5 noshade>
+
+</html>
+
+
+

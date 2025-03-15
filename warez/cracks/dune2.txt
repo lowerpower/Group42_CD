@@ -1,0 +1,32 @@
+
+Crack for DUNE ][ (original AND patched version).
+
+This is a crack for DUNE ][, a game with just AWESOME sound.
+
+Anyway, they let you play the game for a while, and then jump you
+with the password action. I played the game under Turbo Debugger 386
+for a while. When it came to the password, I broke out and traced the code
+to a JUMP_IF_EQUAL routine.
+
+Change the JUMP_IF_EQUAL instruction to a JUMP_ALWAYS instruction, and life
+was good.
+
+(original version)
+1 Byte crack on DUNE2.EXE:
+
+   Search:  74 2E FF 76 FA
+   replace: 74 with EB
+
+(patched version)
+1 Byte crack on DUNE2.EXE:
+
+   Search:  83 C4 08 0B C0 74 42
+   replace: 74 with EB
+
+
+Thats all,
+   
+   Have fun playing this awesome game.
+
+      MikeE 3/07/93   (original version)
+      MikeE 3/18/93   (patched version)

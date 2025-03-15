@@ -1,0 +1,393 @@
+<html>
+<head><title>Hacking the Victormaxx Stuntmaster</title></head>
+<body>
+<h2>Build your own immersive VR setup for about $150!</h2>
+<hr>
+<ul>
+<li> <a href="#intro">Introduction (letter in reponse to someone else)</a>
+<li> <a href="#maxletter">Letter from Max Minkoff including VictorMaxx Specs</a>
+<li> <a href="#hackvict">Hacking the Victormaxx (dissecting the HMD)</a>
+<li> <a href="#htrack">Horizontal tracking mod for Victormaxx</a>
+</ul>
+<hr>
+<a name="intro">
+<pre>
+Date: Sat, 18 Feb 1995 01:50:41 -0500
+Subject: Re: TECH: VictorMaxx Stuntmaster for VR?
+
+On Fri, 17 Feb 1995, Tom Benedict wrote:
+
+> SAY!  Do you have any sources for the HMD you were talking about?
+> How easy is it to write software for it?  What is the REND386
+> software you were talking about?  (As you can tell, inquiring minds
+> like mine want to know.)
+> 
+> I'm also interested that you said your entire VR setup was under
+> $150.  Is the HMD really that inexpensive?
+> 
+> Thanks for all your help,
+> 
+> Tom Benedict
+> 
+
+The VR HMD is called the Victormaxx Stuntmaster. The resolution is
+280x86 or something like that. It was designed for the Nintendo and
+Sega game systems. If you hack apart the cable, you can rewire it
+to a RCA plug. The input for the video is NTSC (you can plug it
+in the Video out of your VCR and watch your favorite show in
+low resolution).  To wire it to your computer, you need a 
+VGA-NTSC converter. One available for around $30-$40 is called
+the Game Zapper. Look for it in the Computer Shopper magazine.
+ I used a nintendo powerglove for my 3-d tracking. Powergloves are hard
+to come by these days. They stopped producing them about 5 years ago.
+Check around in your local toy stores. A place called FUNCOLAND trades
+and sells video game cartridges and controllers. They might sell it.
+In order to wire the glove up to your computer, you need to build
+an interface (get out the soldering iron). I believe the plans are
+available by ftp on sunsite.unc.edu or somewhere called ftp.uwaterloo.ca
+check around /pub/msdos/VR or something like that. While you are
+there, you can also download the REND386 software. The software was designed
+to work with the glove interface (mentioned previously).
+
+Victormaxx Stuntmaster  (order name=Victormax Virtual reality)
+ is available at DAMARK Inc. (call 1-800-555-1212 for the phone number
+I don't have it off the top of my head) It costs                  $59
+
+Game Blaster vga-ntsc converter                                   $39
+
+Powerglove                                                        $15
+
+Misc. parts for the interface                                     $5
+
+That adds up to about $120! 
+
+With that you should have a suitable amount of VR "immersion". The
+software allows you to walk through virtual "worlds" (the demo comes
+with a house). With the glove, you can pick up objects move them around
+and even rotate them. The software updates the screen pretty rapidly
+somewhere around 30-50 frames/sec depending on how many objects are
+in the window. I'm sure you'll have more to ask. I'll send the
+spec sheets as soon as I get them uploaded. Good luck. Happy VR.
+
+P.S I must warn you that this VR setup as with most VR using today's
+technology is nothing like what you see in Lawnmower Man or the 
+Aerosmith video. The HMD is merely a TV strapped to your head!
+
+I'll be working out some head tracking for the HMD over the next few weeks.
+Some ideas include using a digital compass, pots & weights, and ultrasonics.
+I'm afraid that the xenon flash circuit used to illuminate the screen may
+affect the electronic compass, but we'll have to wait and see...
+The Stuntmaster- as is, has a pot which can track left and right. This
+can be wired directly to the joystick port for head tracking in REND386.
+
+-------------------------------------------------------------------------------
+    http://hertz.njit.edu/~rxy5310    Rolan Yang   rxy5310@hertz.njit.edu
+    Electrical Engineering            New Jersey Institute of Technology
+-------------------------------------------------------------------------------
+</pre>
+<hr>
+<a name="maxletter">
+<pre>
+From: Max Minkoff <max@hitl.washington.edu>
+
+Dear sci.virtual-worlds readers,
+
+As many of you may already know, the VictorMaxx Stuntmaster HMD has
+begun hitting the shelves nationwide over the past few weeks.  It is a
+low resolution, bi-ocular monoscopic display (two eyes, one screen)
+intended for use with Super NES and SEGA Genesis retailing for about
+$200.  Within the coming months we will be coming out with higher
+resolution monocular and bi-ocular HMDs for use with PCs and
+compatibles as well as Nintendo, SEGA, and other platforms.  Our top
+of the line binocular, high-res HMD with tracking is expected to sell
+for well under $500.
+
+We have already received calls from people who want to use the
+Stuntmaster with their PCs, etc.  While we didn't design the
+Stuntmaster for PC applications, we want to encourage creative
+solutions using VR and our headsets.  To save people time and effort
+in reverse engineering the pinouts for the Stuntmaster, we'll provide
+the pinouts and some notes both at the end of this posting and as an
+addition to the FAQ.  Furthermore, if there are other specific
+questions regarding the use of the Stuntmaster that I can help you
+with, please get in touch with me at <max@mcs.com>.
+
+VictorMaxx would like to help support the VR community as best we can.
+This includes not only technical support in the use of our products,
+but in the development and licensing of VR technology and products
+that you would like to bring to the marketplace.  If you would like to
+discuss current VictorMaxx products, suggest new products, or bring us
+new ideas or technology, please feel free to contact me at the address
+above.
+
+Parts for an adapter from the 15-pin connector on the Stuntmaster to
+NTSC, power, and joystick should cost about $15 from Radio Shack.
+This assumes, of course, that you have an NTSC convertor for your PC.
+Alternatively, you can purchase an adapter by contacting
+<gsmiley@delphi.com>.  The price is expected to be somewhere between
+$30 and $40.
+
+REMEMBER!  The Stuntmaster is an NTSC device: You must have a VGA to
+NTSC converter to use it with your PC.  Future versions specifically
+made to work with the PC will not need this kind of adapter.  NTSC
+adapters typically cost somewhere between $150 and $300.
+
+Technical Specs:
+
+Resolution:     240x86 color triads
+Field of View:  17 degrees
+Weight:         ~2.5 pounds
+
+
+These are the pinouts for the VictorMaxx Stuntmaster:
+
+Pin #       Super NES mode      SEGA mode
+
+1           +6V
+2           Gnd
+3           Data                SEGA R in
+4           Clock               N/A
+5           Latch               SEGA L in
+6           Gnd
+7           Vcc (+5V)           N/A
+8           N/A 
+9           Gnd
+10          Video in
+11          Data                SEGA R out
+12          Latch               SEGA L out
+13          Gnd         
+14          Audio L
+15          Audio R     
+
+NOTES:
+
+1. The Stuntmaster issues a "left" signal when the player turns
+   his/her head to the left and a "right" signal when the player turns
+   to the right.
+
+2. There are two modes - scroll mode and scan mode.  In scroll mode,
+   the Stuntmaster will issue a directional signal as long as your
+   head is turned off of center.  In scan mode, a signal is issued as
+   long as you are turning your head.  When you stop turning, the
+   directional signal stops.  E.g. if you are in scan mode and you
+   turn your head 30 degrees to the left, a left signal will be issued
+   all the while that you turn through those 30 degrees, but will stop
+   signalling when you stop turning.  When you then turn back to the
+   right, right signals will be issued, even though your head is to
+   the left of center.  SEGA only supports scan mode, but Nintendo
+   supports either mode (use dip switch 3 to control mode - on is
+   scan, off is scroll).
+
+3. The sensitivity adjustment controls how many degrees you need to
+   turn your head to issue a signal.
+
+4. Super NES uses serial communication.  There are three lines: Latch,
+   Data, and clock.  Data uses a 16 bit word, turning bits on and off
+   to signify the state of the various button inputs.  This word,
+   containing head tracking information, is then sent to the CPU on
+   pins 11 and 12.
+
+5. SEGA Genesis uses multiplexed (2x4) parallel communication plus two
+   independent lines for up and down.  The right and left are sent to
+   the CPU on pins 11 and 12.
+
+For more information on the SEGA and Nintendo protocols, please refer
+to the appropriate resources.
+
+
+Hope this helps!!
+
+Max
+
+-----------------------------------------------------------------------
+Max Minkoff                                3501 Woodhead Drive, Suite 3
+Director of VR Technologies                Northbrook, IL 60062    
+VictorMaxx, Inc.                           (708) 291-7666      
+max@mcs.com                                (708) 291-1378 (fax)
+
+</pre>
+<hr>
+<a name="hackvict">
+<pre>
+HACKING THE VICTORMAXX STUNTMASTER!!!!
+   by Kyurius  (rxy5310@hertz.njit.edu)
+
+Here is a little file I wrote up for someone inquiring about the 
+Victormaxx Stuntmaster.
+
+If you remove the 4 screws from the bottom of the Victormaxx, you should
+be able to carefully pry or split the unit apart.
+
+Notice that the unit consists of 4 PC boards:
+
+-Tracking PCB
+-LCD driver board
+-LCD screen
+-Power supply board
+
+With care, the tracking PCB can be pulled out of the case and the
+large multi-pin connector can be removed. This eases the removal of
+the top half the casing. Using a little care, the "head strap" can be
+loosened and removed from the earphone pieces. This lets you remove the
+whole top half from the unit.
+
+The tracking PCB has 5 multi-pin/wire headers running to it. The
+purpose of these are clearly stated on the board, but will be repeated
+here anyway:
+
+JP4 - Power Board
+JP5 - LCD board
+JP6 - To external connector
+JP8 - Tracking Potentiometer
+JP9 - Speakers
+
+To save the you the trouble of mapping the external connector pins 
+to the internal multi pin connector, I have listed it
+below.
+                                                                   
+Pin #       15 pin connector    Internal Connector
+
+1           +6V                 black
+2           Gnd                 white
+3           Data                brown  986 ohms
+4           Clock               red
+5           Latch               orange  (may be some diode conn) 985 ohms
+6           Gnd                 yellow  
+7           Vcc (+5V)           green
+8           N/A                 blue
+9           Gnd                 big black 
+10          Video in            clear  
+11          Data                brown  986 ohms Same As Pin 3
+12          Latch               orange S.A.P 5
+13          Gnd                 purple S.A.P 11
+14          Audio L             grey S.A.P 12
+15          Audio R             lt blue S.A.P 13
+
+If you haven't figured it out, SAP = same as pin
+</pre>
+<hr>
+<a name="htrack">
+<pre>
+OK Here's my wonderful contribution to the Garage VR world:
+
+ -()---()---()---()---()---()---()---()---()---()---()---()---()---()---()-
+          MODIFY YOUR VICTORMAXX TO TRACK YOUR HEAD WITH REND386
+ -()---()---()---()---()---()---()---()---()---()---()---()---()---()---()-
+
+What you'll need:
+ 
+ 2-  Male D-Sub 15 pin connectors
+ 1-  2 pin single row header 
+ 1-  100K resistor
+ 1-  500K or 250K potentiometer (must use correct size and have similar 
+     shaft dimensions 500K is more favorable- see below)
+ *-  You will also need some wire    
+
+This modification will remove the Nintendo/Sega tracking capabilities of
+the Victormaxx and replace it with tracking which can be interfaced to the 
+IBM PC joystick port. Software is currently available (Dave Stamp and 
+Bernie Roehl's REND386) which can make use of this interface. This modification
+would be most beneficial for those who have adapted their Victormaxx to 
+accept VGA input (probably via VGA-NTSC converter -Game Zapper?).
+
+Open up the unit as described above. 
+Detach the right earpiece "module" from the unit and carefully pry the
+ two plastic pieces apart by using a screwdriver at several spots on the
+ casing. 
+Unscrew the two screws which hold the potentiometer to the unit.
+You must now find a 500K or 250K potentiometer which will match the 
+ physical dimensions of this pot.
+Cut or desolder the three wires leading to the potentiometer. 
+Remove and set the pot aside.
+Solder the three wires onto the new potentiomter in the same order (brown
+ is in the middle)
+Fit the pot back into the casing and screw the two screws so that the pot
+ is secure. If the plastic T-cover doesn't fit perfectly over the pot-shaft,
+ some hot melt glue may fix it. You might also try wrapping some tape around 
+ the shaft.
+
+Locate the large multi pin header connector (JP6)
+
+Cut-yes CUT- the red and orange wires aproximately 1-1/2 to 2 inches
+ from the bottom of the connector. 
+The two ends of the wires which lead to the header connector (PCB side) can 
+be left alone. Solder the other two wires to the 2 pin Header (listed in the 
+above parts list).
+Remove JP8 connector from the Tracking board.
+The 2 pin Header plugs directly into this header connector.
+  CLARIFICATION: The black square connector with the red,brown, and black
+  wires is pulled off the board. The 2 pin header is plugged into this black
+  header connector - NOT the tracking board.
+
+Making the plug:
+
+Get out the 15-pin Dsub connector
+
+Pins of significance:
+
+4 & 5 - potentiometer out (to joystick port)
+
+9-  ground
+10- video in
+
+13- ground
+14- audio left
+15- audio right
+
+If you haven't done so already (most likely you have), you can
+solder RCA plugs to the above pins and interface your Victormaxx to 
+a VCR.
+I have a 1/8" stereo plug wired to pins 13,14,15 so that it can be 
+directly plugged into my SoundBlaster card.
+Also, I have an RCA jack wired to pin 9 and 10 which plugs into the
+Game Zapper unit.
+
+Ok, back to business. Solder a 100K resistor between pins
+8 and 6 on the SAME D-sub connector going to the Joystick port.
+
+Solder two wires between the 15 pin connector to the other 15 pin connector.
+The "pin-outs" for the two wires are shown below.
+Victormaxx side 15 pin Dsub                     Joystick Side
+   pin 9               goes to                  pin 1
+   pin 10              goes to                  pin 3
+
+I would advise using a hood for the Dsub's so that these wires do not easily
+pull out of the connector.
+
+Thats all!
+
+Center the pot and run REND386. Turning the pot left and right should 
+cause the image to pan left and right.
+
+You may have to unscrew and adjust the orientation of the pot so that it
+will be centered with reference to the T connector. stick, and your shoulder.
+If turning your head causes the image to translate in the wrong direction,
+connect the 2-wire header pin to the other two holes (either red-brown or
+brown-black). 
+
+Close up the unit and -there you have it- an IBM PC head mount display
+with left and right tracking.
+
+Stuff left to do:
+Up and down tracking can be done with a tilt sensor.
+Two wires are left available inside the Victormaxx:
+ pin 3 - brown
+ pin 8 - blue
+
+These can be wired to pin 6 and 8 on the joystick connector (which
+references the up and down)
+
+Good luck. I hope you don't blow up your Victormaxx. If you do, I take
+no responsibility for it :). Happy hacking!
+
+
+ -()---()---()---()---()---()---()---()---()---()---()---()---()---()---()-
+ Rolan Yang            http://hertz.njit.edu/~rxy5310   Electrical Engineer
+ rxy5310@hertz.njit.edu                             kyurius@tsb.weschke.com
+ VR,ROBOTICS,FENCING,HACKING,INDUSTRIAL MUSIC,ART,EXPLOSIVES,INLINE SKATING
+                    THESE ARE A FEW OF MY FAVORITE THINGS.
+ -()---()---()---()---()---()-----()-()---()---()---()---()---()---()---()-
+4 out of 10 people are annoyed by ^ this.
+</pre>
+</body>
+</html>

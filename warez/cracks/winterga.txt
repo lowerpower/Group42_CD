@@ -1,0 +1,29 @@
+Crack> Games: Winter edition by Epyx 
+
+crack taken from BBS 
+
+     To deprotect The Games: Winter Edition, follow these 
+steps: 
+
+RENAME GAMES.EXE GAMES.XXX 
+DEBUG GAMES.XXX 
+S 0000 FFFF 0B C0 74 01 to search for the protection pattern 
+
+     The computer should respond with only one address.  If 
+none or more than one is given, this deprotection may not 
+work.  Sorry! 
+     Take the address given (in the form of XXXX:YYYY) and 
+subtract 5 from the YYYY address.  The numbers are in 
+hexadecimal.  *Do not attempt this patch if you do not 
+understand Hex.* 
+>>>Note from Bob:  If you don't understand hex, I'm sure 
+>>>the person sitting next to you does.  If not, email me. 
+     Use the subtracted number (ZZZZ) and enter it in 
+DEBUG. 
+E ZZZZ EB 03 90 90 90 31 C0    NOP the protection scheme 
+W                              Save the modified file 
+Q                              to exit to DOS 
+RENAME GAMES.XXX GAMES.EXE 
+
+
+

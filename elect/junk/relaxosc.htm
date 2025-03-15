@@ -1,0 +1,117 @@
+<html>
+<h2>Misc Relaxation Oscillators</h2>
+
+For $0.35 Digi-Key will sell you a 74HC14.  How about hooking it up as
+an ultra cheapo RC relaxation oscillator:
+<p>
+<pre>
+<b>
+     +------------------------------------------------+
+     |                                                |
+     |     50K potentiometer                 +        |   +
+     |                                       | \      |   | \
+     +-----/\/\/\/\/\---+---------+----------|  >0----+---|  >0---- OUTPUT
+                A       |         |          | /          | /
+                |       |         |          +            +
+                +-------+       -----
+                                -----
+                                  |   68pF
+                                  |   capacitor
+                                 GND
+</pre>
+</b>
+This ckt will top out around 12 MHz  (for faster still, reduce the cap
+value and be more careful with layout).  Beware, the 74HC family works
+from 2 to 6 volt supplies; unlike the old RCA family, these fellers
+poop out and die at VCC=6.5V.
+<p>
+<b>
+<pre>
+--
+ -- Mark Johnson	
+ 	MIPS Computer Systems, 930 E. Arques M/S 2-02, Sunnyvale, CA 94086
+	(408) 524-8308    mark@mips.com  {or ...!decwrl!mips!mark}
+
+
+>     Here is one of my favorites.  It should work from less than 1 Hz to several
+>MHz, depending on the chip used and the resistor and capacitor.  The order of
+>magnitude of the frequency will be 1/RC.  Stability and spectral purity is not
+>very good, but it makes a decent digital system clock.
+>
+>                                     R
+>                             _____/\/\/\_____
+>                            |                |
+>                            |     |\         |
+>                            |     | \        |
+>                            |     |  \       |
+>                            |     |   \      |
+>                            |     |    \     |
+>                            |-----|     O---------> Output
+>                            |     |    /
+>                            |     |   /
+>                          __|__   |  /  74C14, 74HC14, etc. Schmitt Inv
+>                       C  _____   | /
+>                            |     |/    Not 74C04, 74HC04, etc.
+>                          __|__
+>                          / / /         A TTL 7414 can also be used but
+>                                        component values are more critical.
+
+ The problem with this circuit is that it has quite high sideband noise (that
+said, I use it in almost all low stability applications I need. It is great for
+multiplexing LED sticks for example).For slightly more dosh, this one works
+great, and it gives TTL levels up to 25 MHz.It ain't as complex as it looks.
+
+
+						   ______ +5V
+						     |
+						      \
+						      /
+                                                      \    'LS00
+						      /     ___
+		1/4 'HC04			     |_____|   \
+	      |\       _________		     |  |  | &  |O----> output
+       _______| \     |         |<----Co-ax cable  |/   |__|    |
+      |       |  O-----------------/\/\/\/\--------| T1    |___/
+      |       | /  |  |_________|    R3      |     |\
+      |       |/   |  __|__		     |       |
+      |    R1      |   ___		  ___|___    |
+      |___/\/\/\___|    _		    / \    __|__
+      |            |                 1N914 /   \    ___
+      |            \                       -----     _
+      |            / R2                      |
+      |            \			     |
+      |     __     /			   __|__
+      |   || X||   |			    ___
+      |---|| L||---|			     _
+      |   || 1||   |			
+      |     --     |
+    __|__        __|__
+    __ __ C1     __ __ C2
+      |            |
+      |            |
+    __|__        __|__
+     ___          ___
+      _            _
+
+ R1 = 10M
+ R2 = 100k
+ R3 = 1k
+ R4 = 1k
+   all metal film ( I use 0.6W,1% simply because they are the cheapest I can get)
+ C1 = 20pF
+ C2 = 20pf trimmer (frequency adjust)
+ XL1 = crystal,100kHz to 28MHz (higher frequency may be dodgy)
+</pre>
+</b>
+ The co-ax cable is simply a way of moving RF around the PCB.It can probably be
+omitted for certain applications.The frequency variability is not very high
+(a few ppm) but can be divided with logic to give a very wide range of
+frequencies.I would recommend the 74LS292 and 74LS294 programmable frequency
+dividers.The '292 divides the input frequency by 2 to the power n,where n is a
+number from 2 to 31. Alternatively you could use cascaded 74167 BCD rate
+multipliers to generate a very accurately settable output in the Hz to MHz
+range,but here you're talking about frequency generators,and that might be a
+little complex.It's still a very feasible option though.
+<p>
+<hr>
+</html>

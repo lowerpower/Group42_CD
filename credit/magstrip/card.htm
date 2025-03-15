@@ -1,0 +1,158 @@
+<html>
+<pre>
+//
+// card reader Track 2 only
+// hacked up code by 4X Group 42
+//
+/*
+card reader doc
+card reader wires
+-----------------------------
+black           +5v
+brown           ground
+red             card-detect
+
+yellow          - track 1 clock
+orange          - track 1 data
+
+blue            - track 2 clock
+green           - track 2 data
+*/
+
+#define JPORT   0x201               // Game port
+
+int data[5500];
+int outdata[1000];
+int count;
+
+struct track2struc {
+    unsigned char   value;
+    char            ascII;
+};
+
+//char    track2ascII[] = { '<',';','-','U','>',':','9','8','7','6','5',
+//                        '4','3','2','1','0'};
+
+char    track2ascII[] = { '0','1','2','3','4','5','6','7','8','9',':',
+                        '>','U','-',';','<'};
+
+
+
+decodetrk2(outtrk2,data,len)
+char        *outtrk2;
+int         *data;
+{
+    char    temp;
+    int     i,j,k,t,counter,checksum;
+
+    printf("\n");
+    t=-1;
+//    for(i=0;i<len;i++)
+//        printf(".%d",data[i]);
+//    printf("\n");
+
+    for(i=0,j=0,temp=0;i<len;i++,j++){
+        if(t==-1) {
+            while(!data[i++])
+                t=0;
+                i--;
+        }
+
+        if(j>3){
+            if(checksum==data[i])
+                outtrk2[counter++]='E';
+            else{
+                outtrk2[counter++]=track2ascII[temp];
+            }
+            checksum=0;
+            j=-1;
+            temp=0;
+            continue;
+        }
+        printf(".%d",data[i]);
+        temp=(temp>>1) | (data[i]?8:0);
+        checksum=checksum+data[i];
+    }
+    outtrk2[counter++]='~';                 // write terminator char
+}
+
+
+//
+// wait for card to be rdy
+//
+int
+wait_rdy()
+{
+    printf(" waiting for card.... ");
+    while(((inp(JPORT)&16)) && (!kbhit()))
+        ;
+    printf("kbhit???    ");
+    if(kbhit())
+        return 0;
+    return 1;
+}
+
+int
+wait_high()
+{
+    int cnt,i;
+//    cnt=0;
+    while((inp(JPORT) & 128) && (!(inp(JPORT) & 16)))
+    ;//    cnt++;
+    return;// cnt;
+}
+
+int
+wait_low()
+{
+    int cnt,i;
+//    cnt=0;
+    while(!(inp(JPORT) & 128) && (!(inp(JPORT) & 16)))
+    ;
+    return;
+ //       cnt++;
+ //   return cnt;
+}
+
+dumphex(data)
+char    *data;
+{
+    int i,j;
+
+    printf("\n data = \n");
+    j=i=0;
+    while(data[i]!='~'){
+        if((data[i]>' ') && (data[i]<'Z')){
+            printf("%c",data[i]);
+            j++;
+        }
+        i++;
+    }
+printf("\ncount = %d..char = %d.\n",i,j);
+
+}
+
+main()
+{
+    register unsigned char flip;
+
+printf("one...");
+    while(wait_rdy())   // wait for card to be inserted
+    {
+        count=0;
+        flip=0;
+        printf("inbound1\n");
+        while(!( (inp(JPORT)) & 16)){          // while card exists store data
+            wait_high();
+            data[count++]=((inp(JPORT) & 0x32)? 0:1);
+            wait_low();
+        }
+        decodetrk2(&outdata[0],data,count);         // decode track
+//        cleanup();
+        printf("ddddump it   ");
+        dumphex(outdata);
+    }
+printf("bye...");
+}
+</pre>
+</html>

@@ -1,0 +1,14 @@
+Crack> Prince of Persia 
+
+crack from bboard 
+
+PRINCE OF PERSIA 
+Change file:  PRINCE.EXE 
+
+Find:    75 0E 83 3E 9A 00 00 75 
+Chg to:  90 C7 06 9E 00 FF FF EB    
+ and--- 
+Find:    7E 06 A1 F8 42 
+Chg to:  EB 
+
+This will bypass security at start and during level refresh.      

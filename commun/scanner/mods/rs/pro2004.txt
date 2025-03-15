@@ -1,0 +1,540 @@
+
+            6,400 CHANNELS FOR YOUR PRO-2004 SCANNER
+
+Chicagoan Denny Beringer sent in a few sheets he picked up at Dayton
+describing a modification to expand the memory in the Radio Shack PRO-2004
+scanner from 300 to 6,400 channels.
+
+   The new circuitry adds 3 ICs, a 7 segment readout, a ribbon cable, a
+pushbutton switch, and a few resistors and capacitors.
+
+   First, diode D510 is added which expands the scanner from 300  to  400
+channels. Then, IC504, the stock memory memory IC (a uPD446G), is removed and
+replaced by a  ribbon cable leading to an added printed circuit board. The
+additional board contains an HM62256 32Kx8 static RAM IC, which holds 16
+groups of 400 channels each.  (note: if you don't do diode D510, I think
+you'll get 4800 channels, though I haven't tried any of this. I heard that the
+400 channel mod makes the markings on the 2004 keyboard incorrect.  WA2ISE)
+
+   A pushbutton switch, attached to a 4060 CMOS 14 bit binary counter IC,
+selects one of the 16 groups.  The 4 counter output leads are used to select
+the high order 4 bits of the HM62256.  The new group select pushbutton switch
+is mounted on the front panel, in place of the headphone jack.
+
+   How can you tell which group you are in?  A specially programmed  EPROM
+(type 2716, 2532, or 2732) is addressed by the ouput of the counter.  The
+EPROM output is connected to a 7 segment LED readout, mounted in place of the
+Sound Squelch pushbutton.  The readout indicates groups 0, 1, 2, 3, 4, 5, 6,
+7, 8, 9, A, B, C, D, E, and F.
+
+   [Note: If I were to expand the memory in my PRO-2004,  I would use just the
+new HM62256 memory IC and a BCD switch instead of the pushbutton.  This would
+eliminate two of the three ICs, and the 7 segment readout.  Sorry, I cannot
+provide further information, nor a reference, as the sheets sent to me
+contained no name or address. - Bob
+
+
+             CELLULAR MODIFICATION: REALISTIC PRO-2004 SCANNER:
+
+BY CUTTING DIODE D513 ON THE PC 3 SUB CHASSIS IN THE REALISTIC PRO-2004
+SCANNER YOU CAN RE-ENABLE THE 825.00 TO 845.00 AND 870-00 TO 890.00 FREQENCY
+SELECTION.  TO SCAN IN 30KHZ STEPS PRESS "STEP-RESET". NOTICE:IT IS NOT LEGAL
+TO MONITOR CELLULAR TELEPHONE CONVERSATIONS ON THE CELLULAR BAND.
+
+******************************
+
+POPULAR COMMUNICATIONS Magazine published some interesting articles on the PRO-
+2004. Here is the list:
+
+PRO-2004: 400 Channel memory expansion: December 1988 p.28.
+
+PRO-2004: Search and Store Sodule: march 1990 p.24.
+
+PRO-2004: review + Cellular Modification: August 1987 p.16.
+
+Daniel VE2BAP ' VE2CSC.PQ.CAN.NA
+
+Another cellular mod
+
+    In response to numerous inquiries I am posting a short overview of the 
+mods to the Radio Shack PRO-2004 scanner. First, all mods are done at
+your own risk. I assume no responsibility. I do not know what effect they
+(the mods) will have on any warranty, however I would think they would
+probably void it. Also, one of the mods restores coverage of the cellular
+phone frequencies. 
+
+These mods are detailed in the following articles:
+a) POPULAR COMMUNICATIONS AUG 87, PP 18-20
+b) MONITORING TIMES OCT 87, P 53
+c) MONITORING TIMES DEC 87,P 60
+
+I suggest strongly that you obtain the back issues and read through the letters
+or articles. I also suggest you subscribe to the mags. They supply a lot of    
+great info and freq lists. Now the mods.
+ 
+1) Restoring 870 MHz coverage.
+First treat the radio as if it were CMOS, that is make sure you and it have no
+built up static charges. UNPLUG THE RADIO FROM THE AC OR DC POWER SOURCE AND
+ANTENNA !!!!!!!! Take the radio out of the case by removing the 4 screws on 
+the back. Carefully invert the radio. Locate a box-like sub-circuit. It's 
+near the switch marked "restart". The sub-circuit should be marked PC-3.
+Carefully pry off the cover of the metal box. Inside there will be a 64 pin dip
+IC. This is the radio CPU. Be careful not to touch or short out any leads on
+the chip. Near the chip there will be a row of diodes marked D-502 to D-515.
+If D-513 is present, cut one lead, separate it so they will not touch, and 
+magic, 870 Mhz is restored. If D-513 is not there and you still do not have
+870 coverage, then a little more work is in order. Locate the 9 pin connector
+"CN-501". Carefully remove it from the sub-circuit. Unscrew the screws holding
+PC-3 to the main chassis. Carefully invert the sub-circuit board (PC-3).
+Locate the one lone component on that side of the board. If it is a diode,
+as it should be, then cut one lead and separate them as above. Re-install the
+sub-circuit with the screws on to the main chassis. Reconnect the 9 pin 
+connector. Do NOT put the cover back on just yet ?!  
+
+                     2&3)   400 CHANNEL and SPEED MOD !
+       On the top of the sub-circuit board, locate the slot for D-513. Count
+backwards from there until you get to the space for D-510. Install a diode
+at D-510 in the same polarity as the rest of the diodes. There, you now 
+have 400 channels instead of 300 ! Now install a diode at D-514 and you have 
+increased the scan speed to 20 channels/sec from 16 ch/sec. Carefully re-
+assemble the metal box. Make sure everything else is as it should be.
+RE-invert the radio so it is right side up. 
+ 
+                        4)  THE SQUELCH MOD !!
+    Now, locate a sub-circuit box under the sloping front panel. It should 
+have many alignment holes in the top. Pry the cover off very carefully.
+Locate IC-2 in the left side of the pc board. It should be marked IC-
+10420. Locate R-148, a 47 K ohm resistor between pins 12 and 13. 
+Cut a lead of this resistor, But be sure to leave enough lead on both
+sides of the cut to solder to. Patch in a 100K ohm resistor. Make sure
+there are no solder balls or short circuits. Now your squelch will operate
+more smoothly.      
+           
+         Again, I STRONGLY suggest you obtain the above mentioned
+magazines for more details. Addresses appear below. Please ignore any 
+mis-spellings, mis grammer, etc. Good luck and good listening !!!
+
+
+     Manufactured in Japan, by General Research Electronics,
+     the  Radio  Shack  PRO-2004  is  a  300  channel,  wide
+     coverage scanner radio, incorporating NBFM,  WBFM,  and
+     AM modes.
+
+     Although the catalog description doesn't do  the  radio
+     justice, the microprocessor circuitry provides features
+     not found in other scanners.
+
+     This review, although admittedly subjective, focuses on
+     three  broad characteristics:  feature set, basic elec-
+     trical performance, and mechanical construction.
+
+
+                       Frequency Coverage
+
+     The PRO-2004 literature states that  coverage  is  from
+     25-520  and  760-1300  MHz.   Radio Shack's last minute
+     decision  to  remove   cellular   telephone   frequency
+     coverage from the PRO-2004 caused a 7 week delay in its
+     introduction.  A small card is  now  packed  with  each
+     scanner,  informing  the  buyer that the radio will not
+     operate in the 825-845 and 870-890 MHz ranges.
+
+     A matrix of diodes, attached  to  the  microprocessor's
+     input  port, is often used to configure radios for sale
+     in different markets. From recent flux on  the  circuit
+     board,  it appears that a diode has been added or remo-
+     ved from my PRO-2004, and this may be how the  cellular
+     telephone coverage was yanked.
+
+
+                         Lots of Memory
+
+     The PRO-2004 has the usual features that scanner  buffs
+     have  come  to  expect:   individual  channel lockouts,
+     selectable rescan delay, an external speaker jack, etc.
+     But,  the  300 channel capacity of the PRO-2004 sets an
+     industry record!  Casual scanner users may scoff at the
+     usefulness  of  having  so  many channels, but seasoned
+     monitorists can have those channels  filled  up  in  no
+     time  flat,  especially  with  frequencies  in the vast
+     225-400 MHz military air band.
+
+     With so  many  channels  to  program,  one  dreads  the
+     thought of a power failure, which could clear memory in
+     a hurry.  Not to worry, the PRO-2004 memory  is  backed
+     up  by a conventional 9 volt alkaline battery (not sup-
+     plied).  The 300 channels are divided into 10 banks  of
+     30  channels  each,  and one can select or deselect any
+     channel bank from the scan list.   Individual  channels
+     can  be  locked  out in the customary way, but the PRO-
+     2004 provides a new feature, a LOCKOUT REVIEW.  Succes-
+     sive  depressions  of  this key step through the locked
+     out channels.
+
+     The owner's manual refers to the ability  to  delete  a
+     channel  by storing a 0 frequency in it, not a particu-
+     larly useful exercise.  The scanner  will  still  spend
+     time  scanning  a "deleted" channel unless it is locked
+     out with the LOCKOUT key, which then means  it  appears
+     in  the  lockout  list  when  using  the LOCKOUT REVIEW
+     feature.
+
+     Scanners worth their keep have a priority feature, with
+     channel 1 usually designated the priority channel.  The
+     PRO-2004 is more flexible; any of the 300 channels  may
+     be  designated the priority channel.  When the PRIORITY
+     key is depressed, that channel will be sampled every  2
+     seconds,  and  the radio will stay there if a signal is
+     heard.
+
+     The PRO-2004 has two scan speeds,  although  one  would
+     probably  use  the  faster,  16 channel/second speed in
+     most  instances.   This  compares  favorably  with   14
+     channel/second speed of the Bearcat 800XLT.
+
+     When programming a channel, the PRO-2004 firmware  sets
+     the  mode automatically, based on its idea of what mode
+     is most prevalent  on  that  frequency.   This  feature
+     saves  extra  keystrokes,  and makes one appreciate the
+     thought that went into the design of this  radio.   The
+     default mode can be overridden easily, if need be, like
+     to listen to a NBFM satellite in the 225-400 MHz range,
+     which is mainly populated with AM signals.
+
+
+
+Misc mods
+
+                            Searching
+
+     The SEARCH facility found on most programmable scanners
+     allows  the  entry  of  a  pair of frequencies, then by
+     pressing a key, the radio searches frequencies  between
+     those limits.  The PRO-2004 allows for 10 pairs of lim-
+     its!  These pairs of limits are  stored  in  their  own
+     memory,  and  don't  use up any of the conventional 300
+     memory channels.  One can set up several search  pairs,
+     for instance:
+
+        - 46.610-46.970 MHz: cordless telephones
+        - 144-148 MHz: the 2 meter ham band
+        - 30.01-30.56, 32-33, 36-37 MHz: US Govt
+
+     Another unique feature is the MONITOR key, which  stops
+     the  search  and  stores  the  frequency  in one of ten
+     special monitor memories.  These memories are  separate
+     from  the  300 main memory channels.  The search can be
+     restarted from where it left off by striking the up  or
+     down arrow key.
+
+     The user can select the search direction (up or  down),
+     and  step size of 5, 12.5, or 50 KHz, although the PRO-
+     2004 is intelligent enough to  select  a  default  step
+     size  based  on  the  frequencies  being searched.  The
+     owner's manual claims that a step size  of  30  KHz  is
+     also available, but apparently this step size was disa-
+     bled when the cellular telephone frequency coverage was
+     removed.
+
+     The selected parameters are displayed on the LCD panel.
+     Search  speed is switchable between slow and fast, with
+     fast search being about 14 increments/second (versus 12
+     for  the  800XLT).   For  a  12.5  KHz  increment, this
+     translates to 11.2 MHz/minute  (versus  9.6  MHz/minute
+     for the 800XLT).
+
+     The DIRECT key allows one to start searching up or down
+     from  whatever  frequency is on the display.  Let's say
+     the scanner is in MANUAL mode, and set at  channel  26,
+     which  contains  460.100 MHz.  Striking the DIRECT then
+     UP-ARROW keys starts  the  PRO-2004  searching  upwards
+     from 460.100.  This is a nice feature.
+
+     The  PRO-2004 contains  a  "window  detector"  circuit,
+     which  is  called  into play during a SEARCH operation.
+     This circuit tries to detect when the  radio  is  tuned
+     close  to  the  center  frequency  of  a  station,  and
+     prevents the search from halting  prematurely,  off  to
+     the side of the signal.
+
+     The AFC (automatic frequency control)  circuit  of  the
+     Bearcat 800XLT often causes a search of 850 MHz signals
+     to halt prematurely.  Even though the signal sounds  on
+     frequency,  the display reads the wrong frequency.  The
+     PRO-2004 does not have this problem.
+
+     Another interesting feature is the SOUND SQUELCH, which
+     may be used during scan or search operations.  With the
+     the sound squelch enabled,  signified  by  a  red  lamp
+     above  the pushbutton, the scanner will skip over unmo-
+     dulated signals.  This is handy for skipping over "bir-
+     dies", or link signals with a constant carrier.
+
+     According to the owner's manual:
+
+        -  "When the PRO-2004 stops at a frequency which has
+          no  sound,  it  remains there for 0.5 seconds, and
+          then goes to the next frequency if"  no  sound  is
+          detected "within that time."
+
+           "When  a  frequency  which  contains   sound   is
+          received, it halts at the frequency.  But,
+
+            a.  If the sound ceases during the reception, it
+                stays  on  the  frequency for 5 seconds, and
+                resumes scanning."
+
+            b.   "If the [station] stops sending a  carrier,
+                the unit reverts to scan [or search] immedi-
+                ately if DELAY is off, after 2  seconds,  if
+                the DELAY is active."
+
+     The manual warns that the sound squelch may  be  fooled
+     by  signals  with  low  modulation, and skip over them.
+     The PRO-2004 SOUND SQUELCH tries to detect the presence
+     or  absence of modulation (not human speech), so unfor-
+     tunately, it thinks that mobile phone idle tones, digi-
+     tal data signals, and paging tones are worth monitoring
+     and will stop the scanner to listen to them.
+
+
+                         Taping Facility
+
+     A tape recorder can be connected to the TAPE phono jack
+     on  the rear panel, which provides 600 mV of audio at a
+     10,000 ohm impedance.  In addition to  a  rear  mounted
+     external speaker jack, there is a headphone jack on the
+     front of the scanner.
+
+
+                        Basic Performance
+
+     To evaluate sensitivity, the $400 PRO-2004 was compared
+     with  a  $950  ICOM  R7000  and  a  $300 UNIDEN/Bearcat
+     800XLT.  Since a signal generator was not used, quanti-
+     tative   measurements  could  not  be  made.   Instead,
+     various antennas were switched between radios,  signals
+     from  stations  were  compared  by ear, and the results
+     tabulated.
+
+     Simply put, the PRO-2004 is sensitive enough  to  allow
+     one  to  hear what needs to be heard, and not so sensi-
+     tive as to be overloaded by  strong  signals.   On  850
+     MHz,  signals  were  readable  on  the  PRO-2004  which
+     couldn't even be detected on the R7000.
+
+     Although the 800XLT is the most sensitive radio of  the
+     three  tested, it suffers from images and overload much
+     more than the PRO-2004 or R7000.  The PRO-2004 has a 10
+     dB  attenuator, operable by a slide switch on the rear,
+     but its use has been unnecessary thus far.
+
+     The up conversion design of both  the  ICOM  and  Radio
+     Shack  units allows use of a very high IF (intermediate
+     frequency), which  helps  avoid  image  problems.   The
+     PRO-2004 owner's manual doesn't list the IF frequencies
+     directly, but a good guess is that the  first  two  IFs
+     are 610 MHz, 70 MHz.  The third IF looks something like
+     455 KHz when using AM or NBFM,  and  perhaps  10.7  MHz
+     when the WBFM mode is selected.
+
+     The PRO-2004 is slightly more selective  on  NBFM  than
+     the  800XLT.   WBFM selectivity is rated at about twice
+     as wide as the ICOM R7000.
+
+     The audio output quality is good, although it seems  to
+     lack  the  punch  of the 800XLT audio.  The top mounted
+     speaker directs the sound at the ceiling, but adding an
+     external  speaker  would allow the sound to be directed
+     at the user.
+
+     Unfortunately,  the  audio  level  of  AM  signals   is
+     somewhat  below  that of NBFM signals, requiring a dif-
+     ferent setting of the volume  control.   When  scanning
+     both  AM  and  NBFM modes, one has to find a compromise
+     position of the volume control.
+
+     The PRO-2004 squelch control has a bit  too  much  hys-
+     teresis,  a  trait  inherited from its ancestors.  It's
+     like having too much play in a car's steering wheel, or
+     backlash  in a gear set.  This hysteresis forces one to
+     keep the squelch at a tighter setting,  missing  weaker
+     signals when scanning or searching.  The Bearcat 800XLT
+     has this trait also,  but  the  fix  is  simple.   I've
+     successfully  eliminated  this  problem  completely  by
+     replacing  a  single resistor on the 800XLT, as well as
+     the PRO-2002, PRO-2003, and PRO-24 scanners.
+
+
+                     Mechanical Construction
+
+     The PRO-2004 is heavy.   It  is  enclosed  in  a  metal
+     cabinet,  but  has  a  plastic  front panel.  If one is
+     going to pay $400, one deserves to own some metal.  The
+     entirely  plastic  cabinet of the older PRO2003 allowed
+     wideband noise to radiate out of the scanner  and  into
+     nearby shortwave receivers.
+
+     There is a single BNC antenna connector on the rear  of
+     the  PRO-2004, and a single telescoping antenna is sup-
+     plied.  This  differs  from  the  800XLT  which  has  2
+     "Motorola  type"  antenna  connectors, one reserved for
+     the 800 MHz band.
+
+     Internal construction is excellent.   Most  stages  are
+     completely  enclosed  in  their own individual shielded
+     boxes.  Interstage shielding is  very  important  in  a
+     wide   band  receiver,  to  prevent  it  from  "hearing
+     itself", an  undesirable  phenomena  which  results  in
+     "birdies".2 The shielding is much better  in  the  PRO-
+     2004 than in the 800XLT, which uses no shielding around
+     the 800 MHz converter stage, and probably accounts  for
+     some of the birdies in the Bearcat.
+
+     Frequencies and other indicators  are  displayed  on  a
+     backlit  LCD  (liquid  crystal  display) panel, and the
+     level of backlighting can be  dimmed  by  a  pushbutton
+     switch.
+
+     The flat membrane  keyboard  has  a  nice  feel.   Only
+     slight  pressure  is  required  for  actuation, and key
+     depressions are confirmed by a mild "beep" audio tone.
+
+     The PRO-2004 might be too large to fit under the  dash-
+     board  of compact cars.  Although it can be operated on
+     12 VDC,  neither  a  mobile  power  cord  nor  mounting
+     bracket  are  provided.  These items were included with
+     earlier Radio Shack models.  The AC power cord  is  not
+     detachable,  and would have to be bundled up to keep it
+     out of the way in a mobile installation.
+
+
+
+                         Owner's Manual
+
+     The  user  manual  suffers  from  Japanese  to  English
+     translation  problems,  but  is fairly good, resembling
+     other Radio Shack scanner manuals.
+
+     A single page frequency allocations chart is  included,
+     but  is  not current.  There is a very simplified block
+     diagram, but no  schematic.   The  Maintenance  section
+     contains  a  useless troubleshooting chart, accompanied
+     by advice like "keep it dry" and "do not drop".  Thank-
+     fully,  detailed  service manuals for Radio Shack scan-
+     ners are usually available for $5.00 or $7.50.
+
+     The PRO-2004 is warranted for 1 year,  which  is  reas-
+     suring.
+
+
+                         What's Missing?
+
+     So with all these neat features,  what's  missing  from
+     the  PRO-2004?  A "search and store" mode, like that on
+     the ICOM R7000 and older Bearcat 250  would  have  been
+     nice.   A  lighted keyboard and a signal strength meter
+     would also be welcome.
+
+     Having a COR (carrier operated relay) output, like ICOM
+     R7000  and  old  Bearcat  250 have, would be useful for
+     actuating a tape recorder.
+
+
+                             Summary
+
+     If all one wants is a scanner to monitor  local  police
+     and  fire,  there  are  certainly  cheaper  and simpler
+     models than the PRO-2004.  This scanner  is  for  those
+     who  enjoy  actively  exploring voice communications in
+     the VHF/UHF spectrum.
+
+     The PRO-2004 has the right  features  and  performance,
+     especially  for  scanning the wide 225-400 MHz military
+     aircraft band.  Good design should not to be taken  for
+     granted.  GRE engineers used the power of the micropro-
+     cessor to implement useful features  in  the  PRO-2004.
+
+     Similar processing horsepower was not used so wisely in
+     a recent Yaesu scanner.
+
+     At about $400, the PRO-2004 provides a good alternative
+     to those not wishing to spend $950 for an ICOM R7000.
+
+TABLE 1.  Sensitivity of Radio Shack PRO-2004 vs. ICOM R7000
+
+         _______________________________________________
+        | Band       |  PRO-2004         R7000         |
+        |____________|_________________________________|
+        | 47 MHz     |  slightly less    slightly more |
+        |            |  sensitive        sensitive     |
+        |____________|_________________________________|
+        | 72 MHz     |  more sensitive   less sensitive|
+        |____________|_________________________________|
+        | Commercial |  (not tested)     (not tested)  |
+        | Air Band   |                                 |
+        |____________|_________________________________|
+        | 150-165 MHz|  equal            equal         |
+        |____________|_________________________________|
+        | 223 MHz    |  less sensitive   more sensitive|
+        |____________|_________________________________|
+        | 460 MHz    |  equal            equal         |
+        |____________|_________________________________|
+        | 855 MHz    |  much more        much less     |
+        |            |  sensitive        sensitive     |
+        |____________|_________________________________|
+        | 953 MHz    |  more sensitive   less sensitive|
+        |____________|_________________________________|
+
+
+
+TABLE 2.  Sensitivity   of   Radio   Shack   PRO-2004    vs.
+          UNIDEN/Bearcat 800XLT
+
+         _______________________________________________
+        | Band       |  PRO-2004         800XLT        |
+        |____________|_________________________________|
+        | 47 MHz     |  equal            equal         |
+        |            |                   (many images) |
+        |____________|_________________________________|
+        | 72 MHz     |  N/A              N/A           |
+        |____________|_________________________________|
+        | Commercial |  (not tested)     (not tested)  |
+        | Air Band   |                                 |
+        |____________|_________________________________|
+        | 150-165 MHz|  less sensitive   more sensitive|
+        |____________|_________________________________|
+        | 460 MHz    |  less sensitive   more sensitive|
+        |____________|_________________________________|
+        | 855 MHz    |  slightly less    slightly more |
+        |            |  sensitive        sensitive     |
+        |____________|_________________________________|
+
+
+<h3>Still Another Cellular Mod.</h3>
+
+The PRO-2004 scanner can be used to receive cellular telephone
+conversations.  Originally, the scanner was able to receive in this
+band, but at the last minute, it was decided to delete cellular
+coverage from the PRO-2004.
+
+The procedure to re-instate the cellular band is simple for anyone
+with a pair of cutters, and a phillips screw-driver.
+
+1.  Remove the four screws from the back of the radio, and slide
+off the cover from the chassis.
+
+2.  Turn the radio upside down.  You will find a metal box-like sub-
+chassis in the center of the main chassis.  Remove the cover and
+you will be looking at the CPU, a 64-pin integrated circuit.
+
+3.  Examine the component side of this board, and you will find a row of
+diodes and resistors.  On one end of the row you will find a diode
+labeled  D-513.
+
+4.  Clip the accessible end of D-513, and pry apart the ends so they
+don't touch.  You have just restored cellular coverage to you scanner.
+
+5.  If D-513 is not there, it may be located on the underside of
+the circuit board.
+

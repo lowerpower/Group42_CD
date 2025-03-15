@@ -1,0 +1,73 @@
+RADIO SHACK 17-1002
+
+NOTES:  This is a single NAM unit.
+        The ESN prefix is 165 decimal, A5 hex.
+        Radio Shack: 817-390-3244
+
+This phone requires a service handset to access programing mode, you can
+make one by following these procedures:
+
+1.  Open the handset connector (black "D" plug) and solder a jumper
+    between pins 1 and 14.
+
+2.  Remove the handset ear-piece pad to expose a hex screw, remove this
+    screw.
+
+3.  Remove the two rubber plugs located either side of the microphone,
+    remove the two screws.
+
+4.  Carefully split the handset apart.
+
+5.  Locate the white 28 pin connector that connects the two PCB's, just
+    below this connector is a factory installed jumper.  Install a second
+    jumper to the left of the factory installed one.
+
+6.  Reasemble hanset and connector.
+
+7.  Congratulations!  You now have a Mobira test handset.  This modification
+    is transparent during normal operation.
+
+PROGRAMING:
+
+1.  Enter LOCAL MODE (test mode) by pressing 01# (you will hear static
+    from the ear piece).
+
+2.  Enter NAM program mode by pressing 48#.
+
+3.  Data is entered in the following format: STEP NUMBER, DATA, *.
+    For example to set the station class mark to "00" enter 400*.
+
+4.  Data can be entered in any order.
+
+5.  Press * to exit NAM program mode and return to LOCAL MODE.
+
+6.  Press 02# (or turn power off) to return to normal operation.
+
+7.  You may also enter NAM read mode by pressing 49# from locall mode.
+    Press N* (where N is the step number) to read the data stored in that
+    location.
+
+
+PROGRAMING DATA:
+
+STEP#    #OF DIGITS/RANGE    DESCRIPTION
+
+0        00000 - 32767       SYSTEM ID
+1        0 OR 1              MIN MARK
+2        0 OR 1              LOCAL USE MARK
+3        10 DIGITS           MIN (AREA CODE & TEL NUMBER)
+4        2 DIGITS            STATION CLASS MARK
+5        333 OR 334          INITIAL PAGING CHANNEL
+6        2 DIGITS            ACCESS OVERLOAD CLASS
+7        0 OR 1              PREFFERED SYSTEM (0=B, 1=A)
+8        2 DIGITS            GROUP ID (10 IN USA)
+9        5 DIGITS            SECURITY CODE
+
+LOCK: SEL LOCK,  UNLOCK: LAST FOUR DIGITS OF SECURITY CODE.
+
+SYSTEM SELECT: SEL 1, THEN 1 UNTIL DESIRED OPTION IS SHOWN:
+
+ S = PREF/NON PREF
+ I = INVERTED (NON PREF/PREF)
+ A = A ONLY
+ b = B ONLY

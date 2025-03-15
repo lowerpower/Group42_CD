@@ -1,0 +1,8 @@
+The following crack is for the commercial EMPIRE game by Interstel
+Corporation.  Look for Version 2.05A dated 18-Jul-1988 on the initial
+screen.
+Find byte string 398fa0c using Pctools or Nortons.  Replace the
+398f with eb07.  Your password will now be validated no matter what
+is entered.
+The Mad Hacker.
+Calgary, Alberta.

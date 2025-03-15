@@ -1,0 +1,363 @@
+=============================================================================
+CA-95:13                         CERT Advisory
+                                 October 19, 1995
+                   Syslog Vulnerability - A Workaround for Sendmail
+-----------------------------------------------------------------------------
+
+The CERT Coordination Center has received reports of problems with the
+syslog(3) subroutine. To the best of our current knowledge, the problem is
+present in virtually all versions of the UNIX Operating System except the
+following: 
+         
+          Sony's NEWS-OS 6.X
+          SunOS 5.5 (Solaris 2.5)
+          Linux with libc version 4.7.2, released May 1995 
+
+We have received reports indicating that the vulnerability is being exploited
+with a script that has been written to be used with sendmail.
+
+This advisory includes a workaround that you can use with sendmail. It
+*does not* include workarounds for any other programs that use the syslog(3)
+subroutine--telnetd, ftpd, httpd, etc.
+
+The CERT Coordination Center recommends installing all appropriate
+syslog-related patches as soon as they are available from vendors. But, in
+the meantime, we suggest addressing at least the syslog problem in sendmail by
+installing sendmail version 8.7.1. We are aware that several workarounds
+concerning the syslog vulnerability have been published on the Internet, but
+the CERT staff has not formally evaluated them.
+
+As we receive additional information relating to this advisory, we will
+place it in
+
+        ftp://info.cert.org/pub/cert_advisories/CA-95:13.README
+
+We encourage you to check our README files regularly for updates on advisories
+that relate to your site.
+
+-----------------------------------------------------------------------------
+
+I.   Description
+
+     The syslog(3) subroutine uses an internal buffer for building messages
+     that are sent to the syslogd(8) daemon. This subroutine does no range
+     checking on data stored in this buffer. It is possible to overflow the
+     internal buffer and rewrite the subroutine call stack. It is then
+     possible to execute arbitrary programs. 
+
+     This problem is present in virtually all versions of the UNIX
+     Operating System except the following:
+
+        Sony's NEWS-OS 6.X
+        SunOS 5.5 (Solaris 2.5)
+        Linux with libc version 4.7.2 released in May, 1995
+
+     The sendmail(8) program uses the syslog(3) subroutine, and a script has
+     been written and is being used to exploit the vulnerability.
+
+II.  Impact
+
+     Local and remote users can execute commands. Prior access to the system
+     is not needed. Exploitation can lead to root access.
+
+III. Solution
+
+     We recommend that you do all of A, B, and C.
+
+     A. Install syslog patches from your vendor when they become available.
+
+        Information we received from vendors as of the date of this advisory
+        is attached as Appendix A and reproduced in CA-95:13.README.
+        We will update the README file as vendors send updated information.
+
+        When you install patches, you will need to recompile/relink any
+        programs built on your system that have been compiled without shared
+        libraries, that is, compiled statically. Be especially careful of
+        programs that contain their own versions of the syslog(3) subroutine.
+        You may need to do significant extra work to compile those programs to
+        use the vendor-supplied patches.
+
+     B. Install sendmail version 8.7.1. 
+
+        NOTE: This workaround addresses the syslog(3) vulnerability in 
+              sendmail only. The vulnerability still exists in all other
+              programs that use syslog(3). 
+
+        When your vendor(s) provides a patch, we recommend that you rebuild
+        sendmail version 8.7.1 with the patched syslog(3) and place that
+        newly compiled version into service. 
+        
+        Sendmail is available by anonymous FTP from
+
+        ftp://info.cert.org/pub/tools/sendmail/
+        ftp://ftp.cs.berkeley.edu/ucb/sendmail/
+        ftp://ftp.auscert.org.au/pub/mirrors/ftp.cs.berkeley.edu/ucb/sendmail/
+        ftp://ftp.cert.dfn.de/pub/tools/net/sendmail/
+
+        Checksum:
+
+           MD5 (sendmail.8.7.1.tar.Z) = 4a66d07a059d1d5af5e9ea53ff1b396a
+
+        Depending upon your currently installed sendmail program, switching to
+        a different sendmail may require significant effort (such as rewriting
+        the sendmail.cf file). See Section VI for additional notes on
+        installation.  
+
+        In addition, Sections IV and V below contain scripts for building
+        sendmail 8.7.1 for SunOS 4.1.X and Solaris 2.X, respectively. 
+
+     C. Install smrsh.
+     
+        To restrict the sendmail program mailer facility, install and
+        use the sendmail restricted shell program (smrsh). We recommend
+        that you do this regardless of whether you use the vendor's supplied
+        sendmail or you install sendmail version 8.7.1.  
+        
+        Smrsh is now included in the sendmail 8.7.1 distribution in the 
+        subdirectory smrsh. See the RELEASE_NOTES file for a description
+        of how to integrate smrsh into your sendmail configuration file.
+
+IV. Building this package for SunOS 4.1.X
+
+    Here is a script that is given as an illustration of how to build
+    sendmail 8.7.1 for SunOS 4.1.X. Please refer to READ_ME in the src
+    subdirectory for a more complete explanation of other options available
+    during the compilation process. 
+
+    % uname -sr
+    SunOS 4.1.2
+    % ls
+    sendmail.8.7.1.tar.Z
+    % zcat sendmail.8.7.1.tar.Z | tar xf -
+    % cd sendmail-8.7.1/src
+    % ./makesendmail LIBS='-lresolv' DBMDEF='-DNDBM -DNIS' \
+        INCDIRS= LIBDIRS= sendmail
+      Configuration: os=SunOS, rel=4.1.2, rbase=4, arch=sun4, sfx=
+      Creating obj.SunOS.4.1.2.sun4 using Makefile.SunOS
+      Making dependencies in obj.SunOS.4.1.2.sun4
+      Making in obj.SunOS.4.1.2.sun4
+      ...
+
+    See Section VI for final installation steps.
+
+V.  Building this package for Solaris 2.X
+
+    Here is a typescript that is given as an illustration for how to build
+    sendmail 8.7.1 for Solaris 2.X. Note that this procedure assumes that
+    you have the GNU gcc system. The examples below used gcc version 2.6.3.
+    Again, please refer to READ_ME in the src sub-directory for a more
+    complete explanation of other options available during the compilation
+    process.
+
+    % uname -sr
+    SunOS 5.4
+    % ls
+    sendmail.8.7.1.tar.Z
+    % zcat sendmail.8.7.1.tar.Z | tar xf -
+    % cd sendmail-8.7.1/src
+    % ./makesendmail LIBS='-lresolv -lsocket -lnsl -lelf' \
+        INCDIRS= LIBDIRS= sendmail
+      Configuration: os=SunOS, rel=5.4, rbase=5, arch=sun4, sfx=
+      Creating obj.SunOS.5.4.sun4 using Makefile.SunOS.5.4
+      Making dependencies in obj.SunOS.5.4.sun4
+      ...
+
+    Note: If you wish sendmail version 8.7.1 to use the aliases and
+    configuration file directory conventions from SunOS 5.4, use the
+    following command:
+
+          ./makesendmail LIBS='-lresolv -lsocket -lnsl -lelf' \
+            ENVDEF='-DSOLARIS=204 -DUSE_VENDOR_CF_PATH' INCDIRS= \
+            LIBDIRS= sendmail
+
+VI. Final Installation Notes
+
+    Sendmail can then be installed and configured with new configuration
+    files as needed. We strongly recommend that if you change to sendmail
+    8.7.1, you also change to the configuration files that are provided with
+    that version. 
+
+    Significant work has been done to make this task easier. It is now
+    possible to build a sendmail configuration file (sendmail.cf) using
+    the configuration files provided with this release. Consult the
+    cf/READ_ME file for a more complete explanation. We recommended that you
+    create your configuration files using this method because it provides a
+    technique for incorporating any future changes to sendmail into your
+    configuration files. 
+
+    In addition, we recommend that you recreate your configuration file
+    (sendmail.cf) using the configuration files provided with 8.7.1.
+
+    Finally, for Sun users, a paper is available to help you convert your
+    sendmail configuration files from the Sun version of sendmail to one that
+    works with version 8.7.1. The paper is entitled "Converting Standard Sun
+    Config Files to Sendmail Version 8" and was written by Rick McCarty of
+    Texas Instruments Inc. It is included in the distribution and is located
+    in contrib/converting.sun.configs. 
+
+---------------------------------------------------------------------------
+The CERT Coordination Center staff thanks Eric Allman and Wolfgang Ley for
+their involvement in the development of this advisory, and thanks Karl
+Strickland and Neil Woods for reporting the vulnerability.
+---------------------------------------------------------------------------
+If you believe that your system has been compromised, contact the CERT
+Coordination Center or your representative in the Forum of Incident
+Response and Security Teams (FIRST).
+
+If you wish to send sensitive incident or vulnerability information to
+CERT staff by electronic mail, we strongly advise that the email be
+encrypted.  The CERT Coordination Center can support a shared DES key, PGP
+(public key available via anonymous FTP on info.cert.org), or PEM (contact
+CERT staff for details).
+
+Internet email: cert@cert.org
+Telephone: +1 412-268-7090 (24-hour hotline)
+           CERT personnel answer 8:30 a.m.-5:00 p.m. EST(GMT-5)/EDT(GMT-4),
+           and are on call for emergencies during other hours.
+Fax: +1 412-268-6989
+
+Postal address:  CERT Coordination Center
+                 Software Engineering Institute
+                 Carnegie Mellon University
+                 Pittsburgh, PA 15213-3890
+                 USA
+
+CERT advisories and bulletins are posted on the USENET newsgroup
+comp.security.announce. If you would like to have future advisories and
+bulletins mailed to you or to a mail exploder at your site, please send mail
+to cert-advisory-request@cert.org.
+
+Past CERT publications, information about FIRST representatives, and other
+information related to computer security are available for anonymous  
+FTP from info.cert.org. 
+
+
+Copyright 1995 Carnegie Mellon University
+This material may be reproduced and distributed without permission provided it
+is used for noncommercial purposes and the copyright statement is included.
+
+CERT is a service mark of Carnegie Mellon University.
+
+
+..............................................................................
+
+Appendix A: Vendor Information
+
+Current as of October 19, 1995
+See CA-95.13.README for updated information.
+
+Below is information we have received from vendors concerning the
+vulnerability described in this advisory. If you do not see your vendor's
+name, please contact the vendor directly for information.
+
+In addition to vendor information, note that the freely available Linux with
+libc version 4.7.2, released May 1995, is not vulnerable.
+
+--------------------
+Eric Allman
+
+Sendmail version 8.7.1 is not vulnerable.  
+This version is available by anonymous FTP from
+
+   ftp://info.cert.org/pub/tools/sendmail/
+   ftp://ftp.cs.berkeley.edu/ucb/sendmail/
+   ftp://ftp.auscert.org.au/pub/mirrors/ftp.cs.berkeley.edu/ucb/sendmail/
+   ftp://ftp.cert.dfn.de/pub/tools/net/sendmail/
+
+   Checksum:
+
+      MD5 (sendmail.8.7.1.tar.Z) = 4a66d07a059d1d5af5e9ea53ff1b396a
+
+
+--------------------
+Berkeley Software Design, Inc.
+
+Users of BSD/OS V2.0 and V2.0.1 by Berkeley Software Design, Inc. should
+install patch U201-001 which works for both versions. The patch is available
+to all BSDI customers in:  ftp://ftp.bsdi.com/bsdi/patches/ 
+
+md5 checksum: 88b3fd8c83a5926589d7b87b55bc4e14 
+
+--------------------
+Cray Research
+
+Information about fixes for the syslog problem can be found in FN #2011,
+dated October 10, 1995. Customers should receive this information from 
+their Cray Research service representative.
+
+For all source installations, your Cray Research service representative can
+obtain the fix via the getfix tool.
+
+Due to the number of executables which use this library routine, it is not
+possible to provide getfix packages for all binary installations. UNICOS
+binary update packages 8.0.4.2 and 9.0.1.2 include this mod.
+
+ FIX AVAILABILITY
+ ----------------
+                         Release Level            Fix Package
+ Affected Product        Containing Fix           Availability
+ ================        ==============           ===========
+ UNICOS 8.0             UNICOS 8.0.4.2 *         source only
+ UNICOS 8.3             **                       source only
+ UNICOS 9.0             UNICOS 9.0.1.2 *         source only
+
+
+ * This update is not yet available.
+ ** No more updates planned
+
+--------------------
+Digital Equipment Corporation
+
+At the time of writing this document, patches(binary kits) for Digital's
+ULTRIX platforms are in final testing and packaging. V4.3 (both VAX and RISC)
+thru V4.5.  
+
+Similar patches(binary kits) for OSF/1 versions are in progress and testing
+is expected to begin the week of October 23, 1995 and then packaged for
+Customer distribution estimated to available in November. Digital will provide
+notice of the completion of the kits through AES services (DIA, DSNlink
+FLASH) and be available from your normal Digital Support channel.
+                        Digital's Software Security Response Team    10/18/95
+
+--------------------
+Open Software Foundation
+
+OSF cannot reproduce the security hole in OSF/1. However we have reproduced
+the problem with syslog(3).  We have a fix for the syslog(3) problem. Support
+customers should contact OSF for the fix. The fix will be included in the
+OSF/1 R1.3.2 update release. 
+
+--------------------
+Silicon Graphics Inc.
+
+SGI has been in coordination with CERT regarding this issue.
+
+Specific SGI information was not complete before CERTs submission deadline for
+this advisory. 
+
+SGI does have pending information and this information will be available via
+anonymous ftp (sgigate.sgi.com) and/or your SGI service provider and potential
+future CERT advisory addendums.
+
+--------------------
+Solbourne (Grumman)
+
+Solbourne 2.5 is not vulnerable.
+
+--------------------
+Sony Corporation
+
+NEWS-OS 6.0.3 and 6.1 are not vulnerable.
+
+--------------------
+Sun Microsystems, Inc.
+
+SunOS 5.5 is not vulnerable.
+
+
+
+
+
+
+
+

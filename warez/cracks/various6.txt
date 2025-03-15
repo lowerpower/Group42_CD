@@ -1,0 +1,61 @@
+CRACK by Hawk> CONAN
+File: start.exe
+Search for:   9a 19 02 53 0a
+Replace with: 90 90 90 90 90
+
+Note: The start.exe file is compressed with lzexe. You might need (I didn't
+try otherwise) to decompress it first !
+
+
+CRACK by Hawk> Riders of Rohan
+File: rohan.exe
+Search for:   74 03 e9 5c 01
+Replace with: 90 90 90 90 90
+Search for:   73 03 e9 50 01
+Replace with: 90 90 90 90 90
+
+Note: After three wrong answers the game starts.
+
+
+CRACK by Hawk> Supremacy
+File: game.exe
+Search for:   e8 84 71 e8 e4 b8 
+Replace with: -- -- -- 90 90 90
+
+Note: The game file is compressed with Microsoft's exepack, you might need 
+  (I didn't try otherwise) to decompress it first !
+  There seem's to be a bug in my Norton Editor. So if DiskEdit doesn't find
+  the bytes, search again but leave the last byte out of the search string.
+
+
+CRACK by Hawk> Wrath of the Demon
+File: wrath.exe
+Search for:   e8 20 02 e8 52 02
+Replace with: -- -- -- 90 90 90
+
+
+CRACK by Hawk> Kyrandia
+File: main.exe
+
+Just change the passwords to whatever you like and fill up with 00 bytes.
+They are located shortly above the message: Find the ....
+
+
+CRACK by Hawk> F-29 Retaliator
+File: x.exe
+Search for:   e8 14 53 ba e5 db
+Replace with: 90 90 90 -- -- --
+
+Note: This worked with my version of F-29, the other crack didn't !
+
+
+CRACK by Hawk> TSRs Dungeon Master Assistant
+File: start.exe
+Search for:   e8 ad fb
+Replace with: 90 90 90
+
+
+PS.: Gosh, cracking is easy! I never thought so.
+     Please note that the crack for Conan is my first ever and all the
+     others followed the same day.
+

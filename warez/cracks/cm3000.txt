@@ -1,0 +1,30 @@
+
+	ALL THE CRACKS YOU NEED FOR THE CHESSMASTER3000!.. :)
+
+  Simply copy all the files from the original disks (i.e. DOS COPY).
+
+	INSTALL.COM -- execute this instead of INSTALL.EXE from the original
+ diskette.
+	CM.COM -- once installed and "configuration changed" (copy-
+ protection violated) run this to play the game.
+	CM3.COM -- the same as CM.COM, but it also displays the title screen.
+	CM3_TSR.COM -- load it in memory, it's a substitute for all the files
+ above. It cracks the install program and the game (v1.02a & v1.03).
+ Can be unloded, just run it second time.
+
+	If you like to mess with executables here are the patches:
+
+FILE: CM.EXE
+Works for both v1.02a and v1.03.
+ORIGINAL: 00 00 00 00 00 00 01 00 00 00 BE FF 78
+CRACK   : == == == == 01 == == == == == == == ==
+Note: There seems to be a bug in Norton Disk Editor 6.01, so if you use it,
+search for the bytes several times, using different pieces
+of the search string.
+
+FILE: INSTALL.EXE in v1.03 (which is PKLITEd, but not even extra):
+NOTE: use PKLITE -x INSTALL.EXE
+ORIGINAL: E8 07 F2 EB 0E
+CRACK   : == == == == 1E
+
+	 Michael Yakubovich

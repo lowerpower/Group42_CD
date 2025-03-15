@@ -1,0 +1,8 @@
+For simcity with   simcity.exe dated 040990, file size 191845 bytes,
+to bypass the obnoxious copy protection squad, 
+search for the string  in simcity.exe (at offset 21780)
+ 
+3E 0C 87 00 74 03  and change to
+3E 0C 87 00 00 03
+            ^^
+That is it!  No copy protect question will come up.

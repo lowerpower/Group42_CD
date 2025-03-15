@@ -1,0 +1,33 @@
+: ...and the Nokia 121, please?..... :*)
+
+: To enter system data on the Nokia 121 type *60312#12345, then key the M
+: key followed by memory location 00 (zero, zero)...
+
+: You'll see "Store Not Done" on the display. Use the (R)ecall key followed
+: by locations 1, 2, 4 and 5...
+
+: If anyone knows what can be done with these locations (you can change
+: your number here, but not your ESN), mail me...
+
+
+: -marc
+
+The 121 is very similar to Nokia's 101/201 series (it IS the same phone
+except for keypad layout and software...Technophone also has a model
+that is the same (course they were bought out by Technophone, so I guess
+it stands to reason)). locations 1 & 2 contain the info for NAM 1 while
+4 & 5 pertain to NAM 2. Since I don't have my notes, etc with me, I'm 
+not sure of the 121's layout, but for the 101/201 here's the prog seq...
+
+*3001#12345 <STO> 00  (Display shows "store not done")
+RCL 01 gives you the country code, emergency quick call number and lock code
+RCL 02 gives you the 10 digit phone number
+RCL 03 gives you the SYS ID (5 digits, 3 of which are not seen as they scroll
+       off the screen when prog'ing phone, Local access bit, MIN mark,
+       initial control channel, access overload class and Group ID.
+
+Those 3 memory locations are for NAM 1, and 4&5 are for NAM 2 (mem location
+01 is common to both NAMS)
+
+
+

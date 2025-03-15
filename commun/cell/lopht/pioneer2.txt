@@ -1,0 +1,24 @@
+                            PIONEER PCM 600
+
+                NAM Type:  EEPROM
+            Manufacturer:  Motorola
+              Programmer:  Keypad
+          ESN Prefix DEC:  130
+                     HEX:  82
+ ESN, S/N Match Required:  No
+       Stamped Model No.:  PCM 600
+      Number of Channels:  832
+
+    Programming Sequence:  See MOTOROLA Handset Programming
+                           -Use program Sequence #6
+
+         New Unlock Code:  FCN + 0 + 6 digit Security Code +
+                            new 3 digit Unlock Code
+           System Select:  RCL + * + * + * (to scroll choices)
+                            STO (to enter selection)
+                                  AB
+                                  BA
+                                  A Only
+                                  B Only
+                                  Home
+

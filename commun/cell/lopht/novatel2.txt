@@ -1,0 +1,36 @@
+NOVATEL 8320 Programming
+----------=?> DOCTOR WHO <?=-----------
+v. 3/8/95
+
+This file is an addendum to my file on the Novatel 8325 which originally
+appeared unaccredited in Phrack. Read it first.
+
+This is an alpha version of this file and will most likely undergo great 
+changes. Check back here occasionally until this messages dissappears. 
+The 8320 is an earlier version of the 8325 and is basically the same. It
+appears that the test codes vary by software version though, so try every
+thing in all combinations if you don't at first succeed.
+
+Menu        Software  Versions
+             KB00      FA00
+------------------------------
+ CFG         #259
+ CNF                   #259
+ TBL         #829      829*
+ SVC         #83*      #83*
+ BIL         #185      #185
+
+SVC mode appears to be TBL mode without access to functions over 35.
+
+The 8320 lacks the following 8325 commands:
+
+34  NVM Test
+36  NVM Clear
+42  DPOT Clear
+43  Micro, Expand, TX Limit
+47  Analog Switch 1
+48  Analog Switch 2
+49  Power Level, DAC
+50  PL3@5000
+
+-end

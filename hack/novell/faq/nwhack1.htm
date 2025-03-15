@@ -1,0 +1,621 @@
+<HTML>
+
+<HEAD>
+
+<TITLE>Hacking Netware - Getting Access to Accounts</TITLE>
+<META NAME="AUTHOR" CONTENT="Al Payne">
+</HEAD>
+
+<BODY>
+
+<H4>Section 01 - Getting Access to Accounts</H4>
+
+<P>
+<A HREF="#section_01_1">01-1. How do I access the password file in Novell Netware?</A>
+
+<P>
+<A HREF="#section_01_2">01-2. How do I crack Novell Netware passwords?</A>
+
+<P>
+<A HREF="#section_01_3">01-3. What are common accounts and passwords in Novell Netware?</A>
+
+<P>
+<A HREF="#section_01_4">01-4. How can I figure out valid account names on Novell Netware?</A>
+
+<P>
+<A HREF="#section_01_5">01-5. What is the &quot;secret&quot; method to gain Supervisor access Novell used to teach in CNE classes?</A>
+
+<P>
+<A HREF="#section_01_6">01-6. What is the cheesy way to get Supervisor access?</A>
+
+<P>
+<A HREF="#section_01_7">01-7. How do I leave a backdoor?</A> 
+<P>
+<A HREF="#section_01_8">01-8. Can sniffing packets help me break in?</A>
+
+<P>
+<A HREF="#section_01_9">01-9. What is Packet Signature and how do I get around it?</A>
+
+<P>
+<A HREF="#section_01_10">01-10. How do I use SETPWD.NLM?</A> 
+<P>
+<A HREF="#section_01_11">01-11. What's the &quot;debug&quot; way to disable passwords?</A>
+<HR>
+
+<P>
+Section 01
+<H1>Getting Access to Accounts</H1>
+
+<H3><A NAME="section_01_1"></A>01-1. How do I access the password
+file in Novell Netware?</H3>
+
+<P>
+Contrary to not-so-popular belief, access to the password file
+in Netware is not like Unix - the password file isn't in the open.
+All objects and their properties are kept in the bindery files
+on 2.x and 3.x, and kept in the NDS database in 4.x. An example
+of an object might be a printer, a group, an individual's account
+etc. An example of an object's properties might include an account's
+password or full user name, or a group's member list or full name.
+The bindery files attributes (or flags) in 2.x and 3.x are Hidden
+and System, and these files are located on the SYS: volume in
+the SYSTEM subdirectory. Their names are as follows:
+<PRE>
+Netware version File Names
+--------------- ----------
+2.x             NET$BIND.SYS, NET$BVAL.SYS
+3.x             NET$OBJ.SYS, NET$PROP.SYS, NET$VAL.SYS
+</PRE>
+
+<P>
+The NET$BVAL.SYS and NET$VAL.SYS are where the passwords are actually
+located in 2.x and 3.x respectively.
+<P>
+In Netware 4.x, the files are physically located in a different
+location than on the SYS: volume. However, by using the RCONSOLE
+utility and using the Scan Directory option, you can see the files
+in SYS:_NETWARE:
+<PRE>
+File           What it is
+-------------- --------------------------
+VALUE.NDS      Part of NDS
+BLOCK.NDS      Part of NDS
+ENTRY.NDS      Part of NDS
+PARTITIO.NDS   Type of NDS partition (replica, master, etc.)
+MLS.000        License
+VALLINCEN.DAT  License validation
+</PRE>
+
+<P>
+Here is another way to view these files, and potentially edit
+them. After installing NW4 on a NW3 volume, reboot the server
+with a 3.x SERVER.EXE. On volume SYS will be the _NETWARE directory.
+SYS:_NETWARE is hidden better on 4.1 than 4.0x, but in 4.1 you
+can still see the files by scanning directory entry numbers using
+NCP calls (you need the APIs for this) using function 0x17 subfunction
+0xF3.
+<H3><A NAME="section_01_2"></A>01-2. How do I crack Novell Netware
+passwords?</H3>
+
+<P>
+There are a few ways to approach this. First, we'll assume Intruder
+Detection is turned off. We'll also assume unencrypted passwords
+are allowed. Hopefully you won't have to deal with packet signature
+(see 01-9 below) Then we'll assume you have access to the console.
+Finally we'll assume you can plant some kind of password catcher.
+Access to a sniffer might help. These are a lot of ifs.
+<P>
+If Intruder Detection is off, you can just guess the password
+until you get it. This can be automated by writing a program that
+continually guesses passwords, or by using a program that does
+just that. One program that I am aware of is NOVELBFH.EXE (for
+version 3.x only). This program will try passwords like aa, ab,
+ac and so on until every legal character combination has been
+tried. You will eventually get the password. However this assumes
+you have 1) a lot of time since it takes a second or two for each
+try (more on a dial-up link), and 2) access to a machine that
+will run one of these programs for hours, even days. And if Intruder
+Detection is on you will be beeping the System Console every couple
+of seconds and time-stamping your node address to the File Server
+Error Log.
+<P>
+Encrypted passwords is Novell's way of protecting passwords from
+sniffers. Since older versions of Netware (2.15c) sent passwords
+as plain text over the wire, a sniffer could see the password
+as it went by. To secure things, Novell gave the administrator
+a way to control this. Later versions of the LOGIN.EXE program
+would encrypt the password before transmitting it across the wire
+to the server. But before this could happen, the shell (NETX)
+had to be updated. Since some locations had to have older shells
+and older versions of LOGIN.EXE to support older equipment, the
+administrator has the option of allowing unencrypted passwords
+to access the server. This is done by typing SET ALLOW UNENCRYPTED
+PASSWORDS=ON at the console or by adding it to the AUTOEXEC.NCF.
+The default is OFF, which means NOVELBFH could be beeping the
+server console every attempt! Fortunately most sites turn this
+switch on to support some old device.
+<P>
+If you have access to the console, either by standing in front
+of it or by RCONSOLE, you can use SETSPASS.NLM, SETSPWD.NLM or
+SETPWD.NLM to reset passwords. Just load the NLM and pass it command
+line parameters:
+<PRE>
+NLM          Account(s) reset  Netware version(s) supported
+------------ ----------------- ----------------------------
+SETSPASS.NLM SUPERVISOR        3.x
+SETSPWD.NLM  SUPERVISOR        3.x, 4.x
+SETPWD.NLM   any valid account 3.x, 4.x
+</PRE>
+
+<P>
+See 01-10 for more SETPWD.NLM info.
+<P>
+If you can plant a password catcher or keystroke reader, you can
+get them this way. The LOGIN.EXE file is located in the SYS:LOGIN
+directory, and normally you will not have access to put a file
+in that directory. The best place to put a keystroke capture program
+is in the workstation's path, with the ATTRIB set as hidden. The
+advantage is that you'll get the password and Netware won't know
+you swiped it. The disadvantage is getting access to the machine
+to do this. The very best place to put one of these capture programs
+is on a common machine, like a pcAnywhere box, which is used for
+remote access. Many locations will allow pcAnywhere access to
+a machine with virtually no software on it, and control security
+access to the LAN by using Netware's security features. Uploading
+a keystroke capture program to a machine like this defeats this.
+<P>
+If the system is being backed up via a workstation, this can be
+used as a good entry point. These workstations have to have supe
+equiv to back up the bindery and other system files. If you can
+access this workstation or use the backup systems user account
+name then you can get supe level login.
+<P>
+itsme, the notorious Netherlands Netware hacker, developed KNOCK.EXE
+by rewriting one byte of ATTACH.EXE to try without a password
+to get into a server. KNOCK.EXE utilitzes a bug that allows a
+non-password attach to get in. This works on versions of Netware
+earlier than 2.2, and 3.11. Later versions have the bug fixed.
+Given enough time you will get in.
+<P>
+Another alternative is the replacement LOGIN.EXE by itsme. This
+jewel, coupled with PROP.EXE, will create a separate property
+in the bindery on a 2.x or 3.x server that contains the passwords.
+Here is the steps to use these powerful tools:
+<UL>
+<LI>Gain access to a workstation logged in as Supervisor or equivalent
+(or use another technique described elsewhere for getting this
+type of access)
+<LI>Run the PROP.EXE file with a -C option. This creates the new
+property for each bindery object. Remember, you must be a Supe
+for this step.
+<LI>Replace the LOGIN.EXE in the SYS:LOGIN directory with itsme's.
+Be sure to flag it SRO once replaced.
+<LI>Now it is set. Keep PROP.EXE on a floppy, and check the server
+with any valid login, Supervisor or not, after a week or two.
+<LI>To check the passwords captured, type PROP -R after your logged
+in. You can redirect it to a file or printer. A list of accounts
+and passwords, valid and working, are yours.
+<LI>Don't forget to hide your presence! See section 03-3 for details.
+</UL>
+
+<H3><A NAME="section_01_3"></A>01-3. What are common accounts
+and passwords in Novell Netware?</H3>
+
+<P>
+Out of the box Novell Netware has the following default accounts
+- SUPERVISOR, GUEST, and Netware 4.x has ADMIN and USER_TEMPLATE
+as well. All of these have no password to start with. Virtually
+every installer quickly gives SUPERVISOR and ADMIN a password.
+However, many locations will create special purpose accounts that
+have easy-to-guess names, some with no passwords. Here are a few
+and their typical purposes:
+<PRE>
+Account       Purpose
+----------    ------------------------------------------------------
+PRINT         Attaching to a second server for printing
+LASER         Attaching to a second server for printing
+HPLASER       Attaching to a second server for printing
+PRINTER       Attaching to a second server for printing
+LASERWRITER   Attaching to a second server for printing
+POST          Attaching to a second server for email
+MAIL          Attaching to a second server for email
+GATEWAY       Attaching a gateway machine to the server
+GATE          Attaching a gateway machine to the server
+ROUTER        Attaching an email router to the server
+BACKUP        May have password/station restrictions (see below), used
+              for backing up the server to a tape unit attached to a
+              workstation. For complete backups, Supervisor equivalence
+              is required.
+WANGTEK       See BACKUP
+FAX           Attaching a dedicated fax modem unit to the network
+FAXUSER       Attaching a dedicated fax modem unit to the network
+FAXWORKS      Attaching a dedicated fax modem unit to the network
+TEST          A test user account for temp use
+</PRE>
+
+<P>
+This should give you an idea of accounts to try if you have access
+to a machine that attaches to the server. A way to &quot;hide&quot;
+yourself is to give GUEST or USER_TEMPLATE a password. Occassionally
+admins will check up on GUEST, but most forget about USER_TEMPLATE.
+In fact, <I>I</I> forgot about USER_TEMPLATE until itsme reminded
+me.
+<P>
+A common mistake regarding RCONSOLE passwords is to use a switch
+to use only the Supervisor password. It works like this:
+<P>
+<KBD>LOAD REMOTE /P= </KBD>
+<P>
+instead of
+<P>
+<KBD>LOAD REMOTE RCONPASSWORD</KBD>
+<P>
+The admin believes /P= turns off everything except the Supe password
+for CONSOLE. In fact the password is just set to /P= which will
+get you in! The second most common mistake is using -S.
+<H3><A NAME="section_01_4"></A>01-4. How can I figure out valid
+account names on Novell Netware?</H3>
+
+<P>
+Any limited account should have enough access to allow you to
+run SYSCON, located in the SYS:PUBLIC directory. If you get in,
+type SYSCON and enter. Now go to User Information and you will
+see a list of all defined accounts. You will not get much info
+with a limited account, but you can get the account and the user's
+full name.
+<P>
+If you're in with any valid account, you can run USERLST.EXE and
+get a list of all valid account names on the server. If you don't
+have access (maybe the sys admin deleted the GUEST account, a
+fairly common practice), you can't just try any account name at
+the LOGIN prompt. It will ask you for a password whether the account
+name is valid or not, and if it is valid and you guees the wrong
+password, you could be letting the world know what you're up to
+if Intruder Detection is on. But there is a way to determine if
+an account is valid.
+<P>
+From a DOS prompt use a local copy (on your handy floppy you carry
+everywhere) of MAP.EXE. After you've loaded the Netware TSRs up
+through NETX or VLM, Try to map a drive using the server name
+and volume SYS:. For example:
+<P>
+<KBD>MAP G:=TARGET_SERVER/SYS:APPS</KBD> &lt;enter&gt;
+<P>
+Since you are not logged in, you will be prompted for a login
+ID. If it is a valid ID, you will be prompted for a password.
+If not, you will immediately receive an error. Of course, if there
+is no password for the ID you use you will be attached and mapped
+to the server. You can do the same thing with ATTACH.EXE:
+<P>
+<KBD>ATTACH TARGET_SERVER/</KBD><VAR>loginidtotry</VAR> &lt;enter&gt;
+<P>
+The same thing will happen as the MAP command. If valid, you will
+be prompted for a password. If not, you get an error.
+<P>
+Another program to check for valid users and the presence of a
+password is CHKNULL.EXE by itsme. This program checks for users
+and whether they have a password assigned.
+<H3><A NAME="section_01_5"></A>01-5. What is the &quot;secret&quot;
+method to gain Supervisor access Novell used to teach in CNE classes?
+</H3>
+
+<P>
+Before I start this section, let me recommend another solution,
+my God, ANY other solution is better than this! If you are running
+3.x, jump to the end of this section.
+<P>
+The secret method is the method of using a DOS-based sector editor
+to edit the entry in the FAT, and reset the bindery to default
+upon server reboot. This gives you Supervisor and Guest with no
+passwords. The method was taught in case you lost Supervisor on
+a Netware 2.15 server and you had no supe equivalent accounts
+created. It also saves the server from a wipe and reboot in case
+the Supervisor account is corrupt, deleted, or trashed.
+<P>
+While you get a variety of answers from Novell about this technique,
+from it doesn't work to it is technically impossible, truth be
+it it can be done. Here are the steps, as quoted from comp.os.netware.security,
+with my comments in [brackets]:
+<P>
+[start of quote]
+<BLOCKQUOTE>
+A Netware Server is supposed to be a very safe place to keep your
+files. Only people with the right password will have access to
+the data stored there. The Supervisor (or Admin) user's password
+is usually the most well kept secret in the company, since anyone
+that has that code could simply log to the server and do anything
+he/she wants. But what happens if this password is lost and there's
+no user that is security-equivalent to the supervisor? [Use SETPWD.NLM,
+instead of this process, see 01-10 below - S.N.] What happens
+if the password system is somehow damaged and no one can log to
+the network? According to the manual, there's simply no way out.
+You would have to reinstall the server and try to find your most
+recent backup.
+</BLOCKQUOTE>
+
+<BLOCKQUOTE>
+Fortunately, there is a very interesting way to gain complete
+access to a Netware server without knowing the Supervisor's (or
+Admin's) password. You may imagine that you would have to learn
+complex decryption techniques or even type in a long C program,
+but that's not the case. The trick is so simple and generic that
+it will work the same way for Netware 2.x, 3.x and 4.x.
+</BLOCKQUOTE>
+
+<BLOCKQUOTE>
+The idea is to fool Netware to think that you have just installed
+the server and that no security system has been estabilished yet.
+Just after a Netware 2.x or 3.x server is installed, the Supervisor's
+password is null and you can log in with no restriction. Netware
+4.x works slightly differently, but it also allows anyone to log
+in after the initial installation, since the installer is asked
+to enter a password for the Admin user.
+</BLOCKQUOTE>
+
+<BLOCKQUOTE>
+But how can you make the server think it has just been installed
+without actually reinstalling the server and losing all data on
+the disk? Simple. You just delete the files that contain the security
+system. In Netware 2.x, all security information is stored in
+two files (NET$BIND.SYS and NET$BVAL.SYS). Netware 3.x stores
+that information in three files (NET$OBJ.SYS, NET$VAL.SYS and
+NET$PROP.SYS). The all new Netware 4.x system stores all login
+names and passwords in five different files (PARTITIO.NDS, BLOCK.NDS,
+ENTRY.NDS, VALUE.NDS and UNINSTAL.NDS [This last file may not
+be there, don't worry - S.N.]).
+</BLOCKQUOTE>
+
+<BLOCKQUOTE>
+One last question remains. How can we delete these files if we
+don't have access to the network, anyway? The answer is, again,
+simple. Altough the people from Novell did a very good job encrypting
+passwords, they let all directory information easy to find and
+change if you can access the server's disk directly, using common
+utilities like Norton's Disk Edit. Using this utility as an example,
+I'll give a step-by-step procedure to make these files vanish.
+All you need is a bootable DOS disk, Norton Utilities' Emergency
+Disk containing the DiskEdit program and some time near the server.
+</BLOCKQUOTE>
+
+<BLOCKQUOTE>
+Boot the server and go to the DOS prompt. To do this, just let
+the network boot normally and then use the DOWN and EXIT commands.
+This procedure does not work on old Netware 2.x servers and in
+some installations where DOS has been removed from memory. In
+those cases, you'll have to use a DOS bootable disk.
+</BLOCKQUOTE>
+
+<BLOCKQUOTE>
+Run Norton's DiskEdit utility from drive A:
+</BLOCKQUOTE>
+
+<BLOCKQUOTE>
+Select &quot;Tools&quot; in the main menu and then select &quot;Configuration&quot;.
+At the configuration window, uncheck the &quot;Read-Only&quot;
+checkbox. And be very careful with everything you type after this
+point.
+</BLOCKQUOTE>
+
+<BLOCKQUOTE>
+Select &quot;Object&quot; and then &quot;Drive&quot;. At the window,
+select the C: drive and make sure you check the button &quot;physical
+drive&quot;. After that, you'll be looking at your physical disk
+and you be able to see (and change) everything on it.
+</BLOCKQUOTE>
+
+<BLOCKQUOTE>
+Select &quot;Tools&quot; and then &quot;Find&quot;. Here, you'll
+enter the name of the file you are trying to find. Use &quot;NET$BIND&quot;
+for Netware 2, &quot;NET$PROP.SYS&quot; for Netware 3 and &quot;PARTITIO.NDS&quot;
+for Netware 4. It is possible that you find these strings in a
+place that is not the Netware directory. If the file names are
+not all near each other and proportionaly separated by some unreadable
+codes (at least 32 bytes between them), then you it's not the
+place we are looking for. In that case, you'll have to keep searching
+by selecting &quot;Tools&quot; and then &quot;Find again&quot;.
+[In Netware 3.x, you can change all occurences of the bindery
+files and it should still work okay, I've done it before. - S.N.]
+</BLOCKQUOTE>
+
+<BLOCKQUOTE>
+You found the directory and you are ready to change it. Instead
+of deleting the files, you'll be renaming them. This will avoid
+problems with the directory structure (like lost FAT chains).
+Just type &quot;OLD&quot; over the existing &quot;SYS&quot; or
+&quot;NDS&quot; extension. Be extremely careful and don't change
+anything else.
+</BLOCKQUOTE>
+
+<BLOCKQUOTE>
+Select &quot;Tools&quot; and then &quot;Find again&quot;. Since
+Netware store the directory information in two different places,
+you have to find the other copy and change it the same way. This
+will again prevent directory structure problems.
+</BLOCKQUOTE>
+
+<BLOCKQUOTE>
+Exit Norton Disk Edit and boot the server again. If you're running
+Netware 2 or 3, your server would be already accessible. Just
+go to any station and log in as user Supervisor. No password will
+be asked. If you're running Netware 4, there is one last step.
+</BLOCKQUOTE>
+
+<BLOCKQUOTE>
+Load Netware 4 install utility (just type LOAD INSTALL at the
+console prompt) and select the options to install the Directory
+Services. You be prompted for the Admin password while doing this.
+After that, you may go to any station and log in as user Admin,
+using the password that you have selected.
+</BLOCKQUOTE>
+
+<BLOCKQUOTE>
+What I did with Norton's Disk Edit could be done with any disk
+editing utility with a &quot;Search&quot; feature. This trick
+has helped me save many network supervisors in the last years.
+I would just like to remind you that no one should break into
+a netware server unless authorized to do it by the company that
+owns the server. But you problably know that already.
+</BLOCKQUOTE>
+
+<P>
+[end of quote]
+<P>
+I actually had this typed up but kept changing it, so I stole
+this quote from the newsgroup to save me retyping ;-)
+<P>
+Now the quicky for 3.x users. Use LASTHOPE.NLM, which renames
+the bindery and downs the server. Reboot and you have Supe and
+Guest, no password.
+<H3><A NAME="section_01_6"></A>01-6. What is the cheesy way to
+get Supervisor access?</H3>
+
+<P>
+The cheesy way is the way that will get you in, but it will be
+obvious to the server's admin that the server has been compromised.
+This technique works for 3.11.
+<P>
+Using NW-HACK.EXE, if the Supervisor is logged in NW-HACK does
+the following things:
+<OL>
+<LI>the Supervisor password is changed to SUPER_HACKER;
+<LI>every account on the server is made a supe equivalent, and;
+<LI>the sys admin is going to know very quickly something is wrong.
+</OL>
+
+<P>
+What the admin will do is remove the supe rights from all accounts
+that are not supposed to have it and change the Supervisor password
+back. The only thing you can do is leave a backdoor for yourself
+(see next question).
+<H3><A NAME="section_01_7"></A>01-7. How do I leave a backdoor?
+</H3>
+
+<P>
+Once you are in, you want to leave a way back with supe equivalency.
+You can use SUPER.EXE, written for the express purpose of allowing
+the non-supe user to toggle on and off supe equivalency. If you
+use the cheesy way in (previous question), you turn on the toggle
+before the admin removes your supe equivalency. If you gain access
+to a supe equivalent account, give Guest supe equivalency and
+then login as Guest and toggle it on. Now get back in as the original
+supe account and remove the supe equivalency. Now Guest can toggle
+on supe equivalency whenever it's convenient.
+<P>
+Of course Guest doesn't have to be used, it could be another account,
+like an account used for e-mail administration or an e-mail router,
+a gateway's account, you get the idea.
+<P>
+Now SUPER.EXE is not completely clean. Running the Security utility
+or Bindfix will give away that an account has been altered at
+the bindery level, but the only way for an admin to clear the
+error is to delete and rebuild the account.
+<P>
+Another backdoor is outlined in section 01-2 regarding the replacement
+LOGIN.EXE and PROP.EXE
+<H3><A NAME="section_01_8"></A>01-8. Can sniffing packets help
+me break in?</H3>
+
+<P>
+Yes. If a user is logging in and the password is being transmitted
+to the server unencrypted, it will show up as plain text in the
+trace. If the site uses telnet and ftp, capturing those password
+will come in handy. Outside of gaining access to another system,
+many users will make their passwords the same across all systems.
+<P>
+For a list of DOS-based sniffers, see the alt.2600/#hack FAQ.
+I personally prefer the Network General Sniffer ;-)
+<P>
+You can use a brute force cracker on captured encrypted passwords.
+As I have more tools and details, I will provide them here.
+<H3><A NAME="section_01_9"></A>01-9. What is Packet Signature
+and how do I get around it?</H3>
+
+<P>
+Packet signatures works by using an intermediate step during the
+encrypted password login call, to calculate a 64-bit signature.
+This block is never transmitted over the wire, but it is used
+as the basis for a cryptographically strong signature (&quot;secure
+hash&quot;) on the most important part of each NCP packet exchange.
+A signed packet can indeed be taken as proof sufficient that the
+packet came from the claimed PC.
+<P>
+NCP Packet Signature is Novell's answer to the work of the folks
+in the Netherlands in hacking Netware. The idea behind it is to
+prevent forged packets and unauthorized Supervisor access. It
+is an add-on option in 3.11, but a part of the system with 3.12
+and 4.x. Here are the signature levels at the client and server:
+<P>
+Packet Signature Option and meaning:
+<P>
+0 = Don't do packet signatures
+<P>
+1 = Do packet signatures if required
+<P>
+2 = Do packet signatures if you can but don't if the other end
+doesn't support them
+<P>
+3 = Require packet signatures
+<P>
+You can set the same settings at the workstation server. The default
+for packet signatures is 2 at the server and client. If you wish
+to use a tool like HACK.EXE, try setting the signature level at
+0 on the client by adding Signature Level=0 in the client's NET.CFG.
+If packet signatures are required at the server you won't even
+get logged in, but if you get logged in, hack away.
+<P>
+If you wish to change the signature level at the server, use a
+set command at the server console:
+<P>
+<KBD>SET NCP PACKET SIGNATURE OPTION=2</KBD> 
+<H3><A NAME="section_01_10"></A>01-10. How do I use SETPWD.NLM?
+</H3>
+
+<P>
+You can load SETPWD at the console or via RCONSOLE. If you use
+RCONSOLE, use the Transfer Files To Server option and put the
+file in SYS:SYSTEM.
+<P>
+For 3.x:
+<P>
+<KBD>LOAD [path if not in SYS:SYSTEM]SETPWD [username] [newpassword</KBD><TT>]</TT>
+
+<P>
+For 4.x:
+<P>
+<KBD>set bindery context = [context, e.g. hack.corp.us]</KBD>
+
+<P>
+<KBD>LOAD [path if not in SYS:SYSTEM]SETPWD [username] [newpassword]
+</KBD>
+<P>
+In 4.x the change is replicated so you have access to all the
+other servers in the tree. And don't forget, you must follow the
+password requirements in SYSCON for this to work. That is, if
+the account you are changing normally requires a 6 character password,
+then you'll need to supply a 6 character password.
+<H3><A NAME="section_01_11"></A>01-11. What's the &quot;debug&quot;
+way to disable passwords?</H3>
+
+<P>
+You must be at the console to do this:
+<P>
+<KBD>&lt;left-shift&gt;&lt;right-shift&gt;&lt;alt&gt;&lt;esc&gt;</KBD>
+<I>(Enters debugger)</I> 
+<P>
+type <KBD>c VerifyPassword=B8 0 0 0 0 C3</KBD> 
+<P>
+type <KBD>g </KBD>
+<P>
+This disables the password checking. Now Supe won't ask for a
+password. To restore password checking from debugger, do this:
+<P>
+first type <KBD>d VerifyPassword 5</KBD> and write down the 5
+byte response,
+<P>
+then type <KBD>c VerifyPassword=xx xx xx xx xx</KBD>
+<P>
+then type <KBD>g</KBD><HR>
+
+</BODY>
+
+</HTML>

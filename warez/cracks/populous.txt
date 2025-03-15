@@ -1,0 +1,18 @@
+
+Crack> Populous
+
+crack by Mike Basford of Canada
+
+	I hate looking up codes, pictures, etc in in-
+struction books!  If you have Populous and feel
+the same way, here's how to fix the game.
+	*Note:* Don't do this to your original, use a
+copy
+	Using Norton Utilities, search POPULOUS.EXE
+for 3B 46 0C 75 09 8B 46 0C A3 82 2A	 and
+replace the 75 09 with EB 03 then write the data
+and you're done.  Now at the verification screen,
+just type enter.  (You still have to put in your name
+though.)
+
+>

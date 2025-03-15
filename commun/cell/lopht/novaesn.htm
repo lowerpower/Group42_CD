@@ -1,0 +1,90 @@
+<html>
+<title>Novatel / JRC PTR 9300 / NVT 1320 Cellular Telephone</title>
+<h2>Novatel PTR 9300 / NVT 1320</h2>
+<h3>publisher not responsible for misuse. You are not allowed by an unconstitutional law to read this in the state of Pennsylvania</h3>
+<hr>
+This just came  in from England, I haven't had time to review it. (10/17/95)<p>
+<pre>
+
+Eproms and stuff
+================
+
+First of all you'll have to burn a rom to install into the phone.
+Your best bet is to get someone in your local tec's electronics
+department to do this for you, though you can build a burner for about
+20 ukp.  The EPROM in these phones is a 27C256.  Be sure and burn the
+correct rom for your software version... two are included (because
+these are the only two phones I have ever got my hands on), one for
+the Novatel 1320 (<a href="ca08_esn.rom">CA08</a>) and the other for Novatel 9300 (<a href="aa04_esn.rom">AA04</a>).  The rom
+is usually a ceramic chip with 28 pins, and a label on top declaring
+the software revision.
+
+
+Installation
+============
+Loosen the 4 screws that hold the phone together and open up from the
+connector end like a clamshell.  The rom is the chip in the socket :-
+
+     nvt1320            ptr9300
+     ________          ________
+    |      x |        |        |
+    |        |        |        |
+    |        |        |        |
+    |        |        |       x|
+    -P-------         -P-------
+
+
+    P = Power connector / Lead in
+    x = ROM
+
+Take out the old rom and put your new one in the same way.  Check all
+of the pins are in and not bent/broken/shorting etc...
+
+
+Usage
+=====
+Power up your phone... no different (hopefully)...
+
+Now lock your phone (FCN 1)....
+
+Now key #259....
+                                         CNF 1320  or  CNF 9300
+you should see something like....        REV CA08      REV AA04
+
+now press the volume up button...              ESN
+                                               2AE10120
+
+The keys on the keyboard have now been re-defined into a hex keypad.
+
+SND = store ESN into NAM
+CE  = reload ESN from NAM (i.e. you mis-keyed the new ESN and want to
+                           start again)
+0-9 = As you would expect
+
+H/F   = A         FCN = B         RCL  = C
+CALLS = D         MNU = E         ALPH = F
+
+ESN's are in Hex form.  If yours is in decimal (xx/xx/xx/xxxxx) form
+you'll need to convert it.
+
+Basically type in the new ESN in hex and press send. That's it.
+
+Simple eh?
+
+You will also need to program in the new MIN and AID, this is done by
+simply using the vol up/down keys to select the appropriate menu and
+then typing in the relevant stuff and pressing SND to store.
+
+When you've finished press END to reboot the phone and use the MNU key
++ 2 pushes of volume down to verify your new ESN.
+
+Oh btw.. if you lock the phone and press #83* you get into the SerViCe
+menu... With this you have a nice in car call scanner, but I'll leave
+that as an exersice for the reader (its quite simple to work out!)
+
+CmoS
+
+
+
+</pre>
+</html>

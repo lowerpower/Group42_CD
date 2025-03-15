@@ -1,0 +1,4 @@
+Rome AD 92
+Crack by Hawk
+search for e8 8f 01 e8 30 08
+replace    -- -- -- 90 90 90

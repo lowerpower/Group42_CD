@@ -1,0 +1,634 @@
+[netinfo/usa-tac-phones.txt                                       9/95]
+
+
+                 TAC DIALUPS SORTED BY LOCATION 
+
+
+UNITED STATES
+
+   Alabama
+
+      Anniston
+         (ANNISTON.MT.DDN.MIL)
+             (205) 237-5731 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+      Huntsville
+         (REDSTONE.MT.DDN.MIL)
+             (205) 876-8051 (R5) [300/1200/2400/4800/9600 bps] {B,V.32}
+             (205) 876-9791 (R5) [300/1200/2400/4800/9600 bps] {B,V.32}
+
+      Montgomery
+         (GUNTER.MT.DDN.MIL)
+            (205) 416-4115 [300/1200/2400/4800/9600 bps] {B}
+            (205) 416-4303 [300/1200/2400/4800/9600 bps] {B}
+            (205) 416-4116 [300/1200/2400/4800/9600 bps] {B}
+            (205) 416-4117 [300/1200/2400/4800/9600 bps] {B}
+            (205) 416-4118 [300/1200/2400/4800/9600 bps] {B}
+            (205) 416-4304 [300/1200/2400/4800/9600 bps] {B}
+            (205) 416-4305 [300/1200/2400/4800/9600 bps] {B}
+            (205) 416-4306 [300/1200/2400/4800/9600 bps] {B}
+
+   Alaska
+
+      Anchorage
+         (ELMENDORF.MT.DDN.MIL)
+            (907) 552-2821 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+      Fairbanks
+         (EIELSON.MT.DDN.MIL)
+            (907) 377-2500 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+   Arizona
+
+      Davis Monthan
+         (DAVIS-MONTHAN.MT.DDN.MIL)
+             (602) 750-3778 [300/1200 bps] {B}
+             (602) 750-3973 [300/1200 bps] {B}
+             (602) 750-4338 [300/1200 bps] {B}
+             (602) 750-4342 [300/1200 bps] {B}
+             (602) 750-4378 [300/1200 bps] {B}
+             (602) 750-4398 [300/1200 bps] {B}
+             (602) 750-4403 [300/1200 bps] {B}
+             (602) 750-4411 [300/1200 bps] {B}
+             (602) 750-4419 [300/1200 bps] {B}
+             (602) 750-4446 [300/1200 bps] {B}
+             (602) 750-4471 [300/1200 bps] {B}
+             (602) 750-4495 [300/1200 bps] {B}
+             (602) 750-4502 [300/1200 bps] {B}
+             (602) 750-4509 [300/1200 bps] {B}
+             (602) 750-4510 [300/1200 bps] {B}
+             (602) 750-4515 [300/1200 bps] {B}
+
+      Fort Huachuca
+         (HUACHUCA.MT.DDN.MIL)
+            (602) 538-0770 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+      Glendale
+         (LUKE.MT.DDN.MIL)
+             (602) 856-6923 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+   California
+
+      Alameda
+         (ALAMEDA.MT.DDN.MIL)
+             (510) 769-6144      [300/1200/2400/4800/9600 bps] {B}
+             (510) 769-6145      [300/1200/2400/4800/9600 bps] {B}
+             (510) 769-6195      [300/1200/2400/4800/9600 bps] {B}
+             (510) 769-6196      [300/1200/2400/4800/9600 bps] {B}
+             (510) 769-6197      [300/1200/2400/4800/9600 bps] {B}
+             (510) 769-6202      [300/1200/2400/4800/9600 bps] {B}
+             (510) 769-6203      [300/1200/2400/4800/9600 bps] {B}
+             (510) 769-6204      [300/1200/2400/4800/9600 bps] {B}
+             (510) 769-6216      [300/1200/2400/4800/9600 bps] {B}
+             (510) 769-6217      [300/1200/2400/4800/9600 bps] {B}
+             (510) 769-6254      [300/1200/2400/4800/9600 bps] {B}
+             (510) 769-6255      [300/1200/2400/4800/9600 bps] {B}
+             (510) 769-6277      [300/1200/2400/4800/9600 bps] {B}
+             (510) 769-6278      [300/1200/2400/4800/9600 bps] {B}
+             (510) 769-6302      [300/1200/2400/4800/9600 bps] {B}
+             (510) 769-6303      [300/1200/2400/4800/9600 bps] {B}
+            
+            There are also 24 toll free dial-ups on this tac.
+
+      China Lake
+         (CHINALAKE.MT.DDN.MIL)
+            [None known]
+
+      Edwards
+         (EDWARDS.MT.DDN.MIL)
+             (805) 277-7949 [300/1200/2400/4800/9600 bps] {B}
+             (805) 277-7966 [300/1200/2400/4800/9600 bps] {B}
+             (805) 277-7968 [300/1200/2400/4800/9600 bps] {B}
+             (805) 277-7970 [300/1200/2400/4800/9600 bps] {B}
+             (805) 277-7971 [300/1200/2400/4800/9600 bps] {B}
+             (805) 277-7972 [300/1200/2400/4800/9600 bps] {B}
+             (805) 277-7973 [300/1200/2400/4800/9600 bps] {B}
+             (805) 277-7974 [300/1200/2400/4800/9600 bps] {B}
+
+      El Segundo
+         (EL-SEGUNDO.MT.DDN.MIL)
+            (310) 536-0308 (R8) [300/1200/2400/4800/9600 bps] {B}
+            (310) 536-0309 (R8) [300/1200/2400/4800/9600 bps] {B}
+            (310) 536-9865 (R8) [300/1200/2400/4800/9600 bps] {B}
+            (310) 536-9869 (R8) [300/1200/2400/4800/9600 bps] {B}
+            (310) 536-9874 (R8) [300/1200/2400/4800/9600 bps] {B}
+            (310) 536-9875 (R8) [300/1200/2400/4800/9600 bps] {B}
+            (310) 536-9876 (R8) [300/1200/2400/4800/9600 bps] {B}
+            (310) 536-9891 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+      Monterey
+         (MONTEREY2.MT.DDN.MIL)
+            (408) 647-8422  [300/1200/2400/4800/9600 bps] {B}
+
+      Mountain View
+         (MOFFETT.MT.DDN.MIL)
+             (415) 962-8851 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+      Oakland
+         (OAKLAND.MT.DDN.MIL)
+             (510) 452-1346 [300/1200/2400/4800/9600 bps] {B}
+             (510) 452-1347 [300/1200/2400/4800/9600 bps] {B}
+             (510) 452-1348 [300/1200/2400/4800/9600 bps] {B}
+             (510) 452-1434 [300/1200/2400/4800/9600 bps] {B}
+             (510) 452-1435 [300/1200/2400/4800/9600 bps] {B}
+             (510) 452-1436 [300/1200/2400/4800/9600 bps] {B}
+             (510) 452-1541 [300/1200/2400/4800/9600 bps] {B}
+             (510) 452-1542 [300/1200/2400/4800/9600 bps] {B}
+
+      Riverside
+         (MARCH.MT.DDN.MIL)
+             (714) 655-5560 (R8) [300/1200/2400/4800/9600 bps] {B}
+             (714) 655-5672 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+      Sacramento
+         (MCCLELLAN.MT.DDN.MIL)
+            (916) 643-1701 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+      San Diego
+         (NORTH-ISLAND.MT.DDN.MIL)
+            [None known]
+
+         (SANDIEGO.MT.DDN.MIL)
+            (619) 222-5809  [300/1200/2400/4800/9600 bps] {B}
+
+      Sunnyvale
+         (ONIZUKA.MT.DDN.MIL)
+            [None known]
+
+   Colorado
+
+      Aurora
+         (DENVER.MT.DDN.MIL)
+             (303) 361-3105 (R16) [300/1200/2400/4800/9600 bps] {B}
+
+      Colorado Springs
+         (PETERSON.MT.DDN.MIL)
+             (719) 556-6792 (R8) [300/1200/2400/4800/9600 bps] {B}
+             (719) 556-6793 (R8) [300/1200/2400/4800/9600 bps] {B}
+             (719) 556-6796 (R8) [300/1200/2400/4800/9600 bps] {B}
+             (719) 556-6797 (R8) [300/1200/2400/4800/9600 bps] {B}
+             (719) 556-6798 (R8) [300/1200/2400/4800/9600 bps] {B}
+             (719) 556-7110 (R8) [300/1200/2400/4800/9600 bps] {B}
+             (719) 556-7143 (R8) [300/1200/2400/4800/9600 bps] {B}
+             (719) 556-7163 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+      Denver
+         (LOWRY.MT.DDN.MIL)
+             (303) 676-7782 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+   District of Columbia
+
+      Washington
+         (PENTAGON.MT.DDN.MIL)
+             (703) 553-0229 (R8)  [300/1200/2400/4800/9600 bps]  {B}
+             (703) 553-0238 (R8)  [300/1200/2400/4800/9600 bps]  {B}
+
+   Florida
+
+      Fort Walton Beach
+         (EGLIN.MT.DDN.MIL)
+            (904) 883-1222 [300/1200/2400/4800/9600 bps] {B}
+            (904) 883-1223 [300/1200/2400/4800/9600 bps] {B}
+            (904) 883-1224 [300/1200/2400/4800/9600 bps] {B}
+            (904) 883-1225 [300/1200/2400/4800/9600 bps] {B}
+            (904) 883-1226 [300/1200/2400/4800/9600 bps] {B}
+            (904) 883-1227 [300/1200/2400/4800/9600 bps] {B}
+            (904) 883-1228 [300/1200/2400/4800/9600 bps] {B}
+            (904) 883-1229 [300/1200/2400/4800/9600 bps] {B}
+
+      Jacksonville
+         (JACKSONVILLE.MT.DDN.MIL)
+            All dial-up numbers for this TAC have been deactivated.
+
+      Orlando
+         (ORLANDO.MT.DDN.MIL)
+             (407) 277-0005 (R8) [300/1200/2400/4800/9600 bps] {B,V.32}
+
+      Pensacola
+         (PENSACOLA.MT.DDN.MIL)
+             (904) 457-1199 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+      Tampa
+         (MACDILL.MT.DDN.MIL)
+             (813) 828-4268 [300/1200/2400/4800/9600 bps]
+             (813) 828-4269 [300/1200/2400/4800/9600 bps]
+             (813) 828-4270 [300/1200/2400/4800/9600 bps]
+             (813) 828-4271 [300/1200/2400/4800/9600 bps]
+             (813) 828-4274 [300/1200/2400/4800/9600 bps]
+             (813) 828-4282 [300/1200/2400/4800/9600 bps]
+             (813) 828-4284 [300/1200/2400/4800/9600 bps]
+             (813) 828-4285 [300/1200/2400/4800/9600 bps]
+
+   Georgia
+
+      Atlanta
+         (MCPHERSON.MT.DDN.MIL)
+            (404) 669-7910 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+      Augusta
+         (GORDON.MT.DDN.MIL)
+             (706) 791-5426 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+      Columbus
+         (BENNING.MT.DDN.MIL)
+             (706) 545-5181 (R5) [300/1200/2400/4800/9600 bps] {B}
+             (706) 545-2111 (R6) [300/1200/2400/4800/9600 bps] {B}
+             (706) 545-2164 (R5) [300/1200/2400/4800/9600 bps] {B}
+
+      Hinesville
+         (STEWART.MT.DDN.MIL)
+             (912) 767-5800 (R8) [300/1200/2400/4800/9600 bps] {B}
+             (912) 767-5801 (R8) [300/1200/2400/4800/9600 bps] {B}
+             (912) 767-5802 (R8) [300/1200/2400/4800/9600 bps] {B}
+             (912) 767-5803 (R8) [300/1200/2400/4800/9600 bps] {B}
+             (912) 767-5804 (R8) [300/1200/2400/4800/9600 bps] {B}
+             (912) 767-5805 (R8) [300/1200/2400/4800/9600 bps] {B}
+             (912) 767-5806 (R8) [300/1200/2400/4800/9600 bps] {B}
+             (912) 767-5807 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+      Robins Air Force Base
+         (ROBINS2.MT.DDN.MIL)
+             (912) 926-2719 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+   Hawaii
+
+      Honolulu
+         (SHAFTER.MT.DDN.MIL)
+            (DSN) 315-438-7300 (R16) (M) [300/1200/2400/4800/9600 bps] {B}
+
+      Wahiawa
+         (WAHIAWA.MT.DDN.MIL)
+            (808) 653-1600 (R16) (C) [300/1200/2400/4800/9600 BPS] {B}
+
+      Wheeler Air Force Base
+         (WHEELER.MT.DDN.MIL)
+            [None known]
+
+   Illinois
+
+      North Chicago
+         (GREAT-LAKES.MT.DDN.MIL)
+             (708) 578-9000 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+      Rock Island
+         (ROCK-ISLAND.MT.DDN.MIL)
+             (309) 782-6939 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+      Scott AFB
+         (SCOTT.MT.DDN.MIL)
+            (618)256-7800 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+   Indiana
+
+      Indianapolis
+         (BENHARRISON.MT.DDN.MIL)
+             (317) 542-2554 (R8) [300/1200/2400/4800/9600 bps]  {B}
+             (317) 542-2555 (R8) [300/1200/2400/4800/9600 bps]  {B}
+
+         (BENHARRISON2.MT.DDN.MIL)
+            (317) 543-6624 [300/1200/2400/4800/9600 bps] {B}
+
+   Kansas
+
+      Junction City
+         (RILEY.MT.DDN.MIL)
+             (913) 239-3432 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+      Leavenworth
+         (LEAVENWORTH.MT.DDN.MIL)
+            (913) 684-7652 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+   Kentucky
+
+      Christian
+         (CAMPBELL.MT.DDN.MIL)
+             (502) 798-2866 (R8) [300/1200/2400/4800/9600 BPS] {B}
+
+   Louisiana
+
+      Barksdale AFB
+         (BARKSDALE.MT.DDN.MIL)
+             (318) 741-3806 (R8) [300/1200/2400/4800/9600 bps] {B}
+             (318) 456-2301 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+      New Orleans
+         (NEW-ORLEANS2.MT.DDN.MIL)
+            (504) 944-8702 (R8) [300/1200/2400/4800/9600] {B}
+
+   Maryland
+
+      Aberdeen Proving Ground
+         (ABERDEEN.MT.DDN.MIL)
+            (410) 273-6000 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+      Bethesda
+         (CARDEROCK.MT.DDN.MIL)
+             (301) 229-3100 (R8)  [300/1200/2400/4800/9600 bps] {B/V}
+             (301) 229-4800 (R8)  [300/1200/2400/4800/9600 bps] {B/V}
+
+      Camp Springs
+         (ANDREWS.MT.DDN.MIL)
+            (301) 981-0731 (R16) [300/1200/2400/4800/9600 bps] {B}
+            (301) 967-7930 (R8)  [300/1200/2400/4800/9600 bps] {B}
+            (301) 967-7938 (R8)  [300/1200/2400/4800/9600 bps] {B}
+
+      Cascade
+         (RITCHIE.MT.DDN.MIL)
+            (301) 241-4901 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+         (RITCHIE2.MT.DDN.MIL)
+            (301) 878-2024 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+      Frederick
+         (DETRICK.MT.DDN.MIL)
+             (301) 695-0300 (R8) [300/1200/2400/4800/9600 bps] {B}
+             There are also 24 toll free dial-ups terminated on this TAC.
+
+      Linthicum
+         (LINTHICUM.MT.DDN.MIL)
+            (410) 850-5355 [300/1200/2400/4800/9600 bps] {B}
+            (410) 850-5357 [300/1200/2400/4800/9600 bps] {B}
+            (410) 850-5359 [300/1200/2400/4800/9600 bps] {B}
+            (410) 850-5363 [300/1200/2400/4800/9600 bps] {B}
+            (410) 850-5369 [300/1200/2400/4800/9600 bps] {B}
+            (410) 850-5370 [300/1200/2400/4800/9600 bps] {B}
+            (410) 850-5371 [300/1200/2400/4800/9600 bps] {B}
+            (410) 850-9107 [300/1200/2400/4800/9600 bps] {B}
+
+      Silver Spring
+         (WHITE-OAK.MT.DDN.MIL)
+             (301) 572-5960 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+      St. Inigoes
+         (ST-INIGOES.MT.DDN.MIL)
+            All dial-up numbers for this TAC have been deactivated.
+
+   Massachusetts
+
+      Hanscom Air Force Base
+         (HANSCOM2.MT.DDN.MIL)
+            All dial-up numbers for this TAC have been deactivated.
+
+   Michigan
+
+      Battle Creek
+         (BATTLECREEK.MT.DDN.MIL)
+             (616) 961-4550 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+   Missouri
+
+      St. Louis
+         (SAINT-LOUIS.MT.DDN.MIL)
+            [None known]
+
+         (SAINT-LOUIS2.MT.DDN.MIL)
+            (314) 381-8460 (R8) [300/1200/2400/4800/9600] {B}
+
+   Nebraska
+
+      Omaha
+         (OFFUTT.MT.DDN.MIL)
+             TAC Access telephone lines for this location have been
+            deactivated.
+
+   New Jersey
+
+      Dover
+         (DOVERNJ.MT.DDN.MIL)
+             (201) 724-6731 (R8) [300/1200/2400/4800/9600 bps] {B/V}
+
+      Fort Monmouth
+         (MONMOUTH.MT.DDN.MIL)
+            There are 24 toll-free dial-up circuits terminated on this TAC.
+
+      Wrightstown
+         (DIX.MT.DDN.MIL)
+            (609) 562-3021 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+   New York
+
+      Rome
+         (GRIFFISS.MT.DDN.MIL)
+            (315) 330-3245
+            (315) 330-3044
+            (315) 330-3240
+            The following numbers are for on-base use:
+            2182
+            4350
+            4458
+            4459
+            7577
+
+      West Point
+         (WEST-POINT.MT.DDN.MIL)
+             (914) 446-6715 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+   North Carolina
+
+      Fayetteville
+         (BRAGG.MT.DDN.MIL)
+            (919) 396-1181 (R8) [300/1200/2400/4800/9600 bps] {B}
+            (919) 396-1251 (R8) [300/1200/2400/4800/9600 bps] {B}
+            (919) 396-1445 (R8) [300/1200/2400/4800/9600 bps] {B}
+            There are also 24 toll free dial-ups on this TAC.
+
+      Goldsboro
+         (SEYMOUR-JHNSN.MT.DDN.MIL)
+             (919) 736-6850 (R8) [300/1200 bps] {B}
+
+   Ohio
+
+      Bratenahl
+         (BRATENAHL-OH.MT.DDN.MIL)
+             (216) 761-6077 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+      Dayton
+         (WRIGHTPAT.MT.DDN.MIL)
+            All dial-up numbers for this TAC have been deactivated.
+
+         (WRIGHTPAT2.MT.DDN.MIL)
+             (513) 257-2172 (R8) [300/1200/2400/4800/9600 bps] {B}
+             (513) 257-2690 (R8) [300/1200/2400/4800/9600 bps] {B}
+             (513) 257-3625 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+         (WRIGHTPAT4.MT.DDN.MIL)
+            There are 24 toll free 9600 baud dial-ups terminated here.
+
+      Newark
+         (NEWARK.MT.DDN.MIL)
+             (614) 522-8816 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+   Oklahoma
+
+      Lawton
+         (SILL.MT.DDN.MIL)
+             (405) 248-7200 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+      Oklahoma City
+         (TINKER.MT.DDN.MIL)
+            (405) 733-1234 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+   Pennsylvania
+
+      Mechanicsburg
+         (MECHANICSBURG.MT.DDN.MIL)
+             (717) 691-1330 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+      New Cumberland
+         (NEWCMBRLND2.MT.DDN.MIL)
+            [None known]
+
+         (NEWCUMBERLND.MT.DDN.MIL)
+             (717) 770-7853 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+      Philadelphia
+         (PHILADELPHIA.MT.DDN.MIL)
+             (215) 725-4073 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+      Warminster
+         (JOHNSVILLE.MT.DDN.MIL)
+             (215) 441-3868 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+   Rhode Island
+
+      Newport
+         (NEWPORT.MT.DDN.MIL)
+            (401) 841-5380 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+   South Carolina
+
+      Charleston
+         (CHARLESTON.MT.DDN.MIL)
+            (803) 566-2964 (R8) [300/1200/2400/4800/9600 bps] {B}
+            (803) 566-2963 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+      Columbia
+         (JACKSON.MT.DDN.MIL)
+             (803) 751-3621 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+   Texas
+
+      Corpus Christi
+         (CORPUS.MT.DDN.MIL)
+            All dial-up numbers for this TAC have been deactivated.
+
+      Fort Bliss
+         (BLISS.MT.DDN.MIL)
+             (915) 568-3229 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+      Killeen
+         (HOOD.MT.DDN.MIL)
+            (817) 288-7025 (R16) [300/1200/2400/4800/9600] {B}
+            (817) 287-2886 (R8) [300/1200/2400/4800/9600] {B}
+
+      San Antonio
+         (KELLY.MT.DDN.MIL)
+            All dial-up numbers for this TAC have been discontinued.
+
+         (RANDOLPH2.MT.DDN.MIL)
+             (210) 652-2006 (R4) [300/1200/2400/4800/9600 bps] {B}
+
+         (RANDOLPH3.MT.DDN.MIL)
+             (210) 652-2047 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+         (SAM-HOUSTON.MT.DDN.MIL)
+             (210) 227-2648 (R8) [300/1200/2400/4800/9600 bps] {B}
+             (210) 221-2242 (R8) [300/1200/2400/4800/9600 bps] {B}
+            
+             There are also 24 toll free dial-ups terminated on this TAC.
+
+   Utah
+
+      Dugway
+         (DUGWAY.MT.DDN.MIL)
+             (801) 831-3050 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+      Ogden
+         (HILL.MT.DDN.MIL)
+            (801) 777-5514 (R8) [300/1200/2400/4800/9600 bps] {B}
+            (801) 777-7709 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+   Virginia
+
+      Alexandria
+         (ALEXANDRIA.MT.DDN.MIL)
+            [None known]
+
+         (ALEXANDRIA3.MT.DDN.MIL)
+            [None known]
+
+      Arlington
+         (DCAOC.MT.DDN.MIL)
+            [None known]
+
+         (PENTAGON2.MT.DDN.MIL)
+             (703) 979-4901 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+      Chantilly
+         (CHANTILLY1.MT.DDN.MIL)
+             (703) 814-7984  [300/1200/2400/4800/9600 bps] {B}
+
+         (CHANTILLY2.MT.DDN.MIL)
+            (703) 814-7992 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+      Fort Lee
+         (LEE.MT.DDN.MIL)
+             (804) 734-6750 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+      Hampton
+         (LANGLEY.MT.DDN.MIL)
+             (804) 764-7640 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+      Newport News
+         (EUSTIS.MT.DDN.MIL)
+             (804) 878-1414 (R16) [300/1200/2400/4800/9600 bps] {B}
+
+      Norfolk
+         (NORFOLK.MT.DDN.MIL)
+            (804) 423-0241  (R8) [300/1200/2400/4800/9600 bps] {B}
+
+      Reston
+         (RESTON-DCEC.MT.DDN.MIL)
+            (703) 435-4050 (R8) [300/1200] {b}
+
+         (RESTON.MMT.DDN.MIL)
+            [None known]
+
+   Washington
+
+      Bangor
+         (PUGET-SOUND.MT.DDN.MIL)
+             (206) 779-1682 (R8) [300/1200/2400/4800/9600 bps] {B}
+            
+             Twenty-four toll free dial-ups also terminate on this TAC.
+
+      Tacoma
+         (LEWIS.MT.DDN.MIL)
+            (206) 967-2291 (R8) [300/1200/2400/4800/9600 bps] {B}
+            (206) 967-6975 (R8) [300/1200/2400/4800/9600 bps] {B}
+
+
+
+  Notes:
+
+  1.  Rotary lines are in parenthesis following the phone number.
+      For example, "(R10)" indicates a rotary with 10 lines.
+
+  2.  (M) = Military DoD Telephone System, (C) = Commercial Telephone System.
+
+  3.  Modem compatibility is in curly braces {}.
+
+       B/V  = Bell and Vadic
+       B    = Bell 212A only
+       V.32 = CCITT error correction protocol at 9600 baud
+       M    = MNP error correction protocol at 9600 baud
+
+  4.  2400 Baud capability is CCITT V.22 bis.
+
+  5.  This list is contained in the file /netinfo/usa-tac-phones.txt on the
+      NIC.DDN.MIL host.
+
+  6.  Phone numbers for European and Pacific rim TACS are in
+      /netinfo/foreign-tac-phones.txt.
+
+End of file

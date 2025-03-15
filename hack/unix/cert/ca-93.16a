@@ -1,0 +1,326 @@
+=============================================================================
+CA-93:16a                        CERT Advisory
+                                January 7, 1994
+                             Sendmail Vulnerability
+          **Supplementary advisory containing vendor patch information**
+-----------------------------------------------------------------------------
+The CERT Coordination Center is continuing to work with vendors on 
+eliminating a group of vulnerabilities in sendmail(8).  These vulnerabilities
+include those related to mailing to a program, mailing to a file, and a 
+few others.
+
+This advisory provides information about new patches available from
+some vendors.  At the time that CA-93:16.sendmail.vulnerability was published
+a set of workarounds were provided. These workarounds should still be used
+until vendor patches are available.  Once the vendor patches have been
+installed, sites can either choose to continue to use smrsh or uninstall it.
+
+CERT will maintain an accompanying file, CA-93:16a.README. This file will
+contain information about sendmail patches and will be updated whenever new
+patches or information becomes available.
+
+CERT has provided detailed information about all known vulnerabilities
+in sendmail to all of our vendor contacts.  If your vendor is unaware of
+the problems, or if they have any questions, please have them contact us.
+
+A brief listing of currently available patches as well as information on 
+upcoming patches is provided below.  Vendor-supplied information concerning 
+these patches is included in the CA-93:16a.README file. For some vendors, 
+the CA-93:16a.README file includes a pointer to the full text of the 
+vendor's own advisory concerning sendmail.  The current version of 
+CA-93:16a.README is included in appendix A for your convenience.
+
+Vendor                          Patch Status
+------                          ------------
+
+sendmail 8.6.4                  available
+IDA sendmail                    available
+BSDI                            available
+Data General Corporation        available
+Digital Equipment Corporation   available
+Hewlett-Packard Company         available
+IBM                             available
+NeXT, Inc.                      available soon
+The Santa Cruz Operation        available soon
+Sequent Computer Systems        available
+Solbourne                       available
+Sony Corporation                available
+Sun Microsystems, Inc.          available
+
+-----------------------------------------------------------------------------
+The CERT Coordination Center wishes to thank all the vendors for 
+recognizing the importance of these vulnerabilities and responding
+to them.
+---------------------------------------------------------------------------
+
+If you believe that your system has been compromised, contact the CERT
+Coordination Center or your representative in Forum of Incident
+Response and Security Teams (FIRST).
+
+Internet E-mail: cert@cert.org
+Telephone: 412-268-7090 (24-hour hotline)
+           CERT personnel answer 8:30 a.m.-5:00 p.m. EST(GMT-5)/EDT(GMT-4),
+           and are on call for emergencies during other hours.
+
+CERT Coordination Center
+Software Engineering Institute
+Carnegie Mellon University
+Pittsburgh, PA 15213-3890
+
+Past advisories, information about FIRST representatives, and other
+information related to computer security are available for anonymous 
+FTP from info.cert.org.
+
+
+
+**Notice** The following Appendix contains the version of the 
+CA-93:16a.README file that was current at the time of the release of
+this advisory. If you are retrieving this advisory after January 7, 1994,
+please ensure that you also retrieve the most recent version of the
+CA-93:16a.README file (found in the same directory on info.cert.org).
+
+Appendix A: CA-93:16a.README
+
+CA-93:16a.README
+Rev. January 7, 1994
+
+This file is a supplement to the CERT Advisory CA-93:16a of January 7, 1994,
+and will be updated as additional information becomes available.
+
+The following is vendor-supplied information.  Please notice that
+some entries provide pointers to vendor advisories. For more up-to-date 
+information, contact your vendor. 
+
+-------------
+Eric Allman, 8.6.4
+
+        Version 8.6.4 is available for anonymous FTP from ftp.cs.berkeley.edu
+        in the "ucb/sendmail" directory.
+
+                      Standard Unix Sum
+        sendmail.8.6.4.base.tar.Z:       07718 428
+
+                        System V Sum
+        64609 856 sendmail.8.6.4.base.tar.Z
+
+                        MD5 Checksum
+        MD5 (sendmail.8.6.4.base.tar.Z) = 59727f2f99b0e47a74d804f7ff654621
+
+-------------
+
+Paul Pomes, IDA:
+
+        A new release is available for anonymous FTP from vixen.cso.uiuc.edu
+        as "pub/sendmail-5.67b+IDA-1.5.tar.gz".
+
+                     Standard Unix Sum
+        sendmail-5.67b+IDA-1.5.tar.gz:  17272 1341
+
+                        System V Sum
+        30425 2682 sendmail-5.67b+IDA-1.5.tar.gz
+
+                        MD5 Checksum
+        MD5 (sendmail-5.67b+IDA-1.5.tar.gz) = a9b8e17fd6d3e52739d2195cead94300
+
+-------------
+
+BSDI
+
+        BSDI can supply either an easy-to-install port of the smrsh patch from
+        CERT or a port of sendmail-8.6.4 (contact BSDI Customer Support for
+        information in obtaining either of these solutions).  In future
+        releases, BSDI will ship the newer sendmail that is not affected
+        by these problems.  Releases affected by this advisory: BSD/386 V1.0.
+
+        BSDI Contact Information:
+                BSDI Customer Support
+                Berkeley Software Design, Inc.
+                7759 Delmonico Drive
+                Colorado Springs, CO 80919
+                Toll Free: +1 800 ITS BSD8 (+1 800 486 2738)
+                Phone: +1 719 260 8114
+                Fax: +1 719 598 4238
+                Email: support@bsdi.com
+
+-------------
+
+Data General Corporation
+
+        Patches are available from dg-rtp.rtp.dg.com (128.222.1.2) in
+        the directory "deliver/sendmail":
+
+        Rev              Patch Number            Sys V Checksum
+        ------------    ------------------      --------
+        5.4.2           tcpip_5.4.2.p14         39298 512
+        MD5 (tcpip_5.4.2.p14) = c80428e3b791d4e40ebe703ba5bd249c
+
+        5.4R2.01        tcpip_5.4R2.01.p12      65430 512
+        MD5 (tcpip_5.4R2.01.p12) = 9c84cfdb4d79ee22224eeb713a414996
+
+        5.4R2.10        tcpip_5.4R2.10.p05      42625 512
+        MD5 (tcpip_5.4R2.10.p05) = 2d74586ff22e649354cc6a02f390a4be
+
+        These patches are loadable via the "syadm" utility and installation
+        instructions are included in the patch notes.
+
+        Trusted versions of DG/UX will use the same patches as
+        their base version of DG/UX.  
+
+        Customers with any questions about these patches should contact
+        their local SEs or Sales Representatives.
+
+-------------
+
+Digital Equipment Corporation
+
+        Systems affected: ULTRIX Versions 4.3 (VAX), ULTRIX V4.3 & V4.3A (RISC),
+        DEC OSF/1 V1.2 & V1.3, using sendmail.  The following patches are 
+        available from your normal Digital support channel:
+
+        ULTRIX V4.3 (VAX), V4.3 (RISC) or V4.3a (RISC):  CSCPAT #: CSCPAT_4044
+                                 OSF/1  V1.2 and  V1.3:  CSCPAT #: CSCPAT_4045
+
+        *These fixes will be included in future releases of ULTRIX and DEC OSF/1
+
+        Digital Equipment Corporation strongly urges Customers to upgrade
+        to a minimum of ULTRIX V4.3 or DEC OSF/1 V1.2, then apply the
+        Security kit to prevent this potential vulnerability.
+
+        The full text of Digital's advisory can be found in 
+        /pub/vendors/dec/advisories/sendmail on info.cert.org.
+
+-------------
+
+Hewlett-Packard Company
+
+        For HP/UX, the following patches are available:
+
+                PHNE_3369 (series 300/400, HP-UX 8.x), or
+                PHNE_3370 (series 300/400, HP-UX 9.x), or
+                PHNE_3371 (series 700/800, HP-UX 8.x), or
+                PHNE_3372 (series 700/800, HP-UX 9.x), or
+                modify the sendmail configuration file (releases of HP-UX
+                prior to 8.0)
+
+        These patches may be obtained from HP via FTP (this is NOT
+        anonymous FTP) or the HP SupportLine.  To obtain HP security
+        patches, you must first register with the HP SupportLine.
+        The registration instructions are available via
+        anonymous FTP at info.cert.org in the file
+        "pub/vendors/hp/supportline_and_patch_retrieval".
+
+        The full text of Hewlett-Packard's advisory can be found in
+        /pub/vendors/hp/advisories/sendmail on info.cert.org.
+
+-------------
+
+IBM
+
+        Patches for these problems can be ordered as APAR# ix40304 and
+        APAR# ix41354.  Ix40304 is available now and ix41354 will be
+        sent as soon as it is available.
+
+-------------
+
+NeXT, Inc.
+
+        NeXT expects to have patches available soon.
+
+-------------
+
+The Santa Cruz Operation
+
+        Support level Supplement (SLS) net379A, will soon be available
+        for the following platforms:
+
+        SCO TCP/IP Release 1.2.0 for SCO UNIX or SCO XENIX
+        SCO TCP/IP Release 1.2.1 for SCO UNIX
+        SCO Open Desktop Release 2.0, 3.0
+        SCO Open Desktop Lite Release 3.0
+        SCO Open Server Network System, Release 3.0
+        SCO Open Server Enterprise System, Release 3.0
+
+        This SLS is currently orderable from SCO Support for all customers
+        who have one of the above products registered. It will be available
+        in the near future.  Systems using MMDF as their mail system do
+        not need this SLS.
+
+-------------
+
+Sequent Computer Systems
+
+        Versions 3.0.17 and greater of Dynix are vulnerable
+        as are versions 2.2 and 2.3 of the TCP package for PTX.
+
+        Sequent customers should call the Sequent Hotline at
+        (800) 854-9969 and ask for the Sendmail Maintenance Release Tape.
+        Alternatively, ptx customers can upgrade to PTX/TCP/IP 
+        version 2.2.3 or 2.3.1 as appropriate.
+
+-------------
+
+Solbourne 
+
+        Patch p93122301 is available from Solboune to fix the sendmail
+        problems.  This patch is equivalent to Sun patch 100377-08.
+        Customers may retrieve it via anonymous FTP from 
+        solbourne.solbourne.com in the pub/support/OS4.1B directory:
+
+        Filename         BSD         SVR4
+                         Checksum    Checksum
+        ---------------  ---------   ---------
+        p93122301.tar.Z  63749 211   53951 421
+        MD5 (p93122301.tar.Z) = f7300f3ecfbbbfaa11a6695f42f14615
+
+        It is also available by sending email to solis@solbourne.com
+        and specifying "get patches/4.1b p93122301" in the body of the
+        mail message.
+
+        Earlier versions (4.1A.*) are no longer supported. The 4.1B
+        patch may well work on 4.1A.* systems but this has not been tested.
+        If you have any questions please call the SOURCE at 1-800-447-2861 or
+        send email to support@solbourne.com.
+
+        The full text of Solbourne's advisory can be found in
+        /pub/vendors/solbourne/advisories/sendmail on info.cert.org.
+
+---------------
+
+Sony Corporation
+
+        These vulnerabilities have been fixed in NEWS-OS 6.0.1.
+        A patch is available for NEWS-OS 4.x.  Customers should
+        contact their dealers for any additional information.
+
+---------------
+
+Sun Microsystems, Inc.
+
+        Sun has made patches for sendmail available as described in
+        their SUN MICROSYSTEMS SECURITY BULLETIN: #00125, 12/23/93.
+        These patches can be found in the 
+        /systems/sun/sun-dist directory on ftp.uu.net:
+
+        System       Patch ID    Filename        BSD         SVR4
+                                                 Checksum    Checksum
+        ------       --------   ---------------  ---------   ---------
+        SunOS 4.1.x  100377-08  100377-08.tar.Z  05320 755   58761 1510
+        Solaris 2.1  100840-06  100840-06.tar.Z  59489 195   61100 390
+        Solaris 2.2  101077-06  101077-06.tar.Z  63001 179   28185 358
+        Solaris 2.3  101371-03  101371-03.tar.Z  27539 189   51272 377
+
+        MD5 checksums are:
+        MD5 (100377-08.tar.Z) = 8e8a14c0a46b6c707d283cacd85da4f1
+        MD5 (100840-06.tar.Z) = 7d8d2c7ec983a58b4c6a608bf1ff53ec
+        MD5 (101077-06.tar.Z) = 78e165dec0b8260ca6a5d5d9bdc366b8
+        MD5 (101371-03.tar.Z) = 687d0f3287197dee35941b9163812b56
+
+        A patch for x86 based systems will be forthcoming as patch 101352-02.
+
+        4.1 sites installing these patches may require sites to modify
+        their configuration files slightly.  Full details are given in
+        the Sun advisory.
+
+        The full text of Sun Microsystems's advisory can be found in
+        /pub/vendors/sun/advisories/sendmail on info.cert.org.
+

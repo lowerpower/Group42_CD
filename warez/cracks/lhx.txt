@@ -1,0 +1,27 @@
+              Instructions for LHX Chopper Unprotect
+
+
+  This is provided as a public service with no expressed guarantee that it
+  will work with all versions of LHX Chopper.   Nor is it provided to 
+  encourage or endorse illegal software piracy.   Use at your own risk.
+
+
+  Step 1 - Make a backup copy of LHX start-up .EXE file.
+
+  Step 2 - Edit start-up .EXE file using PCTOOLS or other HEX Editor
+
+  Step 3 - Locate the following HEX string;
+
+           0B C0 75 0F 89 76
+
+  Step 4 - Change HEX string located in Step 3 to;
+
+           0B C0 31 C0 89 76
+
+  Step 5 - Save changes.
+
+
+  LHX Chopper should now being unprotected.  When prompted by the game for
+  an answer to start-up question, just enter any number you wish.
+
+  Thats it.

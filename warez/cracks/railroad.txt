@@ -1,0 +1,13 @@
+      Here is the crack for Railway Tycoon Deluxe.
+
+
+Railway Tycoon Deluxe:
+
+	Search for 
+: 00 55 8B EC 83 EC 0C 57 56 B8 01
+
+        Change to  : 00 CB 00 ...................
+
+    The file in RTD to do the search for is RRT.EXE. 
+
+Cracked by the Gruesome Twosome!

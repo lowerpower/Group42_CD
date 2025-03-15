@@ -1,0 +1,959 @@
+<html>
+<head>
+<title>Cracking Macrovision VCR Tape Copy Protection</title>
+</head>
+<body>
+
+<h1>MACROVISION FAQ v1.0c</h1>
+
+Contents:<p>
+
+
+<ul>
+<li><a href="#MACROVISION_001"> 1) About the Author </a>
+<li><a href="#MACROVISION_002"> 2) Introduction </a>
+<li><a href="#MACROVISION_003"> 3) What is this? </a>
+<li><a href="#MACROVISION_004"> 4) A non-technical explanation </a>
+<li><a href="#MACROVISION_005"> 5) A technical explanation </a>
+<li><a href="#MACROVISION_006"> 6) Macrovision </a>
+<li><a href="#MACROVISION_007"> 7) Picture 1 - PAL vertical blanking region with Macrovision </a>
+<li><a href="#MACROVISION_008"> 8) Picture 2 - NTSC vertical blanking region with Macrovision </a>
+<li><a href="#MACROVISION_009"> 9) Picture 3 - PAL/NTSC normal line </a>
+<li><a href="#MACROVISION_010"> 10) Picture 4 - PAL Macrovision line </a>
+<li><a href="#MACROVISION_011"> 11) Picture 5 - NTSC Macrovision line </a>
+<li><a href="#MACROVISION_012"> 12) Picture 6 - Pulsating cycles, PAL </a>
+<li><a href="#MACROVISION_013"> 13) Picture 7 - Pulsating cycles, NTSC </a>
+<li><a href="#MACROVISION_014"> 14) How to eliminate </a>
+<li><a href="#MACROVISION_015"> 15) Picture 8 - Block diagram </a>
+<li><a href="#MACROVISION_016"> 16) Other methods </a>
+<li><a href="#MACROVISION_017"> 17) NEW!! BUILD YOUR OWN -&gt; SCHEMATICS </a>
+<li><a href="#MACROVISION_018"> 17.1) About the Author </a>
+<li><a href="#MACROVISION_019"> 17.2) Introduction </a>
+<li><a href="#MACROVISION_020"> 17.3) Schematic </a>
+<li><a href="#MACROVISION_021"> 17.4) Timing diagram and adjustment procedure </a>
+<li><a href="#MACROVISION_022"> 17.5) Suggested References </a>
+
+</ul><br>
+<hr>
+
+<a name="MACROVISION_001"><h1> 1) About the Author </h1></a>
+
+Author: Antti Paarlahti<br>
+E-Mail: ap105053@cs.tut.fi<p>
+
+Copyright (c) 1992-1995 by Antti Paarlahti<p>
+
+This file may be freely distributed in electronic form as long as it stays
+complete.<p>
+
+<hr>
+
+<a name="MACROVISION_002"><h1> 2) Introduction </h1></a>
+
+This article has been built upon my original &quot;Macrovision explained&quot; - one
+that was posted to <b>rec.video</b> some time ago. Completely new in this version
+is a &quot;reader-friendly front-end&quot;, i.e. an explanation for general audiences
+without technical background. Also some minor modifications have been done
+to the technical section.<p>
+
+Some material has been acquired from the Net and some (most) from my own
+experiments.<p>
+
+New contributions <b>and</b> new questions are most welcome.  Grammar
+corrections are accepted, because I am not a native speaker of English.<p>
+
+Information presented here should be correct as far as <b>I</b> know, but utter
+rubbish may have crept in, so proceed carefully.<p>
+
+<hr>
+
+<a name="MACROVISION_003"><h1> 3) What is this? </h1></a>
+
+<ol>
+<li> What is Macrovision?
+
+Macrovision is a videotape copy protection method for VHS video cassette
+recorders. It is used on pre-recorded videotapes, and it seems to be more
+common in North America than in Europe. If you want a tape that will have
+Macrovision, get a Disney one.<p>
+
+(Someone else might know who invented, marketed and/or used it, etc.)<p>
+
+<li>What does it look like?
+
+When dubbing a protected tape, the picture that has gone through the
+recording VCR will get dark and then normal again periodically. The picture
+may also become unstable when it is at its darkest.<p>
+
+Some televisions do not like Macrovision either; the top of the picture
+might be unstable all the time and the colors may flicker.<p>
+
+If you have a TV that has an adjustment for picture height or vertical
+hold, you can play with those. Macrovision signals can be seen as very
+bright and very dark regions (stripes) near the top of the picture.<p>
+
+
+<li>Is there an easy and economical way to get rid of it?
+
+Not really. There are three main alternatives:<p>
+
+<ul>
+<li>Modify the VCR. It is easy in principle, just change the value of one
+  capacitor or resistor in the destination deck. The problem is, you'd
+  probably have to get a service manual to find out which one. Furthermore,
+  you still don't get rid of the protection; it just makes the copying
+  possible.
+
+<li>Make an eliminator yourself. It is a relatively straightforward task
+  (more in the technical section), _if_ you know electronics. Most
+  people don't, unfortunately.
+
+<li>Buy a commercial &quot;stabilizer&quot;. This method is definitely easy, but not
+  the cheapest.
+</ul>
+</ol>
+
+<hr>
+
+<a name="MACROVISION_004"><h1> 4) A non-technical explanation </h1></a>
+
+Here is a simple explanation of how the method works. It exploits the
+automatic gain control (AGC) circuit in the recorder. The purpose of the
+AGC is to adjust the level of the video signal in such a way that the
+recording capabilities of the tape are fully used. This means that weak
+signals are amplified and strong ones are attenuated.<p>
+
+In the Macrovision method, some new signals are inserted in the non-visible
+portion of the picture. These signals can make the VCR think that a
+perfectly normal picture is suddenly way, way too bright. The AGC circuit
+therefore darkens it until it thinks the brightness is normal. Of course,
+now the _real_ picture is very dark. The picture is varied between bright
+and dark periodically in order to defeat simple eliminators that would just
+amplify the dark and murky signal back to almost normal.<p>
+
+Why isn't the TV affected? Well, most TV sets do not have any AGC-circuits
+at all, and the rest behave differently from VHS ones.<p>
+
+<ol>
+<li>My friend has a VHS VCR that is not affected. How is this possible?<p>
+
+The proper behavior of the AGC-circuit is very important in order to
+achieve good protection. Apparently the specifications were somewhat&quot;loose&quot; in the pre-Macrovision days, so the old (how old?) machines are not
+affected.<p>
+
+JVC, the VHS license holder, has tightened the spec and the control, so it
+is difficult to get an &quot;immune&quot; VCR, but there are some machines that are
+conveniently &quot;out of spec&quot;. No, I don't know which ones.<p>
+
+<li>I have heard that 8mm video is not affected by it. Is this true?
+
+8mm video is not affected by Macrovision, because it is totally separate
+from VHS. There is no need to have AGC circuits that bear any resemblance
+to JVC ones.<p>
+
+Of course, 8mm recorders do not remove the protection, so any subsequent
+VHS dub will again be unwatchable.<p>
+
+
+<li>Can Macrovision be defeated by copying via the aerial inputs/outputs?
+
+No, it can't. There was some ancient method that could be eliminated
+like that, but it is now long dead. Macrovision is so integrated in the
+video signal that these simple tricks will not work.<p>
+
+
+<li>There are many mail-order companies in the USA selling those boxes.
+   Can I buy one and use it in Europe?
+
+No, not really. You might get some improvement, but the protection
+timings are sufficiently different to keep it from working properly.<p>
+
+
+<li>My TV does not get a stable picture, when I watch rental tapes. Could
+   this be a fault of the copy protection?
+
+Yes, very likely. Macrovision signals resemble false synchronization
+pulses, and some sets mistake them for the real ones.<p>
+
+
+<li>Can laserdiscs have Macrovision?
+
+Apparently no. First of all, it is technically difficult, because the region
+used by Macrovision is also used to hold control data for the laserdisc
+players. Secondly, as long as the laserdisc market stays as a niche market,
+the distributors will not pressure the manufacturers to change the specs.<p>
+</ol>
+
+
+<hr>
+
+<a name="MACROVISION_005"><h1> 5) A technical explanation </h1></a>
+
+
+In this part, I represent the empirical data about &quot;Macrovision in
+action&quot; that I have gathered with my trusty 20+ year old oscilloscope.<p>
+
+The main topics are:<p>
+
+<ul>
+<li>current PAL Macrovision
+<li>old NTSC Macrovision
+</ul>
+
+<hr>
+<b>REQUEST</b>: If anyone can analyze the rumored new NTSC Macrovision
+and send the data to me, I'd be very grateful. It's pretty hard to get
+NTSC tapes here.
+<hr>
+
+Tapes that I used were Disney's Beauty and the Beast (PAL) and 101
+Dalmatians (NTSC).<p>
+
+NB: From here, it gets very technical. A basic knowledge of what video
+signal looks like is required.<p>
+
+First, some basics. A television picture consists of 25/30 (PAL/NTSC)
+_frames_. Every frame contains a total of 625/525 _lines_ (not all are
+visible, though). Frames are _interlaced_, i.e. they are divided into
+two _fields_ that are drawn on top of another in such a way that the
+first field scans every alternate line and the second field 'fills in'
+the missing lines. The scanning is from top to bottom and from left to
+right.<p>
+
+The fields are separated by _vertical synchronization_ pulses. The lines
+are separated by _horizontal synchronization_ pulses. Both PAL and NTSC
+standards specify that those approximately 20 lines that follow a
+vertical sync are not to be used in forming the picture. These lines are
+not visible in properly adjusted TVs, so they can e.g. carry TeleText
+data, or, in our case, Macrovision copy protection signals (see pictures
+1 and 2). The vertical sync and invisible lines form the _vertical
+blanking region_.<p>
+
+<hr>
+
+<a name="MACROVISION_006"><h1> 6) Macrovision </h1></a>
+
+So, what is the trick with Macrovision? In order to understand that,
+some knowledge of VHS AGC circuits is needed (AGC==Automatic Gain
+Control). The AGC circuits adjust the amplitude of the video (luminance)
+signal by measuring the voltage difference between the bottom of the
+horizontal sync and the back (rear) porch (see picture 3). Chrominance
+AGC is measured from the color burst.<p>
+
+What Macrovision does is to introduce false synchronization pulses
+followed by false back porches at a very high voltage level (~15% over
+white level).  The VHS VCR looks at the signal and thinks that it is fed
+with an extremely high-amplitude signal and adjusts the gain control to
+minimum --> the real picture gets very dim (see pictures 4 and 5).<p>
+
+The AGC response must be like this:<p>
+
+<ul>
+<li>React _fast_ (in a few lines time) to an apparent increase in
+  amplitude by attenuating the signal.
+
+<li>React _slowly_ (in a few frames time) to an apparent decrease in
+  amplitude by amplifying the signal.
+</ul>
+
+
+In the following pictures '|' represents a vertical synchronization
+pulse.  Because of interlacing, the sync pulses of corresponding lines
+in different fields are spaced 1/2 lines apart. The fields are drawn on
+top of another because 1) my 'scope shows them like this, and 2) the
+fields are nearly identical anyway.<p>
+
+The scale of the video signal pictures:<p>
+<ul>
+<li>sync bottoms are 2 characters below black level
+<li>white level is 5 characters above black level
+<li>Macrovision signal peaks are 6 characters above black level
+  (a reasonably good approximation)
+</ul>
+
+<hr>
+
+<a name="MACROVISION_007"><h1> 7) Picture 1 - PAL vertical blanking region with Macrovision </h1></a>
+
+<pre>
+   Scope             Interlace           Macrovision regions
+   trigger           starts    ...........................................
+   :                 :         1                   2 1                   2
+   :                 :         1  Region 1         2 1  Region 2         2
+   :  Vertical sync  :         1  (between '1's)   2 1  (between '2's)   2
+   :                 :         1                   2 1                   2
+_           _ _ _ _ ________________________________________________________
+ | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+ |_|_|_|_|_| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+
+   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3
+   1   1   1   1   1   1   2   2   2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 3 1 3 1 3
+ 1 4 2 5 3 6 4 7 5 8 6 9 7 0 8 1 9 2 0 3 1 4 2 5 3 6 4 7 5 8 6 9 7 0 8 1 9 2
+ The number of the scanline starting after this sync pulse
+</pre>
+
+
+<pre>
+                :
+                : Picture
+                : start
+                :
+______________________...
+| | | | | | | | | | |
+| | | | | | | | | | |
+
+3   3   3   3   3   3
+3 2 3 2 3 2 3 2 3 2 3
+2 0 3 1 4 2 5 3 6 4 7
+</pre>
+
+
+I'll explain those regions later. It is very easy to calculate the
+required timing for a Macrovision eliminator from this picture (more
+later, also).  There are other line numbering systems, but this is &quot;time
+sequential&quot;.<p>
+
+<hr>
+
+<a name="MACROVISION_008"><h1> 8) Picture 2 - NTSC vertical blanking region with Macrovision </h1></a>
+
+<pre>
+   Scope                 Interlace         Macrovision region         Picture
+   trigger               starts    ................................... start
+   :                     :         :                                 :   :
+   :                     :         :                                 :   :
+   :  Vertical sync      :         :                                 :   :
+   :                     :         :                                 :   :
+_             _ _ _ _ _ ____________________________________________________
+ | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+ |_|_|_|_|_|_| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+
+   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2
+   6   6   6   6   6   6   7   7   7 1 7 1 7 1 7 1 7 1 7 1 7 1 7 1 8 1 8 1 8
+ 1 4 2 5 3 6 4 7 5 8 6 9 7 0 8 1 9 2 0 3 1 4 2 5 3 6 4 7 5 8 6 9 7 0 8 1 9 2
+</pre>
+
+
+As can be observed, NTSC timing is a little bit tighter. I'm not sure
+about the line numbering, because I have no NTSC-references, so please
+correct me.<p>
+
+Now, what do those lines inside Macrovision regions contain? Back to
+basics, once again.<p>
+
+<hr>
+
+<a name="MACROVISION_009"><h1> 9) Picture 3 - PAL/NTSC normal line </h1></a>
+
+<pre>
+
+This is one normal PAL/NTSC scanline as seen on an oscilloscope screen.
+
+Time in microseconds
+0         1         2         3         4         5         6   0         1
+0123456789012345678901234567890123456789012345678901234567890123012345678901
+
+      ___________________________________________________             ______
+     |      ^-- White level                              |           |
+     |                                                   |  Color    |
+     |             Arbitrary picture data                |  burst--v |
+     |                                                   |           |
+ _MM_|___________________________________________________|_      _MM_|______
+| WW        ^-- Black level                                |    | WW
+|                                                          |____|
+
+                                            Front porch --^   ^  ^-- Back
+                                            Horizontal        |      porch
+                                            synchronization --+
+</pre>
+
+Here are both the PAL and NTSC Macrovision 'magic' lines that do the
+trick.  Both are shown at their maximum amplitudes.<p>
+
+<hr>
+
+<a name="MACROVISION_010"><h1> 10) Picture 4 - PAL Macrovision line </h1></a>
+
+<pre>
+
+0         1         2         3         4         5         6   0         1
+0123456789012345678901234567890123456789012345678901234567890123012345678901
+         _    _    _    _    _    _    _                                 _
+        | |  | |  | |  | |  | |  | |  | |                               | |
+        | |  | |  | |  | |  | |  | |  | |                               | |
+        | |  | |  | |  | |  | |  | |  | |                               | |
+        | |  | |  | |  | |  | |  | |  | |                               | |
+        | |  | |  | |  | |  | |  | |  | |                               | |
+ _MM__  | |  | |  | |  | |  | |  | |  | |__________________      _MM__  | |
+| WW  | |  | |  | |  | |  | |  | |  | |                    |    | WW  | |  |
+|     |_|  |_|  |_|  |_|  |_|  |_|  |_|                    |____|     |_|  |
+</pre>
+
+<hr>
+
+<a name="MACROVISION_011"><h1> 11) Picture 5 - NTSC Macrovision line </h1></a>
+
+<pre>
+
+0         1         2         3         4         5         6   0         1
+0123456789012345678901234567890123456789012345678901234567890123012345678901
+         __      __      __      __                                      __
+        |  |    |  |    |  |    |  |                                    |  |
+        |  |    |  |    |  |    |  |                                    |  |
+        |  |    |  |    |  |    |  |                                    |  |
+        |  |    |  |    |  |    |  |                                    |  |
+        |  |    |  |    |  |    |  |                                    |  |
+ _MM__  |  |__  |  |__  |  |__  |  |_______________________      _MM__  |  |
+| WW  | |     | |     | |     | |                          |    | WW  | |
+|     |_|     |_|     |_|     |_|                          |____|     |_|
+</pre>
+
+The lines drawn above are quite similar. Both try to present false
+synchronization pulses to the VCR the first 40 microseconds or so. The
+rest of the line is black, because false syncs there would trigger the
+sync circuits in monitors/TVs and consequently the top of the picture
+would be very unstable. Some TVs really do suffer even now, I have seen
+it myself.<p>
+
+
+But that is not all. If the pulses had a constant amplitude, it would be
+quite easy just to increase the amplitude of the video signal and get a
+decent picture. Therefore the false back porch voltage level is varied
+according to some simple rules in order to get the brightness changes as
+annoying as possible.<p>
+
+The following pictures show, how the false back porch amplitudes change
+with time. The lowest level is black, the highest is &quot;super-white&quot;. The
+false syncs (below black level) do not change their amplitude. The
+perceived brightness of the TV picture is the inverse, e.g. the highest
+level in the diagram means the darkest picture on the screen.<p>
+
+<hr>
+
+<a name="MACROVISION_012"><h1> 12) Picture 6 - Pulsating cycles, PAL </h1></a>
+
+<pre>
+
+      _____________________                                          ___...
+     /                     \           R1      R1      R1           /
+    /                       \          ___     ___     ___         /
+   /                         \   ||   |   |   |   |   |   |   |   /
+  /                           \  ||   |   |   |   |   |   |   |  /
+ /                             \ ||___|R2 |___|R2 |___|R2 |___| /
+/                               \||   |___|   |___|   |___|   |/
+
+:     :                   :      ::   :   :   :   :   :   :   :      :
+: 2s  :        7s         : 2.3s ::32f:32f:32f:32f:32f:32f:32f:  2s  :
+:     :                   :      ::   :   :   :   :   :   :   :      :
+                                 10f                          2f
+                                           &lt;-- ~9s --&gt;
+R1 = lines in region 1
+R2 = lines in region 2
+f  = frames
+</pre>
+
+Here is where the two regions differ. When R1 rises to ~60% of max
+amplitude, R2 goes to black. Otherwise they change in parallel.<p>
+
+<hr>
+
+<a name="MACROVISION_013"><h1> 13) Picture 7 - Pulsating cycles, NTSC </h1></a>
+
+<pre>
+      ____________________..._________________                     _____...
+     /                                        \                   /
+    /                                          \                 /
+   /                                             \              /
+  /                                               \            /
+ /                                                  \         /
+/                                                    \_______/
+
+:     :                                      :       :       :     :
+:3.5s :                 22s                  :  5s   :  4s   :3.5s :
+:     :                                      :       :       :     :
+</pre>
+
+
+As can be seen, old NTSC-Macrovision cycle is very simple. Please, once
+again, send me information about the new one.<p>
+
+All the slopes and the stable regions between them are timed in seconds,
+because a) the timing is not so critical and b) it is difficult to say
+in which frame a slope starts or ends.<p>
+
+<hr>
+
+<a name="MACROVISION_014"><h1> 14) How to eliminate </h1></a>
+
+<h1>DISCLAIMER:</h1>
+<b>I have built an eliminator and have used it for backing up my own precious 
+videotapes. Try, for example, get a replacement for your damaged &quot;The Little Mermaid&quot; videotape. You're lucky, if you succeed. I almost never 
+rent videotapes; the picture sucks and they are usually &quot;pan-and-scan&quot; 
+transfers. And the last reason: I'm a hardware hacker, so I did it just 
+for the heck of it.</b><p>
+
+Macrovision elimination is _very_ simple, if you have some knowledge of
+electronics. My primary inspiration was: <p>
+
+<pre>&quot;Macrovision decoder/blanker&quot;
+Elektor Electronics, October 1988, pp. 44-47.
+</pre>
+
+(Note: it features an older version of Macrovision; not that different,
+though.)<p>
+
+I built roughly an equivalent circuit myself, but it was highly
+unsatisfactory. Reasons:<p>
+
+<ol>
+<li> The circuit assumes that the incoming video signal has a certain
+amplitude ==&gt; it uses fixed voltages and signal levels, which do not
+work properly (because of varying input level and inaccurate clamping).
+
+<li>Too many cheap electronic switches along the signal path ==&gt; visibly
+worse picture quality (soft, color fluctuations).
+
+<li>Chops off color burst from protected lines ==&gt; horrible color purity
+errors near the top edge of the picture (perhaps the most visible error).
+</ol>
+
+Below is a block diagram of my currently satisfactorily working device.
+It resembles only remotely the EE one. The basic idea is that the
+Macrovision pulses are replaced with a black level. I challenge anyone
+to make a simpler device.<p>
+
+<hr>
+
+<a name="MACROVISION_015"><h1> 15) Picture 8 - Block diagram </h1></a>
+
+<pre>
+   video             _______                _____      _____
+   in &gt;------+-----&gt;| sync  |&gt;------------&gt;|     |&gt;--&gt;|     |&gt;-+
+             |      | sepa  | vsync        |delay|    | MMV |  | Pulse
+             |      | rator |              |     |    |  1  |  | that
+             |      |_______|&gt;-------+     |_____|    |_____|  | lasts
+             |       LM1881   burst  |     region              | the
+             |                       |     start               | whole
+electr.     0|                       |                         | Macrov.
+switch    ___|_                      |         _               | region
+         |   o | insert_black        |        | |&lt;-------------+
+     +-----o/  |&lt;----------------------------&lt;|&amp;|
+     |   |___o_|                     |        |_|&lt;--------+
+     |       |                       |                    |
+     |      1| black                 |                    |~45us pulse
+     |       | level                 |                    | that covers
+     |       |                       |                    | the false
+     |     __^_____                  |                    | syncs
+     |    |        |                 |                    |
+     |    | sample |sample_now       | line_start _____   |
+     +---&gt;| and    |&lt;----------------+----------&gt;|     |&gt;-+
+     |    | hold   |                             | MMV |
+     |    |________|                             |  2  |
+     |     sample black level                    |_____|
+     |     from back porch
+     |
+     |     ________
+     |    |        |
+     |    | video  |    video
+     +---&gt;| output |&gt;---------&gt;
+          | buffer |    out
+          |________|
+</pre>
+
+Some explanations:<p>
+
+<ul>
+<li>Sync separator is the small and cheap LM1881. Only vertical sync and
+  burst gate are used. I mention the explicit type here, because the
+  device is practically built around it and because it replaces a whole
+  chunk of analog electronics.
+
+<li>The sample and hold circuit is used to sample the black level. Although
+  the sampling occurs at color burst time, I have not experienced any
+  difficulties. 2 op amps, 1 electronic switch and a capacitor make a
+  wonderful S&amp;H circuit. The sampling input is from the output of the
+  video switch, because the false syncs trigger LM1881, too.
+
+<li>The delay block delays the vertical sync until the Macrovision region is
+  about to begin.
+
+<li>MMV 1 (monostable multivibrator) is triggered when the Macrovision region
+  starts and produces a pulse that lasts until the end of the region.
+
+<li>MMV 2 is triggered at the end of the burst gate and it produces a pulse
+  that lasts about 45 us == until all false syncs are gone. This MMV must
+  not be retriggerable within the pulse, because the false syncs come
+  through LM1881 and try to retrigger.
+
+<li>The video output buffer can be a transistor or two. It does not need to
+  have any voltage gain, because the VCR has the AGC circuits. If it
+  doesn't, you don't need this circuit in the first place!
+</ul>
+
+I do have the whole circuit as a 2-color IFF-ILBM picture (Amiga native
+format). I am able to convert it into almost any format, if anyone is
+interested. Surely no-one is... B^)<p>
+
+<hr>
+
+<a name="MACROVISION_016"><h1> 16) Other methods </h1></a>
+
+One method that I have seen on some old rental cassette is the changing
+of horizontal sync amplitude in the middle of a frame. When dubbed, the
+AGC circuits change the gain to keep the sync amplitude constant, and
+the resulting picture has very noticeable bands of bright and dim
+picture.<p>
+
+
+Original frame<p>
+
+<pre>
+       v--- constant grey level
+...........................................................................
+
+___________________________________________________________________________
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| | | | | | |                 | | | | | | | | | |               | | | | | |
+</pre>
+
+(The amplitude change is somewhat exaggerated)<p>
+
+Dubbed result<p>
+<pre>
+               ..............                      ............
+              .              .                    .            .
+..............                ....................              ...........
+
+___________________________________________________________________________
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+</pre>
+
+
+Disadvantages of this method:<p>
+<ul>
+<li>All the patterns I have seen have been stationary, so you can get used
+  to it.
+<li>It is effective only in dark pictures; it is virtually not noticeable in
+  bright pictures.
+<li>If TV/monitor uses sync tip clamping, banding becomes visible, although
+  it is less disturbing and reversed:
+</ul>
+
+<pre>
+..............                ......................              .........
+              ................                      ..............
+______________                ______________________              __________
+| | | | | | | ________________| | | | | | | | | | | ______________| | | | |
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+</pre>
+
+Remedy: clamp to front or back porch and re-create sync.<p>
+
+
+Another method I have seen is to place a color sub-carrier burst at the
+bottom of the horizontal synchronization pulse:<p>
+
+<pre>
+..._      _MM___...
+    |    | WW
+    |MMMM|
+     WWWW
+</pre>
+
+The only effect I noticed was that the colors changed a little, when
+switching between 'clean' sync and 'bursted' sync. Does anyone
+guess what it is supposed to be doing?<p>
+
+OK, this is the end. Thank you for reading. Happy hacking.<p>
+
+<hr>
+
+<a name="MACROVISION_017"><h1> 17) NEW!! BUILD YOUR OWN -&gt; SCHEMATICS </h1></a>
+
+<hr>
+
+<a name="MACROVISION_018"><h2> 17.1) About the Author </h2></a>
+
+<b>Macrovision Eliminator</b><p>
+
+Author: Mark Quattrocchi<br>
+E-Mail: mark@cygnet.CYGNETSYSTEMS<p>
+
+<hr>
+
+<a name="MACROVISION_019"><h2> 17.2) Introduction </h2></a>
+
+I modified the schematic so you can use a single supply voltage (though you 
+smart folks would have figured that out anyway).  A voltage between 16-35vdc 
+will run this, however if you use a supply over 24vdc you will probably need 
+to add a heat sink for the voltage regulators.  I'd like to thank Bill McFadden
+for the DC restorer circuit which I show as the LM1201 replacement and left 
+his article in tact by only appending the rest of the macrovision circuit to 
+his DC restorer.<p>
+ 
+For those who plan to make one I must warn you that I take no responsibility 
+for anything.<p>
+ 
+<b>Notes:</b> This also eliminates time codes and close caption information. Sorry 
+       about the cryptic schematic but what can you do when all you have is 
+       ASCII to work with. If you don't see an &quot;+&quot; at an intersection it 
+       isn't connected. All voltages used on A1-A6 are supplied by the two 
+       voltage regulators shown at the bottom of this schematic. The op amp,
+       used below, must be a video op amp like the RCA CA3100.<p>
+       
+<hr>
+
+<a name="MACROVISION_020"><h2> 17.3) Schematic </h2></a>
+
+<pre>
+                           C
+                          | |  
+ VIDEO IN   O------+------| |------+----------------+---------------+
+                   |      | |      |                |               |
+                   |               |    |\         ___              |
+                   |               |    |  \       / \ (DIODE)      |
+                   +----/\/\/\-----+----|-   \      |               |
+                           R            |      &gt;----+               |
+                                   +----|+   /                      |
+                                   |    |  /                        |
+                                   |    |/                          |
+                                  ___                               |
+                                  ///                               |
+                                                                    |
+       +------------------------------------------------------------+
+Video  |
+ In &gt;-----+
+       |  |
+Video  |  |
+ In &gt;------------&gt;Gnd
+       |  | 
+       |  |  
+       |  |  
+       |  |                    ____________       
+       |  |                   |   LM1881   |      
+       |  |                  8|            |1     
+       |  |           +12v&gt;---|Vcc    Csync|----------+
+       |  |          .1uf    2|            |5         |
+       |  +-----------||------|In     Burst|--        |
+       |        680          6|            |3         |
+       |    +--/\/\/-+--------|Rset   Vsync|------+   |
+       |    |  .1uf  |       4|            |7     |   |
+       |    +---||---+    +---|Gnd    Field|-     |   |
+       |    |             |   |____________|      |   |
+       |    |             |         A2            |   |
+       |    |             |   450         750     |   |
+Gnd&gt;--------+-------------+--/\/\/---+---/\/\/----+   |
+       |                             |                |
+       |               +-------------+                |
+       |               |                              |
+       |    +-----------------------------------------+
+       |    |          |
+       |    |          |       ____________ 
+       |    |          |      |  74LS221   |
+       |    |          |     1|   (1/2)    |16
+       |    |          +------|A1       Vcc|----&lt;+5v
+       |    |                2|            |13
+       |    |      +5v&gt;---+---|B1        Q1|------+
+       |    |             |  3|            |      |
+       |    |             +---|Rst1        |      |
+       |    |          .1uf 14|          __|4     |
+       |    |Position+--||----|C1        Q1|-     |
+       |    |  10k   |      15|            |      |
++5v&gt;----------/\/\/--+--------|R/C1        |      |
+       |    |   |    |        |____________|      |
+       |    |   +----+              A3            |
+       |    |          +--------------------------+
+       |    |          |
+       |    |          |       ____________ 
+       |    |          |      |  74LS221   |
+       |    |          |     9|   (1/2)    |8
+       |    |          +------|A2       Gnd|---&lt;Gnd
+       |    |               10|            |5 
+       |    |      +5v&gt;---+---|B2        Q2|------------+
+       |    |             | 11|            |            |
+       |    |             +---|Rst2        |            |
+       |    |           .1uf 6|          __|12          |
+       |    |  Width  +--||---|C2        Q2|-           |
+       |    |   10k   |      7|            |            |
++5v&gt;-----------/\/\/--+-------|R/C2        |            |
+       |    |    |    |       |____________|            |
+       |    |    +----+             A3                  |
+       |    |   750            450                      |
+       |    +--/\/\/-----+----/\/\/---&lt;Gnd              |
+       |                 |                              |
+       |             +----------------------------------+
+       |             |   |                              |
+       |             |   |     ____________             |
+       |             |   |    |  74LS221   |            |
+       |             |   |   1|   (1/2)    |16          |
+       |             |   +----|A1       Vcc|----&lt;+5v    |
+       |             |       2|            |13          |
++5v&gt;-------+------------------|B1        Q1|-           |
+       |   |         |       3|            |            |
+       |   |         +--------|Rst1        |            |
+       |   |          .01uf 14|          __|4           |
+       |   |EQ.Start +--||----|C1        Q1|------+     |
+       |   |   20k   |      15|            |      |     |
+       |   +--/\/\/--+--------|R/C1        |      |     |
+       |        |    |        |____________|      |     |
+       |        +----+              A4            |     |
+       |               +--------------------------+     |
+       |               |                                |
+       |               |       ____________             |
+       |               |      |  74LS221   |            |
+       |               |     9|   (1/2)    |8           |
+       |               +------|A2       Gnd|---&lt;Gnd     |
+       |                    10|            |5           |
+       |           +5v&gt;---+---|B2        Q2|-           |
+       |                  | 11|            |            |
+       |                  +---|Rst2        |            |
+       |              1000pf 6|          __|12          |
+       |     EQ.Width +--||---|C2        Q2|------+     |
+       |        20k   |      7|            |      |     |
+       | +5v&gt;--/\/\/--+-------|R/C2        |      |     |
+       |         |    |       |____________|      |     |
+       |         +----+             A4            |     |
+       |                                          |     |
+       |           +------------------------------------+
+       |           |                              |
+       |           |    +-------------------------+
+       |           |    |
+       |           |    |      ____________
+       |           |    |     |   74LS00   |
+       |           |    |    1|            |14
+       |           |    +-----|In1      Vcc|-----&lt;+5v
+       |           |         2|            |3
+       |           +----------|In2     Out1|------+
+       |                     7|            |      |
+       |           Gnd&gt;-------|Gnd         |      |
+       |                      |____________|      |
+       |                            A5            |
+       |           +------------------------------+
+       |           |           ____________
+       |           |          |   LF1333   |
+       |           |         4|            |5
+       |   Gnd&gt;---------------|Gnd       V-|-----&lt;Gnd
+       |           |        16|            |12
+       |           +----------|In1       V+|-----&lt;+12v
+       |           |        14|            |15     10uf    75
+       |      +---------------|S1        D1|-----+--||---/\/\/-----&gt;Video Out
+       |      |    |         1|            |     | +
+       |      |    +----------|In2         |     |    Gnd&gt;---------&gt;Video Out
+       |      |              3|            |2    |
+       +----------------------|S2        D2|-----+
+              |               |____________|
+              |                     A6     
+              |    
+   +12v&gt;----/\/\/--&lt;Gnd
+             5k 
+          Blanking
+                                __________
+                               |   7805   |
+                               |   +12v   |
+16-35VDC&gt;---------+------------|In     Out|-----+-------+------&gt;+12v
+                  |            |          |     |+      |
+     GND&gt;----------------+-----|Gnd       |    ===     ===
+                  |      |     |__________|     |10uf   |.01uf
+                  |      |                      |       |
+                  |      +----------------------+-------+------&gt;Gnd
+                  |      |      __________      |10uf   |.01uf
+                  |      |     |   7805   |    ===     ===
+                  |      |     |   +5v    |     |+      |
+                  +------------|In     Out|-----+-------+------&gt;+5v
+                         |     |          |
+                         +-----|Gnd       |
+                               |__________|
+</pre><p>
+ 
+<b>NOTES:</b> You can replace some of the pots with fixed resistors if you like. The 
+       OFFSET pot can be replaced with a 7.85k to +12v and a 1.43k resistor to 
+       ground. The POSITION pot can be replaced with a 6.25k resistor. The 
+       WIDTH pot can be replaced with a 6.81k resistor. The BLANKING pot can 
+       be replaced with a 4.18k resistor to +12v and a 592ohm resistor to 
+       ground. I do not recommend replacing any of the other pots with fixed 
+       values. If you do use fixed resistors please skip those steps in the 
+       adjustment procedure.<p>
+ 
+<hr>
+
+<a name="MACROVISION_021"><h2> 17.4) Timing diagram and adjustment procedure </h2></a>
+ 
+<b>Set up:</b> Connect a scope up to the video input and trigger on vertical sync.
+        The second channel will be used for looking at the device being 
+        adjusted. Pre-adjust all pots for center position.<p>
+ 
+<ol>
+<li>Connect the 2nd channel on the scope up to A3-pin13.
+<li>Adjust POSITION so the falling edge of the signal is in the middle of the 
+   horiz. line just before the Macrovision pulses (see timing).
+<li>Connect the 2nd channel of the scope up to A3-pin5.
+<li>Adjust WIDTH so the falling edge of the signal is in the middle of the 
+   horizontal line just after the Macrovision pulses (see timing).
+
+ 
+<pre>
+                                                      Macrovision
+                                                |&lt;-------------------&gt;|
+                                                ||||| ||||| ||||| ||||| 
+          _______                   ____________|||||_|||||_|||||_|||||________
+Video In   |     |_____|_____|_____|     |     |||||||||||||||||||||||||     |
+          _______                   ___________________________________________
+Vsync (A2-pin3)  |_________________|
+                  __________________________ 
+Q1 (A3-pin13) ___|                          |__________________________________
+                                             ______________________________ 
+Q2 (A3-pin5)  ______________________________|                              |___
+__            _________________________________________________________________
+Q1 (A4-pin12)                                  |     |     |     |     |
+              ______________________________                                ___
+Out (A5-pin3)                               |__|_____|_____|_____|_____|___|
+ 
+         ________                   ___________________________________________
+Video Out |      |_____|_____|_____|     |     |     |     |     |     |     |
+</pre><br>
+ 
+
+<li>Connect the 2nd channel of the scope up to A4-pin4.
+<li>Adjust EQ.START so the rising edge of the signal is just after the single
+   Macrovision Burst (see timing)
+<li>Connect the 2nd channel of the scope up to A4-pin12.
+<li>Adjust EQ.WIDTH so the signal is low during the equalization pulses and
+   goes high just after the color burst signal (see timing).
+<li>Connect the 2nd channel of the scope up to Video Out.
+<li>Adjust BLANKING level to match the rest of the videos blanking.
+<li>The video output should now look like Macrovision never existed.
+<li>Try it!
+</ol><br>
+ 
+<pre>
+                               A Single Macrovision Burst
+                          |&lt;---------------------------------&gt;|    
+                             _     _     _     _     _               _     _
+                            | |   | |   | |   | |   | |             | |   | | 
+             _________   _  | |_  | |_  | |_  | |_  | |_______   _  | |_  | |_
+Video In              |_| |_|   |_|   |_|   |_|   |_|         |_| |_|   |_|   |
+                _______________________________________________________________
+Q2 (A3-pin5)___|
+            __________   _   ___   ___   ___   ___   _________   _   ___   ___ 
+Csync (A2-pin1)       |_| |_|   |_|   |_|   |_|   |_|         |_| |_|   |_|   |
+__          __________                                    ____
+Q1 (A4-pin4)          |__________________________________|    |________________
+__          __________     ___________________________________     ____________
+Q2 (A4-pin12)         |___|                                   |___|
+</pre><p>
+
+<hr>
+
+<a name="MACROVISION_022"><h2> 17.5) Suggested References </h2></a>
+
+From: Michael Schuster<p>
+
+<ul>
+<li>Dupre. &quot;Macrovision Stabilizer&quot; RADIO-ELECTRONICS 12/87
+<li>Grossblatt. &quot;Scrambling and Macrovision&quot; RADIO-ELECTRONICS 6/90
+</ul>
+
+</body>
+</html>
+

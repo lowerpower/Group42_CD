@@ -1,0 +1,7 @@
+Crack> World Tennis Championships by Mindscape 
+ 
+crack written by BUBBLE 
+ 
+File: VGA.EXE 
+Search: 75 06 b8 01 00 5e cb 90 2b 
+Change: eb --------' '------------ 

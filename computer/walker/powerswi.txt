@@ -1,0 +1,41 @@
+                           The Power Switch
+
+                by John Walker -- kelvin@fourmilab.ch
+                            25th July 1994
+
+The following was written as a parody of the writing style one seems
+to encounter more and more in computer hardware and software manuals.
+I refer to this kind of prose as "moose/aluminium baseball bat"
+because it summons to my mind an image of beating an adult bull moose
+to death with an aluminium baseball bat.  It's the result of carrying
+two originally worthy goals--avoiding extensive cross-references to
+make each section understandable by itself and avoiding ambiguities
+due to incomplete description--to the point of absurdity, where the
+reader is assumed to have the attention span of a sand flea and the
+logical deductive power of a sea slug.  The one- and two-sentence
+paragraph is another hallmark of this style.
+
+                                * * *
+
+THE POWER SWITCH
+================
+
+The "Power" switch is used to control whether power flows to the
+computer.
+
+To turn the computer on, place the Power switch in the "On" position.
+
+To turn the computer off, place the Power switch in the "Off"
+position.
+
+If you leave the Power switch in its current position, the computer
+will remain on if it is already on (Power switch in the "On" position)
+or off it is already off (Power switch in the "Off" position).
+
+If the computer is unplugged, the Power switch has no effect.
+However, if the Power switch is placed in the "On" position while the
+computer is unplugged and the computer is subsequently plugged in
+while the Power switch remains "On", the computer will turn on at the
+time the plug is inserted.
+
+See also: Switches: Operation of, The Power Plug, On Mode, Off Mode.

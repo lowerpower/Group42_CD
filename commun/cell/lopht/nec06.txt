@@ -1,0 +1,54 @@
+NEC  M4700 (TR5E800-11H)
+
+NOTES:  This is a single NAM unit, quad NAM units are covered in file NEC07.
+        The ESN prefix is 135 decimal, 87 hex.
+        NEC: 1-800-421-2141
+
+
+1.  This phone officially requires an NEC programing adaptor part
+    number 41-2012, if you have one attach it between the data cable and the
+    transceiver and power up the phone.
+
+    If you do not have a programing adaptor one can be made from a 15 pin
+    D plug and a 15 pin D socket.  Wire it straight through and jumper pins
+    2 and 11.  Connect this between the tranceiver and data cable and power
+    up the phone.
+
+2.  Having powered up the phone using one of the above methods press
+    RCL # 0 1 to enter test mode.
+
+5.  Press RCL # 7 1 to enter programing mode.
+
+6.  The # key stores and increments each step.
+
+7.  Press CLR briefly to correct an entry.
+
+8.  At any time press and hold CLR to exit programing mode then press RCL
+    # 0 2 to exit test mode.
+
+PROGRAMING DATA
+
+STEP#    #OF DIGITS/RANGE    DESCRIPTION
+
+01       10 DIGITS           MIN (AREA CODE & TEL#)
+02       4 DIGITS            LOCK CODE
+03       00000 - 32767       SYSTEM ID
+04       2 DIGITS            GROUP ID (10 IN USA)
+05       0333 OR 0334        INITIAL PAGING CHANNEL
+06       0 OR 1              PREFERRED SYSTEM
+07       2 DIGITS            ACCESS OVERLOAD CLASS
+08       0 OR 1              MIN MARK
+09       0 OR 1              LOCAL USE MARK
+10       0 OR 1              RADIO MUTE
+11       0 OR 1              HORN ALERT  (ONLY AVAILABLE IF STEP 10 IS
+                             SET TO 0)
+
+
+
+NOTE:  To toggle between NAM 1 and 2 press FCN STO 3 with phone out of
+       programing mode.
+
+LOCK: F * four digits = Partial lock, F # four digits = Full lock.  Use same
+sequence to unlock.
+
+SYSTEM SELECT: F 5 then 5 to scroll.

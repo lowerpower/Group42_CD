@@ -1,0 +1,18 @@
+this is version 1.5 [hopefully final] release of my civilization editor.
+
+It has a few minor enhancements.  Enjoy
+
+C.k.
+
+-------------------------
+I put file here at ftp.uwp.edu because this is where the rest of the 
+civilization stuff is and the only place I could find it is quite unknown:
+
+Host ftp.sogang.ac.kr
+
+    Location: /pub3/msdos/games/wuarchive/Uploads
+      FILE      -r--r--r--     113490  May 14 14:19  cived15.zip
+
+In my opinion it is by far the best save file editor for civilization.
+
+Mike

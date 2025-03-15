@@ -1,0 +1,56 @@
+<html>
+<head><title>Group 42 Sells Out [Tocom 5504a 55 Plus]</title></head>
+<body background="cable1.gif">
+
+<center>
+
+<img alt="Group 42 Sells Out!" src="../g42slogo.gif">
+
+</center>
+
+<hr size=5 noshade>
+<center>
+<h2>Tocom 5504a 55 Plus Fix</h2>
+by G-Man of Group 42
+</center>
+
+<h4>Introduction</h4>
+The Tocom 5504a 55 plus unit can very simply be modified into full service
+mode by installing a DPST switch, a SPST switch, a 20K ohm resistor,
+a 100K ohm resistor, a .01uh cap and optionally a 10K variable resistor.
+<p>
+<h4>Instructions</h4>
+<ul>
+<li>Install lead from U16 pin 9 to a SPST switch, other lead to ground.
+This is the scamble/normal video switch.  Open is scrambled, closed
+is Normal Video.
+<li>Run a lead from U10 Pin 6 to a 20K resistor and then to pin 4 of J2
+which is a source of 12 VDC.  This will enable the audio section.
+<li>Ground Pins 9 and 10 on U16 to enable the video.
+<li>Cut the printed circuit at point x (see diagram) and solder a lead and
+a .01 cap to ground at this point.  The lead goes to the center wiper of
+the 10K tuning pot, the other 2 ends of the tuning pot go to ground and
++25 VDC.  See diagram for location of the +25 VDC.
+</ul>
+<p>
+If the lower board is used, Pin 16 and 17 must be removed on J3 to
+enable the scramble/normal switch.
+<p>
+Different combinations of the A/B switch will probide full coverage of
+the cable channels 2-6, 7-13, 14-36 and so on.
+<p>
+You can also use the Tocom as a channel 3 unscrambler with a channel 3
+output converter ahead of the Tocom.  This allowes you to hard wire
+the switches into a working configuration and not have to mess with
+switching them for different channels.  Alternativly you can build
+a simple <a href="toc5504a.htm">descrambler</a> that will replace this
+box compleatly.
+<p>
+Also if you are using surplus main boards and power supplies, make
+up a power coard to go between the power supply and J1 of the
+main board as per <a href="tocom55p.gif">diagram.</a>
+<p>
+
+<hr size=5 noshade>
+
+</html>

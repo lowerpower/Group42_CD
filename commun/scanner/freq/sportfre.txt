@@ -1,0 +1,53 @@
+                              SPORTS FREQUENCIES
+                              ------------------
+
+Chicago Bears ------------------------ 151.625
+County Stadium, Milwaukee,
+Wisconsin ---------------------------- 151.625
+Los Angeles Dodgers ------------------ 151.625
+LPGA Tour Officials ------------------ 151.625
+PGA Tour Officials ------------------- 151.625
+Cleveland Browns --------------------- 151.685
+Dodger Stadium, Los Angeles,
+California --------------------------- 151.715
+Philadelphia Eagles ------------------ 151.775
+San Francisco 49ers ------------------ 151.775
+Dover Browns, Dover Deleware --------- 151.895
+Squaw Valley Ski Area,
+Tahoe, California -------------------- 154.540
+New York Giants ---------------------- 154.540
+Buffalo Bills ------------------------ 154.600
+Boston Garden ------------------------ 154.600
+Metrodome, Minneapolis, Minn. -------- 155.025
+Orange Bowl, Miami, Florida ---------- 461.100
+Squaw Valley Ski Area,
+Tahoe, California -------------------- 463.500
+Atlanta Braves ----------------------- 464.325
+Oakland Coliseum --------------------- 464.375
+Arlington park, Chicago,
+Illinois (security) ------------------ 464.625
+Baltimore Orioles -------------------- 464.6375
+New York Rangers --------------------- 467.750
+Market Square Arena,
+Indianapolis, Indiana ---------------- 467.800
+New York Islanders ------------------- 467.900
+Bristol International Raceway,
+Bristol Tennessee -------------------- 468.850
+Chicago Cubs ------------------------- 469.5875
+
+
+Be sure to also check these bands:
+
+151.490 - 151.955
+154.490 - 154.625
+461.000 - 470.000
+    800 band
+
+
+Itinerant, low-powered and local control business frequencies:
+
+151.505, 151.625, 154.540, 154.570, 154.600, 464.325, 464.375, 464.425,
+464.475, 464.525, 464.550, 464.575, 464.675, 464.775, 464.875, 464.925, 
+464.975
+
+

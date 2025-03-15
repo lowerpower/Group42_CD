@@ -1,0 +1,59 @@
+Crack> Ultima V 
+crack written by anonymous 
+ 
+>>>Note from Bob: The kind netter who sent this to me said that he has 
+>>>heard complaints that this won't work on some of the newer versions 
+>>>of Ultima V.  It worked fine on his however. 
+ 
+The file size of my copy of ULTIMA.EXE is 36576. 
+The date is 06-24-88. 
+ 
+I hope this is of some help! 
+ 
+To unprotect Ultima V try this:  (On a copy, of course!) 
+{Don't type in the comments in curly brackets.} 
+----------------------------------------------------------------- 
+ 
+rename ultima.exe ultima.xxx 
+ 
+debug ultima.xxx 
+ 
+-d 10e 111 
+ 
+17E5:0100  6E 09                                    n. 
+17E5:0110  64 00                                    d. 
+ 
+{If you don't see the "6E 09" and "64 00" here then your copy is 
+ different than mine and this probably won't work.} 
+ 
+-e 10e 3b 1b 00 08 
+ 
+-d 114 117 
+ 
+17E5:0110  00 00 1C 08                               .... 
+ 
+{Check for "00 00 1C 08".} 
+ 
+-e 114 22 03 2d 07 
+ 
+-w 
+ 
+Writing 8EE0 bytes 
+ 
+-q 
+ 
+rename ultima.xxx ultima.exe 
+ 
+{done} 
+ 
+----------------------------------------------------------------------- 
+Or use your favorite hex editor (Norton's, etc.) and change the 
+string 6E096400 to 3B1B0008 
+and 00001C08 to 22032D07 
+ 
+Change the first occurrence only!  The second string appears in the 
+file several times. 
+----------------------------------------------------------------------- 
+ 
+This just changes the .EXE file header so that execution begins after 
+the key disk check.  My copy is kind of old so I hope this still works. 

@@ -1,0 +1,70 @@
+RADIO SHACK 17-1050/2001, CT300, CT301
+
+NOTES:  This is a single NAM unit.
+        The ESN prefix is 165 decimal, A5 hex.
+        Radio Shack: 817-390-3244
+
+1.  Turn power on.
+
+2.  Enter * 1 7 * 1 0 0 3 * S S S S S *, where SSSSS is the security code,
+    12345 is the factory default.  If the security code is unknown see notes
+    following programing data.
+
+3.  The SEL key stores and increments each step.
+
+4.  The phone will exit programing mode automatically after the last step, or
+    you can press SEL END at any time.
+
+
+PROGRAMING DATA:
+
+STEP#    #OF DIGITS/RANGE    DISPLAY        DESCRIPTION
+
+0        00000 - 32767       HO id          SYSTEM ID
+1        0 OR 1              ACCESS         MIN MARK
+2        0 OR 1              LOCAL          LOCAL USE MARK
+3        10 DIGITS           Phone n        MIN (AREA CODE & TEL#)
+4        2 DIGITS            CLASS          STATION CLASS MARK
+5        333 OR 334          PAGE ch        INITIAL PAGING CHANNEL
+6        2 DIGITS            O LOAd         ACCESS OVERLOAD CLASS
+8        2 DIGITS            GrouP          GROUP ID (10 IN USA)
+9        4 DIGITS            Loc CodE       LOCK CODE
+
+
+LOCK: SEL LCK, UNLOCK: LOCK CODE
+
+SYSTEM SELECT: SEL 1, THEN 1 UNTIL DESIRED OPTION IS SHOWN:
+
+ S = PREF/NON PREF
+ A = A ONLY
+ b = B ONLY
+
+
+If the security code us unknown you can try the following:
+
+1.  Open the handset connector (black "D" plug) and solder a jumper
+    between pins 1 and 14.
+
+2.  Remove the handset ear-piece pad to expose a hex screw, remove this
+    screw.
+
+3.  Remove the two rubber plugs located either side of the microphone,
+    remove the two screws.
+
+4.  Carefully split the handset apart.
+
+5.  Locate the white 28 pin connector that connects the two PCB's, just
+    below this connector is a factory installed jumper.  Install a second
+    jumper to the left of the factory installed one.
+
+6.  Reasemble hanset and connector.
+
+7.  Congratulations!  You now have a Mobira test handset.  This modification
+    is transparent during normal operation.
+
+PROGRAMING:
+
+1.  Enter LOCAL MODE (test mode) by pressing 01# (you will hear static
+    from the ear piece).
+
+2.  Enter NAM program mode by pressing 48#.

@@ -1,0 +1,98 @@
+<HEAD>
+<TITLE>[8lgm]-Advisory-19.UNIX.SunOS-kernel.1-Jun-1994</TITLE>
+</HEAD>
+<BODY>
+<HR>
+<H1>
+	      [8lgm]-Advisory-19.UNIX.SunOS-kernel.1-Jun-1994
+</H1>
+<P>
+<H2>SYSTEM CALL:</H2>
+<P>
+	<CODE>link(2)</CODE>
+<P>
+<H2>KNOWN VULNERABLE OS:</H2>
+<P>
+	SunOS 4.1.*
+<P>
+<H2>DESCRIPTION:</H2>
+<P>
+	The synopsis of the <CODE>link(2)</CODE> system call is:
+<P>
+<CODE>
+	int link(path1, path2)<BR>
+	char *path1, *path2;
+</CODE>
+<P>
+	Under SunOS 4.1.*, <CODE>link(2)</CODE> will incorrectly follow symbolic links
+	for path2.
+<P>
+<H2>IMPACT:</H2>
+<P>
+	Programs using the <CODE>link(2)</CODE> system call where path2 is located in a
+	publically writable directory, can potentially be used to gain root
+	access (e.g. the advisory:-
+<P>
+                <A HREF="8lgm15.htm">[8lgm]-Advisory-15.UNIX.mail3.28-Nov-1994</A>
+<P>
+	is based on binmail using this vulnerability in <CODE>link(2)</CODE>.)
+<P>
+<H2>REPEAT BY:</H2>
+<P>
+        An example exploit for the <A HREF="8lgm15.htm">[8lgm]-Advisory-15.UNIX.mail3.28-Nov-1994</A>
+	advisory is available from the 8lgm fileserver, as of now.  To 
+	obtain this program, send mail to 8lgm-fileserver@8lgm.org, with a
+	line in the body of the message containing:-
+<P>
+	<KRB>SEND suln.c</KBD>
+<P>
+<H2>DISCUSSION:</H2>
+<P>
+	A secure <CODE>link(2)</CODE> system call can allow path1 to be a symbolic link.
+	However, allowing path2 to be a symbolic link can potentially cause
+	security problems.
+<P>
+	Consider a program, creating hard links in a publically	writable
+	directory, as a privileged uid. The program has no way of creating
+	a hard link in a secure manner (ie attempting to write code to
+	provide a workaround would be non-atomic, and therefore open to race
+	conditions.  To use hard links in the situation described would
+	require using the <CODE>chroot(2)</CODE> system call, producing a non-elegant
+	fix).
+<P>
+<H2>WORKAROUND:</H2>
+<P>
+	The <CODE>link(2)</CODE> system call is used almost exclusively for file locking.
+	Using the <CODE>open(2)</CODE> system call, it is possible to write a secure,
+	file locking mechanism.
+<P>
+	Sample locking code using <CODE>open(2)</CODE>, and not <CODE>link(2)</CODE>, can be seen in
+	CERT Advisory
+<P>
+                CA-95:02.binmail.vulnerabilities
+<P>
+	The code contained in this advisory is a replacement for binmail,
+	and is recommended for use.
+<P>
+<H2>FIX:</H2>
+<P>
+	Contact vendor for fix.
+<P>
+<HR>
+<P>
+<H2>FEEDBACK AND CONTACT INFORMATION:</H2>
+<P>
+<PRE>
+	majordomo@8lgm.org	(Mailing list requests - try 'help'
+				 for details)
+<P>
+	8lgm@8lgm.org		(Everything else)
+</PRE>
+<P>
+<H2>8LGM FILESERVER:</H2>
+<P>
+	All [8LGM] advisories may be obtained via the [8LGM] fileserver.
+	For details, '<CODE>echo help | mail 8lgm-fileserver@8lgm.org</CODE>'
+<P>
+<HR>
+</BODY>

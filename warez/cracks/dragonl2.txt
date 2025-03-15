@@ -1,0 +1,5 @@
+Crack> Dragons Lair 1 
+crack written by The Flash 
+ 
+Using PCshell or Norton Utilities, search the file GAME.EXE for 
+E8 27 36 E8 7F 27 and change 27 36 to 4C 1D. 

@@ -1,0 +1,73 @@
+                           UNIDEN CP-5500 Portable
+
+                NAM Type:  EEPROM
+            Manufacturer:  UNIDEN
+              Programmer:  Keypad
+          ESN Prefix DEC:  172
+                     HEX:  AC
+ ESN, S/N Match Required:  Yes
+    Stamped Model Number:  CP-5500
+      Number of Channels:  832
+
+    Programming Sequence:  Install fully charged battery
+                           Power On
+                           Select NAM
+                                  NAM 1:  1 + STO + 90
+                                  NAM 2:  2 + STO + 90
+                           Power Off
+                           Press PWR key while holding * and #
+                           Continue holding * and # for four seconds
+                            "Roam.No Svc.In Use& M" lights will display
+                           Release * and # keys
+                           Enter sequence 32218591 (within 7 seconds)
+                            SID will display
+                           Enter Step number, then data for individual
+                            parameter
+                           Press STO to enter data for each step
+                            (ie to enter System ID, press 0+XXXXX+STO)
+                           Increment by pressing next step number
+ To review parameters press:  RCL + step number
+                            + STO (to exit)
+                           Press SEND to write NAM information
+                           PASS will appear in display if data is valid
+                           Press END to exit program mode
+
+Step                  # of Digits
+0              System ID:  5    XXXXX + STO
+1              Local Use:  1    (0 or 1) + STO
+2                MIN Opt:  1    (0 or 1) + STO
+3          Mobile Number:  10   XXX-XXX-XXXX + STO
+4   Initial Page Channel:  3    [333 or 334] + STO
+5        Access Overload:  2    XX + STO
+6       Preferred System:  1    [9 (B) or 1 (A)] + STO
+
+Note 1:  Step number will not display when entering mobile number)
+
+7               Group ID:  2    XX + STO
+8              Lock Code:  4    XXXX + STO
+9          DTMF Duration:  1    0 - 100 ms or
+                                1 - Continuous
+
+Press STO after entering Step 9
+Press SEND to write data
+Press END to exit program mode
+
+        New Program code:  RCL + 70 + Current 4-digit Program Lock
+                            Code (Preset 0000) + new 4 digit program
+                            code + STO + END
+         New Unlock Code:  RCL + 70 + 4 digit program Lock Code
+                            (Preset 0000) + SEND + New 4 digit Unlock Code
+                            (Preset 0123) + STO + END
+
+           System Select:  X + STO + 8 + 8
+                                 X=1  A Only
+                                 X=2  B Only
+                                 X=3  Home
+                                 X=4  Standard AB or BA
+                                 X=5  Inverted BA or AB
+                                 X=6  System ID (*)
+
+    (*) To set System ID:  CLR + 5 digit System ID + STO + 72
+
+To view current System Select Setting:  RCL + 88
+

@@ -1,0 +1,42 @@
+Crack> Lode Runner, version 3.0 by Br0derbund 
+ 
+crack written by Michael Yakubovich 
+ 
+note: needed key-disk in drive a: , ran only from the diskette 
+ 
+FILE: LR.COM 
+ 
+1) 
+ORIGINAL: 3B 06 9D 79 75 06 3B 1E 9F 79 74 11 
+CRACK   : == == == == EB 17 == == == == EB == 
+ 
+2) 
+ORIGINAL: 74 3B A1 75 AA 3D 02 00 
+CRACK   : EB == == == == == == == 
+ 
+3) 
+ORIGINAL: 85 C0 75 66 
+CRACK   : == == EB == 
+ 
+4) 
+ORIGINAL: B2 00 B4 0E CD 21 
+CRACK   : == == == == 90 90 
+ 
+5) 
+ORIGINAL: B1 F1 BA 00 00 CD 13 
+CRACK   : == == == == == 90 90 
+ 
+6) 
+ORIGINAL: B1 01 BA 00 00 CD 13 
+CRACK   : == == == == == 90 90 
+ 
+7) 
+ORIGINAL: 1E 07 90 CD 13 
+CRACK   : == == == 90 90 
+ 
+The file LR.COM needs a lot of patching. Explanations: 
+#1 to jump over the code destroying the program in memory if it was changed 
+#2 allows to view and change the master file 
+#3 bypasses the key-disk data verification 
+#4 not to change the default drive to a: anymore 
+##5,6,7 not to attempt to read a disk in drive a: 

@@ -1,0 +1,8 @@
+Crack> Harley Davidson by MicroProse 
+ 
+crack written by Michael Yakubovich 
+ 
+FILE: HG.EXE 
+ 
+ORIGINAL: 72 9A BD 0F 2B 03 9A 04 00 28 0A 40 74 09 B8 87 73 
+CRACK   : == == == == == == EB 0F 00 00 00 == == == == == == 

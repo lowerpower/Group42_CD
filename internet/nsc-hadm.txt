@@ -1,0 +1,176 @@
+[ netinfo/nsc-hadmin-duties.txt ]                              [ 12/87, SS ]
+
+    DDN NODE SITE COORDINATOR (NSC) AND HOST ADMINISTRATOR DUTIES
+
+
+                   DDN NODE SITE COORDINATOR (NSC)
+                   -------------------------------
+
+1.  Overview.
+    --------
+     a.  A DDN node site is the physical place where the DDN backbone       
+equipment is located.  Normally, this will consist of a PSN, TAC and 
+other associated equipment; however, a node site may also only consist
+of a remote TAC or mini TAC (NAC).  The Node Site Coordinator (NSC) is
+the person designated to ensure continuous operation of the node site.
+While the NSC may delegate some tasks to other personnel, the NSC is
+responsible to DISA DNSO for all node site matters.                    
+
+     b.  The NSC's primary responsibility is to provide local, on-site
+technical assistance in case of node hardware or circuit degradation or
+outage.  The NSC also has several administrative responsibilities.  
+Local, on-site technical assistance and administrative responsibilities
+are detailed below.
+
+2.  Local, On-Site Technical Assistance Responsibilities.                   
+    ----------------------------------------------------
+     a.  The NSC must personally provide or arrange for provision of 
+local, on-site assistance to Monitoring Center controllers on a 24-hour,
+7-day-a-week basis.  If the node site is located in a facility that
+is not manned on a 24-hour, 7-day-a-week basis, the NSC must ensure
+that local, on-site assistance is provided within 2 hours of a request
+for assistance by the Monitoring Center.                          
+
+     b.  Local, on-site technical assistance is normally requested by
+Monitoring Center controllers via telephone.  DCA Circular 310-P70-76
+provides an introduction to and description of the node site that assists
+the NSCs in providing the Monitoring Center with more effective local,
+on-site technical assistance.                         
+
+3.  General Administrative Responsibilities.
+    ---------------------------------------
+     a.  Overview.  The NSC will be responsible for general 
+administration of the node site in four other areas.  These areas and
+NSC functions within them are given below.  For a more detailed discussion
+of site administration procedures, refer to site-specific documentation
+available at each site.
+
+     b.  Hardware and Software Accountability.
+
+          (1)  The NSC provides for care and safekeeping of all
+installed node site equipment, and equipment shipped to the node site 
+for future installation (i.e. normally modems, cables and other              
+small items).                                                                
+
+          (2)  The NSC provides for accountability and safekeeping            
+of the PSN and TAC cassette tapes.  The NSC should ensure that PSN
+master and backup tapes are properly marked, stored and maintained
+in the PSN area.  (Note:  Further instructions will be provided on
+this.)
+
+     c.  Site Access Control and Security.
+
+          (1)  The NSC coordinates personnel access to the node
+site.  The NSC acquires a current site access roster of DISA                   
+DNSO contractor maintenance personnel from site security                  
+personnel and uses it to coordinate node site access.
+
+          (2)  The NSC ensures that installed node site equipment is 
+not altered, tampered with, or moved without proper authorization.
+
+     d.  Maintenance and Installation Coordination.
+
+          (1)  The NSC coordinates, monitors, and verifies the 
+installation and implementation of node hardware, software, and
+circuits.  In the European and Pacific areas, the DISA DNSO Area,             
+Region and Field Offices perform these functions.                               
+
+          (2)  The NSC coordinates and monitors scheduled and                 
+unscheduled corrective maintenance, and scheduled preventive                  
+maintenance, as directed by DISA DNSO or the network Monitoring Center.             
+
+     e.  General Administration and Coordination.
+
+          (1)  The NSC maintains operating instructions issued
+by DISA DNSO and the DDN Network Information Center (NIC), such as these
+instructions.  For reference purposes the NSC should maintain
+a file of current Telecommunications Service Orders (TSOs) for
+host access lines, directly connected TAC access lines, and                   
+interswitch trunks.                                                           
+
+          (2)  The NSC maintains liaison with representatives of 
+organizations with whom coordination is necessary for efficient
+operation of the node site.  (For example, the NSC is responsible 
+for maintaining contact with his node's Host Administrators
+and directly connected TAC users, informing them of any planned or
+unplanned node site outages.)
+
+          (3)  To support both liaison and local, on-site
+technical assistance functions, the NSC maintins a list of telephone
+numbers for the network Monitoring Center, the Host Administrator for
+each host connected to the DDN PSN's at the node site, and other
+telephone numbers such as those of the servicing telephone company 
+or local Defense Communications System (DCS) technical control.
+
+4.  Electronic Mail Capability.
+    --------------------------
+     a.  The NSC should possess an electronic mail capability to              
+efficiently perform the functions of the NSC.  Each NSC should obtain
+an electronic mail account (mailbox) on a mail server belonging or
+available to the NSC's command.
+
+     b.  In the event the NSC's command cannot provide terminal equipment     
+support, the node maintenance terminal may be used by the NSC for
+electronic mail, providing it does not interfere with the Field Service
+Technician's requirements.
+
+     c.  Upon request, DCA B652 will provide further guidance on the          
+establishment of an electronic mail account.                                 
+
+
+                          HOST ADMINISTRATOR
+                          ------------------
+
+1.  Definitions.
+    ------------
+     a.  Host - A computer attached to a port on a DDN Packet 
+Switch Node.
+
+     Note:  For the purpose of this definition, Terminal Access 
+     Controllers (TACs) are not considered hosts; all TACs are part of
+     the DDN node site (backbone) equipment and are under the control
+     of the Monitoring Center.  Therefore, no Host Administrator is 
+     assigned for a TAC.  The local point of contact for all node site
+     matters is the NSC.                        
+
+     b.  Host Administrator (HA) - That person who has administrative
+responsibility for the policies, practices, and concerns of a host(s)
+connected to the DDN, including responsibility for that host's
+DDN users.
+
+2.  Responsibilities.
+    -----------------
+     a.  Assists DISA DNSO, by ensuring that network policies and procedures
+are observed by their host users.  The Host Administrator is 
+responsible for administering the TAC Access Control System (TACACS),
+ensuring that all of the host users, who are using the network or
+the TACs, have been authorized for DDN and TAC access, and are
+registered in the NIC User Registration Database (WHOIS/NICNAM).
+
+     b.  Manages their host's network access control procedures and          
+password system, and is responsible for reporting network-related
+host break-ins and assisting with investigative effort as needed.
+
+     c.  Coordinates with DISA DNSO on installation and removal of hosts  
+on the DDN.  Also, coordinates installation of, or changes to, 
+host software that has direct or indirect impact on the DDN.  The 
+Host Administrator provides the DCS Data Systems Directorate and the
+NIC with required descriptive information for each new host
+addition or host change, and coordinates the host certification
+procedure with the DCS Data Systems Directorate prior to passing
+traffic or testing on the network.  The Host Administrator is 
+responsible for the proper implementation and maintenance of DDN 
+protocols at the host level.
+
+     d.  Serves as local point of contact for the respective hosts
+and local users and coordinates suspected network related
+problems directly with the appropriate network Monitoring Center.
+Host Administrators must report problems to the MC for correction.
+When reporting trouble, obtain a trouble ticket number, which
+will be used for reference purposes during any follow-up inquiries.
+
+     e.  Provides network information to the NIC, and assists
+local users and other interested personnel with network related 
+matters.
+
+Source: DDN MGT Bulletin 37, 16 Dec 87

@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN" "html.dtd">
+<HTML>
+<HEAD>
+<TITLE>How to Break into BBs Express</TITLE>
+</HEAD>
+<BODY BGCOLOR="#505050" TEXT="#FFFFFF" LINK="#DFDFDF" VLINK="#BFBFBF" ALINK="#008000">
+
+<H1>How to Break into BBs Express</H1>
+<HR>
+<BR>Breaking into BBS Express              Courtesy of the Jolly Roger
+
+<BR><BR>If you have high enough access on any BBS Express BBS you can get the
+Sysop's password without any problems and be able to log on as him and do
+whatever you like. Download the Pass file, delete the whole BBS, anything.
+Its all a matter of uploading a text file and d/ling it from the BBS. You
+must have high enough access to see new uploads to do this. If you can see
+a file you just uploaded you have the ability to break into the BBS in a
+few easy steps.
+<BR><BR>Why am I telling everyone this when I run BBS Express myself?
+Well there is one way to stop this from happening and I want other Sysops
+to be aware of it and not have it happen to them.
+<BR><BR>Breaking in is all based on the MENU function of BBS Express. Express
+will let you create a menu to display different text files by putting the
+word MENU at the top of any text file and stating what files are to be
+displayed. But due to a major screw up by Mr. Ledbetter you can use this
+MENU option to display the USERLOG and the Sysop's Passwords or anything
+else you like. I will show you how to get the Sysop's pass and therefore
+log on as the Sysop. BBs Express Sysop's have 2 passwords. One like
+everyone else gets in the form of X1XXX, and a Secondary password
+to make it harder to hack out the Sysops pass.
+<BR>The Secondary pass is found in a file called SYSDATA.DAT.
+<BR>This file must be on drive 1 and is therefore easy to get. All you have to
+do is upload this simple Text file:
+
+<BR><BR>MENU
+<BR>1
+<BR>D1:SYSDATA.DAT
+
+<BR><BR>Ripoff time!
+
+<BR>after you upload this file you d/l it non-Xmodem. Stupid Express thinks
+it is displaying a menu and you will see this:
+
+<BR>Ripoff time!
+
+<BR>Selection [0]:
+
+<BR><BR>Just hit 1 and Express will display the SYSDATA.DAT file.OPPASS is where
+the Sysop's Secondary pass will be. D1:USERLOG.DAT is where you will find
+the name and Drive number of the USERLOG.DAT file. The Sysop might have
+renamed this file or put it in a Subdirectory or even on a different
+drive. I Will Assume he left it as D1:USERLOG.DAT. The other parts of this
+file tell you where the .HLP screens are and where the LOG is saved and
+all the Download path names.
+
+<BR><BR>Now to get the Sysop's primary pass you upload a text file like this:
+
+<BR>MENU
+<BR>1
+<BR>D1:USERLOG.DAT
+
+<BR><BR>Breaking into Bedwetter's BBS
+
+<BR><BR>Again you then d/l this file non-Xmodem and you will see:
+
+<BR><BR>Breaking into Bedwetter's BBS
+
+<BR><BR>Selection [0]:
+
+<BR><BR>You then hit 1 and the long USERLOG.DAT file comes flying at you.
+The Sysop is the first entry in this very long file so it is easy. You will
+see:
+
+<BR>SYSOP'S NAME        X1XXX
+<BR>You should now have his 2 passwords.
+
+<BR><BR>There is only one easy way out of this that I can think of, and that is
+to make all new uploads go to SYSOP level (Level 9) access only. This way
+nobody can pull off what I just explained.
+<BR><BR>I feel this is a major Bug on Mr. Ledbetter's part. I just don't know why
+no one had thought of it before. I would like to give credit to
+Redline for the message he left on Modem Hell telling about this problem,
+and also to Unka for his ideas and input about correcting it.
+
+<BR><BR>This has been brought to you from [_The_Piper_] and the S.O.D. BBS
+Network!
+
+
+<H6>The creator of this page and any links it may lead to hereby takes no responsability or liability for anything that happens as a result of reading anything on this page or anything contained in subsequent pages. Users read at their own risk. It is <EM><STRONG>NOT</STRONG></EM> reccomended that the user do anything described in this and subsequent pages. Doing so may result in serious trouble, arrest, injury, and possibly deportation or death. Thank you. </H6>
+<A HREF="index1.htm"><IMG SRC="backto.gif"></A>
+</BODY>
+
+
+</HTML>

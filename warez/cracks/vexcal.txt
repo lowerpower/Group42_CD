@@ -1,0 +1,28 @@
+                           Vengeance of Excalibur
+                                   crack
+                                by Grishnakh
+ 
+     If you're wondering, yes, this is a fairly old game, but not as 
+old as Fireteam 2200, which I last cracked. This one was even more 
+difficult, using self-modifying code. At first, I thought it was easy, 
+after finding the protection code in memory. But when I used Norton to 
+seek and edit the code, it was nowhere to be found. Apparently, there 
+was a routine at the beginning of the program which copied small 
+pieces of code to memory where it was then executed sequentially. No 
+thanks to "Using Assembly Language" by Allen L. Wyatt (QUE publishers) 
+for not giving me any detail about how MOVSB works. If you're looking 
+for a really crappy assembly language book, buy this one.
+                                                                     
+
+
+                                    
+     Use Norton or another hex editor to search the file GAME.EXE for: 
+                
+                        75 22 91
+       and change to:   74 
+ 
+Happy Pirating!
+ 
+Remember, NEVER spend money on software when you can copy it for FREE!!!
+
+

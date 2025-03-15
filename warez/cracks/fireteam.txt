@@ -1,0 +1,20 @@
+                                Fireteam 2200
+                                    crack
+                                by Grishnakh
+
+        Here's a crack for the game 'Fireteam 2200' which removes the doc 
+check at the beginning:
+        After installing the game from floppies, use a hex editor to scan
+STARTUP.EXE for the string 
+                            C0 74 1B  
+        and change it to:      75
+
+        Just type a bogus number at the doc check and it'll let you in.
+        Look for more great cracks from me in the future, including one
+for the latest Hyperdisk which removes all the annoying shareware regis-
+tration 'nag' screens at boot-up.
+
+
+Remember, don't spend your money on software when you can get a copy for
+                              F R E E ! ! !
+

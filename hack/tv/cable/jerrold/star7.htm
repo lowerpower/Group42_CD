@@ -1,0 +1,65 @@
+<html>
+<head><title>Group 42 Sells Out [Starcom 7 Mod]</title></head>
+<body background="cable1.gif">
+<center>
+<img alt="Group 42 Sells Out!" src="../g42slogo.gif">
+</center>
+
+<hr size=5 noshade>
+<center>
+<h2>Starcom 7 R1 Full Service Modification</h2>
+by 4x of Group 42
+<p>
+</center>
+
+<h3>Introduction</h3>
+This information is good for the following Starcom 7 revision 1 units :<p>
+<p>
+This fix is designed to permanently turn on either a working unit or one
+that has been shut down.  Once the modification has been installed
+correctly, all channels will be received in the clear.
+<p>
+Several models of the Starcom 7 exist, and the same model number can
+even have differnet board layouts.  This fix only works on R1 units.
+R2 and CFT units need an R2/V5 fix.
+<p>
+<h3>Instructions</h3>
+<ul>
+<li>Make a circuit board as shown for the testboard.
+<img src="star7.gif">
+<li>Burn a GAL22V10 or PAL22V10 With one of the following:
+        <a href="sc7newmp.bin">fix1</a>,
+        <a href="sc7oldmp.bin">fix2</a>,
+        <a href="sc7origl.bin">fix3</a>, or
+        <a href="star7.jed">fix4</a> and install in testboard.
+
+<li>To open the unit you must remove the GI star screws.  Either obtain
+        a custom star driver bit or use a small pair of flush cutters
+        placing the two blades into oppsite notches and turning.
+        Hinge the top cover to the frount, upside down, and out of the
+        way.
+<li>Locate the EPROM (U4) in the unit and solder a 28pin socket over
+        the EPROM.
+<li>Some units have a talkback module that needs to be removed.  It is
+        a long module with 2F fittings.  Simply disconnect the molex
+        connectors and screws and remove.
+<li>On some trimode units, cut W25.  On baseband units, make sure W25 is
+        not cut.
+<li>Locate the IC labeled 74HC138 <a href="star71.gif">(see diagram.)</a>.
+        On trimode units you may have to lift the tuner slightly.  Solder
+        a wire from pin 15 to test board pad where marked.
+<li>Locate LC3518 (U5) and cut pin 20 in a manner that you can solder to
+        the IC side of the pin.  Solder the wire from the test board to
+        pin 20 of the LC3518 (U5).
+<li>Insert the test board in in the socket on top of U4.
+<li>Put the unit back together.  It takes a few seconds befor the unit
+        will turn on.
+</ul>
+<p>
+<br>
+<hr size=5 noshade>
+
+</html>
+
+
+

@@ -1,0 +1,21 @@
+As rdequested, here is the crack for Mod 4 Win 2.10.  Yeah I know this is 
+not the newest version, but it is pretty close.  You will need a hex 
+editor to do the crack.
+
+Position	Hex		Hex
+0051CC		74		90
+0051CD		03		90
+009970		75		EB
+00EDD8		E8		90
+00EDD9		F8		90
+00EDDA		FA		90
+019661		76		EB
+01969C		6A		C9
+01969D		00		CB
+		^^^^^		^^^^^
+		original file   not so original file
+
+
+
+
+

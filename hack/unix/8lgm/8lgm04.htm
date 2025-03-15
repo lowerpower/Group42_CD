@@ -1,0 +1,85 @@
+<head>
+<title>[8lgm]-Advisory-4.UNIX.gopher.12-Feb-1992</title>
+</head>
+<body>
+<hr>
+<H1>[8lgm]-Advisory-4.UNIX.gopher.12-Feb-1992
+</H1>
+<P>
+<H2>PROGRAM:</H2>
+<P>
+<PRE>
+        gopher(1)       (/usr/local/bin/gopher)
+                        UMN gopher client
+</PRE>
+<P>
+<H2>VULNERABLE OS's:</H2>
+<P>
+        All versions are believed to have this vulnerability.
+<P>
+<H2>DESCRIPTION:</H2>
+<P>
+        Shell access can be gained from gopher(1), even when running
+        in secure mode.  
+<P>
+<H2>IMPACT:</H2>
+<P>
+        gopher guest accounts are not secure.
+<P>
+<H2>REPEAT BY:</H2>
+<P>
+        This example demonstrates how to use gopher running in secure
+        mode to gain access to sh.  Please do not do this unless you
+        have permission.
+<P>
+        Create or modify a .Links file on any public gopher server,
+        for example:
+<P>
+<pre>
+Type=8
+Name=I'll give you a shell
+Host=;/bin/sh
+Port=
+Path=
+</pre>
+<P>
+        Log into the gopher account, and access the server and
+        directory containing the modified .Links file.  Select the
+        "I'll give you a shell" item, and after quiting telnet the
+        user has access to sh.
+<P>
+        It is also possible to create an entry that would not inform
+        the user of a gopher client of the commands that are about to
+        be executed.  It is therefore possible to leave commands on a 
+        gopher server for unsuspecting users to execute.
+<P>
+<H2>ADVICE:</H2>
+<P>
+<OL>
+<li> Display techinical information about a link before 
+           connecting to other hosts using gopher.
+<P>
+<li> Consider disabling guest gopher logins in the interim.
+</OL>
+<P>
+<P>
+<H2>FEEDBACK AND CONTACT INFORMATION:</H2>
+<P>
+<PRE>
+        8lgm-bugs@bagpuss.demon.co.uk           (To report security flaws)
+<P>
+        8lgm-request@bagpuss.demon.co.uk        (Request for [8lgm] Advisories)
+<P>
+        8lgm@bagpuss.demon.co.uk                (General enquiries)
+</PRE>
+<P>
+<P>
+        System Administrators are encouraged to contact us for any
+        other information they may require about the problems described
+        in this advisory.
+<P>
+        We welcome reports about which platforms this flaw does or does
+        not exist on.
+<P>
+<hr>
+</body>

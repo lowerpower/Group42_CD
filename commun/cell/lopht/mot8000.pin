@@ -1,0 +1,22 @@
+Motorola 8000 "brick" phone - "N" series
+-----------=?> Doctor Who <?=-----------
+11/21/94
+
+numbering starts on top row left
+
+pin    Signal
+---    ------
+ 1     logic ground
+ 2     not used
+ 3     audio in to phone
+ 4     audio out (and on/off toggle)
+ 5     4.75 Bias
+ 6     Manual test line
+ 7     Ground for audio signals (common)
+ 8     TRU data line
+ 9     not used
+10     CMP data line
+11     RTN data line
+12     ignition sense
+
+-end

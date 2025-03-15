@@ -1,0 +1,11 @@
+just a few simple byte changes
+
+SUBWAR 2029
+sw.exe
+
+search             9A A4 14
+CHANGE TO      EB  03 14
+
+This you will find is a better crack removing the password protection completly jees Masher is so tidy..
+
+Cracked by the MAsher uploaded BY MOebius

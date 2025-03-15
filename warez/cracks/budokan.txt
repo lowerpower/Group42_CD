@@ -1,0 +1,28 @@
+Crack> Budokan
+crack written by anonymous
+
+Below is a small TSR. It is a cheat & crack by someone else
+which I modified so that it is only a crack. Just load it before
+Budokan. Unfortunately it can not be uninstalled from memory.
+It is unlikely that you will find a search and replace type crack
+for this as it is reasonably well encoded and does several clever 
+self checks to make sure it is not modified.
+
+-----Start------
+begin 755 budo
+MZV:0     %!345)65QX&59S\@/S_=0Z=70<?7UY:65M8N_\ SSTD)74O@?H3
+M('4IB^R+1A0]\!]U'XY&%B;'!I8NN  FQ@:8+@ FD)"0D)"0D)"0D)"0Z[Z=
+M70<?7UY:65M8+O\N P&,R([8M FZJP'-(;@A-<TAB1X# 8P&!0&T_\TA@?O_
+M '4,M FZ, +-(;@!3,TAN@<!N"$ES2&T";HX LTAC19H <TG5%-2($]V97)L
+M87D@4')O9W)A;2!F;W(@0E5$3TM!3@T*0G)O=6=H="!T;R!Y;W4@8GD@5%))
+M040A#0I#<F%C:V5D(&)Y(%1H92!#>6)O<F<A#0H-"D)U9&]K86X@8VAE870@
+M8GD@4F5S8W5E(%)A:61E<B!;05!)70T*#0I44U(@:7,@)$%L<F5A9'D@26YS
+)=&%L;&5D#0HD
+ 
+end
+
+>>>Note from Bob: Append the stuff between and including the begin and end to
+>>>a file.  Give it some name, {name}.  Then, type 'uudecode {name}' and
+>>>it will make a file called budo.  Follow the crack instructions above
+>>>on how to run the game.  If you don't have uuencode/uudecode, get it from
+>>>wuarchive.wustl.edu... I don't know which directory.

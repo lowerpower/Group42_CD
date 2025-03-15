@@ -1,0 +1,871 @@
+
+                               Unicard
+                               =======
+
+ Ubiquitous Computation, Global Connectivity, and the End of Privacy
+
+                by John Walker -- kelvin@fourmilab.ch
+                  Revision 8 -- February 28th, 1994
+
+ABSTRACT
+========
+
+Threats to privacy are often seen as efforts launched  by  governments
+or  large corporations, using their power to circumscribe individuals'
+rights.  Yet often individuals voluntarily surrender their privacy for
+promises  of security or, more frequently, pure convenience.  Based on
+technologies already available or certain to appear  within  the  next
+few  years,  this paper explores how much convenience could be gained,
+and how much privacy lost as these technologies enter the mainstream.
+
+INTRODUCTION
+============
+
+Decades-long  trends in computing, communication, banking and finance,
+and security are converging to create, within this decade,  new  kinds
+of  connectivity  among  humans  and  new forms of interaction between
+individuals and institutions.
+
+The  precise  form  this  will  take and its immediate and longer-term
+consequences are as impossible to predict as it  would  have  been  to
+envision,  in  1875,  all the ways in which the telephone has become a
+part of modern life.  However, just as one could  confidently  predict
+in  1930  that  eventually one could direct dial from any telephone in
+the world to any other, we can extrapolate at least the  technological
+capabilities certain to emerge in the near future.  Technologies which
+meet perceived needs are  often  swiftly  adopted.   This  paper  will
+identify  the  key technological trends behind this coming revolution,
+sketch how the products which result  from  the  maturation  of  these
+technologies  might  look  and  feel  to  the humans who buy them, and
+consider some of the social and political consequences, beneficial and
+adverse, which may result from these developments.
+
+I've created "Unicard" [tm] to be the concrete embodiment of this  new
+technological era.  The following definition is taken from the preface
+of the original document  "The  Unicard  Interface--Provider's  Design
+Guide",  1998 edition, published by The Unicard Consortium, describing
+what is now called Unicard I.
+
+    "Physically, Unicard is a  54x85  mm  plastic  card,  0.5  mm
+    thick,  incorporating  a standard microprocessor, the Unicard
+    interface software in ROM, its unique identity  code,  and  4
+    megabytes  of  nonvolatile memory.  Interface between Unicard
+    and external devices is through an inductive link which  both
+    powers the card while it is being interrogated and provides a
+    bidirectional data channel  [4].   Each  Unicard  contains  a
+    non-alterable  512-bit identity.  Unicard's exterior includes
+    provisions for the owner's photograph, a magnetic stripe  for
+    compatibility  with first-generation credit card readers, and
+    a holographic validity tag.  The balance of  the  surface  is
+    available for decoration.
+
+    Operationally,    Unicard    serves   as   the   cardholder's
+    identification   for   all   forms   of   transactions    and
+    interactions.    Unicard  can  potentially  replace  all  the
+    following forms of identification and credentials:
+
+            Passport and visas
+            House and car keys
+            Driver's license and automobile registration(s)
+            National ID card
+            Employee ID card
+            Bank credit, debit, and automatic teller cards
+            Health insurance card
+            Medical history/blood type/organ donor cards
+            Automobile insurance card
+            Telephone credit card(s)
+            Membership card for clubs, museums, etc.
+            Frequent flyer club card(s) and flight coupons
+            Car rental discount card(s)
+            Train, bus, airplane, toll road and bridge tickets
+            Airline flight boarding pass
+            Train and bus pass and subscription card
+            WHO immunisation certificate
+            Telephone number
+            Personal telephone directory
+            Passwords for access to computers, data services, and networks
+            Software subscription access keys
+            Cable and satellite TV subscriptions
+            Cellular phone and personal digital assistant personal ID
+            Encryption keys for secure electronic mail, phone, and FAX
+            Electronic signature key
+            Cash
+
+    Unicard does not  require  any  of  the  above  documents  be
+    eliminated;  They can still be issued and used separately, if
+    desired.  But the Unicard  holder  may,  when  patronising  a
+    Unicard  member  organisation,  dispense  with  the  separate
+    documents and subsume them into  Unicard.   Most  information
+    linked  to  Unicard is not physically stored on the card, but
+    accessed using a highly-secure key from databases  maintained
+    by  individual  organisations, `Providers', both governmental
+    and commercial, whose computers are linked into  the  Unicard
+    worldwide backbone."
+
+TRENDS
+======
+
+The  following trends, each well-established at the present time, will
+create the technological infrastructure for Unicard.
+
+Ubiquitous Computing
+--------------------
+
+This is the term coined at Xerox PARC [1] for the next  phase  in  the
+evolution  of  computing.   The Personal Computer, foreshadowed in the
+1970's by the Xerox PARC Alto/Dynabook,  and  faithfully  embodied  in
+today's   GUI-equipped,   high   performance,   networked   individual
+computers, is on the verge of being transcended by a kind of  computer
+which is simultaneously more individual yet less personal.
+
+The   commercial   realisation   of  this  trend  is  visible  in  the
+leapfrogging technological development of Personal Digital  Assistants
+(PDAs)  such  as the Apple Newton and EO.  Xerox PARC envisions an era
+where an individual may have ten or twenty computers--just as one  may
+have  ten  or  twenty  books  or  magazines  open  at  various places,
+notepads,  etc.,  all  able to access the same pool of information and
+communicate.  If these devices become as standard as  pads  of  paper,
+they  will be as individual as the notepad you're scribbling on as you
+enumerate the holes in my argument, which  is  personal  only  in  the
+sense  that  you're  currently  writing  on it.  Once you tear off the
+pages you've written, it's just a notepad.
+
+Once computers are ubiquitous and universally  intercommunicate,  what
+matters  is who *you* are, not *which computer you're using*.  Picking
+up a computer and  identifying  yourself  to  it  (by  inserting  your
+Unicard in the slot) makes it "your computer"--with access to  all  of
+your  files,  privileges,  etc.  When you put it down, it ceases to be
+"yours" and becomes "just a computer", as any pad of  blank  paper  is
+"just a pad of paper".
+
+Ubiquitous  computing  manifests itself in other unexpected ways, even
+in the crude Xerox PARC prototype.  Their  equivalent  of  Unicard  is
+called a "tag"--a unique identification of an individual.  The ability
+of tags to be scanned at a distance (a common  capability  in  current
+commercially-available  employee  badge  systems),  permits  telephone
+calls for an individual to be  automatically  routed  to  the  closest
+telephone  and  notification of the arrival of electronic mail, FAXes,
+and telephone voice mail  messages  to  appear  on  a  LiveBoard  wall
+display  in  the room where the individual currently happens to be, or
+to an in-hand UniPad.  The active badge, which allows keeping track of
+people's  location  wherever  sensors  are  installed, is a commercial
+product available from Olivetti [3].
+
+Embodied in the Personal Digital Assistant, this trend is sufficiently
+visible to have appeared in Doonesbury.  Personal communicators, which
+permit identification  of  individuals,  wireless  communication,  and
+continuous  location tracking are ubiquitous and unremarkable fixtures
+of Star Trek: The Next Generation [6]; the  reader  is  reminded  that
+just  because  something  appears  on  Star  Trek  doesn't  imply it's
+currently impossible.
+
+Universal Connectivity
+----------------------
+
+The  Internet  currently connects more than 6 million computers and 20
+million individuals.  For the last several years, the number of people
+with access to the Internet has doubled  each  year.   Most  observers
+expect this trend to continue into the foreseeable future to the point
+where Internet access is as  widely  available  to  individuals  as  a
+telephone  with  international calling capability (which varies widely
+from the first world to the third world--and I expect Internet  access
+will track the telecommunications infrastructure in a similar manner).
+
+Over the past few years, the growth of the Internet has  moved  direct
+access  to  the  global  network  from a luxury to a necessity for any
+organisation involved in science and technology.   Those  institutions
+and  companies who, from fear or a false sense of economy, are not yet
+connected to the Internet, are presently being carried by their  staff
+who   maintain   personal  accounts  on  commercial  Internet  Service
+Providers such as Panix, Metronet, Netcom, The Well, EUnet,  etc.   As
+direct    high-bandwidth   connectivity   becomes   essential,   these
+over-cautious agoraphobic organisations will disappear  into  the  bit
+bucket  of  history, beside the early Twentieth century businesses who
+believed the telephone an unnecessary distraction.
+
+As the  backbone  of  the  Internet  has  expanded  and  increased  in
+bandwidth,  the  reach  of  the global data network has expanded.  The
+integration of last-generation X.25 connections with ISDN service  has
+brought  packet data service as close as the nearest telephone jack in
+much  of  Europe  and  (belatedly)  the  Americas.   Most  first-world
+countries  now  have  multiple  Internet  Service  Providers who offer
+dial-up SLIP or PPP  connections  which  provide  hard  "on  the  net"
+connections  to  any  customer  with  a  modem.  The emergence of 56kb
+dial-up modems promises to make this service commonplace even in areas
+not yet served by ISDN.
+
+The  asymmetry  of  Internet bandwidth to an individual site (wideband
+in, narrowband out), lends itself to asymmetrical solutions.   In  the
+Western  Hemisphere,  PageSat provides a satellite downlink of NetNews
+and electronic mail which requires only an unobtrusive 63 cm  dish  to
+receive  [11].  Some cable television companies (who have bandwidth to
+burn) are providing a 10 Mb/second Internet link to their subscribers.
+
+As the breadth and bandwidth of the Internet has grown over  the  last
+few years, so its ubiquity will grow in the next few.  Already, in the
+San Francisco Bay area,  wireless  bidirectional  Internet  access  at
+19.2kb  is  available--you  can  read NetNews while walking the dog or
+sitting in a traffic jam.   The  advent  of  global  digital  cellular
+communication  (GSM  in  most  of  the  world,  some  incompatible but
+equivalent clone in the U.S.  and  its  technological  colonies)  will
+provide  wireless  mobile  56kb  net  access  anywhere  one  can use a
+cellular phone.   The  launch  of  Motorola's  Iridium  (and/or  other
+competing LEO COMSAT swarm systems) will extend network access, albeit
+at lower bandwidth, to the most remote points of the globe.  A  member
+of  an  expedition climbing Mount Erebus in Antarctica will be able to
+insert his Unicard into an  Iridium-capable  PDA  and  send  pictures,
+snapped  seconds ago with the PDA's CCD camera, to a colleague working
+with the Greenland Icesheet Drilling Project.  Putting  up  with  icky
+delays  and  gnarly MPEG artifacts, they can discuss the pictures in a
+picturephone link.
+
+The coming of age of the Internet in the public consciousness has also
+been signaled by its appearance in Doonesbury and The New Yorker.
+
+Wireless Technology
+-------------------
+
+The initial liberation from wires introduced by the  first  generation
+of  cellular  telephones is spurring development of a broad variety of
+wireless, location independent devices.  Whether cellular,  low  Earth
+orbit  satellite, spread spectrum UHF, or diffuse infrared LANs within
+a  building,  technologies  are  emerging  which  will   allow   small
+autonomous  objects  to  intercommunicate  on  a  global scale without
+wires.
+
+Public Key Cryptography and Digital Signatures
+----------------------------------------------
+
+It's  hard  to believe, but it's been almost twenty years since public
+key cryptography was born.  But recently there's  been  a  fundamental
+change  which, at last, validates the technology and moves it into the
+technological mainstream.
+
+From the outset, public key cryptography  promised  solutions  to  the
+most    intractable   problems   of   information   security:   secure
+communication  between  strangers  without  prior  key  exchange   and
+verifiable  digital  signatures.   Yet still one wondered.  Public key
+cryptography  assumed  the   existence   of   "trapdoor"   functions--
+mathematical   functions   easily  calculable  in  one  direction  yet
+intractable in the inverse.
+
+Since there is no easy  proof  that  a  given  computation  meets  the
+criteria  of  suitability  as  a  trapdoor  function, one is forced to
+submit a candidate to the scrutiny of the  mathematical  community  to
+see how robust it is.
+
+In  the  last few years a consensus has developed.  Trapdoor functions
+based upon the prime factoring of  very  large  numbers  *are*  secure
+against foreseeable attacks.
+
+Oddly, validation of this view has come from an effort which  has,  as
+its  goal,  the restriction of access to encryption technology and the
+granting to government the power to override an individual's right  to
+privacy  subject to a court order.  The "Clipper chip" proposed by the
+United States [5] is a silicon realisation of a public key/private key
+encryption  mechanism.   The "key escrow" proposed for this scheme is,
+therefore, a  repository  which  stores  private  keys  which  may  be
+released, in the interests of surveillance, only after a stringent set
+of legal safeguards have been complied with.
+
+If  "public key/private key" encryption schemes were not secure, there
+would be  no  reason  to  burden  their  users  with  a  "key  escrow"
+mechanism--the  organs  of internal security could just crack the code
+by themselves and read everybody's mail.  The very  existence  of  key
+escrow  acknowledges  that  "we have them now"--there is an encryption
+technology  which  is  computationally   intractable   even   by   the
+codebreakers,  to  such an extent they're forced to demand legislative
+relief to continue to read our mail.
+
+Even data security techniques much less secure than public key methods
+are  perceived  as  threats by Great Power intelligence agencies.  The
+recent successful attempt to limit the anti-eavesdropping security  in
+the  GSM  digital cellular telephone standard is evidence of this (and
+provides,  to  the  educated  observer,  a  useful  benchmark  of  the
+real-time decryption capability presently available.)
+
+Global Positioning Systems
+--------------------------
+
+As global communication facilities, integrated into a unified network,
+make it  impossible  to  be  out  of  touch  anywhere  on  Earth,  the
+completion of the global navigation satellite constellations (U.S. GPS
+and  Russian  GLONASS systems) have made it impossible to get lost.  A
+handheld GPS receiver, no  larger  than  a  Walkman  cassette  player,
+enables  one to determine one's position anywhere on the globe with an
+accuracy of 100 metres.  Should easing military tension and/or  demand
+from  aircraft  navigation  users  result in removal of the "selective
+access" to the higher precision military GPS data, 10  metre  accuracy
+is achievable.
+
+Differential  techniques,  where  the GPS receiver communicates with a
+local station whose precise co-ordinates are known (for  example,  the
+transmitter  of the nearest mobile telephone cell), routinely permit 5
+metre accuracy without access to the military  code,  and  experiments
+underway  at  NASA  Langley  Research  Center  with  a Boeing 737 have
+demonstrated 2 metre accuracy and suggest 1 metre accuracy  is  within
+reach.
+
+If you've worked with GPS receivers, you've undoubtedly observed  that
+they don't work unless the antenna has a largely unobstructed view  of
+the  sky.   Since  the major application of GPS is marine and aircraft
+navigation, this poses no problem since naval vessels rarely  if  ever
+sail  down  the  concrete canyons of Gotham.  For broader applications
+such as automobile navigation systems, tracking of truck location  for
+courier  services,  etc.   GPS  is less useful.  Numerous navigational
+technologies are being developed to supplement  or  supplant  GPS  for
+these  applications,  including  transponder-based  systems, low Earth
+Orbit  active  navigation  satellites,  possibly  piggybacked  onto  a
+communication   system   such   as   Iridium,   and  the  ground-based
+"pseudolites" being developed at Stanford [2],  2  x  3  inch  printed
+circuit  boards  which transmit a high-precision GPS-compatible signal
+to a local area.  Both U.S. and Russian Earth resources satellites now
+carry  receivers  for the SAREX [10] system, which enables location of
+those in need of search and rescue in remote areas.  SAREX has already
+saved numerous lives, particularly in the Arctic.
+
+UNICARD UTOPIA
+==============
+
+It's  July  20,  2004,  only  five  years since The Unicard Consortium
+introduced Unicard into test markets around the globe.  Savaged  by  a
+"profile" on the technology page of The Wall Street  Journal,  only  a
+month before its introduction Unicard had withdrawn its Initial Public
+Offering,  hoping  to  recover  its   credibility   (and   price)   by
+demonstrating   that  Unicard  was  not  the  "Fishy  Chip"  or  "Giro
+Gearloose" the article labeled it.
+
+Looking  back  over those five years, it's hard to imagine that so few
+investors believed in Unicard  that  its  IPO,  finally  completed  in
+August  of  1999,  sold  at  a  price, accounting for subsequent stock
+splits, of less than ten cents.  It's even harder to imagine  a  world
+without  Unicard.   For what is Unicard today, but the very membership
+badge that identifies citizens of Earth,  making  so  many  previously
+difficult   things  easy  and  sweeping  away  problems  that  plagued
+civilisation for centuries?
+
+With Unicard, doors unlock themselves for you as you put your hand  on
+the  knob,  while  remaining  secure  against  intruders.  The starter
+button on your car works only for  the  people  you've  authorised  to
+drive it.  You're free from the burden of carrying cash, credit cards,
+drivers' licences, auto registration, insurance forms, passports,  and
+all  that--you  don't  need  them as long as you have Unicard, and you
+always have it--after all, would you go out without any of the  things
+it replaces?
+
+Gone is the fear of theft.  If you lose Unicard or somebody is foolish
+enough to steal it, simply dial 119 on any  communicating  device,  no
+Unicard  needed,  and cancel your old card.  You can pick up a new one
+at any post office or bank within an hour.  A crook who tries  to  use
+your  stolen  card  will  identify  his location with each transaction
+granted while the authorities converge upon the  miscreant.   And  the
+Unicard  Safety Net indemnifies all Unicard clients against all losses
+incurred through theft or fraud.
+
+With  Communicating  Unicard  IV,  first  issued on July 20, 2002, the
+Liberation  Through  Security  [tm]  of  Unicard  took  another  leap.
+Equipped  with a local low-power RF transponder, Unicard IV eliminated
+the  need  to  even  produce  the  card,  except  when  using  earlier
+generation equipment.  Remember all the years you spent in the grocery
+line, watching your purchases be efficiently computer-scanned and yet,
+at  the  end,  having  to fumble with bills and coins?  How natural it
+seems  today  to  just  walk  through,  the  Unicard  in  your  pocket
+automatically  charging  the  purchase to your designated Active Debit
+Account.
+
+Bridge toll booths, immigration lines at the airport, company security
+checkpoints, employee badges have vanished like the morning dew thanks
+to Unicard.  Unicard is increasingly not just an  "Open  Sesame"  that
+makes  barriers open, but an invisible force that makes them disappear
+as obsolete and unnecessary.
+
+How many parents remember the anxiety of child-rearing before Unicard?
+Now,  with  your  child's  Unicard  sewn into his or her clothes, your
+child can never be lost--a simple call to your local Unicard office or
+police  station,  verified by your Unicard as a parent, and your child
+is immediately located.  No more little lost children either--a simple
+scan  of  their Unicard identifies the nearest parent and dispatches a
+telephone call to their  communicator  or,  if  they  have  none,  the
+nearest  telephone.   To  increase  the sense of security that Unicard
+provides, many parents are now opting to implant subcutaneous  Unicard
+compatible  identity  chips  before  their  babies  come home from the
+hospital.  A technology proven safe over 20 years  of  veterinary  use
+and  implanted in more than 15 million humans today, the identity chip
+may, in time and with the development of technology, make the  current
+physical  Unicard  obsolete.   The Unicard Consortium understands that
+many people are uneasy with  the  identity  chip  concept  and,  while
+maintaining  compatibility  between Unicard and the Consortium members
+who  provide  identity  chips,  neither  supports  nor  opposes  their
+implantation.   The  Unicard  Consortium  opposes  any governmental or
+corporate attempt to mandate identity chips.
+
+With the adoption of the United Nations Convention on  Credentials  in
+1998,  and its subsequent adoption first by the Republic of California
+in 1999, and then by the United States and the European Union in 2001,
+all  citizens  and residents of contracting parties must carry legally
+valid  identification  documents at all times.  Unicard is, of course,
+only an alternative to the official national ID card, but in practice,
+given  its  advantages,  has  become  the  choice  of  998 out of 1000
+citizens of the US and EU.  The adoption of the UNCC, by  making  lack
+of  credentials probable cause for detention, tremendously constrained
+the opportunities for crime, since any individual must carry  one  and
+only  one Unicard (or national ID card), verifiable against a physical
+identity database in case of suspicion.  The virtual disappearance  of
+cash  in  these developed economies has enabled the rapid location and
+apprehension of criminals  whose  Unicards  are  flagged  by  a  court
+order--if  one's  Unicard  is  blocked,  few  choices  remain  but  to
+surrender to the authorities.
+
+The Unigate Scandal of  2000  was  a  major  setback  to  The  Unicard
+Consortium,  but  strengthened  it  and,  in  time, has reinforced the
+public's confidence in  the  legally  guaranteed  privacy  upon  which
+Unicard's  Liberation  Through  Security  is  founded.  Unigate, where
+low-level Unicard Network Management personnel were extracting  luxury
+purchase records from audit and archival backup files and selling them
+to mailing list companies, revealed both technological and  managerial
+weaknesses which have been remedied by the Consortium, fully complying
+with the recommendations of the EU Parliament Special  Commission  and
+Unicard's  own  internal  investigation.  While not attempting to deny
+the seriousness of the security breach, Unicard notes that credit card
+companies  in  the  1980's and 1990's routinely collected and marketed
+such information about their clients.  Unicard remains proud  that  in
+five  years  of  operation  and  trillions  of  transactions,  banking
+records,  health   information,   travel   histories,   tax   filings,
+communication  security private keys, or any of the multitude of other
+items individuals access with Unicard have remained  entirely  secure,
+guarded  against unauthorised disclosure by key escrow and due process
+disclosure agreements negotiated between Unicard and the  jurisdiction
+of the cardholder's domicile.
+
+Finally, Unicard has eliminated, for more than 99% of its cardholders,
+the  burden  of  preparing  and  filing  income tax returns.  With all
+tax-relevant   transactions   performed   through   Unicard,  the  tax
+preparation  or  accounting  firm  of  the  cardholder's  choice  will
+prepare, for a modest fee, complete national and local tax returns for
+the cardholder, filing them electronically with  refunds  credited  or
+tax  due  debited  from  the  cardholder's  Active Debit Account.  The
+United States estimates that the adoption of Unicard Automatic  Filing
+has  created  a  net productivity gain of more than US$100 billion per
+year, while eliminating more than US$50 billion per year in tax fraud.
+In  the  words  of  the  Treasury  Secretary,  "Unicard  has  played a
+substantial role in the elimination of budget deficits in America".
+
+
+UNICARD UBIQUITOUS
+==================
+
+The  Unicard  Consortium,  in conjunction with industry organisations,
+national and  international  standardisation  bodies,  and  individual
+manufacturers  are  now  preparing  the  next  great leap in Unicard's
+unification  of  the  universe.   Universal  Unicard  V   will   enter
+pilot-phase testing in 2005, with  the  final  standard  and  hardware
+integration  specification  expected to be published on July 20, 2007.
+Official launch is scheduled for July 20, 2009,  by  which  time  many
+products  compatible with Universal Unicard V should already be on the
+market.
+
+Since inception, Unicard has  identified  a  human  being.   Universal
+Unicard  V  generalises  this  so  that,  in the words of the original
+proposal, "every object, agent, or process capable  of  generating  or
+responding  to  stimuli  will  receive  a unique Unicard identity, and
+become able, subject to Unicard's  principles  of  Liberation  Through
+Security, to interact with people and all other such objects."
+
+Just as few imagined how the original, per-person Unicard would change
+the world, today only a small band of technological visionaries  truly
+grasp the potential of Universal Unicard V.  Let's try to capture some
+of their excitement by peeking into the world they see emerging.
+
+Every  person has a Unicard, but that's so commonplace it doesn't bear
+mentioning.  But *so does everything else*---automobile and  airplane,
+television and telephone, microwave oven and mixer; light switches and
+lamps,  speakers  and  amps,  thermometers  and  micrometers, electric
+drills and coffee mills, each with its own Unicard or, more precisely,
+Unicards.   Not  physical  Unicards  as we know them now, but rather a
+range of addresses within the  Unicard  Universe  which  enable  every
+control  to send messages and every action to be controlled by receipt
+of messages--anywhere on Earth and beyond.
+
+Suppose you've installed a new door between the living room and dining
+room  of  your house, and you'd like to add a light switch by the door
+to turn on the living room lights.  Call  an  electrician?   Not  with
+Universal Unicard V.  Simply go to the store and buy a switch with the
+Unicard V logo on the package.  Take it home, peel  off  the  backing,
+and  stick  it wherever you like.  Operate it a few times and when you
+display your house's Unicard environment, the switch has appeared, not
+connected  to  anything.   Draw a line from the switch to the overhead
+light and you're done.  Would you like your stereo to  mute  when  you
+pick  up  the telephone in the living room?  Draw a line from the hook
+switch you see when you display the telephone's Unicard  to  the  mute
+switch on the stereo front panel.
+
+How about a panic button that turns on all the lights  in  the  house?
+Stick  on  the switch, and wire it to the "On" message terminal of all
+the lights.  Wouldn't it be nice if that happened automatically if the
+smoke  detector  went  off?   Draw  another line, and it's done.  Have
+trouble finding your car in the parking  lot?   Draw  a  line  from  a
+button  on your PDA to the car's lights, so you can make them flash by
+pressing the button.
+
+Universal  Unicard  V  will not only let you define the connection and
+operation of physical objects any way you like, it will largely  erase
+the  distinction  between  tangible objects and software.  The button,
+switch, knob, or slider that activates or controls a real  object  can
+just as well be a software button on a computer screen anywhere in the
+world, a control that can be activated not only by  a  human,  but  by
+programs.   Conversely,  real  world controls and sensors can activate
+software lights, meters, provide input  to  programs  or  trigger  the
+activation of software agents to respond to the external signal again,
+anywhere in the world.
+
+As the head of the Universal Unicard V design  team  puts  it,  "We're
+erasing  the distinction between hardware and software.  We're letting
+people redefine their environment any way  they  like,  exploring  new
+ways  to  interact  with  the  world  around  them".   As never before
+Universal Unicard V challenges the Unicard goal of Liberation  Through
+Security.   Unicard  V  will  not be accepted unless there is absolute
+confidence it is safe from abuse.  People will not install  Unicard  V
+compatible  appliances  if  they believe that teen-age hackers in Hong
+Kong can make their toilet flush every time a  taxi  driver  in  Cairo
+blows his horn, or that the microphone of the telephone in their house
+might be wired, by nosy neighbours,  to  the  input  jack  of  a  tape
+recorder  in  theirs.   Clearly,  Unicard V mediated links between the
+cockpit displays and controls of  an  airliner  and  its  engines  and
+control  surfaces  will  not  supplant  existing fly by wire or fly by
+light protocols until the certifying bodies determine them to be  more
+reliable  than the systems they're replacing.  The Unicard Consortium,
+aware of the challenge before it, has adopted a conservative  schedule
+for  the  design,  validation,  pilot test, and market introduction of
+Universal Unicard V, and has involved in the effort, from the  outset,
+government  and  industry representatives so that concerns relating to
+public safety, privacy, human rights, law  enforcement,  and  national
+security can be incorporated into the final design specification.
+
+It is a tribute to the vision of the  original  designers  of  Unicard
+that  they chose a 512 bit unique identity for each card.  In light of
+historical problems with  Internet  address  space,  telephone  number
+assignment,  and  other  name  space  congestion  problems,  Unicard's
+designers opted for an unbounded future.  The universe is believed  to
+contain  approximately  10^80  protons;  an  address space of 266 bits
+permits assigning every proton  in  the  universe  a  unique  Unicard.
+Since  no  known physical principle would permit encoding such a large
+amount of information without using many more protons, an  address  of
+that  size  should be more than adequate for all time.  Opting for the
+immensely larger 512 bit identity (10^154  unique  addresses)  permits
+"wasting"  address  space in the interest of decentralised issuance of
+subspaces within the overall address space and  the  incorporation  of
+robust  redundancy  in identities to guard against errors.  Indicative
+of the humility of the Unicard designers in the face  of  eternity  is
+their  decision to reserve the 2^511 bit to indicate, if one, that the
+following identity is 1024 bits.
+
+
+UNICARD UNDERSIDE
+=================
+
+Every step in the technological progress toward our modern  world  has
+been  opposed  by  those  who saw in it a threat to the way of life to
+which they had become  accustomed.   Progress  is  impossible  without
+change,  and  change  inevitably  creates discontent, especially among
+those set in their ways.  Yet without progress our society would  grow
+stagnant  and  eventually disappear at the hands of those more willing
+to build the future.
+
+Even though Unicard is not a  revolutionary  change,  but  rather  the
+integration  of already-existing instruments into one small card, some
+see Unicard as an unprecedented assault upon their civil liberties and
+right to privacy.  In reality, Unicard is neutral in this regard.  All
+of the legal guarantees of privacy which existed  before  Unicard  are
+unchanged.  Communication security and the right to confidentiality of
+health and other personal information are, if  anything,  enhanced  by
+Unicard.  Since all communications, in whatever form, sent to and from
+a Unicard holder are encrypted in  an  unbreakable  form,  law-abiding
+citizens   are  guaranteed  their  data  remain  private,  as  only  a
+due-process determination of probable cause, as  in  investigation  of
+terrorists,  drug dealers, money launderers, or tax evaders, can cause
+release of escrowed keys to law enforcement agencies.
+
+The personal location  tracking  aspects  of  Unicard,  both  inherent
+through  the  collection  of  financial  transaction  data  and,  more
+recently, by collection of legally protected personal tracking data by
+ScannerPosts  and  position ping reports from Unicard-compatible PDAs,
+have often been cited as a novel and particularly  intrusive  form  of
+invasion  of  privacy  due  to Unicard.  Yet no legal tradition of any
+human culture, from the Code of Hammurabi to the present day,  asserts
+a  right to privacy of movement.  To the contrary, courts have granted
+wide latitude in obtaining evidence of the  movements  of  individuals
+when  relevant to a legal proceeding.  The United States Supreme Court
+decided  in 2003 in Carlyle  vs. O'Ryan  that   Unicard's  ability  to
+track,  whether  in  real  time  or  after  the  fact, the movement of
+individuals, did not infringe the First Amendment guarantee of  "right
+of  the people peaceably to assemble".  The Chief Justice, writing for
+the majority, concluded "The right to privacy does not confer a  right
+to  anonymity  in  public  actions.   This  technology,  given the due
+process  constraints  upon  disclosure  it  embodies,   infringes   no
+constitutionally  guaranteed right and provides admissible evidence of
+movement relevant to conspiracy and other civil and criminal cases."
+
+Unicard's individual location traces, embargoed against release except
+by due process, provide law enforcement the tools it needs to  put  an
+end  to  random  violence,  drug dealing, foreign terrorism, and other
+crimes against lawful citizens without compromising the rights of  law
+abiding citizens [5,7].
+
+
+WHERE ARE THEY NOW?
+===================
+
+The  state  of development of the key enabling technologies of Unicard
+as of early 1994 is briefly surveyed below.
+
+Distributed database and transaction computers:
+    Exist today.  Unicard requires  a  system  no  more  complex  than
+    present-day  airline  reservation  and retail bank and credit card
+    operations.  Unicard would almost certainly  be  implemented  like
+    existing  Videotex  services,  where  Unicard  provided  only  the
+    backbone and gateway to servers operated by the various facilities
+    accessed though Unicard.
+
+Global positioning systems:
+    The  GPS  and  GLONASS constellations are operational, with launch
+    capability and on-orbit spares approaching  the  level  that  both
+    systems  can  be  considered  reliable.  Concern for political and
+    economic stability in Russia and worries about continued access to
+    the  Baikonur  launch site in now-independent Kazakhstan cloud the
+    future of GLONASS.  GPS is considered secure, although the  United
+    States  Department  of  Defense, its operator, has provided only a
+    ten-year guarantee of free access by commercial  users.   Intelsat
+    is  considering  fielding  its  own non-military and international
+    system, and many civil users of GPS are urging the U.S. and Russia
+    to turn over management and operation of their existing systems to
+    an international body.  The advantages  of  GPS  for  aeronautical
+    navigation,   ranging  from  trans-Pacific  flights  to  precision
+    approaches by light planes to unimproved  and  unattended  landing
+    strips  are  driving research in GPS applications.  Nobody expects
+    to reach the limits of what is possible with GPS any time soon.
+
+    Other positioning systems are still in the experimental  or  early
+    development  phase.   Certainly  a multitude of local transponders
+    can provide very high resolution location, but  cheaper  solutions
+    such as LEO satellite constellations are as yet unproven.
+
+Implanted identity chips:
+    Exist  today,  and  are  widely  used  for  animals  ranging  from
+    laboratory  rats  and  mice  to  horses  and  cattle.   Considered
+    entirely  safe,  implantation  takes only a few seconds and can be
+    performed by  most  first  world  veterinarians  with  a  syringe.
+    Trauma  to  the  implantee  is  no  more than a regular injection.
+    Current technology requires scanning with a hand-held detector not
+    unlike  an  airport  hand-held metal detector--hence a close-range
+    frisking type scan.  Given the  present  application,  there's  no
+    demand for scanning at a distance.  To my knowledge identity chips
+    have  not been implanted into humans, certainly not routinely, but
+    I am aware of no medical evidence to oppose their use.  One vendor
+    of identity chips is Bio Medic Data Systems, Inc., 205 West Spring
+    Valley Avenue, Maywood, NJ 07607, USA, Tel ++1 201 587  8300;  see
+    [9].
+
+Personal Digital Assistants / Universal Communicators:
+    The potential  to  unify  palmtop,  perhaps  pen-based  computers,
+    cellular  telephone,  FAX,  and  global  data  networks into a new
+    category of product is widely recognised, and  companies  such  as
+    Apple, Sharp, Casio, and Microsoft are racing to set the standards
+    for  such  products.   Integration  of  global positioning and the
+    ubiquitous computation concept that a computer is made  "personal"
+    by the identity of its current rather than hardware ownership have
+    not yet been widely discussed in conjunction with these products.
+
+Internet:
+    Perhaps  the most significant technological, social, and political
+    phenomenon of the decade, the rapid growth  of  the  Internet  may
+    accelerate  further  as  the  United States moves to implement its
+    "Information  Superhighway"  infrastructure.   In  all  likelihood
+    based  on  a  fibre  optic backbone and Asynchronous Transfer Mode
+    (ATM) switching architecture, and driven by populist supporters to
+    provide  universal  connectivity, a future where Internet taps are
+    as commonplace as (and indistinguishable from) telephones  may  be
+    much  nearer  than  many think.  A Connected Society promises such
+    increased competitiveness that other industrialised  regions  will
+    be  motivated  to  launch their own data infrastructure plans with
+    comparable capability and schedule.
+
+Non-contact sensing:
+    The Olivetti Active Badge used by Xerox PARC  and  the  MIT  Media
+    Lab,  and  its  more  primitive  brethren  widely used in industry
+    demonstrate that reliable sensing of a  credential  carried  by  a
+    person  need not involve any distracting and time-consuming action
+    by the wearer.  These technologies are not widely applied and at a
+    very early stage of development; they can therefore be expected to
+    improve dramatically when driven by  a  potential  market  in  the
+    hundreds of millions to billions of units.
+
+Public key cryptography:
+    With the battle over the Clipper Chip still unresolved, public key
+    cryptography has already permeated the Internet community with the
+    broad  diffusion   of   Phil   Zimmerman's   PGP   package.    The
+    availability,  within  the United States, of an RSA-licensed fully
+    compatible version of PGP allows patent-risk-free  commercial  use
+    within  the  U.S.  and  throughout  the  world.   Internet Privacy
+    Enhanced Mail (PEM) offers an alternative public key architecture,
+    with a more centralised approach to key management.
+
+Wireless technology:
+    This   is   one   of   the  most  rapidly  bubbling  cauldrons  of
+    technological ferment today.  Whether cellular phone PCMCIA  cards
+    for  laptops  and PDAs [8], radio or infrared LANs for the home or
+    office, it's clear that user demand, technological  progress,  and
+    opening  of  the  900 Mhz band have sounded the death knell of the
+    copper cable.
+
+Global wireless communication:
+    Motorola's  Iridium system has obtained funding and found partners
+    which make its launch late in the 1990's seem  assured.   Hardware
+    development,  both  of prototype satellites and portable terminals
+    is currently underway.  Other organisations, such as Intelsat  and
+    Inmarsat are considering fielding competitive systems.
+
+The Wall Street Journal:
+    Continues  to  ignore or ridicule emerging technologies until well
+    after all the easy money has been made in them.
+
+National identity cards:
+    Most industrialised nations issue one form or another of  national
+    identity  card,  and  many  require adults to carry their card and
+    produce it when asked by the authorities.  Jurisdictions where  no
+    nominal  identity  card  exists  often have an equivalent.  In the
+    United States, anybody who travels by automobile,  which  accounts
+    for  the  overwhelming  percentage  of  the adult population, must
+    carry a driver's license which, though issued by state governments
+    rather  than  national  government, is linked through the National
+    Crime Information Center to  all  law  enforcement  jurisdictions.
+    Even  non-drivers  are  practically  required  to  obtain  a state
+    identification  card,  since  "Photo  ID"  is  required  for  many
+    transactions.   The  United States is experimenting with passports
+    linked  to  a  database  of  hand  geometry,  which  would   allow
+    verification of the bearer's identity at border control stations.
+
+Automatic tax calculation and filing:
+    For more than a decade, the United States Internal Revenue Service
+    has  allowed  taxpayers  with  only  regular  wage  income and the
+    standard deduction to simply sign their return and  have  the  IRS
+    calculate  the  tax.   With  increased  reporting of all financial
+    transactions to the IRS by banks, stockbrokers, mutual funds, real
+    estate title companies, etc., IRS officials have stated on several
+    occasions  over  the  last  few  years  that  the  day  when   the
+    overwhelming number of taxpayers could have their taxes calculated
+    automatically  was  not  very far in the future.  In addition, the
+    IRS permits and encourages electronic filing of tax returns, so as
+    soon as all relevant transactions can be collected electronically,
+    automatic filing can be implemented independent of the IRS.
+
+
+DISCLAIMER
+==========
+
+The  author of this document sincerely hopes that nothing like Unicard
+ever comes to pass or, if it does, that privacy  is  inherent  in  its
+technological  foundations,  not  dependent  upon  the  good  will and
+respect for the law of governments and the  fallible  individuals  who
+compose  them.   Given  the obviousness of the trends whose confluence
+may give birth to Unicard, I decided the potential benefit of alerting
+those  concerned  with  threats to privacy of its imminence outweighed
+any risk of accelerating its appearance by describing  it  in  such  a
+concrete  form.  I have deliberately written this paper to present the
+attractions of Unicard and minimise  the  risks  with  the  intent  of
+demonstrating  how seductively compelling the convenience and apparent
+security of such a development  might  be  to  the  vast  majority  of
+people.   Imagine  what  a  world-class advertising agency could do to
+promote it.
+
+Unicard  is  possible,  if  not  today,  in  the  very  near   future.
+Technological  feasibility does not imply inevitability--were that the
+case we would be launching weekly Saturn V  flights  to  Mars,  flying
+from  New  York to London in two hours in Mach 3 aircraft, and halting
+global  warming  by  building  thousands  of  plutonium  fast  breeder
+reactors.   But  when  social  trends  are already evolving in a given
+direction,  for  example  the  loss  of  individual  privacy   through
+increasingly  fine-grained  surveillance  of  behaviour, technological
+developments which remove barriers which previously  constrained  this
+drift are distinctly worrying.
+
+Attempts  to  limit  the development of technologies, especially those
+which, wisely applied, have self-evident value  to  a  broad  base  of
+people, are usually futile.  What is needed, and now, is foresight and
+a careful analysis of  the  evolving  relationship  between  developed
+societies  and  their  citizens.   If informed citizens exercise their
+sovereign right to choose the kind of world they wish to live in, then
+use their collective power to guide the development and application of
+technology, there is no reason to fear the future.
+
+If subjects of mighty governments  abdicate  their  responsibility  at
+this  turning  point  in  history,  the  era of privacy and individual
+freedom may be coming to an end.
+
+REFERENCES
+==========
+
+1.  PARC Builds a World Saturated With Computation.  M. M. Waldrop,
+    Science 261, 1523 (1993).
+
+2.  GPS "Pseudolites" Offer Promise for Approaches.  Aviation
+    Week & Space Technology, October 18, 1993, p. 60.
+
+3.  Track People with Active Badges.  D. Pountain, Byte, December
+    1993, p. 57.
+
+4.  Secrets of Using the DS1209 in an RF Transponder.  M. Ferrari,
+    Midnight Engineering 41, 14 (1993).
+
+5.  Statement on Encryption Technology.  The White House, Office of
+    the Press Secretary, February 4, 1994.
+
+6.  Sternbach, R. and M. Okuda.  Star Trek: The Next Generation
+    Technical Manual.  New York: Pocket Books, 1991.  ISBN 0-671-70427-3.
+    Pp. 92-95.
+
+7.  FBI, NSA Win Fight for High-Tech Eavesdropping Communication.
+    Los Angeles Times, February 5, 1994.
+
+8.  Tune In, Turn On: Sound, Cellular Now on Cards.  J. Bertolucci,
+    PC World, February 1994, p. 64.
+
+9.  Bio Medic Data Systems, advertisement.  Science 262, 816-817
+    (1993).
+
+10. SAREX is the acronym for "Search and Rescue Exercise", not the
+    "Shuttle Amateur Radio Experiment" ham radio on the Space Shuttle
+    program which, confusingly, shares the same acronym.
+
+11. For information contact PageSat, Inc., 992 San Antonio Road,
+    Palo Alto, CA 94303, USA, ++1 415 424-0384, or E-mail to
+    pagesat@pagesat.net.
+
+------------------------------------------------------------------------
+
+                   ________________________________
+                  |                                |
+                  |   U   N   I   C   A   R   D    |
+                  |                                |
+                  |  Liberation Through Security   |
+                  |________________________________|
+
+             (C) Copyright 1998 -- The Unicard Consortium
+
+This   document  may  be  freely  redistributed  in  unmodified  form,
+including this statement.  Excerpts of any length may be quoted  under
+the doctrine of fair use, as long as identified as such and the source
+cited.
+
+The most recent copy of this document may be retrieved by anonymous
+FTP from:
+
+    ftp ftp.fourmilab.ch
+    Name: anonymous
+    Password: <your E-mail name>
+    cd /pub/kelvin/documents
+    get unicard.doc
+    bye
+
+The author may be contacted via Internet E-mail to:
+
+    kelvin@fourmilab.ch

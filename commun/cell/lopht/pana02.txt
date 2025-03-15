@@ -1,0 +1,125 @@
+PANASONIC EB 3500
+
+NOTES:  This is a dual NAM hand held unit.
+        The ESN prefix is 136 decimal & 88 hex.
+        Panasonic: 201-392-6053
+
+
+NAM PROGRAMING:
+
+1.  This unit requires a programing adaptor, part number EB-WWG1036A, if
+    you do not have one try the following:
+
+
+
+2.  Turn power on with pins ...
+
+3.  Enter * 0 0 0 0 #, phone will display "MAINT MODE", you are now in
+    maintenance mode.
+
+4.  Enter * 1 SND for NAM 1, or * 2 SND for NAM 2.  Phone will display "NAM
+    1
+    MODE" or "NAM 2 MODE".  Note that NAM 2 has entries 01 through 06 only.
+
+5.  Each data entry can be looked at by pressing RCL followed by the
+    location (step) number below.
+
+6.  To store new data enter the value, press STO followed by the location
+    (step) number below.  For example to enter a system ID of 00031 enter
+    00031 STO 01.  Data can be entered or reviewed in any order.
+
+7.  At any time press STO * * to complete programing and return to
+    maintenance mode.
+
+8.  At any time press STO # # to ABORT programing and return to maintenance
+    mode.
+
+9.  Press * 4 SND to exit maintenance mode.
+
+
+PROGRAMING DATA:
+
+STEP#    #OF DIGITS/RANGE    DISPLAY        DESCRIPTION
+
+01       00000 - 32767       SIDH           SYSTEM ID
+02       10 DIGITS           OWNDL          MIN (AREA CODE & TEL NUMBER)
+03       0 OR 1              PRESYS         PREFERRED SYSTEM
+04       333 OR 334          IPCH           INITIAL PAGING CHANNEL
+05       2 DIGITS            ACCOLC         ACCESS OVERLOAD CLASS
+06       2 DIGITS            GIM            GROUP ID (10 IN USA)
+07       2 DIGITS            DLMT           DIALED DIGIT LIMIT (00= NO
+LIMIT)
+08       08 ONLY             SCM            STATION CLASS MARK
+09       UP TO 12 DIGITS     SPDL           SPEED DIAL NUMBER (PERMANENT
+                                            NUMBER STORED IN LOCATION 00)
+10       2 TO 4 DIGITS       LOCK           LOCK CODE
+11       8 DIGIT, 0 OR 1     FCN 1          SEE NOTE 1 BELOW.
+12       8 DIGIT, 0 OR 1     FCN 2          SEE NOTE 2 BELOW
+13       8 DIGIT, 0 OR 1     FCN 3          SEE NOTE 3 BELOW
+
+
+NOTES:
+
+1.  Suggested entry is: 11000100.
+
+Digit 1 = Local use Mark
+Digit 2 = MIN Mark
+Digit 3 = Not Used
+Digit 4 = Not Used
+Digit 5 = Not Used
+Digit 6 = Horn Alert  (Select only if radio mute is "0")
+Digit 7 = Radio Mute  (Select only if horn alert is "0")
+Digit 8 = Not Used
+
+2.  Suggested entry is: 00010100.
+
+Digit 1 = Not Used
+Digit 2 = Built in Monitor
+Digit 3 = Auto Lock (if set to 1 and unlock code is unknown phone will NOT
+                    enter program mode.)
+Digit 4 = Full Lock
+Digit 5 = Not Used
+(Enable only one of the following)
+Digit 6 = Allow user A/B select
+Digit 7 = Preferred system only
+Digit 8 = Home system only (no Roam)
+
+3.  Suggested entry is: 11000111.
+
+Digit 1 = Received call indicator
+Digit 2 = Continuous DTMF
+Digit 3 = Not Used
+Digit 4 = Dial Lock
+Digit 5 = Not Used
+Digit 6 = Enable permanent timer (FCN 1)
+Digit 7 = Enable resetable timer (FCN 2)
+Digit 8 = Enable individual call timer
+
+
+READING ESN FROM HANDSET:
+
+1.  Power up phone with pins 2 and 3 jumpered as above.
+
+2.  Enter * 0 0 0 0 #.
+
+3.  Press * 3 SND.
+
+4.  Press 1 1 SND, phone will display decimal ESN, note that the leading
+    "1" of the 136 ESN prefix will be omitted as the phone only has a ten
+    digit display capacity.
+
+
+LOCK: F 3 2 = Dial Lock, F 3 1 = Send lock, F 3 0 = Full lock
+
+UNLOCK: Enter two to four digit code.
+
+
+A/B SYSTEM SELECT:
+
+1.  Phone will default to preferred/non-preferred on every power up.
+
+2.  A only: F 7 2
+
+3.  B only: F 7 3
+
+4.  Home only: F 7 4

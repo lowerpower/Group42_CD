@@ -1,0 +1,9 @@
+Crack> Mickey's ABC 
+A Day at the Fair, by Walt Disney Co. 
+ 
+crack written by Michael Yakubovich 
+ 
+FILE: Apply to each of the graphics .EXE files (VGA, CGA and TANDY) 
+ 
+ORIGINAL: 83 7E E8 01 75 09 0E E8 08 1A 2B C0 E9 9D 00 
+CRACK   : == == == == 90 90 == == == == == == == == == 

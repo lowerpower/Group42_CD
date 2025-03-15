@@ -1,0 +1,731 @@
+                     - C E L L U L A R   H A C K I N G -
+
+ 
+
+                                     BY
+
+ 
+
+                   -----------=?> Doctor Who <?=-----------
+
+ 
+
+ 
+
+Novatel 8325
+
+------------
+
+ 
+
+This article is copyright 1993 by the author. Reproduction is allowed, with the
+
+following restrictions:
+
+ 
+
+1) Any copy, or edited version, of this file must contain this copyright
+
+   notice, the author's name, and the information regarding Phrack.
+
+2) No commercial use may be made of it without prior permission of the author.
+
+   This permission may be revolked at any time, in which case all reproduction
+
+   must cease, and any copies must be destroyed.
+
+3) Use as evidence in a court of law, for the purposes of this agreement,
+
+   is considered a commercial use.
+
+4) This agreement can not be changed, or added to in any way. Receipt of this
+
+   work through an authorized commercial distributor does not imply permission
+
+   given to the commercial consumer to re-distribute it in a commercial manner.
+
+5) Any part of this agreement found invalid by a court of law does not render
+
+   the remainder of this agreement void: The rest of the terms of the agreement
+
+   must still be adhered to.
+
+ 
+
+ 
+
+The Novatel 8325 is a bag-style portable cellular telephone. It is known as a
+
+'ProClassic' in Novatel MarketSpeak. Two different handsets (control units) are
+
+used with the 8325 transeiver: the 4130 and 5160. My phone has the 5160.
+
+The handsets appear very similar: I doubt there is any functional difference
+
+between them. Earlier transceivers, such as the 8320, contain many of the same
+
+features as the 8325, though the hidden menus are accessed with different
+
+codes. The only other code I know of is #746, which is the code for the 8320
+
+CFG menu.
+
+ 
+
+Terms: Throughout this article, I will refer to things without explaining them
+
+each time. If you get lost, refer to the table below.
+
+ 
+
+NORMAL = the phone is in this mode when it is not locked, or in either of the
+
+hidden menus, or in the 'user' menus accessed by the MENU key. The screen will
+
+display either READY or SCANNING when in normal mode. This is the mode the phone
+
+is in when it is first turned on.
+
+ 
+
+LOCKED = when the phone displays LOCKED, a code must be typed to enter normal
+
+mode. The default code is 1234. The telephone can be locked using [FCN] 1 [SND]
+
+from normal mode. The phone must be locked before entering in any of the codes
+
+to access the hidden menus described below.
+
+ 
+
+TBL = troubleshooting mode = the hidden menu accessed with 546*. This is a
+
+menu supposedly know only to Novatel, not even their dealers are supposed to
+
+know about it. According to Novatel, some of the features in this menu could
+
+destroy the phone if improperly set. Scare tactics? you decide.
+
+ 
+
+CFG = configuration mode = the hidden menu accessed with 510*. This is used by
+
+dealers to set up a subscriber's service. As far as I know, there is nothing
+
+particularly dangerous about this mode, but Novatel is touchy about it 
+
+nonetheless. I take no resposibility for any damages.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Troubleshooting Mode - TBL
+
+ 
+
+First, lock phone with [FCN] 1 [SND]
+
+Then, enter 546* on the keypad. The phone 
+
+will not make tones for each key pressed.
+
+ 
+
+TBL 8325    /___ This is what shows up on my fone.
+
+REV NA0C    \    Yours may be different.
+
+ 
+
+You are now in troubleshooting mode. You may page through the functions
+
+by using the arrow keys, or access the functions by number, by hitting #
+
+(The screen will display DIR PAGE ACCESS) and then the function number,
+
+from the chart below. Note that on initially entering Troubleshooting mode,
+
+you are on function 37. Toggle with the [SND] key, unless otherwise noted.
+
+ 
+
+#    Screen       Default   Toggle/Range       Description
+
+-----------------------------------------------------------------------------
+
+11   TRANSMIT     OFF       ON		 Turn the transmitter on.
+
+12   TX TEST      OFF       [CLR]=OFF, 0-7 test data stream,audio levels of
+
+13   CHANNEL      0000      0000-1023    [H/F] = down, [RCL] = up.
+
+14   TX AUDIO     OFF       ON
+
+15   VOLUME GAIN  6         0-7
+
+16   RX AUDIO     OFF       ON		 Turn the receiver on. Set this to ON
+
+					 and use in conjunction with #13
+
+					 (CHANNEL) to listen to calls.
+
+17   POWER ATTN   3         0-7
+
+18   SYNTH LOCKED                       synthesizer locked. if reads
+
+                                        unlocked,  the phone has real problems.
+
+19   SAT OFF      ??         transmitted SAT
+
+20   RF POWER     OFF	    ON           Not an option, but an indicator. When
+
+					 TRANSMIT is set ON, this displays ON.
+
+21   SPEAKER      ON        OFF
+
+22   SIDE TONE    ON        OFF
+
+23   TX DTMF      OFF        Tone test. [CLR] then 00-25. DTMF means touch-tone
+
+                 00 = DTMF 1     01 = DTMF 2      02 = DTMF 3     03 = DTMF A?
+
+                 04 = DTMF 4     05 = DTMF 5      06 = DTMF 6     07 = DTMF B?
+
+                 08 = DTMF 7     09 = DTMF 8      10 = DTMF 9     11 = DTMF C?
+
+                 12 = DTMF *     13 = DTMF 0      14 = DTMF #     15 = DTMF D?
+
+                 16 = 1+2+3      17 = 4+5+6       18 = 7+8+9      19 = *+0+#
+
+                 20 = 1+4+7+#    21 = 2+5+8+0     22 = 3+6+9+#    23 = A+B+C+D?
+
+                 24 = ?          25 = Wake-up-tone. The + signs are use to
+
+                 signify keys simultaneously held on a regular (desk-style)
+
+                 touch-tone phone. These tones are each hald of the dual tones
+
+                 the comprise touch tones.
+
+24   RX MODE      BURST     CONT
+
+25   RX TEST      OFF       ON 
+
+26   FRME CNT     000000		 Frame count.				 of counter. Had the last digit become
+
+					 
+
+27   BIT ERR      0000000		 Bit Error. 1 every so often is no big
+
+                                         deal. Hit any key to clear.
+
+28   WATCHDOG     ON        OFF          watch-dog periodicaly checks the timing
+
+                                         of the different clocks in the system.
+
+                                         Hit any key to turn this off and the
+
+					 Phone re-starts
+
+29   HOOK SW      OFF                    Hook Switch - since a bag phone has
+
+                                         no switch hook, always off.
+
+30   HORN MODE    ON        OFF          Toggles indicator light
+
+31   BELL MODE    0         0-9, [SND]
+
+32   RSST         20x                      Received Signal Strength Indicator
+
+33   MICROPHN     ENABLED   DISABLED
+
+34   NVM TEST     RM=0 E=1                Non-Volatile Memory Test
+
+35   COMPANDR     ON        OFF           A Compander compresses speech to
+
+				          confine energy to the given bandwidth.
+
+36   NVM CLR      USE SND                 Non-Volatile Memory [SND]="ACCESS DENIED"
+
+37   TBL 8325     REV NA0C                MENU,MODEL,REVISION (INITAL SCREEN)
+
+------Modulation------- Don't mess with this stuff - it can screw up your phone
+
+ N0 means channel bank 0. Banks are 0-4. Tune to a mid-band channel using the
+
+ keypad, and tune with [H/F] down and [RCL] for up.
+
+38   MODG CLR     Any Key, 0 = YES        resets options #39,#40,#41 to default.
+
+39   CHN 0991     N0 AMG16  AMG = SAD Deviation.
+
+40   CHN 0991     N0 DMG16  Signalling tone.
+
+41   CHN 0991     N0 SMG12  Transmit audio level.
+
+------Digital Potentiometers-- DANGER! Play with this, and you may have to
+
+                               send your phone out for repair.
+
+42   DPOT CLR     Any Key, 0 = YES   resets options #43,#44,#45,#46 to default
+
+                                     
+
+43   MICROPHN     14190 OHM          
+
+44   EXPANDER     14936 OHM         
+
+45   TX LIMIT     12180 OHM
+
+46   SPEAKER      15420 OHM
+
+------Analog Switches-------- Enables/Disables on-board potentiometers.
+
+47   ANALOG SW1   ON         High end of transmit audio
+
+48   ANALOG SW2   OFF        Low end of transmit audio
+
+-----
+
+49   PWR LVL3     DAC0777     power level, reading from digital-analog converter
+
+50   PL3@0000     14          power level @ channel, received signal strength
+
+ 
+
+Configuration Mode - CFG
+
+ 
+
+Lock the phone with [FCN] 1 [SND].
+
+ 
+
+Enter 510*
+
+ 
+
+CNF 8325        /_____ Menu, model, softare revision.
+
+REV NA02        \      May be different on your phone.
+
+ 
+
+[UP]            <----- Use the up arrow key switch each option. [DN] goes back.
+
+ 
+
+SERIAL          /_____ ESN - No way to change it from
+
+8Exxxxxx        \      the handset, as far as I know.
+
+ 
+
+NAM1 SEL        /_____ Select which NAM you want to program, or 0 for common
+
+0-4 END         \      configuration. The digit following the letters NAM
+
+                       is the last NAM examined, or 1 when entering this menu
+
+                       the first time.
+
+ 
+
+ 
+
+I will be dispensing with the arrows from this point on. First we start with
+
+the common configuration. Hit the 0 key.
+
+ 
+
+COMMON
+
+CONFIG
+
+ 
+
+INIT NAM        Initalize NAM memory - ALL of them! This is dangerous.
+
+USE SND         Values in the NAMs are replaced by factory defaults.
+
+ 
+
+INIT ICM        Initial Configuration Mode - Resets everything back to
+
+USE SND         factory defaults. You need a special PCB boardwith a 'key'
+
+                on it for this to work, according to Novatel.
+
+ 
+
+INIT REP        Initialize Reperatory - This means clearing out ALL of the
+
+USE SND         memory for storing phone numbers!
+
+ 
+
+LOCKCODE        The code used to unlock the phone. Not too useful if you know
+
+1234            about 510* and 546*.
+
+ 
+
+CHANGE          To change the lock code, enter the OLD lockcode, displayed
+
+LOCKCODE        in the previous option. the NEW CODE FFFF menu will appear,
+
+                enter the new 4 digit code, then [SND].
+
+ 
+
+BIL CODE        The code to get into the BIL menu. C means # and A means *.
+
+C185            So from the LOCKED mode I would enter #185 for the BIL menu.
+
+ 
+
+QRC SET         Quick Recall - very convenient. 10 memories, 0-9. To use, in 
+
+		normal mode just hit which memory you want and [SND].
+
+  
+
+QST SET         Quick Store - store numbers in above memories. In normal mode
+
+		type in a phone number, [FCN] [FCN] and the memory localtion.
+
+  
+
+WUT SET         Wake Up Tone - The sound the phone makes when first turned on.
+
+ 
+
+MLH CLR         Mobile to Land Hold - Accumulated air time counts all mobile-
+
+		to-land time when SET, ignores calls less than 30 seconds 
+
+		when CLR.
+
+  
+
+LMH CLR         Land to Mobile Hold. See above to figure it out.
+
+  
+
+CRU CLR         Call Round Up - round times up to nearest minute.
+
+  
+
+EE  SET         Extended DTMF Enable, during call.
+
+ 
+
+NLM CLR         No Land to Mobile. Do not count land originated calls in call
+
+                timer.
+
+ 
+
+HAL CLR         Horn Alert
+
+ 
+
+ONL SET         Online Diagnostics. Activate by [FCN] 9 from normal mode.
+
+		displays channel number, power level, received signal
+
+		strength, and digital color code. I think it's neat, and leave
+
+		it on all the time. Note that it overrides everything, and
+
+		stays on even when the phone is locked. To get rid of it,
+
+		either turn the phone off and on again, or toggle it with
+
+		[FCN] 9 from normal mode.
+
+ 
+
+PLACBITH      Placement Bits - a reading from the data stream -- ??
+
+    ** *      
+
+ 
+
+Pressing the [UP] key at this point just goes around to the start of the
+
+common config again. Use [END] to return to the NAM selection menu.
+
+ 
+
+Select a NAM 1 through 4. I start with NAM 1 here.
+
+ 
+
+NAM 1         [SND] toggles ENABLED / DISABLED except on NAM 1, which 
+
+ENABLED       cannot be disabled. Enabled means you can use it from normal mode.
+
+ 
+
+MIN  312      Mobile Identification Number - the phone number - enter the new
+
+555-0990      number, then [SND].
+
+ 
+
+SIDH	      System ID - a number designating the serving area (city) an 
+
+0010          cellular carrier (company) of the subscriber. Even numbers
+
+              designate wire-line (System A) carriers, Odd numbers
+
+	      Non-wire-line (System B) carriers. Enter 5 digit number, [SND}
+
+ 
+
+TO EXIT       When installing a new NAM, most times you can just finish here
+
+NOW--END      and leave the rest of the settings at their default values. To
+
+              do so, hit [END].
+
+ 
+
+IPCH          Initial Paging Channel. 0333 for System A carriers, 0334 for
+
+0334          System B carriers. Enter 4 digit channel number, [SND].
+
+ 
+
+ 
+
+EX  SET       Extended address - to dial more than 7 digits. always set.
+
+ 
+
+IDCCA         IPCH scan start for A systems. Should be 0333.
+
+0333          Enter 4 digit channel number, [SND].
+
+ 
+
+IDCCB         IPCH scan start for B systems. Should be 0334.
+
+0334          Enter 4 digit channel number, [SND].
+
+ 
+
+ACCOLC        Access Overload Class. A sort of 'Priority' designation. It
+
+08            doesn't seem to really do anything. Enter 00 through 15, [SND].
+
+ 
+
+GROUP ID	Cell carrier sub division. This setting is not known to have
+
+MARK  10	any effect on service.
+
+ 
+
+ 
+
+ 
+
+REG TBL         Registration Table Size. Novatel says it should always be 1.
+
+SIZE  1         Enter 0-4, [SND].
+
+ 
+
+LU CLR          Local Use - SET prohibits calls outside the local area.
+
+ 
+
+ 
+
+INVLD ID        Invalid ID - a list of System IDs to never use. Useful when
+
+  1 NONE        you want to avoid inadvertantly wandering into an area
+
+  2 NONE        with a cellular carrier that scalps you for roaming fees.
+
+  3 NONE        Hit #, the 5 digit System Id number, then [SND]
+
+  4 NONE
+
+ 
+
+ 
+
+  FD  SET       Touch-Tone dialing. Always have set.
+
+  MFD SET       Extended DTMF. SET for continuous tones, 
+
+                CLR for fixed-time tones
+
+ 
+
+32D SET         32 Digit Dialing - always have set.
+
+ 
+
+PS  CLR         Default system. CLR = B, SET = A.
+
+ 
+
+IRI CLR         CLR allows user to prefer system A or B from normal mode, by
+
+		using [FCN] [SND] to display preference, and [SND] again to
+
+		toggle. System preference function not available when the HOM
+
+                option is set because the HOME function uses the same keys.
+
+ 
+
+           (Note: confused? the HOM option is that which we set here
+
+            in the CFG menu, enabling the HOME function to be used from
+
+            normal mode.)
+
+ 
+
+HOM CLR         When HOM is SET, [FCN] [SND] in normal mode shows the HOME
+
+                status. [SND] a second time toggles it. When HOME is ON, all
+
+                calls are restricted to your home system.
+
+ 
+
+SSD SET         Signal Strength Indicator. When SET, in normal mode the bottom
+
+                line of the display shows the received signal strength. When
+
+                SSD is CLR, the bottom line in normal mode displays the System
+
+                Preference, or ONLY if IRI (see above) is SET. When SSD is set
+
+                and you want to see which operating condition is active, HOME,
+
+                PREF, or ONLY, in normal mode type [FCN] [SND] [UP].
+
+ 
+
+Billing Mode - BIL
+
+ 
+
+1) lock the phone with [FCN] 1 [SND].
+
+2) enter #185.
+
+3) If the screen reads BIL 8325 REV NA0C (or something similar) then go to 4.
+
+   Else,the phone still says LOCKED, enter 510*. Use the [UP] key to get to the
+
+   screen that reads NAM1 SEL 0-4 END. Hit 0. Hit the [UP] key 7 times to get
+
+   to the BIL CODE screen. The number on the bottom line is the code used to
+
+   enter the Billing Mode. A "C" stands for the # sign, and "A" means the *
+
+   sign. Write this code down. Hit [END] [END] to exit the CFG mode, and 
+
+   restart at step one, using this code instead of #185.
+
+4) The BIL mode has 10 screens, most of them fairly boring compared to the CFG
+
+   and TBL modes. Like the TBL mode, BIL mode allows use of the # key to 
+
+   directly access a given screen rather than stepping through each one with 
+
+   [UP] and [DN] keys. Note direct access is not available from the NEW CODE
+
+   screen, as this is interpreted literally. Use [UP] or [DN] to leave that
+
+   screen. Below is a table of the screens available. the number on the left
+
+   is the screen number, for use with the # sign.
+
+ 
+
+00    TOT TIME
+
+      00-00-00
+
+ 
+
+01    MIN 312
+
+      555-0990
+
+ 
+
+02    LOCKCODE
+
+        1234
+
+ 
+
+03    INVLD ID          [SND] moves 1-4
+
+      1   NONE
+
+ 
+
+04    STACK
+
+      ALARM
+
+ 
+
+05    SCRATCH           [SND] to disable.
+
+      PAD ENAB
+
+ 
+
+06    PWR DOWN
+
+      CODE   0
+
+ 
+
+07    SERIAL
+
+      8Exxxxxx
+
+ 
+
+08    FIRMWARE
+
+      10000001
+
+ 
+
+09    NEW  CODE          Reset the code to enter the BIL mode. Enter 4 digits,
+
+        FFFF             C will be displayed for # and A for *. Hit [SND].
+
+ 
+
+ 
+
+5) [END] to exit.
+
+ 
+
+ 
+
+ 
+
+-----DrWho, 10/12/93

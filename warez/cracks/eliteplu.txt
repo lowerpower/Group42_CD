@@ -1,0 +1,23 @@
+Crack> Elite Plus by Microplay 
+
+crack written by Vartan Narinian 
+
+>>>Note from Bob: I am corrected; this wasn't extremely 
+>>>nasty to do.  In his words, it "wasn't so bad." :) 
+
+OK, I finally hacked it. Here's what to do: 
+Search for: 
+BE 0F BF BF 2B 30 E8 E3 FE E8 BD FE 
+Replace the first two by: C3 00 
+Search for: 
+2E 89 6F C8 E8 B1 24 E9 34 1C 
+Replace the first four with NOPs (90) 
+This takes care of the check if the word is correct. 
+
+To actually remove the question, 
+Search for: 
+E8 FF 19 BF D9 06 81 C7 C4 06 B0 18 BB 5A 00 
+BA 0A 00 B9 93 00 FF D7 
+Replace the first three and the last two with NOPs (90). 
+
+

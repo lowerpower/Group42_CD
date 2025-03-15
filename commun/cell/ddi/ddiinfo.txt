@@ -1,0 +1,166 @@
+
+                    DIGITAL DATA INTERPRETER TEST SET
+
+The Digital Data Interpreter (DDI) decodes digital computer transmissions
+encoded on an audio signal and interprets the digital data as cellular
+commands.  The input to the DDI is an audio signal like that from a radio. 
+The output from the DDI is plain text over a standard serial data stream
+at 9600 baud.  The DDI will work with a PC, simple dumb terminal, or will
+communicate directly to some radios.
+
+EXAMPLES:
+                           
+          CONTROL                             VOICE
+ ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿ 
+ ³ NAC=15                     ³   ³ Ring Phone                 ³ 
+ ³ 555-4540 (312) Registration³   ³ Stop Ringing               ³ 
+ ³ 555-4540 (312) GoTo 869.880³   ³ Disconnect                 ³ 
+ ³ 555-4540 (312) GoTo 869.880³   ³                            ³ 
+ ³ 555-3238 (312) Paging      ³   ³ Ring Phone                 ³ 
+ ³ 555-0186 (312) Paging      ³   ³ Change Power to .25 W      ³ 
+ ³ 555-8252 (312) Paging      ³   ³ Change Power to 1.6 W      ³ 
+ ³ 555-0186 (312) GoTo 891.090³   ³ GoTo 890.220               ³ 
+ ³ 555-0186 (312) GoTo 891.090³   ³                            ³ 
+ ³                            ³   ³                            ³ 
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ 
+
+The left display shows a control message came in indicating the number of
+access channels in the system is 15.  The GoTo command shows a request for
+312-555-4540 to switch to voice channel 869.880.  The interaction
+following on the voice channel, might be like that in the right box.  This
+example shows the system is paging three people.  Upon answering a page
+the respondent would be asked to GoTo a voice channel as is shown with
+312-555-0186.  The above display has a number of filter options selected
+to avoid numerous more mundane commands.
+
+The right display shows the system requesting a phone to ring, then to
+stop ringing and to disconnect.  Another session follows showing the
+person in fact answered and is engaged in conversation.  During the
+conversation the system requests the phone to change the power level
+twice.  Eventually the voice channel is changed to 890.220 as the mobile
+moves into another cell.  Once again this display had some filtering
+options selected to reduce the types of commands displayed. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                          DDI SPECIFICATIONS
+
+The DDI requires audio input (3.55mm jack) from a radio or other source
+of audio containing digital data.
+
+The serial output will connect to any standard RS-232 device.  The DDI
+transmits on pin 2 of a 9 pin male jack.  The output from the DDI is plain
+text.
+
+The DDI requires 12 VDC at 250ma using a 3.55mm jack (tip +).
+          
+Many radios however do not provide a good signal from the speaker.  For
+these radios a connection may be required inside the radio.
+
+In some cases a part change is also required to slightly increase the NFM
+bandwidth.  As an alternative for better quality and for radios where a
+part change is not possible CCS offers a small unit to fit into the radio
+to provide a good signal for the DDI without interfering with the radio. 
+Three wires need to be soldered and the jack on the unit usually can be
+mounted in the rear of the radio.
+
+CCS can provide connection information for many radios.
+Ask for specific information and prices for your radio.
+
+                             SOFTWARE
+
+When the DDI is connected to a PC, standard communications software (like
+PROCOMM) may be used with the DDI.  The DDI comes with software for a PC
+that may be used to perform advanced tasks.  For example, it can be used
+to wait for only specific commands or phone numbers and take an action on
+those commands.  The PC can be configured to keep a log of specific
+events.  A radio that is controlled over a serial link may be connected
+to the PC and the software will issue frequency change commands to the
+radio.  A level converter and squelch detect for the ICOM radios is built
+into the DDI.  Only one serial port is required for both the DDI and the
+ICOM radio.  The following is a list of key software features:
+       Two column display to maximize the data displayed.
+
+       Select desired commands and numbers for display and logging
+       separately.
+
+       Select criteria for following frequency changes.
+
+       Scans channels based on user criteria.
+
+       Automatically tunes and analyses data quality on each control
+       channel.
+
+       Presents detailed information on cellular system parameters.
+
+       General purpose scanning module included for non-cellular use.
+
+
+
+
+                           ORDERING INFORMATION
+
+                          DDI PACKAGES
+The DDI Kit of parts comes with a PCB and all PCB parts.  A case, cables
+and AC adaptor are not included.  The kit includes surface mount parts
+that must be soldered.
+
+The DDI subassembly is an assembled PCB.  This PCB may be used in a
+customers custom test equipment.
+
+The DDI commercial test equipment set is an assembled DDI installed in a
+case with an AC adaptor and a 9 pin serial cable for a PC.
+
+All three packages include the CCS IBM compatible PC software.
+
+                         CONNECTION KITS
+Kits are available with instructions and parts for connecting the DDI to
+some radios.  Soldering is required and prices vary from $8 to $18
+depending on the radio.  A generic kit is available that will work with
+almost any radio but will require a review of the radio schematic.  CCS
+will quickly respond to your questions about interfacing to the DDI before
+and after a purchase.  Ask for a quote if you would like CCS to modify
+your radio.
+
+                          RETURN POLICY
+The assembled DDI may be returned within 14 days for a refund (minus S&H). 
+
+=======================================================================
+                                 ORDER FORM
+
+DDI Kit of parts $295                         
+PCB Subassembly $305                         Name:________________________
+Complete Commercial       
+   Test Equipment Set $330     ________      Address:_____________________
+
+AR-3000(A) Kit $18                           City/State/Zip:______________
+PRO-200x Kit $18 
+AR-2500 Kit $8                               MAIL ORDER TO:
+R7000/R7100 Kit $8 
+Generic Kit $18                ________             CCS
+                                                    P.O. Box 11191
+Shipping & Handling (USA)                           Milwaukee, WI  53211 
+UPS $10, UPS BLUE $15                                              
+UPS RED $25.                                                       
+Add $5 for COD                 ________
+
+Discounts:                                          Wisconsin residents 
+Subtract $20 for each                               add 5% or 5.5% sales 
+DDI purchased after                                 tax.
+the first DDI.                 ________
+
+
+                TOTAL          ________
+=======================================================================
+

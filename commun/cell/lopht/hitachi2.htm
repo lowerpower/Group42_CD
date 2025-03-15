@@ -1,0 +1,102 @@
+<title> Hitachi Programming Information</title>
+<a name="cr111h">
+<pre>
+-------------------------------------------------------------------------------
+                      HITACHI CR-111H transportable
+-------------------------------------------------------------------------------
+                NAM Type:  EEPROM
+            Manufacturer:  Hitachi
+              Programmer:  Handset
+          ESN Prefix DEC:  132
+                     HEX:  84
+ ESN, S/N Match Required:  No
+      Available Channels:  832
+
+    Programming Sequence:  Power On
+                           Select a NAM (A or B):
+                           A-FCN 621# FCN, B-FCN 622# FCN
+                           Enter Programming Mode
+                            with FCN 626 RCL
+                           Enter Data at each step
+                            then press Up of Down
+                           Write NAM with FCN 626 STO
+
+                       # of digits
+        System ID Format:  5    XXXXX
+        Local Use Option:  1    1
+              MIN Option:  1    1
+       System Select H/S:  1    1
+            Roam Inhibit:  1    0
+           Mobile Number:  10   XXX-XXX-XXXX
+           Station Class:  2    08 (mobile) or 14 (portable)
+  Initial Paging Channel:  3    333 or 334
+   Access Overload Class:  2    XX
+        Preferred System:  1    1 (A) or 0 (B)
+         Group ID Format:  2    XX
+             Unlock Code:  3 or 4
+    End-to-End Signaling:  1    1
+               Handsfree:  1    0 or 1
+
+              Horn Alert:  N/A
+         New Unlock Code:  NAM
+
+           System Select:  FCN + 9 + DOWN (DOWN to scroll
+                            system prompts)
+           Enter Options:  STO + FCN
+
+</pre>
+<a name="cr2110h">
+<pre>
+-------------------------------------------------------------------------------
+                         HITACHI CR-2110H portable
+-------------------------------------------------------------------------------
+                NAM Type:  EEPROM
+            Manufacturer:  Hitachi
+              Programmer:  Handset
+          ESN Prefix DEC:  132
+                     HEX:  84
+ ESN, S/N Match Required:  No
+     Handset Programming:  Yes
+      Number of Channels:  666
+
+    Programming Sequence:  Power On
+                           Select NAM one or two with Sequence A or B
+                           A-OPT + DIAL + MAIN (for NAM 1)
+                           B-OPT + DIAL + SUB (for NAM 2)
+                           (Use OPT + 3 arrow keys to select functions
+                            from menu or screen)
+                           Enter Programming Mode with OPT 626 RCL
+                           Press UP(# Key) or Down(* Key) to increment
+                           Write NAM with OPT 626 STO
+
+                       # of digits
+               System ID:  5    XXXXX
+               Local Use:  1    1
+              MIN Option:  1    1
+  System Select from H/S:  1    1
+            Roam Inhibit:  1    0
+               Area Code:  3    XXX
+            Phone Number:  7    XXX-XXXX
+           Station Class:  2    XX
+    Initial Page Channel:  4    0333 or 0334
+         Access Overload:  2    XX
+        Preferred System:  1    0 (B) or 1 (A)
+                Group ID:  2    XX
+               Lock Code:  3    XXX
+    End-to-End Signaling:  1    1
+               Handsfree:  1    0 or 1
+
+Press OPT + 626 + STO to enter contents and exit program mode
+
+              Horn Alert:  N/A
+         New Unlock Code:  NAM
+           System Select:  OPT + SYST (Software Ke) +
+                           SCRL (Software Key) repeatedly. One of the
+                           following prompts will appear:
+                           SYS A/SYS B/SYS AB/SYS BA/HOME
+Press SELC (Software Key to enter selection)
+
+</pre>
+<a name="cr211h">
+<pre>
+

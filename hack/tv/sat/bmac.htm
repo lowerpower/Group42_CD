@@ -1,0 +1,30 @@
+<html>
+<head><title>Group 42 Sells Out</title></head>
+<h2>B-MAC HACK</h2>
+
+<pre>
+
+Heres a basic rundown. BMAC consists of three time multiplexed
+components. First is the luminance which occupies 2/3 of what would be
+the active video portion of a PAL signal. The other 1/3 is used to
+convey the chromance component. The blanking portion of the line (where
+the sync signal would normally be) carries the data stream at just over
+20 Mhz bit rate. Scrambled BMAC varies the length of this data burst in
+a pseudo random manner giving rise to the zig zag pattern you see on the
+screen. SBS on the otherhand is a non-scrambled BMAC signal and the
+picture is easily obtainable using a sync generator.   The scrambled
+video can be obtained by first digitising the video signal and passing
+it through a variable length FIFO register. The active video is
+recognised as beginning at the end of the data burst, therefore
+detecting the length of the data burst gives you the delay required to
+restore the video, along with a sync inserter.There are a couple of
+things to be wary of in this technique, such as periods of no data burst
+and gaps after the burst. With a bit of imagination these are simple to
+overcome also. A simple way to test these techniques is to use a
+digitiser and haul the data into your computer, where you can implement
+ideas in software. Works a charm. Once you have it sussed, you can
+duplicate the software in hardware.
+</pre>
+
+</html>
+

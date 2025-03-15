@@ -1,0 +1,199 @@
+===============================================================================
+CA-91:13                        CERT Advisory
+	  		       August 23, 1991
+                    DEC ULTRIX /usr/bin/mail Vulnerability
+-------------------------------------------------------------------------------
+ 
+The Computer Emergency Response Team/Coordination Center (CERT/CC) has
+received information concerning a vulnerability in all versions of Digital
+Equipment Corporation's (DEC) ULTRIX operating system prior to 4.2 and
+applicable to all Digital Equipment Corporation architectures.
+The vulnerability has been fixed in ULTRIX version 4.2.
+
+This vulnerability allows any user logged into the system to obtain a root
+shell. 
+
+Appended is an update to a Digital Equipment Corporation DSNlink/ DSIN FLASH
+which describes the vulnerability and Digital Equipment Corporation's
+recommended solution.
+ 
+If you have any inquiries regarding Digital Equipment Corporation's document,
+please contact your Digital Services Support Organization.
+
+===============================================================================
+Start of Digital Equipment Corporation's Document.
+
+-------------------------------------------------------------------------------
+SOURCE: Digital Equipment Corporation.
+
+COPYRIGHT (c) 1988, 1989, 1990 by Digital Equipment Corporation.
+ALL RIGHTS RESERVED.
+ 
+ 
+INFORMATION:
+ 
+ULTRIX V4.1 - Security Vulnerability Identified in /usr/bin/mail
+ 
+ 
+PROBLEM:
+ 
+A potential security vulnerability has been identified in ULTRIX 
+Version  4.1 where, under certain circumstances, user privileges 
+can be expanded via /usr/bin/mail.  This problem applies to both  
+the VAX and DEC RISC (i.e. DECsystem  and DECstation ) architectures.  
+ 
+As always, Digital urges you to regularly review your system 
+management and security procedures.  Digital will continue to review 
+and enhance security features, and work with our customers to further
+improve the integrity of their systems. 
+ 
+ 
+SOLUTION:
+ 
+Digital has corrected the identified code as of ULTRIX Version 4.2
+(released  May 1991).  Digital recommends strongly that you upgrade to 
+ULTRIX Version 4.2 immediately to avoid any potential vulnerability  
+to your system via this problem.  For those of you who are unable to 
+upgrade at this time, installing the ULTRIX Version 4.2 mail file on 
+your V4.1 system will correct this problem.
+ 
+ULTRIX Version 4.2 of /usr/bin/mail has not been shown to be 
+compatible with versions of ULTRIX previous to ULTRIX version 4.1; 
+upgrading to ULTRIX V4.2 or upgrading to ULTRIX V4.1 and using the 
+ULTRIX 4.2 /usr/bin/mail program is required to correct this  
+problem.
+ 
+Use one of the procedures below to update an ULTRIX Version 4.1 system:
+ 
+         - Procedure   (1)   describes the process to extract the 
+           /usr/bin/mail binary from the ULTRIX Version 4.2 MUP subset. 
+ 
+         - Procedure   (2)   provides the commands to install the 
+           ULTRIX Version 4.2 /usr/bin/mail binary from another of your 
+           system(s) where possible.
+ 
+         - Both  the  VAX  (DECsystem)  and DEC RISC (DECstation) 
+           versions of the ULTRIX Version 4.2 /usr/bin/mail binary, 
+	   may be obtained by contacting your Digital Services Support 
+           Organization.
+ 
+ 
+-------------------------------------------------------------------------------
+ 
+(1)     This procedure will replace your existing /usr/bin/mail binary using 
+        the /usr/bin/mail binary from the ULTRIX Version 4.2 MUP distribution.
+        The procedure below describes the method to extract the binary from
+        the tape media.
+ 
+NOTE: 
+ 
+Setting the environment to single user mode will prevent possible
+disruption of the mail services.
+-------------------------------------------------------------------------------
+ 
+        To update an ULTRIX Version 4.1 system, you must first obtain the 
+        ULTRIX Version 4.2 binary  of  /usr/bin/mail for your computer's  
+        architecture from your ULTRIX Version 4.2 distribution tapes.
+ 
+  LOAD THE ULTRIX MANDATORY UPGRADE TAPE ON YOUR ULTRIX Version 4.1 SYSTEM.
+ 
+        ( Note: UDTBASE421 will provide the RISC base upgrade, ULTBASE421 will)
+        ( provide the VAX base upgrade mail file.  Substitute as necessary for)
+        ( your architecture. )
+ 
+  ( ISSUE THE FOLLOWING COMMANDS FROM YOUR ULTRIX Version 4.1 SYSTEM )
+
+  ( BECOME ROOT - YOU MUST HAVE PRIVILEGES TO MAKE THIS UPDATE. )
+  
+   % su 
+ 
+  (cd TO SOME DIRECTORY THAT YOU CAN PUT THE FILE IN TEMPORARILY, e.g. cd /tmp)
+ 
+   # cd /tmp 
+ 
+  (NOTE: YOU WILL NEED APPROXIMATELY 2 MB of DISK SPACE )
+ 
+   # mkdir ./usr
+   # mkdir ./usr/etc
+   # mkdir ./usr/etc/subsets
+   # setld -x /dev/nrmt0h {UDTBASE421 or ULTBASE421}
+ 
+ 
+  ( LIST THE SUBSET, CREATE THE FILE UDTBASE421 or ULTBASE0421, THEN EXTRACT )
+  ( THE MAIL FILE /usr/bin/mail {NOTE} THIS EXAMPLE USES THE "RISC" SUBSET   ) 
+ 
+ 
+   # ls
+   # mv UDTBASE421 UDTBASE421.Z
+   # zcat UDTBASE421.Z | tar xvf - ./usr/bin/mail
+ 
+  ( MOVE THE ULTRIX V4.2 BINARY TO /usr/bin/mail CHANGE PROTECTION, OWNER etc.)
+ 
+   # cd /usr/bin
+   # mv mail mail.old
+   # chmod 600 mail.old
+   # mv /tmp/usr/bin/mail .
+   # chown root mail
+   # chgrp kmem mail
+   # chmod 6755 mail
+        
+-------------------------------------------------------------------------------
+(2)    To update the /usr/bin/mail binary from an existing V4.2 
+       (similar platform (VAX or RISC)) remote node, copy the 
+       file to your system and store it in a temporary location 
+       (e.g., - /tmp/mail).
+       The procedure below provides an example using DECnet.  Use the 
+       copy command that fits your environment to copy the /usr/bin/mail
+       binary from a remote node to the /tmp directory on your local
+       system.
+ 
+NOTE: 
+ 
+Setting the environment to single user mode will prevent possible
+disruption of the mail services.
+-------------------------------------------------------------------------------
+ 
+ % dcp -iv {remote-nodename}/{username}/{password}::'/usr/bin/mail' '/tmp/mail'
+ 
+  ( ISSUE THE FOLLOWING COMMANDS FROM YOUR ULTRIX Version 4.1 SYSTEM )
+
+  ( BECOME ROOT - YOU MUST HAVE PRIVILEGES TO MAKE THIS UPDATE. )
+  
+   % su 
+   # cd /usr/bin
+   # mv mail mail.old
+   # chmod 600  mail.old
+ 
+  ( MOVE THE ULTRIX V4.2 BINARY TO /usr/bin/mail CHANGE PROTECTION, OWNER etc.)
+                               
+   # mv /tmp/mail /usr/bin/mail
+   # chown root mail
+   # chgrp kmem mail
+   # chmod 6755 mail
+ 
+-------------------------------------------------------------------------------
+End of Digital Equipment Corporation Document.
+===============================================================================
+
+-------------------------------------------------------------------------------
+The CERT/CC would like to thank Tsutomu Shimomura for his assistance and
+Digital Equipment Corporation for their response to this vulnerability.
+-------------------------------------------------------------------------------
+
+If you believe that your system has been compromised, contact CERT/CC via
+telephone or e-mail.
+
+Computer Emergency Response Team/Coordination Center (CERT/CC)
+Software Engineering Institute
+Carnegie Mellon University
+Pittsburgh, PA 15213-3890
+
+Internet E-mail: cert@cert.org
+Telephone: 412-268-7090 24-hour hotline:
+           CERT/CC personnel answer 7:30a.m.-6:00p.m. EST,
+           on call for emergencies during other hours.
+
+Past advisories and other computer security related information are
+available for anonymous ftp from the cert.org (192.88.209.5)
+system.
+

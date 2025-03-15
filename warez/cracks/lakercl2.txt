@@ -1,0 +1,17 @@
+Here's my very first crack...I know this is an old game..but what the hell:
+
+Using Norton or something search bball.exe for these bytes:
+
+                83 3E E0 00 00 75 F9    
+CHANGE THEM TO: EB 26 -- -- -- -- --
+
+search again for these bytes:
+
+                3B 8F 1B AB 74 08 C7 06 9F
+CHANGE THEM TO: -- -- -- -- EB -- -- -- --
+
+Now you can play Lakers Vs. Celtics with no doc check harrasment...
+
+Frum Ano
+      
+  

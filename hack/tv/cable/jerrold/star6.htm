@@ -1,0 +1,77 @@
+<html>
+<head><title>Group 42 Sells Out [Starcom 6 Mod]</title></head>
+<body background="cable1.gif">
+<center>
+<img alt="Group 42 Sells Out!" src="../g42slogo.gif">
+</center>
+
+<hr size=5 noshade>
+<center>
+<h2>Starcom 6 Full Service Modification</h2>
+by 4x of Group 42
+<p>
+</center>
+
+<h3>Introduction</h3>
+This information is good for the following Starcom 6 units :<p>
+<ul>
+<li><b>Trimode Units</b> - DP5-210,310,410. DP5-212,312,412. DPV5-212,322,422.
+        DPV5-210,310,410.
+<li><b>Baseband Units</b> - DPBB-222,322,422. DPBB-212,312,412.
+</ul>
+<p>
+This fix is designed to permanently turn on either a working unit or one
+that has been shut down.  Once the modification has been installed
+correctly, all channels will be received in the clear.
+<p>
+Several models of the Starcom 6 exist, and the same model number can
+even have differnet board layouts.  Make sure you are working on
+a Starcom 6 and not a Starcom 5 or a Starcom 7 since some cable companies
+are using a combination of these.  Two distinct version of the Starcom
+6 are avalable (Baseband and Trimode) and are not compatable with each
+other.  The most common type is the Trimode gated sync descrambler
+designated as DP5 or DPV5.  The other type is the baseband descrambler
+designated as DPBB.  The first number following the dash indicates its
+original channel output (i.e. DPV5-312 is a channel 3 output unit).
+Some Trimode units have volume control which is designated by a 'V' in
+the model number.  All baseband units have volume control.
+<p>
+<h3>Instructions</h3>
+<ul>
+<li>To open the unit you must remove the GI star screws.  Either obtain
+        a custom star driver bit or use a small pair of flush cutters
+        placing the two blades into oppsite notches and turning.
+<li>Place lid upside down to the front or the right side.
+<li>Locate the tamper switch by one of the cover screws or by the
+        display.  Hold the metal part of the switch down and us
+        a soldering iron to melt the plastic underneath to hold it
+        closed.
+<li>Program a 2764 EPROM or a 27C64 EPROM with this <a href="jerld550.bin"
+        >binary</a> or <a href="jerld550.hex">Intel Hex</a> file.
+<li>Remove the 28 pin chip in a socket, it will normally be marked 2764 on
+        the chip.  Remove this chip an make sure to note the position of
+        pin #1.
+<li>Insert the newly programed 2764 in this empty socket.
+<li>Next locate a 40 pin chip marked <b>PIC 7040</b>.  It will normally
+        be marked IC6 or U4 on the circuit board.  Cut pin # 36 in the
+        center (so it can be soldered back if you desire.)
+<li>Attach or solder a wire to the chip side of this pin and connect it to
+        Ground.
+<li>Replace cover and power up.
+</ul>
+<i>Notes : unit may display <b>E9</b> on first powerup, this is normal
+and will go away when you push a channel button.
+<p>
+Some units may reset the channel output.  Try your TC on channels number
+2, 3 and 4.  If this does not work check the green wire towards the rear
+of unit.  it should have +5v on it, if not apply +5 volts and video
+will return.
+</i>
+<p>
+<br>
+<hr size=5 noshade>
+
+</html>
+
+
+

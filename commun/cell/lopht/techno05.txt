@@ -1,0 +1,49 @@
+TECHNOPHONE MCA905, 985, 995
+
+NOTES:  This unit has 8 NAMS
+        The ESN prefix is 162 decimal & A5 hex.
+        Technophone: 516-576-2000
+
+NAM PROGRAMING:
+
+
+1.  Turn phone on.
+
+2.  Enter # 0 0 0 0 0 0 # # 9 5 3 7 3 9 # STO 9 9 STO STO
+
+3.  Turn phone off.
+
+4.  Turn phone on again and it will display "Which NAM?".
+
+5.  Enter the NAM you want to program, 1 through 8, followed by the * key.
+
+6.  The first data entry will appear.
+
+7.  Press the * key to store and increment the step number.
+
+8.  Press SEND after step 08 when display reads "Save NAM?" to store the new
+    data, phone will revert to "Which NAM?" at which point you can press
+    END to complete and exit, or select another NAM.
+
+
+PROGRAMING DATA:
+
+STEP#    #OF DIGITS/RANGE    DISPLAY          DESCRIPTION
+
+01       0 OR 1              AMPS/TACS        PRESS 1 TO SELECT US SYSTEM
+02       00000 - 32767       AREA ID          SYSTEM ID
+03       10 DIGITS           NO               AREA CODE AND PHONE NUMBER
+04       2 DIGITS            O/LOAD, CLASS    ACCESS OVERLOAD CLASS
+05       2 DIGITS            GRP ID, MARK?    GROUP ID (10 IN USA)
+06       0 OR 1              EXP ?            MIM MARK
+07       333 OR 334          IPCH?            INITIAL PAGING CHANNEL
+08       3 ALPHA NUMERIC     SYSTEM ID        SEE BELOW
+
+Entry 07 is a convienience feature to distinguish between NAMs, you may
+enter a three letter abbreviation to identify each NAM.  For instance enter
+SFO for San Francisco.  Use the letters on the keypad, each time you press
+a key the display will alternate.  For example the "2" key will scroll "2",
+"A", "B", "C".  Press the # key when the letter you want appears on the
+display.  To store SFO enter 7777 STO, 3333 STO, 6666 STO.
+
+SYSTEM SELECT: MENU 2 1 THEN MENU TO TOGGLE, CLR TO SET.

@@ -1,0 +1,5 @@
+Crack> SimEarth by Maxis Software 
+crack written by Majik and The Mage 
+ 
+Using PCshell or Norton Utilities, search the file SIMEARTH.EXE for 
+74 03 E9 46 01 and change 03 to 00 and 46 to 40. 

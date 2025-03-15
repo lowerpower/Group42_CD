@@ -1,0 +1,184 @@
+<HTML>
+<HEAD><TITLE>Has DSS Been Hacked?</TITLE></HEAD>
+<BODY><BR><H1>Has DSS Been Hacked?</H1>
+<I>By John McCormac - Editor Of Hack Watch News</I> 
+<P>  According  to available information, the Digital Satellite  System
+ smart card has been hacked. The pirate cards will enter the market  in
+soon. The price for the basic tier pirate card will be $150.
+</P> 
+<P>Four  tiers of pirate cards are planned. The first tier will  only 
+include  the basic programmes. The second tier card  will  include  the 
+subscription  movie channels. The third tier card  will  give  access 
+to the sports packages. The last card will give access  to  all 
+services and will include a ceiling of $500 in Pay  Per  View  credits.
+</P> 
+<P>The  best  description for what is in formation is  an  "Alternate 
+Access  Control  System".  The pirates  will  be  supplanting  the 
+official DSS management with their own. Subroutines that marry the 
+pirate card to an individual IRD will be included to prevent or at 
+least deter piracy of the pirate card.
+</P> 
+<P>This  has  been  a major problem in Europe. The  majority  of  the 
+pirate  smart  cards  for VideoCrypt are  based  on  the  PIC16C84 
+microcontroller.  Despite its security, this chip was  popped  and  the 
+programs  are routinely extracted. As a result of  this,  the  program 
+for hacking VideoCrypt spread rapidly throughout  Europe.  A repeat of
+this situation is the last thing that the DSS  pirates  want.  Therefore
+ they may go for a more  secure  processor.  Some  sources have
+commented that one of the Dallas microcontrollers  or  the new Zilog
+microcontrollers might be used.
+</P> 
+<P>The main pirate operations will take place outside the USA. Canada 
+has  been  mentioned as one particular site. Others  sources  have 
+mentioned   islands   in  the  Caribbean.  Piracy   of   satellite 
+television  signals  is  a  serious business in  the  US  for  the 
+channels, the pirates and the Law.
+</P> 
+<H2>The Hack And How It Might Have Happened</H2> 
+<P>You have got to wonder at the kind of mind that would put a patent 
+number  on  a smart card. It is just like telling a  burglar  what  kind
+ of  lock your door uses. And yet this is  exactly  what  has  happened 
+with the DSS card. The text that appears on the card  is  as follows:
+</P>
+<CODE>'This  card  is  the property of News Datacom  Ltd.  and  must  be 
+returned  upon  request.  Incorporates  Videoguard  (tm)  security 
+system.  Provided  for  reception of authorized  101  W  longitude 
+satellite  services.  Protected  by  U.S  Patent  4,748,668,   and 
+others.'
+</CODE>
+<P>That patent referred to on the smart card is the Fiat Shamir  Zero 
+Knowledge Test. It is an authentication algorithm that the decoder  runs
+to see that the smart card inserted is a genuine smart  card.  The same
+authentication algorithm is used in the analog VideoCrypt  system  in 
+Europe.  This  may not be  the  only  commonality.  To  understand  what
+ may have occurred, we have to go back  to  early  1994.
+</P> 
+<P>In  Europe,  the VideoCrypt system, using the issue 07  card,  was 
+hacked.  The  full source code of the hack  had  been  distributed 
+freely on the Internet and via BBSes. The Digital Satellite System  was
+preparing for launch in the USA. It was gut wrenching time for  the 
+executives in DSS. The common element between Europe and  the  US  was 
+News Datacom. The DSS executives were worried  about  the  security of
+their new system. Would what happened in Europe happen  in the US?
+</P> 
+<P>Slowly  but  surely  the  press  barrage  started.  The  satellite 
+television  trade  press began to run articles about the  new  DSS 
+system.  They  were,  in  hacker terms,  content  free  text.  The 
+majority of these articles were written by clueless people without  any 
+knowledge of what really happened in Europe. One  article  in 
+particular  stated  that VideoCrypt had been  unhacked  since  its 
+introduction in Europe in 1989. Yeah right! And the 500,000 Pirate 
+VideoCrypt  smart cards and the Omigod emulator programs  did  not 
+exist.  It was a replay of what had happened in Europe - the  puff 
+pieces in the trade press and the inevitable hacks.
+</P> 
+<P>Well  the 500,000 pirate VideoCrypt cards were very real and  they 
+forced  Sky to issue their new card ten months ahead of  schedule. 
+There was an even greater problem. The 08 card they had planned to 
+launch  was almost identical to the hacked 07 card.  Instead  they  had
+to go for the 09 card.
+</P> 
+<P>The  09 Sky card was different from the 07 in  two major ways.  It 
+had  a  different  architecture  and  it  had  a  very   different 
+algorithm.  Sky  started to distribute this new card  in  February  1994
+but they did not switch over to the card until 18th May 1994.  That day
+is known as Dark Wednesday by European hackers.
+</P> 
+<P>The  connection  here  is  the timing. It  would  have  been  very 
+convenient for News Datacom to draw heavily on the Sky 09 card for  the
+new DSS card. Most of the ROM routines could have been  easily  adapted
+for the new system. The main changes would of course  have  been in the
+EEPROM. The EEPROM of the smart card is the area  that  contains the
+main cryptographical routines.
+</P> 
+<P>The operation to pop the 09 Sky card in Europe took a few  months. 
+It  involved completely reverse engineering the smart  card.  Some 
+preliminary  code  was  sold in June last year at  an  auction  in 
+London.  It was a start but it took a further four  months  before  the 
+system  was totally compromised. Perhaps the  most  important  part  of 
+the operation was the discovery of a back  door  in  the  smart card's
+code.
+</P> 
+<P>When VideoCrypt was developed, the overall structure of the system 
+was,  compared to systems like VideoCipher II, simplistic. It  was  also
+reliable. But the designers may never have expected it to  be  handling
+over two million subscribers.
+</P> 
+<P>As  a direct result of this loading, the designers of the  system, 
+News  Datacom,  had  to incorporate some newer  levels  of  access 
+control  into  the system. Upgrading the decoders was out  of  the 
+question.  There were too many and it would be very  difficult  to 
+track  all of them down. Most of the standalone decoders had  long  ago
+disappeared into Mainland Europe.
+</P> 
+<P>News Datacom's solution was clever and at the same time  extremely 
+stupid.  They incorporated a method of programming the  card  over  the 
+air  into  the  code of the 09 Sky card.  The  over  the  air 
+instructions  were  included in the standard access  control  data 
+packets. They looked just like more card identity numbers but they  were
+not. The hackers labeled them "Nanocommands".
+</P> 
+<P>The  over  the air programming scheme was clever in that  it  gave 
+them  more  control over the cards - they could  easily  implement  ECMs
+by updating the card's EEPROM and they could actively  change  the
+channel authorization. In effect they could even run a limited  form of
+Pay Per View.
+</P> 
+<P>Of  course there is a downside. All of the security of  this  card 
+relied  on  the  hackers not finding out the  core  algorithm  and 
+obtaining  a  working knowledge of the card addressing.  The  core 
+algorithm had been sold at auction in June 1994. The rest was only  a
+matter of time. 
+</P> 
+<P>The  cracks in the edifice were beginning to show. By the  end  of 
+July, VideoCrypt was crumbling. The Phoenix hack had worked.  This  hack
+ relied  on an understanding of how the access  control  data  packets 
+were encrypted and structured. (The Phoenix hack  allowed  hackers to
+activate or reactivate all channels on Sky cards  using  a computer and
+eventually a standalone programmer)
+</P> 
+<P>Naturally  when Sky tried to retaliate against the  Phoenix  hack, 
+they used the Nanocommands. The hackers were watching. It was true 
+electronic warfare. Sky and News Datacom versus the hackers.
+</P> 
+<P>Gradually  the function of each nanocommand was ascertained.  Even 
+now it is difficult to believe what happened next.  One was  found  to 
+read  a byte from the EEPROM as the input for a round  of  the 
+algorithm.  Another  of the nanocommands was found to act  like  a 
+BREAK command. It would dump the current result out as the key.
+</P> 
+<P>The  hackers had the algorithm and knew the result just  prior  to 
+the  byte from the EEPROM being used. They could dump out the  the 
+result  just after the EEPROM byte had been processed through  the 
+algorithm. Since they then had the main components, it was  simply  a 
+case  of  starting  the algorithm from  the  first  result  and 
+stepping  through the values 0 to 255 as the input byte. The  hack  has
+become known as the <A HREF="vampire.htm">Vampire Hack</A>.
+</P> 
+<P>Of course this attack was not perfect. The resulting data from the 
+Vampire hack of the 09 Sky card did not make sense. The  processor  used
+ in  the smart card was based on the 6805 but  the  data  was 
+definitely not 6805. There was a little bit more decryption to  be  done
+yet. But eventually it the hackers cracked it.
+</P> 
+<P>Now  what  happened  with  DSS? The speed of  the  hack  seems  to 
+strongly  indicate  that the same card type was used for  the  DSS 
+system. This would mean that the same techniques that were used to  pop
+the 09 Sky card could be employed on the DSS card.  
+</P> 
+<P>The real test of the pirate cards lies ahead. As with the European 
+VideoCrypt,  the DSS smart card may be over the air  programmable.  This
+ would  mean that DSS could update their cards over  the  air  without 
+having to immediately issue new cards. The  pirate  cards  would of
+course require upgrading. 
+</P> 
+<P>The  main  difference is that the American  hacking  industry  has 
+experience  of  such  upgrading.  The  technology  used  to   hack 
+VideoCipher  II can be used for this upgrading. The  pirate  cards  may 
+ well  come  with  a  modem  module  that  can  be  used   to 
+automagically update the card.
+</P>
+</P>
+<P><B><I>Copyright (c) 1995 Hack Watch News</I></B></P>
+</BODY>
+</HTML>

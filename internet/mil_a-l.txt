@@ -1,0 +1,4286 @@
+NOTE: This file contains information on Host Administrators for MILNET
+hosts whose hostnames begin with A to L.  Information on hosts whose
+hostnames begin with M to Z can be found in the file
+MIL-HOST-ADMINISTRATORS-M-Z.TXT.
+
+	    MILNET HOST ADMINISTRATORS (A-L)			11-Oct-95
+
+
+HOST NAME		   HOST ADDRESS HOST ADMINISTRATOR
+
+
+ACFP-DOP.AF.MIL            26.8.0.105   Garonski, Todd J.
+   SPONSOR: AF             X.25         (offutt@SERVER.AF.MIL)
+                                        755CS/GLYH
+                                        201 Lincoln Hwy
+                                        Suite 206
+                                        OFFUTT AFB, NE 68113-2040
+                                        (402)294-6959 
+                                        (402)294-3210 271-6959 
+                                        (DSN)271-6959
+
+   HOST : 26.8.0.105 : ACFP-DOP.AF.MIL : VAX-8350 : UNIX : TCP/TELNET,   
+    TCP/SMTP,TCP/FTP :
+   
+   Configuration:      VAX-8350(UNIX)
+
+AFCSCNET.AF.MIL            26.13.0.139  Obermite, Richard R.
+   SPONSOR:                X.25         (No Mailbox Given)
+                                        AFCSC/SCO
+                                        230 Hall Blvd
+                                        Suite 157
+                                        Kelly AFB, TX 78243-3477
+                                        (210) 977-3477 969-3477
+
+   HOST : 26.13.0.139 : AFCSCNET.AF.MIL : SPARCSTATION : SUN : X.25,     
+    TCP/IP,TELNET,FTP,SMTP :
+   
+   Configuration:      SPARCSTATION(SUN)
+
+AFIP.OSD.MIL               26.10.0.247  Goff, Sharmagne D.
+   SPONSOR: DOD            X.25         (goff@EMAIL.AFIP.OSD.MIL)
+                                        ARMED FORCES INSTITUTE OF        
+                                         PATHOLOGY
+                                        AUTOMATED MANAGEMENT SERVICES    
+                                         DIVISION
+                                        6825 16th STREET and ALASKA      
+                                         AVENUE
+                                        WASHINGTON, DC 20306
+                                        (202)576-2250 
+                                        (202)576-2840 291-2840 
+                                        (202)576-3074
+
+   HOST : 26.10.0.247 : AFIP.OSD.MIL : HP : UNIX : X.25,TCP/IP,TELNET,FTP
+    ,SMTP :
+   
+   Configuration:      HP(UNIX)
+
+AFLC-SM-DMMIS.AF.MIL       26.7.0.22    Lumsden, Charles A.
+   SPONSOR: AF             X.25         (McClellan@SERVER.AF.MIL)
+                                        652CCSG/SCOU
+                                        Bldg 7, Rm 110
+                                        McClellan AFB, CA 95652
+                                        (916) 643-2474 
+                                        (916) 643-5642 633-2474 
+                                        (916) 643-0200
+
+   HOST : 26.7.0.22 : AFLC-SM-DMMIS.AF.MIL,AFLC-SM-DMMIS1-SI01.AF.MIL :  
+    TANDEM-TXP : GUARDIAN : TCP/TELNET,TCP/FTP,TCP/SMTP :
+   
+   Configuration:      TANDEM-TXP(GUARDIAN)
+
+ANCPDS-YOKOSUKA.NAVY.MIL   26.9.0.178   Walters-Robinson, Yvette
+   SPONSOR: NAVY           X.25         (No Mailbox Given)
+                                        Yokosuka Naval Base
+                                        Consolate Civilian Personnel     
+                                         Office
+                                        Box 22, Code 510
+                                        Yokosuka
+                                        JAPAN
+                                        FPO Seattle, WA 98762
+                                        (315) 234-5725
+
+   HOST : 26.9.0.178 : ANCPDS-YOKOSUKA.NAVY.MIL,NCPDS-YOKOSUKA.NAVY.MIL :
+    UNISYS : OS : X.25 :
+   
+   Configuration:      UNISYS(OS)
+
+ARL.ARMY.MIL               26.2.0.29    Sporay, Ralph J.
+   SPONSOR: ARMY           DH           (sporay@ARL.ARMY.MIL)
+                                        Director
+                                        U.S. Army Research Laboratory
+                                        Attn: AMSRL-CI-AC, R. Sporay
+                                        Aberdeen Prvg Ground, MD         
+                                         21005-5067
+                                        (410) 278-6808 
+                                        (410) 278-6461 298-6808/6461
+
+   HOST : 26.2.0.29, 26.3.0.29, 128.63.24.112 : ARL.ARMY.MIL,BRL.ARMY.MIL
+    , BRL.MIL : VAX-11/780 : UNIX : TCP/SMTP,TCP/IP,X.25,EGP :
+   
+   Configuration:      VAX-11/780(UNIX)
+
+ASIMS-TN1.CHA.DISA.MIL     26.25.0.114  Besore, Crist E.
+   SPONSOR: ARMY           X.25         (cbesore@DMCV-EMH1.ARMY.MIL)
+                                        Director
+                                        DMC-Chambersburg
+                                        UMVEI(Besore)
+                                        Chambersburg, PA 17201-4186
+                                        (717) 267-9490/9609 570-9490 
+                                        (717) 267-8671
+
+   HOST : 150.190.105.2, 26.25.0.114 : ASIMS-TN1.CHA.DISA.MIL : AMDAHL-  
+    5890 : MVS : TCP/IP :
+   
+   Configuration:      AMDAHL-5890(MVS)
+
+AYDIN1.DISA.MIL            26.10.0.24   McCaffrey, Tom
+   SPONSOR:                X.25         (No Mailbox Given)
+                                        Aydin Monitoring Systems
+                                        700 Thresher Rd.
+                                        Horsham, PA 19044
+                                        (215) 657-8600
+
+   HOST : 26.10.0.24 : AYDIN1.DISA.MIL :: AMOS : X.25 :
+   
+   Configuration:      (AMOS)
+
+BBL-ERF.ARMY.MIL           26.16.0.2    Houchin, Lee
+   SPONSOR: ARMY           X.25         (LHOUCHIN@EURU1-GW.DCA.MIL)
+                                        Defense Communications Agency,   
+                                         Europe
+                                        DCA-EUR
+                                        Box 121
+                                        APO, AE 09131-4103
+                                        +49-711-680-5844 
+                                        (DSN) 314-430-5844
+
+   HOST : 26.16.0.2 : BBL-ERF.ARMY.MIL : GENERAL-DATACOM-2552 ::         
+    TCP/TELNET,TCP/FTP,TCP/SMTP :
+   
+   Configuration:      GENERAL-DATACOM-2552()
+
+BELVOIR-IGNET2.ARMY.MIL    26.6.0.76    Kelly, Kathy
+   SPONSOR: ARMY           X.25         (No Mailbox Given)
+                                        Headquarters
+                                        USACE
+                                        Attn: DAEN-IGP, K. Kelly
+                                        Fort Belvoir, VA 22060-5506
+                                        (202) 355-2572 
+                                        (DSN) 345-2572
+
+   HOST : 26.6.0.76 : BELVOIR-IGNET2.ARMY.MIL : CONVERGENT-TECH-CN-1000 :
+    CTOS : TCP/TELNET,X.25 :
+   
+   Configuration:      CONVERGENT-TECH-CN-1000(CTOS)
+
+BEN-HARRIS-TEP1.ARMY.MIL   26.26.0.232  Clark, Michael
+   SPONSOR: ARMY                        (CLARKM@INDPLS-ASAFM1.ARMY.MIL)
+                                        DFAS-FSAIN
+                                        ATTN: TB
+                                        Building 1, Room 140F
+                                        8899 E. 56th Street
+                                        Indianapolis, IN 46249-1801
+                                        (317) 543-7177 699-7177 
+                                        (DSN) 699-6699
+
+   HOST : 26.26.0.232 : BEN-HARRIS-TEP1.ARMY.MIL : CP-8240 :: TCP/TELNET,
+    TCP/FTP, TCP/SMTP :
+   
+   Configuration:      CP-8240()
+
+BEN-HARRIS-TEP2.ARMY.MIL   26.27.0.232  Clark, Michael
+   SPONSOR: ARMY           X.25         (CLARKM@INDPLS-ASAFM1.ARMY.MIL)
+                                        DFAS-FSAIN
+                                        ATTN: TB
+                                        Building 1, Room 140F
+                                        8899 E. 56th Street
+                                        Indianapolis, IN 46249-1801
+                                        (317) 543-7177 699-7177 
+                                        (DSN) 699-6699
+
+   HOST : 26.27.0.232 : BEN-HARRIS-TEP2.ARMY.MIL ::: TCP/TELNET,TCP/FTP, 
+    TCP/SMTP :
+   
+   Configuration:      ()
+
+BEN-HARRIS-TEP3.ARMY.MIL   26.28.0.232  Clark, Michael
+   SPONSOR: ARMY           X.25         (CLARKM@INDPLS-ASAFM1.ARMY.MIL)
+                                        DFAS-FSAIN
+                                        ATTN: TB
+                                        Building 1, Room 140F
+                                        8899 E. 56th Street
+                                        Indianapolis, IN 46249-1801
+                                        (317) 543-7177 699-7177 
+                                        (DSN) 699-6699
+
+   HOST : 26.28.0.232 : BEN-HARRIS-TEP3.ARMY.MIL ::: TCP/TELNET,TCP/FTP, 
+    TCP/SMTP :
+   
+   Configuration:      ()
+
+BEN-HARRIS-TEP4.ARMY.MIL   26.29.0.232  Clark, Michael
+   SPONSOR: ARMY           X.25         (CLARKM@INDPLS-ASAFM1.ARMY.MIL)
+                                        DFAS-FSAIN
+                                        ATTN: TB
+                                        Building 1, Room 140F
+                                        8899 E. 56th Street
+                                        Indianapolis, IN 46249-1801
+                                        (317) 543-7177 699-7177 
+                                        (DSN) 699-6699
+
+   HOST : 26.29.0.232 : BEN-HARRIS-TEP4.ARMY.MIL ::: TCP/TELNET,TCP/FTP, 
+    TCP/SMTP :
+   
+   Configuration:      ()
+
+BEN-HARRIS-TEP5.ARMY.MIL   26.30.0.232  Clark, Michael
+   SPONSOR: ARMY           X.25         (CLARKM@INDPLS-ASAFM1.ARMY.MIL)
+                                        DFAS-FSAIN
+                                        ATTN: TB
+                                        Building 1, Room 140F
+                                        8899 E. 56th Street
+                                        Indianapolis, IN 46249-1801
+                                        (317) 543-7177 699-7177 
+                                        (DSN) 699-6699
+
+   HOST : 26.30.0.232 : BEN-HARRIS-TEP5.ARMY.MIL ::: TCP/TELNET,TCP/FTP, 
+    TCP/SMTP :
+   
+   Configuration:      ()
+
+BREMERHA.DSRE.DLA.MIL      26.6.0.175   Marotzke, Lothar
+   SPONSOR: DOD            X.25         (No Mailbox Given)
+                                        Defense Subsistence Region
+                                        Amerikanisches Kuehlhaus Frigo
+                                        Bremerhaven
+                                        GERMANY
+                                        APO, NY 09052
+                                        +49 471-43045 
+                                        (DSN) 314-342-8517/8518
+
+   HOST : 26.6.0.175 : BREMERHA.DSRE.DLA.MIL,BREMRHVN-DISMS.DLA.MIL : ATT
+    -3B2 : UNIX : TCP/TELNET,TCP/FTP,TCP/SMTP :
+   
+   Configuration:      ATT-3B2(UNIX)
+
+BUCHAN-MPRJSS.ARMY.MIL     26.9.0.98    Witherspoon, Sl L.
+   SPONSOR: ARMY           X.25         (WITHERSPOONS@INDPLS-ASAFM1.ARMY.
+                                        DFAS-IN
+                                        RESERVE COMPONENT FINANCIAL      
+                                         SYSTEMS DIV
+                                        Indianapolis, IN 46249
+                                        (317)543-7604 699-7604
+
+   HOST : 26.9.0.98 : BUCHAN-MPRJSS.ARMY.MIL ::: TCP/TELNET,TCP/FTP,     
+    TCP/SMTP :
+   
+   Configuration:      ()
+
+BUPERS.NAVY.MIL            26.10.0.107  King, Carolyn
+   SPONSOR:                X.25         (No Mailbox Given)
+                                        Navy Annex FOB 2
+                                        Columbia Pike
+                                        Arlington, VA 20370
+                                        (703) 693-6893 223-6893
+
+   HOST : 26.10.0.107 : BUPERS.NAVY.MIL : SPARCSTATION : SUNOS : X.25,   
+    TCP/IP,TELNET,FTP,SMTP :
+   
+   Configuration:      SPARCSTATION(SUNOS)
+
+BUPYONG.PACIFIC.DRMS.DLA.MIL 26.24.0.171 Cook, Thomas P.
+   SPONSOR:                RS-232C      (tcook@PACIFIC.DRMS.DLA.MIL)
+                                        Chief, DRMO
+                                        APO AP 96283
+                                        +[82] 32-524-4629 
+                                        (DSN) 722-3479/3481
+
+   HOST : 26.24.0.171 : BUPYONG.PACIFIC.DRMS.DLA.MIL : ATT-3B2-600G :    
+    MULTICS : X.25 :
+   
+   Configuration:      ATT-3B2-600G(MULTICS)
+
+CAMNET-COLUMBUS-R02.AF.MIL 26.15.0.79   Redwine, Elizabeth C.
+   SPONSOR: AF             X.25         (No Mailbox Given)
+                                        Columbus Air Force Base
+                                        Building 160B, Administration    
+                                         Office
+                                        AFCOMS Detachment 206/FCS
+                                        Columbus, MS 39701-5034
+                                        (601) 434-7101 
+                                        (DSN) 742-7101
+
+   HOST : 26.15.0.79 : CAMNET-COLUMBUS-R02.AF.MIL : WANG-PC : VS ::
+   
+   Configuration:      WANG-PC(VS)
+
+CATS.NAVY.MIL              26.10.0.174  Noss, David Scott
+   SPONSOR: NAVY           X.25         (david_noss@SPECWAR-GW.NAVY.MIL)
+                                        NAWC-AD
+                                        Special Warfare Branch
+                                        Building 141, , Code 4.12.4
+                                        St. Inigoes, MD 20684-0010
+                                        (301) 862-8414 NONE NONE 356-3512
+                                         8414 
+                                        (301)862-8906
+
+   HOST : 26.10.0.174, 192.41.207.33 : CATS.NAVY.MIL : MICROVAX-II : VMS 
+    : TCP/FTP,TCP/SMTP,TCP/TELNET,X.25,UDP/DOMAIN :
+   
+   Configuration:      MICROVAX-II(VMS)
+
+CDBF-PAX.NAVY.MIL          26.7.0.174   Holland, Carl N.
+   SPONSOR: NAVY           X.25         (No Mailbox Given)
+                                        NAVAVNDEPOT OPNS CTR (433C)
+                                        NAS Patuxent River, Bldg. 420B
+                                        Patuxent River, MD 20670-5449
+                                        301-826-4908 312-326-4908
+
+   HOST : 26.7.0.174 : CDBF-PAX.NAVY.MIL,CDBF.NAVY.MIL : HONEYWELL-XPS : 
+    UNIX : TCP/FTP,TCP/TELNET,TCP/SMTP :
+   
+   Configuration:      HONEYWELL-XPS(UNIX)
+
+CHARM.ISI.EDU              26.11.0.65   Johnson, Ethel M.
+   SPONSOR:                             (registrar@NIC.DDN.MIL)
+                                        Network Information Center
+                                        14200 Park Meadow Drive, Suite   
+                                         200
+                                        Chantilly, VA 22021-2219
+                                        (703) 802-4535 
+                                        (703) 802-8376
+
+   HOST : 26.11.0.65, 128.9.128.128 : CHARM.ISI.EDU,NS.ISI.EDU, A.ISI.EDU
+    : SUN-4 : SUNOS : TCP/TELNET, TCP/FTP, TCP/SMTP, TCP/FINGER,         
+    TCP/RLOGIN :
+   
+   Configuration:      SUN-4(SUNOS)
+
+CMMC-BBN.DDN.MIL           26.18.0.70   Eason, Michael
+   SPONSOR: DOD            X.25         (MEason@BBN.COM)
+                                        BBN STD
+                                        1300 N. 17th Street
+                                        Suite 1200
+                                        Arlington, VA 22209-3803
+                                        (800) 337-4863 327-4048
+
+   HOST : 26.18.0.70 : CMMC-BBN.DDN.MIL,CMMC-BBN.DISA.MIL : SUN-380 : SUN
+    : TCP/TELNET,TCP/FTP,TCP/SMTP :
+   
+   Configuration:      SUN-380(SUN)
+
+CMMC-IPR.DDN.MIL           26.29.0.70   Martinez, Patty
+   SPONSOR: DOD            X.25         (PMartinez@DDN-CONUS.DDN.MIL)
+                                        BBN STD
+                                        1300 N. 17th Street
+                                        Suite 1200
+                                        Arlington, VA 22209-3803
+                                        (800) 337-4862 327-4048
+
+   HOST : 26.29.0.70 : CMMC-IPR.DDN.MIL,CMMC-IPR.DISA.MIL : SUN-II : SUN 
+    : TCP/TELNET,TCP/FTP,TCP/SMTP :
+   
+   Configuration:      SUN-II(SUN)
+
+CMMC.DDN.MIL               26.0.0.76    Martinez, Patty
+   SPONSOR:                DH           (PMartinez@DDN-CONUS.DDN.MIL)
+                                        BBN STD
+                                        1300 N. 17th Street
+                                        Suite 1200
+                                        Arlington, VA 22209-3803
+                                        (800) 337-4862 327-4048
+
+   HOST : 26.0.0.76 : CMMC.DDN.MIL,CMMC.DISA.MIL : C/70 : UNIX : TELNET, 
+    TCP/IP,FTP :
+   
+   Configuration:      BBN-C/70(UNIX)
+
+CMSC.DDN.MIL               26.0.0.70    Martinez, Patty
+   SPONSOR: DCA            1822         (PMartinez@DDN-CONUS.DDN.MIL)
+                                        BBN STD
+                                        1300 N. 17th Street
+                                        Suite 1200
+                                        Arlington, VA 22209-3803
+                                        (800) 337-4862 327-4048
+
+   HOST : 26.0.0.70 : CMSC.DDN.MIL,CMSC.DISA.MIL : C/70 : OS : TELNET,   
+    TCP/IP,FTP :
+   
+   Configuration:      BBN-C/70(OS)
+
+CNAP.NAVY.MIL              26.9.0.226   Stewart, Steven H.
+   SPONSOR: NAVY           X.25         (sstewart@SMTP.CNAP.NAVY.MIL)
+                                        COMNAVAIRPAC
+                                        ATTN: CODE N622C
+                                        P.O. BOX 357051
+                                        SAN DIEGO, CA 92135-7051
+                                        (619) 545-4517 735-4517
+
+   HOST : 26.9.0.226, 192.160.55.1 : CNAP.NAVY.MIL,CNAP11.NAVY.MIL :     
+    GOULD-6040 : UTX/32 : TCP/TELNET, TCP/FTP, TCP/SMTP :
+   
+   Configuration:      GOULD-6040(UTX/32)
+
+CNET-GRLP0210.NAVY.MIL     26.6.0.38    Drabek, Barbara
+   SPONSOR: NAVY           X.25         (No Mailbox Given)
+                                        Naval Training Center - Great    
+                                         Lakes
+                                        Attn: NETPMSA Unit
+                                        Building 2
+                                        Great Lakes, IL 60088-5701
+                                        (312) 792-2468 
+                                        (DSN) 688-2468
+
+   HOST : 26.6.0.38 : CNET-GRLP0210.NAVY.MIL,NETPMSA-GTLAKES1.NAVY.MIL : 
+    WANG-PC : MS-DOS ::
+   
+   Configuration:      WANG-PC(MS-DOS)
+
+CNET-NORWOO0016.NAVY.MIL   26.27.0.31   Ray, Dave
+   SPONSOR:                X.25         (No Mailbox Given)
+                                        NETPMSA UNIT, DAM NECK
+                                        Virginia Beach, VA 23461
+                                        804-433-7044, DSN 433-7044/6836
+
+   HOST : 26.27.0.31 : CNET-NORWOO0016.NAVY.MIL :: OS : TCP/TELNET,      
+    TCP/FTP,TCP/SMTP :
+   
+   Configuration:      (OS)
+
+CNET-PENW0003.NAVY.MIL     26.6.0.158   Schisler, David C.
+   SPONSOR: NAVY           X.25         (DAVID.SCHISLER@NETPMSA.CNET.NAVY
+                                        Netpmsa
+                                        6490 Saulfey Field Rd
+                                        Pensacola, FL 32509-5235
+                                        904-452-1832 
+                                        (904) 452-1926 922-1832 922-1928
+
+   HOST : 26.6.0.158 : CNET-PENW0003.NAVY.MIL : WANG-VS100 : VS :        
+    TCP/TELNET, TCP/FTP, TCP/SMTP :
+   
+   Configuration:      WANG-VS100(VS)
+
+CNLGWP.SIN.MRMS.NAVY.MIL   26.8.0.250   Kowalski, Dean
+   SPONSOR:                             (KOWALSKI@CLGWP.SIN.MRMS.NAVY.MIL
+                                        PSC-470 Box 2984
+                                        FPO AP 96534-3151
+                                        011-65-750-2454
+
+   HOST : 26.8.0.250, 198.97.70.1 : CNLGWP.SIN.MRMS.NAVY.MIL : CISCO-MGS 
+    : CISCO : X.25/TELNET/FTP/SMTP :
+   
+   Configuration:      CISCO-MGS(CISCO)
+
+COLORADO-SPRINGS.OGDEN.DRMS.DLA.MIL 26.16.0.243 Tilley, W.R.
+   SPONSOR: DLA            X.25         (No Mailbox Given)
+                                        Defense Reutilization and        
+                                         Marketing Office
+                                        Fort Carson
+                                        Colorado Springs, CO 80913-5670
+                                        (719) 579-2082/5514 
+                                        (DSN)691-2082
+
+   HOST : 26.16.0.243 : COLORADO-SPRINGS.OGDEN.DRMS.DLA.MIL : ATT-3B2 :  
+    UNIX : TCP/FTP,TCP/TELNET,TCP/SMTP :
+   
+   Configuration:      ATT-3B2(UNIX)
+
+COMSTATE-EUR-TST.DDN.MIL   26.25.0.2    Moore, Richard
+   SPONSOR: DOD            X.25         (No Mailbox Given)
+                                        Defense Communications Agency    
+                                         (DCA-Europe)
+                                        DCA-Europe/ACOC
+                                        Patch Barracks
+                                        Vaihingen
+                                        APO, AE 09131-4103
+                                        +0711-680-5895 
+                                        (DSN) 314-430-5895
+
+   HOST : 26.25.0.2 : COMSTATE-EUR-TST.DDN.MIL : DIGILOG : MS-DOS :      
+    TCP/FTP,TCP/TELNET,TCP/SMTP :
+   
+   Configuration:      DIGILOG(MS-DOS)
+
+COMSTATE-TEST.DDN.MIL      26.7.0.76    Butler, Ray
+   SPONSOR: DOD            X.25         (No Mailbox Given)
+                                        Defense Information Systems      
+                                         Agency
+                                        Attn:DODM
+                                        8th & South Courthouse Road
+                                        Arlington, VA 22204
+                                        (703) 692-7580 
+                                        (DSN) 222-7580
+
+   HOST : 26.7.0.76 : COMSTATE-TEST.DDN.MIL : C/70 : UNIX : TCP/TELNET,  
+    TCP/FTP,TCP/SMTP :
+   
+   Configuration:      BBN-C/70(UNIX)
+
+CPCASEY-JACS6311.ARMY.MIL  26.5.0.171   Vaughan, Paul R. R.
+   SPONSOR: ARMY           X.25         (vaughan@TECNET1.JCTE.JCS.MIL)
+                                        AEROSPACE CORPORATION
+                                        ATTN
+                                        2350 E. El Segundo Blvd.
+                                        El Segundo, CA 90245
+                                        310 336-3352 310 336-3017
+
+   HOST : 26.5.0.171 : CPCASEY-JACS6311.ARMY.MIL : HP-3000/42 : MPE-V ::
+   
+   Configuration:      HP-3000/42(MPE-V)
+
+CPHMPHRY-JACS5480.ARMY.MIL 26.7.0.171   Anasco, Sergeant First Class
+   SPONSOR: ARMY           X.25         (No Mailbox Given)
+                                        Camp Humphrey
+                                        Commander - 176th Finance Support
+                                         Unit - EAPT-FC
+                                        APO San Francisco, CA 96271-0125
+                                        (DSN) 314-753-8205
+
+   HOST : 26.7.0.171 : CPHMPHRY-JACS5480.ARMY.MIL : HP-3000/42 : MPE-V ::
+   
+   Configuration:      HP-3000/42(MPE-V)
+
+CPZAMA-JACS6350.ARMY.MIL   26.19.0.77   Pyle, Steven S.
+   SPONSOR: ARMY           X.25         (PYLE@INDPLS-ASAFM1.ARMY.MIL)
+                                        DFAS-Indpls Center
+                                        ATTN: DFAS-IN-SAA-AD (Stop 65)
+                                        Indianapolis, IN 46249-2120
+                                        (COM) 317-923-5352 259 
+                                        (DSN) 699-3124
+
+   HOST : 26.19.0.77 : CPZAMA-JACS6350.ARMY.MIL : HP-3000/42 : MPE-V ::
+   
+   Configuration:      HP-3000/42(MPE-V)
+
+CRMC-DIGILOG.DDN.MIL       26.7.0.246   Link, Dave
+   SPONSOR: DISA           X.25         (AOPSMGR@DDN-CONUS.DDN.MIL)
+                                        Defense Information Systems      
+                                         Agency
+                                        Attn: Code WE3353
+                                        11440 Issac Newton Square
+                                        Reston, VA 22090-5087
+                                        (703) 735-8063 653-8063
+
+   HOST : 26.7.0.246 : CRMC-DIGILOG.DDN.MIL : DIGILOG :: TCP/TELNET,     
+    TCP/FTP,TCP/SMTP :
+   
+   Configuration:      DIGILOG()
+
+CRMC-IPR.DDN.MIL           26.29.0.246  Martinez, Patty
+   SPONSOR: DISA           X.25         (PMartinez@DDN-CONUS.DDN.MIL)
+                                        BBN STD
+                                        1300 N. 17th Street
+                                        Suite 1200
+                                        Arlington, VA 22209-3803
+                                        (800) 337-4862 327-4048
+
+   HOST : 26.29.0.246 : CRMC-IPR.DDN.MIL : SUN-II : SUNOS : TCP/TELNET,  
+    TCP/FTP,TCP/SMTP :
+   
+   Configuration:      SUN-II(SUNOS)
+
+CRMC.DDN.MIL               26.1.0.246   Link, Dave
+   SPONSOR: DISA                        (AOPSMGR@DDN-CONUS.DDN.MIL)
+                                        Defense Information Systems      
+                                         Agency
+                                        Attn: Code WE3353
+                                        11440 Issac Newton Square
+                                        Reston, VA 22090-5087
+                                        (703) 735-8063 653-8063
+
+   HOST : 26.1.0.246 : CRMC.DDN.MIL,CMRC.DDN.MIL : C/70 : UNIX :         
+    TCP/TELNET,TCP/FTP,TCP/SMTP :
+   
+   Configuration:      C/70(UNIX)
+
+CRSC.DDN.MIL               26.2.0.246   Link, Dave
+   SPONSOR: DISA                        (AOPSMGR@DDN-CONUS.DDN.MIL)
+                                        Defense Information Systems      
+                                         Agency
+                                        Attn: Code WE3353
+                                        11440 Issac Newton Square
+                                        Reston, VA 22090-5087
+                                        (703) 735-8063 653-8063
+
+   HOST : 26.2.0.246 : CRSC.DDN.MIL : C/70 : UNIX : TCP/TELNET,TCP/FTP,  
+    TCP/SMTP :
+   
+   Configuration:      C/70(UNIX)
+
+CSC1.DMA.MIL               26.10.0.102  Caswell, William H.
+   SPONSOR:                X.25         (WCASWELL@DMACSC.DMA.MIL)
+                                        Defense Mapping Agency
+                                        Combat Support Center
+                                        ATTN: DSS (MS D-14)
+                                        6001 MacArthur Blvd.
+                                        Bethesda, MD 20816-5001
+                                        (301)227-5585 
+                                        (301)227-5586 287-5585 
+                                        (301)227-3622
+
+   HOST : 26.10.0.102 : CSC1.DMA.MIL : IBM : OS : X.25,TCP/IP :
+   
+   Configuration:      IBM(OS)
+
+CSC3.DMA.MIL               26.8.0.24    Clifford, Philip
+   SPONSOR:                X.25         (PCLIFFORD@DMADP.DMA.MIL)
+                                        Defense Mapping Agency
+                                        Combat Support Center Philade
+                                        ATTN:DOPA/PClifford
+                                        5801 Tabor Avenue
+                                        Philadelphia, PA 19120-5098
+                                        (215) 697-3347 442-3347
+
+   HOST : 26.8.0.24 : CSC3.DMA.MIL : IBM : UNIX : X.25,TCP/IP,TELNET,FTP,
+    SMTP :
+   
+   Configuration:      IBM(UNIX)
+
+DCMOO.DSAC.DLA.MIL         26.15.0.87   Haggard, James E.
+   SPONSOR: AF             X.25         (NAP3903@DCMOO.DSAC.DLA.MIL)
+                                        Air Force Contract Management    
+                                         Division
+                                        CMD/SCD
+                                        Kirtland Air Force Base, NM      
+                                         87117-5000
+                                        (505) 844-4280 
+                                        (DSN) 244-4280
+
+   HOST : 26.15.0.87 : DCMOO.DSAC.DLA.MIL : VAX-8700 : VMS : TCP/TELNET, 
+    TCP/FTP,TCP/SMTP :
+   
+   Configuration:      VAX-8700(VMS)
+
+DDGG.DLA.MIL               26.4.0.4     Gablitzka, Jutta R.
+   SPONSOR: ARMY           X.25         (jgablitzka@GERMERSH.DSRE.DLA.MIL
+                                        Defense Subsistence Storage      
+                                         Facility
+                                        Germersheim
+                                        Bldg: 7900
+                                        ATTN: DSRE-GI
+                                        APO, AE 09095-4141
+                                        011-49-7274-5-8509
+
+   HOST : 26.4.0.4 : DDGG.DLA.MIL,GERMERSH.DSRE.DLA.MIL : ATT-3B2-600G : 
+    UNIX : TCP/TELNET, TCP/FTP, TCP/SMTP :
+   
+   Configuration:      ATT-3B2-600G(UNIX)
+
+DDN-CONUS.DDN.MIL          26.1.0.76    Bolden, Michelle L.
+   SPONSOR: DCA            DH           (Bolden@BBN.COM)
+                                        BBN STD
+                                        1300 N. 17th Street
+                                        Suite 1200
+                                        Arlington, VA 22209-3803
+                                        (703) 284-4770 
+                                        (703) 284-4600 
+                                        (703) 284-2766
+
+   HOST : 26.1.0.76 : DDN-CONUS.DDN.MIL,DDN.DISA.MIL : C/70 : UNIX :     
+    TCP/TELNET,TCP/FTP,TCP/SMTP,TCP/TIME :
+   
+   Configuration:      BBN-C/70(UNIX)
+
+DDN-EUR.DDN.MIL            26.7.0.2     Miller, Gary D.
+   SPONSOR: DOD            1822HDH      (adm@DDN-EUR.DDN.MIL)
+                                        Defense Information Systems      
+                                         Agency-Europe
+                                        Box 7
+                                        APO, AE 09131
+                                        +49-0711-680-5537 430-5537
+
+   HOST : 26.7.0.2 : DDN-EUR.DDN.MIL,DDN-EUR.DISA.MIL : SUN : UNIX ::
+   
+   Configuration:      SUN(UNIX)
+
+DDN-PAC.DDN.MIL            26.3.0.145   Theos, Robert F.
+   SPONSOR: DOD            1822DH       (rtheos@DDN-PAC.DDN.MIL)
+                                        Commander
+                                        Defense Information Systems      
+                                         Agency - Pacific Area
+                                        Attn: DPDSC
+                                        Wheeler Army Air Field, HI       
+                                         96854-5120
+                                        808-656-1026 315-456-1026
+
+   HOST : 26.3.0.145 : DDN-PAC.DDN.MIL : SUN : UNIX : TCP/TELNET, TCP/FTP
+    , TCP/SMTP :
+   
+   Configuration:      SUN(UNIX)
+
+DECCO-DOLS.DISA.MIL        26.9.0.59    Haskins, Linda
+   SPONSOR: DCA            X.25         (HASKIN2L@CC.IMS.DISA.MIL)
+                                        DECCO/RIRS
+                                        2300 East Drive
+                                        Scott AFB, IL 62225-5406
+                                        (618) 256-9364
+
+   HOST : 26.9.0.59 : DECCO-DOLS.DISA.MIL : IBM-4381 : MVS : TCP/TELNET, 
+    TCP/FTP :
+   
+   Configuration:      IBM-4381(MVS)
+
+DECCO-EUROPE.DISA.MIL      26.5.0.191   Foerst, Armin K.
+   SPONSOR: DCA            X.25         (FOERST@DECCO-EUROPE.DISA.MIL)
+                                        Decco Europe
+                                        Unit 4235, Box 375
+                                        APO, AE 09136-5375
+                                        49-6302-4052 49-6302-4051        
+                                         496-7251 49-6302-5510
+
+   HOST : 26.5.0.191 : DECCO-EUROPE.DISA.MIL,SEMBACH-DECCO.DISA.MIL :    
+    WANG : WANG : TCP/SMTP, TCP/FTP, TCP/IP :
+   
+   Configuration:      WANG(WANG)
+
+DECCO.DISA.MIL             26.7.0.59    Haskins, Linda
+   SPONSOR:                X.25         (HASKIN2L@CC.IMS.DISA.MIL)
+                                        DECCO/RIRS
+                                        2300 East Drive
+                                        Scott AFB, IL 62225-5406
+                                        (618) 256-9364
+
+   HOST : 26.7.0.59 : DECCO.DISA.MIL : WANG-VS100 : WANG ::
+   
+   Configuration:      WANG-VS100(WANG)
+
+DFAS-PAC.ARMY.MIL          26.31.0.43   Forgey, Wesley
+   SPONSOR: ARMY                        (No Mailbox Given)
+                                        DFAS-PA PMO
+                                        BLDG 77A, Rm 120
+                                        Ford Island, HI 96853-5490
+                                        448-3327
+
+   HOST : 26.31.0.43 : DFAS-PAC.ARMY.MIL : CISCO : CISCO ::
+   
+   Configuration:      CISCO(CISCO)
+
+DIS.DLANET.DLA.MIL         26.9.0.97    Sauer, David G.
+   SPONSOR: DLA            X.25         (sauerd@DISLINK.JCTE.JCS.MIL)
+                                        DEFENSE INVESTIGATIVE SERVICE    
+                                         HEADQUARTERS
+                                        PO BOX 1211
+                                        D0633.1
+                                        Baltimore, MD 21203-1211
+                                        (410) 631-0451 283-9630 
+                                        (410) 633-9239
+
+   HOST : 26.9.0.97 : DIS.DLANET.DLA.MIL : NCR-COMTEN-3690 : COS2 ::
+   
+   Configuration:      NCR-COMTEN-3690(COS2)
+
+DLSC3.DLSC.DLA.MIL         26.25.0.160  Stokes, Elwood
+   SPONSOR: DLA            HDH          (estokes@DLSC.DLA.MIL)
+                                        DLSC
+                                        IPA-UDB-TB
+                                        74 N. Washington Ave.
+                                        Battle Creek, MI 49017-3084
+                                        (616) 961-7555 932-7555
+
+   HOST : 26.25.0.160 : DLSC3.DLSC.DLA.MIL : IBM : MVS : TCP/TELNET,     
+    TCP/FTP,TCP/SMTP :
+   
+   Configuration:      IBM(MVS)
+
+DLSC4.DLSC.DLA.MIL         26.27.0.160  Abbott, Kenneth J.
+   SPONSOR: DLA            HDH          (abbottk@WPDIS01.WPAFB.AF.MIL)
+                                        2721 Sacramento St.
+                                        WPAFB, OH 45433
+                                        (513)257-7902 932-4040
+
+   HOST : 26.27.0.160 : DLSC4.DLSC.DLA.MIL : IBM-3090 : MVS : TCP/TELNET,
+    TCP/FTP,TCP/SMTP :
+   
+   Configuration:      IBM-3090(MVS)
+
+DM-PIV-1.AF.MIL            26.6.0.111   Elder, Mitchell
+   SPONSOR: AF             X.25         (No Mailbox Given)
+                                        836AD/SIX
+                                        Davis-Monthan Air Force Base
+                                        Tucson, AZ 85707-6346
+                                        (602) 748-3790 
+                                        (DSN) 312-361-3790
+
+   HOST : 26.6.0.111 : DM-PIV-1.AF.MIL,DM-PIV-01.AF.MIL : SPERRY-DCP/40 :
+    OS1100 : TCP/TELNET,TCP/FTP,TCP/SMTP :
+   
+   Configuration:      SPERRY-DCP/40(OS1100)
+
+DMAAC-DDMS.DMA.MIL         26.14.0.61   Brucker, Armand
+   SPONSOR: DOD                         (No Mailbox Given)
+                                        DMASC/WGT MS-L-50
+                                        3200 South Second St.
+                                        St. Louis, MO 63118-3399
+                                        314-263-4497 693-4497
+
+   HOST : 26.14.0.61 : DMAAC-DDMS.DMA.MIL : IBM : UNIX : TCP/IP, TELNET, 
+    FTP, SMTP :
+   
+   Configuration:      IBM(UNIX)
+
+DMAAC-PHIV.DMA.MIL         26.4.0.61    Parker, Paul
+   SPONSOR: DMA            X.25         (Paul.Parker@CS.CMU.EDU)
+                                        Carnegie-Mellon University
+                                        Computer Science Department
+                                        Schenley Park
+                                        Pittsburgh, PA 15213
+                                        (412) 268-7683
+
+   HOST : 26.4.0.61 : DMAAC-PHIV.DMA.MIL : SPERRY-1100 : OS1100 : TCP/FTP
+    ,TCP/TELNET,TCP/SMTP :
+   
+   Configuration:      SPERRY-1100(OS1100)
+
+DMAACGAD.DMA.MIL           26.5.0.61    Caswell, William H.
+   SPONSOR:                X.25         (WCASWELL@DMACSC.DMA.MIL)
+                                        Defense Mapping Agency
+                                        Combat Support Center
+                                        ATTN: DSS (MS D-14)
+                                        6001 MacArthur Blvd.
+                                        Bethesda, MD 20816-5001
+                                        (301)227-5585 
+                                        (301)227-5586 287-5585 
+                                        (301)227-3622
+
+   HOST : 26.5.0.61 : DMAACGAD.DMA.MIL : UNISYS : MCP : TCP/SMTP, TCP/FTP
+    , TCP/TELNET :
+   
+   Configuration:      UNISYS(MCP)
+
+DMACSC.DMA.MIL             26.5.0.81    Caswell, William H.
+   SPONSOR: DMA            X.25         (WCASWELL@DMACSC.DMA.MIL)
+                                        Defense Mapping Agency
+                                        Combat Support Center
+                                        ATTN: DSS (MS D-14)
+                                        6001 MacArthur Blvd.
+                                        Bethesda, MD 20816-5001
+                                        (301)227-5585 
+                                        (301)227-5586 287-5585 
+                                        (301)227-3622
+
+   HOST : 26.5.0.81 : DMACSC.DMA.MIL : UNISYS : MCP : TCP/FTP, TCP/SMTP, 
+    TCP/TELNET :
+   
+   Configuration:      UNISYS(MCP)
+
+DMADP.DMA.MIL              26.7.0.24    Caswell, William H.
+   SPONSOR: DOD            X.25         (WCASWELL@DMACSC.DMA.MIL)
+                                        Defense Mapping Agency
+                                        Combat Support Center
+                                        ATTN: DSS (MS D-14)
+                                        6001 MacArthur Blvd.
+                                        Bethesda, MD 20816-5001
+                                        (301)227-5585 
+                                        (301)227-5586 287-5585 
+                                        (301)227-3622
+
+   HOST : 26.7.0.24 : DMADP.DMA.MIL : UNISYS : MCP ::
+   
+   Configuration:      UNISYS(MCP)
+
+DMAOE.DMA.MIL              26.8.0.14    Pokoj, Larry E.
+   SPONSOR: DOD            X.25         (LPOKOJ@DMAOE.DMA.MIL)
+                                        CSC/DMA  DEDI
+                                        GERSBERGERHOF STRASSE 7465
+                                        RM 9
+                                        APO, AE 09249
+                                        011-49-6332-44879 495-8003 23
+
+   HOST : 26.8.0.14, 26.12.0.14 : DMAOE.DMA.MIL : UNISYS : MCP ::
+   
+   Configuration:      UNISYS(MCP)
+
+DMRIS-KEFLAVIK.NAVY.MIL    26.8.0.27    Kasten, Robert
+   SPONSOR: NAVY           X.25         (No Mailbox Given)
+                                        U.S. Naval Hospital
+                                        Box 8
+                                        FPO, NY 09571-0308
+                                        +354-25-3213/3216 
+                                        (DSN) 314-228-3213/3216
+
+   HOST : 26.8.0.27 : DMRIS-KEFLAVIK.NAVY.MIL : PDP-11/23 : VMS : X.25 :
+   
+   Configuration:      PDP-11/23(VMS)
+
+DOCKMASTER.NCSC.MIL        26.1.0.172   Gotch, Leslie M.
+   SPONSOR: NSA            DH           (sysadmin@DOCKMASTER.NCSC.MIL)
+                                        Department of Defense
+                                        Dockmaster Operations
+                                        Y433
+                                        9800 Savage Road
+                                        Ft. George G. Meade, MD          
+                                         20755-6000
+                                        (410)859-4360 
+                                        (800)336-3625 
+                                        (410)850-7155
+
+   HOST : 26.1.0.172 : DOCKMASTER.NCSC.MIL,DOCKMASTER.DISA.MIL :         
+    HONEYWELL-DPS-8/70 : MULTICS : TCP/TELNET, TCP/FTP, TCP/SMTP,        
+    TCP/ECHO, TCP/DISCARD, ICMP :
+   
+   Configuration:      HONEYWELL-DPS-8/70(MULTICS)
+
+DODDS-MED.AF.MIL           26.5.0.156   Vanepps, Robert
+   SPONSOR:                X.25         (TNGUYEN@DODDS-WASH.AF.MIL)
+                                        DODDS-MED Regional O
+                                        ATTN:  MIS Branch
+                                        Unit 31306, Box 28
+                                        Camp Darby
+                                        APO, AE 09613-0005
+                                        011-39-50-547853 633-7853/7940
+
+   HOST : 26.5.0.156 : DODDS-MED.AF.MIL : ATT-3B2-600G : UNIX :          
+    TCP/TELNET, TCP/FTP, TCP/SMTP :
+   
+   Configuration:      ATT-3B2-600G(UNIX)
+
+DODDS-PAC.AF.MIL           26.10.0.82   McCrae, Daniel E.
+   SPONSOR: DOD            X.25         (sysadmin@DODDS-PAC.AF.MIL)
+                                        DODDS-PACIFIC REGIONAL OFFICE
+                                        MIS DIVISION
+                                        PSC 556 BOX 796
+                                        FPO, AP 96372
+                                        011-81-611-745-2418 645-2418     
+                                         011-81-98-876-4263
+
+   HOST : 26.10.0.82 : DODDS-PAC.AF.MIL : ATT-3B2-600G :: TCP/FTP,       
+    TCP/TELNET, TCP/SMTP :
+   
+   Configuration:      ATT-3B2-600G()
+
+DODDS-WASH.AF.MIL          26.14.0.26   Nguyen, Teresa O.
+   SPONSOR: AF             X.25         (tnguyen@DODDS-WASH.AF.MIL)
+                                        4040 N. FAIRFAX DRIVE
+                                        MIS DIVISION
+                                        7TH FLOOR
+                                        ARLINGTON, VA 22203
+                                        703-696-1420 129 226-1420 129    
+                                         703-696-3749
+
+   HOST : 26.14.0.26 : DODDS-WASH.AF.MIL : HP-9000 : HP-UX : TCP/TELNET, 
+    TCP/FTP, TCP/SMTP :
+   
+   Configuration:      HP-9000(HP-UX)
+
+DOVER-AM2.AF.MIL           26.11.0.130  Pruitt, Don
+   SPONSOR: AF             X.25         (No Mailbox Given)
+                                        Dover Air Force Base
+                                        AFCOMS Detachment 306/FCS
+                                        Dover, DE 19902-6290
+                                        (302) 678-6471 
+                                        (DSN) 455-6471
+
+   HOST : 26.11.0.130 : DOVER-AM2.AF.MIL : WANG-PC : VS ::
+   
+   Configuration:      WANG-PC(VS)
+
+DSAC1.DLANET.DLA.MIL       26.4.0.129   Funderburk, Gary
+   SPONSOR:                             (gfunderburk@DSAC.DLA.MIL)
+                                        Defense Logistics Agency/DSAC
+                                        P.O. Box 1605
+                                        Columbus, OH 43216
+                                        (614) 238-9080 
+                                        (DSN) 850-9080
+
+   HOST : 26.4.0.129 : DSAC1.DLANET.DLA.MIL : COMTEN-3690 : COS2 ::
+   
+   Configuration:      COMTEN-3690(COS2)
+
+DSACS08.ARMY.MIL           26.5.0.46    Davis, Billy J.
+   SPONSOR: ARMY           X.25         (DAVISB2@LEE-EMH2.ARMY.MIL)
+                                        ATCL-A
+                                        Fort Lee, VA 23801
+                                        (804) 765-1079 539-1079
+
+   HOST : 26.5.0.46 : DSACS08.ARMY.MIL : PROTOCOM-P2500 :::
+   
+   Configuration:      PROTOCOM-P2500()
+
+DUGWAY-EMH2.ARMY.MIL       26.2.0.120   Antry, Mark
+   SPONSOR: ARMY           DH           (mantry@DUGWAY-EMH4.ARMY.MIL)
+                                        Commander, U.S. Army DPG
+                                        Attn: STEDP-MT-TD-S
+                                        Dugway Proving Ground
+                                        Dugway, UT 84022-5000
+                                        (801) 831-5441 789-5442
+
+   HOST : 26.2.0.120 : DUGWAY-EMH2.ARMY.MIL : VAX-11/785 : VMS :         
+    TCP/TELNET,TCP/FTP,TCP/SMTP :
+   
+   Configuration:      VAX-11/785(VMS)
+
+EASTCOTE-DODDSNET.AF.MIL   26.12.0.194  Alcot, Beverly
+   SPONSOR:                X.25         (balcott@EASTCOTE-DODDSNET.AF.MIL
+                                        BLDG: MOD CMPLX BLK
+                                        RM:503A
+                                        WEST RUISLIP
+                                        EASTCOTE
+                                        APO, AE 09241-0005
+                                        011-44-71-355-5551 235-5548
+
+   HOST : 26.12.0.194 : EASTCOTE-DODDSNET.AF.MIL : ATT-3B2 : UNIX : X.25,
+    TCP/IP,TELNET,FTP,SMTP :
+   
+   Configuration:      ATT-3B2(UNIX)
+
+ED-EI.AF.MIL               26.9.0.170   Kunkle, Brett
+   SPONSOR: AF             X.25         (No Mailbox Given)
+                                        Eielson Air Force Base
+                                        Attn: 343CRS/MACP
+                                        Fairbanks, AK 99702
+                                        (907) 377-2649 
+                                        (DSN) 317-377-2649
+
+   HOST : 26.9.0.170 : ED-EI.AF.MIL : HARRIS : UNIX : TCP/TELNET,TCP/FTP,
+    TCP/SMTP :
+   
+   Configuration:      HARRIS(UNIX)
+
+EDCARS-OC.AF.MIL           26.6.0.71    Turner, Lionel
+   SPONSOR: AF             X.25         (No Mailbox Given)
+                                        Tinker Air Force Base
+                                        Attn:OC-ALC/MMED
+                                        Building 3001, Room 1AC/112
+                                        Oklahoma City, OK 7145
+                                        (504) 734-5638 
+                                        (DSN) 336-5638
+
+   HOST : 26.6.0.71 : EDCARS-OC.AF.MIL : NCR-COMTEN-3690 : MVS :         
+    TCP/TELNET,TCP/FTP,TCP/SMTP :
+   
+   Configuration:      NCR-COMTEN-3690(MVS)
+
+EDCARS-WP.AF.MIL           26.14.0.123  Brock, Shirley
+   SPONSOR: AF             X.25         (No Mailbox Given)
+                                        Wright-Patterson Air Force Base
+                                        2750 ABW/DAD
+                                        Dayton, OH 45433
+                                        (513) 257-6969 
+                                        (DSN) 787-6969
+
+   HOST : 26.14.0.123 : EDCARS-WP.AF.MIL : ACC-ACS-4020 : PPE : IP,X.25 :
+   
+   Configuration:      ACC-ACS-4020(PPE)
+
+EL-TORO.OGDEN.DRMS.DLA.MIL 26.13.0.65   Hall, Sidney
+   SPONSOR: DLA            X.25         (No Mailbox Given)
+                                        Defense Reutilization and        
+                                         Marketing Office
+                                        Naval Air Station
+                                        East Irvine, CA 92650-0021
+                                        (714) 726-3148 
+                                        (DSN) 997-3148
+
+   HOST : 26.13.0.65 : EL-TORO.OGDEN.DRMS.DLA.MIL : ATT-3B2 : UNIX :     
+    TCP/FTP,TCP/TELNET,TCP/SMTP :
+   
+   Configuration:      ATT-3B2(UNIX)
+
+EMMC.DDN.MIL               26.0.0.2     Moore, Richard W.
+   SPONSOR: DCA            DH           (rmoore@FRG.BBN.COM)
+                                        Box 98, Unit 30403
+                                        DISA-Europe
+                                        APO, AE 09131
+                                        011-49-711-6805532               
+                                         011-49-711-6805532 315-430-5532 
+                                         011-49-711-6871285
+
+   HOST : 26.0.0.2 : EMMC.DDN.MIL,EMMC.DISA.MIL : C/70 : UNIX : ICMP,    
+    TCP/SMTP :
+   
+   Configuration:      BBN-C/70(UNIX)
+
+EMMC2.DDN.MIL              26.2.0.2     Moore, Richard
+   SPONSOR: DOD            1822         (No Mailbox Given)
+                                        Defense Communications Agency    
+                                         (DCA-Europe)
+                                        DCA-Europe/ACOC
+                                        Patch Barracks
+                                        Vaihingen
+                                        APO, AE 09131-4103
+                                        +0711-680-5895 
+                                        (DSN) 314-430-5895
+
+   HOST : 26.2.0.2 : EMMC2.DDN.MIL,EMMC2.DISA.MIL : C/70 :: TCP/TELNET,  
+    TCP/FTP,TCP/SMTP :
+   
+   Configuration:      BBN-C/70()
+
+FAIRBANK.OGDEN.DRMS.DLA.MIL 26.13.0.170 Watts, Jefferson Usa
+   SPONSOR: DLA            X.25         (szwa013@OGDEN.DRMS.DLA.MIL)
+                                        Defense Reutilization &  Mkting  
+                                         Office Fairbanks
+                                        P.O. Box 35028
+                                        Fort Wainwright, AK 99703-0028
+                                        (907) 353-7130 317-353-7406
+
+   HOST : 26.13.0.170 : FAIRBANK.OGDEN.DRMS.DLA.MIL : ATT-3B2 : UNIX :   
+    TCP/FTP,TCP/TELNET,TCP/SMTP :
+   
+   Configuration:      ATT-3B2(UNIX)
+
+FLORENNES-AMI.AF.MIL       26.12.0.190  Guyton, Franklin
+   SPONSOR: AF             X.25         (No Mailbox Given)
+                                        Florennes Air Base
+                                        Air Force Commissary (AFCOMS)
+                                        485th Communications Systems     
+                                         Group
+                                        Florennes
+                                        APO New York, NY 09188-5000
+                                        +0032-71-687125 x233 
+                                        (DSN) 314-791-3255 x233/273
+
+   HOST : 26.12.0.190 : FLORENNES-AMI.AF.MIL : WANG-PC : MS-DOS : X.25 :
+   
+   Configuration:      WANG-PC(MS-DOS)
+
+FLX-LINK.DLA.MIL           26.7.0.136   Ertel, Michael
+   SPONSOR: DLA            X.25         (mertel@EUROPE.DLA.MIL)
+                                        CMR 443, Box 713
+                                        APO, AE 09096
+                                        011-49-06134-60-44746 334-2746
+
+   HOST : 26.7.0.136 : FLX-LINK.DLA.MIL,FELIXSTOWE-DISMS.DLA.MIL : ATT-  
+    3B2 : UNIX : TCP/TELNET, TCP/FTP, TCP/SMTP :
+   
+   Configuration:      ATT-3B2(UNIX)
+
+FNGYNIPR.DISA.MIL          26.30.0.250  San Nicolas, Joe B.
+   SPONSOR: DOD                         (nsc-m250@DDN-PAC.DDN.MIL)
+                                        NCTAMS WESTPAC
+                                        PSC 488 Box 133
+                                        FPO, AP 96537-1829
+                                        +671 355-5925 
+                                        (315) 355-5925
+
+   HOST : 26.30.0.250 : FNGYNIPR.DISA.MIL : CISCO-AGS :: X.25 :
+   
+   Configuration:      CISCO-AGS()
+
+FRG.BBN.COM                26.15.0.2    Wilmot, Clive H.
+   SPONSOR: DCA            HDH          (cwilmot@BBN.COM)
+                                        DISA-EUCOM
+                                        Unit 30403, Box 116
+                                        APO, AE 09131
+                                        011-49-711-680-8590 
+                                        (ETS) 430-5532 430-5532/5534 +49
+
+   HOST : 26.15.0.2 : FRG.BBN.COM : C/70 : UNIX : TCP/TELNET, TCP/FTP,   
+    TCP/SMTP, TCP/TIME, ICMP :
+   
+   Configuration:      BBN-C/70(UNIX)
+
+FT-BEN-HARRISON-IP.DDN.MIL 26.31.0.232  Laurie, Linda L.
+   SPONSOR:                             (LLAURIE@CLEVELAND.DFAS.MIL)
+                                        DFAS-FSAIN
+                                        ATTN:  DFAS-FSAIN/TB
+                                        Building 1, Col 141G
+                                        8899 E. 56th Street
+                                        Indianapolis, IN 46249-1801
+                                        (317) 543-7180 
+                                        (317) 543-7177 699-7180 699-6699
+
+   HOST : 26.31.0.232 : FT-BEN-HARRISON-IP.DDN.MIL : CISCO-AGS :: X.25,  
+    TCP/IP, TELNET, FTP,SMTP :
+   
+   Configuration:      CISCO-AGS()
+
+FTBLISS-IGNET.ARMY.MIL     26.10.0.229  Quinn, Mark
+   SPONSOR: ARMY           X.25         (QUINNM@HOFFMAN-EMH1.ARMY.MIL)
+                                        Headquarters ISC-Hoffman
+                                        ASQNI-DOO-NM
+                                        200 Stovall Street
+                                        Alexandria, VA 22332-1582
+                                        (703) 325-0238
+
+   HOST : 26.10.0.229 : FTBLISS-IGNET.ARMY.MIL,BLISS-IGNET.ARMY.MIL :    
+    CONVERGENT-TECH-CN1000 : CTOS : X.25 :
+   
+   Configuration:      CONVERGENT-TECH-CN1000(CTOS)
+
+FTBNHRSN-JACSTEST.ARMY.MIL 26.15.0.232  Reilly, William R.
+   SPONSOR: ARMY           X.25         (RREILLY@CLEVELAND.DFAS.MIL)
+                                        DFAS Financial Systems           
+                                         Organization
+                                        8899 East 56th Street
+                                        INDIANAPOLIS, IN 46249-2801
+                                        (317)549-5655 699-5655
+
+   HOST : 26.15.0.232 : FTBNHRSN-JACSTEST.ARMY.MIL : HP-3000 : MPE-V :   
+    X.25 :
+   
+   Configuration:      HP-3000(MPE-V)
+
+FTBNHRSN-JTELS.ARMY.MIL    26.6.0.232   Clark, Michael
+   SPONSOR: ARMY           X.25         (CLARKM@INDPLS-ASAFM1.ARMY.MIL)
+                                        DFAS-FSAIN
+                                        ATTN: TB
+                                        Building 1, Room 140F
+                                        8899 E. 56th Street
+                                        Indianapolis, IN 46249-1801
+                                        (317) 543-7177 699-7177 
+                                        (DSN) 699-6699
+
+   HOST : 26.6.0.232 : FTBNHRSN-JTELS.ARMY.MIL : SPERRY-DCP/40 : OS1100 :
+    TCP/TELNET,TCP/FTP,TCP/SMTP :
+   
+   Configuration:      SPERRY-DCP/40(OS1100)
+
+FTBNHRSN-MPRJSS1.ARMY.MIL  26.26.0.129  Clark, Michael
+   SPONSOR: ARMY           X.25         (CLARKM@INDPLS-ASAFM1.ARMY.MIL)
+                                        DFAS-FSAIN
+                                        ATTN: TB
+                                        Building 1, Room 140F
+                                        8899 E. 56th Street
+                                        Indianapolis, IN 46249-1801
+                                        (317) 543-7177 699-7177 
+                                        (DSN) 699-6699
+
+   HOST : 26.26.0.129, 26.5.0.232 : FTBNHRSN-MPRJSS1.ARMY.MIL : ADVINTECH
+    : MVS/XA : TCP/TELNET,TCP/FTP,TCP/SMTP :
+   
+   Configuration:      ADVINTECH(MVS/XA)
+
+FTBNHRSN-MPRJSS2.ARMY.MIL  26.25.0.129  Clark, Michael
+   SPONSOR: ARMY           X.25         (CLARKM@INDPLS-ASAFM1.ARMY.MIL)
+                                        DFAS-FSAIN
+                                        ATTN: TB
+                                        Building 1, Room 140F
+                                        8899 E. 56th Street
+                                        Indianapolis, IN 46249-1801
+                                        (317) 543-7177 699-7177 
+                                        (DSN) 699-6699
+
+   HOST : 26.25.0.129, 26.13.0.232 : FTBNHRSN-MPRJSS2.ARMY.MIL :         
+    ADVINTECH : MVS/XA : TCP/TELNET,TCP/FTP,TCP/SMTP :
+   
+   Configuration:      ADVINTECH(MVS/XA)
+
+FTBNHRSN-MPRJSS3.ARMY.MIL  26.24.0.232  Clark, Michael
+   SPONSOR: ARMY           X.25         (CLARKM@INDPLS-ASAFM1.ARMY.MIL)
+                                        DFAS-FSAIN
+                                        ATTN: TB
+                                        Building 1, Room 140F
+                                        8899 E. 56th Street
+                                        Indianapolis, IN 46249-1801
+                                        (317) 543-7177 699-7177 
+                                        (DSN) 699-6699
+
+   HOST : 26.24.0.232 : FTBNHRSN-MPRJSS3.ARMY.MIL : NCR-COMTEN-5660 ::   
+    TCP/TELNET,TCP/FTP,TCP/SMTP :
+   
+   Configuration:      NCR-COMTEN-5660()
+
+FTBNHRSN-MPRJSS4.ARMY.MIL  26.18.0.232  Clark, Michael
+   SPONSOR: ARMY           X.25         (CLARKM@INDPLS-ASAFM1.ARMY.MIL)
+                                        DFAS-FSAIN
+                                        ATTN: TB
+                                        Building 1, Room 140F
+                                        8899 E. 56th Street
+                                        Indianapolis, IN 46249-1801
+                                        (317) 543-7177 699-7177 
+                                        (DSN) 699-6699
+
+   HOST : 26.18.0.232 : FTBNHRSN-MPRJSS4.ARMY.MIL : COMTEN-5660 : COS2 : 
+    TCP/TELNET,TCP/FTP,TCP/SMTP :
+   
+   Configuration:      COMTEN-5660(COS2)
+
+FTBNHRSN-PBAS1.ARMY.MIL    26.4.0.232   Clark, Michael
+   SPONSOR: ARMY           HDH          (CLARKM@INDPLS-ASAFM1.ARMY.MIL)
+                                        DFAS-FSAIN
+                                        ATTN: TB
+                                        Building 1, Room 140F
+                                        8899 E. 56th Street
+                                        Indianapolis, IN 46249-1801
+                                        (317) 543-7177 699-7177 
+                                        (DSN) 699-6699
+
+   HOST : 26.4.0.232 : FTBNHRSN-PBAS1.ARMY.MIL,BEN-HARRIS-PBAS.ARMY.MIL :
+    CP-8240 : OS86 : TCP/IP, TCP/TELNET, TCP/SMTP :
+   
+   Configuration:      CP-8240(OS86)
+
+FTBNHRSN-PBAS3.ARMY.MIL    26.10.0.232  Clark, Michael
+   SPONSOR: ARMY           HDH          (CLARKM@INDPLS-ASAFM1.ARMY.MIL)
+                                        DFAS-FSAIN
+                                        ATTN: TB
+                                        Building 1, Room 140F
+                                        8899 E. 56th Street
+                                        Indianapolis, IN 46249-1801
+                                        (317) 543-7177 699-7177 
+                                        (DSN) 699-6699
+
+   HOST : 26.10.0.232 : FTBNHRSN-PBAS3.ARMY.MIL : CP8240 : OS86 :        
+    TCP/TELNET,ICMP :
+   
+   Configuration:      CP8240(OS86)
+
+FTCLAYTON-MPRJSS.ARMY.MIL  26.6.0.96    Jackson, Mr.
+   SPONSOR: ARMY           X.25         (No Mailbox Given)
+                                        CDR 1109SIGBDE/ASQNP-DI
+                                        FT Clayton, APO MIAMI, FL        
+                                         34004-5000
+                                        011-507-87-5874 
+                                        (DSN) 313-285-5874
+
+   HOST : 26.6.0.96 : FTCLAYTON-MPRJSS.ARMY.MIL ::::
+   
+   Configuration:      ()
+
+FTGORDON-JTELS.ARMY.MIL    26.13.0.37   Black, John
+   SPONSOR: ARMY           X.25         (BLACKJ@INDPLS-ASAFM1.ARMY.MIL)
+                                        Cdr, USASC&FG
+                                        FAD, FT GORDON GA 30905
+                                        Ft Gordon, GA 30905-5011
+                                        404-791-2518 780-2518
+
+   HOST : 26.13.0.37 : FTGORDON-JTELS.ARMY.MIL,GORDON-JACS6360.ARMY.MIL :
+    HP-3000/42 : MPE ::
+   
+   Configuration:      HP-3000/42(MPE)
+
+FTMEADE-DARMS.ARMY.MIL     26.10.0.224  Claypool, Capt
+   SPONSOR: ARMY           X.25         (No Mailbox Given)
+                                        Commander USAONE
+                                        Attn: NGB-RC-D1
+                                        Hodges Hall  (Llewyne and Cooper)
+                                        Fort George G. Meade, MD         
+                                         20755-7000
+                                        (301) 677-7157/7158 
+                                        (DSN) 923-7157/7158
+
+   HOST : 26.10.0.224 : FTMEADE-DARMS.ARMY.MIL,MEADE-DARMS.ARMY.MIL :    
+    WANG-VS100 : VSOS : TCP/FTP,TCP/SMTP,TCP/TELNET :
+   
+   Configuration:      WANG-VS100(VSOS)
+
+FTRCRDSN-MPRJSS.ARMY.MIL   26.5.0.28    Brady, Raymond E.
+   SPONSOR: ARMY           X.25         (No Mailbox Given)
+                                        CMDR., 1117th Signal Battalion
+                                        Attn: ASQP-AIC (Raymond Brady)
+                                        Fort Richardson, AK 99505-7100
+                                        (907) 863-3189 317-863-3189
+
+   HOST : 26.5.0.28 : FTRCRDSN-MPRJSS.ARMY.MIL ::::
+   
+   Configuration:      ()
+
+FTSMHSTN-IGNET.ARMY.MIL    26.4.0.147   Brookins, Rose
+   SPONSOR: ARMY           X.25         (No Mailbox Given)
+                                        Commandant
+                                        Attn: AHS HSHA-ZIG
+                                        Fort Sam Houston, TX 78234-6100
+                                        (512) 221-6712 
+                                        (DSN) 471-6712/6731
+
+   HOST : 26.4.0.147 : FTSMHSTN-IGNET.ARMY.MIL : CONVERGENT-TECH-CN-1000 
+    : CTOS : TCP/FTP,TCP/SMTP,TCP/TELNET :
+   
+   Configuration:      CONVERGENT-TECH-CN-1000(CTOS)
+
+FTSNIPR.DISA.MIL           26.15.0.43   Munoz, Daniel D.
+   SPONSOR: DISA                        (munozd@SHAFTER-EMH3.ARMY.MIL)
+                                        30th Signal Battalion
+                                        ATTN: ASQP-HOS
+                                        Fort Shafter, HI 96858-5415
+                                        (808)438-8060 
+                                        (315)438-8060
+
+   HOST : 26.15.0.43 : FTSNIPR.DISA.MIL : CISCO : AGS ::
+   
+   Configuration:      CISCO(AGS)
+
+FTWNWGHT-MPRJSS.ARMY.MIL   26.5.0.170   Wilkinson, Leroy
+   SPONSOR: ARMY           X.25         (asqpawi@SF-EMH1.ARMY.MIL)
+                                        1117th Sig Batt.
+                                        1060 Apple St
+                                        Ft. Wainwright, AK 99703
+                                        907-353-7401 317 353-7401
+
+   HOST : 26.5.0.170 : FTWNWGHT-MPRJSS.ARMY.MIL ::::
+   
+   Configuration:      ()
+
+GFN-IGNET.ARMY.MIL         26.7.0.177   McGilvray, Lieutenant Colonel
+   SPONSOR: ARMY           X.25         (No Mailbox Given)
+                                        7th Army Training Command
+                                        Attn: AETT-IG
+                                        Graffenwoehr
+                                        GERMANY
+                                        APO, NY 09114
+                                        +49 09641-83-8354 
+                                        (DSN) 314-475-8354
+
+   HOST : 26.7.0.177,136.213.1.7 : GFN-IGNET.ARMY.MIL : CONVERGENT-TECH- 
+    CN-1000 : CTOS : X.25 :
+   
+   Configuration:      CONVERGENT-TECH-CN-1000(CTOS)
+
+GSA-PANAMA.DDN.MIL         26.12.0.96   Collier, William
+   SPONSOR: DOD            X.25         (No Mailbox Given)
+                                        FMC
+                                        Building 309, Room 201
+                                        Ft Clayton, Corozol
+                                        APO, AA 34004-5000
+                                        9-011-507-85-5417 313-285-5417
+
+   HOST : 26.12.0.96 : GSA-PANAMA.DDN.MIL : CISCO : CISCO : X.25, TCP/IP,
+    TELNET, FTP, SMTP :
+   
+   Configuration:      CISCO(CISCO)
+
+GSA.MIL                    26.8.0.247   Phillips, Diane
+   SPONSOR:                X.25         (No Mailbox Given)
+                                        GSA/KGRD
+                                        7th & D Streets, Room 2043
+                                        Washington, DC 20407
+                                        202-708-6258
+
+   HOST : 26.8.0.247 : GSA.MIL : HP-3000 : MPE : X.25,TCP/IP :
+   
+   Configuration:      HP-3000(MPE)
+
+GTE-EDCD.DDN.MIL           26.5.0.127   Kenny, Pat
+   SPONSOR: DCA            X.25         (No Mailbox Given)
+                                        GTE Government Systems Corp
+                                        156 B Street
+                                        Needham, MA 02192
+                                        617-890-3669p 617-446-3333
+
+   HOST : 26.5.0.127 : GTE-EDCD.DDN.MIL : VAX-8700 : VMS : TCP/FTP,      
+    TCP/SMTP,TCP/TELNET :
+   
+   Configuration:      VAX-8700(VMS)
+
+GTE-EDCD2.DDN.MIL          26.4.0.127   Bennet, Mark
+   SPONSOR: DCA            X.25         (No Mailbox Given)
+                                        GTE-EDCD
+                                        100 First Ave
+                                        Waltham, MA 02154
+                                        (617) 466-3267
+
+   HOST : 26.4.0.127 : GTE-EDCD2.DDN.MIL : VAX-8700 : VMS : FTP,TELNET,  
+    SMTP,TCP,IP :
+   
+   Configuration:      VAX-8700(VMS)
+
+GU-NGNET.ARMY.MIL          26.6.0.250   Santo Tomas, Dennis J.
+   SPONSOR: ARMY           X.25         (doimgu@GU-NGNET.ARMY.MIL)
+                                        Directorate of Infor Mgt
+                                        GUAM Army National Guard (ATTN:  
+                                         GU-DOIM)
+                                        East Harmon Industrial Park Road
+                                        Fort Juan Muna
+                                        Tamuning, GU 96911-4421
+                                        (671) 647-2828 2740 
+                                        (671) 647-2706 2801 315-344-8220 
+                                        (671) 647-6018
+
+   HOST : 26.6.0.250 : GU-NGNET.ARMY.MIL : SPERRY-5000 : UNIX :          
+    TCP/TELNET,TCP/FTP,TCP/SMTP :
+   
+   Configuration:      SPERRY-5000(UNIX)
+
+GUAM-BUMED.NAVY.MIL        26.4.0.141   Taitano, Ben
+   SPONSOR: NAVY           X.25         (No Mailbox Given)
+                                        U.S. Naval Hospital
+                                        Management Information Systems   
+                                         Department
+                                        Box 7626
+                                        FPO San Francisco, CA 96630
+                                        (DSN) 315-344-9237
+
+   HOST : 26.4.0.141 : GUAM-BUMED.NAVY.MIL,NAVMEDUCAGUAM.NAVY.MIL : ATT- 
+    3B2 : UNIX : TCP/FTP,TCP/SMTP,TCP/TELNET :
+   
+   Configuration:      ATT-3B2(UNIX)
+
+GUAM.PACIFIC.DRMS.DLA.MIL  26.25.0.250  Johnson, Larry
+   SPONSOR: DLA            X.25         (ljohnson@PACIFIC.DRMS.DLA.MIL)
+                                        Chief, DRMO
+                                        Box 190, Agana
+                                        Naval Air Station Building 631
+                                        FPO AP 96540-1500
+                                        (671) 339-5227/5227 
+                                        (DSN) 322-1110 x339-5227 
+                                        (DSN) 322-1110
+
+   HOST : 26.25.0.250 : GUAM.PACIFIC.DRMS.DLA.MIL :: MULTICS : SMTP,     
+    TCP/IP, FTP, TELNET, EGP :
+   
+   Configuration:      (MULTICS)
+
+GUANSD2.NAVY.MIL           26.6.0.141   Dewitt, John
+   SPONSOR: NAVY           X.25         (No Mailbox Given)
+                                        Naval Supply Depot-Guam, Code 60
+                                        Apra Harbor
+                                        FPO San Francisco, CA 96630-1500
+                                        (DSN) 315-339-7289
+
+   HOST : 26.6.0.141, 26.5.0.250 : GUANSD2.NAVY.MIL : TANDEM-TXP :       
+    GUARDIAN : TCP/TELNET,TCP/FTP,TCP/SMTP :
+   
+   Configuration:      TANDEM-TXP(GUARDIAN)
+
+GW-DMS-RESTON.DISA.MIL     26.28.0.104  O'Guin, Steven P.
+   SPONSOR:                X.25         (OGUINS@CC.IMS.DISA.MIL)
+                                        DISA CENTER FOR ENGINEERING
+                                        ATTN: CODE TEFF
+                                        10701 PARKRIDGE BLVD.
+                                        RESTON, VA 22091-4398
+                                        703-487-3331 364-3331            
+                                         703-487-3190
+
+   HOST : 26.28.0.104, 198.97.94.1 : GW-DMS-RESTON.DISA.MIL : CISCO :    
+    CISCO : TCP/TELNET,TCP/FTP,TCP/SMTP :
+   
+   Configuration:      CISCO(CISCO)
+
+HAHN-AM1.AF.MIL            26.5.0.190   Epps, Mr.
+   SPONSOR: AF             X.25         (No Mailbox Given)
+                                        Hahn Air Base
+                                        Attn: OLXH/FCS
+                                        Hahn
+                                        APO New York, NY 09122-6290
+                                        +49-06543-51-7646 
+                                        (DSN) 314-450-7646/7211
+
+   HOST : 26.5.0.190 : HAHN-AM1.AF.MIL : WANG : MS-DOS : X.25 :
+   
+   Configuration:      WANG(MS-DOS)
+
+HDG-PCC.ARMY.MIL           26.14.0.4    Graff, Jerry
+   SPONSOR: ARMY           X.25         (NSC-HEIDELBERG@EUR.DISA.MIL)
+                                        Campbell Barracks
+                                        Commander
+                                        181st Signal Corps
+                                        Attn: ASE-Y-HW-PCG
+                                        Heidelberg
+                                        APO, AE 09102
+                                        +49 06221-57-8797 
+                                        (DSN) 314-370-8797
+
+   HOST : 26.14.0.4, 144.170.15.7 : HDG-PCC.ARMY.MIL : GEAC-8000 : ASTRO 
+    : X.25 :
+   
+   Configuration:      GEAC-8000(ASTRO)
+
+HILLINGDONGW.AF.MIL        26.17.0.194  Smith, Michael
+   SPONSOR:                X.25         (NSC-HIN@DDN-EUR.DDN.MIL)
+                                        LGU
+                                        RAF Hillingdon
+                                        Uxbridge
+                                        APO, AE 09449
+                                        GERMANY
+                                        0044-89-576259/57 230-3254
+
+   HOST : 26.17.0.194,26.24.0.194 : HILLINGDONGW.AF.MIL : CISCO : UNIX : 
+    X.25,TCP/IP,TELNET,FTP,SMTP :
+   
+   Configuration:      CISCO(UNIX)
+
+HOFFMAN-MIL80X.ARMY.MIL    26.29.0.107  Wilkins, Shirley J.
+   SPONSOR: ARMY           X.25         (wilkinss@HOFFMAN-EMH1.ARMY.MIL)
+                                        ISC-Hoffman (PERSINSCOM)
+                                        ASQL-ISN-N
+                                        200 Stovall Street
+                                        Bldg II, Room 1N33
+                                        Alexandria, VA 22332-1582
+                                        (703) 325-0947 
+                                        (703) 325-0303 221-0947 
+                                        (703) 325-2316
+
+   HOST : 26.29.0.107 : HOFFMAN-MIL80X.ARMY.MIL,HOFFMAN-MIL-80X.ARMY.MIL 
+    : NCR-COMTEN-5620 : COS2 : TCP/FTP, TCP/SMTP, TCP/IP, TCP/TELNET :
+   
+   Configuration:      NCR-COMTEN-5620(COS2)
+
+HUACHUCA-EMH5.ARMY.MIL     26.10.0.122  Mangum, Duke W.
+   SPONSOR: ARMY           X.25         (dwm@HUACHUCA-SDC.ARMY.MIL)
+                                        Commander, Software Development  
+                                         Center -
+                                        Huachuca
+                                        ATTN : ASQB-IHS-E ( D.W. Mangum )
+                                        Ft. Huachuca, AZ 85613-5450
+                                        (520) 538-8045 879-8045 
+                                        (520) 538-7989 879-7989
+
+   HOST : 26.10.0.122 : HUACHUCA-EMH5.ARMY.MIL : UNISYS-5000/80 : UNIX : 
+    TCP/TELNET, TCP/FTP, TCP/SMTP :
+   
+   Configuration:      UNISYS-5000/80(UNIX)
+
+IDA-FMS-GUAM.NAVY.MIL      26.10.0.250  Wright, Jessie
+   SPONSOR: NAVY           X.25         (No Mailbox Given)
+                                        Commanding Officer, Naval        
+                                         Electronics
+                                        Apra Harbor
+                                        FPO San Francisco, CA 96630
+                                        (DSN) 315-333-2961
+
+   HOST : 26.10.0.250 : IDA-FMS-GUAM.NAVY.MIL : PROTOCOM-P250 :::
+   
+   Configuration:      PROTOCOM-P250()
+
+INDPLS-ASAFM1.ARMY.MIL     26.7.0.129   Perkins, Becky
+   SPONSOR: ARMY           X.25         (USERASST1@INDPLS-ASAFM1.ARMY.MIL
+                                        Defense Finance & Accounting     
+                                         Service
+                                         Indianapolis
+                                        COA Host Operations Branch
+                                        M/S 57, Bldg 1
+                                        Indianapolis, IN 46249-2006
+                                        (317)543-6663 699-6663 
+                                        (317)542-3751
+
+   HOST : 26.7.0.129 : INDPLS-ASAFM1.ARMY.MIL,FTBNHRSN-EMH1.ARMY.MIL :   
+    VAX-8650 : VMS : TCP/TELNET, TCP/FTP, TCP/SMTP :
+   
+   Configuration:      VAX-8650(VMS)
+
+INDY.NAVY.MIL              26.9.0.153   Biddle, Timothy K.
+   SPONSOR: NAVY           X.25         (hostadmin@INDY.NAVY.MIL)
+                                        Mail Stop 30
+                                        Naval Air Warfare Center
+                                        Aircraft Division Indianapolis
+                                        6000 E. 21st Street
+                                        Indianapolis, IN 46219-2189
+                                        (317) 353-3258 
+                                        (317) 351-4846 369-3258 
+                                        (317) 351-4253
+
+   HOST : 26.9.0.153 : INDY.NAVY.MIL : VAX-8250 : VMS : TCP/FTP,         
+    TCP/TELNET, TCP/SMTP :
+   
+   Configuration:      VAX-8250(VMS)
+
+IPR-VHN-GW.DISA.MIL        26.31.0.2    Kloss, Randolph W.
+   SPONSOR: DISA                        (rkloss@FRG.BBN.COM)
+                                        Box 98, Unit 30403
+                                        DISA-Europe
+                                        APO, AE 09131
+                                        011-49-711-6805532               
+                                         011-49-711-6805534 315-430-5532 
+                                         011-49-711-6871285
+
+   HOST : 26.31.0.2, 140.35.1.34 : IPR-VHN-GW.DISA.MIL : CISCO : UNIX :  
+    IP, EGP :
+   
+   Configuration:      CISCO(UNIX)
+
+ITSDN.DISA.MIL             26.18.0.168  Speckhart, Gregory J.
+   SPONSOR: DOD                         (gspeck@BBN.COM)
+                                        J3/CCIP
+                                        Camp Smith
+                                        Camp H.M. Smith, HI 96818
+                                        (808) 477-3510 477-3510
+
+   HOST : 26.18.0.168 : ITSDN.DISA.MIL : BBN-T/20 : UNIX : TCP/IP, SMTP, 
+    FTP, TELNET, EGP :
+   
+   Configuration:      BBN-T/20(UNIX)
+
+JCDBS.ITSI.DISA.MIL        26.14.0.104  Quinn, Richard A., Mr.
+   SPONSOR:                X.25         (quinnr@ITSI.DISA.MIL)
+                                        Logicon
+                                        Linpro Park One
+                                        1831 Wiehle Ave.
+                                        Reston, VA 22090-5241
+                                        (703) 318-1074 207 
+                                        (703) 318-1098
+
+   HOST : 198.4.59.6, 26.14.0.104 : JCDBS.ITSI.DISA.MIL,                 
+    JCDBS.2000.DISA.MIL : SUN : UNIX : TCP/TELNET, TCP/FTP, TCP/SMTP :
+   
+   Configuration:      SUN(UNIX)
+
+KASTEL.EUROPE.DRMS.DLA.MIL 26.9.0.186   Murray, Paul
+   SPONSOR:                             (sqea069@KASTEL.EUROPE.DRMS.DLA.M
+                                        Defense Reutilization and        
+                                         Marketing Office/AKE
+                                        DRMO KASTEL
+                                        Unit #29263 Box 6000
+                                        APO, AE 09096
+                                        011-49-6134-63713 334-2428
+
+   HOST : 26.9.0.186 : KASTEL.EUROPE.DRMS.DLA.MIL,                       
+    SQEA01.EUROPE.DRMS.DLA.MIL,KASTEL.DRMS.DLA.MIL : CISCO-AGS : UNIX :  
+    TCP,TELNET,FTP :
+   
+   Configuration:      CISCO-AGS(UNIX)
+
+KILBORNE-ASIMS.ARMY.MIL    26.6.0.180   Graff, Jerry
+   SPONSOR: ARMY           X.25         (NSC-HEIDELBERG@EUR.DISA.MIL)
+                                        Campbell Barracks
+                                        Commander
+                                        181st Signal Corps
+                                        Attn: ASE-Y-HW-PCG
+                                        Heidelberg
+                                        APO, AE 09102
+                                        +49 06221-57-8797 
+                                        (DSN) 314-370-8797
+
+   HOST : 26.6.0.180 : KILBORNE-ASIMS.ARMY.MIL : NCR-COMTEN-3650 : MVS : 
+    X.25 :
+   
+   Configuration:      NCR-COMTEN-3650(MVS)
+
+KNWC.NAVY.MIL              26.18.0.126  Panek, Sherryl A.
+   SPONSOR: NAVY           X.25         (spanek@FNMOC.NAVY.MIL)
+                                        Fleet Numerical Meteorology and  
+                                         Oceanography Center
+                                         Grace Hopper Ave, Stop 1
+                                        MONTEREY, CA 93943-5501
+                                        (408)656-4355 878-4355 878-4489
+
+   HOST : 26.18.0.126 : KNWC.NAVY.MIL : SUN-4 : UNIX : TCP/FTP,TCP/IP,   
+    TCP/TELNET,TCP/SMTP :
+   
+   Configuration:      SUN-4(UNIX)
+
+KSRSLTRN-TCACCIS.ARMY.MIL  26.11.0.15   Manson, Dave
+   SPONSOR:                X.25         (PATB01%TMAC@DFRANKFURT-EMH1.ARMY
+                                        TMAC/AE-MC--IS-/
+                                        KLEBER KASERNE
+                                        APO, AE 09227
+                                        011-49-0631-411-80/1             
+                                         325-2805/483-7111
+
+   HOST : 26.11.0.15 : KSRSLTRN-TCACCIS.ARMY.MIL :: UNIX : TCP,TELNET,FTP
+    :
+   
+   Configuration:      (UNIX)
+
+LAKEHURST2.NAVY.MIL        26.19.0.60   VanHise, Girard
+   SPONSOR: NAVY           X.25         (jvh@LAKEHURST1.NAVY.MIL)
+                                        Building 120
+                                        Lakehurst, NJ 08733
+                                        908-323-7291 624-7291
+
+   HOST : 26.19.0.60 : LAKEHURST2.NAVY.MIL : CISCO-AGS : VMS : TCP/IP :
+   
+   Configuration:      CISCO-AGS(VMS)
+
+LAMADALENA-NCPDS.NAVY.MIL  26.9.0.156   Soggiu, Jiuliana
+   SPONSOR: NAVY           X.25         (No Mailbox Given)
+                                        HRO
+                                        Via Principe Amedeo
+                                        La Maddalena
+                                        FPO, AE 09612-0059
+                                        0039-789-798346 623-8218/8219
+
+   HOST : 26.9.0.156 : LAMADALENA-NCPDS.NAVY.MIL : UNISYS : OS ::
+   
+   Configuration:      UNISYS(OS)
+
+LANDSTUHL1-MPRJSS.ARMY.MIL 26.6.0.14    Cross, Connie
+   SPONSOR: ARMY           X.25         (No Mailbox Given)
+                                        Commander
+                                        327th Signal Company Detachment
+                                        Heliport TCF
+                                        Landstuhl
+                                        APO, AE 09180
+                                        +06371-86-8295/8645 
+                                        (DSN) 314-486-8295/8645
+
+   HOST : 26.6.0.14,26.16.0.14 : LANDSTUHL1-MPRJSS.ARMY.MIL : CODEX-6507-
+    PAD : UNIX ::
+   
+   Configuration:      CODEX-6507-PAD(UNIX)
+
+LONDON-NCPDS.NAVY.MIL      26.8.0.194   Simons, Nancy
+   SPONSOR: NAVY           X.25         (No Mailbox Given)
+                                        OCPM
+                                        European Representative
+                                        Box 4
+                                        London
+                                        ENGLAND
+                                        FPO New York, NY 09510
+                                        +44 01-409-4343 
+                                        (DSN) 314-235-4343
+
+   HOST : 26.8.0.194 : LONDON-NCPDS.NAVY.MIL : PROTOCOM-P250 : UNIX :    
+    IP/GW,EGP :
+   
+   Configuration:      PROTOCOM-P250(UNIX)
+
+LONDON-PASS-SDS.NAVY.MIL   26.11.0.194  Shaun, Thomas
+   SPONSOR:                X.25         (No Mailbox Given)
+                                        PERSUPPDET
+                                        NAVRLNDN UK
+                                        APO AE 09499
+                                        0044-394-43-4061 235-4061
+
+   HOST : 26.11.0.194 : LONDON-PASS-SDS.NAVY.MIL : HP-3000 :: X.25 :
+   
+   Configuration:      HP-3000()
+
+LPA017.NAVY.MIL            26.9.0.117   Peters, Harry
+   SPONSOR: NAVY           X.25         (No Mailbox Given)
+                                        NAVCALAB
+                                        MCAS Iwakuni
+                                        FPO Seattle, WA 98764-5014
+                                        +11-081-82-721-3432, 315-236-4284
+
+   HOST : 26.9.0.117 : LPA017.NAVY.MIL : HONEYWELL-XPS : UNIX :          
+    TCP/TELNET,TCP/FTP,TCP/SMTP :
+   
+   Configuration:      HONEYWELL-XPS(UNIX)
+
+LPA024.NAVY.MIL            26.16.0.65   Hunt, Elbert
+   SPONSOR: NAVY           X.25         (No Mailbox Given)
+                                        Mobile Calibration Complex 3
+                                        Marine Corps Air Station
+                                        El Toro, Santa Anna, CA          
+                                         92709-6035
+                                        (714) 726-4253 997-4253
+
+   HOST : 26.16.0.65 : LPA024.NAVY.MIL : HONEYWELL-XPS : UNIX : FTP,     
+    TCP/IP,TELNET,SMTP :
+   
+   Configuration:      HONEYWELL-XPS(UNIX)
+
+LPA025.NAVY.MIL            26.26.0.85   Holland, Carl N.
+   SPONSOR: NAVY           X.25         (No Mailbox Given)
+                                        NAVAVNDEPOT OPNS CTR (433C)
+                                        NAS Patuxent River, Bldg. 420B
+                                        Patuxent River, MD 20670-5449
+                                        301-826-4908 312-326-4908
+
+   HOST : 26.26.0.85 : LPA025.NAVY.MIL : HONEYWELL-XPS : UNIX : TCP/FTP, 
+    TCP/SMTP,TCP/TELNET :
+   
+   Configuration:      HONEYWELL-XPS(UNIX)
+
+LPA153.NAVY.MIL            26.9.0.128   Buono, Charles
+   SPONSOR: NAVY           X.25         (cbuono@NCCS-EVAX.NAVY.MIL)
+                                        Navy Cal Lab
+                                        Naval Air Station
+                                        Lemoore, CA 93246
+                                        (209) 998-3180 312-949-3180
+
+   HOST : 26.9.0.128 : LPA153.NAVY.MIL : HONEYWELL-XPS : UNIX : FTP,IP,  
+    EGP,TELNET :
+   
+   Configuration:      HONEYWELL-XPS(UNIX)
+
+LUKE-AM1.AF.MIL            26.4.0.198   Andrews, Harry
+   SPONSOR: AF             X.25         (harry@TACDE.AF.MIL)
+                                        Luke Air Force Base
+                                        Attn: 832 ASG/DEI
+                                        Glendale, AZ 85309-5000
+                                        (602) 856-3632/7627 
+                                        (DSN) 853-7627/3632
+
+   HOST : 26.4.0.198 : LUKE-AM1.AF.MIL : WANG-VS100 : VS : TCP/TELNET,   
+    TCP/FTP,TCP/SMTP :
+   
+   Configuration:      WANG-VS100(VS)
+
+ABERDEEN.MT.DDN.MIL        26.0.0.29    See MIL-NSC.TXT
+   SPONSOR: ARMY           DH
+
+   HOST : 26.0.0.29 : ABERDEEN.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+AGNANO.MT.DDN.MIL          26.5.0.91    See MIL-NSC.TXT
+   SPONSOR: NAVY           LH
+
+   HOST : 26.5.0.91 : AGNANO.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+ALAMEDA.MT.DDN.MIL         26.0.0.121   See MIL-NSC.TXT
+   SPONSOR: NAVY           DH
+
+   HOST : 26.0.0.121 : ALAMEDA.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+ALEXANDRIA.MT.DDN.MIL      26.0.0.50    See MIL-NSC.TXT
+   SPONSOR: ARMY           LH
+
+   HOST : 26.0.0.50 : ALEXANDRIA.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+ALEXANDRIA3.MT.DDN.MIL     26.0.0.107   See MIL-NSC.TXT
+   SPONSOR: ARMY           DH
+
+   HOST : 26.0.0.107 : ALEXANDRIA3.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+ANDERSEN.MT.DDN.MIL        26.0.0.141   See MIL-NSC.TXT
+   SPONSOR: AF             DH
+
+   HOST : 26.0.0.141 : ANDERSEN.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+ANDERSON-BKS.MMT.DDN.MIL   26.14.0.186  See MIL-NSC.TXT
+   SPONSOR:                 
+
+   HOST : 26.14.0.186 : ANDERSON-BKS.MMT.DDN.MIL ::: X.25 :
+   
+   Configuration:      ()
+
+ANDREWS.MT.DDN.MIL         26.0.0.67    See MIL-NSC.TXT
+   SPONSOR: AF             DH
+
+   HOST : 26.0.0.67 : ANDREWS.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+ANNISTON.MT.DDN.MIL        26.0.0.113   See MIL-NSC.TXT
+   SPONSOR: ARMY           DH
+
+   HOST : 26.0.0.113 : ANNISTON.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+ANSBACH.MMT.DDN.MIL        26.15.0.177  See MIL-NSC.TXT
+   SPONSOR:                 
+
+   HOST : 26.15.0.177 : ANSBACH.MMT.DDN.MIL ::::
+   
+   Configuration:      ()
+
+BABENHS.MMT.DDN.MIL        26.11.0.184  See MIL-NSC.TXT
+   SPONSOR:                 
+
+   HOST : 26.11.0.184 : BABENHS.MMT.DDN.MIL ::::
+   
+   Configuration:      ()
+
+BAMBERG.MMT.DDN.MIL        26.9.0.155   See MIL-NSC.TXT
+   SPONSOR:                 
+
+   HOST : 26.9.0.155 : BAMBERG.MMT.DDN.MIL ::::
+   
+   Configuration:      ()
+
+BARKSDALE.MT.DDN.MIL       26.0.0.210   See MIL-NSC.TXT
+   SPONSOR: AF             DH
+
+   HOST : 26.0.0.210 : BARKSDALE.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+BATTLECREEK.MT.DDN.MIL     26.0.0.160   See MIL-NSC.TXT
+   SPONSOR: DLA            DH
+
+   HOST : 26.0.0.160 : BATTLECREEK.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+BAUMHLDR.MMT.DDN.MIL       26.13.0.14   See MIL-NSC.TXT
+   SPONSOR:                 
+
+   HOST : 26.13.0.14 : BAUMHLDR.MMT.DDN.MIL ::::
+   
+   Configuration:      ()
+
+BDKRZNCH.MMT.DDN.MIL       26.6.0.4     See MIL-NSC.TXT
+   SPONSOR: DISA            
+
+   HOST : 26.6.0.4 : BDKRZNCH.MMT.DDN.MIL ::::
+   
+   Configuration:      ()
+
+BENHARRISON.MT.DDN.MIL     26.3.0.129   See MIL-NSC.TXT
+   SPONSOR: ARMY            
+
+   HOST : 26.3.0.129 : BENHARRISON.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+BENHARRISON2.MT.DDN.MIL    26.0.0.232   See MIL-NSC.TXT
+   SPONSOR: ARMY           DH
+
+   HOST : 26.0.0.232 : BENHARRISON2.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+BENNING.MT.DDN.MIL         26.0.0.79    See MIL-NSC.TXT
+   SPONSOR: ARMY           DH
+
+   HOST : 26.0.0.79 : BENNING.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+BLISS.MT.DDN.MIL           26.0.0.229   See MIL-NSC.TXT
+   SPONSOR: ARMY           DH
+
+   HOST : 26.0.0.229 : BLISS.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+BRAGG.MT.DDN.MIL           26.0.0.80    See MIL-NSC.TXT
+   SPONSOR: ARMY           DH
+
+   HOST : 26.0.0.80 : BRAGG.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+BRATENAHL-OH.MT.DDN.MIL    26.0.0.248   See MIL-NSC.TXT
+   SPONSOR: NAVY           DH
+
+   HOST : 26.0.0.248 : BRATENAHL-OH.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+BUCKNER.MT.DDN.MIL         26.0.0.82    See MIL-NSC.TXT
+   SPONSOR: ARMY            
+
+   HOST : 26.0.0.82 : BUCKNER.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+CAMPBELL-BKS.MT.DDN.MIL    26.1.0.4     See MIL-NSC.TXT
+   SPONSOR: ARMY           DH
+
+   HOST : 26.1.0.4 : CAMPBELL-BKS.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+CAMPBELL.MT.DDN.MIL        26.0.0.162   See MIL-NSC.TXT
+   SPONSOR: ARMY           DH
+
+   HOST : 26.0.0.162 : CAMPBELL.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+CAMPBLLBKS2.MT.ARMY.MIL    26.0.0.180   See MIL-NSC.TXT
+   SPONSOR: ARMY            
+
+   HOST : 26.0.0.180 : CAMPBLLBKS2.MT.ARMY.MIL : C/30 : UNIX : TCP/IP,   
+    TELNET :
+   
+   Configuration:      C/30(UNIX)
+
+CAPODICHINO.MT.DDN.MIL     26.0.0.91    See MIL-NSC.TXT
+   SPONSOR: NAVY           DH
+
+   HOST : 26.0.0.91 : CAPODICHINO.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+CARDEROCK.MT.DDN.MIL       26.0.0.81    See MIL-NSC.TXT
+   SPONSOR: NAVY           LH
+
+   HOST : 26.0.0.81 : CARDEROCK.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+CHANTILLY1.MT.DDN.MIL      26.0.0.201   See MIL-NSC.TXT
+   SPONSOR: DOD            DH
+
+   HOST : 26.0.0.201 : CHANTILLY1.MT.DDN.MIL : C/30E : TAC : TCP,ICMP :
+   
+   Configuration:      C/30E(TAC)
+
+CHANTILLY2.MT.DDN.MIL      26.0.0.202   See MIL-NSC.TXT
+   SPONSOR:                 
+
+   HOST : 26.0.0.202 : CHANTILLY2.MT.DDN.MIL ::::
+   
+   Configuration:      ()
+
+CHARLESTON.MT.DDN.MIL      26.0.0.216   See MIL-NSC.TXT
+   SPONSOR: AF             DH
+
+   HOST : 26.0.0.216 : CHARLESTON.MT.DDN.MIL : C/30 : TAC : TCP/FTP,     
+    TCP/SMTP,TCP/TELNET,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+CHICKSANDS.MMT.DDN.MIL     26.5.0.136   See MIL-NSC.TXT
+   SPONSOR:                 
+
+   HOST : 26.5.0.136 : CHICKSANDS.MMT.DDN.MIL : MINITAC-4200 :::
+   
+   Configuration:      MINITAC-4200()
+
+CHIEVRES.MMT.DDN.MIL       26.7.0.194   See MIL-NSC.TXT
+   SPONSOR:                 
+
+   HOST : 26.7.0.194 : CHIEVRES.MMT.DDN.MIL ::::
+   
+   Configuration:      ()
+
+CHINALAKE.MT.DDN.MIL       26.0.0.85    See MIL-NSC.TXT
+   SPONSOR: NAVY           LH
+
+   HOST : 26.0.0.85 : CHINALAKE.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+COLEMNBK.MMT.DDN.MIL       26.14.0.180  See MIL-NSC.TXT
+   SPONSOR:                 
+
+   HOST : 26.14.0.180 : COLEMNBK.MMT.DDN.MIL ::::
+   
+   Configuration:      ()
+
+COLTANO.MT.DDN.MIL         26.0.0.156   See MIL-NSC.TXT
+   SPONSOR: ARMY           DH
+
+   HOST : 26.0.0.156 : COLTANO.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+COROZAL.MT.DDN.MIL         26.0.0.96    See MIL-NSC.TXT
+   SPONSOR: ARMY           DH
+
+   HOST : 26.0.0.96 : COROZAL.MT.DDN.MIL : C/30 : TAC : TCP/FTP,TCP/SMTP,
+    TCP/TELNET,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+CORPUS.MT.DDN.MIL          26.0.0.164   See MIL-NSC.TXT
+   SPONSOR: NAVY           DH
+
+   HOST : 26.0.0.164 : CORPUS.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+CROUGHTON.MT.DDN.MIL       26.0.0.25    See MIL-NSC.TXT
+   SPONSOR: AF             DH
+
+   HOST : 26.0.0.25 : CROUGHTON.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+DARBY.MT.DDN.MIL           26.0.0.155   See MIL-NSC.TXT
+   SPONSOR: ARMY           DH
+
+   HOST : 26.0.0.155 : DARBY.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+DARMSTADT.MMT.DDN.MIL      26.10.0.184  See MIL-NSC.TXT
+   SPONSOR:                 
+
+   HOST : 26.10.0.184 : DARMSTADT.MMT.DDN.MIL ::::
+   
+   Configuration:      ()
+
+DAVIS-MONTHAN.MT.DDN.MIL   26.0.0.111   See MIL-NSC.TXT
+   SPONSOR: AF             DH
+
+   HOST : 26.0.0.111 : DAVIS-MONTHAN.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+DCAOC.MT.DDN.MIL           26.3.0.76    See MIL-NSC.TXT
+   SPONSOR: DCA            DH
+
+   HOST : 26.3.0.76 : DCAOC.MT.DDN.MIL : C/30 : TAC : TCP/FTP,TCP/SMTP,  
+    TCP/TELNET,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+DENVER.MT.DDN.MIL          26.0.0.151   See MIL-NSC.TXT
+   SPONSOR: ARMY           DH
+
+   HOST : 26.0.0.151 : DENVER.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+DETRICK.MT.DDN.MIL         26.0.0.54    See MIL-NSC.TXT
+   SPONSOR: ARMY           DH
+
+   HOST : 26.0.0.54 : DETRICK.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+DHAHRAN.MT.DDN.MIL         26.0.0.169   See MIL-NSC.TXT
+   SPONSOR:                 
+
+   HOST : 26.0.0.169 : DHAHRAN.MT.DDN.MIL ::::
+   
+   Configuration:      ()
+
+DIX.MT.DDN.MIL             26.0.0.130   See MIL-NSC.TXT
+   SPONSOR: ARMY           DH
+
+   HOST : 26.0.0.130 : DIX.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+DOVERNJ.MT.DDN.MIL         26.0.0.45    See MIL-NSC.TXT
+   SPONSOR: ARMY           LH
+
+   HOST : 26.0.0.45 : DOVERNJ.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+DUGWAY.MT.DDN.MIL          26.0.0.120   See MIL-NSC.TXT
+   SPONSOR: AF             DH
+
+   HOST : 26.0.0.120 : DUGWAY.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+EDWARDS.MT.DDN.MIL         26.0.0.39    See MIL-NSC.TXT
+   SPONSOR: AF             DH
+
+   HOST : 26.0.0.39 : EDWARDS.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+EGLIN.MT.DDN.MIL           26.0.0.53    See MIL-NSC.TXT
+   SPONSOR: AF             LH
+
+   HOST : 26.0.0.53 : EGLIN.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+EIELSON.MT.DDN.MIL         26.0.0.170   See MIL-NSC.TXT
+   SPONSOR: AF             DH
+
+   HOST : 26.0.0.170 : EIELSON.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+EL-SEGUNDO.MT.DDN.MIL      26.0.0.65    See MIL-NSC.TXT
+   SPONSOR: AF             DH
+
+   HOST : 26.0.0.65 : EL-SEGUNDO.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+ELMENDORF.MT.DDN.MIL       26.0.0.28    See MIL-NSC.TXT
+   SPONSOR: ARMY           DH
+
+   HOST : 26.0.0.28 : ELMENDORF.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+EUSTIS.MT.DDN.MIL          26.0.0.238   See MIL-NSC.TXT
+   SPONSOR: ARMY           DH
+
+   HOST : 26.0.0.238 : EUSTIS.MT.DDN.MIL : C/30 : TAC : TCP/FTP,TCP/SMTP,
+    TCP/TELNET,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+FINEGAYAN.MT.DDN.MIL       26.0.0.250   See MIL-NSC.TXT
+   SPONSOR: NAVY           DH
+
+   HOST : 26.0.0.250 : FINEGAYAN.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+FRIEDBRG.MMT.DDN.MIL       26.10.0.175  See MIL-NSC.TXT
+   SPONSOR:                 
+
+   HOST : 26.10.0.175 : FRIEDBRG.MMT.DDN.MIL ::::
+   
+   Configuration:      ()
+
+GIEBELSTADT.MMT.DDN.MIL    26.13.0.188  See MIL-NSC.TXT
+   SPONSOR:                 
+
+   HOST : 26.13.0.188 : GIEBELSTADT.MMT.DDN.MIL ::::
+   
+   Configuration:      ()
+
+GORDON.MT.DDN.MIL          26.0.0.206   See MIL-NSC.TXT
+   SPONSOR: ARMY           DH
+
+   HOST : 26.0.0.206 : GORDON.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+GRAFFENWOEHR.MT.DDN.MIL    26.0.0.177   See MIL-NSC.TXT
+   SPONSOR: DCA            DH
+
+   HOST : 26.0.0.177 : GRAFFENWOEHR.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+GREAT-LAKES.MT.DDN.MIL     26.0.0.38    See MIL-NSC.TXT
+   SPONSOR: NAVY            
+
+   HOST : 26.0.0.38 : GREAT-LAKES.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+GRIFFISS.MT.DDN.MIL        26.0.0.18    See MIL-NSC.TXT
+   SPONSOR: AF             LH
+
+   HOST : 26.0.0.18 : GRIFFISS.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+GUNTER.MT.DDN.MIL          26.0.0.13    See MIL-NSC.TXT
+   SPONSOR: AF             LH
+
+   HOST : 26.0.0.13 : GUNTER.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+HAMMOND.MT.DDN.MIL         26.0.0.184   See MIL-NSC.TXT
+   SPONSOR: ARMY           HDH
+
+   HOST : 26.0.0.184 : HAMMOND.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+HANSCOM2.MT.DDN.MIL        26.0.0.127   See MIL-NSC.TXT
+   SPONSOR: AF             1822DH
+
+   HOST : 26.0.0.127 : HANSCOM2.MT.DDN.MIL : C/30E : TAC : TCP,ICMP :
+   
+   Configuration:      C/30E(TAC)
+
+HILL.MT.DDN.MIL            26.0.0.20    See MIL-NSC.TXT
+   SPONSOR: AF             DH
+
+   HOST : 26.0.0.20 : HILL.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+HILLINGDON.MT.DDN.MIL      26.0.0.194   See MIL-NSC.TXT
+   SPONSOR:                 
+
+   HOST : 26.0.0.194 : HILLINGDON.MT.DDN.MIL ::::
+   
+   Configuration:      ()
+
+HOOD.MT.DDN.MIL            26.0.0.163   See MIL-NSC.TXT
+   SPONSOR: ARMY           DH
+
+   HOST : 26.0.0.163 : HOOD.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+HUACHUCA.MT.DDN.MIL        26.2.0.122   See MIL-NSC.TXT
+   SPONSOR: ARMY           DH
+
+   HOST : 26.2.0.122 : HUACHUCA.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+ILLESHEM.MMT.DDN.MIL       26.14.0.155  See MIL-NSC.TXT
+   SPONSOR:                 
+
+   HOST : 26.14.0.155 : ILLESHEM.MMT.DDN.MIL ::::
+   
+   Configuration:      ()
+
+INCIRLIK.MT.DDN.MIL        26.0.0.192   See MIL-NSC.TXT
+   SPONSOR: AF             HDH
+
+   HOST : 26.0.0.192 : INCIRLIK.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+IZMIR.MT.DDN.MIL           26.6.0.192   See MIL-NSC.TXT
+   SPONSOR:                HDH
+
+   HOST : 26.6.0.192 : IZMIR.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+JACKSON.MT.DDN.MIL         26.0.0.217   See MIL-NSC.TXT
+   SPONSOR: ARMY           DH
+
+   HOST : 26.0.0.217 : JACKSON.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+JACKSONVILLE.MT.DDN.MIL    26.0.0.110   See MIL-NSC.TXT
+   SPONSOR: NAVY           DH
+
+   HOST : 26.0.0.110 : JACKSONVILLE.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+JOHNSVILLE.MT.DDN.MIL      26.0.0.24    See MIL-NSC.TXT
+   SPONSOR: NAVY           DH
+
+   HOST : 26.0.0.24 : JOHNSVILLE.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+KELLY.MT.DDN.MIL           26.0.0.139   See MIL-NSC.TXT
+   SPONSOR: AF             DH
+
+   HOST : 26.0.0.139 : KELLY.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+KIRCHGNS.MMT.DDN.MIL       26.11.0.175  See MIL-NSC.TXT
+   SPONSOR:                 
+
+   HOST : 26.11.0.175 : KIRCHGNS.MMT.DDN.MIL ::::
+   
+   Configuration:      ()
+
+KITZINGEN.MMT.DDN.MIL      26.14.0.188  See MIL-NSC.TXT
+   SPONSOR:                 
+
+   HOST : 26.14.0.188 : KITZINGEN.MMT.DDN.MIL ::::
+   
+   Configuration:      ()
+
+KSRSKTRN.MMT.DDN.MIL       26.15.0.191  See MIL-NSC.TXT
+   SPONSOR:                 
+
+   HOST : 26.15.0.191 : KSRSKTRN.MMT.DDN.MIL ::::
+   
+   Configuration:      ()
+
+LAKENHEATH3.MMT.DDN.MIL    26.9.0.193   See MIL-NSC.TXT
+   SPONSOR:                 
+
+   HOST : 26.9.0.193 : LAKENHEATH3.MMT.DDN.MIL ::::
+   
+   Configuration:      ()
+
+LANGLEY.MT.DDN.MIL         26.0.0.138   See MIL-NSC.TXT
+   SPONSOR: AF              
+
+   HOST : 26.0.0.138 : LANGLEY.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+LEAVENWORTH.MT.DDN.MIL     26.0.0.125   See MIL-NSC.TXT
+   SPONSOR: ARMY           DH
+
+   HOST : 26.0.0.125 : LEAVENWORTH.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+LEE.MT.DDN.MIL             26.0.0.242   See MIL-NSC.TXT
+   SPONSOR: ARMY           DH
+
+   HOST : 26.0.0.242 : LEE.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+LEIGHTON.MT.DDN.MIL        26.0.0.188   See MIL-NSC.TXT
+   SPONSOR: ARMY            
+
+   HOST : 26.0.0.188 : LEIGHTON.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+LEWIS.MT.DDN.MIL           26.0.0.159   See MIL-NSC.TXT
+   SPONSOR: ARMY           DH
+
+   HOST : 26.0.0.159 : LEWIS.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+LINTHICUM.MT.DDN.MIL       26.0.0.172   See MIL-NSC.TXT
+   SPONSOR: ARMY           DH
+
+   HOST : 26.0.0.172 : LINTHICUM.MT.DDN.MIL : C/30E : TAC : TCP/IP,      
+    TELNET, ICMP :
+   
+   Configuration:      C/30E(TAC)
+
+LONDON2.MMT.DDN.MIL        26.5.0.194   See MIL-NSC.TXT
+   SPONSOR:                 
+
+   HOST : 26.5.0.194 : LONDON2.MMT.DDN.MIL ::::
+   
+   Configuration:      ()
+
+LOWRY.MT.DDN.MIL           26.0.0.86    See MIL-NSC.TXT
+   SPONSOR: AF             DH
+
+   HOST : 26.0.0.86 : LOWRY.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+LUKE.MT.DDN.MIL            26.0.0.198   See MIL-NSC.TXT
+   SPONSOR: AF             DH
+
+   HOST : 26.0.0.198 : LUKE.MT.DDN.MIL : C/30 : TAC : TCP,ICMP :
+   
+   Configuration:      C/30(TAC)
+
+ABERDEENT20.DDN.MIL        26.17.0.29   Amerg, Sharon L.
+   SPONSOR:                             (amerg@ARL.MIL)
+                                        U.S. Army Research Laboratory,
+                                        ACISD, ACD, HPCCB
+                                        Building 328, Room 3
+                                        Attn: AMSRL-CI-AA
+                                        Aberdeen Proving Ground, MD      
+                                         21005-5067
+                                        (410) 278-6819 298-6819
+
+   GATEWAY : 26.17.0.29 : ABERDEENT20.DDN.MIL :: UNIX : X.25,TCP/IP,EGP :
+   
+   Configuration:      (UNIX)
+
+ACADEMY-GW.AF.MIL          26.8.0.243,131.26.15.0,128.236.211.251 Wunderl
+   SPONSOR: AF             X.25         (academy@SERVER.AF.MIL)
+                                        54CS/SCOSO
+                                        5130 Cathedral Dr.
+                                        Suite 103
+                                        Bldg 5130
+                                        USAF Academy, CO 80840
+                                        (719) 472-2666 
+                                        (719) 472-4225 259-2666 
+                                        (719) 472-3797
+
+   GATEWAY : 26.8.0.243 : ACADEMY-GW.AF.MIL : CISCO-AGS : UNIX : TCP/IP, 
+    TCP/TELNET,TCP/SMTP,TCP/FTP :
+   
+   Configuration:      CISCO-AGS(UNIX)
+
+ADELPHI-GW1.ARMY.MIL       26.24.0.102, 131.218.24.2, 198.26.62.66 Adams,
+   SPONSOR:                EGP,IP/GW    (cadams@ARL.MIL)
+                                        ARMY RESEARCH LABORATORY
+                                        2800 POWDER MILL RD.
+                                        ADELPHI, MD 20783
+                                        301-394-4640 301-394-5116        
+                                         290-4640 5116 301-394-5034
+
+   GATEWAY : 26.24.0.102 : ADELPHI-GW1.ARMY.MIL : CISCO-AGS : AGS-2 :    
+    X.25, TCP, TELNET, SNMP :
+   
+   Configuration:      CISCO-AGS(AGS-2)
+
+AFINCC-GW.AF.MIL           26.26.0.13, 131.63.15.0 Henderson, Paul
+   SPONSOR: AF                          (henderson@DDN.AF.MIL)
+                                        201 East Moore Dr
+                                        Bldg 856, Rm 130
+                                        Maxwell AFB Gunter Annex, AL     
+                                         36114-3005
+                                        (334) 416-1939/49/50 596-1939    
+                                         596-5345
+
+   GATEWAY : 26.26.0.13 : AFINCC-GW.AF.MIL : CISCO : CISCO : IP/GW,EGP :
+   
+   Configuration:      CISCO(CISCO)
+
+ALCONBURY-GW.AF.MIL        131.58.15.0, 26.12.0.136 Kolk, Jonathan I.
+   SPONSOR: AF             X.25         (10cscms@MILDEN.AF.MIL)
+                                        10 CS/SCMS
+                                        PSC 47 Box 1557
+                                        APO, AE 09470
+                                        011 44 0638 542311 
+                                        (314)223 2705
+
+   GATEWAY : 26.12.0.136 : ALCONBURY-GW.AF.MIL : CISCO : UNIX : TCP/IP,  
+    TCP/TELNET,TCP/FTP,TCP/SMTP :
+   
+   Configuration:      CISCO(UNIX)
+
+ALEX-GW1.ARMY.MIL          26.29.0.50   Biederman, Fred A.
+   SPONSOR: ARMY                        (fbiederm@ALEXANDRIA-EMH1.ARMY.MI
+                                        5001 Eisenhower Ave. Attn:       
+                                         AMCIO-I-AO
+                                        ALEXANDRIA, VA 22333
+                                        (703) 274-8061 
+                                        (703) 274-8912 284-8061
+
+   GATEWAY : 26.29.0.50 : ALEX-GW1.ARMY.MIL : CISCO-GATEWAY : AGS-2 : EGP
+    ,TCP/IP,TELNET,SMTP :
+   
+   Configuration:      CISCO-GATEWAY(AGS-2)
+
+ALEXGATE.MED.OSD.MIL       26.4.0.76, 159.227.252.1 Patton, Robert M.
+   SPONSOR:                             (rpatton@DSSDEV2.MED.OSD.MIL)
+                                        Electronic Data Systems
+                                        Mail Stop A4S-D12
+                                        13600 EDS Drive
+                                        Herndon, VA 22071
+                                        (703) 742-1443 
+                                        (703) 733-3200 
+                                        (703) 742-2749
+
+   GATEWAY : 26.4.0.76 : ALEXGATE.MED.OSD.MIL : CISCO :: TCP/IP :
+   
+   Configuration:      CISCO()
+
+AMES-IP.DDN.MIL            26.19.0.16, 137.209.18.1, 192.52.195.26 Cassel
+   SPONSOR:                X.25         (JCASSELL@DSAC.DLA.MIL)
+                                        DISA WE331
+                                        PO Box 1605
+                                        Columbus, OH 43216-5002
+                                        614-692-9549 850-9549            
+                                         614-692-9129
+
+   GATEWAY : 26.19.0.16 : AMES-IP.DDN.MIL : CISCO-AGS :: TCP/TELNET,     
+    TCP/FTP,TCP/SMTP :
+   
+   Configuration:      CISCO-AGS()
+
+ANDERSEN-GW.AF.MIL         26.19.0.141, 131.47.15.0 Lythgoe, Clare J.
+   SPONSOR: AF             X.25         (nsc-m141@DDN-PAC.DDN.MIL)
+                                        633CS/SCTT
+                                        Bldg 23002, Rm 121
+                                        Andersen AFB, Guam
+                                        APO, AP 96543-4009
+                                        671-366-2715/2716 671-366-3181   
+                                         366-2715 366-2711
+
+   GATEWAY : 26.19.0.141 : ANDERSEN-GW.AF.MIL : CISCO-AGS : UNIX : TCP/IP
+    ,TCP/FTP,TCP/TELNET,TCP/SMTP :
+   
+   Configuration:      CISCO-AGS(UNIX)
+
+ANNISTON-GW.ARMY.MIL       26.31.0.113, 198.26.63.26, 199.112.52.100 Arnd
+   SPONSOR: ARMY           X.25         (carndt@ANNISTON-EMH1.ARMY.MIL)
+                                        Anniston Army Depot
+                                        Attn: SDSAN-DOIM-L
+                                         Frankford Ave.
+                                        Anniston, AL 36201
+                                        (205) 235-4870 571-4870
+
+   GATEWAY : 26.31.0.113 : ANNISTON-GW.ARMY.MIL : CISCO : AGS-2 : IP/GW, 
+    EGP :
+   
+   Configuration:      CISCO(AGS-2)
+
+APG-GW.ARMY.MIL            26.19.0.29, 130.114.32.2 Chatham, Larry R.
+   SPONSOR: ARMY           X.25         (lchatha@APG.ARMY.MIL)
+                                        Commander
+                                        USAAPGSA
+                                        Attn: STEAP-IM-ID,  L. Chatham
+                                        Aberdeen Proving Ground, MD      
+                                         21005-5001
+                                        (410) 278-7596 298-7596 
+                                        (DSN) 298-7200
+
+   GATEWAY : 26.19.0.29 : APG-GW.ARMY.MIL : CISCO-AGS : AGS-2 : EGP,     
+    IP/GW, TCP/TELNET, TCP/SMTP :
+   
+   Configuration:      CISCO-AGS(AGS-2)
+
+APGEA-GW1.ARMY.MIL         26.8.0.29, 131.92.120.1 Amos, Robert E.
+   SPONSOR: ARMY                        (amos@APGEA.ARMY.MIL)
+                                        US Army - CBDCOM
+                                        ATT: AMSCB-CIT
+                                        Building E5234
+                                        Aberdeen Proving Ground, MD      
+                                         21010-5423
+                                        (410) 671-2624 
+                                        (410) 671-3923 584-2624 
+                                        (410) 671-3923
+
+   GATEWAY : 26.8.0.29 : APGEA-GW1.ARMY.MIL,CBDC-GW1.APGEA.ARMY.MIL :    
+    CISCO-AGS : CISCO ::
+   
+   Configuration:      CISCO-AGS(CISCO)
+
+ARO-GW.ARMY.MIL            198.26.26.50, 132.193.0.1, 26.7.0.80 Fincher, 
+   SPONSOR: ARMY           X.25         (fincher@ARO-EMH1.ARMY.MIL)
+                                        Commander
+                                        Army Research Office
+                                        Attn: AMXRO-ICA, Cranford Fincher
+                                        P.O. Box 12211
+                                        Research Triangle Park, NC       
+                                         27709-2211
+                                        (919) 549-4299 832-4299 
+                                        (DSN) 832-4310
+
+   GATEWAY : 26.7.0.80 : ARO-GW.ARMY.MIL : CISCO : CISCO : EGP,IP/GW,X.25
+    :
+   
+   Configuration:      CISCO(CISCO)
+
+AVIANO-GW.AF.MIL           26.4.0.12, 131.48.15.0 Holt, Matthew W.
+   SPONSOR: AF             X.25         (scpu@CS.AVI.AF.MIL)
+                                        401CS/SCPU
+                                        Unit 6115
+                                        Aviano AB, Italy
+                                        APO, AE 09601-5000
+                                        ITALY
+                                        39-0434-667408 39-0434-667019    
+                                         632-7408
+
+   GATEWAY : 26.4.0.12 : AVIANO-GW.AF.MIL : CISCO-AGS : UNIX : TCP/IP,   
+    TCP/FTP,TCP/TELNET,TCP/SMTP :
+   
+   Configuration:      CISCO-AGS(UNIX)
+
+BAMBERG-GW.ARMY.MIL        26.12.0.177  McMurren, Alfreda B.
+   SPONSOR: ARMY           X.25         (asqe-y-n-f-bb1@EMAIL.BAMBERG.ARM
+                                        Commander, USMCA Bamberg
+                                        CDOIM
+                                        Attn: ASQE-Y-N-F-BB
+                                        APO, AE 09139
+                                        0951-400-8717 
+                                        (DSN) 469-8717
+
+   GATEWAY : 26.12.0.177 : BAMBERG-GW.ARMY.MIL : CISCO-AGS-2 : UNIX :    
+    IP/GW,EGP :
+   
+   Configuration:      CISCO-AGS-2(UNIX)
+
+BAMBERG-GW1.ARMY.MIL       26.10.0.177,155.155.16.1 Santos, Don
+   SPONSOR:                             (don@BAMBERG-EMH1.ARMY.MIL)
+                                        DOIM CSC
+                                        279th Support Battalion (Base)
+                                        ATTN: ASQE-XE-CBI
+                                        Warner Barracks, Bamberg, FRG
+                                        APO, AE 09139
+                                        +49-951-300-1640 +49-951-300-7499
+                                         314-469-1640 314-469-74 
+                                        (DSN) 314-469-7601
+
+   GATEWAY : 26.10.0.177 : BAMBERG-GW1.ARMY.MIL : CISCO-AGS-2 : UNIX ::
+   
+   Configuration:      CISCO-AGS-2(UNIX)
+
+BAUMHLDR-GW1.ARMY.MIL      26.7.0.14, 140.155.16.1 Woody, Fitzhugh M.
+   SPONSOR:                             (cdoim@EMAIL.BAUMHOLDER.ARMY.MIL)
+                                        CDOIM  Baumholder MILCOM
+                                        CMR 405 box 1222
+                                        APO, AE 09034
+                                        49-6783-6-7531 49-6783-6-1640    
+                                         314-485-7531 314-485-7599
+
+   GATEWAY : 26.7.0.14 : BAUMHLDR-GW1.ARMY.MIL : CISCO-AGS-2 : UNIX : EGP
+    , TCP/IP, FTP, TELNET, SMTP :
+   
+   Configuration:      CISCO-AGS-2(UNIX)
+
+BAYONNE-GW1.ARMY.MIL       26.10.0.60   Gratz, Steve
+   SPONSOR: ARMY           X.25         (gratz@BAYONNE-EMH2.ARMY.MIL)
+                                        Military Traffic Mgt Command     
+                                         Eastern Area
+                                        MTEA-IM-NS building 42/6 Rm 616A
+                                        Military Ocean Terminal
+                                        Bayonne, NJ 07002-5302
+                                        (201) 823-5541 247-5541 DSN      
+                                         247-5600
+
+   GATEWAY : 26.10.0.60 : BAYONNE-GW1.ARMY.MIL : CISCO-AGS : CISCO :     
+    TCP/FTP,TCP/SMTP,TCP/TELNET :
+   
+   Configuration:      CISCO-AGS(CISCO)
+
+BBN-MIL-GW2.DDN.MIL        26.12.0.72   Cassidy, Nancy P.
+   SPONSOR: DCA                         (ncassidy@BBN.COM)
+                                        Bolt Beranek and Newman, Inc.
+                                        150 Cambridge Park Drive
+                                        Cambridge, MA 02140
+                                        (617) 873-2576 
+                                        (617) 873-8202
+
+   GATEWAY : 26.12.0.72 : BBN-MIL-GW2.DDN.MIL : BBN-T200-ROUTER :        
+    WELLFLEET ::
+   
+   Configuration:      BBN-T200-ROUTER(WELLFLEET)
+
+BBNT20.DDN.MIL             26.18.0.72   Cassidy, Nancy P.
+   SPONSOR: DOD                         (ncassidy@BBN.COM)
+                                        Bolt Beranek and Newman, Inc.
+                                        150 Cambridge Park Drive
+                                        Cambridge, MA 02140
+                                        (617) 873-2576 
+                                        (617) 873-8202
+
+   GATEWAY : 26.18.0.72 : BBNT20.DDN.MIL,CAMB18-T20.DDN.MIL : BBN-T/20 : 
+    UNIX : TCP/TELNET,TCP/FTP,TCP/SMTP,X.25 :
+   
+   Configuration:      BBN-T/20(UNIX)
+
+BELVOIR-GW3.ARMY.MIL       26.5.0.26, 26.25.0.107, 160.147.1.1, 192.172.2 
+   SPONSOR: ARMY                        (RBRUBAKER@BELVOIR.ARMY.MIL)
+                                        USAISC FB
+                                        ATTN ASQT FBV S
+                                        10101 GRIDLEY RD STE 104
+                                        FT BELVOIR, VA 22060-5818
+                                        (703) 704-1885 654-1885          
+                                         703-704-1928
+
+   GATEWAY : 26.5.0.26 : BELVOIR-GW3.ARMY.MIL,BELVOIR-MILNETGW.ARMY.MIL :
+    CISCO-GATEWAY : AGS-2 : EGP, TCP, IP, TELNET, SMTP :
+   
+   Configuration:      CISCO-GATEWAY(AGS-2)
+
+BELVOIR-IP-GW.DDN.MIL      26.28.0.107, 137.209.59.1, 137.209.60.2, 137.2 
+   SPONSOR: DISA           EGP,IP/GW    (No Mailbox Given)
+                                        USAISC-FB
+                                        Attn: ASQT-FBO, B. RULAPAUGH
+                                        Bldg 270, Rm 205
+                                        Fort Belvoir, VA 22060-5123
+                                        (703) 805-2542 655-2542 
+                                        (703) 805-2093
+
+   GATEWAY : 26.28.0.107 : BELVOIR-IP-GW.DDN.MIL : CISCO-AGS :::
+   
+   Configuration:      CISCO-AGS()
+
+BENNING-GW1.ARMY.MIL       26.30.0.79, 198.26.29.58 Hutchens, Larry H.
+   SPONSOR: ARMY                        (Hutchens@BENNING-EMH1.ARMY.MIL)
+                                        DOIM
+                                        ATTN:ATZB-IMS-T
+                                        Fort Benning, GA 31905
+                                        706-545-4196 
+                                        (706)545-2178 835-4196 
+                                        (706)545-7415
+
+   GATEWAY : 26.30.0.79 : BENNING-GW1.ARMY.MIL,FTBENNING-GW1.ARMY.MIL :  
+    CISCO-GATEWAY : AGS-2 : EGP,IP/GW :
+   
+   Configuration:      CISCO-GATEWAY(AGS-2)
+
+BLYSCSDS-GW.ARMY.MIL       26.11.0.104, 144.100.0.0, 144.101.0.0, 192.86. 
+   SPONSOR: ARMY           X.25         (donca%fs6.ima@BAILEYS-EMH3.ARMY.
+                                        HQ Military Traffic Mgmt Cmd
+                                        Attn: MTIM-NS (RM B-19)
+                                        5611 Columbia Pike
+                                        Falls Church, VA 22041-5050
+                                        (703) 756-2380 289-2380
+
+   GATEWAY : 26.11.0.104 : BLYSCSDS-GW.ARMY.MIL : CISCO : AGS-2 : EGP,   
+    IP/GW :
+   
+   Configuration:      CISCO(AGS-2)
+
+BREMERTON-GW.MRMS.NAVY.MIL 26.5.0.78, 192.153.246.1 Young, Richard
+   SPONSOR:                             (youngr@PERASMTP.NAVY.MIL)
+                                        NAVSEADET (PERA CV)
+                                        BRANCH 1843
+                                        1305 IRONSIDES
+                                        BREMERTON, WA 98310-4924
+                                        (360) 476-0061 
+                                        (360) 476-4805 439-4805 
+                                        (360) 476-3078
+
+   GATEWAY : 26.5.0.78 : BREMERTON-GW.MRMS.NAVY.MIL : CISCO : UNIX : X.25
+    :
+   
+   Configuration:      CISCO(UNIX)
+
+BUCKNER-GW1.ARMY.MIL       26.17.0.82, 198.26.173.130, 143.45.100.1, 150. 
+   SPONSOR: ARMY           X.25         (crudend@STRICOM.ARMY.MIL)
+                                        HQ, STRICOM
+                                        12350 Research Parkway
+                                        ATTN: AMSTI-MI (MR. CRUDEN)
+                                        Orlando, FL 32826-3276
+                                        (407) 384-2367 960-8330 DSN      
+                                         960-8763
+
+   GATEWAY : 26.17.0.82 : BUCKNER-GW1.ARMY.MIL,BUCKNER-GW.ARMY.MIL :     
+    CISCO-AGS : UNIX : TCP/IP,TCP/TELNET,EGP :
+   
+   Configuration:      CISCO-AGS(UNIX)
+
+CARSON-GW.ARMY.MIL         26.15.0.128, 132.109.0.1 Hobson, Calvin
+   SPONSOR: ARMY                        (No Mailbox Given)
+                                        USPFO-NV
+                                        Attn: NVMD-IM-DS
+                                        2601 South Carson Street
+                                        Carson City, NV 89701-5596
+                                        (702) 887-7223 
+                                        (DSN) 830-5223
+
+   GATEWAY : 26.15.0.128 : CARSON-GW.ARMY.MIL : CISCO : AGS-2 : EGP,IP/GW
+    :
+   
+   Configuration:      CISCO(AGS-2)
+
+CASTLE-GW.AF.MIL           26.14.0.148, 132.57.15.0 Woodington, Rodney E.
+   SPONSOR: AF             X.25         (HADMIN@CASTLE-PIV.AF.MIL)
+                                        93CS/SCSD
+                                        Bldg 115, Rm 15
+                                        Castle AFB, CA 95342
+                                        (209) 726-4468 347-4468
+
+   GATEWAY : 26.14.0.148 : CASTLE-GW.AF.MIL : CISCO-AGS : UNIX : TCP/IP, 
+    TCP/FTP, TCP/SMTP, TCP/TELNET :
+   
+   Configuration:      CISCO-AGS(UNIX)
+
+CHARON-GW.NCSC.MIL         26.29.0.172  Wilcox, Chris A.
+   SPONSOR: NCSC           X.25         (cawilco@AFTERLIFE.NCSC.MIL)
+                                        DIRNSA/R53
+                                        9800 Savage Road
+                                        Fort George G. Meade, MD         
+                                         20755-6000
+                                        (301) 688-0398
+
+   GATEWAY : 26.29.0.172 : CHARON-GW.NCSC.MIL : CISCO-AGS : CISCO : IP/GW
+    ,EGP :
+   
+   Configuration:      CISCO-AGS(CISCO)
+
+CHEYENNE-GW.ARMY.MIL       26.4.0.120,132.133.0.1 Potter, Charles
+   SPONSOR: ARMY                        (mmdf@WY-NGNET.ARMY.MIL)
+                                        USPFO for Wyoming
+                                        Attn: DPI
+                                        P.O. Box 1709
+                                        Cheyenne, WY 82003-1709
+                                        (307) 772-6286 
+                                        (DSN) 943-6286
+
+   GATEWAY : 26.4.0.120 : CHEYENNE-GW.ARMY.MIL : AGS : AGS-2 : TCP/IP,EGP
+    ,X.25 :
+   
+   Configuration:      AGS(AGS-2)
+
+CHIEVRES-GW1.ARMY.MIL      26.7.0.15, 147.39.4.1 Lalonde, Joseph Raymond,
+   SPONSOR: ARMY                        (RSC1@EMAIL.CHIEVRES.ARMY.MIL)
+                                        39th Signal Bn
+                                        Unit 21419
+                                        APO, AE 09708
+                                        +003268275291 361-5208  / 5291   
+                                         +003268275432  361-5432
+
+   GATEWAY : 26.7.0.15 : CHIEVRES-GW1.ARMY.MIL : CISCO-AGS-2 : UNIX ::
+   
+   Configuration:      CISCO-AGS-2(UNIX)
+
+CMH-GW1.ARMY.MIL           26.15.0.247  Blackmond, Vicky H.
+   SPONSOR:                             (blackmon@CMH-SMTP.ARMY.MIL)
+                                        U.S. Army Center of Military     
+                                         History
+                                        1099 14th Street, NW
+                                        Washington, DC 20005-3402
+                                        202-761-5404 763-5404            
+                                         703-761-5390
+
+   GATEWAY : 26.15.0.247 : CMH-GW1.ARMY.MIL : CISCO : UNIX : X.25, TCP/IP
+    , EGP :
+   
+   Configuration:      CISCO(UNIX)
+
+CONCGWY-GW.NAVY.MIL        26.17.0.161, 134.229.1.1, 134.229.2.1 Greunke,
+   SPONSOR: NAVY           X.25         (STEVE.GREUNKE@NCTS.NAVY.MIL)
+                                        130 WEST AVE SUITE B
+                                        PENSACOLA, FL 32508
+                                        904-452-3501 5470 904-452-2601   
+                                         922-3501 904-452-4136
+
+   GATEWAY : 26.17.0.161 : CONCGWY-GW.NAVY.MIL : CISCO :: EGP,IP/GW :
+   
+   Configuration:      CISCO()
+
+CPF-DDN-GW.NAVY.MIL        26.10.0.173  Kuriyama, Kent K.
+   SPONSOR: NAVY           X.25         (kent@LONO.NOSC.MIL)
+                                        Commander in Chief, U.S. Pacific 
+                                         Fleet
+                                        Code N6553KK, Kent Kuriyama
+                                        250 Makalapa Drive
+                                        Pearl Harbor, HI 96860-7000
+                                        (808) 471-4125 315-471-4125      
+                                         808-471-4105
+
+   GATEWAY : 26.10.0.173 : CPF-DDN-GW.NAVY.MIL : MICROVAX-II : VMS : X.25
+    , TCP/IP, TELNET, FTP, SMTP :
+   
+   Configuration:      MICROVAX-II(VMS)
+
+CPO-LINK-GW.EUCOM.MIL      26.17.0.91, 192.42.245.1 Gober, Roussell A.
+   SPONSOR: NAVY           X.25         (ADP@CPO-LINK.EUCOM.MIL)
+                                        PSC 817 BOX 25
+                                        FPO, AE 09622-7000
+                                        39-81-568-5380/5229 625-5380/5229
+                                         625-5358
+
+   GATEWAY : 26.17.0.91 : CPO-LINK-GW.EUCOM.MIL : SUN : UNIX : TCP/TELNET
+    , TCP/FTP, IP/GW :
+   
+   Configuration:      SUN(UNIX)
+
+CPZAMAT20.DDN.MIL          26.30.0.77   Vandenburg, Stephen L.
+   SPONSOR:                             (postmaster@ZAMA-EMH1.ARMY.MIL)
+                                        78th Signal Bn
+                                        Unit 45012
+                                        ATTN: ASQP-NHI-D
+                                        APO, AP 96343-0060
+                                        81-3117-63-5566                  
+                                         011-81-3117-63-3876 263-5566    
+                                         263-9012
+
+   GATEWAY : 26.30.0.77 : CPZAMAT20.DDN.MIL :: UNIX : X.25, TCP/IP, EGP :
+   
+   Configuration:      (UNIX)
+
+CRDEC-GW2.ARMY.MIL         26.6.0.224, 131.92.10.12, 192.12.125.12, 192.5 
+   SPONSOR: ARMY                        (Bartley@APGEA.ARMY.MIL)
+                                        ASNC-TAB-T
+                                        Building E5234, Room 109
+                                        Aberdeen Proving Grounds, MD     
+                                         21010-5423
+                                        (410) 671-4397 
+                                        (DSN) 584-4397
+
+   GATEWAY : 26.6.0.224 : CRDEC-GW2.ARMY.MIL : CISCO : CISCO : IP/GW,EGP 
+    :
+   
+   Configuration:      CISCO(CISCO)
+
+DCEC-IP.DDN.MIL            26.29.0.104, 137.210.3.1, 137.209.60.1, 137.20 
+   SPONSOR: DISA           X.25         (englishm@CC.IMS.DISA.MIL)
+                                        Defense Communications           
+                                         Engineering C.
+                                        NASA Building, Room 1400
+                                        10701 Park Ridge Road
+                                        Reston, VA 22091-4398
+                                        (703) 487-3060 
+                                        (703) 487-3060 364-3052/3060
+
+   GATEWAY : 26.29.0.104 : DCEC-IP.DDN.MIL : CISCO-AGS : UNIX : EGP,IP/GW
+    :
+   
+   Configuration:      CISCO-AGS(UNIX)
+
+DETR-IP.DDN.MIL            26.29.0.54, 137.209.58.2, 137.209.62.1 Fredenb
+   SPONSOR: DISA           X.25         (cfredenburg@DSAC.DLA.MIL)
+                                        Defense Logistics Agency
+                                        Systems Automation Center
+                                        P. O. Box 1605
+                                        Columbus, OH 43516-5002
+                                        (614)692-8175 850-8175 
+                                        (614)692-9731
+
+   GATEWAY : 26.29.0.54 : DETR-IP.DDN.MIL : CISCO-AGS : UNIX : TCP/IP,GW 
+    :
+   
+   Configuration:      CISCO-AGS(UNIX)
+
+DGARCIA-GW.NAVY.MIL        26.19.0.82   Cruden, Donald G., Jr.
+   SPONSOR: NAVY                        (crudend@STRICOM.ARMY.MIL)
+                                        HQ, STRICOM
+                                        12350 Research Parkway
+                                        ATTN: AMSTI-MI (MR. CRUDEN)
+                                        Orlando, FL 32826-3276
+                                        (407) 384-2367 960-8330 DSN      
+                                         960-8763
+
+   GATEWAY : 26.19.0.82 : DGARCIA-GW.NAVY.MIL : CISCO : UNIX ::
+   
+   Configuration:      CISCO(UNIX)
+
+DHAHRAN-GW1.ARMY.MIL       26.19.0.169, 143.68.1.1, 143.70.1.1 Fowkes, Ha
+   SPONSOR: ARMY           X.25         (fowkesh@DHAHRAN-EMH1.ARMY.MIL)
+                                        54th Signal Battalion
+                                        550th Signal Company
+                                        ATTN: DDN OFFICE
+                                        Dhahran, Saudi Arabia
+                                        APO, AE 09808
+                                        011-966-01-899-1119 4238 
+                                        (318) 431-4238
+
+   GATEWAY : 26.19.0.169 : DHAHRAN-GW1.ARMY.MIL,ODS-GW1.ARMY.MIL : CISCO-
+    GATEWAY : AGS-2 : EGP,IP/GW :
+   
+   Configuration:      CISCO-GATEWAY(AGS-2)
+
+DINFOS-GW1.ARMY.MIL        26.19.0.176  Felgenhuer, John
+   SPONSOR: ARMY           X.25         (No Mailbox Given)
+                                        COMDT DINFOS
+                                        Ft. Benjamin Harrison, IN        
+                                         46216-6200
+                                        USA
+                                        317-542-4109 699-4109
+
+   GATEWAY : 26.19.0.176 : DINFOS-GW1.ARMY.MIL,BEN-HARRIS-ONET.ARMY.MIL :
+    ALTOS-3068 : UNIX : TCP/IP, EGP :
+   
+   Configuration:      ALTOS-3068(UNIX)
+
+DIPC-DAO.DIPCW.DISA.MIL    26.8.0.26    Morales, Lydia
+   SPONSOR: NAVY           X.25         (root@DNS.DIPCW.DISA.MIL)
+                                        Defence Information Processing   
+                                         Center
+                                        Bldg. 196, Washington Navy Yard
+                                        901 M. Street, S.E.
+                                        Washington, DC 20374-5053
+                                        (202)685-2347 325-2347 
+                                        (202)433-5613
+
+   GATEWAY : 26.8.0.26 : DIPC-DAO.DIPCW.DISA.MIL : CISCO-GATEWAY :: EGP, 
+    IP/GW :
+   
+   Configuration:      CISCO-GATEWAY()
+
+DIPC-GW2.DIPCW.DISA.MIL    26.5.0.102, 163.240.17.1, 163.240.16.15 Morale
+   SPONSOR: NAVY           X.25         (root@DNS.DIPCW.DISA.MIL)
+                                        Defence Information Processing   
+                                         Center
+                                        Bldg. 196, Washington Navy Yard
+                                        901 M. Street, S.E.
+                                        Washington, DC 20374-5053
+                                        (202)685-2347 325-2347 
+                                        (202)433-5613
+
+   GATEWAY : 26.5.0.102 : DIPC-GW2.DIPCW.DISA.MIL : CISCO-GATEWAY :: EGP,
+    IP/GW :
+   
+   Configuration:      CISCO-GATEWAY()
+
+DISG1.TINKER.AF.MIL        26.15.0.71   McFarland, Mike
+   SPONSOR: AF                          (mcfarlan@OCDIS01.OC.AFLC.AF.MIL)
+                                        OC-ALC/SCUN
+                                        Tinker AFB, OK 73145
+                                        (405) 739-5274 
+                                        (DSN) 339-5274
+
+   GATEWAY : 26.15.0.71 : DISG1.TINKER.AF.MIL : CMC/DRN-3200 : UNIX :    
+    TCP/IP, EGP :
+   
+   Configuration:      CMC/DRN-3200(UNIX)
+
+DMCSG1.STL.DISA.MIL        26.12.0.59, 144.251.2.253 Hooker, Glenn C.
+   SPONSOR: ARMY           X.25         (ghooker@DMC-EMH1.STL.DISA.MIL)
+                                        Defense MegaCenter-St Louis
+                                        Attn: WEL42
+                                        4300 Goodfellow Blvd
+                                        St Louis, MO 63120-1798
+                                        (314) 263-7997 
+                                        (314) 263-3877 693-7997 
+                                        (DSN) 693-7930
+
+   GATEWAY : 26.12.0.59 : DMCSG1.STL.DISA.MIL : CISCO-AGS :: TCP/TELNET :
+   
+   Configuration:      CISCO-AGS()
+
+DMSSCE-GW.MED.OSD.MIL      26.9.0.14, 198.97.133.1 Anderson, Glenn R.
+   SPONSOR: ARMY           X.25         (ganderso@ESOSVR.MED.OSD.MIL)
+                                        2nd General Hospital
+                                        CMR 402, Box 147
+                                        APO, AE 09180-3460
+                                        011-49-6371-86-7370 314-486-7370 
+                                         314-486-77 06371-921831
+
+   GATEWAY : 26.9.0.14 : DMSSCE-GW.MED.OSD.MIL,LAMN-MEPRS.ARMY.MIL :     
+    CISCO-AGS : UNIX ::
+   
+   Configuration:      CISCO-AGS(UNIX)
+
+DNA-MAIL.DNA.MIL           26.18.0.107  Hamilton, Rodney W.
+   SPONSOR:                X.25         (hamiltonr@HQ.DNA.MIL)
+                                        Defense Nuclear Agency
+                                        6801 Telegraph Rd.
+                                        Attn: Rodney Hamilton, NOCC
+                                        Alexandria, VA 22310-3398
+                                        703-325-6984 221-7092
+
+   GATEWAY : 26.18.0.107 : DNA-MAIL.DNA.MIL : VAX : VMS : X.25 :
+   
+   Configuration:      VAX(VMS)
+
+DOBBINS-GW.AF.MIL          26.24.0.37, 132.8.15.0 Cottrell, Rex W.
+   SPONSOR: AF             X.25         (No Mailbox Given)
+                                        94CSG/SCO
+                                        Building 700
+                                        Dobbins Air Force Base, GA       
+                                         30069-5000
+                                        (404) 421-5149 925-5149
+
+   GATEWAY : 26.24.0.37 : DOBBINS-GW.AF.MIL : CISCO-MGS : CISCO-MGS :    
+    TCP/IP,TCP/SMTP,TCP/TELNET,TCP/FTP,EGP :
+   
+   Configuration:      CISCO-MGS(CISCO-MGS)
+
+DSMC-GW1.DSM.MIL           26.13.0.247  Haskell, Marcus
+   SPONSOR: DISA           X.25         (Haskell@DSMC.DSM.MIL)
+                                        Defense System Mgt College
+                                        9820 Belvoir Rd Suite G38
+                                        Attn Marcus Haskell
+                                        Ft Belvoir, VA 22060-5565
+                                        (703) 805-3462 3113 655-3462 3113
+                                         
+                                        (703) 805-3709
+
+   GATEWAY : 26.13.0.247 : DSMC-GW1.DSM.MIL : CISCO-CGS : UNIX : X.25,   
+    TCP/IP :
+   
+   Configuration:      CISCO-CGS(UNIX)
+
+DTIC-GW.DTIC.DLA.MIL       26.4.0.50, 131.84.1.129 Horgan, Janice F.
+   SPONSOR: DLA            X.25         (jhorgan@DTIC.DLA.MIL)
+                                        Cameron Station, Building 5
+                                        ALEXANDRIA, VA 22314-6145
+                                        (703) 274-7967 284-7967 803-0760
+
+   GATEWAY : 26.4.0.50 : DTIC-GW.DTIC.DLA.MIL : CISCO-AGS : CISCO :      
+    TCP/TELNET, TCP/FTP :
+   
+   Configuration:      CISCO-AGS(CISCO)
+
+DUGWAY-GW1.ARMY.MIL        26.7.0.120, 140.196.0.1 Gonyea, Stephen
+   SPONSOR: ARMY           X.25         (sgonyea@DUGWAY-EMH9.ARMY.MIL)
+                                        Commander:
+                                        Attn: STEDP-IM-S
+                                        Dugway Proving Ground
+                                        Dugway, UT 84022-5000
+                                        (801) 831-2054 789-2054
+
+   GATEWAY : 26.7.0.120 : DUGWAY-GW1.ARMY.MIL : CISCO : AGS-2 : EGP,IP/GW
+    :
+   
+   Configuration:      CISCO(AGS-2)
+
+EGLINT20.DDN.MIL           26.19.0.53   Bradley, Dale M.
+   SPONSOR:                             (BRADLEYD@EGLIN.AF.MIL)
+                                        96CCSG/SCTOO
+                                        201 West Eglin Boulevard, Suite  
+                                         258
+                                        Eglin AFB, FL 32542-6829
+                                        (904) 882-3189 872-3189
+
+   GATEWAY : 26.19.0.53 : EGLINT20.DDN.MIL :: UNIX : X.25,TCP/IP,EGP :
+   
+   Configuration:      (UNIX)
+
+EL-SEGUNDO-IP.DDN.MIL      26.31.0.65   Rodriguez, Rene
+   SPONSOR:                X.25         (rrodrigu@EMH.KUNSAN.AF.MIL)
+                                        80FS/DO
+                                        Unit 5000 Box 00
+                                        Attn: O4 Rodriguez
+                                        APO, AP 96264-5000
+                                        011-82-0654-470-5100 782-5100
+
+   GATEWAY : 26.31.0.65 : EL-SEGUNDO-IP.DDN.MIL : CISCO : CISCO : X.25,  
+    TCP/IP,EGP :
+   
+   Configuration:      CISCO(CISCO)
+
+ELSEGUNDOT20.DDN.MIL       26.29.0.65   Shamonsky, Victor P.
+   SPONSOR:                             (losangeles@SERVER.AF.MIL)
+                                        61CS/SCSNN
+                                        2420 BELA WAY
+                                        SUITE 1467
+                                        LOS ANGELES AFB, CA 90245-4659
+                                        (310) 363-6153 
+                                        (310) 363-1001 833-6153 
+                                        (310) 363-3613
+
+   GATEWAY : 26.29.0.65 : ELSEGUNDOT20.DDN.MIL :: UNIX : X.25,TCP/IP,EGP 
+    :
+   
+   Configuration:      (UNIX)
+
+EU-GW.DECA.MIL             26.4.0.15, 156.112.0.50 Wright, George E., PE
+   SPONSOR: AF                          (wrightg@PENTAGON-DACH.ARMY.MIL)
+                                        2700 Army Pentagon
+                                        Washington, DC 20310-2700
+                                        (703)695-1107 180 
+                                        (703)695-1007 118 225-1107 118 
+                                        (703)695-9834
+
+   GATEWAY : 26.4.0.15 : EU-GW.DECA.MIL : ATT-3B2 : UNIX : TCP/TELNET,   
+    TCP/FTP :
+   
+   Configuration:      ATT-3B2(UNIX)
+
+FLSCHRCH-GW1.ARMY.MIL      26.9.0.247, 26.8.0.50, 198.26.71.42 Hogue, Dav
+   SPONSOR: ARMY                        (hogued@FAIRFAX-EMH1.ARMY.MIL)
+                                        USAISSDC-W
+                                        ATTN: ASQB-IWI-N Stop H-11
+                                        6000 6th Street S122A
+                                        Fort Belvoir, VA 22060-5576
+                                        (703) 275-6900 235-6900 235-6900 
+                                         235-6399
+
+   GATEWAY : 26.9.0.247 : FLSCHRCH-GW1.ARMY.MIL : CISCO-AGS : UNIX :     
+    TCP/TELNET, TCP/FTP, TCP/SMTP :
+   
+   Configuration:      CISCO-AGS(UNIX)
+
+FTBENT20.DDN.MIL           26.16.0.232  Clark, Michael
+   SPONSOR:                             (CLARKM@INDPLS-ASAFM1.ARMY.MIL)
+                                        DFAS-FSAIN
+                                        ATTN: TB
+                                        Building 1, Room 140F
+                                        8899 E. 56th Street
+                                        Indianapolis, IN 46249-1801
+                                        (317) 543-7177 699-7177 
+                                        (DSN) 699-6699
+
+   GATEWAY : 26.16.0.232 : FTBENT20.DDN.MIL :: UNIX : X.25,TCP/IP,EGP :
+   
+   Configuration:      (UNIX)
+
+FTBNHRSN-GW1.ARMY.MIL      26.17.0.232, 192.240.136.42 Clark, Michael E.
+   SPONSOR: ARMY                        (MCLARK@CLEVELAND.DFAS.MIL)
+                                        DFAS-FSAIN
+                                        ATTN: DFAS-FSAIN/TB
+                                        Building 1, Col 141G
+                                        8899 E. 56th Street
+                                        Indianapolis, IN 46249-1801
+                                        (317) 543-7177 
+                                        (317) 543-7180 699-7177 699-6699
+
+   GATEWAY : 26.17.0.232 : FTBNHRSN-GW1.ARMY.MIL : CISCO-AGS : GS2-BRX : 
+    TCP/IP, X.25 :
+   
+   Configuration:      CISCO-AGS(GS2-BRX)
+
+FTCLAYTNPM-GW1.ARMY.MIL    26.15.0.96   Keepers, Jeanette M.
+   SPONSOR: ARMY           EGP,IP/GW    (jkeepers@EMH01.PANAMA.ARMY.MIL)
+                                        Commander, 106th Signal Brigade
+                                        Unit 7123
+                                        ATTN: ASQX-IML (Ms. Keepers)
+                                        APO, AA 34004-5000
+                                        (507) 855-8750 
+                                        (507) 855-8740 
+                                        (313) 285-5875 
+                                        (313) 285-6509
+
+   GATEWAY : 26.15.0.96 : FTCLAYTNPM-GW1.ARMY.MIL : CISCO : AGS-2 ::
+   
+   Configuration:      CISCO(AGS-2)
+
+FTCMPBLL-GW1.ARMY.MIL      26.17.0.162, 198.26.20.18, 147.238.13.2 Smith,
+   SPONSOR: ARMY                        (smitha@CAMPBELL-EMH3.ARMY.MIL)
+                                        AFZB-IM-O-AB
+                                        DOIM AUTOMATION DIV
+                                        Bldg 95 Ohio Ave
+                                        Ft Campbell, KY 42223
+                                        (502) 798-0144 
+                                        (502) 798-6015 635-0144 635-0601
+
+   GATEWAY : 26.17.0.162 : FTCMPBLL-GW1.ARMY.MIL : CISCO-AGS : AGS-2 :   
+    TCP/TELNET, TCP/FTP :
+   
+   Configuration:      CISCO-AGS(AGS-2)
+
+FTDETRCK-GW1.ARMY.MIL      26.4.0.54    orndorff III, George E., mr
+   SPONSOR:                             (geo@DETRICK-HSC.ARMY.MIL)
+                                        bldg 1422
+                                        ft detrick
+                                        frederick md
+                                        frederick, MD 21702
+                                        301-619-7736 343-7736 
+                                        (301)619-2962
+
+   GATEWAY : 26.4.0.54 : FTDETRCK-GW1.ARMY.MIL : CISCO-AGS : AGS :       
+    TCP/TELNET, TCP/FTP, TCP/SMTP :
+   
+   Configuration:      CISCO-AGS(AGS)
+
+FTDETRICKT20.DDN.MIL       26.30.0.54   Rulo, Thomas E.
+   SPONSOR:                             (No Mailbox Given)
+                                        ATTN: ASQNK-EO/TTC
+                                        Ft. Detrick
+                                        Frederick, MD 21702-5002
+                                        USA
+                                        (301) 619-2545/2776 343-2545/2776
+
+   GATEWAY : 26.30.0.54 : FTDETRICKT20.DDN.MIL :: UNIX : X.25,TCP/IP,EGP 
+    :
+   
+   Configuration:      (UNIX)
+
+FTDIX-GW1.ARMY.MIL         26.7.0.224   Hines, William, Jr.
+   SPONSOR: ARMY                        (NSC-Dix@DDN-CONUS.DDN.MIL)
+                                        Army Information Systems Command 
+                                         (DOIM)
+                                        AFZT-IMP-TB
+                                        Bldg 5321
+                                        P.O. Box 26
+                                        Ft Dix, NJ 08640-5750
+                                        (609) 562-5031 944-5031          
+                                         944/609-562-5031
+
+   GATEWAY : 26.7.0.224 : FTDIX-GW1.ARMY.MIL : CISCO-GATEWAY : AGS : EGP,
+    IP/GW :
+   
+   Configuration:      CISCO-GATEWAY(AGS)
+
+FTIRWIN-GW1.ARMY.MIL       26.14.0.226, 198.26.47.18 Goodman, James L.
+   SPONSOR: ARMY           X.25         (JGOODMAN@IRWIN-EMH1.ARMY.MIL)
+                                        DIRECTOR OF INFORMATION          
+                                         MANAGEMENT
+                                        ATTN: AFZJ-IMO-B
+                                        BLDG. 985
+                                        FT. IRWIN, CA 92310-5031
+                                        (619) 380-3263 
+                                        (619) 386-3267 470 3263 
+                                        (619) 380-5023/DSN 470-5023
+
+   GATEWAY : 26.14.0.226 : FTIRWIN-GW1.ARMY.MIL : CISCO-GATEWAY : AGS-2 :
+    IP :
+   
+   Configuration:      CISCO-GATEWAY(AGS-2)
+
+FTLEWIS-GW1.ARMY.MIL       26.31.0.159, 198.26.42.18, 150.192.1.1 Grear, 
+   SPONSOR: ARMY           EGP          (GREARD@LEWIS-EMH2.ARMY.MIL)
+                                        COMMANDER
+                                        1115TH SIG. BN.
+                                        ATTN: AFZH-IMR-P
+                                        FT LEWIS, WA 98433-5000
+                                        206-967-7711 
+                                        (206)967-5252 357-7711 
+                                        (206)967-5520
+
+   GATEWAY : 26.31.0.159 : FTLEWIS-GW1.ARMY.MIL : CISCO-GATEWAY : AGS-2 :
+    EGP, IP/GW :
+   
+   Configuration:      CISCO-GATEWAY(AGS-2)
+
+FTLEWIST20.DDN.MIL         26.19.0.159  Woodarski, Elizabeth A.
+   SPONSOR:                             (WOODARSL@LEWIS-EMH2.ARMY.MIL)
+                                        COMANDER
+                                        1115TH SIG.BN.
+                                        ATTN: AFZH-IMC
+                                        FT LEWIS, WA 98433-5000
+                                        (206)967-5090 
+                                        (206)967-3604 357-5090 
+                                        (206)967-5520
+
+   GATEWAY : 26.19.0.159 : FTLEWIST20.DDN.MIL :: UNIX : X.25,TCP/IP,EGP :
+   
+   Configuration:      (UNIX)
+
+FTMCPHERSONT20.DDN.MIL     26.29.0.37   Dunbar, James
+   SPONSOR:                             (No Mailbox Given)
+                                        Army Information Systems Command 
+                                         (USAISC)
+                                        Attn: ASQNA-MCP-PR, Bldg 51
+                                        FORT MCPHERSON, GA 30330-5000
+                                        404-752-3363 572-3363
+
+   GATEWAY : 26.29.0.37 : FTMCPHERSONT20.DDN.MIL :: UNIX : X.25,TCP/IP,  
+    EGP :
+   
+   Configuration:      (UNIX)
+
+FTMEADE-GW1.ARMY.MIL       26.5.0.246, 198.26.55.58 Heath, Charles T.
+   SPONSOR: ARMY                        (heatht@MEADE-AMS1.ARMY.MIL)
+                                        DOIM
+                                        INFORMATION CENTER BLDG 1978
+                                        ATTN:  ASQNA-MDE-IMIC
+                                        FORT MEADE, MD 20755-5365
+                                        301-677-1959 923-1959 923-1568
+
+   GATEWAY : 26.5.0.246 : FTMEADE-GW1.ARMY.MIL : AGS : AGS : TCP, IP,    
+    SMTP, TELNET, FTP :
+   
+   Configuration:      AGS(AGS)
+
+FTMONROE-GW1.ARMY.MIL      26.24.0.138, 192.111.52.1 Dean, Charles N.
+   SPONSOR: ARMY           EGP,IP/GW    (POSTMASTER@MONROE-EMH7.ARMY.MIL)
+                                        LAN Manager
+                                        Joint WarFighting Center
+                                        Building 100, Ingalls Road
+                                        Fort Monroe, VA 23651-5000
+                                        (804) 727-6500 680-6500 
+                                        (804) 727-4613
+
+   GATEWAY : 26.24.0.138 : FTMONROE-GW1.ARMY.MIL : CISCO-AGS : AGS ::
+   
+   Configuration:      CISCO-AGS(AGS)
+
+FTORD-GW1.ARMY.MIL         26.6.0.207   Spencer, Rod P.
+   SPONSOR: ARMY                        (Rod@FTORD-EMH1.ARMY.MIL)
+                                        7th Inf Div (L) and Fort Ord
+                                        DOIM
+                                        ATTN: AFZW-IM-LSD
+                                        Bldg 4250
+                                        Fort Ord, CA 93941
+                                        (408) 242-8610 
+                                        (408) 242-2933 929-8610 
+                                        (408) 394-0706
+
+   GATEWAY : 26.6.0.207 : FTORD-GW1.ARMY.MIL : CISCO-GATEWAY : AGS-2 :   
+    EGP,IP/GW :
+   
+   Configuration:      CISCO-GATEWAY(AGS-2)
+
+FTRILEY-GW1.ARMY.MIL       26.18.0.231, 192.91.137.17, 198.26.37.66 Westo
+   SPONSOR: ARMY                        (netadmin@RILEY-EMH1.ARMY.MIL)
+                                        DOIM
+                                        ATTN: Leanne Westover
+                                        215 Custer Ave
+                                        Ft Riley, KS 66442
+                                        (913) 239-0646 856-0646          
+                                         913-239-6660
+
+   GATEWAY : 26.18.0.231 : FTRILEY-GW1.ARMY.MIL : CISCO-GATEWAY : AGS-2 :
+    EGP, IP/GW :
+   
+   Configuration:      CISCO-GATEWAY(AGS-2)
+
+FTRUCKER-GW.ARMY.MIL       26.17.0.13, 198.26.30.34 Shirley, Tony
+   SPONSOR: ARMY                        (SHIRLEYT@RUCKER-EMH3.ARMY.MIL)
+                                        DOIM
+                                        ATZQ-DIM-NM
+                                        Bldg. 141 (Tony Shirley)
+                                        Ft. Rucker, AL 36362
+                                        334-255-2591 205-255-3707        
+                                         558-2591
+
+   GATEWAY : 26.17.0.13 : FTRUCKER-GW.ARMY.MIL : CISCO : AGS : TCP, IP :
+   
+   Configuration:      CISCO(AGS)
+
+FTSILL-GW1.ARMY.MIL        26.25.0.132, 198.26.37.50, 155.219.0.0, 192.13 
+   SPONSOR: ARMY                        (IMHAUSEB@SILL-EMH.ARMY.MIL)
+                                        Directorate Of Information       
+                                         Management
+                                        ATTN ATZR-UOS (Bret Imhauser)
+                                        CDRUSAFACFS
+                                        Building 462
+                                        Fort Sill, OK 73503-5100
+                                        (405) 442-6828 639-6828 639-4826
+
+   GATEWAY : 26.25.0.132 : FTSILL-GW1.ARMY.MIL : CISCO-GATEWAY : AGS-2 : 
+    EGP :
+   
+   Configuration:      CISCO-GATEWAY(AGS-2)
+
+FTSMHSTN-GW2.ARMY.MIL      26.19.0.147,139.232.1.1 Martinez, Cid
+   SPONSOR:                             (martinec@SAMHOU-BASOPS.ARMY.MIL)
+                                        USAG-DOIM
+                                        Bldg 4190
+                                        AFZG-IM-IN
+                                        Fort Sam Houston, TX 78234-5000
+                                        (210) 221-4223 471-4223 471-3182
+
+   GATEWAY : 26.19.0.147 : FTSMHSTN-GW2.ARMY.MIL : CISCO : AGS-2 : EGP,  
+    IP/GW :
+   
+   Configuration:      CISCO(AGS-2)
+
+GAMMA.NPS.NAVY.MIL         26.7.0.126, 131.120.254.55, 131.120.254.50 Nor
+   SPONSOR: NAVY                        (dfnorman@NPS.NAVY.MIL)
+                                        Director of Academic Computing
+                                        WR Church Computer Center
+                                        Naval Postgraduate School
+                                        Monterey, CA 93943
+                                        (408) 656-2641 878-2641 
+                                        (408) 656-2611
+
+   GATEWAY : 26.7.0.126 : GAMMA.NPS.NAVY.MIL,DELTA.NPS.NAVY.MIL : CISCO :
+    CISCO : EGP, RIP, IP :
+   
+   Configuration:      CISCO(CISCO)
+
+GIESSEN-GW1.ARMY.MIL       26.17.0.175, 139.139.2.1 Campos, Mark Sanford
+   SPONSOR:                             (aetvhuggi8@GIESSEN-EMH1.ARMY.MIL
+                                        261ST SIGNAL COMPANY
+                                        UNIT 20911 BOX 232
+                                        ATTN: GIESSEN DOIM
+                                        APO, AE 09169-1610
+                                        011-49-641-402-7234/7540         
+                                         001-49-641-402-6782/7541 
+                                        (DSN) 343-7234/7540 343-7551
+
+   GATEWAY : 26.17.0.175 : GIESSEN-GW1.ARMY.MIL : CISCO : AGS : EGP :
+   
+   Configuration:      CISCO(AGS)
+
+GITN-JITC-GW1.DISA.MIL     26.11.0.122  Garrett, David M.
+   SPONSOR:                X.25         (dgarrett@TECNET1.JCTE.JCS.MIL)
+                                        DEFENSE INFORMATION SYSTEMS      
+                                         AGENCY
+                                        JITC
+                                        Attn: TCB
+                                        Fort Huachuca, AZ 85613
+                                        602-538-5358 879-5358            
+                                         602-538-2380
+
+   GATEWAY : 26.11.0.122 : GITN-JITC-GW1.DISA.MIL ::::
+   
+   Configuration:      ()
+
+GRAFENWOEHR-GW1.ARMY.MIL   26.14.0.177  Schemela, Bernhard J.
+   SPONSOR:                             (falcon@EMAIL.GRAFENWOEHR.ARMY.MI
+                                        Camp Tunesia, Bldg 6144
+                                        7th ATC, Grafenwoehr
+                                        APO, AE 09114
+                                        49 9641837256 49 9641831440      
+                                         475-7256 475-8491
+
+   GATEWAY : 26.14.0.177 : GRAFENWOEHR-GW1.ARMY.MIL : CISCO : AGS :      
+    TCP/TELNET :
+   
+   Configuration:      CISCO(AGS)
+
+GREATLAKES-GW1.ARMY.MIL    26.28.0.38, 198.26.6.34 Prather, Lew
+   SPONSOR:                             (lew@MEPCOM-SMTP.ARMY.MIL)
+                                        HQ USMEPCOM/MIM-AD
+                                        2500 Green Bay Road
+                                        North Chicago, IL 60064-3094
+                                        708-688-4642 792-4642            
+                                         708-688-2828
+
+   GATEWAY : 26.28.0.38 : GREATLAKES-GW1.ARMY.MIL,GLAKES-GW1.ARMY.MIL :  
+    CISCO-GATEWAY : AGS : EGP, TCP/IP/SMTP :
+   
+   Configuration:      CISCO-GATEWAY(AGS)
+
+GREELY-GW1.ARMY.MIL        26.4.0.170   Straw, Robert
+   SPONSOR: ARMY                        (ASQPAGS@SF-EMH1.ARMY.MIL)
+                                        59TH SIGNAL BN
+                                        FORT GREELY, AK 96508
+                                        907-363-3216 317-384-3126
+
+   GATEWAY : 26.4.0.170 : GREELY-GW1.ARMY.MIL,FTGREELY-GW1.ARMY.MIL :    
+    CISCO-AGS : UNIX : EGP,IP/GW :
+   
+   Configuration:      CISCO-AGS(UNIX)
+
+GSI-GW1.DDN.MIL            26.25.0.201, 192.112.36.1, 192.112.37.1, 192.1 
+   SPONSOR: DOD                         (jorier@NIC.DDN.MIL)
+                                        Network Solutions, INC
+                                        14200 Park Meadow Dr., Suite 200
+                                        Chantilly, VA 22021
+                                        1-800-365-3642 
+                                        (703) 802-8376
+
+   GATEWAY : 26.25.0.201 : GSI-GW1.DDN.MIL : CISCO : CISCO ::
+   
+   Configuration:      CISCO(CISCO)
+
+GSI-GW2.DDN.MIL            26.4.0.202   Robert, Jorie
+   SPONSOR: DOD                         (jorier@NIC.DDN.MIL)
+                                        Network Solutions, INC
+                                        14200 Park Meadow Dr., Suite 200
+                                        Chantilly, VA 22021
+                                        1-800-365-3642 
+                                        (703) 802-8376
+
+   GATEWAY : 26.4.0.202 : GSI-GW2.DDN.MIL : CISCO-MGS : CISCO :          
+    TCP/TELNET,TCP/FTP,TCP/SMTP :
+   
+   Configuration:      CISCO-MGS(CISCO)
+
+GUNTER-IP.DDN.MIL          26.24.0.13   Wilson, Thomas C.
+   SPONSOR: AF                          (gunter@SERVER.AF.MIL)
+                                        502CS/SCSGU
+                                        Building 857, Room 202
+                                        Maxwell AFB, Gunter Annex, AL    
+                                         36114
+                                        (205) 416-5602 596-5602
+
+   GATEWAY : 26.24.0.13 : GUNTER-IP.DDN.MIL : CISCO-AGS : UNIX : TCP/IP, 
+    TCP/FTP,TCP/SMTP,TCP/TELNET :
+   
+   Configuration:      CISCO-AGS(UNIX)
+
+GW-DETRICK1.DISA.MIL       26.17.0.54, 160.126.100.1 King, John W.
+   SPONSOR:                X.25         (KINGJ@DETRICK.DISA.MIL)
+                                        Defense Information Systems      
+                                         Agency
+                                        Code: TEFF
+                                        Building 1671
+                                        Fort Detrick, MD 21702-5002
+                                        301-619-3594 301-619-2124        
+                                         343-3594 301-619-2932
+
+   GATEWAY : 26.17.0.54 : GW-DETRICK1.DISA.MIL : CISCO : CISCO : EGP, RIP
+    :
+   
+   Configuration:      CISCO(CISCO)
+
+GW.DESC.DLA.MIL            26.13.0.176, 131.80.1.50, 33.0.99.1 Schulte, D
+   SPONSOR: DLA            X.25         (dschulte@DESC.DLA.MIL)
+                                        Defense Electronics Supply Center
+                                        Attn: ZW, D. Schulte
+                                        Building 46
+                                        1507 Wilmington Pike
+                                        Dayton, OH 45444-5001
+                                        (513) 296-8514 312-986-8514
+
+   GATEWAY : 26.13.0.176 : GW.DESC.DLA.MIL : CISCO-AGS : UNIX : EGP,     
+    TCP/IP :
+   
+   Configuration:      CISCO-AGS(UNIX)
+
+GW.PACIFIC.DRMS.DLA.MIL    26.9.0.168,131.88.1.10 Kalawe, Juliana N., Mrs
+   SPONSOR: DLA            X.25         (jkalawe@PACIFIC.DLA.MIL)
+                                        Defense Logistics Agency
+                                        DPAC-ZC
+                                        Boc 64110
+                                        Camp H.M. Smith, HI 96861-4110
+                                        (808) 474-6878 
+                                        (315) 474-6878 
+                                        (808) 474-0492
+
+   GATEWAY : 26.9.0.168 : GW.PACIFIC.DRMS.DLA.MIL : CMC/DRN-3200 : UNIX :
+    EGP,TCP/IP :
+   
+   Configuration:      CMC/DRN-3200(UNIX)
+
+GW2.DAAS.DLA.MIL           26.5.0.176, 192.67.251.8 Metzner, Mark A.
+   SPONSOR: DOD            X.25         (mmetzner@DAAS.DLA.MIL)
+                                        DAASC
+                                        Gentile Station
+                                        1080 Franklin Street
+                                        Dayton, OH 45444-5320
+                                        (513) 296-5681 313 986-5681 313 
+                                        (513) 296-5758
+
+   GATEWAY : 26.5.0.176 : GW2.DAAS.DLA.MIL,DNCS1.DAAS.DLA.MIL : CISCO :  
+    CISCO : TCP/TELNET, TCP/FTP, TCP/SMTP, EGP :
+   
+   Configuration:      CISCO(CISCO)
+
+GW3.DAAS.DLA.MIL           26.12.0.232, 192.67.251.9 Metzner, Mark A.
+   SPONSOR: DOD            X.25         (mmetzner@DAAS.DLA.MIL)
+                                        DAASC
+                                        Gentile Station
+                                        1080 Franklin Street
+                                        Dayton, OH 45444-5320
+                                        (513) 296-5681 313 986-5681 313 
+                                        (513) 296-5758
+
+   GATEWAY : 26.12.0.232 : GW3.DAAS.DLA.MIL,DNCS2.DAAS.DLA.MIL : CISCO : 
+    CISCO : TCP/TELNET,TCP/FTP,TCP/SMTP,EGP :
+   
+   Configuration:      CISCO(CISCO)
+
+HARTFORD-GW.ARMY.MIL       26.15.0.92, 132.86.0.1 Vallombroso, Anthony M.
+   SPONSOR: ARMY                        (DOIMCT@CT-NGNET.ARMY.MIL)
+                                        Director of Information Managment
+                                         Connecticut
+                                        MCTCS-DOIM
+                                        National Guard Armory
+                                        360 Broad Street
+                                        Hartford, CT 06105-3795
+                                        (203) 524-4916 636-7916
+
+   GATEWAY : 26.15.0.92 : HARTFORD-GW.ARMY.MIL : CISCO-GATEWAY : AGS-2 : 
+    EGP,IP/GW :
+   
+   Configuration:      CISCO-GATEWAY(AGS-2)
+
+HCGL1-GW.NAVY.MIL          26.30.0.38, 138.149.1.1 Greunke, Steve C.
+   SPONSOR: NAVY           X.25         (STEVE.GREUNKE@NCTS.NAVY.MIL)
+                                        130 WEST AVE SUITE B
+                                        PENSACOLA, FL 32508
+                                        904-452-3501 5470 904-452-2601   
+                                         922-3501 904-452-4136
+
+   GATEWAY : 26.30.0.38 : HCGL1-GW.NAVY.MIL : CISCO :: TCP/TELNET,TCP/FTP
+    ,TCP/SMTP,EGP :
+   
+   Configuration:      CISCO()
+
+HCGUA1-GW.NAVY.MIL         26.31.0.250  WHITE, RMCS
+   SPONSOR: NAVY           X.25         (No Mailbox Given)
+                                        NAVCAMS WESTPAC Building B-112
+                                        Finegayan, Guam
+                                        APO San Francisco, CA 96630-1800
+
+   GATEWAY : 26.31.0.250 : HCGUA1-GW.NAVY.MIL : CISCO : UNIX : EGP,      
+    TCP/FTP,TCP/TELNET,TCP/SMTP,TCP/IP :
+   
+   Configuration:      CISCO(UNIX)
+
+HCJC1-GW.NAVY.MIL          26.18.0.110, 138.137.1.1 Greunke, Steve C.
+   SPONSOR:                             (STEVE.GREUNKE@NCTS.NAVY.MIL)
+                                        130 WEST AVE SUITE B
+                                        PENSACOLA, FL 32508
+                                        904-452-3501 5470 904-452-2601   
+                                         922-3501 904-452-4136
+
+   GATEWAY : 26.18.0.110 : HCJC1-GW.NAVY.MIL : CISCO-GATEWAY : AGS : EGP,
+    TCP/IP,TELNET :
+   
+   Configuration:      CISCO-GATEWAY(AGS)
+
+HCMEC1-GW.NAVY.MIL         26.29.0.152, 138.155.0.0 Greunke, Steve C.
+   SPONSOR:                             (STEVE.GREUNKE@NCTS.NAVY.MIL)
+                                        130 WEST AVE SUITE B
+                                        PENSACOLA, FL 32508
+                                        904-452-3501 5470 904-452-2601   
+                                         922-3501 904-452-4136
+
+   GATEWAY : 26.29.0.152 : HCMEC1-GW.NAVY.MIL : CISCO-GATEWAY :: TCP/IP, 
+    TELNET :
+   
+   Configuration:      CISCO-GATEWAY()
+
+HCNEW1-GW.NAVY.MIL         26.6.0.92, 139.77.16.1 Greunke, Steve C.
+   SPONSOR: NAVY                        (STEVE.GREUNKE@NCTS.NAVY.MIL)
+                                        130 WEST AVE SUITE B
+                                        PENSACOLA, FL 32508
+                                        904-452-3501 5470 904-452-2601   
+                                         922-3501 904-452-4136
+
+   GATEWAY : 26.6.0.92 : HCNEW1-GW.NAVY.MIL : CISCO-GATEWAY :: TCP/IP,   
+    TELNET,EGP :
+   
+   Configuration:      CISCO-GATEWAY()
+
+HCNOR1-GW.NAVY.MIL         26.6.0.108, 138.143.16.1 Greunke, Steve C.
+   SPONSOR: NAVY           X.25         (STEVE.GREUNKE@NCTS.NAVY.MIL)
+                                        130 WEST AVE SUITE B
+                                        PENSACOLA, FL 32508
+                                        904-452-3501 5470 904-452-2601   
+                                         922-3501 904-452-4136
+
+   GATEWAY : 26.6.0.108 : HCNOR1-GW.NAVY.MIL : CISCO-GATEWAY : CISCO :   
+    EGP,TCP/IP,TELNET :
+   
+   Configuration:      CISCO-GATEWAY(CISCO)
+
+HCSF1-GW.NAVY.MIL          26.6.0.121, 138.141.1.1 Greunke, Steve C.
+   SPONSOR:                             (STEVE.GREUNKE@NCTS.NAVY.MIL)
+                                        130 WEST AVE SUITE B
+                                        PENSACOLA, FL 32508
+                                        904-452-3501 5470 904-452-2601   
+                                         922-3501 904-452-4136
+
+   GATEWAY : 26.6.0.121 : HCSF1-GW.NAVY.MIL : CISCO-GATEWAY : CISCO : EGP
+    ,TCP/IP,TELNET :
+   
+   Configuration:      CISCO-GATEWAY(CISCO)
+
+HCYOK1-GW.NAVY.MIL         26.26.0.178, 138.153.0.0 Greunke, Steve C.
+   SPONSOR: NAVY           X.25         (STEVE.GREUNKE@NCTS.NAVY.MIL)
+                                        130 WEST AVE SUITE B
+                                        PENSACOLA, FL 32508
+                                        904-452-3501 5470 904-452-2601   
+                                         922-3501 904-452-4136
+
+   GATEWAY : 26.26.0.178 : HCYOK1-GW.NAVY.MIL,YOKOSUKA-GW1.NAVY.MIL :    
+    CISCO-AGS : UNIX : EGP,TCP/IP,TCP/TELNET,TCP/FTP,TCP/SMTP :
+   
+   Configuration:      CISCO-AGS(UNIX)
+
+HEIDELBERG-GW1.ARMY.MIL    26.5.0.4, 136.214.10.1, 144.170.12.2 Pitts, Wy
+   SPONSOR: ARMY           X.25         (pitts@HEIDELBERG-EMH2.ARMY.MIL)
+                                        HQ, USAREUR
+                                        CMR 420, Box 1544
+                                        APO, AE 09063
+                                        (ETS) 370-8085/7801
+
+   GATEWAY : 26.5.0.4 : HEIDELBERG-GW1.ARMY.MIL : CISCO-AGS : UNIX : EGP,
+    TCP/IP, GW :
+   
+   Configuration:      CISCO-AGS(UNIX)
+
+HERNGATE.MED.OSD.MIL       26.8.0.107, 161.14.252.1 Patton, Robert M.
+   SPONSOR:                             (rpatton@DSSDEV2.MED.OSD.MIL)
+                                        Electronic Data Systems
+                                        Mail Stop A4S-D12
+                                        13600 EDS Drive
+                                        Herndon, VA 22071
+                                        (703) 742-1443 
+                                        (703) 733-3200 
+                                        (703) 742-2749
+
+   GATEWAY : 26.8.0.107 : HERNGATE.MED.OSD.MIL : CISCO : AGS : TCP/IP :
+   
+   Configuration:      CISCO(AGS)
+
+HICKAM-GW.AF.MIL           26.16.0.168, 131.38.15.0 Cook, Dave J.
+   SPONSOR: AF             X-25         (15NSC@EMH.HICKAM.AF.MIL)
+                                        15th ABW
+                                        HICKAM AFB, HI 96853
+                                        1-808-449-3999 
+                                        (808) 449-1200 315-449-3999      
+                                         315-449-2630
+
+   GATEWAY : 26.16.0.168 : HICKAM-GW.AF.MIL : CISCO :: TCP/IP, TCP/FTP,  
+    TCP/SMTP, TCP/TELNET :
+   
+   Configuration:      CISCO()
+
+HOFFMAN-MIL-80X-GW.ARMY.MIL 26.30.0.107, 26.16.0.50, 143.134.0.1 Wilkins,
+   SPONSOR: ARMY           X.25         (wilkinss@HOFFMAN-EMH1.ARMY.MIL)
+                                        ISC-Hoffman (PERSINSCOM)
+                                        ASQL-ISN-N
+                                        200 Stovall Street
+                                        Bldg II, Room 1N33
+                                        Alexandria, VA 22332-1582
+                                        (703) 325-0947 
+                                        (703) 325-0303 221-0947 
+                                        (703) 325-2316
+
+   GATEWAY : 26.30.0.107 : HOFFMAN-MIL-80X-GW.ARMY.MIL,HOFFMAN-          
+    GW.ARMY.MIL : CISCO : AGS : TCP/IP, TCP/FTP, TCP/SMTP, TCP/TELNET,   
+    EGP/GW :
+   
+   Configuration:      CISCO(AGS)
+
+HOLBRD-GW1.ARMY.MIL        26.13.0.224  Blasco, David G., Mr.
+   SPONSOR: ARMY           X.25         (DGB@FALLSCHURCH-ACIRS2.ARMY.MIL)
+                                        HQ, USACIDC
+                                        ACIRS III SUPPORT CENTER
+                                        ROOM 508B
+                                        5611 COLUMBIA PIKE
+                                        FALLS CHURCH, VA 22041-5015
+                                        (703) 756-0685 
+                                        (800) 325-9625 289-0685 
+                                        (703) 756-1345
+
+   GATEWAY : 26.13.0.224 : HOLBRD-GW1.ARMY.MIL : CISCO-AGS : CSC2 : EGP, 
+    IP/GW,TCP/TELNET :
+   
+   Configuration:      CISCO-AGS(CSC2)
+
+HOWARD-GW.AF.MIL           26.9.0.96,132.59.15.0 Tate, Darrell
+   SPONSOR: AF             X.25         (howard@SERVER.AF.MIL)
+                                        24CS/SCSSC
+                                        Building 714, Room 107
+                                        Howard AFB
+                                        Panama
+                                        APO, AA 34001
+                                        011-507-84--6551 313-84-6551
+
+   GATEWAY : 26.9.0.96 : HOWARD-GW.AF.MIL : CISCO-MGS : UNIX : TCP/IP,   
+    TCP/FTP,TCP/TELNET,TCP/SMTP :
+   
+   Configuration:      CISCO-MGS(UNIX)
+
+HRC-IRIS.AF.MIL            26.12.0.13, 129.141.11.1 Dean, Tom
+   SPONSOR: AF             X.25         (histom@HRC-IRIS.AF.MIL)
+                                        AFHRC/ISC
+                                        600 Chennault Cirle
+                                        Maxwell Air Force Base, AL       
+                                         36112-6424
+                                        (205) 953-6884 493-6884 
+                                        (205) 953-7428
+
+   GATEWAY : 26.12.0.13 : HRC-IRIS.AF.MIL : IBM-4341 : VM : TCP/TELNET,  
+    TCP/FTP, TCP/SMTP :
+   
+   Configuration:      IBM-4341(VM)
+
+HUACHUCA-GW.ARMY.MIL       26.9.0.122   Beech, William A.
+   SPONSOR: ARMY           X.25         (bbeech@HUACHUCA-EMH8.ARMY.MIL)
+                                        U.S. Army Technology Integration 
+                                         Center
+                                        Commander
+                                        USAISEC
+                                        ATTN:  ASQB-OTI
+                                        Ft. Huachuca, AZ 85613-5300
+                                        (520) 533-2872 821-2872 
+                                        (520) 533-5676
+
+   GATEWAY : 26.9.0.122 : HUACHUCA-GW.ARMY.MIL : CISCO-68000 : CISCO :   
+    TCP/TELNET, TCP/SMTP, TCP/FTP :
+   
+   Configuration:      CISCO-68000(CISCO)
+
+HUACHUCA-GW2.ARMY.MIL      26.29.0.122, 198.26.80.18, 138.27.100.1 Jones,
+   SPONSOR: ARMY                        (jrjones@HUACHUCA-EMH2.ARMY.MIL)
+                                        Commander
+                                        US Army Intelligence Ctr & Fort  
+                                         Huachuca
+                                        ATTN: ATZS-IMI-S
+                                        Fort Huachuca, AZ 85613-6000
+                                        (520) 538-8427 879-8427 
+                                        (520)538-8429
+
+   GATEWAY : 26.29.0.122 : HUACHUCA-GW2.ARMY.MIL : CISCO-AGS : UNIX :    
+    IP/GW, EGP :
+   
+   Configuration:      CISCO-AGS(UNIX)
+
+HUACHUCA-GW3.ARMY.MIL      26.5.0.111, 198.26.80.19 Jones, Julia Reiber
+   SPONSOR: ARMY                        (jrjones@HUACHUCA-EMH2.ARMY.MIL)
+                                        Commander
+                                        US Army Intelligence Ctr & Fort  
+                                         Huachuca
+                                        ATTN: ATZS-IMI-S
+                                        Fort Huachuca, AZ 85613-6000
+                                        (520) 538-8427 879-8427 
+                                        (520)538-8429
+
+   GATEWAY : 26.5.0.111 : HUACHUCA-GW3.ARMY.MIL : CISCO-AGS : UNIX :     
+    IP/GW, EGP, X.25 :
+   
+   Configuration:      CISCO-AGS(UNIX)
+
+HUACHUCA-GW4.ARMY.MIL      26.24.0.122, 147.227.0.0 Thompson, Gregory M.
+   SPONSOR: ARMY                        (thompsong@HUACHUCA-EMH1.ARMY.MIL
+                                        Director
+                                        Software Development Center -    
+                                         Huachuca
+                                        ATTN: ASQB-IHS
+                                        Fort Huachuca, AZ 85613-8450
+                                        (602) 538-6968 879-6968 337-5213
+
+   GATEWAY : 26.24.0.122 : HUACHUCA-GW4.ARMY.MIL : CISCO-AGS-2 : UNIX :  
+    TCP/IP,TCP/GW,TCP/EGP :
+   
+   Configuration:      CISCO-AGS-2(UNIX)
+
+HUACHUCA-IP.DDN.MIL        26.25.0.122, 137.209.7.2, 137.209.54.2 Fredenb
+   SPONSOR: DCA                         (cfredenburg@DSAC.DLA.MIL)
+                                        Defense Logistics Agency
+                                        Systems Automation Center
+                                        P. O. Box 1605
+                                        Columbus, OH 43516-5002
+                                        (614)692-8175 850-8175 
+                                        (614)692-9731
+
+   GATEWAY : 26.25.0.122 : HUACHUCA-IP.DDN.MIL : CISCO-AGS-2 : UNIX :    
+    TCP/IP, FTP, TELNET, SMTP :
+   
+   Configuration:      CISCO-AGS-2(UNIX)
+
+IDSS.IDA.ORG               26.17.0.247, 192.231.39.1 Wong, Victor
+   SPONSOR: DCA            X.25         (VWONG@SAN.IDSS.IDA.ORG)
+                                        Institute for Defense Analyses
+                                        1801 North Beauregard Street
+                                        Alexandria, VA 22311
+                                        (703) 845-6855
+
+   GATEWAY : 26.17.0.247 : IDSS.IDA.ORG,MILNET-GW.IDA.ORG : CISCO : UNIX 
+    : IP/GW, EGP :
+   
+   Configuration:      CISCO(UNIX)
+
+IMS-GW.DISA.MIL            26.27.0.247, 137.130.37.10, 164.117.240.6, 149 
+   SPONSOR: DCA                         (partlowa@CC.IMS.DISA.MIL)
+                                        DISA/WESTHEM/DISC/WEZ43
+                                        Room BF655A, The Pentagon
+                                        WASHINGTON, DC 20301
+                                        (703) 697-6536 
+                                        (703) 695-0250 225-0250 
+                                        (703) 697-3352
+
+   GATEWAY : 26.27.0.247 : IMS-GW.DISA.MIL,PNT-GW.DISA.MIL : CISCO-      
+    GATEWAY : AGS : EGP, IP :
+   
+   Configuration:      CISCO-GATEWAY(AGS)
+
+INCIRLIK-GW.AF.MIL         26.17.0.192,132.27.15.0 Latulip, Dennis
+   SPONSOR: AF             X.25         (2006nsc@ANKARA.AF.MIL)
+                                        2006 CS/LGU
+                                        APO New York, NY 09289-6345
+                                        011-90-71-221774 
+                                        (DSN) 676-6640/6082 EXT 6082
+
+   GATEWAY : 26.17.0.192 : INCIRLIK-GW.AF.MIL : CISCO : UNIX : TCP/IP,   
+    TCP/FTP,TCP/SMTP,TCP/TELNET :
+   
+   Configuration:      CISCO(UNIX)
+
+INDAP-GW1.ARMY.MIL         26.11.0.149  Miller, Frank E.
+   SPONSOR:                             (Millerf@INDGAP-EMH1.ARMY.MIL)
+                                        DOIM-FIG
+                                        FT Indiantown GAP
+                                        ANNVILLE, PA 17003-5011
+                                        (717) 861-2074   DSN             
+                                         491-2074/2075 
+                                        (717) 861-2075 491-2074/2075 
+                                        (717) 861-2618
+
+   GATEWAY : 26.11.0.149 : INDAP-GW1.ARMY.MIL : CISCO : UNIX : X.25,     
+    TCP/IP,TELNET,FTP,SMTP :
+   
+   Configuration:      CISCO(UNIX)
+
+IPR-CPO-GW.DISA.MIL        26.31.0.91   Mason, Jeffrey A.
+   SPONSOR: DOD                         (adp@CPO-LINK.EUCOM.MIL)
+                                        NTCC CAPODICHINO NAPLES ITALY
+                                        PSC 817 BOX 25
+                                        FPO, AE 09622-7000
+                                        39-81-568-5258/5380              
+                                         39-81-724-4608/3354 625-5358
+
+   GATEWAY : 26.31.0.91 : IPR-CPO-GW.DISA.MIL,DISNMC2.DISA.MIL ::::
+   
+   Configuration:      ()
+
+IPR-LDL-GW.DISA.MIL        26.31.0.14, 140.35.2.50 Forbes, Eric
+   SPONSOR: DISA                        (NSC-LDL@DDN-EUR.DDN.MIL)
+                                        FSIC OPMAS-E DCS SITE
+                                        LANDSTUHL
+                                        GE
+                                        APO, AE 09180
+                                        06371-86-3782 314-486-8295
+
+   GATEWAY : 26.31.0.14 : IPR-LDL-GW.DISA.MIL : CISCO : UNIX : EGP, IP :
+   
+   Configuration:      CISCO(UNIX)
+
+JITC.DISA.MIL              26.8.0.122   Voigt, Victor H.
+   SPONSOR: DCA            X.25         (c3a-tccca@HUACHUCA-EMH2.ARMY.MIL
+                                        Commander
+                                        Joint Interoperability Test      
+                                         Center, JTC3A
+                                        ATTN: C3A-TCCCA
+                                        Fort Huachuca, AZ  85613-7020
+                                        Fort Huachuca, AZ 85613-7020
+                                        (602) 538-5265 879-5265
+
+   GATEWAY : 26.8.0.122 : JITC.DISA.MIL : CISCO-GATEWAY : GS : TCP/TELNET
+    ,TCP/FTP,TCP/SMTP :
+   
+   Configuration:      CISCO-GATEWAY(GS)
+
+JOHNSVILLET20.DDN.MIL      26.18.0.24   Boyer, Ronald M.
+   SPONSOR:                             (BOYERRM%WAR2@MR.NADC.NAVY.MIL)
+                                        Naval Air Warfare Center (Code   
+                                         7.2.1)
+                                        Aircraft Division - Warminster
+                                        P.O. Box 5152
+                                        Warminster, PA 18974-0591
+                                        (215) 441 - 3817 441 - 3817 
+                                        (215) 956-4019
+
+   GATEWAY : 26.18.0.24 : JOHNSVILLET20.DDN.MIL :: UNIX : X.25,TCP/IP,EGP
+    :
+   
+   Configuration:      (UNIX)
+
+KAISERSL.DSRE.DLA.MIL      26.9.0.191   Von Wallis, Wiltrud
+   SPONSOR: ARMY           X.25         (HDSRE-KI@KAISERSLAU-EMH1.ARMY.MI
+                                        DSSF-K
+                                        PSC 2
+                                        APO, AE 09012-5000
+                                        0631-411-6450 / 0631-52564       
+                                         489-6450
+
+   GATEWAY : 26.9.0.191 : KAISERSL.DSRE.DLA.MIL ::::
+   
+   Configuration:      ()
+
+KELLY1-GW.AF.MIL           26.26.0.139,131.13.15.0 Villegas, Edwardo E.
+   SPONSOR: AF             X.25         (evillega@SADIS02.KELLY.AF.MIL)
+                                        DISO/UFKCH (NCDC)
+                                        450 DUNCAN DRIVE
+                                        BUILDING 200, ROOM 111
+                                        Kelly Air Force Base, TX         
+                                         78241-5940
+                                        (210) 925-9288 
+                                        (210) 925-9289/9290              
+                                         945-9288/9289/9290 
+                                        (210) 925-5530 DSN 945-5530
+
+   GATEWAY : 26.26.0.139 : KELLY1-GW.AF.MIL,KELLY-GW.AF.MIL : CISCO-MGS  
+    :: TCP/IP,TCP/FTP,TCP/SMTP,TCP/TELNET :
+   
+   Configuration:      CISCO-MGS()
+
+KUNSAN-GW.AF.MIL           26.19.0.117, 132.16.15.0 Hansen, James M.
+   SPONSOR: AF             X.25         (jhansen@KUNSAN-EMH.AF.MIL)
+                                        8CS/SCMFA
+                                        Unit 2103 Box 00
+                                        Attn: E5 Hansen
+                                        APO, AP 96264-2103
+                                        011-82-0654-470-5098 782-5098
+
+   GATEWAY : 26.19.0.117 : KUNSAN-GW.AF.MIL ::::
+   
+   Configuration:      ()
+
+KURE-GW1.ARMY.MIL          26.10.0.117  Vandenburg, Stephen L.
+   SPONSOR: ARMY           X.25         (postmaster@ZAMA-EMH1.ARMY.MIL)
+                                        78th Signal Bn
+                                        Unit 45012
+                                        ATTN: ASQP-NHI-D
+                                        APO, AP 96343-0060
+                                        81-3117-63-5566                  
+                                         011-81-3117-63-3876 263-5566    
+                                         263-9012
+
+   GATEWAY : 26.10.0.117 : KURE-GW1.ARMY.MIL : CISCO : UNIX : EGP,IP/GW :
+   
+   Configuration:      CISCO(UNIX)
+
+KUWAIT-GW1.ARMY.MIL        26.9.0.54, 143.81.1.1 Munoz, Joe D.
+   SPONSOR: ARMY           X.25         (joe572@EMH1.KUWAIT.ARMY.MIL)
+                                        ITT FSIC
+                                        Unit 69905
+                                        Attn: E-Mail Section
+                                        Bldg 22 Bay 183
+                                        APO, AE 09889-9905
+                                        011-965-487-8822 5057            
+                                         318-791-5057 318-791-5274
+
+   GATEWAY : 26.9.0.54 : KUWAIT-GW1.ARMY.MIL : CISCO-AGS : UNIX :        
+    TCP/TELNET, TCP/FTP, TCP/IP, TCP/SMTP :
+   
+   Configuration:      CISCO-AGS(UNIX)
+
+LAKEHURST1-GW.NAVY.MIL     26.18.0.60   VanHise, Girard
+   SPONSOR:                             (jvh@LAKEHURST1.NAVY.MIL)
+                                        Building 120
+                                        Lakehurst, NJ 08733
+                                        908-323-7291 624-7291
+
+   GATEWAY : 26.18.0.60 : LAKEHURST1-GW.NAVY.MIL : CISCO-AGS : CISCO :   
+    X.25,TCP/IP,TELNET,FTP,SMTP :
+   
+   Configuration:      CISCO-AGS(CISCO)
+
+LANDSTHLT20.DDN.MIL        26.17.0.14   Crawford, Lucin F.
+   SPONSOR:                             (nsc-ldl@DDN-EUR.DDN.MIL)
+                                        Box 1481
+                                        APO, AE 09180
+                                        486-8295
+
+   GATEWAY : 26.17.0.14 : LANDSTHLT20.DDN.MIL :: UNIX : X.25,TCP/IP,EGP :
+   
+   Configuration:      (UNIX)
+
+LEAV-GW.ARMY.MIL           26.17.0.125, 138.45.222.1, 138.45.1.11, 138.45 
+   SPONSOR: ARMY           X.25         (GORMAN@CACFS.ARMY.MIL)
+                                        SRI International
+                                        ATTN: SRI/BRYAN GORMAN
+                                        Building 45
+                                        Kearney Avenue
+                                        Fort Leavenworth, KS 66027-5700
+                                        (913) 682-9101 552-8323 
+                                        (913) 682-9119
+
+   GATEWAY : 26.17.0.125 : LEAV-GW.ARMY.MIL : CISCO-AGS : AGS : IP/GW,   
+    EGP :
+   
+   Configuration:      CISCO-AGS(AGS)
+
+LEAVENWORTHT20.DDN.MIL     26.18.0.125  Murphy, Cindy R.
+   SPONSOR:                             (MURPHYC@LEAV-EMH.ARMY.MIL)
+                                        CDRUSACAC ATTN ATZL IMI C
+                                        645 BIDDLE BLVD BLDG 136
+                                        FT LEAVENWORTH, KS 66027-2309
+                                        (913) 684-4001 
+                                        (913) 684-4359 552-4359 
+                                        (913) 684-7671
+
+   GATEWAY : 26.18.0.125 : LEAVENWORTHT20.DDN.MIL ::: X.25,TCP/IP,EGP :
+   
+   Configuration:      ()
+
+LERT-GW.NAVY.MIL           26.8.0.10    Alongi, James
+   SPONSOR: NAVY           X.25         (alongi@LERT.NAVY.MIL)
+                                        Naval European Meteorlogy and
+                                        Oceanography Command Center
+                                        PSC 819 BOX 31
+                                        FPO, AE 09645
+                                        011-34-56-823994 727-3995        
+                                         011-34-56-822963
+
+   GATEWAY : 26.8.0.10 : LERT-GW.NAVY.MIL : CISCO : UNIX : EGP, IP :
+   
+   Configuration:      CISCO(UNIX)
+
+LEWIS-IP.DDN.MIL           26.29.0.159, 137.209.10.1, 33.42.200.2 Fredenb
+   SPONSOR: DCA                         (cfredenburg@DSAC.DLA.MIL)
+                                        Defense Logistics Agency
+                                        Systems Automation Center
+                                        P. O. Box 1605
+                                        Columbus, OH 43516-5002
+                                        (614)692-8175 850-8175 
+                                        (614)692-9731
+
+   GATEWAY : 26.29.0.159 : LEWIS-IP.DDN.MIL : CISCO-AGS-2 :: EGP,IP/GW :
+   
+   Configuration:      CISCO-AGS-2()
+
+LIVORNO-GW1.ARMY.MIL       26.4.0.156,136.219.1.1 Peters, Kris
+   SPONSOR: ARMY           X.25         (No Mailbox Given)
+                                        59TH SIGCO
+                                        Camp Darby
+                                        Livorno
+                                        APO New York, NY 09019
+                                        0039 050 54 7242, 314 633 7242
+
+   GATEWAY : 26.4.0.156 : LIVORNO-GW1.ARMY.MIL : CISCO-AGS-2 : UNIX ::
+   
+   Configuration:      CISCO-AGS-2(UNIX)
+
+LORING-GW.AF.MIL           26.18.0.92, 132.31.15.0 Dayringer, Timothy L.
+   SPONSOR: AF                          (dayrint@ACCHOST.ACC.AF.MIL)
+                                        42 Communications SQ/SCX
+                                        5001 Massachusetts PL
+                                        Loring AFB, ME 04751-6346
+                                        (207) 999-2144 920-2144
+
+   GATEWAY : 26.18.0.92 : LORING-GW.AF.MIL : CISCO-AGS : UNIX : TCP/IP,  
+    TCP/FTP,TCP/TELNET,TCP/SMTP :
+   
+   Configuration:      CISCO-AGS(UNIX)
+
+LTTRKNNY-GW2.ARMY.MIL      26.18.0.152  Vagnerini, Beverly S.
+   SPONSOR: ARMY                        (bvagneri@LETTERKENN-EMH1.ARMY.MI
+                                        LETTERKENNY ARMY DEPOT
+                                        SDSLE-DOE
+                                        CHAMBERSBURG, PA 17201
+                                        (717)267-9056 570-9056
+
+   GATEWAY : 26.18.0.152 : LTTRKNNY-GW2.ARMY.MIL : CISCO : AGS-2 : EGP,  
+    IP/GW :
+   
+   Configuration:      CISCO(AGS-2)
+

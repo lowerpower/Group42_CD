@@ -1,0 +1,301 @@
+Archive-name: drugs/alt-drugs-FAQ
+Posting-Frequency: weekly
+Last-modified: 29 Jun 1995
+Version: 3.2
+
+   *** The New QuickFAQ[tm] - Asking any of these will get you shot ***
+
+Question:                                  Answer:
+
+Where can I get the drug FAQs?             FTP/Gopher/WWW to hyperreal.com.
+Can you mail me a FAQ...                   No.  See end of part A.
+Is there strychnine in LSD (acid)?         No.  See part C question 1.
+Gimme a recipe for LSD/XTC/speed...        No.  See part C question 4.
+Can piss tests detect LSD/shrooms?         No.  See part C question 12.
+Will banana skins get me high?             No.  See part C question 15.
+What should I do before a piss test?       Drink lots of water.
+
+                   ALT.DRUGS FREQUENTLY ASKED QUESTIONS
+                        (The New Miscellaneous FAQ)
+                Maintained by:    gnosis@brahman.nullnet.fi
+                Special kudos to: lamont@hyperreal.com
+
+Note: This is *not* an attempt at a comprehensive FAQ on all aspects of
+all drugs, that's what the individual drug FAQs are for.  Instead, this is a
+guide on how to behave in alt.drugs, how to use net resources and an answer
+to some *really* frequently asked questions.  Part A covers general stuff
+regarding alt.drugs and net, part B lists the FAQs, and part C gives slightly
+more detailed answers to the questions above and more.
+
+A) The alt.drugs hierarchy
+
+   alt.drugs has now been replaced by the rec.drugs.* hierarchy, it is
+strongly recommended that you start reading it instead.  The alt groups
+are scheduled for removal in several months.  This FAQ itself is no
+longer actively maintained, only its counterpart the rec.drugs FAQ is.
+But - since you are reading this - here's the old introduction, which
+applies equally well to rec.drugs.*
+   
+   alt.drugs is a forum where people interested in the use of mind-altering
+substances, not necessarily even illegal ones, get together to share
+information and swap stories.  If you are against drug use and post about
+it, be prepared to have lots of references and solid info on hand, since
+otherwise you WILL be flamed.  Also, don't even THINK about trying to buy
+drugs on alt.drugs...  you won't get any, period.
+
+   alt.drugs is subdivided into a number of groups.  In addition to alt.drugs,
+which covers everything without its own group, there are the following:
+
+alt.drugs.caffeine       Coffee, tea, and more exotic caffeine sources.
+alt.drugs.chemistry      Manufacture, extraction, etc.
+alt.drugs.culture        Trip accounts, music, etiquette, etc.
+alt.drugs.hard           Hard drugs such as heroin, cocaine, etc.
+alt.drugs.pot            All forms of cannabis and everything related to it.
+alt.drugs.psychedelics   LSD, DMT, mushrooms, etc.
+alt.drugs.usenet         The most addictive drug of all!  A joke group.
+
+    And their new replacements:
+
+rec.drugs.cannabis       Thee drug cannabis (aka marijuana or pot).
+rec.drugs.psychedelic    LSD, Ecstasy, magic mushrooms and the like.
+rec.drugs.misc           Stimulants, sedatives, smart drugs et al.  
+
+    alt.drugs, created in 1986, is the 2nd oldest group in alt.  However,
+most subgroups were created in 1994 and are thus not yet received by many
+sites.  If your site does not receive them, ask your sysadmin to add them.
+alt.drugs.pot.cultivation is *not* a legitimate group and it should not be
+used.  Here are some more interesting groups not found under alt.drugs:
+
+alt.drunken.bastards     Abusers of the drug ethanol.
+alt.hemp                 Various uses of the plant, focus on industrial use.
+alt.psychoactives        Primarily nootropics, ie. "smart drugs".
+alt.smokers              Nicotine addicts' discussion group.
+rec.food.drink.beer      Beer discussion.
+rec.food.drink.coffee    Coffee, with and without caffeine.
+sci.life-extension       Additional "smart drug" discussion.
+sci.med.pharmacy         Technical discussion about pharmaceutical drugs.
+sci.med.psychobiology    Technical discussion about legal psychoactives.
+talk.politics.drugs      The politics of drugs.
+
+   Rumors abound about the Feds/the cops/the DEA monitoring alt.drugs,
+but evidently nobody has been busted/investigated *solely* because of
+posting.  But if you're going to admit to something illegal, it's a good
+idea to post it via an anonymous server.  Just mail your message to
+alt.drugs@anon.penet.fi, and the rest is magic.  For more details,
+mail help@anon.penet.fi.
+
+   Here are some acronyms in common use on alt.drugs.*:
+
+   5-HT      5-hydroxytryptamine aka serotonin (a chemical found in the
+             brain; many drugs affect serotonin levels)
+   DMT       N,N-dimethyltryptamine (an extremely powerful hallucinogen)
+   DXM       Dextromethorphan (a hallucinogen found in some cough syrups)
+   FOAF      Friend of a Friend
+   LSD       Lysergic acid diethylamide (a popular hallucinogen)
+   WoD       War on Drugs
+   WoSD      War on Some Drugs (ie. alcohol, nicotine, caffeine excluded)
+   YMMV      Your Mileage May Vary (ie. individual reactions are different)
+
+B) Other FAQs (WHICH I WILL *NOT* MAIL TO YOU)
+
+   The following FAQs are posted regularly:
+
+   Weekly:   alt.drugs FAQ, Drug-Related Network Resources FAQ
+   Biweekly: Addresses FAQ, FTP Instructions FAQ, Natural Highs FAQ
+   Monthly:  Anti War-on-Drugs Activists' List, The Drug Price Report
+
+   There are a whole bunch of FAQs for individual drugs and drug classes,
+which are posted highly irregularly.  All of the above as well as all of
+the following can be found at hyperreal.com in the directory /drugs/faqs
+thru FTP/Gopher/WWW.  If you can't connect, the problem is at your end,
+not hyperreal's.
+
+   Absinthe, Bibliography, Bong-Pipe, Caffeine, Cannabis Hemp (alt.hemp),
+   Codeine, Dextromethorphan, Ecstasy, Eating Marijuana, Grain Alcohol,
+   Gravity Bong, Growlights, Institute for Hemp, LSD, LSD-Tattoo, Marijuana
+   Consumption, Marijuana Law, Marijuana Myths, MDMA (Ecstasy), MDMA
+   Synthesis, Methamphetamine (Speed), Morning Glory, Natural Highs
+   Australia, Neuropharmacology, Nutmeg, Opioid, Opioid Analgesics,
+   Psilocybe Mushroom, San Pedro Potency, Smart Drink, Solvents, Thailand,
+   Tryptamine Carriers, W
+
+   For instructions on how to FTP, go over to news.announce.newusers
+and get the help files, or buy a book on using the Internet.
+
+   If you can't use FTP, Gopher, WWW or other services that need a direct
+connection, fear not, you can use the FTP-by-mail services!  Here's a list
+of server addresses, mail a message consisting of the word "help" to one:
+ftpmail@sunsite.unc.edu, ftpmail@src.doc.ic.ac.uk, bitftp@pucc.bitnet
+
+C) Really Frequently Asked Questions
+
+   All directory and file paths refer to hyperreal.com.  Extensive references
+for almost all the info below are available in a separate file.
+
+1. Is there strychnine (rat poison) in LSD?
+
+   No, there is no strychnine in LSD.  EVER.  It is physically impossible to
+fit enough strychnine on a blotter tab to cause an effect; besides, since
+strychnine is expensive and the manufacturing process never uses it, there's
+absolutely no point in putting it there.  (No, it does not bind the
+LSD to the paper or carry it across the blood-brain barrier or...)
+Large-scale lab analyses of street samples have never found ANY strychnine
+in LSD.  The 'speedy' effects of acid, often attributed to the mythical
+strychnine, are in fact caused by a bad set and setting, not impurities in
+the drug.  See the LSD FAQ and /drugs/psychedelics/lsd/strychnine.
+
+2. Does LSD leave crystals in your brain/spinal fluid that cause flashbacks?
+
+   No. LSD is water soluble and entirely cycled out of your system within
+a few days.  Full-fledged "pathological" flashbacks can be caused by any
+traumatic or extraordinary experience, including an LSD trip, but are not
+directly caused by the drug.  See the LSD FAQ.
+
+3. What happens if I take LSD while I'm on Prozac or other antidepressants?
+
+   Certain antidepressants including SSRIs like Prozac will reduce the effect
+of psychedelics, but there are two notable exceptions.  MDMA and a MAOI can
+induce a hypertensive crisis which may cause death!  TCA or lithium and a
+hallucinogen will increase the effect of the drug, often to an unpleasant
+extent.  If you have a story, mail kbonson@helix.nih.gov to participate in
+her study on this.
+
+4. I have a recipe for making LSD with moldy rye bread and hair spray...
+
+   No.  The -synthesis- of LSD is a very, very difficult process that
+requires dangerous chemicals and lots of experience in organic chemistry.
+Check out http://hyperreal.com/drugs/faqs/synthesis.html (also available
+by FTP) for information on the synthesis of GHB, LSD, MDMA, methamphetamine,
+methcathinone and N2O.  If you don't understand the synthesis, go read
+organic chemistry, we can't put it "in English" for you.
+
+As for some of the more famous recipes:
+LSD from apple cores:   No.
+LSD from Foster's beer: No, the recipe is some twit's idea of a joke.
+LSD from orange peels:  No.
+LSD from moldy rye:     A laboratory (not kitchen) can extract LSA, a related
+                        substance.  See /drugs/psychedelics/lsd/ergot.culture.
+LSD from morning glory: Another extraction of LSA, see the Morning Glory FAQ.
+Meth from inhalers:     An extraction of l-methamphetamine, a much weaker
+                        substance than real meth.
+
+5. Can you overdose on acid/pot?
+
+   No, overdosing on pot would require smoking or eating several KILOS of
+the stuff within 15 minutes.  Overdosing on LSD is equally difficult.  There
+is a case where a number of people snorted a massive overdose (equal to
+around 1250 hits) of pure LSD tartrate, believing it to be cocaine; some
+of them fell into comas and had other severe physical reactions, but lived
+through the experience with no permanent physical or mental damage.
+
+6. What is Ecstasy (E, X, XTC)?
+
+   Ecstasy should be 3,4-methylenedioxymethamphetamine (MDMA), but on
+the street it is often a close chemical relative like MDA or MDE.  It
+may also on occasion be a mixture of unrelated chemicals like LSD and/or
+methamphetamine (speed).  Contrary to popular belief E is *not* laced
+with heroin, heroin costs too much, is very different in its effects, and
+is not active orally; the only possibility is a heroin/MDMA mix for
+snorting or injecting.  What people think of as effects caused by heroin
+are often just MDA or MDE.
+
+7. Does MDMA cause brain damage/Parkinson's disease/deplete spinal fluid?
+
+   No, although investigations on possible brain damage continue; there
+is certainly no drastic brain damage though.  The Parkinson's rumors come
+from a journalist confusing MDMA with MPTP, a product of screwed-up opiate
+manufacture which has nothing at all to do with MDMA.  See the MDMA FAQ.
+
+8. Are shroom kits legal, and do they work?
+
+   The spores in the kits contain no psilocybin, so they are legal, except
+in California.  They work, but only if you're willing to put effort into
+growing.  See the Psilocybe Mushroom FAQ and /drugs/psychedelics/mushrooms.
+
+9. Will marijuana do <X> to my body?
+
+   Marijuana does *not* cause brain/immune/reproductive system damage,
+concentrate in the brain/testicles, enlarge breasts in males or damage
+chromosomes.  It *can* cause lung ailments such as cancer, and driving
+while stoned *can* cause accidents.  MJ smoke is *not* 10 times worse than
+tobacco, they are roughly equal, it may even be less harmful.  See Marijuana
+Myths or the Cannabis Hemp (alt.hemp) FAQ for more details.
+
+10. I just got a microdot of synthetic mescaline...
+
+   No.  An effective dose of mescaline would not fit in a microdot or
+on blotter, and mescaline in the black market is extremely rare anyway.
+Most of what is called mescaline is in fact LSD.
+
+11. My friend told me that pot is often laced with acid...
+
+   No.  Pot is one of the cheapest drugs around, and just about anything
+added to it would make it more expensive.  If somebody tells you that
+their pot was laced, almost always it just means they got hold of some really
+good pot and/or just got much more stoned than usual.  If the pot was laced
+with acid, the acid would be destroyed by the heat when you smoked it.
+Occasionally pot laced with PCP, opium, or heroin is available, if so
+you will be told since it costs much more.
+
+12. Help, I have a piss test next week and...
+
+   Summary: Stop smoking and drink water.  8 glasses a day for two weeks
+should put you in the clear, but even a week is often enough.  Herbs like
+Golden Seal do *NOT* help.  Adulterants like Drano, bleach, or vinegar do
+*NOT* help and are likely to be noticed.  Most urine tests cannot detect
+LSD, psilocybin or low doses of MDMA.  See /drugs/politics/drug.testing.
+
+13. What is "skunk"?
+
+   Skunk is a type of hemp (cannabis).  It originally meant Cannabis indica
+in general, but over the last 20 years has come to refer to a name of
+particular sativa/indica cross. While Dutch skunk is famous, the name
+did not originate there (although the cross now known as skunk may have).
+
+14. What are the monoamine oxidase inhibitors (MAOIs)?
+
+   The drugs phenelzine (Nardil), tranylcypromine (Parnate), l-deprenyl
+(ElDepryl, Selegiline) and plants containing harmaline (passionflower,
+Banisteriopsis caapi and Peganum harmala).  THAT'S IT!  Prozac, MDMA, beer,
+wine, cheese, chocolate etc are things you should AVOID when on a MAOI,
+they are *not* MAOIs themselves.  Combining MAOIs and other drugs is
+potentially dangerous, do research beforehand.
+
+15. Can I smoke or eat <X> to get high?
+
+All of the following either don't work or very little is known about them.
+Funny as it may seem, black market drugs are probably safer.  Substances
+marked with (*) are very dangerous and can -KILL- you.
+
+Aspirin:        No, and aspirin is lethal in high doses. (*)
+Banana skins:   No, the Anarchist Cookbook's "bananadine" is a myth, along
+                with almost all the drug recipes in the book.
+Catnip:         No, unless you're a cat.
+Chia pets:      No.
+Cloud 9:        No, it contains only a bit of ephedrine (a mild stimulant).
+                A cup of coffee is much stronger.
+Coke & aspirin: No, and aspirin is lethal in high doses. (*)
+Cough syrup:    Yes, if it has dextromethorphan (DXM).  Some DXM cough syrups
+                will make you sick though, see the Dextromethorphan FAQ.
+Dramamine:      Yes, but it's *really* nasty stuff.  Hallucinations that seem
+                like reality and no euphoria.  See /drugs/misc/dramamine. (*)
+Herbal E:       No, see Cloud 9.
+Jimson weed:    Yes, but it's a deleriant like Dramamine.  Many people every
+                year are killed by overdose.  See /drugs/natural/datura. (*)
+Laughing gas:   Yes, if it's medical or food grade and you're careful (people
+                have died from suffocation).  See the Nitrous Oxide FAQ.
+Moldy rye:      No, and you'll get quite sick if you try. (*)
+Morning glory:  Yes, but it causes nausea.  See the Morning Glory FAQ.
+Nutmeg:         Yes, but most people find it unpleasant, primarily due
+                to horrible taste, nausea/vomiting, and 3-day hangover.
+                See the Nutmeg FAQ and /drugs/natural/nutmeg.
+Peanut shells:  No.
+Poppy seeds:    No, the seeds contain no opium.
+Toads:          Yes, some *rare* toads, namely Bufo alvarus, secrete a
+                smokeable venom containing the powerful hallucinogen
+                5-MeO-DMT.  See /drugs/psychedelics/tryptamines.
+Yubah Gold:     No.
+
+In addition to the favorites above, a number of obscure legal herbs and plants
+can be used as drugs; most of the common ones contain only ephedrine or
+caffeine though.  See the Natural Highs FAQ and /drugs/natural for more.

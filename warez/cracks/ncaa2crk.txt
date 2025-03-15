@@ -1,0 +1,35 @@
+/*
+Doc Check Crack for NCAA Basketball: Road to the Final Four 2
+ 
+Using a disk editor such as Norton Disk Doctor, on file
+NCAA2.HST (file size 221 bytes) at offset D2 (hex) from
+start of file, write the following sequence of hex bytes:
+2C 28 67 09
+ 
+This will remove the doc check from the game that comes up
+the first time it is run after installation.
+ 
+The following is a Turbo C program that does the above. It
+must be run in the same directory as the game.
+*/
+ 
+#include <stdio.h>
+ 
+#define SAVERNAME   "NCAA2.HST"
+#define CHAR_OFFSET 0xD2
+#define CRACK_LEN   4
+ 
+void main()
+{
+ FILE *ssflywin;
+ static char CRACK_CODE[CRACK_LEN] = { 0x2C, 0x28, 0x67, 0x09 };
+ 
+ ssflywin=fopen(SAVERNAME,"rb+");
+ if(ssflywin==NULL) {
+  fprintf(stderr,"Could not open %s!\n",SAVERNAME);
+  exit(8); }
+ 
+ fseek(ssflywin,CHAR_OFFSET,SEEK_SET);
+ fwrite(CRACK_CODE,CRACK_LEN,1,ssflywin);
+ fclose(ssflywin);
+}

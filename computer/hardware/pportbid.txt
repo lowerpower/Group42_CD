@@ -1,0 +1,363 @@
+	**********************************************************
+	* AUTHORS ARE NOT RESPONSIBLE IN ANY WAY FOR WHAT YOU DO *
+	**********************************************************
+
+(From Mark F. Bower | Subject: PC parallel port)
+
+                MAKING YOUR PC PARALLEL PORT BI-DIRECTIONAL
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                            By Mark F. Bower
+
+
+I have had a large number of requests for this information so here it is.
+
+Disclaimer: Doing this modification may void you warranty on your computer
+components, and I take no responsibility for any damage that mey be caused
+by making this modification.
+
+Introduction:
+~~~~~~~~~~~~
+
+This simple modification allows a standard IBM PC type parallel port to be
+used as a bi-directional 8 - 12 bit I/O port for use in applications
+such as control, sensing, monitoring, and high speed data trasfer.
+
+WARNING: Do NOT attempt to read data in from the parallel port using a (non
+modified) a standard printer port card. The LS373/374 octal buffer can sink
+current and may overheat if this is done.
+
+The 4 handshake lines are also open collector outputs.
+
+Requirements:
+~~~~~~~~~~~~
+
+o   1 piece of insulated copper wire (1 - 2 inches long).
+o   Soldering Iron.
+o   Solder, maybe some de-soldering wick.
+o   A sharp tool for cutting PCB tracks.
+o   A TTL data book is handy.
+o   A parallel printer port schematic helps.
+o   A digital multimeter for testing.
+o   An IBM type parallel printer card - either an original single card or
+    multi-function card. It may be possible to modify other types of parallel
+    ports since most are of similar design (in PC's). However, special
+    cards that use a single VLSI controller chip to perform the functions
+    of the entire multi-function card may not be modified (of course!).
+
+Note: Laptop computers generally have a bi-directional parallel printer port -
+note however that these bi-directional port use open-collector outputs on the
+parallel data bus which may require pull-up resistors if they are to be
+connected to a 'standard' modified port for data trasfer.
+
+Method: Hardware mods
+~~~~~~~~~~~~~~~~~~~~
+The following step are meant as a guide to performing the modification.
+
+When handling circuit cards, be aware that static electicity and carelessness
+can easily cause damage - be extra careful and patient when working on them!
+
+NOTE: The LS abbreviation may be F, L, or HC in you printer card.
+
+1. Remove the parallel printer card/multi I/O card from the PC.
+
+2. Locate the IC named 74LS374 (on standard PC printer port cards) or
+   74LS373 (multi I/O cards). If there is more than one of these IC's,
+   select the one which connects to pins 9 to 2 of the 25 pin printer
+   port connector. On the IBM PC printer schematic this is U4.
+   This IC is an octal buffer.
+
+3. Pin 1 of this IC (the output enable pin) should be currently tied to
+   ground (on the underside of the board). Cut the track at pin 1 so that it
+   is now NOT connected to ground. (alternatively it my be possible to cut
+   pin 1 and bend it up - this is not recommended however).
+
+     This pin was originally connected to gound. In this configuration, the
+     LS373/374 was hard wired to OUTPUT mode.
+
+4. Now locate the IC named 74LS174. This IC (a hex latch) is connected to
+   pins 1,15,14, and 16 of the 25 pin printer connector through either
+   a 74LS05 (IBM PC printer card) or a 74LS06 (multi I/O card) invertor.
+
+     NOTE: Both the LS373 and LS174 IC's are also connected to the Address/
+     Data bus on the card through a LS243 IC.
+
+5. This IC (LS174) is a hex  latch. In the IBM printer port design, only
+   5 of the 6 available latches are used. The state of the sixth latch
+   can be controlled in software, and by attaching its output to pin
+   1 of LS373, we can control the direction of data by toggling a single
+   bit.
+
+6. To determine which D flip flop is not used, trace the outputs from the LS174
+   (use a TTL/LS data book for a pinout of the chip) and see which
+   one does not connect to the 74LS05 or 74LS06. On the standard PC
+   printer adapter, pin 15 of the LS174 was not connected (the input from
+   the data bus should already be connected (on pin 14 in this case). If
+   it is not, then another wire jumper connected may be necessary).
+
+7. Now solder a piece of insulated wire from pin 1 of the LS374/373 to
+   the output of the unused D flip flop (e.g. pin 15 in this case).
+
+   The printer port should now be configurable to be readable and writeable.
+
+(Notes: This only works because the original printer port could read the data
+back that it just printed. When data was sent to the printer, it passed
+through LS373 and onto the connector pins and was also stored in the
+LS244 latch - this data was then re-read by the printer software to ensure
+that the data that appeared on the pins was correct. Unfortunately, you
+could not read data that came in from the printer port connector because
+the octal buffer was hard wired for output. Using this modification, the
+octal buffer can be read (rather than written) and the data that is latched
+from this printer port connector can be read by the system).
+
+
+Compatibility
+~~~~~~~~~~~~
+
+When the computer is powered on as normal, the BIOS should initialise the
+printer port to be in output mode (0 in the direction register). Therefore,
+all software should work as normal - printing operations will work as before.
+
+If custom software alters the direction register, then some software
+may have problems printing (a printer not ready signal or paper out error
+may be generated). This can be resolved by either clearing the data direction
+register (use debug for example) or by resetting the computer.
+
+Software Interface:
+~~~~~~~~~~~~~~~~~~
+
+To use this 8 bit I/O port for data trasfer the following software is included:
+
+This assumes that the parallel printer port is located at 378 hex. If this is
+not the case, subtract the suitable value (e.g. 100h for a printer as 278 hex)
+from the register addresses.
+
+1. Setting the port for output mode (normal printer output):
+
+        Clear bit 6 of the data direction register (formerly unused)
+        at 37A (hex).
+
+        e.g.         i = inportb(0x37A);
+                     outporb(0x371, i & 0xDF); /* output mode */
+
+        or           outporb(0x37A, 0);
+
+
+2. Setting the port for input mode:
+
+        Set bit six of the data direction register at 37A (hex).
+
+        e.g.         i = inportb(0x37A);
+                     outportb(0x37A, i | 0x20;
+
+        or           outportb(0x37A, 0x20);
+
+
+3. Sending 8 bit bytes to the port (output):
+
+        Send the data to 378 (hex)
+
+        e.g.         outportb(0x378, 0xAE); /* send 0xAE over port */
+
+
+4. Reading 8 bit bytes from the port (input):
+
+        Read data from 378 (hex)
+
+        e.g.         x = inportb(0x378); /* read data from port */
+
+
+5. Hardware handshaking - essential for any communications:
+
+For successfull communiucations, some sort of hardware handshaking is
+required, This requires a couple of extra lines in you connection cable.
+For example, the ACK and STROBE lines can be used to signal data ready
+between two systems.
+
+An example is an A-D convertor on the port. To sample a value, send
+a pulse on the strobe line (or any oth spare line), wait for an
+interrupt (acknowledge/sample taken) from the A-D and then read it
+from the port.
+
+        e.g. to send pin 14 of the connector high (and set input mode at
+             the same time):
+
+                outportb(0x37A,0x28);
+
+        e.g. wait until pin 14 of connector is low :
+
+                while (inportb(0x37A) & 0x08) == 0)
+                        ;
+
+Pinouts:
+~~~~~~~
+         Name                   Pin
+
+        -Strobe                 1  <
+        +Data 0                 2  <>      \
+        +Data 1                 3  <>       |
+        +Data 2                 4  <>       |
+        +Data 3                 5  <>       |- now bidirectional
+        +Data 4                 6  <>       |
+        +Data 5                 7  <>       |
+        +Data 6                 8  <>       |
+        +Data 7                 9  <>       /
+        -Acknowledge            10  >
+        +Busy                   12  >
+        +Paper out              13  >
+        +Select                 14  >
+        -Auto Feed              15 <
+        -Error                  16  >
+        -Initialize             17 <
+        -Select input           18 - 25
+         Ground                 2
+
+- = active low,
++ = active high,
+> from printer/other computer
+< from printer adapter
+
+
+Comments:
+~~~~~~~~
+
+People who wish to attempt to use this modification to construct a parallel
+port SCSI interface should have a look at the Tiny Tiger SCSI hard drive
+interface which is used on the Commodore Amiga 500 and 1000 computers to
+provide a SCSI hard-drive interface. I am in no way connected with the
+manufacturers of Tiny Tiger.
+
+Also, here's a follow-up article that I sent to someone - it may be useful
+to you:
+
+Here are some details for the printer port I/O:
+
+In my system I had by printer port connected to an A-D convertor - this device
+provided a tri-state output when not producing a result so there was no
+problem with sinking current from this type of device.
+
+If you do connect two printer ports together then you may sink current in the
+373 - I originally did this when experimenting - the chip got warm but didn't
+fry - but i wouldn't do it intentionally again - you could also privide pull-
+down resistors in your cable connection to compensate for this).
+
+As for the original suggestion of writing a zero before reading - the person
+who suggested this has not examined the entire read cycle of the IBM-PC
+printer card . If you look at a timing diagram or grab a logic scope and watch
+the control lines of the 244,155,373 etc IC's you will find that the following
+happens in a the i/o cycle:
+
+The following read/write methods are for a NORMAL non-modified card.
+
+1. Write:
+
+Address decode circuits select the card, the 155 DMUX output selects the LS373.
+
+Data is clocked from the data bus through the LS245 onto the LS373(/374).
+
+At the end of the write cycle, the 373 is clocked and the data in it is send to
+the printer port lines. This data is also collected by the LS244 circuit, and
+the data is fed back on the printer card data bus back onto the LS373. At
+this point the data that was just written can be read back (for verification
+purposes). Note that the outputs of the 373 stays at the value that was just
+written. i.e. writing 0xAE on the lines leaves the lines at value 0xAE.
+This data can be read back from the port if necessary.
+
+(it helps if you look at a schematic of this - try the IBM PC tech reference
+ printer adapter spec.)
+
+2. Read:
+
+(remember, this is for a non-modified card). When a read is performed
+
+When a read cycle occurs, the IOR signal strobes (via the decode DMUX) the
+LS244 IC (bus trasceiver). The data from the LS373 is then read onto the
+data bus and so on. Why can't you just read stuff in from the ports i hear
+you say ? (not really but its a good expression) - since the 373 can sink
+current, any data coming in is sucked away into oblivion by the current sink!
+and the 373 get a bit warmer doing so.
+
+3. Read on a modified card:
+
+With the output enable control line set to high, the 373 direction changes,
+and its output impedance goes hi - data can now be read from the port via the
+LS244 (tranciever) which is clocked on a read cycle (take data from pins and
+stuff it on the data bus).
+
+The 373 doesn't do the read, the 244 does! - thats why bi-directional
+buses use a couple of 373/374 - one for each direction with complementary
+direction lines. The direction control line on the 373 is a bit
+mis-leading - it make it look like the 373 actually does the read.
+
+Hence, you don't have any wired or problems at all (unless your sending device
+has major problems :)
+
+NOTE: The printer adapter specs in the PC tech ref put the pins labelled the
+wrong way around (18 -> 1 and 1 -> 18 etc)!!!!
+
+****
+
+(From Bob Montante Subject: PC parallel port)
+
+|       Does anyone how to write and read to/from the parallel port
+| of a IBM AT/XT and other machines. I posted this question on
+
+An IBM PC-compatible parallel port involves three I/O registers: an output
+register for data (typically at port-address $0378), and output register
+for control signals (typically at port-address $037a), and an input
+register for "status" signals from the device (typically at port-address
+$0379).  Most languages support I/O to ports; Turbo C supplies an INP
+and an OUTP instruction, for example.
+
+Sending data to the device is simple, just output it to the data register
+and wire your device to accept data from the 8 data pins.  Receiving
+data is trickier  --- someone else has posted a lengthy description of
+a hardware mod. to make the eight data lines bidirectional.  If you don't
+want to do this (but you can design your device's connections as you wish),
+then a software-only dodge is to bring data in through the status lines.
+There are only 5 status bits; for convenience you might use 4 of them,
+and bring data back to the controlling PC a nybble at a time.  Your
+software must then do two reads, and assemble the result, for each byte
+(and of course your device must be able to supply data in 4-bit chunks;
+a '244 octal driver is convenient for this as it has separate enables for
+each of two sets of four lines).  You will also need to develop a protocol
+for telling your device when to take 8-bit data, and when to supply which
+4-bit chunk of data.  The control register is a natural for this.
+
+****
+
+(From Cyberman | Subject: Parallel and Serial Ports)
+
+Programing the IBM PC Parallel Port:
+
+Ports for LPT1
+0x378 DATA          0x37A Input         0x37A Output
+BIT                 BIT                 BIT
+[7] D7              [7] Busy            [7] unused
+[6] D6              [6] ~Acknowledge    [6] unused
+[5] D5              [5] Paper Out       [5] unused
+[4] D4              [4] Select          [4] IRQ 7 En
+[3] D3              [3] ~Error          [3] select
+[2] D2              [2] unused          [2] ~PRIME
+[1] D1              [1] unused          [1] ~AutoFeed
+[0] D0              [0] unused          [0] ~Strobe
+pinouts for DB25 parallel Port
+[O](01) ~Strobe                        [O](14) Auto Feed
+[O](02) D0                             [I](15) ~Error
+[O](03) D1                             [O](16) ~Prime
+[O](04) D2                             [O](17) Select to printer
+[O](05) D3                             [G](18) Ground
+[O](06) D4                             [G](19) Ground
+[O](07) D5                             [G](20) Ground
+[O](08) D6                             [G](21) Ground
+[O](09) D7                             [G](22) Ground
+[I](10) ~acknowledge                   [G](23) Ground
+[I](11) Busy                           [G](24) Ground
+[I](12) Paper out                      [G](25) Ground
+[I](13) Select from printer
+
+notice their are 13 ouput bits and only 5 input 1 input bit is used for IRQ7
+the other 4 remaining bits are for data input. 8 bits are available for output
+and another bit [other than strobe] is used to flag a transfer.
+
+

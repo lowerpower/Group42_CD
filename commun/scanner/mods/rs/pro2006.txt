@@ -1,0 +1,328 @@
+
+FILE NAME: PRO2006.001 @ VE3EUK REQMOD
+
+To enable the Radio Shack PRO-2006 scanner to monitor the cellular phone
+frequencies (870.030-879.360 System A Base) (880.650-889.980 System B Base)
+and the actual mobile telephone frequency (825.030-834.360 System A Mobile)
+and (835.650-844.980 System B Mobile) do the following:
+
+1. Remove the top cover only. It is held by the 2 screws on back.
+
+2. Looking behind the metal plate covering the front panel, look at your
+   left top corner. You will see 2 glass diodes sticking out of the PC
+   board (PC-3). The one at the bottom is labeled D502.
+
+3. Simply cut the lead on the diode (D502).
+
+Turn the radio on and program the limit search memories with the ranges
+indicated on top. The System A and B Base are the ones to listen to. The
+reason is that you'll be able to hear both sides of the conversation. If
+you try listening the Mobile signal, you'll only hear the signal being sent
+out by the actual phone. Also the signal on the cellular phone is only a
+measly 4 watts.
+
+This mod is so simple, you can do it in less than 3 minutes. Only a small
+cutting plier is needed, as well as the screwdriver.
+
+This information is intended for BBS users outside the USA. Since the US
+has a really dumb law called the E.C.P.A (Electronics Communications Privacy
+Act), it basically prohibits listening in on a variety of radio signals
+which are not intended to be listened by the general public and has been
+deliberately encoded, scrambled, or just deliberately used to ensure
+privacy. So, if you live in the US, don't do this mod.
+
+73's Ramon (WP4XQ@WP4XQ.PR.USA.NA)
+PRO2006.1
+
+Radio Shack PRO-2006 Scanner Mods
+by Mark A. Day  N4OQK @ CHO
+
+Introduction
+
+The PRO-2006 is probably the worlds most versatile scanner to date.
+Modifications are easily implemented, and upgrade performance over stock
+units tremendously. Enjoy, and keep scanning!
+
+
+Mod#1 : Cellular restoration
+Parts : NONE
+
+        To restore the missing CMT frequencies, merely clip diode D502.
+        It is located in the upper left corner of the CPU/display board.
+
+
+Mod#2 : Scan rate increase
+Parts : 16Mhz. Quartz Crystal - fundamental cut
+
+        Replace CX503 (12Mhz) with a 16Mhz crystal, clip diode D503 (near D502)
+        The unit now scans at around 40 channels per second.
+
+
+Mod#3 : Squelch hysteresis suppression
+Parts : 100-200K ohm 1/8w resistor
+
+        Locate R152 (33K) on the linear PCB (main board). This is a tricky
+        resistor to get to, since it is on the bottom side of the board.
+        Remove this resistor, and replace it with a 100-200K resistor. The
+        higher the resistance, the less hysteresis will be present. I found
+        100K gave me all the razor-sharpness I was looking for, without
+        sacrificing performance.
+
+
+Mod#4 : "S" meter output
+Parts : 10Kohm 1/8w resistor, 0.1 uf capacitor
+
+        Locate D33 on the linear PCB. Solder in the 10K resistor to the ANODE
+        of this diode. Note this is not the same as TP2. Connect a wire from
+        the free end of this resistor to a rear panel jack (RCA). Solder the
+        0.1uf capacitor from the jack's center terminal to ground. Output on
+        this jack follows the AGC voltage. Negative for no signal, goes
+        positive when a signal is present, increasing with signal strength.
+        A 1Volt full scale panel meter makes a good "S" meter
+
+
+Mod#5 : Increased headphone audio
+Parts : NONE
+
+        Locate resistor R228 (27 ohm) on linear board (near IC7).
+        Remove this resistor and replace it with a jumper wire.
+
+
+    
+PRO2006.2
+
+Mod#6 : 6400 channel memory capacity (ADVANCED TECHNICIANS ONLY!)
+Parts : Hitachi HM62256LFP-12 (256Kx8 SRAM) or equivalent (flat pack required)
+        4 Position DIPswitch
+        10KOhm resistor SIP  (or 4 10K 1/8w resistors)
+
+        This modification is complicated, so don't try it if you're not fully
+        sure of youre ability.
+
+
+        1) Remove front panel from scanner, disconnect wiring harnesses.
+           You will lose all current programs (Sorry!)
+
+        2) Remove metal shield from panel CAREFULLY!
+           Remove screws holding CPU board in front panel.
+           Carefully separate CPU board from keyboard.
+
+        3) Locate IC505 next to CPU and remove it from the board.
+           Notice this is a 24pin IC, and that there are 4 extra pads
+           to the top of pin 1. All pin numbers given hereafter will
+           refer to the new 28 pin IC, with pin 4 being the old IC's
+           pin 1. Follow me? The pads for the new IC are already present.
+
+        4) To adapt to the new RAM, a few traces must be sliced.
+
+           A) Slice the trace connecting pin 28 to pin 26
+           B) Slice trace connecting pin 27 to pin 23 (bottom of board)
+           C) Slice trace connecting pin 2 to ground (bottom of board)
+
+        5) Install the new RAM, and connect a jumper from CPU IC501
+           pin 67 (+5V) to pin 28 of the new RAM.
+
+        6) To address the extended memory, external switches must be added
+           and connected to the unused address lines of the new RAM.
+           Just how you implement this is up to you. Regardless of how you
+           do it, you will need to connect a wire bundle from the new RAM
+           pins 1,2,23,26 to the outside world. I mounted a jack on the rear
+           panel into which a 4 position dipswitch can be mounted.
+
+        7) Add pullup resistors from new address lines to +5V, available at
+           pin 3 of the +5V regulator IC8.
+
+        8) Reassemble unit, installing all shields and ground straps.
+
+        9) Testing & checkout
+
+           A) With all switches 'OFF' enter '1000.000' into memory channel 1.
+           B) Toggle switch 1 to on and return to channel 1. Enter '1001.000'
+           C) Repeat for all switch combinations. Lockout channel 1 in each
+              of the 16 memory blocks. You now have a coded channel to key
+              you in on which block you're scanning.
+           D) Enjoy 6400 channels of pure scanning power!
+
+
+        You now have:
+
+            16 Blocks of 400 memory channels per block
+           160 Search ranges (10 per block)
+           160 Temporary scratchpad channels (10 per block)
+
+        Notice that custom settings (delay/mode) are unique to EACH
+        channel, but priority and speed are common to all blocks.
+        You might dedicate a common channel in each block to be the
+        priority channel
+
+PRO2006.3
+
+From: KA4NMX@KD4OM.#HKY1.NC.USA.NA
+
+
+                   Pro-2006 Modifications
+
+Note: The Electronics Communcations Privacy Acot of 1986 makes
+it unlawful to monitor mobile telephones, including Cellular.
+The Following modification is intended only to restore contin-
+uous 760-1300 MHz coverage as originally provided by the design
+of the PRO-2006 Microprocessor.
+
+         824-851, 869-896 MHz Freq Restoration :
+
+Tools Requires: small phillips screwdriver, small wire cutters.
+
+Procedure: With power cord unplugged, remove the two rear cab-
+inet screws holding the upper cover.  Lift off the upper cover,
+being careful not to stretch the speaker leads. Examine the  
+inner, right-hand-corner of the front panel to find two glass
+diodes, labelled D503 (upper diode) and D502 (lower diode).
+
+Using the clippers, very carefully snip the visible lead of the
+lower diode (D 502) at its bend and slightly separate the cut
+ends.
+
+Reassemble, plug in AC cord, turn on scanner, and Press RESET.
+
+
+                    Keyboard Beep Delete
+
+With the top cover off as described above,  locate connectors
+CN3, a 15-pin connector with colored wires at the front of the
+main circuit board.  There are two procedures which will stop
+the beep tone from being heard through the speaker; read both
+to decide which procedure you want to follow.
+
+(1) Find the center gray wire coming from CN3 and cut it midway
+to disable the beep tone. You may wish to solder a resistor in 
+series to reduce the beep volume, a trimpot tovary the volume 
+of beep tone, or a miniature switch to choose between beep and
+No beep .....!
+
+(2) Using a pair of needle-nose pliers, CAREFULLY pry the plug
+from CN3, revealing a row of pins. Locate the center pin ( #8 )
+which corresponds to the gray wire and bend it down flat, dis-
+abling the beep ........
+
+This is a great scanner.  Have fun with it. 73's KA4NMX...
+
+
+Radio Shack PRO-2006 Scanner Mods
+by Mark A. Day  N4OQK @ CHO
+
+Introduction
+
+The PRO-2006 is probably the worlds most versatile scanner to date.
+Modifications are easily implemented, and upgrade performance over stock
+units tremendously. Enjoy, and keep scanning!
+
+
+Mod#1 : Cellular restoration
+Parts : NONE
+
+        To restore the missing CMT frequencies, merely clip diode D502.
+        It is located in the upper left corner of the CPU/display board.
+
+
+Mod#2 : Scan rate increase
+Parts : 16Mhz. Quartz Crystal - fundamental cut
+
+        Replace CX503 (12Mhz) with a 16Mhz crystal, clip diode D503 (near D502)
+        The unit now scans at around 40 channels per second.
+
+
+Mod#3 : Squelch hysteresis suppression
+Parts : 100-200K ohm 1/8w resistor
+
+        Locate R152 (33K) on the linear PCB (main board). This is a tricky
+        resistor to get to, since it is on the bottom side of the board.
+        Remove this resistor, and replace it with a 100-200K resistor. The
+        higher the resistance, the less hysteresis will be present. I found
+        100K gave me all the razor-sharpness I was looking for, without
+        sacrificing performance.
+
+
+Mod#4 : "S" meter output
+Parts : 10Kohm 1/8w resistor, 0.1 uf capacitor
+
+        Locate D33 on the linear PCB. Solder in the 10K resistor to the ANODE
+        of this diode. Note this is not the same as TP2. Connect a wire from
+        the free end of this resistor to a rear panel jack (RCA). Solder the
+        0.1uf capacitor from the jack's center terminal to ground. Output on
+        this jack follows the AGC voltage. Negative for no signal, goes
+        positive when a signal is present, increasing with signal strength.
+        A 1Volt full scale panel meter makes a good "S" meter
+
+
+Mod#5 : Increased headphone audio
+Parts : NONE
+
+        Locate resistor R228 (27 ohm) on linear board (near IC7).
+        Remove this resistor and replace it with a jumper wire.
+
+
+Mod#6 : 6400 channel memory capacity (ADVANCED TECHNICIANS ONLY!)
+Parts : Hitachi HM62256LFP-12 (256Kx8 SRAM) or equivalent (flat pack required)
+        4 Position DIPswitch
+        10KOhm resistor SIP  (or 4 10K 1/8w resistors)
+
+        This modification is complicated, so don't try it if you're not fully
+        sure of youre ability.
+
+
+        1) Remove front panel from scanner, disconnect wiring harnesses.
+           You will lose all current programs (Sorry!)
+
+        2) Remove metal shield from panel CAREFULLY!
+           Remove screws holding CPU board in front panel.
+           Carefully separate CPU board from keyboard.
+
+        3) Locate IC505 next to CPU and remove it from the board.
+           Notice this is a 24pin IC, and that there are 4 extra pads
+           to the top of pin 1. All pin numbers given hereafter will
+           refer to the new 28 pin IC, with pin 4 being the old IC's
+           pin 1. Follow me? The pads for the new IC are already present.
+
+        4) To adapt to the new RAM, a few traces must be sliced.
+
+           A) Slice the trace connecting pin 28 to pin 26
+           B) Slice trace connecting pin 27 to pin 23 (bottom of board)
+           C) Slice trace connecting pin 2 to ground (bottom of board)
+
+        5) Install the new RAM, and connect a jumper from CPU IC501
+           pin 67 (+5V) to pin 28 of the new RAM.
+
+        6) To address the extended memory, external switches must be added
+           and connected to the unused address lines of the new RAM.
+           Just how you implement this is up to you. Regardless of how you
+           do it, you will need to connect a wire bundle from the new RAM
+           pins 1,2,23,26 to the outside world. I mounted a jack on the rear
+           panel into which a 4 position dipswitch can be mounted.
+
+        7) Add pullup resistors from new address lines to +5V, available at
+           pin 3 of the +5V regulator IC8.
+
+        8) Reassemble unit, installing all shields and ground straps.
+
+        9) Testing & checkout
+
+           A) With all switches 'OFF' enter '1000.000' into memory channel 1.
+           B) Toggle switch 1 to on and return to channel 1. Enter '1001.000'
+           C) Repeat for all switch combinations. Lockout channel 1 in each
+              of the 16 memory blocks. You now have a coded channel to key
+              you in on which block you're scanning.
+           D) Enjoy 6400 channels of pure scanning power!
+
+
+        You now have:
+
+            16 Blocks of 400 memory channels per block
+           160 Search ranges (10 per block)
+           160 Temporary scratchpad channels (10 per block)
+
+        Notice that custom settings (delay/mode) are unique to EACH
+        channel, but priority and speed are common to all blocks.
+        You might dedicate a common channel in each block to be the
+        priority channel
+
+

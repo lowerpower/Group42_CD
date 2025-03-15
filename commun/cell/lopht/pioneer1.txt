@@ -1,0 +1,24 @@
+                           PIONEER PCM 300 & 500
+
+                NAM Type:  EEPROM
+            Manufacturer:  Motorola
+              Programmer:  Keypad
+          ESN Prefix DEC:  130
+                     HEX:  82
+ ESN, S/N Match Required:  No
+       Stamped Model No.:  PCM 300 or PCM 500
+      Available Channels:  832
+
+        Program Sequence:  See MOTOROLA Handset Programming
+                           -Use Programming Sequence #6
+
+              Horn Alert:  N/A
+         New Unlock Code:  FCN + 0 + 6 digit Security Code +
+                            new 3 digit Unlock Code
+           System Select:  RCL + * + * + * (to scroll choices)
+                            RCL (to store selection)
+                                  AB
+                                  BA
+                                  Home
+                                  A Only
+                                  B Only

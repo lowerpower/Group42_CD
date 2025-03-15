@@ -1,0 +1,111 @@
+PANASONIC CM/TF800
+
+NOTES:  This is a dual NAM unit.
+        The ESN prefix is 136 decimal & 88 hex.
+        Panasonic: 201-392-6053
+
+
+NAM PROGRAMING:
+
+1.  Turn power on.
+
+2.  Within 20 seconds enter * 0 # 0 * 0 # 0 * 1 for NAM 1
+    or * 0 # 0 * 0 # 0 * 2 for NAM 2.
+
+3.  Each data entry can be looked at by pressing RCL followed by the
+    location (step) number below.
+
+4.  To store new data enter the value, press STO followed by the location
+    (step) number below.  For example to enter a system ID of 00031 enter
+    00031 STO 01.  Data can be entered or reviewed in any order.
+
+5.  At any time press STO * * to complete programing.
+
+6.  Press END to exit.
+
+
+
+PROGRAMING DATA:
+
+STEP#    #OF DIGITS/RANGE    DISPLAY        DESCRIPTION
+
+01       00000 - 32767       SIDH           SYSTEM ID
+02       10 DIGITS           OWNDL          MIN (AREA CODE & TEL NUMBER)
+03       0 OR 1              PRESYS         PREFERRED SYSTEM
+04       333 OR 334          IPCH           INITIAL PAGING CHANNEL
+05       2 DIGITS            ACCOLC         ACCESS OVERLOAD CLASS
+06       2 DIGITS            GIM            GROUP ID (10 IN USA)
+07       2 DIGITS            DLMT           DIALED DIGIT LIMIT (00= NO LIMIT)
+08       08 ONLY             SCM            STATION CLASS MARK
+09       UP TO 12 DIGITS     SPDL           SPEED DIAL NUMBER (PERMANENT
+                                            NUMBER STORED IN LOCATION 00)
+10       2 TO 4 DIGITS       LOCK           LOCK CODE
+11       8 DIGIT, 0 OR 1     FCN 1          SEE NOTE 1 BELOW.
+12       8 DIGIT, 0 OR 1     FCN 2          SEE NOTE 2 BELOW
+13       8 DIGIT, 0 OR 1     FCN 3          SEE NOTE 3 BELOW
+
+
+NOTES:
+
+1.  Suggested entry is: 11000000.
+
+Bit 7/Digit 1 = Local use Mark
+Bit 6/Digit 2 = MIN Mark
+Bit 5/Digit 3 = Not Used
+Bit 4/Digit 4 = Not Used
+Bit 3/Digit 5 = Not Used
+Bit 2/Digit 6 = Horn Alert
+Bit 1/Digit 7 = Radio Mute
+Bit 0/Digit 8 = Not Used
+
+2.  Suggested entry is: 00010100.
+
+Bit 7/Digit 1 = Not Used
+Bit 6/Digit 2 = Built in Monitor
+Bit 5/Digit 3 = Auto Lock
+(if set to 1 and unlock code is unknown phone will NOT enter program mode.)
+Bit 4/Digit 4 = Full Lock
+Bit 3/Digit 5 = Not Used
+(Enable only one of the following)
+Bit 2/Digit 6 = Allow user A/B select
+Bit 1/Digit 7 = Preferred system only
+Bit 0/Digit 8 = Home system only (no Roam)
+
+3.  Suggested entry is: 11000111.
+
+Digit 1 = Received call indicator
+Digit 2 = Continuous DTMF
+Digit 3 = Not Used
+Digit 4 = Dial Lock
+Digit 5 = Not Used
+Digit 6 = Enable permanent timer (FCN 1)
+Digit 7 = Enable resetable timer (FCN 2)
+Digit 8 = Enable individual call timer
+
+
+READING ESN FROM HANDSET:
+
+1.  Power up phone as above.
+
+2.  Enter * 0 0 0 0 #.
+
+3.  Press * 3 SND.
+
+4.  Press 1 1 SND, phone will display decimal ESN, note that the leading
+    "1" of the 136 ESN prefix will be omitted as the phone only has a ten
+    digit display capacity.
+
+LOCK: F 3 2 = Dial Lock, F 3 1 = Send lock, F 3 0 = Full lock
+
+UNLOCK: Enter two to four digit code.
+
+
+A/B SYSTEM SELECT:
+
+1.  Phone will default to preferred/non-preferred on every power up.
+
+2.  A only: F 7 2
+
+3.  B only: F 7 3
+
+4.  Home only: F 7 4

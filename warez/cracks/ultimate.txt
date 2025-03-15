@@ -1,0 +1,13 @@
+Crack> Mike Ditka's Ultimate Football 
+
+crack gotten from bboard 
+
+MIKE DITKA ULTIMATE FOOTBALL 
+
+Change file: MDFB.EXE 
+
+  Find:  33 C0 F3 A6 74 07 
+Change:              EB 
+
+When the prompt for codes comes up, tyype any 4 numbers. 
+

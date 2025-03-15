@@ -1,0 +1,36 @@
+
+                           GOODYEAR BLIMP FREQUENCIES                                                     --------------------------
+
+  Here are a few frequencies you might want to monitor if you ever see one  
+  of the Goodyear Blimps fly overhead. A couple quick notes first, there are 
+  three Blimps in operation in North America a fourth is operated in Europe. 
+  The American blimps are stationed at three locations, one on each coast    
+  and one in-between. The Enterprise, tail number N1A, is based in Pompano   
+  Beach, Florida: the America, tail number N3A, is based near Houston, Texas 
+  and the Columbia, tail number N4A, is based in Los Angeles.              
+  Each blimp is accompanied by a three vehicle ground fleet consisting of a  
+  van, a tractor-trailer, and a Greyhound-like bus.                          
+                                                                             
+  The communications between the blimp and ground crew are normally held on  
+  151.625 Mhz. The blimp also uses VHF aircraft band, communications can be  
+  monitored here at 132.00 Mhz. AM. Below is a list of other frequencies used
+  by the blimp.                                                              
+
+                                                                             
+
+  123.050       Common Blimp port frequency                                  
+
+  123.250       Suffield (Ohio) Wingfoot Lake Facility                       
+
+  132.000       Goodyear Tire & Rubber Company channel                       
+
+  151.625       Blimp Operations NBFM                                        
+
+  465.9125      Blimp Operations NBFM - Low Power                            
+
+  465.9375      Blimp Operations NBFM - Low Power                            
+
+  465.9625      Blimp Operations NBFM - Low Power                            
+
+                                                                              
+

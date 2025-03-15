@@ -1,0 +1,5 @@
+Crack> Golden Axe 
+crack written by anonymous 
+ 
+  Change   E8 AB 04   in   AXE.DAT 
+   to      == A4 05 

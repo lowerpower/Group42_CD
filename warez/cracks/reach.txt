@@ -1,0 +1,18 @@
+                             Reach for the Skies
+                                    crack
+                                by Grishnakh
+ 
+        RAZOR tried to crack this game and failed, instead releasing
+it uncracked and claiming it was cracked. Well, I promised to release
+my own crack for it, and here it is, only a few days after I put
+out cracks for Dune and Vengeance of Excalibur. It was pretty easy,
+just a simple comparison with no self-modifying code or anything like
+that.
+        
+        Search for CONTROL.EXE for:  C4 74 0F 80
+                         Change to:     75
+ 
+ 
+Remember, never spend money on software you can get for FREE!
+ 
+

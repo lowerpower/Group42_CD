@@ -1,0 +1,84 @@
+<html>
+<head><title>Group 42 Sells Out [Misc Zenith]</title></head>
+<body background="cable1.gif">
+
+<center>
+<img alt="Group 42 Sells Out!" src="../g42slogo.gif">
+</center>
+
+<hr size=5 noshade>
+<center>
+<h2>Misc Zenith Turn Ons</h2>
+by G-Man of Group 42
+</center>
+<p>
+
+<h3>9-176-01 Big Board and Others</h3>
+<i>Since there are many, many different versions of these decoders,
+try looking at all mods and decide which one looks closest to your
+unit</i>
+<br><br>
+<center>
+<img src="zen1.gif">
+</center>
+<br>
+On three port (3 jacks on back) model with the 40 pin LSI chip on the back
+board, connecting pins 10 and 11 together will enable the video for testing.
+On some units, there is a resistor hidden between the chip and the board
+which first must be removed.
+<p>
+<h4>Audio Turn Ons</h4>
+<center>
+<img align=left src="zen2.gif">
+</center>
+<br>
+In some instances, just connecting pins 3 and 4 together on IC6302
+will enable the audio.
+<br clear>
+<h4>Decoder Boards 9-192-02 and 9-192-03</h4>
+Models STC-1020, STC-1060 and STC-1082</h4>
+<ul>
+<li>Short pins 10 to 11 on IC 6675 (Logic Chip)
+<li>Remove resistor R6687 (6.2K on bottom right of board)
+<li>Most units have a diode at location R6678 instead of a 680 ohm
+        resistor.  If there is a resistor at this location, remove it
+        and install a diode (cathode twards transistor on left.)
+<li>Remove diodes CR6626, CR6627, and CR6628.
+<li>Install a 1K resistor from cathode of diode in step 3 to Jumper W30.
+<li>Remove PROM.
+<li>Power on unit.  Adjust Zero Carrier, limiter and horiz osc.
+<li>May have to wait 15 min for video to stabilize.
+</ul>
+<h4>Decoder Board 9-192-04</h4>
+Models STC-1000, STC-1085, STC-4010<br>
+<ul>
+<li>Cut jumper W15.
+<li>Connect jumpers W23 and W24 together.
+<li>Connect a wire from jumper W25 (ground) to the collector lead of
+        transistor Q6675 or to jumper W6.
+<li>Unplug PROM or cut jumper W3.
+<li>Disconnect battery or cut jumper W11.
+<li>On connector J10 short the two pins closest to connector J11.
+<li>Power unit up, adjust zero carrier, agc and horiz osc.  If video
+        is inverted, look at jumper block SM1.  If jumper 2 in this block is
+        installed, remove it.  If jumper 2 is not installed, install one.
+        Video still inverted do the same with jumper 6 of this block.
+</ul>
+In jumper block SM1, J4 can be used to forcibly pass video and sound (this
+jumper block is a row of 7 jumpers found just to the right fo the 40 pin IC.
+SM1 is the name printed on the circuit board for these jumpers.  Each jumper
+is labled J1 through J7.)
+<p>
+Connecting J3 to J4 will pas bideo and sound if the unit is shut down.  This
+will not descramble a scrambled picture however.  It is only used to thest
+the 40 pin logic chip.
+<p>
+<center>
+<img src="zen3.gif">
+</center>
+<p>
+<hr size=5 noshade>
+
+</html>
+
+

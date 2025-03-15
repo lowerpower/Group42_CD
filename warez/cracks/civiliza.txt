@@ -1,0 +1,21 @@
+Crack> Civilization 
+ 
+crack written by the Mooncrow 
+ 
+This is a quick and simple unprotect for Microprose's CIVILIZATION game. 
+The unprotect will remove that annoying request at 3000BC for information 
+regarding the requirement to achieve some randomly selected technology. 
+ 
+FILE: CIV.EXE (mine is date stamped 12/03/91) 
+ 
+Look for the following hex byte sequence: 7D 05 CD 
+It should start at hex offset 276D. 
+ 
+Change the "7D" to "EB" and save the modified file. 
+ 
+This patch changes the JGE instruction to a JMP and makes the program assume 
+that you have already answered the "protection" question. 
+ 
+One additional benefit from this unprotect is that you can use the SAVE GAME 
+feature as soon as you have completed the first move in the game. 
+ 

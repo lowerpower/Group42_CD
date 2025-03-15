@@ -1,0 +1,445 @@
+<HTML>
+<HEAD>
+<TITLE>Objectives and policy</TITLE>
+</HEAD>
+<BODY>
+<BASEFONT SIZE=3>
+<HR>
+<CENTER><H1><B>Objectives and policy</B></H1></CENTER>
+<HR>
+
+<H2>Contents</H2>
+<UL>
+<LI><H3>2.1   Introduction</H3>
+<BR>
+<LI><H3>2.2   Corporate policy on electronic system security</H3>
+<BR>
+<LI><H3>2.3   Objective</H3>
+<BR>
+<LI><H3>2.4   Relationship to other security policies</H3>
+<LI><H3>2.4.1 Application</H3>
+<BR>
+<LI><H3>2.5   Responsibility for security</H3>
+<LI><H3>2.5.1 Business operation or process owner</H3>
+<LI><H3>2.5.2 System supplier</H3>
+<BR>
+<LI><H3>2.6   Derivation of security requirements</H3>
+<LI><H3>2.6.1 Value and impact analysis</H3>
+<LI><H3>2.6.2 Data sensitivity</H3>
+<LI><H3>2.6.3 Countermeasures</H3>
+<LI><H3>2.6.4 Risk analysis</H3>
+<BR>
+<LI><H3>2.7   Security policy for the life cycle</H3>
+<BR>
+<LI><H3>2.8   Security evaluation, certification and accreditation</H3>
+<LI><H3>2.8.1 Scope of accreditation</H3>
+<LI><H3>2.8.2 Four-stage approach to security accreditation</H3>
+<BR>
+<LI><H3>2.9   Security approvals</H3>
+<BR>
+<LI><H3>2.10  Product security</H3>
+</UL>
+<HR>
+<H4>2.1 Introduction</H4><P>
+
+This chapter describes the objectives of the Computer Security Manual, and places
+electronic security in the context of the security infrastructure for BT s business
+operations and processes.<P>
+
+<H4>2.2 Corporate policy on electronic system security</H4><P>
+
+The electronic systems security policy for the BT Group as affirmed by Malcolm
+Argent, Group Director &amp; Secretary, on 8th August 1990 is reproduced below.<P>
+
+"The British Telecom Group attaches particular importance to the security of its
+business processes and systems. The Group's policy on electronic security is to ensure
+that we properly safeguard all our switching systems, information systems and other
+electronic assets, having regard to legal and regulatory requirements, our
+commercial interests and sound business practices.<P>
+
+This policy covers all aspects of the electronic environment: systems; administration
+procedures; environmental controls; hardware; software; data and networks. It
+applies to all stages in the system life cycle, from feasibility study through to in service
+and operations. It applies no matter whether the system is developed or bought by BT.
+It is the responsibility of managers at all levels to observe this policy themselves and to
+ensure that it is fully understood and followed by their people.<P>
+
+To help managers carry out their responsibilities, the Director of Security and
+Investigation will issue appropriate guidelines, on a continuing basis, supplementing
+the requirements of the Computer Security Manual, The Information Security Code
+and the Physical Security Handbook to take account of changing threats to BT's
+electronic systems. He will also be the central point of information for the Company's
+policy on electronic security and will monitor compliance with it. "<P>
+
+<H4>2.3 Objective</H4><P>
+
+The Computer Security Manual draws together the policies applying to computer
+systems in particular, and electronic systems in general, supplementing it with
+guidance and advice on implementation. Within the BT Group there are many
+different computer systems supporting a multitude of business processes.
+Therefore it is not possible to produce specific recommendations for the security
+of every aspect of every system. The objective of the Manual is to concentrate on
+the baseline policy and guidelines generally applicable to BT systems.<P>
+
+<H4>2.4 Relationship to other security policies</H4><P>
+
+The Computer Security Manual is an elaboration and extension of the information
+security strategy contained in the Information Security Code.<P>
+
+<H4>2.4.1 Application</H4><P>
+
+Except where inapplicable, the Policies enumerated in the Computer Security
+Manual are MANDATORY. For example: Passwords are not a mandatory feature
+of all BT systems, but where an analysis suggests that passwords are a sufficiently
+strong measure to regulate access to those systems, the relevant policies on
+passwords contained in this Manual become mandatory. Policies usually appear
+after any descriptive text and are numbered to assist the checking of compliance
+in systems.<P>
+
+While Policies are mandatory, all supporting guidance and advice on
+implementing the policies is discretionary, although strongly recommended to
+achieve a harmonious and consistent approach to electronic security throughout
+the BT Group. Policies appear within boxes.<P>
+
+<H5>POLICY 2.1: ASSIMILATION OF REVISED MANDATORY POLICY</H5><P>
+
+From the date of publication, this issue of the Computer Security Manual
+applies to all new systems supporting BT's business operations and processes.
+It also applies to any changes to existing systems, in particular where an
+opportunity to update security occurs, so as to achieve greater compliance with
+the policies given in this manual.<P>
+
+<H4>2.5 Responsibility for security</H4><P>
+
+Every BT employee, and those contracted to work for BT have the responsibility
+to ensure the security of BT assets. Where the asset is information, the degree of
+protection needed is defined by the owner of the information. Additional measures
+may be required beyond those necessary to protect BT's information assets
+because of legal requirements.<P>
+
+<H4>2.5.1 Business operation or process owner</H4><P>
+
+It is the responsibility of the owner of each business operation or process to
+recognise the value of their activity, and the potential impact on the business from
+security failure. In the context of the Computer Security Manual, ownership of a
+process is defined as the manager responsible or accountable for the process.<P>
+
+The responsibility of the business operation or process owner also extends to
+ensuring that, in general terms, security of the systems supporting the process is
+adequate in relationship to the impact of security failure. A service level agreement
+should exist between the business process and the system owners.<P>
+
+<H5>POLICY 2.2: RESPONSIBILITY ASSIGNED TO PROCESS OWNERS</H5><P>
+
+The owner of each business process shall ensure that security is adequate in
+the systems that support the process.<P>
+
+<H4>2.5.2 System supplier</H4><P>
+
+The process owner will be responsible for evaluating the impact of security failure
+and deciding on the general requirements for security. The detailed
+implementation of security controls and countermeasures to meet the owner's
+requirements will be the responsibility of the system supplier whose computer
+systems support the process. The process owner and the computer supplier will
+usually be linked through a customer/supplier relationship. The quality of
+computer security, including the adherence to the policies described in this
+Manual should be the subject of a Service Level Agreement.<P>
+
+<H4>2.6 Derivation of security requirements</H4><P>
+
+<H4>2.6.1 Value and impact analysis</H4><P>
+
+The security measures needed to safeguard each business process will be
+determined from the sensitivity of the material handled and the impact of security
+failure, defined in terms of confidentiality, integrity and availability. The owner of
+each business operation or process will ensure that the value of the information
+processed and the impact of security failure are known since they are the core
+parameters in the rationale of cost-effective security. Sometimes the value of the
+information may be obvious and easily quantified as a monetary expression. On
+other occasions, the value of the information or processing capability is less
+apparent, protection being necessary to safeguard only the reputation or
+credibility of the Business.<P>
+
+Impact of failure includes the concepts of asset value, importance, damage to the
+business because of information disclosure, loss of accuracy or currency of the
+information, and loss of the use of business-critical resources.<P>
+
+<H4>2.6.2 Data sensitivity</H4><P>
+
+The Information Security Code describes the privacy marking to be used to
+identify information which requires a level of protection beyond that provided by a
+clear desk policy. Currently this protection is defined only in terms of the
+confidentiality requirements of security. There is no comparable marking for
+integrity or availability.<P>
+
+Information stored using electronic media is more vulnerable when stored than
+information on paper . It can be easily modified without trace, and its content is
+not immediately obvious. It is readily deleted, and in large systems can be easily
+lost. Therefore the sensitivity of electronic data should be specified in terms of the
+impact of loss arising from failure of confidentiality, integrity or availability.<P>
+
+To preserve compatibility with the paper-based system, data sensitivities for
+electronic information use the same criteria for assessing the impact of security
+failure, thus allowing common threat models to be used.<P>
+
+<H4>2.6.2.1 Sensitivity level 1</H4><P>
+
+Information for which the impact of inaccuracy, alteration, disclosure or
+unavailability would be to cause inconvenience or reduction in operational
+efficiency.<P>
+
+<H4>2.6.2.2 Sensitivity level 2</H4><P>
+Information for which the impact of inaccuracy, alteration, disclosure or
+unavailability would be to cause any of the following:<P>
+<UL>
+<LI>Significant financial loss to BT;
+
+<LI>Significant gain to a competitor;
+
+<LI>Marked embarrassment to BT;
+
+<LI>Marked loss of confidence to BT and its commercial dealing;
+
+<LI>Marked reduction of BT's standing in the community or to relationships generally.
+Information marked IN CONFIDENCE has sensitivity level 2.<P>
+</UL>
+<H4>2.6.2.3 Sensitivity 1evel 3</H4><P>
+Information for which the impact of inaccuracy, alteration, disclosure or
+unavailability would be to cause any of the following:<P>
+<UL>
+<LI>Substantial financial loss to BT;
+
+<LI>Substantial gain to a competitor;
+
+<LI>Severe embarrassment to BT;
+
+<LI>Serious loss of confidence in BT;
+
+<LI>Serious reduction of BT's standing in the community or to relationships generally.
+Information marked IN STRICTEST CONFIDENCE has sensitivity level 3 and are
+called in this manual High Impact Systems.<P>
+</UL>
+<H4>2.6.2.4 Sensitivity levels above 3</H4><P>
+Impact scenarios exist for failures of security for data beyond sensitivity level 3.
+Specialist advice is available from the Director of Security and Investigation on
+electronic systems which process: corporate plans; business propositions (new
+enterprises, flotations, joint ventures, take-overs); personnel and industrial
+relations matters; marketing strategies and plans; financial and tariff proposals,
+and high-level contractual matters, or other information which is price-sensitive
+within the terms of the Stock Exchange Listing Agreement.<P>
+
+<H4>POLICY2.3: VALUE OF ASSETS AND IMPACT OF FAILURE</H4><P>
+
+The value of the information, assets or processing capability to be protected
+shall be estimated and recorded, as shall the impact of possible disclosure,
+inaccuracy, incompleteness or unavailability of that information.<P>
+
+<H4>2.6.3 Countermeasures</H4><P>
+A fundamental objective is to ensure that the countermeasures deployed to protect
+sensitive information or processes should be practical and appropriate to the
+threats against the electronic systems, giving due regard to the impact of security
+failure.<P>
+
+While insufficient, inappropriate, or poorly implemented countermeasures may
+leave a system unduly vulnerable, excessive countermeasures may lead to
+complacency, the neglect of security operating procedures, and an unjustifiably
+high overhead of processing power, or severe operational difficulties.<P>
+
+<H4>POLICY 2.4: COUNTERMEASURES</H4><P>
+
+The cost of countermeasures should be appropriate to the threats to security
+and business processes, the value of the information being protected and the
+impact of any security failure.<P>
+
+<H4>2.6.4 Risk analysis</H4><P>
+
+It is the responsibility of the owner of each business operation or process to
+assess and manage effectively the degree of risk to commercially sensitive
+information, and the resilience of critical business processes supported by
+computer-based systems. The risk analysis will take cognisance of the value of the
+information or critical processes being protected, and the perceived threats to the
+system. Furthermore, the risk analysis should not be a once-only exercise. It
+should be repeated regularly and revalidated whenever significant changes occur
+to the security assumptions.<P>
+
+<H4>POLICY2.5: RISK ANALYSIS</H4><P>
+
+At all principal stages during the life cycle of each project involving the storage
+or processing of commercially sensitive information, or the provision of High
+Impact Systems, a risk analysis shall be undertaken. The analysis, which must
+be repeated periodically or revalidated to assess the impact of change, must be
+so as to determine the vulnerability of the commercially sensitive information
+or applications in its processing environment, given the prevailing threats to
+security, the countermeasures deployed, and the value of the information being
+processed.<P>
+
+<H4>2.7 Security policy for the life cycle</H4><P>
+
+The preparation of a Security Policy Document (Security Statement) should be
+viewed as an integral part of the life-cycle of business processes. At the beginning
+of each project a security policy will be prepared to guide the implementation of
+security in the systems that will support the business operation. This vital step is
+necessary to ensure that correct business planning decisions are taken. Where
+security is a relevant feature of a process, its provision will be costed and included
+in business cases going forward for financial approval.<P>
+
+<H4>POLICY 2.6: SECURITY POLICY DOCUMENT</H4><P>
+
+A Security Policy Document will be prepared by the owner of a business
+process, outlining the system, the impact or loss associated with possible
+security failure, the threats to the system, the proposed countermeasures, and a
+risk analysis. The Security Policy Document will guide development and
+implementation of security features during the development life- cycle of the
+system that supports the business process, of which electronic security is an
+integral part. A Security Policy Document is also required for existing systems
+where the impact of security failure is high.<P>
+
+Details of all BT multi-user, administration and management systems must be
+registered by the Development Manager on the Applications Inventory. This is the
+catalogue of the company's software assets, and is used to inform People of what
+systems exist and assist management of the portfolio. The requirement to register
+covers systems that are either developed or procured by BT. Details may be found
+in section 10.<P>
+
+<H4>2.8 Security evaluation, certification and accreditation</H4><P>
+
+The accreditation life cycle is a process for checking that appropriate security is
+built into the specification, development and operational procedures for systems,
+thereby ensuring that the security requirements of the business are met prior to
+the system becoming operational.<P>
+
+Security accreditation for electronic systems has three main objectives:<P>
+<UL>
+<LI>to ensure that the level of security in BT's High Impact Systems is adequate;
+<LI>to prevent systems without adequate security being deployed until remedial
+action has been undertaken; and
+<LI>to provide a framework for the continued improvement of the quality of security
+in BT's systems.<P>
+</UL>
+<H4>2.8.1 Scope of accreditation</H4><P>
+
+System security accreditation is a process which is undertaken to ensure that
+security mechanisms, procedures and functions have been implemented in a way
+that guarantees a level of confidence in the quality of the system security.<P>
+
+The BT scheme, which is broadly based upon the 'Information Technology
+Security Evaluation Criteria' (lTSEC), is facilitated through agents operating on
+behalf of the Director of Security and Investigation.<P>
+
+<H4>2.8.2 Four-stage approach to security accreditation</H4><P>
+
+The object of Security Accreditation is to reduce the risk of security failure without
+unduly delaying the implementation of important systems. To assist in meeting
+this objective a four-stage accreditation process has been developed.<P>
+
+<H4>2.8.2.1 Stage 1 - Security Policy Document (Creation and Approval)</H4><P>
+
+The Security Policy Document (SPD) outlines the system, the impact or loss
+associated with possible security failure, the threats to the system and the generic
+countermeasures. The SPD will also contain a risk analysis and an assurance
+rating to be used during subsequent evaluation and certification. Only high impact
+systems progress into the evaluation, certification and accreditation stages. Note,
+however, that all new systems must have a System Security Statement, regardless
+of the need to progress into stage 2. The SPD is created by the owner of the
+business process and approved by DSecI.<P>
+
+<H4>2.8.2.2 Stage 2 - Evaluation</H4><P>
+
+Those systems which are to be included in the accreditation process, as indicated
+within the SPD and agreed by Director of Security and Investigation (DSecl), will
+be evaluated to ascertain that the required level of assurance has been achieved.
+The SPD is the baseline document against which the system is evaluated.<P>
+
+DSecI will nominate an evaluator to gain and subsequently analyse information on
+the following:<P>
+<DL>
+<DT>Requirements<DD>a detailed description of the system requirements relating to its
+security.
+
+<DT>Architectural design<DD>an examination of the system architecture.
+
+<DT>Detailed design<DD>a more detailed description on how specific security
+components have been designed.
+
+<DT>Implementation<DD>evidence of functional and mechanism testing. Examination of
+source code and hardware drawings.
+
+<DT>Configuration control<DD>evidence of an effective change control procedure which
+is able to provide unique identification of the system and details of an acceptance
+procedure.
+
+<DT>Program languages and compilers<DD>details about the language(s) used.
+
+<DT>Developers' security<DD>security procedures including physical and personnel
+arrangements.
+
+<DT>Operational documentation<DD>examination of the user and administration
+documentation provided.
+
+<DT>Operational environment - delivery and configuration<DD>configuration information, delivery and audited
+system generation procedures and evidence of an approved distribution
+procedure;
+<DT>Operational environment - startup and operation<DD>secure startup and operation procedures, including a
+description of security functions that have a relevance during system startup.
+Evidence that effective hardware diagnostic test procedures exist.
+</DL>
+<H4>2.8.2.3 Stage 3 - Certification</H4><P>
+
+Certification occurs after the system has been developed. In order for certification
+to be given, the evidence as described within the evaluation report(s) must show
+that security has been correctly applied during the development phase.<P>
+
+<H4>2.8.2.4 Stage 4 - Accreditation</H4><P>
+
+Final accreditation occurs after the system has been running for a limited period of
+time as agreed between DSecI and the Process Owner. The purpose of the trial is
+to allow the secure operating procedures to be assessed in a live environment. The
+system is then inspected in its operational environment to ascertain whether
+compliance has been achieved. When a security audit indicates that this aspect of
+security is satisfactory, final security accreditation can be given, after which the
+system enters the normal periodic security audit cycle.<P>
+
+<H4>POLICY 2.7: SECURITY ACCREDlTATION</H4><P>
+
+It is the responsibility of the owner of each business process, for which the
+impact of failure is high, before making operational use of the system to furnish
+the Director of Security and Investigation with evidence that the security
+requirements described in its Security Policy Document have been observed
+during the development life cycle.<P>
+
+<H4>2.9 Security approvals</H4><P>
+
+Many of the policies within the Computer Security Manual require that only
+products approved by the Director of Security and Investigation may be used to
+protect BT commercially sensitive information and processes.<P>
+
+SecID maintains a list of approved products. If you require a product to be
+submitted through the approvals procedure it is necessary to do this via SecID.
+See the contact data in Section 10.<P>
+
+<H4>2.10 Product security</H4><P>
+
+Developers and procurers of products for internal BT use should be aware of the
+target market for the products. An assessment must be made of the likely
+sensitivity of material handled by the product. Although security demands
+personal responsibility from the people carrying out a particular business process,
+managers should not avoid the responsibility of providing users with a secure
+product environment.<P>
+
+It is much better to design security into products rather than to add it on as an
+afterthought. Substantial economies of scale can be achieved by building security
+into products.<P>
+
+
+<H4>POLICY 2.8: PRODUCTS FOR INTERNAL USE</H4><P>
+
+Managers shall ensure that the security of products intended for internal BT
+use meet users' needs. A clear statement shall be included with all literature
+giving the sensitivity level for which the product is suitable, and the
+circumstances under which it will retain its suitability.<P>
+<HR>
+<CENTER><ADDRESS>&copy;1995 Cold Fire<BR>
+</ADDRESS>
+</CENTER><HR>
+</BODY>
+</HTML>

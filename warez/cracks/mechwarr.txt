@@ -1,0 +1,5 @@
+Crack> MechWarrior by Activision 
+crack written by The Mage 
+ 
+Using PCshell or Norton Utilities, search the file MW_MAIN.EXE for 
+04 00 FF 1E 2C 00 and change FF 1E 2C 00 to E9 31 01 90. 

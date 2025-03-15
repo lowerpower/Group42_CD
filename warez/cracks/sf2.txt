@@ -1,0 +1,17 @@
+Crack for Street Fighter 2 by Capcom
+
+Use Norton Disk Editor to search for
+the first occurrence of the following
+hex byte sequence in the file SF2.EXE:
+
+73 09 E2 D1
+
+Replace this sequence with:
+
+EB 09 E2 D1
+
+and write your changes to disk.
+
+You can now enter any word at the
+password protection screen and it
+will be accepted! Happy playing!

@@ -1,0 +1,587 @@
+<html>
+<h2>DTMF FAQ - TELEPHONE TONE DIALING CHIPS V1.06
+</h2>
+<hr>
+<pre>
+   Contents:
+   
+     * About the Author 
+     * Why I wrote this FAQ 
+     * Short introduction to DTMF 
+     * Decoding DTMF 
+     * List of DTMF-receiver chips 
+     * An alternative approach DSP 
+     * If you live in USA read this section ! 
+     * Addresses 
+     * Conclusion/About the Author 
+       
+   
+   
+     _________________________________________________________________
+   
+   
+   
+                               ABOUT THE AUTHOR
+                                       
+   Author : T.H. Tsim
+   Version: 1.0a
+   Date : August 25th, 1994
+   E-mail : tsjoit@solist.htsa.hva.nl
+   
+   Contributors: Terry Lalonde, Dbsnow, Andrew R. Ghali, Brad Yearwood,
+   Gary Schaum, Arkady Horak-Systems
+   
+   
+     _________________________________________________________________
+   
+   
+   
+                             WHY I WROTE THIS FAQ
+                                       
+   Hi! After reading sci.electronics for a couple of years, I've
+   discovered that many people are interested in decoding DTMF-signals
+   for various applications. A frequently asked question (FAQ) concerning
+   this subject is: "What IC should I use in order to decode DTMF
+   signals?"
+     _________________________________________________________________
+   
+   
+   
+                          SHORT INTRODUCTION TO DTMF
+                                       
+   DTMF means: Dual Tone Multiplexed Frequency, the tones you might have
+   heard while pressing the keys on your telephone. Each key produces a
+   slightly different signal, which is a mixture of two frequencies, i.e.
+   pressing '1' will send a tone made of 1209 Hz and 697 Hz to the other
+   end of the line.
+   
+   (From the Editor)
+   
+   Here's a more detailed explanation of what DTMF is:
+   
+   Q: What frequencies do touch tones use for which numbers?
+   
+   A: The touch tone system uses pairs of tones to represent the various
+   keys. There is a "low tone" and a "high tone" associated with each
+   button (0 through 9, plus * (star) and # (octothorpe or pound symbol).
+   The low tones vary according to what horizontal row the tone button is
+   in, while the high tones correspond to the vertical column of the tone
+   button.
+   
+   The tones and assignments are as follows:
+   
+
+          1     2     3     A  :  697 Hz
+
+          4     5     6     B  :  770 Hz
+                                           (low tones)
+          7     8     9     C  :  852 Hz
+
+          *     0     #     D  :  941 Hz
+        ----  ----  ----  ----
+        1209  1336  1477  1633 Hz
+               (high tones)
+
+or:
+
+          1209 Hz 1336 Hz 1477 Hz 1633 Hz
+
+                   ABC     DEF
+697 Hz      1       2       3       A
+
+           GHI     JKL     MNO
+770 Hz      4       5       6       B
+
+           PRS     TUV     WXY
+852 Hz      7       8       9       C
+
+                   oper
+941 Hz      *       0       #       D
+
+or:
+
+    1  697+1209
+    2  697+1336
+    3  697+1477
+    4  770+1209
+    5  770+1336
+    6  770+1477
+    7  852+1209
+    8  852+1336
+    9  852+1477
+    0  941+1336
+    *  941+1209
+    #  941+1477
+    A  697+1633
+    B  770+1633
+    C  852+1633
+    D  941+1633
+
+   
+   When the 4 button is pressed, the 770 Hz and 1209 Hz tones are sent
+   together. The telephone central office will then decode the number
+   from this pair of tones.
+   
+   The tone frequencies were designed to avoid harmonics and other
+   problems that could arise when two tones are sent and received.
+   Accurate transmission from the phone and accurate decoding on the
+   telephone company end are important. They may sound rather musical
+   when dialed (and representations of many popular tunes are possible),
+   but they are not intended to be so.
+   
+   The tones should all be +/- 1.5% of nominal. The high frequency tone
+   should be at least as loud, and preferably louder than the low
+   frequency. It may be as much as 4 db louder. This factor is referred
+   to as "twist." If a Touchtone signal has +3db of twist, then the high
+   frequency is 3 db louder than the low frequency. Negative twist is
+   when the low frequency is louder.
+   
+   Q: What are the A, B, C and D touch tone keys used for?
+   Why are they not found on touch tone phone sets?
+   
+   A: These are extensions to the standard touch-tones (0-9, *, #) which
+   originated with the U.S. military's Autovon phone network. The
+   original names of these keys were FO (Flash Override), F (Flash), I
+   (Immediate), and P (Priority) which represented priority levels that
+   could establish a phone connection with varying degrees of immediacy,
+   killing other conversations on the network if necessary with FO being
+   the greatest priority, down to P being of lesser priority. The tones
+   are more commonly referred to as the A, B, C and D tones respectively,
+   and all use a 1633 Hz as their high tone.
+   
+   Nowadays, these keys/tones are mainly used in special applications
+   such as amateur radio repeaters for their signalling/control. Modems
+   and touch tone circuits tend to include the A, B, C and D tones as
+   well. These tones have not been used for general public service, and
+   it would take years before these tones could be used in such things as
+   customer information lines; such services would have to be compatible
+   with the existing 12-button touch tone sets in any case.
+   
+   
+     _________________________________________________________________
+   
+   
+   
+                                DECODING DTMF
+                                       
+   There are many ways to detect and decode these DTMF tones. One idea
+   could be an eight sharp-tuned filter combination with detection
+   circuits. Needless to say, this is very impractical, considering the
+   various ICs (Integrated Circuits or 'chips') made by different
+   manufacturers all over the world.
+   
+   Most of these ICs do not require more than one (inexpensive) 3.58 MHz
+   x-tal or resonator and the power circuitry. Usually the output is
+   4-bit binary + 1 strobe.
+   
+
+            --------------
+           l              l- d3
+           l     DTMF     l- d2
+signal in -l    Decoder   l- d1     4-bit binary out
+           l     chip     l- d0
+           l              l- strobe
+            --------------
+
+   Note: This figure is merely for decoration, it does not imply package
+   information
+   
+   Nice text to read about DTMF and telephony can be found in:
+   
+          "Understanding Telephone Electronics"
+          Howard W.Sams & Co
+          ISBN: 0-672-27018-18
+          
+   
+     _________________________________________________________________
+   
+   
+   
+                         LIST OF DTMF-RECEIVER CHIPS
+                                       
+   The companies are listed in a random order:
+   
+   Silicon Systems Inc.
+          SSI202 DIP-18 [*]
+          
+          
+          SSI203 DIP-18
+          SSI204 DIP-14
+          
+   [*]: For those in the USA, see the addresses section for this chip.
+   
+   [filipg: addition follows]
+   
+   We have a pinout for the SSI-202 from WDUNCKEL1 (wdunckel1@aol.com):
+   
+
+Data 1  =|      |= Data 2
+HEX/B   =|  S   |= DATA 4
+ENABL   =|  S   |= DATA 8
+IN1633  =|  I   |= CLRDATA VALID
+VP      =|      |= DATA VALID
+NC      =|  2   |= ATB   (CLOCK OUT)
+GND     =|  0   |= X IN
+X ENBL  =|  2   |= X OUT
+ANALOGIN=|      |= GND
+
+   A 10 Meg resistor accross the colorburst crystal is neccessary. Pins
+   5,2,3,8 are tied high and 4,15,9,7,10 are tied to ground. Data output
+   on d1-d8 will be valid when data valid goes high.
+   
+   [filipg: back to the original FAQ]
+   
+   All req. 3.58 MHz (3.579545 MHz) crystal
+   
+   A neat and well documented design + PCB layout by Tom Miller KA1JQW,
+   can be found in "The ARRL handbook for radio amateurs", ISBN:
+   0-87259-169-7
+   
+   Chrystal Semiconductor Corp.
+          CS20x family
+          
+   OKI
+          MSM6843 DIP-28, 3.58, 4b1s
+          
+   Application note in OKI Telecom LSI data book
+   
+   Motorola
+          MC145436
+          
+          MC68HC05F5
+          
+   (From Arkady Horak-Systems)
+   
+   I spent about the last 14 months of my life working on an integrated
+   DTMF receiver here at Motolora and I would like to have you add the
+   part to the DTMF-list. The receiver is part of a 6805 8-bit
+   microcontroller and is called the MC68HC05F5. Here is a quick feature
+   list:
+   
+     * MC68HC05 based core micro
+     * Memory mapped I/O registers
+     * 5632 bytes of user ROM
+     * 224 bytes of RAM
+     * 15-bit multi-function timer
+     * Power saving STOP, WAIT and Data-Retention modes
+     * Mask optional COP (computer operating properly) or watchdog timer
+     * Self check ROM
+     * Fully static operation with no minimum clock speed
+     * 30 bidirectional I/O pins
+     * On chip oscillator for use with external crystal or ceramic
+       resonator 2 or 4 MHz operation only while DTMF rec. is functioning
+     * DTMF receiver
+     * 40 pin plastic dip or 44 pin plastic leaded chip carrier packages
+       
+   Being an avid electronics hobbyist I feel this part will see a lot of
+   service in hobby applications. This part is, to the best of my
+   knowledge the first general purpose microcontroller with an integrated
+   DTMF receiver. Currently only a ROM based version is available but as
+   sales grow a 705 or EPROM version may be manufactured. Also, this part
+   is compatible with the 6805 development tools and software.
+   
+   Arkady Horak <ark@oakhill-csic.sps.mot.com>
+   Motorola CSIC Microcontroller Division
+   Austin, TX
+   
+   Teltone
+          M957-0x DIP-22 or SOIC-24, 4b1s, 5 and or 12 Volt (read below)
+          
+   CAUTION: M957-02 and M957-01 differ in operating voltage!, M957-01 can
+   operate from 5 - 12V, M957-02 operates 5V only (not suitable for 12 V
+   apps!)
+   
+   A ready to build schematic by R.G. Krijgsman based on this Teltone
+   M957-2 chip can be found in: "Het Elektuur telefoonboek" ISBN
+   90-70160-94-3, (Dutch language)
+   
+   Unknown
+          KT3170 DIP-18, minimal ext. parts ?
+          
+   UMC, United Microelectronics Corp.
+          UM9203 DIP-18 4b1s and 2of8
+          UM9204 DIP-14
+          UM92870A/B/C DIP-18 (three variants)
+          
+   Examples of line-interfaces and app-notes in the UMC communications
+   ICs databook.
+   
+   Mitel Corp
+          MV8870 [*]
+          
+   You can get application notes (in PostScript) from the Mitel WEB
+   server: http://www.semicon.mitel.com/prod_sum_dtmf.html or FTP site:
+   ftp://ftp.semicon.mitel.com/pub.10may95/ic/dtmf
+   
+   [*]: For those in the USA, see the addresses section for this chip.
+   
+   Note:
+   
+    1. Mitel has an Application Note - MSAN-108, titled "Applications of
+       the MT8870 integrated DTMF receiver" in their Digital/Analog
+       Comunications Handbook ISSUE 9. From my experience this app. note
+       is valid for all Mitel tone recs.
+    2. Teltone seem to carry this type-number as well.
+       
+   
+   Toshiba
+          TC35301AP DIP-28, 4b1s
+          
+   You can get Application Notes
+   (http://rel.semi.harris.com:80/docs/datasheets/Linear_Integrated_Circu
+   its/Section_08/index.html) on the following chips from WWW. They are
+   in PostScript so be ready to print or download them.
+   
+   Harris
+          http://www.semi.harris.com
+          CD22202 DIP-18, 4b1s
+          CD22203 DIP-18 4b1s and 2of8
+          CD22204 DIP-14 or SOIC-24, 4b1s
+          
+   Legend:
+   
+     * 3.58 = an inexpensive 3.58 MHz needed
+     * 4b1s = 4-bit 1 strobe output (Hexoutput)
+     * 2of8 = 2-of-8 code
+       
+   
+     _________________________________________________________________
+   
+   
+   
+                         AN ALTERNATIVE APPROACH: DSP
+                                       
+   Another way to decode/produce DTMF signals is by applying a DSP, a
+   Digital Signal Processor. Practical examples of such an approach can
+   be found in the TMS320 BBS, which is currently being mirrored at
+   ftp://ti.com/mirrors/tms320bbs/. You may also wish to see the whole
+   index ftp://ti.com/mirrors/tms320bbs/00readme
+   
+   Files of interest concerning this faq are:
+   
+
+TEL-2-1.EXE   57K | DTMF Encoder/Decoder for C3x by DSP
+TEL-2-2.EXE   53K | DTMF Detection Data Sheet by Ensigma Ltd.
+DTMF10.EXE    24K | TMS320C10 based DTMF decoder
+DTMF10E.EXE   19K | TMS320C10 based DTMF encoder
+DTMF_C17.EXE 126K | TMS320C17 based DTMF encoder/decoder
+
+   
+     _________________________________________________________________
+   
+   
+   
+                    IF YOU LIVE IN USA READ THIS SECTION !
+                                       
+   (From the Editor)
+   
+   If you are designing a device that will attach to the phone line and
+   you are situates in USA, you will need to make the FCC happy. You can
+   either do this by submitting your completed circuit to them for
+   compliance testing (which can run a few thou$and) or you can purchase
+   a small device that is preapproved by the FCC. It is called DAA for
+   Data Access Arrangement. It is a small, usually potted, module that
+   isolates (literally) your circuit from the phone line.
+   
+   The FCC section you are trying to satisfy is part 68. You should visit
+   your local library and read up on it whether your get the preapproved
+   part or try to have the FCC [affiliated lab] do the testing .. or just
+   plain hope you don't get caught. It's pretty dry reading but that's
+   life.
+   
+   There are several different modules on the market that fit into this
+   category. They are:
+   
+     * XE0068 from:
+       
+       Xecom
+       374 Turquoise St
+       Milpitas, Ca. 95035
+       Tel: 1-408-945-6640
+       Fax: 1-408-942-1346
+       
+       "They carry quite a few different daa modules. Some with Touch
+       tone encode/decoder built in which sells for about $45. And a
+       basic daa for about $25."
+       
+     * 73M9001 from:
+       
+       TDK/Silicon Systems (SSi)
+       [no address or distributor - call DigiKey] "It is a 30 pin
+       socketed dual sided surface mount PCB. All protection is on the
+       module and includes a speaker driver and additional relay drivers.
+       Can be used up to 14.4KBPS V32.bis speeds."
+       
+     * Various from:
+       
+       Dallas Semiconductor
+       ftp://ftp.dalsemi.com/pub/datasheets/
+       Tel: 1-214-450-0448
+       
+     * CH1840 from:
+       
+       Cermetek
+       Sunnyvale, CA
+       Tel: 1-408-752-5000
+       Fax: 1-408-752-5004
+       
+       "The chip plugs into phone lines, splits the signal between input
+       and output, has pins for ringing, off-hook, etc. The chip has
+       FCC-transferable Part 68 registration, so it's 100% legal to
+       connect whatever you want to it. There's an international version
+       that should work down there in Oz."
+       
+       Someone was obviously not too happy using Cermetek parts. This is
+       included here NOT because I'm biased but as a general precaution
+       to designers. These things inherenly impose regulations. Need I
+       say more?.. he writes:
+       
+       I once worked on a telephone-interface project with the
+       unfortunate selection of the Cermetek parts. They were originally
+       chosen for their small size and supposed FCC ease, but it turns
+       out that a DDA interface from discrete parts was much cheaper and
+       much better quality.
+       
+       Cermetek problems:
+       
+          + They have HORRIBLE noise problems. I don't know why, but they
+            seemed to pick up every electric field in the machine and
+            amplify it to obnoxious levels. Probably something to do with
+            their "solid-state" transformer.
+          + The "Pre-FCC-approved" parts have to include a "squelch"
+            circuit to comply with FCC maximum level limitations. The FCC
+            specifies the maximum as some number of dB over a one second
+            period. Well, the squelch circuit does not take time into
+            account, so it clips any loud transient sound. This
+            frequently clips normal-level voice signals, and causes a
+            real problem when speaking loudly.
+          + The "pre-FCC-approved" part is also pretty big, about 1"x2",
+            if I remember. With modern parts, a good circuit can fit in
+            the same space.
+          + The FCC approval was just as hard with the part as without.
+            We had to include MOVs and other stuff between the Cermetek
+            and the phone line, and still go through all the testing
+            required of a discrete circuit.
+          + Since they're epoxy-potted modules, they can't be fixed, and
+            we had a serious problem with broken parts. Almost one in
+            three was unusable.
+          + The sidetone level (audio loopback) was much to high. It was
+            OK once the speaker on the Cermetek end became used to it,
+            but it bothered new users and would probably make data
+            transmission difficult.
+   
+       So, if you have the time and the need, invest the effort to build
+       a decent interface from parts. If you just need one for hobbyist
+       needs, the Cermetek might work, but I got better performance from
+       a phone interface ripped from a 1200 baud modem.
+       
+       There are just my experiences, and they were with early-rev parts,
+       so they may have improved. Still, it would have saved us several
+       months of engineering time if we had avoided Cermetek from the
+       start.
+       
+       (This from Steve in Vigra - you know who you are :-)
+       
+     * Kit from:
+       
+       CircuitWerkes
+       6212 SW 8th Place
+       Gainesville, FL 32606
+       Tel: 1-904-331-5999
+       Fax: 1-904-331-6999
+       
+       (FYI, this information posted by Dan Hoehnen and dated Sep 11,
+       1994)
+       
+       They sell a partial or full kit or an assembled unit for MPC-2. It
+       provides an FCC approved interface (if you buy the pre-assembled
+       unit) that gives you acces to audio in/out, ring detect and
+       off-hook detect connections.
+       
+       Circuit board only is $9.00, Complete MPC-2 kit is $19.95, MPC-2
+       that is assembled and FCC approved is $29.95
+       
+       The above mentioned company also sells an upgrade board that
+       basically conditions the outputs a little better for pc
+       interfacing.
+       
+       The upgrade can be bought for $69.95 kit, inlcludes an assembled
+       MPC-2. Or assembled for $99.95.
+       
+   
+     _________________________________________________________________
+   
+   
+   
+                                  ADDRESSES
+                                       
+   
+     * B.G. Micro, Inc.
+       P.O. Box 280298
+       Dallas, TX 75228
+       Tel: 1-800-276-2206
+       
+
+SSI-202        $2.25
+8870           $2.25
+   
+       
+     * Cermetek
+       Sunnyvale, CA
+       Tel: 1-408-752-5000
+       Fax: 1-408-752-5004
+       
+     * Dallas Semiconductor
+       ftp://ftp.dalsemi.com/pub/datasheets/
+       Tel: 1-214-450-0448
+       
+     * MITEL Semiconductor
+       http://www.semicon.mitel.com and
+       ftp://ftp.semicon.mitel.com
+       
+       Head office in Canada:
+       
+       MITEL Semiconductor
+       360 Legget Dr.
+       P.O. Box 13320
+       Kanata, Ontario, Canada K2K 1X3
+       Tel: 1-800-267-6244
+       Tel: 1-800-561-0860 (maybe)
+       Tel: 1-613-592-2122 (ask for Semiconductor Applications)
+       Fax: 1-613-592-6909
+       
+       UK Tel: 044 291430000
+       Fax: 044 291436389
+       
+       Germay Tel: 49 7117701522
+       Fax: 49 7117701524
+       
+   
+     _________________________________________________________________
+   
+   
+   
+                         CONCLUSION/ABOUT THE AUTHOR
+                                       
+   Well, that's the latest I've found on DTMF receivers. There are no
+   doubt other companies producing these kind of chips, so please let me
+   know and I'll improve this list (when I've got the time)
+   
+   Unfortunately, I'm not that experienced yet to answer any difficult
+   technical questions about this subject.
+   
+   For suggestions, improvements, info, flames, waterbuckets (?) please
+   e-mail me at: tsjoit@solist.htsa.hva.nl.
+   
+   I graduated July 1st 1994, so I won't continue writing updates for
+   this faq (no time, no space, no money :)
+   
+   I like to thank all of you who think this faq was usefull, especially
+   the ones who wrote me e-mail . I was very suprised to see this faq
+   appear in the most strange places on the Net :)
+   
+   Anyway...have fun with those di-du-dit-di-duh tones :)
+   
+</pre>
+<hr>
+</html>

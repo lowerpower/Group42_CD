@@ -1,0 +1,10 @@
+Crack for SIMPSONS by Satch.
+ 
+File: SIMPSONS.EXE (in \PRG dir)
+Search for  : 74 1A A0 E4 47
+Replace with: EB -- -- -- --
+ 
+Search for  : 75 03 E9 5C FF
+Replace with: EB -- -- -- --
+
+

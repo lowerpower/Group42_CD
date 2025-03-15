@@ -1,0 +1,52 @@
+                             FUJITSU F80M-360
+
+                NAM Type:  Fujitsu (PROM)
+            Manufacturer:  Fujitsu
+              Programmer:  Curtis or Bytek
+          ESN Prefix DEC:  133
+                     HEX:  85
+ ESN, S/N Match Required:  Yes
+    Programmable Handset:  No
+      Available Channels:  666
+
+     Phone Number Format:  XXX-XXX-XXXX
+        Lock Code Format:  XXX
+        System ID Format:  XXXXX
+       Horn Alert Option:  1
+        Handsfree Option:  0 (disable) or 1 (enable)
+   End-to-End Signalling:  1
+        Repertory Option:  1
+         Group ID Format:  XX
+   Access Overload Class:  XX
+           Station Class:  00
+               Local Use:  1
+              MIN Option:  1
+  Initial Paging Channel:  333 or 334
+        Preferred System:  0 (B) or 1 (A)
+
+Determine software version from IC 2 on logic board befroe setting the option
+bits. Last three digits on the PROM will be 003 or 004 to indicate the software
+level.
+
+Option Bits for Hex Address 13
+
+   Bit       Curtis       Software           Software
+Location    Location      Version 003        Version 004
+   B0          37         Call in absence    Call in Absence
+   B1          38         Expanded Memory    Lock Feature
+                                 (00-39)        Bit-A
+   B2          39         DTMF from memory   Lock Feature
+                           Locations (30-39)    Bit-B
+   B3          40         System Select      Not used
+   B4          41         Not used           Expanded memory (00-39)
+   B5          42         Not used           DTMF from memory
+                                              Location (30-39)
+   B6          43         Not used           Call Timer Bit A
+   B7          44         Not used           Call Timer Bit B
+
+Lock Feature                     Call timer
+Bit A   Bit B                    Bit A   Bit B
+  0       0     Outgoing           0       0      6 seconds
+  0       1     Incoming           0       1     15 seconds
+  1       0     Auto Outgoing      1       0     30 seconds
+  1       1     Auto Incoming      1       1     60 seconds

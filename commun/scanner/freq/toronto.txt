@@ -1,0 +1,91 @@
+
+
+TORONTO AND AREA FREQUENCIES OF INTEREST TO SCANNER OWNERS.
+
+THE FOLLOWING ARE ONLY SOME OF THE MANY FREQUENCIES IN USE IN THE TORONTO
+AREA.  THE LISTING THAT FOLLOWS ARE THE MOST ACTIVE DAILY.
+
+
+                                   MHZ
+PEARSON INTERNATIONAL AIRPORT-    118.0    control tower
+                             -    118.7    clearance/departures-arrivals
+                             -    119.3    VFR-Tower
+                             -    120.825  ATIS
+                             -    121.3    ground control
+                             -    121.65   ground control
+                             -    121.9    ground control
+                             -    122.35   TERMINAL FORCASTS
+                             -    125.4    Toronto Arrivals
+                             -    124.475  Toronto Arrivals
+                             -    125.775  Toronto Arrivals
+                             -    127.0    Toronto Center
+                             -    128.275  Toronto Center
+                             -    128.8    Toronto Center
+                             -    129.275  Air Ambulance (MEDCOMM)
+                             -    130.375  Toronto Stock (AirCanada)
+                             -    130.8    Canadian Airlines Int.
+                             -    133.1    ATIS
+                             -    134.575  Toronto Center
+                             -    135.62   Toronto Center
+                             -    236.8    Toronto Center
+                             -    294.5    Toronto Center
+                             -    461.3625 Air Canada Cargo
+                             -    462.425  Air Canada Base
+                             -    467.4375 Air Canada Load
+
+
+                                                         
+FIRE DEPARTMENTS             -    154.325  Etobicoke
+
+                             -    153.830  North York - Operations
+                             -    153.395  North York - freq 2
+
+                             -    154.400  East York
+
+                             -    154.890  York 
+                                               
+                             -    154.430  Scarborough - Operations
+                             -    154.265  Scarborough
+                             -    153.950  Scarborough
+
+                             -    411.9875 Toronto - Operations
+                             -    411.7875 Toronto - TAC 2
+                             -    411.8625 Toronto - TAC 4
+                             -    412.3125 District Chief
+
+
+AMBULANCE                    -    152.375  North West  Area 1 (BLS)
+                             -    151.820  North East  Area 2 (BLS)
+                             -    150.530  South West  Area 3 (BLS)
+BLS = BASIC LIFE SUPPORT     -    148.165  South East  Area 4 (BLS)
+ALS = ADVANCED LIFE SUPPORT  -    143.340  Paramedics (ALS)
+                             -    148.360  Supervisors freq.7
+                             -    150.100  Provincial Common
+                             -    414.2625 Provicial Common RPT.
+
+
+
+POLICE DIVISIONS         DESK    BASE        MOBILE          DIVISION
+                                                                     
+                                 142.875     138.675         11 , 12
+                                 142.305     138.105         13     
+                                 142.965     138.855         14     
+                                 142.905     138.705         21 , 22 ,23
+                                 142.035     138.945         31
+
+                                 142.065     138.975         32 , 33  
+                                 142.725     138.315         41
+                                 142.155     138.045         42 , 43 
+                                 142.335     138.135         51 , 53 
+                                 142.995     138.885         52
+                                 142.695     138.285         54 , 55  
+
+                                 
+MITRE FREQUENCIES (hand held units)       -  148.850   1 District
+                                          -  148.490   2 District
+                                          -  156.240   3 District
+                                          -  155.550   4 District
+                                          -  155.400   5 District
+                                          -  410.9625  EMERGENCY TASK FORCE
+
+

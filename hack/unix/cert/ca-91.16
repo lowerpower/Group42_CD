@@ -1,0 +1,68 @@
+===========================================================================
+CA-91:16                        CERT Advisory
+                              September 18, 1991
+                    SunOS SPARC Integer Division Vulnerability
+
+---------------------------------------------------------------------------
+
+The Computer Emergency Response Team/Coordination Center (CERT/CC) has
+received information concerning a vulnerability in Sun Microsystems,
+Inc. (Sun) integer division on their SPARC architecture.  This vulner-
+ability exists on all SPARC platforms (including sun4 and sun4c)
+for SunOS versions 4.1 and 4.1.1.
+
+Sun has provided patches for this vulnerability. They are available through
+your local Sun Answer Centers worldwide as well as through anonymous
+ftp from the ftp.uu.net system (in the sun-dist directory).  
+
+Fix                        Patch ID       Filename            Checksum
+/sys/sun{4,4c}/OBJ/crt.o   100376-01      100376-01.tar.Z     09989    11
+
+Please note that Sun Microsystems sometimes updates patch files.  If
+you find that the checksum is different please contact Sun Microsystems
+or us for verification.
+---------------------------------------------------------------------------
+
+I.   Description
+
+     A security vulnerability exists in the integer division
+     on the SPARC architecture that can be used to gain root
+     privileges.
+     
+II.  Impact
+
+     Any user logged into the system can gain root access.
+
+III. Solution 
+        
+     Replace /sys/sun{4,4c}/OBJ/crt.o and rebuild the kernel(s)
+     necessary for your host configuration(s).  Reboot each host
+     using the appropriate kernel.
+
+     Please refer to the System and Network Administration
+     Manual for instructions on building and configuring a
+     new custom kernel.
+
+---------------------------------------------------------------------------
+The CERT/CC wishes to thank Gordon Irlam of the Department of Computer,
+University of Adelaide, Australia, for bringing this vulnerability to
+our attention and for his further assistance with the solution.  We
+also wish to thank Sun Microsystems for their prompt response to this 
+vulnerability.
+---------------------------------------------------------------------------
+
+If you believe that your system has been compromised, contact CERT/CC via
+telephone or e-mail.
+
+Computer Emergency Response Team/Coordination Center (CERT/CC)
+Software Engineering Institute
+Carnegie Mellon University
+Pittsburgh, PA 15213-3890
+
+Internet E-mail: cert@cert.org
+Telephone: 412-268-7090 24-hour hotline:
+           CERT/CC personnel answer 7:30a.m.-6:00p.m. EDT,
+           on call for emergencies during other hours.
+
+Past advisories and other computer security related information are available
+for anonymous ftp from the cert.org (192.88.209.5) system.

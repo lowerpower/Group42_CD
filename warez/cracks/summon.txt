@@ -1,0 +1,7 @@
+This is the crack for The Summoning by SSI.
+
+Edit the file: CODE.1
+Look for:     E8 69 FB 59 33 F6 EB 2A C7 06
+Replace with: E8 69 FB 59 33 F6 EB 2F C7 06
+
+This crack brought to you courtesy of Masher!

@@ -1,0 +1,42 @@
+---------------------------------------------------------
+(1)
+WORLD CIRCUIT Formula 1 Grand Prix (ORIGINAL VERSION 1.03)
+ 
+FILE TO SEARCH:  GP.EXE
+ORIGINAL FILE SIZE: 332840  DATE: 11-25-92
+SEARCH STRING:  BA 43 00 B0 00 EE 4A 4A
+CHANGE TO:      BB 92 0B B8 0B 00 5A CB
+
+Always enter same word at protection screen: monza
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+(2)
+WORLD CIRCUIT Formula 1 Grand Prix (MODEM UPDATE VERSION 1.04)
+ 
+FILE TO SEARCH:  GP.EXE
+ORIGINAL FILE SIZE: 321716  DATE: 3-4-93
+SEARCH STRING:  B8 00 00 9A 0A 08 64 8B C1 EB 02
+CHANGE TO:      B8 0B 00 9A 25 08 64 8B BB E4 02 
+
+Always enter same word at protection screen: monza
+---------------------------------------------------------
+
+---------------------------------------------------------
+(2)
+WORLD CIRCUIT Formula 1 Grand Prix (MODEM UPDATE VERSION 1.05)
+ 
+FILE TO SEARCH:  GP.EXE
+ORIGINAL FILE SIZE: 321878  DATE: 3-4-93
+SEARCH STRING:  B8 00 00 9A 0A 08 6E 8B C1 EB 02
+CHANGE TO:      B8 0B 00 9A 25 08 6E 8B BB E4 02 
+
+Always enter same word at protection screen: monza
+
+Note: One person has said that the 1.04 crack will exactly
+work on some versions of 1.05. It may be a difference between
+European and US versions. I suggest that you use the search
+string to determine which crack applies to you.
+---------------------------------------------------------
+

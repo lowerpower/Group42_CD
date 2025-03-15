@@ -1,0 +1,648 @@
+                    
+
+
+
+
+
+                         NOTICE
+
+
+    *********************************************************    
+
+       
+
+                         NOTICE
+
+
+   *********************************************************
+
+
+This document was originally prepared in Word Perfect.  
+
+If the original document contained--
+
+                    *  Footnotes
+                    *  Boldface & Italics
+
+--this information  is missing in this version
+
+The document format (spacing, margins, tabs, etc.) is changed
+too.
+
+If you need the complete document, download the Word Perfect
+version.
+
+For information about downloading documents (FTP) see file
+ how2ftp.
+
+File  how2ftp (.txt & .wp) is in directory
+\pub\Public_Notices\Miscellaneous.
+
+*****************************************************************
+********
+$//Applications for Review, Stephen Paul Dunifer, FCC 95-333//$
+$/ 1.115 Application for review/$
+$/ 0.311 Authority Delegated 
+$/ 0.314 Additional Authority delegated/$
+$/ 500.503 Forfeitures in cases of rebates and offsets/$
+                                Before the
+                     FEDERAL COMMUNICATIONS COMMISSION
+                          Washington, D.C. 20554
+
+In the Matter of                     )
+                                     )
+Application for Review of            )
+Stephen Paul Dunifer                 )
+Berkeley, California                 )       NAL/Acct. No. 315SF0050 
+                                     )
+
+                       MEMORANDUM OPINION AND ORDER
+
+Adopted:   August 1, 1995        Released:  August 2, 1995
+
+By the Commission:
+                              I. INTRODUCTION
+
+     1.  In this Memorandum Opinion and Order we address an Application
+for Review filed by Mr. Stephen Paul Dunifer pursuant to Section 1.115 of
+the Commission's Rules, 47 C.F.R.  1.115.  Mr. Dunifer seeks review of a
+Notice of Forfeiture in the amount of $20,000 assessed against him under
+delegated authority by the Compliance and Information Bureau (CIB) of the
+Federal Communications Commission (FCC), pursuant to Section 503 of the
+Communications Act of 1934, as amended (the Act), 47 U.S.C. 503(b) and
+Sections 0.311 and 0.314 of the Commission's rules, 47 C.F.R.  0.311,
+0.314.  This forfeiture was imposed on Mr. Dunifer for broadcasting
+without a license in violation of Section 301 of the Act, 47 U.S.C.  301. 
+Stephen P. Dunifer, NAL/Acct. No. 315SF0050 (FOB Nov. 8, 1993) (Forfeiture
+Order).  We grant the application for review in part, deny it in part, and
+assess a forfeiture of $10,000. 
+
+                              II. BACKGROUND
+
+     2.  On April 25, 1993, from 9:00 p.m. to 10:10 p.m., Pacific Daylight
+Time (PDT), an agent from the CIB's San Francisco field office monitored
+transmissions on frequency 88.1 megahertz that emanated from a radio
+station identifying itself as "Free Radio Berkeley."  The signals were
+isolated by the agent to the vicinity of 6th Street and Allston Way in
+Berkeley, California.  On May 2, 1993, agents from the San Francisco
+office again monitored transmissions on frequency 88.1 megahertz by "Free
+Radio Berkeley" station from 9:00 p.m. to 10:00 p.m. (PDT).  Using
+close-in direction finding techniques, the agents located the source of
+the transmission as a dipole antenna at an apartment at 809B Allston Way,
+Berkeley, California.  See Forfeiture Order, at 1, 4. 
+
+     3.  The agents remained outside the apartment and measured the
+strength of the transmission signals.  The measured field strength, 630
+uV/m at 700 meters, exceeded the maximum authorized field strength for
+non-licensed transmitters, which is 250 uV/m at 3 meters.  See 47 C.F.R. 
+15.239(b), Forfeiture Order, at 2.  In addition, transmission of the
+signals measured in the instant case comported with the technical
+characteristics of signals on the FM frequency band.  Any operator
+transmitting on this band must be licensed.  See 47 U.S.C.  301, 309. 
+
+     4.  Under Section 303(n) of the Communications Act, 47 U.S.C. 
+303(n), radio installations associated with a radio station must be made
+available for inspection by a Commission representative upon reasonable
+request.  At 9:55 p.m. (PDT) on May 2, 1993, one of the agents approached
+the residence from which the transmissions were originating and attempted
+to inspect the radio station that was in operation.  A man who Commission
+investigators stopped as he left his residence, and who the investigators
+later identified as Stephen Paul Dunifer, refused to allow inspection and
+claimed ignorance of any radio station. 
+   
+     5.  A subsequent search of Commission records indicated that Mr.
+Dunifer has no license to operate an FM radio station.  Forfeiture Order,
+at 2.  On June 1, 1993, the CIB San Francisco field office issued a Notice
+of Apparent Liability (NAL) to Mr. Dunifer.  After evaluating Mr.
+Dunifer's response, the CIB San Francisco field office issued him a Notice
+of Forfeiture (NOF).  Mr. Dunifer then filed the instant Application for
+Review. 
+
+
+
+                              III. DISCUSSION
+
+     6.  In his Application for Review, Mr. Dunifer contends that the
+Commission's broadcast rules violate his constitutional right of free
+speech under the First Amendment, U.S. Const. amend. I, violate the Due
+Process and Equal Protection Clauses of the Constitution, U.S. Const.
+amend. XIV,  1, and violate international treaties such as the United
+Nations Declaration of Human Rights.  With respect to the instant case, he
+contends that the Commission's forfeiture action violates the Commerce
+Clause of the United States Constitution, U.S. Const. art. I,  8, cl. 3,
+and that the Commission's action assessing the forfeiture failed to meet
+established procedural requirements, and violated his Fifth and Sixth
+Amendment rights, U.S. Const. amends. V, VI;  in addition, Mr. Dunifer
+contends that the $20,000 forfeiture is excessive.  At the outset, we turn
+our attention to Mr. Dunifer's argument that the Commission's broadcast
+rules violate the United States Constitution and international treaties. 
+
+     7.  Mr. Dunifer challenges the licensing system established in
+Section 301 of the Communications Act.  He argues that the Commission's
+rules, which do not provide for the licensing of stand-alone audio
+broadcast stations under 100 watts, operate as an unduly restrictive,
+total ban against low-power broadcasting, and thus contravene the First
+Amendment right of free speech.  In support of his argument, Mr. Dunifer
+defines low power broadcasting as a transmitter operating with a power of
+10 watts or less.  Application for Review, at 4.  Mr. Dunifer then argues
+that the Commission has failed to establish that the regulations at issue
+are the least restrictive means to further a substantial state interest. 
+Application for Review, at 7.  To illustrate his argument, Mr. Dunifer
+points to Canada's regulatory scheme which, he claims, establishes
+procedures for low power broadcasting. 
+
+     8.  For the reasons that follow, we reject Mr. Dunifer's argument
+that the Commission's rules abridge an asserted First Amendment right of
+free speech.  Mr. Dunifer's constitutional arguments directly challenge
+the 60-plus-year statutory approach to the licensing of broadcast
+transmissions.  By statute, Congress designed a licensing system which
+requires anyone who wishes to broadcast to submit a "written application"
+to the Commission with the information required by Section 308 of the
+Communications Act, 47 U.S.C.  308, and the Commission's implementing
+regulations, and which prohibits operation of a radio station without a
+license granted by the Commission.  47 U.S.C.  301.  One of the principal
+reasons for requiring an FCC license to broadcast is to prevent
+interference with broadcast signals so that such signals can be received
+by the public.  In the absence of a system requiring a license before
+broadcasting can commence, it is not clear how interference conflicts
+would be resolved.  At the very least, however, these conflicts would have
+to be resolved in almost all, if not all, cases after the interference has
+occurred.  This approach would be costly, disruptive, inefficient, and
+directly contrary to the express will of Congress.  Moreover, the United
+States Supreme Court has held repeatedly that there is no constitutional
+right to use radio facilities without a license and that the FCC has
+authority to regulate the radio spectrum.  See Red Lion Broadcasting Co.
+v. FCC, 395 U.S. 367, 388 (1969) ("Where there are substantially more
+individuals who want to broadcast than there are frequencies to allocate,
+it is idle to posit an unabridgeable First Amendment right to broadcast
+comparable to the right of every individual to speak, write or publish");
+National Broadcasting Co. v. United States, 319 U.S. 190, 227 (1943) ("The
+right of free speech does not include . . . the right to use the
+facilities of radio without a license").  See also Turner Broadcasting
+System, Inc. v. FCC, 114 S. Ct. 2445, 2456-57 (1994) ("The scarcity of
+broadcast frequencies . . . required the establishment of some regulatory
+mechanism to divide the electromagnetic spectrum and assign specific
+frequencies to particular broadcasters"). 
+
+     9.  Given that the requirement for a license is thus clearly
+constitutional, if Mr. Dunifer believes it would be unconstitutional for
+the FCC to deny him a license, he should have, consistent with the
+Communications Act, asked for a license, along with a request for a waiver
+of the relevant rules limiting low power FM service.  If such a request
+were denied, he could appeal to the U.S. Court of Appeals for the D.C.
+Circuit pursuant to 47 U.S.C.  402(b)(1).  See WAIT Radio v. FCC, 418
+F.2d 1153 (D.C. Cir. 1969) (FCC must consider waiver request of applicant
+who makes a nonfrivolous First Amendment claim); Turro v. FCC, 859 F.2d
+1498 (D.C. Cir. 1988) (Court reviews and rejects a First Amendment
+challenge to an FCC decision refusing to waive its rules prohibiting low
+power FM translator stations from originating local programming). 
+Alternatively, if Mr. Dunifer believes the FCC's existing low power FM
+rules are unconstitutional, he could have filed a petition for rulemaking
+pursuant to 47 C.F.R.  1.401.  If this request were denied, he could have
+filed a petition for review in a court of appeals pursuant to 47 U.S.C. 
+402(a).  See Quincy Cable TV, Inc. v. FCC, 768 F.2d 1434 (D.C. Cir. 1985),
+cert. denied, 476 U.S. 1169 (1986) (FCC denied a petition for rulemaking
+to repeal certain rules and court of appeals, in reviewing FCC's order,
+held rules unconstitutional). 
+
+     10.  In any event, Mr. Dunifer's argument that the Commission's rules
+limiting licenses for low power FM services violate the First Amendment is
+unavailing.  Indeed, the D.C. Circuit has already upheld these rules under
+the First Amendment.  See Turro v. FCC, 859 F.2d at 1500 n. 2.  The
+Commission's technical rules and regulations which, inter alia, impose
+requirements on the power levels of stand-alone radio stations, are not
+content-based.  As such, they need only be a reasonable means of promoting
+the statute's public interest standard in order to survive a First
+Amendment challenge.  FCC v. National Citizens Committee for Broadcasting,
+436 U.S. 775, 802 (1978).  Even if this case did involve content-based
+rules, it is well established that strict scrutiny would not apply.  At
+most, intermediate scrutiny would apply.  See FCC v. League of Women
+Voters of California, 468 U.S. 364, 380-381 (1984); Red Lion Broadcasting
+Co. v. FCC, 395 U.S. at 387-388.  For the reasons stated below, the
+Commission's Rules are reasonable and would be sustained under the
+intermediate scrutiny test. 
+
+     11.  At issue in this case is the Commission's statutory objective of
+ensuring a "fair, efficient, and equitable distribution of radio service"
+in the United States.  See 47 U.S.C.  307(b), and related sections of the
+Act.  The Commission's rules pertaining to low power broadcast services
+are reasonably related to this permissible statutory objective and are
+designed to allow the most efficient use of the spectrum.  Contrary to Mr.
+Dunifer's argument, the Commission's rules do not prohibit all low power
+services.  For example, the Commission's rules provide for FM translator
+stations and booster stations which transmit at powers well below the 100
+watt minimum established for primary broadcast stations.  47 C.F.R. Part
+74, Subpart L.  These rules establish technical operating requirements and
+licensing procedures for these low power facilities. 
+
+     12.  Moreover, the Commission's rulemaking proceedings reflect the
+Commission's efforts to examine the issue of low power broadcasting in
+light of the public interest.  In particular, in the proceeding that
+increased the minimum operating power of non-commercial educational
+broadcast stations to 100 watts, the Commission discussed and weighed
+several competing public interest claims.  In this notice and comment rule
+making proceeding, the Commission considered the public's interest in
+greater access to broadcast service and the more efficient use of the
+spectrum, and also considered the particular interest of rural or distant
+communities in obtaining access to noncommercial, educational programming. 
+The Commission balanced these considerations against the potential
+increased interference to other services, and specifically to TV Channel
+6.  The Commission's public interest determination to provide for
+increased power for these facilities was based on its goal of providing,
+on a nation-wide basis, a stable, efficient, and diverse radio
+communications service.  The Commission arrived at its decision only after
+considering issues pertaining to a proposed assignment table for
+noncommercial stations, varying hours of service, the nature of
+educational FM stations, co-location of FM stations, revised TV receiver
+standards, use of TV receiver interference filters, use of vertical
+antenna polarization, and alternate programs for interference prediction. 
+
+     13.  More recently, the Commission considered at length the issue of
+local program origination authority for FM translators, which, if
+approved, would have effectively established a low power FM broadcast
+service.  Amendment of Part 74 of the Commission's Rules Concerning FM
+Translator Stations, (Report and Order) 5 FCC Rcd 7212 (1990), recon.
+denied, 8 FCC Rcd 5093 (1993).  After considering the arguments raised by
+the proponents of program origination, we concluded that "we should not
+authorize program origination for FM translators."  The Commission
+explained: 
+
+     In view of our commitment to provide FM radio . . .      
+     service in a manner that promotes program diversity
+     while enhancing the incentives for efficient broadcast
+     station development, we believe it is desirable to
+     hold constant the existing relationship between FM       
+     broadcast stations and translator service.
+
+Report and Order, 5 FCC Rcd at 7219  48.  On reconsideration, the
+Commission again explained why it prohibits program origination by FM
+translators.  We reiterated that "the proper role of FM translators is to
+provide secondary service to areas where direct reception of signals from
+FM broadcast stations is unsatisfactory due to distance or intervening
+terrain obstructions."  8 FCC Rcd at 5097  27.  The Commission stressed
+that it "remain[s] committed to providing FM radio broadcast service in a
+manner that promotes program diversity while enhancing the incentives for
+efficient full-service broadcast station development."  Id.  And, we said
+that, "it is necessary to distinguish between the services provided by low
+cost translators and FM radio broadcast stations due to our preference to
+provide service through more efficient radio broadcast stations."  Id. at
+ 28.  Thus, it is clear that the Commission has examined the issue of
+providing a low power FM service and has afforded an opportunity for
+public comment in this matter.  Our decision not to establish this service
+was based on the record developed in that proceeding and Mr. Dunifer has
+not presented any evidence to challenge the reasonableness of our
+determination. 
+
+     14.  In this regard, a low power station could not co-exist with a
+nearby high power station; the interference received would be too
+destructive.  However, at the edge of the high power station's protected
+service contour, where its signal is weakened by distance, a low power
+station could operate because the interference received by the low power
+station would be tolerable for a secondary operation.  But this is
+unacceptable from a public interest standpoint because the low power
+station would cause objectionable interference to the reception by the
+audience of the primary station's signal.  Such interference to the
+primary station could be difficult to identify and correct, and would
+serve to lower the quality of the FM broadcasting service.  Moreover, all
+broadcast stations must maintain their signals on their assigned center
+frequency within their assigned frequency bands.  Unauthorized low power
+transmitters which are typically used by unlicensed radio operators do not
+meet minimum operating standards for stability and signal purity. 
+Inevitably some of them will generate spurious emissions that will cause
+interference but will be difficult to locate. 
+
+     15.  The Commission, through rule making proceedings, has developed a
+licensing system that serves a wide range of conditions and a licensing
+system that is adaptable to changing circumstances, but avoids the
+extremes in permissible power.  The Commission, therefore, does not allow
+low power FM radio broadcasting because it is an inefficient use of the
+spectrum nor do we permit the highest power that the technology could
+achieve because that would reduce the number of stations and,
+consequently, the diversity of voices.  Absent appropriate technical rules
+and licensing requirements, broadcast speech would be unintelligible to
+listeners, and the Commission's goal of promoting diversity of voices
+would be undermined.  In particular, we do not authorize low power FM
+radio broadcast stations because they cannot adequately serve communities
+and mobile audiences, and because they would preclude the establishment of
+more efficient, stable, full powered stations.  Conversely, we have put
+maximum limits on the size of stations so as to promote a diversity of
+voices.  Mr. Dunifer has presented no petition or argument to persuade us
+that our rules should be changed, let alone that they are
+unconstitutional. 
+   
+     16.  FM broadcasting is a service based on protected service
+contours.  A proposed new station or one which seeks to modify its current
+facilities must ensure both that it will not cause interference to the
+service of other stations, and that it will not receive interference
+within its defined service area.  In FM broadcasting, the biggest
+constraint on the numbers and types of stations that can be authorized is
+interference from stations operating on the same channel.  Interference to
+and from stations operating on first, second, and third adjacent channels
+is also a constraint but has greater impact on the location of a station
+than on the total number that can operate in a region. 
+
+     17.  Thus, if within a given region, we seek to authorize as many
+co-channel stations as possible, only a portion of a region will receive
+service of a satisfactory quality, and the remainder of the region will be
+covered by multiple interfering signals.  The ratio of service area to
+interference area is not a constant.  Because of the way radio signals
+propagate, and the way service and interference are determined, the
+proportion of the region receiving service would be greater if higher
+powered stations were established.  Permitting low power facilities, as
+Mr. Dunifer recommends, would lead to a larger number of stations but less
+overall service.  Simply put, full power broadcast facilities are more
+spectrally efficient. 
+
+     18.  In addition to general concerns about spectrum efficiency, there
+is the matter of preclusion.  Under this principle, the presence of one
+station at a particular site prohibits the establishment of other stations
+on the same or adjacent channels in that general area in order to avoid
+destructive interference.  A simple example shows how preclusion and
+service are related.  A 10 watt station with a 100 meter antenna has a
+service radius of 5.9 kilometers and a service area of 109 square
+kilometers.  To protect this hypothetical low power station from
+interference by a co-channel Class A FM station operating at 6 kilowatts,
+we would need to preclude the establishment of that Class A station within
+a distance of 92.6 kilometers from the transmitter for the low power
+station.  In contrast, one Class A station would preclude another
+co-channel Class A station within a distance of 115 kilometers.  A Class A
+station, however, operating at 6 kilowatts with a 100 meter antenna has a
+service radius of 28.3 kilometers and a service area of 2,516 square
+kilometers.  Therefore, while the preclusive effect of a Class A station
+is 24 percent greater than the 10 watt station (115 kilometers divided by
+92.6 kilometers), the service radius of a Class A station is almost 500%
+greater than the smaller station (28.3 kilometers divided by 5.9
+kilometers).  Although the preclusive effect of a station increases with
+power, as we would expect, the service radius (and area) increases at a
+much faster rate.  If we treat preclusion as a cost and service as a
+benefit, the cost/benefit ratio improves with power; but the ratio is very
+poor for low powered stations. 
+     
+     19.  As noted before, Mr. Dunifer contends that Canada's scheme for
+the provision of low power services demonstrates that it is possible to
+design rules that are less restrictive than the Commission's current
+rules.  In his pleadings, Mr. Dunifer contends that low power broadcasting
+should be permitted absent transmissions that cause interference to
+licensed or navigational broadcasts.  See Application for Review, at iv. 
+At the outset, we note that the Canadian scheme provides no support for a
+claim that low power broadcast services should generally be permissible
+without first obtaining a license.  Like the United States, Canada does
+license most broadcast facilities, including its low power broadcast
+services.  Our examination of the Canadian regulatory scheme reveals that
+most low power FM stations are licensed and closely regulated by the
+Department of Communications and Canadian Radio- Television and
+Telecommunications Commission (CRTC).  See Public Notice CRTC 1993- 95. 
+Violations of the licensing rules can result in sanctions and penalties,
+including contempt charges. Id.  Moreover, the Canadian low power services
+(which include rebroadcasting; community radio in rural or remote areas;
+travel services; and temporary broadcast facilities for work camps,
+student services, and special events) are similar to those provided for in
+the United States under Parts 15, 73 and 74 of the Commission's rules and
+under other sections of the Commission's rules and of the Communications
+Act (e.g., FM translators, low power traveler's advisory stations, Class A
+FM broadcast stations, and FM noncommercial educational stations). 
+
+     20.  To the extent that the Canadian licensing rules allow some low
+power services that are not permitted under our rules, there are vast and
+critical differences between the two countries that justify our decision
+to have a more restrictive policy.  Specifically, the United States has
+over 6900 conventional FM stations whereas Canada has only 334
+conventional FM broadcast stations.  The most heavily used frequency in
+Canada -- 92.1 megahertz -- supports eight stations; the United States has
+139 stations on the same frequency.  Broadcasting Yearbook, Vol. I, pp.
+B-556, B-577 (1995 ed.).  Thus, while Canada can allow low power stations
+even in urban areas, spectrum efficiency considerations create different
+obstacles for low power services in the United States. 
+
+     21.  In arguing that the Commission's rules are constitutionally
+invalid, Mr. Dunifer further asserts that the Commission has exceeded any
+authority to regulate interstate communications under the Commerce Clause
+of the Constitution.  He argues that, although Section 301(d) of the Act
+authorizes the Commission to regulate radio communications within one
+state as well as between states, the statute must be interpreted and
+applied in a manner consistent with constitutional limitations.  In
+particular Mr. Dunifer claims that, because there has been no showing that
+his transmissions caused or may cause harmful interference, the Commission
+cannot prohibit his unlicensed transmissions. 
+
+     22.  This is a fundamentally erroneous view of the regulatory system
+for broadcasting as established in the Communications Act and interpreted
+by the Supreme Court.  Section 301 of the Act specifically prohibits the
+transmission of radio communications without a license from one place in a
+state either to "another place in the same State," (emphasis added), or to
+"any other State," Section 301(b).  These provisions make no reference to
+any requirement for a showing with regard to harmful interference before
+they can be enforced.  Section 301(d) similarly makes clear the
+applicability of the radio licensing requirement without the necessity for
+a showing of interference as a result of the radio transmission at issue. 
+The requirement for a license in order to broadcast has been upheld by the
+Supreme Court as a proper exercise of the constitutional power of Congress
+over commerce.  National Broadcasting Co. v. United States, 319 U.S. at
+209-217 ("Regulation of radio was as vital to its development as traffic
+control was to the development of the automobile.  * * * The facilities of
+radio are not large enough to accommodate all who wish to use them"); FCC
+v. League of Women Voters of California, 468 U.S. at 377 ("The fundamental
+distinguishing characteristic of the new medium of broadcasting . . . is
+that [b]roadcast frequencies are a scarce resource [that] must be
+portioned out among applicants").  There is no support whatever in these
+or any other Supreme Court decisions for Mr. Dunifer's view that the
+licensing requirement in Section 301 of the Communications Act cannot be
+enforced unless there is a specific showing that the unlicensed radio
+transmissions caused or may cause harmful interference.  The present
+licensing scheme is intended to facilitate broadcasting by protecting the
+service areas of those licensed by the Commission to broadcast.  Otherwise
+the potential for chaos on the airwaves would severely undermine the
+ability of others to use the radio spectrum.  See National Broadcasting
+Co. v. United States, 319 U.S. at 209-217. 
+
+     23.  We also note Mr. Dunifer's argument that the Commission's
+prohibition against low power broadcasting denies minorities and the poor
+the opportunity to be licensed because they are financially unable to
+operate a full-power 100 watt station.  Therefore, Mr. Dunifer contends
+that the Commission's rules in this area violate the Equal Protection
+clause of the Constitution.  As the Supreme Court has recognized, however,
+the standard provided in the Communications Act for the licensing of radio
+stations is "the public interest, convenience, or necessity."  National
+Broadcasting Co. v. United States, 319 U.S. at 227.  There is no
+constitutional right to be granted a license when it would not be in the
+public interest for the license to be granted.  Id.  The Communications
+Act does not define the term "public interest, convenience and necessity"
+but instead leaves it to the Commission "as the expert body which Congress
+has charged to carry out its legislative policy,"  FCC v. Pottsville
+Broadcasting Co, 309 U.S. 134, 138 (1940), to exercise its discretion in
+determining where the public interest lies.  As previously discussed, the
+Commission in exercising its discretion has concluded that the public
+interest would not be served by licensing a low power FM broadcast
+service. 
+
+     24.  Mr. Dunifer also claims that the Commission's rules with respect
+to low power broadcasts violate certain international treaties.  In
+particular, Mr. Dunifer argues that the Commission's rules violate the
+rights of low power radio broadcasters and their listeners under the U.N.
+Declaration of Human Rights, the International Covenant on Civil and
+Political Rights, and the American Convention on Human Rights.  None of
+the treaties or agreements listed by Mr. Dunifer, however, gives him a
+right to operate without a license or authorization from the Commission. 
+Nor do any of these treaties or agreements compel the Commission to revise
+its rules to permit the licensing of low power FM stations that would
+broadcast their own originated programming. 
+     
+     25.  We now turn to Mr. Dunifer's arguments that the forfeiture
+action in the instant case is procedurally flawed.  Mr. Dunifer contends
+that the Commission failed to adhere to its own procedures when it did not
+first send him a citation or a warning giving notice of the violations and
+an opportunity for a personal interview as required by Section 503(b)(5)
+of the Act, 47 U.S.C.  503(b)(5), and Section 1.80(d) of the Commission's
+rules, 47 C.F.R.  1.80(d).  In particular, Mr. Dunifer argues that
+because the FCC does not issue any licenses to operate low power radio
+broadcast facilities, he was not "engaging in activities for which a
+license, permit, certificate, or other authorization is required" and
+thus, as a non-licensee, he was entitled to a warning. 
+
+     26.  Mr. Dunifer is mistaken.  Although Section 503(b) of the Act
+does require issuance of citations prior to forfeitures in certain
+circumstances, it specifically excludes individuals that are "engaging in
+activities for which a license, permit, certificate or other form of
+authorization is required." 47 U.S.C.  503(b).  By transmitting on a
+frequency reserved for licensed broadcast services, Mr. Dunifer engaged in
+broadcasting, an activity for which a license is required.  47 U.S.C. 
+301.  Therefore, he was not entitled to receive a warning prior to the
+issuance of the forfeiture. 
+
+     27.  Mr. Dunifer's constitutional claims include an argument that the
+FCC's exercise of its forfeiture authority violates his due process rights
+because he was not given an opportunity for a hearing.  Further, Mr.
+Dunifer argues that his Fifth and Sixth Amendment rights are adversely
+affected because the violation subjects him to a civil penalty and
+possible criminal sanctions and he cannot afford to retain counsel. 
+Specifically, Mr. Dunifer states: "[i]n the extremely specialized area of
+telecommunications law, even if competent counsel could be found, their
+fees place their services well beyond the reach of the average person." 
+Response to Notice of Apparent Liability, at 11. 
+
+     28.  We disagree with Mr. Dunifer that his due process or Fifth or
+Sixth Amendment rights were violated.  Contrary to Mr. Dunifer's
+arguments, Sections 503 and 504 of the Communications Act, 47 U.S.C. 
+503, 504, provide safeguards which satisfy due process requirements. 
+Specifically, the Notice of Apparent Liability (NAL) must specify the
+rules that are alleged to be violated, the facts upon which the charge
+against the named violator is based, and the date upon which the alleged
+violation occurred.  Additionally, the party is given an opportunity to
+respond to the NAL and to have a trial de novo. 47 U.S.C.  503(b)(5),
+504(a),(b).  See Pleasant Broadcasting Co. v. FCC, 564 F.2d 496 (D.C. Cir.
+1977). 
+ As to Mr. Dunifer's argument that his right to effective assistance of
+counsel has been abridged, we note that the forfeiture proceeding in the
+instant case is not a criminal proceeding, and thus, the right to
+appointed counsel is inapplicable.  In any event, the record in this case
+clearly shows that Mr. Dunifer has been able to secure legal
+representation before the Commission and in related court proceedings. 
+ 
+     29.  Finally, Mr. Dunifer argues that the Bureau erred when it used
+the Commission's Forfeiture Policy Statement to calculate the forfeiture
+in this case.  Mr. Dunifer asserts that the Forfeiture Policy Statement
+does not address unlicensed operations.  Thus, he argues, the Bureau
+instead should have relied on a 1990 Public Notice regarding unlicensed
+operations that sets the forfeiture amount for these types of violations
+at no more than $1,000.  Assuming arguendo, that the Commission's
+Forfeiture Policy Statement applies in the instant case, Mr. Dunifer
+contends that he is neither a broadcast licensee nor a permittee or
+applicant, and that the only category he fits is "other."  He further
+contends that the $20,000 fine for two one-hour low power broadcasts by
+someone with no prior FCC rule violations is too severe, because such a
+high forfeiture is intended for commercial broadcasters. 
+
+     30.  The Commission's Forfeiture Policy Statement, used to assess the
+forfeiture amount, was vacated by the U.S. Court of Appeals for the D.C.
+Circuit in USTA v. FCC, 28 F.3d 1232 (D.C. Cir. 1994).  Therefore, it is
+not necessary to address the merits of Mr. Dunifer's argument regarding
+the use of the Forfeiture Policy Statement.  Moreover, we are not
+persuaded that the forfeiture at issue in this case should be assessed
+under the 1990 Public Notice.  The Public Notice issued by the
+Commission's staff clearly stated that it applied to "routine" cases of
+unauthorized broadcast operations.  Unlicensed Radio Operations, 67 RR 2d
+619.  As discussed below, see para. 32, infra, this is not a routine case. 
+Accordingly, we will assess the forfeiture amount against Mr. Dunifer
+under the statutory forfeiture guidelines set forth in Section 503(b)(2)
+of the Act, 47 U.S.C.  503(b)(2). 
+
+     31.  Section 503 (b)(2)(C) imposes a forfeiture maximum of $10,000 a
+day per violation for violations by parties other than common carriers and
+broadcast station licensees, permittees, applicants, and others seeking
+similar Commission authorization, as well as cable operators.  47 U.S.C. 
+503 (b)(2)(C).  In determining a forfeiture penalty, the Commission must
+consider "the nature, circumstances, extent, and gravity of the violation
+and, with respect to the violator, the degree of culpability, any history
+of prior offenses, ability to pay, and such other matters as justice may
+require."  47 U.S.C.  503 (b)(2)(D). 
+
+     32.  The violation at issue in this case is serious and intentional. 
+As stated in the Forfeiture Order, Mr. Dunifer is "a recalcitrant
+individual who decide[d] to willfully operate a radio transmitter without
+the required [FCC] authorization, as a protest against the regulatory
+power of the Commission, refuse[d] the opportunity to allow Commission
+investigators to inspect the equipment found in use, refuse[d] to discuss
+the matter with investigators, . . . [and] g[a]ve a false statement to
+them . . . . [concerning his identity]."  Id. at 5.  Moreover, Mr. Dunifer
+has not made any good faith efforts to come into compliance with the
+Communications Act or the Commission's rules even after being warned that
+his unlicensed radio transmissions are illegal.  Id.  After evaluating the
+facts and circumstances in this case under the statutory forfeiture
+guidelines, see para. 30, supra, we find that the statutory maximum of
+$10,000 is an appropriate forfeiture amount.  Because the NAL only cited
+Mr. Dunifer for one violation of Section 301, the forfeiture is assessed
+at $10,000, rather than the $20,000 in the NAL. 
+     
+     33.  Finally, Mr. Dunifer claims that he is unable to pay the
+forfeiture initially assessed.  Because he has submitted no documentation,
+such as financial records, to support this request for further mitigation,
+we are unable to evaluate the merits of his request.  See 47 U.S.C. 
+503(b)(2)(D); 47 C.F.R.  1.80(f)(3).  See also Group Six Communications,
+Inc., 8 FCC Rcd 3111  4 (1993); Metro Media Broadcasting, Inc., 8 FCC Rcd
+323  4-5 (1992). 
+
+
+     34.  In summary, upon review of the arguments raised in the
+Application for Review, and our independent review of the Notice of
+Apparent Liability and Forfeiture Order, we grant the Application for
+Review with respect to the request for a reduction of the forfeiture
+amount, and deny review in all other respects. 
+
+                           IV. ORDERING CLAUSES
+
+     35.  Accordingly, IT IS ORDERED that, pursuant to Section 1.115 of
+the Commission's Rules, 47 C.F.R.  1.115, the Application for Review of
+Stephen Paul Dunifer is GRANTED in part and DENIED in all other respects. 
+
+     36.  IT IS FURTHER ORDERED that, pursuant to Section 503(b) of the
+Act, 47 U.S.C.  503(b), and Section 1.80 of the Commission's Rules, 47
+C.F.R.  1.80, Stephen Paul Dunifer IS LIABLE FOR A MONETARY FORFEITURE in
+the amount of $10,000 for operating an unauthorized broadcast station in
+violation of Section 301 of the Communications Act.  The amount specified
+was determined after consideration of the factors set forth in Section
+503(b) of the Communications Act. 
+
+     37.  IT IS FURTHER ORDERED that, pursuant to Section 1.80(f)(3) of
+the Commission's rules, 47 C.F.R.  1.80(f)(3), Stephen Paul Dunifer
+shall, within thirty (30) days of the release of this ORDER, pay the full
+amount of the forfeiture.  Forfeitures shall be paid by check or money
+order payable to the Federal Communications Commission.  The remittance
+should be marked "NAL/Acct. No. 315SF0050" and mailed to the following
+address: 
+
+                Federal Communications Commission
+                Post Office Box 73482
+                Chicago, IL 60673-7482
+
+     38.  IT IS FURTHER ORDERED that a copy of this Order shall be sent to
+Stephen Paul Dunifer and his counsel by Certified Mail, Return Receipt
+Requested. 
+
+
+     FEDERAL COMMUNICATIONS COMMISSION
+
+
+
+     
+     William F. Caton
+     Acting Secretary

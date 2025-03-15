@@ -1,0 +1,304 @@
+<html>
+<head>
+<title>Alt.Satellite.Tv.Crypt FAQ
+</title>
+</head>
+
+<body>
+
+
+<h2>Alt.Satellite.Tv.Crypt FAQ</h2>
+<i>Thanks to Dr. Darrell Reed</i><p>
+
+<hr>
+
+<pre>I notice that copies of older versions of this document are held on
+various web pages without my permission being sought, please ask first.
+It's polite.
+
+I have no connection with any of the PCB designs, programs, or the sale of
+any of the items described in the following document. Nor do I use these
+programs - NOR WILL I SUPPLY ANYONE WITH SAID THINGS. I merely hope to
+stem the flow of questions on this subject and the number of irratable
+replies.
+
+That said I do own an I-Card (thanks to Colin and Dieter) before anyone
+points this out :-)
+
+-------------------------------------------------------------------------
+
+So you've heard about "Season" or at the least you've heard that it's
+possible to use your computer to decode encrypted satellite tv broadcasts.
+This FAQ should inform you about what is and isn't available, what to expect
+and what is available pirate card wise.
+
+First up BSkyB and those channels that use their subscriber management scheme
+are _not_ available by any direct method other than an official paid up
+subscription at the moment. The recent change to a new smartcard has rendered
+all "hacks" obsolete.
+
+If you continue reading I'll describe the various Pirate Cards on the market
+up until the introduction of the new BSkyB card. This will then be followed
+by a waffle about "Season" or PC/Decoder solutions. Bear in mind there is
+_no_ working code for any BSkyB transmission as you read this.
+
+NB At the moment there are valid cards and software available for most of the
+D2MAC/Eurocrypt 'M' channels.
+
+--------------------------Section 1 - Cards ------------------------------
+
+Righto! Stand alone solutions to the decrypting of BSkyB broadcasts
+outside of the UK are preferable to the PC<>Decoder solution covered in
+section 2 for the obvious reason that they are more convenient. However
+building and maintaining one costs much more and buying one is obviously
+even more expensive.
+
+The following list details those cards known to be available by me. There
+may well be others.
+
+(a) The `I-Card'
+
+Probably THE clone-card project. Details of this are widely available on
+the net. `Shadowhunter' has even set up a WWW page to support the project.
+
+http://www.uni-muenster.de/WiWi/home/~teschne/i-card_e.html
+
+Briefly this card costs between DM 80-150 depending on whether you build
+it yourself from scratch (80), by buying the kit from Teltronik (102, see
+later) or by buying a ready built card from Marko Ingold (150).
+
+Dieter Schiel, the designer of the card, has recently instituted a
+registration fee for the software that accompanies the card. From
+December '95 all updates will come in 2 forms; one free one with an on-
+screen message and one without which cost a one-off payment of DM 50. The
+I-card software allows the decryption of all the Videocrypt 1 (and
+Videocrypt 1/2) channels when available and, from version 2.20, the 9
+D2Mac/Eurocrypt channels listed at the end of this section.
+
+Technically, this is the most difficult to build as it is a double-sided
+PCB with 100% SMD. It consists of an 80c32 processor, EPROM, EEPROM, RS232
+interface (to allow it to function with "Season"-type software) and 8K of
+SRAM. A recent addition to this project is the ISP sub-system which allows
+the use of an NVRAM instead of an EPROM. This enables easier and cheaper
+programming.
+
+(b) LudiCard - named after the designer by the designer :-) Ludwig Catta
+released his design onto the (German) FidoNet under the clear understanding
+that it was not to be used commercially. He suggested a maximum price of
+DM 50 for anyone making such a device for someone without the technical
+ability to produce their own. Of course since then it has been made
+available commercially and it does cost more (DM 70 + P&P = DM 82?).
+
+This card is the simplest of all stand-alone cards and consists of just 3
+main IC's; an 80c31 uP, a latch (74HC573) and an EPROM. Software is
+provided from an anonymous source and is called Decrypt.
+
+Recently Ludwig has released two newer projects into the public domain. The
+first being the "Ludiflap" which is a device that will program Flash ROMs
+and the second is a smartcard that uses either an 89c52 or a 51 + Flash ROM.
+This negates the need for an EPROM programmer.
+
+(c) Flashcard - This is a wholly commercial development of the first
+Ludicard. Whilst a circuit diagram is available, as yet there is no PCB
+layout and one wouldn't be much use as the 80c31 uP variant used on the
+card has a protected portion of code that controls the read/write functions
+of the Flash RAM.
+
+This card is effectively the same as the Ludicard with the addition of an
+RS232 interface to allow working as a "Season"  between updates (or for
+Maccess). The major difference is the replacing of the EPROM with a Flash-
+ROM. The former needs to be `blown' (programmed) with an EPROM blower
+which costs in the region of ukp80-100 to buy whereas the later can be
+programmed directly by a PC. The cost is at the moment DM 150 with
+software updates guaranteed free of charge.
+
+Whilst this set-up does have the possibilty of being utilised for D2MAC/
+Eurocrypt decryption it is unlikely that the suppliers can engineer their
+own software for this.
+
+(D) Battery Card - This is a totally commercial design not seen on the
+net. I myself have not seen one and therefore cannot comment on the design
+except to say it is based on a Dallas FP5002 uP which is apparently a
+secure 80c32. They can decode all the BSkyB channels.
+The cost is generally around the DM 400 mark and they mave been
+successfully updated within hours of new ECM'S (or so it seems). Updates
+are done by "typing" in groups of digits on a tiny touchpad that is part
+of the card.
+
+So far no news as to if and when this card can be used with any future
+BSkyB "hack".
+
+(e) Omega Card - This card would appear to consist of a Dallas Micro (FP5002),
+two SRAM chips and a battery as the above battery. However this has no touch
+pad but does reputedly decrypt just about everything (except TV2 Norge
+- just my luck!). A 20K binary file is available on various German BBS's
+that claims to be the operating binary code (OMEGA90.BIN) but without the
+uP keys it is apparently useless.
+
+Again no news as yet about future use with BSkyB.
+
+(f) MegaMac Card - Same as above but with a keypad and very sophisticated by
+all accounts! Capable of decrypting just about everything (except the
+Norwegian re-broadcasts of SVT 1/2). They are currently (1/11/95) quoting the
+second week in December as their target date for a BSkyB series 10 card hack.
+We will see :-)
+
+(g)PIC cards - There are several varieties of these.
+  - PIC16c57 - One chip card used to decrypt Filmnet +, TV1000, TV3 and
+               FilmMax. Generally the OTP version was used and is hence
+               `throwaway'. The latest code on the net fails to decrypt
+               anything other than the CTV package.
+  - PIC16c84 - (a) Adult card - Decrypts TAC/Eurotica, Updateable,software
+                                generally available (Neurotic.zip)
+               (b) 7 Channel Card - Decrypts Filmnet +, Filmnet TCMC,
+                                    TV1000, TV1000 Cinema, and 3xTV3
+                                    software available (D2M1CHIP.ARJ).
+  -2xPIC16c84- Same as (b) above except plus Canal+ & Cine Cinemas
+               and BBC Prime (File MAC1095.arj)
+
+(g)Rewritten BSkyB Series 9 Cards - There is the possibility of
+   reprogramming still functioning (ie not displaying "Your card is
+   invalid") Sky series 9 cards to decrypt the usual 9 D2Mac/Eurocrypt
+   channels + BBC Prime.
+
+The "9 channels" are Filmnet +, Filmnet TCMC, 3xTV3, TV1000, TV1000 Cinema,
+, Canal + (16:9), Cine Cinemas (16:9).
+
+(h) COP cards - These manage all the 9 D2MAC channels mentioned above as
+well as a variety of others. Reputedly TV2Norge, BBC Prime, the 4 other
+Thor channels (although they are presently using a very simple key that just
+about every pirate D2MAC card ever made can descramble) and TV Plus. The
+processor used on this card is an extremely secure designed-for-the-
+military type.
+
+--------------------------Section 2 - "Season"----------------------------
+
+q) What is 'Season'?
+
+a) This is a generic name given to a software/simple hardware hack of
+smart-card based encrypted television. One needs to build (or buy) a
+simple interface 'card' to put in the videocrypt/eurocrypt decoder slot.
+This is connected via cable to a serial port on a personal Computer. The
+software then imitates the operation of a valid smart-card and decrypts
+the broadcast. 'Season' got it's name from the author of the original
+hack. He was a fan of Star Trek and wished to see the 7th Season then
+showing on Sky, the software was known as Season7. By pure coincidence the
+serial numbers of the sky cards at the time all began 7... Sky combated
+this (and other hacks) by releasing a new card series this time with all
+the serial numbers beginning with a 9. After 3 months of work this was
+eventually hacked and the first versions were named season9. Now there are
+a proliferation of different authors publishing different 'Seasons'.
+
+As I write this there is no valid BSkyB "Season" and none is anticipated in
+the near future.
+
+q) 'Which channels can I decode?'
+
+a) With 'Season' and a videocrypt decoder:- Currently just The Adult Channel
+and Eurotica. If the Series 10 card is hacked one can expect all 20-odd BSkYB
+channels including the more dubious midnight rubbish (TVX), The adult channel,
+TV Asia (NOT Japanese TV) on Astra and Eurotica on Eutelsat II-F1.
+
+a) With 'maccess' and a eurocrypt decoder (currently maccess v1.5a)
+Filmnet + on Astra, Filmnet - The complete Movie Channel on Thor, TV1000 &
+3xTV3's on Astra/Intelsat 702, Canal +/Cine Cinemas on Telecom 2a (NOT on TDF
+1/2), and TV1000 Cinema on TV-Sat2/Intelsat 601.
+
+q) 'How do I get started?'
+
+a) Get hold of the software package (see below). The details on how to
+build the interface are contained in ADAPTER.TXT, which is generally
+included in the archive. If it is not, then it should be available
+seperately at the same place. It's definately available at ftp.uni-
+erlangen.de in directory mounts/epix/public/pub/Multimedia/VideoCrypt/
+cardadapter
+
+q) 'I'm crap at electronics, will someone sell me one?'
+
+a)Yes, Various people sell such interfaces. My advice is 'Give it a go
+yourself'. If you really must buy then expect to pay about UKP 15 (costs
+less to build). Ad's are regularly placed in the alt group for suppliers
+from Britain.
+
+A source is available here in Germany. Teltronic (Wilhelm von Cleef)
+provides a `kit' for DM 28,50 (~UKP13) or a bare PCB for DM 11,27
+(UKP 5.00). You'll have to solder the parts on yourself of course!
+(TelTronic, Grabenstr. 49, 52525 Heinsberg) 100112.2225@compuserve.com
+
+q) 'Can you send me the newest 'Season Software' please?'
+
+a) No, Currently there isn't one! But in any case after each code change I
+get progressively more requests and, unlike some, I have to pay for my mail
+transfers. Try the following:
+
+FTP:
+
+helvetica-gw.chnet.ch
+ftp.uni-erlangen.de (mounts/epix/public/pub/Multimedia/VideoCrypt)
+ftp.paranoia.com (pub/users/defiant)
+ftp.ua.pt (pub/misc/satellite)
+
+Web Sites:
+
+www.paranoia.com/~defiant
+utelscin.el.utwente.nl/vcrypt
+www.gpl.net/paulmax
+
+q) How do I get 'Season Software'?
+
+a)To avoid being called nasty names it is probably a good move not to
+post a message asking where to find said updated software but to read the
+posts in this group (alt.satellite.tv.europe now and probably *.crypt in
+future) and act on the info. A second possibility is to join a mailing
+list (example below)
+
+> To: season-request@helvetica.chnet.ch
+> Subject:
+>
+> ADD myaddress@mysite
+>         ___
+> Bruno Amsler Zuerich Switzerland
+> amsler@helvetica.chnet.ch
+
+q) How long will it be until the new 'Season' software is out?
+
+a) 'Season' software ended for BSkyB programming temporarily
+(or permanently at worst) due to a card-change (series 10 or "0A"). The new
+card codes will have to be hacked and software made available. We can expect
+pirate cards to be available long before sufficient knowledge has been accrued
+by those that release their effort without charge (ie Season/decrypt/i-card)
+The last card-change took 3 months to hack :-(. However eurOtica and the adult
+channel use different codes and have not adopted the new codes as a card-swap is
+too expensive for them.
+
+q) What is MACCESS and/or why hasn't it been updated for xxxxxxx ?
+
+a) Maccess v1.5a emulates the smartcards required to decode the EUROCRYPT
+scrambled programs as follows:- TV1000, TV1000 Cinema, three TV 3's,
+Filmnet +, Filmnet TCMC, Cine Cinemas (16:9, Telecom 2A) and Canal +
+(ditto). The author of previous versions (up to 1.50) of this software has
+made it quite clear that (a) newer versions will NOT be made public (b)
+the versions currently public were released WITHOUT his/her consent.
+Release `1.51' is a hacked version of 1.42 out of Holland and is no longer
+current. The same is true for `Macvis-2.zip' which is also being touted as
+v.1.52.
+
+Maccess 1.5a is available at helvetica-gw.chnet.ch and ftp.paranoia.com/
+pub/users/defiant.
+
+Software for both encryption standards is also available for the Macintosh
+and videocrypt only for Atari/Amiga users (Don't ask me about it tho' !!).
+
+If you want further info, read the FAQ again then read the posts in the
+group for at least a week or so. :-)
+
+Copyright Darrell Reed 1/11/95
+
+D.
+</pre>
+
+<hr>
+<br>
+Last Updated: 4th November 1995
+
+</html>

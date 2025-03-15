@@ -1,0 +1,76 @@
+
+	The vest of flameproof is in world seven, the tomb of praecor loth.
+If you fall down ANY pit, you appear in a room with a trap-door in the
+ceiling. From that room, go up the steps to the ladder and ascend to the
+next level. The LEATHER VEST in that room is no ordinary vest, it is a vest
+of FLAMEPROOF!
+
+	The Hand Axe of Fire Doom is in world five or six, but it is the
+Scintilus Mage Academy - whichever world that is!  You must then enter the
+ethereal vault... where the room with the Vas and Tym runes, and the chest.
+When opened, there is a jeweled hand axe. THIS IS NO ORDINARY AXE, but the
+Hand Axe of Fire Doom!!!!
+
+	The Sword of Stone strike was VERY hard to find, and I did not even
+know I had it because it looks like an ordinary dull sword. I think I found
+this in the tomb of praecor loth also, but I am not absolutely sure. I think
+I may have found it in one of the tombs there.... just lying on the ground
+unloved and untouched.
+
+	All the other items I cast enchant multiple times on, and they increased
+to there current power level - after all, my character is a MAGE!
+
+
+
+
+****** CHEAT INFO AHEAD ******
+
+
+Now I have to admit, I did cheat my stats some.... and here's how you can do it
+too.
+
+
+	Goto offset 34 in the PLAYER.DAT file.
+	Change it to 00.
+	Load the game.
+	See what happened..... the skills are saved in about the next 20 or
+	so hex's, you must experiment randomly to get good results, or find
+	out the exact scheme. I think I know it, but have been too lazy to 
+	actually make use of it - it requires good hex manipulation!
+
+
+	Now, after you are satisfied with your skills, pick up the rune bag
+	ONLY and save the game. Goto hex OFFSET 69,70,71. Change these to FF.
+
+	Now restore the game, and look at the rune bag.... you will see 
+	something similar to:L
+
+	A B - D
+	E - - H
+	I - - - 
+	M - O P
+	Q - S -
+	- V W -
+
+	This would then be represented by one's for the letters (runes) and
+	zero's for the blank spaces (no runes)
+
+	1 1 0 1    D hex
+	1 0 0 1    9 hex
+	1 0 0 0    8 hex
+	1 0 1 1    B hex
+	1 0 1 0    A hex
+	0 1 1 0    6 hex
+
+	You would then change the FF FF FF you previously entered to the
+	new hex D9 8B A6 from above. THIS WILL BE DIFFERENT FOR EVERY PERSON!
+
+	This should give you ALL the runes in the game - if it did not work,
+	then you made an error in the editing!
+
+	I hope this info helps. Since I also now join the list of people who
+	beat the game, any questions about quests may also be directed to me.
+
+	Have a good Inauguration - now we have a new president.
+
+								Brad

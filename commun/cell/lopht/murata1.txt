@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+                      MURATA CT50 & MCT 200 Portable
+-------------------------------------------------------------------------------
+                NAM Type:  EEPROM
+            Manufacturer:  MURATA
+              Programmer:  Keypad
+          ESN Prefix DEC:  144
+                     HEX:  90
+ ESN, S/N Match Required:  No
+    Stamped Model Number:  CT50 or MCT 200
+      Number of Channels:  832
+
+    Programming Sequence:  Power Off
+                           Power On while holding
+                           Enter Program Code  314159
+                           Software version will display
+                           Press STO to advance to next step (System ID)
+                           Repeatedly press 0 ("Clr", "Set" or "Pass"
+                           will display)
+                           Repeatedly press 0 until "Set" appears
+                           Press STO + Enter System ID (digit+#+digit+#+digit+
+                           # etc..)
+
+                       # of Digits
+               System ID:  5    XXXXX + #
+           Mobile Number:  10    XXX-XXX-XXXX + #
+           Security Code:  6     XXXXXX + #
+
+         New Unlock Code:  FCN + 53 + 6 digit Security Code +
+                           1 + STO + New 3 digit Unlock Code
+           System Select:  FCN + 12 + 0 + 0 + 0 + 0 etc.
+                           (one of the following will display)
+                             Standard   AB or BA
+                             Home
+                             A Only
+                             B Only
+
+Press STO to enter selection
+
+

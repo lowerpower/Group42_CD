@@ -1,0 +1,13 @@
+Crack> F117 Stealth Fighter
+
+Crack written by Vartan Narinian
+
+First, get UNLZEXE from your favourite simtel20 mirror site.
+Second, make backup copies of START.EXE and END.EXE
+Then, UNLZEXE START.EXE
+Search for: 26 C7 47 22 00 00 C7 46 FE 81 01
+Replace the 00 00 with 01 00.
+Search for: "Incorrect".
+Replace with string of your choice (of length less than or equal to the
+original string). The string should be terminated with a byte of zero. My
+favorite one is: "Incorrect, but I'll let you get away with it this time!"

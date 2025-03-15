@@ -1,0 +1,23 @@
+Crack> MONTY PYTHON'S FLYING CIRCUS By Core Design/Virgin Mastertronic
+crack written by anonymous
+
+File         : pega.exe
+Seach For    : A3F744E88200A1F9443B06F7447404FF
+Replace With : A3F744A3F944A1F9443B06F7447404FF
+                     ------
+File         : pega.exe
+Search For   : A3F744E85F00A1F9443B06F7447404FF
+Replace With : A3F944A3F744A1F9443B06F7447404FF
+                 --  ------
+File         : pcga.exe
+Search For   : A3AD43E88200A1AF433B06AD437404FF
+Replace With : A3AD43A3AF43A1AF433B06AD437404FF
+                     ------
+File         : pcga.exe
+Search For   : A3AD43E85F00A1AF433B06AD437404FF
+Replace With : A3AF43A3AD43A1AF433B06AD437404FF
+                 --  ------
+Notes : Disables the password protection.
+        You will no longer be prompted for a password
+
+

@@ -1,0 +1,3279 @@
+
+                       A GUIDE TO INTERNET/BITNET
+ 
+                               Version 2.0
+ 
+ 
+ 
+                               Dana Noonan
+ 
+ 
+ 
+                          Distributed by Metronet
+ 
+                         Copyright 1994 Dana Noonan
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TABLE OF CONTENTS
+ 
+INTRODUCTION
+ 
+VAX SYSTEM COMMANDS
+ 
+MAIL-BASED SERVICES
+  E-MAIL
+  Mailing Lists
+  Electronic Journals and Newsletters
+  Other Mail-Based Services
+ 
+REMOTE CONNECTIONS
+  Telnet
+  File Transfer Protocol (FTP)
+    Selected File Archives
+ 
+INTERNET LIBRARY SERVICES
+  Online Catalog Basics
+  Search Strategies
+  Online Library Catalogs: A Starter Set
+ 
+EXPLORING THE NETS -- TOOLS AND TECHNIQUES
+  Gopher
+  WWW -- World Wide Web
+  WAIS -- Wide Area Information Server
+  Gateway Programs
+ 
+INTERNET BULLETIN BOARDS
+  Government Information Systems
+  Education Bulletin Boards and Networks
+  Community Computing Systems
+ 
+SELECTED DATABASES
+  Shopping on the Net
+ 
+USENET NEWSGROUPS
+ 
+WHAT TO DO NEXT
+  Keeping up with the Internet
+  The Top Ten List for Internet Novices
+ 
+GLOSSARY
+ 
+BIBLIOGRAPHY
+ 
+APPENDIX A: Making the Internet Connection
+APPENDIX B: Creating a Plan File
+ 
+INDEX
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+INTRODUCTION
+ 
+ 
+Over twenty years ago the Department of Defense established an
+electronic network for researchers known as ARPANET.  Today, a
+loose collection of networks, the Internet, provides high-speed
+electronic links for scientists, researchers, and other
+information workers in education, government, and business.
+ 
+Some of these networks focus on a research topic or an academic
+discipline; others serve regional groups of institutions. The
+oldest educational network is BITNET (Because It's Time
+Network), which specializes in "store and forward" message and
+file transmission. Internet provides direct access to remote
+computer sites along with message and file transfer.
+ 
+The federally subsidized NSFnet serves as the backbone for
+network interconnectivity in the United States linking CREN
+(BITNET and CSnet), the Internet, and other noncommercial
+academic and research networks together for electronic mail,
+file transfer, news and other services. Over 1,000,000 computer
+sites form the "backfence" over which neighbors in this
+electronic global village exchange data and gossip.
+ 
+The Internet is just the foot-path of the Information Highway --
+leading the way in linking information providers and users
+around the globe. Although the network has experienced
+phenomenal growth in the past few years, the services and
+navigation tools available on the net are still in their
+infancy. Learning to use the Internet for research, business or
+pleasure takes a considerable investment of time and energy.
+ 
+The most popular uses of Internet/Bitnet are sending and
+receiving electronic mail, participating in special interest
+groups, reading and writing for electronic digests and journals,
+searching online library catalogs around the world, and
+acquiring text and program files from remote computers. The
+increased availability of multi-media resources in the last year
+or so has made the network a richer and more comfortable place.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VAX SYSTEM COMMANDS
+ 
+ 
+Although much of this guide applies to any Internet connection,
+the guide was written with VMS users in mind. If VAX-speak is
+not your thing, skip the next few sections.
+ 
+Logging on the system
+ 
+Contact your local computer center to set up an account and
+learn the location of local terminals or telephone numbers for
+remote access.  If your campus computer system is set up for
+dial-up access, you can use a computer from your home or office
+to connect to the system.  Your account will include two
+identifying codes: username and password.  The username is your
+local system e-mail mailbox and will be a part of your Internet
+or BITNET address.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VAX Commands
+ 
+The Basics
+ 
+HELP     Display help files                help or help topic
+ 
+EDIT     Edit a text file                  edit mytext.txt
+ 
+MAIL     Send/read messages                mail
+TELNET   Connect to an Internet service    telnet pac.carl.org
+FTP      Send/receive files
+ 
+KERMIT   Upload or download files          kermit receive newdata.zip
+                                           kermit send myfile.txt
+ 
+LOGOFF   Leave the vax system              lo or log
+ 
+ 
+Handy Commands
+ 
+DIR      List files in a directory         dir or dir/size/date or
+                                           dir/since
+ 
+TYPE     Display file contents             type listfile.txt
+ 
+EDIT     Create and/or edit a file         edit myfile.txt
+ 
+COPY     Copy a file or files              copy gopherrc. mygoph.txt
+ 
+DELETE   Delete a file or files            del filename.txt;2 or
+                                           del *.txt;*
+ 
+RENAME   Rename a file                     ren file1.txt file2.txt
+ 
+SEARCH   Look for a specific text          search filename "text"
+ 
+SPAWN    Start a new process               (see example in FTP section)
+ 
+CREATE/DIR  Create a subdirectory          create/dir [.nyob]
+SET DEFAULT [.]  Change directories        set def [.nyob]
+ 
+ 
+Emergency Commands
+ 
+CTRL-C   Quit this process
+CTRL-Y   Interrupt this process
+CTRL-Z   Save and quit
+ 
+Command Line Modifiers
+ 
+CTRL-A   Insert text
+CTRL-H   Move to beginning of line
+ 
+ 
+Edit Keypad Shortcuts
+ 
+The numeric keypad can be used to enter EDIT commands. If the
+system does not use the keypad as the default, type c to change
+to the keypad option. CTRL-Z will return to the normal command
+mode. Type EXIT to save file and end editing; or QUIT to end
+editing quit without saving the file.
+ 
+Use the PF1 or F1 (on IBM compatibles) to choose the second
+command for each key; tap PF1 or F1 then the other key. Tap PF2
+or F2 for more information.
+ 
+ 
+         --------------------------------------------
+         PF1         PF2         PF3         PF4
+         GOLD        HELP        FIND NEXT   DEL LINE
+                                 FIND        UNDEL L
+         --------------------------------------------
+         7           8           9           -
+         PAGE        SECTION     APPEND      DEL WORD
+         COMMAND     FILE        REPLACE     UNDEL W
+         --------------------------------------------
+         4           5          6            +
+         ADVANCE     BACKUP     CUT          DEL CHAR
+         BOTTOM      TOP        PASTE        UNDEL C
+         --------------------------------------------
+         1           2          3            ENTER
+         WORD        EOL        CHAR
+         CHNGCASE    DEL EOL    SPECINS      ENTER
+         ----------------------------------  SUBS
+         0                      . (period)
+         LINE                   SELECT
+         OPEN LINE              RESET
+         --------------------------------------------
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VAX Internet Shortcuts with LOGIN.COM
+ 
+ 
+If you use a VAX to connect to the internet, you might want to
+create a login.com file to make life a little easier. This plain
+ASCII file can be created with any editor. Note: Lines beginning
+with ! are comments and don't have to be typed but are included
+here for clarity. Type @login to start the program after any
+changes; otherwise the program will run when you logon to the
+VAX.
+ 
+$ ! VAX FILE: LOGIN.COM
+$ !
+$ set terminal/device=vt100
+$ !
+$ ! MAIL ADDRESSES
+$ ! if you use an smtp mailer, substitute smtp% for in% below:
+$ !
+$ define Dana in%"""noonan@msus1.msus.edu"""
+$ define nw in%"""nerowolfe%ndsuvm1.bitnet@cunyvm.cuny.edu"""
+! to bitnet from Internet only site
+$ !
+$ ! REDEFINING FUNCTION KEYS
+$ ! Note: Use CTRL-C Q sequence to break telnet connections,
+    this can be handy when connection hangs
+$ ! For terminals and pc keyboards with function keys:  PF1 = F1
+$ !
+$ define/key pf4 "telnet/esca=^c "
+$ define/key pf3 "telnet/tn3270/esca=^c "
+$ define/key pf2 "del [noonan.mail]*.old;*"  ! use after
+                                              mail "COMPRESS" command
+$ !
+$ ! VAX COMMANDS (for the lazy typist)
+$ !
+$ sym == "show symbol/global/all"  ! what goodies are available
+                                   on the system
+$ quo == "show quota"   ! how much disk space is available
+$ tt == "type/page "
+$ !
+$ ! DIRECTORIES AND SUBDIRECTORIES
+$ !
+$ dirs == "directory/since/size"
+$ since == "directory/since/size/since"
+$ dates == "directory/size/date"
+$ !
+$ ! VAX UTILITIES (from Compuserve VAX forum)
+$ !
+$ q1 == "@[noonan.util]q1.com"  ! modified version of TERM.COM -
+                                  sends file to home printer
+$ cd == "@[noonan.util]cd.com"  ! CD.COM - change directory -
+                                  like DOS CD command
+$ !
+$ ! EDIT MAIL
+$ ! The following MAIL command allows editing of the message you
+  are replying to...
+$ MAIL :== MAIL/EDIT=(send,REPLY=EXTRACT)
+$ !
+$ ! INTERNET FAVORITES
+$ !
+$ wais :== TELNET/esca=^c quake.think.com
+$ cleveland :== TELNET/esca=^c library.cpl.org
+$ melvyl :== TELNET/esca=^c melvyl.ucop.edu
+$ bubl :== $sys$system:gopher bubl.bath.ac.uk 7070  !starts gopher
+                                                    client pointed at BUBL
+$ lynx :== telnet/esca=^c ukanaix.cc.ukans.edu
+$ !
+$ ! INTERNET LIST ADDRESSES
+$ ! use the following to send mail to selected lists
+$ !
+$ DEFINE metro in%"""metronet@ndsuvm1.bitnet"""
+$ EXIT
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+E-MAIL
+ 
+ 
+One of the most useful facilities on Internet is the ability to
+send messages to network users in the next town or across the
+globe rapidly and without transmission errors. To send e-mail
+you need to know the recipient's username and Internet or Bitnet
+system address.  Computer network addresses are a bit like
+telephone numbers, in some instances an extension will be
+sufficient, but in others you need area codes and even country
+codes.
+ 
+Local network   username                   noonan
+ 
+Remote user     username@internet_address  noonan@msus1.msus.edu
+ 
+In the United States, most Internet domains end with
+designations indicating the type of site or geographical
+location:
+ 
+  edu  educational institution     mil   military site
+  com  commercial organization     net   network center
+  gov  government agency           org   all other organizations
+  us   in the United States        mn.us in Minnesota
+ 
+Outside the United States most network addresses end with a
+country code. The meaning of many of these country codes is
+obvious, such as UK for United Kingdom or AU for Australia.
+Others are less obvious -- because there can only be one region
+with the AU code, Austria is identified as AT.
+ 
+Mail is sent to a network address that contains the username and
+network location of the recipient. Local mail requires only the
+correct username. To send local mail, type MAIL. Type  SEND,
+then the recipient's username, subject, and message. Use the
+following format to send  network mail:
+in%"username@network_address."
+ 
+    Local Mail    MAIL>  Send
+                  To: noonan
+                  Subject: Just testing
+ 
+    Network mail  MAIL>   Send
+                  To: in%"noonan@msus1.msus.edu"
+                  Subject: Just testing again
+ 
+Messages can be as long as needed, but remember that every
+network user has a limited amount of space available in his or
+her account.  The VAX editor is hard to use effectively with a
+microcomputer.  Long messages can be written on a word
+processor, saved as an ASCII file, and uploaded to the VAX via
+Kermit.  Short messages can be composed on the fly, but remember
+to use the left arrow key instead of the backspace key to erase
+text. Do not send messages in all capital letters; they are too
+hard to read and have the impact of shouting at the recipient.
+ 
+Messages are placed in folders(directories) depending on their
+status. New messages are placed in the NEWMAIL folder until you
+have read them, then they can be found in the MAIL folder.
+Messages you delete will be placed in the WASTEBASKET folder
+until you EXIT the MAIL utility using the CTRL-Z command.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+How To Find E-mail Addresses
+ 
+Netfind Servers
+ 
+Although some network directories exist, it may be necessary to
+ask people for their e-mail addresses. One of the easiest to use
+and most comprehensive network address directories is the
+University of Colorado's Netfind Server. Given a bit of basic
+information, such as last name and institutional affiliation,
+the server will search for that person's e-mail address. In some
+cases it will be able to retrieve not only the correct network
+address, but also a mailing address and telephone number. Be
+sure to read the help file when you logon for a more complete
+description of how the program works. Select a nearby server and
+logon as netfind.
+ 
+  archie.au                AARNet, Melbourne, Australia
+  bruno.cs.colorado.edu    University of Colorado, Boulder
+  dino.conicit.ve          NCTSR, Venezuela
+  ds.internic.net          InterNIC
+  lincoln.technet.sg       Technet, Singapore
+  malloco.ing.puc.cl       Catholic Univ. of Chile, Santiago
+  monolith.cc.ic.ac.uk     Imperial College, London, England
+  netfind.ee.mcgill.ca     McGill University, Montreal, Canada
+  nic.uakom.sk             Academy of Sciences, lovakia
+  redmont.cis.uab.edu      University of Alabama, Birmingham
+ 
+ 
+InterNIC Registration Services Center:
+ 
+For registered domains and network information centers, InterNic
+offers a useful alternative to Netfind. Some local sites offer a
+very easy to use local Whois server linked to InterNIC. Type
+whois minneapolis to see if your site has a server installed;
+otherwise try:
+ 
+            Whois Server
+            Telnet rs.internic.net or 198.41.0.5
+            Logon:  type whois and follow directions
+            Logoff: type Q
+ 
+ 
+Finger
+ 
+Although it sounds a bit rude, lots of folks finger other
+network users each day. If your site offers finger service, you
+can easily find the correct addresses for local accounts by
+typing:  finger so-and-so.
+To finger a remote account, type: finger so-and-so@remote_site.
+Finger has the ability to display user-generated plan files and
+this feature has led to a variety of useful and even
+entertaining network services. To get current information about
+updates to this guide or Network News, type finger
+noonan@msus1.msus.edu.
+ 
+Finger is also available via telnet:  telnet site/port=79 and
+when the connection is established type username. For example,
+telnet msus1.msus.edu/port=79 and type noonan.
+ 
+ 
+Other Sources of E-mail Addresses
+ 
+If you are looking for an address at a specific academic
+institution, check the campus gopher to see if it has an address
+server. If you think that an individual may subscribe to a
+specific special interest list, use the listserv command "review
+listname" to obtain a list of subscribers. As a last resort, you
+may want to write the postmaster at the location for
+information, but keep in mind that they are very busy people and
+may not have time to respond.
+ 
+ 
+Addressing Internet Mail
+ 
+ 
+Most VAX systems require mail addresses typed in one of the
+following formats:  in%"user@site"  or    smtp%"user@site"
+ 
+Although some Internet sites are also Bitnet sites, many are
+not. Use the address format listed under Bitnet below to send
+mail to a Bitnet site from an Internet only site. Note: Some
+savvy system administrators take care of details like this for
+their users.
+ 
+Local user       username
+Remote user      username@internet_address
+ 
+Internet         user@site
+Bitnet           user%site.bitnet@gateway
+                 ex. noonan%msus1.bitnet@cunyvm.cuny.edu
+ 
+America Online   user@aol.com
+Applelink        user@applelink.apple.com
+ATTmail          user@attmail.com
+Compuserve       71234.567@compuserve.com
+Easynet          user@host.enet.dec.com or
+                 user%host.enet@decwrl.dec.com
+Genie            user@genie.geis.com
+MCI              user@mcimail.com
+Prodigy          user@prodigy.com
+ 
+ 
+Managing E-mail Glut
+ 
+ 
+1.  Use the delete key often and with glee. Nobody ever said you
+    have to read every message you receive, any more than you
+    have to read every flyer and piece of junk mail that comes to
+    your office or home. Don't hesitate to delete mail on the
+    basis of the subject, source, or first few lines.
+ 
+2.  If you file mail you want to look at later in appropriate
+    file folders, you will be more organized or at least enjoy
+    the illusion of being organized.
+ 
+3.  When you sign up for a list, you will receive a welcome
+    message outlining some of the functions of the list and how
+    to get off the list. File these messages in a folder called
+    lists so that you can retrieve them later.
+ 
+4.  Get the *.MAI file clutter out of the root directory so you
+    will be able to find the files you need to use. To create a
+    MAIL directory (from within Mail), type set mail_dir [.mail].
+ 
+5.  Try the following handy trick to edit and extract files in
+    one easy step. If a long message has a paragraph or two you
+    want to save for later use, type read/edit message #. Delete
+    everything except the paragraphs you want to save; hit CTRL-Z;
+    type write filename.txt; type quit.
+ 
+ 
+Reading Mail
+ 
+HELP     Display mail help files
+         MAIL> Help extract
+ 
+MAIL     Send/read messages to/from other users
+ 
+DIR      Display message subjects
+DIR/FOL  Display list of folders of mail
+ 
+READ     Read messages
+         MAIL> Read 13
+         MAIL> 13
+         MAIL> READ/NEW
+ 
+NEXT     Skip to next message
+ 
+DELETE   Delete a message or messages - moves messages to
+         wastebasket folder until user hits Control-Z or type
+         EXIT
+         MAIL>  d/all
+         MAIL>  d 7-10,14
+ 
+EXTRACT  Move a message to a file in the root directory
+/APPEND  Copy message to the end of a file in the root directory
+         MAIL>  extract edtech-memo
+         MAIL>  ext/all april20
+ 
+FILE     File current message in selected folder
+         MAIL>  file lists
+ 
+SELECT   Select mail folder
+         MAIL>  Select mail    (old mail not yet deleted)
+         MAIL>  Select wastebasket    (mail marked for deletion)
+ 
+SEARCH   Search messages for selected text
+         MAIL>  search www
+ 
+COMPRESS Shrink the amount of space taken by old mail
+         Be sure to del *.old;* after you leave mail
+ 
+EXIT     Empty wastebasket and exit MAIL
+QUIT     Exit MAIL without erasing deleted messages
+ 
+CTRL-C   Quit this process
+CTRL-Y   Interrupt this process
+CTRL-Z   Save and quit
+ 
+ 
+ 
+Sending Mail
+ 
+SEND     Send a message to another user.
+/SUBJECT= Include a new message topic on the send line.
+ 
+         LOCAL NETWORK ADDRESSES
+         MAIL> SEND
+         To: noonan
+         Subject: Testing
+         Enter message...
+         Press CTRL-Z when complete or CTRL-C to quit.
+ 
+SEND FILE  MAIL> SEND filename
+         MAIL> send quotes.txt
+ 
+FORWARD/ Send a copy of the message you just read to another user
+EDIT     MAIL> Forward
+ 
+REPLY    Respond to a message you have just read
+/SUBJECT=  Change topic of message but reply to same e-mail address
+ 
+         MAIL> REPLY
+         To: in%"noonan@msus1.msus.edu"
+         Subj: RE: your message to me
+ 
+         MAIL> REPLY/SUBJECT="new topic"
+ 
+ 
+Mail Keypad
+ 
+The numeric keypad can be used to enter common MAIL commands.
+Use the PF1 or F1 (IBM compatibles) to choose the second command
+for each key; tap PF1 or F1 then the other key.  Tap PF2 or F2
+for more information.
+ 
+ 
+          --------------------------------------------
+          PF1         PF2         PF3         PF4
+          GOLD        HELP        EXT/MAIL    ERASE
+          DIR/FOLD    EXTRACT     SEL MAIL
+          --------------------------------------------
+          7           8           9           -
+          SEND        REPLY       FORWARD     READ/NEW
+          SEND/EDIT   RP/ED/EX    FRWD/EDIT   SHOW/NEW
+          --------------------------------------------
+          4           5          6            +
+          CURRENT     FIRST      LAST         DIR/NEW
+          CURR/EDIT   FIRST/EDIT LAST/EDIT    DIR MAIL
+          --------------------------------------------
+          1           2          3            ENTER
+          BACK        PRINT      DIR
+          BACK/EDIT   P/P/NOTI   DIR/9999     ENTER
+          ----------------------------------  SELECT
+          0                      . (period)
+          NEXT                   FILE
+          NEXT/EDIT              DELETE
+          --------------------------------------------
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+MAILING LISTS
+ 
+ 
+Hundreds of special interest groups or mailing lists are open to
+subscription on Internet. Most are free and open to anyone
+interested in the topic under consideration.  Some lists have
+little message traffic on them; others are so active your
+mailbox will be quickly filled with messages.
+ 
+Lists seem to take on the characteristics of the folks who use
+them. Most are serious and mannerly, but some revel in humor,
+controversy, or sheer pedantry (most list users are academics).
+The anonymity of e-mail has given rise to a peculiar form of
+behavior known as flaming.  Flaming occurs when normally polite
+individuals use e-mail to insult other list members, groups of
+individuals, or whole nations.  Some "flames" are unintentional
+and  reflect ignorance or inexperience; others are simply nasty,
+racist, or bigoted diatribes.
+ 
+ 
+Finding a List
+ 
+To participate in the mailing list world you first need to find
+an interesting list in this guide or on the List of Lists (see
+bibliography). The easiest way to find a list of interest to you
+is to send the following message:
+ 
+     Mail to:   in%"listserv@bitnic.bitnet" or
+                in%"listserv%bitnic.bitnet@cunyvm.cuny.edu"
+     Message:   list global /topic
+     Example:   list global /Africa
+ 
+You can also search the mailing list database at
+INTGROUP@NDSUVM1 for topics of interest.
+ 
+ 
+The Listserv Manager
+ 
+Each mailing list is based at a specific network node or
+listserv address that runs a program called the Mailing Lists
+Manager.  The program functions as archivist, file server, and
+mailing list distributor. All of the little nit-picky details
+related to the management of a list are taken care of by the
+listserv software. Send requests for action to listserv@site not
+to the list itself. The following example shows messages that
+could be sent to: listserv@uhupvm1.uh.edu related to the PACS-L.
+ 
+Message                         Action Requested / Example
+ 
+subscribe listname your name    subscribe to a list
+                                sub pacs-l Melvyl Dewey
+ 
+unsubscribe listname            cancel subscription
+                                unsub pacs-l
+ 
+index listname                  get list of files in archive
+                                index pacs-l
+get filename                    request copy of a file
+                                get filename
+ 
+review listname                 obtain a list of subscribers
+                                review pacs-l
+ 
+query listname                  check subscription options
+                                query  pacs-l
+ 
+set listserv digest/index       switch to summary of postings
+                                set pacs-l index
+set listname nomail             suspend reception of messages
+                                set pacs-l nomail
+set listname mail               re-start reception of messages
+                                set pacs-l mail
+ 
+ 
+ 
+ 
+Searching a List Archive
+ 
+Usually all list messages are maintained in archive form at the
+mailing list site.  While it is possible to obtain the entire
+contents of these archives by sending the appropriate "get
+filename" command, this can result in receiving great quantities
+of information that may be dated or simply of little interest.
+By sending a simple e-mail message you can search the archives
+of a mailing list for material related to a specific topic.
+ 
+ 
+Initial search:  mail to:  listserv@location
+                 message   // JOB Echo=No
+                           Database Search DD=Rules
+                           //Rules DD *
+                           Search search-term in listname
+                           Index
+                           /*
+ 
+Next request:    mail to:  listserv@location
+                 message   // JOB Echo=No
+                           Database Search DD=Rules
+                           //Rules DD *
+                           Search search-term in listname
+                           (Note: Repeat initial search)
+                           Print message-number(s)
+                           /*
+ 
+ 
+Managing Your Lists
+ 
+1.  Keep track of your subscriptions so that you can modify or
+    cancel them as needed. Keep the welcome message you receive
+    when you subscribe to a list.
+ 
+2.  Switch to digest format if the flood of messages is too much
+    to deal with on a daily basis. Note: The additional steps
+    required to retrieve specific messages may not be worth the
+    trouble. It is just as easy for many people to delete
+    messages on the basic of the subject header.
+ 
+3.  Use a Usenet reader to read lists that are mirrored (gated)
+    to Usenet newsgroups. Using Usenet frees up precious mailbox
+    space and lets you still participate fully in list activities.
+    If you just want to read the messages in a newsgroup, you could
+    also use gopher or www to read the messages.
+ 
+4.  Search list archives for researching topics of interest to
+    you. Many list archives are open to non-members so you can
+    search without being engulfed in a flood of messages.
+ 
+5.  Stop lurking and become an active participant in the lists
+    you read. Use them for research, trial balloons, and good
+    conversation.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Selected Special Interest Group Lists
+ 
+ 
+Note:  Subscriptions should be sent to the listserv address. To
+       signup for ALTLEARN, send your subscription request
+       (sub altlearn firstname lastname) to listserv@sjuvm.bitnet.
+ 
+ 
+LIST ADDRESS    DESCRIPTION
+ 
+ALTLEARN@SJUVM     Alternative Approaches to Learning Discussion
+AMLIT-L@MIZZOU1    American Literature Discussion Group
+AMWEST-H@USCVM     American West History
+ANCIEN-L@ULKYVM    History of the Ancient Mediterranean
+ANTHRO-L@UBVM      General Anthropology Bulletin Board
+APASD-L@VTVM2      APA Research Psychology Network
+ARCH-L@DGOGWDG1    Archaeology List
+ARTCRIT@YORKVM1    Art Criticism Discussion Forum
+ASEH-L@TTUVM1      American Society Of Environmental
+AUTORACE@INDYCMS   Discussion of Auto Racing
+AVIATION@BRUFPB    General Aviation List
+ 
+BEER-L@UA1VM       Homebrew Digest Redistribution List
+BELIEF-L@BROWNVM   Personal Ideologies Discussion List
+BEVPUB-L@VTVM1     Blacksburg Electronic Village
+BGRASS-L@UKCC      Bluegrass music discussion.
+BIRDCNTR@ARIZVM1   National Birding Hotline Cooperative(Central)
+BIOTECH@UMDD       Biotechnology Discussion List
+BLIND-L@UAFSYSB    Computer Use by and for the Blind
+BUDDHIST@JPNTOHOK  Forum on Indian and Buddhist Studies
+BUSETH-L@UBVM      Business Ethics Computer Network
+ 
+C+HEALTH@IUBVM     Computing and Health
+CANADA-L@MCGILL1   Canadian Issues Forum
+CARR-L@ULKYVM      Computer-assisted Reporting & Research
+CCNEWS@BITNIC      Campus Computing Newsletter Editors
+CDROM-L@UCCVMA     CD-ROM
+CENTAM-L@UBVM      Central America Discussion
+CGE@MARIST         Computer Graphics Education Newsletter
+CHEMED-L@UWF       Chemistry Education Discussion
+CHESS-L@GREARN     The Chess Discussion List
+CHICLE@UNMVMA      Chicano literature discussion list
+CHINANET@TAMVM1    Networking In China
+CINEMA-L@AUVM      Discussions on all forms of Cinema
+CJUST-L@CUNYVM     Criminal Justice Discussion
+CLASSM-L@BROWNVM   Classical Music List
+CNIDR-L@UNCCVM     Networked Info. Discovery and Retrieval
+COMDEV@RPITSVM     Communication & internatl. development
+COMICS-L@UNLVM     COMICS Discussion List
+COMLAW-L@UALTAVM   Computers and Legal Education
+COMMDIS@RPITSVM    Speech disorders
+COMMED@RPITSVM     Communication education
+COMPMED@WUVMD      Comparative Medicine List
+CRTNET@PSUVM       Communication Research & Theory Network
+CSA-DATA@UICVM     Chinese Statistical Archive
+CWIS-L@WUVMD       Campus-Wide Info Systems
+CYBERLAW@WMVM1     The Law and Policy of Computer Networks
+ 
+DAIRY-L@UMDD       Dairy Discussion List
+DANCE-L@HEARN      International folkdance and traditional dance
+DESIGN-L@PSUVM     Basic Design
+DEVEL-L@AUVM       Technology Transfer in Intl. Development
+DIABETES@IRLEARN   International Research Project
+DIET@UBVM          Support and Discussion of Weight Loss
+DOLLH-L@FERRIS     Doll's House Construction and Enjoyment
+DOROTHYL@KENTVM    Mystery Discussion
+DRUGABUS@UMAB      Drug Abuse Education
+ 
+E-POETRY@UBVM      Electronic Poetry Distribution List
+EARLYM-L@AEARN     Early Music Discussion List
+EAT-L@VTVM2        FoodLore/Recipe Exchange
+EC@TRMETU          European Community
+ECOLOG-L@UMDD      Ecological Society of America
+ECONED-L@UTDALLAS  Research in Economic Education
+ECONOMY@TECMTYVM   Economic Problems in Less Developed Countries
+EDSTYLE@SJUVM      Learning Styles Theory and Research List
+EDNET@NIC.UMASS.EDU  Education News
+EDTECH@MSU         Educational Technology
+EDUCOM-W@BITNIC    EDUCOM Women & Information Technology
+EDUTEL@RPITSVM     Education and information technologies
+EJCREC@RPITSVM     Electronic Journal of Communication
+EMERG-L@MARIST     Emergency Services Discussion List
+EMUSIC-D@AUVM      Electronic Music Digest
+ENERGY-L@TAUNIVM   Energy List
+ENVBEH-L@POLYVM    Forum on Environment and Human Behavior
+EQUINE-L@PCCVM     Discussion forum for Horse fanciers
+ESPER-L@TREARN     Esperanto List
+ETHICS-L@MARIST    Discussion of Ethics in Computing
+ETHMUS-L@UMDD      EthnoFORUM, global ethnomusicology
+EV@SJSUVM1         Electric Vehicle Discussion List
+ 
+FAMCOMM@RPITSVM    Marital/family & relational communication
+FAMILY-L@MIZZOU1   Academic Family Medicine Discussion
+FAMLYSCI@UKCC      Family Science Network
+FEDSIG-L@WVNVM     Federal Electronic Data
+FELINE-L@PCCVM     Discussion forum for Cat fanciers
+FILM-L@ITESMVF1    Film making and reviews list.
+FILMUS-L@IUBVM     Film Music Discussion List
+FINE-ART@RUTVM1    Fine-Art Forum
+FLYFISH@UMAB       Fly Fishing Digest
+FOLKLORE@TAMVM1    Folklore Discussion List
+FOODWINE@CMUVM     Discussion List for Food and Wine
+FWAKE-L@IRLEARN    Finnegans Wake (by James Joyce)
+ 
+GAELIC-L@IRLEARN   GAELIC Language Bulletin Board
+GARDENS@UKCC       Gardens & Gardening
+GENDER@RPITSVM     Communication and gender
+GEODESIC@UBVM      Discussion of Buckminster Fuller
+GEOGRAPH@SEARN     Geography
+GEOLOGY@PTEARN     Geology Discussion List
+GERINET@UBVM       Geriatric Health Care
+GO4LIB-L@UCSBVM    Forum for Library Gopher Developers
+GOPUB-L@BROWNVM    Translating Formatted Text to ASCII
+GRANOLA@VTVM2      Vegetarian Discussion
+GUTNBERG@UIUCVMD   Project Gutenberg E-mail List
+ 
+H-URBAN@UICVM      Urban History discussion list
+HEALTH-L@IRLEARN   International Discussion on Health Research
+HELLAS@AUVM        The Hellenic Discussion List
+HELP-NET@TEMPLEVM  Bitnet/Internet Help Resource
+HERB@TREARN        Medicinal and Aromatic Plants
+HISLAW-L@ULKYVM    History of Law (Feudal, Common, Canon)
+HISTORY@PSUVM      History List
+HIT@UFRJ           Highly Imaginative Technologies
+HOMESAT@NDSUVM1    Home Satellite Technology
+HORROR@PACEVM      Horror
+HPSST-L@QUCDN      History and Philosophy of Science
+HRD-L@MIZZOU1      Human Resource Development
+HUMANIST@BROWNVM   HUMANIST Discussion
+HYPERCRD@MSU       Hypercard Discussion List
+HYTEL-L@KENTVM     HYTELNET Updates Distribution
+ 
+IAFA-L@VTVM1       Scholarly disc. of Fantastic Literature
+IDFORUM@YORKVM1    Industrial Design Forum
+INDIA@PCCVM        The India List
+INGRAFX@PSUVM      Information Graphics
+INT-LAW@UMINN1     Foreign and International Law Issues
+IOOB-L@UGA         Industrial Psychology
+ISAGA-L@UHCCVM     Int'l Simulation & Gaming Assn. Forum
+ 
+JAZZ-L@TEMPLEVM    Jazz Lovers' List
+JOURNET@QUCDN      Journalism Education
+ 
+KIDCAFE@NDSUVM1    KIDCAFE Youth Dialog
+KIDZMAIL@ASUACAD   KIDS EXPLORING ISSUES
+KLARINET@VCCSCENT  Klarinet - Clarinettist's Network
+ 
+L-CHA@UQAM         Canadian Hist. Association
+LABOR-L@YORKVM1    Labor in the North American Economy
+LANTRA-L@SEARN     Interpreting (and) translation
+LARCH-L@SUVM       Landscape Architecture Electronic Forum
+LAWSCH-L@AUVM      Law School Discussion List
+LGA-L@UREGINA1     Local Government Administration List
+LINGUIST@TAMVM1    LINGUIST
+LITERARY@UCF1VM    Discussions about Literature
+LIVE-EYE@YORKVM1   Color and Vision Discussion
+LLTI@DARTCMS1      Language Learning and Technology Intl.
+LORE@NDSUVM1       Folklore List
+ 
+MAGAZINE@RPITSVM   Magazines
+MARKET-L@UCF1VM    For marketing academics and practitioners
+MASSCOMM@RPITSVM   Mass comm. and new technologies
+MAPS-L@UGA         Maps and Air Photo Systems Forum
+MBA-L@MARIST       MBA Student ciriculum discussion
+MEDIA-L@BINGVMB    Media in Education
+MEDSCI-L@BROWNVM   Medieval Science Discussion List
+MEXICO@ITESMVF1    Noticias de Mexico, en espanol
+MEXICO-L@TECMTYVM  Knowing Mexico: people, places, culture
+MIDEUR-L@UBVM      Discussion of Middle Europe
+MILHST-L@UKANVM    Military History
+MINCON@UKCC        Minority Recruitment and Retention
+MMEDIA-L@ITESMVF1  Multimedia discussion list
+MOUNT-L@TRMETU     Mountaineering Discussion List
+MUSEUM-L@UNMVMA    Museumdiscussion
+MUSIC@FINHUTC      Music-Research
+MUSIC-ED@UMINN1    Music Education
+MUSLIMS@ASUACAD    Muslim News Network
+ 
+NAT-LANG@TAMVM1    Languages of Aboriginal Peoples
+NATIVE-L@TAMVM1    Issues Pertaining to Aboriginal People
+NBEA-L@AKRONVM     National Business Education Assn. Disc.
+NCS-L@UMDD         National Crime Survey
+NETTRAIN@UBVM      Internet/BITNET Network Trainers
+NEW-LIST@NDSUVM1   New List Announcements
+NEWBOOKS@RPITSVM   New Books in Communication
+NEWCROPS@PURCCVM   Discussion list for New Crops
+NSP-L@RPITSVM      Noble Savage Philosphers
+NUTEPI@DB0TUI11    Nutritional epidemiology
+NUTWORKS@TCSVM     NutWorks Distribution list
+ 
+ORGCOMM@RPITSVM    Communication in organizations
+OPT-PROC@TAUNIVM   Optical Computing and Holography List
+OUTDOR-L@ULKYVM    Outdoor Discussion Group
+ 
+PA_NET@SUVM        Public Administration Network
+PACARC-L@WSUVM1    Pacific Rim Archaeology
+PACS-L@UHUPVM1.UH.EDU     Public-Access Computer Systems
+PACS-P@UHUPVM1.UH.EDU     PACS Publications
+PAGEMAKR@INDYCMS   PageMaker for Desktop Publishers
+PANET-L@YALEVM     Medical Education and Health
+PCBUILD@TSCVM      Building PCs
+PETS-L@ITESMVF1    Domestic animal care and education
+PHILCOMM@RPITSVM   Philosophy of communication
+PHILOSOP@YORKVM1   Philosophy Discussion Forum
+PHOTO-L@BUACCA     Photography Phorum
+PHOTOSYN@TAUNIVM   Photosynthesis Researchers'
+PHYS-L@UWF         Forum for Physics Teachers
+PHYSIC-L@TAUNIVM   Physics List
+POD-L@TAMVM1       Professional Organizational & Dev. Disc.
+POLCOMM@RPITSVM    Political communication
+POLI-SCI@RUTVM1    Political Science Digest
+POLITICS@UCF1VM    Discussion of Politics
+PSI-L@RPITSVM      Parapsychology Discussion Forum
+PSRT-L@MIZZOU1     Political Science Research & Teaching
+PSTAT-L@IRLEARN    Discussion of Stats and Programming
+PURTOPOI@PURCCVM   Rhetoric, Language, Prof. Writing
+ 
+QNTEVA-L@PSUVM     Quantitative Methods: Theory & Design
+QUAKE-L@NDSUVM1    QUAKE-L Discussion List
+QUALRS-L@UGA       Qualitative Research for the Human Sciences
+QUARKXPR@IUBVM     The Quark Express List
+ 
+RAILROAD@CUNYVM    The Railroad List
+RE-FORUM@UTARLVM1  Real Estate Forum
+RECYCLE@UMAB       Recycling in Practice
+REED-L@UTORONTO    Records of Early English Drama
+RELIGCOM@UKCC      RELIGCOM --A Discussion forum
+REMOTE-L@SUVM      Discussion of Remote Control Hobbies
+RENAIS-L@ULKYVM    Early Modern History - Renaissance
+RHETORIC@RPITSVM   Rhetoric, social movements, persuasion
+ROCK@TRITU         Rock&Roll Music Discussion List
+ROOTS-L@NDSUVM1    Genealogy List
+RURALDEV@KSUVM     Community & Rural Economic Development
+RUSSIA@ARIZVM1     Russia and her neighbors list
+ 
+SBSWE-L@SBCCVM     Society of Women Engineers
+SCOUTS-L@TCUBVM    Youth Groups Discussion List
+SCRNWRIT@TAMVM1    Screen Writing Discussion List
+SCREEN-L@UA1VM     Film and TV Studies Discussion
+SEDIT-L@UMDD       Scholarly Editing Forum
+SFLOVERS@RUTVM1    SF-Lovers List
+SHAKER@UKCC        Shaker - A forum
+SHAKSPER@UTORONTO  Shakespeare Electronic Conference
+SKEPTIC@YORKVM1    Skeptic Discussion Group
+SLART-L@CUNYVM     Second Language Acquisition
+SLOVAK-L@UBVM      Discussion of Slovak issues
+SM-RUM@ICNUCEVM    Small Ruminant Discussion List
+SOCORG-K@UTORONTO  Social Organization of Knowledge
+SOCWORK@UMAB       Social Work Discussion List
+SOS-DATA@UNCVM1    Social Science Data List
+SPORTPSY@TEMPLEVM  Exercise and Sports Psychology
+SPSSX-L@MARIST     SPSSX(r) Discussion
+SSREL-L@UTKVM1     Scientific Study of Religion
+STAT-GEO@UFRJ      Quantitative Methods in Geosciences
+STAT-L@MCGILL1     Statistical Consulting
+STATEPOL@UMAB      Politics in the American States
+STATLG-L@SBCCVM    Baseball League and Sports Disc.
+STLHE-L@UNBVM1     Teaching & Learning in Higher Educ.
+STOPRAPE@BROWNVM   Sexual Assault Activist List
+STREK-L@PCCVM      Star Trek Fan Club
+STUTT-L@TEMPLEVM   Stuttering: Research & Clinical Practice
+SWIM-L@UAFSYSB     Discussion of all aspects of swimming
+SWL-L@CUVMB        Short Wave Listener's List
+ 
+TEACHEFT@WCU       Teaching Effectiveness
+TECGRP-L@PSUVM     Technology and Social Behavior Group
+TECHTR@ARIZVM1     Technology Transfer
+TECHWR-L@OSUVM1    Technical Writers List
+TEXTILES@TREARN    Textiles & Clothing Studies
+THEATRE@GREARN     The Theatre Discussion List
+TOLKIEN@JHUVM      J.R.R.Tolkien's books
+TOOLB-L@UAFSYSB    Asymetrix "Toolbook" product
+TRANSIT@GITVM1     Transit Issues Discussion List
+TRAVEL-L@TREARN    Tourism Discussions
+TRDEV-L@PSUVM      Training and Development List
+TWAIN-L@YORKVM1    Mark Twain Forum
+TYPO-L@IRLEARN     Discussion of Typography
+TV-L@TREARN        TV Discussions
+ 
+URBAN-L@TREARN     Urban Planning Discussion List
+URBANET@MSU        Urban Planning Student Network
+ 
+VAMPYRES@GUVM      Vampiric lore, fact and fiction
+VETMED-L@UGA       Veterinary Medicine
+VIDNET-L@UGA       Video Network Discussion List
+VIRTU-L@UIUCVMD    VR / sci.virtual-worlds
+VPIEJ-L@VTVM1      Publishing E-Journals
+ 
+WATER-L@WSUVM1     Water Quality Discussion List
+WHIM@TAMVM1        A discussion list for "Humour Studies"
+WIN3-L@UICVM       Microsoft Windows Version 3
+WMST-L@UMDD        Women's Studies List
+WOODWORK@IPFWVM    Woodworking Discussions
+WORLD-L@UBVM       Forum on non-Eurocentric world history
+WORDS-L@YALEVM     English Language Discussion
+WP50-L@OTTAWA      WordPerfect Corp. Products
+ 
+Y-RIGHTS@SJUVM     Kid/Teen Rights Discussion Group
+YACHT-L@GREARN     Yachting, Sailing &amateur BoatBuilding
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ELECTRONIC JOURNALS AND NEWSLETTERS
+ 
+ 
+Electronic digests and journals are also available from some
+listserv sites. A few are refereed; most are not. Some are
+sponsored by professional associations or commercial publishers,
+but a great many are the online equivalent of desktop or copy-
+shop self-publishing efforts. One unusual characteristic of
+electronic journals is that they often contain only brief
+abstracts of articles that can be requested from the listserv
+address.
+ 
+ 
+Major archive sites
+ 
+A couple of years ago CICnet mounted a major effort to collect,
+organize, and archive electronic journals. Although the project
+has suffered from changing management, lack of funding, and poor
+subject cataloging, it is the most important collection of
+electronic journals on the net. Because of an emphasis on
+collecting journals from other archive sites rather than from
+lists and Usenet newsgroups, there is a lot of older material in
+the collection including a number of journals that ceased
+publication some time ago.
+ 
+                 ELECTRONIC JOURNAL COLLECTION (CICNET)
+                 Gopher gopher.cic.net 70
+ 
+Commercial publishers looked at the number of potential readers
+on the net and tried to figure out how to tap the market. One
+effort is the Electronic Newstand that provides sample articles,
+tables-of-contents, and "special" subscription offers. Aside
+from the fact that most of the "special" subscription offers
+don't match the offers found in flyers on every campus in the
+United States or in the magazines themselves, the Electronic
+Newstand is a smashing idea for both publisher and the net.
+ 
+                 ELECTRONIC NEWSTAND
+                 Gopher gopher internet.com  2100  or
+                 Telnet internet.com
+                 Login: type enews
+ 
+The Chronicle of Higher Education is the favorite publication of
+many academics. The Chronicle gopher server offers summary of
+each issue and a searchable database of job listings.
+ 
+                 CHRONICLE OF HIGHER EDUCATION
+                 Gopher chronicle.merit.edu 70
+ 
+ 
+Selected Technology/Internet Newsletters
+ 
+Edupage        listproc@educom.edu
+               sub edupage firstname lastname
+ 
+Bits-n-bytes   listserv@acad1.dana.edu
+               sub bits-n-bytes  firstname lastname
+ 
+GNN            info@gnn.com
+               send gnn info
+ 
+HOTT           hott-list.request@ucsd.edu
+               sub hott-list firstname lastname
+ 
+InfoCycle      contact: jwsmith@io.org
+ 
+Infobits       listserv@gibbs.oit.unc.edu
+               sub infobits firstname lastname
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+OTHER MAIL-BASED SERVICES
+ 
+ 
+Almanac
+ 
+Like listservs, Almanac provides subscriptions to newsletters
+and journals, as well as easy retrieval of specific articles.
+Almanac servers can also include multimedia graphics and sound
+bytes in e-mail files. Although some servers accept document
+submissions, Almanac does not provide the platform for
+discussion of common issues and concerns offered by the special
+interest lists. Almanac servers offer timely and free
+information to e-mail users, particularly in the areas related
+to agricultural extension services.
+ 
+Selected Almanac Servers
+ 
+Almanac                   almanac@oes.orst.edu
+                          almanac @silo.udavis.edu
+                          almanac@joe.uwex.edu
+                          almanac@empire.cce.cornell.edu
+                          almanac@acenet.auburn.edu
+                          almanac@ecn.purdue.edu
+                          almanac@ces.ncsu.edu
+ 
+White House Publications  publications@whitehouse.gov
+                          send info
+USDA Extension Service    almanac@esusda.gov
+ 
+ 
+ 
+Just for fun -- daily quotations
+ 
+Thought for the Day    listserv@tamvm1
+                       sub tftd-l firstname lastname
+ 
+The Quote of the Day   qotd-requet@ensu.ucalgary.ca
+                       sub qotd firstname lastname
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+REMOTE CONNECTIONS
+ 
+ 
+TELNET
+ 
+The telnet command lets you connect to other computer systems on
+the Internet. Most hosts use some sort of login procedure
+requiring user-ids and passwords. Activities on remote system
+are limited to those available to the guests.
+ 
+One of the frustrations of making telnet connections is that
+from time to time it is nearly impossible to break the
+connection. The Vax LOGIN.COM file on page 4 of this guide show
+how to remap the keyboard to use the escape sequence listed
+below.
+ 
+ 
+Telnet Commands
+ 
+TELNET host             Connect to a remote host
+ 
+TELNET/esca=^C host     Sets escape sequence so that Ctrl-C
+                        followed by q exits any telnet
+                        connection
+ 
+TELNET host/port=#      Some host require specific port number
+ 
+TELNET/TN3270 host      Connect to a remote using IBM 3270
+                        emulation
+ 
+TELNET host log-file x  Connects to remote host and logs session
+                        activities to file x
+ 
+ 
+Capturing a Telnet Session
+ 
+In spite of the popularity of Gopher, WWW, and Hytelnet for
+making easy telnet connections, they are not particularly useful
+when you need to capture session activities to a file for later
+editing. If you want to log a session to a file that you can
+subsequently edit and use in other ways, use the telnet log-file
+option. This works well on systems that do not use specific
+screen locations for directions and commands. For example,
+logging a search of the PALS catalog works well while a similar
+log for a LUMINA search is unusable. (PALS and LUMINA are the
+online catalogs of the Minnesota State University System and the
+University of Minnesota.)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+FILE TRANSFER PROTOCOL (FTP)
+ 
+Anonymous FTP (File Transfer Protocol) transfers files from one
+Internet site to another. For the most part, remote file
+transfers should be used only after business hours and on
+weekends so that remote system resources are free to serve local
+users. The basic procedure for using FTP is:
+ 
+    Basic Commands                    FTP Example
+ 
+    FTP site                          FTP vm1.nodak.edu
+    Type user anonymous               Type user anonymous
+    Type your full e-mail address     Type your full e-mail address
+    CD subdirectory                   CD NNEWS
+    Get  filename                     Get guide2.nnews
+    Type exit to end ftp session      Type exit
+ 
+FTP Commands
+ 
+DIR       List files on remote host               dir
+CD        Change subdirectory on remote host      cd directory-name
+          Move up one level                       cd ..
+ 
+GET       Transfer a file from remote host        get filename
+MGET      Transfer a group of files               mget *.txt
+PUT       Transfer a file to remote host          put filename
+MPUT      Transfer a group of files remote host   mget *.txt
+SET TYPE  Required for transferring binary files  type image
+ 
+SPAWN     Run another process(program)
+                                            spawn type readme /page
+          Useful for looking at READ.ME files
+          without quitting FTP
+ 
+ 
+Finding Files Using ARCHIE
+ 
+The ARCHIE servers around the world maintain a searchable
+database of the contents of hundreds of FTP site archives. If
+you are looking for specific file or type of files, ARCHIE will
+help you locate appropriate FTP sites. If your site has an
+Archie client, just type the following command to get the list
+of basic commands available to you: archie. To find sites that
+have subdirectories of picture files, type archie pictures.
+ 
+Public access Archie servers are available for sites lacking
+Archie clients. These servers often limit the number of
+concurrent telnet connections due to overwhelming demand. Ask
+your computer services department to install an Archie client.
+ 
+                      Telnet archie.internic.net
+                      Login type archie
+                      Type find search_term
+                      Type quit
+ 
+ 
+Transferring Files to a PC
+ 
+Some remote computers maintain archives of public domain and
+shareware programs for IBM and Macintosh microcomputers.
+Although copying files from remote computers to a Vax using FTP
+usually takes very little time, using Kermit to download files
+from a Vax to a microcomputer is a tedious process. If a program
+is available on a local BBS, there is no reason to waste your
+time using FTP and Kermit to download files.
+ 
+ 
+Selected File Archives
+ 
+ 
+Archive    Address    Directory
+ 
+Network Information and Guides:
+ 
+InterNIC: Registration Info   rs.internic.net
+InterNIC: Directory/Database  ds.internic.net
+InterNIC: Infosource          is.internic.net
+Network Information           ftp.sura.net           pub/nic
+University of Michigan        una.hh.lib.umich.edu   inet dirsstacks
+ 
+Network Navigation Tools:
+ 
+Gopher                        boombox.micro.umn.edu  pub/gopher
+Hytelnet                      ftp.usask.ca           pub/hytelnet
+Libs.com                      sonoma.edu             pub
+Lynx                          ftp2.cc.ukans.edu      pub/lynx
+Cello                         ftp.law.cornell.edu    pub/LII/Cello
+Mosiac                        ftp.ncsa.uiuc.edu
+ 
+Library Guides and Software:
+ 
+Barron                        ftp.unt.edu           pub/library
+Noonan                        vm1.nodak.edu         nnews
+St. George                    ariel.unm.edu         library
+Library software archive      hydra.uwo.ca          libsoft
+ 
+Electronic Text Archives:
+ 
+CPET                          guvax.georgetown.edu
+Electronic Frontier Fndtn.    ftp.eff.org           pub/eff
+Internet Wiretap              wiretap.spies.com
+Library of Congress           ftp.loc.gov
+Online Book Initiative        ftp.std.com           obi
+Oxford Text Archive           black.ox.ac.uk        ota
+Project Gutenberg             mrcnext.cso.uiuc.edu  pub/etext
+Scholarly Communication Proj. borg.lib.vt.edu
+ 
+General Interest:
+ 
+University of North Carolina  sunsite.unc.edu
+Usenet FAQs                   rtfm.mit.edu  pub/usenet/news.answers
+ 
+Software:
+ 
+MAC/PC/                       archive.umich.edu
+MAC                           sumex-aim.stanford.edu
+PC                            oak.oakland.edu
+PC                            wuarchive.wustl.edu
+PC - MS Windows               ftp.cica.indiana.edu
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+INTERNET LIBRARY SERVICES
+ 
+Online Catalog Basics
+ 
+ 
+Keyword and Boolean Searching
+ 
+The online catalog supports a variety of ways of searching for
+information not available in the traditional card catalog. One
+of the most useful is the keyword or term search. Select the
+keyword search option and enter the term or terms you think are
+most clearly related to the subject of your search. Keyword
+searches are a good starting point when you are not familiar
+with the subject headings in a particular subject area. Note:
+Keyword searches may be restricted to just one part of a catalog
+record such as the title or they may be based on the entire
+record.
+ 
+Boolean searches combine terms using the logical operators AND,
+OR, and NOT. The OR operator expands the number of possible
+matches or "hits"; AND and NOT limit the number of matches to
+those items most closely related to the search topic.
+ 
+Wildcards or truncators expand the number of successful matches
+in a search. For example, some online systems will search for
+any record that includes the root word GEO or GEO#. Such a
+search would find geometry, geology, geographical, etc.
+ 
+Some online catalogs allow users to limit a search to a
+particular library, language, materials format, or date of
+publication. Often these limits are set after the initial search
+is completed. Search delimiters can bring the number of "hits"
+down to manageable size.
+ 
+ 
+Databases and Gateways
+ 
+Many online catalogs now offer access to periodical databases,
+dictionaries,  in-house bibliographies, calendars, and other
+databases. Because of licensing agreements these additional
+features may not be available to remote users on the Internet.
+Read the catalog news or help screens from time to time to check
+for new resources.
+ 
+Search Strategies
+ 
+1.  Identify the best set of online catalogs to search for
+    your topic. Local catalogs offer convenience and ready
+    access; national library or major university catalogs
+    collection depth or breadth. Authors and topics closely tied
+    to a specific region are usually well represented in the
+    library catalogs of those regions.
+ 
+2.  Determine the type(s) of search to conduct: author, title,
+    subject heading, keyword, or call number. Keyword searches
+    are a good starting point when you don't know which subject
+    headings are related to your topic.
+ 
+3.  Jot down the search terms you will use to complete the
+    search. Modify the list as needed after viewing citations.
+ 
+    Note: Most online systems balk at searching for short common
+    words such as THE, IN, or WITH. Avoid using these terms.
+ 
+4.  To expand the number of "hits" use the logical operator or
+    and use the appropriate wildard or truncator.
+ 
+    For example: search for "Twain or Melville" to expand the
+    search to items that mention either or both authors.
+ 
+5.  To limit the number of hits use the logical operators AND
+    and NOT.
+ 
+    For example: search for "Iowa and Wisconsin" to limit
+    retrieval to items that include both keywords.
+ 
+6.  Some online catalogs, such as PALS, allow users to employ
+    a multi-step process to limit and refine searches. Once the
+    primary search request is processed, you can limit it by
+    date, language, and even material format.
+ 
+7.  Display a few records to see if you are finding the right
+    sort of material. Examine the subject headings and consider
+    changing your search terms if necessary. Continue the search
+    until you are satisfied that you have found enough material
+    to serve your needs.
+ 
+8.  Record the results of your search. Print a hard copy of
+    the screen or capture the whole search to a text file for
+    later editing and printing, or just jot down the information
+    you need in order to locate the material in a local library.
+ 
+9.  Consider repeating your search in another online catalog.
+ 
+10. After you complete an online search, the best place to
+    begin your search for the materials is your local college or
+    central public library. Although you may not find the exact
+    title you want on the shelves, you may find similar and
+    perhaps even more useful items on nearby shelves. Your local
+    public or college librarian can help you complete an
+    interlibrary loan request if necessary.
+ 
+ 
+ 
+ 
+Online Library Catalogs: A Starter Set
+ 
+Although LIBCAT (see bibliography) lists more than 750 online
+library catalogs, few people have any need to search so widely.
+Try the following major research libraries in the United States
+to get a feel for searching different types of online catalogs.
+DB = Database; SC = Special Collection.
+ 
+ 
+LIBRARY OF CONGRESS INFORMATION SYSTEM - LOCIS
+TELNET: locis.loc.gov or 140.147.254.3
+LOGON:  None
+LOGOFF: From main menu
+DB: Federal Legislation since 1981, Copyright information
+DB: National Referral Center Resources File, Foreign Law
+ 
+NEW YORK PUBLIC LIBRARY RESEARCH LIBRARIES
+OPAC:   INNOPAC
+TELNET: 149.123.101.18
+LOGON:  Login: type library
+LOGOFF: From main menu
+SC: Arents Tobacco Collection; Lewis Carroll
+SC: Berg Collection of English and American Literature
+SC: Schomburg Collection of Black Culture
+SC: Book Arts Collection
+ 
+UNIVERSITY OF CALIFORNIA
+TELNET: melvyl.ucop.edu or 192.35.222.222
+LOGON:  Terminal: VT100
+LOGOFF: Type END then LOGOFF
+DB: OCEAN DB, Asia & Pacific Studies; US Forest Service
+SC: Gregory Bateson; Kenneth Patchen - UC Santa Cruz
+SC: Robert Heinlein; Carlyle - UC Santa Cruz
+ 
+CATNET - BIG 10 UNIVERSITIES LIBRARY CATALOGS
+OPAC:   NOTIS
+TELNET: thorplus.lib.purdue.edu or 128.210.63.104
+LOGON:  Login: type catnet
+        Hit RETURN
+        Select library
+LOGOFF: From main menu
+ 
+COLORADO ALLIANCE OF RESEARCH LIBRARIES - CARL
+OPAC:   CARL
+TELNET: pac.carl.org or 192.54.81.128
+LOGON:  Service: type PAC
+        Terminal: VT100
+        Select library catalogs (1)
+LOGOFF: Type //EXIT
+DB: Environmental Education, Conser, Online Libraries
+DB: Uncover,  British Library Document Supply Centre,
+DB: Journal Graphics
+SC: Kelmscott Press; John Masefield - UC Boulder
+SC: Limited Edition Club - UC Boulder
+SC: Mountaineering Collection - UC Boulder
+ 
+HARVARD UNIVERSITY
+OPAC:   Z39.58
+TELNET: hollis.harvard.edu or 128.103.60.31
+LOGON:  Hit RETURN
+        Type HOLLIS
+        Type choose hu
+LOGOFF: Hit ESCAPE xx
+Online Guide to Harvard Libraries
+SC: too many to list - search Online Guide
+ 
+ILLINET
+TELNET: illinet.aiss.uiuc.edu or 128.174.53.54
+LOGON:  Hit B then RETURN
+        Select ILLINET
+        Select IOMENU
+LOGOFF: Hit X then X then E
+ 
+STANFORD UNIVERSITY
+OPAC:   FOLIO
+TELNET: forsythetn.stanford.edu or 36.172.0.41
+LOGON:  Login: type socrates then y
+        Terminal: VT100
+LOGOFF: Type END or LOGOFF
+DB: Technical reports, Martin Luther King, Jr. bibliography
+DB: Bookstore catalog
+SC: John Steinbeck; Slavica Collections
+SC: Barchas Collection - making of modern science
+ 
+UNIVERSITY OF TEXAS, AUSTIN
+TELNET: utcat.utexas.edu or 128.83.186.104
+LOGON:  Hit RETURN several times
+        Terminal:  VT100
+        Type UTCAT
+LOGOFF: Type STOP
+        Select Logoff then type stop
+SC: Aldine Collection (500+ from press of Aldo Manuzio)
+SC: Benson Latin American Collection; Medici Collection
+SC: Cortot Collection - psalters and liturgical music
+SC: Van Wijk Chronology Collection
+ 
+YALE UNIVERSITY
+OPAC:   NOTIS
+TELNET: umpg.ycc.yale.edu/port=6520 or 130.132.21.64 6520
+LOGON:  Terminal: VT100
+        Hit RETURN
+        Type OPAC
+LOGOFF: Type STOP
+SC: Art of the Book; Horace Walpole
+SC: Judaica; Holocaust Testimony
+ 
+ 
+Minnesota Libraries
+ 
+ 
+ANOKA COUNTY PUBLIC LIBRARY
+OPAC:   DRA
+TELNET: anoka.lib.mn.us or 198.174.40.2
+LOGON:  Login: type library
+LOGOFF: Type exit
+DB: Popular Song Index
+ 
+CARLETON COLLEGE
+TELNET: lib1.carleton.edu or 137.22.1.192
+LOGON:  When connected: type start
+LOGOFF: Type end
+ 
+CARVER COUNTY PUBLIC LIBRARY
+OPAC:   DRA
+TELNET: carver.lib.mn.us or 198.174.49.2
+LOGON:  Login: type search
+LOGOFF: Type quit
+ 
+CLICNET - TWIN CITIES PRIVATE COLLEGES
+OPAC:   DYNIX
+TELNET: host.clic.edu or 192.138.131.241
+LOGON:  Login: type clicnet
+        Terminal: VT100
+LOGOFF: Type later
+SC: Celtic Library (4600+) - University of St. Thomas
+ 
+DAKOTA COUNTY PUBLIC LIBRARY
+OPAC:   DYNIX
+TELNET: dakota.lib.mn.us or 198.174.54.2
+LOGON:  Login: type library
+LOGOFF: From main menu
+DB: Community resources; local newspaper index
+ 
+MINNESOTA STATE UNIVERSITIES
+OPAC:   PALS
+TELNET: pals.msus.edu or 134.29.1.16
+LOGON:  None
+LOGOFF: Type $$SOFF
+ 
+NORTHERN LIGHTS LIBRARY NETWORK
+OPAC:   DRA
+TELNET: aurora.northernlights.lib.mn.us or 198.174.98.1
+LOGON:  Username: type northern
+        Password: type fortwalton
+LOGOFF: Type exit then E
+ 
+RAMSEY COUNTY PUBLIC LIBRARY
+OPAC:   DYNIX
+TELNET: ramsey.lib.mn.us or 198.174.50.2
+LOGON:  Login: type library
+LOGOFF: From main menu
+DB: community resources
+ 
+SCOTT COUNTY PUBLIC LIBRARY
+OPAC:   DRA
+TELNET: scott.lib.mn.us or 198.174.49.2
+LOGON:  Login: type library
+LOGOFF: Type quit
+ 
+ST. PAUL PUBLIC LIBRARY
+OPAC:   CSLI
+TELNET: stpaul.lib.mn.us or 198.174.52.100
+LOGON:  Login: type library
+LOGOFF: From main menu
+ 
+TRAVERSE DES SIOUX LIBRARY SYSTEM
+OPAC:   PALS
+TELNET: pals.msus.edu
+LOGON:  None
+        Type set host tds
+LOGOFF: Type $$SOFF
+ 
+UNIVERSITY OF MINNESOTA, DULUTH
+OPAC:   UNICORN
+TELNET: lib.d.umn.edu
+LOGON:  Login: type libpub
+LOGOFF: From main menu
+ 
+UNIVERSITY OF MINNESOTA, TWIN CITIES
+OPAC:   NOTIS
+TELNET: lumina.lib.umn.edu or 128.101.92.3
+LOGON:  Terminal: VT100
+        Type PA
+        Select LUMINA (1)
+LOGOFF: Type XQ then XQ again
+SC: Givens Collection of Afro-American Literature
+SC: Arthur Conan Doyle; Modern Greek Collection
+SC: Henry Miller; James Wright; John Berryman, Thomas Wolfe
+SC: Children's Literature Research Collection; Bieler Press
+SC: Dahllof Collection of Swedish Americana
+SC: History of Exploration; History of Information Processing
+ 
+WASHINGTON COUNTY PUBLIC LIBRARY
+OPAC:   DYNIX
+TELNET: wcm.washington.lib.mn.us or 198.174.55.10
+LOGON:  Login: type library
+LOGOFF: From main menu
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+EXPLORING THE NETS -- TOOLS AND TECHNIQUES
+ 
+ 
+The sheer quantity and variety of information available on the
+Internet can overwhelm both newcomers and seasoned network
+explorers. As new links are connected, new databases
+established, and new uses found for the network resources, the
+task of finding what you need or want becomes more complex.
+Navigating the networks in search of useful material can be
+either a frustrating or exhilarating task, but several
+innovative mechanisms exist to help deal with the Internet
+version of information overload.
+ 
+Gopher
+ 
+Gopher is a distributed document delivery service using a
+client-server model to make it easy for users to search for and
+retrieve materials from remote sites. Gopher employs a
+hierarchical outline to make browsing and searching local and
+remote sources of information quick and uncomplicated. Once
+connected to a Gopher server you can connect to other
+information servers without being bothered by most of the
+details of Telnet or FTP protocols and addresses. Gopher
+software is available via anonymous FTP from
+boombox.micro.umn.edu.
+ 
+The Gopher Advantage
+ 
+1. Connect to other services: bulletin boards, library catalogs,
+   and other gophers around the world.
+2. Search databases, file archives, gopher menus, online
+   directories and phone books.
+3. Retrieve, view, mail or save documents and files.
+4. Tranfer text and binary files.
+ 
+ 
+The Main Gopher Menu
+ 
+One of the best gopher servers is run by the Library of
+Congress. Each menu item on the main menu leads to other menus,
+some of which lead to yet other menus. Some sub-menus items
+offer text files for viewing or saving; others connect to
+bulletin boards or library catalogs.
+ 
+ 
+ 
+                    Library of Congress Marvel
+ 
+  1.  About LC MARVEL (Please Read First)/
+  2.  Library of Congress: Facilities, Activities, and Services/
+  3.  Research and Reference/
+  4.  Library of Congress Online Systems/
+  5.  The U.S. Congress/
+  6.  Federal Government Information/
+  7.  Services to Libraries and Publishers/
+  8.  Copyright/
+  9.  Employee Information/
+  10. The Global Electronic Library (by Subject)/
+  11. Internet Resources/
+  12. What's New on LC MARVEL/
+  13. Search LC MARVEL Menus/
+ 
+ 
+As with most well-organized gophers, Marvel lists items on the
+main menu in the order of importance to the mission of the
+organization rather than in alphabetical order. General purpose
+search tools are listed last. Gopher servers are public faces
+that organizations present to the world and require as much
+thought and attention as organizations give to other public
+information services.
+ 
+Connecting to Gopher
+ 
+If you have an Internet account at an organization that has
+installed a gopher client, just type "gopher." Otherwise you can
+connect to the gopher at the University of Minnesota:
+ 
+UNIVERSITY OF MINNESOTA GOPHER          Local dialup (612) 626-2400
+Telnet: consultant.micro.umn.edu        Access> Type consultant.micro.umn.edu
+Logon:  Type gopher                     Logon:  Type gopher
+        Terminal: VT100                         Terminal: VT100
+Logoff: Type Q                          Logoff: Type Q then type EXIT
+ 
+ 
+If the University of Minnesota server is busy or just to see
+other ways to organize Gopher servers, try one of the following:
+ 
+LIBRARY OF CONGRESS            UNIVERSITY OF CALIFORNIA, SANTA CRUZ
+Gopher marvel.loc.gov 70 or    Gopher gopher.ucsc.edu 70 or
+Telnet marvel.loc.gov          Telnet infoslug.ucsc.edu
+Logon: type marvel             Logon: type infoslug
+ 
+ 
+Searching Gopherspace with Veronica
+ 
+Although it is fairly easy to move from menu to menu on one or
+more Gophers, the hierarchical menu system isn't much help when
+you want to find a topic on another Gopher server quickly. The
+Veronica program collects menu entries from hundreds of Gophers
+into a searchable database. Veronica searches can be simple
+keyword or complex Boolean searches. The results of a Veronica
+search are presented in the familiar gopher menu format.
+ 
+Veronica searches:
+ 
+Searches may use simple keywords:     weather
+ 
+Use Boolean operators:                weather and minnesota
+                                      weather not minnesota
+ 
+Use Wildcards:                        librar*
+                                      librar* and copyright
+ 
+Veronica searches are limited to retrieving a maximum of 200
+hits unless the following command is added to the search:    m-
+It is important to remember that the Veronica database is based
+on menu titles that were not necessarily  created by librarians
+or indexers. Many of the items are collected from sub-menus and
+the titles aren't particularly informative.
+ 
+The Veronica servers are heavily used and may not be available
+just when you need them,  that's why there are usually several
+different servers available at a given time.
+ 
+ 
+Bookmarks: Designing your own Gopher menu
+ 
+Gopher clients allow users to create their own Gopher bookmark
+menu by moving to a menu item and hitting the "a" key. The item
+will be added to a list of bookmarks that can be viewed at any
+time by hitting the "v" key. Bookmarks enable one to skip going
+from menu to menu to menu to reach the exact item one wants to
+view.
+ 
+Bookmark example:
+ 
+                           Bookmarks
+ 
+   1.    Search Gopher Titles at the University of Minnesota <?>
+   2.    Search gopherspace at University of Cologne <?>
+   3.    Search Gopherspace using Veronica/
+   4.    All the Gopher Servers in the World/
+   5.    InterNIC: Internet Network Information Center/
+   6.    Library of Congress Marvel Gopher/
+   7.    United States Government Gophers/
+   8.    Electronic Journal collection from CICnet/
+   9.    Hytelnet library catalogs (word search) <?>
+   10.   List of Lists <?>
+   11.   RTFM - rtfm.mit.edu anon ftp archive of FAQs/
+ 
+ 
+ 
+This example emphasizes tools and menus that make it easy to
+navigate gopher-space. The duplication of Veronica/Jughead
+servers was to make sure that a working server could be reached
+when needed.
+ 
+Gopher bookmarks are stored in a file named: gopherrc. on VAX
+systems. It is a good idea to back-up favorite gopher bookmarks
+by typing: copy gopherrc. mygopher.txt.  Note: Don't do this
+while your gopher client is running.
+ 
+If your list of bookmarks gets corrupted, you can restore the
+list by typing: copy mygopher.txt gopherrc.
+ 
+This technique can also be used to create and use a series of
+bookmark lists on VMS and perhaps other systems. Gopher and
+Internet demonstrations can be customized for specific audience
+by using a set of bookmarks related to the interests of that
+audience.
+ 
+Bookmarks are not available when you use telnet instead of a
+gopher client.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+WWW -- World Wide Web
+ 
+Like Gopher, World Wide Web is a distributed document delivery
+service using a client-server model to make it easy for users to
+search for and retrieve materials from remote sites. WWW uses
+hypertext to make browsing and searching local and remote
+sources of information quick and uncomplicated. Once connected
+to a WWW server you can connect to other information servers
+without being bothered by most of the details of Telnet or FTP
+protocols and addresses. WWW browsers, as the clients are
+called, are available for many platforms.
+ 
+Unlike Gopher, WWW integrates text, graphics, and sound as well
+as links to other  resources on its pages. If Gopher menus
+resemble a collapsed outline, WWW pages contain the text that
+brings the outline to life. Web servers use a hypertext mark-up
+language (HTML) to produce visually appealing and easy to follow
+pages.
+ 
+(Graphic mage of Brunel University's Web goes here.)
+ 
+In the example above, Brunel University's Information Service
+provides links to other pages and services (underlined items) in
+an easy to read format. The Web advantage is the ability to
+flesh out a simple outline of resources with text and multimedia
+as well as embedded links to other resources.
+ 
+Uniform Resource Locators
+ 
+World Wide Web has led the way in the use of standardized
+identification of network resources by integrating URLs into Web
+pages. Uniform Resource Locators identify the type and location
+of network and local resources. In the figure above Brunel's URL
+is http://http1.brunel.ac.uk:8000/ indicating the type of
+service and the protocol and address needed to reach the
+service. URLs come in the following flavors:
+ 
+WWW site       http://www/site:port/directory/file.html
+               http://nearnet.gnn.com/GNN-ORA.html
+Gopher menu    gopher://gopher.site.edu/:port/
+               gopher://marvel.loc.gov/:70/
+Telnet host    telnet://site
+               telnet://database.carl.org/
+FTP archive    ftp://site/directory/
+               ftp://ftp.law.cornell.edu/pub/
+Newsgroup      news:alt.mything
+               news:alt.bbs
+File           file://site/directory/filename.txt
+               file://localhost/mysub/mypage.html
+ 
+Connecting to the Web
+ 
+The best way to connect to the WWW is with your own browser;
+check to see if your site has one installed. The LYNX browser
+for VT100 sites is available via anonymous FTP from
+ftp2.cc.ukans.edu in the pub/lynx directory.
+ 
+If you don't have a browser, try one of the following services
+to find out how the Web works.
+ 
+Server                         Telnet Address            Login
+ 
+CERN (home of the WWW)         info.cern.ch              none
+University of Kansas (LYNX)    ukanaix.cc.ukans.edu      www
+Cornell Law School             fatty.law.cornell.edu     www
+ 
+Here are a few  WWW pages worth checking out:
+ 
+Dr. Fun  (needs graphic interface)
+http://sunsite.unc.edu/Dave/drfun.html
+ 
+Legal Information Institute
+http://www.law.cornell.edu/
+ 
+Map Viewer - XeroxParc
+http://pubweb.parc.xerox.com:80/map
+ 
+Maricopa Center for Learning & Instruction
+http://hakatai.mcli.dist.maricopa.edu/
+ 
+Museum of Paleontology
+http://ucmp1.berkeley.edu/welcome.html
+ 
+Novell, Inc.
+http://www.novell.com:80/
+ 
+Special Exhibits - University of Texas, Austin - Library
+http://www.lib.utexas/Exhibits.html
+ 
+The Global Network Navigator
+http://nearnet.gnn.com/gnn/GNNhome.html
+ 
+The Whole Internet Catalog
+http://nearnet.gnn.com/gnn/wic/newrescat.toc.html
+ 
+The Virtual Hospital
+http://vh.radiology.uiowa.edu/
+ 
+Tolkein Resources
+http://gopher.usask.ca/~friesend/tolkien/rootpage.html
+ 
+Wired Magazine
+http://wired.com/
+ 
+World Wide Web Worm
+http://www.cs.colorado.edu/home/mcbryan/WWWW.html
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+WAIS -- Wide Area Information Server
+ 
+WAIS is another distributed document delivery service using a
+client-server model. Like Gopher and World Wide Web it makes it
+easier for users to find, search, and retrieve documents from
+remote sites. It is widely used by both gopher and WWW servers
+to provide searchable indexes to document collections and
+databases.
+ 
+WAIS (Wide Area Information Server) helps users search multiple
+Internet sites at one time. Over 500 databases are searchable
+from the WAIS operated by Thinking Machines (the source of the
+original software). WAIS searches are fast and the results can
+be scanned online or mailed to your network address. There is a
+limit to the number of "hits" that WAIS reports, but each is
+assigned a relevancy score that can be useful in choosing which
+sources to examine. Note that not all WAIS databases are really
+comprehensive, many are still experimental and incomplete. While
+WAIS is easy to use, read the help file.
+ 
+             WAIS - WIDE AREA INFORMATION SERVER
+             Telnet  quake.think.com or 192.31.181.1
+             Logon:  type wais
+ 
+CNIDR's freeWAIS provides a significant improvement to the
+original software by supporting both wildcard and Boolean
+searches that were lacking in the original software.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Gateway Programs
+ 
+There are programs that serve as gateways to internet resources
+that can be reached by logging into a remote computer via the
+TELNET protocol. Most of these began as attempts to make the
+connection to remote library systems easier for local users. As
+a more varied group of network resources became available, these
+gateway programs grew to include access to bulletin boards,
+databases of all sorts, online games (for example, GO and
+Chess), and more.
+ 
+Two of the most useful gateway programs are: HYTELNET produced
+by Peter Scott and Earl Fogel at the University of Saskatchewan
+and LIBS.COM by Mark Resner at Sonoma State University. While
+these programs can be run from individual accounts, it makes
+more sense to make these programs available to all users on a
+system. These programs are available for both Unix and VMS
+systems.
+ 
+ 
+Both programs are made available to remote users for
+demonstration via the connections below. If you intend to use
+these programs regularly, obtain copies of them for your own
+account or encourage your computer center gurus to make them
+available on your local system.
+ 
+HYTELNET                           Available via anonymous FTP from
+TELNET  access.usask.ca or         ftp.access.usask.ca in the
+TELNET  128.233.3.1                pub/hytelnet directory
+LOGON:  Login: type hytelnet
+LOGOFF: Type q
+Note: Automatic remote connection is not available with the demo account
+ 
+LIBS.COM                           Available via anonymous FTP from
+TELNET  vax.sonoma.edu or          sonoma.edu in the pub directory
+TELNET  130.157.2.3
+LOGON:  Username: type OPAC
+LOGOFF: Select Exit from main menu
+ 
+Updates to the HYTELNET program are posted regularly on the
+moderated HYTEL-L list. Subscribe to the list by sending request
+to listserv@kentvm.bitnet. This list is probably the best way to
+keep current on new TELNET services available on the Internet
+even if you don't use the software.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+INTERNET BULLETIN BOARDS
+ 
+ 
+Many BBS systems exist on the Internet and are accessible via
+Telnet. They vary greatly in functionality and amount of usage.
+Please keep in mind that BBSs go up and down quite often so this
+list may be soon obsolete. The following list includes some of
+the best Internet BBSs.
+ 
+ 
+Campus-Wide Information Systems
+ 
+Most campus-wide information systems (CWIS) serve the needs of
+the local campus community, but a few offer valuable services
+that may interest a wider audience. Many of these services can
+be reached via Gopher, Libs.Com, or Hytelnet.
+ 
+COLUMBIA UNIVERSITY
+Gopher gopher.cc.columbia.edu 70 or
+Telnet columbianet.columbia.edu or 128.59.40.54
+ 
+RUTGERS UNIVERSITY
+WWW  http:/www.rutgers.edu/ or
+Telnet info.rutgers.edu or 128.6.26.25
+ 
+ 
+A few outstanding systems
+ 
+AMERICAN MATHEMATICAL SOCIETY
+Gopher E-MATH.AMS.COM 70 or
+Telnet E-MATH.AMS.COM or 130.44.1.100
+Logon: e-math
+Password: e-math
+Note: integrated BBS, gopher, and wais system
+ 
+BULLETIN BOARD FOR LIBRARIES - BUBL
+Gopher bubl.bath.ac.uk 7070 or
+Telnet bubl.bath.ac.uk
+Logon: bubl
+ 
+HNSOURCE: CENTRAL INFORMATION SERVER FOR HISTORIANS
+Telnet hnsource.cc.ukans.edu or 129.237.33.1
+Login: type history
+ 
+HUMBUL BBS (HUMANITIES COMMUNICATION)
+Telnet gandalf.ox.ac.uk
+Which service: type PAD
+PAD> type CALL HUMBUL
+ 
+UNIVERSITY OF OKLAHOMA (OUBBS)
+Telnet oubbs.telecom.uoknor.edu
+ 
+UNIVERSITY OF NORTH CAROLINA
+Gopher sunsite.unc.edu 70 or
+Telnet sunsite.unc.edu
+Login: type gopher, lynx, swais, or ftp
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Government Information Systems
+ 
+ 
+Federal
+ 
+ 
+ECONOMIC BULLETIN BOARD
+Via University of Michigan
+gopher una.hh.lib.umich.edu 70
+ 
+FDA BBS
+Telnet fdabbs.fda.gov or 150.148.8.48
+Login: bbs
+ 
+FEDIX/MOLIS
+Gopher fedix.fie.com 70 or
+Telnet fedix.fie.com or 192.111.228.33
+Login: type new
+ 
+FEDWORLD BBS
+Telnet fedworld.doc.gov or 192.239.92.201
+Note: Gateway to most Federal BBSs including those not on the
+Internet
+ 
+LEGI-SLATE GOPHER
+Gopher mudhoney.micro.umn.edu 7000
+ 
+LIBRARY OF CONGRESS - MARVEL
+Gopher marvel.loc.gov 70 or
+Telnet marvel.loc.gov
+Login: type marvel
+ 
+US HOUSE GOPHER
+Gopher gopher.house.gov 70
+ 
+US SENATE GOPHER
+Gopher ftp.senate.gov 70
+ 
+USDA
+Gopher usda.mannlib.cornell.edu 70 or
+FTP usda.mannlib.cornell.edu or
+Telnet usda.mannlib.cornell.edu
+Userid: type usda
+ 
+US DEPARTMENT OF EDUCATION
+Gopher gopher.ed.gov 70
+ 
+VOICE OF AMERICA AND WORLDNET TELEVISION
+Gopher gopher.voa.gov 70
+ 
+ 
+State
+ 
+ 
+ACCESS: LEGISLATIVE INFORMATION SERVICE
+Hawaii State Legislature
+Telnet access.uhcc.hawaii.edu or 128.171.7.167
+ 
+CALIFORNIA STATE LEGISLATIVE INFORMATION
+Gopher sen.ca.gov 70
+ 
+ELECTRIC IDEAS CLEARINGHOUSE BBS
+Telnet eicbbs.wseo.wa.gov or 192.152.10.212
+Login: new
+ 
+HAWAII FYI
+Telnet fyi.uhcc.hawaii.edu or 128.171.7.168
+ 
+MINNESOTA HOUSE OF REPRESENTATIVES
+Gopher gopher.revisor.leg.state.mn.us
+ 
+WINDOW ON STATE GOVERNMENT (TX)
+Telnet window.texas.gov or 192.198.66.186
+Login: type new
+ 
+ 
+Other
+ 
+ 
+C-SPAN
+Gopher c-span.org 70
+ 
+EGIS: ELECTRONIC GOVERNMENT INFORMATION SERVICE
+Gopher eryx.syr.edu 70
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Education Bulletin Boards And Networks
+ 
+ 
+ASK ERIC GOPHER
+Gopher ericir.syr.edu 70 or
+Telnet ericir.syr.edu
+Login: type gopher or www
+ 
+BBS'S NATIONAL SCHOOL NETWORK TESTBED
+Gopher copernicus.bbn.com 70
+ 
+CANADA'S SCHOOLNET
+Gopher ernest.ccs.carleton.ca 419
+ 
+CAPPNET: CALIFORNIA ACADEMIC PARTNERSHIP PROGRAM
+Telnet nis.calstate.edu or 130.150.102.39
+Login: type capp
+Password: hit return
+Terminal: VT100
+ 
+COLUMBIA ONLINE INFORMATION NETWORK
+Telnet bigcat.missouri.edu or 128.206.1.3
+Login: type guest
+ 
+CONSORTIUM FOR SCHOOL NETWORKING
+Gopher digital.cosn.org 70
+ 
+DISTANCE EDUCATION DATABASE
+Telnet acsvax.open.ac.uk or 137.108.48.24
+Username: type ICDL
+Account code: type country name as one word
+Password: type aaa
+ 
+ED-NET COMPASS
+Telnet eosc.osshe.edu
+Login: type guest
+ 
+EMPIRE INTERNET SCHOOLHOUSE
+Telnet nysernet.org or 192.77.173.2
+Login: type empire
+ 
+IDEANET: INDIANA DEPARTMENT OF EDUCATION
+Telnet ideanet.doe.state.in.us or 165.139.1.1
+Login: type visitor
+ 
+INTERNATIONAL EDUCATION BULLETIN BOARD
+Telnet nis.calstate.edu or 130.150.102.39
+Login: type intl
+Terminal: VT100
+ 
+INFORMNS - INTERNET FOR MINNESOTA SCHOOLS
+Gopher informns.k12.mn.us 70
+ 
+KIDLINK GOPHER
+Gopher kids.duq.edu 70
+ 
+KQED LEARNING LINK
+Telnet sierra.fwl.edu or 198.49.161.2
+Login: type newuser
+Password: type newuser
+ 
+LEARNING VILLAGE - CLEVELAND
+Telnet nptn.org
+Login: type visitor
+ 
+NANAIMO SCHOOLSNET
+Telnet crc.sd68.nanaimo.bc.ca or 134.87.120.1
+Logon: type guest
+ 
+NASA SPACELINK
+Telnet spacelink.msfc.nasa.gov or 128.158.13.250
+Username: type NEWUSER
+Password: type NEWUSER
+NASA's database for teachers
+ 
+RALPH BUNCHE SCHOOL
+Gopher ralphbunche.rbs.edu
+ 
+SENDIT - NORTH DAKOTA'S K-12 NETWORK
+Telnet sendit.nodak.edu or 134.129.105.1
+Login: type bbs
+Password: type sendit2me
+ 
+TALAWANDA LEARNING COMMUNITY NETWORK
+Telnet ticnet.aps.muohio.edu or 134.53.3.240
+Login: type visitor
+ 
+TEACHER EDUCATION INTERNET SERVER
+Gopher curry.edschool.virginia.edu 70 or
+Telnet curry.edschool.virginia.edu
+Login: type interact or gopher
+ 
+TEACHER*PAGES (PA)
+Telnet psupen.psu.edu or 128.118.36.4
+Username: type state abbreviation or world
+ 
+UMASS K12
+Gopher k12.ucs.umass.edu 70
+Telnet k12.ucs.umass.edu or 128.119.175.2
+Login: type guest
+ 
+US DEPARTMENT OF EDUCATION
+Gopher gopher.ed.gov 70
+ 
+VIRGINIA'S PUBLIC EDUCATION NETWORK
+Telnet vdoe386.vak12ed.edu (141.104.22.102)
+Login: type guest
+Password: type guest
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Community Computing Systems
+ 
+Internet also provides a gateway to a number of community based
+computing systems that offer e-mail, library access, special
+interest group forums, full-text databases, etc.
+ 
+ 
+AKRON FREE-NET
+Gopher uhura.neoucom.edu 70
+ 
+BIG SKY TELEGRAPH
+Telnet bigsky.bigsky.dillon.mt.us or 192.231.192.1
+Login: type bbs
+ 
+BLACKSBURG VIRGINIA ELECTRONIC VILLAGE
+Gopher morse.cns.vt.edu 70
+ 
+BUFFALO FREENET
+Telnet freenet.buffalo.edu or 128.205.3.99
+Login: type freeport
+ 
+CAPACCESS (WASHINGTON, D.C.)
+Telnet cap.gwu.edu or 128.164.140.32
+Login: type guest
+Password : type visitor
+ 
+CIAO! FREE-NET (CANADA)
+Telnet ciao.trail.bc.ca or 142.231.5.1
+Login: type guest
+ 
+CLEVELAND FREE-NET
+Telnet freenet-in-a.cwru.edu or 129.22.8.32
+Login: type visitor
+ 
+DAYTON FREE-NET
+Telnet dayton.wright.edu or 130.108.128.174
+Login: visitor
+ 
+DENVER FREE-NET
+Telnet freenet.hsc.colorado.edu or 140.226.1.8
+Login: type guest
+ 
+FREE-NET ERLANEN-NUERNBERG (GERMANY)
+Telnet freenet-a.fim.uni-erlangen.de or 131.188.192.11
+Login: gast
+ 
+FREENET FINLAND (FINLAND)
+Telnet freenet.hut.fi or 130.233.200.40
+Login: visitor
+Password: hit return
+ 
+HEARTLAND FREE-NET
+Telnet heartland.bradley.edu or 136.176.5.114
+Login: type bbguest
+ 
+HURON VALLEY FREE-NET GOPHER (MI)
+Gopher mpcc.org 70
+Telnet www.mpcc.org or 141.211.210.152
+Login: type visitor
+ 
+LORAIN COUNTY FREE-NET
+Telnet freenet.lorain.oberlin.edu or 132.162.32.99
+Login: type guest
+ 
+MILWAUKEE FREE-NET
+Telnet freenet.uwm.edu or 129.89.70.58
+Login: visitor
+ 
+NATIONAL CAPITOL FREE-NET (CANADA)
+Telnet freenet.carleton.ca or 134.117.1.12
+Login: type guest
+ 
+PRAIRIENET, EAST-CENTRAL ILLINOIS FREE-NET
+Telnet firefly.prairienet.org or 192.17.3.3
+Login: type visitor
+ 
+RIO GRANDE FREE-NET (TX0
+Telnet rgfn.epcc.edu or 192.94.29.9
+Login: type visitor
+ 
+TALLAHASSEE FREE-NET
+Telnet freenet.fsu.edu or 144.174.128.43
+Login: type visitor
+ 
+THUNDER BAY FREENET
+Gopher freenet.lakeheadu.ca 70
+ 
+TOLEDO FREE-NET
+Telnet fnet.cc.utoledo.edu or 131.183.6.100
+Login: type visitor
+Password: type visitor
+ 
+TRAVERSE CITY FREE-NET (MI)
+Telnet leo.nmc.edu or 192.88.242.239
+Login: type visitor
+ 
+TRI-STATE FREE-NET
+Telnet tso.uc.edu or 129.137.100.10
+Login: type visitor
+ 
+VAASA FREEPORT BBS (FINLAND)
+Telnet freeport.uwasa.fi or 128.214.87.1)
+Login: type guest
+ 
+VICTORIA FREE-NET (CANADA)
+Telnet freenet.victoria.bc.ca or 134.87.16.100
+Login: type visitor or guest
+ 
+YOUNGSTOWN FREE-NET
+Telnet yfn2.ysu.edu or 192.55.234.50
+Login: type visitor
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SELECTED DATABASES
+ 
+ 
+There are hundreds of databases available on the internet. Some
+are just collections of ASCII files that can be easily searched
+via Gopher or WAIS, others are available as adjuncts to online
+library catalogs or campus-wide information services, other are
+full-text archives that are maintained by government and
+research institutions. The following list is just a sample of
+the specialized databases available.
+ 
+ 
+ADVANCED TECHNOLOGY INFORMATION NETWORK
+Telnet caticsuf.cati.csufresno.edu or 129.8.100.15
+Type PUBLIC
+Gateway to California Supernet
+Agriculture and Export Info System
+ 
+C.A.I.R.S.S FOR MUSIC
+Telnet runner.utsa.edu
+Login: type imr
+ 
+CARL DATABASE GATEWAY
+Telnet database.carl.org or 192.54.81.76
+Terminal: VT100
+ 
+CLEMSON UNIVERSITY FORESTRY AND AGRICULTURAL NETWORK (CUFAN)
+Telnet  prism.clemson.edu or 130.127.8.3
+Login: public
+Terminal: VT100
+(Hit PF2 or F2 to get list of commands)
+Contains information on: Weather, agricultural and home
+economics, plants and animals, engineering, nutrition and health
+ 
+DARTMOUTH DANTE PROJECT
+Telnet lib.dartmouth.edu or 129.170.16.11
+Type connect dante
+Terminal: VT100
+Database contains 600 years of commentary on Dante's Divine
+Comedy
+ 
+INSTITUTE FOR RESEARCH IN SOCIAL SCIENCE
+TN3270 uncvm1.oit.unc.edu or 152.2.21.5
+Username: type IRSS1
+Password: type IRSS
+IRSS Data Holdings Catalog, IRSS Public Opinion Item Index,
+North Carolina Information System, strong public opinion
+database holdings
+ 
+PENNSYLVANIA STATE - PENPAGES
+Telnet psupen.psu.edu or 128.118.36.5
+User: type state abbreviation or world
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SHOPPING ON THE NET
+ 
+ 
+The Mall of America has nothing to fear from the net -- yet! As
+multimedia interfaces to the net improve, it is likely that
+shopping opportunities will increase. Network users should avoid
+sending credit card information via e-mail and use the phone or
+postal service for placing orders or establishing accounts.
+ 
+The best guide to shopping on the net is Dave Taylor's "The
+Internet Mall: Shopping on the Information Highway." Finger
+taylor@netcom.com for information on how to obtain this list.
+ 
+Here are a few of the bookstores that maintain a presence on the
+Internet:
+ 
+BOOKSTACKS UNLIMITED
+Telnet books.com
+ 
+LIBRARIAN'S YELLOW PAGES
+Telnet database.carl.org or 192.54.81.76
+ 
+MARKETBASE GOPHER
+Gopher mb.com 70
+Telnet mb.com
+Login: type mb
+ 
+QUANTUM BOOKS
+Gopher world.std.com 70
+ 
+ROSWELL ELECTRONIC COMPUTER BOOKSTORE
+Gopher owl.nstn.ns.ca 70
+ 
+STANFORD UNIVERSITY BOOKSTORE CATALOG
+Gopher lindy.stanford.edu 2270
+Select General Information then Bookstore or
+ 
+Telnet forsythetn.stanford.edu or 34.54.0.12
+Login: type socrates
+Terminal: VT100
+Type Select and page through options until you locate the
+bookstore listing
+Select option # for bookstore
+ 
+Outstanding searchable bookstore catalog. Although you cannot
+order books via Internet, you can call the bookstore during
+normal business hours and place an order. Order desk (800) 533-
+2670; fax (415) 322-1936
+ 
+UNITED TECHBOOK CO.
+Telnet utcbooks.com
+Login: type utc
+Password: type utc
+ 
+UNIVERSITY OF CALIFORNIA, SAN DIEGO BOOKSTORE
+Telnet ucsdbkst.ucsd.edu
+Login: type utl
+Login 2: type bookstore
+ 
+UNIVERSITY OF WATERLOO BOOKSTORE
+Telnet bg1.uwaterloo.ca
+Login: type booklook
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+USENET NEWSGROUPS
+ 
+One of the most controversial aspects of the net is access to
+Usenet newsgroups. Of the thousands of newsgroups there are a
+handful (okay a big handful) of groups that border on the
+obscene. Many more are simply distasteful. Because of this
+newsgroups are often censored on University campuses by
+restricting access to specific groups or whole categories of
+groups. In the United States during television rating "sweep's
+week" tawdry Usenet groups vie with porno bulletin boards as
+titillating "news" on local stations. They are not "news" nor do
+they reflect what is happening on the net or BBSs.
+ 
+Newsgroups can be important sources of up-to-date information
+and wonderful rumors. Since most groups allow the free flow of
+messages, the number of rantings, flames, and pet peeves runs
+high. Anyone who has read any newsgroup for a while has seen the
+"Make Money Fast" chainletter scam, warnings of approaching
+doom, and other way-off-topic messages.
+ 
+One nice feature of Usenet newsgroups is that you can subscribe
+to a group without filling up your mailbox. The reader gives you
+access to a centrally stored set of messages that usually keeps
+a few days or a few hundred messages for each newsgroup.
+ 
+Usenet News requires use of a mail reader that is different from
+the mail program that is used for e-mail and listserv messages.
+The biggest challenge confronting a new user is figuring out how
+the reader works and selecting newsgroups to read regularly. The
+easiest thing to do is to deselect all newsgroups and then add a
+few at a time when you have the leisure to find them. Check with
+your local computer center for how to obtain access to Usenet.
+ 
+For lurkers only: if you just want to read a few newsgroups,
+check to see if you can access them from your local gopher. Even
+if your local gopher doesn't offer Usenet News, you can do a
+Veronica search to locate other sites that do. Note: Not all
+sites allow off-campus or 24 hour access.
+ 
+ 
+Get the FAQs
+ 
+Even if you don't have direct access to Usenet, you might find
+the collection FAQs in the news.answers archive of interest. The
+FAQs or Frequently Asked Questions files are updated regularly
+and cover a wide range of topics. They are useful pointers to
+not only electronic resources but also a fairly reliable source
+of answers that have been tested by real users.
+ 
+Start by getting a copy of the ftplist and the usenet-faq or
+primer via anonymous FTP.
+ 
+                    FTP rtfm.mit.edu or ftp 18.70.0.226
+                    Type login anonymous
+                    Type your e-mail address or guest
+                    Type cd pub/usenet/news.answers
+ 
+FAQs are also available via e-mail. Send an e-mail message with
+the words "help" and "index" on separate lines to mail-
+server@rtfm.mit.edu to get the necessary details. Many FAQs are
+also available via a Veronica search of gopher space.
+Unfortunately, some gopher maintainers don't update their
+collection of FAQs on a regular basis.
+ 
+A recent sampling of new and updated FAQs found:
+ 
+                        A Biologist's Guide to Internet
+Resources
+                        FAQ: Audio File Formats
+                        FAQ: Typing Injuries
+                        Fractal FAQ
+                        Hungarian Electronic Resources
+                        misc.books.technical FAQ
+                        Rec.Bicycles FAQ
+                        rec.photo FAQ and Answers
+                        Robin Hood Booklist (rec.arts.books)
+                        So You Want To Be A UNIX Wizard?
+                        Sources of Meteorological Data
+ 
+Note: Many of the FAQs are rather lengthy files, so be sure that
+you have the space for them on your local account.
+ 
+ 
+Netnews Filtering Server
+ 
+One of the most intriguing and potentially useful services on
+the Internet is Stanford's Netnews Filtering Server that links
+Usenet news articles, Wais full-text indexing, and listserv-type
+delivery. The service responds to user selected profiles that
+include search term(s), threshold scores, and length of
+subscription. Depending on the profile, the service will send a
+single message containing a batch of Usenet articles related to
+the topic either daily or weekly. The news articles contain only
+the first 15 lines of text, just enough to decide whether or not
+a particular article is worth retrieving from the service. The
+service only indexes and retrieves the most recent Usenet
+articles.
+ 
+The service uses the original Wais software which does not
+support Boolean or wildcard searches. The default threshold
+score is set at 60 which may be too low to filter-out off-topic
+material. Search terms must be chosen with care in order to
+exclude off-topic material. For example, searches for the
+library would retrieve items about program libraries as well as
+traditional libraries.
+ 
+To obtain a copy of the documentation send the following message
+to netnews@db.stanford.edu: help. To try the service send the
+following message to the same address: search online service.
+Within minutes you will receive a summary of the day's Usenet
+messages related to the topic. Full-text of specific articles
+can be retrieved by sending a message to the same address: get
+article such-and-such.
+ 
+For folks without easy access to Usenet newsgroups, Stanford's
+Netnews Filtering Server offers a convenient way to read news
+articles related to their own specific interests. For
+researchers, the service offers a chance to try a type of
+selective dissemination of information that may be as essential
+in the future as access to online library catalogs and
+databases.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+WHAT TO DO NEXT
+ 
+ 
+Keeping Up With The Internet
+ 
+It seems that every couple of weeks a new service is announced
+with the stated purpose of tracking Internet resources. Some
+specialize while others try to cover everything. All present
+grand opportunities for forward-itis, a well-known disease of
+special interest lists. If you want to keep-up without being
+overwhelmed, subscribe to the following lists.
+ 
+For regular updates about new Internet services and online
+catalogs, subscribe to HYTEL-L. This list distributes updates
+and new additions to Peter Scott's Hytelnet system. It is the
+best single source for information about new telnet connections
+on the Internet. Send your subscription to
+listserv@kentvm.bitnet.
+ 
+For just about everything else, subscribe to Net-Happenings -
+Gleason Sackman's gleanings from a variety of lists and
+information services. Send your subscription requests to
+listserv@is.internic.net.
+ 
+ 
+The Top Ten List for Internet Novices
+ 
+Following the David Letterman tradition, here is a list of the
+top ten things to do once connected to the Internet.
+ 
+10. Browse one of the online bookstores for new Internet books.
+    A new one is issued every ten minutes.
+ 
+9.  If you live in the north country, be thankful for ice and
+    snow and that you don't live in an earthquake zone. Finger
+    quake@geophys.washington.edu.
+ 
+8.  Vax users: create a LOGIN.COM file to make life easier and
+    set mail_dir [.mail].
+ 
+7.  Send mail to a friend. If really desperate, send mail to
+    yourself or the White House. Don't expect a prompt, personal
+    response from president@whitehouse.gov.
+ 
+6.  Try the Infoslug Gopher. Telnet to infoslug.ucsc.edu and
+    login as infoslug. If you have a gopher client, use it to
+    connect to gopher.ucsc.edu 70. Set a bookmark or two if
+    using a gopher client.
+ 
+5.  Get lost in the "web." Telnet to ukanaix.cc.ukans.edu and
+    login as www. Use the Go command to visit the library of the
+    University of Texas. The URL is
+    http://www.library.utexas.edu/. If you have a Mosaic or
+    Cello browser, the library has some great online exhibits.
+ 
+4.  Sample Usenet newsgroup messages via the Netnews Filtering
+    Server. Send the following message to
+    netnews@db.stanford.edu: search online services or a topic
+    of your own choosing. Perhaps you ought to send a message
+    with just the word "help" first to get a guide to using the
+    service.
+ 
+3.  Search the global List of Lists for your favorite topic.
+    Send the following message to listserv@bitnic.bitnet: list
+    global/my_favorite_topic.
+ 
+2.  Check out public library services on the net. Gopher or
+    telnet to library.cpl.org.
+ 
+1.  Subscribe to the newsletter that updates this guide. Send
+    the following message to listserv@vm1.nodak.edu: sub nnews
+    your name.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GLOSSARY
+ 
+ 
+ADDRESS: An assigned number that identifies a host in an
+internet. It has two or three parts: network number, optional
+subnet number, and host number. Both numeric and alphabetic
+versions are available. For example, one of the Library of
+Congress addresses is loc.seq1.gov.
+ 
+ARCHIE: A tool used to search hundreds of file archives on the
+Internet.
+ 
+BROWSER: A client for World Wide Web.
+ 
+CLIENT/SERVER: Software that can operate on multi-platforms or
+multiple machines. For example, Gopher servers and clients can
+run on VAX, UNIX, MAC or DOS machines and take advantage of the
+special characteristics of each platform. MAC users connected to
+a UNIX gopher server would have a GUI (graphical user interface
+-- complete with icons and folders), while UNIX clients
+connected to a MAC server would see a plain ASCII menu.
+ 
+FINGER: Tool for checking user-ids or addresses.
+ 
+FLAME: To insult another person via e-mail -- often on a public
+special interest list.
+ 
+FTP: File Transfer Protocol: The standard Internet protocol for
+transferring files from one computer to another.
+ 
+GOPHER: Distributed document delivery tool and internet
+navigator created by a team at the University of Minnesota.
+ 
+HYPERTEXT: Text that contains internal and external links or
+pointers to other text or services.
+ 
+HTML: Hypertext Markup Language is used to mark-up World Wide
+Web pages.
+ 
+INTERNET: The global collection of interconnected regional
+networks using the Internet Protocol (IP).
+ 
+INTERNIC: InterNIC Network Information Center maintains
+databases of network services and e-mail connections.
+ 
+LISTS: E-mail linked special interest groups on Internet. Some
+lists are moderated; others feature free-wheeling conversations
+and controversy.
+ 
+NSLOOKUP: Tool for looking up alphabetic or numeric equivalents
+of network addresses.
+ 
+NETFIND: A tool for finding e-mail addresses.
+ 
+OPAC: An online library catalog (Online Public Access Catalog)
+ 
+PROTOCOL: Rules two computers follow in order to exchange data.
+ 
+SLIP: Serial Line Internet Protocol establishes a network
+connection via a modem.
+ 
+TELNET: The Internet standard protocol for connecting to a
+remote service. Telnet allows a user at one site to interact
+with a system at another site as if the user's terminal was
+connected directly to the remote computer.
+ 
+URL: Uniform Resource Locators are used to identify network
+resources. They are used extensively by World Wide Web browsers.
+ 
+USENET: A worldwide network of newsgroups (special interest
+groups) not on the internet but often available via networked
+computers. A selection of these newsgroups may be found on
+various gopher servers.
+ 
+VERONICA: A tool for searching gopher-space, indexes menu
+titles, provides keyword searching. (Very Easy Rodent-Oriented
+Net-Wide Index to Computerized Archives)
+ 
+WAIS: A distributed document search and delivery tool. Items
+found can be viewed online or mailed to user. (Wide Area
+Information Service)
+ 
+WWW: World Wide Web -- a hypertext document and network
+navigation tool.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+BIBLIOGRAPHY
+ 
+ 
+The following list includes a selection of useful works related
+to the Internet; it is not intended to be comprehensive. Note:
+Not all the materials mentioned in this section are kept up-to-
+date. Be sure to check file or archive dates before concluding
+ 
+that you have found the latest information.
+ 
+General Interest
+ 
+"America's information highway: A hitch-hikers guide."
+Economist, v.329, n.7843 (December 25, 1993/ January 7, 1994):
+35-58.
+ 
+Bulletin of the American Society for Information Science, v.12,
+n.2 (February 1994). Special issue on Civic Networking.
+ 
+Copyright FAQ. Available via anonymous FTP from rtfm.mit.edu in
+pub/usenet/news.answers/law directory.
+ 
+Grundner, Dr. Tom. "Whose Internet is it anyway? -- A
+Challenge." Online V. 15, N. 4: 6-7,10.
+ 
+Morin, R. "Text archives." UNIX Review, v.12, n.2 (February
+1994): 91-92.
+ 
+Quarterman, John S.  "What can business get out of the
+Internet?" Computerworld, Feb. 22, 1993: 81-83.
+ 
+Polly, Jean Armour. "Surfing the Internet." Version 2.0.
+Available via anonymous FTP from nysernet.org in the pub/guides
+directory.
+ 
+Postman, Neil. Informing ourselves to death. IN SCIT Digest
+1.18. Available from listserv@qucdn.bitnet.
+ 
+Scientific American - Special Issue on Communication, Computers
+and Networks. September 1991.
+ 
+Stanton, Deidre E. "Using Networked Information Resources: a
+Bibliography". Western Australia, 1992. Available for anonymous
+ftp from infolib.murdoch.edu.au in the pub/bib directory.
+ 
+Stewart, Thomas A. "The Netplex." Fortune, March 7, 1994, 98-104
+ 
+Stix, Gary. "Domesticating Cyberspace." Scientific American, v.
+269, n.2 (August 1993): 100-110.
+ 
+Stoll, Clifford.  The Cuckoo's Egg: Tracking a Spy through the
+Maze of Computer Espionage.  NY: Doubleday, 1989. Must read!
+ 
+Tenopir, Carol. "Ten loose guidelines for online searchers."
+Online v. 17, n.2 (March 1993): 27-33
+ 
+Tetzeli, Rick. "The Internet and Your Business." Fortune, March
+7, 1994, 86-96.
+ 
+ 
+Guides and Directories
+ 
+December, John. Information Sources: the Internet and Computer-
+mediated Communication. Available via anonymous FTP from
+ftp.rpi.edu in the pub/communications/internet-cmc directory.
+ 
+Hahn, Harley. The Internet Complete Reference. Osborne-McGraw-
+Hill, 1993.
+ 
+Krol, E. The Whole Internet: User's Guide & Catalog. Sebastopol,
+CA: O'Reilly and Associates, 1992.
+ 
+Kovacs, Diane, editor. Directory of Scholarly Electronic
+Conferences.8th revision. Available via anonymous FTP from
+ksuvxa.kent.edu in library directory.
+ 
+"Lists of Lists."  Very large electronic file available: Send e-
+mail to listserv@bitnic.bitnet with message: List Global.
+ 
+Strangelove, Michael (compiler). Directory of Electronic
+Journals and Newsletters. Electronic file available: send e-mail
+to listserv@uottawa.bitnet with "get Ejournl1 Directry" and "get
+Ejournl2 Directry" as message. Also available in print from
+Association of Research Libraries.
+ 
+Tuss, Joan. "Easy Online Access to Internet Guides." Online
+v.17, n.5 (September 1993): 60-64.
+ 
+Tuss, Joan. "Roadmaps to the Internet: Finding the best
+guidebook for your needs." Online  v.18, n.1 (January 1994): 14-
+26.
+ 
+Yanoff, Scott. . "Inter-Network Mail Guide."  Available via
+anonymous FTP from csd4.csd.uwm.edu in the /pub directory.
+ 
+Yanoff, Scott. Special Internet Connections. Finger
+yanoff@csd4.csd.uwm.edu for information on how to obtain this
+list.
+ 
+ 
+Internet Navigation Tools
+ 
+Bontell, Thomas. "FAQ on World Wide Web." Available via
+anonymous FTP from rtfm.mit.edu in pub/usenet/news.answers/www
+directory.
+ 
+"Exploring the Power of the Internet Gopher." Available via
+anonymous FTP from ftp.cso.uiuc.edu in the doc/net/uiucnet
+directory as vol6no1.txt.
+ 
+Hallman, Judy. List of Public CWIS Services. Available via
+anonymous FTP from sunsite.unc.edu in the pub/docs/about_the-
+net/cwis directory.
+ 
+Levin, Jayne. "Using the right tools to easily surf the
+Internet." Infoworld, v.15, n.38 (September 20, 1993): 60.
+ 
+McCahill, Mark P. "On the trail of the Internet Gopher."
+Telecommunication, v.27, n.4 (April 1993): 33.
+ 
+Notess, Greg R. "E-mail lists as databases." Database v. 16, n.
+2 (April 1993): 106-108.
+ 
+Notess, Greg R. "The low-end power user: Using the Internet via
+a dial-up account." Online v.17, n.6 (November 1993): 87-89.
+ 
+Notess, Greg R. "Usenet: Taming the e-mail flood." Online v.17,
+n.4 (July 1993): 86-88.
+ 
+Notess, Greg R. "Using Gophers to burrow through the Internet."
+Online, v.17, n.3 (May 1993): 100-102.
+ 
+Scott, Peter. "HYTELNET as Software for Accessing the Internet:
+A Personal Perspective on the Development of HYTELNET."
+Electronic Networking (Spring 1992):38-44.
+ 
+Simmonds, Curtis. "Searching Internet Archive Sites with archie:
+Why, What, Where and How." Online v.17, n.2 (March 1993): 50-55.
+ 
+ 
+Library Related Guides
+ 
+Bailey, Charles W. Jr. Library Conferences. Available via
+anonymous FTP from hydra.uwo.ca in LIBSOFT directory.
+ 
+Barron, Bill.  "UNT's Accessing On-line Bibliographic
+Databases."  1991-. Available via anonymous FTP from FTP
+ftp.unt.edu.
+ 
+Farley, Laine (editor). Library Resources on the Internet:
+Strategies for Selection and Use. ALA. August 1991. Available
+via anonymous FTP from ftp.unt.edu.
+ 
+Noonan, Dana. LIBCAT: A Guide to Internet Library Resources.
+Available via anonymous FTP from vm1.nodak.edu in the nnews
+directory.
+ 
+St. George, Art and Larsen, Ron.  "Internet-Accessible Library
+Catalogs and Databases." University of New Mexico and University
+of Maryland, Albuquerque, NM, April 1991. Available via
+anonymous FTP from ariel.unm.edu.
+ 
+Subject Guides
+ 
+Check the Clearinghouse for Subject-Oriented Guides for a broad
+range of topical guides to Internet resources:
+    Gopher una.hh.lib.umich.edu 70
+    FTP    una.hh.lib.umich.edu in subdirectory inetdirsstacks
+    WWW    http://www.lib.umich.edu/chhome.html
+ 
+Brown, Jeanne. Internet Sources: Architecture and Building. From the
+Clearinghouse listed aabove.
+ 
+Ciolek, Dr. T. Matthew. Internet Voyager (a.k.a Electronic
+Voyager Guidebook) Social Scientist's Guidebook to
+AARNET/Internet Online Information Services. Available via
+anonymous FTP from coombs.anu.edu.au in
+coombspapers/coombswork/coombs-computing directory as internet-
+voyager.txt.
+ 
+Drew, Wilfred. Not Just Cows: A Guide to Internet/Bitnet
+Resources in Agriculture and Related Sciences. May 1992.
+Available via anonymous FTP from hydra.uwo.ca in LIBSOFT
+directory.
+ 
+FineArt Forum. Directory of Online Resources. Available via
+anonymous FTP from ftp.msstate.edu in
+pub/archives/fineart_online directory.
+ 
+Haas, Leslie M., editor. Business Sources on the Net. Available
+via anonymous FTP from ksuvxa.kent.edu in the library directory.
+ 
+Hancock, Lee. Bitnet/Internet Health Science Resource List.
+Available via anonymous FTP from ftp.sura.net in the pub/nic/
+directory as medical-resources.xx.xx (xx.xx represents release
+date).
+ 
+Hirtle, Peter. Surfing the Internet for the History of Medicine.
+Available via anonymous FTP from beach.utmb.edu in the CADUCEUS/
+directory as Hist_Med.Resources.
+ 
+Legal List.  Available via anonymous FTP from ftp.midnight.com
+in the pub/LegalList directory.
+ 
+Makulowich, John S. The Journalism List. Available via anonymous
+FTP from ftp.clark.net in the pub/journalism directory.
+ 
+McGee, Arthur. Black/African/Development Related Information.
+Available via anonymous FTP from ftp.netcom.com in the
+/pub/amcgee/african/myafrican_related_lists directory.
+ 
+NCSA Education Group. Incomplete Guide to the Internet and Other
+Telecommunications Opportunities Especially for Teachers and
+Students K-12. July 1993.  Available via anonymous FTP from
+zaphod.ncsa.uiuc.edu in the /Education_Resources directory.
+ 
+Smith, Prescott. An Educator's Guide to E-Mail Lists. Available
+via anonymous FTP from nic.umass.edu in pub/ednet directory as
+educators.lst.
+ 
+Strangelove, Michael. Electronic Mystic's Guide to the Internet.
+Available via anonymous FTP from panda1.uottawa.ca in the
+pub/religion directory.
+ 
+Taylor, Dave. "The Internet Mall: Shopping on the Information
+Highway." Finger taylor@netcom.com for information on how to
+obtain this list.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+APPENDIX A: MAKING THE INTERNET CONNECTION
+ 
+ 
+If you don't already have an Internet account or want to obtain
+another account for personal use, the best advice is to ask
+colleagues and friends about the best options available in your
+region. Local colleges, regional service providers, freenets,
+and commercial online services offer a variety of plans at
+different price levels. Even if you already have access to the
+net you might want an account that offers services not available
+in your area, such as usenet news, gopher servers, or slip
+access so that you can use gopher clients or www browsers from
+home.
+ 
+Types Of Accounts
+ 
+Full Internet access includes two basic types of service:
+ 
+   E-mail based exchanges -- personal mail, special interest
+   group lists,  and electronic newsletters and journals;
+ 
+   Remote logons to gopher, www,  and wais, file archives,
+   library catalogs, bulletin boards, and an ever-expanding
+   list of databases.
+ 
+Partial Internet access usually means connecting to the net via
+e-mail. Few of the services offered via remote logon are
+available by e-mail at this point, but this may change in the
+future.
+ 
+Internet Access Providers In Minnesota
+ 
+Full Internet Access (e-mail, ftp, telnet, Usenet newsgroups)
+ 
+612-342-2570  Minnesota Regional Network -- MRnet
+612-624-2323  University of Minnesota Alumni Association
+              ($30 membership + $70 per year)
+612-626-1600  University of Minnesota Computer and Information
+              Services offers individual and corporate accounts
+ 
+Out-of-state providers with local dial access:
+ 
+800-695-4005  Delphi -- offers 5 hour free trial subscription
+512-704-0160  HoloNet
+617-739-0202  The World
+ 
+E-mail Only
+ 
+800-227-6364  America Online - promises additional Internet
+              features - offers 10 hour free trial subscription
+              in USA
+800-848-8199  Compuserve - also offers Knowledge Index (Dialog)
+ 
+Hot-tip: Many local bulletin boards offer free or low-cost
+Internet e-mail and Usenet access.
+ 
+Outside the metropolitan area options are limited, because
+public data network access is only available in Duluth, Mankato,
+Rochester, and St. Cloud. Connecting to most service providers
+requires a long distance call, but a few offer toll-free access:
+ 
+800-488-4559    CLASS - for library organizations
+800-876-2373    DIAL-N-CERF-USA
+800-35-TIGER    JVNC
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+APPENDIX B: CREATING A PLAN FILE
+ 
+Warning: Not for the faint-hearted.
+ 
+A plan is a plain text file that contains whatever information a
+user wants to store in the file. Usually it is used for mundane
+purposes: listing telephone numbers, office hours, favorite
+quotations, etc. Scott Yanoff's Special Internet Connections
+list mentions several clever examples of user-generated plans
+making information available to the Net via finger. Finger is
+being used to provide up-to-date information on everything from
+earthquakes to sporting events.
+ 
+To set up a plan:
+ 
+1. Create a plan file in your login or root directory. On some
+   systems it is called .plan; on others plan.txt. Check with
+   your system administrator. Note: Some systems do not allow
+   outside access to .plan files.
+ 
+2. Set permission for this file (and o others) to world read
+   only. The command is:
+   set prot=W:R .plan;*
+ 
+3. You may have to set permission for your root directory to
+   world read only. The command is:
+                   set prot=W:R diskname:[-]username.dir
+ 

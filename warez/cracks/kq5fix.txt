@@ -1,0 +1,110 @@
+                          Wimpy King's Quest V Crack
+                           by R. Bubba Magillicutty
+
+     This is definitely my messiest crack ever, but the game has been out for
+quite some time and nobody else has done it.  I spent about 30 minutes of
+actual work on this one, not counting around 90 minutes of play time trying to
+find the protection and another hour mapping out the silly copy protection
+symbols (if I had the docs this step could have been eliminated.)  I delayed
+for so long because I hoped someone else would do a nicer crack.  I'm sure
+it's possible to prevent the copy protection from ever coming up, since it
+rarely comes up anyway.  But I didn't feel like wasting more time on this
+game, which I dislike intensely.  Nice graphics and sound, but boring and
+SLOW!  You have time to go eat lunch while it loads each screen.  And that
+doesn't include hard disk access, since I run the game with a 6.5 meg disk
+cache.  But anyway, here's a crack at long last.  I don't know why everyone
+found it so difficult.  A nice crack might be difficult, but a messy one like
+this was quite easy.
+
+INSTRUCTIONS:
+     Run the KQ5FIX.COM program instead of SIERRA.EXE or any of the batch
+files.  You can include command line parameters such as -f or -v, whatever
+they are, and they will be passed on to SIERRA.EXE.  When the copy protection
+comes up the answer will always be A,B, N, and O.  This forms a square that
+is easy to enter.
+     This was written for the 1.44Mb version on the game (the INC release, in
+other words) and hasn't been tested with the 1.2Mb version (the 1.44Mb version
+has RESOURCE.000 through RESOURCE.007, while the 1.2Mb version adds a
+RESOURCE.008.)  It should still work, but no promises.
+     This program looks for and runs SIERRA.EXE.  If you have the INC
+version, SIERRA.EXE is a loader that takes up memory and would prevent this
+crack from working properly.  Delete the SIERRA.EXE program, rename CRACK.INC
+to SIERRA.EXE, and then delete *.INC.  This will save you around 100K of
+space (a mere drop in the cuspador compared to those RESOURCE files.)
+
+THE PROTECTION:
+     At various places throughout the game, a small window will pop up and
+inform you that you must cast a spell using the wand.  I've seen protection
+when you enter the tent at the bandits' hideout, when you try to cross the
+bridge to the witch's house, and when boarding the boat.  Four symbols will
+appear, and you have to enter four letters that correspond to the symbols. 
+The protection has a small chance of popping up at each of the locations in
+the game, though it always seems to happen at the boat.  It only seems to pop
+up when I hang around outside the tent or across the bridge for a few seconds
+before entering.  If I'm quick, it never seems to pop up.  This could just be
+my imagination, but then again perhaps not.  It's an interesting method of
+protection, designed to make it hard on the crackers (and since the game has
+been out so long, it obviously worked.)
+
+THE CRACK:
+     The loader hooks onto the timer interrupt and every two seconds checks a
+pointer in memory to locate the answers to the copy protection.  The pointer
+is used for other things in the game, and even during the copy protection the
+pointer is sometimes 0.  The answers to the copy protection move around, so
+the pointer is necessary.  If the copy protection symbol is found in memory
+then the answers are changed to A, B, N, and O  (Sierra uses VERY inefficient
+programming practices; all of their variable names and procedure names are
+still in the game.  No wonder the game is 14 megs.)  If the pointer is 0, it
+will just check again in another 2 seconds.  It is theoretically possible to
+beat the loader, entering the four answers and clicking 'OK' before the crack
+takes effect.  However, it isn't very likely.  I tried several times and
+wasn't able to Beat the Loader (sounds like a stupid new game show.) 
+However, you DO have 3 tries to enter the correct answer.  If you somehow
+fail the first two times, wait for a few seconds to make sure the loader has
+time to work.
+     The silly loader is necessary because of the slippery copy protection. I
+was able to find the answers easily enough, but wasn't able to find where it
+stores the letters you've chosen.  If I had found them, I would have made the
+loader do the whole copy protection for you, so it would have just flashed
+by.  But this method was hard enough.  The answers move around all the time.
+And just finding an identifier to tell if the copy protection was currently
+on the screen was a pain.  Everything moved around, and finding a functioning
+pointer wasn't easy.  I've only tested this at the two places where I've
+found copy protection, but it works at both so I think it will work
+everywhere.  I could see exactly where the program checks the answers you
+type in, so I hoped to at least have a crack that would let you enter any
+four letters.  But the code that does the checking is used several times per
+second throughout the entire game.  Even during the copy protection, before
+it checks your answers (before you've typed anything, while you're typing
+something, etc.)  So I could see no easy way to patch in and crack it that
+way.  This way is functional though somewhat inconvenient.  But not nearly as
+inconvenient as looking up silly symbols in the manual (or on the graph paper
+I drew them all on.)
+
+ADDITIONAL NOTES:
+	I have experienced several lock-ups while playing the game.  At first I
+thought it was the loader, but I have had some without it.  I have also heard
+of one other person having problems.  The problems started when I booted with
+all of my TSR's and other junk (loaded high - I had 600K free.)  When using
+my debugger bootup (which had only about 550K free) I had no problems. 
+Perhaps it was luck, or perhaps I just wasn't far enough into the game.
+     The INSTALL program hard locks my computer whenever I run it (this one
+does it under EVERY configuration.)  I don't know if anyone else has this
+problem, but if so, there is a way around it.  I went in and killed one CALL
+and the problem went away.  What side-effects this has isn't apparent, but I
+have seen none so far.  If it locks up on you and you want to play the game
+(why?) here's what I did:
+
+First, UNLZEXE the INSTALL.EXE program.  UNLZEXE is available on PD boards
+everywhere if you don't already have it.  Then search through for the
+following hex string:
+
+E8, 67, 23              (CALL xxxx)
+
+and change it to:
+
+90, 90, 90.             (NOP, NOP, NOP)
+
+
+                                    Enjoy!
+

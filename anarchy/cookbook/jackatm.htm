@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN" "html.dtd">
+<HTML>
+<HEAD>
+<TITLE>Jackpotting ATM Machines</TITLE>
+</HEAD>
+<BODY BGCOLOR="#505050" TEXT="#FFFFFF" LINK="#DFDFDF" VLINK="#BFBFBF" ALINK="#008000">
+
+<H1>Jackpotting ATM Machines</H1>
+<HR>
+Jackpotting ATM Machines                courtesy of the Jolly Roger
+
+<BR><BR>JACKPOTTING was done rather successfully a while back in (you guessed it)
+New York. What the culprits did was:
+<BR><BR>Sever (actually cross over) the line between the ATM and the
+host. insert a microcomputer between the ATM and the host. insert
+a fradulent card into the ATM.  (card=cash card, not hardware)
+<BR>What the ATM did was: send a signal to the host, saying "Hey!  Can I
+give this guy money, or is he broke, or is his card invalid?"
+<BR>What the microcomputer did was: intercept the signal from the host,
+discard it, send "there's no one using the ATM" signal.
+<BR>What the host did was: get the "no one using" signal, send back "okay,
+then for God's sake don't spit out any money!" signal to ATM.
+<BR>What the microcomputer did was:
+intercept signal (again), throw it away (again), send "Wow!  That
+guy is like TOO rich!  Give him as much money as he wants.  In
+fact, he's so loaded, give him ALL the cash we have!  He is
+really a valued customer." signal.
+<BR>What the ATM did:
+<BR>what else?  Obediently dispense cash till the cows came home (or
+very nearly so).
+<BR>What the crooks got:
+<BR>well in excess of $120,000 (for one weekend's work), and several
+years when they were caught.
+<BR><BR>This story was used at a CRYPTOGRAPHY conference I attended a while
+ago to demonstrate the need for better information security.  The
+lines between ATM's & their hosts are usually 'weak' in the sense that
+the information transmitted on them is generally not encrypted in any
+way.  One of the ways that JACKPOTTING can be defeated is to encrypt
+the information passing between the ATM and the host.  As long as the
+key cannot be determined from the ciphertext, the transmission (and
+hence the transaction) is secure.
+<BR><BR>A more believable, technically accurate story might concern a person
+who uses a computer between the ATM and the host to determine the key
+before actually fooling the host.  As everyone knows, people find
+cryptanalysis a very exciting and engrossing subject...don't they?
+(Hee-Hee)
+<BR>
+<PRE>_____             ______
+|   |-<<-|   |-<<-|    |
+|ATM|    micro    |Host|
+|___|->>-|   |->>-|____|</PRE>
+
+<BR>The B of A ATM's are connected through dedicated lines to a host
+computer as the Bishop said. However, for maintenance purposes, there
+is at least one separate dial-up line also going to that same host
+computer. This guy basically bs'ed his way over the phone till he
+found someone stupid enough to give him th number. After finding that,
+he had has Apple hack at the code. Simple.
+<BR><BR>Step 2: He had a friend go to an ATM with any B of A ATM card. He
+stayed at home with the Apple connected to the host. When his friend
+inserted the card, the host displayed it. The guy with the Apple
+modified the status & number of the card directly in the host's
+memory. He turned the card into a security card, used for testing
+purposes. At that point, the ATM did whatever it's operator told it to
+do.
+<BR><BR>The next day, he went into the bank with the $2000 he received,
+talked to the manager and told him every detail of what he'd done. The
+manager gave him his business card and told him that he had a job
+waiting for him when he got out of school.
+<BR><BR>Now, B of A has been warned, they might have changed the system. On
+the other hand, it'd be awful expensive to do that over the whole
+country when only a handful of people have the resources and even less
+have the intelligence to duplicate the feat. Who knows?
+
+
+
+<H6>The creator of this page and any links it may lead to hereby takes no responsability or liability for anything that happens as a result of reading anything on this page or anything contained in subsequent pages. Users read at their own risk. It is <EM><STRONG>NOT</STRONG></EM> reccomended that the user do anything described in this and subsequent pages. Doing so may result in serious trouble, arrest, injury, and possibly deportation or death. Thank you. </H6>
+<A HREF="index1.htm"><IMG SRC="backto.gif"></A>
+</BODY>
+
+
+</HTML>

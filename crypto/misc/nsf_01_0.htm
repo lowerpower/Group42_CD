@@ -1,0 +1,845 @@
+<HTML>
+<HEAD>
+<TITLE>Netsurfer Focus on Cryptography and Privacy</TITLE>
+</HEAD>
+
+<BODY>
+<H2>ON CRYPTOGRAPHY AND PRIVACY</h2>
+
+<P>
+Wednesday, August 21, 1995<a href="#UI">*</a> - Volume 01, Issue 03<HR>
+<P>
+<I>"God is in the details"</I> 
+<H3>TABLE OF CONTENTS</H3>
+
+<DL>
+<DT><A href="#sc1">Crypto 001</a> Intro to Cryptography
+<DT><A href="#sc2">Squeamish Ossifrages</a> Cracking the Code
+<DT><A href="#sc6">In ? We Trust</a> Key Certification
+<DT><A href="#sc3">Postcards from Cyberspace</a> E-mail Issues
+<DT><A href="#sc5">Digital Envelopes</a> Secure E-mail
+<DT><A href="#sc4">The Pen is Mightier than the Electron</a> Export Issues
+<DT><A href="#s17">Hiding In Plain View</a> Steganography
+<DT><A href="#sc8">Money Makes the World Go Round</a> Cash and E-money
+<DT><A href="#sc9">No Names, Please</a> Anonymous Remailers
+<DT><A href="#s19">Big Iron, Big Brother</a> Database Drilling and Surveillance
+<DT><A href="#sc7">It's B-a-a-ck!</a> Clipper and Digital Telephony
+<DT><A href="#s13">'Bots, Agents, and Wizards</a> Trusting Software
+<DT><A href="#s15">Information at Your Fingertips</A> Additional Resources
+<DT><A href="#s16">Inky Fingers</A> Print Resources
+</DL>
+<P>
+
+<A HREF="#SP">OUR SPONSOR:</A> <b>National Semiconductor and ACMA Computers</b>
+<P>
+<A HREF="#UI">UPDATE INFORMATION</A> 
+<br>
+<A HREF="#CI">CONTACT INFORMATION</A> 
+<P>
+<A HREF="#CR">CREDITS</A> 
+<P>
+<H2><A NAME="sc1">CRYPTO 001</A></H2>
+<HR>
+<P>
+<I>Rock bottom basics</I> 
+<P>
+
+If you want something to stay a secret, don't tell anyone, don't write
+it down.  If you do have to send it to someone else, hide it in
+another message so that only the right recipient will understand.
+Many creative methods of hiding messages have been invented over the
+ages,.  Cryptography in the computer age typically involves the
+translation of the original message into a new and incomprehensible
+one by a mathematical algorithm using a specific "key".  Just like you
+need to open the lock on a door with a key, the algorithm and key
+protects your the contents of your message from unauthorized access.
+<p>
+
+Taking the lock and key model one step further, ease of getting into
+the crytographic system depends on the strength of the lock (the
+algorithm), and the possession of the key.  For example, you may
+encrypt your message by changing every letter to the one <i>n</i>
+letters later in the alphabet, i.e., A is changed to B, B to C , and
+so on, for <i>n</i>=1.  (This method is known as a substitution cipher
+and is reputed to have been used by Julius Caesar.)  Knowing your
+algorithm, it's quite easy to reveal your true message by trying each
+of the 25 possible values of the key <i>n</i>.
+<p>
+
+If we are simply using a trial-and-error approach to discover the key,
+the difficulty of breaking the algorithm increases with the number of
+possible keys, and with the amount of time it takes to try each key.
+However, there may be other approaches that are less time-consuming.
+In substitution ciphers, knowlege of the usage frequency of letters in
+the language and in the message will indicate the probable
+substitutions.  As every English-speaking parent of a child with a
+"Speak-and-Spell" toy knows, the "e" key usually wears out first.
+
+<p>
+
+The strength of the algorithm should be independent of the knowledge
+of how it works.  Cryptographers also prefer to trust published
+algorithms over proprietary ones because this allows the community of
+experts to look for systematic weaknesses.  A number of algorithms
+that appear impregnable at first have later yielded to specific
+techniques of attack.  So the longer an algorithm has remained
+unbroken, the stronger it is likely to be.
+
+<p> The other part of the equation is the key itself.  The longer a
+key is in use, the more likely someone will be able to discover it,
+and the larger the amount of information that would be compromised.
+Changing the key frequently, e.g., on a per message basis, therefore
+can strengthen the security of the system.
+
+<p>
+<dl>
+<dt>An introduction to some cipher systems
+<dd><a href="http://rschp2.anu.edu.au:8080/cipher.html"> http://rschp2.anu.edu.au:8080/cipher.html </a>
+<dt>Lawrie's Cryptography Bibliography
+<dd><a href="http://mnementh.cs.adfa.oz.au/htbin/bib_lpb"> http://mnementh.cs.adfza.oz.au/htbin/bib_lpb</a>
+<dt>Materials from "Applied Cryptography" by B. Schneier
+<dd><a href="http://www.openmarket.com/info/cryptography/applied_cryptography.html">
+http://www.openmarket.com/info/cryptography/applied_cryptography.html</a>
+<dt>Cryptography FAQ from sci.crypt
+<dd><a href="http://www.cis.ohio-state.edu/hypertext/faq/usenet/cryptography-faq/top.html">
+http://www.cis.ohio-state.edu/hypertext/faq/usenet/cryptography-faq/top.html</a>
+<dt>The Cyphernomicon - A Cypherpunk's Guide to Cryptography and Privacy
+<dd><a href="ftp://ftp.netcom.com/pub/tc/tcmay/CP-FAQ">
+ftp://ftp.netcom.com/pub/tc/tcmay/CP-FAQ</a>
+</dl>
+<p>
+<p>
+<H2><A NAME="sc2">SQUEAMISH OSSIFRAGES</A></H2>
+<HR>
+<P>
+<I>Breaking the code</I>
+<p>
+
+Cryptographic algorithms come and go, and here are some of the latest.
+
+<p> One of the most widely used encryption algorithms is DES (Data
+Encryption Standard).  It was developed by IBM and adopted as an
+official Federal Information Processing Standard (FIPS PUB 46) in
+1976.  DES uses a 56-bit key - considered to be just beyond the
+technology at the time to break with a brute force approach.  However,
+by 1993 a custom computer costing $1 million could theoretically be
+built to crack DES by brute force in 7 hours.  In the following year,
+a new technique called "linear cryptanalysis" enabled another
+researcher to break DES in 50 days on a single workstation, or about
+14 MIPS-years assuming a 100 MIPS machine.  Efforts to extend the life
+of DES include lengthening the key to 128 bits (still beyond the realm
+of computer horsepower today) and "Triple DES", which involves three
+passes of encryption and decryption using two different keys.
+
+<p> The RSA algorithm, used in public key cryptography and patented in
+the US, is based on the fact that it's easy to multiply two large
+prime numbers together, but hard to factor them out of the product.  A
+challenge issued in 1977 to factor the key based on a 129 digit number
+(or 429 bits) was finally met in 1994 by an international group of
+over 600 volunteers and 1500 computers working for 8 months.  The
+estimated effort was somewhere between 100,000 amd 1,000,000
+MIPS-years.  The decrypted message read, "THE WORDS ARE SQUEAMISH
+OSSIFRAGE", starting the tradition of using those words in
+key-breaking challenges.
+
+<p> IDEA, International Data Encryption Algorithm, is a new DES-like
+algorithm invented in 1991 in Switzerland.  It uses a 128-bit key and
+was designed with more mathematical theory than DES.  It is believed
+to be a strong algorithm, but no challenge has yet been mounted, and
+only time will tell whether it will withstand the attacks of
+cryptographers.  IDEA is patented internationally.
+
+<p> RC2 qnd RC4 are two proprietary, DES-like algorithms that allow
+variable key lengths.  They were developed by RSA Data Security, Inc,
+and are notable for having an exportable version with a limited,
+40-bit key size.  The 40-bit RC4 algorithm is used in the
+International versions of many software packages including the
+Netscape web browser.  In the last week, a French programmer
+successfully broke a 40-bit key and decrypted a single secure Netscape
+transaction (created as a challenge using data from a hypothetical
+Mr. Cosmic Kumquat at 1234 Squeamish Ossifrage Road).  Netscape
+estimates that the effort took 64 MIPS-years.
+
+<dl>
+<dt>DES
+<dd><a href="http://www.rsa.com/rsalabs/faq/faq_des.html"> http://www.rsa.com/rsalabs/faq/faq_des.html</a>
+<dt>The Challenge to Decrypt a Secure Netscape Transaction:
+<dd><a href="http://www.netsurf.com/nsf/v01/03/local/nscpchal.html">
+http://www.netsurf.com/nsf/v01/03/local/nscpchal.html</a>
+<dt>RSA FAQ
+<dd><a href="http://www.cis.ohio-state.edu/hypertext/faq/usenet/cryptography-faq/part06/faq.html">
+http://www.cis.ohio-state.edu/hypertext/faq/usenet/cryptography-faq/part06/faq.html</a>
+<dt>RSA in 17 lines of Perl
+<dd><a href="http://draco.centerline.com:8080/~franl/crypto/rsa-guts.html"> http://draco.centerline.com:8080/~franl/crypto/rsa-guts.html</a>
+<dt>The RSA-129 Challenge
+<dd><a href="ftp://ftp.ox.ac.uk/pub/math/rsa129/rsa129.ps.gz">
+ftp://ftp.ox.ac.uk/pub/math/rsa129/rsa129.ps.gz</a>
+</dl>
+<p>
+<H2><A NAME="sc6">IN ? WE TRUST</A></H2>
+<HR>
+<P>
+<I>Where do keys come from?</I>
+
+<p> For two people to communicate in encrypted mode, they would have
+to arrange the secret key before hand.  Setting up keys presents all
+sorts of logistical problems when you are communicating with multiple
+people (a separate key may be needed for each), or when you cannot
+communicate the key information securely in the first place.  Some
+systems get around this by establishing a centralized key authority,
+e.g., the US Government, or the key database in a Kerberos system.
+However, the invention of public key cryptography changed all that.
+Unlike private key or symmetric encryption where a single key is used
+for both encryption and decryption, public key (or asymmetric)
+encryption uses a public key-private key pair.  The sender encrypts
+the message using the published public key, and the recipient reads
+the message by decrypting it with the private key.  Public key
+directories could be published, just like telephone and other
+directories.  However, the use of public key directories presents a
+different problem.  Since the key is not prearranged through a trusted
+source, how can you be sure the public key belongs to a real and
+legitimate person or organization?  All you might have is a
+disembodied e-mail address or URL.
+
+<p> There are currently two solutions to the certification issue -
+building what is commonly termed a "web of trust", and setting up
+official key issuing authorities.  The web of trust works through
+personal recommendations.  Your public key is "signed" by other people
+who can vouch for you.  If I trust one or more of those people, I
+would believe that you are real and legitimate.  The alternative is
+institutional, through a Certification Authority (CA).  As states
+issue drivers licences or universities issue ID cards, public keys can
+be "issued" by an organization that is familiar with the individual
+involved, or Certification Authorities.  These CA's in turn derive
+their "trust" from thecentral Internet Registration Policy Authority
+to form a hierachical organization.
+
+<p>
+<dl>
+<dt>Public Key Cryptography FAQ
+<dd><a href="http://www.cis.ohio-state.edu/hypertext/faq/usenet/cryptography-faq/part06/faq.html">
+http://www.cis.ohio-state.edu/hypertext/faq/usenet/cryptography-faq/part06/faq.html</a>
+<dt>Key Management
+<dd><a href="http://www.rsa.com/rsalabs/faq/faq_km.html">
+http://www.rsa.com/rsalabs/faq/faq_km.html</a>
+<dt>PGP Public Key Server
+<dd><a href="http://www-swiss.ai.mit.edu/~bal/pks-toplev.html">
+http://www-swiss.ai.mit.edu/~bal/pks-toplev.html</a>
+<dt>Key Certificate Issuance System
+<dd><a href="http://www.rsa.com/rsa/prodspec/cis/rsa_cis.htm">
+http://www.rsa.com/rsa/prodspec/cis/rsa_cis.htm </a>
+<dt>Internet Regional Policy Authority (IRPA)
+<dd><a href="http://bs.mit.edu:8001/ipra.html">http://bs.mit.edu:8001/ipra.html</a>
+</dl>
+<p>
+<H2><A NAME="sc3">POSTCARDS FROM CYBERSPACE</A></H2>
+<HR>
+<P>
+<I>Sometimes signed but never sealed</I>
+<p>
+
+E-mail is arguably the most prevalent and important component of
+Internet traffic. We tend to think of mail mostly in terms of letters
+in sealed envelops.  But mail messages being routed from computer
+system to computer system on their journey through the Internet are
+more like postcards than letters.  Along the way, a message can be
+read, and even more, it can be modified.  E-mail headers are
+notoriously easy to forge.  Encrypting the message is one technique to
+prevent tampering.  In addition, cryptographic techniques can also be
+used to securely "sign" a mail message without encrypting the
+message..
+
+<p> In signing a document, a one way hash function is used to reduce
+the message to a short, fixed length string of characters (a digest).
+The digest is then encrypted with the sender's private key to create a
+digital signature.  To verify the signature, the recipient takes the
+message and converts it into digest form, and separately decrypts the
+sender's signature with the sender's public key.  The results of these
+two operations should be identical if the message has not been
+tampered with.  In addition, use of the sender's public key to decrypt
+the signature also confirms that the message actually came from the
+sender.
+
+<p> Common one way hash algorithms include MD2, MD4, and MD5 from RSA
+Data Systems, and the Secure Hash Algorithm (SHA) invented by the NSA
+as part of the US government Digital Signature Standard (DSS).
+
+<p>
+<dl>
+<dt>RSA FAQ on MD2, MD4, and MD5, and Digital Signatures
+<dd><a href=
+"http://www.rsa.com/rsalabs/faq/faq_misc.html">
+http://www.rsa.com/rsalabs/faq/faq_misc.html</a>
+</dl>
+<p>
+<H2><A NAME="sc5">DIGITAL ENVELOPES</A></H2>
+<HR>
+<P>
+<I>Sealed with a cipher</I>
+
+<p> Public key algorithms such as RSA are used in mail encryption
+programs.  However, because of the resources required to encrypt
+messages with RSA, only a randomly-generated session key is usually
+encrypted with RSA.  This session key is used to encrypt the message
+with a private key algorithm such as DES.  This approach provides the
+added advantage that a different key is used to encrypt each message
+that is sent.
+
+<p> PGP (Pretty Good Privacy) is the best-known secure mail program
+available today.  It was written by Philip Zimmermann and first
+released in 1991.  It uses RSA public key cryptography for session key
+exchange, and IDEA for message encryption.  Because of US patents
+surrounding the RSA algorithm and US export regulations, PGP has had a
+colourful history. The result is different versions, not always
+compatible with each other, available for use within US/Canada and for
+the rest of the world.
+
+<p> PEM, the Privacy-Enhanced Mail standard, is developed as an
+Internet mail standard by many of the people who helped create PGP.
+The standard is described in RFC 1421-1423, and also includes the
+X.509 Key Certification Standard from CCITT.  Originally, it only
+allowed a hierarchical key certification organization, however this
+has been modified to include the PGP-styled "web of trust" model.
+Reference implementations include RIPEM, Riordan's Internet Privacy
+Enhanced Mail developed by Mark Riordan, and a version from Trusted
+Information Systems, Inc.  RIPEM currently does not support key
+certification.
+
+<p> The main difference between PGP and PEM appear to be in the area
+of sender privacy.  PGP allows encryption without signing, i.e.,
+anonymous, encrypted messages, and PEM does not.  Additionally, the
+PEM message signature is outside the encryption envelop, allowing
+anyone to verify the sender of the message without reading the
+message.
+
+<p> Recently, RSA Data Security and a number of key messaging vendors
+have announced support for a new standard for secure MIME messaging
+(S/MIME).
+
+<p>
+<dl>
+<dt>The MIT PGP distribution
+<dd><a href="http://web.mit.edu/network/pgp.html">
+http://web.mit.edu/network/pgp.html</a>
+<dt>PGP Resource Page
+<dd><a href="http://draco.centerline.com:8080/~franl/pgp/"> http://draco.centerline.com:8080/~franl/pgp </a>
+<dt>PGP Outside the US and Canada
+<dd><a href="http://rschp2.anu.edu.au:8080/crypt.html">
+http://rschp2.anu.edu.au:8080/crypt.html </a>
+<dt>An Excellent History of PGP
+<dd>"PGP: Pretty Good Privacy".  Simson Garfinkel, O'Reilly and Associates, 1995.
+<dt>Legal Issues of PGP
+<dd><a href="http://www.mantis.co.uk/pgp/pgp-legal.html">
+http://www.mantis.co.uk/pgp/pgp-legal.html </a>
+<dt>Internet Privacy-Enhanced E-mail Standard (PEM)
+<dd><a href="http://ds.internic.net/rfc/rfc1421.txt">http://ds.internic.net/rfc/rfc1421.txt</a> 
+<dd><a href="http://ds.internic.net/rfc/rfc1422.txt">http://ds.internic.net/rfc/rfc1422.txt</a> 
+<dd><a href="http://ds.internic.net/rfc/rfc1423.txt">http://ds.internic.net/rfc/rfc1423.txt</a> 
+<dt>Riordan's Internet Privacy Enhanced mail
+<dd><a href="http://www.cs.indiana.edu/ripem/dir.html">
+http://www.cs.indiana.edu/ripem/dir.html</a>
+<dt>S/MIME Press Announcement
+<dd><a href="http://www.rsa.com/pub/S-MIME/announcement.txt">
+http://www.rsa.com/pub/S-MIME/announcement.txt</a>
+<dt>S/MIME Technical Details
+<dd><a href="http://www.rsa.com/pub/S-MIME/spec.ps"> http://www.rsa.com/pub/S-MIME/spec.ps</a>
+</dl>
+<p>
+<H2><A NAME="sc4">THE PEN IS MIGHTIER THAN THE ELECTRON</A></H2>
+<HR>
+<P>
+<I>Or is that the other way around?</I>
+
+<p> There is usually a howl of laughter or outrage when cryptographers
+or privacy advocates mention that cryptography is considered a
+"munition" by the 1954 Munitions Control Act - just like nuclear
+missiles .  What is often forgotten is that pivotal battles during
+World War II, such as the campaign against Rommel in North Africa, or
+the Battle of Midway, relied upon intelligence gleaned by breaking
+German and Japanese codes.  In effect, cryptography played as
+important or perhaps even more important role compared with such
+plebian materiel as cannons or bombs.  Although time has passed,
+export of cryptography is strictly regulatd.
+
+<p> But at the same time, the Internet has no natural political
+boundaries.  PGP, placed on the Net by an enthusiastic user, quickly
+spread to the rest of the world.  The same happened to RSA Data
+Security's RSAREF reference code library.  The result is a federal
+criminal investigation of Philip Zimmermann.  As the Internet
+community comes to grips with dealing with export control, World Wide
+Web and FTP sites are creating restrictions and posting advisories to
+discourage downloading non-Americans.  More dramatic approaches
+include an effort to excise DES encryption out of the Kerberos network
+security system.  This bare bones system would then be exportable and
+an encryption engine can be reinstalled abroad.
+
+<p> The software industry is acutely aware of the cost of export
+control, and is active in lobbying for its reduction or elimination.
+The recent quick breaking of the 40-bit key version of RC4 used for
+exportable versions of software has simply served to emphasize the
+limitations of existing export controls.
+
+<p> Interestingly enough, although computer code cannot be legally
+exported, source code in printed form within a book does not seem to
+face the same restrictions.  Books containing sample DES
+implementations are widely available.  Schneier's "Applied
+Cryptography" book can be exported, but not the diskette containing
+the same source code as is listed in the book.  One might wonder
+whether this is a face-saving compromise along the lines of "Don't
+Ask, Don't Tell".
+
+<p>
+<dl>
+<dt>TIS Survey on International Use of DES 
+<dd><a href="http://www.tis.com/Home/crypto/crypto-survey.html">
+http://www.tis.com/Home/crypto/crypto-survey.html</a>
+<dt>Books containing DES source code in FORTRAN, C, 6502 Assembly, and Basic
+<dd><a href="http://www.quadralay.com/www/Crypt/DES/source-books.html">
+http://www.quadralay.com/www/Crypt/DES/source-books.html </a>
+<dt>Court Cases in Cryptography and Export Control
+<dd><a href="http://www.cygnus.com/~gnu/export.html">
+http://www.cygnus.com/~gnu/export.html</a>
+<dt>The Philip Zimmermann Legal Defense Fund
+<dd><a href="http://www.netresponse.com/zldf">http://www.netresponse.com/zldf</a>
+</dl>
+<p>
+<H2><A NAME="s17">HIDING IN PLAIN VIEW</A></H2>
+<HR>
+<P>
+<I>Of microdots, the USS Pueblo, and steganography</I>
+
+<p> An encrypted message looks like gibberish, and alert people that
+there is something to hide.  But what if the message is totally
+innocuous looking?  This is an old trick that started centuries ago
+with writing in ink that is invisible until the paper has been heated.
+The microdot, a piece of film containing a very highly reduced image
+of the secret message and embedded in the punctuation marks of a
+normal document, was invented during World War II.  In the 60's, a
+photograph of members of the USS Pueblo released by their captors to
+show their cooperation seemed ordinary enough until you looked
+carefully at the hanf positions.  They were spelling out the word
+"SNOWJOB" in sign language.  And we all remember the hysteria about
+finding satanic messages by playing certain recordings backwards.
+
+<p> What if you used the least significant bit of each pixel in a
+bitmap image to encode a message?  The impact on the appearance of the
+image would not be noticeable.  This is known as steganography, or
+covered writing.  A 480 pixel wide by 100 pixel high image - smaller
+than many WWW home page banners, could theoretically contain a message
+of more than 5,000 characters.  The ecoding is quite easy with a
+computer - and no complicated mathematics at all.  And of course the
+same principles apply to audio and video files as well. Furthermore,
+the image can be used simply as a carrier, with the message being
+first encrypted.  So an old trick has found a new, digital dog.
+
+<dl>
+<dt>Steganography Archives
+<dd><a href=" ftp://ftp.csua.berkeley.edu/pub/cypherpunks/steganography/">
+ftp://ftp.csua.berkeley.edu/pub/cypherpunks/steganography/</a>
+</dl>
+<p>
+<H2><A NAME="sc8">MONEY MAKES THE WORLD GO ROUND</A></H2>
+<HR>
+<P>
+<I>Applied cryptography for a little fun and mostly profit</I>
+
+<p> While mail privacy is an important topic to many, cryptography
+also contributes to an area of far greater monetary value: online
+commerce.  Public key cryptography enables digital signatures that
+verify the authenticity of a document, confirms the authorization of
+the sender, and non-repudiation of the transaction - all critical
+components to financial transactions.  It contributes in other areas
+as well.
+
+<p> Timing is important to many transactions, e.g., tax returns must
+be filed by midnight, April 15, in the US, There needs to be a secure
+mechanism to timestamp the corresponding electronic documents. Surety
+Technologies provides a Digital Notary System that produces electronic
+timestamping.  It is based on combining message digests (created as
+part of the digital signature process) and timestamp values from a
+tamper-proof clock to create "super" messages that can be uniquely
+identified.  The contents of the original document need not be
+revealed to the timestamp service.
+
+<p> Current trends in electronic payment systems is firmly towards the
+development of a stored-value card.  Money is "downloaded" and stored
+in an integrated circuit on the card.  This can be for used for any
+purchase where cash can be used.  Up to this point, cash has remained
+the last anonymous, untraceable method of payment.  With the
+capabilities of a "smart" card such as the stored value card, all
+"cash" transaction information would also be captured, creating an
+associated loss of privacy.  However, we need not lose our privacy to
+gain the use of electronic cash.  Dr. David Chaum of Digicash has
+created algorithms for "blind signatures" that allow anonymous use of
+cash through a smart card mechanism.  Whether this will be adopted by
+major card organizations, though, remains an open question.  <p>
+
+<dl>
+<dt>Digital Notary Systems
+<dd><a href="http://www.surety.com">
+http://www.surety.com</a>
+<dt>Visa Announces Smart Card Specification
+<dd><a href="http://www.visa.com/visa/press_releases/visa_pr5.31.95.a.html">
+http://www.visa.com/visa/press_releases/visa_pr5.31.95.a.html </a>
+<dt>Mastercard and Visa Announces Secure Credit Card Transactions
+<dd><a href="http://www.mastercard.com/Press/release-950623.htm "> http://www.mastercard.com/Press/release-950623.htm</a>
+<dt>Chaum's Article on Blind Signature Technology and Digital Privacy
+<dd><a href="http://www.digicash.com/publish/sciam.html"> http://www.digicash.com/publish/sciam.html</a>
+<dt>Proposed Electronic Payment Systems
+<dd><a href="http://ganges.cs.tcd.ie/mepeirce/Project/proposed.html"> http://ganges.cs.tcd.ie/mepeirce/Project/proposed.html </a>
+<dt>Mondex Stored Value Card
+<dd><a href="http://www.mondex.com/mondex/home.htm"> http://www.mondex.com/mondex/home.htm</a>
+</dl>
+<p>
+<H2><A NAME="sc9">NO NAMES PLEASE</A></H2>
+<HR>
+<P>
+<I>Just sign me "a private netizen".</I>
+<p>
+
+Digital signatures can help confirm that the sender of a message is
+really who he says he is, but what happens when he doesn't want
+someone to know?  Anonymous letters - graffiti, ransom notes, whistle
+blowing, etc. have all been around for a long time and often serve a
+genuine purpose.  Yet e-mail systems generally persist in recording
+and reporting information about the message originator.  To preserve
+the anonymity of the sender, "anonymous remailers" have been set up on
+the Internet.  Messages sent to these remailers for forwarding have
+the originating header stripped off and replaced with the address of
+the remailer.  Replies to the remailer are then forwarded back to the
+originator without revealing his identity.  While, the best known of
+anonymous remailers is Although most people think of anon.penet.fi,
+run by Penetic, a company in Finland, there are actually about 20
+remailers on the Internet
+
+<p> In using an anonymous remailer, one must always remember that the
+remailer is but one part of the system, and that it too is subject to
+attacks.  First of all, your mail may go through a number of hops
+before reaching the remailer.  Mail can be monitored en route, and
+especially at the point of origin.  Even if your message is encrypted,
+the knowlege that you are sending mail to an anonymous remailer may be
+cause for suspicion.  Traffic analysis of the remailer - tracking
+incoming and outgoing mail and their sizes, can review the identity of
+seemingly anonymous messages.  There is a variety of techniques to
+improve the certainty of anonymity and to defend remailers from
+attacks; e.g., by chaining - sending a message through a number of
+remailers to the final destination, or by holding mail a random amount
+of time to deter traffic analysis.  However, not all attacks are
+technical.  In February, the Church of Scientology was able to obtain
+the identity of one user of anon.penet.fi by a criminal complaint
+throu gh Interpol and the Finnish police authorities.  Protecting
+privacy is a step removed from shielding criminal activity.
+
+<p>
+<dl>
+<dt>Remailer FAQ
+<dd><a href="http://www.well.com/user/abacard/zremail.html">
+http://www.well.com/user/abacard/zremail.html</a>
+<dt>Remailers Resource Page
+<dd><a href="http://www.cs.berkeley.edu/~raph/remailer-list.html"> http://www.cs.berkeley.edu/~raph/remailer-list.html</a>
+<dt>Breaking the Anonymity of anon.penet.fi
+<dd><a href="http://www.clas.ufl.edu/~avi/NII/TIME_penet.txt">
+http://www.clas.ufl.edu/~avi/NII/TIME_penet.txt</a>
+<dd><a href="http://www.tezcat.com/~wednsday/penet.pr">
+http://www.tezcat.com/~wednsday/penet.pr </a>
+<dt>How to Secure Remailers Against Attacks
+<dd><a href="http://obscura.com/~loki/remailer-essay.html">
+http://obscura.com/~loki/remailer-essay.html</a>
+</dl>
+<p>
+<H2><A NAME="s19">BIG BROTHER, BIG IRON</A></H2>
+<HR>
+<P>
+<I>The gusher from the data strata</I>
+
+<p> During the 1972 US Presidential Elections, the McGovern campaign
+found that one of its best sources of campaign contributions came from
+a list of Volvo owners.  The discovery was serendipitous, but in the
+intervening years, computer technology has grown to the point of
+playing a vital role in identifying these kinds of trends and
+patterns.  And increasing computerization means that far more
+information is being kept in electronic databases amenabale to
+efficient searches and correlations.  Database marketing, or database
+drilling, is now a standard part of the marketer's repertoire.  It has
+plenty of data to work on, from credit card transactions to
+subscriptions and mailing lists, and even the government gets in the
+act by selling information such as name, address, and driver's license
+number.
+
+<p> At the same time, the ability to link information in different
+databases - education and driving records, credit history, health,
+spending patterns, etc. - is no further away than a unique ID number.
+Most countries have some form of ID system for its citizens; the US
+has the social security number (SSN).  Although the SSN was explicitly
+intended not to be a national ID number, practically it is used by
+many organizations for idenification purposes.  The result of even
+partial linking of records would be an incredibly detailed history of
+our lives - after all, it's a mere matter of programming, and not
+complicated programming at that.
+
+<p>
+<dl>
+<dt>Data Mining with Equipment from SGI
+<dd><a href="http://www.sgi.com/Products/hardware/challenge/Datamining/mining0.html">
+http://www.sgi.com/Products/hardware/challenge/Datamining/mining0.html</a>
+<dt>Information about Social Security Numbers 
+<dd><a href="ftp://cpsr.org/cpsr/privacy/ssn/html/SSN-FAQ.html"> ftp://cpsr.org/cpsr/privacy/ssn/html/SSN-FAQ.html</a>
+</dl>
+<p>
+<H2><A NAME="sc7">IT'S B-A-A-A-CK!</A></H2>
+<HR>
+<P>
+<I>Cipper sightings on the Internet sea</I>
+
+<p> Despite the mountains of data that accumulate about our highly
+computerised lives, the ability to (get a court order) and listen in
+to the conversations of Americans has always been a cherished tool by
+law enforcement agencies.  The rise of digital telephony and
+telecommunications and cryptography threatened to put an end to that.
+The government's response was to propose the Capstone program.  The
+key piece was the Clipper chip.  Incorporated into all telephones and
+other such devices, this would permit encrypted communications through
+the use of the "Skipjack" algorithm.  Except the device is built with
+a "Law Enforcement Access Field" (LEAF).  Given a court order, the law
+enforcement agency could go to key escroll centers with the field
+information and obtain the keys necessary to decrypt the conversation.
+
+<p> The outcry from this announcement was loud and long.  The Skipjack
+algorithm. classified and implemented in hardware, did not allow the
+cryptographic community to examine and test its strength.  Worse, many
+were afraid that the algorithm contained a trapdoor that would allow
+decryption without the escrolled keys.  Others thought that Clipper
+marked the beginnings of an attempt to outlaw cryptography.  The irony
+was that upon closer examination, Dr. Matt Blaze of Bell Labs
+discovered a way to create a bogus LEAF and thus make decryption by
+the authorities impossible.
+
+<p> With that, the Clipper chip subsided into oblivion.  However, in
+the last week, the Clinton Administration has indicated that it will
+soon propose a "son of Clipper" - and hinted at allowing
+non-government escroll centers.  In the interval, the programming
+community had not been idle.  Nautilus, an encrypted phone system
+running on PC's and communicating through the Internet was introduced
+in the spring. (The name Nautilus comes from the submarine that sank
+clipper ships in the Jules Verne classic "20,000 Leagues Under the
+Sea".)  Philip Zimmermann has just announced PGPFone, a similar system
+running on Macintoshes.
+
+<p>
+<dl>
+<dt>CPSR Clipper Archives
+<dd><a href="ftp://cpsr.org/cpsr/privacy/crypto/clipper/"> ftp://cpsr.org/cpsr/privacy/crypto/clipper/</a>
+<dt>WWW Virtual Library on Clipper
+<dd><a href="http://draco.centerline.com:8080/~franl/clipper/about-clipper.html">
+http://draco.centerline.com:8080/~franl/clipper/about-clipper.html</a>
+<dt>Source for Nautilus
+<dd><a href="ftp://ftp.csua.berkeley.edu/pub/cypherpunks/nautilus/">
+ftp://ftp.csua.berkeley.edu/pub/cypherpunks/nautilus/</a>
+<dt>Nautilus Developers
+<dd><a href="mailto:nautilus@lila.com">mailto:nautilus@lila.com</a>
+<dd>Colorado Catacombs BBS -  303/772-1062
+<dt>PGPFone (will be uploaded when available)
+<dd><a href="ftp://net-dist.mit.edu">ftp://net-dist.mit.edu</a>
+</dl>
+<p>
+<H2><A NAME="s13">'BOTS, AGENTS, AND WIZARDS</A></H2>
+<HR>
+<P>
+<I>It's eleven o'clock at night.  Do you know what your software is doing?</I> 
+<P>
+
+First came the programs that helped us to write letters and
+spreadsheets on our personal computers.  Then came the insidious
+little viruses - hiding inside other programs that did everything from
+wishing us "Have a nice day" to wiping out our hard drives.  Well,
+whatever they did, they stayed within the confines of our computers.
+Then we got online services - our PC's started to communicate with the
+service mainframe at the other end of the phone line in a
+client-server fashion.  And the client sometimes served the server...
+
+<p> As much as the client software can help you send mail and download
+interesting information from the server, it is just another program
+that has control over your computer and its resources.  There are the
+usual urban legends about client software from major online services
+that rearranged the PC's file system - and some of this naturally
+happens when you download and install a software upgrade.  What is
+less amusing is the report of a Registration Wizard within beta
+versions of Microsoft's Windows 95 system.  This program gathers
+information about all the software that is being run on all the PC's
+in your network and then reports it to Microsoft when the you signs up
+for Microsoft Network Services.
+
+<p> Performance monitoring has been around for many companies,
+particularly in service organizations, e.g., the speed of the cashiers
+at busy supermarkets, or of directory assistance operators.  As we
+depend more and more on personal computers and get increasingly
+interconnected, the potential for information gathering and reporting
+to outsiders rises.  The early adopters are likely those online
+services who provide the communication link, since they can directly
+upload the information gathered.  But what prevents another program
+from sending information via e-mail to its originators if the
+communication is possible?  Visionaries speak of the much heralded
+"intelligent agent" technologies from the likes of General Magic.
+These would wander the net searching for information, purchasing
+hardware and software, making friends and influencing other agents.
+Given the above discussion, the possibilities for mischief - if
+unchecked - is mind-boggling.
+
+<p>
+<dl>
+<dt>Microsoft Registration Wizard:
+<dd><dl><dt>Information Week report (available by searching)
+<dd><a href="http://techweb.cmp.com/techweb">
+http://techweb.cmp.com/techweb</a>
+<dt>Unauthorized Windows 95's Detailed Analysis
+<dd><a href="ftp://ftp.ora.com/pub/examples/windows/win95.update/regwiz.html">
+ftp://ftp.ora.com/pub/examples/windows/win95.update/regwiz.html
+</a></dl>
+<dt>General Magic's Agent Technology
+<dd><a href="http://www.genmagic.com/about-magic.html">
+http://www.genmagic.com/about-magic.html</a>
+</dl>
+<P>
+<H2><A NAME="s15">INFORMATION AT YOUR FINGERTIPS</A></H2>
+<HR>
+<P>
+<I>The educated person knows where to find the information</I>
+
+<P> The issues of privacy and cryptography are of vital interest to
+many of the denizens of the Internet.  As a result, there are some
+excellent sites with extensive lists of resources available.
+
+<p>
+<dl>
+<dt>Computer Professionals for Social Responsibility
+<dd><a href="http://www.cpsr.org/dox/home.html">
+http://www.cpsr.org/dox/home.html</a>
+<dt>Electronic Frontier Foundation
+<dd><a href="http://www.eff.org"> http://www.eff.org </a>
+<dt>Electronic Privacy Information Center
+<dd><a href="http://www.privacy.org"> http://www.privacy.org</a>
+<dt>World Wide Web Virtual Library on Cryptography, PGP, and Your Privacy
+<dd><a href="http://draco.centerline.com:8080/~franl/crypto.html"> http://draco.centerline.com:8080/~franl/crypto.html </a>
+<dt>Cypherpunks Archives
+<dd><a href="ftp://ftp.csua.berkeley.edu/pub/cypherpunks">
+ftp://ftp.csua.berkeley.edu/pub/cypherpunks</a>
+<dt>MSU Archives
+<dd><a href="ftp://ripem.msu.edu/pub/crypt/other">
+ftp://ripem.msu.edu/pub/crypt/other</a>
+<dt>Quadralay's Cryptography Archive
+<dd><a href="http://www.quadralay.com/www/Crypt/Crypt.html">
+http://www.quadralay.com/www/Crypt/Crypt.html</a>
+<dt>Miscellaneous Newsgroups, Journals, and Conferences
+<dd><A href="http://www.netsurf.com/nsf/v01/03/resource/index.html">
+http://www.netsurf.com/nsf/v01/03/resource/index.html</A>
+</dl>
+<p>
+<H2><A NAME="s16">INKY FINGERS</A> </H2>
+<HR>
+<P>
+<I>Curl up with a good book</I> 
+<P>
+While the online world is rich with resources, print is still
+a wonderful packaging technology, especially for larger documents.
+For those times when the screen has lost its phosphorescent allure,
+here is our selection of books and other printed materials for
+your consideration.
+<P>
+<b>CRYPTOGRAPHY</b>
+<UL>
+<li>"PGP: Pretty Good Privacy".  Simson Garfinkel, O'Reilly and Associates, 1995.
+<li>"Kahn on Codes: Secrets of the New Cryptology", David Kahn, MacMillan, 1983.
+<li>"Seizing the Enigma", David Kahn, Houghton-Mifflin, 1991.
+<LI>"Applied Cryptography: Protocols, Algorithms, and Source Code in C".  
+Bruce Schneier, John Wiley & Sons, 1994.<br>
+Errata Sheet: <a href="http://www.webcom.com/~hurleyj/service/errata-appl-crypt.html">
+http://www.webcom.com/~hurleyj/service/errata-appl-crypt.html </a>
+<li>"E-mail Security: How to Keep Your Electronic Messages Private".
+Bruce Schneier, John Wiley and Sons, 1995.
+<li>"A Man Called Intrepid".  William Stevenson, Harcourt Brace Jovanovich, 1976.
+<li>"The Official PGP Guide".  Philip R. Zimmermann, MIT Press, 1995.
+</UL>
+<p>
+<b>PRIVACY</b>
+<ul>
+<li>"The Computer Privacy Handbook".  Andre Bacard,  Peachpit Press, 1995.
+<LI>"Who Owns Information? From Privacy to Public Access".
+Anne W. Branscomb, Basic Books, 1994.
+<li>"Managing Privacy: Information Technology and Corporate America".  
+H. Jeff Smith. University of North Carolina Press, 1995.
+</ul>
+<P>
+<H2><A NAME="SP">OUR SPONSOR</A></H2>
+<HR>
+<P>
+<P>
+This issue of Netsurfer Focus is sponsored by
+<a href="http://www.acma.com/pcmcia.html">
+National Semiconductor and ACMA Computers</a>.
+<p>
+For more information about our sponsor and other advertisers,
+please see the current issue of Netsurfer Focus Marketplace.
+<BR>
+<A href=http://www.netsurf.com/nsf/v01/03/nsfm.01.03.html>
+"http://www.netsurf.com/nsf/v01/03/nsfm.01.03.html"</A>
+
+<P>
+Participation in the Focus Marketplace is unrelated to editorial
+coverage within Netsurfer Focus.
+<p>
+<H2><A NAME="UI">UPDATE INFORMATION</A></H2>
+<HR>
+<P>
+Last Updated 16 September, 1995.
+<p>
+<H2><A NAME="CI">CONTACT INFORMATION</A></H2>
+<HR>
+<P>
+Netsurfer Focus is currently a periodic supplement to Netsurfer
+Digest and Netsurfer Tools.
+<P>
+Netsurfer Focus Home Page: <A href="http://www.netsurf.com/nsf/index.html">
+http://www.netsurf.com/nsf/index.html</A>
+<P>
+Letters to the Editor: <A href="mailto:focus@netsurf.com">focus@netsurf.com</A><br>
+<i>We appreciate hearing from you even if we do not manage to respond
+to every message that is sent to us.  Please note that we reserve the
+right to publish letters to the editor in future issues of Netsurfer
+Focus or on our website.</i>
+<P>
+Back Issues:
+If you would like to obtain copies of back issues or resource files (in HTML format only) via e-mail,
+send mail to <A href="mailto:info-focus@netsurf.com">info-focus@netsurf.com</A>
+with "send crypto-index" in the body of the message.
+<p>
+To subscribe to Netsurfer Digest or Netsurfer Tools:
+<P>
+By WWW form: <A 
+href="http://www.netsurf.com/nsd/subscribe.html">http://www.netsurf.com/nsd/subscribe.html</A>
+<BR>
+By e-mail: <A href="mailto:nsdigest-request@netsurf.com">nsdigest-request@netsurf.com</A>
+<br>Body:
+<PRE>
+     subscribe nsdigest-text
+     subscribe nsdigest-html
+</PRE>
+<P>
+<H2><A NAME="CR">CREDITS</A></H2>
+<HR>
+<P>
+<B>Netsurfer Focus</b><br>
+Publisher: S. M. Lieu<BR>
+Production Manager: Bill Woodcock<BR>
+Sales: John Pendleton<BR>
+<p>
+<B> Netsurfer Communications, Inc.</B>,<br>
+President: Arthur Bebak<br>
+Vice President: S. M. Lieu <br>
+<P>
+<b>NETSURFER FOCUS</b> (c) S. M. Lieu. All rights reserved. <BR>
+<b>NETSURFER DIGEST</b> is a trademark of Netsurfer Communications,
+Inc. Other publication, product, and company names may be trademarks
+of their companies. <p>
+<I>"God is in the Details"</I> is a quote from Mies van der Rohe. 
+</BODY>
+</HTML>

@@ -1,0 +1,57 @@
+                      UNIDEN 5000 and 6000 GTS Portable
+
+
+                NAM Type:  EEPROM
+            Manufacturer:  UNIDEN
+              Programmer:  Program or Service Handset with CP 505 Adaptor
+          ESN Prefix DEC:  172
+                     HEX:  AC
+ ESN, S/N Match Required:  Yes
+    Stamped Model Number:  5000 or 6000 GTS
+      Number of Channels:  832
+
+    Programming Sequence:  Power Off
+                           Remove Battery and install CP505 or CP505A adaptor
+                           Connect CP505(A) to power supply or to CP
+                            504 battery eliminator per adaptor instructions
+                           Connect Program Handset to CP 505(A) adaptor
+  White Handset (CP-010):  Turn Power Switch On while holding *
+                            and # continue holding * and # for two seconds
+    Blue Handset(CP-210):  Turn Power Switch On
+                           Press SELECT + 2 + SEND
+           Both Handsets:  Enter step number, then data for individual
+                            parameter
+                           Press STO to enter data for each step
+                           Increment by pressing next step number
+ To review parameters press:  RCL + Step number + STO (to exit)
+                           To select Alternate NAM, Press 1 + STO + 90 (NAM 1)
+                            or 2 + STO + 90 (NAM 2)
+                           Press SEND to write NAM information
+                           PASS will appear in display if data is valid
+
+ Step                 # of Digits
+ 0             System ID:  5    XXXXX + STO
+ 1             Local Use:  1    (0 or 1) + STO
+ 2               MIN Opt:  1    (0 or 1) + STO
+ 3         Mobile Number:  10   XXX-XXX-XXXX + STO
+ 4  Initial Page Channel:  3    (333 or 334) + STO
+ 5       Access Overload:  2    XX + STO
+ 6      Preferred System:  1    [0 (B) or 1 (A)] + STO
+ 7              Group ID:  2    XX + STO
+ 8         Lock code (1):  4    XXXX + STO
+ 9  Options F5 DTMF
+                Duration:  1    0 - Continuous
+                                1 - 100 ms
+
+Press STO to program phone
+
+         New Unlock Code:  RCL + 70 + Current 4 digit Unlock code
+                            + new 4 digit Unlock code
+
+           System Select:  X + STO + 8 + 8
+                            X=1  A only
+                            X=2  B Only
+                            X=3  Home
+                            X=4  Standard AB or BA
+                            X=5  Inverted BA or AB
+

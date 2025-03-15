@@ -1,0 +1,66 @@
+===========================================================================
+CA-94:02                        CERT Advisory
+                              February 14, 1994
+            Revised Patch for SunOS /usr/etc/rpc.mountd Vulnerability
+
+---------------------------------------------------------------------------
+
+                    *** THIS IS A REVISED CERT ADVISORY ***
+           *** IT CONTAINS NEW VULNERABILITY AND PATCH INFORMATION ***
+             *** SUPERSEDES CERT ADVISORY CA-91:09 and CA-92:12 ***
+
+The CERT Coordination Center has received information concerning a
+vulnerability in /usr/etc/rpc.mountd in Sun Microsystems, Inc. SunOS
+4.1.1, 4.1.2, 4.1.3, and 4.1.3c.  SunOS 4.1.3.u.1, Solaris 2.x, and
+Solbourne's 4.1B and 4.1C are not vulnerable.
+
+Sun has produced a patch for this vulnerability for sun3 and sun4
+architectures.  It is available through your local Sun Answer Center
+as well as through anonymous FTP from the ftp.uu.net system in the
+/systems/sun/sun-dist directory or from the ftp.eu.net system in the
+/sun/fixes directory.
+
+This vulnerability is currently being exploited.  Please review CERT 
+Advisory CA-94:01 'Ongoing Network Monitoring Attacks'.
+ 
+-----------------------------------------------------------------------------
+
+I.   Description
+
+     If an access list of hosts within /etc/exports is a string 
+     over 256 characters or if the cached list of netgroups exceeds
+     the cache capacity then the filesystem can be mounted by anyone.
+      
+II.  Impact
+
+     Unauthorized remote hosts will be able to mount the filesystem.
+     This will allow unauthorized users read and write access to files
+     on mounted filesystems.
+
+III. Solution
+
+     Obtain and install the appropriate patch following the instructions
+     included with the patch.
+
+     Patch-ID   Filename         BSD        MD5
+                                 Checksum   Checksum
+     100296-04  100296-04.tar.Z  42492 40   20a76c75abadd3360ad92091a25ceb3c
+
+---------------------------------------------------------------------------
+If you believe that your system has been compromised, contact the CERT
+Coordination Center or your representative in Forum of Incident
+Response and Security Teams (FIRST).
+
+Internet E-mail: cert@cert.org
+Telephone: 412-268-7090 (24-hour hotline)
+           CERT personnel answer 8:30 a.m.-5:00 p.m. EST(GMT-5)/EDT(GMT-4),
+           and are on call for emergencies during other hours.
+
+CERT Coordination Center
+Software Engineering Institute
+Carnegie Mellon University
+Pittsburgh, PA 15213-3890
+
+Past advisories, information about FIRST representatives, and other
+information related to computer security are available for anonymous
+FTP from info.cert.org.

@@ -1,0 +1,68 @@
+<head>
+<title>[8lgm]-Advisory-17.UNIX.sendmailV5-2-May-1995</title>
+</head>
+<body>
+<HR>
+                <H1>[8lgm]-Advisory-17.UNIX.sendmailV5-2-May-1995</H1>
+<P>
+<P>
+<H2>PROGRAM:</H2>
+<P>
+        sendmail(8)        (Version 5.*)
+<P>
+<H2>KNOWN VULNERABLE VERSIONS:</H2>
+<P>
+<UL>
+<LI>        SunOS 4.1.* up to and including patch 100377-19
+<LI>	Sendmail V5.*
+<LI>	IDA Sendmail V5.*
+<LI>	(Likely that any sendmail based on V5 is also vulnerable).
+</UL>
+<P>	
+<H2>DESCRIPTION:</H2>
+<P>
+	A flaw exists in versions of sendmail based on V5, which allows
+	users to run programs and/or append to files remotely.
+<P>
+	The user does not require an account on that system.
+<P>
+<H2>IMPACT:</H2>
+<P>
+        Systems running V5 based sendmail are exploitable remotely.
+<P>
+<H2>REPEAT BY:</H2>
+<P>
+	At this time, exploit details are not available.  Exploit
+	details will be provided on the 8lgm fileserver, at some
+	point in the future.
+<P>
+<H2>DISCUSSION:</H2>
+<P>
+	Details have been provided to ecd@cert.org, in order to speed
+	up availability of exploit information to vulnerable vendors.
+<P>
+<H2>WORKAROUND & FIX:</H2>
+<P>
+<OL>
+<LI>	 Install V8 sendmail.
+<P>
+<LI>	Obtain patch from vendor.
+</OL>
+<P>
+<H2>FEEDBACK AND CONTACT INFORMATION:</H2>
+<P>
+<DL>
+ <DT>       majordomo@8lgm.org       
+	<DD> (Mailing list requests - try 'help'
+				   for details)
+<P>
+<DT>        8lgm@8lgm.org		
+<DD>  (Everything else)
+</DL>
+<P>
+<H2>8LGM FILESERVER:</H2>
+<P>
+	All [8LGM] advisories may be obtained via the [8LGM] fileserver.
+	For details, '<KBD>echo help | mail 8lgm-fileserver@8lgm.org</KBD>'
+<HR>
+</BODY>

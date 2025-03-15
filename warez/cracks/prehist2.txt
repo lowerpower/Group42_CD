@@ -1,0 +1,34 @@
+Hint, tricks, etc for Prehistorik 2
+-----------------------------------
+
+For unlimited lives,
+use Gametools to keep 
+2334:0F00 and
+1F34:0A34 constant.
+
+For unlimited health (hearts)
+use Gametools to keep
+1F34:0A32 and
+2334:0F01 condtant.
+
+Level codes:
+???? = Didn't find the code or forgot to write it down
+XXXX = You can't play the last level on beginner - expert only.
+
+(Beginner)                      (Expert)
+-----------                     --------
+
+level 1     8DD2                  ????
+level 2     95E3                  ????
+level 3     ????                  ????
+Jungle      A605                  3527
+TreeHouses  6D96                  ????
+Tree Trunk  75A7                  4541
+Snow level  7DB0                  0CD2
+Ice Caves   85C1                  14E3
+Fortress    XXXX                  1CF4 (last level) 
+
+
+--------------------
+Fruddled Gruntbuggly
+--------------------

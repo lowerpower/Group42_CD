@@ -1,0 +1,128 @@
+******************************************************************************
+* * * *              IndyCar Racing / Indianapolis 500                 * * * *
+                       Game Cheat / Crack Listing
+******************************************************************************
+
+Compiled by :     CSCHRAME@SILVER.UCS.INDIANA.EDU
+                  Christopher Schrameyer
+----------------------------------------------------------------------------
+
+***********************************************************************
+- THIS IS FOR REGISTERED USERS ONLY AND SHOULD NOT BE USED
+TO PIRATE THE GAME. THE USE OF THESE CRACKS AND CHEATS BY ANYONE WHO IS 
+NOT A REGISTERED OWNER OF INDYCAR RACING IS A VIOLATION OF THE LAW
+************************************************************************
+
+05/27/94
+--------
+
+* * * INFO:
+
+        Here's a list of some IndyCar cheats/cracks I have found.
+You should go ahead and get the update, ICR104.ZIP. You will need this
+version if you choose to use the crack. The cheats should work with
+any previous version as well, however. Please read the readme.txt files
+included in the zip files. For the .txt files, you will need
+a HEX EDITOR to change the program yourself. 
+        There are also 2 cheats for Indianapolis 500 Game.
+These are NOT for IndyCar racing. They are listed at the end of this file.
+Please note, all files for IndyCar racing begin with ICR*.*, while those
+for the old Indy 500 game begin with INDY*.*
+        If you come across any new cheats, additions, great instant
+replays, etc, please let me know. We are always interested in sharing
+good car setups, stories, and new enhancements to IndyCar Racing. Simply
+send me some e-mail.
+         This file will be updated as new information becomes available.
+Feel free to send me any suggestions or comments.
+        Also, most of these files were created by someone else. I have
+made every effort to have them named. All I have done is combined them
+and placed them on various FTP sites for easier access to us all. But,
+remember, the work was done by others, so feel free to drop them your
+comments as well. After all, they provided us with these programs.
+
+----- FOR INFORMATION ON NEW FILES OR IF YOU HAVE SOMETHING TO SHARE:
+
+Email - CSCHRAME@SILVER.UCS.INDIANA.EDU
+        Christopher Schrameyer
+
+
+* * * LOCATIONS:
+
+        These files have been upload to the following FTP sites by
+myself. Please feel free to upload them to more, and update
+this file to reflect those changes.
+
+FTP.UWP.EDU                     /pub/incoming/romulus/cheats
+
+WUARCHIVE.WUSTL.EDU   /pub/MSDOS_UPLOADS/cheat
+
+
+
+* * * FILES:
+
+ICR104.ZIP
+------------
+        Indycar Racing V1.04. This is the newest update for registered
+ owners of IndyCar Racing. Fixes modem and car problems.
+ This version is needed in order for the IndyCar crack to work.
+
+ ICR94DRV.ZIP
+ -------------
+        New, updated drivers list for 1994. Includes Michael Andretti.
+Also includes newer cars and colors.
+
+ICR93CAR.ZIP
+-------------
+        List of the 1993 cars and drivers. Includes a patch that allows
+Nigel Mansell and Mario Andretti's car colors to resemble their real
+KMART/Havoline cars.
+
+ICRSETUP.ZIP
+-------------
+        Car setups for most of the tracks included in IndyCar Racing.
+
+ICRCRACK.TXT
+-------------
+        The only crack I know of for IndyCar Racing. Use this and it will
+prompt you for the same word every time you load the game. This way
+you need not flip through the manual every time.  NOT TO BE USED
+TO PIRATE OR COPY THE GAME!
+
+ICREDIT.TXT
+------------
+        Simple text  file showing you how to use a hex editor to change
+your car color and number, plus a few other things.
+
+ICRNAZAR.ZIP
+-------------
+        Fast car setup for the Nazareth track.
+
+
+             ==========================================
+             FOR THE INDIANAPOLIS 500 RACING SIMULATION
+             ==========================================
+
+ INDYEDIT.ZIP
+ ------------
+        Edit almost everything in the INdy 500 game. Edit your car color,
+ opponents strength, qualifying speeds, and many race settings. This
+ is a must have!
+
+INDY500.ZIP
+-----------
+        Crack for the game INDY 500.
+
+
+
+
+
+Enjoy!
+Happy racing!
+
+Don't forget to support:
+
+==== Team Penske
+==== Marlboro/Mercedes
+==== Emerson Fittapaldi, Paul Tracy, Al Unser Jr.
+
+

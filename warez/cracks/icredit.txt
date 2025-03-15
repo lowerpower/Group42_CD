@@ -1,0 +1,151 @@
+IndyCar Racing
+Car Editor
+=========================================================================
+Info/Comments : CSCHRAME@SILVER.UCS.INDIANA.EDU
+=========================================================================
+
+   If you are tired of driving the same IndyCar #0 car around the tracks,
+you can change the looks of the car to one of the other 32 cars in the
+simulation. Go to the indycar\cars\cars93 directory and make a backup copy of the file
+CARS93.DAT.  Save it to something like cars93.bak.  This is in case you
+mess something up in the file.  If the game won't load, you've probably just
+mistyped a number or letter, so just rename the CARS93.BAK to CARS93.DAT
+and you're ready to go again.  With a hex editor look in the cars93.dat file
+for the consecutive hex values: 8E 53 03.  They only appear once in the file
+and are near the top.  They are part of bigger chain of hex values, namely:
+8E 53 03 00 05 00 D8 31 00 00 D8 31.  Once you've found the string of hex
+values, change them to one of the string of hex values listed below to
+make your car look like the one in the simulation that you desire.
+
+   I've purposely put in a few extra spaces so you can see the pattern of
+the repeating values 00 05 00 and 00 00 which are the same for all cars.
+Only the values with ** above them need to be changed.  If you change the
+values of the car and forget what you've changed them and can't find the
+section, look for TEXT values indy0r.3do which is 69 6E 64 79 30 72 2E 33
+64 6F hex.  This four bytes before the start of the section that you
+change.
+
+
+** ROADCAR:
+                              ** ** **            ** **         ** **
+to make your CAR   #  CHANGE  8E 53 03  00 05 00  D8 31  00 00  D8 31 to:
+-------------------------------------------------------------------------
+IndyCar           99          35 8F 0A  00 05 00  53 2F  00 00  53 2F
+Penske            12          EE B3 05  00 05 00  08 01  00 00  08 01
+Kinko's           92          72 49 04  00 05 00  08 01  00 00  08 01
+Penske             4          8B 82 05  00 05 00  08 01  00 00  08 01
+Craftsman         25          8E EC 01  00 05 00  08 01  00 00  08 01
+Andretti           5          D5 7A 04  00 05 00  08 01  00 00  08 01
+JC Penney         90          6C E7 03  00 05 00  08 01  00 00  08 01
+Hogan (Rahal)      1          4B 48 06  00 05 00  08 01  00 00  08 01
+Hogan             26          AE 79 06  00 05 00  34 00  00 00  34 00
+Valvoline          3          B5 F5 07  00 05 00  15 2D  00 00  15 2D
+Mackenzie          2          E8 51 05  00 05 00  08 01  00 00  08 01
+???? can't read   17          C8 89 01  00 05 00  08 01  00 00  08 01
+Sullivan          51          9C 63 02  00 05 00  E8 05  00 00  E8 05
+Duracell           9          F1 1D 02  00 05 00  34 00  00 00  34 00
+Amax              16          E0 71 00  00 05 00  08 01  00 00  08 01
+Interstate        21          C9 B6 03  00 05 00  08 01  00 00  08 01
+Amway             22          83 A2 00  00 05 00  08 01  00 00  08 01
+Menards           59          51 E5 05  00 05 00  34 00  00 00  34 00
+3M Scotch-Target  10          99 B4 07  00 05 00  46 04  00 00  46 04
+Kodalux           18          DB DC 04  00 05 00  60 02  00 00  60 02
+King Racing       40          0F 18 04  00 05 00  08 01  00 00  08 01
+King Racing       80          A8 DC 06  00 05 00  30 32  00 00  30 32
+Mobil              6          38 AC 04  00 05 00  08 01  00 00  08 01
+Monroe            23          45 AB 06  00 05 00  08 01  00 00  08 01
+Kendall           75          8E 83 07  00 05 00  34 00  00 00  34 00
+Auto Nation ??    50          3D 41 00  00 05 00  08 01  00 00  08 01
+Bosch             19          3B 40 07  00 05 00  58 0B  00 00  58 0B
+Sulaco            36          85 20 05  00 05 00  08 01  00 00  08 01
+Kenwood           14          2B BB 01  00 05 00  08 01  00 00  08 01
+Firestone         87          E8 16 06  00 05 00  08 01  00 00  08 01
+STP               11          65 58 01  00 05 00  08 01  00 00  08 01
+Rational          77          E6 D3 00  00 05 00  98 10  00 00  98 10
+
+
+
+
+** SPEEDWAY CAR:
+
+look for the hex values 8C 6A 02, they only appear once, near the top.  They
+are part of a larger string of hex values, namely:
+8C 6A 02 00 05 00 53 2F 00 00 53 2F.
+
+                              ** ** **            ** **         ** **
+to make your CAR   #  CHANGE  8C 6A 02  00 05 00  53 2F  00 00  53 2F to:
+-------------------------------------------------------------------------
+IndyCar           99          2D 8E 0A  00 05 00  08 01  00 00  08 01
+Penske            12          93 83 05  00 05 00  53 2F  00 00  53 2F
+Kinko's           92          17 19 04  00 05 00  53 2F  00 00  53 2F
+Penske             4          F0 52 05  00 05 00  93 2E  00 00  93 2E
+Craftsman         25          33 BC 01  00 05 00  53 2F  00 00  53 2F
+Andretti           5          7A 4A 04  00 05 00  53 2F  00 00  53 2F
+JC Penney         90          D1 B7 03  00 05 00  93 2E  00 00  93 2E
+Hogan (Rahal)      1          F0 17 06  00 05 00  53 2F  00 00  53 2F
+Hogan             26          53 49 06  00 05 00  53 2F  00 00  53 2F
+Valvoline          3          5A C5 07  00 05 00  53 2F  00 00  53 2F
+Mackenzie          2          8D 21 05  00 05 00  53 2F  00 00  53 2F
+???? can't read   17          6D 59 01  00 05 00  53 2F  00 00  53 2F
+Sullivan          51          41 33 02  00 05 00  53 2F  00 00  53 2F
+Duracell           9          96 ED 01  00 05 00  53 2F  00 00  53 2F
+Amax              16          45 42 00  00 05 00  93 2E  00 00  93 2E
+Interstate        21          6E 86 03  00 05 00  53 2F  00 00  53 2F
+Amway             22          E8 72 00  00 05 00  93 2E  00 00  93 2E
+Menards           59          F6 B4 05  00 05 00  53 2F  00 00  53 2F
+3M Scotch-Target  10          FE 84 07  00 05 00  93 2E  00 00  93 2E
+Kodalux           18          40 AD 04  00 05 00  93 2E  00 00  93 2E
+King Racing       40          74 E8 03  00 05 00  93 2E  00 00  93 2E
+King Racing       80          4D AC 06  00 05 00  53 2F  00 00  53 2F
+Mobil              6          DD 7B 04  00 05 00  53 2F  00 00  53 2F
+Monroe            23          EA 7A 06  00 05 00  53 2F  00 00  53 2F
+Kendall           75          33 53 07  00 05 00  53 2F  00 00  53 2F
+Auto Nation ??    50          E2 10 00  00 05 00  53 2F  00 00  53 2F
+Bosch             19          E0 0F 07  00 05 00  53 2F  00 00  53 2F
+Sulaco            36          2A F0 04  00 05 00  53 2F  00 00  53 2F
+Kenwood           14          D0 8A 01  00 05 00  53 2F  00 00  53 2F
+Firestone         87          8D E6 05  00 05 00  53 2F  00 00  53 2F
+STP               11          0A 28 01  00 05 00  53 2F  00 00  53 2F
+Rational          77          8B A3 00  00 05 00  53 2F  00 00  53 2F
+
+
+   Be careful with the hex editor, make sure you know how to use it.  If
+you mess up the file you'll know it, IndyCar racing won't load.  Copy your
+saved backup file to get it going again.  Once Papyrus or someone comes
+out with a car editor this all for nothing so enjoy it while it last.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

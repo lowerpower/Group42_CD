@@ -1,0 +1,5 @@
+Crack> Powermonger 
+crack written by anonymous 
+ 
+     In file game.exe search for hex bytes:E8 CD FD 2B 00 75 33 
+     replace 75 33 with 90 90 

@@ -1,0 +1,15 @@
+
+Just in case it hasn't been posted, there is a built-in cheat in Prince of
+Persia 2.  Just start the game like so:
+
+PRINCE2 MAKINIT
+
+Then have fun trying all the SHIFT combinations.  A couple to get you started:
+
+SHIFT-+ More time
+SHIFT-I Invert screen
+SHIFT-N Advance level (endlessly)
+SHIFT-T Add potion
+
+-Ron (ronaldm@rgm.com) (ronaldm@citrus.sac.ca.us)
+

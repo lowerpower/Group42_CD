@@ -1,0 +1,192 @@
+<HTML>
+<TITLE>Document:picbust</TITLE>
+<HR>
+<H1>
+PICBUSTER - Details Released On Internet
+</H1>
+<HR>
+<P>
+For  a  long time, some of the most frequently asked  questions  on 
+Special Projects were about Picbuster. Was it a program? Was it  a 
+device? Did it really exist. The answer has been given in a Usenet 
+message. It is essentially a Welsh Poet - Dai Ode. In other words, 
+it is a diode.
+</P><P>
+The  standard method of popping a PIC was to actually  remove  the 
+top  of  the chip and re-engineer the fuse. The  method  described 
+opposite  is  effectively the cheapest solution. Of  course  other 
+methods exist.
+</P><P>
+The  standard result when the fuse is reset is that  the  complete 
+memory  of the PIC16C84 is reset. In the normal  programming  mode 
+there  is  a  large difference  between  the  programming  voltage 
+(approx  13.8  Volts)  and the supply voltage (5  Volts).  In  the 
+Picbuster  as  described opposite, the recommended  difference  is 
+approximately  0V5.  The voltage drop across the diode is  0V6  to 
+0V7.  The 0V5 voltage differential may not be enough to reset  the 
+entire memory but is enough to alllow the fuse to be reset.
+</P><P>
+The  publication  of this information on the Usenet  does  provide 
+other  problems.  Most  of the pirate smart cards in  use  at  the 
+moment are based on the PIC16C84. The widespread knowledge of  how 
+to  hack  these  chips  means that the  market  can  become  over-
+saturated with pirate cards.
+</P><P>
+To  date  the pirate cards have been upgraded  in  a  trickle-down 
+manner.  A  few companies at the top of the chain figure  out  the 
+fix  for the new ECM and implement it. The details of the fix  are 
+then  sold  on down the chain until finally the whole  market  has 
+been upgraded. In effect it is almost feudal.
+</P><P>
+It  would  be  easy to think that this would  benefit  the  hacked 
+channels more than the pirates. That would of course be wrong. The 
+net result of the publication is that the knowledge of the  system 
+is  spread more widely than before. Therefore the more people  who 
+understand the system, the quicker the turn around between ECM and 
+fix. 
+</P><P>
+The  widespread availability of the knowledge to pop the  PIC16C84 
+is  making some pirate card manufacturers rethink their  strategy. 
+One notable change has been the Benedex - Futuretron Battery card. 
+This  card  uses the Dallas Micros chip rather than one  from  the 
+PIC16* series. Another option is the reprogrammed Sky 09 card (see 
+separate story in this issue).
+</P><P>
+The  PIC16C84 is widely used. In some applications it is  used  to 
+control  electronic locks such as those used on some of  the  more 
+up  market cars. There was a court case in the UK last year  where 
+the defendant was convicted for having in his possession a  device 
+that snatched the RF data from these electronic keys and  replayed 
+it  to open the locks. The use of Picbuster could be dangerous  if 
+it  showed that there was a backdoor code (bad pun) that could  be 
+used  by  garages  in  the  event of  the  car  owner  losing  his 
+electronic key.
+</P><P>
+It is almost certain that Arizona Microchip have implemented  some 
+sort  of modification to PIC16C84 die. This modification would  of 
+course  take  some  time to filter into the market.  Most  of  the 
+pirate  cards at the moment are recycling the PIC16C84 chips  from 
+07  pirate cards. There have been some rumours that the  Picbuster 
+does not work with some of the more recent 1995 batches.
+</P>
+<HR>
+<h2><B>
+This is the Usenet Message that gave the details of PicBuster.
+</b></H2>
+<PRE>
+Article: 16241 of alt.satellite.tv.europe
+Newsgroups: alt.satellite.tv.europe
+From: Lester@bannold.demon.co.uk (Lester Wilson)
+Subject: Re: NEW PROGRAMMER
+Organization: PO BOX 845 WATERBEACH CAMBRIDGE CB5 9JS
+Reply-To: Lester@bannold.demon.co.uk
+X-Newsreader: Newswin Alpha 0.7
+Lines:  86
+X-Posting-Host: bannold.demon.co.uk
+Date: Wed, 26 Apr 1995 07:27:50 +0000
+Message-ID: <429713219wnr@bannold.demon.co.uk>
+Sender: usenet@demon.co.uk
+
+> 
+> lester may i ask a question just how secure is a pic chip when 
+> the security fuses have been blown ? 
+> -- 
+> PAUL BULMER
+> 
+> 
+
+In my opinion hte pIC16C84 is secure enough to prevent the  casual 
+reading  of  protected code. I think that this  subject  has  been 
+covered in other discussions in this group in the not too  distant 
+past. I have many private emails from persons claiming to have had 
+success  in reading data from a Code protected PIC16C84. I  myself 
+am convinced that it is possible, so are many others, but each  to 
+his  own.I  do not condone or encorage the  reading  of  copyright 
+protested  code by unathorised persons. It is acheivable  in  many 
+ways, one of which was emailed to me some time back by a satisfied 
+customer:-
+
+
+___addresses deleted___________________________________
+
+Hi Lester,
+
+______________________more deleted stuff________________________________
+---------------------------------------------------------------------------
+                                  PicBuster
+
+
+The  Pic  chip (PIC16C84) can in fact have it's program  and  data 
+memory  read  after  the  config  fuses  have  been  set  to  code 
+protection on.
+
+Try the following:
+
+Write some code to the chip with the code protection set to "ON".
+
+Read back to verify that the protection has indeed come on.
+
+Now  set  Vdd ( pin 14 ) to Vpp-0.5v,  (Programming  voltage  less 
+0.5V).
+
+Set config fuse to "OFF" and reprogram config fuse.
+
+Now set Vdd back to normal, +5v.
+
+Power off the programmer.
+
+Wait 10 to 20 sec.
+
+Power back on the programmer. (VDD at + 5V)
+
+Read the Pic.... and hey presto, data in unprotected format should 
+now be available.
+
+_________________________stuff deleted____________________________
+
+This  is experimental only and no liability will be  accepted  for 
+any loss of data.
+------------------------------------------------------------------
+
+
+_____________lots and lots more deleted stuff_____________________
+
+
+
+by  revealing the above I hope that you are satisfied (  though  I 
+doubt  it),  I will not be replying to further  questions  on  the 
+subject. 
+
+The   above  mail  has  been  reproduced  without   the   specific 
+pewrmission  of the sender, however I believe that since the  mail 
+was sent to me with no request for confidentiality I am within  my 
+rights to display my person mail. 
+
+The information imparted is I believe in the PUBLIC DOMAIN, I  did 
+not invent or discover it myself.
+
+I  have  used  methods SIMILAR to the above to  acheive  the  same 
+result.
+
+  -- 
+Best Regards
+
+Lester
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: 2.6
+
+mQBtAy+JizYAAAEDAN/jsyzLJII0xrHWRIjC62ty5MwQKv0j8MBTRZaVJZEZPayJ
+d8Tg3MKoQk/GBVL5bGoMF2n50rAxLGKTefCWmm3IoiytANbo+Tap7msQN2QkXfPW
+cnUbB2DcbjaJdOqOwQAFEbQjbGVzdGVyIDxsZXN0ZXJAYmFubm9sZC5kZW1vbi5j
+by51az4==uUvE
+-----END PGP PUBLIC KEY BLOCK-----
+</PRE>
+<HR>
+<H3>
+<UL>
+</UL>
+<H3><B><I>Copyright (c) 1995 Hack Watch News </I></b></H3>
+</BODY>
+<HTML>
+

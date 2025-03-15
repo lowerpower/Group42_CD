@@ -1,0 +1,111 @@
+                         NELLIS AIR FORCE BASE RED FLAG 
+                               LAS VEGAS, NEVADA 
+                               FREQUENCY LISTING
+
+VHF       UHF      SERVICE             UHF      SERVICE
+-------------------------------------------------------------------------------
+121.800   275.8    GROUND CONTROL          269.0   TACTICAL
+126.650   297.5    APPROACH CONTROL        259.4   RANGE CONTROL (BULLS EYE)
+123.100   372.2    GROUND CLEARENCE        321.1   EMERGENCY (BUTTON TEN)
+120.900   289.4    CLEARENCE DELIVERY      255.4   TACTICAL INTER-COM
+126.200   324.3    NELLIS TOWER            259.4   AIR REFUELING
+134.100   353.6    DEPARTURE               279.6   TACTICAL
+124.950   279.7    APPROACH                377.8   RANGE CONTROL (BLACKJACK)
+          343.0    TACTICAL CONTROL        349.5   TACTICAL
+          253.4    TACTICAL CONTROL        293.5   RANGE CONTROL (ROLLETTE)
+          392.1    TACTICAL CONTROL        377.7   TACTICAL
+          303.2    BUTTON TWO              277.8   TACTICAL
+134.100   385.5    GCA                     236.7   TACTICAL
+          292.4    TACTICAL INTERCOM       260.1   TACTICAL
+          361.6    AIR REFUELING           264.6   TACTICAL
+          338.7    TACTICAL CONTROL        266.6   TACTICAL
+          336.1    AIR REFUELING           268.0   TACTICAL
+          344.0    RANGE CONT (CHALICE)    271.6   TACTICAL
+          361.5    TACTICAL OPERATION      274.8   TAC AIR TO GROUND EMERGENCY
+          243.9    RANGE CONTROL(BARON)    282.8   TACTICAL TOWER EMERGENCY
+          357.1    TACTICAL                288.6   TACTICAL
+          234.8    TACTICAL                289.6   TACTICAL
+          276.4    TACTICAL                290.6   TACTICAL
+          327.3    TACTICAL                304.9   TACTICAL
+          268.2    RANGE CONT (BARNYARD)   308.6   TACTICAL
+          228.8    TACTICAL                313.9   TACTICAL
+          243.9    TACTICAL                315.2   TACTICAL
+          238.8    RANGE CONT (LONG SHOT)  326.2   TAC TOWER SECONDARY
+          342.1    TACTICAL                377.7   TACTICAL
+          257.1    TAC (BROWN 2) INTERCOM  397.2   TACTICAL
+          361.5    TACTICAL                392.9   RANGE CONT (ROAR) BUTTON 9
+          289.3    TACTICAL                288.8   TACTICAL
+          283.0    TACTICAL                297.7   TACTICAL
+          287.6    TACTICAL                278.2   TACTICAL
+          389.1    RANGE CONTROL (JEDI)    275.2   TACTICAL
+          344.6    NELLIS METRO            321.6   TACTICAL
+          290.8    TACTICAL                320.0   TAC COMMAND POST
+          295.2    TACTICAL                381.3   TAC COMMAND POST
+          296.1    TACTICAL
+
+
+
+
+
+
+
+
+
+
+
+                          NELLIS AIR FORCE BASE RED FLAG
+                                LAS VEGAS,NEVADA
+                              AIRCRAFT CODE NAMES
+
+-------------------------------------------------------------------------------
+ACTION  NELLIS SAR       HARM  F-4                 TAG F-15 EAGLE'S
+ANCHOR  C-130 TANKERS    HI-TEST  F-5 AGGRESSORS   TEAGRAY  A-7 RESERVE SQD
+ANGEL  F-4               HIT-MAN F-15 STRIKE EAGLE TOY  F-4
+ANGRY  F-15 EAGLE        HOG  A-10                 TRAIN  BRITISH TORNADO
+ARCO  F-4                HORNET F-18               VAPOR  F-16 474th TFW
+ARKIE  F-4               HOSS  A-10                VEGAS A-10
+ARSON  F-111             IVAN  F-5 AGGRESSORS      VIPOR  F-16 474th TFW
+ATRI  F-15 STRIKE EAGLE  JESTER  F-15 EAGLE        WEDGIE C-130 TANKERS
+BAND-SAW  KC-135 TANKERS KENO  F-4                 WOLF  F-15 STRIKE EAGLES
+BANK  F-16 474th TFW     KEY  A-10                 WOODY  BRITISH TORNADO
+BARON F-5 AGGRESSORS     KIWI                      YUKON  F-16 474th TFW
+BASE  F-111              KLANG  F-4                ZACK  F-16 474th TFW
+BEAU A2 & A3 AWAC SPEC   KNIGHT  F-4               ZIRBA  F-18
+BLEED  F-4               KODIAK  F-4
+BOAR  A-10               KONG  F-5 AGRESSORS
+BRAMA  A-7 RESERVE SQD   KONG  C-130 TANKERS
+BRAVO  OV-1D BRITISH     LENIX  A-10
+BRAVO  F-111             LIFE GUARD   NELLIS SAR   RANGE CONTROL CENTERS
+BRONKO  OV-1D BRITISH    LIMEY  BRITISH TORNADO    
+BUBBA  F-111             LYRE  F-5 AGRESSORS       BULLS EYE        259.4 
+CAJHON  F-15 EAGLES      MANNA  F-111              BLACK JACK       277.8
+CAMIND  A-7 RESERVE SQD  Mc COY  F-16 474th TFW    BARN YARD        268.2
+CANNON  A-10             MIG  F-5 AGGRESSORS       BOAR             392.9
+CASA  F-16 474th TFW     OCTANE  F-15 EAGLES       CHALACE          344.0
+CASINO  F-16 474th TFW   PACOS  F-4                JEDI             389.1
+CAT  F-16 474th TFW      PHAZE  F-111              LONG SHOT        238.8
+CHAPS  A-7 RESERVE SQD   PHAZER  F-15 STRIKE EAGLE 
+CHECK  A-7 RESERVE SQD   PLEED  F-5 AGRESSORS
+CHEVY  F-4               RAM  F-16 474th TFW
+CHILLY  F-5 AGRESSORS    RAMBO  F-16 474th TFW
+COBRA  F-16 474th TFW    RANCH  F-4
+CONAN  F-15 EAGLES       READY  F-16 474th TFW
+CONDOR  F-18             RINGO  F-15 EAGLES
+COOP  F-5 AGRESSORS      ROTO  NELLIS SAR
+COWBOY  F-16 474th TFW   SANKE  F-16 474th TFW
+CYLON  F-111             SATAN  F-18
+DJ  F-15 EAGLES          SAVE  NELLIS SAR
+DART  F-18               SCUBA  F-4
+DIAMOND  A-7 AGRESSORS   SHIFT  F-5 AGRESSORS
+DOG  F-4                 SNAIL  C-130 TANKERS
+DRAG  F-18               SNOOP  AC-135 AWAC
+DRAGON  F-16 474th TFW   SOD  F-4
+DRAKO  A-10              SPEEDY  F-111
+E-RAY  F-15 STRIKE EAGLE SPIDER  F-4
+EPIC  F-16 474th TFW     SPY  F-4
+FLAG  F-15 EAGLES        STACK  F-111
+FOCAS  F-4               STRING  NELLIS SAR
+FORCE  F-4               SUM-DOG  F-16 474th TFW
+GAMBLE  F-15 STRIKE EAGLE
+GATES  F-16 474th TFW
+GESTE A2 & A3 AWAC SPEC

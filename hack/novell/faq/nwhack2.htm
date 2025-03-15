@@ -1,0 +1,290 @@
+<HTML>
+
+<HEAD>
+
+<TITLE>Hacking Netware - Other Security Items</TITLE>
+
+<META NAME="AUTHOR" CONTENT="Al Payne">
+</HEAD>
+
+<BODY>
+
+<H4>Section 02 - Other Security Items</H4>
+
+<P>
+<A HREF="#section_02_1">02-1. What is Accounting?</A> 
+
+<P>
+<A HREF="#section_02_2">02-2. How do I defeat Accounting?</A>
+
+<P>
+<A HREF="#section_02_3">02-3. What is Intruder Detection?</A>
+
+<P>
+<A HREF="#section_02_4">02-4. What are station/time restrictions?</A>
+
+<P>
+<A HREF="#section_02_5">02-5. How do I spoof my node or IP address?</A>
+
+<P>
+<A HREF="#section_02_6">02-6. How do I defeat console logging?</A>
+
+<P>
+<A HREF="#section_02_7">02-7. How does password encryption work?</A>
+
+<P>
+<A HREF="#section_02_8">02-8. Can I set the RCONSOLE password to work for just Supervisor?</A>
+
+<P>
+<A HREF="#section_02_9">02-9. Can access to .NCF files help me?</A>
+<HR>
+<P>
+Section 02
+<H1>Other Security Items</H1>
+
+<H3><A NAME="section_02_1"></A>02-1. What is Accounting?</H3>
+
+<P>
+Accounting is Novell's pain in the butt way to control and manage
+access to the server in a way that is &quot;accountable&quot;.
+The admin set up charge rates for blocks read and written, service
+requests, connect time, and disk storage. The account &quot;pays&quot;
+for the service by being given some number, and the accounting
+server deduces for these items. How the account actually pays
+for these items (departmental billing, cash, whatever) you may
+or may not want to know about, but the fact that it could be installed
+could leave a footprint that you've been there.
+<P>
+Any valid account, including non-supe accounts, can check to see
+if Accounting is turned on. Simply run SYSCON and try to access
+Accounting, if you get a message that Accounting is not installed,
+then guess what? Since it is a pain to administer, many sys admins
+will turn it on simply to time-stamp each login and logout, track
+intruders, and include the node address and account name of each
+of these items.
+<H3><A NAME="section_02_2"></A>02-2. How do I defeat Accounting?
+</H3>
+
+<P>
+Turn it off. And spoof your node address. Here's the steps -
+<UL>
+<LI>Spoof your address (see below). Use a supe account's typical
+node address as your own.
+<LI>If you are using a backdoor, activate it with SUPER.EXE.
+<LI>Delete Accounting by running SYSCON, selecting Accounting,
+Accounting
+</UL>
+
+<P>
+Servers, hitting the delete key, and answering yes when asked
+if you wish to delete accounting. The last entry in the NET$ACCT.DAT
+file will be your login time-stamped with the spoofed node address.
+<UL>
+<LI>Now do what you will in the system. Use a different account
+if you like, it won't show up in the log file.
+<LI>When done, login with the original account, run SYSCON and
+re-install Accounting. Immediately logout, and the next line in
+the NET$ACCT.DAT file will be your logout, showing a login and
+logout with the same account name, nice and neat.
+</UL>
+
+<P>
+If you can't spoof the address (some LAN cards don't allow it
+or require extra drivers you may not have), just turn off Accounting
+and leave it off or delete the NET$ACCT.DAT file located in the
+SYS:SYSTEM directory.
+<P>
+It should be noted that to turn off and on Accounting you need
+supe equivalent, but you don't need supe equivalence to spoof
+the address.
+<H3><A NAME="section_02_3"></A>02-3. What is Intruder Detection?
+</H3>
+
+<P>
+Intruder Detection is Novell's way of tracking invalid password
+attempts. While this feature is turned off by default, most sites
+practicing any type of security will at minimum turn this feature
+on. There are several parameters to Intruder Detection. First,
+there is a setting for how long the server will remember a bad
+password attempt. Typically this is set to 30 minutes, but can
+be as short as 10 minutes of as long as 7 days. Then there is
+a setting for how many attempts will lockout the account. This
+is usually 3 attempts, but can be as short as 1 or as many as
+7. Finally is the length the account is locked out. The default
+is 30 minutes but it can range from 10 minutes to 7 days.
+<P>
+When an Intruder Detection occurs, the server beeps and a time-stamped
+message is displayed on the System Console with the account name
+that is now locked out and the node address from where to attempt
+came from. This is also written to the File Server Error Log.
+A Supervisor or equivalent can unlock the account before it frees
+itself up, and the File Server Error Log can also be erased by
+a Supervisor or equivalent.
+<P>
+In a large shop, it is not unusual to see Intruder Lockouts even
+on a daily basis, and forgetting a password is a typical regular-user
+thing to do. Intruder Lockouts on Supervisor or equivalent account
+is usually noticed.
+<H3><A NAME="section_02_4"></A>02-4. What are station/time restrictions?
+</H3>
+
+<P>
+Time restrictions can be placed on an account to limit the times
+in which an account can be logged in. In the account is already
+logged in and the time changes to a restricted time, the account
+is logged out. The restriction can be per weekday down to the
+half hour. That means that if an admin wants to restrict an account
+from logging in except on Monday through Friday from 8-5, it can
+be done. Only Supervisor and equivalents can alter time restrictions.
+Altering the time at the workstation will not get you around time
+restrictions, only altering time at the server can change the
+ability to access.
+<P>
+Station restriction place a restriction on <I>where</I> an account
+can be used.
+<P>
+Restrictions can be to a specific token ring or ethernet segment,
+and can be specific down to the MAC layer address, or node address.
+The only way around a station restriction at the node address
+is to spoof the address from a workstation on the same segment
+or ring as the address you are spoofing. Like time restrictions,
+only Supervisor and equivalents can alter station restrictions.
+<H3><A NAME="section_02_5"></A>02-5. How do I spoof my node or
+IP address?</H3>
+
+<P>
+This will depend greatly on what kind of network interface card
+(NIC) the workstation has, as to whether you can perform this
+function. Typically you can do it in the Link Driver section of
+the NET.CFG file by adding the following line - NODE ADDRESS xxxxxxxxxxxx
+where xxxxxxxxxxxx is the 12 digit MAC layer address. This assumes
+you are using Netware's ODI drivers, if you are using NDIS drivers
+you will have to add the line to a PROTOCOL.INI or IBMENII.NIF
+file, which usually has the lines already in it.
+<P>
+For an IP address, you may have to run a TCPIP config program
+to make it work (it depends on whose IP stack you are running).
+Some implementations will have the mask, the default router and
+the IP address in the NET.CFG, some in the TCPIP.CFG. It is a
+good idea to look around in all network-related subdirectories
+to see if there are any .CFG, .INI, or .NIF files that may contain
+addresses.
+<P>
+Getting the target node address should be pretty easy. Login with
+any account and do a USERLIST /A. This will list all accounts
+currently logged in with their network and node address. If your
+workstation is on the same network as the target, you can spoof
+the address no problem. Actually you can spoof the address regardless
+but to defeat station restrictions you must be on the same network.
+<H3><A NAME="section_02_6"></A>02-6. How do I defeat console logging?
+</H3>
+
+<P>
+Here you need console and Supervisor access. The site is running
+3.11 or higher and running the CONLOG.NLM. Any site running this
+is trapping all console messages to a file. If you run SETPWD
+at the console, the response by SETPWD is written to a log file.
+Here's the steps for determining if it is running and what to
+do to defeat it:
+<UL>
+<LI>Type <TT>MODULES</TT> at the console. Look for the CONLOG.NLM.
+If it's there, it's running.
+<LI>Look on the server in SYS:ETC for a file called CONSOLE.LOG.
+This is a plain text file that you can type out. However you cannot
+delete or edit it while CONLOG is running.
+<LI>Unload CONLOG at the console.
+<LI>Delete, or even better yet, edit the CONSOLE.LOG file, erasing
+your tracks.
+<LI>Reload CONLOG. It will show that is has been restarted in
+the log.
+<LI>Check the CONSOLE.LOG file to ensure the owner has not changed.
+<LI>Run <TT>PURGE</TT> in the SYS:ETC directory to purge old versions
+of CONSOLE.LOG that your editor have left to be salvaged.
+</UL>
+<P>
+<H3><A NAME="section_02_7"></A>02-7. How does password encryption work?</H3>
+
+<CENTER>- From itsme -</CENTER>
+
+the password encryption works as follows:
+<OL TYPE=1, 2, 3, ...>
+<LH></LH><LI> the workstation requests a session key from the server (NCP-17-17)
+<LI>the server sends a unique 8 byte key to the workstation
+<LI>the workstation encrypts the password with the userid,
+  - this 16 byte value is what is stored in the bindery on the server
+<LI>the WS then encrypts this 16 byte value with the 8 byte session key
+resulting in 8 bytes, which it sends to the server
+(NCP-17-18 = login), (NCP-17-4a = verify pw) (NCP-17-4b = change pw)
+<LI>the server performs the same encryption, and compares its own result
+with that sent by the WS
+</OL>
+
+the information contained in the net$*.old files which can be found
+in the system directory after bindfix was run, is enough to login
+to the server as any object. just skip step 3
+
+<H3><A NAME="section_02_8"></A>02-8. Can I set the RCONSOLE password to work for just Supervisor?</H3>
+
+Yes and no. In version 3.x, the Supe password always works.<P>
+
+A common mistake regarding 3.x RCONSOLE passwords is to use a switch to use
+only the Supervisor password. It works like this:<P>
+
+<TT>LOAD REMOTE /P=</TT>  , instead of <BR>
+ <TT> LOAD REMOTE RCONPASSWORD</TT><P>
+
+
+The admin believes /P= turns off everything except the Supe password for
+RCONSOLE.   In fact the password is just set to /P= which will get you in!
+The second most common mistake is using -S.<P>
+
+Version 4.1 is a bit different. Here's how it works:<P>
+
+<UL>
+<LI>At the console prompt, type LOAD REMOTE SECRET where SECRET is the Remote Console password.
+<LI>Now type REMOTE ENCRYPT. You will be prompted for a password to encrypt.
+<LI>This will give you the encrypted version of the password, and give you the option of writing LDREMOTE.NCF to the SYS:SYSTEM directory, containing all 
+the entries for loading Remote Console support.
+</UL>
+<P>
+You can call LDREMOTE from your AUTOEXEC.NCF, or you can change the
+LOAD REMOTE line in the AUTOEXEC.NCF as follows:<P>
+
+<TT>LOAD REMOTE SECRET</TT>        ; becomes<BR>
+
+<TT>LOAD REMOTE -E 870B7E366363</TT><P>
+
+<H3><A NAME="section_02_9"></A>02-9. Can access to .NCF files help me?</H3>
+
+Access to any .NCF file can bypass security, as these files are traditionally
+run from the console and assume the security access of the console. The
+addition of a few lines to any .NCF file can get you access to that system.<P>
+
+The most vulnerable file would be the AUTOEXEC.NCF file. Adding a couple of
+lines to run BURGLAR.NLM or SETPWD.NLM would certainly get you access. But
+remember there are other .NCF files that can be used and exploited. For
+example, ASTART.NCF and ASTOP.NCF are used to start and stop Arcserve, the
+most popular backup system for Netware. The LDREMOTE.NCF as mentioned in
+section 02-8 is another potential target.<P>
+
+The lines you might add to such a file might be as follows:<P>
+<TT>
+UNLOAD CONLOG<BR>
+LOAD SETPWD SUPERVISOR SECRET<BR>
+CLS<BR>
+LOAD CONLOG
+</TT><P>
+This assumes you had read/write access to the location of the .NCF file
+and can copy SETPWD.NLM to the server. Note that by unloading CONLOG you 
+are only partially covering your tracks, in the CONSOLE.LOG file it will
+be obvious that CONLOG was unloaded and reloaded. The CLS is to keep your
+activities off of the server's screen.<P>
+
+The best .NCF for this is obviously one that is either used during the
+server's boot process or during some automated process. This way a short
+.NCF and its activities may escape the eyes of an admin during execution.<P>
+
+
+</BODY>
+
+</HTML>

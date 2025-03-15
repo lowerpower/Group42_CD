@@ -1,0 +1,5 @@
+CRACK> DUCKTALES By Disney Software
+File         : ducktale.exe
+Search for   : 803F007503E9F700 
+Replace with : --------00------
+# 11 22

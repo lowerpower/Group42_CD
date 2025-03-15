@@ -1,0 +1,35 @@
+ 
+FREQ       SERVICE                      FREQ        SERVICE
+2182       Intl Calling/Emergency       2716        US Navy Harbor
+3023       US Navy Tactical             3130        US Navy Tactical
+4517       USAF MARS                    4593        USAF MARS
+4727       SAC (channel Victor)         5703        USAF TAC air
+6683       Andrews AFB (Mystic Star)    6697        US Navy Tactical
+6705       USAF Air/Ground channel      6723        US Navy (raspberry ch)
+6738       USAF Air/ground channel      6750        USAF Air/Ground channel
+6761       USAF SAC                     6927        Andrews AFB (Mystic Star)
+8972       US Navy (Atlantic)           8989        USAF Air/Flight channel
+8993       USAF Air/Ground channel      9014        USAF Air/Ground channel
+9027       USAF SAC Air/Ground          11176       USAF Air/Ground channel
+11200      RAF (flight wx)              11214       USAF (Norad)
+11228      USAF Air/Ground channel      11234       RAF Air/Ground channel
+11243      USAF SAC Air/Ground          11246       USAF Air/Ground channel
+11267      US Navy HICOM                11494       USAF SAC Air/Ground
+12047.5    US Navy Mars                 13181       US Navy HICOM
+13201      USAF Air/Ground channel      13214       USAF Air/Ground channel
+13241      USAF SAC Air/Ground          13244       USAF Air/Ground channel
+13247      USAF Tactical Air/Ground     13826       US Navy MARS
+13974      US Navy MARS                 14441.5     US Navy MARS
+14470      US Navy MARS                 15015*      USAF Air/Ground channel
+15035      Canadian Military Wx         15041       USAF SAC Air/Ground
+17975      USAF SAC Air/Ground          18002       USAF Air/Ground channel
+18019      USAF Air/Ground channel      18027       Canadian Forces channel
+20631      USAF SAC Air/Ground          23220       USAF Flight WX
+23337      USAF SAC Air/Ground
+ 
+*very active daytime enroute frequency with Army Transports
+ 
+Well that is it! Again the transmissions may be short, few and far between,
+but with patience you should be able to hear SOME of the action as it 
+happens.
+

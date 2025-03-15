@@ -1,0 +1,215 @@
+Archive-name: privacy/email
+Last-modifed: 95/2/25
+Distribution-agent: ldetweil@csn.org
+
+
+(This document has been brought to you in part by CRAM. See the 
+bottom for more information, including instructions on how to
+obtain updates.)
+
+===
+
+
+-----BEGIN PGP SIGNED MESSAGE-----
+ 
+     *** Frequently Asked Questions About E-Mail Privacy ***
+                               by
+                    Andre Bacard, Author of>
+                  THE COMPUTER PRIVACY HANDBOOK
+                   [Version February 25, 1995]
+ 
+  ============================================================
+     This article offers a nontechnical overview of possible
+     threats to YOUR e-mail privacy, and it suggest two key
+     steps that you can take to guard your privacy. I have
+     written this especially for persons with a sense of
+     humor. You may distribute this (unaltered) FAQ for non-
+     commercial purposes.
+   ===========================================================
+ 
+Can people (secretly) read your e-mail?
+ 
+     Very likely yes. Most electronic mail is notoriously
+     UNPRIVATE. E-mail is less secure, and in many ways more
+     dangerous, than sending your personal or business
+     messages on a postcard.
+ 
+Who secretly reads your e-mail?
+ 
+     A MACWORLD survey found that roughly 25% of the
+     businesses contacted admitted that they eavesdrop on
+     employee computer files, e-mail, or voice mail. This 25%
+     excludes unauthorized e-mail monitoring. When I asked a
+     Silicon Valley C.E.O. if he uses e-mail, he said: "Hell
+     no, Andre. Half the nerds in my company can hack e-mail.
+     E-mail is a party line!"
+ 
+     Internet e-mail, the kind that brought you this FAQ, is
+     child's play for some people to intercept. Your typical
+     e-mail message travels through many computers. At each
+     computer, people can access your personal and business
+     correspondence.
+ 
+     It's a safe bet that administrators (not to mention
+     hackers) on Bulletin Board Systems, college campus
+     systems, commercial information services, and Internet
+     hook-up providers can read your e-mail. Of course most
+     snoops will deny they're reading your e-mail because they
+     want to continue doing so.
+ 
+Doesn't my password protect me?
+ 
+     Charles Piller, in his excellent article entitled "Bosses
+     With X-Ray Eyes," reports on a study MACWORLD made of
+     Macintosh software. Here is part of Piller's conclusion:
+ 
+     "All the major electronic-mail and groupware products
+     that combine messaging, file management, and scheduling
+     (such as WordPerfect Office) allow the network
+     administrator to change passwords at any time, then read,
+     delete, or alter any messages on the server. With few
+     exceptions, network-monitor programs such as AG Group's
+     LocalPeek, Farallon Computing's Traffic Watch II, and
+     Neon Software's NetMinder, allow astute managers to read
+     files transmitted over the net. In short, these tools are
+     only slightly less invasive than others specifically
+     designed for surveillance and used primarily on mainframe
+     systems."
+ 
+     Unix, Dos and other software networks are just as easy
+     for administrators to manipulate. Who is to stop your
+     Internet hook-up provider or any network supervisor from
+     using or distributing your password? 
+ 
+What motivates a snoop?
+ 
+     Maybe he's a thief who sells company business plans or
+     customer lists. Perhaps she's the office intriguer trying
+     to play people against you. Possibly he's a computer
+     stalker like the fellow who shot actress Rebecca Schaffer
+     to death. Conceivably she's a blackmailer. Maybe he's an
+     old-fashioned voyeur. Information is power. Snoops want
+     power.
+ 
+Whatsamatter, I've got nothing to hide. Why do I need e-mail
+privacy?
+ 
+     Show me an e-mail user who has no financial, sexual,
+     social, political, or professional secrets to keep from
+     his family, his  neighbors, or his colleagues, and I'll
+     show you someone who is either an extraordinary
+     exhibitionist or an incredible dullard. Show me a
+     corporation that has no trade secrets or confidential
+     records, and I'll show you a business that is not very
+     successful.
+ 
+     Robert Ellis Smith, Publisher of the PRIVACY JOURNAL,
+     quips, "An employee with nothing to hide may well be an
+     employee with nothing to offer."
+ 
+     Privacy, discretion, confidentiality, and prudence are
+     hallmarks of civilization.
+ 
+OK, maybe I could use e-mail privacy. What can I do?
+ 
+     There are two big, practical steps that you can take.
+     First, use PGP (Pretty Good Privacy) software to encrypt
+     your e-mail (and computer files) so that snoops cannot
+     read them. PGP is the de facto world standard software
+     for e-mail security. Second, use anonymous remailers to
+     send e-mail to network news groups or to persons so that
+     the recipient (and snoops) cannot tell your real name or
+     e-mail address.
+ 
+Where can I learn more about these privacy tools?
+ 
+     Two excellent places to start are the Usenet news groups
+     alt.security.pgp and alt.privacy.anon-server.
+ 
+     Also, I've written two FAQs, one about Pretty Good
+     Privacy and the other about Anonymous Remailers. To
+     receive them, write:
+ 
+     To: abacard@well.com
+     Subject: Send PGP & Remailer FAQs
+     Message: [ignored]
+ 
+     [Almost everyone who writes me wants both FAQs. Thus, I
+     send them together. If I'm out of town, I'll e-mail you
+     when I return.]
+ 
+Anything else I should know?
+ 
+     YOUR privacy and safety are in danger! The black market
+     price for your IRS records is $500. YOUR medical records
+     are even cheaper. Prolific bank, credit and medical
+     databases, the Clipper Chip Initiative, computer matching
+     programs, cordless & cellular phone scanners, Digital
+     Telephony legislation, and (hidden) video surveillance
+     are just a few factors that threaten every law abiding
+     citizen. Our anti-privacy society gives criminals and
+     snoops computer data about YOU on a silver platter.
+ 
+     If you want to protect your privacy, I urge you to join
+     organizations such as the Electronic Frontier Foundation
+     <membership@eff.org>.
+ 
+***************************************************************
+                           Bacard wrote "The Computer Privacy
+    "Privacy permits you   Handbook: A Practical Guide to E-Mail
+     to be yourself."      Encryption, Data Protection, and PGP
+                           Privacy Software" [for novices/experts].
+ 
+Introduction by Mitchell Kapor, Co-Founder of Electronic Frontier
+Foundation and Creator of Lotus 1-23.
+ 
+          Book Available Spring 1995. Write for Details
+ 
+[Bacard has been interviewed on hundreds of radio-talk shows about
+his previous book ("Hunger for Power"), technology, and society.]
+*****************************************************************
+ 
+ 
+ 
+-----BEGIN PGP SIGNATURE-----
+Version: 2.7
+ 
+iQCVAwUBL1ZcRN6pT6nCx/9/AQGU7QQAhvQQhnSUvqY/ZiDrw8r5PaIPrM4LgfVi
+MqUDk1hb+N4FHm1pN2xC1+9f2rHVcXDpaUWfnGnlCnrA104stJSsBKo3JinoCEpB
+J5d/MQ5L59vv84aoiOkRZC3hkT2X0oXkNRWfl1OgbWBz27c96jZgpn1V6tc0rYGs
+eEI88I+7PJI=
+=udUt
+-----END PGP SIGNATURE-----
+
+===
+DISTRIBUTION: How to obtain this document
+
+This document has been brought to you in part by CRAM, involved in the
+redistribution of valuable information to a wider USENET audience (see
+below). The most recent version of this document can be obtained via
+the author's instructions above. The following directions apply to 
+retrieve the possibly less-current USENET FAQ version.
+
+  FTP
+  ---
+    This FAQ is available from the standard FAQ server rtfm.mit.edu via
+    FTP in the file /pub/usenet/news.answers
+
+  Email
+  -----
+    Email requests for FAQs go to mail-server@rtfm.mit.edu with commands
+    on lines in the message body, e.g. `help' and `index'.
+
+  Usenet
+  ------
+    This FAQ is posted every 21 days to the groups
+
+      alt.security.pgp
+      talk.politics.crypto
+      alt.privacy
+      comp.society.privacy
+      comp.privacy
+      alt.answers
+      comp.answers
+      news.answers
+

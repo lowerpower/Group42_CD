@@ -1,0 +1,17 @@
+Crack> BattleChess -VGA- (supposedly works on Bchess II as well) 
+ 
+crack was written by The Flash 
+ 
+PART 1. 
+EDITOR: PCshell/Norton 
+FILE TO SEARCH: CHESS.EXE 
+SEARCH STRING: EB FE C4 5E 
+CHANGE:  EB FE 
+TO:  90 90 
+ 
+PART 2. 
+EDITOR: PCshell/Norton 
+FILE TO SEARCH: CHESS.EXE 
+SEARCH STRING: 3D 02 00 7D 
+CHANGE:  02 
+TO:  00 

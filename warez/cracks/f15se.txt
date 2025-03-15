@@ -1,0 +1,18 @@
+Crack> F15 STRIKE EAGLE II By Microprose
+crack written by anonymous
+
+Either
+
+File         : f15.com
+Search For   : A73D9044AA96F09D
+Replace With : A73D4BC14844F06D
+                   --------  --
+or
+
+File         : f15.com
+Search For   : AB7BF32FB07321FA
+Replace With : ABFEF3FD6B73C3FA
+                 --  ----  --
+
+Notes : Disables the key disk protection
+        Does not work properly for Version 451.02

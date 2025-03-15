@@ -1,0 +1,38 @@
+               FUJITSU 362 (COMMANDER) and 362A (COMMANDER II)
+
+                NAM Type:  Fujitsu
+            Manufacturer:  Fujitsu
+              Programmer:  Curtis or Bytek
+          ESN Prefix DEC:  133
+                     HEX:  85
+ ESN, S/N Match Required:  Yes
+    Programmable Handset:  No
+      Available Channels:  666
+
+     Phone Number Format:  XXX-XXX-XXXX
+        Lock Code Format:  XXX or XXXX
+        System ID Format:  XXXX
+
+       Horn Alert Option:  1
+        Handsfree Option:  0 (Enabled from handset)
+   End-to-End Signalling:  1
+        Repertory Option:  1
+
+         Group ID Format:  XX
+   Access Overload Class:  XX
+           Station Class:  0000
+
+        Local Use Option:  1
+              MIN Option:  1
+
+  Initial Paging Channel:  333 or 334
+        Preferred System:  1 (A) or 0 (B)
+
+              Horn Alert:  F + # (Aux)
+         New Unlock Code:  NAM
+           System Select:  F + 1 + X
+                            X=1 (A then B)
+                            X=2 (B then A)
+                            X=3 (A Only)
+                            X=4 (B Only)
+                            X=5 (home)

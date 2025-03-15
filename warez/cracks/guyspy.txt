@@ -1,0 +1,14 @@
+GuySpy Crack (the working version!)
+-----------------------------------
+Produced by the CedMan!
+
+This one was the easiest!
+
+File: guyspy.exe
+
+Search for: 3B 06 A7 37 74 06
+Change: 74 06 to 75 06
+
+When prompted for the code... just press enter!
+
+

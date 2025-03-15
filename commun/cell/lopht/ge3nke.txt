@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+                                 GE STAR
+-------------------------------------------------------------------------------
+                NAM Type:  Tri-State
+            Manufacturer:  GE
+              Programmer:  Motorola - Celnum or Curtis
+          ESN Prefix DEC:  146
+                     HEX:  92
+ ESN, S/N Match Required:  Yes
+    Programmable Handset:  No
+      Available Channels:  666
+
+     Phone Number Format:  XXX-XXX-XXXX
+        Lock Code Format:  XXX
+              MIN Option:  Enabled
+        Repertory Option:  Enabled
+        Handsfree Option:  Enabled or Disabled
+        Local Use Option:  Enabled
+   End-to-End Signalling:  Enabled
+       Horn Alert Option:  Enabled
+        System ID Format:  XXXXX
+        Preferred System:  A or B
+   Access Overload Class:  XX
+         Group ID Format:  XX
+  Initial Paging Channel:  333 or 334
+           Station Class:  00
+
+    Manufacturer Options:
+        Hex Address     B7           B0
+            13          0 1 0 1 0 0 0 0
+            14          1 1 0 0 0 0 0 0
+     Description Options:
+            Adress 13 - B6 External Repertory memory
+                        B4 DTMF Format
+            Adress 14 - B7 Clock
+                        B6 Call timer
+
+              Horn Alert:  Press and hold END key. While holding
+                            END key, depress 9. This feature does
+                            not cancel when ignition is turned on.
+         New Unlock code:  NAM
+           System Select:  Press and hold END key. While holding
+                            END key, depress 4. Use volume rocker
+                            button to step through selections.
+                                  0:  Pref then non-pref
+                                  1:  Pref only
+                                  2:  Home only
+                                  3:  Preferred Roam Only
+                                  4:  Non-Pref then Pref
+                                  5:  Non-Pref only
+
+

@@ -1,0 +1,124 @@
+
+HACKER
+
+ 1 Logon, SRU, Mapping, Mission,
+    Spies, Locations
+ 2 Satellites, Spy Requirements,
+    Running Out Of Time
+
+
+ HACKER
+ Part 1
+
+ HACKER, a graphic adventure by Activision, Inc., is a frustrating, maddening
+challenge. As with most computer games there may be several different ways to
+solve it. I played the Apple Macintosh version which may differ from other
+versions of the game. Please consider this walkthru as just one possible
+solution.
+
+
+ LOGON PLEASE: Type anything -- "Activision", "Hacker"," Help", or just hit the
+carriage return. You'll be told that you've made an error; but try again. After
+a few attempts at this, the program will state that you are being disconnected
+and a lot of garbage will appear on the screen. Don't give up; just wait! There
+will be a Security System Malfunction then...CONNECTION COMPLETE. WELCOME TO
+MAGMA, LTD. (Remember the name of the company, for you'll need to know it
+later.)
+
+ After you have learned the location of the test site, you can log on by simply
+typing in AUSTRALIA. But please don't do this to start with for you will miss a
+lot of information which you need.
+
+ SRU TEST: A drawing of 
+the Subterranean Remote Unit (SRU) will appear on the
+screen. Model # AX-0310479 available for clandistine operation. (Remember the
+model number.) You must pass a test on identifying parts of the SRU. Pay close
+attention and, unless you have a terrific memory, jot down the pertinent data
+(especially the type of motovator).
+
+ MAPPING: A gridded map of the world will appear on the screen with little
+squares indicating the location of all Magma, LTD. Information Sites in use. The
+location of your SRU will also appear as a little square. The SRU travels
+through an intricate system of underground tunnels throughout the world. You
+should map this tunnel system as accurately as possible so you will know exactly
+how to get from one location to another in the least amount of time. It's a good
+idea to jot down the number of sound effects "bleeps" from one location to
+another on the map because later in the game your Telemetry Guidance System will
+become inoperative and you will no longer be able to see the location of your
+SRU. Also, it is through mapping that you will most likely learn the location of
+the test site.
+
+ MISSION: You will learn that some spies have stolen the pieces of a shredded
+document which contains proprietary information concerning "The Magma Project."
+Your mission: Use the SRU to negotiate with the spies for the return of all the
+pieces of the document. You will begin with a standard amount of cash with which
+you must buy pieces of the document (evidence) or buy merchandise which can be
+traded for evidence. Some spies will take merchandise which other spies require
+so you must learn what each spy requires. Buy only the merchandise you need or
+you will run out of money.
+
+ NEGOTIATING WITH SPIES: When you reach an Information Site, you must surface
+and CALL the spy. CLL is the abbreviation for CALL. If it's dark in a location,
+you must first activate your Infrared vision. The abbreviation for Infrared is
+IR. After he is called, the spy will start walking toward you. You can speed
+things up by traveling east to meet him. He will converse with you in his native
+tongue. Offer either money or merchandise for his piece of the document. He will
+offer merchandise for sale; buy it only if you need it.
+
+ ORDER OF LOCATIONS: This is the order in which you should negotiate with the
+spies: (1) Switzerland, (2) Egypt, (3) Greece, (4) India, (5) New York, (6)
+Japan, (7) China, (8) Caribbean, (9) London, (10) San Francisco, and (11)
+Washington, D.C.
+
+
+ HACKER
+ Part 2
+
+ SECURITY SATELLITES: Fairly early in the game a security breach is detected and
+Security Satellites are activated. You can avoid the satellites by surfacing
+(they can't spot you above ground). However, if you are spotted by a satellite
+you must respond with the proper password or be terminated. By this time you
+have been given all the information you need to make the proper responses; but,
+in case you missed it, the passwords are as follows: Level 1 Security Check
+(Identify company name), MAGMA, LTD.; Level 2 Security Check (Identify SRU Model
+Nr.), AX-0310479; Level 3 Security Check (Identify Motovator type), HYDRAULIC;
+and Level 4 Security Check (location of test site), AUSTRALIA.
+
+ SPY REQUIREMENTS: This includes what you should give to each spy and what you
+should buy from him. (1) Switzerland: trade money for evidence; buy chronograph
+and deed to Swiss Chalet. (2) Egypt: trade chronograph for evidence; buy scarab
+and statuette of Tut. (3) Greece: trade statuette of Tut for evidence; buy
+nothing. (4) India: trade scarab for evidence; buy nothing. (5) New York: trade
+deed to Swiss Chalet for evidence; buy uncut diamond. (6) Japan: trade diamond
+for evidence; buy pearls and camera. (7) China: trade pearls for evidence; buy
+jade carving. (8) Caribbean: trade camera for evidence; buy nothing. (9) London:
+trade jade carving for evidence; buy Beatles' album. (10) San Fransisco: trade
+album for evidence; buy nothing. (11) Washington, D.C.: give all evidence to
+secret agent; reap your reward.
+
+ RUNNING OUT OF TIME: I found three things caused me to run out of time: wrong
+routing, backtracking and surfacing to avoid satellites, and getting lost. If
+you have worked out the requirements for each spy, have mapped your routes
+properly, and know the satellite passwords, you should have enough time to
+complete your mission. If you have done all this but are still running out of
+time, you should look for a shortcut. The best shortcut is a route from China to
+the Caribbean that actually (to me) looks longer but saves considerable time.
+Counting each "bleep" as a move, go south 6 from China to Australia. Then work
+your way around Australia to the lower edge of the map by going east 4, north 2,
+east 4, south 2, east 2, south 2, east 2, and south 2. Then move east 12 to the
+tip of South America. From there it's north 6 to the Caribbean.
+
+ THE ENDING: The game has a good ending with lots of praise, a newspaper
+article, and a printout for you. So stick with it and be a hero!
+
+ [Note: Since this walkthru was written, a couple of changes were made in the
+game. The order of the countries is the same, but the specific item for trading
+may differ in your version. In addition, the route from California to
+Washington, D.C. was changed for many machines, and you may need to get closer
+to the test site. The following route will work in at least two of the new
+versions: W1, S1, E10, N2, W2, S1, W3. In addition, try to time your long trip
+west from England to California so the satellite catches you after you are
+already moving.]
+
+ HACKER is published by Activision.
+

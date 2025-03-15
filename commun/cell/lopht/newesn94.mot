@@ -1,0 +1,35 @@
+CELLULAR HACKERS' INFORMATION BULLETIN #194A
+August 24, 1994
+Source: Doctor Who
+
+Subject: Motorola ESN's of 82xxxxxx and C3xxxxxx
+
+The range of the Narrow AMPS ESN's of the C3xxxxxx has been extended.
+
+Motorola has been approved by the FCC to begin shipping domestic cellular
+subscriber units with ESN's beginning with C3 in addition to the current range
+of ESN's beginning with 82. The new manufacturers code (C3) will be used on all
+products (AMPS, NAMPS, and TDMA) and will be used concurrently with the earlier
+manufacturer's code (82).
+
+The range of ESN numbers may be used to identify the type of Motorola Fone.
+
+  From               To          Type
+  ----               --          ----                   /------------------\
+8200 0000         827F FFFF     AMPS                    |  > Doctor Who <  |
+8280 0000         829F FFFF     NAMPS (Narrow AMPS)     |      $LOD$       |
+82A0 0000         82DF FFFF     AMPS                    |  (F*ck ya MOD)   |
+82E0 0000         82FF FFFF     TDMA                    |                  |
+                                                        | We live forever! |
+C300 0000         C37F FFFF     AMPS                    |                  |
+C380 0000         C3BF FFFF     NAMPS                   \------------------/
+
+[Check with your system operator to verify your cellular switch is capable of
+operating with ESN's in all of these ranges. There have been situations in the
+past where the switch software was not updated to recognize the new ESN ranges,
+and customers were unable to complete phone calls as a result.]
+
+
+-----------=?> Doctor Who <?=-----------
+
+-END

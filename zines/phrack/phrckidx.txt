@@ -1,0 +1,1065 @@
+
+ PHRACK Volume 1 Issue 1 through Volume 3 Issue 31 & PHRACK CLASSIC issue 32
+          articles indexed according to author, subject, and title.
+
+          KEY: I1 F1 = Issue 1 File 1 of Phrack   k=kilobytes long
+
+
+                                   ** A **
+
+"Accessing Government Computers" by The Sorceress. 1988. I17 F7 9k
+"Acronyms [from Metal Shop Private BBS]" 1988. I20 F11
+"Advanced BITNET Procedures" by VAXBusters International. 1989. I24 F7
+"Advanced Carding XIV" by The Disk Jockey. 1987. I15 F4 12k
+"AIS - Automatic Intercept System" by Taran King. 1987. I11 F6 15.9k
+Alpine Kracker authored "Smoke Bombs" 1986. I6 F6 2k
+Agent Steal authored "Tapping Telephone Lines" 1987. I16 F6 9k
+Amadeus submitted "Cellular Spoofing by Electronic Serial Numbers" 1987.
+   I11 F9
+
+ANARCHY
+(See also CREDIT CARDING, DRUGS, EXPLOSIVES, HACKING, LOCK PICKING, PHREAKING,
+ WEAPONS)
+   "Breaching and Clearing Obstacles" by Taran King. 1986. I4 F5
+   "Consensual Realities in Cyberspace" by Paul Saffo. 1989. I30 F8
+   "Eavesdropping" by Circle Lord. 1986. I3 F7
+   "False Identification" by Forest Ranger. 1986. I4 F3
+   "Fun With Lighters" by The Leftist. 1986. I6 F4 2k
+   "Hand to Hand Combat" by Bad Boy in Black. 1986. I5 F4
+   "Phone Bugging: Telecom's Underground Industry" by Split Decision. 1989.
+      I26 F7
+   "Social Security Number Formatting" by Shooting Shark. 1988. I19 F4 3k
+   "Tapping Telephone Lines" by Agent Steal. 1987. I16 F6 9k
+   "The Technical Revolution" by Dr. Crash. 1986. I6 F3 4k
+   "The Truth About Lie Detectors" by Razor's Edge. 1989. I30 F9
+
+"Are You a Phone Geek?" by Doom Prophet. 1987. I13 F7 9k
+"The Art of Investigation" by Butler. 1990. I32 F4
+"The Art of Junction Box Modeming" by Mad Hacker 616. 1986. I8 F5 6k
+"Automatic Number Identification" by Phantom Phreaker and Doom Prophet. 1987.
+   I10 F7 9k
+"Automatic Teller Machine Cards" by Jester Sluggo. 1990. I32 F6
+
+                                   ** B **
+
+Bad Boy in Black authored "Hand to Hand Combat" 1986. I5 F4
+
+BANK FRAUD
+   "Automatic Teller Machine Cards" by Jester Sluggo. 1990. I32 F6
+   "Bank Information" compiled by Legion of Doom!. 1989. I29 F6
+   "Fun With Automatic Tellers" by The Mentor. 1986. I8 F7 7k
+   "How We Got Rich Through Electronic Fund Transfer" by Legion of Doom!.
+      1990. I29 F7
+
+"Bank Information" compiled by Legion of Doom!. 1989. I29 F6
+"Basic Concepts of Translation" by The Dead Lord and Chief Executive Officers.
+   1989. I26 F6
+"A Beginner's Guide to the IBM VM/370" by Elric of Imrryr. 1987. I10 F4 4k
+"Bell Network Switching Systems" by Taran King. 1989. I25 F3
+"BELLCORE Information" by The Mad Phone-Man. 1987. I16 F2 11k
+"Big Brother Online" by Thumpr (Special thanks to Hatchet Molly). 1989.
+   I23 F10
+
+BITNET see WIDE AREA NETWORKS
+
+Black Knight from 713 authored "Hacking Voice Mail Systems" 1987. I11 F4 6k
+Black Tie Affair authored "Hiding Out Under Unix" 1989. I25 F6
+"Blocking of Long Distance Calls" by Jim Schmickley. 1988. I21 F8
+"Blocking of Long Distance Calls... Revisited" by Jim Schmickley. 1989. I29 F9
+"Blowguns" by The Pyro. 1985. I2 F4
+"The Blue Box and Ma Bell" by The Noid. 1989. I25 F7
+Bob Page authored "A Report on the Internet Worm" 1988. I22 F8
+"Bolt Bombs" by The Leftist. 1986. I5 F6
+"Boot Tracing" by Cheap Shades. 1985. I1 F3
+"Breaching and Clearing Obstacles" by Taran King. 1986. I4 F5
+Broadway Hacker pro-philed in 1986. I5 F2
+"Building a Shock Rod" by Circle Lord. 1986. I3 F8
+"Busy Line Verification" by Phantom Phreaker. 1987. I11 F10 10k
+"Busy Line Verification Part II" by Phantom Phreaker. 1987. I12 F8 9k
+Butler authored "The Art of Investigation" 1990. I32 F4
+
+                                   ** C **
+
+"Can You Find Out If Your Telephone is Tapped?" by Fred P. Graham and VaxCat
+   1989. I23 F9
+Cap'n Crax authored "The TMC Primer" 1987. I10 F3 6k
+Carrier Culprit authored "Hacking DEC's" 1986. I5 F3
+"Cellular Spoofing by Electronic Serial Numbers" by ?. 1985. I11 F9 submitted
+   by Amadeus
+"Cellular Telephones" by High Evolutionary. 1986. I6 F7 5k
+
+CELLULAR TELEPHONY
+   "Cellular Spoofing by Electronic Serial Numbers" by ?. 1985. I11 F9
+      submitted by Amadeus
+   "Cellular Telephones" by High Evolutionary. 1986. I6 F7 5k
+   "Mobile Telephone Communications" by Phantom Phreaker. 1986. I5 F9
+
+"Centrex Renaissance" by Jester Sluggo. 1986. I4 F7
+Cheap Shades authored
+   "Boot Tracing" 1985. I1 F3
+   Introduction/Index for I3 F1
+   "Welcome to Metal Shop Private" (co-authored) 1988. I20 F4
+Chief Executive Officers co-authored "Basic Concepts of Translation" 1989.
+   I29 F6
+Circle Lord authored
+   "Building a Shock Rod" 1986. I3 F8
+   "Eavesdropping" 1986. I3 F7
+"Circuit Switched Digital Capability" by The Executioner. 1987. I10 F5 12k
+"City-Wide Centrex" by The Executioner. 1986. I8 F3 14k
+The Clashmaster authored "How to Make Acetylene Bombs" 1985. I1 F7
+
+CODES
+   "MCI International Cards" by Knight Lightning. 1985. I1 F5
+
+"CompuServe Info" by Morgoth and Lotus. 1986. I8 F6 8k
+"Computer-Based Systems for Bell System Operation" by Taran King. 1989.
+   I20 F2
+"Computer Hackers Follow a Guttman-Like Progression" by Richard C. Hollinger
+   1988. I22 F7
+"Concerning Hackers Who Break Into Computer Systems" by Dorthy Denning. 1990.
+   I32 F3
+"The Conscience of a Hacker {Reprint}" by The Mentor. 1987. I14 F3
+"Consensual Realities in Cyberspace" by Paul Saffo. 1989. I30 F8
+"Control Office Administration of Enhanced 911 Service" by The Eavesdropper.
+   1989. I24 F6
+Control C authored
+   "Digital Multiplexing Systems (Part 2)" 1988. I19 F3 18k
+   "Inside Dialog" 1986. I9 F5 8k
+   "Loop Maintenance Operating System" 1988. I18 F8 32k
+   "TRW Business Terminology" 1987. I14 F6
+   "Understanding the Digital Multiplexing Systems (DMS)" 1987. I12 F4 19k
+   "Understanding DMS Part II" 1987. I14 F5
+"Computerists Underground News Tabloid - CUNT" by Crimson Death. 1987.
+   I13 F8 11k
+
+COSMOS
+   "COSMOS: COmputer System for Mainfrmae OperationS (Part One)" by
+      King Arthur. 1989. I26 F5
+   "COSMOS: COmputer System for Mainframe OperationS (Part Two)" by
+      King Arthur. 1989. I27 F5
+   "Cosmos Overview" by EBA. 1990. I31 F6 52k
+
+"COSMOS: COmputer System for Mainframe OperationS (Part One)" by King Arthur.
+   1989. I26 F5
+"COSMOS: COmputer System for Mainframe OperationS (Part Two)" by King Arthur.
+   1989. I27 F5
+Cosmos Kid authored "A Hacker's Guide to Primos: Part 1" 1987. I16 F3 11k
+"Cosmos Overview" by EBA. 1990. I31 F6 52k
+"Covert Paths" by Cyber Neuron Limited and Synthecide. 1989. I29 F5
+
+CRACKING (of software)
+   "Boot Tracing" by Cheap Shades. 1985. I1 F3
+
+"Crashing DEC-10's" by The Mentor. 1986. I4 F6
+
+CREDIT BUREAUS
+   "Hacking Chilton's Credimatic" by Ryche. 1986. I7 F4 8k
+   "Reading Trans-Union Credit Reports" by The Disc Jockey. 1987. I16 F7 6k
+   "TRW Business Terminology" by Control C. 1987. I14 F6
+
+"Credit Card Laws" by Tom Brokow. 1987. I16 F5 7k
+
+CREDIT CARDING
+(see also CREDIT BUREAUS)
+   "Advanced Carding XIV" by The Disk Jockey. 1987. I15 F4 12k
+   "Credit Card Laws" by Tom Brokow. 1987. I16 F5 7k
+   "The Postal Inspection Service" by Vendetta. 1989. I27 F9
+
+Crimson Death was pro-philed in 1986. I4 F1
+Crimson Death (713) authored
+   "Computerists Underground News Tabloid - CUNT" 1987. I13 F8 11k
+   Introduction/Index for I18-19,32 F1
+   "Phrack Classic Spotlight featuring Knight Lightning" 1990. I32 F2
+   "Phrack Pro-Phile on Ax Murderer" 1988. I18 F2 4k
+   "RSTS" 1990. I32 F9
+"CSDC II - Hardware Requirements" by The Executioner. 1987. I12 F6 8k
+
+CULTURE (of hacking)
+(See also Phrack World News, Phrack Pro-Phile)
+   "Acronyms [from Metal Shop Private BBS]" 1988. I20 F11
+   "Are You a Phone Geek" by Doom Prophet. 1987. I13 F7 9k
+   "Big Brother Online" by Thumpr (Special thanks to Hatchet Molly). 1989.
+      I23 F10
+   "Concerning Hackers Who Break Into Computer Systems" by Dorthy Denning.
+      1990. I32 F3
+   "Computer Hackers Follow a Guttman-Like Progression" by Richard C.
+      Hollinger. 1988. I22 F7
+   "Computerists Underground New Tabloids - CUNT" by Crimson Death. 1987.
+      I13 F8 11k
+   "The Conscience of a Hacker {Reprint}" by The Mentor. 1987. I14 F3
+   "Hacker's Manifesto" by The Mentor. 1986. I7 F3 4k
+   "The History of The Legion of Doom" 1990. I31 F5 10k
+   "How to Fuck Up the World - A Parody" by Thomas Covenant. 1987. I13 F3 10k
+   "The Judas Contract (Part 2 of the Vicious Circle Trilogy)" by Knight
+      Lightning. 1988. I22 F3
+   "The Making of a Hacker" by Framstag. 1989. I27 F7
+   "Metal/General Discussion [from Metal Shop Private BBS]" 1988. I20 F5
+   "New Users [from Metal Shop Private BBS]" 1988. I20 F9
+   "Phrack Editorial on Microbashing" by The Nightstalker. 1988. I19 F6 6k
+   "Phrack Inc./Gossip [from Metal Shop Private BBS]" 1988. I20 F6
+   "Phreak/Hack Sub [from Metal Shop Private BBS]" 1988. I20 F7
+   "Phreaks in Verse" by Sir Francis Drake. 1987. I13 F5 3k
+   "Preview to Phrack 13-The Life & Times of The Executioner" 1987. I12 F3 5k
+   "R.A.G. - Rodents are Gay" by Evil Jay. 1987. I13 F6 6k
+   "RAGS - The Best of Sexy Exy" 1987. I13 F9 19k
+   "The Royal Court [from Metal Shop Private BBS]" 1988. I20 F10
+   "Scan Man's Rebuttal to Phrack World News" by Scan Man. 1987. I12 F9 17k
+   "Shadows of a Future Past (Part 1 of the Vicious Circle Trilogy)" by
+      Knight Lightning. 1988. I21 F3
+   "Social Engineering [from Metal Shop Private BBS]" 1988. I20 F8
+   "Subdivisions (Part 3 of The Vicious Circle Trilogy)" by Knight Lightning
+      1989. I23 F3
+   "Timeline Featuring Taran King, Knight Lightning, Cheap Shades" 1988.
+      I20 F3
+   "A Trip to the NCSC" by Knight Lightning. 1990. I32 F7
+   "Welcome to Metal Shop Private" by Taran King, Knight Lightning, and Cheap
+      Shades. 1988. I20 F4
+
+Cyber Neuron Limited co-authored "Covert Paths" 1989. I29 F5
+
+                                   ** D **
+
+Dark Overlord authored
+   "Sending Fakemail in Unix" 1989. I27 F8
+   "Snarfing Remote Files" 1989. I28 F6
+   "Unix Cracking Tips" 1989. I25 F5
+Data Line authored
+   "Hacking RSTS". 1985. I2 F8
+   "Ring Back Codes for the 314 NPA" 1985. I4 F2
+   "Signalling Systems Around the World" 1986. I3 F4
+"Data Tapping Made Easy" by Elric of Imrryr. 1988. I17 F9 4k
+"DCL Utilities for VMS Hackers" by The Mentor. 1988. I19 F2 23k
+
+Dead Lord co-authored "Basic Concepts of Translation" 1989. I26 F6
+DEC (DECnets and other DECs)
+   "Crashing DEC-10's" by The Mentor. 1986. I4 F6
+   "DECnet Hackola : Remote Turist TTY (RTT)" by *Hobbit*. 1989. I30 F6
+   "Hacking DEC's" by Carrier Culprit. 1986. I5 F3
+   "Looking Around in DECnet" by Deep Thought. 1989. I27 F6
+   "Multi-User Chat Program for DEC-10's" by TTY-Man and The Mentor. 1986.
+      I9 F7 7k
+
+"Decnet Hackola : Remote Turist TTY (RTT)" by *Hobbit*. 1989. I30 F6
+"The DECWRL Mail Gateway" by Dedicated Link. 1989. I30 F5
+Dedicated Link authored
+   "The DECWRL Mail Gateway" 1989. I30 F5
+   "Network Progression" 1989. I24 F10
+Deep Thought authored "Looking Around in DECnet" 1989. I27 F6
+"Dial-Back Modem Security" by Elric of Imrryr. 1988. I17 F8 9k
+"Digital Multiplexing Systems (Part 2)" by Control C. 1988. I19 F3 18k
+The Disk Jockey authored
+   "Advanced Carding XIV" 1987. I15 F4 12k
+   "Getting Caught: Legal Procedures" 1989. I26 F3
+   "Reading Trans-Union Credit Reports" 1987. I16 F7 6k
+Dispater authored "A Real Functioning PEARL BOX Schematic" 1989. I28 F5
+"DMS-100" by Knight Lightning. 1986. I5 F5
+Doc Holiday authored
+   "Hacking Rolm's CBXII" 1990. I31 F3 15k
+   Introduction/Index for I31 F1
+   "Knight Line I/Parts 1-3" 1990. I32 F10-12
+Doom Prophet authored
+   "Are You a Phone Geek?" 1987. I13 F7 9k
+   "Automatic Number Identification" (co-authored) 1987. I10 F7 9k
+   "Loop Maintenance Operations System" (co-authored) 1986. I9 F9 17k
+   "Telephone Signalling Methods" 1987. I11 F8 7.3k
+   "The Total Network Data System" 1987. I12 F5 13k
+Dorthy Denning authored "Concerning Hackers Who Break Into Computer Systems"
+   1990. I32 F3
+Double Helix co-authored "How to Build a Paisley Box" 1987. I13 F4 5k
+Dr. Crash authored "The Technical Revolution" 1986. I6 F3 4k
+Dr. Doom authored "The Integrated Services Digital Network" 1986. I8 F4 18k
+
+DRUGS
+   "The Tried and True Home Production Method for Methamphetamine" by The
+      Leftist. 1986. I4 F8
+
+"Dun & Bradstreet Report on AT&T" submitted by Elric of Imrryr. 1988. I17 F2
+   24k
+"Dun & Bradstreet Report on Pacific Telesis" submitted by Elric of Imrryr.
+   1988. I17 F3 26k
+
+                                   ** E **
+
+The Eavesdropper authored
+   "Control Office Administration of Enhanced 911 Service" 1989. I24 F5
+   "Glossary Terminology for Enhanced 911 Service" 1989. I24 F6
+"Eavesdropping" by Circle Lord. 1986. I3 F7
+EBA authored "Cosmos Overview" 1990. I31 F6 52k
+Elric of Imrryr authored
+   "A Beginner's Guide to the IBM VM/370" 1987. I10 F4 4k
+   "Data Tapping Made Easy" 1988. I17 F9 4k
+   "Dial-Back Modem Security" 1988. I17 F8 11k
+   "Gelled Flame Fuels" 1987. I15 F5 12k
+   Introduction/Index of I16 F1 2k
+Elric of Imrryr submitted
+   "Dun & Bradstreet Report on AT&T" 1988. I17 F2 24k
+   "Dun & Bradstreet Report on Pacific Telesis" 1988. I17 F3 26k
+Emmanuel Goldstein was pro-philed in 1989. I29 F2
+Epsilon authored
+   "An Introduction to Packet Switched Networks" 1988. I18 F3 12k
+   "Phrack World News" 1988. I18 F10-11  I19 F8
+Epsilon co-authored "Phrack World News" 1988. I21 F10-11
+Equal Axis authored "Other Common Carriers; A List" 1989. I28 F7
+Erik Bloodaxe was pro-philed in 1989. I28 F2
+The Executioner
+   "Preview to Phrack 13-The Life & Times of The Executioner" 1987. I12 F3 5k
+The Executioner authored
+   "Circuit Switched Digital Capability" 1987. I10 F5 12k
+   "City-Wide Centrex" 1986. I8 F3 14k
+   "CSDC II - Hardware Requirements" 1987. I12 F6 8k
+   "PACT: Prefix Access Code Translator" 1987. I11 F3 7.6k
+   "Plant Measurements" 1986. I9 F6 13k
+Evil Jay authored
+   "Hacking : OSL Systems" 1987. I12 F7 9k
+   "Hacking Primos I, II, III" 1987. I11 F7 6.7k
+   "Hacking Primos Part I" 1987. I10 F6 11k
+   "R.A.G. - Rodents are Gay" 1987. I13 F6 6k
+
+EXPLOSIVES
+   "Bolt Bombs" by The Leftist. 1986. I5 F6
+   "Gelled Flame Fuels" by Elric of Imrryr. 1987. I15 F5 12k
+   "How to Make an Acetylene Bomb" by The Clashmaster. 1985. I1 F7
+   "How to Make TNT" by The Radical Rocker. 1986. I7 F6 2k
+   "Making Shell Bombs" by Man-Tooth. 1986. I3 F3
+   "Nitrogen-Trioxide Explosive" by Signal Substain. 1988. I17 F4 7k
+   "Smoke Bombs" by Alpine Kracker. 1986. I6 F6 2k
+
+                                   ** F **
+
+"Facility Assignment & Control Systems" by Phantom Phreaker. 1988. I19 F5 11k
+"False Identification" by Forest Ranger. 1986. I4 F3
+"A Few Things About Networks" by Prime Suspect. I18 F9 21k
+"The Fone Phreak's Revenge" by Iron Soldier. 1985. I1 F4
+Forest Ranger authored
+   "False Identification" 1986. I4 F3
+   "Prevention of the Billing Office Blues" 1985. I2 F2
+"Fortell Systems" by Phantom Phreaker. 1986. I3 F6
+"Foundations on the Horizon; Chapter Two of FTSaga" by Knight Lightning. 1989.
+   I23 F5
+Framstag authored "The Making of a Hacker" 1989. I27 F7
+Fred P. Graham co-authored "Can You Find Out If Your Telephone is Tapped?"
+   1989. I23 F9
+"Frontiers; Chapter Four of FTSaga" by Knight Lightning. 1989. I24 F4
+"Fun With Automatic Tellers" by The Mentor. 1986. I8 F7 7k
+"Fun With the Centagram VMS Network" by Oryan Quest. 1986. I9 F3 4k
+"Fun With Lighters" by The Leftist. 1986. I6 F4 2k
+"Future Trancendent Saga Index A" from the BITNET Services Library. 1989.
+   I23 F6
+"Future Trancendent Saga Index B" from the BITNET Services Library. 1989.
+   I23 F7
+
+                                   ** G **
+
+"Gelled Flame Fuels" by Elric of Imrryr. 1987. I15 F5 12k
+"Getting Caught: Legal Procedures" by The Disk Jockey. 1989. I26 F3
+"Getting Serious About VMS Hacking" by VAXBusters International. 1989. I23 F8
+Gin Fizz co-authored "How to Pick Master Locks" 1985. I1 F6
+"Glossary Terminology for Enhanced 911 Service" by The Eavesdropper. 1989.
+   I24 F6
+Goe authored "Hacking VM/CMS" 1989. I30 F4
+Grey Sorcerer authored
+   "How to Hack Cyber Systems" 1988. I17 F5 23k
+   "How to Hack HP2000's" 1988. I17 F6 3k
+
+                                   ** H **
+
+"A Hacker's Guide to Primos: Part 1" by Cosmos Kid. 1987. I16 F3 11k
+"Hacker's Manifesto" by The Mentor. 1986. I7 F3 4k
+
+HACKING
+(See also BANK FRAUD, COSMOS, CRACKING, CREDIT BUREAUS, CULTURE, DEC, HP,
+ Phrack Pro-Phile, Phrack World News, PHREAKING, PRIMOS, RSTS, UNIX, VAX/VMS,
+ VM/CMS, VOICE MAIL, WIDE AREA NETS (Internet,BITNET,ArpaNet,Usenet,UUCP,etc),
+ X.25 NETS (Telenet, Tymnet,etc.)
+   "Accessing Government Computers" by The Sorceress. 1988. I17 F7 9k
+   "The Art of Investigation" by Butler. 1990. I32 F4
+   "Basic Concepts of Translation" by The Dead Lord and Chief Executive
+      Officers. 1989. I26 F6
+   "BELLCORE Information" by The Mad Phone-Man. 1987. I16 F2 11k
+   "CompuServe Info" by Morgoth and Lotus. 1986. I8 F6 8k
+   "CSDC II - Hardware Requirements" by The Executioner. 1987. I12 F6 8k
+   "Data Tapping Made Easy" by Elric of Imrryr. 1988. I17 F9 4k
+   "Dial-Back Modem Security" by Elric of Imrryr. 1988. I17 F8 11k
+   "Getting Caught: Legal Procedures" by The Disk Jockey. 1989. I26 F3
+   "Hacking CDC's Cyber" by Phrozen Ghost. 1988. I18 F5 12k
+   "Hacking GTN" by The Kurgan. 1987. I16 F4 7k
+   "Hacking : OSL Systems" by Evil Jay. 1987. I12 F7 9k
+   "Hacking: What's Legal and What's Not" by Hatchet Molly. 1989. I25 F8
+   "How to Hack Cyber Systems" by Grey Sorcerer. 1988. I17 F5 23k
+   "Inside Dialog" by Control C. 1986. I9 F5 8k
+   "Introduction to Videoconferencing" by Knight Lightning. 1986. I9 F8 11k
+   "Non-Published Numbers" by Patrick Townsend. 1988. I21 F7
+   "A Novice's Guide to Hacking (1989 Edition)" by The Mentor. 1988. I22 F4
+   "Plant Measurement" by The Executioner. 1986. I9 F6 13k
+   "Private Audience" by Overlord. 1986. I3 F5
+   "Radio Hacking" by The Seker. 1986. I5 F8
+   "Reading Trans-Union Credit Reports" by The Disc Jockey. 1987. I16 F7 6k
+   "Ring Back Codes for the 314 NPA" by Data Line. 1985. I4 F2
+   "Satellite Communications" by Scott Holiday. 1988. I21 F5
+   "School/College Computer Dial-Ups" by Phantom Phreaker. 1985. I1 F8
+   "Simple Data Encryption or Digital Electronics 101" by The Leftist. 1987.
+      I11 F5 4.1k
+   "25th Anniversary Index [of Phrack]" by Taran King, Knight Lightning and
+      friends. 1989. I25 F2
+   "The Tele-Pages" by Jester Sluggo. 1988. I21 F4
+   "Western Union Telex, TWX, and Time Service" by Phone Phanatic. 1989. I30
+       F10
+
+"Hacking CDC's Cyber" by Phrozen Ghost. 1988. I18 F5 12k
+"Hacking Chilton's Credimatic" by Ryche. 1986. I7 F4 8k
+"Hacking DEC's" by Carrier Culprit. 1986. I5 F3
+"Hacking GTN" by The Kurgan. 1987. I16 F4 7k
+"Hacking : OSL Systems" by Evil Jay. 1987. I12 F7 9k
+"Hacking Primos I, II, III" by Evil Jay. 1987. I11 F7 6.7k
+"Hacking Primos Part I" by Evil Jay. 1987. I10 F6 11k
+"Hacking Rolm's CBXII" by Doc Holiday. 1990. I31 F3 15k
+"Hacking RSTS" by Data Line. 1985. I2 F8
+"Hacking RSTS Part 1" by The Seker. 1986. I7 F5 12k
+"Hacking and Tymnet" by Synthecide. 1989. I30 F3
+"Hacking VM/CMS" by Goe. 1989. I30 F4
+"Hacking Voice Mail Systems" by Black Knight from 713. 1987. I11 F4 6k
+"Hacking: What's Legal and What's Not" by Hatchet Molly. 1989. I25 F8
+"Hand to Hand Combat" by Bad Boy in Black. 1986. I5 F4
+Hatchet Molly authored "Hacking: What's Legal and What's Not" 1989. I25 F8
+"Hiding Out Under Unix" by Black Tie Affair. 1989. I25 F6
+High Evolutionary authored "Cellular Telephones" 1986. I6 F7 5k
+"The History of The Legion of Doom" 1990. I31 F5 10k
+*Hobbit* authored "Decnet Hackola : Remote Turist TTY (RTT)". 1989. I30 F6
+"Homemade Guns" by Man-Tooth. 1985. I2 F3
+"How to Build a Paisley Box" by Thomas Covenant and Double Helix. 1987.
+   I13 F4 5k
+"How to Fuck Up the World - A Parody" by Thomas Covenant. 1987. I13 F3 10k
+"How to Hack Cyber Systems" by Grey Sorcerer. 1988. I17 F5 23k
+"How to Hack HP2000's" by Grey Sorcerer. 1988. I17 F6 3k
+"How to Pick Master Locks" by Gin Fizz and Ninja NYC. 1985. I1 F6
+"How to Make an Acetylene Bomb" by The Clashmaster. 1985. I1 F7
+"How to Make TNT" by The Radical Rocker. 1986. I7 F6 2k
+"How We Got Rich Through Electronic Funds Transfer" by Legion of Doom!. 1989.
+   I29 F7
+
+HP SERIES (HP2000, HP3000, HP9000 etc.)
+   "How to Hack HP2000's" by Grey Sorcerer. 1988. I17 F6 3k
+
+                                   ** I **
+
+"An In-Depth Guide in Hacking Unix" by Red Knight. 1988. I22 F5
+"Inside Dialog" by Control C. 1986. I9 F5 8k
+"Inside the SYSUAF.DAT File" by Pain Hertz. 1990. I32 F8
+"The Integrated Services Digital Network" by Dr. Doom. 1986. I8 F5 18k
+
+INTERNET see WIDE AREA NETWORKS
+
+"Internet Domains: FTSaga Appendix 3 (Limbo to Infinity)" by Phrack Inc.
+   1989. I26 F8
+"Introduction to the Internet Protocols: Chapter Eight of the FTS" by Knight
+   Lightning. 1989. I28 F3
+"Introduction to the Internet Protocols II: Chapter Nine of the FTS" by Knight
+   Lightning. 1989. I29 F3
+"Introduction to MIDNET: Chapter Seven of the FTS" by Knight Lightning.
+   1989. I27 F3
+"An Introduction to Packet Switched Networks" by Epsilon. 1988. I18 F3 12k
+"Introduction to PBX's" by Knight Lightning. 1986. I3 F9
+"Introduction to Videoconferencing" by Knight Lightning. 1986. I9 F8 11k
+Iron Soldier authored "The Fone Phreak's Revenge" 1985. I1 F4
+
+ISDN (INTEGRATED SERVICES DIGITAL NETWORK)
+   "The Integrated Services Digital Network" by Dr. Doom. 1986. I8 F4 18k
+   "Universal Informational Services via ISDN" by Taran King. 1985. I2 F6
+
+                                   ** J **
+
+Jack T. Tabb authored "VAX/VMS Fake Mail". 1989. I30 F7
+Jester Sluggo authored
+   "Automatic Teller Machine Cards" 1990. I32 F6
+   "Centrex Renaissance" 1986. I4 F7
+   "The Tele-Pages" 1988. I21 F4
+   "Unix System Security Issues" 1988. I18 F7 27k
+   "Wide Area Networks Part 1" 1986. I5 F7
+   "Wide Area Networks Part 2" 1986. I6 F8 10k
+Jim Schmickley authored
+   "Blocking of Long Distance Calls" 1988. I21 F8
+   "Blocking of Long Distance Calls... Revisited" 1989. I29 F9
+"The Judas Contract (Part 2 of the Vicious Circle Trilogy)" by Knight
+   Lightning. 1988. I22 F3
+
+                                   ** K **
+
+Killer Smurf authored "Making Free Local Payfone Calls" 1987. I15 F3 7k
+King Arthur authored
+   "COSMOS: COmputer System for Mainframe OperationS (Part One)" 1989. I26 F5
+   "COSMOS: COmputer System for Mainframe OperationS (Part Two)" 1989. I27 F5
+Knight Lightning authored
+   "DMS-100" 1986. I5 F5
+   "Foundations on the Horizon; Chapter Two of FTSaga" 1989. I23 F5
+   "Frontiers; Chapter Four of FTSaga" 1989. I24 F4
+   Introduction/Index for I14 F1
+   Introduction/Index (co-authored) for I20-30 F1
+   "Introduction to the Internet Protocols II: Chapter Eight of the FTS" 1989.
+      I28 F3
+   "Introduction to the Internet Protocols II: Chapter Nine of the FTS" 1989.
+      I29 F3
+   "Introduction to MIDNET: Chapter Seven of the FTS" by Knight Lightning.
+      1989. I27 F3
+   "Introduction to PBX's" 1986. I3 F9
+   "Introduction to Videoconferencing" 1986. I9 F8 11k
+   "The Judas Contract (Part 2 of the Vicious Circle Trilogy)" 1988. I22 F3
+   "Limbo to Infinity; Chapter Three of FTSaga" 1989. I24 F3
+   "MCI International Cards" 1985. I1 F5
+   "MCI Overview" 1985. I2 F7
+   "Network Management Center" (co-authored) 1988. I21 F6
+   "NSFnet: National Science Foundation Network" 1989. I26 F4
+   "Phrack Pro-Phile on Groups" 1986. I6 F2 14k
+   "Phrack Pro-Phile on Karl Marx" (co-authored) 1988. I22 F2
+   "Phrack World News" 1985-90. I2 F9  I3 F10  I4 F9-11  I5 F10-12  I6 F9-13
+      I7 F8-10  I8 F8-9  I9 F10  I10 F8-9  I11 F11-12  I12 F10-11  I13 F10
+      I14 F8-9  I15 F6-7 (19,21k)  I19 F7  I20 F12  I23 F11-12  I24 F11-13
+      I25 F9-11  I26 F9-11  I27 F10-12  I28 F9-12  I29 F10-12  I30 F11-12
+   "Phrack World News" (co-authored) I21 F10-11  I22 F9-12
+   "Phrack World News Special Edition II" 1988. I21 F9
+   "Phrack World News Special Edition III (SummerCon '89)" 1989. I28 F8
+   "Real Phreaker's Guide Vol. 2" (co-authored) 1987. I13 F2 5k
+   "Shadows of a Future Past (Part 1 of the Vicious Circle Trilogy)" 1988.
+      I21 F3
+   "SPAN: Space Physics Analysis Network" 1989. I25 F4
+   "Subdivisions (Part 3 of the Vicious Circle Trilogy)" 1989. I23 F3
+   "A Trip to the NCSC" 1990. I32 F7
+   "25th Anniversary Index" (co-authored). 1989. I25 F2
+   "Utopia; Chapter One of FTSaga" 1989. I23 F4
+   "Welcome to Metal Shop Private" (co-authored) 1988. I20 F4
+"Knight Line I/Parts 1-3" by Doc Holiday. 1990. I32 F10-12
+The Kurgan authored "Hacking GTN" 1987. I16 F4 7k
+
+                                   ** L **
+
+The Leftist authored
+   "Bolt Bombs" 1986. I5 F6
+   "Fun With Lighters" 1986. I6 F4 2k
+   "Simple Data Encryption or Digital Electronics 101" 1987. I11 F5 4.1k
+   "The Tried and True Home Production Method for Methamphetamine" by The
+      Leftist. 1986. I4 F8
+Legion of Doom! (group)
+   authored "How We Got Rich Through Electronic Fund Transfer" 1989. I29 F7
+   compiled "Bank Information" 1989. I29 F6
+"Lifting Ma Bell's Cloak of Secrecy" by VaxCat. 1989. I24 F9
+"Limbo to Infinity; Chapter Three of FTSaga" by Knight Lightning. 1989. I24 F3
+
+LOCK PICKING
+   "How to Pick Master Locks" by Gin Fizz and Ninja NYC. 1985. I1 F6
+
+LONG DISTANCE CARRIERS
+   "Dun & Bradstreet Report on AT&T" submitted by Elric of Imrryr. 1988.
+      I17 F2 24k
+   "Dun & Bradstreet Report on Pacific Telesis" submitted by Elric of Imrryr.
+      1988. I17 F3 26k
+   "Lifting Ma Bell's Cloak of Secrecy" by VaxCat. 1989. I24 F9
+   "MCI International Cards" by Knight Lightning. 1985. I1 F5
+   "MCI Overview" by Knight Lightning. 1985. I2 F7
+   "Other Common Carriers; A List" by Equal Axis. 1989. I28 F7
+   "Profile of MAX Long Distance Service" by Phantom Phreaker. 1986. I4 F4
+   "The TMC Primer" by Cap'n Crax. 1987. I10 F3 6k
+
+"Looking Around in DECnet" by Deep Thought. 1989. I27 F6
+"Loop Maintenance Operating System" by Control C. 1988. I18 F8 32k
+"Loop Maintenance Operations System" by Phantom Phreaker and Doom Prophet.
+   1986. I9 F9 17k
+Lotus co-authored "CompuServe Info" 1986. I8 F6 8k
+
+                                   ** M **
+
+The Mad Phone-Man authored
+   "BELLCORE Information" 1987. I16 F2 11k
+   "Flight of the Mad Phone-Man" (PWN) 1987. I16 F10 2k
+   "The Mad Phone-Man and the Gestapo" (PWN) 1987. I16 F9 2k
+Mad Hacker 616 authored "The Art of Junction Box Modeming" I8 F5 6k
+Magic Hasan authored "Primos: Primenet, RJE, DPTX" 1988. I18 F4 15k
+"Making Free Local Payfone Calls" by Killer Smurf. 1987. I15 F3 7k
+"The Making of a Hacker" by Framstag. 1989. I27 F7
+"Making Shell Bombs" by Man-Tooth. 1986. I3 F3
+Man-Tooth authored
+   "Homemade Guns" 1985. I2 F3
+   "Making Shell Bombs" 1986. I3 F3
+"MCI International Cards" by Knight Lightning. 1985. I1 F5
+"MCI Overview" by Knight Lightning. 1985. I2 F7
+The Mentor authored
+   "The Conscience of a Hacker {Reprint}" by The Mentor. 1987. I14 F3
+   "Crashing DEC-10's" 1986. I4 F6
+   "DCL Utilities for VMS Hackers" 1988. I19 F2 23k
+   "Fun With Automatic Tellers" by The Mentor. 1986. I8 F7 7k
+   "Hacker's Manifesto" 1986. I7 F3 4k
+   "Multi-User Chat Program for DEC-10's" (co-authored) 1986. I9 F7 7k
+   "A Novice's Guide to Hacking (1989 Edition)" 1988. I22 F4
+"Metal/General Disussion [from Metal Shop Private BBS]" 1988. I20 F5
+"Mobile Telephone Communications" by Phantom Phreaker. 1986. I5 F9
+Monty Python authored "Rolm Systems" 1985. I3 F2
+"More Stupid Unix Tricks" by Shooting Shark. 1987. I15 F2 10k
+Morgoth co-authored "CompuServe Info" 1986. I8 F6 8k
+"Multi-User Chat Program for DEC-10's" by TTY-Man and The Mentor. 1986.
+   I9 F7 7k
+"The Myth and Reality About Eavesdropping" by Phone Phanatic. 1989. I29 F8
+
+                                   ** N **
+
+"Nasty Unix Tricks" by Shooting Shark. 1986. I6 F5 4k
+"Network Management Center" by Knight Lightning and Taran King. 1988. I21 F6
+"Network Miscellany" by Taran King. 1989. I28 F4
+"Network Miscellany II" by Taran King. 1989. I29 F4
+"Network Miscellany III" by Taran King. 1989. I30 F2
+"Network Progression" by Dedicated Link. 1989. I24 F10
+"New Users [from Metal Shop Private BBS]" 1988. I20 F9
+The Nightstalker authored "Phrack Editorial on Microbashing" 1988. I19 F6 6k
+Ninja NYC co-authored "How to Pick Master Locks" 1985. I1 F6
+"Nitrogen-Trioxide Explosive" by Signal Substain. 1988. I17 F4 7k
+The Noid authored "The Blue Box and Ma Bell" 1989. I25 F7
+"Non-Published Numbers" by Patrick Townsend. 1988. I21 F7
+"A Novice's Guide to Hacking (1989 Edition)" by The Mentor. 1988. I22 F4
+"NSFnet: National Science Foundation Network" by Knight Lightning. 1989.
+   I26 F4
+"NUA List for Datex-P and X.25 Networks" by Oberdaemon. 1989. I27 F4
+
+                                   ** O **
+
+Oberdaemon authored "NUA List for Datex-P and X.25 Networks" 1989. I27 F4
+"Operating the VM/SP CP" by Taran King. 1989. I27 F2
+Oryan Quest authored "Fun With the Centagram VMS Network" 1986. I9 F3 4k
+"Other Common Carriers; A List" by Equal Axis. 1989. I28 F7
+Overlord authored "Private Audience" 1986. I3 F5
+
+                                   ** P **
+
+"PACT: Prefix Access Code Translator" by The Executioner. 1987. I11 F3 7.6k
+Pain Hertz authored
+   "Inside the SYSUAF.DAT File" 1990. I32 F8
+   "Phrack Pro-Phile of Markus Hess" 1990. I31 F2 6k
+Patrick Townsend authored "Non-Published Numbers" 1988. I21 F7
+Paul Saffo authored "Consensual Realities in Cyberspace". 1989. I30 F8
+
+PBXs
+   "AIS - Automatic Intercept System" by Taran King. 1987. I11 F6 15.9k
+   "Hacking Rolm's CBXII" by Doc Holiday. 1990. I31 F3 15k
+   "Introduction to PBX's" by Knight Lightning. 1986. I3 F9
+   "SAM Security" by Spitfire Hacker. 1985. I1 F2
+
+Phantom Phreaker authored
+   "Automatic Number Identification" (co-authored) 1987. I10 F7 9k
+   "Busy Line Verification" 1987. I11 F10 10k
+   "Busy Line Verification Part II" 1987. I12 F8 9k
+   "Facility Assignment & Control Systems" 1988. I19 F5 11k
+   "Fortell Systems" 1986. I3 F6
+   "Loop Maintenance Operations System" (co-authored) 1986. I9 F9 17k
+   "Mobile Telephone Communications" 1986. I5 F9
+   "Profile of MAX Long Distance Service" 1986. I4 F4
+   "School/College Computer Dial-Ups" 1985. I1 F8
+"Phone Bugging: Telecom's Underground Industry" by Split Decision. 1989.
+   I26 F7
+Phone Phanatic authored
+   "The Myth and the Reality About Eavesdropping" 1989. I29 F8
+   "Western Union Telex, TWX, and Time Service" 1989.
+      I30 F10
+"Phrack Classic Spotlight featuring Knight Lightning" by Crimson Death. 1990.
+   I32 F2
+"Phrack Editorial on Microbashing" by The Nightstalker. 1988. I19 F6 6k
+Phrack Inc. authored "Internet Domains: FTSaga Appendix 3 (Limbo to Infinity)"
+   1989. I26 F8
+"Phrack Inc./Gossip [from Metal Shop Private BBS]" 1988. I20 F6
+"Phrack Pro-Phile [of/on/Featuring]
+   Agrajag The Prolonged" by Taran King. 1987. I12 F2 7k
+   Ax Murderer" by Crimson Death. 1988. I18 F2 4k
+   Broadway Hacker" by Taran King. 1986. I5 F2
+   Chanda Lier" by Taran King. 1989. I24 F2
+   Crimson Death" by Taran King. 1986. I4 F1
+   Dave Starr" by Taran King. 1987. I10 F2 8k
+   Emmanuel Goldstein" by Taran King. 1989. I29 F2
+   Erik Bloodaxe" by Taran King. 1989. I28 F2
+   Groups" by Knight Lightning. 1986. I6 F2 14k
+   Karl Marx" by Taran King and Knight Lightning. 1988. I22 F2
+   Markus Hess" by Pain Hertz. 1990. I31 F2 6k
+   The Mentor" by Taran King. 1989. I23 F2
+   Modem Master" by Taran King. 1988. I21 F2
+   The Nightstalker" by Taran King. 1986. I9 F2 6k
+   Scan Man"" by Taran King. 1986. I7 F2 7k
+   Taran King" by Taran King. 1988. I20 F2
+   Terminus" by Taran King. 1987. I14 F2
+   Tuc" by Taran King. 1986. I8 F2 6k
+   Wizard of Arpanet" by Taran King. 1987. I11 F2 6.8k
+"Phrack World News" by Epsilon. 1988. I18 F10-11  I19 F8 6k
+"Phrack World News" by Knight Lightning. 1985-90. I2 F9  I3 F10  I4 F9-11
+   I5 F10-12  I6 F9-13(16,15,15,16,15k)  I7 F8-10  I8 F8-9  I9 F10
+   I10 F8-9  I11 F11-12  I12 F10-11  I13 F10  I14 F8-9  I15 F6-7 (19,21k)
+   I19 F7  I20 F12  I23 F11-12  I24 F11-13  I25 F9-11  I26 F9-11  I27 F10-12
+   I28 F9-12  I29 F10-12  I30 F11-12
+"Phrack World News" by Knight Lightning and Epsilon. 1988. I21 F10-11
+"Phrack World News" by Knight Lightning and Taran King. 1988. I22 F9-12
+"Phrack World News" by The Mad Phone-Man. 1987. I16 F9-10
+"Phrack World News" by Phreak_Accident. 1990. I31 F8-10 (13,17,40k)
+"Phrack World News" by Shooting Shark. 1987. I16 F11 2k
+"Phrack World News" by Sir Francis Drake. 1987-88. I15 F8  I17 F10
+"Phrack World News" by The $muggler. 1987-88. I16 F12  I17 F11
+"Phrack World News" by The Sorceress. 1988. I17 F12 8k
+"Phrack World News Special Edition #1" by Knight Lightning. 1987. I14 F7
+"Phrack World News Special Edition II" by Knight Lightning. 1988. I21 F9
+"Phrack World News Special Edition III (SummerCon '89)" by Knight Lightning.
+   1989. I28 F8
+Phreak_Accident authored
+   "Phrack World News" 1990. I31 F8-10 (13,17,40k)
+   "TAMS & Telenet Security" 1990. I31 F4 7k
+"Phreak/Hack Sub [from Metal Shop Private BBS]" 1988. I20 F7
+
+PHREAKING
+(See also CELLULAR, COSMOS, ISDN, LONG DISTANCE CARRIERS, TELEPHONE SWITCHING,
+ PBX)
+   "The Art of Junction Box Modeming" by Mad Hacker 616. I8 F5 6k
+   "Automatic Number Identification" by Phantom Phreaker and Doom Prophet.
+      I10 F7 9k
+   "Blocking of Long Distance Calls" by Jim Schmickley. 1988. I21 F8
+   "Blocking of Long Distance Calls... Revisited" by Jim Schmickley. 1989.
+      I29 F9
+   "The Blue Box and Ma Bell" by The Noid. 1989. I25 F7
+   "Busy Line Verification" by Phantom Phreaker. 1987. I11 F10 10k
+   "Busy Line Verification Part II" by Phantom Phreaker. 1987. I12 F8 9k
+   "Can You Find Out If Your Telephone Is Tapped?" by Fred P. Graham and
+      VaxCat. 1989. I23 F9
+   "Centrex Renaissance `The Regulations'" by Jester Sluggo. 1986. I4 F7
+   "Circuit Switched Digital Capability" by The Executioner. 1987. I10 F5 12k
+   "City-Wide Centrex" by The Executioner. 1986. I8 F3 14k
+   "Computer-Based Systems for Bell System Operation" by Taran King. 1989.
+      I26 F2
+   "Control Office Administration of Enhanced 911 Service" by
+      The Eavesdropper. 1989. I24 F5
+   "The Fone Phreak's Revenge" by Iron Soldier. 1985. I1 F4
+   "Fortell Systems" by Phantom Phreaker. 1986. I3 F6
+   "Glossary Terminology for Enhanced 911 Service" by The Eavesdropper. 1989.
+      I24 F6
+   "How to Build a Paisley Box" by Thomas Covenant and Double Helix. 1987.
+      I13 F4 5k
+   "Loop Maintenance Operating System" by Control C. 1988. I18 F8 32k
+   "Loop Maintenance Operations System" by Phantom Phreaker and Doom Prophet.
+      1986. I9 F9 17k
+   "Making Free Local Payfone Calls" by Killer Smurf. 1987. I15 F3 7k
+   "The Myth and the Reality About Eavesdropping" by Phone Phanatic. 1989.
+      I29 F8
+   "PACT: Prefix Access Code Translator" by The Executioner. 1987. I11 F3 7.6k
+   "Prevention of the Billing Office Blues" by Forest Ranger. 1985. I2 F2
+   "A Real Functioning PEARL BOX Schematic" by Dispater. 1989. I28 F5
+   "Real Phreaker's Guide Vol. 2" by Taran King and Knight Lightning. 1987.
+      I13 F2 5k
+   "The Reality of The Myth [REMOBS]" by Taran King. 1987. I14 F4
+   "Special Area Codes" by >Unknown User<. 1989. I24 F8
+   "The Total Network Data System" by Doom Prophet. 1987. I12 F5 13k
+
+"Phreaks in Verse" by Sir Francis Drake. 1987. I13 F5 3k
+Phrozen Ghost authored "Hacking CDC's Cyber" 1988. I18 F5 12k
+"The Postal Inspection Service" by Vendetta. 1989. I27 F9
+"Plant Measurement" by The Executioner. 1986. I9 F6 13k
+"Prevention of the Billing Office Blues" by Forest Ranger. 1985. I2 F2
+"Preview to Phrack 13-The Life & Times of The Executioner" 1987. I12 F3 5k
+Prime Suspect authored "A Few Things About Networks" 1988. I18 F9 21k
+
+PRIMOS OPERATING SYSTEM
+   "A Hacker's Guide to Primos: Part 1" by Cosmos Kid. 1987. I16 F3 11k
+   "Hacking Primos I, II, III" by Evil Jay. 1987. I11 F7 6.7k
+   "Hacking Primos Part I" by Evil Jay. 1987. I10 F6 11k
+   "Primos: Primenet, RJE, DPTX" by Magic Hasan. 1988. I18 F4 15k
+
+"Primos: Primenet, RJE, DPTX" by Magic Hasan. 1988. I18 F4 15k
+"Private Audience" by Overlord. 1986. I3 F5
+"Profile of MAX Long Distance Service" by Phantom Phreaker. 1986. I4 F4
+"Programming RSTS/E File2: Editors" by Solid State. 1986. I9 F4 13k
+The Pyro authored "Blowguns" 1985. I2 F4
+
+                                   ** R **
+
+Radical Rocker authored "How to Make TNT" 1986. I7 F6 2k
+"Radio Hacking" by The Seker. 1986. I5 F8
+"R.A.G. - Rodents are Gay" by Evil Jay. 1987. I13 F6 6k
+"RAGS - The Best of Sexy Exy" 1987. I13 F9 19k
+Razor's Edge authored "The Truth About Lie Detectors" 1989. I30 F9
+"Reading Trans-Union Credit Reports" by The Disc Jockey. 1987. I16 F7 6k
+"A Real Functioning PEARL BOX Schematic" by Dispater. 1989. I28 F5
+"Real Phreaker's Guide Vol. 2" by Taran King and Knight Lightning. 1987.
+   I13 F2 5k
+"The Reality of The Myth [REMOBS]" by Taran King. 1987. I14 F4
+Red Knight authored "An In-Depth Guide in Hacking Unix" 1988. I22 F5
+"A Report on the Internet Worm" by Bob Page. 1988. I22 F8
+Richard C. Hollinger authored "Computer Hackers Follow a Guttman-Like
+   Progression. 1988. I22 F7
+"Ring Back Codes for the 314 NPA" by Data Line. 1985. I4 F2
+"Rolm Systems" by Monty Python. 1986. I3 F2
+"The Royal Court [from Metal Shop Private BBS]" 1988. I20 F10
+"RSTS" by Crimson Death. 1990. I32 F9
+
+RSTS OPERATING SYSTEM
+   "Hacking RSTS" by Data Line. 1985. I2 F8
+   "Hacking RSTS Part 1" by The Seker. 1986. I7 F5 12k
+   "Programming RSTS/E File2: Editors" by Solid State. 1986. I9 F4 13k
+   "RSTS" by Crimson Death. 1990. I32 F9
+
+Ryche authored "Hacking Chilton's Credimatic" 1986. I7 F4 8k
+
+                                   ** S **
+
+"SAM Security" by Spitfire Hacker. 1985. I1 F2
+"Satellite Communications" by Scott Holiday. 1988. I21 F5
+Scan Man authored "Scan Man's Rebuttal to Phrack World News" 1987.
+   I12 F9 17k
+"Scan Man's Rebuttal to Phrack World News" by Scan Man. 1987. I12 F9 17k
+"School/College Computer Dial-Ups" by Phantom Phreaker. 1985. I1 F8
+Scott Holiday authored "Satellite Communications" 1988. I21 F5
+The Seker authored
+   "Radio Hacking" 1986. I5 F8
+   "Hacking RSTS Part 1" 1986. I7 F5 12k
+"Sending Fakemail in Unix" by Dark Overlord. 1989. I27 F8
+"Shadows of a Future Past (Part 1 of the Vicious Circle Trilogy)" by
+   Knight Lightning. 1988. I21 F3
+Shooting Shark authored
+   Introduction/Index for I15,17 F1 2k
+   "More Stupid Unix Tricks" 1987. I15 F2 10k
+   "Nasty Unix Tricks" 1986. I6 F5 4k
+   "Shadow Hawk Busted Again" 1987. I16 F11 2k
+   "Social Security Number Formatting" 1988. I19 F4 3k
+   "Trojan Horses in Unix" 1986. I7 F7 13k
+Signal Substain authored "Nitrogen-Trioxide Explosive" 1988. I17 F4 7k
+"Signalling Systems Around the World" by Data Line. 1986. I3 F4
+"Simple Data Encryption or Digital Electronics 101" by The Leftist. 1987.
+   I11 F5 4.1k
+Sir Francis Drake authored
+   "Phrack World News" 1987. I15 F8 6k
+   "Bust Update" (PWN) 1988. I17 F11 3k
+   "Phreaks in Verse" 1987. I13 F5 3k
+Sir Hackalot authored "Unix 'Nasties'" 1990. I32 F5
+"Smoke Bombs" by Alpine Cracker. 1986. I6 F6 2k
+The $muggler authored
+   "Coin Box Thief Wanted" (PWN) 1987. I16 F12 2k
+   "'Illegal' Hacker Crackdown" (PWN) 1988. I17 F11 5k
+"Snarfing Remote Files" by Dark Overlord. 1989. I28 F6
+"Social Engineering [from Metal Shop Private BBS]" 1988. I20 F8
+"Social Security Number Formatting" by Shooting Shark. 1988. I19 F4 3k
+Solid State authored "Programming RSTS/E File2: Editors" 1986. I9 F4 13k
+The Sorceress authored
+   "Accessing Government Computers" 1988. I17 F7 9k
+   "Cracker are Cheating Bell" (PWN) 1988. I17 F12 8k
+"SPAN: Space Physics Analysis Network" by Knight Lightning. 1989. I25 F4
+"Special Area Codes" by >Unknown User<. 1989. I24 F8
+Spitfire Hacker authored "SAM Security" 1985. I1 F2
+Split Decision authored "Phone Bugging: Telecom's Underground Industry" 1989.
+   I26 F7
+"Subdivisions (Part 3 of the Vicious Circle Trilogy)" by Knight Lightning.
+   1989. I23 F3
+Synthecide authored
+   "Covert Paths" (co-authored) 1989. I29 F5
+   "Hacking and Tymnet" 1989. I30 F3
+
+                                   ** T **
+
+"TAC Info" no author. 1985. I2 F5
+"TAMS & Telenet Security" by Phreak_Accident. 1990. I31 F4 7k
+"Tapping Telephone Lines" by Agent Steal. 1987. I16 F6 9k
+Taran King authored
+   "AIS - Automatic Intercept System" 1987. I11 F6 15.9k
+   "Bell Network Switching Systems" 1989. I25 F3
+   "Breaching and Clearing Obstacles" 1986. I4 F5
+   "Computer-Based Systems for Bell System Operation" 1989. I26 F2
+   Introduction/Indexes for I1-2,5-13 F1
+   Introduction/Indexes (co-authored) for I20-30 F1
+   "Network Management Center" (co-authored) 1988. I21 F6
+   "Network Miscellany" 1989. I28 F4
+   "Network Miscellany II" 1989. I29 F4
+   "Network Miscellany III" 1989. I30 F2
+   "Operating the VM/SP CP" 1989. I27 F2
+   "Phrack Pro-Phile of Broadway Hacker" 1986. I5 F2
+   "Phrack Pro-Phile of Scan Man" 1986. I7 F2 7k
+   "Phrack Pro-Phile Featuring Chanda Leir" 1989. I24 F2
+   "Phrack Pro-Phile Featuring The Mentor" 1989. I23 F2
+   "Phrack Pro-Phile Featuring Terminus" 1987. I14 F2
+   "Phrack Pro-Phile on Agrajag The Prolonged" 1987. I12 F2 7k
+   "Phrack Pro-Phile on Crimson Death" 1986. I4 F1
+   "Phrack Pro-Phile on Dave Starr" 1987. I10 F2 8k
+   "Phrack Pro-Phile on Emanuell Goldstein" 1989. I29 F2
+   "Phrack Pro-Phile on Erik Bloodaxe" 1989. I28 F2
+   "Phrack Pro-Phile on Karl Marx" (co-authored) 1988. I22 F2
+   "Phrack Pro-Phile on Modem Master" 1988. I21 F2
+   "Phrack Pro-Phile on The Nightstalker" 1986. I9 F2 6k
+   "Phrack Pro-Phile on Taran King" 1988. I20 F2
+   "Phrack Pro-Phile on Tuc" 1986. I8 F2 6k
+   "Phrack Pro-Phile on Wizard of Arpanet" 1987. I11 F2 6.8k
+   "Phrack World News" (co-authored) 1988. I22 F9-12
+   "Real Phreaker's Guide Vol. 2" (co-authored) 1987. I13 F2 5k
+   "The Reality of The Myth [REMOBS]" by Taran King. 1987. I14 F4
+   "25th Anniversary Index" (co-authored). 1989. I25 F2
+   "Universal Informational Services via ISDN" 1985. I2 F6
+   "Welcome to Metal Shop Private" (co-authored) 1988. I20 F4
+"The Technical Revolution" by Dr. Crash. 1986. I6 F3 4k
+"The Tele-Pages" by Jester Sluggo. 1988. I21 F4
+
+TELENET  see X.25 PACKET SWITCHING NETWORKS
+
+"Telephone Signalling Methods" by Doom Prophet. 1987. I11 F8 7.3k
+
+TELEPHONE SWITCHING EQUIPMENT AND METHODS
+   "Bell Network Switching Systems" by Taran King. 1989. I25 F3
+   "Digital Multiplexing Systems (Part 2)" by Control C. 1988. I19 F3 18k
+   "DMS-100" by Knight Lightning. 1986. I5 F5
+   "Facility Assignment & Control Systems" by Phantom Phreaker. 1988.
+      I19 F5 11k
+   "Signalling Systems Around the World" by Data Line. 1986. I3 F4
+   "Telephone Signalling Methods" by Doom Prophet. 1987. I11 F8 7.3k
+   "Understanding the Digital Multiplexing System (DMS)" by Control C. 1987.
+      I12 F4 19k
+   "Understanding DMS Part II" by Control C. 1987. I14 F5
+
+Thomas Covenant authored
+   "How to Build a Paisley Box" (co-authored) 1987. I13 F4 5k
+   "How to Fuck Up the World - A Parody" 1987. I13 F3 10k
+Thumpr authored "Big Brother Online" 1989. I23 F10
+"Timeline Featuring Taran King, Knight Lightning, and Cheap Shades" 1988.
+   I20 F2
+"The TMC Primer" by Cap'n Crax. 1987. I10 F3 6k
+Tom Brokow authored "Credit Card Laws" 1987. I16 F5 7k
+"The Total Network Data System" by Doom Prophet. 1987. I12 F5 13k
+"The Tried and True Home Production Method for Methamphetamine" by
+   The Leftist. 1986. I4 F8
+"A Trip to the NCSC" by Knight Lightning. 1990. I32 F7
+"Trojan Horses in Unix" by Shooting Shark. 1986. I7 F7 13k
+"The Truth About Lie Detectors" by Razor's Edge. 1989. I30 F9
+"TRW Business Terminology" by Control C. 1987. I14 F6
+TTY-Man co-authored "Multi-User Chat Program for DEC-10's" 1986. I9 F7 7k
+"25th Anniversary Index" by Knight Lightning, Taran King, and other friends.
+   1989. I25 F2
+
+TYMNET see X.25 PACKET SWITCHING NETWORKS
+
+"Tymnet Security Memo" by Anonymous. 1990. I31 F7 9k
+
+                                   ** U **
+
+"Understanding the Digital Multiplexing System (DMS)" by Control C. 1987.
+   I12 F4 19k
+"Understanding DMS Part II" by Control C. 1987. I14 F5
+"Universal Informational Services via ISDN" by Taran King. 1985. I2 F6
+"Unix Cracking Tips" by Dark Overlord. 1989. I25 F5
+"Unix for the Moderate" by Urvile. 1988. I18 F6 11k
+"Unix 'Nasties'" by Sir Hackalot. 1990. I32 F5
+
+UNIX OPERATING SYSTEM
+   "Hiding Out Under Unix" by Black Tie Affair. 1989. I25 F6
+   "An In-Depth Guide in Hacking Unix" by Red Knight. 1988. I22 F5
+   "More Stupid Unix Tricks" by Shooting Shark. 1987. I15 F2 10k
+   "Nasty Unix Tricks" by Shooting Shark. 1986. I6 F5 4k
+   "Sending Fakemail in Unix" by Dark Overlord. 1989. I27 F8
+   "Snarfing Remote Files" by Dark Overlord. 1989. I28 F6
+   "Trojan Horses in Unix" by Shooting Shark. 1986. I7 F7 13k
+   "Unix Cracking Tips" by Dark Overlord. 1989. I25 F5
+   "Unix for the Moderate" by Urvile. 1988. I18 F6 11k
+   "Unix 'Nasties'" by Sir Hackalot. 1990. I32 F5
+   "Unix System Security Issues" by Jester Sluggo. 1988. I18 F7 27k
+   "Yet Another File on Hacking Unix" by >Unknown User<. 1988. I22 F6
+
+"Unix System Security Issues" by Jester Sluggo. 1988. I18 F7 27k
+>Unknown User< (Phrack's anonymous submitter alias) was used to tag
+   "Special Area Codes" 1989. I24 F8
+   "Tymnet Security Memo" 1990. I31 F7 9k
+   "Yet Another File on Hacking Unix" 1988. I22 F6
+Urvile authored "Unix for the Moderate" 1988. I18 F6 11k
+
+USENET see WIDE AREA NETWORKS
+
+"Utopia; Chapter One of FTSaga" by Knight Lightning. 1989. I23 F4
+
+UUCP see WIDE AREA NETWORKS
+
+                                   ** V **
+
+VaxCat authored "Lifting Ma Bell's Cloak of Secrecy" 1989. I24 F9
+VaxCat co-authored "Can You Find Out If Your Telephone is Tapped?" 1989.
+   I23 F9
+"VAX/VMS Fake Mail" by Jack T. Tabb. 1989. I30 F7
+
+VAX/VMS OPERATING SYSTEM
+   "DCL Utilities for VMS Hackers" by The Mentor. 1988. I19 F2 23k
+   "Getting Serious About VMS Hacking" by VAXBusters International. 1989.
+      I23 F8
+   "Inside the SYSUAF.DAT File" by Pain Hertz. 1990. I32 F8
+   "VAX/VMS Fake Mail" by Jack T. Tabb. 1989. I30 F7
+
+VAXBusters International authored
+   "Advanced BITNET Procedures" 1989. I24 F7
+   "Getting Serious About VMS Hacking" 1989. I23 F8
+
+Vendetta authored "The Postal Inspection Service" 1989. I27 F9
+
+VM/CMS OPERATING SYSTEM
+   "A Beginner's Guide to the IBM VM/370" by Elric of Imryrr. I10 F4 4k
+   "Hacking VM/CMS" by Goe. 1989. I30 F4
+   "Operating the IBM VM/SP CP" by Taran King. 1989. I27 F2
+
+VOICE MAIL SYSTEMS
+   "Fun With the Centagram VMS Network" by Oryan Quest. 1986. I9 F3 4k
+   "Rolm Systems" by Monty Python. 1986. I3 F2
+   "Hacking Voice Mail Systems" by Black Knight from 713. 1987. I11 F4 6k
+
+                                   ** W **
+
+WEAPONS
+   "Blowguns" by The Pyro. 1985. I2 F4
+   "Building a Shock Rod" by Circle Lord. 1986. I3 F8
+   "Homemade Guns" by Man-Tooth. 1985. I2 F3
+
+"Welcome to Metal Shop Private" by Taran King, Knight Lightning, and Cheap
+   Shades. 1988. I20 F4
+"Western Union Telex, TWX, and Time Service" by Phone Phanatic. 1989. I30 F10
+
+WIDE AREA NETWORKS (Internet, BITNET, ArpaNET, Usenet, UUCP, TCP/IP, etc.)
+   "Advanced BITNET Procedures" by VAXBusters International. 1989. I24 F7
+   "Covert Paths" by Cyber Neuron Limited and Synthecide. 1989. I29 F5
+   "The DECWRL Mail Gateway" by Dedicated Link. 1989. I30 F5
+   "A Few Things About Networks" by Prime Suspect. 1988. I18 F9 21k
+   "Foundations on the Horizon; Chapter Two of FTSaga" by Knight Lightning.
+      1989. I23 F5
+   "Frontiers; Chapter Four of FTSaga" by Knight Lightning. 1989. I24 F4
+   "Future Trancendent Saga Index A" from the BITNET Services Library. 1989.
+      I23 F6
+   "Future Trancendent Saga Index B" from the BITNET Services Library. 1989.
+      I23 F7
+   "Internet Domains: FTSaga Appendix 3 (Limbo to Infinity)" by Phrack Inc.
+      1989. I26 F8
+   "Introduction to the Internet Protocols I: Chapter Eight of the FTS" by
+      Knight Lightning.  1989. I28 F3
+   "Introduction to the Internet Protocols II: Chapter Nine of the FTS" by
+      Knight Lightning. 1989. I29 F3
+   "Introduction to the MIDNET: Chapter Seven of the FTS" by Knight Lightning.
+      1989. I27 F3
+   "Limbo to Infinity; Chapter Three of FTSaga" by Knight Lightning. 1989.
+      I24 F3
+   "Network Management Center" by Knight Lightning and Taran King. 1988.
+      I21 F6
+   "Network Miscellany" by Taran King. 1989. I28 F4
+   "Network Miscellany II" by Taran King. 1989. I29 F4
+   "Network Miscellany III" by Taran King. 1989. I30 F2
+   "Network Progression" by Dedicated Link. 1989. I24 F10
+   "NSFnet: National Science Foundation Network" by Knight Lightning. 1989.
+      I26 F4
+   "A Report on the Internet Worm" by Bob Page. 1988. I22 F8
+   "Snarfing Remote Files" by Dark Overlord. 1989. I28 F6
+   "SPAN: Space Physics Analysis Network" by Knight Lightning. 1989. I25 F4
+   "TAC info" no author. 1985. I2 F5
+   "Utopia; Chapter One of FTSaga" by Knight Lightning. 1989. I23 F4
+   "Wide Area Networks Part 1" by Jester Sluggo. 1986. I5 F7
+   "Wide Area Networks Part 2" by Jester Sluggo. 1986. I6 F8 10k
+
+                                   ** X **
+
+X.25 PACKET SWITCHING NETWORKS (SprintNet, Telenet, Tymnet, X.121 etc.)
+   "A Few Things About Networks" by Prime Suspect. 1988. I18 F9 21k
+   "Hacking and Tymnet" by Synthecide. 1989. I30 F3
+   "An Introduction to Packet Switched Networks" by Epsilon. 1988. I18 F3 12k
+   "Network Miscellany" by Taran King.  1989. I28 F4
+   "Network Miscellany II" by Taran King. 1989. I29 F4
+   "Network Miscellany III" by Taran King. 1989. I30 F2
+   "NUA List for Datex-P and X.25 Networks" by Oberdaemon. 1989. I27 F4
+   "TAMS and Telenet Security" by Phreak_Accident. 1990. I31 F4 7k
+   "Tymnet Security Memo" by Anonymous. 1990. I31 F7 9k
+   "Wide Area Networks Part 1" by Jester Sluggo. 1986. I5 F7
+   "Wide Area Networks Part 2" by Jester Sluggo. 1986. I6 F8 10k
+
+                                   ** Y **
+
+"Yet Another File on Hacking Unix" by >Unknown User<. 1988. I22 F6

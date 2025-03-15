@@ -1,0 +1,1199 @@
+Archive-Name: objectivism/obj-resource-guide
+Posting-Frequency: fortnightly
+Last-Modified: 1994/03/24
+
+
+Jay Allen's OBJECTIVISM RESOURCE GUIDE (ORG) 
+Version 6.1
+Updated on 4/07/95
+
+
+Copyright (C) 1995, Jay Andrew Allen, all rights reserved. See Section (2.2) for
+distribution agreement.
+
+--------- 
+The ORG is officially sponsored by:
+
+***RIC TRADING COMPANY***, manufacturer and distributor of t-shirts and other
+products of an Objectivist nature. Check out their FOUNTAINHEAD POSTER, a
+quality reproduction of the original 1943 dustjacket. See section 5.3 for more
+information. 
+---------
+
+
+CHANGES AND NEWS
+
+The World Wide Web edition of the ORG is now available. Check it out at
+its temporary home: <http://power.stu.rpi.edu/~oms/org/>. 
+
+I have moved Foreningen for Studium Ab Objektivismen from Publications to
+Community Clubs (9.9), where it belongs.
+
+======================================================================
+
+CONTENTS
+
+-1- GENERAL INFORMATION
+
+(1.1) What This List Is, Why It Was Created
+
+-2- DISCLAIMERS AND LEGAL NOTES
+
+(2.1) Disclaimers 
+(2.2) Copyright And Availability 
+(2.3) List Sources
+
+-3- OBJECTIVISM
+
+-4- PUBLICATIONS
+
+(4.1) The Atlantean Press Review 
+(4.2) Atlantis 
+(4.3) The Intellectual Activist 
+(4.4) Lyceum
+(4.5) Objektivistisk Skriftserie
+(4.6) The Objectivist Forum 
+(4.7) The Objectivist Newsletter; The Objectivist; The Ayn Rand Letter
+
+-5- PRODUCTS AND SERVICES
+
+(5.1) Capitalism, Inc. 
+(5.2) Peikoff Lectures (Out of Business) 
+(5.3) RIC Trading Company 
+(5.4) Second Renaissance Books -- Ideas For the Rational Mind
+(5.5) Values Mind Products
+
+-6- INTERNET SERVICES
+
+(6.1) Americans for Free Choice in Medicine FTP Site 
+(6.2) Ayn Rand Internet Club (ARIC)
+(6.3) Objectivism FTP Directory 
+(6.4) Objectivism Study Group
+(6.5) Objectivist Web Sites
+
+-7- EVENTS
+
+(7.1) The Jefferson School 
+(7.2) Second Renaissance Conferences 
+(7.3) Texas Objectivist Conference 
+(7.4) Ford Hall Forum 
+(7.5) 21st Century Conferences
+
+-8- ORGANIZATIONS
+
+(8.1) American Renaissance for the 21st Century (ART) 
+(8.2) Americans For Free Choice in Medicine (AFCM) 
+(8.3) The Ayn Rand Institute: The Center for the Advancement of Objectivism (ARI) 
+(8.4) The Association For Objective Law (TAFOL)
+(8.5) The Association of Objectivist Businessmen (AOB) 
+(8.6) Objectivist Health Care Professionals Network (OHCPN) 
+(8.7) The Society for Objective Science (SOS)
+
+-9- OBJECTIVIST COMMUNITY CLUBS
+
+(9.1) Alabama Objectivists 
+(9.2) Austin Objectivist Society 
+(9.3) Ayn Rand Admirers of Rhode Island 
+(9.4) Carolina Objectivist Group 
+(9.5) Chicago Objectivism Society 
+(9.6) Chicago Students of Objectivism 
+(9.7) Detroit Area Objectivist Group 
+(9.8) Foreningen For Objektivismen (FFO)
+(9.9) Foreningen For Studium av Objektivismen (FSO)
+(9.10) Gotham Objectivist Club 
+(9.11) Houston Objectivist Society 
+(9.12) Individualistik Forum 
+(9.13) Marblehead Objectivist Bunch
+(9.14) Metroplex Objectivist Society
+(9.15) Mid Valley Objectivists 
+(9.16) New Mexico Objectivist Club 
+(9.17) Objectivist Students by the Bay 
+(9.18) Pacific Northwest Objectivists 
+(9.19) Sacramento Objectivist Society 
+(9.20) SARPO 
+(9.21) Southern California Objectivist Association 
+(9.22) South Florida Objectivists 
+(9.23) Students of Objectivism in Georgia 
+(9.24) Tampa Bay Objectivists 
+(9.25) Toronto Objectivist Association
+(9.26) Washington (D.C.) Objectivist Club
+(9.27) United Kingdom Objectivist Association 
+(9.28) Winnipeg Objectivist Group
+
+-10- OBJECTIVIST CAMPUS CLUBS
+
+====================================================================
+
+-1- General Information
+
+(1.1) WHAT THIS LIST IS, WHY IT WAS CREATED
+
+This list is a compendium of books, organizations, clubs, and businesses which
+promote and champion Ayn Rand's philosophy of Objectivism. It conscientiously
+distinguishes between actual Objectivist organizations and those which merely
+claim to promote Rand's philosophy, but actually break from it in fundamental
+principles. Its purpose is to expose those interested in Objectivism to a rich
+source of Objectivist ideas and products that will further their intellectual
+growth and enjoyment. Good premises, All!
+
+-- Jay Andrew Allen, New York, NY 2/20/94
+
+
+-2- DISCLAIMERS AND LEGAL NOTES
+
+
+(2.1) DISCLAIMERS
+
+This list is in no way connected to or endorsed by The Ayn Rand Institute or the
+Estate of Ayn Rand, although its author supports the former organization.
+
+That an organization appears on this list is no guarantee that it approves of
+its inclusion or of the description given to it. If the leaders/owners of any
+organization disagree with either, please contact Jay Allen at
+<org-comment@oms.com>. If it is a problem with description, a new description
+can be worked up; if it is a problem with inclusion, the organization has a
+right to request that it be removed.
+
+This is not a list of advertisements. I do not get paid by any of the enclosed
+organizations for providing specific descriptions of their products and services
+(though money wouldn't be refused -- hint, hint :-).
+
+(2.2) COPYRIGHT AND AVAILABILITY
+
+This list is available for free distribution across the world-wide Internet --
+but ONLY if it is reproduced IN FULL, and WITHOUT ANY ALTERATION. Campus and
+community clubs may make complete paper copies of this list for distribution to
+members who lack Internet access. This list is copyright by me, and is my
+property; copies containing additions, subtractions, etc. are violations of
+copyright law and will not be tolerated. If you ever find altered versions of
+this list, please contact Jay Allen at <jallen@ingress.com> so that the
+appropriate action can be taken.
+
+This list is sent to all Usenet newsgroups related to philosophy, as well as to
+the groups sci.answers and alt.answers, every two weeks. It is also available
+via FTP from the *.answers FAQ site:
+
+<ftp://rtfm.mit.edu/pub/Usenet/alt.answers/objectivism/obj-resource-guide>
+
+and from the FTP directory for Objectivism-related materials at
+
+<ftp://ftp.rahul.net/pub/aradmin/Objectivism/info/org-latest.txt>. 
+
+A special World Wide Web version is also available at:
+
+<http://power.stu.rpi.edu/~oms/org/>. 
+
+The list's contents are updated periodically.
+
+
+(2.3) SOURCES AND THANKS
+
+The list is a compilation of organizations, etc. gathered by myself over a
+two-year period. Descriptions are mine, unless otherwise indicated.
+
+I would like to thank all the people who have helped in the continued
+maintenance of the ORG. The various updates and typographical corrections these
+people have provided me are key to keeping the ORG a readable, up-to-date
+inventory of Objectivist organizations, and I look forward to receiving more
+good information and advice from them in the future.
+
+
+-3- OBJECTIVISM
+
+Chris Walker's Objectivism FAQ contains a short summary of Objectivism. A fuller
+summary, written by me, is available as a separate document. Full lists of
+Rand's works, of works by other Objectivist intellectuals, and of excellent
+works written by non-Objectivists, are listed in the FAQ and in Todd Goldberg's
+Ayn Rand Chronology.
+
+Chris Walker's Objectivism FAQ:
+ftp://ftp.rahul.net/pub/aradmin/Objectivism/info/obj-faq-latest.txt
+
+Todd Goldberg's Ayn Rand Chronology:
+ftp://ftp.rahul.net/pub/aradmin/Objectivism/info/rand-chronology.txt
+
+Jay Allen's Summary of Objectivism:
+ftp://ftp.rahul.net/pub/aradmin/Objectivism/info/rand-summary.txt
+
+I must emphasize that a full, systematic statement of Ayn Rand's philosophy is
+to be found in Leonard Peikoff's book _Objectivism:_The_Philosophy_Of_
+_Ayn_Rand_ (colloquially called OPAR), Dutton Books, 1991. Dr. Peikoff is Rand's
+material and intellectual heir; his taped lecture series on the Philosophy of
+Objectivism (on which the book is based) was the only such presentation to which
+Rand gave an unqualified endorsement. However, as Dr. Peikoff himself points out
+in the book's introduction, the definitive source for information about
+Objectivism is still the works of Ayn Rand, its sole originator and spokesman.
+
+-4- PUBLICATIONS
+
+(4.1) The Atlantean Press Review
+
+The Atlantean Press Review is a magazine devoted to printing the latest in
+Romantic Realism the school of art which depicts men "as they might be and ought
+to be." As one of its own fliers reports, the Review's discriminating selection
+of art works from various fields "brings readers a rare experience in today's
+culture: the vision  of man as a hero, and life as a breathtaking adventure."
+
+Formerly an annual compendium, the Review is now a quarterly magazine.
+Subscription is $17 for one year and $30 for two years. Back issues are also
+available. For more information, contact:
+
+The Atlantean Press
+2435 South Springwood Court
+Lafayette, CO  80026
+Phone: (303) 604-0788
+
+(If you are placing an order, make sure you address it to the "Order
+Department.")
+
+The Atlantean Press also publishes rare, hard-to-find works in the field of
+Romantic literature. Recent endeavors include _The_Man_Who_Laughs_ and
+_The_Toilers_of_The_Sea_, two novels by Victor Hugo formerly out of print.
+Future projects include a play by Edmond Rostand, author of
+_Cyrano_de_Bergerac_. Write The Atlantean Press for more information.
+
+(4.2) Atlantis: An Objectivist Symposium
+
+Described as "a medium of exchange of rational ideas." For more information,
+write:
+
+Axiomatic Productions, Attn: Editors
+P.O. Box 94332 
+Seattle, Washington 98124-6632
+
+(4.3) The Intellectual Activist
+
+The Intellectual Activist began at the tail end of the 70's as a magazine
+dealing with contemporary political, economic, and social issues from an
+Objectivist standpoint. In the past few years, it has included essays on
+philosophy and philosophy-related topics, such as Leonard Peikoff's "Why Should
+One Act on Principle," Dr. Gary Hull's speech on the state of contemporary
+philosophy, and an article By Tore Boeckmann on motivation in Romantic and
+Naturalist literature.
+
+Subscriptions are $24 for one year ($30 for Canadian and Mexican residents, $39 
+for overseas residents). Full-time students  need pay only $17 if they include a
+copy of a valid student ID. Write to:
+
+TIA Publications, Inc. 
+PO Box 262 
+Lincroft, NJ 07738-0262
+E-mail: info-tia@osg.com
+
+(4.4) Lyceum
+
+Lyceum is the newsletter of Foreningen for Objektivismen (9.8). Publishing
+articles in both English and Swedish, it provides people with interest in Ayn
+Rand's ideas with an active forum of ideas and a wealth of information about
+what happens in the "Objectivist World". There are occasional articles
+by prominent Objectivists like Edwin Locke, Richard Salsman, Robert Garmong,
+Betsy Speicher, etc. -- but also articles written by local "Objectivists" in
+Scandinavia. Editor is Jerry Nilson, other staff members are Martin
+Lindeskog, Ola Qvarnstrom, Henrik Anderson. For more information, contact:
+
+Lyceum
+Box 147,
+433 23 Partille,
+Sweden.
+Fax: +46-31-265682.
+E-mail: <Jerry.Nilson@phil.gu.se>
+
+(Write-up by Jerry Nilson and Jay Allen)
+
+(4.5) Objektivistisk Skriftserie
+
+Objektivistisk Skriftserie is an Objectivist series of occasional papers in
+Swedish. 
+
+Objektivistisk Skriftserie
+c/o Per-Olof Samuelsson
+Tingstugatan 46 B
+645 34 Strangnas
+Sweden
+
+(4.6) The Objectivist Forum (1980-1987)
+
+The Objectivist Forum was a magazine edited by Dr. Harry Binswanger, with Ayn
+Rand as philosophic consultant. It discussed modern culture from an Objectivist
+standpoint and ran many philosophical articles and essays, such as excerpts from
+Leonard Peikoff's then-unreleased _Ominous_ _Parallels_. It contains articles by
+and interviews with Rand and Peikoff that are unavailable elsewhere.
+
+The magazine ceased publication in 1987, but is now available in a bound volume
+for $48 (American rate) from: 
+
+TOF Publications 
+PO Box 1895, Murray Hill Station 
+New York NY 10156
+
+(4.7) The Objectivist Newsletter; The Objectivist; The Ayn Rand Letter 
+      (1962-1976)
+
+These were the magazines owned and edited by Ayn Rand. They are all available in
+bound format from Second Renaissance Books (see below, section 5.4)
+
+-- THE OBJECTIVIST NEWSLETTER (1962-1965): Many of the articles have been
+reprinted in Ayn Rand's books, particularly in _Capitalism:_The_Unknown_Ideal_
+and _The_Virtue_Of_Selfishness_. It does contain, however, many book reviews and
+interesting answers to reader's questions that have never been published
+elsewhere.
+
+-- THE OBJECTIVIST (1966-1971): This 1,120-page book is perhaps the richest of
+the three in content. Included: Ayn Rand's essays on epistemology, reprinted as
+_Introduction_To_Objectivist_Epistemology_; "Metaphysics in Marble" by Mary Ann
+Sures, an essay applying Objectivist esthetics to the art of sculpture; "To Whom
+It May Concern," Ayn Rand's explanation of why she broke all intellectual ties
+with Nathaniel Branden. The bound volume comes with a six page essay, "The
+Rational Faculty," which is Ayn Rand's thinking out loud" about the
+philosophical link between individualism and reason.
+
+--THE AYN RAND LETTER (1971-76): This volume is best known for applying
+philosophical principles to international issues of the day.
+
+
+-5- PRODUCTS AND SERVICES
+
+(5.1) Capitalism, Inc.
+
+Capitalism Inc. sells many unique products advertising Objectivist positions on
+various issues. From a Christmas card entitled "Ebeneezer Scrooge Was A Virtuous
+Man" to bumper stickers with such daring slogans as "The Socialist Redistributes
+What The Capitalist Creates", Capitalism Inc.'s products offer convincing
+affirmations of Objectivist values.
+
+Capitalism Inc. 
+4231 Legend Lane 
+Golden Valley, MN 55422 
+Phone: (612) 529-7046
+
+(5.2) Peikoff Lectures (Out of Business)
+
+Peikoff Lectures rented Dr. Peikoff's taped lecture courses. Lectures included
+"Introduction To Logic," "Ancient Philosophy: Thales To Hume," "Modern
+Philosophy: Kant to the Present," and the perennial "Understanding Objectivism,"
+a great course for those trying to overcome bad methods of thinking that stand
+in the way of understanding Objectivist ideas. It also rented Ayn Rand's
+Lectures on Fiction Writing, given by her in her apartment in the early 60's.
+
+Though Peikoff Lectures no longer sells these tapes, they are steadily 
+being made available for sale through Second Renaissance Books (see below);
+contact them for more information.
+
+(5.3) RIC Trading Company
+
+"RIC Trading Company offers products that support and encourage rational
+conversation about the principles of Objectivism.  The RIC Symbol (the company's
+trademarked logo) is a unique, visual reminder of an objective view of mankind
+and his relationship to the universe, including his relationship to himself and
+others."
+
+(Written by Kevin Watson, President, and Mark A. Hurt, CEO, RIC Trading Co.)
+
+RIC (which stands for: Reason, Individual Rights, Capitalism) sells shirts,
+pins, and other products bearing a unique logo: two human figures, side by side,
+holding a dollar sign in mutual comradery.
+
+Recently, RIC has initiated a new line of t-shirts. These new tees sport
+stylistic designs which powerfully complement the messages they seek to
+communicate. Especially noteworthy are the "Lasseiz-Faire" shirts, which depict
+a link of chains breaking from the force of the "Lasseiz-Faire" logo.
+
+For information on these and other available products, contact:
+
+RIC Trading Company 
+P.O. Box 270743 
+Nashville, TN  37227-0743 
+Phone: 615-781-0080 
+Fax:   615-781-0083 
+E-mail: ric@attmail.com
+
+(NOTE from Kevin Watson and Mark Hurt: The RIC logo is not the official logo of
+the philosophy of Objectivism.)
+
+(5.4) Second Renaissance Books -- Ideas For the Rational Mind
+
+Second Renaissance, an Objectivist book service, sports the largest selection of
+Ayn Rand's writings and taped lectures available anywhere, and carries an
+extensive selection of books which, in the words of editor- publisher Peter
+Schwartz, "present...the efficacy and value of reason -- the benefits of free
+scientific inquiry and technological progress -- the virtues of individual
+achievement and its guarantor: individual rights -- the practicality of freedom
+and capitalism."**
+
+For the latest copy of their quarterly catalog, contact SRB at their NEW
+ADDRESS:
+
+Second Renaissance Books 
+143 West Street P.O. Box 1988 
+New Milford, CT 06776
+Customer information and ordering phone: (800) 729-6149 
+Outside the Continental US: (203) 355-7164
+Ordering by fax: (203) 355-7160
+
+(*Taken from "Our Editorial Standards," printed in every edition of the SRB
+catalog.)
+
+(5.5) Values Mind Products
+
+Founded in Israel by Ohad Kamin, Values is "an international organization
+dedicated to the spreading of esthetic values and applications of Objectivism to
+various fields." **
+
+In addition to proselytizing activities, Values sells prints of works of
+Romantic art. For a catalog and more information on Values, contact:
+
+Yaron Brook 
+Values U.S. Representative 
+5829 Recife Way 
+San Jose, CA 95120 
+Phone: (408) 268-6854
+
+(**From a description in *Atlantean Press Review 1992*)
+
+
+-6- INTERNET SERVICES
+
+(6.1) Americans for Free Choice in Medicine FTP Site
+
+Douglas Meier maintains an FTP site for the ad hoc group Americans for Free
+Choice in Medicine (AFCM; see (3.9)A below). The site includes several documents
+dealing AFCM's position on the health care issue, written by physicians who are
+leading the fight against socialized medicine in the United States.
+
+The URL is: ftp://ftp.acns.nwu.edu/pub/afcm/
+
+(6.2) IRC Channel #Aynrand
+
+For over a year now, channel #AynRand on the Internet Relay Chat (IRC) has
+offered a rational forum for the real-time discussion of Objectivism.
+Objectivists and students of Rand's philosophy meet from around the world on a
+nightly basis to discuss crucial Objectivist ideas. Every Friday night, at 11PM
+ET, there is a scheduled discussion around a specific topic; past topics include
+the nature of sex, the importance of hierarchy, and the so-called " Republican
+Revolution," among any others. Occasionally, the channel hosts fee-based events
+as well, such as Robert Garmong's January 21st lecture on "Capitalism as the
+System of Justice."
+
+Currently, #AynRand is stationed on the Undernet, a network of IRC servers
+distinct from the main body of servers known as the EFNet. To reach #AynRand
+from a Unix machine, type "irc" at the prompt, and then type the following from
+within IRC:
+
+/SERVER us.undernet.org 
+/JOIN #AynRand
+
+For information on how to reach IRC from a non-Unix (e.g., VAX) machine, ask
+your system administrator for details. For some background on the channel,
+including the principles by which it operates, check out the #AynRand channel
+FAQ at:
+
+ftp://ftp.rahul.net/pub/aradmin/Objectivism/info/aynrand-channel-faq.txt
+
+For general information on IRC, read the IRC Primer at:
+
+ftp://ftp.undernet.org/irc/support/IRCprimer1.1.txt
+
+(6.3) Objectivism FTP Directory
+
+The administrators of IRC channel #AynRand run an FTP directory for documents
+and essays relating to Ayn Rand's philosophy. Currently, it houses my ORG, Chris
+Walker's Objectivism FAQ, and transcripts from the Friday night discussion on
+the IRC channel #AynRand.
+
+The URL for the site is:
+
+ftp://ftp.rahul.net/pub/aradmin/Objectivism/
+
+If you have a document relating to Objectivism that you would like to place at
+the site, send e-mail to <org-submit@oms.com> containing a short summary of the
+document. Everything from informational files to original essays will be
+accepted.
+
+(6.4)  Objectivism Study Group
+
+The purpose of this e-mail discussion group is to provide a forum for
+individuals to discuss Objectivism with others who are also seriously interested
+in ideas. The owner of this service, Bob Stubblefield, expects list members to
+adhere strictly to its charter. Although members need not be Objectivists,
+pseudo-Objectivists are excluded.  The charter should be read, accepted, and
+*understood* before subscribing.
+
+To get a copy of the charter, send a message to info-osg@osg.com. You will also
+receive a membership form; if you qualify and want to join, fill out the form
+and e-mail it back to the appropriate address. Membership will begin soon
+afterwards. The first month is free; afterwards, the cost is $48 for one year
+($24 for full-time students).
+
+(Write-up by Jay Allen, with editing by Bob Stubblefield)
+
+(6.5) Objectivist Web Sites
+
+1) Jay Allen's Objectivism Resource Guide
+   <http://power.stu.rpi.edu/~oms/org/>
+   This is the Web version of this guide. It contains an expanded introduction to the
+   philosophy of Objectivism, a biography of Ayn Rand, and assorted multimedia.
+   
+2) University of Minnesota Objectivist Club (UMOC)
+   <http://www.umn.edu/nlhome/g032/objectiv/>
+   Resources at this site include past issues of the club's newsletter, upcoming
+   club events, and articles written by Dr. Michael Berliner (executive director of
+   the Ayn Rand Institute) and Dr. Leonard Peikoff. A good site with lots of
+   promise.    
+   
+   
+-7- EVENTS
+
+(7.1) The Jefferson School
+
+1995's Jefferson School has been cancelled due to a personal rift between the 
+conference co-ordinators, George Reisman and Edith Packer, and most major living
+Objectivist philosophers. Currently, it seems that the TJS conferences are
+no more.
+
+Drs. Reisman and Packer have announced the beginning of a new book-selling
+business, The Rational Alternative, for which I have no further information at
+this point. I will include this information in the ORG as it becomes available.
+
+(7.2) Second Renaissance Conferences
+
+A corporate entity distinct from Second Renaissance Books, SRC was created as a
+substitute for the now-defunct Conceptual Conferences. 1994's lecturers included
+Leonard Peikoff on Reading and Writing, Harry Binswanger on understanding Ayn
+Rand's ideas, and an introductory course in Objectivism for new students, given
+by Bob Stubblefield.
+
+For information on future events, write:
+
+SR Conferences 
+130 Federal Rd., Suite 56 
+Danbury, CT 06811
+
+(7.3) Texas Objectivist Conference (formerly Texas Objectivist Societies
+Conference)
+
+The Hill Country Objectivist Association has just issued a call for papers,
+workshops, and entertainment for the October 1994 Texas Objectivist Conference.
+
+The Texas Objectivist Conference has a reputation for providing an inexpensive,
+high-quality alternative to the larger national conferences. Its speakers
+consist of students of Objectivism who seek to apply the philosophy to a wide
+variety of fields, and who can present their material at a level of interest to
+all Objectivists.
+
+For more information, write:
+
+Hill County Objectivist Association 
+4815 West Braker Ln., Suite 502-112 
+Austin, Texas 78759
+E-mail: <brandy@bga.com>
+
+(7.4) Ford Hall Forum
+
+Every year, Ayn Rand would give a speech at the Ford Hall Forum in Boston. Since
+her death, Dr. Leonard Peikoff has carried on the tradition. (All of his
+speeches up until 1991 are reprinted in _The_Voice_of_ _Reason_:
+Essays_In_Objectivist_Thought_, which also contains many of Ayn Rand's old Ford
+Hall speeches.) Dr. Peikoff's latest speech,  held on November 7 1993, was
+"Modernism and Madness," which discussed the close link between modern art and
+schizophrenia.
+
+For more information, call the Ford Hall Forum at (617)-437-5800.
+
+NOTE: Ford Hall is not an "Objectivist organization," but an independent
+organization dedicated to protecting free speech.
+
+(7.5) 21st Century Conferences/Lyceum International 
+
+21st Century Conferences is a new organization sponsoring low-priced Objectivist
+conferences throughout the world. Whereas other Objectivist conferences 
+occur only once a year in fixed locations, 21-C conferences occur every other
+month in locations as varied as Austin, Baltimore, and London. The actual cost
+of attending the conference hovers around $170 for three days of lectures by
+top Objectivist philosophers.
+
+
+Lyceum Conferences, the parent company of 21-C, has recently announced that it
+will host a 1995 summer conference in San Francisco from August 12-19 to
+substitute for the cancelled TJS conference. Speakers will include Drs. Leonard
+Peikoff, Harry Binswanger, Andrew Bernstein, John Ridpath, Gary Hull, Mr.
+Richard Salsman, and Mr. Peter Schwartz.
+
+For more information, contact:
+
+Lyceum International 
+Post Office Box 4315
+South Colby, WA 98384-031
+Phone: (206) 876-5868
+Fax: (206) 876-2902
+
+
+-8- ORGANIZATIONS
+
+(8.1) American Renaissance for the Twenty-First Century (ART)
+
+ART, founded by art critic and exhibit curator Alexandra York, describes its
+purpose as follows: "To promote and _advance_ established western art forms;
+realism in painting and sculpture; melody and harmony in music; grace in dance;
+structure, coherence, and meaning in theatre, poetry, and literature -- and the
+expression of Beauty in all." It is a staunch advocate of Romantic Realism in
+the arts.
+
+One of its best products to date is a catalog highlighting pieces from an
+exhibition called "ROMANTIC REALISM: Visions of Values," given to anyone who
+makes a $10 contribution to ART. In addition, ART recently began publishing a 
+newsletter, "ART Ideas", available to regular contributors.
+
+To find out more about ART, contact:
+
+ART 
+F.D.R. Station 
+P.O. Box 8379 
+New York, NY 10150-1919
+
+(8.2) Americans for Free Choice in Medicine
+
+(NOTE: This is not an Objectivist organization; however, its goals and methods
+are so much in tune with the Objectivist ethics and politics that I thought it
+more than fitting to place here. Hopefully, in the near future, more such groups
+will spring up, meriting a section of their own in the ORG.)
+
+"Americans for Free Choice in Medicine (AFCM) is an organization dedicated to
+the defense of individual rights in the realm of medical care. We uphold the
+values of individual liberty, personal responsibility, and non-coercive free
+markets. AFCM is a vehicle through which any individual can help introduce
+free-market principles into the medical market place. AFCM's main mission is to
+educate the public about free-market solutions to the problems in our health
+care system and about the dangers of socialized medicine."
+
+(Taken from the AFCM Mission Statement, available at
+ftp://ftp.rahul.net/pub/aradmin/Objectivism/activism/afcm-info.txt)
+
+AFCM can be reached by writing or calling:
+
+Americans for Free Choice in Medicine 
+1525 Superior Ave., Suite 100 
+Newport Beach, CA 92663 
+Phone: (714) 645-2622
+
+(8.3) The Ayn Rand Institute: The Center for the Advancement of Objectivism
+(ARI)
+
+A non-profit organization, ARI is the premier organization devoted to spreading
+Ayn Rand's ideas throughout the culture. Its many activities include:
+
+--The operation of a Campus Club Bureau, which keeps all Objectivist college
+clubs stocked with Objectivist literature and lends taped lectures for public
+broadcasting;
+
+--The operation of a Campus Speakers Bureau: past speakers have included Harry
+Binswanger on "Why 'Buy American' is _Un_-American," George Reisman on
+"Education and the Racist Road to Barbarism," and Peter Schwartz, Richard
+Salsman, and Richard Sanford on "The Case Against Environmentalism: Moral,
+Economic, and Scientific."
+
+--The sponsoring of auctions and banquets, such as The Fountainhead 50th
+Anniversary Banquet being held in Boston this November;
+
+--Two contests: A _Fountainhead_ Essay contest open to 11th and 12th graders,
+and an _Anthem_ essay contest for 9th and 10th graders.
+
+ARI's financial support comes solely from private donations. Donors receive
+ARI's quarterly newsletter, containing updates on events in the Objectivist
+community. For more information, contact:
+
+The Ayn Rand Institute 
+4640 Admiralty Way Suite 715 
+Marina del Rey, CA 90292
+Phone: (310) 306-9232
+
+(8.4) The Association For Objective Law (TAFOL)
+
+An organization of Objectivist lawyers. Past events and projects include a class
+on the link between press freedom and defamation law, and donation of services
+to help fight mandatory _pro_bono_ in Texas and mandatory "community service" in
+Pennsylvania.
+
+For more information, write:
+
+TAFOL 
+P.O. Box 1225 
+Purcellville, VA 22132-1225
+
+(8.5) The Association of Objectivist Businessmen (AOB)
+
+AOB was founded in 1988 by businessman and lecturer Richard M. Salsman to 
+support Objectivism in the business community. It has defended Wall Street, real 
+estate development, and other legitimate forms of business on the basis of Ayn 
+Rand's morality of selfishness.
+
+For more information on AOB and their newsletter, contact:
+
+Association of Objectivist Businessmen 
+P.O. Box 579 
+Morreston, NJ 08057-0579
+Phone: (609) 234-0330
+Fax: (609) 727-9504
+
+(8.6) Objectivist Health Care Professionals Network (OHCPN)
+
+OHCPN seeks to inform health-care professionals about the dangers of government
+force in the medical industry, and give them the philosophical weapons needed to
+fight it.  It distributes pamphlets, fliers, and essays, including a "Health
+Care Professional's Self-Defense Kit," and has an email mailing list open to
+professionals and anyone else interested in fighting the growth of
+government-controlled medicine.
+
+For more information on OHCPN, contact:
+
+OHCPN Newsletter 
+P.O. Box 4315 
+South Colby, WA 98384-0315 
+Phone: (206) 876-5868
+
+To get the Health care Professional Survival kit, send $7 to:
+
+OHCPN 
+500 Metropolitan Avenue, Suite 453 
+Brooklyn, NY 11211 
+(make checks payable to Salvatore J. Durante)
+
+(8.6) The Society for Objective Science (SOS)
+
+President: Rick Sanford Newsletter: SOS Alert Membership dues: $35/yr. For
+information, contact:
+
+Society for Objective Science 
+P.O. Box 579 
+Morreston, NJ  08057-0579 
+(609) 234-0330
+
+
+-9- OBJECTIVIST COMMUNITY CLUBS
+
+This is a list of private clubs that discuss and/or promote Objectivism in their
+area.
+
+DISCLAIMER: While I try my best to verify the authenticity of each entry in this
+section, I cannot make any guarantees. If I do discover after the fact that a
+club I have included is of dubious nature (i.e., is sponsoring some sort of
+Kelleyite or "alternative Objectivism" activities), their listing WILL be
+removed.
+
+If you have further information on any of the clubs listed here, please send it
+to me so I can include it in the next update.  Also, if any of these clubs have
+gone belly-up, drop me a line so that they can be removed.
+
+*************
+
+(9.1) Alabama Objectivists
+
+Meets biweekly. Newsletter: Alabama Objectivist 
+No contact information currently available.
+
+(9.2) Austin Objectivist Society (TAOS)
+
+"The Austin Objectivist Society (TAOS) holds monthly meetings on the third
+Sunday night of each month.  'The purpose of The Austin Objectivist Society is
+to promote the understanding and increased awareness of the Objectivist
+philosophy through educational activities in the Austin metropolitan area.'
+
+"It publishes the 'GoodPremises' newsletter, not to be confused with a
+newsletter of a similar name out of Chicago, on a monthly basis.
+
+"For membership information, please write to:
+
+"The Austin Objectivist Society 
+12300 Painted Bunting 
+Austin, TX 78726" 
+
+(Taken from Chris Walker's Objectivism FAQ)
+
+(9.3) Ayn Rand Admirers of Rhode Island
+
+Meets monthly. 
+Call Harris Kenner at (401) 647-5387
+
+(9.4) Carolina Objectivist Group
+
+Meets monthly. 
+Call David Baucom at (704) 365-9884
+
+(9.5) Chicago Objectivist Society
+
+"COS was organized in September, 1992, for the purpose of bringing Objectivists
+together for study, friendship, and promotion of the philosophy of Ayn Rand.
+
+"We hold monthly meetings (usually on Saturday evenings), featuring live
+presentations by members of the group with discussion following, or discussion
+of essays or lectures by Ayn Rand, Leonard Peikoff, or other Objectivists.
+
+"Membership is open to anyone who desires to understand and apply the ideas of
+Ayn Rand. Prospective members are given a full statement of purpose and
+principles, and are asked to complete a membership form, which gives us
+information about the backgrounds of the members. (We use the information to
+plan programs that will interest people, not as a membership "test.") Annual
+dues of $10 are required to remain on our mailing list after a three-month
+(free) trial period....
+
+"Our newsletter, _Good_Premises_, is mailed monthly to all members. It features
+news of COS activities, appearances by Objectivist speakers at area colleges,
+and original articles by our members."
+
+Contact  Thomas Shoebotham or Cathy Cretsinger 708-665-6073. (leave message), or
+send e-mail to: <cretsinger@fnald0.fnal.gov>
+
+(Write-up by Cathy Cretsinger, with minor deletions by Jay Allen)
+
+(9.6) Chicago Students of Objectivism
+
+Began as an organization devoted to listening to lecture courses from Peikoff
+Lectures, until the latter went out of business. According to Director William
+Breihan, "We are currently having classes, with Dr. Peikoff's permission, on
+UNDERSTANDING OBJECTIVISM [Peikoff's course on how to properly and fully
+understand Objectivist ideas].  We are dedicated to learning Objectivism as a
+non-contradictory, integrated system.  We welcome participation from anyone
+interested in Miss Rand's ideas, but will not permit any any activities that
+compromise the integrity of Objectivism."
+
+William R. Breihan, Director 
+1550 Northwest Highway, Suite 108G 
+Park Ridge, IL 60068 
+Phone: (708) 297-1616
+
+(9.7) Detroit Area Objectivist Group
+
+Meets every 3rd Wednesday. 
+Call Paul Gruchala at (313) 563-9104
+
+(9.8) Foreningen For Objektivismen (FFO)
+
+FFO arranges seminars on Objectivism, participate in a big international
+Book Fair each year in Gothenburg, shows videos, and publishes a
+newsletter/magazine called 'Lyceum', among other activies. For more information,
+contact:
+
+Jerry Nilson
+Pl. 987
+438 35 Landvetter, Sweden
+Fax: +46-31-265682
+E-mail: <Jerry.Nilson@phil.gu.se>
+
+(Write-up by Jerry Nilson, with editing by Jay Allen)
+
+(9.9) Foreningen For Studium av Objektivismen (FSO)
+
+Foreningen for Studium av Objektivismen (FSO), is a Norwegian association for
+the study of Objectivism. Newsletter "A er A" edited by Vegard Martinsen. 
+
+FSO
+PO Box 26 
+Blindern, N-0313 Oslo, Norway 
+Tel: (47) 2244 3683 
+E-mail: fso@smaug.uio.no
+
+(9.10) Gotham Objectivist Club.
+
+A biweekly club in New York City. GOC hosts several lecturers throughout the
+year. Recent speakers include Andrew Bernstein on abortion and Richard Salsman
+on the Austrian school of economics. Call Al Jakira at (718) 624-3388 for
+more information.
+
+(9.11) Houston Objectivist Society
+
+Meets bimonthly. 
+Newsletter: HOS Newsletter 
+Contact: Warren Ross  
+Phone: (713) 879-0444
+E-mail: wsross@aol.com
+
+(9.12) Individualistisk Forum
+
+INDFO - Individualistisk Forum, is an objectivist organisation arranging, among
+other things, essay competitions. 
+
+Klaus Nordby
+Trondhjemsv 137 
+N-0570 Oslo, Norway
+
+(9.13) Marblehead Objectivist Bunch (MOB)
+
+"Purposes: 1. better understanding of Objectivism 2. Support of Boston area
+student groups 3. Social interaction with Objectivists.
+
+"Hosts:  Marilyn George and Ted Gray 
+Meeting dates: every 3rd Sunday.  (Changes due to holidays are announced in 
+advance but usually occur in Nov and Dec.)
+Time: 1-5pm.  (Meetings usually are split between 2hrs social and 2hrs of some
+Objectivist activity.  Occasionally we vary this routine with a party or
+picnic.) 
+Location:  34 Chestnut St., Marblehead, Mass. (our home) 
+Refreshments: pot luck (students excepted). 
+Transportation: Pick available at 12:40pm at the Swampscott train station but 
+call first.  (There is a return train at 6pm.) 
+More info call: 617-631-0692 or 617-594-2038."
+
+(Write-up by Ted Gray)
+
+(9.14) Metroplex Objectivist Association
+
+"MOS, the Metroplex Objectivist Society, is a privately run organization for the
+purpose of supporting and promoting the ideas found in Ayn Rand's philosophy,
+Objectivism. Dues are $15/year. Though we endorse the Ayn Rand Institute, we are
+not affiliated with ARI.
+
+"This organization is based in the Dallas/Forth Worth metropolitan area and
+encourages participation with anyone willing to arrive from further distances as
+well.
+
+"We do not currently have a regular news letter, but we do have a voice mail
+center with information of MOS events and general news. Contact MOS VoiceUpdate
+at (214) 949-0036. Our president is Michael Duus who runs VoiceUpdate and
+listens to messages left there on a regular basis. If you would like to send
+e-mail to MOS, contact Thomas M. Miovas, Jr. at: <tmiovas@attmail.com>."
+
+(From an OSG post by Thomas Miovas)
+
+(9.15) Mid Valley Objectivists
+
+Meets bimonthly. 
+Call Rinda Montgomery at (503) 623-4000
+
+(9.16) New Mexico Objectivist Club
+
+Meets monthly.
+
+(9.17) Objectivist Students by the Bay (OSB)
+
+Meets monthly in the San Francisco Bay area. Contact:
+
+Objectivist Students by the Bay (OSB)
+Patrice Larson
+2120 Southwest Expwy #15
+San Jose, CA 95126
+(408) 294-6422
+
+(9.18) Pacific Northwest Objectivists
+
+A blanket name for the following groups:
+
+OPAR STUDY GROUP Meets every 4th Sunday. Call Pamela Benson at (206) 876-6012
+
+INTELLECTUAL MARKET PLACE 
+Meets every 2nd Saturday 
+Call Shrikant Ragnikar at (206) 649-9101
+
+ART LOVER'S CLUB 
+Meets every 1st and 3rd Sunday. 
+Call Arrow Pride at (206) 742-5023
+
+AUSTRIAN ECONOMICS STUDY 
+Meets monthly. 
+Call Amy Skaar at (206) 842-7806
+
+All four groups are covered by the newsletter Passion for Reason.
+
+(9.19) Sacramento Objectivist Society
+
+Meets Monthly 
+Newsletter: The Egoist 
+Contact: 
+
+Sacramento Objectivist Society 
+949 University Avenue, #210 
+Sacramento, California  95825
+
+(9.20) SARPO
+
+Swiss Society for the Study of Ayn Rand's Philosophy: Objectivism (French,
+German and Italian translation available upon request :-)
+
+"We meet fortnightly, on Saturday, rotating among various cities: Basel, Biel,
+Neuchatel.  Current activities: studying OPAR, individual presentations,
+listening to taped lectures, watching good movies, eating good food.
+
+"Contact:
+
+"Magnus Kempe CH--1416 Pailly Switzerland phone: +41 21 887 8442"
+
+(Write-up by Magnus Kempe)
+
+(9.21) Southern California Objectivist Association (SCOA)
+
+"SCOA has a quarterly newsletter, a PhoneNet which announces fast- breaking
+(usually local) news, many ongoing activist projects, activities at The
+Jefferson School, annual Picnics, Christmas Parties, and Beach Parties, and
+chances to meet Objectivist intellectuals and discuss important ideas at our
+meetings.
+
+"We are beginning our seventh year and we have almost 300 members and a mailing
+list of over 600.
+
+"To get a copy of our newsletter and membership information, write:
+
+"SCOA 
+P.O. Box 9941 
+Canoga Park, CA  91309"
+
+(Write-up by SCOA President Betsy Speicher)
+
+(9.22) South Florida Objectivists
+
+Meets bimonthly. 
+Call Howard Jeck at (407) 482-6912
+
+(9.23) Students of Objectivist In Georgia
+
+Meets every 3rd Sunday. 
+Call Karyn Voss at (404) 432-9468
+
+(9.24) Tampa Bay Objectivists
+
+Meets monthly. 
+Newsletter: Tampa Bay Objectivists 
+Call Stuart Daw at (813)
+573-0101
+
+(9.25) Toronto Objectivist Association
+
+"The Toronto Objectivist Association (TOA) is dedicated to the study and
+promotion of Objectivism - the Philosophy of Ayn Rand - whose essential tenets
+are objective reality, reason, rational self-interest and laissez-faire
+capitalism.
+
+"TOA was organized to function as a permanent resource for Objectivists in the
+Toronto area. TOA will provide information about events and organizations of
+interest to Objectivists and, more importantly, will arrange educational
+activities and social events where Objectivists can meet in a rational
+environment. It is also TOA's aim to promote Objectivism more widely in the hope
+of bringing about genuine social change in our own time.
+
+"Currently scheduled activities include a quarterly newsletter, a monthly
+educational event and a monthly social event.
+
+"For more information please write to:
+
+Toronto Objectivist Association 
+Suite 0116-195 65 Front Street West 
+Toronto, Ontario M5J 1E6
+
+"Or contact:
+
+Victor Greenberg          <76260.1310@compuserve.com> 
+Steve Gedeon              <73514.2513@compuserve.com>"
+
+(Taken from a general announcement received privately from Hugh Brown and posted
+publicly to OSG.)
+
+(9.26) Washington (D.C.) Objectivist Club
+
+Newsletter: WAOC Newsletter 
+Call Jack Crawford at (301) 946-3984
+
+(9.27) United Kingdom Objectivist Association
+
+Holds a weekly study group. Contact:
+
+Dwyane Hicks
+Phone: 011 44171 232 2565
+Email: Hicks-Thames@easynet.co.uk
+
+(9.28) Winnipeg Objectivist Group
+
+Meets every second Wednesday at 7pm, with an annual meeting at Ellen Moore's
+ranch. Contact:
+
+Ellen Moore
+464 Hargrave St.
+Winnipeg,Manitoba        
+Canada
+Phone: (204) 943-5449
+       (204) 947-0313
+E-mail:<rrallan@ee.umanitoba.ca>
+      
+
+-10- Campus Clubs
+
+[Updated 2/23/94 -- I'm working on getting a more recent list]
+
+Below is the latest list of campus clubs acknowledged by the Ayn Rand Institute.
+Each entry is taken verbatim from a list supplied to me by former ARI campus
+club coordinator Ginger Clark.
+
+If you need information on how to contact a specific club, call ARI at (310)
+306-9232 and ask for David Bombardier.
+
+******************
+
+Amsterdam Business School Amsterdam, NETHERLANDS
+Atlantic Community College Mays Kanding, NJ
+University of Western Australia Perth, AUSTRALIA
+Boston University Boston, MA
+University of British Columbia Vancouver, BC
+California State Polytechnic University Pomona, CA
+California State University  Fullerton Fullerton, CA
+University of California-Berkeley Berkeley, CA
+University of California-Davis Davis, CA
+University of California-Los Angeles Los Angeles, CA
+University of California-San Diego San Diego, CA
+University of California- San Francisco San Francisco, CA
+University of Southern California Los Angeles, CA
+Carnegie-Mellon University Pittsburgh, PA
+University of Chicago Chicago, IL
+University of Chicago Law School Chicago, IL
+University of Cincinnati Cincinnati, OH
+University of Northern Colorado Greeley, CO
+University of Connecticut Storrs, CT
+Copenhagen University Copenhagen, DENMARK
+Cornell University Ithaca, NY
+Delft University of Technology Delft, THE NETHERLANDS
+Deuel Vocational Institution Tracy, CA
+Drake University Des Moines, IA
+Drexel University Philadelphia, PA
+Emerson College Boston, MA
+Florida State University Tallahassee, FL
+University of Florida Gainesville, FL
+University of South Florida, New College Sarasota, FL
+George Mason University Springfield, VA
+George Washington University Washington, DC
+University of Gothenburg Gothenburg, SWEDEN
+University of Illinois Champaign, IL
+Indiana University Bloomington, IN
+Jimma Institute of Health Sciences Jimma, ETHIOPIA
+Lehigh University Bethlehem, PA
+University of Louisville Louisville, KY
+University of Melbourne M elbourne, AUSTRALIA
+Michigan State University East Lansing, MI
+University of Michigan Ann Arbor, MI
+University of Minnesota Minneapolis, MN
+University of New Hampshire Fremont, NH
+University of New Mexico Albuquerque, NM
+Northwestern University Evanston, IL
+University of Western Ontario London, ON
+Oregon State University Corvallis, OR
+University of Oregon Eugene, OR
+Osgoode Hall Law School Downsview, ON
+University of Oslo Oslo, NORWAY
+Pennsylvania State University University Park, PA
+Rensselaer Polytechnic Institute Troy, NY
+University of Richmond Richmond, VA
+Santa Clara University
+Siena College Loudonville, NY
+Stanford University Stanford, CA
+University of Stockholm Stockholm, SWEDEN
+Swiss Federal Institute of Technology Ecublens, SWITZERLAND
+Tel Aviv University Tel Aviv, ISRAEL
+University of Tennessee Knoxville, TN
+Texas Tech University Lubbock, TX
+University of Texas-Austin Austin, TX
+University of Toronto, New College Toronto, ON
+University of Utah Salt Lake City, UT
+University of Washington    Seattle, WA
+University of Waterloo Waterloo, ON
+Wells College Aurora, NY
+Wayne State University Farmington Hills, MI
+Williams College Williamstown, MA
+University of Wisconsin-Madison Madison, WI
+York University Downsview, ON
+
+
+

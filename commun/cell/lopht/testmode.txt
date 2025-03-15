@@ -1,0 +1,126 @@
+                              TEST MODE ACCESS:
+
+
+
+INSTALLED MOBILE PHONES AND TRANSPORTABLE MODELS
+
+To enter test mode on units with software version 85 and higher you must
+short pins 20 and 21 of the transceiver data connector.  An RS232 break out
+box is useful for this, or construct a test mode adaptor from standard
+Radio Shack parts.
+
+For MINI TR or Silver Mini Tac transceivers (smaller data connector) you
+can either short pins 9 and 14 or simply use a paper clip to short the
+hands free microphone connector.
+
+HAND HELD PORTABLE MODELS:
+
+There are two basic types of Motorola portable phones, the Micro-Tac series
+"Flip" phones, and the larger 8000 and Ultra Classic phones.  Certain newer
+Motorola and Pioneer badged Micro-Tac phones do not have a "flip", but
+follow the same procedure as the Micro-Tac.
+
+8000 & ULTRA CLASSIC SERIES:
+
+If you have an 8000 series phone determine the "type" before trying to
+enter test mode.  On the back of the phone, or on the bottom in certain
+older models, locate the F09... number this is the series number.  If the
+FOURTH digit of this number is a "D" you CAN NOT program the unit through
+test mode, a Motorola RTL4154/RTL4153 programer is required to make any
+changes to this unit.
+
+Having determined that you do not have a "D" series phone the following
+procedure is used to access test mode:
+
+Remove the battery from the phone and locate the 12 contacts at the top
+near the antenna connector.  These contacts are numbered 1 through 12 from
+top left through bottom right.  Pin 6, top right, is the Manual Test Mode
+Pin. You must ground this pin while powering up the phone.  Pin 7 (lower
+left) or the antenna connector should be used for ground.  Follow one of
+these procedures to gain access to pin 6:
+
+1.  The top section of the battery that covers the contacts contains
+nothing but air.  By careful measuring you can drill a small hole in the
+battery to gain access to pin 6, alternately simply cut the top off the
+battery with a hack saw.  Having gained access use a paper clip to short
+pin six to the antenna connector ground while powering up the phone.
+
+2.  If you do not want to "destroy" a battery you can apply an external 7.5
+volts to the + and - connectors at the bottom of the phone, ground pin 6
+while powering up the phone as above.
+
+3.  You can also try soldering or jamming a small jumper between pins 6 and
+7 (top right to lower left), or between pin 6 and the antenna connector
+housing ground.  Carefully replace the battery and power up the phone.  Use
+caution with this method not to short out any other pin.
+
+4.  A cigarette lighter adaptor, if you have one, also makes a great test
+mode adaptor as it can be disassembled to give you easier access to pin 6.
+Many are pre marked, or even have holes in the right location.  This is
+because they are often stamped from the same mold that the manufacturer
+uses for making hands free adaptor kits and these kits require access to
+the phone's connectors.
+
+               /  Antenna Housing
+           ÚÄÄ¿
+     ÚÄÄÄÄÄÅÄÄÅÄÄÄÄÄ¿
+     ³*    ³  ³    *³
+     ÃÄÄÄÄÄÁÂÂÁÄÄÄÄÄ´      To enter test mode, ground pin 6 to either pin 7
+     ³H H HÚÙÀ¿H H H³      or the antenna housing.  I personally rapped a 
+     ³H H HÀÄÄÙH H H³      paper clip around the antenna housing and bent it 
+     ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´      so it *ALMOST* touched the test pin.  All I had 
+     ³ Back of phone³      to do was push the paper clip a little when I  
+     ³ with battery ³      turned the phone on.
+     ³ removed.  The³
+     ³ H is a pin.  ³
+     ³              ³
+     ³ Counting at  ³
+     ³ the top left ³
+     ³ to right.    ³
+     ³              ³
+     ³1 2 3    4 5 6³
+     ³7 8 9   101112³
+     ³              ³
+     ³              ³
+     ³* ÚÄ¿    ÚÄ¿ *³
+     ÀÄÄÁÄÁÄÄÄ-ÁÄÁÄÄÙ
+
+
+
+MICRO-TAC "FLIP" SERIES:
+
+This phone follows similar methods as outlined for the 8000 series above.
+
+Remove the battery and locate the three contacts at the bottom of the
+phone, the two outer contacts are raised and connect with the battery.  The
+center contact is recessed, this is the Manual Test Mode connector.
+
+Now look at the battery contacts, the two outer ones supply power to the
+phone, the center contact is an "extra" ground.  This ground needs to be
+shorted to the test mode connector on the phone.  The easiest way to do
+this is to put a small piece of solder wick, wire, aluminum foil or any
+other conductive material into the recess on the phone.  Having done this
+carefully replace the battery and turn on the power, if you have been
+successful the phone will wake up in test mode.
+
+           ÚÄÄÄ¿
+           ³   ³
+         ÚÄÁÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+         ³                       ³
+         ³ÄÄÄÄÄÄÄÄ¿     ÚÄÄÄÄÄÄÄÄ³
+         ³        ÀÄÄÄÄÄÙ        ³
+         ³                       ³
+         ³ Flip phone with       ³
+         ³ battery removed.  The ³
+         ³ H's are pins.  Pin    ³
+         ³ 2 is the test pin and ³
+         ³ is recessed.  Put     ³
+         ³ something in the      ³
+         ³ recess so it touches  ³
+         ³ the battery.          ³
+         ³                 1 2 3 ³
+         ³                       ³
+         ³                 H H H ³
+         ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+

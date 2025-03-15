@@ -1,0 +1,9 @@
+From Titus:
+
+decompress the file cauldron.exe with pklite (pklite /x cauldron)
+find the string 9A 04 00 51 13 (only one in this file)
+replace the two primary bytes of this string by EB 03
+Recompress with pklite if you want (pklite cauldron)
+
+Rem: pklite is a sharware.
+

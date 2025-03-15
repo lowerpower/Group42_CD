@@ -1,0 +1,6 @@
+Crack> Wing Commander 
+
+crack written by Vartan Narinian 
+
+Search for 55 8B EC 83 EC 04 8D 46 FC 50 9A F3 0B 
+Replace the first one with CB (RETF) 

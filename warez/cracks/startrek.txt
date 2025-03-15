@@ -1,0 +1,15 @@
+Crack> StarTrek 25th anniversary by InterPlay
+crack written by Michael Yakubovich (U94_MYAKUBOV@VAXA.STEVENS-TECH.EDU)
+
+
+	I really need someone's opinion on the StarTrek.  I didn't play
+StarTrek much, so I don't know what's gonna happen on the second doc check and
+so on...  I tested the patch only for the 1st star, so please send all comments
+to my email address.
+
+FILE: STARTREK.EXE
+ORIGINAL: A3 82 01 39 06 84 01 74 04
+CRACK   : A1 84 01 A3 82 01 90 EB ==
+
+Note: The color of the planet you see on the screen when arrive won't be
+correct, but it doesn't matter; the rest is all right.

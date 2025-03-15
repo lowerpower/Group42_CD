@@ -1,0 +1,941 @@
+<HTML>
+<HEAD>
+<TITLE>User Access to Computers</TITLE>
+</HEAD>
+<BODY>
+<BASEFONT SIZE=3>
+<HR>
+<CENTER><H1><B>User Access to Computers</B></H1></CENTER>
+<HR>
+
+<H2>Contents</H2>
+<UL>
+<LI>6.1    Introduction<P>
+
+<LI>6.2    Regulating access to computers
+<LI>6.2.1  Identification and authorisation principles
+<LI>6.2.2  Logical access control packages
+<LI>6.2.3  Siting of terminals
+<LI>6.2.4  Intelligent terminals<P>
+
+<LI>6.3    Identification
+<LI>6.3.1  User identification
+<LI>6.3.2  Terminal identification<P>
+
+<LI>6.4    Passwords
+<LI>6.4.1  Password management
+<LI>6.4.2  Password selection
+<LI>6.4.3  System passwords
+<LI>6.4.4  Password secrecy
+<LI>6.4.5  Dual passwords
+<LI>6.4.6  Preprogramming of passwords
+<LI>6.4.7  Computer storage of passwords
+<LI>6.4.8  Password change
+<LI>6.4.9  Administrator control of passwords
+<LI>6.4.10 Manufacturer's installed UIDs and passwords
+<LI>6.4.11 Software maintenance by third parties
+<LI>6.4.12 Password transmission<P>
+
+<LI>6.5    Limitations of password security
+<LI>6.5.1  Weaknesses
+<LI>6.5.2  Random one-time passwords
+<LI>6.5.3  Challenge systems<P>
+
+<LI>6.6    Logging on
+<LI>6.6.1  Welcome screens
+<LI>6.6.2  Silent logon
+<LI>6.6.3  Log on security
+<LI>6.6.4  Prescribed warning screen
+<LI>6.6.5  Log on failure conditions
+<LI>6.6.6  Repeated log on attempts
+<LI>6.6.7  Recording access attempts
+<LI>6.6.8  Last access
+<LI>6.6.9  Unauthorised access<P>
+
+<LI>6.7    Logging off
+<LI>6.7.1  Terminal inactivity
+<LI>6.7.2  Prolonged activity<P>
+
+<LI>6.7.3  Link interruption<P>
+
+<LI>6.8    User privileges
+<LI>6.8.1  Privilege table establishment
+<LI>6.8.2  Facility privileges
+<LI>6.8.3  Function privileges<P>
+
+<LI>6.9    Access to user files
+<LI>6.9.1  Implementation of logical access controls
+<LI>6.9.2  Default privileges
+<LI>6.9.3  Password control of file access
+<LI>6.9.4  Encryption of files<P>
+
+<LI>6.10   Customer access to BT computers<P>
+
+<LI>6.11   Contractors
+<LI>6.11.1 Software development by third parties
+<LI>6.11.2 Operational activities by third parties
+</UL>
+<HR>
+<H4>6.1 Introduction</H4><P>
+
+The Computer Misuse Act 1990, has been in force in the United Kingdom since
+August. This law makes the unauthorised access to, and misuse of computer
+facilities a criminal offence.<P>
+
+No amount of legislation will actually prevent unauthorised access and misuse of
+facilities. This chapter offers guidance on methods that may be employed to
+reduce or eliminate unauthorised access.<P>
+
+Access to computers by users, in contrast to system operators and maintainers will
+normally be via a terminal device. It can vary from a simple Visual Display Unit
+(VDU), a sophisticated Personal Computer (PC), or a workstation. In order to
+regulate access, it is essential that controls are exercised which are capable of
+identifying both the source and origin of each session.<P>
+
+<H4>POLICY 6.1: COMPUTER MISUSE ACT 1990</H4><P>
+
+It is a criminal offence for an unauthorised person to attempt to access systems
+or information within systems, or to attempt to exceed the computer facilities
+and privileges granted to them. Wherever possible, BTwill prosecute using the
+Computer Misuse Act 1990.<P>
+
+<H4>6.2 Regulating access to computers</H4><P>
+
+Logical access control and associated audit trails and logs provide essential
+deterrents against abuse of privilege by authorised system users.<P>
+
+The unauthorised testing of the security controls of an operational system is
+expressly forbidden.<P>
+
+<H4>POLICY 6.2: OPERATIONAL SYSTEM PENETRATION TESTING</H4><P>
+
+The testing of the security controls of an operational system shall only be done
+under strictly controlled conditions. All testing shall be carried out in
+accordance with a written schedule. Prior approval of the Director of Security
+and Investigation shall be obtained.<P>
+
+<H4>6.2.1 Identification and authorisation principles</H4><P>
+
+To prevent unauthorised individuals attempting to access computer systems,
+identification and authentication controls of users are necessary. The most
+common practice is to use identifiers and passwords when logging onto the
+computer system. Other methods such as keys, badges, and smart cards can also
+be used effectively. Other techniques are possible (for example,
+challenge-response systems) using some form of personal token. Specialist advice
+should be sought on the security characteristics of proposed systems prior to their
+adoption.<P>
+
+<H4>6.2.2 Logical access control packages</H4><P>
+
+For some major operating systems, special purpose access control packages are
+available. These provide degrees of protection by ensuring that all users are
+positively identified and only granted access to the system resources and files for
+which they have previously been authorised.<P>
+
+The packages frequently complement the standard operating system by exploiting
+hooks or by the replacement of standard routines and log details of all accesses for
+later analysis. They may or may not identify that the data has been seen or
+changed.<P>
+
+Before implementing any security enhancement package it should be thoroughly
+evaluated to ensure it meets the operational requirement.<P>
+
+<h4>6.2.3 Siting of terminals</H4><P>
+
+Terminal devices must be sited so that they cannot be easily overlooked by
+unauthorised individuals. This is especially important when it is necessary to site
+terminals in reception areas, telephone shops or other public places. Customer
+information displayed on a screen which can be overlooked by the public or even
+unauthorised employees potentially constitutes a breach of Data Protection
+Legislation, Section 45 of the Telecommunications Act 1984, and the Code of
+Practice on Disclosure of Customer Information. The inadvertent disclosure of
+logon details may also result.<P>
+
+When it is operationally necessary to site a terminal in a public area, it must be
+screened so that it can only be viewed by authorised employees. If this is not
+practical then serious consideration must be given to the benefits derived weighed
+against the possible risk of irregular divulgence of information displayed on the
+screen.<P>
+
+The communication links for terminals in public places should be adequately
+protected from the threat of tampering and rerouting.<P>
+
+<H4>POLICY 63: SITING OF REMOTE TERMINAL</H4><P>
+
+Terminals in public view but not for public access shall be sited carefully, and
+particular attention shall be given to their physical security and
+communications links.<P>
+
+<H4>6.2.4 Intelligent terminals</H4><P>
+
+Special care must be taken if ever a 'dumb' terminal is replaced by one with local
+processing power, for example, a personal computer. Iis subject is covered in
+detail in the chapter on Personal Computers.<P>
+
+<H4>6.3 Identification</H4><P>
+
+Identifiers are used to keep track of, and control the use of system resources.
+Users and terminals may both have identifiers which can be used for the purposes
+of auditing.<P>
+
+<H4>6.3.1 User identification</H4><P>
+
+Each user of a computer system should have an exclusive user identification
+(UID).<P>
+<UL>
+<LI>UIDs are used to uniquely identify users and their associated characteristics
+(access rights, capabilities, time based access and control privileges) to permit the
+correct allocation of resources,
+
+<LI>UIDs provide a means of recording system usage
+
+<LI>UIDs should be allocated to individual users to permit unambiguous identification
+in the interests of accountability. They should not be shared among groups of
+individuals and may be constant as long as the user is authorised on the system
+
+<LI>UIDs are not usually confidential (indeed in some systems users can obtain lists of
+UIDs) and security must never depend solely on the user's ability to provide a
+valid UID.
+</UL>
+<H4>POLICY 6.4: UNIQUE USER IDENTIFIER</H4><P>
+
+Each user of a multi-user system shall be uniquely identifiable to that system.<P>
+
+A network of computers that allows remote processes access to information on
+any of the networked computers must also maintain unique user identification
+for users, unless other means of security are implemented, for example by
+disabling the facility for cross-machine recognition of UIDs. Separate UID
+naming strategies for each machine can greatly assist in ensuring uniqueness.<P>
+
+<H4>6.3.2 Terminal identification</H4><P>
+
+Each terminal authorised to access the system may also have a Terminal
+Identification (TID) built into it which is automatically communicated to the host
+during log on. The system may then check that an attempted access comes from a
+bona fide source at the correct physical location, and by comparing the signalled
+TID with the UID of the user, may confirm an appropriate match.
+TIDs should not be implemented alone since this does not assist accountability.
+Moreover as a security measure they are rather limited. It is difficult to engineer
+an unmodifiable TID into a terminal and TIDs may also become known in which
+case they can be simulated.<P>
+
+Terminal identification can also be by means of physical access controls such as
+locks or removable badges and keys. In this case a code may be transmitted
+automatically by the terminal over the communications link at the beginning of
+every message. Any badges or keys must be removed when the terminal is not in
+use and securely stored.<P>
+
+<H4>POLICY 6.5: TERMINAL IDENTIFERS IN A NETWORK</H4><P>
+
+In the design of systems, the use of terminal identities shall be considered
+where technically feasible.<P>
+
+On some systems, source identification uniquely identifying the device and user,
+for example, based on Kerberos, can be implemented. These systems provide a
+very secure mechanism for forming a closed network of systems and users.<P>
+
+<H4>6.4 Passwords</H4><P>
+
+The knowledge of a password is sometimes used as corroborating evidence that
+the accessor is entitled to the facilities associated with a particular UID.
+Passwords must be allocated on an individual basis and not be shared.<P>
+
+<H4>6.4.1 Password management</H4><P>
+
+To afford reasonable protection against unauthorised access, passwords should be
+a minimum of six characters long, with at least one non-alphabetic. Passwords
+used for system privileges should contain at least eight characters. It is desirable
+that the system software should check for too simple a combination such as all the
+same characters. There is an advantage in allowing a range of password lengths
+(down to the prescribed minimum) since this makes searching by adversaries
+harder.<P>
+
+<H4>POLICY 6.6: PASSWORD MANAGEMENT</H4><P>
+
+Passwords to systems shall be properly managed so that:<P>
+<UL>
+<LI>They are not easily guessable,
+
+<LI>They are changed at least every 90 days,
+
+<LI>They are at least 6 characters long for user access and at least 8 for system
+privilege access,
+
+<LI>Preferably they consist of all the possible character set,
+
+<LI>They contain at least one non-alphabetical character,
+
+<LI>They cannot be easily changed back to previously used passwords,
+
+<LI>They cannot be easily exhaustively searched (unless denial of service is a
+threat),
+
+<LI>They are not echoed to screens or paper,
+
+<LI>They are not written down, except if treated with appropriate security levels to
+protect their confidentiality, integrity and accountability, and where there is a
+valid business reason
+
+<LI>Not related to the UID,
+
+<LI>They are not related to the identity of the user.
+</UL>
+<H4>6.4.2 Password selection</H4><P>
+
+Users should be permitted to select their own passwords since these are more
+easily remembered but users must be warned against guessable or predictable
+values. The system should check that all passwords are not one of the 'standard'
+or guessable words that an adversary would try, for example, password the same
+as the UID.<P>
+
+Meaningful terms such as SYS or SYSTEM, initials, Christian names, car
+registration numbers and the names of spouses are all popular choices for
+password and are worthless from a security viewpoint, as are certain popular
+words such as FRED.<P>
+
+The more common or computer-relevant meaningful words of the English
+language are also to be avoided. There are surprisingly few of them - perhaps only
+4000, and many cases exist of hackers breaking a system by simply trying a few
+hundred of the most likely words one after another.<P>
+
+Password strength is greatly enhanced by the selection of non-meaningful
+character combinations. An adversary is far less likely to guess a password such as
+XAC/9 than ANDREW although initial memorisation may be more difficult.<P>
+
+<H4>6.4.3 System passwords</H4><P>
+
+An extra level of security is obtained if users are required to enter a system
+password prior to and as well as their own selected application password. System
+passwords provide the additional facility of rapid lock-out of groups of users if
+need be.<P>
+
+System passwords must never be used as a substitute for personal passwords.
+They must be chosen in line with the password generation guidelines and be
+controlled by the systems administrator.<P>
+
+<H4>6.4.4 Password secrecy</H4><P>
+
+Users must be properly briefed on the importance of the correct use of passwords
+and that they have a responsibility to safeguard them.<P>
+
+All passwords should be assumed to be as valuable as the system or information to
+which it can be used to gain access. If the password is written down, the text
+should be protected accordingly. A password should not be disclosed to others
+nor should it ever be entered at a terminal when others are in a position to watch
+so closely as to deduce the password.<P>
+
+When a password is used to gain access to a system or entered for the purposes of
+password change, the password text must be obscured either by overprinting, in
+the case of hardcopy local echo terminals, or the echo suppressed where
+full-duplex communications are used between the terminal and the host.<P>
+
+<H4>6.4.5 Dual passwords</H4><P>
+
+Under some circumstances, business transactions might be so important that no
+one individual may be permitted to initiate the transaction by themselves. If these
+transactions are actually carried out by computer then a way must be found to
+ensure that two people are present to 'authorise' the transaction and be
+responsible for it. One approach is to ensure that system accounts that have the
+privilege to initiate such transactions need two passwords to access them. An
+alternative approach might be to have one long password formed by the
+concatenation of two shorter passwords. Other schemes could be devised.<P>
+
+<H4>6.4.6 Preprogramming of passwords</H4><P>
+
+Storage of preprogrammed passwords or entire logon sequences on intelligent
+terminals or function keys or stored files is extremely dangerous practice and is
+forbidden unless the circumstances have been agreed by the Director of Security
+and Investigation. Any brief unauthorised access to the terminal or stored data will
+then permit the password to be compromised.<P>
+
+<H4>POLICY 6.8: PREPROGRAMMING OF PASSWORDS</H4><P>
+
+The automation of entire logon sequences is expressly forbidden except with
+the permission of the Director of Security and Investigation.<P>
+
+<H4>6.4.7 Computer storage of passwords</H4><P>
+
+Users' passwords should be under their own control and should not be available
+from the system to anybody else including operational or maintenance staff.<P>
+
+To this end it is highly desirable that the computer logon procedures use one-way
+encrypted password files. This means that passwords are stored in irreversibly
+encrypted form within the computer.<P>
+
+Passwords entered by users at logon are encrypted using the same algorithm, and
+the two encrypted forms are checked for a match to prove authentication.<P>
+
+The encryption algorithm must however be strong and guidance must be sought
+from The Director of Security and Investigations, since some password encryption
+systems have been found to be very weak indeed.<P>
+
+<H4>6.4.8 Password change</H4><P>
+
+The system should ensure that all passwords (individual and system) are changed
+regularly. Passwords should be changed at least every 90 days.
+Password change may be enforced by:<P>
+<UL>
+<LI>forcing users to change their passwords after a given period, or
+<LI>allowing users to change their passwords at will ess desirable since less reliable),
+<LI>or preferably both.
+</UL>
+The change of existing passwords should involve a verification of the user's
+identity on the basis of the existing password and double entry of the proposed
+new password as a check against input errors. The system should not permit an
+old password to be used again until at least a certain number of different new
+passwords have been registered.<P>
+
+Where forced password change is not implemented the system should record the
+date of last change to permit identification of users not complying with security
+requirements. If there is a possibility that a password has been compromised, it
+must be changed immediately.<P>
+
+<H4>6.4.9 Administrator control of passwords</H4><P>
+
+It should be possible for the system administrator to force a user's password to a
+value of the administrator's choosing in the event that a user genuinely forgets his
+or her password. However neither the administrator nor anybody else should be
+able to obtain the value of a current password from the computer.<P>
+
+As an alternative, stronger security is obtained (at slightly greater administrative
+cost) if password forcing is simply not allowed. In this case forgetting a password
+compels full reauthorisation.<P>
+
+<H4>POLICY 6.21: UID EXPIRY</H4><P>
+
+When a UID remains unused for greater than 60 days, it shall be disabled.<P>
+
+<H4>6.4.10 Manufacturer's installed UIDs and passwords</H4><P>
+
+Manufacturer's installed UIDs and passwords present at equipment and software
+delivery must be changed to user-selected values as soon as practicable since the
+manufacturer's choice of values may be standard and well known.<P>
+
+It is also essential that passwords are changed after every visit by the
+manufacturer or computer servicing agency to remove the danger of passwords
+becoming known to contractors. Care must be taken when the system is reloaded
+and upgraded that any manufacturers passwords are not reinstated.<P>
+
+<H4>POLICY 6.9: MANUFACTURERS PASSWORDS</H4><P>
+
+Manufacturer installed passwords shall be removed and replaced with new
+passwords in operational systems.<P>
+
+<H4>6.4.11 Sofware maintenance by third parties</H4><P>
+
+Systems requiring access for software maintenance by non-BT personnel should
+not permit total system software and data file eedom to the contractor.
+Maintenance should only be possible at agreed times and under BT supervision.
+Sensitive data should, if necessary, be removed from the system prior to
+maintenance.<P>
+
+Some computer vendors encourage remote access to their customers computer
+systems via the PSTN for the purposes of fault diagnosis. If this option is taken,
+access must be very strictly controlled since large quantities of information could
+easily be made available, perhaps by means of uncontrolled software dumps.
+Access to the system should be controlled manually, for example using a port
+configured for outward dialled calls only with incoming calls barred. Special care
+must be taken to change passwords after maintenance sessions by contractors.<P>
+
+<H4>POLICY 6.10: REMOTE ACCES FOR MAINTENANCE PURPOSES</H4><P>
+
+Remote access for diagnostic or preventative maintenance purposes shall be
+strictly controlled so as to protect the security of the system.<P>
+
+<H4>6.4.12 Password transmission</H4><P>
+
+Passwords used to protect information of a given sensitivity must be afforded at
+least the same protection and preferably a higher level of protection than the
+information and processes to which they give access. This is particularly important
+when accessing a system remotely across a public network. Distribution of
+passwords must be done in a way which ensures that disclosure en route would
+not result in a compromise of the system on which the password would be used. In
+particular, electronic mail systems must not be used for distribution of passwords.<P>
+
+<H4>6.5 Limitations of password security</H4><P>
+
+Most experts no longer regard traditional password practices as fully secure. This
+section outlines their limitations and indicates favoured methods of enhancing
+security<P>
+
+<H4>6.5.1 Weaknesses</H4><P>
+
+The advice concerning minimum password length, secrecy and frequency of
+change should be viewed as the minimum requirements. Unless users are
+strongly encouraged (or forced) to employ highly random passwords they will
+tend only to select passwords from a total of about 4000 English words.<P>
+
+Even if passwords are highly random the fact that they are used more than once
+represents a security weakness since any person obtaining a password value (by
+line tapping, by watching the operator key in the value, by finding a written
+copy...) can then penetrate the system freely until that password is changed.<P>
+
+These weaknesses can be overcome by both using truly random passwords, and
+changing passwords every access.<P>
+
+<H4>6.5.2 Random one-time passwords</H4><P>
+
+This can be achieved by adopting one-time password procedures whereby each
+user is given a list of random password values which must be used once only each
+and in the given order. However, this would involve writing down passwords
+which is contrary to good practice.<P>
+
+In certain systems, the distribution of such lists may be acceptable, but generally
+the challenge system of the next paragraph is to be preferred.<P>
+
+<H4>6.5.3 Challenge systems</H4><P>
+
+In a challenge system, random one-time passwords are obtained by providing
+each user with a Personal Identification Unit (PIU) usually resembling a pocket
+calculator. On attempted access with a valid UID, the host generates a random
+number or challenge value which it sends to the user. The user must then enter
+the value manually on their PIU. The PIU then performs a complex mathematical
+operation on this number and displays the result on its display. The user then
+transcribes this number to the terminal which, in turn, is sent to the host for
+checking. If the check is successful, the host can be reasonable certain that the
+user has the correct PIU in his possession and access can be granted.<P>
+
+Each PIU should use a different cryptographic key to permit identification of an
+individual user. The PIU will work correctly only in conjunction with its associated
+UID. Attempts to use the PIU with an alternative or incorrect UID will result in an
+incorrect response being generated. To prevent unauthorised system access
+should a PIU fall into the wrong hands the user may also be required to enter a
+secret Personal Identification Number (PIN) into the PIU prior to keying in the
+challenge value.<P>
+
+The access thus depends on something:<P>
+<UL>
+<LI>possessed by the user (the PIU), and
+
+<LI>known by the user (the PIN).
+</UL>
+The algorithm should be cryptographically strong so as to prevent analysis of the
+method by an adversary.<P>
+
+Alternative types of PIU, which generate a new one-time password every minute or
+so, obviate the need for a challenge-response sequence, are also available.
+Biometric devices are becoming more commercially available and are worthy of
+consideration for sensitive systems, they are however rather costly for widespread
+use.<P>
+
+<H4>POLICY 6.11: USER AUTHENTICATION DEVICES</H4><P>
+
+In the design of systems, the use of user authentication devices should be
+considered and documented.<P>
+
+<H4>6.6 Logging on</H4><P>
+
+No user should be able to log onto a system containing high integrity,
+commercially sensitive, or privacy marked information without first executing a
+security dialogue, such as a correct entry of a valid UID and matching password
+(or equivalent). This ensures full identification and authentication and permits
+logging for subsequent accountability.<P>
+
+<H4>6.6.1 Welcome screens</H4><P>
+
+The initial screen (traditionally called the "Welcome" screen) displayed before
+successful completion of the security dialogue should be designed to reveal the
+minimum amount of information about the system.<P>
+
+<H4>POLICY 6.12: WELCOME SCREENS</H4><P>
+
+Text displayed before logon shall provide only the minimum amount of
+information for access authorisation.<P>
+
+<H4>6.6.2 Silent log on</H4><P>
+
+No system facilities, not even the 'HELP' command, should be available to the
+user prior to successful completion of these steps. Security is appreciably
+enhanced by adopting log on procedures which give no help to potential
+adversaries.<P>
+
+<H4>POLICY 6.13: SILENT LOGON</H4><P>
+
+Other than a minimal prompt for user ID and password, no additional help shall
+be given when logging on to BT multi-user, administration or management
+systems. Failure of a logon sequence shall not identify which part of the logon
+process failed.<P>
+
+<H4>6.6.3 Log on security</H4><P>
+
+The logon procedure should be fully secure. No trap-door method shall be
+possible by, for example, through use of zero-length, excessive length UIDs or
+passwords, or by control, escape or break signals.<P>
+
+<H4>6.6.4 Prescribed warning screen</H4><P>
+
+As soon as access has been successfully achieved, the following screen should be
+displayed by all BT multi-user, administration and management systems
+processing high integrity, commercially sensitive, or privacy-marked material.<P>
+<PRE>
+
+British Telecommunications plc
+
+COMPUTER NAME
+
+WARNING: You have accessed the COMPUTER NAME operated by BT. You are required to
+have a personal authorisation from the system administrator before you use this
+computer and you are strictly limited to the use set out in that written
+authorisation, Unauthorised access or use of this system is prohibited.
+Unauthorised access to or misuse of a computer constitutes an offence under the
+Computer Misuse Act 1990.
+
+If you understand this message and have been authorised to use this system
+please type YES. Otherwise type NO to terminate this access.
+
+Are you authorised to use this computer? [Yes/No]
+
+</PRE>
+<H4>POLlCY 6.14: PRESCRIBED WARNING SCREEN AND AUTHORISATION</H4><P>
+
+A prescribed warning screen shall be displayed immediately after an accessor
+successfully completes the logon sequence. The system administrator shall set
+up procedures to provide written authorisation to users stating their access
+privileges.<P>
+
+<H4>6.6.5 Log on failure conditions</H4><P>
+Logon must not be permitted if:<P>
+<UL>
+<LI>the UID is invalid,
+<LI>the UID is barred,
+<LI>the password is invalid,
+<LI>the UID and password combination is invalid,
+<LI>the claimed UID is already active unless it is a system requirement,
+<LI>the logon would contravene local policy, for example, time of day restrictions.
+</UL>
+<H4>6.6.6 Repeated log on attempts</H4><P>
+
+The rate at which an adversary can make log on attempts must be limited to
+prevent exhaustive searching of UID and password combinations.
+Such an attack can be rendered imoractical bv compelling:<P>
+<UL>
+<LI>a modest time delay (eg. two seconds) between each individual access attempt
+made on any given port, and
+<LI>a substantial time delay (eg. one minute) every few attempts (eg. three).
+</UL>
+This may be accomplished by including an attempt counter in the log on
+procedure such that no more than three attempts may be made subject only to the
+modest time delay, after which attempts from that port are disabled for a
+substantial time delay. The preferred option is that the link is actually
+disconnected and the user compelled to obtain reconnection.<P>
+
+A stronger measure would be to permanently disable the UID or port with
+appropriate messages being sent to system log and the system administrator. In
+such cases the UIDs should be taken out of service automatically after a
+predefined number of consecutive unsuccessful access attempts - perhaps three.
+Before the locked-out UID can be used again, an approach has to be made to the
+Systems Administrator who will decide, if necessary in consultation with the
+Application Manager, whether to reactivate the original UID or issue a new one.
+This strategy is recommended for consideration only for High Impact Systems
+because an adversary may abuse the feature to disable all UID and/or ports
+causing a 'Denial of Service' problem. The running of verification utilities against
+system critical commands should be considered prior to reinstatement of the UID.<P>
+
+<H4>POLICY 6.15: TERMINAL OR UID LOCKOUT</H4><P>
+
+When a terminal or UID is repeatedly misused in an attempt to breach a
+system, the terminal or UID shall be disabled and an alarm given. The period
+during which the terminal or UID is disabled must be commensurate with the
+impact of Denial of Service.<P>
+
+<H4>6.6.7 Recording access attempts</H4><P>
+
+Where possible all access attempts (whether or not successful and whether or not
+exceeding the counter limit) should be recorded on the system log. Alarms to the
+system manager may also be raised in real-time depending on the sensitivity of the
+system following repeated logon failures. The record should indicate the
+attempted UID, the time of the event and the link involved but should not record
+the attempted passwords.<P>
+
+Exceptional events (such as apparent exhaustive trialling of password on a
+particular UID) should be so recorded as to come rapidly to the attention of
+supervisory personnel. The log must be scrutinised at frequent intervals for any
+evidence of unauthorised access attempts. Any unusual logged events must be
+investigated.<P>
+
+<H4>POLICY 6.16: SECURE ALARMS</H4><P>
+
+Security alarms shall be used to inform the system administrator when an
+attempted breach of security has been detected.<P>
+
+<H4>6.6.8 Last access</H4><P>
+On successful logon the user should be informed of the time and date of last
+access, and of any unsuccessful access attempts since then.<P>
+
+<H4>6.6.9 Unauthorised access</H4><P>
+
+Any (suspected or known) unauthorised access attempt or criminal activity should
+be reported immediately to the BT Investigation Department Help Desk and line
+management. Further investigatory action should await specialist advice from
+BTID.<P>
+
+<H4>POLICY 8.8: REPORTING OF SECURITY INCIDENTS applies.</H4><P>
+
+<H4>6.7 Logging off</H4>
+
+<H4>6.7.1 Terminal inactinty</H4><P>
+
+The system should include an activity sensing feature to identify terminals which,
+although logged on, appear to have been abandoned. These are a security risk
+since an adversary finding such a terminal unattended could employ it with all the
+access rights of the previous user. If no input is detected after a certain timeout
+(eg. five minutes) the system should log the terminal off automatically.<P>
+
+This may be undesirable for some very limited facilities, such as batch processing
+or program development, in which case longer timeouts may be associated with
+specific UIDs.<P>
+
+PCs should have approved security programs installed on them such that, if no
+user activity has been detected for a period of time, the program will lock the PC
+terminal and require a password entry to be reactivated. is must be done
+especially for PCs logged into a server system. Such programs should also blank
+out the actual contents of the display (it may be replaced by some other display)
+until the PC has been reactivated through the password. Screen blanking options
+that only jumble the contents of the screen should not be used. Preferably, the
+blanking of data should be combined with a screen saver function, which reduces
+the display duty cycle significantly, to help prolong the life of the display.<P>
+
+<H4>POLICY 6.17: TERMINAL OR UID TIMEOUT</H4><P>
+
+When a port or UID remains dormant for a period of time, it shall be disabled.
+Terminal timeout shall also occur when a terminal remains logged onto a
+system, but remains unused for a period of time. The screen shall be cleared of
+any display when the forced logoff occurs.<P>
+
+<H4>6.7.2 Prolonged activity</H4><P>
+
+The system should require users present on the system for prolonged periods
+(hours rather than days) to reenter their log on sequence (UID and password) .
+This is to ensure that the authorised user is still present and that the
+communication link has not been hijacked by an adversary.<P>
+
+<H4>6.7.3 Link interruption</H4><P>
+
+The system should similarly automatically log off and clear down completely and
+immediately the session with any terminal whose communications path is
+interrupted. Many terrninals have a carrier detection light to show at the
+communications path is open and the failure of this may indicate an interruption.
+
+<H4>POLICY 6.18: LOG OFF WHEN COMMUNICATION SESSION IS
+INTERRUPTED</H4><P>
+
+Precautions shall be taken during the design of systems to ensure that active
+sessions are aborted if a failure in communications occurs.<P>
+
+<H4>6.8 User privileges</H4><P>
+
+It is usually a requirement that user capabilities still be restricted after log on. This
+is to prevent unauthorised use of computer facilities and unauthorised access of
+system software and data to which the user is not entitled. It is generally
+accomplished by establishing a set of 'privileges' associated with each UID such
+that users are not permitted to perform functions or access data except as
+indicated in their privilege tables. Controls shall ensure this by such means as
+password controls, access control lists, labelling of data fields.<P>
+
+<H4>POLICY 6.19: DATA ACCESS CONTROLS</H4><P>
+
+Processing capability and data shall be accessible only by authorised staff with
+the appropriate privileges.<P>
+
+<H4>6.8.1 Privilege table establishment</H4><P>
+
+The default condition of all privilege tables should be that corresponding to no
+privileges. Privilege tables must be under the ultimate control of user
+management who must authorise all changes.<P>
+
+<H4>6.8.2 Facility privileges</H4><P>
+Privileges speciing the computer facilities available to users should be controlled
+only by system administrator staff. Facility privileges include:<P>
+<UL>
+<LI>I/O device allocations,
+<LI>available storage volume,
+<LI>maximum job size,
+<LI>financial budget and its consumption.
+</UL>
+This restriction must be applied with particular rigour to security privileges. It
+must not be possible under any circumstances for an ordinary user to redefine
+himself as a system operator or system administrator for example or obtain access
+to their data files or facilities or obtain access to security-related software such as:<P>
+<UL>
+<LI>operating systems,
+<LI>password control software,
+<LI>system log software,
+<LI>access control software,
+<LI>time restrictions.
+</UL>
+Where a job consists of several tasks run in sequence, the authority of the user
+should be checked at each task and not solely on the first one.<P>
+
+Staff whose job is to run a limited set of programs should not have the facility to
+edit, read or write programs. Menu-driven software may be helpful to ensure this.<P>
+
+<H4>POLICY 6.20: ADMINISTRATION OF PRIVILEGES</H4><P>
+
+Privileges shall be administered only by the system administrator (or
+equivalent role) .<P>
+
+<H4>6.8.3 Function privileges</H4><P>
+
+Privileges defining the computer functions available to users should also be
+controlled by system administration staff only. Procedures for the replication of
+user privileges should only allow the minimum to be created appropriate with the
+users authority. Users should only be permitted to use those commands required
+in the normal course of their duties.<P>
+
+<H4>6.9 Access to user files</H4><P>
+
+Privileges defining the rights of users to access each other's data files may be
+exclusively under system administrator control, especially on high risk systems.
+However, on less sensitive systems discretionary control is frequently all that is
+required whereby each user controls the access of others to his own data files. In
+general systems developers should not have access to live files.<P>
+
+<H4>6.9.1 Implementation of logical access controls</H4><P>
+
+In this context 'access' may imply any of a number of operations (eg read, write,
+delete, modify, execute...) and it is essential that each of these should be
+separately specifiable. In any case there is implied the creation of a more or less
+detailed set of access restrictions for each user data file and the existence of
+special system control software for enforcement.<P>
+
+There may also be a need for user identification control within applications, for
+example to test for the maintenance of separation of duties.<P>
+
+Software development tools, for example, compilers, program libraries, source
+code etc, should not be available on operational systems. If they are present, their
+use must be strictly controlled.<P>
+
+It is important that as much as possible of the control procedure should be
+performed automatically by the system and in a 'user friendly' and efficient
+manner. User acceptance and co-operation cannot be obtained otherwise and the
+security system will be viewed as an enemy by those it is intended to serve with
+the result that users will tend to avoid and circumvent its protective measures
+where possible.<P>
+
+Most Operating Systems implement some form of access control but the degree of
+real security obtained varies dramatically from one system to another.<P>
+
+<H4>6.9.2 Default privileges</H4><P>
+
+The preferable default privilege is that no user other than the file owner can
+access (read, write, etc.) any given file unless given explicit authority to do so by
+the owner.<P>
+
+<H4>6.9.3 Password control of file access</H4><P>
+
+A limited degree of control may be obtained by password protection of files such
+that access is only available to users who know the correct password. Separate
+control of the different types of access (read, write, etc.) is then not generally
+possible, and the overall degree of security is much poorer than the fully
+specifiable, fully managed systems indicated above.<P>
+
+This is partly because of user reluctance to undertake the burden of the additional
+passwords especially when all the issues concerning randomness and regular
+change of password are taken into account.<P>
+
+<H4>6.9.4 Encryption of files</H4><P>
+
+Files may also be encrypted by users to obtain a degree of protection rather
+higher than password control since simple access to the file no longer yields
+useful information.<P>
+
+<H4>6.10 Customer access to BT computers</H4><P>
+
+As communications technology becomes more and more sophisticated, and
+external companies become more demanding in the flexibility and management of
+the BT services which they use, BT is required to offer management and
+administrative services to its customers. The risks associated with this are well
+known and understood within the security community. However, systems
+implementors and administrators are not always aware of these. Systems which
+provide customer access are vulnerable in a number of areas, specifically the risk
+of access to system facilities which are beyond their anticipated privilege profile.
+Ihis can lead to:<P>
+<UL>
+<LI>Compromise of the BT system
+<LI>Compromise of connected networked systems
+<LI>Compromise of other customers data
+</UL>
+Where customers are given access to a BT system, the system must be designed
+in a way that separates the customer access facility from the system's internal BT
+facilities. Where access to the system is initially regulated by the standard
+operating system User ID/password system, access to the internal BT facilities
+must be via a strong authentication method, preferably based upon a token or
+one-time password system.<P>
+
+Customers place a high degree of trust in the service BT provides. It is the
+responsibility of systems implementors to consider the impact of failure upon a
+customer. Depending upon the risks it may be beneficial to provide access upon
+strong authentication techniques.<P>
+
+When customers are given access to BT Service Management Systems, used by
+other customers, or holding sensitive information about other customers,
+processes or contracts undertaken by BT, then the Service Management System
+shall be considered to be a "high impact" system and subject to accreditation by
+the Director of Security and Investigation. (See section 2.8)<P>
+
+<H4>POLICY 6.21: SENSlTIVllY OF SYSTEMS WlTH CUSTOMER ACCESS</H4><P>
+
+Systems providing customer access are deemed to be HIGH IMPACT systems
+where there is a connection between that system and other BT systems.<P>
+
+<H4>POLICY 6.22- AUIHENTFICATION ON SYSTEMS VVlTH CUSIOMER
+ACCESS</H4><P>
+
+Access to non-customer facilities on a system providing customer access shall
+be via strong authentication methods.<P>
+
+<H4>6.11 Contractors</H4>
+
+<H4>6.11.1 Software development by third parties</H4>
+
+Development of applications for BT by external companies should adhere to the
+same standards of development practice that we expect of internal developments.
+The quality assurance of the system is a crucial issue, particularly for systems
+which are of an operational or mission critical nature. Assurance standards should
+be quoted in terms of the Information Technology Security Evaluation Criteria
+(ISEC) levels, which should be specified at the start of the project.<P>
+
+There are greater risks associated with software produced by external companies,
+where the level of direct BT supervision is likely to be minimal. The introduction
+of Trojan horse code is not easy to detect without extensive analysis of the
+program code.<P>
+
+On-line systems need to be afforded protection from development people, and
+segregation of roles is a key element of this. Development contractors need to be
+separated from live environments.<P>
+
+Default access to live data is not permitted. Access to live data in support of the
+contract should be for specific activities and must be monitored. Access must be
+withdrawn immediately following completion of the activity, or between phases of
+it.<P>
+
+<H4>POLICY 6.23: CONTRACTOR ACCESS TO DATA</H4><P>
+
+Third Party Contractors used for development of systems shall not have direct
+access to on-line BT systems or live data, unless such facilities are absolutely
+necessary for execution of the contract. In this case, the contract shall specify
+the security requirements to protect BT's information.<P>
+
+<H4>Operational activies by third parties</H4><P>
+
+BT has used outside contractors and agents for carrying out work for many years.
+Examples of this are building maintenance and other non-communications related
+activities. Increasingly, activities are being transferred to outside specialists.
+However, over the last decade, almost all of our activities and functions have been
+computerised and have become highly integrated with other systems. Therefore,
+outsourcing of an activity has to be viewed against the threats to BT as a whole
+from such a scheme.<P>
+
+<H4>POLlCY 6.24: OUTSOURCING</H4><P>
+
+Proposals to outsource a process, to be carried out without direct BT
+supervision off BT premises, and which requires electronic access to BT
+information, must be supported by a Security Policy Document. If the process
+involves on-line access to a BT system processing information at Sensitivity
+level 2 or higher, the system must be accredited in accordance with Policy 2.7<P>
+<HR>
+<CENTER><ADDRESS>&copy;1995 Cold Fire<BR>
+</ADDRESS>
+</CENTER><HR>
+</BODY>
+</HTML>

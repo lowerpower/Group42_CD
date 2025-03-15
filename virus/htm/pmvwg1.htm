@@ -1,0 +1,84 @@
+<HTML>
+<HEAD>
+<TITLE>VIRUS Source Tutorial</TITLE>
+</HEAD>
+<BODY>
+<PRE>
+
+
+   Polymorphic viruses escape detection but get our attention
+
+  Last week, we faced the implications of the next-generation
+ultrastealth viruses that are now reproducing themselves among us. 
+Because a few of these viruses have already been found to be
+employing this new scanner-beating self-modifying technology and
+because their is nothing particularly difficult about writing such
+a polymorphic virus, I feel there is more good than harm in a
+public discussion of this nasty new breed.
+ (I know that many readers are wondering what happened to my
+promised solution to the spread of these viruses; it will come next
+week after I illustrate the danger of these new germs.)
+ viruses can be detested by recognizing either their dynamic
+actions or their static presence. Dynamic-action recognition
+provides the potential benefit of stopping unknown viruses.
+Nevertheless, today's smarter viruses can circumvent such
+interception easily. If the virus wishes to have a higher level of
+software access to the system, several techniques are known for
+getting underneath DOS and BIOS interception, so resident blockers
+are all but useless.
+ Static-presence recognition scans the entire system for the
+"fingerprints" of known viruses. Today's deliberately elusive
+polymorphic viruses can evade this detection entirely.
+ The simple idea behind the polymorphic virus is that the bulk of
+the virus can be scrambled by a random number. Every IBM-compatible
+PC has a counter/timer chip that can be used as the source for a
+completely nondeterministic 16-bit random number. When the virus
+clones itself into a new environment, it can use the instantaneous
+value of the counter/timer as a scrambling starting point. By
+algorithmically altering every byte of itself based upon this
+initial number, the newly propagated virus will be immune to
+fingerprint detection.
+ There's one flaw in this approach: The small kernel of code used
+to unscramble the body of the virus must be left in an unscrambled
+state so the computer can execute it and unscramble the balance of
+the virus. This means the unscrambling portion could still be
+fingerprinted and identified.
+ This problem could be easily solved: By deliberately interlacing
+irrelevant "do nothing" instructions among those that perform the
+unscrambling work, every stored instance of the unscrambling kernel
+could be completely different from all the others. As the virus
+copies itself to a new destination, it randomly draws from a
+repertory of superfluous instructions, peppering them liberally
+throughout the new copy of itself.
+ As you can see, these techniques can be teamed up with activity
+interception avoidance to create a new breed of viruses that would
+be virtually impossible to detect.
+ It is quite annoying that we must expend our resources in the
+prevention of this software terrorism. But there may be some value
+in experiencing this terrorism now. Most viruses have been the work
+of amateurs and are far from devastating.
+ Being told on Friday the 13th that your computer is "stoned" is
+annoying as hell, and having to type "Happy Birthday to Joshi"
+early in January makes you wonder who's in charge. But it sure
+beats being informed that your company's customer list and the
+archived source code for your next unreleased product have just
+been transmitted by modem to your competition. When your network's
+database and modem servers receive remote procedure calls (RPCs)
+from remote workstations, are you sure they should answer that
+call?
+ We need to begin tightening up our systems and taking security
+very seriously. Personal computing is not just a diversion from the
+tedium of sharpening pencils; it is a serious endeavor that is
+extremely prone to organized and deliberate attack. If a bored,
+pimply faced highschool kid is capable of penetrating your
+corporation's security with his annoying but benign virus, you had
+better hope he never wants to hurt you.
+
+ Steve Gibson is the developer and publisher of SpinRite and
+president of Gibson Research Corp., based in Irvine California.
+       From April 20,1992 issue of InfoWorld\ 
+
+</PRE>
+</BODY>
+</HTML>
+

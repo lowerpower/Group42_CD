@@ -1,0 +1,79 @@
+<html>
+<head><title>Group 42 Sells Out [ZZ-Test]</title></head>
+<body background="cable1.gif">
+
+<center>
+<img alt="Group 42 Sells Out!" src="../g42slogo.gif">
+</center>
+
+<hr size=5 noshade>
+<center>
+<h2>ZZ-Test Z-TAC Test Chip Mod</h2>
+by G-Man of Group 42
+</center>
+<p>
+
+<h3>Introduction</h3>
+The ZZ-Test test chip is based on the first test chip that I wrote
+for the Zenith systems.  It will work in 95% of all Z-TAC boxes
+using either the 221-165 or 221-288 processor.  It
+requires you to program a <a href="zz.pal">PAL16L8A2</a> or
+<a href="zz.gal">GAL16V8</a> with the
+ZZ-Test code</a> and
+to install the PAL into the Zenith Unit.
+<p>
+<h3>Installation</h3>
+<ul>
+<li>Program a PAL or GAL with the ZZ-Test code.
+<li>Prepaire PAL or GAL by:
+<ul>
+<li>Cut away or bend up pins 14,15,16,17, and 19.
+<li>Solder pins 8,9 and 10 togeather.
+<li>Solder pins 11 and 12 togeather.
+<li>Solder wires to and bend up pins 1,2 and 18.
+</ul>
+<li>Using a security #15 driver bit, open the Z-TAC box.
+<li>Locate the 40 pin chip marked <b>221-288-xx</b> or <b>221-165-xx</b>.
+<li>Locate and remove PROM chip.  It is normally, but not always, marked
+        <b>IC6663</b> on the circuit board.  It is a 16 pin chip normally
+        in an 18 pin socket located near the 40 pin processor chip.  In
+        some modles it may be covered with epoxy.
+<li>Insert Ztest-III test chip in PROM socket.  Be sure to note the
+        location of pin #1. (see diagram for more detail)
+<li>Connect wire from pin #1 of Ztest-III and solder it to pin 10 of
+        a 221-165 processor or to pin 13 of a 221-288 processor.
+<li>Connect wire from pin #2 of Ztest-III and solder it to pin 11 of
+        a 221-165 processor or to pin 10 of a 221-288 processor.
+<li>Connect wire from pin #18 of Ztest-III and solder it to pin 12
+        of a 211-165 processor or to pin 12 of the 221-288 processor.
+<li>Make sure that the Ztest-III pins 1,2,14,15,16,17,18, and 19 do
+        not go into PROM socket.
+</ul>
+
+The modification whould now be done, plug the box in and select a
+scrambled signal.  If all the channels work properly, you are finished.
+If you only get a picture on pay type channels, then short pins
+4 and 5 on the 221-288 processor chip.  if the pay type channels are
+displaying inverted video or flashing, then find a jumper block near
+the 40 pin processor.  In older units, it is a black think with 7 holes
+plugged into a 14 pin dip socket.  In newer units the second jumper
+normally corrects the inversion problem.  In older units try jumpers
+2,3 and 5.  Also not that units with a 221-165 processor there is
+no jumper block and you may need to adjust the zero carrier in order
+to make the unit authorize and unscramble.  Do not short pins
+4 and 5 of a 221-165 processor.
+<p>
+On some of the st-1612 type units you may need to run a jumper between
+pin 7 of IC12 to pin 12 on the 221-288, If this doesn't correct your
+problems try running the jumper to pin 13 of the 221-288.
+<p>
+<br>
+
+<p>
+<br>
+
+<hr size=5 noshade>
+
+</html>
+
+

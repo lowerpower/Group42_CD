@@ -1,0 +1,612 @@
+ 
+                    Vital Credit Card Information and Usage
+
+                                      or
+
+                          Fun with Numbers revision A
+
+
+
+                Compiled, and made intelligible by The Sparrow
+
+** MANY Thanks to Codebreaker; for without him I would be lost. (in JFK?)
+A big thankyou to The White Rider for proof-reading this. 
+  ( If you find any mistakes, BLAME HIM!!! HAHAHA)
+
+Hello to: Fry Guy ("You've got to hear about this new scam. . .")
+          Video Vindicator ("Fly down and let's go casing!")
+  
+_____________________________________________________________________________
+
+
+The following is list of ideas and facts that have been brought together for
+the sole purpose of educating those who lack this knowledge. In writing this, I
+do not intend for the reader to use any information contained herein, but
+rather to further his/her own education and provoke thought to perhaps better
+the society we live in. 
+
+______________________________________________________________________________ 
+
+
+
+I. Card Types
+
+     The first digit of the credit card number (henceforth referred to as CCN)
+determines the credit card type. A simple list might be:
+
+         First Digit of Credit Card              Card Type
+         --------------------------              ---------
+
+                   3                          American Express
+                   4                                Visa
+                   5                             Mastercard
+                   6                              Discover
+
+
+
+II. Bank and Branch Numbers
+
+                                   Sample Credit Card: 1234 567 890 123
+                                                         ^
+                                                         |
+     Within the first group of numbers from the left [called Group 4] the Bank
+name and branch are contained. We have already discovered that the first digit
+of Group 4 reveals the card type. We will now look at how to decipher which
+bank issued the card, and which branch of the bank the actual card holder banks
+at. Look at the Second, Third, and Fourth digits of Group 4. These three
+numbers tell which bank issued the card. A small list follows this paragraph,
+although you can compile a list by yourself. Just glance at cards you get your
+hands on which the bank name is printed, and record the information. [ Editor's
+Note: This is a hard concept to explain, so let me give you an example. Lets
+say Bank of Hicksville's group 4 Visa Credit Card reads 4560. (560 = Bank of
+Hicksville). BUT, 4561 is NOT necessarily Bank of Hicksville, too. 4561 could
+be Bank of Booniesville. So what I am trying to get across is that the next
+bank in line doesn't HAVE to be 4570 -- it could be earlier in numbers. ] 
+ 
+
+
+
+
+----------VISA
+          ----  
+  
+ Group 4            Bank Name           
+--------            ---------    
+  4019              Bank of America              
+  4024              Bank of America
+  4052              First Cincinatti  
+  4060              Navy Federal Credit Union 
+  4128              Citibank             
+  4131              State Street Bank
+  4215              Marine Midland
+  4225              Chase Manhattan  
+  4231              Chase Lincoln First Classic
+  4232              Chase Lincoln First Classic
+  4241              Nat. Westminester Bank    
+  4250              First Chicago Bank
+  4271              Citibank Preferred
+  4302              H.H.B.C.
+  4310              Imperial Savings
+  4317              Gold Dome  
+  4387              Bank One             
+  4428              Bank of Hoven
+  4811              Bank of Hawaii
+  4897              Village bank of Cincinatti
+
+
+ ----------Mastercards
+           -----------
+
+ Group 4            Bank Name 
+---------           ---------
+
+  5215              Marine Midland 
+  5217              Manufacturers Hanover Trust
+  5233              Huntington Bank   
+  5242              Chevy Chase Federal Savings
+  5254              Bank of America
+  5263              Chemical Bank              
+  5273              Bank of America
+  5286              Chase Lincoln First 
+  5317              Norwest               
+  5323              Bank of New York 
+  5329              Maryland Bank NA (MBNA)    
+  5410              Citibank Preferred        
+  5411              1st Fin. bank of Omaha      
+  5414              Nat. Westminester Bank
+  5415              Colonial National Bank
+  5424              Citibank                 
+  5465              Chase Manhattan     
+  5678              Marine Midland          
+
+
+
+III. Bank Codes [ International Bank or Interlink Numbers]
+
+     These are used in checking credit. Later on, you will learn that while
+checking the credit cards for the amount of credit, you will be prompted to
+enter the Bank ID along with the Merchant ID. The bank IDs are, I believe, from
+the following list. One note-- you cannot just choose any Bank ID and use it
+with any merchant ID. They must correspond in some way. How, I don't know. I
+THINK that a bank issues a merchant number to each of their customers. If you
+try to use a merchant number with a bank number, and the merchant doesn't
+actually use the bank that is specified by the bank number, you are going to
+get some problems. (ie, the verification won't go through.) Again, I will state
+that this is only a theory. The reason that I post this theory is to get minds
+working. So far, no one has mentioned their ideas on the function of Bank
+Codes. If you do happen to find out the true meaning of these numbers, please
+get in touch with me so I can update this list. Thanks. One word- on VISA
+credit cards, the bank IDs are the first 4 digits of the Card. For Mastercards,
+however, they vary. A list follows:
+
+     Bank                       Bank Code
+     ----                       ---------
+ Chemical Bank                    1263
+ Marine Midland                   6207 [1207?]
+ Manufacturers Hanover Trust      1033
+ Citibank                         1035
+ Huntington                       1226
+ First Card Gold                  1286  
+ MBNA                             6017
+ Chase Manhatten                  1665
+ [ Bank from 5127 ]               1015
+
+IV. "Group 3"
+
+Sample Credit Card: 1234 5678 9012 3456 
+                           ^
+                           |
+                           |                
+                         Group 3, or the second group on a credit card in from
+the left, contains some VERY useful information about the card. This group
+holds the information on the Maximum Expiration Date and the Maximum Credit
+Limit. (I believe that you can all see the benefits of this.) This does not
+mean, however, that the ACTUAL expiration date and ACTUAL credit limit are in
+this group. What it means is this: When the different Credit Card Companies
+issue Credit Cards to the consumer, he of course has a credit limit. And when
+the Companies formulate credit cards, they create certain groups for certain
+customers. That is, certain "groups" contain all the credit cards for people
+with a credit limit between $x and $y. The same thing goes with the expiration
+dates. Everyone whose card expires after m1/y1 and before m2/y2 has their
+credit card in a certain group formulated by the company. For example:
+My name is Joe Schmoe. My Visa credit card expires in January of the year 1999.
+My credit limit on this card is $7,000. My credit card number (CCN) will
+probably be in the same group as my brother-in-law Jack Koff whose card expires
+in December of 1998 and whose credit limit is $6,000. BUT, our cards will be in
+different groups entirely than my boss' whose card expires in June of 1995 and
+whose credit limit is $40,000. 
+     Back to the point of section IV: Lets say you have a credit card with a
+known expiration date and known credit limit. Lets also say that you happen
+upon ANOTHER credit card whose numbers are the same up until the last 2 groups.
+(You and I see that these two cards were issued by the same bank and PROBABLY
+have a credit limit in the same ball park and an expiration date not far from
+each other. ) BUT, even though you have this new credit card, you lost the
+expiration date and credit limit. GOSH! How are you going to use this card when
+you don't know this information?? APROXIMATE! You have a general idea now, and
+you can go from there. 
+     One warning here: I have found that small groups of cards with high credit
+limits are often hidden in between large groups of cards with very low credit
+limits. For instance, lets look at this card: 4123 4567 8901 2345. From -4567
+until 4600 in group 3 (from the right) gold cards may exist. But after 4600 and
+before 4567, cards with credit limits of $500 exist. Kind of sucks, huh?? Just
+wanted to make you aware of this.
+     Now, once you learn how to modify these without hurting the card, you have
+increased your value as a carder by 100x. But be careful. Often when you modify
+a card's group 3 to get a higher credit limit line of cards, you will find the
+entire line is dead. Or, in other cases, just the original card you find is
+dead, and all surrounding cards are valid with the new credit limits.
+
+V. "Group 2" & "Group 1"
+
+     These two groups, or the last two groups on the credit card, are the
+easiest to modify. By changing these in such a way, you can formulate new
+credit cards simply by doing a little math in your head. These two groups
+contain the IDentification codes. Later on in your carding careers, you might
+find out how to change these, and thus, you have found the secret to a vault of
+new and awaiting credit cards. I stress here that the only purpose that these
+two groups serve is to differentiate between customers. If the first two groups
+of two cards are the same and the last two groups of two cards are different,
+the two cards were issued by the same bank and probably have similar credit
+limits, but are of course issued to different people.
+
+VI. Credit Card Verification
+
+     Once you have a newly formulated or newly found Credit Card, you must
+first check to see if it is valid before you distribute or use it. The reason
+for this is this: Although you may not have faltered in your calculations, and
+you created a credit card following the correct formula, the card may turn up
+as invalid. This is because it has not been issued yet. Visa or Mastercard has
+not issued that card to a customer yet. You are ahead of the credit card
+company. (Don't you feel important??!) If this case arises, simply formulate a
+new credit card from the original valid credit card, and check it once again.
+There is no known way around this except to wait.  
+     OKAY- you want to check your credit card and see how much money this
+person has. There are many, many credit verifiers around. The easiest way to
+get ahold of one is to go into any store which accepts credit cards and look on
+the side of the machine that imprints the carbons with the credit card number,
+etc. Or, look right on the wall next to the register. There should be a number
+to call, a merchant number, and perhaps a bank number. Jot these down and head
+on home. The format for these is usually different, but all have the basic idea
+in mind. Call an operator of some sort, tell her the authorization information
+that she asks for (bank number,merchant number, etc)  and give her the card and
+the amount for which to verify the card. She will check and let you know if it
+has enough credit left. Simple. BUT***  
+
+ ******************* ONE NOTE **********************
+ When you check a card for a certain amount of money, that amount of money is
+subtracted from the amount available on the card. For example, if a card has
+$5,000 left on it, and you get ahold of it and check it for $2,000, you can
+only spend $3,000 before it tells you that you don't have the necessary credit
+to go through with a transaction.
+
+VII. Purchasing Merchandise: The Real Story
+
+     OKAY, now that you have a VALID credit card, you will most likely want to
+get some newly acquired merchandise. This is all fine and dandy, but if you
+don't know what you are doing, you can get yourself and most likely your
+friends in a LOT of trouble. 
+
+
+---------------------------------------------------------------------------
+*** WARNING : NEVER ORDER SOMETHING FROM YOUR HOUSE. ALWAYS GO OUT TO A ***
+*** PAY PHONE. ALSO, ALWAYS HAVE A STORY WORKED OUT BEFORE YOU CALL.    ***
+*** THAT IS, YOUR NAME, ADDRESS, JOB, PHONE NUMBER, EXCUSE FOR NOT BEING***
+*** HOME, MOTHER'S MAIDEN NAME, ETC. ANY STUTTERING OR HESITATION COULD ***
+*** BLOW THE WHOLE SHOW !!!  !!!  !!!  !!!  !!!  !!!  !!!  !!!  !!!  !!!***
+---------------------------------------------------------------------------  
+
+
+  FIRST- Let me clarify something. When you order something over the phone, and
+the person selling you the items wants to know the actual Cardholder's name,
+address, phone number, etc, you DO NOT have to give him/her the correct
+information. [UNLESS: You do have to give the person correct information if
+they have an online connection to a credit record bureau such as CBI or TRW. In
+this case, as they can verify everything that you say in a matter of moments,
+just do your best, get a new card, and never order from this company again. I
+will not lie to you: some companies do have this capability. But if you stick
+with little bussinesses who need your money, you'll do fine. ] Bullshit your
+way through. Or hire a social engineer to do it for you. You do not even have
+to give the correct expiration date! Almost Any expiration date will work as
+long as it is at least one month ahead of the current month and it is not TOO
+far ahead in time so that it jumped over the actual expiration date. (ie, if
+the current date is 10/89, give the expiration date 11/89 -- simple) The
+company from which you are buying things can not verify the extra information
+YOU give them until after the order has been processed and the package shipped.
+They have to get in touch with a Credit Union, which will be discussed later on
+in this summary, to verify it all. * ALL THAT THEY CAN VERIFY PRONTO IS THAT
+THE CREDIT CARD IS VALID, AND THAT IT HAS ENOUGH CREDIT TO PAY FOR THE
+MERCHANDISE YOU ARE PURCHASING. * My suggestion, however, is that you give them
+the phone number of a pay phone near your house. [ Or, if you want to REALLY
+make sure things go smoothly, give them the number of a direct dial VMB local
+to the shipping address. ] If they want to call you back, FINE. Ask them to do
+so between the hours of X pm and Y pm. And, just pitch tent at the phone for a
+few hours a night. No problem. They will almost always call right back, since
+they don't want to inconvenience their customer who happens to be buying $6,000
+worth of computers at the time. Understand?
+
+  SECOND- Where should I ask have them ship it to, you ask? Fret not, my little
+friend in carding. Before you call and order your things, first go out and find
+an abandoned house. These still work best. Either one that has been moved out
+of, and no one has moved into yet. Or, if you can, find one that is REALLY
+abandoned. (BUT MAKE SURE IT HAS A STREET ADDRESS THAT THE POSTMAN OR UPS MAN
+CAN FIND!) Jot down this address. This is referred to as a drop site. 
+[ Ed. Note: if, and I say IF you can rent a mailbox, do so. Make sure they sign
+for everything (UPS, etc) and bring some FAKE ID with you to open it up. Most
+of the time, they will give you hastle, and verify EVERYTHING you give them. So
+it is really not that easy to get one of these. At least try, though. ] OKAY,
+give this address to the man or lady who is taking your order. Tell them this
+is where you live. REMEMBER, they can not verify that you don't live there for
+quite a while. They will send everything there. When the shipment comes (either
+Overnight, Second Day, or whenever), pick it up (CASUALLY) and stroll home to
+open your package. If it does not come, or if the salesperson gives you
+trouble, don't worry. If it didn't come, it is because 1) It got intercepted by
+the feds or 2) The company didn't process it because they did actually try to
+verify your address, name, and phone number, thus delaying your shipment, but
+saving themselves a lot of money. Just try another store until you find some
+place that is easy to buy from.
+
+  THIRD- I suggest that you do not furnish your household with carded items. It
+is just not wise. Get a few things, if you like, and wait a little while. Sit
+tight. When things cool down, you might want to get some more things. REMEMBER-
+all things are good in proportion, but when you get out of that proportion (ie,
+get greedy and order a new house) you will most definately get caught sometime
+or another. Patience is the carder's best friend. (along, of course, with the
+VISA formula... hehe)
+
+  FOURTH- You have all heard it before. DON'T DISPLAY YOUR SPEICAL TALENT AT
+SCHOOL, PARTIES, OR SOCIAL EVENTS. Not even to your best friends. ESPECIALLY
+not to your best friends. They are the ones most likely to brag about you and
+spread the word. This is the farthest thing from what you want. Keep it to
+yourself, and if you must tell someone about it, either call Phone Sex, a
+Bridge, or an Alaskan Operator. Those are your only choices, as no other carder
+or phreak wants to hear about how good you actually are. 
+
+  FIFTH- I wouldn't advise making a bussiness out of this, either. Sure, if you
+want to get a few dollars for things you order (and that you don't want
+anymore) sell it and keep the money. But its purely asinine to take "orders"
+from people for money. And even if you don't want money. Keep in mind that
+Credit Fraud IS a felony, and getting caught violating US Federal Laws is not a
+fun experience to go through. Do you want to go to jail for 10 years, and never
+again be able to get a good job because Joey down the street wanted to pay $10
+for a new skateboard that retails for $75?? Thats what I thought. Your whole
+goal in life, as long as you participate in the Underground Arts, is to keep a
+low profile.
+
+VIII. Getting Credit Cards
+
+     There are a number of ways through which you can get credit cards. 
+
+  FIRST- Go trashing. That is, go in back of a bank, department store (make
+sure it is not in a mall!), or other store which accepts credit cards. When the
+coast is clear, jump in their trash bin. Rummage around a bit. Having a look
+out might prove to be wise. What you are looking for are carbons - the carbon
+paper which the salesperson throws out after a purchase has been made. Remember
+these? It is the device that guarentees you (a legit customer) get a receipt of
+your credit card purchase, and also that the store gets a copy for record
+keeping. Once you find these, (and making sure you don't rip them) put them in
+a bag, pocket, whatever, and get somewhere safe. (home?) Hold them up to the
+light, and copy down everything you think is important. Card Number, expiration
+date, name, address, bank name, etc... Then BURN the carbons. This destroys all
+evidence that you ever had them. From here, you are set. Order away! 
+
+   SECOND- If you have a friend that works in a store which performs credit
+card transactions, you might save yourself the trouble of banana peals on your
+head and ask him/her if they might not mind slipping the carbons into a bag
+after they ring up a sale. (or have them copy everything down for you.) 
+ 
+  THIRD- You might try bullshitting people and getting their cards. You have to
+be VERY good, and the person has to be VERY stupid for this to work. In my
+mind, it is a waste of time, and almost never works. (Because people where I
+live are smart, of course..) I am presenting this to you in case you live in a
+society of morons. Exploit every area that you possibly can. The conversation
+might go something like this:
+
+YOU: "Hello, Mrs. Davis? This is Mr. Off from Security down at Citibank. We
+have had a computer breakdown and no more of your VISA transactions can be
+processed since we lost your credit card number. Do you think that you can give
+me your number again, so I can re-enter it right now?"
+
+Mrs. Davis: "Wait a minute, who is this again?"
+
+YOU: "My name is Jack Off and I am from Citibank Security. (Explain whole
+situation to her again )"
+
+Mrs. Davis: "I don't know about this. Can I call you back at a number?"
+
+YOU: "Sure. That's no problem. I understand your reluctance. Here... call me at
+my office. Its 555-1212 (pay phone, loop, or bridge which you are at)"
+
+Mrs. Davis: "Ok, bye!"
+
+<CLICK>
+<RING...>
+YOU: "Hello? This is Jack Off's office, Citibank Security, may I help you?"
+
+Mrs. Davis: "Oh, good. I was afraid you were a phony. Ok, my VISA is xxxx-
+xxx-xxx-xxx... "
+
+YOU: "Thank you. We will try to restore your credit limit as soon as possible.
+Until then, please refrain from trying to purchase merchandise on your Citibank
+Visa Card. Goodbye."
+
+<CLICK>  
+
+Neat, huh?
+
+  FOURTH- If are a really advanced Carder, you can get fancy and use a credit
+card formula. Great, you're saying to yourself. GIMME GIMME GIMME! Not so
+quick. Although several do exist, and I do have a couple of them, I am in a
+situation in which I am unable to reveal it. If you are particularly smart and
+intelligent, you can develope it yourself. Actually, it is not that hard if you
+have the means. MAYBE if you are good at math....  
+
+  FIFTH- You may try to get credit cards from other people. (friends?) I
+stronly recommend against this. Usually the cards you get from other people
+have usually already been used and are either being watched or are already
+dead. 
+
+  SIXTH- If you have access to a Credit Union, you can call and "pull" someone
+else's account. (For instance, if you know someone's name and address, or
+social security, you can take a look at all of their loans and credit cards. )
+
+
+
+IX. Advanced "Carding" Techniques
+
+     Please, people, I beg of you -- If you have not been carding for a year or
+two (AT LEAST) do not read this information. It will only confuse you, and even
+if you understand it, it will not work as it should unless you have the
+experience you are lacking. So sit tight and practice with parts I-VIII.
+PLEASE!
+
+     If, perchance, you happen to have the experience necessary to read on,
+then enjoy this. The following are simply a few details, hints, etc, that I
+just left out of the original manuscript due to my horrendous memory. Add to it
+if you like, and pass it a long. We all need to help each other if we are going
+to survive. Also, the following are in no particular order except that which
+they come to my head. 
+
+1) For a drop site, you can try to get fancy if need be. I have heard of empty
+military huts being used as well as empty condos, empty houses whose owners are
+on vacation, and about a zillion other stories. If you think you have come
+across something new, think a plan up, think it over, and think it over again.
+Make sure you have every step down so when you order, pick up, and make your
+escape, there are no problems. Think about it . . . what harm does it do to
+spend an hour making sure you didn't overlook something. It is a lot better
+than going there and getting caught.
+
+2) Sometimes the places you order from will have an online account with a
+credit record bereau. (Such as TRW, CBI or Transunion) The horrifying fact is
+that they can verify ONLINE ANY information that you give them. So, you're
+busted, right? Wrong . . . 
+If this happens, there is nothing you can do unless you have a lot of power
+with phones. Chances are, you don't. So play it cool and give an excuse to get
+off the phone. Just try somewhere else. Also, if you don't do this right, you
+will probably kill the credit card. 
+
+
+X. Credit Unions
+
+     Credit Unions basically are databases that hold information of its
+members. When you apply for a credit card, I think that the application to be a
+member of a Credit Union is presented also. Since almost EVERY person who owns
+a credit card has personal information in at least one of these services, then
+there is no fooling he who has access to these services. Many times in your
+carding career, you will run into a bussiness who has an online connection to
+such unions. If you try to present false information they will catch you and
+follow up with the appropriate actions. (That is, report the credit card you
+said is yours as dead, call the authorities, etc, etc.) 
+     Two of the major Credit Bureaus in the United States are TRW and CBI. As
+these two services hold large bases of information on its members (ie, every
+credit card holder in America), many unauthorized personnel often wish to gain
+access to them. They are accessed through a computer by calling a Bureau port
+and entering authorization passwords. 
+     For CBI, the passwords are in the format of nnnllnnn-**, where n=a number
+0-9; where l=a letter from a-z; and where *=any character.  
+     For TRW, the passwords are in the form of lllnnnnnnnlnl. (using the same
+key as CBI.)
+     As you can see from the length and complexity of these passwords, it is
+literally impossible to hack them. (ie, hack in the sense guess them.) So you
+are probably wondering how unauthorized persons gain access, huh? Well, we
+either have inside information or we go trashing. Thats it.
+     Right now, however, I am not going to go any further into the subject of
+credit unions. Be aware that they exist, and they can help you as well as hurt
+you if you don't know what you are doing. At a later date I plan on devoting an
+entire file to the subject of credit unions, as I haven't seen an up-to-date
+file in years.
+
+ 
+
+Thats about all. I wish you all good luck, and may your adventures be safe and
+fun-filled. And if I EVER catch any of you giving out the credit formula (once
+you discover it..) I am going to personally fly over and kick your ass.
+(remember- I have carded tickets around the country many times. There is
+nothing to stop me from visiting YOUR town.. hahaha)
+
+One final note -- VISA is planning on changing their credit formula within a
+few years. So if you happen to be reading this many a year down the line, you
+will most likely discover that some of this is no longer valid. DONT BLAME ME.
+It was valid at the time when I compiled it. 
+
+
+
+
+
+APPENDIX A
+----------
+
+
+Credit Card Formats
+-------------------
+
+American Express -- xxxx xxxxxx xxxxx
+                     \/    \/    \/
+                     /     |      \
+                    /      |       \ 
+            4 digits   6 digits     5 digits
+
+VISA -- xxxx xxxx xxxx xxxx
+        \_________________/
+        4 digits each group
+      
+               OR
+
+     -- xxxx xxx xxx xxx
+         \/  \_________/
+         /    3 digits each
+ 4 digits
+
+
+Mastercard -- xxxx xxxx xxxx xxxx
+              \_________________/
+              4 digits each group
+
+
+Discover -- xxxx xxxx xxxx xxxx
+             \_________________/
+             4 digits each group.
+
+
+
+
+APPENDIX B
+----------
+
+Credit Verifiers
+
+
+1800-554-2265. Use '#' (pound) as control key.
+     
+     Card Type:    10 = Mastercard
+                   20 = Visa
+                     
+     Bank Identification:   1067
+
+     Merchant Number(s): 1411
+                         52
+
+IDEA:: You all know those sex lines (like 800-666-LUST), well they verify your
+credit card before they let you listen. You might try calling one of these and
+using it for a while if you have nothing else.
+
+
+
+
+
+APPENDIX C
+----------
+
+
+Other Things to Do
+
+1] Plane Tickets
+
+     It is relatively easy to order plane tickets using a credit card nowadays.
+And, for convenience, you can order over the phone. Well, look up your favorite
+airline, call them, and present them with the situation. You would like 2
+executive class tickets to Florida [ Ed. Note - If you live in Florida, make it
+a trip to California ] round trip to be billed to your Visa Credit Card. Oh
+sure, maam. My credit card number is <blank>. My expiration date is <blank>. My
+Name is Joe Schmoe. I live at 223 Hard On Lane, Pubic Hair, PA. Oh, and maam,
+could you PLEEAZE hold the tickets at the airport for me. I will present some
+identification to pick them up there. Thank you.
+     It is relatively easy to do this. But, there are a few catches.
+
+          A.) Do NOT stay for any long period of time at any one place. After 
+              few days, the airline will catch on to what you have done. My 
+              suggestion is that you stay for only about 2 to 3 days. Or, if 
+              you really want to stay for a long time, get a one way ticket to
+              wherever it is that you would like to go to. Stay however long 
+              you want to stay and take another 1 way ticket home. 
+
+          B.) If you plan on traveling around the country, catch one way 
+              tickets around from place to place. And please, USE DIFFERENT
+              AIRLINES!
+
+2] Motorcycles
+
+     Again, you would be surprised at the amount of work (or lack of it)
+required to aquire motorcycles on other people's credit cards. I believe you
+can all see the advantages, so let us get down to the procedure. First, set up
+an order under a corporate account. You can find these sometimes if you work in
+a store that would use such cards. (Look over shoulders) Well, I will leave to
+you the methods to come upon corporate account cards. Once you have them,
+finish the procedure. Step 2 is to send an "employee" (yourself or a stupid
+friend) to pick it up. Bring proper identification that was issued from the
+corporation. (I suggest making your own -- Not very hard). Offer a Voice Mail
+Box as your bussiness number. It is very common for a high level employee to be
+absent from his desk. Use your imagination for the rest, and tidy it up to
+perfect it.
+
+3] Travelers Cheques
+
+     OKAY, I will admit this is getting out of hand, but what the hell -- For
+those of you very daring and in possession of a very good form of false
+identification (Birth Certificate?), you can easily order some American Express
+Traveler's Cheques for your travels around the world. The number to call is
+1-800-777-7337. Using your American Express Credit Card, order some of these
+"babies" in another name. (For a gift..) Have them delivered as you deem
+appropriate. Enjoy them thouroughly. 
+
+
+

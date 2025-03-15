@@ -1,0 +1,63 @@
+
+  Realistic PRO-2022 200 Channel Scanner
+  --------------------------------------
+
+ Modification to access 868-896Mhz band
+               by N6VMO
+           Version 12.30.91
+This modification may be ILLEGAL for use
+within the U.S., and will void the
+warranty of the scanner if mod is detected
+by Radio Shack servicing centers. Desoldering
+of components is recommmended over snipping
+component leads.
+
+Purpose of Modification:
+
+To gain access to the celluar base frequencies
+from 868 to 896Mhz. Monitoring this band will
+enable a listener to hear both sides of a
+cellular phone communication.
+
+Modification History:                                                                                                                                           After purchasing the PRO-2022, I downloaded
+several scanner mod files and learned how
+Radio Shack matrix'ed out certain portions
+of the spectrum. Opening the PRO-2022 case
+reveled the PRO-2022 'mystery'.
+
+Modificatiion Procedure:
+
+1. Remove power,antenna, and ext. speaker
+   from scanner rear panel.
+
+2. Remove top and bottom covers by removing
+   the 4 screws on the rear panel. Unplug speaker.
+
+3. Remove the large RFI metal sheild from
+   the bottom circuit board.
+
+4. Desolder anode side of D44 from circuit
+   board, and ensure lead is isolated from
+   any circuit board connections. Desoldering
+   D44 will allow you to return the unit to
+   its original condition if RS service is
+   required.
+
+4a. I believe that desoldering D43 will allow
+    access to the mobile portion of the cell-
+    ular band (823-851Mhz). I have not tried
+    D43 mod.
+
+5. Resolder RFI sheild in place, install covers.
+
+
+I also believe that adding diodes in D42 and D45
+positions will grant other neat features such as:
+
+ 1. Faster scan time
+ 2. Access to 200Mhz portions of the spectrum.
+
+Experiment and drop me a packet on what you find.
+
+73 John N6VMO @ AA6QD.#CENCA.USA
+                                

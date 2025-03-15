@@ -1,0 +1,51 @@
+                        ANTEL RADIANT 950MX
+
+                NAM Type:  EEPROM
+            Manufacturer:  Sun Moon Star
+              Programmer:  Handset
+          ESN Prefix DEC:  178
+                     HEX:  B2
+ ESN, S/N Match Required:  Yes
+      Available Channels:  832
+    Programming Sequence:  Power On
+                           Enter programming mode: FCN + FCN + * + 950626 + *
+                           Software version will be displayed
+                           Press (up arrow) key to advance
+                           Select NAM 1, 2, 3 oe 4, within 5 seconds
+                           Use (up arrow) and (down arrow) keys to step
+                            through parameters
+                           Press # after entering each parameter to store info.
+                           Once all information has been programmed, press
+                            FCN + FCN to exit
+
+                       # digits
+        System ID Format:  5     XXXXX + #
+           Station Class:  SCM 8 (should be displayed)
+           Mobile Number:  10    XXX-XXX-XXXX + #
+  Initial Paging Channel:  3     333 or 334 + #
+   Access Overload Class:  2     XX + #
+         Group ID Format:  2     XX + #
+             Lock Code A:  3     XXX + #
+             Lock Code B:  3     XXX + #
+        Local Use Option:  1     1 + #
+              MIN Option:  1     1 + #
+        Preferred System:  1     0(B) or 1 (A) + #
+   End-to-End Signalling:  1     1 + #
+        Repertory Option:  1     1 + #
+       Horn Alert Option:  1     1(Enable) or 0(Disable) + #
+        Handsfree Option:  1     1(Enable) or 0(Disable) + #
+        Full Lock Option:  1     1(Enable) or 0(Disable) + #
+             Lock Option:  1     1(Enable) or 0(Disable) + #
+     Partial Lock Option:  1     1(Enable) or o(Disable) + #
+
+              Horn Alert:  FCN + 4 + 1
+         New Unlock Code:  NAM
+           System Select:  FCN + 5 + X
+                            X=1  AB Pref A
+                            X=2  BA Pref B
+                            X=3  A only
+                            X=4  B only
+                            X=5  Home
+
+Press CLR to exit.
+

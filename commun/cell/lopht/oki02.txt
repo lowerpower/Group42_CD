@@ -1,0 +1,81 @@
+OKI CDL 600 series, 700, ACC91
+
+NOTES:  These units are dual NAM.
+        The ESN prefix is 129 decimal & 81 hex.
+        OKI: 1-800-554-3112
+
+NAM PROGRAMING:
+
+1.  All phones should be initialized prior to programing, this will clear
+    all user programing functions including memory locations and solve many
+    units problems.  Press CLR 0 0 CLR.
+
+2.  Turn power off then on again.
+
+3.  Within ten seconds:
+
+         On 610 & 620 - press FCN & RCL keys together, release.
+         On 630 & 700 - press MENU & RCL keys together, release.
+         On ACC91 - press any two keys together, release.
+
+         Enter: 0008693427.
+
+4.  Phone will display software version and hex ESN, press CLR briefly
+    to proceed.
+
+5.  Phone will display "Press 0 - 9".  Enter a step number or use volume
+    UP to scroll to step 0 below.
+
+6.  To store data press STO (630 & 700), * (610 & 620) or NEW CALL (ACC91).
+
+7.  Volume up scrolls down, volume down scrolls up through steps.
+
+8.  Hold CLR to exit programing, pressing * after entering step 9 will
+    switch to NAM 2 data.
+
+
+PROGRAMING DATA:
+
+STEP#    #OF DIGITS/RANGE    DISPLAY        DESCRIPTION
+
+0       Press 0 to initialize unit if not done in step 1 above.
+1       10 DIGITS            PHon           MIN (AREA CODE & PHONE NUMBER)
+2       5 DIGITS             Sid            SYSTEM ID
+3       4 DIGITS             iPCH           IPCH AUTOMATICALLY SET
+4       2 DIGITS             ACColC         ACCESS OVERLOAD
+5       3 OR 4 DIGITS        LoC Cod        LOCK CODE
+6       2 DIGITS             Gid            GROUP ID (10 FOR USA)
+7       4 DIGITS             Stn            STATION CLASS MARK, USE 1000.
+8       4 DIGITS/0 OR 1      oPc bit        OPTION BITS: (1 enables)
+                                            Horn Alert
+                                            Hands Free
+                                            Local Use
+                                            MIN Mark
+9      6 DIGITS              SSSSSS         SECURITY CODE (DEFAULT IS LAST
+                                            SIX DIGITS OF ESN)
+
+At this point you can press "*" to program NAM 2 (not all models).
+
+
+CHANGING LOCK CODE:
+
+(610): F 9 2 six digit security code, new lock code, *.
+
+(620, 630, 700):
+With phone out of programing mode press MENU repeatedly
+until phone displays "UNLOCK CODE SET", press RCL, enter security code to
+display current lock code.  Enter new code and press STO.
+
+LOCK:
+
+(610):  Press LOCK.
+(620, 630): F 0.
+(700): MENU seven times then 0.
+
+UNLOCK: Enter code.
+
+SYSTEM SELECT:
+
+(610): F 3 then 3 to scroll, * to store/exit.
+(620, 630): MENU 3 then 3 to scroll, STO to store/exit.
+(700): MENU ten times, RCL to scroll, STO to store, CLR to exit.

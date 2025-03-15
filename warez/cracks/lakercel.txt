@@ -1,0 +1,37 @@
+ 
+Lakers versus Celtics Unprotect
+
+   Isn't it annoying when you buy a new game, or when you pirate
+   a new game and they ask you for information that is concealed in
+   the game's package, then you have to find a friend that has the
+   game and copy the information down, well here I have the solution
+   for Lakers vs. Celtics. The "All-Time Playoff Records".
+
+ Team:                       Years:        Wins:         Losses:      Pct:
+
+ Lakers                       38           276           180          605
+ Celtics                      31           257           170          601
+ 76ers                        35           167           143          539
+ Bucks                        17           84            78           519
+ SuperSonics                  11           55            55           500
+ Pistons                      25           87            89           494
+ Knicks                       25           103           102          502
+ Warriors                     24           94            104          475
+ Rockets                      12           48            54           471
+ Hawks                        28           98            116          458
+ Suns                         11           47            53           458
+ TrailBlazers                 12           31            39           443
+ Nuggets                      11           33            47           413
+ Jazz                         6            18            26           409
+ Cavaliers                    6            12            20           375
+ Bulls                        15           36            65           356
+
+ Good Luck...
+ And remeber:
+              If you want to buy a game 
+              But the price is rather lame 
+              With a valuable DOS command 
+              You can have it just the same! 
+                                                   Courtesy of "Rogue"
+
+

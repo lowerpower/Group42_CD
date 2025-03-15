@@ -1,0 +1,19 @@
+Crack for Test-Drive III Version 1.1,2.0
+
+With PC-TOOLS or Norton Utilities search for
+
+83 7E E8 00 74 32 2B C0  
+
+Replace with
+
+83 7E E8 00 EB 32 2B C0   
+
+You can enter a number you want
+Testdrive accepts it 
+ 
+
+
+         
+
+
+

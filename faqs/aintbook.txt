@@ -1,0 +1,3356 @@
+Archive-name: internet-services/book-list
+Last-Modified: 1995/3/6
+Version: 1.1
+
+----------------------------------------------------------------------
+                    The Unofficial Internet Book List
+       The most extensive bibliography of books about the Internet
+----------------------------------------------------------------------
+                         Version 1.1 - 6 March 1995
+                by Kevin M. Savetz - savetz@northcoast.com
+----------------------------------------------------------------------
+This document is copyright 1994-1995 by Kevin M. Savetz. All rights
+reserved. More legal stuff is near the end of this file. If you notice
+that an Internet-related book is missing, or information herein needs
+updating, please send e-mail to savetz@northcoast.com.
+----------------------------------------------------------------------
+Sponsored in part by Computer Literacy Bookshops* 
+See end of file for more information.*
+----------------------------------------------------------------------
+
+*** Table of Contents
+Additions to this edition
+Vital Statistics
+Alphabetical List of Internet Books
+Publisher/Ordering Information
+Internet Book Information & Updates Online
+Legal, Ethical and Moral Stuff
+Sponsorship information
+Where to Find this Document                       *Updated*
+
+*** Additions to this edition
+Aether Madness: an Offbeat Guide to the Online World
+Easy Internet
+The Federal Internet Source
+Hands-on Mosaic: a Tutorial for Windows Users
+Inside TCP/IP
+Internet Direct Connection Kit
+Internet Express Lane with Disk
+Internet for Scientists and Engineers
+Internet for Windows, America Online Edition
+Internet Hacker's Handbook: Twenty Tips for Secure Data Transmission
+Internet Handbook for Law Librarians
+Internet Handbuch
+Internet How-To
+Internet Information Guide
+Internet Insider
+Internet Roadside Attractions
+Internet Security: A Brief Survey
+Internet Technology Series, Volume I: Routing
+Internet Troubleshooter; Help for the Logged-on & Lost
+Internet. El mundo en tus manos
+Internet@Sverige
+Mastering the Internet
+net.sex
+netchat
+netmoney
+New Riders' Official Internet Directory (2nd ed)
+Simple Internet
+Spinning the Web: How to Provide Information on the Internet
+Teach Yourself Web Publishing with HTML in a Week
+The Information Superhighway Illustrated
+The Internet & More for Kids
+The Internet Business Companion
+Tricks of the Internet Gurus
+Usenet Book
+World Wide Web Bible
+
+*** Vital Statistics
+Number of books in this list: 239
+Additions to this version of the list: 35
+Least expensive books: free (Guide for Accessing California
+Legislative Info, tied with NetPages)
+Most expensive book: $100 (Internet Handbook for Law Librarians)
+Thickest book: 1700 pages (Information Infrastructure Sourcebook)
+Thinnest book: 10 pages (The Internet at a Glance)
+
+*** Alphabetical List of Internet Books
+Title: Access the Internet
+Author: David Peal
+Publisher: Sybex
+ISBN: 0-7821-1529-2
+Price: $19.99
+Pages: 235
+Goodies: NetCruiser software for Windows
+Published: 1994
+
+Title: Aether Madness: an Offbeat Guide to the Online World
+Author: Gary Wolf and Michael Stein
+Publisher: Peachpit Press,
+ISBN: 1-56609-020-2
+Price: $21.95
+Pages: 297
+Published: 1994
+For more info: http://www.aether.com/Aether/
+Thanks for the info: Steve Brock
+Notes: Culture, counter-culture, and no-culture - with an emphasis on
+the latter two labels - this lively tour showcases the diversity found
+on the Internet and Bulletin Boards, from space aliens and sex mania,
+to Limbaugh and recreational drug use.  Full text available at
+http://www.aether.com/Aether/.
+
+Title: All About Internet FTP: Learning and Teaching to Transfer Files
+on the Internet
+Author: David Robison
+Publisher: Library Solutions Press
+ISBN: 1-882208-04-8 (book alone) or 1-882208-06-4 (book with
+diskettes)
+Price: $30 ($45 with disk)
+Pages: 90
+Published: 1994
+For more information: (510) 841-2636, or alipow@library.berkeley.edu
+Notes: For use by Internet trainers or for self-study.
+
+Title: All-In-One Internet Kit
+Author: Gregory Giagnocavo & Tim McLain
+Publisher: Wentworth Worldwide Media, Lancaster, PA
+ISBN: 0-932577-01-6
+Price: $49
+Pages: 110
+Goodies: Three floppy disks (for Mac & PC)
+Published: 1994
+For more information: (800) 638-1639 or email to editor@wentworth.com
+Notes: Ad says: Includes all of the software and instructions both Mac
+and IBM PC users need to logon to the Internet using a SLIP or PPP
+connection. This is the first book/disk kit t offering all of the
+software (e-mail, ftp, gopher, telnet, newsreader) needed to access
+the Net plus a web browser.
+
+Title: America Online's Internet
+Author: Tom Lichty
+Publisher: Ventana Press
+ISBN: 1-56604-176-7 (Windows version)
+      1-56604-175-9 (Macintosh version)
+Price: $24.9
+Pages: 336
+Goodies: includes America Online program disk, online updates
+Published: 1994
+For more information: majortom@aol.com
+Notes: The author says: "this book provides a complete description of
+America Online's Internet Connection and access to the Internet via
+AOL. In a jaunty style well-known to readers of Ventanaís America
+Online Membership Kit, author Tom Lichty points out top Internet
+attractions and leads his audience through the process of accessing
+them with America Online. Updates to the book -- text and graphics --
+are available online in AOL's Internet Connection."
+
+Title: Building the Information Highway
+Author: Les Freed and Frank Derfler
+Publisher: Ziff Davis Press
+ISBN: 1-56276-126-9
+Price: $24.95
+Pages: 400
+Published: July 1994
+
+Title: Canadian Internet Handbook, 1995 edition
+Author: Jim Carroll and Rick Broadhead
+Publisher: Prentice Hall Canada
+ISBN: 0-13-329350-5
+Price: $21.95
+Pages: 800
+Published: 2nd edition, November 1994
+For more information: info@handbook.com.
+http://www.csi.nb.ca/handbook/ handbook.html. For orders: Toll-free in
+Canada: 1-800-567-3800. U.S. and Overseas: +1 (416) 293-3621
+Notes: Notes from 1st ed: If you live in Canada, get this book. It
+contains sections about getting Internet access in Canada, growth of
+'net use there, short basic sections about how to use of some of the
+most popular Internet tools, a huge directory of Canadian Internet
+service providers, and even more huge list of gopher servers and
+campus-wide information systems in Canada and to top it off, lists of
+Canadian-based Usenet groups, WWW, Archie, IRC servers and online
+catalogs. Notes from the 2nd edition: really, really get this book!
+
+Title: Christian Guide to the Internet
+Author: Jim Gallagher
+Publisher: Wisdom Research, PO Box 292786, Lewisville, TX 75029
+ISBN: none listed
+Price: $9.95
+Goodies: Discount on Netcom Internet service!
+Published: 1995
+For more information: AAPRJimG1@aol.com
+Notes: From the publisher: "Covers everything you need for step-by-
+step navigating on the "Information Superhighway" as well as a
+complete directoy of Christian resources and domains on the Internet."
+
+Title: Complete Cyberspace Reference and Directory
+Author: Gilbert Held
+Publisher: VNR
+
+Title: The Complete Idiot's Guide to the Internet
+Author: Peter Kent
+Publisher: Alpha Books
+ISBN: 1-56761-414-0
+Price: $19.95
+Pages: 386
+Goodies: DOS disk
+Published: Feb, 1994
+For more information: 75430.174@compuserve.com
+Notes: This best-selling book provides an easy-to-understand
+introduction to the Internet. It covers virtually all important
+Internet services in a light-hearted, straightforward way. It also
+includes coupons for Internet-service discounts, and a disk containing
+files that list thousands of Internet resources.
+
+Title: The Complete Idiot's Next Step with the Internet
+Author: Peter Kent
+Publisher: Alpha
+ISBN: 1-56761-524-4
+Price: $19.95
+Pages: 400
+Goodies: Disk with Pipeline software
+Published: 1994
+For more information: (800) 428-5331
+
+Title: Computers Under Attack: Intruders, Worms, and Viruses
+Author: Peter Denning
+Publisher: ACM Press/Addison-Wesley
+ISBN: 0-201-53067-8
+Price: $23.95
+Pages: 574
+Published: 1990
+Thanks for the info: John Quarterman in RFC 1432
+Notes: Details of celebrated network security cases. Includes Stoll's
+original article about the Wily Hacker, and responses and articles by
+others on the same subject. Has extensive coverage of the 1988
+Internet Worm. Also includes information on viruses. Has quite a bit
+of material on the cultures of the networks, and on social, legal, and
+ethical matters. Starts with the standard historical network papers,
+including "Notable Computer Networks" by Quarterman and Hoskins.
+
+Title: Connecting to the Internet
+Author: Susan Estrada
+Publisher: O'Reilly & Associates
+ISBN: 1-56592-061-9
+Price: $15.95
+Pages: 170
+Published: 1993.
+Notes: This small book focuses on choosing the best type of network
+connection for your personal, school or business needs, and how to get
+the best price for the type of access you require. Explains the
+differences between SLIP, PPP, ISDN, X.25 and other options. Includes
+an extensive list of Internet service providers. This is a single-
+purpose book, telling how to choose a connection and get online. It
+doesn't try to teach you how to use the 'net once you're there. That
+is graceful in its simplicity.
+
+Title: Courte information sur le systeme UNIX et les reseaux
+informatiques
+("Short introduction to UNIX and computer networks")
+Author: Marc Schaefer
+Language: French
+Publisher: ALPHANET NF, Battieux 6c, 2013 COLOMBIER (CH)
+ISBN: none
+Price: 10 SFr
+Pages: 60
+Published: 1994
+For more information: schaefer@alphanet.ch
+Notes: Beginner introduction to UNIX and introduction to networking
+tools (uucp, mail, news, www, ftp, etc.)
+
+Title: Crossing the Internet Threshold: an Instructional Handbook
+Author: Roy Tennant, John Ober and Anne Lipow
+Publisher: Library Solutions Press
+ISBN: 1-882208-07-2
+Price: $45
+Pages: 168
+Published: 2nd ed, 1994
+For more information: (510) 841-2636 or charlotte@library-
+solutions.com
+Thanks for the info: Robert Slade <ROBERTS@decus.ca>
+Notes: (This review covers the first edition.) An instructional
+package for librarians teaching Internet basics. This book is useful
+for newcomers to the Internet. This book is useful for trainers. This
+book is useful for librarians. Ultimately, this book is most useful
+for those training librarians who are new to the Internet. A newcomer
+to the Internet might find this material a bit disorganized, but very
+definitely helpful and useful. It is heartening to see the very strong
+emphasis on Internet etiquette and culture which all too often gets
+short shrift, even in introductory guides. The grouping of discussion
+lists and electronic journals with e-mail is a logical extension which
+is not always made. The work is not limited to the novice, though;
+many Internet users would find the fact sheets to be a handy quick
+reference.
+
+Title: The Cuckoo's Egg: Tracking a Spy Through the Maze of Computer
+Espionage
+Author: Clifford Stoll
+Publisher: Doubleday
+ISBN: 0-385-24946-2
+Price: $5.95
+Pages: 332
+Published: 1989
+Notes: A spy novel, except it's true: a first person account by a
+down-on-his-luck Berkeley astronomer who with others tracked down a
+KGB network spy. Contains a very good recipe for chocolate chip
+cookies, too!
+
+Title: Cyberpunk - Outlaws and Hackers on the Computer Frontier
+Author: Katie Hafner and John Markoff
+Publisher: Simon & Schuster
+ISBN: 0-671-68322-5
+Price: $22.95
+Pages: 368
+Published: 1991
+Thanks for the info: John Quarterman in RFC 1432
+Notes: Interviews with some of the crackers who have appeared
+conspicuously in the press in the past few years. One of the co-
+authors is the New York Times reporter who broke the Morris story to
+the public. Very readable.
+
+Title: Das Internet - Weltweit vernetzt
+Language: German
+Author: Peter Klau
+Publisher: IWT-Verlag GmbH, Vaterstetten bei Muenchen
+ISBN: 3-88322-467-7
+Price: 59 DM
+Pages: 455
+Published: 1994 (second edition)
+Thanks for the info: Richard H. Nollan <RNOLLAN@A1.UTMEM.EDU>
+For more information: peter.klau@zb2.ub.uni-dortmund.de
+Notes: This introductory text discusses how to connect to the Internet
+and covers the basic features of e-mail, data transfer, searching,
+discussion groups, network tools and more. The book is in German, but
+the examples, illustrations and all the standard terminology are in
+English.
+
+Title: DFUe - Ein Handbuch. Recherchen in weltweiten Netzen
+Language: German
+Authors: Martin Rost & Michael Schack
+Publisher: Heise-Verlag, Hannover
+ISBN: 3-88229-026-9
+Price: 58 DM
+Pages: 389
+Published: 1993
+Fore more information: maro@toppoint.de
+It's an introduction to Internet (e-mail, FTP, telnet, IRC, archie,
+gopher, hytelnet, WAIS, WWW), UUCP, Bitnet, FidoNet, etc. with many
+examples for each.
+
+Title: Directory of Directories on the Internet: A Guide to
+Information Sources
+Author: Gregory B. Newby
+Publisher: Meckler
+ISBN: 0-88736-768-2
+Price: $29.50
+Pages: 153
+Published: 1993
+For more information: gbnewby@uiuc.edu
+Notes: Intended for those who need to identify Internet information
+resources that point to other resources.
+
+Title: Directory of Electronic Journals, Newsletters and Academic
+Discussion Lists
+Author: Lisabeth King and Diane Kovacs
+Publisher: Association of Research Libraries
+ISBN: none listed
+Price: $54 ($36 to members of the Association of Research Libraries)
+Pages: 588
+Goodies: Complete directory available on diskette for $36 extra.
+Published: 4th ed, May 1994
+For more information: ann@cni.org or (202) 296-2296
+Notes: This directory is broken into two main sections: a catalog of
+1,800 academic discussion lists and interest groups, and listings of
+440 electronic journals, newsletters and digests - along with notes on
+how to access each publication. Scholarly lists are grouped by broad
+subject areas and journals and newsletters are listed in alphabetical
+order. Also includes five articles and bibliographies on electronic
+publishing.
+
+Title: DNS and BIND
+Author: Paul Albitz & Cricket Lui
+Publisher: O'Reilly & Associates
+ISBN: 1-56592-010-4
+Price: $29.95
+Pages: 380
+Published: 2nd printing, March 1993
+For more information: info@ora.com
+Notes: Discusses one of the Internet's fundamental building blocks:
+the distributed host information database that's responsible for
+translating host names into addresses, routing mail and other
+services. Intended for system administrators, covers the technical
+stuff but is readable.
+
+Title: Doing Business on the Internet
+Author: Mary Cronin
+Publisher: Van Nostrand Reinhold
+ISBN: 0-442-01770-7
+Price: $29.95
+Pages: 308
+Published: 1994
+Thanks for the info: matisse@well.sf.ca.us (J Matisse Enzer)
+Notes: Promotional info says: One view of how the Internet has changed
+the way some companies are doing business. Must reading for anyone
+looking at the impact of the Internet on commerce and why Internet
+access is becoming critical for businesses. Matisse Enzer says:
+Excellent overview and detailed discussion of the Internet from a
+business users' perspective. An entirely non-technical book, Doing
+Business discusses the commercial aspects and issues of the Internet:
+advertising, research, customer contact, etc. Highly recommended.
+
+Title: DOS User's Guide to the Internet
+Author: James Gardner
+Publisher: Prentice Hall
+ISBN: 0-13-106873-3
+Price: $34.95
+Pages: 308
+Goodies: DOS disk
+Published: 1993
+For more information: (515) 284-6751 or phyllis@prenhall.com
+Thanks for the info: Robert Slade <ROBERTS@decus.ca>
+Notes: A minimalist software package and manual for setting up a UUCP
+connection for mail and news. This title is almost completely
+misleading. This book is not for DOS users, except that you must be
+running DOS to run the MKS UUCP for DOS programs for which this book
+is a manual. This book is also not about the Internet, as such. Both
+the specifics and the concepts refer to UUCP rather than the Internet.
+The text of the book does point out that there are differences, but
+the examples given relate to UUCP. That said, for those who are
+interested in making their first move to a direct Internet connection,
+this could be an excellent choice. UUCP was designed to be quite
+comfortable with dialup connections, and this book and associated
+programs, help to automate a number of the connection functions while
+freeing the user from much of the technical detail that TCP/IP
+requires.
+
+Title: Driving the Infohighway - A Guide for VAX/VMS Users
+Author: Gerald Neufeld
+Publisher: New Fields Publishing
+ISBN: 0-920436-54-4
+Price: $18.95 (US), $24.95 (CAN)
+Pages: 296
+Published: 1994
+For more information: (204) 729-8943
+Thanks for the info: Peter Scott <scottp@herald.usask.ca>
+Notes: The book is for users who will be accessing the Internet via a
+VAX/VMS host. It is designed for a reader who has some familiarity
+with personal computers but who has had little or no experience in
+using the VAX. It assumes that the user will be accessing the VAX
+using a VT-100 or better terminal or terminal emulation program. It
+explains how to access the VAX using a PC on the campus-wide ethernet
+LAN or by modem. The book can be used as a tutorial for beginners. The
+novice user will find the step by step instructions, practical
+examples, and glossary very helpful. However, the book can also be
+used as a valuable resource for the more experienced user.
+
+Title: Easy Internet
+Author: Michael Miller
+Publisher: Que
+ISBN: 0-7897-0012-3
+Price: $24.99
+Pages: 246
+Published: 1995
+For more information: http://www.mcp.com
+Notes: The publisher says: "A fully illustrated, step-by-step guide of
+how to best access and use the powerful tools of the Internet.  E-
+mail, Usenet, Gopher, FTP, Telnet, WWW are clearly explained enabling
+the beginner to master these basics in a time efficient manner. "
+
+Title: The Easy Internet handbook
+Author: Javed Mostafa, Thomas Newell, Richard Trenthem
+Publisher: Hi Willow Research and Publishing
+ISBN: 0-931510-50-3
+Price: $20
+Pages: 150
+Published: 1994
+For more information: tnewell@fiat.gslis.utexas.edu or 800-237-6124
+
+Title: EcoLinking: Everyone's Guide to Online Environmental
+Information
+Author: Don Rittner
+Publisher: Peachpit Press
+ISBN: 0-938151-35-5
+Price: $18 95
+Pages: 368
+Published: 1992
+For more information: (800) 283-9444
+Notes: Directed at concerned citizens, environmentalists and
+scientists interested in sharing ideas and research on environmental
+issues. Covers resources on FidoNet, BITNet, Internet, Usenet, local
+bulletin boards, America Online, CompuServe, EcoNet, GENIE, WELL.
+
+Title: Education on the Internet
+Author: Jill Ellsworth
+Publisher: Sams
+ISBN: 0-672-30595-X
+Price: $25
+Pages: 591
+Published: 1994
+For more information: 1-800-429-5331
+Notes: Computer Literacy Bookshops says: Packed with ideas, resources,
+projects and advice. Teachers and professors will find out how to
+develop cirriculum plans, share teaching ideas and techniques and to
+start sister school programs. Students and parents will discover
+reserach topics, correspond with pen pals, learn and improve foreign
+language skills and explore museums of art. Sections for K-12,
+elementary, high school, college and graduate levels.
+
+Title: Educator's Guide to the Internet
+Publisher: Virginia Space Grant Consortium
+Price: $16.00
+Pages: 170
+Goodies: Disk (IBM or Mac)
+Published: 1994
+For more information: vsgc@pen.k12.va.us
+Notes: Written and designed by educators for educators, this is a
+user-friendly guide to make the Internet work for you in the
+classroom. It includes on-line projects for your students to
+collaborate with other classes around the world, lesson plans,
+graphics and software on almost every subject imaginable, etc.
+
+Title: Electronic Style: A Guide to Citing Electronic Information
+Author: Xia Li and Nancy Crane
+Publisher: Meckler
+ISBN: 0-88736-909-X
+Price: $15
+Pages: 80
+Published: 1993
+Notes: Here is where to find out how to cite in your bibliographies
+references found on the Internet, on CD-ROMs and online database
+searches.
+
+Title: The Electronic Traveler: Directory Of Tourism Information
+Sources
+Author: Marcus L. Endicott
+Publisher: M. L. Endicott
+ISBN: none listed
+Price: $50.00
+Pages: 130
+Published: June 1994
+For more information: Marcus L. Endicott <mendicott@igc.apc.org>
+Notes: From the publisher's info: As the title of this new book says,
+The Electronic Traveler is a directory of tourism information
+available to everyone with a computer and a telephone: it is a
+guidebook to online travel information sources. It explains in plain
+English exactly what travel and tourism information is available on
+the information highway and how to access it. It covers the Internet,
+popular proprietary interactive systems, Computer Reservation Systems
+(CRSs), independent bulletin board systems (BBSs), and commercial
+fulltext databases.
+
+Title: The Electronic Traveler: Exploring Alternative Online Systems
+Author: Elizabeth Powell Crowe
+Publisher: Windcrest/McGraw-Hill
+ISBN: 0-8306-4498-9
+Price: $16.95
+
+Title: The Elements of E-Mail Style
+Author: David Angell & Brent Heslop
+Publisher: Addison-Wesley
+ISBN: 0-201-62709-4
+Price: $12.95
+Pages: 157
+Published: March 1994
+For more information: dangell@shell.portal.com
+Thanks for the info: David F Angell (dangell@shell.portal.com)
+Notes: How to write effective e-mail. It simplifies and summarizes
+essential writing techniques so users can upgrade their writing skills
+and see their e-mail make maximum impact in minimal time.
+
+Title: The Elements of Networking Style
+Author: Padlipsky, M.A.
+Publisher: Prentice Hall
+ISBN: 0-13-268129-3 hc, 0-13-268111-0 pb
+Price: $34.95 -- CAN$44.95
+Pages: 236
+Published: 1984
+For more information: padlipsky@isi.edu
+Thanks for the info: wdr@world.std.com
+Notes: Mike was the Multics system-programmer at Project Mac, and is
+personally responsible for putting two systems on the ARPAnet back
+when that meant hacking the OS designed and implemented a number of
+protocols including being working-group chair, and has been a
+commentator on Internet RFCs since the beginning. (He was also Dennis
+Ritchie's officemate before Bell Labs pulled out of Multics & Dennis
+had to invent UNIX, and has a personal exemption from Dijkstra to use
+a GOTO when, in his professional opinion as a protocol implementor, it
+is necessary.) This is a book on style in protocol design and the
+great Bromdinagian TCP vs. ISO debates. It's a nice piece of history
+and explains where TCP, TELNET, FTP came from.
+
+Title: E-mail Addresses of the Rich and Famous
+Author: Seth Godin
+Publisher: Addison-Wesley
+ISBN: 0-201-40893-7
+Price: $7.95
+Pages: 130
+Published: 1994
+For more information: sethwood@aol.com
+Notes: A directory of more than 1,000 of e-mail addresses of famous
+folks: politicians, authors, reporters and other personalities.
+Included are Ed Asner, Tom Brokaw, Bill Clinton, Ross Perot, Dave
+Barry and others.
+
+Title: E-mail Companion
+Author: John S. Quarterman and Smoot Carl-Mitchell
+Publisher: Addison Wesley
+ISBN: 0-201-40658-6
+Price: $19.95
+Pages: 318
+Published: 1994
+For more information: (800) 447-2226
+Thanks for the info: Steve Brock
+Notes: This introduction assists the e-mail user through sending and
+replying to messages, sending mail to other systems (such as from
+America Online to Compuserve), using mailing lists, finding and
+downloading files, locating e-mail addresses, and encoding non-text
+data with MIME.  The material, however, is quite short-sighted in
+several places.
+
+Title: E-mail Essentials
+Author: Ed Tittel and Margaret Robbins
+Publisher: Academic Press
+ISBN: 0-12-691397-8
+Price: $24.95
+Pages: 298
+Published: 1994
+For more information: 955 Massachusetts Avenue, Cambridge, MA 02139
+Thanks for the info: Robert Slade
+Notes: Slade writes: I find it very difficult to define who, or what,
+this book is for, but I would recommend it primarily to managers in
+charge of large networks and possibly internetworks needing to
+evaluate email systems with extended functionality. The title would
+suggest this is a discussion of the basics of email. That is true only
+in the most simplistic and superficial way.
+
+Title: The E-mail Frontier
+Author: Daniel Blum and David Litwack
+Publisher: Addison-Wesley
+ISBN: 0-201-56860-8
+Price: $46.25
+Pages: 480
+Published: 1994
+Notes: A technical overview of markets and evolving technologies.
+
+Title: The Essential Internet Information Guide
+Author: Jason J. Manger
+Publisher: McGraw-Hill Europe
+ISBN: 0-07-707905-1
+Price: 22.95 UK sterling
+Pages: 515
+Published: October 1994.
+For more information: +44 (0)628 23432 (McGraw-Hill)
+
+Title: Everybody's Guide to the Internet
+Author: Adam Gaffin
+Publisher: M.I.T. Press
+ISBN: 0-262-57105-6
+Price: $14.95
+Pages: about 260
+Published: July, 1994
+Thanks for the info: Adam Gaffin (adamg@world.std.com)
+Notes: This is basically a printed version of version 2.2 of the EFF's
+online guide "The Big Dummy's Guide to the Internet", plus an index.
+The name was changed to avoid confusion with other books with similar
+names.
+
+Title: Exploring the Internet: a Technical Travelogue
+Author: Carl Malamud
+Publisher: Prentice-Hall
+ISBN: 0-13-296898-3
+Price: $26.95
+Pages: 379
+Published: 1992
+For more information: (515) 284-6751
+Thanks for the info: Robert Slade <ROBERTS@decus.ca>
+Notes: A look at the Internet and the emerging global village in 21
+countries and 56 cities. Not technical, but lots of fun stories about
+traveling around the world (physically).
+
+Title: The Federal Internet Source
+Publisher: National Journal Inc.
+Price: $18.95
+Published: 1994
+For more information: (800) 424-2921 or e-mail fed-order@netweek.com
+Notes: "The only comprehensive directory of federal Internet
+information services."
+
+Title: 51 Reasons: How We Use the Internet and What it Says About the
+Information Superhighway
+Author: Martha Stone-Martin and Laura Breeden
+Publisher: FARNET
+ISBN: None
+Price: $19.95
+Pages: 124
+Published: 1994
+For more information: (617) 860-9445 or stories@farnet.org
+Notes: This is a unique book exploring how people and organizations in
+all 50 United States (plus the capitol) are using the Internet as the
+first stepping stone toward the Clinton administration's "information
+superhighway". Written as an oral narrative from the mouths of the
+people making these projects work, the book covers uses of the
+Internet in libraries, K-12 education, agriculture, economic
+development, government, health care and higher education. Although
+brief, 51 Reasons gives novel ideas for the use of the Internet and
+provides contact information for each of the individuals/projects
+mentioned. You can get the text of the book online via gopher
+(gopher.cni.org:70/11/cniftp/miscdocs/farnet) and FTP
+(ftp.cni.org:/CNI/documents/farnet/stories-index).
+
+Title: Finding it on the Internet
+Author: Paul Gilster
+Publisher: John Wiley & Sons, Inc.
+ISBN: 0-471-0387-1
+Price: $19.95
+Pages: 300
+Published: 1994
+For more information: (800) 263-1590 or gilster@interpath.net
+
+Title: Firewalls and Internet Security
+Author: Cheswick/Bellovin
+Publisher: Addison-Wesley
+ISBN: 0-201-63357-4
+Price: $26.95
+Pages: 306
+Published: 1994
+For more information: firewall-book@research.att.com
+Notes: Practical suggestions for firewall construction and other
+aspects of Internet security.
+
+Title: Free $tuff from the Internet
+Author: Patrick Vincent
+Publisher: Coriolis Group
+ISBN: 1-883577-11-X
+Price: $19.99
+Pages: 459
+Published: 1994
+For more information: (800) 410-0192 (orders)
+Thanks for the info: Steve Brock
+Notes: Once you get on the Interneeverything is free so the title is
+somewhat of a misnomer. Predominately a guide to areas where users can
+download software, hear sound bites, or take a tour of Europe.  The
+books are arranged by categories such as "Business," "Around the
+House," and "Entertaining," and "Educational Ideas."
+
+Title: From A to Z39.50: a network primer
+Author: James Michael and Mark Hinnebusch
+Publisher: Meckler
+ISBN: 0-88736-766-6
+Price: $25
+Pages: 225
+Published: March 1994
+Notes: Introduction and discussion about the issues and standards
+involves in electronic telecommunications.
+
+Title: Get on the Internet in 5 Minutes
+Publisher: Hayden Books
+ISBN: 1-56830-135-9
+Price: $9.99
+Pages: 88
+Goodies: Disk with Pipeline software
+Published: 1995
+Notes: A tiny little book and disk that will get you hooked up with
+Pipeline, an Internet Service Provider.
+
+Title: A Guide for Accessing California Legislative Information over
+Internet
+Author: Legislative Counsel Bureau, State of California
+Publisher: State of California
+ISBN: none listed
+Price: free to California residents
+Pages: 30
+Published: 1994
+For more information: comments@leginfo.public.ca.gov
+Thanks for the info: Mike Quinn
+Notes: This pamphlet tells how you can find California legislative
+information online. Explains what legislation info is available, what
+assistance is available and how the information is organized. The
+majority of the book is spent explaining the Internet, how to get
+access, how to use electronic mail and where to go for more detailed
+information. There's also a simple glossary of legislative terms. This
+pamphlet is also available online, in PostScript format. Send e-mail:
+   To: ftpmail@leginfo.public.ca.gov
+   Body: connect leginfo.public.ca.gov
+         get README_public_access_guide_ps
+         quit
+
+Title: A Guide to the TCP/IP Protocol Suite
+Author: Floyd Wilder
+Publisher: Artech House
+Price: $77
+Pages: 312
+Published: 1994
+Notes: A technical reference guide, describing all major Internet
+protocols.
+
+Title: The Hacker Crackdown: Law and Disorder on the Electronic
+Frontier
+Author: Bruce Sterling
+Publisher: Bantam
+ISBN: 0-553-08058-X
+Price: $23
+Pages: 352
+Published: 1992
+Thanks for the info: John Quarterman in RFC 1432
+Notes: An in-depth examination of the forces of law who try to deal
+with computer crime, and of the issues involved, written by one of the
+science fiction writers who invented cyberpunk. The real story behind
+Operation Sundevil and the Legion of Doom. Readable, informative,
+amusing, and necessary. UK edition published by Penguin Books, pp328,
+costs GBP6.99. You can also get it online:
+ftp://ftp.eff.org/pub/Publications/Bruce_Sterling/Hacker_Crackdown/ or
+http://www.eff.org/pub/Publications/Bruce_Sterling/Hacker_Crackdown/
+
+Title: Hackers: Heroes of the Computer Revolution
+Author: Steven Levy
+Publisher: Anchor Press/Doubleday
+ISBN: 0-385-19195-2 (hard) 0-440-13405-6 (paper)
+Price: $17.95 / $4.95
+Pages: 458
+Published: 1984
+Notes: Describes the early culture and ethos of hackers and computer
+homebrewers and that ultimately resulted in the Internet and Usenet.
+UK edition published by Penguin Books.
+
+Title: Hands-On Internet: A Beginning Guide for PC Users
+Author: David Sachs & Henry Stair
+Publisher: Prentice Hall
+ISBN: 0-13-056392-7
+Price: $29.95
+Pages: 274
+Goodies: DOS disk
+Published: 1994
+
+Title: Hands-on Mosaic: a Tutorial for Windows Users
+Author: David Sachs and Henry Stair
+Publisher: Prentice Hall
+ISBN: 0-13-172321-9
+Price: $29.95
+Pages: 358
+Goodies: Chameleon sampler disk for Windows
+Published:December 1994
+Thanks for the info: Steve Brock
+Notes: This book/disk package contains nine ready, set, go sessions
+which take the user through TCP/IP (which comes on the disk),
+downloading and installing Mosaic, and navigating the Web.  "Hands-On
+Mosaic" is perfect for the novice, packed with scripts and sample
+screens.  Not recommended for classroom use.
+
+Title: The Hitchhiker's Guide to the Electronic Highway
+Author: Pamela Kane
+Publisher: MIS Press
+ISBN: 1-55828-353-8
+Price: $21.95 US, $28.95 CAN
+Pages: 366
+Goodies: Cupons for free connect time
+Published: 1994
+Notes: <
+
+Title: How The Internet Works
+Author: Joshua Eddings
+Publisher: Ziff-Davis Press
+ISBN: 1-56276-192-7
+Price: $US 24.95, $CAN 34.95, UK 22.99
+Pages: 218
+Published: 1994
+For more information: 800/688-0448
+Thanks for the info: Dick Lee <ab136@freenet.carleton.ca>
+Notes: Very good primer on the Internet and how it works. There are
+many rich illustrations which serve to explain the concepts very
+effectively. Contents include the protocols, telnet, downloading
+files, archie, e-mail, mailing lists, Usenet, gophers, WAIS, WWW as
+well as a look into audio/video, virtual reality, security issues and
+the future. Of necessity, many of these are treated very briefly but
+as an overall introductory manual, I found it very readable and
+informative.
+
+Title: How to Advertise on the Internet
+Author: Michael Strangelove
+Publisher: The Internet Business Journal
+ISBN: ISSN 1201-0758
+Price: $49.50 (US and CND)
+Pages: 221
+Published: October, 1994
+For more information: mstrange@fonorola.net
+
+Title: How To Make A Fortune On The Information Superhighway
+Author: Laurence Canter and Martha Siegel
+Publisher: Harper
+Published: 1994
+
+Title: How to Use the Internet
+Author: Mark Butler
+Publisher: Ziff-Davis Press
+ISBN: 1-56276-222-2
+Price: $17.95
+Pages: 144
+Published: 1994
+For more information: 800/688-0448
+
+Title: In acht Sekunden um die Welt (In eight seconds around the
+world)
+Language: German
+Author: Gunther Maier/Andreas Wildberger
+Publisher: Addison Wesley
+ISBN: 3-89319-701-X
+Price: DM 39.90 / oeS 311,00
+Pages: 160
+Published: released 1994 (Second edition)
+For more information: wildberg@nestroy.wu.wien.ac.at
+Thanks for the info: pcsaal15@fub46.zedat.fu-berlin.de (Lutz Lademann)
+Notes: It's a quite comprehensive introduction to the Internet, its
+history and the services available (Mail, News, Gopher, FTP, Telnet,
+WWW and more). For more information about the book mail one of the
+authors: wildberg@nestroy.wu.wien.ac.at (Andreas Wildberger.) Three
+chapters of this book are available via WWW:
+   URL: http://rektorat.wu-wien.ac.at/stuff/netzbuch.html
+
+Title: Information Infrastructure Sourcebook, version 4
+Author: Brian Kahin
+Publisher: JFK School of Government/Harvard University
+ISBN: none listed
+Price: $85
+Pages: 1700
+Published: April 1994
+For more information: keller@ksgrsch.harvard.edu
+Notes: The fourth update of this compendium of official policy
+documents on information infrastructure, including the Internet.
+Includes historical policy documents, vision statements and position
+papers, program and project descriptions, reports and pending
+legislation.
+
+Title: The Information Payoff
+Author: Bill Eager
+Publisher: Prentice Hall
+ISBN: 0-13-158296-8
+Price: $19.95
+Pages: 246
+Published: 1995
+Notes: How companies around the world are using electronic
+communications and the Internet to improve productivity and enhance
+employee participation.  Interviews with senior-level managers at
+Fortune 500 companies provide insight into the latest applications and
+benefits of electronic mail, interactive communications, video
+teleconferencing, and electronic publications.
+
+Title: The Information Superhighway: Beyond the Internet
+Author: Pete Otte
+Publisher: Que
+ISBN: 1-56529-825-X
+Price: $19.99
+Pages: 241
+Published: 1994
+Notes: "Written for anyone curious about the network of the future,
+this book is a conceptual overview of the future of computer
+communications."
+
+Title: The Information Superhighway Illustrated
+Author: Bill Eager
+Publisher: Que
+ISBN: 1-56529-892-6
+Price: $24.99
+Pages: 184
+Published: October 1994
+Notes: A vividly illustrated book that explains how the technology of
+the information superhighway (the networks, hardware and software)
+works and overviews current and future applications
+
+Title: Inside TCP/IP
+Publisher: New Riders Publishing
+ISBN: 1-56205-354-X
+Price: $39.99
+Pages: 1000
+Published: 1995
+For more information: http://www.mcp.com
+
+Title: Instant Internet Access
+Author: Kris Jamsa
+Price: $49.95
+Goodies: CD-ROM and 45-minute video
+Published: 1994
+
+Title: Internet
+Authors: Jean-Bernard Condat and Nicolas Pioch
+Publisher: J.C.I., Inc, 2700, Joliette #201, Montreal, Canada H1W 3G9
+Price: 195 FF ($29.95 CAN)
+Language: French
+Pages: 214
+Published: Oct, 1994
+For more information: condat@altern.com or Nicolas.Pioch@enst.fr
+Notes: From the authors: "Written by two well known French Internet
+pioneers, this book presents all the French use of Internet for
+company chiefs, students, schools and gives some tips for a total and
+comprehensive adaptation of Internet in France."
+
+Title: The Instant Internet Guide
+Author: Brent Heslop & David Angell
+Publisher: Addison-Wesley
+ISBN: 0-201-62707-8
+Price: $14.95
+Pages: 209
+Published: 3rd printing.
+For more information: dangell@shell.portal.com
+Thanks for the info: matisse@well.sf.ca.us (J Matisse Enzer)
+Notes: Good quick intro to Internet and quick reference sections on
+using e-mail, Usenet, gopher, telnet, file transfers, very basic UNIX
+etc. Nice check-list of questions to ask when shopping for Internet
+access. Oriented entirely towards a dial-up terminal user on a UNIX
+system.
+
+Title: Internet Access Essentials
+Author: Tittel and Robbins
+Publisher: Academic Press
+ISBN:  0-126-91393-5
+Price: $24.95
+Published: 1995
+For more information: 955 Massachusetts Avenue, Cambridge, MA 02139
+Notes: Adequately covers the basics: what TCP/IP is, how to get
+connected, types of connections, Internet tools, netiquette, and case
+studies.
+
+Title: Internet Access Providers: An International Resource Directory
+Author: Greg Notess
+Publisher: Meckler
+ISBN: 0-88736-933-2
+Price: $30
+Pages: 330
+Published: May 1994
+For more information: meckler@tigger.jvnc.net (publisher) or
+align@montana.edu (author)
+Notes: This directory provides descriptive information on over 300
+companies and networks that offer dial-in Internet access. Aimed at
+those without current access, looking for personal access.
+
+Title: Internet After Hours
+Author: Andy Eddy
+Publisher: Prima
+ISBN: 1-55958-513-7
+Price: $19.95, $27.95 CAN
+Published: 1994
+For more information: sgprima@aol.com
+Notes: About games and diversions on the Internet
+
+Title: The Internet & More for Kids
+ISBN: 0-7821-1517-9
+Price: $16.99
+Published: 1994
+
+Title: The Internet and Special Librarians: Use, Training and the
+Future
+Author: Sharyn Lander Hope Tillman
+Publisher: Special Libraries Association
+ISBN: 0-87111-413-5
+Price: $34.95
+Pages: 187
+Published: 1993
+For more information: tillman@babson.edu or sla1@capcon.net
+Notes: Implications of a study of special librarians' use of the
+Internet and the future of librarianship. Includes a glossary, primer
+on Internet basics, resources and how to get connected.
+
+Title: Internet Anywhere
+Author: James Gardner
+Publisher: Prentice Hall
+ISBN: 0-13-185612-X
+Price: $39.95
+Pages: 460
+Goodies: Windows software and 30 days Internet access
+Published: 1994
+Notes: Ad says: "All you need to test drive Internet mail and Usenet
+news for 30 days."
+
+Title: The Internet at a Glance
+Author: Susan E. Feldman
+Publisher: Datasearch
+ISBN: None listed
+Price: $7
+Pages: 10
+Published: 1994
+For more information: Susan Feldman <suef@TC.Cornell.EDU>
+Thanks for the info: Susan Feldman <suef@TC.Cornell.EDU>
+Notes: A collection of "cheatsheets" for the 'net. It's very short
+(only 10 thin pages) but it covers the very basics for using the
+Internet and UNIX. Topics include Finding Resources on the Internet,
+Tools, electronic mail, anonymous FTP, telnet, mailing lists and
+newsgroups, basic UNIX commands and the vi editor.
+
+Title: Internet Basics
+Author: Steve Lambert & Walt Howe
+Publisher: Random House
+ISBN: 0-679-75023-1
+Price: $27.00
+Pages: 495
+Published: 1993
+For more information: (800) 345-8112
+Thanks for the info: Gayle Keresey (aflgayle@aol.com)
+Notes: General book on the Internet with a slight slant towards
+Delphi. (Howe is Delphi's Internet SIG Manager.)
+
+Title: The Internet Book
+Author: Douglas Comer
+Publisher: Prentice Hall
+Price: $24.95
+Pages: 287
+Published: 1994
+Notes: Subtitled "Everything You Need to Know About Computer
+Networking and How the Internet Works." Explanation of what the
+Internet is, how it works and how it came about, for the non-technical
+reader.
+
+Title: The Internet Business Book
+Author: Jill Ellsworth
+Publisher: John Wiley & Sons, Inc.
+ISBN: 0-471-05809-2
+Price: $22.95
+Pages: 376
+Published: August, 1994
+For more information: je@world.std.com or (800) 879-4539
+Thanks for the info: Ian Stuart
+Notes: Precisely written, full of substantial information, motivates
+the business reader to begin work on the Internet. A very practical
+guide, offering exceptionally solid business advice to the reader
+wanting to get on the Internet.
+
+Title: The Internet Business Companion
+Author: David Angell, Brent Heslop
+ISBN: 0-201-40850-3
+Published: 1994
+
+Title: The Internet Business Guide: Riding the Information
+Superhighway to Profit
+Author: Rosalind Resnick and Dave Taylor
+Publisher: SAMS Publishing
+ISBN: 0-672-30530-5
+Price: $25.00 US, $34.95 CAN
+Pages: 418
+Published: September, 1994
+For more information: taylor@netcom.com or (800) 428-5331
+Notes: Of the various books on doing business on the Internet, this is
+the best one I've seen. By reading this book, you'll find out how to
+use the Internet to build market share, track down business leads,
+communicate with colleagues and search online databases, all through
+extensive examples and detailed case studies. The authors also explain
+how you can offer cost-effective customer support, and access critical
+information using the net. Explores the many opportunities available
+on the Internet, and get tips on shipping for the best deal on
+Internet access. For leading edge marketing strategies and bottom-line
+information.
+
+Title: The Internet by E-mail
+Author: Clay Shirky
+Publisher: Ziff-Davis Press
+ISBN: 1-56276-240-0
+Price: $19.95
+Pages: 256
+Published: July 1994
+Thanks for the info: Michael Crestohl
+Notes: This book is for the thousands of people who have "only E-mail"
+access to the Internet and think all they're going to get is mail. I
+get the impression this book is intended for people who have just been
+"given" an account and perhaps a cursory description of how to send
+and read messages. But we all can learn from it. It's amazing what you
+can do with Internet mail if you know how to do it. Clay Shirky shows
+you how in this very easy-to-absorb, non-overpowering title.
+
+Title: Internet CD
+Author: Vivian Neou
+Publisher: Prentice Hall
+ISBN: 0-13-123852-3
+Price: $49.95 US, $64.95 CAN
+Pages: 260
+Goodies: CD-ROM for Windows
+Published: 1994
+Thanks for the info: Steve Brock
+Notes: For DOS, Windows, and Unix users, this book/CD-ROM package
+contains software for Internet access (a SLIP for the PC, plus e-mail,
+telnet, gopher, FTP, WAIS, and Eudora), an up-to-date compilation of
+RFCs, mialing lists, and FYIs, and LINUX, which is a variant of UNIX
+for 386/486 PCs.  The book, essentially, is a manual for operating the
+software, and includes a list of Internet access providers.
+
+Title: The Internet Companion, A Beginner's Guide To Global Networking
+Author: Tracy LaQuey with Jeanne C. Ryer
+Publisher: Addison-Wesley Publishing
+ISBN: 0-201-62224-6
+Price: $10.95
+Pages: 196
+Published: 1993
+For more information: internet-companion@world.std.com
+Thanks for the info: Robert Slade <ROBERTS@decus.ca>
+Notes: The Companion includes a detailed history of the Internet, a
+discussion on "netiquette" (network etiquette), and how to find
+resources on the net. It is difficult to know what is supposed to be
+"companionable" about this volume. Physically, it would be easy to
+carry it along with you. You probably wouldn't want to, though. It
+does give one some background on the Internet, but it is not in a
+step-by-step fashion. (How to access the Internet is the *last* topic
+to be covered.) The newcomer to the Internet will more likely want to
+read it all (possibly at one sitting; it's small enough) and look at
+the network gestalt.
+
+Title: The Internet Companion Plus
+Author: Tracy LaQuey & Jeanne Ryer
+Publisher: Addison Wesley
+ISBN: 0-201-62719-1
+Price: $19.95
+Pages: 196
+Goodies: DOS disk
+Published: 1993
+For more information: $19.95
+Notes: The Internet Companion (above) plus a disk.
+
+Title: Internet: The Complete Reference
+Author: Harley Hahn & Rick Stout
+Publisher: Osborne McGraw-Hill
+ISBN: 0-07-881980-6
+Price: $29.95
+Pages: 818
+Published: 1994
+Notes: A grassroots guide to learning about the Internet. It takes the
+clueless newbie and leads him from the fundamentals - like
+understanding what the Internet is, how to connect and how addressing
+works - and through the Internet's most important tools. This book
+doesn't cover any ground that hadn't been trod dozens of times before
+by other everything-you-need-to-know-about-the-Internet book ever
+written, but it delivers the information in a lively, always
+interesting manner. No topics are glossed over and the authors never
+get mired in the dirty technical details. This book is intended for
+folks who will be accessing the Internet using a UNIX command line
+prompt. If you are just trying to get started on the Internet, but
+don't know which of 50 step-by-step hold-your-hand books in your
+bookstore you should buy, The Internet Complete Reference won't
+disappoint you.
+
+Title: The Internet Connection: System Connectivity and Configuration
+Author: by John S. Quarterman and Smoot Carl-Mitchell
+Publisher: Addison-Wesley
+ISBN: 0-201-54237-4
+Price: $32.25
+Pages: 271
+Published: 1994
+For more information: awbook@aw.com
+Notes: According to the publisher, this book gives step-by-step
+instruction on connection to the Internet for system designers, system
+administrators and their managers, offers assistance in setting up
+naming, mail and news systems and explains the use of common Internet
+services such as archie, WAIS, and Gopher.
+
+Title: Internet Connections: A Librarian's Guide to Dial-Up Access and
+Use
+Author: Engle, Mary E., et al.
+Publisher: American Library Association
+ISBN: 0-8389-7677-8
+Price: $22.00
+Pages: 166
+Published: 1993
+
+Title: Internet Direct Connection Kit
+Author: harrison
+Publisher: IDG
+
+Title: The Internet Directory
+Author: Eric Braun
+Publisher: Fawcett Columbine
+ISBN: 0-449-90898-4
+Price: $25.00
+Published: 1994
+Thanks for the info: Gayle Keresey (aflgayle@aol.com)
+Notes: Each chapter in this book covers a particular information
+service or resource type, including mailing lists, newsgroups, FTP
+archives, Gophers, WAIS, WWW, etc. All sources have been verified.
+Extensive index. A must have for Internet surfers.
+
+Title: Internet. El mundo en tus manos
+Author: Jose A. Carballar
+Publisher: Rama (Spain)
+Lanuage: Spanish
+ISBN: 84-7897-158-0
+Price: 3500 pesetas ($27)
+Pages: 385
+Published: November 1994
+For more information: phone 34-1-3810300
+
+Title: Internet Essentials
+Publisher: Que College
+Published: Feb 1994
+Thanks for the info: Connie Marijs <otsgroup@pop.knoware.nl>
+Notes: {Unsure if this actually exists.} A Jump-Start to Getting on
+the Internet. This guide will help you to learn what the Internet is
+and how it works; get connected to this world-wide network; understand
+the basics of how to navigate the Internet; take advantage of
+newsgroups, electronic conferencing, and electronic journals; expand
+your access to information and data through FTP and Telnet. Readers
+follow concise, 10-minute lessons to learn about everything from
+hardware to E-mail, from downloading files to participating
+newsgroups. Contains mini-tutorials, specific directions, how-to
+information.
+
+Title: Internet Explorer Kit for Macintosh
+Author: Adam Engst and William Dickson
+Publisher: Hayden Books
+ISBN: 1-56830-0989-1
+Price: $29.95 US, $39.95 CAN
+Pages: 440
+Goodies: Includes a disk of Interesting Mac software
+Published: 1994
+For more information: iek@tidbits.com
+Notes: Written for someone who doesn't even necessarily want to get on
+the Internet, but who just wants to find out what it is everyone's
+blabbering about. The book is non-technical and really designed to
+show folks what's interesting on the Internet.
+
+Title: Internet Express Lane
+Author: Angela Gunn
+ISBN: 1-56686-190-X
+Price: $29.95
+Goodies: disk
+Published: 1994
+
+Title: The Internet for Dummies
+Author: John Levine & Carol Baroudi
+Publisher: IDG Books
+ISBN: 1-56884-222-8
+Price: $19.95
+Pages: 427
+Published: 2nd edition, 1994
+For more information: (415) 312-0650 or dummies@iecc.com
+Thanks for the info: Graham Keith Rogers <scgkr@mucc.mahidol.ac.th>
+Notes: Intended as a beginners guide to the Internet, includes useful
+sections on mail, gopher, news, ftp, etc. All in a fairly light-
+hearted style intended to set novices at ease. At over 350 pages,
+there is much information and the book is well indexed. Most of the
+material is oriented toward UNIX shell users, with some discussion of
+Winsock applications. 2nd edition notes: "We've updated and expanded
+the book, clarifying the first few chapters, expanding the coverage of
+WWW and other new services, and generally fixing stuff."
+
+Title: The Internet for Everyone: A Guide for Users and Providers
+Author: Richard Wiggins
+Publisher: McGraw-Hill
+ISBN: 0-07-067019-5 paper, 0-07-067018-8 hardcover
+Price: $29.95 paper, $45.00 hardcover
+Pages: 680
+Published: August, 1994
+For more information: 1-800-2-MCGRAW
+Notes: The purpose of this book is to tell people how to use the
+Internet, but also how to provide information via the Internet -
+picking a kind of server technology, installing a Gopher, Web, or
+FreeWAIS server, an overview of HTML, pointers to more detailed online
+info, etc.
+
+Title: Internet for Macs for Dummies
+Author: Seiter
+Publisher: IDG
+ISBN: 1-56884-184-1
+Price: $19.95
+Published: 1994
+For more information: (415) 312-0650
+
+Title: The Internet for Scientists and Engineers
+Author: Brian J. Thomas
+Publisher: Optical Engineering Press
+ISBN:0-8194-1806-4
+Price: $30
+Pages: 485
+Published: January 1995
+For more information: suep@spie.org or http://www.spie.org/book.html
+Notes: From the author's preface: "This book was written to serve
+three
+basic purposes: first, to introduce readers to the process of "getting
+online"; second, to provide a basic tutorial to primary Internet
+software
+"tools"; and last, to point to a variety of resources compiled
+specifically
+for the professional scientist or engineer." Includes examples for
+Unix, Windows, and Macintosh computers. Includes excellent indices of
+online resources in: aerospace, agriculture, anthropology,
+archaeology, artificial intelligence, astronomy, biology, chemistry,
+computer science, electronics and electrical engineering, energy,
+engineering, geology, imaging, linguistics, mathematics, medicine,
+meteorology, oceanography, physics, security, statistics, and virtual
+reality.
+
+Title: Internet for Windows, America Online Edition
+Author: David Gardner, Grace Beatty, David Sauer
+Publisher: Prima
+ISBN: 1-55958-554-4
+Price: $19.95, $27.95 Canada
+Published: December 1994
+
+Title: Internet: Getting Started
+Author: April Marine, Susan Kirkpatrick, Vivian Neou & Carol Ward
+Publisher: Prentice Hall
+ISBN: 0-13-327933-2
+Price: $28.00
+Pages: 360
+Published: 1993
+For more information: (515) 284-6751
+Notes: Explains how to join the Internet, the various types of
+Internet access, and procedures for obtaining a unique IP address and
+domain name. An extensive list of Internet access providers of all
+types is provided, including access outside of the United States. The
+guide explains many concepts essential to the Internet, such as the
+Domain Name System, IP addressing, protocols, and electronic mail.
+Doesn't tell you how to use the 'net, just how to get connected.
+
+Title: The Internet Guide for New Users
+Author: Daniel P Dern
+Publisher: McGraw-Hill
+ISBN: Paperback 0-07-016511, Hardcover 0-07-016510-6
+Price: Paperback $27.95, Hardcover $40.00
+Pages: 570
+Published: 1993
+For more information: ddern@world.std.com
+Notes: A very complete introduction to the world of the Internet.
+Along with the obligatory topics such as telnet, FTP and Archie, the
+book suggests how to get an Internet account and teaches enough UNIX
+to survive on the net. This book is more complete and in-depth than
+many other Internet books: Dern's deep knowledge of all things
+Internet shines through, although sometimes the book is a bit too
+formal. The book, like Dern, is laced with dry humor and is UNIX-
+centric. Highly recommended.
+
+Title: Internet Hacker's Handbook: Twenty Tips for Secure Data
+Transmission
+Author: Min Chen, William Popper
+Price: $11.95
+ISBN: 0-9625476-1-1
+Pages: 129
+Published: 1994
+
+Title: Internet Handbook for Law Librarians
+Author: James Milles
+ISBN: 0-87802-093-4
+Price: $100
+Published: 1993
+
+Title: Internet Handbuch
+Lanuage: German
+Author: Claus Schoenleber, Cornelius Keck
+Publisher: Franzis'-Verlag (Poing bei Muenchen)
+ISBN: 3-7723-7292-9
+Price: DM 78
+Pages: 315
+Goodies: CD-ROM with Amiga, Atari, Windows/DOS and Unix-Software
+Published: 1995
+For more information: http://nda.net/nda/vcs
+
+Title: Internet How-To
+Author: Larry Henderson
+Publisher: Waite Group
+ISBN: 1-878739-68-9
+Price: $34.95 US, $48.95 Canada
+Pages: 468
+Published: 1994
+Notes: 200+ Internet how-tos in question and answer format.
+
+Title: Internet Information Guide
+Author: Jason Manger
+ISBN: 0-07-707905-1
+Price: $27.95
+Published: 1994
+
+Title: Internet in Plain English
+Author: Bryan Pfaffenberger
+Publisher: MIS Press
+ISBN: 1-55828-385-4
+Price: $19.95
+Pages: 463
+Published: September, 1994
+Notes: Of the various glossaries and dictionaries of Internet jargon,
+Internet in Plain English is among the most complete. Arranged like a
+dictionary, it defines just about every term you're likely to hear on
+and about Internet and UNIX, from "abbrev" to "'zine". It contains a
+lot of technical terms that tech-heads bandy about relentlessly (like
+CSO name server, ISDN, and OSI protocol suite) and can give beginners
+and intermediate users a leg up in understanding what everyone's
+talking about.
+
+Title: Internet Insider
+Author: Ruffin Prevost
+Publisher: Osborne/McGraw-Hill
+ISBN: 0-07-882084-7
+Price: $14.95
+Pages: 284
+Published: 1995
+For more information: (800) 227-0900
+Thanks for the info: Steve Brock
+Notes: Wild, wacky, and way out there.  That's the only way to
+describe this toast to Internet's more bizarre newsgroups, mailing
+lists, e-mags, and WWW pages.  Produced in a tabloid format, the
+"Insider" explores haiku written by dogs, the SNAG (Sensitive New Age
+Guy) movement, and the threat of America being overrun by space-lizard
+overlords, with lots of observations by Socks the Clinton Cat.  It's
+all a bit much, but this is the first book on the Internet able to be
+understood without owning a computer.
+
+Title: Internet Instant Reference
+Author: Paul E. Hoffman
+Publisher: Sybex
+ISBN: 0-7821-1512-8
+Price: $12.99
+Pages: 317
+Published: 1994
+Notes: This book is part quick reference, part lexicon and part
+Internet tutorial. Arranged in dictionary format, it defines Internet
+jargon (like shareware and hypertext) gives brief descriptions of
+tools (like Knowbot and Listserv), includes short command summaries
+for using popular programs (like FTP, emacs and elm), and describes
+various 'net organizations, policies and legislature. Nice design and
+layout. This book contains a wide variety of information, but is sort
+of unevenly edited and contains some factual errors that might not be
+clear to newbies (for instance, in one section it confuses the terms
+upload and download.)
+
+Title: The Internet Library: Case Studies of Library Internet
+Management and Use
+Author: Julie Still, ed.
+Publisher: Meckler
+ISBN: 0-88736-965-0
+Price: $37.50
+Pages: 200
+Published: June 1994
+Notes: The case studies in this volume focus on how electronic
+resources have changed relationships with the library and on the way
+libraries relate to the larger world.
+
+Title: Internet: Mailing Lists
+Author: Edward Hardie & Vivian Neou
+Publisher: Prentice Hall
+ISBN: 0-13-289661-3
+Price: $26.00
+Pages: 356
+Published: 1993
+Notes: A list of Internet electronic mailing lists. Contains names,
+descriptions and subscription instructions for over 800 mailing lists,
+from opera and chess to engineering and library science. Note that a
+current "list of lists" is available online for free, both via Usenet
+and FTP.
+
+Title: Internet Membership Kit
+Author: Hahn/Stout & Frasse
+Publisher: Ventana
+Price: $69.95
+Goodies: 2 books & disk
+Published: 1994
+Notes: Bundle of Internet Yellow Pages and Internet Tour Guide.
+Includes application software for Mac or Windows.
+
+Title: The Internet Message: Closing the Book with Electronic Mail
+Author: Marshall Rose
+Publisher: Prentice Hall
+ISBN: 0-13-092941-7
+Price: $44.00
+Pages: 384
+Published: 1993
+For more information: ftp to prenhall.com
+Notes: Technical discussion of mail agent and system design. Focuses
+on the technology used to provide e-mail to the Internet.
+
+Title: The Internet Navigator
+Author: Paul Gilster
+Publisher: John Wiley & Sons, Inc.
+ISBN: 0-471-05260-4
+Price: $24.95
+Pages: 590
+Published: 2nd ed, 1994
+For more information: (800) 263-1590 or gilster@interpath.net
+Thanks for the info: Gayle Keresey (aflgayle@aol.com)
+Notes: Information for the dial-up Internet user. Includes Internet
+history, signing on to the net, UNIX commands, getting files, telnet,
+electronic mail, BITNet, electronic journals, Usenet, gophers and
+Internet resources. Useful for those who want step-by-step
+instructions for dial-up terminal access. Somewhat academic in tone.
+
+Title: Internet 101 - a College Student's Guide
+Author: Alfred Glossbrenner
+Publisher: McGraw Hill
+ISBN: 0-07-0240504-X
+Price: $19.95
+Pages: 350
+Published: 1995
+For more information: Send blank e-mail message to books@infomat.com
+or call (800) 352-3566.
+Notes: Ad copy says: "Ideal for the MTV generation, this book tells
+students how to use the Net for all their academic and personal
+needs."
+
+Title: The Internet Passport: NorthWestNet's Guide to Our World Online
+Author: Jonathan Kochmer
+Publisher: NorthWestNet and the Northwest Academic Computing
+Consortium
+ISBN: 0-9635281-0-6
+Price: $29.95
+Pages: 516
+Published: 5th ed.
+For more information: (800) 223-2336 or e-mail passport@nwnet.net.
+ftp://ftp.nwnet.net/user-docs/passport/nonmem-order-form.txt
+Thanks for the info: Steve Brock
+Notes: An introductory guide to the Internet, with emphasis on
+databases, e-texts, libraries (OPACS), K-12 newsgroups, healthcare
+resources, and a perplexing section on becoming an Internet
+information provider.  Contains numerous scripts of sample sessions.
+
+Title: Internet Primer for Information Professionals: A Basic Guide to
+Internet Networking Technology
+Author: Elizabeth Lane and Craig Summerhill
+Publisher: Meckler
+ISBN: 0-88736-831-X
+Price: $37.50
+Pages: 175
+Published: 1993
+Notes: Description of the current state of the Internet, as well as
+the proposed NREN, as well as basic information on network usage and
+concepts.
+
+Title: Internet Public Access Guide
+Author: Phil Hughes
+Publisher: SSC Publications
+ISBN: 0-916151-70-0
+Price: $2.95
+Pages: 64
+Published: 1994
+For more information: sales@ssc.com or (206) 527-3385.
+Thanks for the info: Graham Keith Rogers <scgkr@mucc.mahidol.ac.th>
+Notes: Graham Rodgers says: "64-page guide to Internet basics. Very
+easy to follow instructions, clearly set out. With the small size not
+everything can be included but the price represents good value. The
+paper cover deteriorates with use." I say: A whole lot of information
+for the money. Well-presented, simple and above all, short. Covers
+"What is the Internet?", terms, UNIX basics, e-mail, Usenet, FTP,
+rlogin and telnet, finger, archie, gopher and veronica. Easy-to-follow
+examples. They'll sell you just one, but the book is primarily
+intended to be sold to service providers and distributed to their
+users.
+
+Title: Internet Quickstart
+Author: Mary Ann Pike and Tod G. Pike
+Publisher: Que
+ISBN: 1-56529-658-3
+Price: $21.99
+Pages: 387
+Published: March 1994
+For more information: 800-428-5331 or 317-581-3500
+Thanks for the info: Connie Marijs <otsgroup@pop.knoware.nl>
+Notes: A series of quick tutorials, this book explains Internet basics
+to absolute beginners. Lots of extras - like buzzword definitions,
+tips, and warnings - help users get more from this premier online
+service. Task oriented skill sessions cover topics such as log-on, E-
+Mail, database searches, Internet news and more.
+
+Title: The Internet Resource Quick Reference
+Author: William Tolhurst and Mary Anne Pike
+Publisher: Que
+ISBN: 1-56529-748-2
+Price: $17.99 USA, $23.96 CAN, #16.45 UK
+Pages: 492
+Published: 1994
+Notes: Almost every bit of the information in this book is available
+online for free, don't waste your money. Contains a list of USENET
+news groups, a list of publicly accessible mailing lists, a list of
+online FTP sites and other resources, Scott Yanoff's list of online
+resources and the Inter-Network Mail Guide.
+
+Title: The Internet Roadmap
+Author: Bennett Falk
+Publisher: Sybex
+ISBN: 0-7821-1586-1
+Price: $14.99
+Pages: 325
+Published: 2nd ed, 1994
+Thanks for the info: Michael Crestohl
+Notes: Michael Crestohl says: An excellent first book of the Internet.
+It is well illustrated and gives the reader plenty of hands-on
+experience doing fun things while they learn.  Gives the reader the
+basic tools to cruise the
+Internet with the best of them.
+
+Title: Internet Roadside Attractions
+Publisher: Ventana Press
+Goodies: CD-ROM
+
+Title: Internet Security: A Brief Survey
+Author: Bill Souter
+ISBN: 0-9625476-2-X
+Price: $8.95
+Published: 1993
+
+Title: Internet shouyouka ni mukete (CIX) (Feasibility Reserch for
+Commercial Internet in Japan)
+Language: Japanese
+Author: SI Division
+Publisher: Toppan
+ISBN: 4-8101-8907-4
+Price: 1600 Yen (Around $16)
+Pages: 142
+Published: November 1993
+Thanks for the info: Hideyuki Matsushima (hideyuki@apic.or.jp)
+Notes: This is the first and only book on commercial Internet service
+in Japan. Published as research report, its purpose is to clarify
+Internet status in the United States and business feasibility study on
+CIX in Japan. Coverage includes: What is Internet and its historical
+story in the US, Structure of commercial service in Internet, Image of
+commercial Internet in Japan. Report covers the feasibility of
+Internet withing various regulated Japanese environments. It is must-
+read book for companies in Japan wishing enter the Internet business.
+
+Title: Internet Slick Tricks
+Author: Alfred and Emily Glossbrenner
+Publisher: Random House
+ISBN: 0-679-75611-6
+Price: $16.00
+Pages: 262
+Published: 1994
+For more information: Send blank e-mail message to books@infomat.com
+or call (800) 345-8112.
+Notes: If you've been on the Internet forever (or at least for a
+couple months) and you think you know it all, pick up Internet Slick
+tricks. I bet you'll learn something new. This slim guide will show
+you hundreds of tips and tricks on using the Internet. It's readable
+and honest and full of fascinating facts on decoding graphic images,
+using Archie, finding info online and much more. One of my favorites.
+
+Title: Internet Starter Kit for Macintosh
+Author: Adam Engst
+Publisher: Hayden Books
+ISBN: 1-56830-064-6
+Price: $29.95
+Pages: 640
+Goodies: Mac floppy disk filled with great software and free connect
+time
+Published: 2nd ed., 1994
+For more information: tisk@tidbits.com
+Notes: I used to think that this was absolutely the best Internet book
+for Macintosh users that was ever - or could ever be - written. Then,
+the second edition came out and proved me wrong. This book claims to
+be "everything you need to get on the Internet" and it delivers:
+everything from the software you'll need to get connected, to 1,000
+pages of copious knowledge. This is a fun, enlightening, excellent
+book. If you own a Mac and are on the Internet (or want to connect)
+this is the one to get.
+
+Title: Internet Starter Kit for Windows
+Author: Adam Engst, Corwin Low and Michael Simon
+Publisher: Hayden Books
+ISBN: 1-56830-094-8
+Price: $29.95
+Pages: 600
+Goodies: Disk containing a limited version of Chameleon, WinVN news
+reader, Eudora and WSgopher and free connect time
+Published: 1994
+For more information: iskw@tidbits.com
+Notes: This book is an excellent resource dedicated to Microsoft
+Windows users. It isn't quite as strong as The Internet Starter Kit
+for Macintosh but is nonetheless a wonderful guide for teaching
+Windows users about the Internet and getting them online. It contains
+all the software you need to get online and explains how to use it.
+The book's resource listings, list of newsgroups, glossary and PDIAL
+and nixpub lists are perhaps too thorough - they take up about half
+the book.
+
+Title: Internet System Handbook
+Author: Daniel Lynch and Marshall Rose
+Publisher: Addison-Wesley
+ISBN: 0-201-56741-5
+Price: $54.95
+Pages: 900
+Published: 1993
+Thanks for the info: Robert Slade <ROBERTS@decus.ca>
+Notes: Essays by people involved with the Internet. Strong on
+protocols, weak on direction. The book is divided into four parts. The
+first section deals with an historical and organizational background
+to the Internet. The second section, written by the people who built
+the Internet, deals with technical aspects of the major protocols and
+applications of the Internet. Part three, "Infrastructure," covers
+issues not centrally relevant to the operation of the Internet, but
+supporting its use: network performance and management, backbone and
+node tools, directory services and operational security. The
+bibliographic information contained in the book overall might be worth
+the price alone. Quarterman's contribution is carefully and fully
+researched and well organized. It includes not only texts, but
+periodicals and online sources as well.
+
+Title: Internet Technology Series, Volume I: Routing
+ISBN: 0-13-106857-1
+Price: $40.50
+Published: 1994
+
+Title: The Internet Toolkit: Getting Ready for the 21st Century
+Author: Craig McKie
+Publisher: Thompson Educational Publishing (Torento)
+ISBN: 1-55077-066-7
+Price: $24.95
+Pages: 360
+Published: December 1994
+For more information: (416) 766-2763
+
+Title: Internet Troubleshooter; Help for the Logged-on & Lost
+Author: Nancy John, Edward Valauskas
+ISBN: 0-8389-0633-8
+Price: $20
+Pages: 100
+Published: 1994
+
+Title: The Internet Unleashed
+Author: Steve Bang, Martin Moore, Rick Gates, et al.
+Publisher: Sams Publishing
+ISBN: 0-672-30466-X
+Price: $44.95
+Pages: 1,380
+Goodies: 1 PC-format HD disk. (Macintosh users can mail in an enclosed
+coupon to receive a disk with similar Mac software for a nominal
+shipping and handling fee.)
+Published: April 1994
+Notes: This book is a huge tome, weighing in with 62 chapters plus 7
+appendices. It is co-written by a zillion authors, and falls in the
+"everything you could possibly ever want to know about the Internet"
+category, with blanket coverage of accessing the 'net from different
+types of home computers, networks and with high-speed connections.
+This book covers just about every Internet topic you can think of,
+from security to MUDs, from doing business on the 'net to copyright
+issues and problems.
+
+Title: The Internet via Mosaic and WorldWideWeb
+Author: Steve Browne
+Publisher: Ziff-Davis Press
+ISBN: 1-56276-259-1
+Price: $29.95
+Pages: 156
+Published: September 1994
+
+Title: Internet: Werkzeuge und Dienste - von Archie bis World Wide Web
+Author: M. Scheller, K.-P. Boden, A. Geenen, J. Kampermann
+Publisher: Springer-Verlag
+ISBN: 3-540-57968-0
+Price: DM 49,-
+Pages: 370
+Published: July 1994
+Language: German
+For more Information: boden@ask.uni-karlsruhe.de
+Notes: A basic Internet primer for beginners, in German. First, the
+Internet's history is handled in a short introduction and some
+essential terms are pointed out. Subsequently all of the major tools
+are explained. The book is finished with `the sweets`, a list of
+different Internet services Parts of the book are available via the
+World Wide Web at: http://www.ask.uni-karlsruhe.de/books/inetwd.html
+
+Title: 1994 Internet White Pages
+Author: Seth Godin & James S. McBride
+Publisher: IDG Books
+ISBN: 1-56884-300-3
+Price: $29.95
+Published: 1994
+Notes: A thick book listing about 100,000 e-mail addresses. (Although
+that may seem like a lot, it's not very comprehensive.) Addresses are
+listed by last name and are also indexed by Internet domain name. This
+book may be useful for finding associates' e-mail addresses, but is
+probably no more useful than using one of the many 'net-based e-mail-
+address search utilities. The book is unevenly edited (I'm in there
+three times!) and was woefully out of date before the ink was dry.
+
+Title: Internetworking with TCP/IP, Volume I - Principles, Protocols
+and Architecture
+Author: Douglas Comer and David Stevens
+Publisher: Prentice Hall
+ISBN: 0-13-468505-4
+Price: $57.00
+Pages: 576
+Published: 1991
+For more information: ftp to prenhall.com
+Notes: Written by a leading expert in TCP/IP, this book explains
+general principles of computer communications combined with updated
+examples from the TCP/IP protocol suite. Includes overviews of
+existing technologies, descriptions of basic services and application-
+level services on the Internet. Comes in two versions, AT&T TLI and
+BSD socket.
+
+Title: Internetworking with TCP/IP, Volume II - Design, Implementtion
+and Internals
+Author: Douglas Comer and David Stevens
+Publisher: Prentice Hall
+ISBN: 0-13-125527-4
+Price: $50.00
+Pages: 640
+Published: 1994
+For more information: ftp to prenhall.com
+Notes: A must for anyone working with the TCP/IP protocol suite.
+Discusses the protocols in light of design alternatives, decisions and
+implementation techniques. Contains source code for many protocols,
+including ARPT, TCP, IP and SNMP.
+
+Title: Internetworking with TCP/IP, Volume III - Client-Server
+Programming and Applications for the AT&T TLI Version
+Author: Douglas Comer and David Stevens
+Publisher: Prentice Hall
+Price: $50.00
+Pages: 508.00
+Published: 1994
+For more information: ftp to prenhall.com
+Notes: Covers design of software that operates in an Internet
+environment. Focuses on the client-server paradigm, answering the
+question, "How can applications be designed that use TCP/IP?"
+
+Title: Internetworking with TCP/IP, Volume III - Client-Server
+Programming and Applications for the BSD Socket Version
+Author: Douglas Comer and David Stevens
+Publisher: Prentice Hall
+ISBN: 0-13-474222-2
+Price:  $51.00
+Pages: 528 p
+Published: 1993
+For more information: ftp to prenhall.com
+Notes: Covers design of software that operates in an Internet
+environment. Focuses on the client-server paradigm, answering the
+question, "How can applications be designed that use TCP/IP?"
+
+Title: The Internet Yellow Pages
+Author: Harley Hahn and Rick Stout
+Publisher: Osborne Publishing (McGraw Hill)
+ISBN: 0-07-882023-5
+Price: $27.95
+Pages: 447
+Published: 1994
+Notes: The Internet Yellow Pages strives to be an unmatched subject-
+oriented index to the Internet's resources, a lofty goal given the
+number of competing indexes available. Hahn and Stout do it right -
+this book is a resource that long-time Internet addicts and new users
+will enjoy equally well. Organization is intuitive and consistent.
+Although it does not point you to as many online resources as some
+other directories, the ones it points to tend to be high-quality and
+truly interesting sites to visit. Well-researched and well-indexed.
+
+Title: Internet@Sverige
+Author: Tage Borg, Jens Jonason and Christer Sturmark
+Language: Swedish
+Publisher: Bonnier DataMedia
+ISBN: 91-644-0010-7
+Price: 298 SEK
+Pages: 344
+Goodies: Windows disk and a limited SLIP at Swedish Internet Provider
+Published: 1994
+For more information: info@datamedia.se or www.datamedia.se
+Thanks for the info: Tage Borg <tage.borg@datamedia.se>
+Notes: The Windows' users guide Internet in Sweden.
+
+Title: Introducing the Internet: A Trainer's Workshop
+Author: Lee David Jaffe
+Publisher: Library Solutions Press
+ISBN: 1-882208-03-X (book alone) or 1-882208-05-6 (with diskettes)
+Price: $30.00 ($45.00 with diskettes)
+Pages: 92
+Published: 1994
+For more information: (510) 841-2636 or alipow@library.berkeley.edu
+Notes: The 2nd in a series of supplements to "Crossing the Internet
+Threshold. Based on trainer's handouts and script. A guide for
+trainers whose audience is made up of pre-Internet users.
+
+Title: The LAN Times E-mail Resource Guide
+Author: Rik Drummond and Nancy Cox
+Publisher: Osborne/McGraw-Hill
+ISBN: 0-07-X82052-9.
+Price: $29.95
+Pages: 368
+Published: 1994
+For more information: (800) 227-0900
+
+Title: Libraries and the Internet/NREN: Perspectives, Issues and
+Challenges
+Author: Charles McClure et al
+Publisher: Meckler
+ISBN: 0-88736-824-7
+Price: $25
+Pages: 500
+Published: March 1994
+Notes: This major study identifies key factors within the library and
+larger environments that will affect libraries' involvement in
+national networking policies.
+
+Title: Mac Internet Tour Guide
+Author: Michael Fraase
+Publisher: Ventana Press
+ISBN: 1-56604-062-0
+Price: $27.95
+Pages: 286
+Goodies: Mac floppy disk with a bit useful software. Periodic updates
+via e-mail. One month of free online time from MRNet.
+Published: 1993
+For more information: dilennox@aol.com or FTP to ftp.farces.com
+Notes: This book (with floppy disk) for Macintosh users helps
+newcomers get online and get acquainted with graphical Internet
+software "Fetch" and "Eudora".
+
+Title: Making Money on the Internet
+Author: Alfred and Emily Glossbrenner
+Publisher: McGraw Hill
+ISBN: 0-07-024050-7
+Price: $19.95
+Pages: 300
+Published: March 1995
+For more information: Send blank e-mail message to books@infomat.com
+or call (800) 352-3566.
+Notes: The publisher says: "Businesspeople get the straight scoop on
+how to take best advantage of the Internet to sell goods and services.
+You'll see what  other businesses are doing, and learn how to profit
+from their mistakes."
+
+Title: Managing Internet Information Services
+Author: Liu, Peek and Jones
+Publisher: O'Reilly and Asscoiates
+ISBN: 1-56592-062-7
+Price: $29.95
+Pages: 400
+Published: December 1994
+For more information: info@ora.com
+Thanks for the info: Steve Brock
+Notes: Written specifically for database maintainers and system
+administrators, this Unix-based technical guide covers installing,
+setting up, and running Internet applications such as gopher holes,
+FTP and telnet sites, mailing lists, WAIS, and World Wide Web pages,
+and other sites, as well as keeping them secure.
+
+Title: Managing Internetworks with SNMP
+Author: Mark Miller
+Publisher: M&T
+Price: $44.95
+Pages: 472
+Published: 1994
+
+Title: Managing uucp and Usenet
+Author: Tim O'Reilly and Grace Todino
+Publisher: O'Reilly & Associates
+ISBN: 0-937175-93-5
+Price: 27.97
+Pages: 342
+Published: 10th priting, 1992
+For more information: info@ora.com
+Notes: Intended for system administrators who need to set up and
+maintain UUCP connections or access Usenet, the book realizes that in
+the UNIX world many sysadmins are just plain folks. The necessary
+technical details are here, but presented in a logical and non-
+threatening manner.
+
+Title: Mastering the Internet
+Publisher: Sybex
+Published: 1995
+
+Title: The Matrix: Computer Networks and Conferencing Systems
+Worldwide
+Author: John S. Quarterman
+Publisher: Digital Press
+ISBN: 0-13-565607-9
+Price: $50.00
+Pages: 746
+Published: 1990
+
+Title: Minding Your Cybermanners
+Author: Donald Rose
+Publisher: Alpha  Books
+ISBN: 1-56761-521-X
+Price: $12.99
+Pages: 196
+Published: 1995
+Notes: From the publisher: "An entertaining and thorough guide to the
+critical do's and don'ts of Internet behavior and communication for
+newcomers. Smileys, emoticons, and many helpful tips helps the newbie
+blend into the net culture with grace and ease."
+
+Title: MORE Internet for Dummies
+Author: John Levine & Carol Baroudi
+Publisher: IDG Books
+ISBN: 1-56884-164-7
+Price: $19.95
+Pages: 430
+Published: July 1994
+For more information: (415) 312-0650 or midummies@iecc.com
+Notes: Blurb from the author: "Intended as a follow-on to the best
+selling "Internet for Dummies", includes in-depth looks at commercial
+on-line providers including Delphi, AOL and UNIX shell providers. Also
+SLIP/PPP access including how to get and install, Trumpet Winsock,
+Trumpet, WinVN, Eudora, WinQVTnet, WSFTP, etc., and an expanded
+resource list featuring newer gopher and WWW servers."
+
+Title: Mosaic for Dummies, Windows edition
+Author: David Angell and Brent Heslop
+Publisher: IDG
+ISBN: 1-56884-242-2
+Price: $19.99
+Pages: 356
+Published: 1995
+For more information: (800) 762-2974
+Thanks for the info: Steve Brock
+Notes: Uses surfing jargon to teach users to catch a wave
+(fundamentals), customize your surfboard (change the software
+configurations), power surf (using advanced techniques), creating your
+own home page, and surfing after dark (entertaining WWW sites).
+
+Title: The Mosaic Handbook for Microsoft Windows
+Author: Dale Dougherty & Richard Koman
+Publisher: O'Reilly & Associates
+ISBN: 1-56592-094-5
+Price: $29.95
+Pages: 200
+Goodies: floppy disk containing Enhanced NCSA Mosaic for Windows
+Published: October 1994
+For more information: info@ora.com
+
+Title: The Mosaic Handbook for the Macintosh
+Author: Dale Dougherty & Richard Koman
+Publisher: O'Reilly & Associates
+ISBN: 1-56592-096-1
+Price: $29.95
+Pages: 170
+Goodies: floppy containing Enhanced NCSA Mosaic for Macintosh
+Published: October 1994
+For more information: info@ora.com
+
+Title: The Mosaic Handbook for the X Window System
+Author: Dale Dougherty, Richard Koman, & Paula Ferguson
+Publisher: O'Reilly & Associates
+ISBN: 1-56292-095-3
+Price: $29.95
+Pages: 200
+Goodies: CD-ROM containing NCSA Mosaic for X
+Published: October 1994
+For more information: info@ora.com
+
+Title: The Mosaic Navigator
+Author: Paul Gilster
+Publisher: John Wiley and Sons
+ISBN: 0-471-11336-0
+Price: $16.95
+Pages: 243
+Published: 1994
+Thanks for the info: Steve Brock
+Notes: While Gilster provides cogent instructions in obtaining Mosaic
+from the NSCA, using its tools to browse via telnet, FTP, and e-mail,
+customizing it for individual comfort, and lists the best WWW sites,
+at times he rises above the "beginner" level and leaves the reader
+confused and frustrated.
+
+Title: Mosaic Quick Tour
+Author: Gareth Branwyn
+Publisher: Ventana
+ISBN: 1-56604-195-3 (Mac edition), 1-56604-194-5 (Windows edition)
+Price: $12
+Pages: 175
+Goodies: disk (Mac or Windows)
+Published: 1994
+For more information: 800/743-5369
+Notes: Ad says: Gives readers a fundamental understanding of Mosaic
+and the Web, as well as hands-on instruction for locating,
+downloading, installing and using the software to explore both Web and
+non-Web sites. Also teaches users how to create their own customized
+Web site.
+
+Title: Mosaic Users Guide
+Author: Bryan Pfaffenberger
+Publisher: MIS Press
+ISBN: 1-55828-409-5
+Price: $24.95
+Pages: 350
+Goodies: disk w/ Chameleon software for Windows
+Published: 1994
+For more information: 74044.3007@compuserve.com, (212) 886-9389
+(voice), (212) 807-6654 (fax)
+
+Title: Navigating the Internet
+Author: Mark Gibbs & Richard Smith
+Publisher: Sams
+ISBN: 0-672-30362-0
+Price: $24.95
+Pages: 500
+Published: 1993
+For more information: 800-428-5331 or 317-581-3500
+
+Title: Navigating the Internet, Deluxe Edition
+Author: Richard Smith and Mark Gibbs
+Publisher: Sams
+ISBN: 0-672-30485-6
+Price: $29.95
+Pages: 640
+Goodies: 1 PC-format HD disk. (Macintosh users can mail in an coupon
+to receive a Mac disk with similar software for a nominal shipping and
+handling fee) and one month free connect time
+Published: April 1994
+For more information: 800-428-5331 or 317-581-3500
+Notes: Nearly identical to Navigating the Internet (above) except it
+includes a disk with Internet Software for Microsoft Windows and a few
+extra chapters: "A Better Window on the Web: Mosaic", "Using the
+Internet for Business", as well as versions of the online references
+Gopher Jewels and PDIAL. I suppose it's worth the extra five bucks for
+this book versus the vanilla Navigating the Internet, especially if
+you use Windows and need the software.
+
+Title: The Net After Dark
+Author: Lamont Wood
+Publisher: John Wiley & Sons
+ISBN: 0-471-10347-0
+Price: $16.95
+Pages: 352
+Published: November 1994
+For more information: 1-800-US-WILEY
+Notes: Ad says: The Underground Guide to the Coolest, the Newest, and
+the Most Bizarre Hangouts on the Internet, CompuServe, AOL, Delphi,
+and More
+
+Title: netchat
+Author: Kelly Maloni
+Publisher: Random House
+ISBN: 0-679-75814-3
+Price: $19.00, $25.00 CAN
+Pages: 281
+Published: 1994
+Thanks for the info: Michael Crestohl
+Notes: Focuses on interacting with others through newsgroups, mailing
+lists, IRC chat groups, forums and support groups - in a word,
+contact.  Coverage is not limited to the Internet, but also the major
+on-line services such as AOL, CompuServe, Prodigy, and BBSs. Divided
+into chapters titled Cybersex, Fans, On the Fringe, Net Op-Ed, Coffee
+House, Identity and Support. There are several listings on where to
+discuss sexual matters of all kind and even perhaps meet that "special
+someone" waiting out there just for you.
+
+Title: netgames
+Author: Michael Wolff
+Publisher: Random House
+Price: $19.00
+Pages: 272
+Published: 1994
+Notes: Games on the Internet.
+
+Title: Netguide
+Author: Peter Rutten, Albert Bayers III & Kelly Moloni
+Publisher: Random House
+ISBN: 0-679-75106-8
+Price: $19.00
+Pages: 384
+Published: 1994
+For more information: (800) 345-8112
+Thanks for the info: Educom newsletter
+Notes: As the "TV Guide of Cyberspace," this book provides pointers by
+subjects to Internet sites, USENET newsgroups, and commercial
+resources (CompuServe, American Online, etc.) It proves that there's
+something for everyone somewhere out in the electronic world.
+
+Title: Netiquette
+Author: Virginia Shea
+Publisher: Albion Books
+ISBN: 0-9637025-1-3
+Price: $19.95
+Pages: 154
+Published: 1994
+For more information: info@albion.com
+Notes: This slim book does an excellent job of helping those new to
+Cyberspace learn the basic tenants of network etiquette, or
+"netiquette". It's easy to read and loaded with interesting real-life
+examples. Chapters cover netiquette of e-mail and of discussion groups
+as well as providing excellent netiquette guidelines for business,
+home and school use. Particularly useful sections cover Electronic
+Style (looking good online, tone of voice and signature files) and the
+"core rules" of the online world. One chapter covers copyright issues
+and another the etiquette of e-mail privacy. There's even a tiny
+chapter on "Love & Sex in Cyberspace". This book should be required
+reading for anyone collecting their Internet Learner's Permit. (You
+can retrieve a brief excerpt from Netiquette: "The Core Rules of
+Netiquette" by sending e-mail to netiquette-request@albion.com with
+the words "archive send core" in the subject line.)
+
+Title: netmoney
+Author: Michael Wolff
+Publisher: Random House
+Published: 1995
+Notes: Financial information on the Internet.
+
+Title: NetPages
+Publisher: Aldea Communications
+ISBN: none listed
+Price: Free
+Pages: ~200
+Published: 1994 (updated twice a year)
+For more information: 619-943-0101 or e-mail to info@aldea.com
+Notes: Of the various Internet White and Yellow pages books out there,
+this one looks and acts the most like a "real" telephone book:
+personal listings of your name and e-mail address are free,
+advertising space in the yellow pages section is available for a fee,
+and the book itself it distributed for free. With only a few thousand
+names in the first edition, this listing is hardly the most complete,
+but it only contains information about people who choose to be listed.
+
+Title: NetPower: Resource Guide to Online Computer Services
+Author: Persson, Eric
+Publisher: Fox Chapel Publishing
+ISBN: 1-56523-031-0
+Price: $39.95 + $3.00 shipping
+Pages: 774
+Published: 1993
+For more information: netpower1@aol.com, 1-800-457-9112
+Notes: All I know is what their catalog says: The most exciting
+section of this guide is devoted to the Internet. Netpower includes a
+primer and tutorial on using the network, information on getting
+started and navigating with Internet tools, and hundreds of Internet
+accessible resources with contact information and descriptions. The
+guide will point you in the direction of millions of megabytes of
+information all yours free for the downloading around the Internet.
+
+Title: net.speak - the Internet Dictionary
+Author: Tom Fahey
+Publisher: Hayden Books
+ISBN: 1-56830-095-6
+Price: $12.95
+Pages: 250
+Published: August, 1994
+
+Title: net.sex
+Author: Candi Rose & Dirk Thomas
+Publisher: Sams
+ISBN: 0-672-30702-2
+Price: $19.99
+Pages: 250
+Published: Jan 1995
+For more information: http://www.mcp.com/sams/books/net.sex/
+Notes: Subtitled "Discreet Guide to the Adult Side of the Internet" it
+gives "Practical advice on how to access the "adult side of the
+Internet". Indeed, it does. It's a suprisingly well-written,
+thoughtful and detailed guide to finding adult-oriented stuff on the
+'net. Lots of insigtful text and not one sleazy picture. Includes info
+on discussion lists, anonymity, finding dirty pictures and so on.
+
+Title: Network and Distributed Systems Management
+Author: Morris Sloman, editor
+Publisher: Addison-Wesley
+ISBN: 0-201-62745-0
+Price: $50.50
+Pages: 650
+Published: 1994
+For more information: awbook@aw.com or (800) 822-6339.
+Notes: From the publicist: "Networks and distributed computer systems
+are becoming critical to the functioning of many organizations. As
+these systems become larger and more complex the issue of how to
+manage them becomes more and more difficult. A complete reference on
+network management for network engineers, managers, lecturers and
+trainers." Topics include monitoring distributed systems, security,
+specifications and underlying technologies. Quality information, heavy
+on theory, reads like a text book.
+
+Title: Network and Internetwork Security
+Author: Willian Stallings
+Publisher: Prentice Hall
+Price: $55.00
+Pages: 462
+Notes: Provides an overview of security threats, mechanisms and
+services. Details security principals such as conventional encryption
+and confidentiality, public-key cryptology, authentication and digital
+signatures, viruses and worms.
+
+Title: Networks and Network Services - A User's Guide
+Author: Frances Blomeley
+Publisher: Immediate Publishing
+ISBN: 1-898931-00-3
+Price: #14.95 pounds sterling ($25.95 US)
+Pages: 246
+Published: May 1994
+For more information: +44 (273) 748427
+Notes: A broad overview of most aspects of networks and network
+services
+from a U.K. user's perspective.
+
+Title: The New Hacker's Dictionary
+Author: Edited by Eric Raymond and Guy L. Steele
+Publisher: MIT press
+ISBN: 0-262-68079-3
+Price: 14.95
+Pages: 453
+Published: 2nd edition, 1994.
+For more information: (800) 356-0343 or (617) 625-8481
+Notes: The New Hacker's Dictionary is a great book for learning about
+the various slang, jargon and customs and folklore of the 'net (as
+well as other lairs of the hacker.) Very silly and highly recommended.
+You can get it for free online (The Jargon File) at
+http://www.ccil.org/jargon/jargon.html, but the bound book makes great
+bathroom reading and contains silly cartoons and stuff.
+
+Title: New Riders' Official Internet Directory
+Author: Christine Maxwell and Czeslaw Jan Grycz
+Publisher: New Riders Publishing
+ISBN: 1-56205-4082
+Price: $29.95
+Pages: 800
+Published: 2nd ed, 1995
+This huge book covers vast ground in its 900-plus pages. Although the
+quantity is there, the quality isn't exceptional: it is rather
+unevenly edited. Some of the listings seem to be listed by name rather
+than subject and many items are listed in multiple places, artifically
+inflating the size of the book. This index is unique in that it
+contains listings of some commercial services available via the
+Internet, such as DIALOG. Icons differentiate the free resources from
+the costly ones. Formerly New Riders' Official Internet Yellow Pages.
+
+Title: On Internet '94: An International Title and Subject Guide to
+Electronic Journals, Newsletters, Texts, Discussion Lists, and Other
+Resources on the Internet
+Author: Internet World Magazine
+Publisher: Meckler
+ISBN: 0-88736-929-4
+Price: $45.00
+Pages: 500
+Published: 1994
+Notes: "Your guide to the full range of Internet-accessible data files
+- from artificial intelligence to women's studies, from space
+exploration to rock music, from environment studies to AIDS research."
+Nearly 6,000 mailing lists, electronic journals, archives, etc.
+
+Title: The Online User's Encyclopedia: Bulletin Boards and Beyond.
+Author: Bernard Aboba
+Publisher: Addison-Wesley
+ISBN: 0-201-62214-9
+Price: $32.95
+Pages: 806
+Published: 1993
+Thanks for the info: Gayle Keresey (aflgayle@aol.com)
+Notes: Comprehensive compendium of information and guide to bulletin
+boards and the computer networks they are connected to. First edition
+of this book was a manual for the BMUG BBS. Indispensable guide to
+connecting your modem to the world.
+
+Title: The Online World
+Author: Odd de Presno and Mike Weaver
+Publisher: Productive Publications
+ISBN: 0-920847-89-7
+Price: $47.00 (US and CND)
+Pages: 300
+Published: 1994
+For more information: Fax:1-416-322-7434. Email:
+Iain.Williamson@CANREM.COM
+
+Title: OPAC Directory 1994
+Author: Mecklermedia
+Publisher: Meckler
+ISBN: 0-88736-962-6
+Price: $70
+Pages: 500
+Published: May 1994
+Notes: A detailed listing of dial-in online public access catalogs and
+databases. Includes Accessing Online Bibliographic Databases, the
+annotated list of 700+ Internet-accessible OPACs.
+
+Title: Open Systems Networking: TCP/IP & OSI
+Author: David Piscitello and Lyman Chapin
+Publisher: Addison-Wedlet
+Price: $46.96
+Pages: 624
+Published: 1994
+Notes: Explains OSI options for systems administrators working with
+TCP/IP.
+
+Title: PC Internet Tour Guide
+Author: Michael Fraase
+Publisher: Ventana Press
+ISBN: 1-56604-084-1
+Price: $24.95
+Pages: 284
+Goodies: PC floppy disk with useful software. Two periodic updates via
+e-mail. One month of free online time from MRNet.
+Published: 1994
+For more information: dilennox@aol.com
+Notes: This book (with floppy disk) for MS-DOS users helps newcomers
+get online and take their first steps on the 'net. Fraase first wrote
+the Mac Internet Tour Guide, and this book seems more like an
+afterthought than a follow-up. Chapters cover obligatory topics like
+What is the Internet, Getting Connected, Network News, Transferring
+Files, Using Gopher and Other Internet Resources. The book's
+organization leaves something to be desired: talk of telnet, FAQs and
+Netfind (hardly unimportant topics) are lumped together in the "Other
+Resources" chapter near the back of the book. The book includes some
+interesting real-life examples and ideas for things to do online, but
+too much (for my taste) focuses on how to set up and use the bundled
+software.
+
+Title: Planet Internet
+Author: Steve Rimmer
+Publisher: McGraw-Hill
+ISBN: 0-07-053015-7
+Price: $24.95
+Pages: 315
+Published: 1994
+For more information:
+http://uunorth.north.net:8000/alchemy/html/alchemy.html or
+70007.1531@compuserve.com or (800) 352-3566
+Notes: Ad copy says: "The first irreverent book on exploring this
+electronic subculture."
+
+Title: Pocket Guides to the Internet: Volume 1 - Telnetting
+Author: Mark Veljkov & George Hartnell
+Publisher: Meckler
+ISBN: 0-88736-943-X
+Price: $7
+Pages: 64
+Published: 1994
+
+Title: Pocket Guides to the Internet: Volume 2 - Transferring Files
+with File Transfer Protocol (FTP)
+Author: Mark Veljkov & George Hartnell
+Publisher: Meckler
+ISBN: 0-88736-944-8
+Price: $7
+Pages: 64
+Published: 1994
+
+Title: Pocket Guides to the Internet: Volume 3 - Using and Navigating
+Usenet
+Author: Mark Veljkov & George Hartnell
+Publisher: Meckler
+ISBN: 0-88736-945-6
+Price: $7
+Pages: 64
+Published: 1994
+
+Title: Pocket Guides to the Internet: Volume 4 - The Internet E-Mail
+System
+Author: Mark Veljkov & George Hartnell
+Publisher: Meckler
+ISBN: 0-88736-946-4
+Price: $7
+Pages: 64
+Published: 1994
+
+Title: Pocket Guides to the Internet: Volume 5 - Basic Internet
+Utilities
+Author: Mark Veljkov & George Hartnell
+Publisher: Meckler
+ISBN: 0-88736-947-2
+Price: $7
+Pages: 64
+Published: 1994
+
+Title: Pocket Guides to the Internet: Volume 6 - Terminal Connections
+Author: Mark Veljkov & George Hartnell
+Publisher: Meckler
+ISBN: 0-88736-948-0
+Price: $7
+Pages: 64
+Published: 1994
+
+Title: Point and Click Internet
+Author: Seth Godin
+Publisher: PeachPit Press
+ISBN: 1-56609-161-6
+Price: $12.95 US, $17.95 CAN
+Pages: 100
+Goodies: America Online disk for Mac
+Published: 1994
+For more information: sethwood@aol.com or (510) 548-4393
+Notes: A thin volume that shows how to access the Internet via America
+Online. Covers electronic mail (including mailing lists), gopher,
+newsgroups and netiquette. Despite its trim size, it is an interesting
+and valuable for the beginner, filled with lots of interesting
+tidbits.
+
+Title: Practical Internetworking with TCP/IP and UNIX
+Author: Carl-Mitchell/Quarterman
+Publisher: Addison-Wesley
+ISBN: 0-201-58629-0
+Price: $45.75
+Published: 1993
+For more information: tic@tic.com
+
+Title: Realizing the Information Future: the Internet and Beyond
+Author: National Research Council
+Publisher: National Academy Press
+Price: $24.95
+Pages: 301
+
+Title: Riding the Internet Highway
+Author: Sharon Fisher
+Publisher: New Riders Publishing
+ISBN: 1-56205-192-X
+Price: $16.95
+Pages: 266
+Published: 1993
+For more information: phyllis@prenhall.com
+Thanks for the info: Robert Slade <ROBERTS@decus.ca>
+Notes: Fisher shows admirable restraint in limiting the scope of this
+book. Where others try to produce "complete" documentation for the
+"whole" Internet, Fisher flatly states (correctly) that this is
+impossible. Where others try to take you "from the modem up," Fisher
+suggests you get some basic experience with local bulletin boards. The
+intent is to give desktop (PC and Mac) users some basic grounding in
+Internet functions and tools. As such, the book is much less imposing
+than most of the others of this ilk. (Cheaper, too.) For the majority
+of new users, however, this is a good, basic introduction. What
+shortcomings there are in specific information can be quickly filled
+in once a user has gotten onto the net. The very personal style here
+probably more than makes up for any other lacks--the Internet is
+primarily other people, not technologies.
+
+Title: SATURN: A Beginners Guide To Using the Internet
+Author: Kyle Cassidy
+Publisher: RCNJ Press
+Price: $3
+Pages: 110
+For more information: cassidy@saturn.rowan.edu
+Notes: Almost the only Internet book that is specifically for VAX/VMS
+users (you poor things.) The manual is somewhat specific for our VAX
+4000, but it can be used by anyone who is netting with VMS. It's also
+available online for free, FTPable from:
+gboro.rowan.edu:/pub/Saturn_Guide
+
+Title: sendmail
+Author: Bryan Costales
+Publisher: O'Reilly & Associates
+ISBN: 1-56592-056-2
+Price: $32.95
+Pages: 830
+Published: 3rd printing Sep 1994
+For more information: info@ora.com
+Notes: While not strictly an Internet book, this tome focuses on one
+thing: the UNIX program sendmail, which is a huge part of how
+electronic mail moves around on the Internet. Mainly for system
+administrators, the book shows how to use every function, mode and
+mood of sendmail to get your e-mail where it's going. A great, if
+single-minded, book.
+
+Title: Sesame pour Internet
+Language: French
+Author: Tracy Laquey, translated by Olivier Saint-Leger and Jean-
+Baptiste Su
+Publisher: Addison-Wesley
+ISBN:2-87908-083-5
+Pages: 242
+Published: October 1994
+For more information: jbsu@attmail.com
+Notes: French version of Internet Companion, 2nd ed.
+
+Title: The Simple Book: an introduction to Internet management
+Author: Marshall Rose
+Publisher: Prentice Hall
+ISBN: 0-13177-254-6
+Price: $55.00
+Pages: 456
+Published: 2nd ed, 1994
+Thanks for the info: John Stidd
+Notes: John says: This book covers the Simple Network Management
+Protocol (SNMP), which is used to do net management of TCP/IP
+networks, including the Internet. The book is outstanding, but
+probably not of interest to a general Internet audience.
+
+Title: Simple Internet
+Author: Jeffrey M Cogswell
+Publisher: Waite Group
+ISBN: 1-878739-79-4
+Price: $16.95, $23.95 Canada
+Pages:162
+Published: 1994
+Thanks for the info: Michael Crestohl
+Notes: Michael Crestohl says: Uses a innovative approach to teaching
+basic Internet skills - it is actually a mystery novel in which the
+reader assumes the identity of Archie Finger, Ace Private Eye.  You'll
+unravel the mystery of the Simple Internet Connection.  Assumes the
+reader access Internet with a UNIX shell. Aimed at young people and
+its novel approach is different from all other basic "how-to" Internet
+books I've seen. The illustrations and graphics remind me of the comic
+books of my youth.
+
+Title: The Smiley Dictionary
+Author: Seth Godin
+Publisher: Peachpit Press
+ISBN: 1-56609-008-3
+Price: $6.95
+Pages: 96
+Notes: Illustrates more than 200 smileys :-)
+
+Title: smileys
+Author: Lesley Strother
+Publisher: O'Reilly & Associates
+ISBN: 1-56592-041-4
+Pages: 595
+Published: 1993
+Notes: A collection of 650 "smileys". While not an Internet book per
+se, smileys are certainly used enough on the Internet to warrant an
+entry here. :-)
+
+Title: Spinning the Web: How to Provide Information on the Internet
+Author: Ford
+Publisher: VNR
+
+Title: Success with Internet
+Author: Allen L. Wyatt
+Publisher: Jamsa Press
+ISBN: 1-884133-01-0
+Price: $29.95
+Pages: 421
+Goodies: inlcudes 60-page booklet "Navigating the Internet"
+Published: 1994
+For more information: 800/628-8280
+Thanks for the info: LOEB.JEFFREY_L@san-diego.va.gov
+
+Title: 10 Minute Guide to the Internet
+Author: Peter Kent
+Publisher: Alpha
+ISBN: 1-56761-428-0
+Price: $12.99 US, $16.99 CAN
+Pages: 162
+Published: 1994
+Notes: A terse introduction to the Internet, how to get online and how
+to navigate using UNIX, e-mail, FTP, archie, WAIS, WWW, gopher, telnet
+and Usenet. For the rank beginner. Divided into 20 or so "ten-minute"
+lessons. Does a fair job, considering its brevity, but is too short to
+serve as a thorough introduction. Slanted to Microsoft Windows users
+accessing a UNIX host.
+
+Title: TCP/IP and Related Protocols
+Author: Uyless Black
+Publisher: McGraw-Hill
+Price: $49.00
+Pages: 400
+Notes: Explains the TCP/IP suite, gateway standards (GGP. EGP, RIP,
+etc.)
+
+Title: TCP/IP: Architecture, Protocols and Implementation
+Author: Sidnie Felt
+Publisher: McGraw-Hill
+Price: $45.00
+Pages: 466
+Notes: Covers protocols plus additional services and products: NFS,
+NIS, BIND, ARP, RIP, KERBEROS, SNMP, etc. Discusses hoe to invoke
+network services, plan name/address structure, troubleshoot, connect
+via bridges and routers.
+
+Title: The TCP/IP Companion
+Author: Martin Arick
+Publisher: QED
+Price: $29.95
+Pages: 240
+Published: 1994
+Notes: Describes the OSI Reference Modem, related protocols and how to
+use them to interact with hosts.
+
+Title: TCP/IP Illustrated, Volume 1, The Protocols
+Author: W. Richard Stevens
+Publisher: Addison Wesley
+ISBN: 0-201-63346-9
+Price: $47.50
+Pages: 576
+Published: 1994
+For more information:
+ftp://aw.com/aw.prof.comp.series/stevens.tcpipiv1.info.tar.Z (this
+contains Preface, Table of Contents, and a sample chapter in
+PostScript and ASCII.)
+Thanks for the info: Bob Stein <stein@gcomm.com> and Robert Slade
+<ROBERTS@decus.ca>
+Notes: Bob says: This textbook is the best way to understand the nuts
+and bolts of TCP/IP the Internet's networking protocols. Great
+figures, diagrams, tables, and other references. (No volume 2 yet.)
+Robert says: Great text for the protocols of TCP/IP (illustrated by
+examples from a real network.)
+
+Title: TCP/IP Network Administration
+Author: Craig Hunt
+Publisher: O'Reilly & Associates
+ISBN: 0-937175-82-X
+Price: $29.95
+Pages: 472
+Published: 1992
+For more information: info@ora.com
+Notes: Describes how to set up and administer a network of UNIX
+systems using the TCP/IP protocols. Includes basics of what the
+protocols are, how to get connected and configure the system, sendmail
+configuration, setting up an anonymous FTP server, name service,
+routing and troubleshooting and security.
+
+Title: TCP/IP for the Internet
+Author: marshall Breeding
+Publisher: Meckler
+ISBN: 0-88736-980-4
+Published: 1994
+
+Title: TCP/IP: Running a Successful Network
+Author: K. Washburn/J.T. Evans
+Publisher: Addison-Wesley
+Price: $44.95
+Pages: 537
+Published: 1994
+
+Title: Teach Yourself TCP/IP in 14 Days
+Author: Timpthy Parker
+Publisher: Sams
+ISBN: 0-672-30549-6
+Price: $29.99 US, $39.99 Canada
+Pages: 438
+Published: 1994
+For more information: http://www.mcp.com
+
+Title: Teach Yourself the Internet: Around the World in 21 Days
+Author: Neil Randall
+Publisher: Sams
+ISBN: 0-672-30519-4
+Price: $27.00
+Pages: 700
+Published: July 1994
+For more information: 800-428-5331 or 317-581-3500 or
+http://watarts.uwaterloo.ca/ENGL/nrandall/tyi.html
+Thanks for the info: Connie Marijs <otsgroup@knoware.nl>
+Notes: A well-organized tutorial that shows, in a topic oriented (not
+tool-oriented) fashion how to find information online. If you're
+interested in reading (or publishing) an online magazine, it shows you
+where to go for the goods on Usenet, in mailing lists and on WWW. If
+you're looking for a job, the authors show you not only how to find
+job listings online, but how to use the 'net to reserach prospective
+employers and find international job sources. It also covers lots of
+ground in education, art, entertainment and business. Even if you've
+been on the 'net for years, this book can show you corners of the 'net
+you've never imagined.
+
+Title: Teach Yourself Web Publishing with HTML in a Week
+Author: Laura Lemay
+Publisher: Sams
+ISBN: 0-672-20667-0
+Price: $25
+Pages: 400
+Published: 1994
+For more information: http://www.mcp.com
+Notes: This book describes how to write, design, and publish
+information on the World Wide Web. In addition to describing the the
+HTML language itself, it provides information on using images, sounds,
+video, interactivity, gateway programs (CGI), forms, and imagemaps.
+Through the use of dozens of real-life examples, the book helps you
+not only learn the technical details of writing Web pages, but also
+teaches you how to communicate information effectively through the
+Web.
+
+Title: Total SNMP
+Author: Harnedy
+Publisher: CBM Books
+ISBN: 1-878956-33-7
+Price: $45
+Published: 1994
+For more information: books@propress.com
+
+Title: The Traveler's Guide to the Information Highway
+Author: Dylan Tweney
+Publisher: Ziff Davis Press
+ISBN: 1-56276-206-0
+Price: $24.95
+Pages: 139
+Published: June 1994
+For more information: 72241.443@compuserve.com or 800/688-0448
+Notes: A guide to the Internet, CompuServe, Prodigy, America Online,
+Delphi, GEnie, and ZiffNet for CompuServe, this book is the first of
+its kind to feature real maps of each service, making it exceptionally
+easy to navigate the on-line world. Colorful but hard to read. There
+are also easy-to-follow instructions for using each one, plus tips,
+shortcuts, and pointers to the best and most interesting features.
+Interesting stuff, but seems to favor the online services featuring
+ZiffNet online. I wonder why...
+
+Title: Tricks of the Internet Gurus
+Author: 21 of 'em
+Publisher: Sams
+ISBN: 0-672-30599-2
+Price: $35.00 USA $47.95 Can
+Pages: 809
+Published: December 1994
+For more information: http://www.mcp.com
+Thanks for the info: Michael Crestohl
+Notes: A collection of chapters written by 21 well known Internet
+user/authors, each of whom is an Internet "expert" in his or her own
+field. This book is not for the newbie or novice Internaut, but is
+filled with Internet tricks and secrets that will help turn a
+moderately experienced person into a seasoned veteran. These are not
+mere tutorials, but detailed high-level essays written by visible,
+online personalities.  Other chapters cover how to send a fax from the
+Internet, discussion forums, educational uses of the Internet,
+research, business and commerce. Well-written and presented.
+
+Title: Troubeshooting TCP/IP
+Author: Mark A. Miller
+Price: $44.95
+Pages: 588
+Published: 1993
+
+Title: The Usenet Book
+Author: Pfaffenberger
+Publisher: Addison Wesley
+
+Title: The Usenet Handbook
+Author: Mark Harrison
+Publisher: O'Reilly & Associates
+ISBN: 1-56592-101-1
+Price: $24.95
+Pages: 250
+Published: December 1994
+For more information: info@ora.com
+Notes: A user's guide to netnews
+
+Title: Usenet: Netnews for Everyone
+Author: Jenny A. Fristrup
+Publisher: Prentice Hall
+ISBN: 0-13-123167-7
+Price: $24.95 US, $32.95 CAN
+Pages: 386
+Goodies: 5 hours of Usenet access via a Missouri service provider
+Published: June 1994
+For more information: orders@prenhall.com
+Notes: A guide to accessing and using Usenet newsgroups. Includes a
+decent (but short) introduction to Usenet, including info on the
+Usenet community and conventions. The majority of the book is a list
+of Usenet newsgroups and the FAQs that live in each - information that
+can easily be found online at no cost. It also reprints several
+general Usenet introductions that are also available online for free.
+Doesn't cover rot13 or how to decode binary files. In short, not the
+best way to spend your money.
+
+Title: Using Mosaic
+Author: Mary Anne Pike
+Publisher: Que
+Price: $24.95
+Pages: 390
+Published: 1994
+
+Title: Using Mosaic for Windows
+Author: Stephen Gauer
+Publisher: Electric Avenue Press
+ISBN: 0-9698853-0-X
+Price: $19.95
+Pages: 100
+Goodies: DOS-based disk: catalog of WWW sites
+Published: 1994
+For more information: electric@wimsey.com
+
+Title: Using the Internet
+Author: William A. Tolhurst, Mary Ann Pike & Keith A. Blanton
+Publisher: Que
+ISBN: 1-56529-353-3
+Price: $39.95
+Pages: 1188
+Goodies: DOS disk
+Published: Jan. 1994
+For more information: tpike@pittslug.sug.org
+Thanks for the info: Gayle Keresey (aflgayle@aol.com)
+Notes: Introduction to, structure of, and history of the Internet.
+Finding and using resources, legal considerations, features and
+services, and tools and technology.
+
+Title: Using the Internet
+Author: Bill Eager
+Publisher: Que
+ISBN: 0-7897-0096-4
+Price: $19.99
+Pages: 400
+Goodies: Windows disk
+Published: December 1994
+Notes: Explains in step-by-step fashion how to get on the Internet and
+how to use graphical, point-and-click computer programs to navigate
+through the vast
+ resources of the Internet.
+
+Title: Using the World Wide Web
+Author: Bill Eager
+Publisher: Que
+ISBN: ?0-7897-0016-6
+Price: $27.95
+Pages: 648
+Published: 1994
+Notes: Computer Literacy Bookshops says: User friendly tutorial for
+the fastest-growing part of the Internet. Discusses WWW connections
+with Cello, Mosaic for Windows and Mac, and the new upcoming versions
+of Moasic. Most of it is dedicated to finding resources on the Web in
+areas of art, music, business, education, government and so on.
+
+Title: Using UUCP and Usenet
+Author: Grade Todino and Dale Dougherty
+Publisher: O'Reilly & Associates
+ISBN: 0-937175-10-2
+Price: $21.95
+Pages: 194
+Published: 1991
+For more information: info@ora.com
+Notes: Shows users how to communicate with UNIX and non-UNIX systems
+using UUCP and 'cu' or 'tip', and how to read and post articles.
+Assumes UUCp is already running at your site.
+
+Title: WAIS and Gopher Servers: a guide for librarians and Internet
+end-users
+Author: Eric Lease Morgan
+Publisher: Meckler
+ISBN: 0-88736-932-4
+Price: $30.00
+Pages: 150
+Published: March 1994
+Notes: The first book-length treatment of WAIS and Gopher servers.
+
+Title: Way of the Ferret - Finding Educational Resources on the
+Internet
+Author: Judi Harris
+Publisher: International Society for Technology in Education
+ISBN: 1-56484-055-7
+Price: $24.95 (ISTE members 22.45)
+Pages: 209
+Published: 1994
+For more information: iste@oregon.uoregon.edu or 800/336-5191
+Notes: Based on Judi Harris' popular Mining the Internet column in The
+Computing Teacher journal, Way of the Ferret is designed to help you
+acquire the knowledge, skills, and experience necessary to locate and
+use resources found on the Internet. Carefully developed analogies
+help users grasp basics of Telnet sessions, FTP file transfers,
+information location tools, file encryption, and discussion groups.
+Finally, 15 different types of educational telecomputing activities
+help you plan for integrating Internet resources into your students'
+academic explorations.
+
+Title: Welcome to Internet - from Mystery to Mastery
+Author: Tom Badgett & Corey Sandler
+Publisher: MIS Press
+ISBN: 1-55828-308-0
+Price: $19.95, $27.00 CAN
+Pages: 324
+Published: 1993
+Thanks for the info: Gayle Keresey (aflgayle@aol.com)
+Notes: Introduction to the Internet and its resources and navigational
+tools. The strength of this book is the chapter entitled "Collecting
+souvenirs on the Internet" which details subjects and tells you
+exactly where and how to find information about those subjects on the
+net.
+
+Title: What's on the Internet
+Author: Eric Gagnon
+Publisher: PeachPit Press
+ISBN: 1-56609-162-4
+Price: $19.95
+Pages: 256
+Goodies: Coupon for free on-disk index of Usenet groups by topic
+Published: 1994
+For more information: 510/548-4393
+Notes: This book is an index of what's available on the Internet's
+newsgroups. It doesn't delve into any other Internet services. A more
+appropriate title for this book would be "What's on Usenet", because
+that's just what it is about. the book is arranged by subject matter
+and reviews about 1,600 of the most popular, world-wide newsgroups,
+giving honest opinions about what's on each, what's good and bad about
+them, and how popular each one is.
+
+Title: The Whole Earth Online Almanac
+Author: Don Rittner
+Publisher: Brady
+ISBN: 1-56686-090-3
+Price: $32.95
+Pages: 540
+Published: 1993
+Notes: Covers America Online, CompuServe, GEnie, The WELL, FidoNet,
+the Internet and CD-ROMs. Each subject area includes applicable forums
+and databases, network discussion lists and other online sources and
+CD-ROMs.
+
+Title: The Whole Internet User's Guide and Catalog
+Author: Ed Krol
+Publisher: O'Reilly & Associates
+ISBN: 1-56592-063-5
+Price: $24.95
+Pages: 572
+Published: 2nd edition, April 1994
+For more information: info@ora.com
+Notes: This book covers the basic utilities used to access the network
+and then guides users through the Internet's "databases of databases"
+to access the millions of files and thousands of archives available.
+It includes a resource index that covers a broad selection of
+approximately 300 important resources available on the Internet. The
+2nd edition has been completely updated to reflect the development of
+new Internet tools, including Mosaic, MIME, tin, pine, xarchie and a
+greatly expanded resource catalog. Highly recommended.
+
+Title: Windows Internet Tour Guide
+Author: Michael Frasse
+Publisher: Ventana Press
+ISBN: 1-56604-081-7
+Price: $24.95
+Pages: 344
+Goodies: Windows disk. Two free electronic updates via e-mail. One
+month of free online time from MRNet.
+Published: 1994
+For more information: dilennox@aol.com
+
+Title: World Wide Web Bible
+Author: Bryan Pfaffenberger
+Publisher: MIS Press
+ISBN: 1-55828-410-9
+Price: $27.95
+Pages: 45
+Published: Feb 1995
+
+Title: The World Wide Web, Mosaic and More
+Author: Jason J. Manger
+Publisher: McGraw-Hill
+ISBN: 0-07-709132-9
+Price: $34.95, 23.95 UK sterling
+Pages: 292
+Goodies: Disk
+Published: November 1994.
+For more information: +44 (0)628 23432 (McGraw-Hill)
+Notes: the author says: A book on Mosaic and the Web, covering many
+new areas such as publishing on the Net, detailed Common Gateway
+Interface scripting, fill-out-forms, HTML tutorials, software lists,
+Web-sites to visit, and much more besides. In summary, this is a
+novices guide to help people publish their work on the Internet using
+Mosaic
+
+Title: WorldWideWeb Unleashed
+Author: John December and Neil Randall
+Publisher: Sams
+ISBN: 0-672-30617-4
+Price: $25
+Pages: 1058
+Published: November 1994
+For more information: http://www.mcp.com
+Notes: Computer Literacy Bookshops says: Not only the largest book on
+the Web, but also the most complete. 300 pages cover fundamental
+concepts and individual wab browsers for different platforms. Covers
+navigation and searching techniques and list web sites by subject.
+Written by a team of WWW experts, the best part is the inclusion of
+details on technical information. Loads of information on designing &
+creating a web site, working with HTML editots and filters, creating
+forms and image mapping.
+
+Title: Your Internet Consultant - The FAQs of Life Online
+Author: Kevin M. Savetz
+Publisher: Sams
+ISBN: 0-672-30520-8
+Price: $25 US $34.95 CAN
+Pages: 550
+Published: July 1994
+For more information: 800-428-5331 or 317-581-3500
+Notes: Your Internet Consultant - the FAQs of List Online (written by
+the author of this bibliography) provides simple, enlightening answers
+to hundreds (361, to be exact) of frequently asked questions about the
+Internet (as well as answers to a few questions that aren't
+frequently-asked, but should be.) The book is arranged in a question-
+and-answer format, making it blissfully simple to find just the info
+you need. I think you'll find the book unique, useful and a little
+silly. For information and the table of contents, e-mail
+savetz@rahul.net with the words "send YIC" in the SUBJECT line.
+
+Title: Zen & the Art of Internet
+Author: Brendan Kehoe
+Publisher: Prentice Hall
+ISBN: 0-13-121492-6
+Price: $23.95
+Pages: 193
+Published: 3rd ed., Jan. 1994
+For more information: (515) 284-6751 or phyllis@prenhall.com
+Thanks for the info: matisse@well.sf.ca.us (J Matisse Enzer)
+Notes: This guide should give you a reference to consult if you're
+curious about what can be done with the Internet. It also presents the
+fundamental topics that are all too often assumed and considered
+trivial by many network users. It covers the basic utilities and
+information reaching other networks. An earlier, much less
+comprehensive version is available via FTP; see previous section.
+Matisse Enzer says: Very friendly general overview book. Not really a
+how-to book, rather a Cultural Companion that explain what each type
+of Internet resource is, as well as the cultural and traditional uses
+and issues. Includes a chapter on "Things you will hear about..." this
+chapter explains many famous (and infamous) Internet events and
+entities.
+
+Title: !%@:: A Directory of Electronic Mail Addressing and Networks
+Author: Donnalyn Frey & Rick Adams
+Publisher: O'Reilly & Associates
+ISBN: 1-56592-046-5
+Price: $9.95
+Pages: 640
+Published: 4th ed, June 1994
+For more information: 800-998-9938 or info@ora.com
+Thanks for the info: Robert Slade <ROBERTS@decus.ca>
+Notes: This book is a reference work. It details the various computer
+networks with gateways to the Internet. It is common to cite such
+works as "indispensable": in fact, most users, and even site managers,
+muddle along quite happily without it. Quick reference "electronic"
+versions exist of very similar documents, which provide the addressing
+schemes for the more common network and commercial service gateways.
+Frey and Adams have, however, put together a very complete and
+interesting reference, and I do suggest it to anyone managing, or
+using, extensive e-mail correspondence. As a user of electronic mail,
+or the manager of a small Internet node or UUCP site, it would be hard
+to say that you "need" this book. If, however, you are at all
+interested in the topic of e-mail, you will find this fascinating and
+useful.
+
+*** Publisher/Ordering Information
+Academic Press
+     955 Massachusetts Avenue, Cambridge, MA 02139
+
+Addison-Wesley
+     Gopher: gopher aw.com
+     E-mail: 74230.3622@compuserve.com
+     Orders: 800-822-6339.
+
+Albion Books
+     E-mail: info@albion.com
+     415-752-7666. Fax 415-752-5417
+
+IDG Books Worldwide
+     155 Bovet Road #310, San Mateo CA 94402
+     Orders: 800-762-2974.
+
+Library Solutions Press
+     WWW:   http://www.internet-is.com/library/
+     Email: library@internet-is.com
+     Phone: 510-841-2636     Fax: 510-841-2926
+     2137 Oregon Street, Berkeley, CA 94705.
+
+Macmillan Computer Publishing (Sams, Hayden, New Riders, Que, Que
+College, Alpha, BradyGames.)
+     Orders: 800-716-0044 or 317-361-5400
+     E-mail: orders@mcp.com
+     Gopher: gopher.mcp.com
+     Web: http://www.mcp.com
+
+McGraw Hill
+     70007.1531@compuserve.com
+     800-352-3566.
+
+Meckler Corporation
+     11 Ferry Lane West, Westport, CT 06880
+     203-226-6967. Fax: 203-545-5840
+
+MIS Press
+     74044.3007@compuserve.com,
+     (212) 886-9389. Fax: (212) 807-6654
+
+The MIT Press
+     55 Hayward Street, Cambridge, MA 02142
+     Phone orders: (800) 356-0343 or (617) 625-8569
+     Customer service: (617) 625-8481
+     E-mail orders: mitpress-orders@mit.edu
+     E-mail inquiries: mitpress-order-inq@mit.edu
+     Catalogue requests: mitpress-catalogs@mit.edu
+     European office: The MIT Press, Ltd.
+     14 Bloomsbury Square, London WC1A 2LP, U.K.
+     Tel: (071) 404 0712  Fax: (071) 404 0601
+
+O'Reilly & Associates
+     103A Morris Street, Sebastopol CA 95472
+     info@ora.com
+     707-829-0515, Fax 707-829-0104
+
+Osborne McGraw-Hill
+     (800) 227-0900
+
+PeachPit Press
+     2414 Sixth Street, Berkeley, CA 94710
+     510-548-4393.
+
+Random House
+     Orders: (800) 345-8112.
+
+*** Internet Book Information & Updates Online
+The Top Ten Internet Book List is a weekly list that lists the top ten
+Internet Books sold in Europe. The list represents the ten most
+popular titles of Prentice Hall, Sams, Que and other publishers, based
+on weekly sales. It also announces new Internet books to be released.
+To subscribe, send e-mail:
+     To: otsgroup@pop.knoware.nl
+
+Addison-Wesley information server, for periodic updates on new titles
+from this publisher. Send e-mail:
+     To: awbook@aw.com
+     Subject: information
+     Body: send information
+Or gopher to:
+     aw.com
+
+Macmillan USA Information SuperLibrary Newsletter, monthly info about
+Macmillan's imprints. Send e-mail:
+     To: majordomo@misl.mcp.com
+     Body: subscribe info-mislnews
+
+O'Reilly & Associates information server, for periodic updates on new
+titles from this publisher. Send e-mail:
+     To: listproc@online.ora.com
+     Subject: <leave blank>
+     Body: subscribe ora-news "Your name" of "Your Company"
+
+Print Publications Related to Business Use of the Internet, an
+excellent roundup of books and magazines dedicated to business on the
+'net.
+     http://arganet.tenagra.com/Tenagra/books.html
+
+***Legal, Ethical and Moral Stuff
+This document is copyright 1994-1995 by Kevin M. Savetz. All rights
+reserved.
+
+Permission for the following types of distribution is hereby granted,
+provided that this file is distributed intact, including the above
+copyright notice:
+     - non-commercial distribution
+     - posting to Internet archives, BBSs and online services
+     - distribution by teachers, librarians and Internet trainers
+     - inclusion on software/FAQ/Internet-oriented CD-ROMs
+
+Permission for commercial distribution may be obtained from the
+editor. SHARE THIS INFORMATION FREELY AND IN GOOD FAITH. DO NOT
+DISTRIBUTE MODIFIED VERSIONS OF THIS DOCUMENT.
+
+This information is always changing. If you notice that an Internet-
+related book is missing, or information herein needs updating, please
+contact the editor.
+
+The editor and contributors have developed this document as a service
+to the Internet community. We hope you find it useful. This document
+is purely a volunteer effort. Although every effort has been made to
+insure that answers are as accurate as possible, no guarantee is
+implied or intended. While the editor tries to keep this document
+current, remember that the Internet and the publishing world are
+constantly changing, so don't be surprised if you happen across
+statements which are obsolete. If you do, please send corrections to
+the editor. Corrections, questions, and comments should be sent to
+Kevin Savetz at "savetz@northcoast.com" (Internet) or "savetz"
+(America Online and eWorld.) Please indicate what version of this
+document to which you are referring.
+
+All prices in U.S. dollars unless otherwise indicated.
+
+Thanks to Pieter M. Lechner, UCLA Microcomputer Support Office, for
+his bibliography of 50 Internet books. Thanks to Connie Marijs
+<otsgroup@pop.knoware.nl> for her ongoing assistance. Thanks to
+matisse@well.sf.ca.us (J Matisse Enzer) for allowing me to pilfer bits
+of book reviews. Many thanks to Robert Slade <ROBERTS@decus.ca> and
+Michael Crestohl <mc@shore.net> and Steve Brock for their copious book
+reviews.
+
+*** Sponsorship Information
+I wish to thank the following sponsors of the Unofficial Internet
+Booklist. (If you too would like to sponsor the booklist and get a
+blurb like this, send e-mail to savetz@northcoast.com.)
+
+Computer Literacy Bookshops - info@clbooks.com - (408) 435-1118
+-http://www.clbooks.com - CLB stocks thousands of books on computers,
+electronics, high-tech business and telecommunications.
+
+and
+
+The Electric Bookstore Inc - Books About Computers!
+books@electric.interlog.com URL:
+http://www.cadvision.com/bookstore/electric.html  
+Telephone:(416) 510-1247
+
+*** Where to Find this Document                      *** UPDATED***
+This file is posted twice monthly (on the 5th and 19th of each month)
+to the Usenet newsgroups alt.internet.services, alt.online-service,
+alt.books.technical, misc.books.technical, alt.bbs.internet,
+misc.answers, alt.answers and news.answers.
+
+You can receive it via anonymous FTP:
+ftp://rtfm.mit.edu/pub/usenet/news.answers/internet-services/book-list
+
+You can receive it via electronic mail:
+     To: booklist-request@northcoast.com
+     Subject: archive
+     Body: send booklist
+
+You can receive each new edition of this document automatically via
+electronic mail, if you are so inclined. This is a low-volume list,
+with updates every few weeks. However, you must be able to receive
+HUGE e-mail messages. If you can't get big messages (EG you're on
+FidoNet) don't subscribe.
+     To: booklist-request@northcoast.com
+     Subject: subscribe
+     Body: <ignored>
+

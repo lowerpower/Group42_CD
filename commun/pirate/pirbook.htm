@@ -1,0 +1,2974 @@
+<HTML>
+         <P>
+<P>
+<HR>
+<H1>Homebrew Broadcasting</H1>
+<H1>Pirate Radio and TV Broadcasting 
+Techniques</H1>
+<P>
+This compilation is freely distributable. Much of this information has 
+been written by other folks. If you want credit, e-mail us! We don't want 
+to rip anyone off....enjoy!
+<p>
+[Group 42 note: although not properly credited, a lot written by our pal
+Mycal]
+<p>
+<P> <H2>RF Consulting</H2>
+<H2>131 NW 4th St. #132</H2>
+<H2>Corvallis, OR 97330</H2>
+<H2>(503) 740-8132</H2>
+</ADDRESS></I><P><I>
+</I><P>
+<HR>
+<H1><A NAME = contents></A>Table Of 
+Contents</H1>
+<P>
+<H4><A HREF = "#I">I. Introduction					</A> 
+</H4>
+   What is this all about?<P>
+<P>
+<H4><A HREF = "#II">II. The Basics of Pirating and Electronics	
+	</A> </H4>
+   Radio Waves<P>
+   Equipment Basics<P>
+<P>
+<H4><A HREF = "#III">III. A look at pirating in the U.S.A		
+	</A> </H4>
+   Equipment required and tips<P>
+   Avoiding the authorities<P>
+   Programming<P>
+<P>
+<H4><A HREF = "#IV">IV. Pirating in the U.K. - on the other 
+side		</A> </H4>
+   Equipment and such<P>
+   Broadcasting Locations<P>
+   Programming<P>
+   Avoiding Detection and the DTI<P>
+<P>
+<H4><A HREF = "#V">V. An Example of a 'Real' Pirate</A> 
+</H4>
+   How, Where, and Why<P>
+<P>
+<H4><A HREF = "#VI">VI. Information on the Ramsey FM-10 
+transmitter</A> </H4>
+   Amplifier Plans<P>
+   Improving Frequency Stability<P>
+   Improving Stereo Sound<P>
+   Sources for Components<P>
+<P>
+<H4><A HREF = "#VII">VII. How to Build a Television 
+Transmitter</A> </H4>
+   Complete Schematics and Plans<P>
+<P>
+<H4><A HREF = "#VIII">VIII. A 5 to 45 Watt Amplifier for FM 
+Broadcasting</A> </H4>
+   Complete Schematics and Plans<P>
+<P>
+<H4><A HREF = "#IX">IX. Build a J-Pole Antenna for FM 
+Broadcasting</A> </H4>
+   Build this great antenna!<P>
+<P>
+<H4><A HREF = "#X">X. A Phase-Locked 15 Watt 
+Transmitter</A> </H4>
+   More Schematics and Plans<P>
+<P>
+<H4><A HREF = "#XI">XI. BA1404 Stereo Transmitter and 
+BA1404 Specs</A> </H4>
+   The infamous BA1404 stereo transmitter IC<P>
+<P>
+<H4><A HREF = "#XII">XII. Other Books Available From RF 
+Consulting</A> </H4>
+   Buy Them Now!<P>
+<HR>
+Disclaimer<P>
+<P>
+   The author does not condone pirate broadcasting, nor any other  related activities. Pirate transmissions 
+can interfere with vital  communications, such as aircraft and police. <P>
+   All the plans and schematics have been tested, but the author  cannot guarantee their functionality. A 
+basic knowledge of  electronics is assumed. When in doubt, ask an experienced person.<P>
+   The material in this book is presented for educational  purposes only. Read on and enjoy!<P>
+<HR>
+<H1><A NAME = I></A>I. 
+Introduction</H1>
+<P>
+   Pirate broadcasting has been around for a long time, ever  since the early days of radio. Recently, it has 
+gained renewed  popularity, as the opportunities in 'legal' broadcasting have declined.<P>
+   Around the world, shortwave, FM, AM and even television pirate stations have been springing up. 
+Reasons for building a pirate station are always a little different, from politics,  to just having fun.<P>
+   It does not require great technical skill to start a pirate  station. All you need is a lot of enthusiasm, a bit 
+of time, and  maybe a little money. Equipment is readily available from many  sources, and you can even 
+build it yourself.<P>
+   This book gives several perspectives of pirate broadcasting.  Contained within are a collection of stories, 
+how-to's, and  schematics that cover almost every facet of pirate broadcasting,  both in the United States, 
+and in the United Kingdom. There are  even hints for creating suitable programs for your pirate 
+station.<P>
+   The construction projects in this book have been tested, and  will work if you are knowledgeable and 
+careful in the  construction. The projects use relatively common components that are available from many 
+sources.<P>
+   Read on, and enjoy Homebrew Broadcasting, a collection of  Pirate Radio Techniques. If you have any 
+projects, stories, or  information you wish to contribute for future editions, please  feel free to contact the 
+publisher.  <P>
+<P>
+<HR>
+<H1><A NAME = II></A>II. The Basics of 
+Pirate Radio: An Informed Overview</H1>
+<P>
+FOREWORD<P>
+<P>
+   The following is by no means an in-depth introduction to electronics,  there are many such books that 
+cover the subject, but intends to  explore some  of the ideas and concept involved in radio  broadcasting 
+that are relevant to the pirate radio operator on  VHF FM. In particular we  will  go  a step by step tour of 
+a  typical VHF FM  transmitter system  starting with the output from  the tape recorder or  mixer, and 
+finishing with a brief  discussion of aerials. At each stage we will  discuss  the  pros   and  cons of  various  
+alternatives  and additional  background  info, e.g. the use  of  equipment  will  be introduced.<P>
+   Radio   frequency  signals  have  AMPLITUDE  and  FREQUENCY.    The frequency  is how fast the 
+signal is oscillating from one   extreme to  the other and back again. Frequency is measured in  cycles  per 
+second (cp/s), which these days are known as HERTZ  (Hz), 1000 Hz = 1  kHz,  1000000 Hz = 1 MHz. 
+The amplitude is to  what  extent  the signal  is  oscillating. LEVEL or STRENGTH can  be  thought  of  
+as meaning the same as amplitude. Amplitude can  be measured in  Volts (V). There is more than one 
+way of  measuring amplitude.<P>
+<P>
+INTRODUCTION<P>
+<P>
+   What we are trying to do is get information from one place to  lots of others.  I'm  using  information 
+here in  a  wider  sense,   meaning speech,  music, etc., rather than phone numbers local  hairdressers or  
+whatever.  Now I'm going to assume we're going   to  use  radio broadcasting to achieve this, which 
+immediately  rules  out  things like  standing  on top of tall buildings and  shouting  out  really loud.  
+We'll  also assume we've got this  info in the  form  of  an audio frequency signal, i.e. what comes  out of a 
+tape recorder  or an  audio  mixer. You can't transmit  audio frequency signals  very easily so what we can 
+do is import  the info in the audio frequency signal  onto a higher frequency  carrier signal. Two ways of  
+doing this  are  AMPLITUDE  MODULATION and FREQUENCY MODULATION  (AM  and FM).<P>
+   In  AM the amplitude of the carrier is determined at every  instant by  the  amplitude  of  the audio 
+signal,  the  carrier   frequency remains constant. In FM, the frequency of the carrier  is determined at  
+every  instant by the amplitude of the audio  signal,  and  the carrier amplitude remains constant.<P>
+   Frequencies  between 30 MHz and 300 MHz are  known  as  Very   High Frequencies or VHF. This 
+corresponds to wavelengths between   10  m and  1  m.  To  convert between wavelength and frequency   
+use  the formula:  Wavelength (in meters)=300 / Frequency (in  MHz).<P>
+<P>
+FM<P>
+<P>
+   There  are  two  sorts of FM, known as Narrow Band FM  (NBFM)   and Wideband FM. They differ by 
+the maximum allowable frequency   shift of  the  carrier  when  the transmitter is fully   modulated.  This 
+frequency  shift is known as the DEVIATION.  Legal  CB  radios  use NBFM with a maximum deviation 
+of 3 kHz.  Wideband FM is used by the national  broadcasting companies for  radio  broadcasting  and  for 
+studio to transmitter links. The  standard maximum deviation for FM radio broadcasting in Europe is  75 
+kHz. There is no simple way  to set the deviation of a  transmitter without a deviation meter which is  an  
+expensive  piece of test gear. Probably the best way to  do this  is  to   vary the level of the audio signal  
+going  into  the transmitter   (TX)  and  listen on a receiver,  until  your  signal sounds   about the same 
+loudness as the other (legal?) broadcasting  stations. If you use too high a deviation you'll use a bigger  
+than necessary chunk of the radio spectrum and be more likely to   cause interference with others, which 
+will make you even more   unpopular with the DTI.<P>
+   The police use NBFM as well, which is why if you listen to  them on an ordinary FM receiver, which is 
+wideband, you can hear  more than one channel at a time.<P>
+<P>
+CHOOSING A FREQUENCY<P>
+<P>
+   If  your first action could be to reach for your receiver and  tune trough looking for a blank space, think 
+again, for a  kick-off  the FM  broadcast band is 88 to 108 MHz. What stations  you can receive is  
+determined by where you are, as well as by  the nature  of  and positioning of your aerial. If you look our  
+old friend the  Maplin catalogue  we  find a  list  of  the  frequencies and locations of all FM broadcasting 
+stations. What  it doesn't  say, of course, is the frequency of existing pirates.   TX Magazine  gives a good 
+rundown of these. Armed with this info   you should  make  a list of all frequencies in use in, say,  a   50  
+km radius.  If you write to the BBC or IBA's Engineering Info  Offices they'll send you service maps of 
+where their TX's are  meant to  be able  to  heard. Then its just a question of finding  a big  enough gap 
+between stations, with the proviso that your  station shouldn't be  nearer than 200 kHz (0.2 MHz) to the  
+frequency of any existing station. This is no problem as the band  is half empty. Also  don't choose  a 
+frequency which is 10.7 MHz  away from any other  station as  for  complex  reasons (which  involve the 
+use of  10.7  MHz  as intermediate frequency in FM  receivers) reception will be hard for people listening 
+to you  and/or the other station.<P>
+   Now let's take a little stroll through the whole system.<P>
+<P>
+TAPE OR LIVE<P>
+<P>
+   What  we  are  going to feed to our TX? The obvious   possibilities are:<P>
+<P>
+A) A tape or cassette player.<P>
+B) Live, either directly from the mixer or via some kind of   link from studio to TX site (highly 
+recommended).<P>
+<P>
+TAPE.  This is the safest approach in that you can put a  tape   on and then retire to a safe distance. Links 
+are now being traced  and studios busted, and some of the biggest pirates (e.g. the  LWR) are going back 
+to taped broadcasts. If the DTI trace your  transmission and turn up all they can do to confiscate your tape  
+player, TX and aerial, i.e. no arrests (unless they catch you  changing the tape).<P>
+   Its also the most inflexible alternative as tapes will have to   be prepared  in  advance. Time checks, if 
+you're into that,  will   be difficult and live phone ins are right out.<P>
+   Give  a little thought to your choice of tape recorder, as it  will probably be the weakest link in terms of 
+sound quality. In  an  old clapped out one the heads will be worn flat. Maybe you  can  use  a 'Walkman' 
+type of player, which are small, can be  battery  powered and  have an OK sound quality and are cheap. 
+An  amateur radio rally I was at recently were selling off very  slightly damaged ones for £2  each.  To 
+reduce 'noise' or 'tape  hiss' on such recorders,  if you're doing programs with quiet  passages, you can use 
+a circuit known  as  a Dynamic Noise  Limiter (DNL), which is placed  on  the output  and  cuts off the  
+'noise' just in quiet pauses.  DNLs  are sometimes used in the  soundtracks of old films. You can find a 
+DNL circuit in part of  the 'Audio Embellisher' project in the Jan.  84 issue of  'Elektor' magazine.<P>
+   If you want to go upmarket you could use a proper 1/4"  reel to tape recorder, though few pirates do. The 
+latest and greatest is to  use  'Stack  machines' which will change the  tapes for you.<P>
+   Whatever  you use get one that can be battery powered as  you   may not always have access to mains 
+power.<P>
+<P>
+MONO OR STEREO<P>
+<P>
+   The advantages of mono are that the TX is kept as simple and  cheap as  possible, and you don't need as 
+much power as on stereo  to get same   result.   The  disadvantages  are  you   don't    sound   as 
+professional,  quite small pirates are now using  Stereo  Encoders, and  maybe  people might dial past 
+when the red   stereo  light  on their  receivers doesn't flash. With stereo the  listener  can  get quality  the  
+same of legal stations. Weigh  against  this  is  the extra  cost, extra circuitry and more  output power 
+needed for  the same signal.<P>
+   What  you  need is a STEREO ENCODER, which combines the  left   and right  stereo signals into a 
+single composite stereo signal   which is then fed into your TX.<P>
+   For those interested a brief description follows. The left (L)  and right  (R) signals are fed into a 
+summing and differential  amp  to get a L+R and L-R signal respectively. The L-R signal is  mixed  in a  
+balanced  modulator  with a 38 kHz sub carrier  to   produce  an amplitude modulated double sideband 
+suppressed  carrier signal. The 38  kHz signal is derived from the same  source as the 19 kHz pilot tone. 
+The composite output is formed  by mixing the L+R signal, the sidebands containing the info of  the L-R 
+signal, and a bit  of  19 kHz  pilot tone. The pilot tone  switches on the STEREO DECODER  in peoples' 
+receivers.<P>
+   Back  in  the receiver, once the stereo decoder has extracted   the L+R  and L-R signal the original left 
+and right signals are  easily got by   (L+R)+(L-R)=2L (L+R)-(L-R)=2R.<P>
+   The reason L+R and L-R signals are encoded rather than L and R is so that a mono receiver can just 
+demodulate the L+R bit and  ignore the  rest  of the signal. If L and R signals were encoded   a  mono 
+receiver would only be able to hear the left channel. The 19  kHz pilot  tone is usually got from a crystal 
+oscillator, to be quite accurate and stable. A crystal resonating on 4.8640 MHz is convenient  as  4864 
+divided by 2 eight times is 19. This can easily  be done  by digital logic chips, but its highly unlikely that  
+you'll be  able to buy a 4.8640 crystal off the shelf, so  you'll have  to have one made for order.<P>
+   It  doesn't matter if you didn't understand all of the  above   but one  thing is important. The standard 
+FM broadcast audio  bandwidth extends only to 15 kHz and stereo encoders are designed  to  assume this  
+figure. If you put signals into them with  frequencies  above that  the  L+R  signal and the lower side band  
+of the  L-R  signal could spread into each other and you will get  a right bloody mess.<P>
+   With a tape recorder you can't really get over 15 kHz,  but   if you're  live its quite possible. In that case 
+you need a LOW   PASS FILTER  on  each  input to a stereo encoder. Maplin  has  a   high quality  
+design. The pot  could  be replaced with a 500k  resistor to wire the circuit permanently  for max.  roll off. 
+If  you're using a link between studio and  TX  and you want stereo  you'll have to know the bandwidth of 
+the link.  If its  53  kHz   (=38+15) or more you can use it after  the  encoder.<P>
+   Otherwise you'll need two links and have to encode at the TX  end.<P>
+<P>
+PRE-EMPHASIS<P>
+<P>
+   In  a  typical  audio signal the high frequency sounds  have   less energy  than  the  low ones and so 
+produce less deviation   of  the carrier.  This  in  turn  makes them  susceptible  to   noise  when received. 
+To avoid this high frequencies are boosted  before  being transmitted  by PRE-EMPHASIS. In the receiver 
+the  frequencies  are cut  by  the same amount by DE-EMPHASIS. So the  overall  frequency response of 
+TX to receiver stays flat, but the  level of background noise is reduced a lot.<P>
+   Pre-  and  de-emphasis networks are characterized  by  their   TIME CONSTANT. In the USA the 
+standard is 75 us, but in UK its 50  us so anything  designed or bought from there needs slight  
+modification.<P>
+   In a mono TX the pre-emphasis network can be built into the  front end of the exciter. For a stereo TX 
+such a network must not  be  in the  exciter  or it'll play hell with the composite stereo signal from  the  
+encoder.  Instead you need 2  networks,  one   for  each channel,  on  the  inputs of the stereo encoder.  
+They're  actually often built into the studio encoder.<P>
+<P>
+COMPRESSORS AND LIMITERS<P>
+<P>
+   Compressors and limiters operate on the same principles, but  their effects and the reasons for using 
+them are completely  different.<P>
+   A compressor compresses, it reduces the DYNAMIC RANGE of its  input signal.  This means as the 
+input amplitude varies over  a   certain range,  the output amplitude varies only a fraction of  that 
+range.<P>
+   A  limiter  passes its signal unchanged till the input   amplitude reaches  its  THRESHOLD. At this 
+point the  limiter   prevents  the output increasing much by compressing its input  much more strongly 
+than in compressors e.g. 10:1.<P>
+   Some  American  music  stations and some  pirates  compress   their programs  to  make  it seem louder 
+and more upfront  than   other stations.  This occurs because the compressor keeps the average   level of 
+the signal high, even in quiet parts of the program. The  flip side of  this  is listeners can soon get 'listener 
+fatigue'  as constant compression can become boring and irritating to the  ear, as if the music were 
+rammed into it!<P>
+   Compression  has other uses, you might compress your program   as you  transfer  it  to  tape  to  stop  
+quieter  bits  fading   into background  tape  hiss when played. The process of   recording  and playing 
+does this to some extent anyway. Don't  compress the output of  a  tape recorder as it'll make tape noise  
+worse. Guitar effect units,  labelled  compressors,  are   unlikely  to  be  much   use. Compressors  
+intended for use in  home studio recording  are  worth experimenting  with. A stereo  compressor with a 
+2:1 characteristic can be simply constructed  around a NE571 IC.<P>
+   Limiters  are  used  to  stop a signal's amplitude  going   over  a certain  level.  E.g.  when  cutting  a  
+master  disc  in record manufacture, large PA systems at gigs to stop loudspeakers  blowing every  time  
+someone  burps in a mike and, surprise   surprise,  in broadcasting. In FM particularly, as the signal  level 
+increases so also  does  the  bandwidth  of  the   transmitted  signal,  risking interfering  with other 
+stations.  With tape input to  the  TX  its different  the  output  is   inherently limited  by  the  recording 
+process,  no  limiter   needed. With  live  input  to  the  TX  its different.  Though  you might set the levels 
+right to start,  along comes a loud  record or voice and you could be interfering with the next  station. Use 
+a limiter.<P>
+   Any  limiters based on 2 back to back diodes is a little more  than a guitar fuzz box and will sound like 
+one. A suitable high  quality limiter was described in the May 83 issue of 'Electronics   Today' 
+International Magazine.<P>
+<P>
+THE OSCILLATOR<P>
+<P>
+   At  the  heart of everything is the OSCILLATOR that generates   the VHF  signal.  The frequency of 
+this is modulated  by   applying  an audio signal to it. The most common way of doing  this is using one or  
+two  VARICAP diodes. When a varicap diode  is operated  with  a reverse  bias the capacitance of the 
+diode  varies with that  bias.<P>
+   The  diode(s) is/are connected to a frequency determining part   of the oscillator. The audio signal is 
+connected across the diode   to achieve frequency modulation. Also by varying the DC reverse   bias the  
+oscillator  can be fine tuned. The higher  the   voltage,  the lower the capacitance, the higher the 
+frequency.<P>
+   The  VHF  signal can be generated directly, or the oscillator   can oscillate  on a lower frequency e.g. a 
+third or half that   desired and  then followed by a TRIPLER or DOUBLER stage. There  are  three main 
+types of oscillator:  <P>
+<P>
+a) Variable Frequency Oscillator (VFO)           <P>
+b) Crystal Oscillator<P>
+c) Phase Locked Loop oscillator (PLL)<P>
+<P>
+VFO's<P>
+<P>
+   These  are  simple oscillators which can be built round  a   single transistor. This can be a Bipolar 
+Junction Transistor  (BJT)  or  a Field Effect Transistor (FET). <P>
+   The  problem with oscillators based on BJT's is that the  frequency is  too dependent on the temperature 
+of the transistor.  i.e. a few degrees  temperature  change will result a significant   change  in transmitting 
+frequency. For this reason oscillators  based on BJT's are  UNSUITABLE for serious use as a TX. FET's  
+don't  suffer  from this  problem so badly, so they can be used,  but you should  still bear it in mind.<P>
+   The  FET's will heat itself up slightly, and other bits of the  TX, like  the power amps, will be fair old 
+pumping heat out, and   are usually  built into the same case as the oscillator. The  frequency will  drift  
+most  when the TX is first switched  on   as  all  the components will be at the same temperature as the  
+air outside  the TX's case, this is known as the AMBIENT  TEMPERATURE. After the  TX is  turned on 
+the heat from the amps  will warm the air in the case directly or indirectly. As the FET  warms the 
+frequency will  drift a bit. When heat loss equals heat  gain you get THERMAL EQUILIBRIUM and  it  
+won't  drift more. Keep  your TX out of  drafts  to  avoid messing this up. If you have a  frequency counter 
+plug it in  to  a dummy  load and see how long  it takes for the frequency  displayed to  settle down, maybe  
+about 15 minutes. If you have time you  can arrive  at the TX  site early and run your TX for the warm up  
+time with  no input  to a dummy load. This avoids listeners who tune  in immediately  having to retune as 
+your frequency drifts.<P>
+<P>
+CRYSTAL OSCILLATORS<P>
+<P>
+   This is also simple oscillator but incorporates a crystal into  the frequency determining network. There 
+are various types of   crystals (fundamental, 3rd overtone, 5th overtone etc.) and  various ways of using 
+them (series mode, parallel mode) but their  basic properties are  the  same.  They're  resonant  on  one 
+frequency which is determined by the crystal's  characteristics when made.  This  is their  problem,  
+whereas  a   VFO's are  not  very  stable  crystal oscillators  are too bloody  stable and it's a job  to  get  
+enough deviation.  You'll  probably lose the higher frequencies  of  your program and stereo  is right out. 
+Also chances are you'll have to get a crystal made  order for your desired frequency so if you want to 
+change it  you'll need a new one.<P>
+<P>
+PHASE LOCKED LOOP (PLL) OSCILLATORS<P>
+<P>
+   The   way  its  done  properly  is  with  the  phase  locked   loop oscillator. This combines the ease of 
+tuning and wide  deviation of a  VFO  with  the frequency stability of a crystal  oscillator.  It works  thus:  
+A crystal oscillator is used to  provide a  reference frequency.  This  is  digitally  divided  by   logic  chips  
+to   a relatively  low frequency, say 25 kHz. A VFO  provides the  output, which  is  also  digitally divided 
+to give another relatively  low frequency. These two low frequencies are  presented to a PHASE  
+COMPARATOR  which  basically decides which   frequency  is  higher  by comparing  the  phases  of the 
+two  signals. The  phase  comparator generates an ERROR VOLTAGE which  is connected back to the 
+input of the VFO through a low pass  filter. This is the loop bit.<P>
+   If the VFO is running too fast the phase comparator decreases  the error  voltage so as to slow it down 
+till the phases at its   input are  the  same.  If  its  running too slow the  error   voltage  is increased  to  
+speed  it till the phases are the   same.  All  this happens  instantaneously of course so the output 
+frequency remains constant.<P>
+   In this way the temperature stability of the VFO isn't  important and it can be built round a BJT, as its 
+output  frequency is phase locked to the crystal oscillator, and the  frequency is very good.<P>
+   Two  more  things  to  explain.  How  do  you  change  the   output frequency? By making the VFO's 
+divider programmable. Say   its  set to divide by the number N. The phase comparator is a  simple minded 
+sort  of  soul, concerned only with equalizing the  phases  at  its inputs, it doesn't know what's really 
+coming out  of the VFO, which is N times the divided reference signal.  Because this signal is so low  
+compared to the VFO frequency N  can be made to have  hundreds of   different   values,  giving   
+hundreds  of  different   output frequencies from the VFO. So  changing the frequencies  is  just  a matter 
+of clicking some  little switches.<P>
+   Hang  on a second, the VFO is being frequency modulated by the   audio input,  so  its  frequency at any 
+given  instant  depends   on  the voltage of the audio output. We don't want this variation   of  the VFO's  
+frequency to be ironed out by the PLL system, so   we  'iron out'  the  error  voltage from the phase 
+comparator,   so  it  just contains  the  underlying trend rather than what's   happening  any split second. 
+This is purpose of the low pass  filter.<P>
+  The  system can be simplified by leaving out the dividers. If  this is  done you end up with an output 
+frequency determined  solely  by the  crystal.  You've still got the wide deviation   capability  of course, 
+which distinguishes this system from one  based on a simple crystal  oscillator.  This sort of fixed  
+frequency  oscillator  is used  for things like wireless mikes  and could be used for  studio to  TX  links. 
+Programmable PLL  oscillators are used in all manner of professional communication  equipment, 
+including broadcast TX's.<P>
+<P>
+BUFFERS<P>
+<P>
+   Any  oscillator, regardless of its type, is followed by a   buffer. This  is usually one or two transistors 
+operating in what  is known as  class  A mode. Its function is to protect the  oscillator  from what  is  
+going  on  further  along the circuit,   especially  from changes  in  its  'load'  as the following   stage  is  
+tuned.  The combination  of  oscillator  and buffer   together  is  called  the EXCITER  and is a small but 
+fully  fledged TX. Small in respect  to its  output power. Typical  values are in the region of 100  -  500 
+mW.<P>
+<P>
+AMPLIFIERS<P>
+<P>
+   To  increase the power output of our fledgling TX we need to  add an amplifier.  Obviously we are 
+talking about radio   frequency  (RF), not audio amps. RF amps have certain important  
+characteristics:<P>
+<P>
+a) Bandwidth<P>
+b) Gain and maximum power output<P>
+c) Input and output impedance<P>
+<P>
+BANDWIDTH.  This  is the range frequencies the  amp  will   amplify properly.   The   bandwidth   is   
+ultimately   limited    by   the characteristics of the active devices in the amp (i.e.  transistors or  valves), 
+but more specifically by its type,  LINEAR or a  TUNED amplifier.<P>
+   A linear amp will amplify quite a large range of frequencies   and they have a good bandwidth, 
+commonly 1.8 - 30 MHz which  covers all of  the  amateur shortwave broadcast bands... no good   for  a  
+VHF pirate, but could be useful for a AM pirate. They  operate in class A  or B mode and have the 
+advantage that they  don't need adjusting when the frequency is changed. Their  disadvantage are they're 
+more complex  and dearer than tuned amps  and are much harder to design, requiring  extensive 
+knowledge of  the transistors round which  the amp is constructed. Linear amps  for VHF are 
+uncommon.<P>
+   Tuned amps only amplify a narrow band of frequencies, they  have  a small  bandwidth, centered on one 
+frequency which is  determined  by the  TUNED CIRCUITS in the input and output  networks of  the  
+amp. Tuned  circuits have a RESONANT frequency.  This can be adjusted  by variable  capacitors known 
+as trimmers,  to the desired  frequency.<P>
+   The  amp  will produce max. output when the tuned circuit  resonant frequency  is  the same as the input 
+frequency from  the   exciter. Tuned  amps  often  operate in the class C  mode,  which   is  more efficient  
+than A or B. This means more of the power   being  drawn from the battery or whatever turns into watts 
+up the  aerial rather than  heat the amp. They are relatively simple  circuits,  and  are easier  to  design. 
+The bandwidth is a  trade-off  with  gain,  the wider  the  bandwidth, the less the  gain. The disadvantages  
+of  a tuned amp is of course you have to  tune it to the frequency you're using  and  if you change the  
+frequency you'll have to  retune  to maintain the gain of the  amp.<P>
+<P>
+GAIN AND MAXIMUM OUTPUT POWER<P>
+<P>
+   The  POWER GAIN (as opposed to a voltage or current gain which   is different)  of an amp is defined 
+as a ratio:   Power gain=  Output power / Input power, and is a measure  of the  amps  ability to make its 
+input bigger. Power gains are  often  expressed in DECIBELS (dB) which are defined: <P>
+<P>
+Power gain (dB) = 10 log(Output power / Input power).<P>
+<P>
+   Amps  also  have  a  max.  output  power.  When  this  is   reached increasing the input power won't 
+result in more output   power  and may damage the amp.<P>
+   In  the  case of single stage (i.e. one transistor) class C   tuned amps  the  gain and max. output power of 
+the amp is  basically  the gain and max. output power of the transistor.  Knowing these we can calculate  
+the  power necessary to produce  the max. output  power. e.g. lets consider the popular MRF237  
+transistor. According to the makers' data sheet this has a max.  output power of 4  watt  and  a gain  of  12 
+dB. First we've to  convert the gain in dB to ordinary gain:     Gain=10^(gain (dB) /  10) for example:  
+Gain=10^(12/10) = 10^1.2 = 15.8               Input Power = Output power / Gain = 4 / 15.85 = 0.25.<P>
+<P>
+   So  for  4  watt  output power we need 250 mW  input  power.   Most exciters  can manage this, hence 
+the popularity of the   MRF237  in the first amp after the exciter. The joker in the pack  is that all these  
+figures are for a frequency of 175 MHz, that  on  which  the transistor was designed. You can't predict 
+what  happens at 100 MHz and have to experiment.<P>
+   The  MRF238  has 30 watt output power and a gain of 9  dB,  so   it needs  3.8  watt  input power. This 
+can be had  from  the   MRF237. That's how the makers (Motorola Corpse.) planned it.<P>
+<P>
+INPUT AND OUTPUT IMPEDANCE<P>
+<P>
+   Impedance  is the alternating current (AC) version of   resistance.<P>
+   The  standard impedance of exciters and inputs and outputs of  amps is  50 . The impedance of the input 
+and the output networks  of  an amp  is  altered by the tuned circuits which you recall  also  tune the 
+circuit in a tuned amp. The INPUT IMPEDANCE is  important as it effects the LOAD the amp has on the 
+stage before  it. Max. power is transferred  between stages when the impedance  of the  output  and input 
+are equal. If the impedances aren't  equal a MISMATCH is said to  occur and in this case some energy  is 
+reflected back from  the input  of a stage into the output of  the preceding one, where  its wasted as 
+heat.<P>
+<P>
+THE VSWR METER<P>
+<P>
+   Some  of you may know that we can use a VSWR meter (also known   as Voltage Standing Wave Ratio 
+meter, SWR meter or a   Reflectometer) to  detect mismatch between TX and the aerial, but  a VSWR 
+meter is just  as much at home doing this between amp  stages. VSWR  is  the ratio of the forward (or 
+incident) and  reflected power. Except for dear ones they work the same. The  switch is set to forward or  
+the SET button is pressed. The knob  is then adjusted to make the meter read  full scale. The switch  is 
+then set to reverse or the  button is  pre-released.  It now  indicates the VSWR. A  VSWR  of  1:1  is 
+perfect  (no reflected  power) and so unlikely. One of  00:1  shows all the power is  reflected back into the 
+amp, you'll get this with a VSWR  connected to the amp output with nothing on the VSWR output  (unless  
+its  got a built in dummy load). You'll also  get  it   if there's  a short circuit in the VSWR meter. In either 
+case   switch off IMMEDIATELY or you'll blow your power transistor.<P>
+   The point of all this is to get the max. power output from the  amp into the aerial, instead of a hot TX 
+and a bad signal.<P>
+   To  tune  such an amp you need a load connected to the output   (or it'll  blow  up).  We could use an 
+aerial but this   introduces  an extra  unknown quantity... the characteristics of  the  aerial.  As well  as  
+the fact that we'd be broadcasting.  What we  need  is  a DUMMY LOAD.<P>
+<P>
+THE DUMMY LOAD<P>
+<P>
+   This  is basically a resistor, made so it presents a load  to   the amp's  output independent of frequency 
+(unlike the aerial).  The  3 things about a dummy load we're interested are:<P>
+<P>
+a) It  should be suitable for the frequency we're interested  in, about 100 MHz.<P>
+b) It should be rated to take the power we're trying to make.<P>
+c) It should have a resistance of 50 to match the output network of the amp.<P>
+<P>
+   When  buying  ask  for  one for the 2 meter band,  amateur   radio, centered  on  145 MHz. Most test 
+gear  for this band will   work  on frequencies we're interested in.<P>
+   The  amp should first be tuned with reduced input power and  supply voltage.  Adjust  the  network for 
+the best  input  match   (lowest reading  on  a VSWR meter connected to the input side)  and  adjust the 
+output trimmers for max. output power. Be sure  the extra power is  in the frequency you want and not in 
+the  HARMONICS. Check with a  wave meter (more of this coming up).  Another VSWR meter can  be 
+used  for  a relative indication of  the output power,  or  the  RF PROBE will give an absolute  indication. 
+The pairs of trimmers  are very  interdependent,  adjust one and you'll  have  to  adjust  the other, and so 
+on.<P>
+   This  done, if all OK, increase the input power by increasing   the voltage  supply to the previous stage, 
+and the voltage supply   and repeat  the  tuning. Do all this a few times till  you  reach   the required  
+levels. Listen on a nearby (but not too near)   receiver. The  signal should be in just one place on the dial  
+with no  funny noises  or modulations going on. Check with a  wavemeter.  Altering the trimmers and 
+varying the input power and  supply voltage should result in smooth variations of the supply  current and 
+output power with  no  steps or jumps. The exception  is, as the input power  is reduced  at  some point the 
+amp will  switch off, a characteristics of class C amps.  <P>
+   To  vary  the supply voltage you need a Variable Stabilized   Power Supply  Unit.  If you can't get hold 
+of one you could   build  one. They're  not  expensive  and are well handy,  and   give  you  some 
+experience, if needed, of electronic  construction.<P>
+<P>
+HARMONICS<P>
+<P>
+   Harmonics  are  multiples  of the transmitting  frequency.   For  a frequency   of  100  MHz,  the  first  
+harmonic,  known    as   the FUNDAMENTAL, is 100 MHz, the second is 200 MHz, the  third  is  300 
+MHz  etc. They're produced as side effects in  various parts of the circuit  and  will interfere with other  
+users of these frequencies if  let  escape from the TX. Known as  RADIO FREQUENCY 
+INTERFERENCE (RFI). Tuned class C amps don't  amplify harmonics, as they're  out of  the range of the 
+amps  abilities. But the use of class C  means that  harmonics  are  generated by the amp along with  the  
+desired frequency.  The   strongest ones (apart from the fundamental)  from such amps are  usually the 
+third, then the fifth etc. The amplitude of   harmonics  is  minimized  if the  output  networks  are  
+tuned<P>
+properly,  but  they're still there. Oscillators and  buffers   can also make harmonics if not set up right.<P>
+<P>
+WAVEMETERS<P>
+<P>
+   To  detect  harmonics  we  need an ABSORPTION  WAVEMETER,   usually called just a wavemeter. 
+Or we can use a GRID DIP  OSCILLATOR (GDO) or  a  gate dip oscillator, both of which are  known as 
+DIP METERS.<P>
+   Most dip meters have a switch which turns them into  wavemeters.  A wavemeter  has  a  tuning knob, 
+calibrated in  frequency,  a  meter showing  signal strength, and some kind of  aerial.  You  hold  the 
+aerial near a coil in the bit of the  circuit you're interested in, and tune the wavemeter. It shows  how much 
+signal is present on the frequencies  shown in the  scale. So you can see  what  frequencies are  being  
+generated in  that part of the circuit. Ideally  you'll just  find  the   fundamental, unless the circuit  is  a  
+frequency tripler or  something.<P>
+   If  you  buy  a wavemeter be sure it covers the right range,   from below  100 MHz to get the 
+fundamental to above 300 MHz to  get  the third harmonic.<P>
+   Even  with  all  tuned  right you're  still  going  to  have   some harmonics generated by the last stage. A 
+sensible pirate  won't let these reach the aerial, e.g. if you're using a  frequency of 100.35 MHz the third 
+harmonic us 307.05 MHz which  happens to be that used by USAF  Upper Heyford's Control Tower.  You 
+might think  this  is funny  but  you won't stay on the air  for long. To stop  harmonics reaching the aerial 
+we need a  BANDPASS FILTER.<P>
+   Each  amp bumps up the power some more, because the transistor in  each one can only supply so much 
+gain. So if you're the proud  owner  of a 5 watt transmitter and you're offered a 1000 watt amp its  useless 
+as you'd need  probably 100 watt input to drive it so  you'd  need  amps  in between.<P>
+   To  tune a series of amps on your TX you must break in,  physically if  needed,  to  tune  each one at 
+time. Do  this  by   unsoldering components  and  soldering in short bits of coax   with  plugs  to connect 
+to dummy load and VSWR meter.<P>
+<P>
+BANDPASS FILTER<P>
+<P>
+   This filter only allows through a narrow band of frequencies,  i.e. it has a narrow bandwidth, a good one 
+would be less than 1  MHz. It needs standard 50  input and output impedance and be able  to  take power  
+you're using and be tuned to the frequency you  want to  let through.  Other frequencies are reduced 
+drastically,  by an  amount known  as  INSERTION LOSS. It reduces also the   desired  frequency slightly.  
+To keep this loss low bandpass  filters for high  output powers are usually pretty chunky  numbers.<P>
+   Pirate  gear doesn't have this filter built into the final   stages so if you need one you have to add it on. It 
+needs a well  screened case  to stop harmonics leaking out. In fact your whole  TX  should be  well 
+screened for the same reason. Say e.g. you  used a shoebox and had your oscillator on a third of a 
+frequency  of 92.25 MHz you could  be interfering with pagers of a local  hospital as they  use 31.75  
+MHz. Proper screening and a bandpass  filter will  eliminate such possibilities.<P>
+<P>
+CONNECTORS<P>
+<P>
+   As  you  may have guessed you can't use any connectors on  VHF   as they  have to match the amp and 
+feeder. Use BNC or the UHF  series.<P>
+   UHF  is  best for higher powers as you can get a wider cable   into the plug. N type is also good but more 
+expensive.<P>
+<P>
+FEEDERS<P>
+<P>
+   So  you've got your nice clean harmonic free signal coming out   of your bandpass filter... we're on the 
+home run. All that's left   is to  get  the signal up the aerial feeder to the aerial  and   we're away. BUT the 
+aerial cable needs to MATCH the TX's output  stage at one  end  and  the aerial at the other. The cable  
+like   the  TX's output,  the  connectors and the aerial has an   impedance  and  to match  this should be 50 
+. It also needs a LOW  LOSS or your  watts will  escape  as heat. Not the same as a bad  VSWR where  
+you  lose energy  in  the  TX, a good VSWR does not  mean the  cable's  okay.<P>
+   Decent  cables for short runs are UR76 and RG56U. For longer   runs or higher powers use UR67.<P>
+<P>
+AERIALS<P>
+<P>
+   At  last,  the aerial! You can run a pirate knowing  a  little   of TX's,  but  if  you  know nothing of 
+aerials  you'll  have  a   few listeners.  So  you must read a book on it. I recommend  'The   Two Meter 
+Antenna Handbook' by F.C. Judd G2BCX. Lot's of it isn't  useful but he goes into things like propagation, 
+matching, VSWR  in better detail.  All the dimensions he gives are for the two  meter amateur band,  
+centered  in  145 MHz. To convert to other   frequencies  all dimensions (including diameter of aerial 
+element  etc.)  should  be divided by your frequency in MHz and then  multiplied by 145.<P>
+<P>
+POLARIZATION<P>
+<P>
+   One thing to decide is what polarization to use. The main ones  are HORIZONTAL  and  VERTICAL. 
+To simplify you can say a   horizontally placed  aerial produces horizontally polarized radio  waves  and  a 
+vertically  placed  one vertically polarized ones.   To  receive  a horizontally  polarized  signal you need a  
+horizontally  polarized aerial,  and  for  vertical one you need   a  vertically  polarized aerial.  Most 
+receivers on FM have  horizontally polarized aerials, but all car aerials are  vertically polarized. So what 
+polarization you  go  for  depends  on the audience you expect. E.g.  on  Sunday afternoon you'd  expect 
+people at home so use horizontal, while  in rush hour you  might favor vertical. You can build an aerial 
+which splits the  power between both, as used in legal stations, known as MIXED   polarization. But the 
+effect of radio  waves  bouncing  off buildings etc. tends to twist the polarization of your signal  from 
+horizontal to vertical and vice versa, so your signal could   still be picked up by the wrong aerial.<P>
+   Your  transmitting site will affect you choice of aerial.  In   the middle of the area  you  want  to  cover  
+you'll   need an OMNIDIRECTIONAL aerial which transmits equally each  ways, while outside your 
+coverage area you can beam the  signal in with a DIRECTIONAL aerial.<P>
+   The  simplest  possible aerial for VHF is known as the  HALF   WAVE DIPOLE. The elements can be 
+bits of thin aluminum or copper  tube.<P>
+   The impedance is about 75  which is close enough to 50 to be  fed from  50   cable without too much 
+power loss. A half  wave   dipole used vertically is omnidirectional, but when used  horizontally  it has a 
+fig of eight coverage which isn't very  useful. Also a dipole needs  a  balanced feed. You need a BALUN  
+(BALance  to  UNbalance) transformer. These can be easily made  out of bits of coax  cable.<P>
+   If  you  don't do this power will be radiated from the feeder.   An aerial  with  an  impedance greatly 
+different from  50 needs an IMPEDANCE TRANSFORMER also made out of bits of coax cable.<P>
+   Before going on air get a low VSWR by adjusting the  position   of the aerial and any adjustable pieces. 
+Aim for 2:1 or less. Use  low power into the aerial when tuning it up and adjusting, if  using  a 100's  of 
+watts and a bit came off in your hand the VSWR  could  be so  bad as to blow the final transistor. For the 
+same  reason check the  continuity of the aerial with an ohmmeter  before plugging in, to  be sure its what 
+its meant to be, either  a short circuit or an open  one,  depending  on the type. A  dipole  should  be  an  
+open circuit.<P>
+<P>
+SITING<P>
+<P>
+   Siting  is  very important. Height is the main factor,  even   more than watts! Since VHF radio waves go 
+almost in straight  lines, 100 watt  in your front room will only reach your  neighbors, while  5 watt  up 
+high and unblocked will go 10 km's  or more. The waves  do bend  a bit so you'll cover more than you  can 
+see but its hard  to say how much.<P>
+<HR>
+<H1><A NAME = III></A>III. Operation of 
+a Pirate Radio Station: A look at Pirating in 
+the United States.</H1>
+PREFACE<P>
+   It is the opinion of the author that many pirate radio  stations are founded upon the principle of novelty.  
+That is,  their founders either find it amusing to inch over the lines of  the law, or they get a certain kick 
+out of doing something to  make themselves different from their peers.  Such stations seem  unworthy of 
+the label, "pirate radio station."<P>
+   In a world of increasing regulation and control, deviance from  established modes of behavior is 
+tolerated less and less.  New  ways are constantly being discovered by the government to  discourage 
+deviant behavior.  The broadcast community is already  regulated by the government and extremely 
+limited in its ability  to present alternative expressions.  Pirate radio stations enjoy  an unfettered ability to 
+present alternative ideas and music and  thus are a source of free expressions not carrying the government 
+stamp of approval.<P>
+   The operation of a pirate radio station is likely to create  some controversy if its audience is substantial 
+enough.  This  controversy is likely to attract the attention of the authorities  who are less than happy 
+when during the course of exercising  their First Amendment rights, people present ideas not approved  of 
+by the establishment.  Thus, it behooves those who would  operate a pirate radio station to prepare for the 
+inevitable attempts by the law enforcement community to apprehend the responsible individuals and to 
+shut the operation down.  This  exposition is written with the goal of making law enforcement's  objectives 
+just a little bit more challenging to realize.<P>
+   Careful choices regarding the station location, duration of  broadcasts, time of broadcasts, and frequency 
+of broadcasts need  to be made in order to minimize the chances of being caught by  the authorities.<P>
+   Under no circumstances should you ever attempt to operate a  pirate radio station from a building you 
+regularly frequent (e.g.  home or office). This is asking to be caught.  You should choose  between 
+operation from a vehicle or man-portable operation. If  you choose to broadcast from within a vehicle, 
+several factors  should be considered when choosing a broadcast location.  In  addition to the obvious goal 
+of maximizing your elevation for  good signal propagation, you should select a location that is  well 
+hidden or not likely to arouse anyone's suspicion and you  should consider any difficulties that may come 
+up should you need  to leave suddenly and quickly.<P>
+   The location you broadcasts from should not arouse the  suspicion of any passing vehicles.  An ideal 
+location would be  one that is well hidden from all roadways and far enough away  from any buildings so 
+as not to attract the attention of their  residents.  In addition, there should be more than one path away  
+from your broadcast location should need for a hasty retreat  become necessary.<P>
+   In order to locate "undesirable" radio transmissions, the  authorities will utilize direction finding (DF 
+for short) radio  equipment.  Direction finding equipment utilizes a highly  directional antenna coupled to 
+a tuner and a field strength  meter.  After the desired frequency has been selected with the  tuner, the 
+operator rotates the DF antenna until he obtains a  peak reading on the field strength meter and then notes 
+the heading the antenna is pointed in.  Next, a vector is drawn on a  map beginning at the operators 
+current location and extending in  the direction of the DF antenna's heading.  Assuming the  
+"undesirable" radio transmission hasn't moved, successive  readings from different locations should result 
+in vectors that  intersect at the origin of the transmission.  In practice,  because of limitations on the 
+accuracy of the equipment, it is  not possible to precisely determine the location of the  transmitter from 
+the first set of readings.  Usually, additional  sets of readings will be necessary before the location of the  
+transmitter can be narrowed down sufficiently to allow a ground search for it.<P>
+   In order to thwart DF equipment, you must be willing to either  limit the length of your transmissions 
+such that the authorities  have insufficient time to locate your radio transmissions, or you  must operate 
+from a moving vehicle.  Although possible, neither  of these options is particularly attractive, and 
+alternatives do  exist.<P>
+   If you are fortunate enough to live in a location with  significant areas of forest nearby, these can often 
+be ideal  locations from which to stage your broadcasts.  At nighttime, the  authorities are very unlikely to 
+venture into the woods in order  to locate a pirate radio station.  They are far too vulnerable in  such 
+situations and generally will not pursue a suspect unless  the odds are overwhelmingly in their favor.  
+Rather, they will  cover any obvious means into or out of the woods (such as a  trail) or any roadways in 
+the general vicinity of the  broadcasting and search any suspicious individuals or vehicles  they discover 
+during the period of time immediately following the  broadcast.  By taking a few simple precautions, 
+broadcasting from  within a forested area of reasonable size can be the best  alternative to mobile 
+operation or 30-minute broadcasts.<P>
+   It is advisable to first visit the location you intend to  broadcast from during the day.  Pick a location not 
+too close to  any roads or paths and make sure you will be able to find it in  the dark.  Relatively high 
+points with a line-of-sight to your  listeners is another important thing to look for.  Think about  where 
+you are going to put your antenna.  Is there a tree nearby  that will provide an ideal placement?  Can you 
+climb it at night<P>
+without risk of falling?  How much coax will you need to reach  the antenna from your broadcast location?  
+Think about several  different paths of escape should the need arise.  Explore these  for a short distance to 
+ascertain their viability.<P>
+   After finding a good location to make your broadcasts from,  there will be a strong temptation to use 
+that location again and  again for future broadcasts.  Unless you want to be caught,  resist this temptation.  
+The authorities may have located a site  you have used previously, and could be waiting for you nearby the  
+next time you try to broadcast.  Also, when you have finished  your broadcast and are packing up, keep in 
+mind that anything you leave behind will help the authorities in their quest to find you and bring you to 
+"justice."  Assume the authorities will scour the area shortly after you depart so make sure you leave 
+nothing behind for them.  If there are smooth surfaces around, don't forget about fingerprints.  Either wear 
+gloves during your broadcast, or spray everything you might have touched with a  degreaser before 
+leaving.<P>
+<P>
+II.  AVOIDING THE AUTHORITIES<P>
+(Detection and Evasion)<P>
+   There are two phases to avoiding capture by the authorities.   In the first phase, the goal is to detect 
+them well before they  have detected you.  In the second phase, the goal is to escape  without being 
+detected or caught. Success in the first phase will  greatly influence the outcome of the second phase.<P>
+   The authorities rely heavily upon radio for communication.  As  a result, it pays to purchase a decent 
+scanner and become  familiar with its use and the operating procedures of the  authorities.  Frequency lists 
+are available which list the  frequencies used by law enforcement in your area.  In addition,  books are 
+available which list federal frequency assignments. You  should spend time going through such books and 
+making a list of  frequencies you think may be used in the event a search for your  station were to be 
+conducted.  Don't forget to include mutual-aid  frequencies in your list as they are often used when 
+different  enforcement agencies want to coordinate with one another.  You  should spend some time in the 
+general area you will be  broadcasting from listening to the scanner to determine which  frequencies on 
+your list are appropriate for scanning and prune  the remainder from your list.  While it is generally better 
+to  leave a questionable frequency on your list, irrelevant channels  may reduce the probability you will 
+hear something important on  another channel.<P>
+   Whenever possible, you should take along someone you trust to  your broadcast site and have them stand 
+patrol.  They should wear  dark (black or camouflage) clothing and find a location to stand  where they 
+have a good view of any obvious routes of approach to  your broadcast area.  A pair of walkie-talkies is 
+ideal for  keeping in touch if you will be separated by more than a few tens  of feet.  Keep in mind that 
+your transmissions could be monitored  so watch what you say.  Don't use names or other information  
+which could give away your identity or location.  If you are  using flashlights, purchase some red tail-light 
+tape at an auto  parts store and cover the lens with it to reduce your chances of  being seen and to maintain 
+your night vision.<P>
+   If there are just a couple of obvious routes leading to your  broadcast location, you might consider 
+setting up perimeter  alarms along those routes.  Various party noise-makers are  commonly available at 
+toy stores which make a bang when a string  to which they are attached is pulled.<P>
+   Using some thin wire, tie one of these noise-makers between a  pair of trees through which the route you 
+want to alarm passes  through.  Make sure the wire is obscured as much as possible to  minimize its 
+chance of detection by any intruders.  Make sure you  set such alarms far enough away to give you enough 
+time to make  your escape but close enough that you will be able to easily hear  them.<P>
+   The key to successfully escaping from the authorities can be  summarized as follows:  DON'T PANIC.  
+Proper planning is  essential.  You should have planned several routes of escape  beforehand and 
+considered what to do with your equipment.  If  time allows, you will want to pack it up and take it with 
+you. If  you need to escape quickly, hiding it may be your best option.   This might be as simple as 
+covering it with something to  camouflage it.  Perhaps you even found a good place to set it up  that 
+already takes advantage of natural cover and it is pretty  well hidden to begin with.  Assuming you are 
+operating at night,  it also helps enormously to wear dark clothing and remove any  shiny objects such as 
+jewelry or watches (leave them at home).<P>
+   You will likely become aware of the authorities plans for you  through one of two means.  You will hear 
+about a search on your  scanner or you will detect their physical presence.  In the  former case, you 
+probably have plenty of time to pack up your  equipment and make a careful escape.  You may want to 
+leave  incriminating evidence such as your equipment hidden somewhere  and come back later for it when 
+the heat is off.  Plastic garbage  bags are ideal for protecting equipment left in the woods for a  few days.  
+In the latter case, remaining calm and using your head  could will make the difference between being 
+caught with your  pants down and just having a close call.<P>
+   The instinctive reaction to the presence (impending or actual)  of the authorities is to flee.  The 
+authorities know this and if  they are even marginally competent will have taken steps to  maximize their 
+chances of capturing individuals mindlessly  running away.  Unless they have obviously seen you and are  
+actively pursuing you, you should stop and force yourself to look  around and consider what options are 
+open to you.  Approximately how many people are after you?  Are they far enough away that you can 
+move away from them without them seeing or hearing you? Perhaps it would be best to try to remain 
+hidden until they are far enough away that you can more safely risk slipping away?<P>
+   Unless you are certain that your vehicle has not been detected  by the authorities (because it was 
+extremely well hidden, or  parked with a number of other vehicles, for instance), then do  not approach it 
+after your presence has been detected.  It is  very likely that the authorities will have discovered it and left  
+someone behind to watch it.  By itself, the vehicle is little  more than weak circumstantial evidence to 
+connect you with any  wrongdoing, but if you are caught returning to it (especially  with equipment), you 
+will probably live to regret it.  You should  have previously considered other means of getting home if 
+there  was trouble and follow those plans.<P>
+III.  DEALING WITH THE AUTHORITIES<P>
+(What to do when you get caught with your pants down)<P>
+   There are at least two different ways of getting caught.  The  FCC could catch you and send you a notice 
+of violation or the  police could catch you while broadcasting or while attempting to  flee them after 
+broadcasting.  Two entirely different methods are  called for when dealing with each of these.<P>
+   If you receive a FCC notice of violation, you are probably  best off ignoring it.  If they start getting 
+serious about trying  to collect fines from you, I'd suggest picking up a copy of "How  to File for 
+Bankruptcy" by Nolo Press.  It details a number of  different strategies for keeping bill-collectors out of 
+your  pockets, and if necessary, tells you how to file for protection  from creditors (it helps if you don't 
+have a lot of obvious  assets -- a house or expensive car, for instance).  You may also wish to discuss your 
+options with an experienced attorney.<P>
+   If you are apprehended by the police during a broadcast or  after an unsuccessful attempt at fleeing from 
+them, remain calm.   They will ask you questions related to the incident for which you  have been 
+apprehended. It is ok to answer questions about your  identity, but do not answer any questions related to 
+any illegal  activities you have been involved with.<P>
+   If you can get away with telling them you don't know the  answer to their question(s), do this, otherwise 
+answer politely  but firmly that you cannot help them.  If it isn't obvious (e.g.  you have not been read your 
+Miranda rights), ask them if you are  under arrest.  If not, you are free to go. If so, tell them you  would 
+like to speak with your attorney before answering any  further questions and then KEEP YOUR MOUTH 
+SHUT.  They may try to  trick you into incriminating yourself or providing them with  information that 
+will assist them in building a case against you.   Do not help them!  Make sure any and all people that are 
+with you  are thoroughly familiar with these procedures as one person  slipping up could have devastating 
+results for everyone involved.<P>
+   It's probably a good idea to carry the name and phone number  of an attorney specializing in criminal 
+law with you whenever you  are involved in such activities.  Attorneys are very useful when  it comes to 
+reducing the police's likelihood of violating your  civil rights and they can arrange to have you bailed out 
+promptly  as well.<P>
+Suggested Equipment<P>
+Power:<P>
+   Motorcycle batteries make ideal power sources.  They are  available in a number of different sizes.  A 
+12-14AH battery will  power a typical 25- 35 watt station for at least two hours before  needing to be 
+recharged. These batteries are light enough to be  carried in a backpack along with other equipment for 
+several  miles by a single person if necessary.<P>
+   You will also need to purchase some wire to connect the  motorcycle battery with the transmitting 
+equipment.  For the  power amplifier, especially, make sure you don't use thin wire.   It could draw 5 
+amperes or more which will not only cause thin  wires to get hot, but will also result in a substantial 
+voltage  drop across the wires as a resulting loss of power output.  In  general, 18-gauge wire should be 
+sufficient for amps up to 25-35  watts.<P>
+   It is advisable to buy a cheap analog voltmeter that can be  clipped onto the battery during a broadcast to 
+monitor its  condition.  Any sudden drop in voltage across the battery  indicates it is discharged, and 
+measures should then be taken to  switch to another power source or end the broadcast.  Digital  
+voltmeters are harder to read from a distance or at night and are  more expensive.<P>
+Transmitting Equipment:<P>
+   Obviously, you'll need an FM transmitter.  A number of kits  are available. Any kit that runs off of 12 
+VDC will do.  If you  want your signal to propagate more than a few miles, you should  get a power 
+amplifier, too. Power outputs around 25-35 watts are  ideal for portable operation with a motorcycle 
+battery as the  power source.<P>
+Antennas:<P>
+   Most FM antennas have 300 ohms of impedance.  Most FM  transmitters and amplifiers expect a load of 
+50 to 75 ohms.  It  is important to match the load the transmitter/amplifier sees to  the antenna in order to 
+get as much signal out as possible and in  order to prevent damage to the transmitter/amplifier.  For  low-
+power setups (under 5 watts or so), one way to do this is  with a common 75/300 ohm transformer.  These 
+are sold at Radio  Shack.  They mate to a female F-connector, so it would be  advisable to get whatever 
+adapter you need to mate your coax to  the transformer (most coax has BNC or UHF connectors on it).   
+Running more power through this small transformer will probably  saturate it and cause the output signal 
+to be distorted.<P>
+   For higher power setups, you can make a 1/2-wave dipole with  two 1/4-wave lengths of wire and some 
+coax.  The J-Pole antenna  is also relatively easy to make and very portable.  See, for  example, the ARRL 
+Handbook (available at most libraries and many  bookstores) for instructions on making these and other 
+antennas.   It should also be possible to build a 50 or 75/300 ohm  transformer to enable you to use 
+commercial FM antennas with your  transmitter.  Once again, the ARRL Handbook is an ideal source of 
+information for how to do this.<P>
+   An SWR meter is an invaluable aid to checking the performance  of your FM antenna.  They should 
+always be used anytime you are  transmitting with more than a watt or so of power in order to  detect a 
+bad match between the transmitter and the antenna before  the transmitter becomes damaged.  Once 
+again, Radio Shack sells  relatively inexpensive SWR meters that are adequate.  Better ones  can be 
+obtained at your local amateur radio store.<P>
+   Make sure you purchase enough coax cable to allow you to place  your antenna a reasonable distance 
+from your transmitting  equipment.  50 feet is a good compromise between signal loss and  flexibility in 
+antenna placement.  RG/58 is adequate for such  short runs of cable, but you should consider using RG/8X 
+or RG/8  if you need longer runs of cable.<P>
+Audio:<P>
+   Many radio stations will want the ability to broadcast  pre-recorded material from a tape or CD as well 
+as live material  from a microphone. A mixer is an essential piece of equipment for  such operation.  
+Small, battery powered mixer decks are  inexpensive and available from Radio Shack.  By connecting 
+them  between your microphone, CD player, tape player, and transmitting  equipment you will be able to 
+switch between any of several  sources or mix them together.<P>
+   If you want to use a portable CD player, bear in mind the  expected battery life of a fully charged cell, 
+and make sure you  bring an extra if you plan a long broadcast.  Likewise for a  walkman.  Also, you will 
+need an assortment of patch cables to  connect your CD player, walkman, microphone, and mixer 
+together.   Once again, Radio Shack is a good source for pre-made cables of  this type.<P>
+Miscellaneous:<P>
+   It is advisable to bring along an FM radio.  This will allow  you to monitor your transmissions to make 
+sure you are getting  good modulation and you are tuned to the frequency you want to  be.<P>
+   A piece of foam or other material upon which to place  electronic equipment to keep it away from dirt 
+and rocks is  advisable.  It is also good for sitting on. Strong, thin cord is  handy for tying up your antenna 
+in a nearby tree or other tall  structure.<P>
+   Head-lamps (head-mounted flashlights) are invaluable for  nighttime broadcasting.  Purchase some red 
+tail-light-repair tape  at your local auto supply store and cover the lens with it to  turn the beam red and 
+thus preserve your night vision.<P>
+   Don't forget to bring along a bottle of water and some snacks  to eat during your broadcast.<P>
+Security:<P>
+   Buy yourself a decent scanner.  Next, get a copy of local,  state, and federal frequency assignments for 
+your area.  Program  the scanner with the local police, sheriff's department, mutual  aid frequencies, and 
+anything else you think might be relevant.   Spend some time monitoring the authorities to become 
+familiar  with the operating practices of them.<P>
+   A partner can be an invaluable aid during a pirate radio  broadcast.  Make sure he is someone you can 
+trust!  While one  person operates the radio equipment, the other person can monitor  the scanner and 
+watch the perimeter for intruders.  Walkie  Talkies are an ideal way for the DJ to stay in touch with his  
+security.<P>
+Further Reading<P>
+o  Barnett, Richard; Monitor America, SMB publishing, 1992,<P>
+   ISBN #0-939430-19-3<P>
+Contains lists of frequencies used by the local, state, and  federal government for the entire United 
+States.<P>
+o  Hughes, Gene; Police Call, assorted volumes, Hollins Radio  Data, 1991<P>
+Available at Radio Shack.  Various volumes cover local, state,  and some federal government frequencies 
+for various regions in  the United States.<P>
+o  ARRL; ARRL Handbook, ARRL, 1992<P>
+Available at many bookstores and Amateur Radio stores.  Contains  a wealth of information about 
+amateur radio station operation  much of which is applicable to pirate radio as well.  Contains  
+information on constructing transmitters, amplifiers and  antennas, among other things.<P>
+o  Swanson, Chamelin &amp  Territon, Criminal Investigation, Harcort  Brace,<P>
+   1992, ISBN # 0-07-062618-9<P>
+If you want to become familiar with police investigative  techniques, this is an excellent place to start.  
+Contains a  wealth of information which when applied appropriately will  better enable you to avoid 
+undesirable run-ins with the  authorities when involved in questionable activities.<P>
+<HR>
+<H1><A NAME = IV></A>IV. How to be a 
+Radio Pirate U.K.</H1>
+    This section tells you exactly how to go ahead setting up  your own pirate  radio  with  all the tips 
+learned from bitter   experience. First of all here's a list of main things you'll  need. So you want to be a 
+radio pirate? Read on...<P>
+What you'll need:<P>
+A. A group of committed people who get on with each other and  have plenty of time and energy.<P>
+B.  A  program,  presuming you have something  worth  saying  or  playing.  You  don't even need a 
+studio to start  off  with.   Just borrow someone's stereo and a microphone and start making  practice 
+recordings onto good quality cassette tapes.<P>
+C.  A  Transmitter. Ideally over 10 watt power, but 5 watts is  fine for  local broadcasts, or when using an 
+aerial with gain.   You can't  buy  one  over the counter in Britain, but  here   are  some alternatives:<P>
+ I) Buy one from another pirate (beware of rip-offs).<P>
+II) Buy one over the counter abroad. In Italy for instance   you can get a high quality 50 watt transmitter 
+over the counter   for £200.  You  can  buy  kits in Belgium, France, Netherlands,   USA, etc. You then 
+have to smuggle it home.<P>
+III) Build your own. A hobbyist can  build  a  low  power   FM transmitter easily. Try to interest radio 
+hams or dissident engineers. It's almost essential to have at least one  person  in your group with some 
+technical know how.<P>
+IV) Get one built to your specification. There are a few electronics engineers about who will build them 
+for a   reasonable price.<P>
+D.  Antenna.  You  can  adapt a design yourself  from  an   antenna handbook (e.g. The 2 Meter Antenna 
+Book). Or use one of  our  ready made  designs. Look out for aluminum tubing or struts  which  make 
+good building material.<P>
+E.  Odds  and  ends.  You'll  need basic  tools  (soldering   iron, multimeter, SWR meter), a cheap cassette 
+deck, probably one  or two good  car batteries, a roll of coax cable for the aerial,  a radio to  listen  in on, 
+etc. Also start reading Amateur Radio  Handbooks and all relevant writings.<P>
+VHF: Pros and Cons<P>
+   First  lets deal with FM (Frequency Modulated) broadcasting,  which is  probably  your  choice. The 
+advantages of  FM  are   many.  The transmitters  are  small and quite cheap. Reception   tends  to  be 
+either very clear or non-existent. Its excellent  for music and for recording  off and can quite easily be 
+adapted  to transmit  stereo (impossible with AM). A major plus for the  pirate is that its easy to  hide  and 
+transport the gear, aerials  are comparatively  small and  can  be  made collapsible. It's  also possible  to  
+put  in  a vehicle, even an bicycle and go  mobile, albeit with a smaller  and changing  reception  area. 
+The  average 5 to  20  watt  transmitter would  be  in a metal box no  bigger than 12" by 6" by 3" in  size, 
+and  weigh no more than 8  lbs with the rest of the gear  (but  not including  the  battery,  if you're using 
+one), The aerial  is  not only  shorter but more  efficient and of course more practical than the  long  and 
+tricky  procedure for AM aerials. Also low power  FM transmitters    ('rigs')  can  be  tuned  to   slightly   
+different frequencies,   on  AM you're stuck on one, unless  you  get  a  new crystal.<P>
+   The  disadvantage is that VHF-FM is essentially a 'line of   sight' communication,  which means your 
+reception area depends   crucially on the height of your aerial above large blocking  objects. This is no  
+problem if you can get up on a hill, or a  tower block  but  it does  restrict the choice of broadcasting  sites, 
+making you easier to  find and trap. With local  broadcasting you have more choice of sites.  In  very hilly 
+area,  unless you can get up on a  mountain, you'd  better  choose AM,  also if you want to broadcast  
+scattered communities  over a wide  area. Distance covered  with  an  FM  rig depends  as  how much  
+height as on power. A 40 watt rig  on  a  15 story  tower block  should cover a 15 miles radius if there are  
+no blocking objects.  A 4 watt rig should go 5 miles  from  the  same height  but if  you build a directional 
+aerial with 'gain' you  can multiply   that  power  many times. You don't  really  need  a  big expensive and 
+hard to build transmitter. Also don't assume  a   100 watt  rig  is ten times as powerful as a 10 watt one,  it   
+doesn't work like that.<P>
+   To  sum  up,  FM  broadcasting is the ideal for the  guerrilla   or community  pirate, cheap, mobile and 
+adaptable. another   advantage is  that  there's loads of room on the FM broadcasting  band,  it's literally  
+half  empty.  On AM its pretty crowded,  and  at  night you're likely to be blotted out by continental  
+interference.<P>
+The Broadcasting Site (FM)<P>
+TOWER BLOCKS (SKY SCRAPERS)<P>
+   In cities tower blocks have been an ideal answer for good  coverage and  wide  reception  and  are 
+especially favored  by   commercial pirates (who often use a link transmitter from the  studio  to  the tower  
+block so as to go live). A further  advantage is that  there are  usually electric sockets in the  lift or heating 
+rooms on  the roof,  so  you can just plug in  provided your gear is so adjusted, rather  than  lug car or 
+lorry  batteries about. This is  'Stealing Electricity',  of  course.   If  you're  caught  broadcasting   the 
+electricity company could  bring this additional charge, though  in practice  we've  never   heard of it 
+happening.  The  advantage  to sticking  in  car   batteries is that  you  can  conceal  your  rig anywhere  
+on  the  roof, rather than having it right  by  the  plug socket, though  in a surprise raid your aerial cable 
+will lead them straight to it anyway.<P>
+   To  get  onto  the roof of a tower block you need  a  crowbar,   or better,  a key. The 'Fireman's keys' 
+have to be standard  for   all blocks,  so once you have one you can get onto most roofs easily.<P>
+   Try asking  other  pirates, or possibly a friendly  caretaker or fireman.  Or you can break the door, steal 
+the mortise  lock,  get keys  made up for it, then replace it, such keys may not fit all roofs.<P>
+   When  on  the roof BE CAREFUL (sudden gusts of wind can  blow   you over  the  at  this height!) and 
+always wear soft shoes  and   keep quiet.  Lots of people have been busted simply because the  tenants 
+below heard them and called the police. Its useful to  dress like a repair  person,  and claim if seen or 
+challenged,   to  be  a  lift mechanic.  The main problem with tower blocks is  that, if  raided, you can 
+easily be trapped (see how to get away  with it).<P>
+MEDIUM SIZED BUILDINGS<P>
+   If  you're a local station, or have a high power rig or an   aerial with  gain (or if you're just testing) you 
+don't need to  be  on  a tower block. Any building higher than most others will  do, and you can  increase 
+your height for instance by mounting  your aerial  on top  of  high, well secured scaffold pole (note:  there 
+must  be  a wooden or plastic section between the pole and  the actual aerial).<P>
+   The advantage of lower buildings is that you can multiply both  the available sites for broadcasting. You 
+will have to switch  sites as often as possible. Also you will have more escape routes  and 'bolt holes' than 
+on a tower block. Unfortunately this may  also mean you have  to  watch more potential approach routes 
+by  the  police  and DTI, and you'll need more lookouts if you're  planning to save  the gear when 
+attacked.<P>
+BROADCASTING FROM HILLS<P>
+   If  your town or city has hills this is a good option, the   higher the better. You can use a piece of derelict 
+or common  land, or  at night  you can use parks, cemeteries or even  allotments. A  better option is if 
+there are hills outside the  built up area, then use a field  or wood away from houses. If you  use the 
+directional aerial you  can  cover the city just as well.  This was done by  Andromeda Radio, to good 
+effect, they used to  cover most of Manchester  from a  high  hill  outside,  using  a  mere  4  watt  
+transmitter  with directional  gain aerial. If you  can get up into mountainous  area you're  even better off 
+and can  adopt classical guerrilla tactics, often  see  the enemy coming  distances away, and be very 
+difficult to stop.<P>
+   On  a  hill  within  the  town or city use good  lookouts,   escape routes, CB's etc. and have regular 
+'escape drills'. Best  place for aerial  is  a high, easily climbable tree. If its not  too  obvious leave  it  up 
+there and have a spare ready. An added  problem  with hills  is  that you normally have to lug at least  one 
+car  battery about, which is terrible if you have to climb  fences, ditches etc. at  night, something like a 
+pram or shopping  trolley can help. You can't  leave  the  batteries on site as  they need re-charging  for 
+your  next broadcast. So mains  electric is a big help if  you  can run  a  lead  from somewhere.  Outdoors 
+all your gear  must  be  in waterproof cases, or covered  with a tent or tarp. Tents  are  good if  you can 
+pretend to be  camping. Take care also of yourself  and your  group.  Hot   drinks,  food, waterproofs,  
+short  shifts  for lookouts  etc.  are good ideas. It gets boring after a  few  hours. CB's  are   excellent, but 
+get ones with earphones if  possible  to avoid  noise.<P>
+   If  on  a  hill  you can also use ordinary house, flat,  squat   or derelict,  and  just set up your aerial as 
+high as practicable   on the  roof.  Its better to get a place, by squatting or  if  you're rich,  by renting, 
+specially as a broadcast site, no-one  likes  to live  under constant threat of the police storming in.  In 
+practice you  may have to use someone's house, then don't use  it too often. If  you  must  use your own 
+house DON'T leave dope,  stolen  goods, false  ID's or other naughties lying about. It is  possible to  run 
+your  antenna cable from your house to the  aerial on another roof, and  whip  the cable off quick if they  
+come, but this  would  only work once, and you lose output power  with every extra Meter of coax  cable  
+going to your aerial. More  of this in the 'How  to  get away  with  it'  section. NEVER have  your studio at 
+the  broadcast site. They'll confiscate the lot,  under the new laws.<P>
+OTHER POSSIBLE BROADCASTING SITES<P>
+   FESTIVALS,  especially large free festivals are an  excellent   and common broadcast site. A small 4 
+watt rig will do fine. Set  up  on a  high ground in a tent or vehicle and invite the  festival  attendees to  
+protect you from possible police attack, much  more unlikely in these  circumstances. If possible make a 
+live  studio  in  a  tent, caravan  or truck and get everyone involved.  Try to get  mentioned in  pre-festival 
+publicity, or do your own,  so people  will  bring radios. This is pirate radio at its best.<P>
+   DEMOS,  especially long ones, like blockades for e.g.  of   Nuclear Stations or War bases, can be 
+equally worthwhile. In this   context the  pirate can be perfect medium for discussion,  information  and 
+warnings  of  police movements, as well as for   entertainment  and music.<P>
+   BARRICADED SQUATS OR SQUATTED VENUES are another obvious and   much underused  site  
+for the guerrilla pirate, especially   during  big meetings or gigs, which you can broadcast live from  the 
+roof. This has been done successfully for instance in  Amsterdam and Berlin.<P>
+   OCCUPIED FACTORIES or industrial areas during strikes and  disputes provide  an  excellent and 
+often missed opportunity for   the  more political  pirate  group, and can provide vital  communication  for 
+mobilizing, publishing and gaining support.  There have  been  many such opportunities in Britain over 
+recent  years.<P>
+   SIT-INS  and  protest  occupations are another  good   possibility, which  we  don't  think has been tried. 
+Especially  occupations  of high  towers,  buildings  or pylons for   publicity.  But  in  this situation  
+capture is pretty certain,  therefore a small disposable transmitter  would be ideal. A good  strategy is  for  
+everyone  to deny  using it, and to use any  following trial for more  publicity e.g.  on  the lines that the  
+army etc. and the police are  already hogging most of the  airwaves.<P>
+   'NO-GO  AREAS' are a step up from occupied factories. We know   for instance  that nationalist pirates 
+broadcast from Free  Derry   and parts  of West Belfast when they were 'no-go areas' to the   state. Of  
+course  there are no true 'no-go areas' in Britain,  but  there are  plenty of inner city estates where the 
+police  rarely venture, especially  in  the  evenings in the riot   session,  for  fear  of 'concrete rain' or 
+worse from the roofs.  A high block on such area could  be  an  excellent site,  especially if you can tip  off  
+the local  youth  to lend a hand.  Whenever major rioting begins  large areas  are  suddenly  devoid  of 
+police, till  they  can  group  in numbers and re-take the  area. This is another opportunity for  'on the  
+ball' local  pirates. By monitoring police radio, runners, and phoned  in  reports such 'uprising radio' could 
+be a brilliant  aid<P>
+to  the  fighters  on  the  streets though  you  would  need   good security,  disposable transmitter, quick 
+getaway routes,  disguised voices etc.<P>
+   LIBERATED ZONES! (Let us know if you find one!) Practically   every guerrilla or Nat. Liberation 
+movement, be they right or  left wing, has their own pirate radios, which are often crucial  influence in 
+such  wars, broadcasting  from  freed  zones  or    neighboring countries. But you're not likely to come 
+across this  in Britain.<P>
+   INTERNATIONAL WATERS is of course a favorite site, but out of  the question for the small 'do it 
+yourself' pirate.<P>
+How to set up your gear (FM)<P>
+BEFORE YOU GO<P>
+Before getting out you had best brief anyone, especially newcomers, on what will or might happen. Talk 
+about getting caught,  for  instance have good excuses made up  for being  at  or near  the  site.  If  you are 
+planning to give   false  names,  for instance,  you'll need an address where  someone will  confirm  you 
+live,  otherwise you might have  troubles getting bail if you  were arrested.  In  this case keep  your first 
+names the same  to  avoid being caught out.<P>
+   Make  out a standard 'check list' of all you need, and go   through it  before you get out. It's surprisingly 
+easy to find  yourself on top of a tower block, or climbing some tree, only to  discover that your cassette 
+deck lead is at home five miles away.<P>
+         HERE'S A SAMPLE LIST OF THINGS YOU NEED<P>
+   Transmitter (TX), TX main lead or 2 clip on battery  leads (large  and well insulated), TX lead to 
+cassette deck if not attached, cheap cassette deck plus mains lead or 2 clip ons and 6 volt bike battery, 
+charged up 12 volt car battery if not on mains, antenna (check you have butterfly bolts if  collapsible), the 
+coaxial cable (with plug attached and clips or  attached to  aerial),  fused  plug  board (if on  mains),   
+program  tapes (rewound  to  staring  position), small FM  radio   receiver(s)  to monitor  broadcasts, CB's   
+for lookouts, plastic   'gaffer  tape', soldering iron and solder in ease of broken  leads, torch, warm clothes, 
+munches, bus fare.<P>
+ON THE WAY<P>
+   Ideally  you  need four people, at least two. Carry  the  gear as inconspicuously  as  possible, in hold alls 
+or  plastic  bags. The antenna  is  a problem. If it's a big long one make it  collapsible using  butterfly  nuts 
+in assembly. Or try to  keep   it somewhere close  to  the site. On arrival at the site,  especially if you've 
+used  it before, send an empty-handed scout  ahead, to be sure  the police and DTI aren't waiting for you 
+and  all is clear. Check also you're not followed.<P>
+SETTING UP<P>
+   In the case of a tower block you should have been there  beforehand and  have  either a key or a broken 
+lock to get  straight onto  the roof. Lock the door quietly behind you. If  there's two doors  onto the  roof  
+have access through both. Take  your gear to  a  lift/heating  room and find a plug in wall  socket (if on 
+mains).  Check it  works.  Wear gloves when  handling gear, and clean it regularly with cloth and alcohol.  
+They don't usually bother with fingerprint evidence,  but  they   might start. The  antenna  must  be  
+cleaned regularly  anyway  for good transmissions. Set up your  antenna  as high  as   possible,  if possible 
+on top of an  extension  pole  or length  of  scaffold pipe. Often there's a pole already,  left   by earlier 
+pirates. Attach the antenna securely, with bolts or  strong gaffer  tape, to a length of wood, then the 
+bottom of the  wood  to the  metal  pole (if there). The antenna must NOT be   touching or blocked  by 
+metal. The coax cable can be soldered or  bolted  onto the antenna, or attached with strong, rust free car  
+battery clips.<P>
+   The clips are recommended for fast dismantling and for testing  and developing  antennas,  mark clearly 
+which goes  where.  The   coax cable  should  not be longer than absolutely necessary,  you   lose power  
+with every extra foot, and should be good quality and   well insulated.  Your  lookouts  should already  be  
+on  station,   with torches  or CB's, one at the foot of the tower (preferably  sitting on a car or flat) and one 
+on the roof. Keep low and quiet  and wear soft  shoes.  (In one court case Eric Gotts (head of   DTI  
+squads) claimed  he  recognized an Our Radio member from   the  ground,  18 stories up, at night. The 
+judge accepted his  word.)<P>
+   When  the antenna is up securely, lead the coax back and plug   or screw in to the back of your 
+transmitter . Now plug the TX to   the cassette  deck  keeping  the  two as far  as  possible   apart,  if 
+possible  blocked  by  something solid,  like  a   wall,  to  avoid interference. Keep the audio lead well 
+away from  the power  leads.<P>
+   Interference between leads can often cause loss of power and/or 'Sprogs' (unwanted signals on the wrong 
+frequency). You can go   so far as to block leads from each other with bricks.<P>
+   Plug  in  the  cassette deck and the TX to  your  plug  board   (or connect  to  batteries) and switch on. If 
+you have  that   facility just  switch on the exciter stage of the TX first for  testing,  no need to alert Big 
+Brother prematurely. Go on the  other end of  the roof  with  your  radio  receiver and tune  in.   Then  
+adjust  the modulation on your TX, in relation of other  channels, to  get  the best  sound.  If  this  is  OK  
+but  there's  unusual  knocking  or crackling sounds try moving the  cassette deck further from the TX, or  
+raise  it above ground if  possible. Try further separating  or screening the power lines  from the audio 
+lines.<P>
+   You  may  well  find that you have sprogs (harmonics  or   spurious signals)  all  over  the band. Check 
+for  this.  If  so   check reception  with your lookout 100 yards away, normally such   sprogs disappear  by 
+that distance and you're OK. But if your   signal  is still spread all over further away switch off and  clear 
+off.  Your TX  is messed up and needs difficult repair or  tuning you can't do on  the  site. If you find 
+you're interfering  with fire, ambulance or  pigs, stop, before they come after you.  Most pirates are  very 
+careful not to do this.<P>
+   When  all  checks are OK, insert your program tape, switch   off, and  wait  for  the  agreed time to 
+begin. With practice you   can easily  set it all up and test it in 10 minutes, but it's  good  to allow  a  half  
+hour  and to be methodical and  cool.   Never,  for instance,  switch on your TX without the antenna  
+attached,  you'll blow  it.  The  amp  stage of your TX should  get  quite  hot  when drawing  the  power,  
+if  not  its  not   working.  With   bigger transmitters you may need also a small  electric fan  to  cool  the 
+heatsinks on the power transistors.  Once you're on air its good to go and phone friends for reception  
+reports further afield.<P>
+Broadcasting.... How to get away with it<P>
+KNOW YOUR ENEMY<P>
+   On  a  tower block, in London, the DTI squads can tell  where   you are,  within 20 meters, less than 10 
+minutes after you switch   on.<P>
+   So  they  can  bust you any time. In the case of new  pirates   the procedure  is  to  monitor you for a 
+while (in  case  you're   just messing about) before busting you. It could easily be a few  months before  
+your  first  attempted bust.  If  you  play   anything  but straight  music they will record and keep all your  
+programs  for possible further use against you (though voice  print's aren't used in  court). In other cities 
+they are  generally slower to get after you. In smaller towns they don't  have permanent staff so they have 
+to  come specially, depending  on your usual broadcasting time, so switching your time is a big  
+advantage.<P>
+   The  detection squads are now directed by the Home Office   through the  Department  of  Trade and 
+Industry (DTI) and  are   officially responsible  for stamping out 'radio interference'.  They  have  recently  
+been  recognized and upgraded with  fancy   new  equipment. Their  HQ  is at Waterloo House by 
+Waterloo  Bridge and  they  have several  other fixed triangulation  stations in London, for instant 
+tracking. They use also mobile  detection vans and lots of unmarked cars  and  have a depot in  East 
+London for vehicles and  gear.  We don't  know  where  they   keep their  extensive  horde  of  stolen 
+transmitters  prior to  disposal. They also have  their  own  radio frequencies,  they  used to be (and still 
+may be) using  around  88 MHz, just off the  commercial FM band.<P>
+   The  DTI  squads are not supposed to arrest you, so they  have   to bring  the  local  filth along on busts, 
+which makes  them  a   lot easier to spot and makes them less flexible, as they often  have to wait till the 
+cops have the time free. For  large  rich  commercial pirates the game is to have plenty  of transmitters  
+lined up, and not to try to save them if  the  police and DTI  raid. They often use remote links and can 
+often switch  on and  off using timers or radio signals, so they don't have  to   go back  and change tapes 
+and no one need get caught in the act   (but recently  the DTI have cracked this by raiding the 'live   
+studios' and nicking everyone and everything).<P>
+   But  for small community / political pirates with only one or   two transmitters its essential to save the 
+gear if at all  possible. At the same time its now always cheaper to lose all the  gear than  to get  caught 
+and pay the fines. Nowadays even for  the small  pirate it may be more advisable to put energy into  money 
+raising and mass producing  cheap transmitters than into  trying to  save  the  gear when  they're  hot on 
+your trail  (though you need to guard  anyway against the curious and  rip-offs by other pirates.)<P>
+PRECAUTIONS<P>
+   Don't  talk  and boast unnecessarily about your sites  or   studio. Work  on a 'need to know' basis from 
+the start. One  method  is  to keep  program makers separate from your  broadcasting team, tapes can even 
+be delivered to a 'dead letter  drop' for instance. But if you  can  really trust each other its  better if 
+everyone  takes  a turn  at  broadcasting, otherwise  the broadcasters  can  both  get pissed  off  and 
+become a power  elite ('I'm not transmitting  this crap!').<P>
+   Don't,   of  course,  broadcast  your  location,  real  names    or addresses.  Don't  give  your phone 
+number  either,  certainly   in Britain,  the days of phone-ins and instant access to pirates   are numbered. 
+If you're really into phone-ins, get a phone in a   false name  at  a temporary address or squatted flat (NOT 
+your   studio).<P>
+   Tape  the  calls and check you're not followed there. For   letters use  a box address (e.g. Wuppertal in 
+Germany) and assume  all mail is  read,  or use a forwarding address. When travelling   to  sites vary your 
+means of transport.<P>
+The raid..... Saving the gear<P>
+A.) HIDING IT ON THE SITE<P>
+   Some  pirates  have  tried  building the transmitter  into   walls, parapets, roof, chimney stacks etc. You 
+can conceal it  under water tanks,  central heating or lift machinery. Better  still  have  it hidden in a legal 
+or squatted top floor flat  (possibly 2nd to  top would  do) concealing your coax cable  either up the side  of  
+the building,  by  boring  a hole in the  roof, or  by  running  it  up ventilation  or 'stink' pipes.  Another 
+variation is to  have  your tape  player in a flat, and a  long concealed audio lead to the  TX on  the  roof. 
+The  possibilities are endless, and most  have  been tried.  On  one   occasion Our Radio tried the 'dummy  
+transmitter' trick,  with  it's own dummy aerial, leading the hounds to one  end of  the   roof,  while  they  
+left  by  another  door.  Inside  the transmitter box was a can of beer and a 'Booby Prize' note. In  all these  
+cases  you still need to at least remove your  coax   cable before  the  cop arrive, or of course it'll lead   
+straight  to your TX.<P>
+B.) LOOKOUTS<P>
+   You  need  two,  preferably three, and take it in  turns,  and   if possible also monitor police and DTI 
+radio channels. You  can   use torches or signals from ground to roof. If on CB's turn them very low or use 
+headphones, and use codewords, they're very  public.<P>
+   Watch out for cars and vans with too many aerials, electrical  gear in   the  passenger  seat,  hanging  
+around  trying  not  to   look suspicious, police cars passing several times etc. Keep an  eye  on nearby  
+tower  blocks or anywhere they may observe the   roof  with field  glasses. A raid is usually obvious, two 
+or  three cars  with uniformed police accompanying them (though  piggies may be also  in an  unmarked 
+car). They usually try and  rush in a side or  a  back entrance, so watch out... it's quite  embarrassing to 
+have all your friends  nicked, and you still  standing out front yawning! Usually they take the lift 
+(sometimes  using a 'fireman's key' to bring  it down fast) and often send a  few young ones up the 
+stairs.<P>
+C.) CAT AND MOUSE<P>
+   This  involves  moving  and  hiding  the  gear,  in  flats,   stair cupboards, lift  shafts, hanging  out  
+windows,   disguised as something else, etc. Normally they have no case if  they can't find it,  but  under  
+the new laws they might try to  do you  anyway  if you're  caught. If your lookout system works  you have 
+at least 2 minutes warning before they reach the top  of the tower block. You can delay them by switching 
+off the  power in the lift room, but if doing  this be quite certain  you're not trapping anyone, which  is 
+difficult. You can call the  lift immediately, and if you get  them first   jam  the  doors   open.  You  should  
+practice  for   quick dismantling  and   packing  of the gear in  advice.  Sometimes  its easier to leave  the 
+antenna and build a new one. A  good  simple 'Cat and Mouse'  is to run down several flights  of stairs  
+with  the gear, hide  it in a good spot (the ideal  is  the flat  of a 'neutral'  friend) and turn into a 'normal' 
+citizen.  If you're stopped have  a good excuse for being there. Cat  and  Mouse is a good system  to start 
+off with.  But  remember they  have  done  it  1000s  of  times  before.  When  they  become determined to 
+bust you you'll  need more and more determined people and  new  broadcasting sites  to stay ahead. After a 
+certain  point they're  sure  to  catch  you, as they learn more about  you,  your faces, your habits,  your 
+tricks, and as they put more and more men on  the  case.  If  you want to get away with it  its  time  for  a 
+complete change  of tactics.<P>
+D.) DISAPPEARING<P>
+   When  the DTI are really on your tail one thing you can do is  take a  weeks  rest,  then come back with 
+a different name,   style  and timing.  Of course this messes up your efforts to make  a  name  for 
+yourselves and gain a regular audience, but at least  you're still on  air, with maybe a few months grace 
+before they  start after you again. Also change your frequency and voices on  tape if possible.<P>
+E.) SWITCHING<P>
+   In theory this is a good system, but you need a big team, your  own transport,  and  two  or three 
+transmitters  (on  the  exact   same wavelength). The idea is this... as the police and DTI close  in on one  
+location, the signal switches to a second site. Either  you're using  links, or have copies of the program 
+tapes. The   team  at the  first site evades the police and sets off a 3rd  site and sets up.  If  they go for the 
+2nd site you switch to the  3rd  site  and carry on etc. When combined to Cat and Mouse  tactics this can 
+make you  difficult  to stop. The problems are,  if you're  using  tower blocks your choices are limited... If 
+you  set up say 5 miles  away your  reception area may be completely  different, and you'll  need plenty of 
+dedicated people ready to  wait night after night to play games with the police... And when  they become 
+determined they will still  get  you.  We  know of  one South London  pirate,  who  used switching  with 
+apparent  success, then one night all  3  of  their transmitters were  seized within 15 minutes! Switching  
+would work better when  combined and varied  with  other methods  of getting away with  it. Particularly 
+if you're  doing  a local station, where you  don't need so much height, and have  lots of more choice of  
+broadcasting sites.<P>
+F.) GUERRILLA RADIO<P>
+   This  is  one  of the main ideas this text is trying  to   promote. Guerrilla, or Hit and Run radio is the 
+war of the flea.   First  of all  you  can  reduce the risks of getting caught   drastically  by broadcasting  not 
+a fixed times or a fixed name,  or  by  doing  it only  for  1/2  hour periods. The problem of  course is  that  
+your audience  is also random and small. The  guerrilla idea is  to  get together  quite a few stations,  
+broadcasting on the same frequency with cheap, mass produced  transmitters, thus forming one big loose 
+station  which   listeners would have a good chance of  finding  on air, while  being very difficult for the 
+DTI and police to stop.<P>
+BREAK-INS<P>
+   Break-ins  are  a higher and riskier form of guerrilla  radio,   as used in Britain by Radio Arthur and 
+Radio Wapping. The idea is   to grab your audience by broadcasting on top of a legal station.   The 
+sentences  are  much higher but there's little chance  of   getting caught  if your break-ins short, say for 
+five minutes, on   top of the  news  or  advertising  of  a  major  station.  You're   taking advantage of a 
+quality of FM broadcasting that the  stronger signal tends  to  'win', blotting out the weaker one  
+completely.  With  a small transmitter you'll only win for a  short distance, but even a few  hundred  yards 
+could cover a  whole high density  estate.  For break-ins  strength of signal is  the main factor, a  big  
+powerful transmitter (100-200 watts) tuned exactly to the  required frequency so you can  break in for your 
+message on the most popular channel  on  prime  time. For break-ins all precautions  should  be doubled, 
+also be  sure to clear right away from the area as soon as you've  finished, and don't use the same time or 
+broadcasting site again. It's as simple as that.<P>
+   Break-ins are also easily possible on TV, but only over the  sound. Break-ins  are  more common in 
+countries where pirates  have   been repressed, e.g. in Germany or the Eastern Block, and are  ideal for 
+announcing, demonstrations etc.<P>
+   There  is  another and better way of doing break-ins on FM,   which may  have  been  used by Radio 
+Arthur. This is  to  use   the  UHF microwave  transmitter, beaming your signal at the  microwave  dish 
+receiving the signals of a legal station from  their studios. Their dish  then picks up your signal, and  
+providing you're close enough to  be  stronger than their signal,  you get re-broadcast by  their main  
+transmitter,  thus  giving  your break-ins  perfect  coverage throughout their reception  area. However,  we 
+don't have technical plans to build such  tricky  UHF transmitters, and it would be quite expensive. 
+Though  this type of break-ins is possibly at present. (To stop you fast  they'd have to switch  off the entire 
+station.) They will  probably make  it  more difficult by using access codes to  receiver dishes, as its 
+already done  to avoid piracy of  satellite dishes. NOTE: Don't play around with microwaves, they  can be 
+dangerous!<P>
+GOING MOBILE<P>
+   In  theory this is an ideal way of getting away with it, but  there are quite a few problems. If you're going 
+in a vehicle you  can use ordinary  car  cassette player, but you are better  off   having  a separate 12 volt 
+car battery to power the transmitter.    <P>
+   One problem is  with  the aerial. If you use a bigger, more  efficient  one  it will  be  very  obvious, one 
+possibility is to   have  it  under  a tarpaulin  on a roof rack. A bigger problem is  height, unless  you can  
+park or drive up and down on a high  hill, your coverage  will be badly blocked. And then of course  your 
+reception area will vary radically if you're driving any  distance. Not much use for gaining or  developing 
+an audience.  The main advantage is that you will be much more difficult to  stop.<P>
+   Going  mobile is more practical as a publicity stunt, or   possibly for  local broadcasts. To a small extent, 
+having a  bigger TX  will compensate  for  lack  of  height.  Going  mobile   is   good   for broadcasting at 
+random just for the hell with it.<P>
+   Doing  break-ins in this way would be great fun in the  rush   hour traffic.<P>
+LINKS, TIMERS, SQUARE WAVES<P>
+   These aren't for the shoestring pirate, though you can build   them cheap  if  you have the know-how. As 
+we said earlier  links   often prevent you being busted personally, if you can afford to  lose the gear,  and  
+allow you to do live programs. All  it   involves  is using a receiver instead of a cassette deck, then  
+beaming up  your signal   from  your  studio,  or  whatever,   using  a  small   UHF transmitter (e.g. on 
+370 MHz) or adapted  cordless telephone, or an FM  exciter  on  a different frequency  (or even an 
+ordinary  phone line, though sound quality suffers).  You also have to make a small directional  high gain 
+antenna. If  you're using a low  power  link and  a narrow beam its highly  impossible for the DTI to trace 
+you, and  it  was  assumed  to be  safe to link  from  the  studio.  But recently  studios using  links have 
+been raided, in  a  few  cases, with  every  bit of  equipment, furniture, record collections  etc. seized under 
+the  1984 laws (e.g. a raid on Radio Horizon's studios in late 1895  when over £20000 worth of gear was 
+'stolen' legally).<P>
+   This  may  not  however mean that the DTI's new  gear  can   detect links.  It's  just as easy to find your 
+location by  gossip,  phone taps or just by following you. Links can make you  personally safe, if  they can 
+trace you one you could always use  two, or three,  or .... what they don't and can't do is protect  your 
+transmitter, its main  advantage is that it allows you to go  live from the  studio.<P>
+   To  protect  yourself you might as well use a timer to switch   the gear on and off remotely. Timers are 
+pretty easy to build,  and you can  buy  kits, but good ones are hard to find 'off the  shelf'  as they can 
+obviously be used to make bombs. A good one  to buy is the plug  in  variety,  used  for  fooling  burglars   
+when  you're  on holidays, or by landlords to deter squatters.  For remote switching you  can also make 
+sound activated switches,  via a radio link,  or 'square  wave'   switches, via a phone  line. What  none  of  
+these devices can do however is to turn  over the tape, so you still have to  go  to  the site to do this,  unless 
+you want to broadcast  for less than an hour.<P>
+CONFRONTATION<P>
+   A good trick if you can get away with it. The DTI and police  (they normally  only  bring a few) are 
+wide open to  attack  (the   mouse becomes  the cat!) when coming to get you. The problem is  that  in 
+future  you'll  have to change your station name,  frequency,  even your  radio  voice and they'll always be 
+on your  trail.  The  good thing  is that if pirates start attacking them  they have to  bring many  more 
+police with them, and can only do  it when spare  police are  available. Also they are always  looking over 
+their shoulders, and have to be more careful with  their surveillance work. One  way  to  hit back, on tower 
+blocks,  is to trap  them  in  the lifts.  The lookouts signals up when  they're in and you throw  the main  
+power  switches in the lift  room. Be careful you don't  trap residents  as  well.  Then you  take your  gear  
+down  the  stairs, beating  up  any of them you  meet on the way, and make off.  Their cars  are also 
+vulnerable,  usually they're parked unguarded around the  corner.  If  you're  going to attack them directly  
+make  sure you're well masked and  tooled up and have enough skill and numbers to  get past them. Go  
+straight for the police officers and disable them  before they  can make their 'officer in distress' call  (take 
+or smash their  radios, or have someone jamming their frequencies). Other  direct  ways of hitting back 
+are attacking the DTI at  their bases,   attacking  their  vehicles at the  depot,  obtaining  home addresses  /  
+phone numbers of chief officers and  harassing  them etc.<P>
+   Remember they have the entire state apparatus backing them up, any form of direct attack should 
+therefore be anonymous  and never spoken of or boasted about later (or before!).<P>
+   When  the lookout signals a raid or anything very suspicious  (e.g. a cop car cruising too close too often) 
+immediately  switch  off, dismantle the gear and move it (switch off the TX  first, then  the tape deck.  
+DON'T rip out the aerial when the TX is still switched on!)<P>
+Building your pirate station<P>
+   We're not talking here about commercial pirates, where its  just  a matter  of  having good financial 
+backing, popular  DJ's   and  hit records,  plenty  of  ads, jingles and news  replayed   from  legal 
+stations.<P>
+   We're  talking about the 'do-it-yourself' community  or   political pirate,  starting from square one, and 
+doing something   worthwhile and  original. The truth is that most commercial  pirates, in their effort  to  
+offend  nobody and build towards a   possible  license, practice  heavy  censorship  and  are  often   as  
+boring,   banal, repetitive,  capitalist, sexist, elitist and  even  anti-democratic as  the  legal ones, though 
+there are few  exceptions. Such pirates are  obsessed  with keeping their  technology secret and attacking 
+the competition at every  opportunity.<P>
+   Smaller,  non-commercial pirates are in a different situation   and can  only  survive and develop by 
+cooperation, with the   eventual aim  of  breaking  the  state  and  commercial  monopoly   of  'Her 
+Majesty's' airwaves.<P>
+<P>
+YOURSELF<P>
+   First  thing you need is an interest in sound, and something  worth saying  or playing. Get a hold of a 
+mike and a cassette   deck  and play  around  with it. Record yourself, record any and  everything.<P>
+   Listen and record off the radio, off TV, off people's stereos,   in the  street. Play back your results, see 
+where you went wrong,  and try  again. Note down your results and ideas and discuss them  with others. 
+Read everything you can find about sound and  recording and think  about why you want to be a radio 
+pirate.  Join the Free The Airwaves campaign and read their 'Radio Crimes'  bulletins.<P>
+THE GROUP<P>
+   You  need  to  find more people with similar ideas, and  not   just 'hangers  on'. You need to get to know 
+each other well,   find  out who  you  can trust, and ditch those you can't. Members  should  be prepared  
+to  share  in  the  tasks, risks  and   finances  equally according  to  their abilities (in practice  this rarely  
+happens).<P>
+   Hold  regular meetings, just keeping in touch can be a problem   in big  cities.  Go for maximum 
+openness so everyone  knows  what   is going on. Beware of the power freaks, ego trippers, party  builders 
+etc. who are sure to turn up sooner or later.<P>
+   A good point to start is with fund raising, arranging gigs,  jumble sales,  meetings, sponsored events or 
+whatever, which  can   cement your  group, attract more people, and advertise your  station.  How you  do  
+it depends a lot on the type of project  you're doing.  If for  example  you're  planning a minority   
+language  station  (and there's  millions  in  Britain who have  no radio  in  their  first language)   you'll  
+want  to   advertise  widely   through   ethnic organizations. If you're a  'revolutionary' group planning to 
+claim responsibility  for armed  actions you won't want to  advertise  at all.  Minority music  stations are 
+the most common. But we'd advice you to widen and  deepen your group, or join with others, if you're 
+going  to build  and maintain the commitment (and cash) to  keep  a station going.  Many music stations 
+get backing from clubs, and are the  platform  for the disgustingly egotistical and inane DJ's  who work in  
+those clubs. Such solid backing is a good idea however. If you're running a station, you'll be hard pushed 
+to fund a raise  as well.  If you see your station as a part of a wider movement  (e.g. anti-war,  women, 
+gay, anarchist, animal rights etc.)  you   should try  to get regular backing from that movement. Another  
+good trick is  to  siphon  off small amounts of cash regularly  from  council, charity  or  student union 
+funded bodies which   your  members  are involved in. What you need is income, not a  lot, even £20  a  
+week would  do if regular. If some of your  members have good jobs  they might  be  able to do it, 
+otherwise  you could be tied  in  with  a money  making co-op or small  business. One example of this is  
+the squatters pirates in  Amsterdam, who can get a small regular income from  a  fund  raised by a small 
+tax on drink in squatted pubs  and cafes.<P>
+OPEN ACCESS<P>
+   Once  your  group is going well, and you've started to make   tapes and  get  the  gear and cash together, 
+you should think   seriously about teaming up with other groups who you broadly  agree with  (or don't  
+disagree). For example at the moment (late  1986) there  are dozens  of  such  groups who have failed to  
+get   Community  Radio licenses and are dying to get their stuff on  air, though afraid to 'go pirate' in their 
+present hostile  climate.<P>
+   The  idea  of  'Open Access' is to share a frequency, studios   and even  transmitting gear to start with, 
+with different groups.   The advantages are obvious... more money coming in from more   sources, less  
+equipment  needed  to begin with,  a  pooling  of   technical abilities,  more  political  clout,  more   
+participation,   bigger audiences  etc.  A  good way to approach  this idea  is  by  having public meetings, 
+contact Free The  Airwaves campaign etc.<P>
+   The  problems come with coordination, political rivalry,  possible infiltration and the sharing of tasks. 
+For an Open  Access grouping you  need  regular democratic meetings of all  involved  (at  least monthly) 
+and insist on full attendance. You  need a few good people who are into organizing it and making it  
+work. Another problem  is with  broadcasting. You should aim for  everyone having  their  own gear  and 
+broadcast team as soon as  you can, so you will  be  more difficult  to stop by the police  and DTI. So you 
+should insist  on every  group producing tapes  providing at least two trusted people regularly  both to the  
+broadcast team and to work on the technical and backup side of it  (building, repairing, purchasing 
+etc.).<P>
+   Open  Access station depend on cooperation, if you have that  then all  the other advantages come into 
+play, but you are  fighting all the  time against our training, in this society, to  be competitive and  
+individualist.  The  ideas of Open  Access   radio  have  been pioneered in this country by stations like  
+Sheffield Peace  Radio, Our  Radio  and  Cambridge Community  Radio and its worth  studying their  
+experience quite closely, as  well as the  example  of  such stations and Federations of  pirates in other 
+countries. Its  often fatal  to  allow one  person, however benevolent they may seem,  to become  a leader 
+or  spokesperson for an Open Access grouping.  The straight media  also love this to happen.<P>
+LOCAL / "COMMUNITY" PIRATE RADIO<P>
+   The word 'community' has lost any real meaning, through misuse  and over-use  (e.g.  'Community 
+Policing'). The old style   communities are  thing of the past (if they ever really existed)  except on the 
+Soap  Operas,  as  the system breaks us all down   into  individual consumers. So if you're talking about 
+'Community  Radio' you should be  quite  clear what you mean by it, and what  the State means  by 
+proposing (and then cancelling) such an  ideas. What class, ethnic, interest,  political  or gender  sections 
+of  the  people  are  you aiming your pirate radio at?  Or better, creating your pirate radio with?  Or are 
+you really  working on your own career? Or trying  to create 'community' in  your own head?....<P>
+   Local pirate radio is a more clear idea. There are many  advantages to  broadcasting locally, e.g. more 
+broadcasting  sites, harder  to get  caught, room for more pirates on the  broadcast band,  cheaper and 
+easier to built transmitters, closer  contact and participation of  listeners etc. In a big city it's a  good idea 
+for your station to  base  yourselves  in  one  area,  whether  you're  broadcasting locally  or  city-wide. 
+You need a  local base, and local  backing, financial  if possible. If your  station is appealing to one  small 
+section  of listeners it may  not however make sense to do a  local station,  because  the   potential listeners  
+are  fewer.  A  local station should aim at  a fairly wide section of the population.  An Open  Access   
+station  would work well on a local  basis,  as  coordination  would be easier, and all kinds of interest and 
+minority groups   could  be persuaded to make programs. On a  local  basis  publicity  and  support  are  
+much  easier  to  get,  as  is    the possibility of mobilizing people to defend you when attacked,  e.g. a 
+popular station in the middle of the large housing estate.  Local broadcasting in inner city areas can 
+nevertheless involve  hundreds of  thousands of potential listeners. Most of the  smaller existing pirates 
+are, in effect, local stations, because  of the limitations of  height  and the power of their  transmitters, 
+though  very  few allow any access or see  themselves as a local voice and resource.<P>
+How to make a studio<P>
+   Back   to  square  one,  you've  fooled  around  with  tapes    and microphones, but soon you're going to 
+want your own studio.  If you have  no  cash don't let that stop you! Most of the  gear   can  be borrowed  
+to start off with. For beginners purpose a  studio  is  a small  room,  a  couple  of  turntables  and   cassette  
+decks,   a microphone,  headphones, and a small disco  mixer,  a  plug  board, leads, some records and a 
+table to put it  all on. You'll also need some  blank cassette tapes, and sound  effects records if  you  can 
+(borrow from a record library).<P>
+   After that it's just practice and patience, knowing and  collecting your  material, and getting more or 
+better sound gear   as  you  go along.<P>
+   Having  said  that  there's plenty of tips  we  can  give   you.  A permanent  room  is handy. Sound proof 
+it if you  can,   cardboard, layers of carpet, egg boxes or Styrofoam are all good.  Try to plan it  out before 
+you start as to have everything within  reach of the operator(s), while having enough room for the  
+interviews and group work.  If you build your own control desk  you can drill holes  and arrange  for all 
+the leads to disappear  and join underneath,  much less  hassle. If you're buying  cassette decks try to get 
+something also  suitable  for outdoor  work. Try it out before  buying,  e.g. don't  get one which  leaves a 
+loud click on the recording whenever you  lift the pause  button. Quality and editing are better if  you 
+record  your   final product from mixer onto a reel  to  reel  tape recorder,    though  it  means  re-
+recording  onto  cassettes   for  broadcasting,  and  a good cassette deck can  give  near  as   good results  
+and is cheaper. If buying a microphone it's worth  getting a good directional one suitable for studio and 
+outdoor  interviews, and  make  sure  the 'impedance' suits your mixer. A   'cheap'  £50 disco  mixer will 
+do the job (you can even mix  through some stereo units). If you have the cash go for the  flashy new £150 
+range with built  in graphic equalizer with which  you can do wonders. Another tip, keep mike leads, din 
+leads and  power leads well separate each other  and make sure everything is  well grounded (from the  
+chassis if necessary). If you also have  'hum' problems with cassette decks try plugging in the power lead  
+the other way round (i.e. where  it goes  into  deck). Use cheap  turntables, not automatics,  and  buy ones  
+which  use cheap  cartridges, as you'll have to replace  them often anyway. Use  good quality cassette tapes 
+however. C120's  are best for length  of program, but get the best or they'll tear  or jam. On the  turntables 
+put in your own on-off 'cue' switches,  for ease  of  operation. When you've 'cued' a record to where you  
+want to   start, turn it a full turn back, by hand, to avoid slow  start up   noise. Try and have an LED meter 
+on the mixer and on the final  tape  recorder, allow the needle to go just into the red for  music recording, 
+but only half way up for speech recording. For  group interviews  an  omnidirectional mike can be handy, 
+and pay   special attention  to  sound recording levels and background  noise. <P>
+   Don't use  telephone in the studio. Though the phone is the  lifeline  of democratic radio, in the present 
+climate it means  you'll be busted and/or have everything in the room recorded by  the police.... You  
+really  do  need  two turntables, and at  least  two  cassette decks... All these tips, and more you'll  pick up 
+as you go  along, but  it's  good to work out standard  'how to use the  studio'  for newcomers.  Pay  
+attention  to  safety,  e.g.  have  the  plugboard (fused)  well out of the way,  and don't allow coffee or beer  
+near the gear. Read a book on  basic sound studios.<P>
+   One  last tip, lock it up well, especially if it's not in your  own home,  and barricade and cover any 
+windows. there's one sure  thing about  accumulating sound gear... sooner or later  someone will  nick 
+it!<P>
+The program<P>
+   This   is  entirely  up  to  yourself.  No  need  to  follow    any conventions.   Some  people  say  have  to  
+'master'   conventional programming  before you can do something different.  Other  say  if you do that 
+you'll never do anything different.<P>
+   Again  there are some hard learned tips for pirate. It's  good  to talk  with all concerned before starting, 
+make a list of  all   the possible material gathered (music, interviews, sound effects,  news items,  jokes  or 
+whatever) and try to put it into  some   kind  of order. A signature tune or jingle isn't such a bad idea,  as 
+people recognize  the program by it, often after they've  forgotten  the name.  Repeat the name of your 
+program often, but  not too often, along  with your frequency and broadcast time.     <P>
+   Put your  important items  first  (e.g.  a demo next day, your  appeal  etc.)  as  it's always  possible you 
+may be busted before  the program  ends.  If you're excepting a bust put all your best  material first and  
+keep the  Word is invalid, but it is short.  Use first names (false ones) and try to have a  friendly, relaxed  
+atmosphere and give everyone present a go  on the  microphone   and control desk. While throwing out  
+conventions don't forget  that we're all conditioned to quick variety and short attention   spans. Long 
+single person interviews  are  not  on,  no matter  how interesting, but need breaking up, also remember 
+people are   continually tuning in (and out) and if doing long pieces  you  need  to  'flash  back'  the story 
+so far. You  need  variety   and interaction without sticking in jingles every 30 seconds. Try   and make  it  
+interesting / enjoyable / entertaining both for you   and the audience, otherwise why to bother?...<P>
+   Style  and themes are your department. It's easy on radio  to   get arrogantly carried away with an idea of 
+your own ego, or with  'in' jokes or political hobby horse, watch out for this.    <P>
+   Practice with using the gear, good preparation and research make  everything  go much smoothly. 
+Background music and fading music in and out can be very  effective if done well. A large studio, tea 
+breaks etc. help a  lot.  The more time you put in the better the result (usually), you can spend a whole 
+night making a good one hour current affairs program, for instance.<P>
+   More than that is hard to say, so much depends on the people,   the subject, the projected audience, the 
+time of broadcast  etc.   You should  actively go out and seek feedback and opinions from  people you  
+know  have listened. Probably you won't bee able to  do  phone ins  and mail is slow and erratic (don't 
+worry if you  don't get  a big  mailbag, few stations or programs really do).  It's easy  to become cut off and 
+feel like you're talking into a  vacuum, or  get completely wrong idea of what kind of people are  
+listening.<P>
+   Making  programs  is  really  not  that  hard,  however  bad   an inexperienced you are, you can quite 
+easily improve on some of  the 'aural shit' being pumped out by legal stations over the  airwaves, 24 hours 
+per day!<P>
+Publicity<P>
+   Publicity  is very important, especially when you're starting   off your  new station. Of course your main 
+publicity is to keep  coming back  on  air, no matter what. But if you're hoping for a  minority audience  to 
+tune in specially you need to advertise a   lot  where those  people are likely to see or read it. Be warned,  
+there's  no real  tradition  in  this  country for  large  scale   support  for pirates,  and people often tend to 
+consume the media   i.e.  forget instantly they switch off. It could take you long  time to build up the  
+regular, participate audience, and the  solid support you need to attract new blood, break even  financially 
+etc.<P>
+   If  you're  a  local  station your publicity is  obviously  a   lot easier, and you can poster, graffiti, or even 
+leaflet your   entire reception area. If you're a wider station make sure you're   always mentioned in the 
+'what's on' papers and get articles or  interviews into  any  paper  likely to support you. Send  out   regular  
+press releases  to  the local and national press, and  try  to  cultivate contacts  among  the  slimy  reptiles   
+(journalists).  Almost  any publicity is good, as those people  likely to listen in to you will also  likely read 
+behind the bias  of Tory press. Oddly, one  place you  should certainly seek  publicity is on radio, try for 
+instance getting onto phone ins.  On radio you are already talking to people who listen to it! TV,  if you 
+can find any way to stunt to get onto it,  is the most  powerful publicity and you should certainly court the  
+bastards   running the local TV news, this kind of  appearance really  does   stick  in people's minds and 
+start  them  talking...<P>
+   Strangely  enough  the media are not overly  hostile  to   pirates, providing  you're just an oddity, not a 
+direct threat.  Many  media workers  hate  the shit they're forced to produce and   admire  the 'romantic'  
+pirates. You should play on this for all   it's  worth, and  always try and get your frequency and broadcast  
+times across. They  will sometimes put you on, as an interesting  item.  Remember that pirate radio is a 
+'victimless crime'! If  you're mainly a music station you should publicize where people listen  to  that  type 
+of music, if you have  your  own  club,   of course,  you're laughing. Join Free The Airwaves and get  
+publicity in  their  paper. Write articles for radio pages, and   do  benefit gigs,  public  meetings, media 
+stunts, whatever  you   can  manage.<P>
+   Choose  a  catchy, hard hitting name for your station.  If   you're doing  political stuff they're going to go 
+for you anyway,  so  you might as well get value for effort!<P>
+   Remember,  if you want to be a participatory station, you'll   have to  go  out  and  seek  feedback. Get 
+out on  the  street   and  do interviews whatever you can. Take along your cassette  recorder  to every  type  
+of  event, the more different voices   and  views  the better.<P>
+Building up your pirate station<P>
+   It's  hard  to  give  advice about longer  term  development,   but there's a few things worth saying. First 
+of all it's  important  to pace  yourselves. It's easy to start off with a lot  of enthusiasm, then  get busted off 
+the air, or just burnt out  with too much work or  too few people. However good or different  you are you 
+will  be very  lucky  to  build  up  a  regular  audience  or  mass  support overnight. Though your potential  
+number of listeners may  be  huge you  can  except  response  to   be  slow.  Breaking  down  passive 
+consumption  of  the  media is  not easy. Having  your  own  clubs, events, regular demos etc.  helps, as do 
+dramatic publicity stunts.<P>
+   You  need  to work out what you're aiming at. We say support,   participation and a large number of 
+listeners is a good aim. But   you may  just  be  broadcasting as a way of pressuring for  a   license (which 
+is a bit of a sell-out and a pipedream). Ideally  you should plan  ahead and gradually increase your 
+broadcasting  times,  while developing all aspects of your station, rather than  going all  out and then 
+collapsing at the first bust. The best  advice then is  to operate  well within your capabilities, and to  join  
+up  with  any other  pirates  who are not commercial and  not racist,  sexist  or fascist. Your longer term 
+aim, as a  pirate, should be to  reach  a situation  where  you  have  so  much support  (money,  volunteers, 
+transmitters,  listener  support etc.) that the state  just  cannot wipe  you  out at  will. The best hope for 
+pirates is to swamp  the forces  of   repression by sheer numbers, as happened, at different times,  in   
+Belgium, the Netherlands, France, Italy, and  now,  it seems,  in   Spain.  This does not imply chaos,  but  
+cooperation, federations  and sharing of the available airwaves and  times.  The swamping   the airwaves 
+is NOT going to be caused by the commercial pirates,   hogging, hiding and mystifying the technology  
+and  even  sabotaging  each other. However if we do manage to  start  a   non-commercial  movement  of  
+pirates  capable  of  doing  this    then commercial  pirates will jump onto the airwaves, with more   
+power, and try to force us off. This would be a major problem.<P>
+   It  is  a  mistake and an excuse to blame the Tories and  the   new draconian laws for the lack of 
+alternative pirates in  Britain. The main  thing  stopping  us  is the lack  of  any   strong  combative 
+movement (whether it be workers, women,  anarchist, or whatever) in which  to  build a big wave of  
+pirates, though there are literally millions of sympathetic  people about.<P>
+Medium wave<P>
+ADVANTAGES AND PROBLEMS<P>
+   At  the  moment FM broadcasting, with all its advantages,  is   the favorite  for pirates. But it's well 
+worth pointing out  that at least 25% of radio receivers in Britain can't even receive FM, so you can't pick 
+up most pirates on older radios. Another thing, in some hilly areas FM broadcasts have a very bad 
+coverage area.  And a third advantage, you can cover a very much bigger area on AM, at least  potentially. 
+AM can be the best choice for you, especially if  you're  in a country area, or in hills or  mountains,  or  
+only want  to  broadcast  by  day and aren't too   worried  about  sound quality. AM transmitters are also 
+fairly  cheap and easy to  build, and  because you use a crystal there's  no problem with  tuning  or with  
+'sprogs'  (harmonics). Though  the antenna is a  huge  length it's  just a roll of wire, and  doesn't 
+necessarily have to  be  up high,  which gives you a  quite different, if still limited,  range of  possible  
+broadcasting sites. AM works by bouncing radio  waves back off the stratosphere, not by line of sight like 
+FM.<P>
+   Of  course  there's  lots  of other disadvantages,  one  is   sound quality,  and stereo is out of the 
+question, and there's  not  much free  space  on the wave band, chiefly because of a  host  European 
+stations, which become stronger at night, blotting  your relatively weak signal (this is due to atmospheric 
+changes  we are told).  The TX  is  also bigger and heavier (about 12" x  8" x 6") and   you'll probably 
+need to use car batteries.<P>
+   One  thing  I  forgot, if you want to reach  any  of  the   50000 prisoners in British jails, you must use 
+AM, FM is still  banned  in prison, for some typically petty reason.<P>
+   It is also agreed that you're generally less likely to get  busted. In the present repressive climate that's 
+well worth  considering.<P>
+How to broadcast on AM (540 - 1600 kHz)<P>
+YOUR TRANSMITTER<P>
+   Enough general talk. So you want to broadcast on AM. So here's  how to  do it. First your transmitter. 
+Medium Wave transmitters  aren't so  hard  to build, any good amateur radio buff could do   it,  and 
+there's people around who will build them (reckon to  spend £100 to £150).  The  technology is tried and 
+tested and our  design  is  as good as any. The TX is valve operated and you use  a crystal (which you  
+have to order on the chosen wave length)  which keeps  you  on frequency  without the problems of FM. 
+So  you have to decide  from the start which frequency you're going  for and stick to it, or buy a  new 
+crystal. When choosing your  frequency remember that it must be  divisible by 9... AM  frequencies are 
+separated  by  9  kHz  by international treaty.  If your signal doesn't conform  you'll  probably  have  the  
+DTI  and police down on you faster.  If  you  have problems getting a  AM transmitter you may be able to 
+buy a kit  or adapt an amateur  radio transmitter.<P>
+ADAPTING A AM TRANSMITTER<P>
+   I'm  not  exactly an expert on this and the following  info   comes from  the US. Apparently you can 
+easily buy second hand  radio  ham transmitters  and  adapt them. The best to go for  is   the  Viking 
+Valiant  (200 watt) or the Viking Ranger (75 watt),  both  made  by Johnson  &amp   Co.  These ham 
+radios are well built,   have  excellent audio and moreover have built in VFO's (variable  frequency 
+oscillators)  which make them simple to modify to work  on the top end  of the  AM band. All you need to 
+do the RF (radio  frequency) circuits is to add capacitance to the 160 meter tuned  circuits. And all you 
+must  do  to  the  audio circuits is to  bypass the  first  pre-amp (assuming you're using a line level  instead 
+of a mike level).  One other thing, you must bypass the  speech frequency filter, which is located between 
+the 2nd pre-amp  and the driver.<P>
+   When  buying such a 2nd hand ham transmitter: A) Get one with   160 meter  capability. B) Don't pay 
+more than £100  for   one.  C) Make sure it has plate modulation (look inside and  check there are two  
+transformers well separated from each  other). D) Don't get a 'kit built' one with strange wiring and if  
+possible check the valves before buying, they're rather costly.<P>
+SETTING UP YOUR AERIAL (AM)<P>
+   Security precautions and preparation are the same as for  FM.   But there the similarity ends. For a start 
+your total aerial  length is 1/4 your wavelength, so if your wavelength was 200  meters, for  instance,  your 
+aerial would be 50 meters long! You  use  a  ordinary thin  single  strand wire. Buy a roll, keep it   on  the  
+roll  and measure  it  out, meter by meter. Ideally the  aerial  would  point straight up, but that's just not 
+feasible,  unless you hang it  out from the side of a tower block or a  steeple, or suspend it from  a balloon  
+(only the balloon blows  away). The normal method  is  the 'dogleg'  which  works just  fine. The ideal site 
+is  a  field,  or deserted  common land, far  away from houses, with two  tall  trees (only  2  if  possible,  
+poplars are best) about 30  to  40  meters apart. Now string the  'dogleg' between the trees and down to  
+your TX  without touching  branches or leaves. Sounds impossible? If you have  a trained  monkey that's 
+just fine. Otherwise try our method. Practice and  patience is necessary.<P>
+   Bring  along  with you a catapult, a long reel of 70 lb.   strength fishing line, a plenty of lead fishing 
+weights (not too  heavy  for the  catapult).  Also some small plastic rings (cut   out  lids  of plastic 
+containers work fine).<P>
+   Tie one end of the fishing line to a lead weight, leaving the  line coiled neatly and loosely on a piece of 
+bare ground. Then  fore the lead weight from the catapult right over the center of a  tree!  Go and  search 
+for it (don't try this at night). Tie on  your  plastic ring in place of the weight and pass about 30 meter  of 
+your aerial wire through the ring. Now get your mate to pull  the other end  of the  fishing line, if it 
+doesn't get tangled  pull it till the ring is about 5 meters from the tree top. Tie  the fishing line securely (to  
+the  tree), cut it, and head for  the second tree. Repeat  the performance,  firing right over the  tree from 
+the far  side.  Pull the aerial end through, and this  time tie it to the ring. Pull  up as  before to about 5 m 
+from  the top and tie the line. Now back to the  roll of aerial wire  (extended with fishing line as 
+necessary) and  start pulling it  in till it's suspended without touching  the trees!  It's hard to  get it just 
+right so the aerial reaches  your TX  and is tight,  adjust fishing line lengths and/or position of TX. Better  
+choose two trees too far apart than too close. When you finally   get  it all set it's hardly worth taking  it  
+down  again after  the broadcast, though you should loosen it off or it'll snap in   the  wind. Disguise it if 
+possible. A further problem  can  be with  kids  and passers by, disguise your actions, bringing   along 
+fishing  rods or a kite is a good ploy. One of the best   broadcast sites is a clearing in a large wood. On 
+Medium Wave  remember,  you can  go  right outside the city and still cover it  and  lots  more 
+besides.<P>
+SETTING UP THE GEAR<P>
+   The  transmitter should be on wet ground. If it's dry, wet it.  Mud is  good stuff. The aerial wire should 
+be taut all the way.  Bushes are  an  advantage, for concealment, but don't let any   touch  the aerial.  Your  
+power supply is a 12 volt car battery.   Bring  two, well  charged up, if you're broadcasting for more  than 
+few  hours, medium wave uses a lots of power. If your TX is  on mains (240 VAC) you'll have to get it 
+adapted using a 'rotary  inverter', it's  not difficult. A lorry battery is the real  thing, but what a  drag  to 
+carry! If there's a chance to go on  mains, by running a line  from somewhere,  you should go for it.  
+Otherwise wear old  clothes  and gloves  against acid spills.  When choosing your site  balance  the need 
+for remoteness with  the problems of moving the gear.<P>
+   The  transmitter  must  be  very well grounded,  the  earth   is  an essential  part of the aerial system. 
+Use a ring of  metal   stakes (e.g.  tent  stakes)  and  file off any  rust  or  dirt   for  good connections. 
+Attach the stakes securely to the chassis  of your TX, with  the  thick metal straps or wires held by  
+butterfly  nuts  or strong clean battery clips.<P>
+   So  far  so good. The cassette player, on the contrary, should   be off  the  ground, on a box or whatever. 
+As usual  keep  the   audio lead, battery leads and aerial wire as far apart as  possible.  The cassette  player  
+is  normally powered by  a  6   volt  motor  bike battery, with suitable leads. Torch batteries  are dear and 
+have  a pathetic life-span.<P>
+SWITCHING ON<P>
+   Connect  up  your batteries, load up your cassette player   with  a 'trial tape' and you're ready to go.<P>
+1) Turn tuning adjuster to the right till the meter  gives   the lowest reading.<P>
+2) Turn 'load' adjuster till meter rises about 50 milliamps.<P>
+3) Tune again till it drops about 25 mA.<P>
+4) Load up again as above.<P>
+5) Carry on procedure till you get a load of about 150 mA on a  20 W transmitter, or 100 mA on a 10 W  
+rig.  Your  last   tuning adjustment should produce virtually no dip on the meter  needle.<P>
+6) Adjust  modulation in relation to other channels to  get   your best  sound. Use a radio receiver held at 
+least 50 yards  away  for testing.<P>
+7) If there is crackling, knocking or bad sound, repeat from   the beginning.  Check that your stakes are in 
+well damp  ground,   that all  lines  are well separated, that aerial isn't touching   trees, hold receiver 
+further away etc. <P>
+   If  you've done all the above you should be broadcasting loud   and clear.  If your signal is still wretched 
+chances are your   crystal is burnt out, or something is blown. Then go home.<P>
+   If all is well, switch off and await the time of your program  is due  to  start. Don't detach aerial wire 
+with the TX still   turned on.<P>
+PACKING UP<P>
+   When  you're  finished,  switch off immediately.  Then   disconnect everything  and  pack into hold-alls 
+or large   plastic  bag.  Be especially  careful carrying the TX with it's  delicate  valves.  You should  have 
+several sites, and switch as  often as you can.  Don't re-use a site after an attempted bust.  If you have a 
+good dry safe stash  and  are coming back best  leave your transmitter,  cassette deck  and  leads  there,  
+and  just take  the  batteries  back  for recharging. Such a stash  should be in cover, be quite sure  a  
+hidden  watcher or bud with  binoculars couldn't spot you stashing the gear.  It's likely that  the DTI will 
+send in men to sneak  up  and watch you, prior to  planning a bust, so be careful, even when  not on air, 
+don't  relax till safely home.<P>
+WHEN ON AIR, PRECAUTIONS (AM)<P>
+   Read  the  FM  chapter 'How to get away with it'. A lot  of   those precautions also apply.<P>
+   At  a  AM  site your chances should be much better,  you  need   on person just to stay near the TX, in 
+case of kids, passers by   etc. and  to  grab or hide it fast when they get the danger  signal.  On many  sites  
+you  can work out lookout points to   give  plenty  of warning.  However  you might as well abandon   the  
+batteries,  and certainly  the  aerial,  if you have  to   run  far.  If  you  have transport  or good escape 
+routes you can  try a clean getaway,  but safer method is to hide the gear well  (not too close to the aerial if 
+it's left up) and beat it. We  favor bunkers, holes pre-dug and lined with waterproofs, under  rocks, with 
+heavy lids covered  with earth  and  bushes. In  theory they could find these with  dogs  or metal detectors, 
+but  we've never heard of them succeeding or  even trying  (you could  always bury bits of metal all over 
+the  place).<P>
+   The possibilities are unlimited, if you're on the ball there's  no reason  they should get the gear... and 
+without that they   have  a lousy case against you.<P>
+Busts.... If all goes wrong<P>
+   You're  nicked. What you say to them depends on the  circumstances. If they haven't got you, deny it 
+point blank, give them your cover story  and a verifiable address, and stick to your story no  matter what. 
+The problem with this is if they have nicked others and they give different stories, a different name for you 
+etc.  Best discuss all this beforehand. If caught on the hop, best say you don't know any of the others. 
+You're caught in the act or with the gear. Give them  a  verifiable  name and address and refuse  to  
+discuss  the matter further. No matter what. People have managed to get off in the  past,  even with the 
+gear in their hands, but under the  new laws this is unlikely.<P>
+   Although they can arrest and charge you, illegal broadcasting   is still normally treated as a 'summons 
+offense', which means   they question you, let you go (eventually), then summons you by   letter to  appear 
+in court. This opens possibilities of getting  away with it - you may  be able to snow them with a false  
+name  etc. (though they can now hold you on suspicion of doing  this for three days). They will normally 
+'ask to accompany to the  station', or if they've raided your flat may interrogate you  there and  then.  If 
+you refuse to go to the station they  will  arrest you (for obstruction, insulting words, suspicion of  stealing  
+electricity etc.)  and take you there, where you  can be interviewed  by  the police and DTI. The 'pretext 
+charge'  is often dropped later. When interviewed on the station it's  better really to  refuse  to  say 
+anything,  especially if there  are several of you,  cover stories usually  fall  apart under  long and detailed 
+questioning.  However silence usually means  they will hold you longer. If they get you to the station  they  
+are  pretty  certain  to  photograph  and fingerprint you.  You can't refuse under the Police Bill.<P>
+   When nicked your best bet is to remain calm.  Demand  to ring  your solicitor. Don't panic, it's not the  
+end  of the  world.  Smile at the bastards. Have a good time in the cell -you've done  your best.<P>
+Fighting your case<P>
+   It's  usually months before your summons arrives, if  they   decide they  have  a case. Get legal aid if at 
+all possible, and   a  good solicitor  who knows the, by now, pretty complex legal   situation.<P>
+   Plead  NOT  GUILTY, but beware if you have money, they  may   award costs against you if you lose. 
+Get your Bust Fund  together,  with gigs, jumble, radio appeals, donations all round  etc. It's good to 
+campaign  about  your  bust on the air if your   station  is  still going. Most commercial (read conservative)  
+pirates don't do  this, carrying their bid for respectability so  far as to ignore  their own best weapon. Make  
+sure the address  you gave when arrested  is 'clean',  they  could  possibly  raid   you  to  look  for  further 
+evidence.  If you're a political  station watch out for  suspicious break-ins where nothing is  stolen, the 
+Branch often do this. Get  your  story  straight,   get  witnesses  to  write  out  their statements  together, 
+make  copies and give them to your solicitor.<P>
+   Don't  trust  your  solicitor too far, they sometimes  say   'plead guilty'  just to save themselves trouble, if 
+he/she starts  getting cold feet get yourself a new one (they don't like this at  all  but it  can  be  done). Get 
+your solicitor to ask for   copies  of  the prosecutions  witness statements in advance of  the case  and  
+make sure  you  see  them. In court dress neatly  and be polite  to  the bastard (magistrate) and the filth. 
+Have a  good 'hard luck'  story for  your  solicitor to tell, it's always  good to say you're  just getting  
+married, starting a new job  etc., but don't say you  have money  or  the fines will be bumped  up higher. If 
+you're going  to 'bend  the truth' a little don't  tell your solicitor you're  doing it,  and  be sure friends  
+watching in court don't start  laughing!<P>
+   The DTI and police will lie anyway, more likely than not, get  your witnesses to focus on these lies and 
+your solicitor to cross   question  them closely, especially any police witnesses, who are   more stupid  and  
+inexperienced in this kind  of  case.     <P>
+   Demonstrations outside  the  court  are  good publicity and   can  intimidate  the magistrate if big 
+enough, but don't always  help your case (e.g. if you're pleading 'dumb bystander' how come  all these 
+people are  so concerned about you?). If you want  press, send out Press  Releases at  least  a  week in 
+advance, so  the hacks can put  it  in  their diaries, and phone sound with  reminders the day before. Your  
+fine should be paid by the Bust Fund if at all possible.  If not, extra costs  should be divided up among 
+everyone in the station (always plead  poverty and ask for time to pay). When  you've been busted once  
+you shouldn't, ideally, work on the broadcasting end again,  though you could still do lookout, backup, 
+monitoring  etc.,  as  second offenders normally  get  the  maximum fine.<P>
+   If you win the case, as quite often happens, have a good  party! If  you  win there is also some 
+possibility, in theory of  claiming the gear back, though this is much less likely under the  new laws.<P>
+   Ask  your  solicitor  about it, and there's a chance  get   someone else,  with  some kind of receipt, to 
+apply for it,  saying  they'd bought it before the bust.<P>
+Some adverts: <P>
+Radio Support Group<P>
+To  join  Radio Support Group and get updates and development   aid write to:<P>
+<P>
+Radio Support Group<P>
+c/o Drowned Rat<P>
+Box 010<P>
+27 Stokes Croft<P>
+Bristol<P>
+Avon BS1 3PY<P>
+<P>
+Free The Airwaves<P>
+BCM Box 1502<P>
+London WC1N 3XX<P>
+<P>
+Radio Crimes is the name of the FTA bulletin, and will carry   full technical updates on these designs, and 
+much more. To join  FTA and receive  the  bulletin  send  £2 (for organizations:   £10)  to  the address 
+above.<P>
+<HR>
+<H1><A NAME = V></A>V. The KZAR 
+Story</H1>
+<P>
+   If you can't afford the outrageous price-tag required to start a  licensed radio station, if you've tired of 
+commercial alternative  stations that play Nirvana ad nauseam, don't fret.<P>
+   It's easy for you to take matters into your own hands. Try  this recipe for making your own radio waves: 
+1) Know the right  electronics equipment dealers in town, they'll hook you up with  parts to make a 
+transmitter (about $50 per 5 watts: you'll  probably want at least 20 watts); 2) Buy an antenna, a  
+microphone, maybe a filter, a mixer and a CD player; 3) Round up  your friends, vote on a format, choose 
+a frequency, boost your  power, then snub your nose at the Federal Communications  Commission (FCC).  
+You owe it to yourself.  After all, you broke  the rules -- or, more exactly, the law.<P>
+   This rebellious, and, when you add music, romantic stealing of the airwaves was played out by Christian 
+Slater in 1990's "Pump  Up the Volume."  In Salt Lake City recently, it's become radio  reality on 
+Saturday nights at 11:30, sans the "young - man - with  - something - to - say" attitude of the Hollywood 
+movie.<P>
+   Promoting itself by way of flyers in Salt Lake City coffee shops, KZAR, or Zion Alternative Radio, 
+prides itself as a breed  apart from "those commercial money-grubbing giants."  That  explains its 
+"measly" output power of 35 watts.<P>
+   "After extensive research and help from listeners," so says the station's voice mail, four areas were 
+scouted for best  reception. Guaranteeing that Salt Lake's upper-class won't be  deprived of pirate radio, 
+KZAR comes in best in the Olympus Cove  and East Benches area.<P>
+   The other three are the Murray Area, the West Valley Area,  and, naturally, the higher North Benches 
+and Capitol Area.  If  you want to listen to KZAR in domestic comfort, you've got to  wire up your receiver 
+and string an antenna out the window.   Otherwise, KZAR is radio for the road.<P>
+   Nestled between KBYU (89.1) and KUER (90.1), KZAR seats its throne at 89.5 FM.  Station manager 
+Dmitri Baughman (a pseudonym) chose a lower band because, reportedly, the FCC is more lenient  on 
+pirate (unlicensed) broadcasters using the educational  frequencies, as opposed to the higher frequencies of 
+commercial  radio.  Pirate radio is not a violation the FCC takes lightly. "They [pirate stations] are illegal.  
+The FCC has sole  jurisdiction over airwaves and broadcast signals for the public  domain," said Tom 
+Hora, public affairs officer for FCC's eastern  California field office, which regulates Utah airwaves.      
+<P>
+   Recently, in California operators for the station Free Radio Berkeley were apprehended and fined 
+$20,000.  Federal regulations governing radio stem from the Communication Act of 1934, which  ruled 
+that the airwaves, unlike print media, are public, not  private property.  The United States isn't alone, as 
+Italy is the  only country that doesn't crack down on free radio operators.   Hora makes the point that 
+pirate broadcasters interfere with  other stations' legitimate use, cost consumers money, and even  
+endanger lives.<P>
+   "What if a commercial airline can't reach the control tower<P>
+because of a pirate frequency?  It has to turn around and try  again.<P>
+   That costs the airline fuel, which is passed on to consumers,"  Hora says.  "What if the pirate frequency 
+jams communication  between police and firemen and they can't respond to an  emergency?" he says with 
+a wild voice.<P>
+   The FCC isn't even the least bit curious about why people broadcast illegally.  Pirates are just a pain in 
+the neck.  "Why  do people shoplift?  Why do people do things they shouldn't do?   It's impossible to 
+determine," says FCC engineer Bill Zears.<P>
+   Nationwide, the motives are as varied as the U.S. population.<P>
+Until recently, an Illinois man used his homemade station to  broadcast jazz and black nationalist news 
+and opinions on such  topics as police brutality.  In Michigan, one couple used a  transmitter to broadcast 
+anti-gay propaganda, and, of course,  Neo-nazis get in on the act.<P>
+   Overseas, the aim is more about music. English pirate station Caroline even led directly to the country's 
+first popular music station, BBC's Radio 1.<P>
+   Baughman's motives are personal and political, not overtly<P>
+malicious or sociopathic.  His first introduction to the idea was through the computer network, Internet.  
+Since then, he's been broadcasting on-and-off since late June.  Understandably,  Baughman declined an 
+in-person interview and photos.<P>
+   "To be honest, I like to play DJ.  It's a small movement and I wanted to be part of it.  I'm pretty much 
+anti-government  anyway," he says.  Baughman and his group of "sandbox" radio  enthusiasts, as he puts 
+it, have enough power to broadcast over  the entire valley, but need a higher antenna, an item that's next  
+in line for purchase.<P>
+   The listening menu is a loose "alternative" format that, disappointingly, often veers on the commercial, 
+especially on  Chloe Devereaux's "Blood, Death, and Roses" segment of the  broadcast.  The The, New 
+Order and INXS are probably the last  bands you'd expect to hear on a pirate station.  They're easy  
+pickings on commercial radio, but KZAR is proud to bring them to  you.  Broadcasting into 4 a.m., 
+however, the mix became more  subversive: Meat Beat Manifesto, Sex Gang Children, and  techno-rave 
+beats.<P>
+   The best feature of KZAR is its news segment, chock full of enough conspiracy theories to make Oliver 
+Stone look like an  amateur. News item: "The U.S. Government is using  closed-captioned decoders 
+installed in TV sets to obtain  classified information about American homes."<P>
+   Pirate radio's national agenda reaches far above mere music, though.  According to Baughman, its true 
+goal is to obtain FCC  rights for micro-broadcasting licenses, more reasonable  licensing costs, and get 
+FCC bureaucrats to tune in to the  positive effects of small stations serving the community.<P>
+   That will be a long time coming.  Until then, Baughman and crew will turn on the transmitter every 
+Saturday night and claim  a small piece of turf among Salt Lake City's 40-odd radio  stations.<P>
+   Other stations have yet to complain to the FCC about any  signal interference.<P>
+   "I really don't give it [pirate radio] much legal thought,"<P>
+Baughman says.  "When something does happen and I do get caught,  I'll worry about it then."<P>
+<HR>
+<H1><A NAME = VI></A>VI. The 
+Ramsey FM-10 micro-transmitter.</H1>
+   Here is a compilation of information about the Ramsey FM-10,  and other BA1404 Stereo FM 
+broadcasters.  Some of the  modifications may make your BA1404 based broadcaster illegal to  use on the 
+open airwaves in the US and Canada.  Also it has been  brought up that the stock Ramsey FM-10 kit may 
+exceed FCC power  limits when used with a proper antenna.<P>
+ Recommended Test Equipment<P>
+   An SWR/Power meter is a giant help, a CB to 2 meter one will  suffice. Power readings will not be 
+accurate, but can be useful  for peaking. The most important part is the SWR meter, this is  very important 
+when making an antenna.<P>
+   A note on power meters: The above power meters are recommended  because they are inexpensive and 
+most people that are interested  in hacking a FM-10 have very limited funds.  These are by no  means 
+accurate, but they will give you some idea what is going  on.  If you can spend the money you can get an 
+accurate power  meter that is designed for this band, but the cost is 10-15 times  more.<P>
+   A 50 ohm non inductive load is also very helpful, for low  power applications a 50 ohm 1/4 or 1/2 watt 
+carbon resistor works  well.  This can be used to tune up your kit and amp without  interfering with 
+anyone.  Also note that you can run as much  power you want, legally, as long is it doesn't radiate.<P>
+   A VOM is also very helpful.  It is worth the extra bucks and  buy one with a frequency counter (if you 
+shop around, about  $60-$70).  Buy the one that covers audio to 20 MHz (or more).  If  you are serious 
+about electronics you need one of these! <P>
+Dummy load<P>
+   Dummy loads are great for testing, without radiating a signal.   In fact you can run as much power as 
+you want into one of these  things legally!<P>
+   Basically you want to create a non-inductive 50 ohm load.   This can be done with regular carbon 
+resistors, or by buying pre  built Amateur or CB radio loads.  For low power ( &lt .5 watt ) an  ethernet 
+terminator works well (check temperature when using if  it gets very hot lower input power, if it is still 
+cool you may  be able to go up to .75 watt.) Most CB loads use a 2 watt carbon  50 ohm resistor.<P>
+   You can build your own, as wimpy or as sturdily as you want by  running resistors in parallel to create 
+50 ohms.  i.e., 2 100 ohm  1/4 watt resistors will create a 1/2 watt 50 ohm load...<P>
+   Do not use 50 ohm wire wound resistors, they are not 50 ohms  at radio frequencies.   <P>
+Ramsey's Address<P>
+   If your looking to purchase a FM-10 kit and can't find one  locally try :<P>
+  <P>
+  Ramsey Electronics, Inc.<P>
+  793 Canning Parkway<P>
+  Victor, New York 14564<P>
+  Phone (716) 924-4560<P>
+  FAX   (716) 924-4555<P>
+  <P>
+Ramsey FM-10 70 mw output amplifier<P>
+   Provides almost 9 db gain to bring the output power of the  Ramsey FM-10 Stereo transmitter from 8 
+mw to 70 mw  Not the best  design, but all parts can be found at Radio Shack! <P>
+  <P>
+                            +12 v<P>
+                            |<P>
+                            /<P>
+                            \ R1 *220 ohms(1/2 watt)<P>
+                            /<P>
+                            \<P>
+                   R2 9k    |       C2<P>
+                 -/\/\/\/-----------||-----&gt  output<P>
+                |                             /<P>
+                |                    /<P>
+                |   |          /<P>
+            C1  |   |/         &lt ----------MPS2222A (276-2009    <P>
+      in  --||------|\              -or-  2N4401<P>
+            ^       |  -&gt  --<P>
+            |              |<P>
+            |              GND<P>
+    currently on board<P>
+    * you can also use 2 440 ohm 1/4 watt resistors run in parallel<P>
+     This thing can be built right on the underside of the FM-10  kit, C1 is the cap that currently goes to the 
+RCA ant jack, the  9k and the 220 ohm resistor have to be bought, note that if you  cannot find 220 ohms 
+you can make one by using 2 440 ohm  resistors in parallel, and that a 10k will work in place of the  9k 
+but yields poorer performance (-5%).<P>
+   The MPS2222A is from Radio Shack part number 276-2009, use  this part! If you substitute it for a 
+2N2222A you will get only  half the gain.  Be very careful to get the leads in the correct  orientation!<P>
+   The 2N4401 can be used in place of the MPS2222A with a little  better performance, about 5 mw more.  
+The 2N4401 can be found at  Radio Shack, too.<P>
+   C2 is of the same value of C1, this is the one that goes to  the on board antenna pad.<P>
+   Important, the value for R1 that seems to be optimal is 220  ohms, but it is very close to the sat point, If 
+the amp seems  noisy (interferes with the TV etc.) back this value off to 240  ohms.  If you lower this 
+value below 205 ohms the power meter may  read higher power but this will not be true, the transistor will  
+be spewing all kinds of junk and the power meter will mistake  this for higher output (in reality the signal 
+we want will drop<P>
+considerably.)<P>
+   After this modification the, effective range with a good  antenna should be a little over double.<P>
+  Ramsey PA-1 2-meter to 3-meter conversion mod<P>
+   The Ramsey 2-meter amp (PA-1) can be converted for use on the  FM broadcast band.  The inductors L1 
+and L2 need to be changed to  the following: <P>
+ L1 -    Should be replaced with a 1-turn 1/4" diameter coil,  Identical to the stock L2 shown in the PA-1 
+manual.<P>
+ L2 -    Should be replaced with a 2 turn 1/4" diameter coil,  one more turn than the above coil.<P>
+  Tune up should be the same as in the PA-1 Manual.  Note that a  FM-10 kit cannot be used to drive a 
+PA-1 kit alone.  The FM-10  kit doesn't put out enough power to turn on the PA-1 kit running  class-c.  So 
+you have two options.  One, you can do the "biased  on" (newer kits may call this class-b) modification 
+shown in the  PA-1 manual.  Doing this you can drive the PA-1 with a stock  FM-10, yielding about 200-
+300mw of output power.  Or two, you can  drive the PA-1 with the output of the 70 mw amp shown above 
+and  get close to a watt of output power.<P>
+   It should be noted here that running the PA-1 "biased on" (or  class-b) produces a much cleaner output 
+signal than running the  PA-1 class-c.  Also that you can run the PA-1 "biased on" while  driving it with 
+the 70 mw amp, but you will show slightly less  gain than in class-c.<P>
+ANTENNAS  <P>
+   Antenna are the most important thing that  you can do for  extended range.  A 1/4 wave ground plane 
+can be built using a UHF  connector and 5 lengths of copper plated brazing rod (found at  the local 
+welding shop).  Works great and only cost $3 dollars to  make.<P>
+   Remember good antenna will improve you range much further than  a good amp into a bad antenna.  So 
+this should be your 1st  project to increase your range.<P>
+  Use the formulas out of your FM-10 manual  234/freq=length of  rod.<P>
+  Example : 234/88Mhz = 2.66 feet * 12 in/feet = 31.9" -or-<P>
+            234/108Mhz= 2.17 feet * 12 in/feet = 26"<P>
+  Insert the 4 ground plane rods in the 4 holes of the UHF  connector, stick them through about 1/4 inch 
+and solder.  Solder  the radiator in the top of the UHF connector (you may have to  grind it a bit to fit.)  
+Then bend the ground plane rods to a 45  degree angle to the radiator.  This makes a very effective  
+antenna, just connect with a 50 ohm CB cable to your amplified  Ramsey, stick the antenna in a tree or in 
+another high place and  you should have 1 miles of solid coverage (when using the above  amp.).<P>
+   If you have an SWR meter you can cut the rods a little longer  and start clipping the ends off a little 
+until you get the best  SWR reading.<P>
+   Be careful when you bend the brazing rod, don't break the  connector. Grab the rod right below the 
+connector with a pair of  vice-grips and bend the brazing rod at that point.<P>
+   Try not to have anything metal near the radiator, this will  effect the radiation pattern. The radiation 
+pattern should look  a lot like a deformed doughnut surrounding the radiator<P>
+On The Road<P>
+   Old magnet mount CB antennas can make great mobile antennas,  simply take the base load out of them 
+and cut the radiator to 1/4  wave length.<P>
+   If you need a longer radiator than the one that comes with the  antenna use the above mentioned brazing 
+rod.<P>
+   This antenna works great!  It is better than a dipole and you  can drive to a high, optimal location for 
+your broadcasts (and  you can see the vans coming for miles.   Also with this setup you  need very little 
+coax cable.  Line loss using RG-58u can be  killer at 100MHz. You could also try a 5/8 wave length 
+antenna, this would give  you 2+db gain, or almost 2 times power gain on transmit.<P>
+Filter design for FM Radio Transmitters.<P>
+   It is very important to have a clean signal. 99% of all people  who get busted for illegal transmitting is 
+that the neighbors complain about interference.  Most of this interference is caused  by harmonics. Filters 
+cut down these spurs. Don't draw  attention to yourself, be clean, and use a filter.<P>
+   When you amplify a signal, you get unwanted by-products these  are called harmonics.  The show up at 
+multiples of your starting  frequency.  For example, if you amplify a 50MHz signal you may  get spurious 
+signals on 100MHz, 150MHz, 200MHz, 250MHz...  If you  interfere with your neighbors TV, the local 
+fire department, or  anyone else, you are just asking for trouble.  If you are only on the FM Band with a 
+clean signal, you will hardly be noticed.<P>
+Filter Designs<P>
+  Filter Design: 7 element Chebyshev<P>
+  Designed for 88.1 Mhz. First harmonic is 176.2 Mhz<P>
+  <P>
+  Fc               3db     20db    40db<P>
+  85.8MHz         95.9MHz 116MHz  148MHz<P>
+  <P>
+                .132uh    .150uh     .132uh<P>
+          -----()()()-----()()()-----()()()-----<P>
+            |          |          |          |<P>
+  &lt -50ohm   - 33pF     - 68pF     - 68pF     - 33pF  50ohm-&gt <P>
+            -          -          -          -<P>
+            |          |          |          |<P>
+          --------------------------------------<P>
+                           |<P>
+                          ---<P>
+                           -<P>
+  <P>
+   Lowering the 33pF caps to 30pF and the 68pF caps to 62pF would  make this filter suitable for higher 
+frequencies like 100MHz.<P>
+  Filter Design: 5 element Chebyshev<P>
+  <P>
+  Fc               3db     20db    40db<P>
+  81.8MHz         105MHz  147MHz  222MHz<P>
+  <P>
+               .128uh     .128uh<P>
+          -----()()()-----()()()-----<P>
+            |          |          |<P>
+  &lt -50ohm   - 30pF     - 62pF     - 30pF  50ohm-&gt <P>
+            -          -          -<P>
+            |          |          |<P>
+          ---------------------------<P>
+                       |<P>
+                      ---<P>
+                       -<P>
+  <P>
+  The tough part in the above is winding the coils. 3t of #12  wire 1/2" diameter should be about .12 uh. 4t 
+is .17 uh. (but ugh,  #12 wire is big stuff). You could just use molded inductors,  these work well.  Try to 
+use fixed value caps, or fixed value  with small 5pF trimmers.  The latter works well when you have a  
+spectrum analyzer available for tuning the filters.<P>
+    <P>
+Very simple filter.<P>
+  <P>
+                        .15uH<P>
+  from TX       &gt ------()()()------&gt     to antenna<P>
+                    |          |<P>
+                    - c1       - c2<P>
+                    -          -<P>
+                    |          |<P>
+                   ---        ---<P>
+                    -          -<P>
+  <P>
+        88MHz   102MHz     107MHz<P>
+  c1     62pF     54pF      50pF<P>
+  c2     62pF     54pF      50pF<P>
+  <P>
+   It won't attenuate the harmonics as much as the other two  designs but it uses standard off the shelf 
+parts.  The inductor  is one of those molded units that looks like a resistor so you  can make this very 
+small.  You may stack these things to make a  better filter.   Each stage will knock the 2nd harmonic 
+down  about 15db.<P>
+   Use the above cap values depending on which frequency range  you want to operate at.  i.e.. if you run 
+87-90 use the 88MHz  values,  90-103 use 102MHz values, and above that use 107MHz values.  Try to use 
+fixed value parts!<P>
+   [Also of interest is that the FM-10 puts out about 8-9mw and  the 2nd harmonic is -25db off the 
+fundamental (frequency we are  broadcasting on).  The FM-4 Kit by Ramsey puts out 130mw and the  2nd 
+harmonic is only -12db off the fundamental, which means the  2nd harmonic of the FM-4 is about as 
+powerful as the FM-10.  db  is log10, i.e. 3db is 2 times 6db is 4 times...]<P>
+  <P>
+FM-10 Myths<P>
+   There have been several myths about the FM-10 kit, the most  prevalent are :<P>
+  1) The FM-10 puts out 100mw of power.  This is not true, or at  least not true for common Ramsey FM-
+10's.  They put out between 8 and 12mw when driven with a 12 volt supply.  (Note: there has  been several 
+revisions of the FM-10, it is possible that the  original version put out more power, but that is highly 
+unlikely  since it would require another amplifier stage.) Also the FM-10  is the only low cost kit with an 
+amplifier stage.  Most others  have power outputs in the fraction of a mw area.<P>
+  2) The FM-10's output can be cranked up by reducing the value  of R9.  This, like the above is not true.  
+R9 and R10 are  optimized for maximum output and greatest harmonic suppression at  12 volts.  There 
+are much better ways of getting more output  power than to mess with this output stage.  Lowering the 
+value of  R9 will most likely degrade the FM-10's performance and cause  lots of interference.<P>
+FM-10 Improvements <P>
+Stereo Pilot Mod<P>
+   One of the first problems experienced with the FM-10 is  difficulty in getting the stereo pilot to operate 
+correctly.  One  solution is to replace C7 and C8 with a 38KHz crystal,  this  works the best and is 
+recommended.  If you cannot find a 38KHz  crystal, you can make your life a whole lot easier with a 
+couple  part changes.  As indicated on the Ramsey schematic, about 110pF  is necessary to tune the 
+oscillator.  The components supplied to  achieve this are a small fixed value capacitor (C7) and a  slightly 
+larger value trimmer (C8).  Since proper setting of the trimmer occurs within a very small 'window' (about 
+5% of the  trimmers range), it can bet difficult or impossible to adjust the  pilot to 19KHz and have it stay 
+put.  This can be cured by  increasing the value of c7 to 100pF and replacing c8 with a  6-50pF trimmer 
+(Radio Shack #272-1340); a 5-30pF trimmer will do  the trick.  The RS trimmer will not fit the holes in 
+the pc  board; one needs to cut the leads off a spare resistor and solder  them to the legs of the trimmer 
+(just use bits of wire) to mount it on the component side of the board.<P>
+   On a 2nd note: Replace c7 with a 68pF cap and it is much  easier to tune a rock solid 19KHz at the test 
+point.<P>
+<P>
+NOTE: Ramsey now includes a crystal with all FM-10 kits. Owners  of the old kits can contact Ramsey 
+for an upgrade kit, which  includes a crystal.  <P>
+<P>
+Crystal Mod<P>
+          old set up       new setup<P>
+            c8               c1 xtl  where c1=10pF and xtl=38KHz<P>
+          |-||-|           |-||-|\|-|<P>
+          | c7 |           |        |      v8=var cap<P>
+          |-||-|           |        |      c7=cap<P>
+          |    |           |        |<P>
+  <P>
+  Remove C7 and C8, replace with 38KHz crystal and 10pF cap.   Note that the 10pF cap and the crystal 
+are running series and the  old cap setup is running in parallel.<P>
+   Note: there have been good and bad reports on using the Epson  crystal from digi-key.  People say the 
+crystal is quite delicate,  and in at least one case the experimenter destroyed the crystal.<P>
+   In one of the positive cases, C1's 10pF cap was replaced by 2  22pF caps run in parallel, this yielded a 
+rock solid stereo.<P>
+  <P>
+Treble Boost Mod-<P>
+   Treble boost (pre-emphasis) improvement.  The FM-10 appears to  have been designed by someone 
+outside the United States since it  operates at the European audio standard of 50 microseconds.  Receivers 
+in the US are set up for 75 microsecond de-emphasis.  R3 and R6 determine the time constant for the pre-
+emphasis curve.  Replacing them with 75K ohm resistors (standard value 68K ohm is  close enough) will 
+result in improved audio response.<P>
+   A much better pre-emphasis/input circuit is shown in the July  1992 issue of "Radio Electronics".  Not 
+only do they use 75K ohm  resistors in there pre-emphasis, but they filter stray RF signals  by inserting a 
+.001 cap between pin 1 (of the BA1404) and ground,  and pin 18 and ground.<P>
+   It has been noted that the above mod may actually cause  distortion on cheaper stereo receivers, since 
+they were mass  produced for the world market, they were designed for the  European audio standard, 
+which Japan and other Asian nations use  too.  Try it out, let me know what works for you.<P>
+  <P>
+Anti-Drift Mod<P>
+   There has been quite a bit of discussion on the FM-10's  frequency stability. Complaints that digital 
+receivers cannot  lock onto the FM-10's signal for any great length of time. The  below mod has been used 
+with good results using a N750 negative  temperature compensated disc, but Mylar or Polystyrene caps are  
+even better.<P>
+   The FM-10 was designed to be inexpensive and cost-saving  measures with components are inevitable. 
+Disc ceramic capacitors  are less expensive than silver-mica caps, and also much less  stable.  Simply 
+replace c16 with a silver-mica, tantalum or  negative temperature compensated disc (say anywhere from 
+N150 to  N750) cap of the same value.<P>
+  <P>
+Sources<P>
+   The following is a list of sources for items used for  modifications, replacement parts, or other kits and 
+equipment  used in FM radio transmitting:<P>
+  <P>
+BA1404s and other FM Broadcaster kits can be found at :<P>
+  <P>
+D.C. Electronics<P>
+Phone: 1-800-467-7736  &amp  1-800-423-0070<P>
+Fax:1-602-994-1707<P>
+  <P>
+   They sell BA1404s for $2 a piece, seems to be the best deal  going. Also they Sell 38KHz crystals for 
+$5.99, which is also a  fair deal, the crystals are tiny ones like the digi-key ones, but  are a different brand 
+and work without problems.<P>
+<P>
+38KHz Crystals can be obtained by calling :<P>
+  <P>
+Digi-Key at 1-800-DIGI-KEY.<P>
+  <P>
+38.000 KHz by Epson America, Digi-Key part No. is SE3314<P>
+(see notes on crystal mod on using this crystal) Note that<P>
+this is a cylinder type crystal and is delicate. You are probably better off getting the 38KHz crystals from 
+D.C. Electronics.)<P>
+<P>
+   Panaxis Productions makes some very high quality FM  transmitters.  The last word in Transmitting, 
+tons of kits.<P>
+  <P>
+Panaxis Productions<P>
+PO Box 130                      <P>
+Paradise, CA  95967-0130.             <P>
+(916)534-0417<P>
+  <P>
+Catalogs are $2, well worth it, a must have item.<P>
+  <P>
+A little taste of there catalog :<P>
+  <P>
+MMC1 Macromod Compander for 2:1 compression<P>
+Plans $12, PCB $18, P+P 26.50, Full kit $87<P>
+  <P>
+SG High performance stereo generator<P>
+Plans $15, PCB $13.5, P+P 26.50, Full kit $105<P>
+  <P>
+FME PLL FM exciter<P>
+Plans $17.5, PCB $15, P+P 24.50, Full kit $129<P>
+  <P>
+More expensive than a FM-10 but much higher performance.<P>
+<P>
+   A company called Progressive Concepts sells plans for a 88MHz  to 108MHz amp.  The power curves 
+show that 12mw in will yield 2.5  watts, but can be driven harder for up to 12 watts. <P>
+  <P>
+Plans only in U.S., $16 (a bit spendy, ouch!)<P>
+Progressive Concepts<P>
+1313 N. Grand Ave.  #291<P>
+Walnut, CA. 91789<P>
+<P>
+<P>
+   If your looking to purchase a FM-10 kit (or a PA-1 kit) and  can't find one locally try :<P>
+  <P>
+Ramsey Electronics, Inc.<P>
+793 Canning Parkway<P>
+Victor, New York 14564<P>
+Phone (716) 924-4560<P>
+FAX   (716) 924-4555<P>
+  <P>
+Should be $29<P>
+<P>
+The makers of the infamous BA1404 :<P>
+  <P>
+Rohm Corporation<P>
+Rohm Electronics Division<P>
+3034 Owen DR<P>
+Jackson Business Park<P>
+Antioch, TN 37013<P>
+  <P>
+PH:  (615)-641-2020 (ask for someone who deals with the BA1404)<P>
+FAX: (615)-641-2022<P>
+  <P>
+Also they have:<P>
+  <P>
+PO Box 1399<P>
+Antioch, TN 37011-1399<P>
+<P>
+Miscellaneous:<P>
+  <P>
+   The 2SC2570 is supposedly replaceable with an ECG10.  The  MRF901 can also be used as a 
+replacement, although it is tough to  mount. Try mounting it on the bottom of the pc board and  
+connecting the whip antenna pad to ground plane. MPS901s seem to  replace the 2SC2570 directly. They 
+use the same case, but check  the pin-outs.  MPS918s work well also.<P>
+   The MRF239 can be used as direct replacement for the Ramsey 2  meter PA-1 kit.  Cost is around 
+$14.<P>
+   Newark also has the 38 KHz crystals for $2.90 <P>
+<P>
+<HR>
+<H1><A NAME = VII></A>VII. A TV 
+Transmitter</H1>
+<P>
+  For some time now it has been possible to construct a  clandestine television station, which you can 
+operate from your  Telecommando Lair, or modify or Mobile Media Guerrilla campaigns.<P>
+   This device has been named the Snow Box, due to its cool  nature, and the snow seen on blank 
+television channels waiting to  be commandeered.<P>
+   To put together a TV station you will need this stuff:<P>
+<P>
+1) A VCR or Camcorder with video or RF outputs<P>
+<P>
+2) A Ham Radio 6-meter Band Linear amplifier<P>
+This boosts the RF signal from the VCR for broadcasting. The Linear Amp should have a bandwidth of 6 
+MHz for best  results. A cable television RF distribution amplifier may also be  used.<P>
+<P>
+3) Coaxial cable with UHF connectors<P>
+(Connects the Linear Amp to the Antenna)<P>
+<P>
+4) A cable-TV patch cable with an F-connector and a UHF connector. (To connect the RF signal to the 
+Linear Amp) (F-connectors are the small ones used with cable TV) (UHF connectors are the large  ones 
+used for Ham Radio)<P>
+<P>
+If your VCR does not have RF outputs:<P>
+<P>
+   An external RF modulator (converts video to channel 3,6,12  etc.), a cable with RCA connectors (a 
+standard stereo cord is ok)<P>
+<P>
+5) A 6-meter Ham radio antenna.<P>
+If you do not have a pre-made 6-meter antenna:<P>
+     About 20 feet of strong wire<P>
+     3 ceramic antenna insulators<P>
+     another UHF connector<P>
+<P>
+   Likely places to get the linear amplifier, connectors and  cables is a Ham Radio swapmeet, a Ham club 
+newsletter's  classified ads, a Buy-Sell-Trade paper like The Recycler, or at a  store specializing in Ham 
+gear.<P>
+   RF modulators are available at specialty video stores, or  major VCR dealers.<P>
+<P>
+Setting Up the Transmitter: <P>
+Using a VCR with RF out:<P>
+<P>
+[VCR/RF]F--------------U[Linear Amp]U------------U[Antenna]<P>
+         weak RF                            Power RF<P>
+<P>
+Using an External RF Modulator:<P>
+<P>
+[VCR]R----R[RF Modulator]----U[Linear Amp]U--------U[Antenna]<P>
+       video                 weak RF                 Power RF<P>
+<P>
+Diagram Symbols:<P>
+<P>
+U    UHF-connectors (Ham radio)<P>
+F    F-connectors   (cable TV)<P>
+R    RCA connectors (stereos)<P>
+---  coax, cables, wires<P>
+[]   devices (name of device in brackets)<P>
+&lt I&gt   ceramic insulator (the kind with a hole at each end)<P>
+<P>
+Building The Dipole Antenna:<P>
+<P>
+          wire                        wire<P>
+&lt I&gt ---------------------+&lt I&gt +----------------------&lt I&gt <P>
+                        |   |<P>
+           Short coax   |   |<P>
+                         [U]    UHF connector<P>
+<P>
+   The antenna is set up much like a clothesline with the wires  tethered straight out horizontally. The 
+outer insulators are used  to isolate the antenna from the tether lines, which should be  rope or nylon cords 
+for good results. The inner insulator  isolates a gap between the two long wires of the antenna.<P>
+   The length of the wires used for the antenna is critical. Look  up the length in feet for the channel you 
+want to use in the  table below &amp  make each of the two long wires that length.<P>
+   As a rule of thumb, a wire half-wave antenna's length in feet  is equal to 468 divided by the frequency in 
+MHz.<P>
+<P>
+****************************************<P>
+     VHF Television Channel Data<P>
+----------------------------------------<P>
+  TV     MHz      ---carrier---  antenna<P>
+channel range     video   sound  lengths<P>
+------- -----     -----   -----  -------<P>
+ 2      54-60     55.25   59.75  8.47ft<P>
+ 3      60-66     61.25   65.75  7.64ft<P>
+ 4      66-72     67.25   71.75  6.95ft<P>
+ 5      76-82     77.25   81.75  6.05ft<P>
+ 6      82-88     83.25   87.75  5.62ft<P>
+ 7     174-180   175.25  179.75  2.67ft<P>
+ 8     180-186   181.25  185.75  2.58ft<P>
+ 9     186-192   187.25  191.75  2.49ft<P>
+ 10    192-198   193.25  197.75  2.42ft<P>
+ 11    198-204   199.25  193.75  2.34ft<P>
+ 12    204-210   205.25  209.75  2.28ft<P>
+ 13    210-216   211.25  215.75  2.21ft<P>
+        (All frequencies in MHz)<P>
+  (Lengths are for half-wave antennas)<P>
+****************************************<P>
+<P>
+   For Further information: Look in the ARRL Handbook published  by the American Radio Relay League 
+for detailed plans &amp  theory  for antennas, transmitters &amp  linear amplifiers. The info in that  book 
+can be used for setting up an underground AM or FM radio  station.<P>
+<P>
+Uses for a TV Clandestine Station:<P>
+<P>
+   Public Education: Make a videotape of each step in the process  of constructing your transmitter. Show 
+this tape in your  broadcasts, "For informational purposes only", of course.<P>
+   Short-burst zipping: From a fixed or mobile base of operation  show short snippets of graffiti-like 
+computer graphics, quick  subliminal messages, images &amp  suggestions, or brief phreaker  manifestos. 
+Commercials are an opportune time to break into TV  broadcasts.<P>
+   Live call-in shows: Using a Cheese Box, or other device for  receiving untraceable phone calls and a 
+video camera do a live  call-in show. Encourage people to call in using Red, Blue, and  other phreaking 
+boxes.<P>
+   Cable TV Piracy: With modifications it may be possible to feed  the power RF signal directly into a 
+cable TV system, overriding  cablecasts or commandeering unused channels.<P>
+   Mobile Operation: Using storage batteries and a 110-volt  inverter the transmitter may be modified for 
+mobile use to avoid  detection by the FCC during long broadcasts. Battery operated  mobile linear amps 
+and portable camcorders are also available.<P>
+<HR>
+<H1><A NAME = VIII></A>VIII. Build 
+this 5 to 45 watt FM amplifier.</H1>
+<P>
+                     25-200MHz / 8-45W AMP<P>
+<P>
+                   --------------------O input<P>
+                   |     D1            |<P>
+                   *-------|&gt |----     --)|--<P>
+                   |    R2  --   |       C1 | R1<P>
+                   *---/\/\/-----*----------|-/\/\/---<P>
+                   |     ^                  |        |<P>
+                   |  C2 |     R3           |        |<P>
+                   *--)|-*----/\/\/----*-----        |<P>
+                   |                   |             |<P>
+                   |                   /             |<P>
+                   |                   \             |<P>
+                   |                   / R4          |<P>
+                   |                   \             |<P>
+                   |                   |  g          |<P>
+                   |               Q1  -----         |<P>
+                   |                   -----         |<P>
+                   |                  s| ^ |d   L1   |<P>
+                   *-------------------|_| |-*-(()((-*<P>
+                   |    &lt  C3            L2   |       |<P>
+                   *-----)|---*-------(()((--|   C5  |<P>
+                   |          |                --)|--*<P>
+                   |          |   &gt  output     | C6  |<P>
+                   |          --|(----O     -----)|--*<P>
+                   |            C4    |-----|        |<P>
+                   --------------------    ---       |<P>
+                                            -       +12-24V<P>
+<P>
+ Symbols Key<P>
+=============<P>
+  &gt                                           g<P>
+-|(-    =  trimmer capacitor            -----<P>
+                                        ----- = RF pwr trans.<P>
+-|(-    =  capacitor                    | ^ | g)ate s)rce d)rain<P>
+                                       s|_| |d<P>
+-/\/\/- =  resistor<P>
+                                           *  = connection point<P>
+-(()((- =  coil<P>
+    __                              --|-- = jump (not connected)<P>
+-|&gt |--- = Zener diode                     ___<P>
+  --                                       _    = ground<P>
+<P>
+Component Listing<P>
+=================<P>
+R1    - 2.5K ohm                    L1 - 5 turns, #18 varnished,<P>
+R2    - 20K ohm trimmer potentiometer     5/16" inside diameter<P>
+R3    - 68 ohm<P>
+R4    - 10 ohm                      L2 - 3 turns, #18 varnished,<P>
+C1    - 220pF Tantalum, 35 volt           5/16" inside diameter<P>
+C4    - 16-100pF trimmer capacitor<P>
+C2,C6 - 4.7uF Tantalum, 35 volt      D1 - 1N5230 (4.7V Zener  diode)<P>
+C3    - 8-50pF trimmer capacitor<P>
+C5    - .1uF ceramic disc capacitor, 50 volt   Q1 - (see chart)<P>
+<P>
+Transistor Data  (input --&gt  output at 100MHz, 24 and 12 volts)<P>
+===============<P>
+PART #    IN      OUT     IN      OUT<P>
+------   ----     ---    ----     ----<P>
+MRF134 - 0.4W --&gt  8W  || 0.6W --&gt  3.5W<P>
+MRF136 - 0.4W --&gt  19W || 0.6W --&gt  8.5W<P>
+MRF137 - 1.0W --&gt  45W || 1.0W --&gt  17W<P>
+MRF138 - 1.5W --&gt  45W || 1.5W --&gt  15W<P>
+             [24V]           [12V]<P>
+<P>
+* ASSEMBLY: Watch it with static around the TMOS transistor.  It  is VERY sensitive.  If there's any 
+static voltage difference  between the drain or gate and the source, you can toast it!  Keep  it in the static-
+proof bag in which it was shipped until you're  ready to install it as the LAST component. Then solder the 
+source  tabs first, then the gate (opposite diagonal tab) and<P>
+drain (diagonal) tabs.  (See diagram:)<P>
+                              S /\      __  D<P>
+                                \  \___/  /<P>
+                             /====\/MRF\/====\<P>
+                           | O   | 137 |   O |  &lt --- mtng flange<P>
+                             \====/\___/\====/<P>
+                                /  /   \  \<P>
+                              G \/       \/ S<P>
+<P>
+Mount the TMOS flange to a metal box with some heatsink compound.   Ground your PCB to the same 
+cabinet.<P>
+<P>
+* TESTING: Connect the output to a dummy load which can handle  the power level you'll be generating.  
+Set the trimpot at  mid-range and apply your 12 or 24V. At this point, the power  transistor shouldn't get 
+warm until you turn the pot up more.  If  it does start to warm up, turn the pot down a bit until the  
+temperature remains the same or lowers.  DO NOT adjust past this  point.  Now feed your RF signal to the 
+amp's input.  Use C3  (tuning) and C4 (load) to adjust for maximum output.  You may  also have to 
+readjust R2 for the best reading.  Keep an eye on  the meter for sudden jumps in output - this shouldn't 
+happen.<P>
+<P>
+* TROUBLESHOOTING: If tuning is erratic, the amp is probably  going into self-oscillation which can 
+be caused by insufficient  grounding, bypassing of the power supply leads, too long of input  or output 
+wires, or too high a bias.<P>
+<P>
+* PARTS: Contact "RF Parts" at 619-744-0728 for the transistor  you choose.  Ask them for their latest 
+flyer, too.  It's free.   Your local electronics supplier other than Radio Shack ought to  have everything else 
+you'll need (at least mine does!).  If not,  try "Mouser Electronics" at 800-346-6873 and get their free<P>
+catalog, too.<P>
+<HR>
+<H1><A NAME = IX></A>IX. Build this 
+high performance J-Pole antenna.</H1>
+<P>
+<P>
+       3 Meter Slim-Jim Antenna (JIM = J Integrated Match)<P>
+<P>
+                          |    | &lt -- spacing: 3" at 72MHz<P>
+      _________            ____                 _________<P>
+      ^    90 degree --&gt   /    \                        ^<P>
+      | copper elbows     |    |                        |<P>
+      |                   |    | &lt -- 1/2" pipe elements |<P>
+      |                   |    |                        |<P>
+      |                   |    |                        |<P>
+      |                ^  |    | ^                      |<P>
+      |                |  |    | | arrows indicate      | 1/2<P>
+      |                |  |    | | current direction    | wave<P>
+      |                |  |    | |                      |<P>
+      |                   |    |                        |<P>
+      |                   |    |                        |<P>
+      | 7.8' (89.5MHz)    |    |                        |<P>
+      |                   |    v --&gt  sleeve for tuning  |<P>
+      |                   |     ---&gt  3" air gap  _______V<P>
+      |                   |    |                        ^<P>
+      |                   |    |                        |<P>
+      |                 | |    | ^                      |<P>
+      |                 | |    | |                      |<P>
+      |                 | |    | |                      | 1/4<P>
+      |                 v |    | |                      | wave<P>
+      |                   |    |                        |<P>
+      |                   *    X &lt - tap *=ctr conductor |<P>
+      |                   |    |           X = shielding|<P>
+      v_________          \____/                 _______v     <P>
+<P>
+<P>
+NOTE: Adjust 1/4 wave and 1/2 wave section lengths as follows:<P>
+<P>
+1/2 wave section=5610/MHz Example: 89.5MHz = 5610/89.5 = 62.68"<P>
+1/4 wave section=2805/MHz          89.5MHz = 2805/89.5 = 31.34"<P>
+* 1/4 wave freespace=2953/MHz      89.5MHz = 2953/89.5 = 32.99"<P>
+<P>
+    * distance that antenna should be from mounting boom, mast,  or tower.<P>
+<P>
+DESCRIPTION:<P>
+   This is a vertically polarized omnidirectional free space  antenna which offers approximately 1.8dB of 
+gain.  It has a  radiation efficiency 50% better than a ground-plane antenna due  to its low radiation angle, 
+it is unobtrusive, and has no  ground-plane radials - therefore low wind resistance.<P>
+   Why Slim Jim?  Well this stems from its slender construction  and the use of a 'J' type matching stub (J 
+integrated matching =  JIM) that facilitates feeding the antenna at the base thus  overcoming and 
+problems of interaction between feeder and  antenna.  The feed impedance is 50 ohms.<P>
+   Why is the Slim Jim so much more efficient than the popular  5/8 wave or other ground plane antennas, 
+despite the latter's  claimed 3dB over a dipole?  The Slim Jim vertical angle of  radiation is almost parallel 
+to ground so maximum radiation is  where it is needed: straight out and all round.  (The included diagram 
+illustrates that the vertical angle from the SJ is 8  degrees, while the common 5/8th wave ground plane 
+antenna is  about 32 degrees.)  With all ground planes, including those with  radials an entire wavelength 
+long, the vertical angle radiation  is tilted upwards at an angle of 30 degrees or more.<P>
+   This gives the Slim Jim a gain over a 5/8th wave of 6dB when  measured parallel to the ground!<P>
+<P>
+OPERATION:<P>
+   Basically it is an end-fed folded dipole operated vertically.   The matching stub provides a low 
+impedance feed point (50 ohms)  at the base and couples to the antenna section at high impedance  at one 
+end.  As with all folded dipoles, the currents in each leg  are in phase, whereas in the matching stub they 
+in phase  opposition, so little or no radiation occurs from this.  (See  diagram for current direction 
+arrows.)  Correctly matched, the  VSWR (Voltage Standing Wave Ratio) will be much less than 1.5:1,  
+and remains so across the band.<P>
+<P>
+CONSTRUCTION:<P>
+   The Slim Jim should be constructed from 1/2" copper pipe.  The  bends are made with soldered 90 
+degree copper elbows.  A slip  sleeve made from copper can be added to the element above the gap  for 
+tuning purposes, although the average length of the gap and  spacing between the elements is 3" at 
+72MHz and 1" at 220MHz.  No  part of the antenna should be grounded to the tower or mast.  The 
+recommended mount is the use of PVC pipe and PVC pipe "T's."     <P>
+   Make sure the space between the tower or mast and the antenna  is one "freespace" 1/4 wavelength.<P>
+<P>
+TESTING:<P>
+   Stand upright (on a railing or something, but clear of metal  water tanks,  drainpipes, etc.) and fit the 
+coaxial cable to the  antenna with some crocodile clips.  Attach about 2 inches up from  the bottom and 
+check the VSWR.  Adjust the clips up or down to  get the best match (mine managed 1.2:1), mark where 
+they are to  go, remove the clips, and solder the coax directly.  Use the  copper sleeve, if added, for any 
+necessary tuning.<P>
+<HR>
+<H1><A NAME = X></A>X. A 15 Watt 
+Phase Locked FM Transmitter</H1>
+   This simple little phase-locked transmitter is both easy to  build, and extremely stable. It will not 
+frequency drift, like  the other transmitters presented in this book.<P>
+   The frequency is set by first adjusting the variable inductor  in the oscillator circuit to near the desired 
+frequency. After  the oscillator is close, program the dip switches with the  desired frequency. <P>
+   The dip switches are programmed with a binary representation  of the operating frequency. For 
+example, if the frequency is 88.1  Mhz, you would take the binary of 881, which is 000011101. A one  
+means that the switch is on the 'ON' position. Note that the  right most bit is 1024, and the left most is 
+1.<P>
+<P>
+<P>
+PLL Transmitter 1<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+PLL Transmitter 2<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+PLL Transmitter 3<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+PLL Transmitter 4<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<HR>
+<H1><A NAME = XI></A>XI. The 
+BA1404 stereo transmitter IC</H1>
+<P>
+   Around 1988, the Rohm company introduced a revolutionary IC.  This IC has a complete stereo 
+generator and transmitter on chip.  This allows one to build extremely small and light-weight  
+transmitters.<P>
+   The main drawback of the BA1404 is that it only has an output  of 8 to 10 mW. This can be amplified. 
+See the FM-10 section.<P>
+   Following are complete specifications for the '1404, as well  as a couple good schematics for 
+constructing a transmitter that  is similar to the Ramsey FM-10.<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+BA1404 Specs 1<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+BA1404 Specs 2<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+BA1404 Specs 3<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+BA1404 Specs 4<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+BA1404 Specs 5<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+BA1404 Specs 6<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<HR>
+<H1><A NAME = XII></A>XII. Other 
+Books Available from RF Consulting:</H1>
+<P>
+<P>
+Cellular Telephone Technology<P>
+<P>
+This book covers, in depth, all aspects of the inner workings of cellular telephone service, from 
+programming instructions, to detailed protocol descriptions. Complete frequency charts and a 
+comprehensive glossary of terms are also included. $19.95 delivered.<P>
+<P>
+Computer and Telephone 'Hacking'<P>
+<P>
+This extensive work covers every facet of computer and telephone hacking, from cracking passwords, to 
+building telephone 'color' boxes. Several popular computer operating systems are covered, as well as 
+telephone switching system operation. This book is a must-have for the serious computer and telephone 
+enthusiast. $19.95 delivered.<P>
+<P>
+Scanning and Two-Way Radio Techniques<P>
+<P>
+Everything from finding police and fire frequencies, to operational theory are covered in this informative 
+book. General frequency lists are given, as well as extended frequency modifications for popular scanners. 
+This book contains everything for the serious scanner hobbyist. $19.95 delivered.<P>
+<P>
+<P>
+RF Consulting<P>
+935 Sequoia<P>
+Corvallis, OR 97330<P>
+(503) 740-8132<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+<P>
+</HTML>

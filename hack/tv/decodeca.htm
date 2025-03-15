@@ -1,0 +1,507 @@
+
+<html>
+<hr>
+<pre>
+
+Hi,
+  Attached find the list of Xpress tokens, and what they mean.  Some of this
+is figured out by taking there program apart, and others are from context.
+I'll also include a very primitive program, for UNIX, that decodes the
+headers in the datastream.  The packet boundary marker is a 0xFF.
+
+  Karen and I are going to go to San Diago for a weekend sometime in the
+Fall.  We have a couple of frequent flyer tickets that will expire if we
+don't use them by about September.  Any interest in meeting us there?
+
+See ya,
+JIm
+
+============================================================================
+
+
+# MAIN MENU
+N******* "News"
+S******* "Sports"
+W******* "Weather"
+L******* "Lifestyles"
+E******* "Entertainment"
+T******* "Tech Talk"
+M******* "Shopping"
+I******* "Information on X*CHANGE"
+X******* "Inside X*PRESS"
+B******* "Business Wire"
+F******* "Financial News"
+
+# BUSINESS WIRE
+B??AG*** "Canadian Press(CP): Business Report"
+B??HS*** "McGraw-Hill News SNAPSHOT"
+B??RB*** "BUSINESS-WIRE: Company PR W.R.T. Stock"
+B??RP*** "PR Newswire"
+B??SI*** "NYSE Standard and Poors Indices"
+
+# ENTERTAINMENT
+E??H**** "The Stars"
+E??L**** "TV Schedules"
+E??M**** "Movies, Books, and Music"
+E??S**** "TV Scope"
+E??W**** "What's happening"
+
+# FINANCIAL NEWS
+F??CC*** "Commodity Commentary"
+F??CF*** "Weekly Farm Report"
+F??CP*** "Commodity Prices"
+F??F**** "Weekly Mutual Fund Commentary"
+F??MC*** "Money Commentary"
+F??ME*** "Foreign Exchange Rates"
+F??MM*** "Interest and Money Rates"
+F??MU*** "US Treasury Bills Rates"
+F??O**** "Financial News Headlines"
+F??Og*** "Selected Press Releases/Financial Reports"
+F??Oi*** "Daily Insider Trading Report"
+F??PMR** "Today's Interest Rates"
+F??POC** "Market Statistics"
+F??POM** "Just a Reminder!"
+F??SA*** "Hourly Dow Jones Averages"
+F??SC*** "New York Stock Market Commentary"
+F??SD*** "Daily Dividends"
+F??SR*** "Daily Most Active Stocks"
+F??TIG** "Daily Gold and Silver Prices"
+F??TM*** "Metals Prices"
+
+# X*CHANGE INFORMATION
+I??C**** "Computers and You"
+I??I**** "Inside your Head"
+I??P**** "Pot Shots"
+I??R**** "Religion, Sex, and Politics"
+I??S**** "Students, Teachers, and Parents"
+I??T**** "Teen Talk"
+I??U**** "Using Information X*Change"
+I??W**** "The World Around You"
+
+# LIFESTYLES
+L??C**** "Careers"
+L??E**** "Food"
+L??F**** "Family Today"
+L??H**** "Fitness & Fun"
+L??M**** "Moneywise"
+L??T**** "Trends & Events"
+
+# SHOPPING
+M??B**** "Best Buys"
+M??Bg*** "Newsletter Samplers and Information"
+M??F**** "Fleamarket"
+M??S**** "Shopper's Showcase"
+M??Sq*** "Online catalog"
+M??T**** "Travel and Leisure"
+M??Tl*** "Ski Area Snow Reports"
+
+# NEWS
+N??B**** "Business & Finance"
+N??E**** "Opinions & Editorial"
+NA****** "Headlines"
+NA*C**** "AP Commentary"
+NA*Ci*** "States News Service: Merger Information and Rumors"
+NA*H**** "AP Headline Stories"
+NA*N**** "AP News Story"
+NC*H**** "Canada"
+NC*N**** "CP Editorial"
+NCEN**** "CP In Depth Story"
+NI1***** "France"
+NI3***** "Republic of China, Taiwan"
+NI5***** "West Germany"
+NI6***** "Japan"
+NI7***** "Mexico"
+NI8***** "Oil Exporting Countries"
+NI9***** "Soviet Union"
+NIA***** "Other International News"
+NIB***** "People's Republic of China"
+
+# SPORTS
+S??H**** "Sports Headlines"
+S??S**** "Sports General Schedules
+S??T**** "Sports TV Schedules"
+S??F**** "Pro Football"
+S??F1*** "Pro Football News"
+S??F2*** "Pro Football NFL News"
+S??F3*** "Pro Football CFL News"
+S??D**** "Pro Baseball"
+S??D1*** "Pro Baseball News
+S??D2*** "Pro Baseball Major League News"
+S??D3*** "Pro Baseball Minor League News"
+S??B**** "Pro Basketball"
+S??P**** "Pro Hockey"
+S??K**** "Pro Soccer"
+S??G**** "Pro Golf and Tennis"
+S??U**** "USA Collage Sports"
+S??C**** "Canadian Sports"
+S??M**** "Other Sports"
+S??Q**** "Sports Quiz Questions"
+S??A**** "Sports Quiz Answers"
+
+# TECH TALK
+T??A**** "Apple Technical News"
+T??Ab*** "Apple Bulleten Board"
+T??Bb*** "IBM PC and Clone Bulleten Board"
+T??C**** "Commodore Technical News"
+T??Cb*** "Commodore Bulleten Board"
+T??I**** "IBM PC Technical News"
+T??Ib*** "IBM PC Bulleten Board"
+T??M**** "Other PC Technical News"
+T??Mb*** "Other PCs Bulleten Board"
+T??N**** "Technical News"
+# WEATHE
+WI****** "International Weather"
+WN****** "USA National Weather"
+WS****** "USA State Weather"
+WC****** "Canadian National Weather"
+WR****** "Canadian Regional Weather"
+WSA***** "Alabama Weather
+WSB***** "Alaska Weather"
+WSC***** "Arizona Weather"
+WSD***** "Arkansas Weather"
+WSE***** "California Weather"
+WSF***** "Colorado Weather"
+WSG***** "Connecticut Weather"
+WSH***** "Delaware Weather"
+WSI***** "District of Columbia Weather"
+WSJ***** "Florida Weather
+WSK***** "Georgia Weather"
+WSL***** "Hawaii Weather"
+WSM***** "Idaho Weather"
+WSN***** "Illinois Weather"
+WSO***** "Indiana Weather"
+WSP***** "Iowa Weather"
+WSQ***** "Kansas Weather"
+WSR***** "Kentucky Weather"
+WSS***** "Louisiana Weather"
+WST***** "Maine Weather"
+WSU***** "Maryland Weather"
+WSV***** "Massachusetts Weather"
+WSW***** "Michigan Weather"
+WSX***** "Minnesota Weather"
+WSY***** "Mississippi Weather"
+WSZ***** "Missouri Weather:
+WSa***** "Montana Weather"
+WSb***** "Nebraska Weather"
+WSc***** "Nevada Weather"
+WSd***** "New Hampshire Weather"
+WSe***** "New Jersey Weather"
+WSf***** "New Mexico Weather
+WSg***** "New York Weather"
+WSh***** "North Carolina Weather"
+WSi***** "North Dakota Weather"
+WSj***** "Ohio Weather"
+WSk***** "Oklahoma Weather"
+WSl***** "Oregon Weather"
+WSm***** "Pennsylvania Weather"
+WSn***** "Rhode Island Weather"
+WSo***** "South Carolina Weather"
+WSp***** "South Dakota Weather"
+WSq***** "Tennessee Weather"
+WSr***** "Texas Weather"
+WSs***** "Utah Weather"
+WSt***** "Vermont Weather
+WSu***** "Virginia Weather"
+WSv***** "Washington Weather"
+WSw***** "West Virginia Weather"
+WSx***** "Wisconsin Weather"
+WSy***** "Wyoming Weather"
+WR1***** "Alberta/North West Territories Canadain Regional Weather"
+WR2***** "British Columbia Canadain Regional Weather"
+WR3***** "Mantoba/Saskatchewan Canadain Regional Weather"
+WR4***** "The Maritimes Canadain Regional Weather"
+WR5***** "Newfoundland/Labrador Canadain Regional Weather"
+WR6***** "Ontario/Great Lakes Canadain Regional Weather"
+WR7***** "Quebec Canadain Regional Weather
+WR8***** "Yukon Canadain Regional Weather
+# INSIDE X*PRESS
+X??B**** "X*Press Bulletins"
+X??N**** "X*Press News"
+X??P**** "X*Press New Services"
+X??S**** "What to Watch for in X*Press"
+X??T**** "X*Press User Tips"
+
+============================================================================
+
+This program runs against a data file that contains raw Xpress datastreams
+If you can write a small PC program to read from the com line and write to
+the file, you ought to be all set.  Be sure to use the correct I/O routines
+for DOS or you might find funny EOFs.
+
+
+
+/* This program is designed to parse a large file of X*Press raw data      */
+/* into individual articles.  These articles will then be output to        */
+/* stdout formated as best I can.  The headers will, for sure, be right    */
+
+#include &lt stdio.h &gt
+#include &lt fcntl.h &gt
+#include &lt ctype.h &gt
+#include &lt signal.h &gt
+#include &lt time.h &gt
+#include &lt errno.h &gt
+#include &lt sys/termio.h &gt
+#include &lt sys/tty.h &gt
+#include &lt sys/types.h &gt
+#include &lt sys/times.h &gt
+
+/* Local defines                                                           */
+#define SOH    0xFF                /* Start Of Header for Link level       */
+#define LLHLEN 6                   /* SOH,SEQ.low,SEQ.high,6 more bytes    */
+#define ARHLEN 23                  /* Article header length                */
+#define ARMLEN 8                   /* Article header minimum length        */
+
+/* Local global variables                                                  */
+char *cats = "NSWLETMIXBF"
+/* resync - This routine will read from the fd passed until it gets a SOH  */
+resync(fd)
+  FILE *fd;                        /* The file descriptor to read from     */
+
+{
+  int rc = 0x03;                   /* Init to something                    */
+
+  /* Loop through looking for SOH                                          */
+  while (rc!=SOH)
+    {
+    rc = getc(fd);                 /* Read the next byte from file         *
+    if (rc == EOF)                 /* Have we bumped into the end of file? */
+      {                            /* YES - Ok,the program is done         *
+      printf("***EOF***\n");       /* Say all done                         */
+      exit(0);
+      }
+    }
+
+  /* Put the SOH back on the stream and return                             */
+  if (EOF == ungetc(SOH,fd))       /* Try to put the SOH back              */
+  {                                /* It didn't work                       */
+    fprintf(stderr,"resync:Unable to place SOH back in stream\n");
+    exit(8);
+  }
+
+  return;
+}
+
+
+
+main(argc,argv)
+  int argc;
+  char *argv[];
+
+{
+  FILE *fd;                        /* Used to open '/tmp/siolog'           */
+  int i,j;                         /* Misc. guys                           */
+  unsigned short seq;              /* The sequence number for stream       */
+  int getseq = 1;                  /* Beginning sequence num must be set   */
+  int isok;                        /* Flag set if article type is known    */
+  int doprt;                       /* The print/noprint flag               */
+  unsigned char data;              /* The byte being checked               */
+  unsigned char s_low,s_high;      /* Sequence number low & high bytes     */
+  unsigned int utmp,dtmp;          /* Used for stuff likes equence numbers */
+  unsigned char LLHead[LLHLEN];    /* Link Layer Header                    */
+  unsigned char ARHead[ARHLEN];    /* Article header                       */
+  unsigned char outarray[17];      /* The output array we are building     */
+
+
+  /* Replace # with * in the input parms for match                         */
+  if (argc &gt 1)
+    {
+    j = strlen(argv[1]);
+    for (i=0;i &lt j;i++)
+      if (argv[1][i] == '#')
+        argv[1][i] = '*';
+      els
+        if (argv[1][i] == '@')
+          argv[1][i] = '?';
+    }
+
+  /* Attempt to open the file and bomb if it's not there                   */
+  fd = fopen("/usr/spool/xpress","r");
+  if (!fd)                         /* Is the file available?               */
+    {                              /*  NO - Ok, all done then              */
+    fprintf(stderr,"main:Unable to open Xpress datastream file\n");
+    exit(8);
+    }
+
+  /* Before the main loop, try to sync on a SOH                            */
+  resync(fd);                      /* Get to beginning of article          */
+
+  /* The main loop                                                         *
+  while (!feof(fd))                /* Loop until data exhausted            */
+  {                                /* We are at the beginning of stream    */
+    if (SOH!=(data=getc(fd)))      /* We should beat a SOH character       */
+      {                            /* Error out if we aren't               */
+      fprintf(stderr,"main:Missing SOH for a new record\n");
+      exit(8);
+      }
+
+    /* Try to the the link layer sequence number                           */
+    s_low = getc(fd);              /* Get the sequence number low byte     */
+    s_high = getc(fd);             /*   and the high byte                  *
+    utmp = 256 * s_high + s_low;   /* Make it into a real number           */
+    if (feof(fd))                  /* Did anything bad happen?             *
+      {                            /* Sometimes I get tired of error chking*/
+      printf("***EOF***\n");       /* If EOF,then all done                 */
+      exit(0)
+      
+    /* Check the sequence number for a match                               *
+    if (getseq)                    /* Should we get the sequence number?   */
+      {                            /* YES - Ok, utmp contains seq#         */
+      seq = utmp;                  /* Get the initial sequence number      *
+      getseq = 0;                  /* Reset the flag that says we got it   *
+      }
+    else
+      if (++seq != utmp)           /* Check for a sequence number match    *
+        {                          /* I'll probably have to do more here...*/
+        dtmp = 100;                /* See how far off we are?              *
+        j = 0;                     /* Total number of trys                 */
+        while ((dtmp &gt 10) && (j &lt 10))
+          {
+          resync(fd);              /* Find the next SOH                    */
+          getc(fd);                /* Get the SOH, and ignore it           */
+          s_low = getc(fd);        /* Get the sequence number low byte     *
+          s_high = getc(fd);       /*   and the high byte                  */
+          utmp = 256 * s_high + s_low;
+          if (feof(fd))            /* Did anything bad happen?             *
+            {                      /* Sometimes I get tired of error chking*/
+            printf("***EOF***\n"); /* If EOF,then all done                 *
+            exit(0)
+            }
+          dtmp = abs(utmp - seq);  /* Find a new offset                    */
+          j++;                     /* Count this iteration                 */
+          
+        if (j == 10)               /* Did we get completely lost?          *
+          printf("main: Expecting seq number %u, resynced to %u\n",seq,utmp);
+        els
+          if (seq != utmp)         /* Did we find the one we wanted?       */
+            {                      /* Much stuff to do here                *
+            if (abs(utmp - seq) &gt 10)
+              printf("main: Expecting seq=%u, resynced to seq=%u\n",seq,utmp)
+            seq = utmp;
+            }
+        }
+
+    /* Get the rest of the Link Level header                               */
+    for (i=0;i &lt LLHLEN;i++)         /* Get the rest of link layer header    *
+      {
+      j = getc(fd);                /* Get a single character               */
+      if (j == EOF)                /* Did we run out of runway?            */
+        {                          /* YES - All done then?                 */
+        printf("***EOF***\n");
+        exit(0);
+        }
+      LLHead[i] = (unsigned char)j; /* Save the byte we just grabbed.      *
+      
+    /* Fill in the article header                                          *
+    for (i=0;i &lt ARMLEN;i++)         /* Get the minimum article header length*/
+      {                            /* Try to move the header in            *
+      j = getc(fd);                /* Attempt to get a header byte         */
+      if (j == EOF)                /* Make sure we didn't EOF the sucker   */
+        
+        printf("***EOF***\n")
+        exit(0)
+        
+      ARHead[i] = (unsigned char)j; /* The byte we just grabbed            *
+      
+    /* If the article ID token is known, get the rest of the header        *
+    isok = strchr(cats,ARHead[0]) ? 1 : 0;
+    for (i=ARMLEN;i &lt ARHLEN;i++)    /* Loop through the rest of the header  */
+      if (isok)                    /* Is this a 'known' article?           *
+        {                          /* YES - Fill in the rest of the header */
+        j = getc(fd)
+        if (j == EOF
+          {
+          printf("***EOF***\n")
+          exit(0);
+          }
+        ARHead[i] = (unsigned char)j;
+        
+      else                         /*  NO - Lots more work to go           */
+        ARHead[i] = 0x00;          /* Just fill in empty header stuff      */
+
+    /* Display the header information                                      */
+    data = ARHead[ARMLEN];         /* Remember the first header byte       *
+    ARHead[ARMLEN] = 0x00;         /* Null terminate the type              */
+    doprt = 1;                     /* Assume we print this one             */
+    if (argc &gt 1)
+      if (strcmp(ARHead,argv[1])
+        doprt = 0;                 /* If we didn't match                   */
+    if (doprt
+      {
+      printf("%5.5u",seq);         /* Start of header                      */
+      printf("%c ",(isok ? '&gt' : '}'));
+      for (i=0;i &lt LLHLEN;i++)       /* Print every byte of header           */
+        printf("%2.2X",LLHead[i])
+      printf(" %8.8s ",ARHead);    /* Show article type                    */
+      ARHead[ARMLEN] = data;       /* Restore article header byte          *
+      
+    if (isok && doprt)             /* Do we know about this article type?  */
+      {                            /* YES - Decode and print header        */
+      printf("%2.2X/%2.2X/%2.2X %2.2X:%2.2X:%2.2X.%2.2X "
+             ARHead[ARMLEN+1],ARHead[ARMLEN+2],ARHead[ARMLEN+0]
+             ARHead[ARMLEN+3],ARHead[ARMLEN+4],ARHead[ARMLEN+5]
+             ARHead[ARMLEN+6]);
+      for (i=ARMLEN+7;i &lt ARHLEN;i++
+        printf("%2.2X",ARHead[i]);
+      }
+
+    /* Scan the rest of the data in this article                           */
+    ARHead[8] = 0x00;              /* Mark the end of the string           */
+    data = SOH;                    /* Assume we don't print data           */
+    j = 0;                         /* Number of bytes output so far        */
+    if (argc &gt 1)                  /* Are there any arguments?             *
+      if (!strcmp(argv[1],"ALL"))  /* Do they want everything printed?     *
+        data = 0x00;               /* YES - We will display the whole thing*/
+      else                         /* Otherwise display only matches       */
+        if (!strcmp(argv[1],ARHead))
+          data = 0x00
+    if ((data != SOH) && doprt)    /* Do we need to finish the header?     *
+      printf("\n");                /* YES - Do it                          */
+    while (data != SOH)
+      {                            /* Loop through until eof or 1st SOH    */
+      data = getc(fd);             /* Get the next data byte               */
+      if (data == EOF)             /* Are we at the end of the line?       */
+        {                          /* YES - Easy to handle that then       *
+        printf("***EOF***\n");
+        exit(0)
+        
+      if (data == SOH)             /* Have we picked up the SOH?           *
+        {                          /* Try to return it to the stream       *
+        if (EOF == ungetc(SOH,fd)) /* Try to put the SOH back              *
+          {                        /* It didn't work                       *
+          fprintf(stderr,"resync:Unable to place SOH back in stream\n");
+          exit(8)
+          
+        
+      else
+        {                          /* Ok, a good byte.  Display it         */
+        i = j % 16;                /* Where are we in the line?            */
+        outarray[i] = data;        /* Get the data byte in outarray        *
+        switch (i)                 /* There are enough formatting states   */
+          
+          case 15:                 /* The last byte on a line?             */
+            printf(" %2.2X |",data);
+            for (i=0;i &lt 16;i++
+              printf("%c",(isprint(outarray[i])) ? outarray[i] : '.');
+            printf("|\n")
+            break;
+          case 0:                  /* The first byte on the line?          */
+            printf("       %4.4X: %2.2X",j,data);
+            break;
+          case 8:                  /* Is it the middle byte?               *
+            printf(":%2.2X",data);
+            break;
+          default
+            printf(" %2.2X",data);
+            break;
+          }
+        j++;                       /* Count another character read         */
+        }                          /* else                                 *
+      }                            /* while                                *
+      if (doprt) printf("\n")
+      resync(fd);
+  }                                /* while                                */
+}
+
+</pre>
+<hr>
+</html>

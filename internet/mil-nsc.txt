@@ -1,0 +1,1909 @@
+               MILNET NODE SITE COORDINATORS                    11-Oct-95
+
+IMPNUMBER/NAME              NET NAME       24 HOUR POC
+   NSC NAME                                [E] = Emergency phone
+   ADDRESS                                 [A] = After hours phone
+   PHONE                                   [H] = Home phone
+
+      TAC NUMBER            TAC NAME
+                            GATEWAY
+
+2  PATCH-BARRACKS           MIL            +49-711-680-7222 or           
+                                            711-680-5817 
+                                           (DSN) 314-430-7222 
+                                           (DSN) 314-430-5817
+   Kloss, Randolph W. (RK22)  (rkloss@FRG.BBN.COM)
+   Box 98, Unit 30403
+   DISA-Europe
+   APO, AE 09131
+   011-49-711-6805532 011-49-711-6805534 315-430-5532 011-49-711-6871285
+
+      26.1.0.2                             PATCH.MT.DDN.MIL
+      26.4.0.2, 136.221.40.2, 136.221.37.1, 136.221.31.1 STUTTGART-GW1.AR
+      26.18.0.2                            PATCH2.MMT.DDN.MIL
+      26.19.0.2, 137.95.1.1                PATCH-GW.EUCOM.MIL
+
+3  SANDIEGO-NOSC            MIL            (619) 553-2306/2698 
+                                           (DSN) 553-2306 
+                                           (FAX) (619) 553-6811
+                                           24 hr ops phone 
+                                           (619) 553-2252
+   Hendrix, Eric J. (EJH2)  (hendrix@NERF.NOSC.MIL)
+   NCCOSC RDTE DIV 0299
+   53560 Hull Street
+   San Diego, CA 92152-5001
+   (619) 553-2698 (619) 553-2293 553-2698 (619) 553-6811
+
+      26.0.0.3                             SANDIEGO.MT.DDN.MIL
+      26.1.0.3, 128.49.16.2, 132.249.16.18 NOSC-GW.NOSC.MIL
+      26.27.0.3, 144.141.1.1, 157.153.254.1 SIMASD-GW.NAVY.MIL
+
+4  CAMPBELL-BARRACKS        MIL            +49 06221-57-8797 
+                                           (DSN) 314-370-8797 
+                                           (DSN) 314-370-7001 
+                                           (DSN) 314-370-8530
+   Hubbard, Carol E. (CEH41)  (nsc-hdl@DDN-EUR.DDN.MIL)
+   HQ USAREUR
+   CMR 420, BOX 1444
+   APO, AE 09063
+   06221-578954 +49-6221-57-8302 370-8954 DSN 370-9933
+
+      26.1.0.4                             CAMPBELL-BKS.MT.DDN.MIL
+      26.5.0.4, 136.214.10.1, 144.170.12.2 HEIDELBERG-GW1.ARMY.MIL
+      26.6.0.4                             BDKRZNCH.MMT.DDN.MIL
+      26.06.0.4                            SCHWETZINGEN.MMT.DDN.MIL
+      26.10.0.4, 147.40.1.1                MANNHEIM-GW1.ARMY.MIL
+
+6  ROTTERDAM                MIL            (DSN) 314-362-2435 
+                                           (DSN) 314-362-2210
+   Scarlett, Thomas (TS197)  (scarlett@RDM-LINK.EUCOM.MIL)
+   MTMC Europe
+   PSC 72, Box 180
+   APO, AE 09715
+   [31] (10)459-2570 (314)362-2570 (314)362-2426
+
+      26.0.0.6                             ROTTERDAM.MT.DDN.MIL
+      26.14.0.6, 147.169.7.1               SCHINNEN-GW1.ARMY.MIL
+      26.17.0.6, 192.42.247.1              RDM-LINK-GW.EUCOM.MIL
+      26.18.0.6, 26.14.0.5                 ROTTERDM-GATEWAY.ARMY.MIL
+
+9  SIGONELLA-NAS            MIL            +39 95-86-5761 
+                                           (DSN) 314-624-5761
+    (TS197)  (scarlett@RDM-LINK.EUCOM.MIL)
+   
+   [31] (10)459-2570 (314)362-2570 (314)362-2426
+
+      26.0.0.9                             SIGONELLA.MT.DDN.MIL
+
+10 ROTA-NS                  MIL            +34 56 822787 
+                                           (DSN) 314-727-2787 or         
+                                            314-727-2332
+   Smith, Robert A. (RAS61)  (NSC-RTA@DDN-EUR.DDN.MIL)
+   NCTAMS MED DET ROTA SP
+   ATTN: TECH CONTROL
+   PSC 818
+   FPO, AE 09644-1000
+   011-34-56-82-2644 011-34-56-82-2575 314-727-2787 011-34-56-82-2644
+
+      26.0.0.10                            ROTA.MT.DDN.MIL
+      26.7.0.10, 132.55.15.0               MORON-GW.AF.MIL
+      26.8.0.10                            LERT-GW.NAVY.MIL
+      26.10.0.10                           ROTA-BUMED.NAVY.MIL
+
+12 VICENZA                  MIL            +39 44451-7714 or +39         
+                                            44451-7813 
+                                           (DSN) 314-634-7714 
+                                           (DSN) 314-634-7813
+   Beck, Julie (JB483)  (NSC-VICENZA@EURU1-GW.DISA.MIL)
+   54th Signal Command
+   Attn: AS#-M-V-DEB
+   DDN Node Site Coordinator
+   APO, AE 09221
+   +39 44451-7714 (DSN) 314-634-7714
+
+      26.0.0.12                            VICENZA.MT.DDN.MIL
+      26.4.0.12, 131.48.15.0               AVIANO-GW.AF.MIL
+      26.10.0.12, 136.222.2.1              VICENZA-GW1.ARMY.MIL
+
+13 GUNTER-AFS               MIL            (205) 279-4548 
+                                           (205) 279-3537 
+                                           (DSN) 446-4548 
+                                           (DSN) 446-3537
+   Quintana, Christopher L. (CLQ)  (gunter@SERVER.AF.MIL)
+   42CS/SCMGU
+   Building 857, Room 202
+   Maxwell AFB, Gunter Annex, AL 36114
+   (334)416-4409 (334)416-5138 596-4409 (334)416-1157
+
+      26.0.0.13                            GUNTER.MT.DDN.MIL
+      26.12.0.13, 129.141.11.1             HRC-IRIS.AF.MIL
+      26.17.0.13, 198.26.30.34             FTRUCKER-GW.ARMY.MIL
+      26.24.0.13                           GUNTER-IP.DDN.MIL
+      26.26.0.13, 131.63.15.0              AFINCC-GW.AF.MIL
+
+14 LANDSTUHL2               MIL            +49-06371-18776 
+                                           (DSN) 314-486-8295
+   Crawford, Lucin F. (LFC12)  (nsc-ldl@DDN-EUR.DDN.MIL)
+   Box 1481
+   APO, AE 09180
+   486-8295
+
+      26.7.0.14, 140.155.16.1              BAUMHLDR-GW1.ARMY.MIL
+      26.9.0.14, 198.97.133.1              DMSSCE-GW.MED.OSD.MIL
+      26.10.0.14, 147.36.15.1              PIRMASENS-GW1.ARMY.MIL
+      26.11.0.14, 134.235.1.1, 136.218.12.2 WORMS-GW1.ARMY.MIL
+      26.13.0.14                           BAUMHLDR.MMT.DDN.MIL
+      26.17.0.14                           LANDSTHLT20.DDN.MIL
+      26.31.0.14, 140.35.2.50              IPR-LDL-GW.DISA.MIL
+
+15 RAMSTEIN-AB              MIL            +49-6371-47-7148 
+                                           (DSN) 314-480-7148 
+                                           (DSN) 314-480-6892 
+                                           (DSN) 314-480-6882
+   Pedersen, Dale R. (DRP21)  (86CGTCF@RAMSTEIN.AF.MIL)
+   86CG/SCMTU
+   RAMSTEIN AB GE
+   APO, AE 09094
+   49-6371-47-6892/3 314-480-6892/3 314-480-7070
+
+      26.0.0.15                            RAMSTEIN.MT.DDN.MIL
+      26.4.0.15, 156.112.0.50              EU-GW.DECA.MIL
+      26.9.0.194, 26.5.0.15, 198.17.81.1   NCTSL-GW.NAVY.MIL
+      26.7.0.15, 147.39.4.1                CHIEVRES-GW1.ARMY.MIL
+      26.17.0.15,131.16.15.0               RAMSTEIN1-GW.AF.MIL
+
+16 MOFFETT-FLD              MIL            (415) 694-6482 
+                                           (FTS) 464-6482 
+                                           (DSN) 359-6482
+   Jones, William P. (WPJ2)  (jones@NSIPO.NASA.GOV)
+   NASA Ames Research Center
+   Mail Stop 233-17
+   Moffett Field, CA 94035
+   (415) 604-6482 (415) 335-3715 page 604-6482 (415) 604-0063
+
+      26.0.0.16                            MOFFETT.MT.DDN.MIL
+      26.19.0.16, 137.209.18.1, 192.52.195.26 AMES-IP.DDN.MIL
+
+18 GRIFFISS-AFB             MIL            (315) 330-2242 
+                                           (DSN) 587-2242 
+                                           (FTS) 952-2242 
+                                           [A] 336-6653
+   McCloud, Louis Phillip (LM37)  (mcclolo@ACCHOST.ACC.AF.MIL)
+   416 Communications Sq/SCSN
+   195 Brooks Rd
+   Griffiss AFB
+   Rome, NY 13441
+   (315) 330-4875 (315) 330-7099 587-4875 587-2867
+
+      26.0.0.18                            GRIFFISS.MT.DDN.MIL
+
+20 HILL-AFB                 MIL            (801) 777-1945 
+                                           (DSN) 458-1945
+   Duran, Joe (JD34)  (jduran@OODIS01.HILL.AF.MIL)
+   Bldg. 891, Cubicle B-25
+   Hill AFB, UT 84056-5000
+   (801) 777-1945 458-1945
+
+      26.0.0.20                            HILL.MT.DDN.MIL
+
+22 MCCLELLAN-AFB            MIL            (916) 643-2474 
+                                           (916) 643-5642 
+                                           (DSN) 633-2474 
+                                           (DSN) 633-5642
+   Lumsden, Charles A. (CAL53)  (McClellan@SERVER.AF.MIL)
+   652CCSG/SCOU
+   Bldg 7, Rm 110
+   McClellan AFB, CA 95652
+   (916) 643-2474 (916) 643-5642 633-2474 (916) 643-0200
+
+      26.0.0.22                            MCCLELLAN.MT.DDN.MIL
+      26.10.0.22, 198.26.84.50             SIERRA-GW1.ARMY.MIL
+      26.17.0.22, 131.31.15.0              MCCLELLAN-GW.AF.MIL
+      26.29.0.22                           MCCLELLANT20.DDN.MIL
+
+24 JOHNSVILLE-NAS           MIL            (215) 441-2930 
+                                           (DSN) 441-2930
+   Boyer, Ronald M. (BR11)  (BOYERRM%WAR2@MR.NADC.NAVY.MIL)
+   Naval Air Warfare Center (Code 7.2.1)
+   Aircraft Division - Warminster
+   P.O. Box 5152
+   Warminster, PA 18974-0591
+   (215) 441 - 3817 441 - 3817 (215) 956-4019
+
+      26.0.0.24                            JOHNSVILLE.MT.DDN.MIL
+      26.9.0.24, 192.133.5.20              NAPC-GW.NAVY.MIL
+      26.18.0.24                           JOHNSVILLET20.DDN.MIL
+
+25 CROUGHTON-RAF            MIL            +44 0280-703261 Ext 468 
+                                           (DSN) 314-236-2253 
+                                           (DSN) 314-236-2241
+   Knox, Kevin P. (KPK4)  (kknox@NSC.CROUGHTON.AF.MIL)
+   603CS/SCSC
+   RAF Croughton
+   Unit 5855
+   APO, AE 09494
+   44-1280-70-8629 44-1280-70-8253 314-263-8629 (DSN)314-236-8473
+
+      26.0.0.25                            CROUGHTON.MT.DDN.MIL
+      26.6.0.25, 131.56.15.0               UPPERHEYFORD-GW.AF.MIL
+
+26 PENTAGON                 MIL            (703) 695-6672 
+                                           (703) 697-0604 
+                                           (703) 697-1996 
+                                           (DSN) 227-6672
+   Fleetwood, Karl S. (KSF3)  (KFLEETWOOD@LGGATE2.HQ.AF.MIL)
+   1600 Air Force
+   Pentagon, Rm. 1D1070
+   Washington, DC 20330-1600
+   (703) 695-3205 225-3205 DSN 227-9732
+
+      26.0.0.26                            PENTAGON.MT.DDN.MIL
+      26.5.0.26, 26.25.0.107, 160.147.1.1, 192.172.2.1 BELVOIR-GW3.ARMY.M
+      26.8.0.26                            DIPC-DAO.DIPCW.DISA.MIL
+      26.10.0.26                           SCREEN.ARPA.MIL
+      26.14.0.67, 26.13.0.26               OSI-GW.DISA.MIL
+
+28 ELMENDORF-AFB            MIL            (907) 552-4316 
+                                           (907) 552-4699 
+                                           (DSN) 317-552-4316 
+                                           (DSN) 317-552-4699
+    (KSF3)  (KFLEETWOOD@LGGATE2.HQ.AF.MIL)
+   
+   (703) 695-3205 225-3205 DSN 227-9732
+
+      26.0.0.28                            ELMENDORF.MT.DDN.MIL
+      26.16.0.28, 143.213.10.1             RICHARDSON-GW1.ARMY.MIL
+
+29 ABERDEEN                 MIL            (410) 278-6461 or 278-6320 or 
+                                            278-6829 
+                                           (DSN) 298-6461
+   Amerg, Sharon L. (SA98)  (amerg@ARL.MIL)
+   U.S. Army Research Laboratory,
+   ACISD, ACD, HPCCB
+   Building 328, Room 3
+   Attn: AMSRL-CI-AA
+   Aberdeen Proving Ground, MD 21005-5067
+   (410) 278-6819 298-6819
+
+      26.0.0.29                            ABERDEEN.MT.DDN.MIL
+      26.8.0.29, 131.92.120.1              APGEA-GW1.ARMY.MIL
+      26.17.0.29                           ABERDEENT20.DDN.MIL
+      26.19.0.29, 130.114.32.2             APG-GW.ARMY.MIL
+
+37 FT-MCPHERSON             MIL            (404) 752-3363 
+                                           (404) 752-2250 
+                                           (DSN) 572-2250
+   Maxwell, Otis H. (OHM2)  (maxwello@FTMCPHSN-EMH1.ARMY.MIL)
+   DOIM TECH CONTROL FACILITY
+   BLDG 200
+   Fort McPherson, GA 30330-5000
+   1-404-669-6421
+
+      26.0.0.37                            MCPHERSON.MT.DDN.MIL
+      26.24.0.37, 132.8.15.0               DOBBINS-GW.AF.MIL
+      26.29.0.37                           FTMCPHERSONT20.DDN.MIL
+
+38 GREAT-LAKES              MIL            (312) 688-3428 
+                                           (312) 688-5370 
+                                           (DSN) 792-3248 
+                                           (DSN) 792-5370
+   Jones, Ronald L. (RLJ70)  (NSCGreatLakes@DDN-CONUS.DDN.MIL)
+   Navy Education & Training Project
+   Management Support Activity
+   Great Lakes Unit
+   Bldg. 3400, 2500 Green Bay Rd.
+   North Chicago, IL 60064-3013
+   (700) 688-3428 (708) 688-3429 792-3428 (708) 688-6964
+
+      26.0.0.38                            GREAT-LAKES.MT.DDN.MIL
+      26.26.0.38, 198.26.6.26              ROCKI-GW1.ARMY.MIL
+      26.28.0.38, 198.26.6.34              GREATLAKES-GW1.ARMY.MIL
+      26.30.0.38, 138.149.1.1              HCGL1-GW.NAVY.MIL
+
+39 EDWARDS-AFB              MIL            (805) 277-7673 or 277-3444 
+                                           (DSN) 527-7673 or 527-3444
+   Reynolds, Twaine (TR1114)  (reynolds.sc@MHS.ELAN.AF.MIL)
+   650 C-CSS/SCSIA
+   10 S. Sellar Ave.
+   Edwards AFB, CA 93524
+   (805) 277-4429 (DSN) 527-4429
+
+      26.0.0.39                            EDWARDS.MT.DDN.MIL
+
+41 REDSTONE                 MIL            (205) 876-2291 
+                                           (DSN) 746-2291
+   Hussey, Linda A. (LAH55)  (nsc@REDSTONE-EMH2.ARMY.MIL)
+   COMMANDER
+   ARMY MISSILE COMMAND
+   ATTN: AMSMI-CIC-TI-CC
+   REDSTONE ARSENAL, AL 35898-7462
+   (205) 876-2291 (205) 776-9910 746-2291 (205) 842-0745
+
+      26.0.0.41                            REDSTONE.MT.DDN.MIL
+      26.26.0.41, 198.26.30.26, 136.205.0.0 REDSTONE-GW1.ARMY.MIL
+      26.29.0.41                           REDSTONET20.DDN.MIL
+      26.30.0.41, 192.86.250.0             REDSTONE-GW2.ARMY.MIL
+
+43 FT-SHAFTER-MILNET        MIL            (808) 438-1147 
+                                           (DSN) 315-438-1147
+   Kim, Daniel S.k., Mr. (GG163)  (ASQP-HCO@HAWAII-EMH1.PACOM.MIL)
+   30th Signal Battalion
+   Attn: ASQP-HBC
+   BaseCom
+   Bldg T-121
+   Fort Shafter, HI 96858-5415
+   (808) 438-8066 315-438-8066 (DSN) 315-438-8069 /
+
+      26.0.0.43                            SHAFTER.MT.DDN.MIL
+      26.19.0.43, 192.42.88.254            SHAFTER-GW1.ARMY.MIL
+
+44 ORLANDO                  MIL            (407) 381-8888
+   Gottschalk, Rick (RG308)  (RICK@NTSC.NAVY.MIL)
+   Naval Training Systems Center
+   Code 724
+   12350 Research Parkway
+   Orlando, FL 32826-3224
+   (407) 381-8888 960-8888
+
+      26.0.0.44                            ORLANDO.MT.DDN.MIL
+      26.29.0.44, 192.44.253.1             NTSC-IELN-GW.NAVY.MIL
+
+45 DOVERNJ                  MIL            (201) 724-2871 
+                                           (201) 724-3139 
+                                           (DSN) 880-2871 
+                                           (DSN) 880-5906
+   Dobis, Ronald E. (RED26)  (rdobis@PICA.ARMY.MIL)
+   Army Armament Research Development and
+   Engineering Center, Armament Munitions
+   and Chemical Command
+   Attn: SMCAR-IML-M, Dobis B/173
+   Picatinny Arsenal, NJ 07806-5000
+   (201) 724-7663/0000 880-7663/0000 (DSN) 880-4413
+
+      26.0.0.45                            DOVERNJ.MT.DDN.MIL
+      26.31.0.45, 129.139.134.60           PICATINNY-GW1.ARMY.MIL
+
+47 WRIGHTPAT-AFB            MIL            (513) 257-4088/3251 
+                                           (DSN) 787-4088 FAX 
+                                           (513) 257-3337
+   Bennett, Andre M. (AB277)  (nsc@WPDIS01.WPAFB.AF.MIL)
+   HQ645C-CSG/SCMN
+   3810 Communications Suite
+   WPAFB, OH 45433-5707
+   (513) 257-4088 (513) 257-3488 787-4088 (513) 257-3337
+
+      26.0.0.47                            WRIGHTPAT.MT.DDN.MIL
+      26.17.0.47                           WRIGHTPATT-1T20.DDN.MIL
+
+50 ALEXANDRIA               MIL            (703) 274-8061 
+                                           (DSN) 284-8061
+   Biederman, Fred A. (FAB1)  (fbiederm@ALEXANDRIA-EMH1.ARMY.MIL)
+   5001 Eisenhower Ave. Attn: AMCIO-I-AO
+   ALEXANDRIA, VA 22333
+   (703) 274-8061 (703) 274-8912 284-8061
+
+      26.0.0.50                            ALEXANDRIA.MT.DDN.MIL
+      26.4.0.50, 131.84.1.129              DTIC-GW.DTIC.DLA.MIL
+      26.6.0.50, 132.79.0.1                NGBISA1-GW.ARMY.MIL
+      26.9.0.247, 26.8.0.50, 198.26.71.42  FLSCHRCH-GW1.ARMY.MIL
+      26.12.0.50, 143.78.1.1               RIYADH-GW1.ARMY.MIL
+      26.30.0.107, 26.16.0.50, 143.134.0.1 HOFFMAN-MIL-80X-GW.ARMY.MIL
+      26.29.0.50                           ALEX-GW1.ARMY.MIL
+
+51 RANDOLPH2-AFB            MIL            (512) 652-3283 
+                                           (512) 652-5043 
+                                           (DSN) 487-3283 
+                                           (DSN) 487-5043
+   Tetlow, Charles M., Jr. (CMT17)  (tetlowc@12CS1.RND.AETC.AF.MIL)
+   12CS/SCMDC-BCTF
+   151 J Street, Suite 1
+   Randolph AFB, TX 78150-4342
+   (210) 652-3657 (210) 652-3651 487-3657/3651 (DSN) 487-5753
+
+      26.0.0.51                            RANDOLPH2.MT.DDN.MIL
+
+52 RANDOLPH3-AFB            MIL            (512) 652-3283 
+                                           (512) 652-5043 
+                                           (DSN) 487-3283 
+                                           (DSN) 487-5043
+   Tetlow, Charles M., Jr. (CMT17)  (tetlowc@12CS1.RND.AETC.AF.MIL)
+   12CS/SCMDC-BCTF
+   151 J Street, Suite 1
+   Randolph AFB, TX 78150-4342
+   (210) 652-3657 (210) 652-3651 487-3657/3651 (DSN) 487-5753
+
+      26.0.0.52                            RANDOLPH3.MT.DDN.MIL
+
+53 EGLIN-AFB                MIL            (904) 882-3291 or 882-3711 
+                                           (DSN) 872-3291 or 872-3711
+   Bradley, Dale M. (DB1032)  (BRADLEYD@EGLIN.AF.MIL)
+   96CCSG/SCTOO
+   201 West Eglin Boulevard, Suite 258
+   Eglin AFB, FL 32542-6829
+   (904) 882-3189 872-3189
+
+      26.0.0.53                            EGLIN.MT.DDN.MIL
+      26.19.0.53                           EGLINT20.DDN.MIL
+
+54 FT-DETRICK               MIL            (301) 663-2171 
+                                           (DSN) 343-2171
+   Sekula, Jeffrey J. (JJS99)  (stuhlemmerr@RITCHIE-EMH1.ARMY.MIL)
+   1110 Signal Battalion
+   ASQY-FDO-P
+   Bldg 1671
+   Ft Detrick, MD 21702-5002
+   (301) 663-2545 (301) 663-2776 343-2545 (DSN) 343-2655
+
+      26.0.0.54                            DETRICK.MT.DDN.MIL
+      26.4.0.54                            FTDETRCK-GW1.ARMY.MIL
+      26.9.0.54, 143.81.1.1                KUWAIT-GW1.ARMY.MIL
+      26.10.0.54                           MOBILE-GW1.ARMY.MIL
+      26.17.0.54, 160.126.100.1            GW-DETRICK1.DISA.MIL
+      26.29.0.54, 137.209.58.2, 137.209.62.1 DETR-IP.DDN.MIL
+      26.30.0.54                           FTDETRICKT20.DDN.MIL
+
+59 SCOTT-AFB                MIL            (618) 256-8648 
+                                           (618) 256-4094 
+                                           (DSN) 576-8648
+   Watson, Felix T. (FW18)  (SDS11@WING.SAFB.AF.MIL)
+   375 CS/SCN
+   302 LOSEY ST
+   SCOTT AFB, IL 62225
+   1-618-256-8649 (DSN) 576-8649
+
+      26.0.0.59                            SCOTT.MT.DDN.MIL
+      26.8.0.59, 132.94.0.1                SPRNGFLD-GW.ARMY.MIL
+      26.12.0.59, 144.251.2.253            DMCSG1.STL.DISA.MIL
+      26.13.0.59, 198.26.4.98, 134.78.0.1  STLOUIS-GW2.ARMY.MIL
+
+60 FT-MONMOUTH              MIL            (201) 544-3941 
+                                           (201) 544-3230 
+                                           (DSN) 995-2930 
+                                           (DSN) 995-3230
+   Corbin, Charles F. (CFC5)  (CORBINC%DOIM6@MONMOUTH-EMH3.ARMY.MIL)
+   U.S. ARMY CECOM
+   AMSEL-IM-T-CC-M (CORBIN)
+   MYER CENTER-BLDG 2700, ROOM 1B401
+   FORT MONMOUTH, NJ 07703-5000
+   (908) 427-3960 43960 (908) 427-3941 43941 (DSN) 987-3960 43960 (DSN)  
+    992-0340
+
+      26.0.0.60                            MONMOUTH.MT.DDN.MIL
+      26.7.0.60,192.153.133.1              SENECA-GW1.ARMY.MIL
+      26.10.0.60                           BAYONNE-GW1.ARMY.MIL
+      26.18.0.60                           LAKEHURST1-GW.NAVY.MIL
+
+61 SAINT-LOUIS              MIL            (314) 263-2970 
+                                           (DSN) 693-2970
+   Zahner, Don (DZ11)  (UMLVT@DMC-EMH1.STL.DISA.MIL)
+   Defense MegaCenter - St Louis
+   4300 Goodfellow Blvd
+   St Louis, MO 63120-1798
+   (314) 263-3435 693-3435
+
+      26.0.0.61                            SAINT-LOUIS.MT.DDN.MIL
+      26.11.0.61, 198.26.38.50             PINEBLFF-GW1.ARMY.MIL
+      26.13.0.61, 198.26.87.10             STLOUIS-GW3.ARMY.MIL
+      26.18.0.61                           ST-LOUIS-GW.ARMY.MIL
+
+65 EL-SEGUNDO               MIL            (213) 363-1001 
+                                           (DSN) 833-1001
+   Shamonsky, Victor P. (VPS2)  (losangeles@SERVER.AF.MIL)
+   61CS/SCSNN
+   2420 BELA WAY
+   SUITE 1467
+   LOS ANGELES AFB, CA 90245-4659
+   (310) 363-6153 (310) 363-1001 833-6153 (310) 363-3613
+
+      26.0.0.65                            EL-SEGUNDO.MT.DDN.MIL
+      26.29.0.65                           ELSEGUNDOT20.DDN.MIL
+      26.31.0.65                           EL-SEGUNDO-IP.DDN.MIL
+
+67 ANDREWS-AFB              MIL            (301) 981-9001 
+                                           (DSN) 858-9001 24 hr ops 
+                                           (301) 981-2300
+   Rodwich, Brian D. (BR204)  (rodwichb@89AW1.AON.AF.MIL)
+   89CG/SCLUC
+   Bldg 1558
+   Alabama Ave
+   Suite 85
+   Andrews AFB, MD 20331
+   301-981-9001 (301)981-7234 858-9001 301-981-2734
+
+      26.0.0.67                            ANDREWS.MT.DDN.MIL
+      26.4.0.67, 192.73.215.2              PEOCU-GW.PEOCU.NAVY.MIL
+      26.14.0.67, 26.13.0.26               OSI-GW.DISA.MIL
+
+70 ARLINGTON-DCAOC2         MIL            (703) 692-5076 
+                                           (703) 692-5762 
+                                           (DSN) 222-5076 
+                                           (DSN) 222-5762
+   Link, Dave (DLL7)  (AOPSMGR@DDN-CONUS.DDN.MIL)
+   Defense Information Systems Agency
+   Attn: Code WE3353
+   11440 Issac Newton Square
+   Reston, VA 22090-5087
+   (703) 735-8063 653-8063
+
+
+71 TINKER-AFB               MIL            (405) 734-5707 
+                                           (DSN) 884-5707
+   Devonshire, Robert M. (RMD1)  (devon@CCSCSYS1.TINKERNET.AF.MIL)
+   HQ SSG OL-B/SDTO
+   3580 D Ave
+   Building 201W
+   Tinker AFB, OK 73145-9155
+   (405) 734-7955 (405) 734-5707 884-7955 DSN 884-7302
+
+      26.0.0.71                            TINKER.MT.DDN.MIL
+      26.11.0.71, 132.52.15.0              VANCE-GW.AF.MIL
+      26.15.0.71                           DISG1.TINKER.AF.MIL
+
+72 CAMBRIDGE3               MIL            (617) 873-2675 
+                                           (617) 497-2455 
+                                           (617) 497-6169
+   Cassidy, Nancy P. (NC1)  (ncassidy@BBN.COM)
+   Bolt Beranek and Newman, Inc.
+   150 Cambridge Park Drive
+   Cambridge, MA 02140
+   (617) 873-2576 (617) 873-8202
+
+      26.12.0.72                           BBN-MIL-GW2.DDN.MIL
+      26.18.0.72                           BBNT20.DDN.MIL
+
+74 WHITE-SANDS              MIL            (505) 678-1271 / 2733 
+                                           (DSN) 258-1271
+                                           FAX 
+                                           (505) 678-7527
+   Bingham, Ron D. (RB15)  (rbingham@WSMR-EMH35.ARMY.MIL)
+   Commander
+   U. S. Army, White Sands Missile Range
+   ATTN: STEWS-IM-TE-N
+   White Sands Missile Range, NM 88002-5506
+   (505) 678-1271 (505)678-5397 258-1271 (505)678-7527
+
+      26.5.0.74, 198.26.39.58, 155.148.0.0 WSMR-GW2.ARMY.MIL
+
+76 ARLINGTON-DCAOC#1        MIL            (703) 692-5055 
+                                           (703) 692-5076 
+                                           (DSN) 222-5055 
+                                           (DSN) 222-5076
+   Link, Dave (DLL7)  (AOPSMGR@DDN-CONUS.DDN.MIL)
+   Defense Information Systems Agency
+   Attn: Code WE3353
+   11440 Issac Newton Square
+   Reston, VA 22090-5087
+   (703) 735-8063 653-8063
+
+      26.3.0.76                            DCAOC.MT.DDN.MIL
+      26.4.0.76, 159.227.252.1             ALEXGATE.MED.OSD.MIL
+
+77 ZAMA                     MIL            +81 462511520 ext 2335566 
+                                           (DSN) 315-233-5566 
+                                           (DSN) 315-225-3550
+   Vandenburg, Stephen L. (SLV4)  (postmaster@ZAMA-EMH1.ARMY.MIL)
+   78th Signal Bn
+   Unit 45012
+   ATTN: ASQP-NHI-D
+   APO, AP 96343-0060
+   81-3117-63-5566 011-81-3117-63-3876 263-5566 263-9012
+
+      26.0.0.77                            ZAMA.MT.DDN.MIL
+      26.27.0.77                           ZAMA-GW1.ARMY.MIL
+      26.30.0.77                           CPZAMAT20.DDN.MIL
+
+78 PUGET-SOUND-NSB          MIL            (206) 396-4321 ext 1894 or    
+                                            1002 
+                                           (DSN) 744-4321 ext 1894 or    
+                                            1002
+   Mullen, Clifton D. (CDM18)  (CMULLEN@NCTSEMH-PUGET.NAVY.MIL)
+   NAVCOMTELSTA PUGET SOUND
+   1008 HARDER ROAD, SUITE 105
+   SILVERDALE, WA 98315-1099
+   (360)396-6154 (360)396-6342 744-6154 (360)396-5916
+
+      26.0.0.78                            PUGET-SOUND.MT.DDN.MIL
+      26.5.0.78, 192.153.246.1             BREMERTON-GW.MRMS.NAVY.MIL
+
+79 FT-BENNING               MIL            (706) 545-1765 
+                                           (DSN) 835-1765
+   Hutchens, Larry H. (LHH)  (Hutchens@BENNING-EMH1.ARMY.MIL)
+   DOIM
+   ATTN:ATZB-IMS-T
+   Fort Benning, GA 31905
+   706-545-4196 (706)545-2178 835-4196 (706)545-7415
+
+      26.0.0.79                            BENNING.MT.DDN.MIL
+      26.30.0.79, 198.26.29.58             BENNING-GW1.ARMY.MIL
+
+80 FT-BRAGG                 MIL            (919) 396-4314 
+                                           (919) 396-4377 
+                                           (DSN) 236-4314 
+                                           (DSN) 236-4377
+   Bowers, Lawrence D. (LDB18)  (bowersl@BRAGG-EMH5.ARMY.MIL)
+   Mr. Lawrence D. Bowers
+   Chief, Special Operations
+   1112th USA Signal Bn
+   ATTN:  AFZA-IM-CP
+   Fort Bragg, NC 28307-5000
+   (910) 396-4314 (910) 396-4377 236-4314 910-396-4611 / 236-4611
+
+      26.0.0.80                            BRAGG.MT.DDN.MIL
+      198.26.26.50, 132.193.0.1, 26.7.0.80 ARO-GW.ARMY.MIL
+      26.9.0.80, 198.26.26.66              RALEIGH-NGNET.ARMY.MIL
+      26.28.0.80, 137.29.92.51             USASOC.GW.SOC.MIL
+
+81 CARDEROCK                MIL            (202) 227-1428 
+                                           (DSN) 287-1428
+   Tinker, Robert W. (RWT2)  (tinker@OASYS.DT.NAVY.MIL)
+   Naval Surface Warfare Center
+   Carderock Division
+   Code 35
+   Bethesda, MD 20084-5000
+   (301) 227-1404 287-1404 301-227-5090
+
+      26.0.0.81                            CARDEROCK.MT.DDN.MIL
+      26.15.0.224, 26.24.0.81              VINTHILL-GW1.ARMY.MIL
+
+82 BUCKNER                  MIL            +011 816117353641 
+                                           (DSN) 315-635-3277 
+                                           (DSN) 315-635-3641 
+                                           (DSN) 315-635-3810
+   Quinn, Mike P. (MQ6)  (MQUINN@BUCKNER-EMH2.ARMY.MIL)
+   COMMANDER, 58TH SIG BN
+   UNIT 35152
+   ATTN: ASQP-SDC (MR. QUINN)
+   APO, AP 96376-5152
+   011-81-6117-41-3635 641-3635 641-3897
+
+      26.0.0.82                            BUCKNER.MT.DDN.MIL
+      26.17.0.82, 198.26.173.130, 143.45.100.1, 150.133.20.1 BUCKNER-GW1.
+      26.19.0.82                           DGARCIA-GW.NAVY.MIL
+
+83 ROBINS2-AFB              MIL            (912) 926-2575 
+                                           (DSN) 468-2575 
+                                           [E] (912) 926-6454 
+                                           (DSN) 468-6454
+   Roberson, Ricky C. (RCR13)  (rroberso@WRDIS01.ROBINS.AF.MIL)
+   78CS/SCMB
+   205 PERRY STREET
+   BLDG 214 RM 109
+   ROBINS AFB, GA 31098-1607
+   (912) 926-6912 (912) 926-6650 468-6912 DSN 468-6940
+
+      26.0.0.83                            ROBINS2.MT.DDN.MIL
+
+85 CHINALAKE-NWC            MIL            (619) 939-3962 or 939-1838 
+                                           (DSN) 437-3962
+   Bainbridge, Philip (PB284)  (Bainbridge@SCFF.CHINALAKE.NAVY.MIL)
+   Naval Air Warefare Center - Weapons
+   Code 724410D
+   Bldg. 00005 Rm C136
+   China Lake, CA 93555-6001
+   (619) 939-0860 437-0860 (619) 939-4730
+
+      26.0.0.85                            CHINALAKE.MT.DDN.MIL
+      26.29.0.85, 129.131.1.127            NWC-GW.NAVY.MIL
+
+86 LOWRY-AFB                MIL            (719) 370-2400 
+                                           (DSN) 926-2400
+   Arnold, Billie R. (BRA8)  (lowry@SERVER.AF.MIL)
+   DITSO-GRDTE
+   DENVER, CO 80279-1000
+   (303) 676-6566 926-6566 (303) 676-6570 (DSN) 926-6570
+
+      26.0.0.86                            LOWRY.MT.DDN.MIL
+
+91 CAPODICHINO              MIL            +39 81-724-4456 
+                                           (DSN) 314-625-6354 
+                                           (DSN) 314-625-6321 
+                                           (DSN) 314-625-6322
+   Gober, Roussell A. (RAG83)  (ADP@CPO-LINK.EUCOM.MIL)
+   PSC 817 BOX 25
+   FPO, AE 09622-7000
+   39-81-568-5380/5229 625-5380/5229 625-5358
+
+      26.0.0.91                            CAPODICHINO.MT.DDN.MIL
+      26.5.0.91                            AGNANO.MT.DDN.MIL
+      26.17.0.91, 192.42.245.1             CPO-LINK-GW.EUCOM.MIL
+      26.31.0.91                           IPR-CPO-GW.DISA.MIL
+
+92 NEWPORT-NUSC             MIL            (401) 841-3502 
+                                           (203) 447-5663 
+                                           (DSN) 948-3502 
+                                           (DSN) 636-5663
+   Trifero, John J. (JT254)  (Trifero@NPT.NUWC.NAVY.MIL)
+   Code 723 Building 112
+   NEWPORT, RI 02841
+   (401)841-3081 175 948-3081 175 (401) 841-7872
+
+      26.0.0.92                            NEWPORT.MT.DDN.MIL
+      26.6.0.92, 139.77.16.1               HCNEW1-GW.NAVY.MIL
+      26.15.0.92, 132.86.0.1               HARTFORD-GW.ARMY.MIL
+      26.17.0.92                           NL-GW.NUSC.NAVY.MIL
+      26.18.0.92, 132.31.15.0              LORING-GW.AF.MIL
+
+96 COROZAL                  MIL            +011-507-85-5559 
+                                           (DSN) 313-285-4950 
+                                           (DSN) 313-285-5559
+   Keepers, Jeanette M. (JMK61)  (jkeepers@EMH01.PANAMA.ARMY.MIL)
+   Commander, 106th Signal Brigade
+   Unit 7123
+   ATTN: ASQX-IML (Ms. Keepers)
+   APO, AA 34004-5000
+   (507) 855-8750 (507) 855-8740 (313) 285-5875 (313) 285-6509
+
+      26.0.0.96                            COROZAL.MT.DDN.MIL
+      26.9.0.96,132.59.15.0                HOWARD-GW.AF.MIL
+      26.15.0.96                           FTCLAYTNPM-GW1.ARMY.MIL
+
+98 MACDILL-AFB              MIL            (813) 828-5107 
+                                           (DSN) 968-5107 
+                                           (DSN) 968-3668
+   O'Toole, Terry (TOTT)  (NSCMacDill@DDN-CONUS.DDN.MIL)
+   56th Communications Squadron/SCSDT
+   MacDill AFB, FL 33608
+   (813) 830-5107 (813) 830-2882 968-5107
+
+      26.0.0.98                            MACDILL.MT.DDN.MIL
+
+102 WHITE-OAK-NSWC          MIL            (202) 394-4225 
+                                           (DSN) 290-4225
+
+   No Contact Given
+
+      26.0.0.102                           WHITE-OAK.MT.DDN.MIL
+      26.5.0.102, 163.240.17.1, 163.240.16.15 DIPC-GW2.DIPCW.DISA.MIL
+      26.24.0.102, 131.218.24.2, 198.26.62.66 ADELPHI-GW1.ARMY.MIL
+
+104 RESTON-DCEC             MIL            (703) 487-3045 
+                                           (DSN) 364-3045
+   English, Michael E. (MEE16)  (englishm@CC.IMS.DISA.MIL)
+   Defense Communications Engineering C.
+   NASA Building, Room 1400
+   10701 Park Ridge Road
+   Reston, VA 22091-4398
+   (703) 487-3060 (703) 487-3060 364-3052/3060
+
+      26.0.0.104                           RESTON-DCEC.MT.DDN.MIL
+      26.11.0.104, 144.100.0.0, 144.101.0.0, 192.86.93.0 BLYSCSDS-GW.ARMY
+      26.17.0.104                          RESTON.MMT.DDN.MIL
+      26.29.0.104, 137.210.3.1, 137.209.60.1, 137.209.62.2, 198.25.64.1 D
+
+105 OFFUTT-AFB              MIL            (402) 294-4460 
+                                           (DSN) 271-4460
+   McAfee, Jon C. (JCM153)  (offutt@SERVER.AF.MIL)
+   755CS/GLYN
+   201 Lincoln HWY
+   Suite 206
+   Offutt AFB, NE 68113-2040
+   (402) 294-6959/3210 271-6959 (DSN) 271-1970
+
+      26.0.0.105                           OFFUTT.MT.DDN.MIL
+
+107 ALEXANDRIA3             MIL            (703) 325-0947, 221-0947 or 
+                                           (703) 325-0303, 221-0303
+   Wilkins, Shirley J. (SJW3)  (wilkinss@HOFFMAN-EMH1.ARMY.MIL)
+   ISC-Hoffman (PERSINSCOM)
+   ASQL-ISN-N
+   200 Stovall Street
+   Bldg II, Room 1N33
+   Alexandria, VA 22332-1582
+   (703) 325-0947 (703) 325-0303 221-0947 (703) 325-2316
+
+      26.0.0.107                           ALEXANDRIA3.MT.DDN.MIL
+      26.6.0.107, 192.31.239.1             SEAHUB.NAVSEA.NAVY.MIL
+      26.8.0.107, 161.14.252.1             HERNGATE.MED.OSD.MIL
+      26.14.0.107, 192.58.199.1, 160.107.23.5 NTSC-NAVAIRHQ-GW.NAVY.MIL
+      26.18.0.107                          DNA-MAIL.DNA.MIL
+      26.5.0.26, 26.25.0.107, 160.147.1.1, 192.172.2.1 BELVOIR-GW3.ARMY.M
+      26.28.0.107, 137.209.59.1, 137.209.60.2, 137.209.61.2 BELVOIR-IP-GW
+      26.30.0.107, 26.16.0.50, 143.134.0.1 HOFFMAN-MIL-80X-GW.ARMY.MIL
+
+108 NORFOLK-NAS             MIL            (804) 444-1190 
+                                           (804) 444-1347 
+                                           (DSN) 564-1190 
+                                           (DSN) 564-1347
+   Hughey, Larry J. (LJH21)  (ZN0HUGHEY@NCTAMSLANT.NAVY.MIL)
+   NAVAL COMPUTER AND TELECOMMUNICATONS
+   AREA MASTER STATION ATLANTIC
+   9456 FORTH AVE, STE 200
+   CODE N824
+   NORFOLK, VA 23511-2199
+   (804) 445-2496 565-2496 (804) 444-2835
+
+      26.0.0.108                           NORFOLK.MT.DDN.MIL
+      26.4.0.108                           UNEOC-GW.NAVY.MIL
+      26.6.0.108, 138.143.16.1             HCNOR1-GW.NAVY.MIL
+
+110 JACKSONVILLE-NAS        MIL            (904) 779-6051 or 779-6052 
+                                           (DSN) 942-6051 or 942-6052 
+                                           [E] (904) 269-8362
+   Holt, Jeffrey L. (JH505)  (HOLT_JE@A1-JAX.NAVY.MIL)
+   DMC JACKSONVILLE
+   BLDG 919, CODE WEJTS
+   NAS JACKSONVILLE, FL 32212-0070
+   (904) 779-6318 (904) 779-6051 942-6318/6051 (904)779-6356
+
+      26.0.0.110                           JACKSONVILLE.MT.DDN.MIL
+      26.18.0.110, 138.137.1.1             HCJC1-GW.NAVY.MIL
+
+111 DAVIS-MONTHAN-AFB       MIL            (602) 750-4592 
+                                           (DSN) 361-4592
+   Pendleton, Bobby L. (BLP)  (davismonthan@SERVER.AF.MIL)
+   355CS/SCSN
+   Bldg 5010, Data Floor
+   Davis-Monthan AFB, AZ 85707
+   (COM) (602) 750-3762 (DSN) 361-3762 (DSN) 764-0878
+
+      26.0.0.111                           DAVIS-MONTHAN.MT.DDN.MIL
+      26.5.0.111, 198.26.80.19             HUACHUCA-GW3.ARMY.MIL
+      26.13.0.111, 6.6.0.1                 YUMA-GW.ARMY.MIL
+
+112 SAINT-LOUIS2            MIL            (314) 263-2970 
+                                           (DSN) 693-2970
+   Zahner, Don (DZ11)  (UMLVT@DMC-EMH1.STL.DISA.MIL)
+   Defense MegaCenter - St Louis
+   4300 Goodfellow Blvd
+   St Louis, MO 63120-1798
+   (314) 263-3435 693-3435
+
+      26.0.0.112                           SAINT-LOUIS2.MT.DDN.MIL
+
+113 ANNISTON                MIL            (205) 235-6938 or 
+                                           (205) 235-4195 or 
+                                           (205) 235-6118 
+                                           (DSN) 571-6938 or 
+                                           (DSN) 571-1110 
+                                           [A] (205) 235-7501
+   Cranmer, Ray (RC141)  (rcranmer@ANNISTON-EMH1.ARMY.MIL)
+   Commander
+   Anniston Army Depot
+   Attn: SDSAN-DOIM-LOG
+   Anniston, AL 36201
+   (205) 235-4195 (205) 235-6938 571-4195 (205) 235-4735
+
+      26.0.0.113                           ANNISTON.MT.DDN.MIL
+      26.31.0.113, 198.26.63.26, 199.112.52.100 ANNISTON-GW.ARMY.MIL
+
+114 NEW-CUMBERLAND          MIL            (717) 770-6185 
+                                           (717) 770-6046 
+                                           (717) 770-6485 
+                                           (DSN) 977-6185
+   Schwartz, Barrie L., Mr. (BLS)  (bschwartz@DSAC.DLA.MIL)
+   DSAC/DLA
+   3990 E. Broad St.
+   Building 27
+   Columbus, OH 43216-5002
+   (614) 692-8440 850-8440 (614) 692-9731
+
+      26.0.0.114                           NEWCUMBERLND.MT.DDN.MIL
+      26.3.0.114                           NEWCMBRLND2.MT.DDN.MIL
+      26.27.0.114, 198.26.82.66, 143.249.9.1, 158.19.1.1 TOBY-GW1.ARMY.MI
+      26.29.0.114, 144.109.0.1             NCMBRLND-GW1.ARMY.MIL
+      26.30.0.114                          NEWCUMBERLANDT20.DDN.MIL
+
+117 CP-WALKER               MIL            +011 82997644353 
+                                           (DSN) 314-764-4353 
+                                           (DSN) 314-764-5702 
+                                           (DSN) 314-764-5338
+    (BLS)  (bschwartz@DSAC.DLA.MIL)
+   
+   (614) 692-8440 850-8440 (614) 692-9731
+
+      26.0.0.117                           WALKER.MT.DDN.MIL
+      26.10.0.117                          KURE-GW1.ARMY.MIL
+      26.18.0.117                          WALKER-GW1.KOREA.ARMY.MIL
+      26.19.0.117, 132.16.15.0             KUNSAN-GW.AF.MIL
+
+120 DUGWAY                  MIL            (801) 831-3411 
+                                           (801) 831-2461 
+                                           (DSN) 789-3411 
+                                           (DSN) 789-2461
+   Wood, Charles D. (CDW7)  (WOOD@DUGWAY-EMH9.ARMY.MIL)
+   Commander, Dugway Proving Ground
+   Attn:  STEDP-IM-C
+   Dugway, UT 84022-5000
+   (801) 831-2468 (801) 831-3411 789-2468 (801) 831-2084
+
+      26.0.0.120                           DUGWAY.MT.DDN.MIL
+      26.4.0.120,132.133.0.1               CHEYENNE-GW.ARMY.MIL
+      26.7.0.120, 140.196.0.1              DUGWAY-GW1.ARMY.MIL
+      26.8.0.120, 198.26.49.50             TOOELE-GW1.ARMY.MIL
+
+121 ALAMEDA                 MIL            (415) 263-5236 
+                                           (DSN) 993-5236
+   Hartmann, Dan H. (DH20)  (NSCAlameda@DDN-CONUS.DDN.MIL)
+   NARDAC-SF
+   Code N221, Bldg 8-2
+   Alameda NAS, CA 94501
+   (510) 263-5236 993-5236 (510) 263-5229
+
+      26.0.0.121                           ALAMEDA.MT.DDN.MIL
+      26.6.0.121, 138.141.1.1              HCSF1-GW.NAVY.MIL
+      26.15.0.121                          PSDSNFNC-GW1.ARMY.MIL
+
+122 FT-HUACHUCA             MIL            (602) 538-8515 
+                                           (DSN) 879-8515
+   Petrovic, Edward V. (EVP3)  (petrovie%HUA1@HUACHUCA-EMH11.ARMY.MIL)
+   Commander
+   US Army Intelligence Ctr and Ft Huachuca
+   ATTN: ATZS-IMI-S
+   Fort Huachuca, AZ 85613-6000
+   (520) 538-7817 879-7817 (520) 538-4708
+
+      26.2.0.122                           HUACHUCA.MT.DDN.MIL
+      26.8.0.122                           JITC.DISA.MIL
+      26.9.0.122                           HUACHUCA-GW.ARMY.MIL
+      26.11.0.122                          GITN-JITC-GW1.DISA.MIL
+      26.24.0.122, 147.227.0.0             HUACHUCA-GW4.ARMY.MIL
+      26.25.0.122, 137.209.7.2, 137.209.54.2 HUACHUCA-IP.DDN.MIL
+      26.29.0.122, 198.26.80.18, 138.27.100.1 HUACHUCA-GW2.ARMY.MIL
+
+123 WRIGHTPAT2-AFB          MIL            (513) 257-4088 or 257-3251 
+                                           (DSN) 787-4088 FAX 
+                                           (513) 257-3337
+   Bennett, Andre M. (AB277)  (nsc@WPDIS01.WPAFB.AF.MIL)
+   HQ645C-CSG/SCMN
+   3810 Communications Suite
+   WPAFB, OH 45433-5707
+   (513) 257-4088 (513) 257-3488 787-4088 (513) 257-3337
+
+      26.0.0.123                           WRIGHTPAT2.MT.DDN.MIL
+      26.19.0.123                          WRIGHTPATT-2.DDN.MIL
+
+125 FT-LEAVENWORTH          MIL            (913) 684-2265 
+                                           (913) 684-2145 
+                                           (DSN) 552-2265 
+                                           (DSN) 552-2145
+   Murphy, Cindy R. (CM58)  (MURPHYC@LEAV-EMH.ARMY.MIL)
+   CDRUSACAC ATTN ATZL IMI C
+   645 BIDDLE BLVD BLDG 136
+   FT LEAVENWORTH, KS 66027-2309
+   (913) 684-4001 (913) 684-4359 552-4359 (913) 684-7671
+
+      26.0.0.125                           LEAVENWORTH.MT.DDN.MIL
+      26.17.0.125, 138.45.222.1, 138.45.1.11, 138.45.223.1 LEAV-GW.ARMY.M
+      26.18.0.125                          LEAVENWORTHT20.DDN.MIL
+
+126 MONTEREY2               MIL            (408) 647-4355 or 647-4365 
+                                           (DSN) 878-4355 or 878-4365
+   Panek, Sherryl A. (SAP2)  (spanek@FNMOC.NAVY.MIL)
+   Fleet Numerical Meteorology and Oceanography Center
+    Grace Hopper Ave, Stop 1
+   MONTEREY, CA 93943-5501
+   (408)656-4355 878-4355 878-4489
+
+      26.0.0.126                           MONTEREY2.MT.DDN.MIL
+      26.7.0.126, 131.120.254.55, 131.120.254.50 GAMMA.NPS.NAVY.MIL
+      26.10.0.126, 160.146.2.1             ROBERTS-GW1.ARMY.MIL
+
+127 HANSCOM2-FLD            MIL            (617) 377-5661 
+                                           (DSN) 478-5661
+   Van NATTEN, Greg J. (NGV2)  (hanscom@SERVER.AF.MIL)
+   66SPTG/SCSN
+   50 GRIFFIS ST
+   HANSCOM AFB, MA 01731-1621
+   (617) 377-5661 (617) 377-7934 478-5661 DSN 478-2750
+
+      26.0.0.127                           HANSCOM2.MT.DDN.MIL
+
+128 SUNNYVALE               MIL            (408) 752-3276 
+                                           (408) 744-6568 
+                                           (DSN) 359-3276 
+                                           (DSN) 799-6568
+   Goodwin, Samuel L. (SLG51)  (goodwinsl@BIGSTC.OAFB.AF.MIL)
+   750LSS/LGMU
+   1080 Lockheed Way
+   P.O. Box 13
+   Onizuka AFB, CA 94089-1231
+   (408) 752-3813 (408) 752-4710 561-3813
+
+      26.0.0.128                           ONIZUKA.MT.DDN.MIL
+      26.15.0.128, 132.109.0.1             CARSON-GW.ARMY.MIL
+
+129 FT-BENHARRISON          MIL            (317) 542-3609 
+                                           (DSN) 699-3609
+   Clark, Michael (MC468)  (CLARKM@INDPLS-ASAFM1.ARMY.MIL)
+   DFAS-FSAIN
+   ATTN: TB
+   Building 1, Room 140F
+   8899 E. 56th Street
+   Indianapolis, IN 46249-1801
+   (317) 543-7177 699-7177 (DSN) 699-6699
+
+      26.3.0.129                           BENHARRISON.MT.DDN.MIL
+
+130 FT-DIX                  MIL            (609) 562-2062 
+                                           (DSN) 944-2062
+   Hines, William, Jr. (WH132)  (NSC-Dix@DDN-CONUS.DDN.MIL)
+   Army Information Systems Command (DOIM)
+   AFZT-IMP-TB
+   Bldg 5321
+   P.O. Box 26
+   Ft Dix, NJ 08640-5750
+   (609) 562-5031 944-5031 944/609-562-5031
+
+      26.0.0.130                           DIX.MT.DDN.MIL
+
+132 FT-SILL                 MIL            (405) 351-6301 
+                                           (DSN) 639-6301 or 639-4220
+   Gifford, Nolan C. (NCG)  (giffordn@SILL-EMH.ARMY.MIL)
+   DOIM Ft Sill
+   Bldg. 652, Rm 107
+   Ft Sill, OK 73503-5100
+   (405) 442-4220 (405) 442-6286 639-4220 (405) 442-6626
+
+      26.0.0.132                           SILL.MT.DDN.MIL
+      26.5.0.132                           OKLAHMCY-GW.ARMY.MIL
+      26.25.0.132, 198.26.37.50, 155.219.0.0, 192.132.79.0 FTSILL-GW1.ARM
+
+136 MILDENHALL-RAF          MIL            +044-638-712511 ext 2629 
+                                           (ETS) 238-2504 
+                                           (ETS) 238-2629 
+                                           (DSN) 314-328-2328
+   Zaccardo, Vic D. (VZ6)  (zaccardv@100ARW.MILDENHALL.AF.MIL)
+   100 CS/SCMU
+   PSC 37, Box 703
+   APO, AE 09459
+   011-44-638-54-2629 011-44-638-54-2504 314-238-2629 DSN 312-238-2004
+
+      26.0.0.136                           MILDENHALL.MT.DDN.MIL
+      26.5.0.136                           CHICKSANDS.MMT.DDN.MIL
+      131.58.15.0, 26.12.0.136             ALCONBURY-GW.AF.MIL
+      132.19.15.0, 26.17.0.136             MILDENHALL-GW.AF.MIL
+
+138 LANGLEY-AFB             MIL            (804) 764-7361 
+                                           (804) 764-7225 
+                                           (DSN) 574-7361 
+                                           (DSN) 574-7225
+   Uzzelle, Benjamin E., III (BEU2)  (Langley@SERVER.AF.MIL)
+   1 CS  Langley Base Network Control Center
+   165 Sweeney Blvd Rm 11 (Bldg 768)
+   Langley AFB, VA 23665
+   (804) 764-4070 (804) 764-4072 574-4736 (DSN)574-7231
+
+      26.0.0.138                           LANGLEY.MT.DDN.MIL
+      26.24.0.138, 192.111.52.1            FTMONROE-GW1.ARMY.MIL
+
+139 KELLY-AFB               MIL            (512) 925-8000 
+                                           (512) 925-3791 
+                                           (DSN) 945-8000 
+                                           (DSN) 945-3791
+   Huddleston, Rodger D. (RDH30)  (RHUDDLES@SADIS02.KELLY.AF.MIL)
+   DISO/UCM
+   UCMKH (NCDC)
+   450 DUNCAN DRIVE
+   BUILDING 200, ROOM 111
+   KELLY AIR FORCE BASE, TX 78241-5940
+   (210) 925-9288 (210) 925-9289/9290 945-9288/9289/9290 (210) 925-5530  
+    DSN 945-5530
+
+      26.0.0.139                           KELLY.MT.DDN.MIL
+      26.26.0.139,131.13.15.0              KELLY1-GW.AF.MIL
+
+141 ANDERSEN-AFB            MIL            +671 366-3181 
+                                           (DSN) 315-366-3181 
+                                           (DSN) 315-321-3867
+   Victorino, Vance K. (VKV)  (nsc-m141@DDN-PAC.DDN.MIL)
+   633CS/SCTT
+   Bldg 23002, Rm 121
+   Andersen AFB, Guam
+   APO, AP 96543-4009
+   671-366-3181 671-366-2715 366-3181 315 366-2711
+
+      26.0.0.141                           ANDERSEN.MT.DDN.MIL
+      26.19.0.141, 131.47.15.0             ANDERSEN-GW.AF.MIL
+
+145 WHEELER                 MIL            (808) 655-1472 or 656-1473 
+                                           (DSN) 456-1472 or 456-1473 
+                                           [E] (808) 656-2777
+   Horal, Robert G. (RGH49)  (nsc-pac@WHELEMH.DISA.MIL)
+   Commander, Defense Information Systems Agency, Pacific
+   Attn: DPOD
+   Wheeler Army Air Field, HI 96854-5000
+   (808) 656-2328/8250 (808) 656-8250 (315) 456-2328/8250 (DSN)456-1277
+
+      26.0.0.145                           WHEELER.MT.DDN.MIL
+      26.30.0.145, 198.22.28.5             PACM-GW.DISA.MIL
+
+147 FT-SAM-HOUSTON          MIL            (210) 221-3549 
+                                           (210) 221-4343 
+                                           (DSN) 471-3549 
+                                           (FAX) (210) 221-5704
+   Martinez, Cid (CM537)  (martinec@SAMHOU-BASOPS.ARMY.MIL)
+   DOIM, Networks Management Br
+   AFZG-IM-IN
+   Building 4190
+   2108 9th Street
+   Fort Sam Houston, TX 78234-5005
+   1-210-221-4223 471-4223
+
+      26.0.0.147                           SAM-HOUSTON.MT.DDN.MIL
+      26.19.0.147,139.232.1.1              FTSMHSTN-GW2.ARMY.MIL
+      26.28.0.147                          RANDOLPH-IP.DDN.MIL
+
+148 OAKLAND-NSC             MIL            (415) 466-4343 
+                                           (415) 466-4357 
+                                           (DSN) 836-4343 
+                                           (DSN) 836-4357
+   De Hoyos, Tony (TD169)  (nscoakla@DDN-CONUS.DDN.MIL)
+   Naval Supply Center Oakland
+   7th and Maritime St.
+   Bldg. 311-3E Code 64.1
+   Oakland, CA 94625
+   (510) 302-4378 (DSN) 672-4378
+
+      26.0.0.148                           OAKLAND.MT.DDN.MIL
+      26.5.0.148, 192.131.247.0            MSCPAC-GW.NAVY.MIL
+      26.14.0.148, 132.57.15.0             CASTLE-GW.AF.MIL
+      26.19.0.148                          OAKLANDT20.DDN.MIL
+
+149 PHILADELPHIA-ASO        MIL            (215) 697-2041 
+                                           (215) 697-6619 
+                                           (215) 697-6620 
+                                           (DSN) 442-2041
+   Odhner, Michael X. (MXO)  (Odhner@HAWKEYE.ASO.NAVY.MIL)
+   Aviation Supply Office
+   Attn: Code O46.E
+   Bldg 1, Room 2100
+   700 Robbins Avenue
+   Philadelphia, PA 19111-5098
+   (215) 697-6447 442-6447 (215) 697-6028
+
+      26.0.0.149                           PHILADELPHIA.MT.DDN.MIL
+      26.11.0.149                          INDAP-GW1.ARMY.MIL
+
+151 DENVER                  MIL            (303) 361-3272 or 361-4440 
+                                           (DSN) 943-3272 or 943-4440
+   Martin, Richard Alex (RM633)  (rmartin@FTZSMMNS-AMEDD.ARMY.MIL)
+   Fitzsimons Army Medical Center
+   HSHG-IMT DOIM, Telecommunications
+   Bldg 622
+   Aurora, CO 80045-5001
+   303-361-3272 943-3272 943-3646
+
+      26.0.0.151                           DENVER.MT.DDN.MIL
+
+152 MECHANICSBURG           MIL            (717) 790-3595 
+                                           (DSN) 430-3595
+   Fordham, Stephen B. (SBF3)  (FordhamS@MCHFMCCM.NAVY.MIL)
+   DISO
+   Code UVMN
+   Bldg 309, Bay E23
+   5450 Carlisle Pike
+   Mechanicsburg, PA 17055
+   (717) 790-4786 (717) 236-1521 430-4786
+
+      26.0.0.152                           MECHANICSBURG.MT.DDN.MIL
+      26.18.0.152                          LTTRKNNY-GW2.ARMY.MIL
+      26.29.0.152, 138.155.0.0             HCMEC1-GW.NAVY.MIL
+
+153 ROCK-ISLAND             MIL            (309) 782-4578 or 782-4722 
+                                           (DSN) 793-4578 or 793-4722
+   Merry, Gregory (GM96)  (IMIOGM@RIA-EMH1.ARMY.MIL)
+   Commander, Rock Island Arsenal
+   Director, Information Management
+   ATTN: SMCRI-IMO-TN
+   ROCK ISLAND, IL 61299-5000
+   (309) 782-4771 793-4771 (309) 782-7951
+
+      26.0.0.153                           ROCK-ISLAND.MT.DDN.MIL
+      26.13.0.153, 198.26.6.50             ROCKI-GW2.ARMY.MIL
+
+155 DARBY2-KASERNE          MIL            (0911) 700-6456/6344 
+                                           (DSN) 460-6456 
+                                           (FAX) 460-7222
+                                           24 hr ops 460-7118
+   Clements, Thomas A. (TAC20)  (clements@NUERNBERG-EMH2.ARMY.MIL)
+   HHD, 69th Signal Bn
+   Node Site Coordinator
+   Attn: ASQE-XE-CN
+   Unit 27940
+   APO, AE 09222
+   (0911) 700-6456 (0911) 700-6344 460-6456 (DSN) 460-7222
+
+      26.0.0.155                           DARBY.MT.DDN.MIL
+      26.9.0.155                           BAMBERG.MMT.DDN.MIL
+      26.14.0.155                          ILLESHEM.MMT.DDN.MIL
+
+156 COLTANO                 MIL            +039-50-37362 ext 7703 
+                                           (DSN) 314-633-7703
+   Ceyrolles, Mark W. (MWC27)  (nsc-clt@DDN-EUR.DDN.MIL)
+   ITT/FSIC DCS Coltano
+   ATTN: Mr. Ceyrolles
+   UNIT 31301, Box 34
+   APO, AE 09613
+   0039-50-547610 0039-50-547744 633-7610 (DSN) 633-7082
+
+      26.0.0.156                           COLTANO.MT.DDN.MIL
+      26.4.0.156,136.219.1.1               LIVORNO-GW1.ARMY.MIL
+
+158 PENSACOLA-NAS           MIL            (904) 452-2601 
+                                           (DSN) 922-2601
+   Bradley, Bettye (BB480)  (NSCPENSACOLA@DDN-CONUS.DDN.MIL)
+   NCTS
+   PENSACOLA NAVAL AIR STATION
+   130 WEST AVENUE
+   SUITE B
+   PENSACOLA, FL 32508-5111
+   U.S.
+   (904) 452-2601 384 922-3501 384 (904) 452-9096
+
+      26.0.0.158                           PENSACOLA.MT.DDN.MIL
+      26.15.0.158, 160.125.0.0             PENR1398-GW.CNET.NAVY.MIL
+      26.16.0.158, 192.84.125.2            NTSC-PEN-GW.NAVY.MIL
+      26.29.0.158                          PENSACOLA-GW1.NAVY.MIL
+      26.31.0.158, 192.31.245.0            PSNTESTBED-900-GW.NAVY.MIL
+
+159 FT-LEWIS                MIL            (206) 967-5373 
+                                           (DSN) 357-5373 
+                                           (FAX) 357-5520
+                                           24 hr ops 357-5252
+   Grear, David L. (DLG16)  (GREARD@LEWIS-EMH2.ARMY.MIL)
+   COMMANDER
+   1115TH SIG. BN.
+   ATTN: AFZH-IMR-P
+   FT LEWIS, WA 98433-5000
+   206-967-7711 (206)967-5252 357-7711 (206)967-5520
+
+      26.0.0.159                           LEWIS.MT.DDN.MIL
+      26.19.0.159                          FTLEWIST20.DDN.MIL
+      26.29.0.159, 137.209.10.1, 33.42.200.2 LEWIS-IP.DDN.MIL
+      26.31.0.159, 198.26.42.18, 150.192.1.1 FTLEWIS-GW1.ARMY.MIL
+
+160 BATTLECREEK             MIL            (616) 961-4267 
+                                           (DSN) 932-4267 
+                                           (FTS) 552-4110
+   Ricketts, Michael L. (MLR19)  (mricketts@DLSCG3.DLSC.DLA.MIL)
+   Defense Logistics Services Center (DLSC)
+   Battle Creek Federal Center
+   74 Washington St.
+   Battle Creek, MI 49015
+   (616) 961-4263 932-4263 (DSN) 932-4265
+
+      26.0.0.160                           BATTLECREEK.MT.DDN.MIL
+
+161 NEW-ORLEANS2            MIL            (504) 948-5789 
+                                           (DSN) 363-5789
+   Charles, Martha L. (MLC28)  (NRDCNOLA@NCTAMSLANT.NAVY.MIL)
+   NAVCOMTELSTA New Orleans
+   Bldg 603, Room 460
+   4400 Dauphine St.
+   New Orleans, LA 70145-7700
+   (504) 942-6274 (504) 948-5780 363-6274 (504) 948-5202
+
+      26.0.0.161                           NEW-ORLEANS2.MT.DDN.MIL
+      26.7.0.161                           SENTRY.NOO.NAVY.MIL
+      26.17.0.161, 134.229.1.1, 134.229.2.1 CONCGWY-GW.NAVY.MIL
+
+162 FT-CAMPBELL             MIL            (502) 798-9648 
+                                           (DSN) 635-9648
+   Eighmy, Joe G. (JE13)  (SC09@CAMPBELL-EMH2.ARMY.MIL)
+   DIRECTOR OF INFORMATION MGMT
+   ATTN: AFZB-IM
+   BLDG 95
+   Fort Campbell, KY 42223-5138
+   (502)798-9648 635-9648
+
+      26.0.0.162                           CAMPBELL.MT.DDN.MIL
+      26.17.0.162, 198.26.20.18, 147.238.13.2 FTCMPBLL-GW1.ARMY.MIL
+
+163 FT-HOOD                 MIL            (817) 287-8467 or 287-2217 
+                                           (DSN) 737-8467 or 737-2277
+   Moore, Jimmie D., Mr. (JDM157)  (moorej@HOOD-03.ARMY.MIL)
+   1114th Signal Battalion
+   Atten: AFZF-IM-CI
+   Bldg 4429
+   Ft. Hood, TX 76544-5056
+   817-287-5301 737-5301 817-287-4501
+
+      26.0.0.163                           HOOD.MT.DDN.MIL
+
+164 CORPUS-CHRISTI-NAS      MIL            (512) 939-2681 
+                                           (DSN) 861-2681
+   Walker, James A. (JAW45)  (NSC-CORP@DDN-CONUS.DDN.MIL)
+   NAVDAF CORPUS CHRISTI
+   BLDG 10
+   CORPUS CHRISTI, TX 78419
+   512-939-2681 861-2681
+
+      26.0.0.164                           CORPUS.MT.DDN.MIL
+
+167 NEWARK-AFB              MIL            (614) 522-7083 
+                                           (DSN) 346-7083
+   Huston, Rudy (RH349)  (rhuston@AGDIS01.NEWARK.AF.MIL)
+   AGMC/SCS
+   813 IRVINWICK DR WEST
+   NEWARK AFB, OH 43057-5000
+   (614) 522-7954 346-7954 DSN 346-7991
+
+      26.0.0.167                           NEWARK.MT.DDN.MIL
+
+168 WAHIAWA                 MIL            (808) 653-5324 
+                                           (DSN) 315-453-5324
+   Ulsh, Richard K. (RKU)  (rhuston@AGDIS01.NEWARK.AF.MIL)
+   Naval Computer Telecommunications Area
+   Master Station-Eastern Pacific (N34E)
+   Wahiawa, HI 96786-3050
+   (808) 653-5548 (808) 653-5580 315-453-5548/5580
+
+      26.0.0.168                           WAHIAWA.MT.DDN.MIL
+      26.9.0.168,131.88.1.10               GW.PACIFIC.DRMS.DLA.MIL
+      26.16.0.168, 131.38.15.0             HICKAM-GW.AF.MIL
+      26.19.0.168, 150.137.10.1            SCHOFIELD-GW1.ARMY.MIL
+
+169 DHARAN                  MIL            (303) 361-3272 or 361-4440 
+                                           (DSN) 943-3272 or 943-4440
+   Dean, Michael C. (MCD25)  (deanm@DHAHRAN-EMH1.ARMY.MIL)
+   psc 1258
+   box 231
+   APO, AE 09858-0231
+   009-663-899-1119 011-966-3- 318-431-4231
+
+      26.0.0.169                           DHAHRAN.MT.DDN.MIL
+      26.10.0.169                          TADTOWN-GW.AF.MIL
+      26.19.0.169, 143.68.1.1, 143.70.1.1  DHAHRAN-GW1.ARMY.MIL
+
+170 EIELSON-AFB             MIL            (907) 377-5283 
+                                           (DSN) 377-1101 
+                                           (DSN) 317-377-5283 
+                                           (DSN) 317-377-6104
+   Calton, Perry (PC247)  (caltonp1@ICEBOX.EIELSON.AF.MIL)
+   343 CS/SCLPI
+   Wabash Ave STE B60
+   Eielson AFB, AK 99702
+   (907) 37 (907) 377-3148 (317) 37
+
+      26.0.0.170                           EIELSON.MT.DDN.MIL
+      26.4.0.170                           GREELY-GW1.ARMY.MIL
+      26.14.0.170, 143.214.10.1            WAINWRIGHT-GW1.ARMY.MIL
+
+171 YONGSAN                 MIL            +011 8279138901 
+                                           (DSN) 314-723-8901 
+                                           (DSN) 723-3992 
+                                           (DSN) 293-6126
+   Bashor, Rickey M. (RMB37)  (ASQK-EI-AM-DDN@SEOUL-EMH1.KOREA.ARMY.MIL)
+   CDR 201ST SIGNAL SUPPORT CO
+   UNIT #15551
+   APO, AP 96205-0613
+   82-2-7913-7839 82-2-7913-7800 723-7839 723-9413
+
+      26.0.0.171                           YONGSAN.MT.DDN.MIL
+      26.29.0.171                          SUWON-GW1.NAVY.MIL
+      26.30.0.171, 132.61.15.0             OSAN-GW.AF.MIL
+      26.31.0.171                          SEOUL-GW1.KOREA.ARMY.MIL
+
+172 LINTHICUM-NSA           MIL            (DSN) 314-350-6123 
+                                           (DSN) 314-350-7377
+   Buckley, William P. (WPB4)  (sysadmin@DOCKMASTER.NCSC.MIL)
+   Department of Defense
+   Dockmaster Operations, Y414
+   9800 Savage Rd.
+   Ft. Meade, MD 20755-6000
+   (410) 850-4446 (410) 859-4360
+
+      26.0.0.172                           LINTHICUM.MT.DDN.MIL
+      26.29.0.172                          CHARON-GW.NCSC.MIL
+
+173 PERLHRBR                MIL            (808) 471-9960 
+                                           (808) 471-9136 
+                                           (808) 471-9803 
+                                           (DSN) 315-474-9136
+   Briggles, George (GB150)  (NARDACGB@SRF-YOKO.NAVY.MIL)
+   U.S. Naval Ship Repair Facility
+   Yokosuka Japan
+   PSC 473, Box 8
+   FPO AP 96349-1400
+   (DSN) 243-7104 (DSN) 243-5066 (DSN) 243-6021
+
+      26.10.0.173                          CPF-DDN-GW.NAVY.MIL
+      26.14.0.173, 192.5.55.1              SIMAPH-GW.HNL.MRMS.NAVY.MIL
+      26.24.0.173, 198.97.80.200, 199.10.200.1 NPMOC-GW.NAVY.MIL
+
+174 ST-INIGOES-NAVY         MIL            No Phone
+   Summers, Bob (BS16)  (bsummers@NCCS-EVAX.NAVY.MIL)
+   Department of the Navy
+   Commanding Officer
+   NISE East Det  B 185
+   Villa Road
+   ST INIGOES, MD 20684-0010
+   (301) 862-8764 (301) 862-8741 326-3512 8764 (301) 862-8764
+
+      26.0.0.174                           ST-INIGOES.MT.DDN.MIL
+      26.8.0.174, 140.229.10.10            NATC-CSDRD.NAVY.MIL
+      26.29.0.174, 192.108.185.1           NCCS-STI-GW.NAVY.MIL
+
+175 PENDELTON-BARRACKS      MIL            (DSN) 314-343-8431
+   Matthews, Ronald J. (RJM87)  (aetvhuggid@GIESSEN-EMH1.ARMY.MIL)
+   Dial Central Office - Giessen
+   ATTN: AETV-HUG-G-ID
+   APO, AE 09169
+   (COM) 0641-402-8430/8431 (DSN) 343-8430/8431
+
+      26.0.0.175                           PENDELTON-BKS.MT.DDN.MIL
+      26.10.0.175                          FRIEDBRG.MMT.DDN.MIL
+      26.11.0.175                          KIRCHGNS.MMT.DDN.MIL
+      26.17.0.175, 139.139.2.1             GIESSEN-GW1.ARMY.MIL
+
+176 WRIGHTPAT4-AFB          MIL            (513) 257-4088 
+                                           (513) 257-3251 
+                                           (DSN) 787-4088 
+                                           (FAX) 257-3337
+   Bennett, Andre M. (AB277)  (nsc@WPDIS01.WPAFB.AF.MIL)
+   HQ645C-CSG/SCMN
+   3810 Communications Suite
+   WPAFB, OH 45433-5707
+   (513) 257-4088 (513) 257-3488 787-4088 (513) 257-3337
+
+      26.0.0.176                           WRIGHTPAT4.MT.DDN.MIL
+      26.5.0.176, 192.67.251.8             GW2.DAAS.DLA.MIL
+      26.13.0.176, 131.80.1.50, 33.0.99.1  GW.DESC.DLA.MIL
+      26.19.0.176                          DINFOS-GW1.ARMY.MIL
+
+177 GRAFFENWOEHR            MIL            (DSN) 314-475-6483 
+                                           (ETS) 475-7248 
+                                           (ETS) 475-7256 
+                                           (ETS) 475-6199
+   Schemela, Bernhard J. (BJS64)  (falcon@EMAIL.GRAFENWOEHR.ARMY.MIL)
+   Camp Tunesia, Bldg 6144
+   7th ATC, Grafenwoehr
+   APO, AE 09114
+   49 9641837256 49 9641831440 475-7256 475-8491
+
+      26.0.0.177                           GRAFFENWOEHR.MT.DDN.MIL
+      26.8.0.177                           VILSEK.MMT.DDN.MIL
+      26.10.0.177,155.155.16.1             BAMBERG-GW1.ARMY.MIL
+      26.12.0.177                          BAMBERG-GW.ARMY.MIL
+      26.14.0.177                          GRAFENWOEHR-GW1.ARMY.MIL
+      26.15.0.177                          ANSBACH.MMT.DDN.MIL
+
+178 YOKOSUKA                MIL            No Phone
+
+   No Contact Given
+
+      26.0.0.178                           YOKOSUKA.MT.DDN.MIL
+      163.251.0.1, 26.5.0.178              SRFYOKO-GW.MRMS.NAVY.MIL
+      26.24.0.178                          NORTHDOCK-GW1.ARMY.MIL
+      26.26.0.178, 138.153.0.0             HCYOK1-GW.NAVY.MIL
+
+180 CAMPBELL-BARRACKS2      MIL            +49 06221-57-8954 
+                                           (DSN) 314-370-8954 
+                                           (DSN) 314-370-7001 
+                                           (DSN) 314-370-8530
+   Hubbard, Carol E. (CEH41)  (nsc-hdl@DDN-EUR.DDN.MIL)
+   HQ USAREUR
+   CMR 420, BOX 1444
+   APO, AE 09063
+   06221-578954 +49-6221-57-8302 370-8954 DSN 370-9933
+
+      26.0.0.180                           CAMPBLLBKS2.MT.ARMY.MIL
+      26.14.0.180                          COLEMNBK.MMT.DDN.MIL
+
+184 SECKENHEIM              MIL            +49-0621-478771 
+                                           (DSN) 314-370-8509 
+                                           (DSN) 314-370-8096
+   Carter, Lloyd (LC173)  (nsc-sec@SECKENHEIM-EMH1.ARMY.MIL)
+   Army Material Command - Europe
+   Attn:  ASQE-Y-HC-D
+   P.O. Box 44
+   APO, NY 09333-4747
+   +49 621-478771 (DSN) 314-370-6703
+
+      26.0.0.184                           HAMMOND.MT.DDN.MIL
+      26.10.0.184                          DARMSTADT.MMT.DDN.MIL
+      26.11.0.184                          BABENHS.MMT.DDN.MIL
+
+185 ROBINSON-BARRACKS       MIL            (DSN) 314-420-7144 
+                                           (DSN) 314-420-6314 
+                                           (DSN) 314-420-6031 
+                                           (DSN) 314-420-6064
+   Mayfield, Frederick (FM82)  (NSC-STUTTGART@EURU1-GW.DISA.MIL)
+   589th Signal Corp
+   Attn: ASE-Y-V-SRM
+   DDN Node Site Coordinator
+   APO, AE 09154
+   +49 711-819-6525 (DSN) 314-420-6031
+
+      26.0.0.185                           ROBINSON.MT.DDN.MIL
+      26.17.0.185                          STUTTGRTT20.DDN.MIL
+
+186 WIESBADEN               MIL            +06134-605-950 
+                                           (DSN) 314-337-5950
+   Wallent, Anthony (AW112)  (NSC-WIESBADEN@EURU1-GW.DISA.MIL)
+   Wiesbaden DCS Station
+   Commander SERV-AIR INC
+   Attn: DDN Node Site Coordinator
+   APO, AE 09457
+   +06134-605-950 (DSN) 314-337-5950
+
+      26.0.0.186                           WIESBADEN.MT.DDN.MIL
+      26.14.0.186                          ANDERSON-BKS.MMT.DDN.MIL
+      26.17.0.186, 138.50.1.1, 138.50.0.1  WIESBADEN-GW1.ARMY.MIL
+
+188 LEIGHTON-BARRACKS       MIL            (DSN) 314-350-6123 
+                                           (DSN) 314-350-7377
+   Porter, Charles W. (CWP23)  (wbg-dcs@EMAIL.WUERZBURG.ARMY.MIL)
+   CDR ITT/FSICOPMAS-E,DCS-WBG
+   98TH ASG
+   UNIT 26622
+   APO, AE 09244
+   +49 931-889-6123 314-350-6123 (DSN) 314-350-6680
+
+      26.0.0.188                           LEIGHTON.MT.DDN.MIL
+      26.4.0.188, 136.207.2.1, 136.220.8.1 WUERZBURG-GW1.ARMY.MIL
+      26.8.0.188                           SCHWEINFURT.MMT.DDN.MIL
+      26.13.0.188                          GIEBELSTADT.MMT.DDN.MIL
+      26.14.0.188                          KITZINGEN.MMT.DDN.MIL
+
+191 SEMBACH-AB              MIL            +06302-67-7227 
+                                           (DSN) 314-496-7830 
+                                           (DSN) 314-496-6484 
+                                           (DSN) 314-496-7765
+   Meeks, Christine D. (CDM71)  (sembach@SERVER.AF.MIL)
+   617 CS/SCMTS
+   Unit 1055
+   Box 400
+   APO, AE 09136-1055
+   49-6302-67-6484 49-6302-67-6816 314-496-6484/6816
+
+      26.0.0.191                           SEMBACH.MT.DDN.MIL
+      26.9.0.191                           KAISERSL.DSRE.DLA.MIL
+      26.15.0.191                          KSRSKTRN.MMT.DDN.MIL
+
+192 INCIRLIK-AB-IMP         MIL            (DSN) 314-676-6082 
+                                           (DSN) 314-676-6640 
+                                           (DSN) 314-676-3220 
+                                           (DSN) 314-676-3189
+   Altom, Terry S. (TSA8)  (39csnsc@INCTURKY.AF.MIL)
+   39CS/SCUU, Unit 7060
+   Box 15, BlD 470
+   APO, AE 09824
+   (C) 011-91-322-316-3220 314-676-3220 314-676-8543
+
+      26.0.0.192                           INCIRLIK.MT.DDN.MIL
+      26.6.0.192                           IZMIR.MT.DDN.MIL
+      26.17.0.192,132.27.15.0              INCIRLIK-GW.AF.MIL
+
+194 HILLINGDON              MIL            011 44 895 276254 
+                                           (Alt) 011 44 895 276248 
+                                           (DSN) 314 230-3254
+                                           
+                                           (FAX) 314 230-3260 24 hr ops  
+                                            314 230-3260
+   Smith, Elijah R., Jr. (ERS23)  (smithe@CS619.AF.MIL)
+   619 COMM SQDN
+   SCMU
+   Unit 4800
+   APO, AE 09449-4800
+   011 44 895 276254 314 230-3254 314 230-3241
+
+      26.0.0.194                           HILLINGDON.MT.DDN.MIL
+      26.5.0.194                           LONDON2.MMT.DDN.MIL
+      26.7.0.194                           CHIEVRES.MMT.DDN.MIL
+      26.9.0.194, 26.5.0.15, 198.17.81.1   NCTSL-GW.NAVY.MIL
+
+198 LUKE-AFB                MIL            (602) 856-3546 
+                                           (DSN) 853-3546
+   Miller, Robert S. (RSM20)  (millers@LUKEMAIL.AF.MIL)
+   7324 N Homer Dr.
+   BLD 122
+   Luke AFB, AZ 85309
+   602-856-3708 602-856-3708 853-6476 602-856-3707
+
+      26.0.0.198                           LUKE.MT.DDN.MIL
+
+201 CHANTILLY               MIL            No Phone
+   Saunders, John Richard (JRS115)  (SAUNDERS@GSIMAIL.DDN.MIL)
+   GOVERNMENT SYSTEMS INC.
+   4206 TECHNOLOGY COURT
+   SUITE F
+   ATTN: JOHN SAUNDERS
+   CHANTILLY, VA 22021
+   (703) 803-2721 (703) 803-2700 (703) 802-3206
+
+      26.0.0.201                           CHANTILLY1.MT.DDN.MIL
+      26.25.0.201, 192.112.36.1, 192.112.37.1, 192.112.38.1 GSI-GW1.DDN.M
+
+202 CHANTILLY2              MIL            No Phone
+   Barsanti, Jeffery E. (JB806)  (BARSANTI@GSIMAIL.DDN.MIL)
+   Government Systems, Inc.
+   4212 TECHNOLOGY COURT
+   Suite F
+   Chantilly, VA 22021-1214
+   (703) 803-2707 (703) 802-1336
+
+      26.0.0.202                           CHANTILLY2.MT.DDN.MIL
+      26.4.0.202                           GSI-GW2.DDN.MIL
+
+205 FT-STEWART              MIL            (912) 767-7841 
+                                           (912) 767-7682 
+                                           (DSN) 870-7841 
+                                           (DSN) 870-7682
+   Prendergast, Greg, Mr (RWB17)  (gprend@STEWART-EMH3.ARMY.MIL)
+   dir of information management
+   attn: ddn node site coord
+   bldg 03, rm 115
+   Ft Stewart, GA 31314-5000
+   912-767-1701 912-767-1702 870-1701/1702 912-767-4168 dsn 870-4168
+
+      26.0.0.205                           STEWART.MT.DDN.MIL
+
+206 FT-GORDON               MIL            (706) 791-2379 or 791-2570 
+                                           (DSN) 780-2334 or 780-2570
+   Salowitz, William G. (WGS15)  (salowitw@EMH1.GORDON.ARMY.MIL)
+   U.S. Army Signal Center
+   ATZH-IM
+   BLDG 29610
+   ROOM 108
+   Ft Gordon, GA 30905
+   706-791-5826 706-791-5828 780-5826
+
+      26.0.0.206                           GORDON.MT.DDN.MIL
+
+207 OAKLAND-ARMY-BASE       MIL            (619) 545-8811 
+                                           (619) 545-8814 
+                                           (DSN) 735-8811 
+                                           (DSN) 735-8814
+   Evans, Charles J. (CJE10)  (evans@OAKLAND-EMH1.ARMY.MIL)
+   Network Support Section
+   MTIMW-NM-S
+   118 Buna St.
+   Oakland Army Base
+   Oakland, CA 94626-5099
+   (510) 466-2932 (510) 466-3222 859-2932 (510) 466-7841
+
+      26.6.0.207                           FTORD-GW1.ARMY.MIL
+      26.8.0.207, 192.33.185.0             SACRAMNTO-GW1.ARMY.MIL
+      26.30.0.207, 140.51.3.2              OAKLAND-GW1.ARMY.MIL
+
+210 BARKSDALE               MIL            (318) 456-3466 
+                                           (318) 456-2960 
+                                           (DSN) 781-3466 
+                                           (DSN) 781-2960
+   Doyle, Randy W. (RWD41)  (concoor@BARKSDALE-EMH.AF.MIL)
+   2 Communications Squadron/SCSN
+   BLDG 3447, RM 24
+   Barksdale AFB, LA 71110
+   (318) 456-3767 (318) 456-5845 781-3767/5845 (318) 456-4358
+
+      26.0.0.210                           BARKSDALE.MT.DDN.MIL
+
+216 CHARLESTON-AFB          MIL            (803) 566-3509 
+                                           (803) 566-3295 
+                                           (DSN) 583-2841 
+                                           (DSN) 583-2844
+   Huffman, Todd L. (TLH51)  (Charleston@SERVER.AF.MIL)
+   437CS/SCSL
+   Bldg 129, Rm 112
+   103 S. Graves Ave.
+   Charleston AFB, SC 29404-5009
+   (803) 566-3509 (803) 566-2959 673-3509 (803) 566-3489
+
+      26.0.0.216                           CHARLESTON.MT.DDN.MIL
+
+217 FT-JACKSON              MIL            (803) 751-3252 
+                                           (DSN) 734-3252
+   Clark, Cornelius W., Jr. (CWC20)  (clarkc@JACKSON-EMH1.ARMY.MIL)
+   Commander
+   USATC & FORT JACKSON
+   ATTN:  ATZJ-IM
+   Fort Jackson, SC 29207-6010
+   (803) 751-3252 (803) 751-6025 734-3252 (803) 751-5531
+
+      26.0.0.217                           JACKSON.MT.DDN.MIL
+
+223 YOKOTA-AB               MIL            +81 425-52-2511 ext 58699 
+                                           (DSN) 315-225-8699
+   Halverson, Richard C. (RCH62)  (YKTNSC@EMH.YOKOTA.AF.MIL)
+   374 CS/SCOUH
+   APO, AP 96328-5081
+   315-225-8561
+
+      26.0.0.223                           YOKOTA.MT.DDN.MIL
+      132.20.15.0, 132.20.120.1, 26.24.0.223 MISAWA-GW.AF.MIL
+      26.31.0.223, 131.36.15.0             YOKOTA-GW.AF.MIL
+
+224 FT-RITCHIE              MIL            (301) 878-5555 
+                                           (DSN) 277-5555
+   Wiley, Dean M. (DMW92)  (dean.wiley@RITCHIE.DISA.MIL)
+   DISA WESTHEM, DCS OPERATIONS
+   Regional Control Center
+   WE31, Command Section
+   Building 160
+   Fort Ritchie, MD 21719-4010
+   (301) 878-5331 277-5331 277-4464
+
+      26.0.0.224                           RITCHIE.MT.DDN.MIL
+      26.6.0.224, 131.92.10.12, 192.12.125.12, 192.55.134.1 CRDEC-GW2.ARM
+      26.7.0.224                           FTDIX-GW1.ARMY.MIL
+      26.13.0.224                          HOLBRD-GW1.ARMY.MIL
+      26.15.0.224, 26.24.0.81              VINTHILL-GW1.ARMY.MIL
+      26.17.0.224, 26.4.0.246, 139.231.0.1, 192.131.16.1, 192.136.137.1 R
+      26.25.0.224, 131.121.115.253         NADN-NET-GW.NAVY.MIL
+
+226 NORTH-ISLAND-NAS        MIL            (619) 545-8811 
+                                           (619) 545-8814 
+                                           (DSN) 735-8811 
+                                           (DSN) 735-8814
+   Dante, Abad R. (ARD13)  (NSC-NoIs@DDN-CONUS.DDN.MIL)
+   NCTS San Diego
+   NAS North Island
+   PO Box 357056
+   San Diego, CA 92135-7056
+   (619) 545-8817 735-8817
+
+      26.0.0.226                           NORTH-ISLAND.MT.DDN.MIL
+      26.14.0.226, 198.26.47.18            FTIRWIN-GW1.ARMY.MIL
+
+229 FT-BLISS                MIL            (915) 568-1774 
+                                           (DSN) 978-1774 
+                                           (DSN) 978-3362 
+                                           (DSN) 978-2121
+   Nielson, Steve A. (SAN4)  (nielsons@BLISS-ASTSC.ARMY.MIL)
+   1733 Pleasonton Road
+   Ft. Bliss, TX 79916
+   (915) 568-4126 915-568-5594 978-4126 978-1100
+
+      26.0.0.229                           BLISS.MT.DDN.MIL
+
+230 MARCH-AFB               MIL            (714) 655-3220 
+                                           (DSN) 947-3220
+   Jaburg, Daniel (DJ199)  (MARCDPC@K103B.KELLY.AF.MIL)
+   22CS/SCUND
+   1265 Z ST
+   Bldg 2670, Rm1
+   March AFB, CA 92518-2063
+   (909) 655-5495 (909) 655-3220 947-5495
+
+      26.0.0.230                           MARCH.MT.DDN.MIL
+
+231 FT-RILEY                MIL            (913)239-3254
+   Westover, Leanne R. (LLW9)  (netadmin@RILEY-EMH1.ARMY.MIL)
+   DOIM
+   ATTN: Leanne Westover
+   215 Custer Ave
+   Ft Riley, KS 66442
+   (913) 239-0646 856-0646 913-239-6660
+
+      26.0.0.231                           RILEY.MT.DDN.MIL
+      26.18.0.231, 192.91.137.17, 198.26.37.66 FTRILEY-GW1.ARMY.MIL
+
+232 FT-BENHARRISON2         MIL            (317) 542-3609 
+                                           (DSN) 699-3609
+   Clark, Michael (MC468)  (CLARKM@INDPLS-ASAFM1.ARMY.MIL)
+   DFAS-FSAIN
+   ATTN: TB
+   Building 1, Room 140F
+   8899 E. 56th Street
+   Indianapolis, IN 46249-1801
+   (317) 543-7177 699-7177 (DSN) 699-6699
+
+      26.0.0.232                           BENHARRISON2.MT.DDN.MIL
+      26.12.0.232, 192.67.251.9            GW3.DAAS.DLA.MIL
+      26.16.0.232                          FTBENT20.DDN.MIL
+      26.17.0.232, 192.240.136.42          FTBNHRSN-GW1.ARMY.MIL
+
+235 SEYMOUR-JOHNSON-AFB     MIL            (919) 736-5624 or 736-6461 
+                                           (24 hrs) (DSN) 488-5624 or    
+                                            488-6461 
+                                           (24 hrs)
+   Mitchell, Lori Q. (LQM)  (NSC-Seym@DDN-CONUS.DDN.MIL)
+   4th Communications Squadron/SCSD
+   1630 Martin Street, Suite 120
+   Seymour Johnson AFB, NC 27531-6346
+   (919) 736-6461 (919) 736-6455 488-6461
+
+      26.0.0.235                           SEYMOUR-JHNSN.MT.DDN.MIL
+      26.16.0.235, 143.70.1.2              ODS2-GW1.ARMY.MIL
+
+238 FT-EUSTIS               MIL            (804) 878-2293 
+                                           (DSN) 927-2293 
+                                           (DSN) 927-1139
+   O'Neal, Millie B. (MO46)  (ONEALM@EUSTIS-EMH1.ARMY.MIL)
+   DOIM
+   ATT: ATZF-IMO-S
+   BLDG 667
+   Ft Eustis, VA 23604-5040
+   (804)878-4028 927-4028 (DSN)927-0030
+
+      26.0.0.238                           EUSTIS.MT.DDN.MIL
+
+242 FT-LEE                  MIL            (804) 734-4025 
+                                           (DSN) 687-4071 
+                                           (DSN) 687-4025
+   Simms, John W. (JWS57)  (LEE1@MELPAR-EMH1.ARMY.MIL)
+   Commander, USAISC
+   ATTN: ASQNB-ZMN
+   FORT LEE, VA. 23801-5240
+   (804) 734-7518 DSN: 687-7815
+
+      26.0.0.242                           LEE.MT.DDN.MIL
+
+243 PETERSON-AFB            MIL            (719) 554-4799 
+                                           (719) 554-7843 
+                                           (DSN) 692-4799 
+                                           (DSN) 692-7843
+    (JWS57)  (LEE1@MELPAR-EMH1.ARMY.MIL)
+   
+   (804) 734-7518 DSN: 687-7815
+
+      26.0.0.243                           PETERSON.MT.DDN.MIL
+      26.8.0.243,131.26.15.0,128.236.211.251 ACADEMY-GW.AF.MIL
+
+246 FT-RITCHIE2             MIL            (301) 878-3777 
+                                           (DSN) 988-3777
+   Dingle, Ralph W. (RWD23)  (DDNNSC@RITCHIE-EMH1.ARMY.MIL)
+   Director
+   Headquarters
+   USAISC-Ft Ritchie
+   ATTN: ASQT-RTR
+   Fort Ritchie, MD 21719-5010
+   (717) 878-5654 (717) 878-4584 277-5654 (717) 878-4939
+
+      26.0.0.246                           RITCHIE2.MT.DDN.MIL
+      26.17.0.224, 26.4.0.246, 139.231.0.1, 192.131.16.1, 192.136.137.1 R
+      26.5.0.246, 198.26.55.58             FTMEADE-GW1.ARMY.MIL
+      26.8.0.246                           PRTAPRNCHA-GW1.ARMY.MIL
+
+247 PENTAGON2               MIL            (202) 695-5737 
+                                           (202) 697-6068 
+                                           (DSN) 225-5737
+   Szalkowski, David F. (DFS7)  (U1435@PENTAGON-AMSNET.ARMY.MIL)
+   The Pentagon
+   Army Information Systems Command
+   Attn: ASNS-TSD-T, BE1018
+   Washington, DC 20310
+   (703) 695-5737 (DSN) 225-5737
+
+      26.0.0.247                           PENTAGON2.MT.DDN.MIL
+      26.6.0.247                           SDS-CDA3.NAVY.MIL
+      26.9.0.247, 26.8.0.50, 198.26.71.42  FLSCHRCH-GW1.ARMY.MIL
+      26.13.0.247                          DSMC-GW1.DSM.MIL
+      26.15.0.247                          CMH-GW1.ARMY.MIL
+      26.17.0.247, 192.231.39.1            IDSS.IDA.ORG
+      26.25.0.247                          TEC-GW1.ARMY.MIL
+      26.26.0.247                          PENTAGON-GW.ARMY.MIL
+      26.27.0.247, 137.130.37.10, 164.117.240.6, 149.253.0.1 IMS-GW.DISA.
+      26.28.0.247                          MILNET-GW.OSD.MIL
+      26.31.0.247, 141.116.0.1, 160.151.1.1 PENTAGON-GW1.ARMY.MIL
+
+248 BRATENAHL-OH            MIL            (216) 522-5944 
+                                           (DSN) 312-580-5944
+   Hagenbaugh, John P. (JPH23)  (jphagenb@TACOM-EMH1.ARMY.MIL)
+   DISA-Cleveland
+   Telecommunications Center/UMILMC
+   555 East 88th Street
+   Bratenahl, OH 44108
+   (216) 522-5666 (216) 522-5623 580-5666 (216) 522-6119
+
+      26.0.0.248                           BRATENAHL-OH.MT.DDN.MIL
+
+249 WEST-POINT              MIL            (914) 938-4055 
+                                           (914) 938-2179 
+                                           (DSN) 688-4055 
+                                           (DSN) 688-2179
+   McGuinness, Patrick J. (PJM24)  (4p3622@WESTPOINT-EMH2.ARMY.MIL)
+   United States Military Academy
+   DOIM-CSD-CNB
+   Building 2101
+   West Point, NY 10996-2001
+   (914) 938-7432 (914) 938-3099 688-3099/7423 (914) 938-4870
+
+      26.0.0.249                           WEST-POINT.MT.DDN.MIL
+
+250 FINEGAYAN               MIL            +671 355-5925 
+                                           (DSN) 315-321-0199 
+                                           (DSN) 315-321-1711
+   San Nicolas, Joe B. (JBS65)  (nsc-m250@DDN-PAC.DDN.MIL)
+   NCTAMS WESTPAC
+   PSC 488 Box 133
+   FPO, AP 96537-1829
+   +671 355-5925 (315) 355-5925
+
+      26.0.0.250                           FINEGAYAN.MT.DDN.MIL
+      26.4.0.250, 192.103.43.1             SRFGUAM-GW.NAVY.MIL
+      26.24.0.250, 192.231.128.100         NPMOCW-GW.NAVY.MIL
+      26.31.0.250                          HCGUA1-GW.NAVY.MIL
+
+;End of file.

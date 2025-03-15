@@ -1,0 +1,215 @@
+The Electronic Frontier Foundation
+==================================
+1667 K St. NW, Suite 801
+Washington DC 20006-1605 USA
++1 202 861 7700 (voice)
++1 202 861 1258 (fax)
++1 202 861 1223 (BBS - 16.8k ZyXEL)
++1 202 861 1224 (BBS - 14.4k V.32bis)
+Internet: ask@eff.org
+Internet fax gate: remote-printer.EFF@8.5.2.1.1.6.8.2.0.2.1.tpc.int
+
+HOW TO FIND EFF ONLINE
+======================
+
+-=> Please note that WWW, FTP, gopher, WAIS and BBS services are still "under
+construction", as are many of our forums on various online services, and that
+new material is added frequently, so you may wish to check back periodically.
+
+
+Internet and USENET:
+--------------------
+
+News Services and Forums for Discussion:
+
+If you receive any Usenet newsgroups, your site may carry the newsgroups
+comp.org.eff.news and comp.org.eff.talk. The former is a moderated
+newsgroup for announcements, newsletters, and other information; the latter
+is an unmoderated discussion group for talk and debate on EFF and issues
+relating to the electronic frontier and civil liberties. Also, Usenet's
+alt.politics.datahighway may be of interest.  This conference was started by
+EFF in November of 1993, to provide a forum for discussion of the national
+(or global) information infrastructure, from deployment plans to civil
+liberties issues to debunking of hype.
+
+For those unable to read the newsgroups, there are redistributions via
+electronic mail, as well as other EFF mailing lists: 
+
+comp-org-eff-news
+        News-->mail gate of newsgroup comp.org.eff.news, EFF releases only.
+comp-org-eff-talk
+        Mail<-->news gate of newsgroup  comp.org.eff.talk (high-traffic)
+ACTION
+        Alerts & campaign info, focused online activist/volunteer
+        project work.
+effector-online
+        Distribution of EFFector Online, EFF's bi-weekly newsletter only
+net-guide
+        Monthly updates to EFF's Guide to the Internet (previously Big Dummy's
+        Guide, pub'd. in hardcopy by MIT Press as Everybody's Guide.)
+alt-politics-datahighway
+        Mail<-->news gateway of the newsgroup alt.politics.datahighway
+civil-liberty-index
+        Indexes of "newsy" civil liberties articles from Usenet
+comp-academic-freedom-talk
+        Discussion of Computers and Academic Freedom (non-digested/abstracted)
+comp-academic-freedom-abstracts
+        Abstracts from comp-academic-freedom-news (1/wk)
+comp-academic-freedom-batch
+        Discussion of Computers and Academic Freedom (batch version, 1/dy)
+comp-academic-freedom-news
+        Best of the discussion on Computers and Academic Freedom (1/wk)
+comp-gopher-diffs
+        Distribution and discussion of "bookmarks" to new Gopher material
+
+For more detailed descriptions, send a message containing
+the commands: 
+HELP
+LONGINDEX
+in the body of your message to listserv@eff.org. 
+
+Please note that comp-org-eff-talk can be high-volume at times, so you are
+advised to use filtering.
+
+Those in FidoNet and some other BBS networks can probably get the newsletter
+and other low-traffic lists via gateway systems.  Ask your network
+and echomail coordinators for more information.
+
+File Archives:
+
+A document library containing all EFF news releases and other publications
+of interest, including John Perry Barlow's history of EFF - "Crime and
+Puzzlement," as well as recent and proposed legislation, materials for
+online activists, archives of electronic publications, records of trials
+and legal cases, information alerts, and other related documents & papers,
+is available via anonymous FTP from ftp.eff.org. Send a note to
+ftphelp@eff.org if you have difficulties or are unable to use FTP.
+If you are on the Internet, you can use your host's FTP program to
+connect to ftp.eff.org (192.77.172.4).  Login as "anonymous" and use your
+e-mail address as the password.
+
+This archive may also be accessed via Gopher, and World Wide Web (Lynx,
+Mosaic, Cello, etc.) services, at gopher.eff.org, and http://www.eff.org/,
+respectively.  These utilities present documents and other files in
+hierarchical, easy-to-navigate menus, allowing you to read online, and save
+what you want to disk on your own machine.  If you don't have access to a
+gopher client, but do have access to telnet, you can use another site's 
+gopher client by telnetting to consultant.micro.umn.edu, login: gopher.
+From there, select "Other gopher servers", then "North America", "USA", 
+"Washington DC", "Electronic Frontier Foundation (EFF)".  There are a
+couple of new e-mail servers for accessing gopher sites - start
+off by sending mail with a subject and message body of "help" (no quotes) to
+gophermail@ncc.go.jp or gophermail@calvin.edu.  SunSITE offers several
+public services via telnet login. These include: gopher (login: gopher),
+World Wide Web (login: lynx - select g http://www.eff.org/ to get to EFF), 
+WAIS - over 500 databases (login: swais).
+
+When completed, Wide-Area Information Server (WAIS) database indexing of the
+EFF archives will be available at wais.eff.org via Internet.
+
+
+Outpost - EFF Online (the EFF BBS):
+-----------------------------------
+
+The EFF bulletin board system, Outpost - EFF Online, begun in March 1994,
+supports 300-14400bps connections (V.32bis, V.42bis, 8 bits, no parity,
+1 stop-bit - 8N1) on it's dialup lines.  When fully operational, the BBS
+will support 4 lines at faster speeds, and will feature online conferences
+from a variety of networks including FidoNet, Usenet/Internet, and more, as
+well as the full selection of files available from EFF's FTP archive, EFF
+membership materials, bulletins on the latest issues affecting civil
+liberties in cyberspace, and other related files and services.  The
+data phone numbers for the system are +1 202 861 1223 (14400 V.32bis,
+16800 ZyXEL) and +1 202 861 1224 (14400 V.32bis) Outpost's FidoNet address
+is 1:109/1108.  Access to the BBS is free (besides calling costs; at
+present we do not have a toll-free number.)  Other network addresses:
+WishNet - 19:1202/101; StormNet - 181:193/1; IndraNet - 369:1011/2
+
+
+The Whole Earth 'Lectronic Link (WELL):
+---------------------------------------
+
+The WELL, based in the San Francisco area, is host to an active EFF
+conference, as well as many other related conferences of interest to EFF
+supporters. Telecom access is available through the CompuServe Packet
+Network.  If you have an Internet connection, you can reach the WELL via
+telnet at well.sf.ca.us; otherwise, dial +1 415 332 6106 (data,
+300-2400bps) pr +1 415 332 8410 (data, 9600-14400bps). The WELL's voice
+number is +1 415 332 4335.  To get to the EFF conference, type "g eff".
+
+
+The Spring:
+-----------
+
+The Spring is a new conferencing system in Austin TX, hosting many conferences
+including a new EFF forum.  Spring can be reached via telnet at spring.com,
+and has local dialup access as well.  The EFF forum is accessible by
+simply following the menus into the conferences area, and choosing the
+Select Conference item, specifying the EFF conference.
+
+
+CompuServe (CIS):
+-----------------
+
+Our forum on CompuServe is also open. GO EFFSIG to join. Many of the files
+on ftp.eff.org, as well as other items of interest, are mirrored in the
+EFFSIG Libraries, and a lively debate and chat area exists with more
+than 15 online message areas.   CIS can be reached via telnet at
+compuserve.com.
+
+
+America Online (AOL):
+---------------------
+
+EFF has opened up a forum on America Online. Go to keyword EFF to join.
+Some basic EFF files are available, as well as a large and diverse
+discussion and debate area.  In addition, EFF sponsors occasional
+interactive discussions in the MCM forum.
+
+
+GEnie (GEIS):
+-------------
+
+The Public Forum * Non-Profit Connection RT hosts an EFF forum on GEnie,
+including a stock of EFF newsletters and info in Library 13, and an EFF
+discussion area (Category 7, Topic 17).  Please support this volunteer
+effort and add your thoughts to the forum.  The Public Forum is keyword
+PF (or page 545).  GEnie's voice sign-up number for new users is 1-800-638-
+9636; the sign-up code (which will get you some free time online to check out
+the system) is MHC524.
+
+
+Byte Information Exchange (BIX):
+--------------------------------
+
+An EFF forum is available on BIX.  The online EFF area is located at
+topic "eff" in the "security" conference, and BIX can be reached via
+telnet to x25.bix.com or bix.com. Like our area on GEnie, the BIX forum is a
+volunteer activist effort - please participate, and help make this a great
+virtual community of activism and discussion!
+
+
+Other Services, BBSs, and Networks:
+-----------------------------------
+
+From time to time, EFF-oriented resources may appear on other systems; for
+instance, Illuminati Online's Metaverse service will feature an EFF
+"virtual office", while FidoNet locally gates both comp.org.eff.talk and
+comp.org.eff.news.  If you have difficulty finding online material from the
+listed sources, try shopping around and you may find what you are looking
+for.  All EFF materials are redistributable, and can be found on many BBS
+systems around the country.  System operators interested in carrying our
+material should contact ask@eff.org (Internet), Stanton McCandlish at
+1:109/1108 (FidoNet), or call +1 202 861 7700 and ask for Stanton McCandlish.
+
+
+Internet Contact Addresses:
+
+Membership & donations: membership@eff.org
+Legal services: ssteele@eff.org
+Hardcopy publications: pubs@eff.org
+Online publications, conferences, & other resources: ask@eff.org
+Technical questions/problems, access to mailing lists: eff@eff.org
+Latest issue of EFFector (EFF newsletter): effector-reflector@eff.org
+
+

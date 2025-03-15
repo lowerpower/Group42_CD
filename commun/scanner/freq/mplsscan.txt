@@ -1,0 +1,445 @@
+                         SCANNER FREQUENCIES
+
+FREQUENCY      DESCRIPTION                       NOTES           
+26.965         Citizen's band channel #1         
+26.975         CB Channel #2         
+26.985         CB Channel #3
+27.005         CB Channel #4
+27.015         CB Channel #5
+27.025         CB Channel #6
+27.035         CB Channel #7
+27.055         CB Channel #8
+27.065         CB Channel #9                    EMERGENCY CHANNEL
+27.075         CB Channel #10
+27.085         CB Channel #11
+27.105         CB Channel #12
+27.115         CB Channel #13
+27.125         CB Channel #14
+27.135         CB Channel #15
+27.155         CB Channel #16
+27.165         CB Channel #17
+27.175         CB Channel #18
+27.185         CB Channel #19                    ROAD CHANNEL
+27.205         CB Channel #20
+27.215         CB Channel #21
+27.225         CB Channel #22
+27.255         CB Channel #23
+27.235         CB Channel #24
+27.245         CB Channel #25
+27.265         CB Channel #26
+27.275         CB Channel #27
+27.285         CB Channel #28
+27.295         CB Channel #29
+27.305         CB Channel #30
+27.315         CB Channel #31
+27.325         CB Channel #32
+27.335         CB Channel #33
+27.345         CB Channel #34
+27.355         CB Channel #35
+27.365         CB Channel #36
+27.375         CB Channel #37
+27.385         CB Channel #38
+27.395         CB Channel #39
+27.405         CB Channel #40
+*****************************
+42.38          WISC STATE PATROL
+42.88          MN STATE PATROL  AIRCRAFT & RADAR ENFORCEMENT
+154.935        MN STATE PATROL  OAKDALE DISP.
+155.505        MN STATE PATROL  GOLDEN VALLEY DISP.
+453.325        Minneapolis Park Police
+460.025        Minneapolis Police South 1
+460.100        Minneapolis Police North 2
+460.175        Minneapolis Police Northeast 3
+460.250        Minneapolis Police car to car 4
+460.425        Minneapolis Police Info 7
+154.875        Bloomington Police - 1
+155.700        Bloomington Police - 2
+
+                      SCANNER FREQUENCIES CONT.
+
+155.535        Brooklyn Center Police
+155.685        Crystal Police
+155.790        Eden Prarie Police
+851.7375       Eden Prarie Police
+155.670        Edina Police
+155.430        Golden Valley Police
+155.850        Hopkins Police
+155.430        New Hope Police
+460.475        Mpls/St. Paul Airport Police
+153.860        Robbinsdale Police
+155.790        Richfield Police
+154.740        St. Louis Park Police
+460.075        University of Minnesota Police
+460.150        St. Paul Police Primary 2
+460.050        St. Paul Police Midway 1 (10am-2am)
+460.450        St. Paul Police Car to Car 3
+460.225        St. Paul Police Special Events 4 (DVP)
+460.375        St. Paul Police Info
+155.625        Ramsey County Sheriff 1
+154.770        Ramsey County Sheriff 2
+460.325        UHF Information - Ramsey County
+154.860        Maplewood & No. St. Paul Police
+155.040        North St. Paul Police 2
+155.070        Roseville Police 2
+155.880        White Bear Lake Police & fire
+154.890        Apple Valley, Lakeville, Farmington Police 1
+155.415        Apple Valley, Lakeville, Farmington Police 2
+154.815        Columbia Heights, Fridley, Spring Lake Park Police
+154.785        Eagan, Inver Grove Heights, Rosemount Police
+154.890        Eagan Police
+155.655        Burnsville Police         
+155.520        W. St. Paul, Lilydale, Mendota Heights Police
+158.820        South St. Paul Police and Fire
+155.025        Cannon Falls Police and Hospital
+155.490        Rochester Police 2
+155.835        Elk River Police 2
+155.595        Duluth Police 1
+155.070        St. Cloud Police  
+155.085        Cottage Grove, Newport, St. Paul Park Police
+155.310        Mankato Police
+155.250        Shakopee Police
+155.910        Rochester Police 1
+453.575        Hennepin County Juvenile
+155.130        Eau Claire Police (Wisc)
+155.985        Chaska Police
+155.550        Menominee Police (Wisc)
+155.580        Hudson Police (Wisc)
+154.920        Minnesota Capitol Police
+155.460        Minnesota B.C.A.
+154.800        Hennepin County Sheriff ?
+154.845        Oakdale Police 
+154.475        Glencoe Police 2
+155.475        STATEWIDE POLICE EMERGENCY
+460.275        METRO EMERGENCY (MPLS/ST. PAUL)
+155.370        POINT TO POINT DISPATCHER
+       
+
+                      SCANNER FREQUENCIES CONT.
+***************************  
+154.340        Minneapolis Fire 1
+154.235        Minneapolis Fire 2
+154.385        Hennepin Fire 1
+154.355        Hennepin Fire 2
+154.070        Bloomington Fire
+154.430        Brooklyn Center Fire
+154.430        Crystal Fire
+154.205        Eden Prarie Fire
+154.415        Edina Fire
+154.250        Golden Valley Fire
+154.040        Hopkins Fire
+154.250        New Hope Fire
+154.205        Richfield Fire
+153.770        Robbinsdale Fire
+154.310        St. Louis Park Fire
+154.220        Ramsey County Fire
+154.190        Maplewood Fire
+154.160        Mounds View Fire
+154.400        Roseville Fire
+155.865        Burnsville Fire
+154.175        Eagan, Inver Grove Heights Fire
+154.445        W. St. Paul, Mendota, Apple Valley, Lakeville Fire
+154.415        McLeod County Fire
+154.370        Rochester Fire
+154.145        Scott County Fire
+154.310        Duluth Fire
+154.370        St. Cloud Fire
+ 45.20         Bayport, Forest Lake Fire
+ 39.98         Lower St. Croix Valley Fire Dept.
+154.265        Washington,Hugo,Stillwater,Lake Elmo,Newport Fire
+154.280        Anoka County Fire
+158.940        Anoka Fire
+154.160        Blaine, Spring Lake Park Fire
+156.000        Columbia Heights Fire
+154.370        Coon Rapids Fire
+153.950        Fridley Fire
+154.310        Mankato Fire
+154.295        Rockford Fire
+154.325        Rockford Fire
+154.250        Red Wing Fire
+154.220        Oakdale V.F.D.
+154.190        Oakdale V.F.D.
+154.295        STATEWIDE FIRE MUTUAL AID
+000.000
+000.000 
+000.000
+000.000
+000.000
+***************************
+155.550        Carver County Sheriff 1
+155.985        Carver County Sheriff 3
+155.310        Chisago County Sheriff 1
+155.025        Chisago County Sheriff 3
+155.595        Dakota County Sheriff 1
+   
+                      SCANNER FREQUENCIES CONT.
+
+***************************
+155.925        Goodhue County Sheriff
+155.025        Isanti County Sheriff
+155.730        LeSuer County Sheriff
+154.965        McLeod County Sheriff 1
+154.925        McLeod County Sheriff 2
+155.790        Mille Lacs County Sheriff 1
+155.490        Mille Lacs County Sheriff 2
+155.580        Olmstead County Sheriff 1
+155.805        Olmstead County Sheriff 2
+155.130        Pine County Sheriff
+155.730        Rice County Sheriff 1
+155.475        Rice County Sheriff 2
+155.250        Scott County Sheriff 1
+155.745        Scott County Sheriff Car to Car
+155.250        Sherburne County Sheriff 1
+155.925        Sibley County Sheriff
+155.415        St. Louis County Sheriff
+155.625        Stearns County Sheriff
+155.715        Wabasha County Sheriff 
+155.190        Washington County Sheriff 1
+154.845        Washington County Sheriff 2
+155.130        Wright County Sheriff 1
+156.210        Wright County Sheriff 2
+155.970        Wright County Sheriff ?
+155.580        Meeker County Sheriff 1
+155.475        Meeker County Sheriff 2
+155.640        Anoka County Sheriff 1
+155.565        Anoka County Sheriff 3 (County Wide)
+154.815        Anoka County Sheriff 2 (South)
+154.980        Anoka County Sheriff 2 (North)
+155.760        Blue Earth County Sheriff 1
+155.190        Blue Earth/Nicollet County Sheriff 2
+000.000                      
+*****************************
+WISCONSIN FREQUENCIES**
+155.775        Barron County Sheriff
+155.730        Burnett County Sheriff
+158.730        Douglas County Sheriff
+155.595        Dunn County Sheriff
+155.130        Pierce County Sheriff
+155.550        Polk County Sheriff
+155.625        Rusk County Sheriff
+155.580        St. Croix Sheriff 1
+155.745        St. Croix County Sheriff 2
+155.955        Hudson Police 2
+154.325        Hudson/River Falls Fire
+154.325        Hudson/River Falls Fire 2
+154.940        River Falls Police 2
+ 42.38         Highway Patrol Dispatch
+ 42.22         Highway Patrol Car
+000.000
+000.000
+000.000
+000.000
+        
+                      SCANNER FREQUENCIES CONT.
+***************************
+Highway Maintenance
+151.115        Minneapolis
+151.055        Minneapolis
+151.070        St. Paul                            
+151.025        St. Paul
+***************************
+N.O.A.A. (NATIONAL WEATHER SERVICE)
+162.550, 162.475, 162.400  
+***************************
+MINNESOTA DNR
+151.325        #1
+151.265        #2
+151.475        #3 Emergency
+***************************
+HOSPITALS
+155.325        Divine Redeemer
+155.340        St. Paul Ramsey (statewide)
+155.400        North Memorial
+453.150        Hennepin County Medical
+462.600        St. Mary's Hosp.
+463.325        Hennepin County Medical
+464.275        Mercy Medical Center
+464.875        United Hospitals
+***************************
+EMERGENCY MEDICAL
+463.000        Channel #1 Paramedics
+463.025        Channel #2  "     "
+463.050        Channel #3  "     "
+463.075        Channel #4  "     "
+463.100        Channel #5  "     "
+463.125        Channel #6  "     "
+463.150        Channel #7  "     "
+463.175        Channel #8  "     "
+462.975        Metro area dispatch
+***************************
+AMBULANCE AND RESCUE SQUADS
+155.265        Olson Ambulance
+461.150        Smith Ambulance
+464.275        Unity Ambulance 
+154.010        St. Paul Paramedics
+155.325        Hennepin County 
+462.975        Medkab, Inc.
+464.300        Midwest Medkab
+000.000 
+000.000
+000.000
+000.000
+***************************
+NEWS DISPATCHERS
+166.250        KSTP-disp.
+170.150        WCCO-disp.
+450.150        WTCN-disp.
+450.650        WCCO-mini cam
+151.655        St. Paul Pioneer Press
+461.950        Eau Claire Press
+
+
+                      SCANNER FREQUENCIES CONT.
+*************************** 
+MARINE RADIO
+156.300        Channel #1-Safety Communications
+156.500        Channel #10-Tow Boats
+156.700        Channel #14-Locks and Bridges
+156.800        Channel #16-Calling and Distress
+157.100        Channel #22-Coast Guard
+161.900        Channel #26-Telephone-Marine Operator
+162.000        Channel #28-Telephone-Marine Operator
+156.425        Channel #68-Boat to Boat
+156.525        Channel #70-Boat to Boat
+156.625        Channel #72-Boat to Boat
+156.300        U.S. Coast Guard
+156.600        U.S. Army Corps of Engineers
+000.000
+000.000
+***************************
+AMATEUR RADIO
+146.760        TCFMC           29.660     Rocky Mountain VHF
+146.820        MARC            29.680     Delaware, Ohio
+146.850        MARA            53.250     MARA
+147.330        SCVR           145.290     Bloomington, MN
+444.950        WBLR           145.410     Apple Valley Radio
+444.800        WBLR           145.490     TCRC
+444.750        SSPR           146.325     Crystal, MN
+444.700        MMRC           146.640     Honeywell Radio Club
+444.100        MMRC           146.670     ACA
+147.765        CCAR           146.730     Forest Lake, MN
+147.390        BGRS           146.910     Eau Claire ARC
+147.120        3M-ARC         147.150     U of M
+000.000
+000.000
+***************************
+AIRCRAFT
+127.600        Minneapolis/St. Paul International
+127.950        Minneapolis/St. Paul International
+122.000        Aircraft Weather
+123.100        Civil Air Patrol (Wisc)
+NOTE: Mpls/St. Paul Intnl, Holman field, Crystal airport,blaine air-
+      port and Flying Cloud airport use the following frequencies
+      and they are shared frequencies, so it is difficult to     
+      identify the different airports.                        
+118.100, 118.200, 119.300, 120.800, 121.200, 121.700, 122.800,
+122.950, 123.300, 124.700, 126.500, 126.350.
+125.000        Lakeville Airport also-125.00
+121.600        Crystal Airport
+121.900        Mpls/St. Paul Intnl
+121.200        Lake Elmo Airport also-122.800
+122.800        Ramsey Airport also-123.300
+123.300        Rosemount Airport
+119.100        St. Paul Downtown
+120.700        Crystal Airport
+118.200        Anoka Airport 
+118.300        Duluth Intnl also-119.500, 125.800
+118.300        Rochester Municipal
+
+
+                      SCANNER FREQUENCIES CONT.
+***************************
+AT&T MOBILE TELEPHONE
+152.510, 152.540, 152.570, 152.600, 152.630, 152.660, 152.690,
+152.750, 152.780, 152.810.
+*************************** 
+TAXI CAB COMPANY
+BASE        MOBILE
+152.300     157.560   Citywide Cab
+152.330     157.590   Blue and White cab
+152.390     157.650   Saint Paul Yellow cab
+152.420     157.680   Airport Taxi
+452.200     457.200   Yellow Taxi
+452.450     457.450   Town Taxi
+000.000
+000.000
+000.000
+***************************
+SPACE SATELLITES
+143.625        Soviet Union manned program
+150.000        United States
+162.000        United States
+259.400        United States space shuttle
+259.700        United States manned program
+296.800        United States manned program and space shuttle
+***************************
+UNITED STATES GOVERNMENT
+163.200        U.S. Marshall's office
+163.937        FBI 1
+165.375        U.S. Secret Service
+167.050        FCC
+167.375        FBI 2
+167.560        FBI
+167.785        FBI
+169.375        FAA
+415.200        Federal Protective Service
+417.200        Federal Protective Service
+418.625        DEA (Nationwide)
+167.650        FBI
+000.000
+000.000
+000.000
+***************************
+NOTE: For the most part, all of these frequencies have been mon-
+itored and verified. Much of the identification was obtained from
+the call letters that the parties used. No claim is made that this
+is an accurate list. And by no means is it complete.
+WARNING: IT IS A FEDERAL CRIME WITH SEVERE PUNISMENT AND/OR FINES TO
+1)DIVULGE WHAT YOU HEAR TO ANYONE THAT IS NOT A PARTY TO THE BROAD-
+CAST; 2)TO MAKE USE OF ANY BROADCAST INFORMATION FOR YOUR OWN PERSONAL
+GAIN; 3)TO MAKE USE OF ANY BROADCAST INFORMATION FOR ILLEGAL PURPOSES
+OR TO COMMIT A CRIME.
+
+
+
+
+                      SCANNER FREQUENCIES CONT.
+
+It is now illegal to receive any type of mobile telephone call.
+This page is included to give you an idea of the frequency 
+allocations for the 800 Mhz band.
+
+806.0125    to    810.9875  Conventional systems
+811.0125    to    815.9875  Conventional systems-slow growth
+816.0125    to    820.9875  Trunked
+821.0125    to    823.9875  Public safety
+824.0100    to    825.0000  Cellular "A"-New
+825.0300    to    834.9900  Cellular "A"
+835.0200    to    844.9800  Cellular "B"
+845.0100    to    846.4800  Cellular "A"-New
+846.5100    to    849.0000  Cellular "B"-New
+849.0000    to    851.0000  Reserved?
+851.0125**  to    855.9875  Conventional systems
+856.0125**  to    860.9875  Conventional or trunked-slow growth
+861.0125**  to    865.9875  Trunked
+866.0125**  to    868.9875  Public safety-New
+869.0100**  to    870.0000  Cellular "A"-New
+870.0300**  to    879.9900  Cellular "A"
+880.0200**  to    889.9800  Cellular "B"
+890.0100**  to    891.4800  Cellular "A"-New
+891.5100**  to    894.0000  Cellular "B"-New
+894.0000    to    896.0000  Reserved?
+896.0125    to    900.9875  Private-New
+901.0125    to    901.9875  General purpose-New
+935.0125**  to    939.9875  Private-New
+940.0125**  to    940.9875  General purpose-New
+
+The frequencies marked with the ** are the assigned base repeaters.
+If you have a known good 800 Mhx frequency and you do not hear any-
+one on it, add 45.0000 Mhz to that frequency. Then you may be able
+to find the base repeater. Also the frequencies that are marked -New
+may not be used for several years.
+    Example of finding base repeater:  PD Mobile  811.3000
+                                             Add   45.0000
+                                   Base repeater  856.3000
+
+

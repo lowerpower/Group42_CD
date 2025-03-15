@@ -1,0 +1,158 @@
+<TITLE>Microsoft CD Key Authentication C Source Code</TITLE>
+<BODY TEXT="#000080" BACKGROUND="mslogo.gif">
+</CENTER>
+<CENTER>
+  <H1>
+    <IMG SRC="bluebar.gif" WIDTH="700" HEIGHT="35"><BR>
+    <I>C Source Code to Authenticating Microsoft CD Keys</I><BR>
+    <IMG SRC="bluebar.gif" WIDTH="700" HEIGHT="35"><BR>
+  </H1>
+</CENTER>
+<PRE>
+/*
+    This source code contains a authentication routine that will
+    validate Microsoft CD Keys.  It is meant that this source code
+    is a learning tool and not a PIRACY tool.  It is also meant to
+    show how a large corporation like Microsoft spend MILLIONS of
+    dollars on development and come up with this protection scheme.
+
+    *BorlandC 3.1 was used to compile this successfully.
+
+    It is a crime to redistribute these routines in a commercial
+    venture of any kind without permission or licensing agreement.
+
+    (C)opyright 1995 Damaged Cybernetics
+
+    If you have any questions or comments, please contact the
+    following ppl via the Internet:
+
+        Donald Moore   (MindRape) mindrape@goodnet.com
+        Donald Staheli (Royce)     staheli@goodnet.com
+
+	Web Page: www.goodnet.com/~staheli
+
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
+
+/* Prototypes */
+void help(void);
+char ValidateCDKey(char *szKey);
+
+/* definitions for ValidateCDKey function */
+#define VALID_KEY       1   /* Yes this is a valid key              */
+#define INVALID_KEY     0   /* No this is not a valid key           */
+#define INVALID_CHAR   -1   /* This key contains invalid characters */
+#define INVALID_LENGTH -2   /* This key is the incorrect length     */
+
+/* Length of a Microsoft CD Key, this include the hyphen!            */
+#define MS_CD_KEY_LENGTH  11 /* XXX-0123456                          */
+#define OEM_CD_KEY_LENGTH 23 /* XXXXX-OEM-0123456-XXXXX              */
+#define REAL_KEY_LENGTH    7 /* length of the key is really 7 chars! */
+#define REAL_MS_OFFSET     4 /* The MS CD REAL Key offset            */
+#define REAL_OEM_OFFSET   10 /* The OEM CD Real Key offset           */
+
+
+/*
+   char ValidateCDKey(char *szKey)
+   ENT: szKey - Char - Key to validate
+
+   RET: VALID_KEY      - The key is valid
+	INVALID_KEY    - The key is invalid
+	INVALID_LENGTH - The key is not a valid CD Key length
+	INVALID_CHAR   - The key contains invalid characters
+
+   ValidateCDKey will take either a Microsoft or a Microsoft OEM CD Key
+   and verify that it's a authentic CD Key which can be used to unlock
+   their software when installing.
+
+ */
+char ValidateCDKey (char *szKey)
+{ unsigned long ulCheckSum = 0L;  /* Hold our checksum value here */
+  int           iStrLength;       /* Length of the CD Key         */
+  int           i          = 0;   /* dummy counter                */
+
+  iStrLength = strlen(szKey);
+
+  /* is the key the correct length? */
+  if (iStrLength != MS_CD_KEY_LENGTH && iStrLength != OEM_CD_KEY_LENGTH)
+    return INVALID_LENGTH;
+
+  /* now move the pointer to the start of the REAL key */
+  szKey += iStrLength == MS_CD_KEY_LENGTH ? REAL_MS_OFFSET :
+	   REAL_OEM_OFFSET;
+
+
+  /* now loop thru the CD Key, adding each digit to each other
+   * and then mod it by 7.  If it's 0 we have a valid key!
+   *
+   * btw this routine can be optimized!  It is written for sake of
+   * clairity.
+   */
+  while (i < REAL_KEY_LENGTH)
+    {
+      if (isdigit(*szKey))
+	{
+	   /* convert each char to it's actual decimal value by
+	    * subtracting 48 and keep accumlating the values
+	    */
+	   ulCheckSum += ((int) *szKey - 48);
+	 }
+      else
+	return INVALID_CHAR;  /* we hit a NON numeric character       */
+
+      szKey++;
+      i++;
+    }
+
+   return (ulCheckSum % 7) ? INVALID_KEY : VALID_KEY;
+
+}
+
+void help(void)
+{
+  printf("This program will verify whether the CD Key you are using is a\n"
+	 "a valid Microsoft CD Key.  It is not meant to endorse PIRACY, but\n"
+	 "to show a big company like Microsoft who has spent millions of\n"
+	 "dollars and came up with this routine.\n"
+	 "\nUsage: CDKey <CD Key>\n"
+	 "    i.e. Microsoft CD Key - CDKey 012-0123456\n"
+	 "    i.e. OEM CD Key       - CDKey 01234-OEM-012345-01234\n"
+	);
+  exit(0);
+}
+
+
+void main(int argc,char *argv[])
+{
+   puts("Microsoft CD Key Validation\n(C) 1995 Damaged Cybernetics (www.goodnet.com/~staheli)\n");
+
+   if (argc != 2)  /* opps user didn't pass any parameters */
+     help();
+
+   switch (ValidateCDKey(argv[1]))
+     {
+       case INVALID_CHAR   : puts("This key is either not formatted properly or contains alphanumeric characters.");
+			     break;
+       case INVALID_LENGTH : puts("This key is neither a valid length for a Microsoft or a OEM CD Key.");
+			     break;
+       case INVALID_KEY    : puts("This is NOT a valid Microsoft CD Key.");
+			     break;
+       case VALID_KEY      : puts("This is a VALID Microsoft CD Key.");
+			     break;
+     }
+
+}
+</PRE>
+<P>
+<CENTER>
+  <IMG SRC="bluebar.gif" WIDTH="700" HEIGHT="35"><BR>
+  <FONT SIZE=2>
+  &copy; 1995 Damaged Cybernetics
+  </FONT>
+</CENTER>
+<P>
+</HTML>

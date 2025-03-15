@@ -1,0 +1,8 @@
+Crack> California Games by Epyx
+
+crack written by The Mad Hacker
+
+     Using PCTools, search for FA FC 55 56 57 and replace
+with 00 00 31 C0 C3.
+
+

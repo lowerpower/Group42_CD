@@ -1,0 +1,775 @@
+<HTML>
+<HEAD>
+<TITLE>High Speed Packet Radio</TITLE>
+</HEAD>
+<BODY BGCOLOR="#99CCFF">
+<H1>Equipment Options for Medium to High-Speed Packet Radio </H1>
+
+<H3>Compiled by Barry McLarnon, VE3JF (Last update: 14 Nov 95)</H3>
+<P></P><P></P><P>The purpose of the following is to summarize the hardware options 
+available for constructing medium- to high-speed packet radio links. 
+The speed range in question is 9600 bps and up.  This material is intended 
+to be a useful reference, but I make no claims as to its accuracy 
+or completeness.  Some details concerning model numbers and prices 
+are missing, and I have very little information concerning equipment 
+sources outside North America.  If you have corrections, or suggestions 
+on additional information to include in this survey, please send 
+them to <A HREF="mailto:bm@hydra.carleton.ca">bm@hydra.carleton.ca</A>.
+</P><P></P><P>This material is released to the public domain.  You can do what 
+you want with it - all I ask is that you retain this notice and attribution 
+if you reprint it in whole or in part. 
+</P><P>Note: unless otherwise noted, prices given are in $US.  They should 
+be considered only as approximate.
+<HR>
+<P></P><H1>Equipment for 9600 bps</H1>
+
+<H2>9600 bps Modems</H2>
+The K9NG modem was available for a number of years as a kit from 
+TAPR.  It set the "standard" for 9600 bps packet operation, but it 
+has now been replaced by the G3RUH and new TAPR designs.  Among the 
+improvements provided by the newer designs is full-duplex capability. 
+Even though full-duplex is not often used on the air, this is a great convenience 
+for doing loop back testing of the modem.  If you still have a K9NG 
+modem lying around, though, don't hesitate to try it.
+<P>
+The G3RUH modem is available from several sources:
+</P><DL>
+<DT><A HREF="#pac">PacComm</A> MC-NB96 internal modem card ($115)
+</DT>
+<DD>fits on disconnect header of most TNCs.
+</DD>
+<DT>PacComm EM-NB96 external modem ($149) 
+</DT>
+<DD>standalone version of above.
+</DD>
+<DT><A HREF="#kan">Kantronics</A> DE9600 modem card
+</DT>
+<DD>similar to the PacComm MC-NB96.
+</DD>
+<DT><A HREF="#mfj">MFJ</A> MFJ-9600 9600 bps modem card ($110)
+</DT>
+<DD>similar to the others.
+</DD>
+<DT>The <A HREF="#tapr">TAPR</A> 9600 bps modem kit ($80).
+</DT>
+<DD>The new design has all of the features of the G3RUH, plus a few 
+enhancements.  It is attractive for repeater use, since it includes 
+provision on the board for bit regeneration/FIFO buffering ($15 extra 
+for the parts).  The first rev of the board in 1992 had a few problems, 
+and some mods were needed for best performance.  A new rev which 
+incorporates the fixes became available in early 1993.  TAPR members 
+get a 10% discount on purchases.
+</DD>
+<DT><A HREF="#drsi">DRSI</A> DPK-9600 ($250).
+</DT>
+<DD>This is a G3RUH-compatible modem and TNC-2 clone (10 MHz clock) 
+housed in one box (no longer available from DRSI).
+</DD></DL><P>The G3RUH and TAPR modems can plug directly into a TNC modem disconnect 
+header as a daughter board, or be connected externally via a ribbon 
+cable.
+</P><P></P><H2>Data Interfaces for 9600 bps</H2>
+For 9600 bps, the usual interface is a TNC.  Most of the major packet
+manufacturers offer a dual-port 1200/9600 bps TNC. If you don't already 
+have a TNC, it's worth considering a PC bus interface card like the 
+PI2 or the PackeTwin.  They are a better investment since they will
+not become obsolete if you upgrade to higher speeds than 9600.  In 
+fact, many people have reported results with TNCs that were much 
+less than theoretical maximums, even at 9600 bps.  The faster the 
+TNC clock rate the better: 4.9 MHz should be considered an absolute 
+minimum.  The serial connection to the PC is a limiting factor; even if it
+run at fairly high speed (i.e., 19.2 or 38.4 kbps), the throughput will be
+significantly lower than with one of the bus interface cards.
+<P></P><DL>
+<DT><A HREF="#pwg">Ottawa PI2 card</A> ($125 plus shipping).
+</DT>
+<DD>It provides a DMA port which handles 56 kbps with ease, even with 
+a 4.77 MHz XT-class machine.  All you need to add is the cable to 
+the modem.  The main limitation of the card is that it does not support 
+full-duplex operation, but full-duplex operation is rare (especially 
+amongst end users).  The PI2 also has a low-speed port and can be 
+populated with an on-board 1200 bps modem (kit available for $30). 
+The board can be used with any DOS version of KA9Q NOS, or with Linux.
+For more information about the PI2 Card, check the
+<A HREF="http://hydra.carleton.ca/info/pi2b.html">PI2 Web Page</A>.
+</DD>
+<DT><STRONG>Gracilis PackeTwin</STRONG>-PC card ($229), now marketed by <A HREF="#pac">PacComm</A>.
+</DT>
+<DD>Like the PI2, it provides a DMA port for the 56 kbps modem and 
+an interrupt-driven port for lower-speed modems. The DMA port supports 
+full-duplex operation.  The Kantronics 9600 bps modem can be piggybacked 
+on the card.
+</DD>
+<DT><A HREF="#drsi">DRSI</A> <STRONG>PCPA</STRONG> Type 1296 ($290).
+</DT>
+<DD>An interrupt-driven PC-plug-in card with onboard 9600 bps and 1200 
+bps modems.
+</DD>
+</DL><P></P><H2>Radios for 9600 bps</H2>
+
+<P>A standard NBFM radio is typically used.  To interface to the 
+modem, the radio must have a direct FSK modulator, discriminator 
+output, an IF with sufficient bandwidth and reasonable phase characteristics, 
+and fast t/r switching.  Some radios are usable with just a few modifications 
+to bring out the required signals, others may need more extensive 
+mods such as adding a varactor FM modulator, and still others are 
+almost completely unusable due to their IF characteristics or slow 
+t/r switching.  There are a few radios designed specifically for 
+digital service which require no mods:
+</P><P></P><H3>2m:</H3>
+<DL>
+<DT><A HREF="#alinco">Alinco</A> <STRONG>DR-1200TH2</STRONG> (approx. $300).
+</DT>
+<DD>This is a version of the DR-1200T 
+25W synthesized radio which has been modified for 9600 bps operation.
+It is reputed to be a mediocre performer, due to slow turnaround time.
+</DD>
+
+<DT><A HREF="#mfj">MFJ</A> <STRONG>MFJ-8621 VHF Data Radio</STRONG> ($120, crystals other than 145.01
+extra),
+</DT>
+<DD>5W crystal-controlled transceiver for 9600 bps or less. I have only
+heard one report about it, but it seemed to give it a good rating.
+</DD>
+</DL><H3>70cm:</H3>
+
+<DL>
+<DT><A HREF="#tekk">Tekk</A> <STRONG>KS900L Data Radio</STRONG> ($120, plus $25
+for custom crystals [note: this was special pricing and may not be current]),
+</DT>
+<DD>2W output, one channel, crystal controlled (430-450 MHz).  Available 
+directly from Tekk, and in packages from PacComm and other sources.
+Tekk has a more expensive model called the KS960 (in a larger, chrome
+case) which apparently does not work as well at 9600 bps as the KS900L,
+and thus should be avoided.
+</DD>
+PacComm is another source of the Tekk radios, and they
+also sell modified versions with new filters installed (e.g., KS-900L-D96
+for 9600 bps, $230) which they say provide improved performance. The filter
+upgrade kits are also sold separately ($35).
+
+<DT><A HREF="#pac">PacComm</A> <STRONG>IPR-NB96</STRONG> ($499)
+</DT>
+<DD>This package includes a Tekk radio, modem, and Tiny-2 MK-2 TNC housed in one box.
+</DD>
+
+<DT><A HREF="#kan">Kantronics</A> <STRONG>D4-10</STRONG> ($359),
+</DT>
+<DD>10W output, two channel, crystal controlled (430-450 MHz).  Can 
+go to at least 19.2 kbps.
+</DD>
+</DL><P>A large number of amateur VHF and UHF transceivers have been successfully 
+used for 9600 bps work.  Many commercial FM radios are also suitable; 
+ironically, the IF filters in these radios are typically 'better' 
+(narrower bandwidth, steeper skirts) than in amateur-grade equipment, 
+which leads to inferior performance at 9600 bps (on the other hand, 
+they also tend to have superior intermod immunity compared to amateur 
+rigs). The IF stages of most receivers can be broadbanded successfully, 
+but the degree of difficulty and expense involved varies considerably.
+</P><P></P><P>A good source of information on radio interfacing and other topics 
+related to 9600 bps operation is the <A HREF="ftp://hydra.carleton.ca/pub/hamradio/packet/96man2x0.txt">9600 Baud Packet Handbook</A> 
+by <B>Mike Curtis, WD6EHR</B>.  Hard copies are distributed with 
+the TAPR modem, and it can also be found in electronic form on some 
+BBS's and on the Internet. The latest version seems to 2.0 (June 94).
+<P>
+Tests of a  number of recent "9600 ready" synthesized radios were 
+reported in the May 1995 issue of <strong>QST</strong>. Most were poor
+performers. The only two which delivered acceptable 9600 bps performance
+were the Icom IC-820H 2m/70cm multimode and the Azden PCS-9600D 70cm
+voice/data transceiver. Both are very expensive, however. Another expensive
+radio which performs well at 9600 bps is the Kenwood TM-255A 2m multimode
+tranceiver (QST, June 1995).</P>
+<H2>Summary: 9600 bps</H2>
+The cost of getting something working at 9600 bps is highly variable. 
+If you already had a TNC and a suitable radio plus antenna, it could 
+be as little as $80 or so (TAPR modem).  On the other hand, you can 
+get a "plug 'n play" package such as the IPR-NB96 from PacComm, 
+for about $500 - just add an antenna.  You should seriously 
+question spending this kind of money to get 9600 bps, when you could 
+put together a 56 kbps setup for not much more money (but, admittedly, 
+considerably more effort!).
+<P>
+<HR>
+<P></P><P></P><H1>Equipment for 19.2 kbps</H1>
+
+<P>Until recently, operation at 19.2 kbps had not received much attention. 
+ A major reason for this is that binary FSK at 19.2 kbps cannot be 
+accommodated by the IF stages of NBFM receivers, nor is it compatible 
+with the 20 or 25 kHz channel spacing used for FM in the amateur 
+VHF/UHF bands. On the other hand, it makes relatively poor use of 
+the 100 kHz channels typically allocated for 'wideband' digital modes. 
+ However, interest in 19.2 kbps operation has been spurred by the 
+appearance of the Kantronics D4-10 radio.  Since it contains a varactor 
+modulator, plus a data slicer following the discriminator, it can 
+be operated in 'raw FSK' mode at 19.2 kbps without additional modem 
+hardware.  All that is needed in addition to the radio is the computer 
+interface.  A 'souped-up' TNC might work fairly well, but one of 
+the PC DMA interface boards (or maybe a DataEngine) would be better. 
+ Running 'modemless' FSK entails some loss of performance, most notably 
+from the lack of data scrambling, which results in more jitter in 
+the recovered clock signal and thus higher bit error rates.
+</P><P></P><P><A HREF="#kan">Kantronics</A> also offers a 19.2 kbps modem, similar to the DE9600. 
+The performance difference between the 'barebones' D4-10 radios 
+and that which you could realize with the more sophisticated modem 
+has not, to my knowledge, been quantified.  The <A HREF="#grapes">GRAPES</A> modem (see 
+below) could also be run at 19.2 kbps, but it would not be compatible 
+with the Kantronics equipment (and why would you want to throttle 
+back a modem that can do 56 kbps and more, to only 19.2?).
+</P><P></P><P>Some experiences with using the D4-10's at 19.2 kbps, using
+Ottawa PI cards and DataEngines as interfaces, appear in an article by <B>John 
+Ackermann, AG9V</B> in the <EM>11th ARRL Computer Networking Conference 
+Proceedings</EM> (available from <A HREF="#tapr">TAPR</A>).
+<P>
+<A HREF="#pac">PacComm</A> offers Tekk radios which have been modified for
+19.2 kbps operation (<STRONG>KS-900L-D192</STRONG>, $235).  The filter upgrade kits are also
+sold separately ($39).
+<P>
+<HR>
+<P></P><H1>Equipment for 56 kbps</H1>
+
+<H2>56 kbps Modem</H2>
+<P><A HREF="#grapes">GRAPES</A> (WA4DSY) modem, $250 in kit form.  You also need to provide 
+a box for it, plus a few interconnecting cables and connectors.  
+It requires +/-5V power (about 0.5A @ +5V, 0.1A @ -5V).  This is 
+an RF modem with input and output (about 1 mW) in the 28-30 MHz band, 
+designed for use in the bands above 220 MHz (occupied bandwidth is 
+about 70 kHz at 56 kbps), using standard receive and transmit converters. 
+The receive and transmit portions of the modem are separately crystal-controlled
+, and it can run full-duplex.  It is not limited to 56 kbps - with 
+suitable modifications, it can be made to work at 128 kbps or more.
+</P><P>
+Dale Heatherington WA4DSY has come up with a complete redesign of his modem,
+substantially reducing the parts count and size (now fits on one board
+instead of three). The new modem is fully compatible with the old one at
+56 kbps, but it will not work at other bit rates. The big news is that it
+will be sold in assembled and tested form by <A HREF="#pac">PacComm</A>.
+Availability is said to be "late 1995", and the price has been announced
+as $349.
+</P><P></P>
+<H2>Data Interface for 56 kbps</H2>
+
+<UL>
+<LI><A HREF="#pwg">Ottawa PI2</A> card ($125)
+</LI>
+<LI><STRONG>Gracilis PackeTwin</STRONG> card ($229) from <A HREF="#pac">PacComm</A>
+</LI>
+
+</UL><P>Both of these cards (see descriptions above) will handle 56 kbps 
+with ease. 
+</P><P></P><DL>
+<DT><A HREF="#kan">Kantronics DataEngine </A>(~$350?).
+</DT>
+<DD>This is essentially a higher-speed TNC with two HDLC ports that 
+can reportedly run at 56 kbps, and an RS-232 port that can run at 
+up to 19.2 kbps.  The standard firmware is KA-Node or G8BPQ, but 
+there is now also a port of JNOS (JNOS40) by WG7J available.  The 
+DE appears to be more useful as a small standalone packet switch 
+than as an interface for end users.
+</DD>
+<DT><STRONG>Gracilis PackeTen</STRONG> ($1595?) from <A HREF="#pac">PacComm</A>.
+</DT>
+<DD>This is a full-blown packet switch that runs a custom version 
+of KA9Q NOS.  It is available in both standalone and PC bus versions. 
+ This is the Rolls Royce of packet switch hardware.  The name is 
+a bit of a misnomer, since one PackeTen provides five ports - you 
+must add another one to get ten ports.  All of the ports will handle 
+synchronous or asynchronous rates of 1200 to 19200 bps, and three 
+of them will do synchronous rates up to T1 or more.
+<P>
+PacComm has also announced that they are working on a scaled-down
+version of the PackeTen (PackeTen Junior?) which will run the same
+code as the big one and have two RF ports and one serial port... in
+other words, like the DataEngine, only better. :-) According to PacComm,
+it will be "available mid-winter at a price well below that of the
+PackeTen".
+</DD>
+</DL><P></P><H2>RF Equipment for 56 kbps</H2>
+The RF equipment required depends on whether the links are half- 
+or full-duplex.  There are three basic configurations in use:
+<P></P><DL>
+<DT>(1) Half-duplex point-to-point links
+</DT>
+<DD>An example is the Georgia backbone network.  The usual RF equipment 
+is a Microwave Modules (220, 430 MHz) or Sinclabs (220 MHz) transverter.
+</DD>
+<DT>(2) Full-duplex point-to-point links
+</DT>
+<DD>Full duplex operation is significantly more complicated, but it 
+is also highly desirable if you want to maximize the throughput of 
+a backbone link.  The GRAPES modem is inherently full-duplex, so 
+it is only necessary to provide separate RF up- and down-converters. 
+ The two channels may be in-band or cross-band, using either separate 
+antennas or duplexers.  The only full-duplex point-to-point link 
+I'm aware of is in Chicago - it uses PackeTen switches and operates 
+in-band in the 70 cm band.
+</DD>
+<DT>(3) Multiple-access networks with full-duplex repeater
+</DT>
+<DD>In this case, an in-band or cross-band 56 kbps repeater provides 
+hidden transmitter-free access to a channel (or rather, a pair of 
+channels) by multiple 56 kbps stations.  This might just be a LAN 
+for the power users, but it also is an attractive means of linking 
+a number of network nodes together, with less complexity than multiple 
+point-to-point links. See the <EM>10th ARRL Computer Networking Conference 
+proceedings</EM> (available from <A HREF="#tapr">TAPR</A>)for more details. As in the preceding case, separate 
+receive and transmit converters are used, usually with separate antennas 
+(in principle, a transverter with "split" frequency operation could 
+be used, but such things are hard to come by). The stations in this 
+network do not require full-duplex computer interfaces, but since 
+the RF portions have full-duplex capability, it allows smaller txdelays 
+to be used than in the half-duplex case.  It also allows users to 
+observe the quality of their signals coming back from the repeater.
+</DD>
+</DL><P>The first 56 kbps full-duplex repeater went on the air in 
+Ottawa
+in January 1990.  The repeater is cross-band (220.55 MHz in, 433.55 
+MHz out), so users must up-convert the modem's 28-30 MHz IF output 
+to 220 MHz, and down-convert 432 MHz to the 28-30 MHz IF input.
+The new WA4DSY modem will have the bit-regenerator repeater capability
+built-in.
+</P><P></P><P></P><H3>220 MHz (219 or 222 MHz in the US!)</H3>
+
+<H4>Transverters and up-converters:</H4>
+<DL>
+<DT><STRONG>Sinclabs ST220-28</STRONG> transverter ($329 CDN),
+</DT>
+<DD>15W output.  Sinclabs has recently withdrawn from this business, 
+but transverters may still be available from <I>Bob Morton, VE3BFM</I> 
+<A HREF="#mlc">(Maple Leaf Communications)</A>.
+</DD>
+<DT><STRONG>Microwave Modules MMT220/28S</STRONG> transverter,
+</DT>
+<DD>10W output. The company no longer sells to the amateur market, but
+its remaining stock of transverters was bought up by
+<A HREF="#art">Advanced Radio Technology</A> in the UK. Prices are in
+the $300 range ($272 plus $25 shipping to the US).  Used units show up quite frequently at flea markets,
+etc.  You may also come across some MM clones produced 
+by <I>Hans Peters VE3CRU</I> ("Transverters Unlimited") - they are 
+good quality, and produce higher output (~15W).
+</DD>
+<DT><A HREF="#dem">Down East Microwave</A> <STRONG>DEM222</STRONG> no-tune transverter,</DT>
+<DD>20W output, 1-100 mw input:
+
+<UL>
+<LI><STRONG>DEM222-28CK</STRONG> complete kit (PC board, board-mounted parts, enclosure, connectors, heat sink, hardware, $295)
+<LI><STRONG>DEM222-28K</STRONG> board-level kit (PC board, board-mounted parts, $225)
+<LI><STRONG>DEM222B</STRONG> assembled and tested unit ($395)</UL>
+
+</DD>
+<DT><A HREF="#ssb">SSB Electronic</A> <STRONG>TV 28-220/01</STRONG> transverter ($380),
+</DT>
+<DD>100 mW output.  These units have no T/R switching, so that would 
+have to be added externally for single-channel half-duplex operation. 
+ On the other hand, there are separate local oscillators provided 
+for the receive and transmit converters, so this looks like a good 
+choice for in-band full-duplex or half-duplex split operation.
+</DD>
+<DT><A HREF="#hamtronics">Hamtronics</A> <STRONG>XV4</STRONG> transmit converter (kit, $79),
+</DT>
+<DD>0.5 - 1W output.  The cheapest alternative, and the power level 
+is adequate if you aren't too far from the repeater and have a reasonable 
+transmitting antenna.  But you do need to find someone with a spectrum 
+analyzer to get it tuned up properly, and some people have had problems 
+taming this unit.
+</DD>
+
+PacComm has announced that they will be selling
+assembled and tested transverters for 219 MHz (from dB Microwave - see
+below) in early 1996, prices TBA.
+
+</DL><P></P><H4>Down-converters:</H4>
+
+<DL>
+<DT><STRONG>Microwave Modules MMc220</STRONG> (current price/availability unknown),
+</DT>
+<DD>2.8 dB NF.
+</DD>
+<DT><A HREF="#arr">Advanced Receiver Research</A><STRONG>R220VDA</STRONG> (current price/availability unknown).
+</DT>
+<DD>This unit is in the $100 range and of high quality, but it really 
+needs a front-end preamp.  We use one of these converters on the 
+Ottawa 56kb repeater, along with an ARR preamp.
+</DD>
+</DL><P></P><H4>Antennas:</H4>
+
+<P>You might get by with omni antennas, but multipath can cause poor 
+performance even when signal levels are high.  Small yagis provide 
+more margin and help discriminate against multipath.  A typical example 
+is the Cushcraft A220-7 7-element yagi (about $50).
+</P><P></P><P></P><H3>430 MHz</H3>
+
+<H4>Transverters and up-converters:</H4>
+<DL>
+<DT><A HREF="#dem">Down East Microwave</A> <STRONG>DEM432</STRONG> no-tune transverter,
+</DT>
+<DD>50-100mW output. This is a 3-board set, available in several forms, 
+and there is an optional power amplifier that provides 15W output. 
+ The local oscillator board normally has a single oscillator for 
+standard half-duplex operation, but a second oscillator can be added 
+on the board for half-duplex split or full-duplex operation.  Some 
+options and prices:
+</DD>
+</DL><P></P><UL>
+<LI><STRONG>DEM432B</STRONG> assembled and tested unit, including case, $275
+</LI>
+<LI><STRONG>DEM432BD</STRONG> as above, but set up for dual frequencies, $300
+</LI>
+<LI><STRONG>DEM432K</STRONG> basic kit (no case or connectors), $155
+</LI>
+<LI>Second LO kit, $8
+</LI>
+<LI><STRONG>432PA</STRONG> 15W PA, assembled and tested, $180
+</LI>
+<LI><STRONG>432PACK</STRONG> 15W PA complete kit, $135
+</LI>
+<LI><STRONG>432PAK</STRONG> 15W PA basic kit (no case, connectors or heat sink), $75
+</LI>
+<LI>Enclosure to house both DEM432K and 432PA, $25
+</LI>
+<LI><STRONG>DEM432-15S</STRONG> complete 15W dual-frequency transverter, $395
+</LI>
+</UL><P><DL>
+<DT><strong>Microwave Modules</strong> <STRONG>MMT432/28S</STRONG> transverter,
+</DT>
+<DD>10W output.  The company no longer sells to the amateur market, but
+its remaining stock of transverters was bought up by
+<A HREF="#art">Advanced Radio Technology</A> in the UK. Prices are in
+the $300 range ($272 plus $25 shipping to the US).  Used units show up quite frequently at flea markets, etc.
+</DD>
+<DT><A HREF="#ssb">SSB Electronic</A> <STRONG>TV 28-432</STRONG> transverter ($310),
+</DT>
+<DD>100mW output.  These units have no T/R switching, so that would 
+have to be added externally for single-channel half-duplex operation. 
+ On the other hand, there are separate local oscillators provided 
+for the receive and transmit converters, so this looks like a good 
+choice for in-band full-duplex or half-duplex split operation.
+</DD>
+<DT><A HREF="#hamtronics">Hamtronics</A> <STRONG>XV4</STRONG> transmit converter (kit, $79),
+</DT>
+<DD>0.5 - 1W output.  The 432 MHz version of the unit described above.
+</DD>
+
+<DD><STRONG>PacComm</STRONG> has announced that they will be selling
+assembled and tested transverters for 420-450 MHz (28-30 MHz IF), made by
+<STRONG>dB Microwave</STRONG> in Vancouver, in "late 1995". In addition
+to up- and down-converters which are synthesized in 100 kHz steps (it is
+not known yet whether these will be available separately), optional
+preamps and 25W power amplifiers will be offered. No pricing available
+yet. The units may also be available in kit form direct from dB
+Microwave.
+</DD>
+</DL><P></P><H4>Down-converters:</H4>
+<DL>
+<DT><A HREF="#hamtronics">Hamtronics</A> ($49/$69/$99 for basic kit/kit with box/wired & tested).
+</DT>
+<DD>Quality of this unit is uncertain.
+</DD>
+<DT><STRONG>Microwave Modules MMc435.2</STRONG> ($115).
+</DT>
+<DD>Current availability unknown. 
+</DD>
+<DT><A HREF="#ssb">SSB Electronic</A> <STRONG>K7001-10</STRONG> ($180).
+</DT>
+<DD>High quality, with a price to match.
+</DD>
+</DL><P>There are other sources for units in the $100-$150 range, such 
+as Lunar.
+</P><P></P><P></P><H3>1.2 GHz</H3>
+Equipment for operation of the GRAPES modem at 1.2 GHz and the other 
+bands above 450 MHz is a problem, due to the scarcity of converters 
+which have input/output at 28 MHz, not to mention reasonable power 
+output.
+<P></P><H4>Transverters and up-converters:</H4>
+<DL>
+<DT><A HREF="#dem">Down East Microwave</A> <STRONG>SHF-1240(K)</STRONG> "No-tune" transverter board ($149 
+kit, $189 assembled):
+</DT>
+<DD>144 MHz IF (10 mW drive required), 10 mW output. Also required 
+is the separate SHF-LO local oscillator board ($50 kit, less crystal; 
+$85 assembled).  A complete transverter (transverter board, LO board, 
+IF PIN diode switch, packaged in a metal box) is available for $265. 
+ Note that no RF switching is included, so if you wanted to run half-duplex, 
+a suitable RF T/R switch or a circulator would be needed.  NF of 
+the down-converter is in the 4-5 dB range.  Due to the 144 MHz IF, 
+a separate 28 MHz to 144 MHz conversion stage would be needed.
+</DD>
+<DT><A HREF="#ssb">SSB Electronic</A> <STRONG>USM-3</STRONG> transmit converter ($210).
+</DT>
+<DD>1W out (20 mW in). Requires external LO source (10 mW).  Although 
+normally used with 144 MHz IF, it reportedly can be tuned for 28-30 
+MHz IF input.  Housed in a metal box with BNC connectors.
+</DD>
+</DL><P></P><H4>Down-converters:</H4>
+<DL>
+<DT><STRONG>SSB Electronic UEK-3</STRONG> receive converter ($200).
+</DT>
+<DD>2.2 dB NF, 20 dB conversion gain.  The nominal LO frequency is 
+1152 MHz, for conversion of the 1296-1298 range to 144-146 MHz.  
+An LO output port is provided for driving the USM-3 transmit converter. 
+ Housed in a metal box with BNC connectors.
+</DD>
+</DL><P></P><H4>Power amplifiers:</H4>
+<DL>
+<DT><A HREF="#pauldon">Pauldon</A> (kit, $165):
+</DT>
+<DD>18W out for 1W in.
+</DD>
+<DT><A HREF="#dem">Down East Microwave</A> <STRONG>2318PAM</STRONG> ($205):
+</DT>
+<DD>18W out for 1W in.  Also available in kit form.
+</DD>
+<DT><A HREF="#ssb">SSB Electronic</A> <STRONG>PA 2310</STRONG> ($250):
+</DT>
+<DD>10W out for 0.5W in (a 20W out version is $300).
+</DD>
+<DT><A HREF="#art">Advanced Radio Technology</A> carries the Microwave
+Modules MMT line of linear amps, with outputs up to 100W.
+</DT>
+</DL><P></P><H4>Antennas:</H4>
+
+<P>Although loop yagis are commonly used at 1.2 GHz ($89 kit, $109 
+assembled for the 45-element loop yagi from Down East Microwave), 
+a better choice for linking would probably be the Tonna 23-element 
+yagi (about $70).
+</P><P></P><P></P><H3>Other Considerations (applies to all bands):</H3>
+
+<P>The receive converters have very broad front ends, and some additional 
+<B>bandpass filtering</B> will often be needed.  A single <B>cavity</B> 
+(or <B>helical resonator front-end filter</B>, in the case of separate 
+receive converters) should do the trick in most cases.  There is 
+also a design available for a home-brew
+<A HREF="ftp://hydra.carleton.ca/pub/hamradio/packet/modems/56kbfltr.txt"> 28-30 MHz bandpass filter</A> 
+for the modem front end.  This might eliminate the need for a front-end 
+filter, but it depends on your receiving environment.
+</P><P></P><H2>56 kbps Summary</H2>
+The cost of a 56 kbps station is a bit hard to pin down, given all 
+the variables.  As an example, we'll consider a station for the 
+Ottawa
+56kb LAN.  The modem kit and a PI2 card will set you back about
+$375.  The rest depends on the choice of rf stuff.  The total will 
+vary from about $500 to $800.  The "low road" is using the Hamtronics 
+kits and scrounging up things such as boxes for them and the modem, 
+home brewing the antennas, etc.  The "high road" is buying higher-quality 
+assembled and tested gear, such as the Sinclabs transverter and the 
+MM receive converter.  If you can find some good used gear, the total 
+should be closer to $650.  Getting on 56 kbps is certainly a more 
+challenging project than plug 'n play 9600, but the rewards are greater 
+too.
+<P>
+<HR>
+<P>
+<H1>The Packet Frontier: Equipment for Speeds Greater than 56 kbps</H1>
+
+<P>The following is a very rough first cut at summarizing the current 
+situation for packet at speeds greater than 56 kbps.  Commercial 
+availability of radio and modem equipment for these speeds is nil, 
+so this is really the domain of the true experimenter!
+</P><P></P><H2>Data Interface</H2>
+There is, at least, some hardware that can sink/source data at these 
+rates:
+<UL>
+<LI><A HREF="#pwg">Ottawa PI2</A> card: up to 500 kbps, maybe more
+</LI>
+<LI><STRONG>Gracilis PackeTwin</STRONG>: up to 1 Mbps claimed
+</LI>
+<LI><STRONG>Gracilis PackeTen</STRONG>: up to 4 Mbps (aggregate)
+</LI>
+
+</UL><H2>RF Hardware for &gt;56 kbps</H2>
+
+<H3>GRAPES Modem</H3>
+
+<P>The original <A HREF="#grapes">GRAPES Modem</A> (not the new 1995 design)
+can run at higher speeds than 56 kbps.  In his 
+1987 CNC article, Dale WA4DSY mentions rates up to 120 kbps.  I've 
+run a pair of modems back-to-back at 125 kbps.  Most of the changes 
+are straightforward (e.g., changing the baud rate generator crystal 
+from 3.579 MHz to 8 MHz), but there are two problem areas.  Standard 
+555 timer chips won't work reliably above 100 kHz, so the receiver 
+clock recovery PLL circuit needs more than just a resistor or capacitor 
+change.  Replacement of the 555 with a TI TLC555 does the trick. 
+ The other problem is the 455 kHz IF filter: it can be retuned so 
+that the modem works at 125 kbps, but the eye pattern isn't very 
+satisfactory.  A new filter design will be needed for decent on-the-air 
+results.
+</P><P></P><H3>N6GN 250-500 kbps RF Modem</H3>
+
+<P>Glenn Elmore N6GN (<I>glenne@sr.hp.com</I>) has designed an RF 
+modem for the 902 MHz band which is intended for use at rates in 
+the 250 to 500 kbps range.  The modem is crystal-controlled, has 
+about 12W output, and extremely fast turnaround time.  Note that 
+this is an FSK modem, and is not at all similar to the spread spectrum 
+"wireless ethernet" systems which are available for this band.  Glenn 
+is currently running some of these units at 230.4 kbps, using <A HREF="#pwg">
+Ottawa PI2</A> cards. No PC boards or construction plans are available at the 
+moment.  Units for 1.2 GHz have been mentioned, but I'm not sure 
+if they exist.  For more info on this work and the 10 GHz equipment described 
+in the next section, check out Glenn's
+<A HREF="ftp://col.hp.com/hamradio/packet/n6gn/index.html">Higher Speed
+Packet Page</A> on col.hp.com.
+</P><P></P><H3>High-speed Packet at 10 GHz</H3>
+
+<P>Glenn Elmore and friends (Kevin Rowett N6RCE, Bdale Garbee N3EUA, 
+etc) have also designed an X-band (10 GHz) full-duplex packet data 
+link using inexpensive gunnplexor modules that runs at a nominal 
+2 Mbps rate.  Details can be found in recent editions of the ARRL 
+Handbook.  I haven't heard of any such systems actually being put 
+into service yet, but there is a source for the PC boards:
+</P><P></P><PRE>Date: Tue, 10 Aug 93 16:30:44 CDT
+From: bob@lachman.com (Bob Van Valzah)
+To: glenne@srlr12.sr.hp.com, bdale@col.hp.com, ron@chaos.eng.wayne.edu,
+tcp-group@ucsd.edu
+Subject: 2 MBPS 10 GHz Link Boards Available
+Status: RO
+</PRE>
+
+<PRE>Receiver boards are now (at last!) available for the n6gn designed, 
+2 MBPS, 10 GHz microwave link as described in the ARRL Handbook and 
+other places.  You'll still need to make the 1st IF board yourself, 
+but trust me, that's easy.  I didn't believe Glenn at first, just 
+follow the procedure in the article and it works!
+</PRE>
+
+<PRE>The receiver board is 4-3/4 x 5-3/4", double sided, and drilled, 
+*but not plated through* (hence you'll have to solder top and bottom 
+leads in some cases).  This shouldn't be a big problem because there 
+are no signal traces on the component side--it's all ground plane.
+</PRE>
+
+<PRE>Folks who helped make these boards available (though they may not 
+all want to admit it :-) are Glenn Elmore n6gn (of course), John 
+Conner wd0fhg, Ron Atkinson n8fow, Fred Reimers kf9gx, Bdale Garbee 
+n3eua, and Jon Bloom ke3z.
+</PRE>
+
+<PRE>They're available from:
+</PRE>
+
+<P></P><ADDRESS>Fred A. Reimers kf9gx<BR>
+FAR Circuits<BR>
+18N640 Field Ct.<BR>
+Dundee, IL  60118-9269
+</ADDRESS>
+
+<PRE>for $15.  Fred just shipped 8 to me for $5 postage, but I'm not sure 
+what the rate would be for smaller quantities.
+</PRE>
+<P></P>
+<A HREF="#shf">SHF Microwave</A> is a good source of components for 10 GHz
+and 24 GHz systems, including Gunn sources ($25-$50), horn antennas ($5-$14),
+and parabolic reflectors ($30).
+<P></P>
+<H3>T1 Modem</H3>
+<P>Clint Turner KA7OEI (<I>ka7oei@uugate.wa7slg.ampr.org</I>) has 
+designed a T1 rate (1.536 Mbps) modem, intended for use in the packet 
+backbone network in Utah.  This modem is designed for full-duplex operation
+and produces and demodulates a baseband-type signal.  It was designed for
+FM transmitter/receiver systems with a baseband bandwidth of at least
+1.5 MHz.
+</P><P></P><P></P><H1>Sources</H1>
+<P></P><ADDRESS><A NAME="alinco">Alinco Electronics Inc</A><BR>
+438 Amapola Ave, Unit 130<BR>
+Torrance, CA 90501<BR>
+Tel: 310-618-8616  Fax: 310-618-8758<BR>
+<I>WWW: <A HREF="http://www.alinco.com">http://www.alinco.com</A></I>
+</ADDRESS>
+<P></P><ADDRESS><A NAME="arr">Advanced Receiver Research</A><BR>
+Box 1242<BR>
+Burlington, CT 06013<BR>
+Tel: 203-582-9409
+</ADDRESS>
+<P></P><ADDRESS><A NAME="art">Advanced Radio Technology Ltd</A><BR>
+Suite 2, Spence Mills, Mill Lane,<BR>
+Bramley, Leeds, UK LS13 3HE<BR>
+Tel: 0113-236-1973  Fax: 0113-2361-1988
+</ADDRESS>
+<P></P><ADDRESS><A NAME="dem">Down East Microwave</A><BR>
+RR 1, Box 2310<BR>
+Troy, ME 04987<BR>
+Tel: 207-948-3741  Fax: 207-948-5157
+</ADDRESS>
+<P></P><ADDRESS><A NAME="drsi">DRSI (Digital Radio Systems Inc)</A><BR>
+2065 Range Road<BR>
+Clearwater, FL 34625<BR>
+Tel: 813-461-0204  Fax: 813-447-4369<BR>
+Note: DRSI announced in late 1994 that they are no longer<BR>
+producing and selling products for the amateur radio market.
+</ADDRESS>
+<P></P><ADDRESS><A NAME="gracilis">Gracilis Inc</A><BR>
+623 Palace Street<BR>
+Aurora, IL<BR>
+Tel: 708-801-8800  Fax: 708-844-0183<BR>
+<I>Email: info@gracilis.com</I>
+</ADDRESS>
+<P></P><ADDRESS><A NAME="grapes">GRAPES Inc.</A><BR>
+P.O. Box 636<BR>
+Griffin, GA 30224<BR>
+<I>Email: ka4byp@mail.radio.org</I><BR>
+WWW: <A HREF="http://www.mindspring.com/~bobm/grapes/grapes.html">http://www.mindspring.com/~bobm/grapes/grapes.html</A>
+</ADDRESS>
+<P></P><ADDRESS><A NAME="hamtronics">Hamtronics Inc.</A><BR>
+65-Q Moul Road<BR>
+Hilton, NY 14468<BR>
+Tel: 716-392-9430  Fax: 716-392-9420
+</ADDRESS>
+<P></P><ADDRESS><A NAME="kan">Kantronics</A><BR>
+1202 E. 23rd Street<BR>
+Lawrence, KS 66046<BR>
+Tel: 913-842-7745  Fax: 913-842-2021  BBS: 913-842-4678
+</ADDRESS>
+<P></P><ADDRESS><A NAME="mlc">Maple Leaf Communications (Bob Morton, VE3BFM)</A><BR
+>
+R.R. 1<BR>
+Everett, ON, Canada L0M 1J0<BR>
+Tel: 705-435-0689
+</ADDRESS>
+<P></P><ADDRESS><A NAME="mfj">MFJ Enterprises Inc</A><BR>
+PO Box 494<BR>
+Mississippi State, MS 39762<BR>
+Tel: 1-800-647-1800 (order)  1-800-647-8324 (tech info)  Fax: 601-323-6551
+</ADDRESS>
+<P></P><ADDRESS><A NAME="pwg">Ottawa Amateur Radio Club</A><BR>
+Packet Working Group<BR>
+Lincoln Heights Postal Outlet<BR>
+P.O. Box 32032<BR>
+1386 Richmond Road<BR>
+Ottawa, ON, Canada K2B 8B0<BR>
+<I>Email: bm@hydra.carleton.ca (for PI2 info: pi-info@hydra.carleton.ca)</I><BR>
+<I>WWW: <A HREF="http://hydra.carleton.ca">http://hydra.carleton.ca</A></I>
+</ADDRESS>
+<P></P><ADDRESS><A NAME="pac">PacComm Packet Radio Systems Inc</A><BR>
+4413 N. Hesperides Street<BR>
+Tampa, FL 33614-7618<BR>
+Tel: 813-874-2980  Orders: 800-486-7388 Fax: 813-872-8696<BR>
+<I>Email: sales@paccomm.com</I>
+</ADDRESS>
+<P></P><ADDRESS><A NAME="pauldon">Pauldon Associates</A><BR>
+210 Utica Street<BR>
+Tonawanda, NY 14150<BR>
+Tel: 716-692-5451
+</ADDRESS>
+<P></P><ADDRESS><A NAME="ssb">SSB Electronic USA</A><BR>
+124 Cherrywood Drive<BR>
+Mountaintop, PA 18707<BR>
+Tel: 717-868-5643
+</ADDRESS>
+<P></P><ADDRESS><A NAME="shf">SHF Microwave Parts Company</A><BR>
+7102 W. 500 S.<BR>
+La Porte, IN 46350<BR>
+<I>Email: info@shfmicro.com</I>
+</ADDRESS>
+<P></P><ADDRESS><A NAME="tekk">Tekk, Inc</A><BR>
+226 N.W. Parkway<BR>
+Kansas City, MO 64150<BR>
+Tel: 1-800-521-8355 (orders)  816-746-1098  Fax: 816-746-1093
+</ADDRESS>
+<P></P><ADDRESS><A NAME="tapr">Tucson Amateur Packet Radio (TAPR)</A><BR>
+P.O. Box 12925<BR>
+Tucson, AZ 85732-2925<BR>
+Tel: 602-749-9479 (1700-2200UTC, Tue. - Fri.) Fax: 602-749-5636<BR>
+<I>Email: tapr@tapr.org</I><BR>
+<I>WWW: <A HREF="http://www.tapr.org/">http://www.tapr.org</A></I>
+</ADDRESS>
+<P></P><HR>
+Last change: 22 Dec 95 - ve3jf <I>bm@hydra.carleton.ca</I>
+</BODY>
+</HTML>

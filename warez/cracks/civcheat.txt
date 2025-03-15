@@ -1,0 +1,63 @@
+
+  CIVCHEAT.EXE is a small standalone utility to modify the save files
+  of the Civilisation games. It allows to increase the amount of money,
+  the amount of accumulated lightbulbs and to change parameters like
+  the year, the human player and the difficulty level.
+
+  The program is command-line driven and requires the name of the 
+  save-file and the items the player wants to change. The items to
+  change are specified with a character indicating the item and
+  a number indicating the value desired for it. If no items to
+  modify are specified the program displays the actual values.
+
+  Syntax:
+
+  civcheat <savefile> <option> <option>
+  
+  Where:
+          <savefile> is the name of a Civilisation save file,
+                     Ex: civil0.sve
+          <option>   is a value to be changed in the format
+                     x=yyy where x is a character and yyy is 
+                     a number.
+
+  Options available:
+
+          m=xxx      Set the amount of money to xxx
+          p=x        Change the human player to be x
+          y=xxxx     Set the year to be xxxx, negative numbers
+                     indicate years before 0.
+          l=x        Change the difficulty level to x
+          b=xxx      Change the number of accumulated lightbulbs
+
+  Remarks:
+
+    The program does some checking to make sure you don't enter 
+  parameters who don't make sense. For example the amount of money
+  is limited to 32000. However, my parsing of the commandline is
+  _very_ simple minded and will fall over if you specify the
+  parameters slightly different, like inserting a space between
+  the '=' and the number.
+    The program came into existence between yesterday Midnight and
+  five in the morning. It worked for me, but there are certainly
+  bugs left. Indicate them to me, I might fix them :-).
+    There are numerous of other useful things I might be able to
+  integrate into follow-on versions. If you have a good idea send
+  me a note. I've got some ideas myself, how would you like all your
+  units to become veterans ? Or increase the movement points of
+  your units to 30 moves ? 
+
+    I would like to thank Tom Kimball (tom@europa.lonestart.org) and
+  Charles K Huges (Charles_K_Hughes@cup.portal.com) for their postings
+  about the internals of the civ save file. I would not have made this
+  program without their information.
+
+  Have Fun !
+
+  Markus Baertschi
+  6, rue Gevray
+  1201 Geneva
+  Switzerland
+  ..41 (22) 731 1235
+  
+  

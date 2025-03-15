@@ -1,0 +1,57 @@
+INFA 3000
+
+NOTES:  This unit has four NAMS
+        The ESN prefix is 152 decimal, 98 hex. (Walker/Technophone/JRC)
+        MTC Electronics/Infa: 604-273-6823
+
+PROGRAMING:
+
+1.  Turn power on by pressing FCN, 0.  Hold 0 for two seconds.
+
+2.  Enter FCN, FCN, * 9 7 1 6 2 6 *.
+
+3.  Press # to store each data entry.
+
+4.  Press Volume up/down to increment entries.
+
+5.  To complete programing and exit at any time press FCN, END
+    (hold for two seconds).
+
+6.  Each NAM can only be programed three times, it is believed that
+    the MIN counter can be reset by entering FCN, FCN, * 6 4 6 2 2 5 7.
+    If this does not work use an alternate NAM. If more than one NAM
+    has the same system ID the phone will automatically select the last
+    NAM with the same SIDH.
+
+
+PROGRAMING DATA:
+
+STEP#    #OF DIGITS/RANGE    DISPLAY        DESCRIPTION
+
+01       CANNOT BE CHANGED   CMT REV NNNN   SOFTWARE REVISION
+02       1 TO 4              NAM            SELECT NAM 1 - 4
+03       00000 - 32767       SIDH           SYSTEM ID
+04       CANNOT BE CHANGED   SCM            STATION CLASS MARK
+05       10 DIGITS           MIN            MIN (AREA CODE & TEL#)
+06       DO NOT CHANGE       IDCCA          IPCH FOR A SYSTEM
+07       DO NOT CHANGE       IDCCB          IPCH FOR B SYSTEM
+08       0333 OR 0334        IPCH           INITIAL PAGING CHANNEL
+09       2 DIGITS            ACCOLC         ACCESS OVERLOAD CLASS
+10       2 DIGITS            GIM            GROUP ID (10 IN USA)
+11       3 DIGITS            LOCK A         FULL LOCK CODE
+12       3 DIGITS            LOCK B         PARTIAL LOCK CODE
+13       0 OR 1              LC             LOCAL USE MARK
+14       0 OR 1              EX             EXTENDED ADDRESS MARK
+15       0 OR 1              PS             PREFERRED SYSTEM
+16       0 ONLY              NSC            NON STANDARD CONTROL
+17       0 OR 1              EE             TRANSMIT DTMF
+18       0 OR 1              REP            REPERTORY DIALING
+19       0 OR 1              HA             HORN ALERT
+20       0 OR 1              HF             HANDS FREE
+21       0 OR 1              IRI            ROAM INHIBIT
+22       0 OR 1              F1             LOCK A ENABLE
+23       0 OR 1              F2             LOCK B ENABLE
+24       0 OR 1              F3             ENABLE DIAGNOSTICS MODE
+                                            (display RSSI & channel #
+                                            when FCN 4 is pressed)
+25 - 29  0 ONLY              F4 - F7        NOT USED

@@ -1,0 +1,546 @@
+                                 TEST MODE
+    
+    
+    Taken from the July 1993 Cellular Subscriber Technical Training Manual
+    Item# 68P09300A60-C and the Curtis Namfax vol.4.  I believe this is a
+    complete listing of all the commands that were ever possible.  This 
+    includes old phones and the new ones.  If there are two entries for a
+    particular number, the first one is the current command and the second
+    is for older models.
+
+NOTE: Not all commands work on all telephones.  If a command is not valid the
+      display will show "ErrOr."  Not all numbers have been assigned.  Not all
+      numbers have been listed here.  Some commands were intended only for
+      Motorola factory applications.   (This is the disclaimer in the
+      technical training manual.  I have included all of the other commands I 
+      have discovered one way or another.  I do believe this is a complete list
+      of the commands.)
+    
+
+Three test commands are significant for programming and registering the
+the telephone for service:  see full descriptions under TEST MODE COMMANDS.
+
+32#  Clears the telephone.  (Older Motorola allowed either three or fifteen 
+changes in the MIN.  After that, the phone had to be sent to Motorola to reset 
+the counter.  This is the command they use.) 
+
+38#  Displays the ESN
+
+55#  This is the TEST MODE PROGRAMMING (as described below).
+
+
+                          TEST MODE COMMANDS:
+
+
+#    Enter Test Command Mode
+
+00#  no function
+
+01#  Restart (Re-enter DC power start-up routine.)  On TDMA telephones, this
+     command has the same effect as pressing the PWR button.
+
+02#  Display Current Telephone Status (This is a non-altering version of the
+     STATUS DISPLAY.  On a 14 character display, all the information is shown.
+     On a 7 character display only the information on the second line of a 14
+     character display is shown.  On a 10 character display, all the 
+     information on the second line of a 14 charcter display plus the last 
+     three characters of the first line are shown.)
+
+     STATUS DISPLAY, ALTERNATES BETWEEN:
+     
+     AAA BBB   AAA = Channel Number (decimal)    BBB = RSSI reading for channel
+     CDEFGHI   are as follows:
+
+     C = SAT frequency (0=5970, 1=6000, 2=6030, 3=no channel lock)
+     D = Carrier (0=off, 1=on)
+     E = Signalling tone (0=off, 1=on)
+     F = Power attenuation level (0 through 7)
+     G = Channel mode (0=voice channel, 1=control channel)
+     H = Receive audio mute (0=unmuted, 1=muted)
+     I = Transmit audio mute (0=unmuted, 1=muted)
+
+     Press * to hold display and # to end.
+
+03#  Reset Autonomous Timer.   This command results in the reset of the 
+     autonomous timer but does not provide any test function on these models.
+
+04#  Initializes Telephone to Standard Default Conditions:
+     Carrier Off, Power Level 0, Receiver Audio Muted, Transmit Audio Muted,
+     Signalling Tone Off, SAT Off, Resetting of Watch-Dog Timer Enabled, 
+     DTMF and Audio Tones Off, Audio Path Set to Speaker
+
+05#  TX Carrier On (Key Transmitter)
+
+06#  TX Carrier Off
+
+07#  RX Audio Off (Mute Receiver Audio)
+
+08#  RX Audio On (Unmute Receiver Audio)
+
+09#  TX Audio Off
+
+10#  TX Audio On
+
+11(Ch.No.)# Set Tranceiver to Channel xxxx (Receive and Transmit in Decimal;
+            accepts 1, 2, 3, or 4 digits)
+
+12x# Set Power Step to x; (0,1-7) 0=Maximum Power (3 Watts) 7=Minimum Power Out
+
+13#  Power Off (Shuts off the radio)
+
+14#  10 kHz Signalling Tone On
+
+15#  10 kHz Signalling Tone Off
+
+16#  Setup  (Transmits a five word RECC message; each of the five words will 
+     be "FF00AA55CC33."  Transmitter de-keys at the end of the message.)
+
+17#  Voice  (Transmits a two word REVC message; each of the two words will be
+     "FF00AA55CC33."  Transmitter de-keys at the end of the message.)
+
+18#  C-Scan  (Allows for entry of as many as 5 negative SID's for each NAM.)
+
+     Newer Motorola phones are equipped with a feature called C-Scan, this is 
+     an option along with the standard A/B system selections.  C-Scan allows 
+     the phone to be programed with up to five inhibited system ID's per NAM.  
+     This is designed to prevent the phone from roaming onto specified non-home
+     systems and therefore reduce "accidental" roaming fees.
+
+     1.  C-Scan can only be programed from test mode, power phone up with the
+         relevant test mode contact grounded (see above).
+
+     2.  Press # to access test mode.
+
+     3.  Press 18#, the phone will display "0    40000".
+
+     4.  Enter the first inhibited system ID and press *.
+
+     Continue to enter additional system ID's if required.  After the 5th entry
+     the phone will display "N2". Press * to continue and add system ID's for
+     NAM 2 as required.
+
+     5.  If an incorrect entry is made (outside the range of 00000-32767) the
+         display will not advance, press CLR and re-enter.  Use a setting of
+         40000 for any un-needed locations.
+
+     6.  When the last entry has been made press * to store and press # to
+exit,
+         turn off power.
+
+     or
+     
+     [**Phones without the C-Scan option used this command to SEND NAM.**]
+
+18#  SEND NAM.  Display shows AA BB.  Where AA=Address and BB=Data.  Displays  
+
+     the contents of the NAM, one address at a time, advanced by pressing the
+     * key.  The following data is contained in NAM.  The test is exited by
+     depressing the # key.
+     SIDH                 Sec. Code
+     OPT. (1,2,&3)        MIN
+     MIN1, MIN2           FCHNA
+     SCM                  FCHNB
+     IPCH                 NDED
+     ACCOLC               CHKSUM       GIM
+
+19#  Display Software Version Number  (4 digits displayed as year and week)
+
+NOTE:  Entering commands 20# through 23# or 27# causes the tranceiver to begin
+       a counting sequence or continous transmission as described below.  In
+       order to exit from the commands to enter another test command, the # 
+       key must be depressed; all other key depressions are ignored.
+
+20#  Receive control channel messages counting correctable and uncorrectable
+     errors.  When the command starts, the number of the command will be 
+     displayed in the upper-right corner of the display.  Entering a # key
+     will terminate the command and display two three-digit numbers in the 
+     display.  The first number is the number of correctable errors and the
+     second is the uncorrectable errors.
+
+21#  Received voice channel messages counting correctable and uncorrectable
+     errors.  When the command starts, the number of the command will be 
+     displayed in the upper right-hand corner of the display.  Entering a # 
+     key terminates the command and will display two three-digit numbers in 
+     display.  The first is the number of correctable errors and the second 
+     is the uncorrectable errors.
+
+22#  Receive control channel messages counting word sync sequence.  When the
+     command starts, the number of the command will be displayed in the upper
+     right-hand corner of the display.  Entering a # key will terminate the
+     command and display the number of word sync sequences in the display.
+
+23#  Receive voice channel messages counting word sync sequences.  When the
+     command starts, the number of the command will be displayed in the upper
+     right-hand corner of the display.  Entering a # key will terminate the 
+     command and display the number of word sync sequences in the display.
+
+24#  Receive control channel data and display the majority voted busy/idle
+     bit.  0=idle  1=busy
+
+25x# SAT On         When                        x=0, SAT=5970HZ
+                                                x=1, SAT=6000HZ
+                                                x=2, SAT=6030HZ
+
+26#  SAT Off
+
+27#  Transmit Data  (Transmits continuous control channel data.  All words 
+     will be "FF00AA55CC33."  When the command starts, '27' will be displayed
+     in the right side of the display.  Entering a # key will terminate the
+     command.  The transmitter de-keys when finished.)
+
+28#  Activate the high tone (1150 Hz +/- 55 Hz)
+
+29#  De-activate the high tone
+
+30#  Activate the low tone (770 Hz +/- 40 Hz)
+
+31#  De-activate the low tone
+
+32#  Clear (Sets non-volatile memory to zeroes or factory default.  This 
+     command will affect all counters, all repertory memory including the last
+     number called stack, and all user programmable features including the
+     setting of System Registration.  It does not affect the ESN, NAM, phasing
+     data, or lock code.  This takes a minute or so.  DO NOT TURN OFF THE 
+     TELEPHONE WHILE THIS IS SHOWING '32' ON THE DISPLAY.  WAIT UNTIL THE 
+     NORMAL SERVICE LEVEL DISPLAY RESUMES!)
+
+33x# Turn on DTMF for x  (1-9, *, 0, #, plus the single tones)     
+        Where x=1    697 Hz + 1209 Hz       10  697 Hz
+                2    697 Hz + 1336 Hz       11  770 Hz
+                3    697 Hz + 1477 Hz       12  852 Hz
+                4    770 Hz + 1209 Hz       13  941 Hz
+                5    770 Hz + 1336 Hz       14  1150 Hz (not used in cellular)
+                6    770 Hz + 1477 Hz       15  1209 Hz 
+                7    852 Hz + 1209 Hz       16  1336 Hz
+                8    852 Hz + 1336 Hz       17  1477 Hz
+                9    852 Hz + 1477 Hz       18  1633 Hz (not used in cellular)
+                *    941 Hz + 1209 Hz
+                0    941 Hz + 1336 Hz
+                #    941 Hz + 1477 Hz
+
+34#  Turn DTMF Off
+
+35#  Display RSSI ("D" Series Portable Only)
+
+     or
+
+35x# Set Audio Path to x    x=0, V.S.P Microphone (Applies to mobiles only.)
+                            x=1, Speaker
+                            x=2, Alert
+                            x=3, Handset
+                            x=4, Mute
+                            x=5, External Telephone (Applies to Portables Only)
+                            x=6, External Handset (Applies to NEWER Portables)
+
+36nnn# Scan (TDMA Telephones only.  Scans the primary control channels and 
+     attempts to decipher the forward data stream.  The display will show PASS1
+     if the strongest control channel was accessed, PASS2 if the second 
+     strongest was accessed, and FAIL if no control channel could be accessed.)
+
+     (nnn=Scan speed in milliseconds).  Tunes from channel 1 to 666 in order.
+     Entering a * pauses the scan and displays current Channel Number and
+     RSSI reading (AAA=Channel Number and BBB=RSSI Reading).  When scan speed
+     is 300 milliseconds or greater, the current status is displayed during the
+     scan; when less than 300 milliseconds the status is displayed only during
+     pause.  Entering * during a pause causes the scan to resume.  Entering #
+     aborts the scan and leaves the mobile tuned to the current channel. 
+During
+     this command only the * and # keys are recognized.
+
+37#  no function
+
+38#  Display ESN (Displays ESN in four steps, two hexadecimal digits at a time
+     in a for digit display.  The decimal shows the address, 00 through 03 as
+     the first two digits, and two digits of the ESN as the last two digits.
+     Use the 'G' to step through the entire hexadecimal ESN.)
+
+     Compander OFF ("D" Series Portables)
+
+     or
+
+38#  SND-SNM.  Display shows AA BB.  Where AA=Address;BB=Data.  Send the SNM
+     to the display.  All 32 bytes of the SNM will be displayed, one byte at 
+     a time.  The byte address will be displayed in the upper right-hand
+     corner and the contents of that address will be displayed in the hex.  
+     The * key is used to step through the address similar to the SEND-NAM
+     (18#) command.
+
+39#  Compander ON ("D" Series Portables)
+
+     or
+
+39#  RCVSU.  Receive one control channel word.  When the word is received it
+     is displayed in hex.  This command will be complete when a control channel
+
+     word is received or when the # key is entered to abort the command.
+
+40#  RCVVC.  Receive one voice channel word.  When the word is received it is
+     displayed in hex.  This command will be complete when a voice channel
+     word is received or when the # key is entered to abort the command.
+
+41#  Enables Diversity (On F19CTA... Series only.)
+
+42#  Disables Diversity (On F19CTA... Series only.)
+
+43#  Disable Diversity
+     USE T/R ANTENNA (On F19CTA... Series only.)  
+     USE R ANTENNA (On D.M.T./ Mini TAC)
+
+44#  Disable Diversity
+     USE R ANTENNA (On F19CTA... Series only.)  
+     USE T/R ANTENNA (On D.M.T./ Mini TAC) 
+
+45#  Display Current RSSI (Displayed as a three-digit decimal number)   
+
+46#  Display Cumulative Call Timer
+
+47x# Set RX Audio level to X
+     (For F19CTA ...Series Tranceivers) 
+                                       X=0, Lowest Volume
+                                       X=6, Highest Volume
+                                       X=7, mute
+                                       Normal setting is 4.
+     (For D.M.T./ Mini TAC Tranceivers)
+                                       X=0, Lowest Volume
+                                       X=7, Highest Volume
+                                       Normal setting is 4.
+     (For TDMA Tranceivers and F09F... Series and Higher Portables)
+                                       X=0, Lowest Volume
+                                       X=15, Highest Volume
+                                       Normal setting is 2 to 4.  (On TDMA
+                                       Tranceivers and Micro TAC portables, 
+                                       settings 8 through 15 are for DTMF
+                                       applications only.)
+
+48#  Side Tone On.  Use this command in conjunction with 350# to test the 
+     entire audio path in hands-free applications.
+
+49#  Side Tone Off
+
+50#  Maintenance data is transmitted and test results displayed:
+     PASS=received data is correct
+     FAIL 1=2second timeout, no data rec.
+     FAIL 2=received data is incorrect
+
+51#  Test of mobile where maintenance data is transmitted and looped back.  
+     Display is as follows:
+     PASS=looped-back data is correct
+     FAIL 1=2 second timeout, no looped-back data
+     FAIL 2=looped-back data is incorrect
+
+52x# SAT Phase Adjustment.  A decimal value that corresponds to phase shift
+     compensation in 4.5 degree increments.  Compensation added to inherent
+     phase shift in tranceiver to achieve a total of 0 degrees phase shift.
+
+     Do NOT enter any values except those shown below.
+
+     0 degrees = 0          121.5 degrees = 59           243.0 degrees = 86
+     4.5       = 1          126.0         = 60           247.5         = 87
+     9.0       = 2          130.5         = 61           252.0         = 112
+     13.5      = 3          135.0         = 62           256.5         = 113
+     18.0      = 4          139.5         = 63           261.0         = 114
+     22.5      = 5          144.0         = 40           265.5         = 115
+     27.0      = 6          148.5         = 41           270.0         = 116
+     31.5      = 7          153.0         = 42           274.5         = 117
+     36.0      = 16         157.5         = 43           279.0         = 118
+     40.5      = 17         162.0         = 44           283.5         = 119
+     45.0      = 18         166.5         = 45           288.0         = 120
+     49.5      = 19         171.0         = 46           292.5         = 121
+     54.0      = 20         175.5         = 47           297.0         = 122
+     58.5      = 21         180.0         = 64           301.5         = 123
+     63.0      = 22         184.5         = 65           306.0         = 124
+     67.5      = 23         189.0         = 66           310.5         = 125
+     72.0      = 48         193.5         = 67           315.0         = 126
+     76.5      = 49         198.0         = 68           319.5         = 127
+     81.0      = 50         202.5         = 69           324.0         = 104
+     85.5      = 51         207.0         = 70           328.5         = 105
+     90.0      = 52         211.5         = 71           333.0         = 106
+     94.5      = 53         216.0         = 80           337.5         = 107
+     99.0      = 54         220.5         = 81           342.0         = 108
+     103.5     = 55         225.0         = 82           346.5         = 109
+     108.0     = 56         229.5         = 83           351.0         = 110
+     112.5     = 57         234.0         = 84           355.5         = 111
+     117.0     = 58         238.5         = 85           360.0         = 70
+              
+53#  Enable scrambler option, when equipped.
+
+54#  Disable scrambler option, when equipped.
+
+55#  Display/Program N.A.M. (Test Mode Programming)
+
+     TEST MODE PROGRAMING:
+
+     Assuming you have completed one of the above steps correctly the phone
+     will wake up in test mode when you turn the power on.  When you first
+     access test mode the phone's display will alternate between various status
+     information that includes the received signal strength and channel number.
+     The phone will operate normally in this mode.  You can now access Service
+     Mode by pressing the # key, the display will clear and a ' will appear.
+     Use the following procedure to program the phone:
+
+     1.  Enter 55# to access programing mode.
+
+     2.  The * key advances to the next step.  (NOTE that test mode programing
+         does NOT have step numbers, each time you press the * key the phone 
+         will display the next data entry).
+
+     3.  The CLR key will revert the display to the previously stored data.
+
+     4.  The # key aborts programing at any time.
+
+     5.  To complete programing you must scroll through ALL entries until a '
+         appears in the display.
+
+     6.  Note that some entries contain more digits than can be displayed by
+the
+         phone, in this case only the last part of the data can be seen.
+
+     TEST MODE PROGRAMING DATA:
+
+     STEP#    #OF DIGITS/RANGE    DESCRIPTION
+
+     01       00000 - 32767       SYSTEM ID
+     02       8 DIGIT BINARY      OPTION PROGRAMING, SEE NOTE 1 BELOW
+     03       10 DIGITS           MIN (AREA CODE & TEL#)
+     04       2 DIGITS            STATION CLASS MARK
+     05       2 DIGITS            ACCESS OVERLOAD CLASS
+     06       2 DIGITS            GROUP ID (10 IN USA)
+     07       6 DIGITS            SECURITY CODE
+     08       3 DIGITS            LOCK CODE
+     09       3 DIGITS            SERVICE LEVEL (LEAVE AT 004)
+     10       8 DIGIT BINARY      OPTION PROGRAMING, SEE NOTE 2 BELOW
+     11       8 DIGIT BINARY      OPTION PROGRAMING, SEE NOTE 3 BELOW
+     12       0333 OR 0334        INITIAL PAGING CHANNEL
+     13       0333                "A" SYSTEM IPCH
+     14       0334                "B" SYSTEM IPCH
+     15       3 DIGIT             NUMBER PAGING CHANNEL (021 IN USA)
+     16       8 DIGIT BINARY      OPTION PROGRAMING, SEE NOTE 4 BELOW
+
+     Steps 01 through 06 and 12 will repeat for NAM 2 if the second phone 
+     number bit has been enabled in step 11.
+
+     NOTES:
+
+     Take care with Motorola's use of "0" and "1".  Some options use "0" to
+     enable, some use "1".
+
+     These are eight digit binary fields used to select the following options:
+
+     1.  (step 02 above, suggested entry is: 11101001 for "A" system, 10101001
+         for "B" sys)
+
+         Digit 1: Local use mark, 0 or 1.
+         Digit 2: Preferred system, 0 or 1.
+         Digit 3: End to end (DTMF) dialing, 1 to enable.
+         Digit 4: Not used, enter 0.
+         Digit 5: Repertory (speed) dialing, 1 to enable.
+         Digit 6: Auxiliary (horn) alert, 1 to enable.
+         Digit 7: Hands free (VSP) auto mute, 1 to enable (mutes outgoing hands
+                  free audio until the MUTE key is pressed).
+         Digit 8: Min mark, 0 or 1.
+
+     2.  (step 10 above, suggested entry is: 00000100)
+
+         Digits 1 - 4: Not used in USA, enter 0.
+         Digit 5: Single system scan, 1 to enable (scan A or B system only,
+                  determined by bit 2 of step 02. Set to "0" to allow user the
+                  option).
+         Digit 6: Super speed dial, 1 to enable (pressing N, or NN SND will 
+                  dial the number stored in memory location NN).
+         Digit 7: User selectable service level, 0 to enable (allows user to 
+                  set long distance/memory access dialing restrictions).
+         Digit 8: Lock function, 0 to enable (allows user to lock/un-lock the
+                  phone, if this is set to 1 the phone can not be locked).
+
+     3.  (step 11 above, suggested entry is: 00000000)
+
+         Digit 1: Handset programing, 0 to enable (allows access to programing
+                  mode without having to enter test mode).
+         Digit 2: Second phone number (not all phones), 1 to enable.
+         Digit 3: Call timer access, 0 to enable.
+         Digit 4: Auto system busy redial, 0 to enable.
+         Digit 5: Speaker disable, 1 to enable (use with select VSP units only,
+                  do not use with 2000 series mobiles).
+         Digit 6: IMTS/Cellular, 1 to enable (rarely used).
+         Digit 7: User selectable system registration, 0 to enable.
+         Digit 8: Dual antennae (diversity), 1 to enable.
+
+     4.  (step 16 above, suggested entry is: 0011010 for portable and 0011011
+         for mobile units)
+
+         Digit 1: Not used, 0 only.
+         Digit 2: Not used, 0 only
+         Digit 3: Continuous DTMF, 1 to enable (software version 8735 and
+later)
+         Digit 4: 8 hour time-out, 0 to enable (software version 8735 and
+later)
+         Digit 5: Not used, 0 only.
+         Digit 6: Failed page indicator, 0 to enable (phone beeps when an
+             incoming call is detected but signal conditions prevent
+             completion of the call).
+         Digit 7: Portable scan, 0 for portable, 1 for mobile units.
+
+
+56#  no function
+
+57x# Call Processing Mode   
+                   x=0, AMPS
+                   x=1, NAMPS
+                   x=2-4, RESERVED 
+                   x=5, TDMA signalling
+                   x=6, TDMA signalling with loopback before decoding
+                   x=7, TDMA signalling with loopback voice after decoding
+                   x=8, TDMA signalling with loopback FACCH after decoding
+                   x=9, TDMA forced synchronization
+
+58#  Compander On (Audio compressor and expander) (See 39#)
+
+59#  Compander Off (Audio compressor and expander) (See 38#)
+
+60#  no function
+
+61#  ESN Transfer (For Series I D.M.T./Mini TAC only)
+
+62#  Turn On Ringer Audio Path
+
+63#  Turn Off Ringer Audio Path
+
+64#-65#  no function
+
+66#  Identity Transfer (Series II Tranceivers and some Current Shipping
+Portables)
+
+67#  no function
+
+68#  Diaplay FLEX and Model Information
+
+69#  Used with Identity Transfer
+
+70#  Abbreviated field transmitter audio deviation command, for tranceivers
+     with FCC ID ABZ89FT5668.
+
+71#  Abbreviated field power adjustment command, for tranceivers with FCC ID
+     ABZ89FT5668.
+
+72#  Field audio phasing commands.
+
+73#  Field power adjustment command.
+
+74#-99# no function
+
+Notes:  There are several numbers that say "no function" next to their entry.
+        In the technical manual, those numbers APPEAR to have no function.  It 
+        is very possible that they DO IN FACT have a function.  As far as I 
+        know, using the information provided by the technical manual, I know 
+        of no functions for these numbers.  But at the top you'll notice in the
+        disclaimer that NOT ALL FUNCTIONS ARE LISTED HERE.  That leaves open a
+        possibility of others.  Try these numbers and you may get lucky (or you
+        may wipe some vital information...who knows?).  I am in fact almost 
+        certain that it is possible to change the ESN via the handset.  It is 
+        just a matter of finding the correct combination of commands.  You can 
+        bet that won't be easy, but it can't stay a secret forever though!
+
+For more information, call Motorola and order part# 68-093-00a60.  This is a 
+cellular service manual that's used in their cellular service classes that 
+sells for $30.  Ask for the Order Fulfillment department when ordering.  This 
+manual tells it all!  An absolute must have for Motorola users.

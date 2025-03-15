@@ -1,0 +1,20 @@
+The following crack is to remove key-disk protection for Autoduel.exe,
+size 47344 bytes, dated 07-25-88.
+ 
+Using Pctools or Nortons, find the specified hex string and replace
+as shown.
+ 
+Search string   Replace with
+=============   ============
+ 
+719D80          5539BD
+ 
+ED0DBD          03A4B8,049FBF,17,0479B6,17,04BCB4,17,045BAA,17,57BD,2C
+ 
+The above replacement string is separated with commas only to represent
+different instructions.  XOR with x'BC' to see these instructions.
+There should only be one occurence of each of the search strings.
+ 
+The Mad Hacker
+Calgary, Alberta.
+Oct 08, 1992.

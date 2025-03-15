@@ -1,0 +1,99 @@
+PRO2026.1
+
+    Hello from WD8RNG, Tim in Mentor,Ohio.
+The following information is what I have obtained from the service manual
+for the Radio-Shack Pro-2026 mobile scanner.The service manual is availible
+at Radio-Shack for oprox. $6.00. To restore the missing segments of the
+800 mhz band, remove the speaker side cover of the scanner.There is a small
+connector mounted on the main circuitboard that connects the speaker,this can  
+be unpluged for better access to the pcb. Near the front of the scanner on the
+inside there is a smaller circuitboard mounted at a slight angle. On it there
+are two ribbon connectors to the rear of this pcb. Also there is a so called
+inductor labeled "L201" that is really a jumper that deletes the cellular
+portion of the 800 mhz band. Just snip it open and spread it slightly so that
+the ends do not touch each other. I also added a 9 volt battery to extend the
+memory that is normally only good for about 30-45 minutes when power is removed. 
+
+   The orange wire on the power cable is used for memory back-up. I sniped it
+
+off on the inside of the scanner about 1/8 inch from the pcb,twisted it and
+
+pulled of the insulation and tinned it for use as a terminal post for the 
+
+positive side of the 9 volt battery. I mounted the battery behind the keypad 
+
+on the inside of the scanner.
+
+I added some cardboard around the area where I was going to put the battery so
+
+it would not short to any components or pcb. I used some fiberglass tape to
+
+hold the cardboard in place. The battery should be connected between the 
+
+circuitboard common or ground and the tinned end where the orange wire was
+
+connected. The remainning orange wire can be taped at the end and not used.
+
+  I checked the current that the 9 volt battery drew when the scanner was not
+
+connected to a 12 volt source, it measured about 2 microamps, which should
+
+last almost the shelf life of the battery. I used a "Duracell" and the memory
+
+has held up for months. I also did not like the beep every time I pushed a 
+
+button on the scanner especially when head-phones were used. To get rid of 
+
+this I removed the ribbon from the connector directly behind the back-light 
+
+lamp for the display. To remove the ribbon push down on the white base and
+
+carefully pull the ribbon out. The connector is spring-loaded. I bent back
+
+the fith wire on the cable and reinserted the ribbon into the connector.
+
+When you count the fith wire over, the scanner is laying upside down and the
+
+front facing you. There are some more mods I am planning on doing like built-
+
+in "PL" and "DPL" decoders, or a lowpass filter built in and brought out
+
+to a jack at the rear pannel where external decoding devices can be connected.
+
+   Well thats about all I have for now.....73 from WD8RNG 
+
+PRO2026.2
+
+From: KA4NMX@KD4OM.#HKY1.NC.USA.NA
+
+                   Pro-2026 Modifications
+
+Note: The Electronics Communcations Privacy Acot of 1986 makes
+it unlawful to monitor mobile telephones, including Cellular.
+The Following modification is intended only to restore contin-
+uous 760-1300 MHz coverage as originally provided by the design
+of the PRO-2026 Microprocessor.
+
+         824-851, 869-896 MHz Freq Restoration :
+ 
+The Pro-2026 has cellular frequencies deleted at the factory,
+but restoration is the easiest I've ever seen - clip one marked
+wire! All you need is a Phillips screwdriver and wire cutters.
+
+(1) Turn the scanner upside-down and remove the four side screws
+    holding the bottom cover in place; pull the cover loose and
+    set it back about two inches out of the way.
+
+(2) Locate the small circuit board at the lower right-hand
+    corner and find jumper L201. Cut it and slightly separate
+    the break.
+
+(3) Reassemble the radio which now has continuous 806-956Mhz 
+    coverage and 30 khz increments in the cellular band.
+
+
+This is a very senitivie scanner. you will find it pick up very
+well for a mobile radio.  Have fun with it.  73's KA4NMX.....
+
+
+

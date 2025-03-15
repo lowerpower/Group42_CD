@@ -1,0 +1,81 @@
+<html>
+<head><title>Group 42 Sells Out [Unix Append Commands]</title></head>
+<body background="hack.jpg">
+
+<center>
+
+<img alt="Group 42 Sells Out!" src="../../g42slogo.gif">
+
+</center>
+
+<hr size=5 noshade>
+<center>
+<h2>Hacking With Crontab</h2>
+<h4>FNF Group 42, 1988</h4>
+<i>There IS something to be said about responsibility without authority.</i>
+- FNF
+</center>
+<p>
+A while back I was employed by the Computer Operations department of a major
+California university. It was a simple job. I was responsible for monitoring
+the nightly backup of the university's AT&T 3b5 unix machine. The 3b5 stored
+all the campus's important data, primarily student records.
+<p>
+I was trustworthy but not entirely trusted. Although I was responsible enough
+to maintain the system, run routine tests, parse data for reports, and take
+the blame for any problems, I was never GIVEN root access to the 3b5.
+I had to make it for myself.
+<p>
+The 3b5's system clock regularly executed a process called SYSBACKUP. This
+process spawned a shell and ran a series of commands that needed to be run
+daily (nightly). For reasons of optimization, I was allowed to experiment
+with the sequence of these commands. The 3b5 was now under my control.
+<p>
+Because much of the 3b5's data was restricted, the process SYSBACKUP and
+all processes it ran were done so with root access. Here's what I'd do:
+
+<ul type=disc>
+
+<li>Append a entry onto SYSBACKUP that executed a file called OPTTEST.
+<p>
+<li>The file OPTTEST copied SYSBACKUP to a temporary file, striping the
+last entry I'd appended.
+<p>
+<li>OPTTEST would then do whatever I wanted it to do, with the highest
+system privileges.
+<p>
+<li>I would make a copy of the root shell and save it in a hidden directory.
+<p>
+<li>When I was done, OPTTEST would copy the temporary I'd created back on
+top of SYSBACKUP, adjust the time and date of SYSBACKUP, and
+remove the temporary file and OPTTEST from the system.
+<p>
+<li>I ran the copy of the root shell to create a ficticious user once
+and once only. If I ever needed, or wanted, to be root again, I'd login
+to the system as the user I created and run the root shell.
+
+</ul>
+
+After about a year, I was finally made the admin of the 3b5. My first task
+was to remove all other access to SYSBACKUP than my own...
+<p>
+
+<i><b>FileNotFound '88</b></i>
+<p>
+<hr size=5 noshade>
+<center>
+<h4>
+<a href="../../index.htm">HOME</a> |
+<a href="../../about.htm">GROUP 42</a> |
+<a href="../../disclaim.htm">DISCLAIMER</a> |
+<a href="../../help.htm">HELP</a>
+<br>
+Copyright &copy 1984-1996 Group 42
+</h4>
+</center>
+</html>
+
+
+
+
+

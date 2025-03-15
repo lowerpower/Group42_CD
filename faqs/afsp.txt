@@ -1,0 +1,677 @@
+Archive-name: fsp-faq/part1
+Last-modified: 1995/07/21
+Version: 1.0
+Frequency: Twice Monthly
+
+-------------------------------------------------------------------------------
+
+                          File Service Protocol (FSP)
+                           Frequently Asked Questions
+
+                        (Last Updated: 21st July 1995)
+
+These are the answers to some of the frequently asked questions about FSP.
+Posted twice monthly to alt.comp.fsp, alt.answers and news.answers.
+
+This information is mostly compiled from the alt.comp.fsp newsgroup, although
+many other people and information sources also contribute. It is edited and
+prepared by Andy Doherty
+(A.J.Doherty@reading.ac.uk) - who is also the current maintainer of the FSP
+software.
+
+This FAQ may be found in the alt.comp.fsp newsgroup and from the news archives
+at rtfm.mit.edu . However, the most recent version will always be found at its
+WWW home of http://www.itunit.cs.rdg.ac.uk/misc/fsp/faq/faq.htm
+
+-------------------------------------------------------------------------------
+
+News:
+
+   * A beta release of FSP Version 2.8.0 will become available in late July.
+     This is slightly delayed as the maintainer (myself) has just moved house.
+     More news as it happens ...
+
+-------------------------------------------------------------------------------
+
+Recent Additions: (Latest First)
+
+   * Updates to Macintosh FSP client information [2.2.4]
+   * Changes to FSP site information [2.3]
+   * What about FSP Software Updates ? [2.5]
+   * Notes and Disclaimer
+   * Site information changes [5.1]
+   * New MS-Windows FSP Client (fsp4win) [2.2.2]
+
+-------------------------------------------------------------------------------
+
+                                    Contents
+
+   * 1: Introduction and Help
+
+        o 1.1 What's alt.comp.fsp? What's FSP?
+        o 1.2 Where can I get FSP?
+        o 1.3 Help! I don't understand how to use FSP!
+        o 1.4 What are those funny "R" and "I" characters?
+        o 1.5 Why should I, as a site admin, run an FSP daemon?
+        o 1.6 Why do FSP clients appear to hang sometimes ?
+
+   * 2: FSP software and resources
+
+        o 2.1 Where can I get an FTP-like interface for FSP?
+        o 2.2 Where can I get a graphical interface for FSP?
+             + 2.2.1 UNIX (X-Windows)
+             + 2.2.2 MS-Windows
+             + 2.2.3 OS/2
+             + 2.2.4 Macintosh
+        o 2.3 Where can I get hold of a list of sites?
+        o 2.4 Where can I get pictures of naked women in compromising positions
+          and a copy of SuperRoboTermiSonicBuster IV ?
+        o 2.5 What about FSP Software Updates ?
+
+   * 3: Technical Issues
+
+        o 3.1 What are the main differences between FSP and FTP? How does FSP
+          work?
+        o 3.2 How secure/anonymous is FSP?
+        o 3.3 Why not add passwords to FSP?
+        o 3.4 So what *does* FSP stand for?
+
+   * 4: Who's who in FSP?
+
+        o 4.1 Who writes and maintains FSP software?
+        o 4.2 Who writes and maintains FSP client software?
+        o 4.3 Who helped put this FAQ together?
+
+   * 5: Site Information
+
+        o 5.1 What FSPable sites exist ?
+
+-------------------------------------------------------------------------------
+
+Section 1: Introduction and Help
+
+Q.1.1 What's alt.comp.fsp? What's fsp?
+
+Alt.comp.fsp is a Usenet newsgroup for discussing the FSP file transmission
+protocol. It was created on Tuesday 4th May 1993 by Wen-King Su
+(wen-king@cs.caltech.edu) after there was no objection on alt.config. Before
+the newsgroup, there was a mailing list (fsp-discussion) for talking about FSP
+software internals. This newsgroup is for discussion of both writing and using
+the software.
+
+FSP is a protocol, a bit like FTP (but see below), for moving files around.
+It's designed for anonymous archives, and has protection against server and
+network overloading. It doesn't use connections, so it can survive things
+falling over.
+
+Quote: `FSP is what anonymous FTP *should* be'.
+
+-------------------------------------------------------------------------------
+
+Q.1.2 Where can I get FSP from?
+
+The `official' place for FSP distributions is ftp.germany.eu.net
+
+   * ftp://ftp.germany.eu.net/pub/networking/inet/fsp
+   * fsp://ftp.germany.eu.net:2001/pub/networking/inet/fsp
+
+It is available both by FTP and FSP: the FSP server is on port 2001.
+
+The latest versions are:
+
+   * Unix : Version 2.7.1
+        o  ftp://ftp.germany.eu.net/pub/networking/inet/fsp/fsp.271.tar.gz
+
+   * VMS : Version 2.7.1
+        o  ftp://ftp.germany.eu.net/pub/networking/inet/fsp/fsp.271.tar.gz
+
+   * OS/2: Version 1.0 - based upon the v.2.7.1 Unix release
+        o  ftp://ftp.germany.eu.net/pub/networking/inet/fsp/os2fsp21.zip
+
+   * MS-DOS: PC FSP Version 1.05 - based upon the v.2.6.5 Unix release
+        o  ftp://ftp.germany.eu.net/pub/networking/inet/fsp/pcfsp105.zip
+
+The Unix version is the `original', and was originally written by Wen-King Su:
+Joseph Traub took over for a while, followed by Phil Richards and Pete Bevin,
+Andy Doherty maintains it currently. The same distribution contains patches by
+Sven Pechler to make it run on VMS. Larkin Lowrey wrote the OS/2 version, and
+Lindsey Smith wrote the MS-DOS version. Email addresses are in Section 4.
+
+-------------------------------------------------------------------------------
+
+Q.1.3 Help! I don't understand how to use FSP!
+
+If you're already familiar with FTP, you might want to use one of the FTP-like
+clients instead, or even a graphical interface. See the answers to questions
+2.1 and 2.2 below for details of how to get them.
+
+The following tutorial is adapted from an article in alt.comp.fsp by David
+DeSimone .
+
+The original FSP seems to have been designed for use with csh aliases, so if
+you use csh, try these aliases in your .cshrc:
+
+        # FSP aliases:
+        alias fcat   '(set noglob; exec fcatcmd \!*)'
+        alias fcd    'setenv FSP_DIR `(set noglob; exec fcdcmd \!*)`'
+        alias fget   '(set noglob; exec fgetcmd \!*)'
+        alias fgrab  '(set noglob; exec fgrabcmd \!*)'
+        alias fls    '(set noglob; exec flscmd -F \!*)'
+        alias fll    '(set noglob; exec flscmd -l \!*)'
+        alias fpro   '(set noglob; exec fprocmd \!*)'
+        alias fpwd   'echo "$FSP_HOST ($FSP_PORT): $FSP_DIR"'
+        alias frm    '(set noglob; exec frmcmd \!*)'
+        alias frmdir '(set noglob; exec frmdircmd \!*)'
+        alias fhost  'set fsp_host=(\!*); source ~/bin/fhost; unset fsp_host'
+
+The last alias, "fhost", is my own invention, and the ~/bin/fhost file looks
+like this:
+
+        #!/bin/csh
+        #
+        # Since this script sets environment variables, it really needs
+        # to be source'd rather than executed.  Thus the following alias
+        # should be used:
+        #
+        # alias fhost 'set fsp_host=(\!*); source ~/.bin/fhost; unset fsp_host'
+        #
+
+        if ( $#fsp_host > 0 ) then
+
+            setenv FSP_HOST $fsp_host[1]
+
+            if ( $#fsp_host > 1 ) then
+                setenv FSP_PORT $fsp_host[2]
+            else
+                setenv FSP_PORT 21
+            endif
+
+            if ( $#fsp_host > 2 ) then
+                setenv FSP_DIR $fsp_host[3]
+            else
+                setenv FSP_DIR /
+            endif
+
+        endif
+
+        if ( $?FSP_HOST ) then
+            echo "$FSP_HOST ($FSP_PORT): $FSP_DIR"
+        endif
+
+This alias lets you "connect" to a host quickly and easily. For instance, to
+start out I give the following command:
+
+        % fhost wuarchive.wustl.edu
+        wuarchive.wustl.edu (21):
+
+The "fhost" command tells me where I'm connected, on what port, and in what
+directory.
+
+Since all "fhost" does is set up some environment variables, we aren't REALLY
+connected. To find out if the site is responding, just do a quick "fls":
+
+        % fls
+        README          etc/            mirrors2/       pub/
+        README.NFS      graphics/       mirrors3/       systems/
+        edu/            mirrors/        private/
+
+Looks like we're up and running! Navigating with FSP is now just like using the
+local filesystem, except the commands have "f" in front of them. For instance:
+
+        % fcd /systems/amiga/incoming
+        directory mode: (owner: some other machine)(delete: NO)(create: NO)
+        % fls
+        AT3D-Demo.bad       devel/              utils/
+        AT3D-Demo.readme    fish/               wb30/
+        comm/               programming/        demos/
+        text/
+
+Other nice commands like "fcat filename" let me see what's out there, or for
+larger files, "fcat filename | less" is very effective.
+
+Once I see a nice file that I want copied to my local system, I just give the
+"fget filename" command and away it goes. Usually I type "fget filename &"
+which throws the transfer request into the background. Then I can immediately
+go off and "fcd" to some other directory and look for more files to grab,
+"fcat"-ing the README files and such.
+
+-------------------------------------------------------------------------------
+
+Q.1.4 What are those funny "R" and "I" characters?
+
+When FSP doesn't get any response from the server, it keeps on sending
+requests. The first time it retries, it prints an "R", (meaning "Retry"), and
+the second, third, and subsequent times, it prints an "I". You might also see
+an "E", which means "error": FSP got a packet, but it was corrupted for some
+reason.
+
+Fspclient does it slightly differently: it starts by printing "r" and "R"
+characters, and then uses "-\|/" characters to draw a spinning bar. As Phil
+Richards (the author) says, `I quite often see spinning bars, but usually only
+after the fifth pint'.
+
+-------------------------------------------------------------------------------
+
+Q.1.5 Why should I, as a site admin, run an FSP daemon?
+
+Because it's one more way people can access your site, and it won't cost you
+much extra load on the machine. The FSP daemon never forks, so it won't
+increase your load average by more than one. FSP doesn't add much to the
+network load either, and you can limit the amount of data the daemon will send
+out per second.
+
+FSP allows comprehensive logging, running off inetd, README files per
+directory, banning on per-host or per-network basis, reverse naming and
+read-only sites. The only thing anonymous FTP gives that FSP doesn't is having
+the user type in an email address, and of course, this can easily be faked. FSP
+logs give the user's hostname, which is harder to fake.
+
+-------------------------------------------------------------------------------
+
+Q.1.6 Why do FSP clients appear to hang sometimes ?
+
+When unable to get a response to it's last request an FSP client use a
+non-linear algorithm to increase the delay until they re-try. Effectively this
+means that during a transfer a client may appear to be sitting their doing
+nothing for periods of time, as the timeout in use increases to high values, to
+paraphrase Wen-King Su - "the algorithm is brain damaged". This problem will be
+addressed in the next release of FSP.
+
+-------------------------------------------------------------------------------
+
+Section 2: FSP software and resources
+
+Q.2.1 Where can I get an FTP-like interface for FSP?
+
+Phil Richards' fspclient. The latest version (still pre-alpha, but more
+reliable than your average beta release) is fspclient.0.0-h. You can get it by
+FTP from
+
+   *  ftp://ftp.germany.eu.net/pub/networking/inet/fsp/fspclient.0.0-h+.tar.z
+   * fsp://ftp.germany.eu.net:2001/pub/networking/inet/fsp/fspclient.0.0-h+.tar.z
+
+Another interface to use is Nicolai Langfeldt's 'fspcli'. It has a ftp like
+interface and more. It has been posted on alt.sources. Another nice thing about
+it is that it's a small(ish) perl script rather than a large compiled
+executable, and it's not alpha OR beta. Presently the latest version is 1.2.1
+and is available at
+
+   *  ftp://ftp.germany.eu.net/pub/networking/inet/fsp/fspcli-1.2.1.tar.gz
+   * fsp://ftp.germany.eu.net:2001/pub/networking/inet/fsp/fspcli-1.2.1.tar.gz
+
+Ove Ruben R Olsen (Ruben@uib.no) has written a client quite similar to
+Nicolai's, but even smaller. It is available at
+
+   *  ftp://ftp.germany.eu.net/pub/networking/inet/fsp/fspsh113.tar.gz
+   * fsp://ftp.germany.eu.net:2001/pub/networking/inet/fsp/fspsh113.tar.gz
+
+Note that if you want to use either of the last two clients, you'll have to
+have the Perl language installed. You can get the latest version by FTP from
+prep.ai.mit.edu in /pub/gnu/perl*, or from most sites which mirror GNU, such as
+ftp.germany.eu.net .
+
+-------------------------------------------------------------------------------
+
+Q.2.2 Where can I get a graphical interface for FSP?
+
+2.2.1 For Unix (X-Windows) ...
+
+     The interface I use is FSPtool (not suprising really :-) ) by myself [Andy
+     Doherty (A.J.Doherty@reading.ac.uk)]. It is an XView based client for the
+     X Window System. Available from:
+
+        o
+          ftp://ftp.germany.eu.net/pub/networking/inet/fsp/fsptool-1.6.1.tar.gz
+        o fsp://ftp.germany.eu.net:2001/pub/networking/inet/fsp/fsptool-1.6.1.tar.gz
+        o  ftp://ftp.x.org/contrib/applications/fsptool-1.6.1.tar.gz
+
+     Like fspcli and fspshell, it acts as an interface to the standard FSP
+     shell commands, rather than rewriting them itself.
+
+     Note that to use this package, you will need the XView libraries, if
+     you're using a Sun workstation, or the standard MIT X11R5/R6 distribution
+     you should be you're OK: otherwise, you might have to get and compile them
+     yourself.
+
+2.2.2 For MS-Windows ...
+
+     winfsp12.zip by Ian Heath is a MSW client using WINSOCK.DLL . It's
+     available from
+
+        o  ftp://wuarchive.wustl.edu/systems/ibmpc/win3/winsock/winfsp12.zip
+        o  ftp://ftp.cica.indiana.edu/pub/pc/win3/winsock/winfsp12.zip
+        o  ftp://ftp.germany.eu.net/pub/networking/inet/fsp/winfsp12.zip
+        o fsp://ftp.germany.eu.net/pub/networking/inet/fsp/winfsp12.zip
+
+     fsp4win.zip by Ben Youngdahl is another MSW client using WINSOCK.DLL .
+     Still in Beta release it's available from
+
+        o  ftp://ftp.sunet.se/pub/pc/windows/winsock-indstate/fsp/fsp4win.zip
+
+2.2.3 For OS/2 ...
+
+     If you're an OS/2 user, you can use the OS/2 client by Albert Crosby . It
+     wraps around the OS/2 FSP software (see 1.2), and also requires RexxMenu
+     and RxU. It can read a list of files in the standard FSP host listing
+     format, and uses RexxMenu's point-and-click interface.
+
+     Alternatively Larkin Lowrey has an OS/2 FSP client (version 1.0). This can
+     be found at ftp.cdrom.com as
+     ftp://ftp.cdrom.com/pub/os2/network/tcpip/fsp2_10a.zip
+
+     This version includes clients for IBM's TCP/IP 1.2.1 and TCP/IP 2.0. Both
+     are 32-bit and fully handle longfilenames.
+
+2.2.4 For the Macintosh ...
+
+Jim Browne (jbrowne@jbrowne.com) is working on a version for the Macintosh. If
+you're interested you can ask to be put on a mailing list by mailing him at
+jbrowne@jbrowne.com. The latest version is available at
+http://www.jbrowne.com/Projects/MacFSP.html. Older versions are available from
+the following places:
+
+   *  ftp://mirror.aol.com/pub/info-mac/comm/tcp/
+   *  ftp://ftp.tidbits.com/pub/tidbits/tisk/tcp/
+   *
+     ftp://src.doc.ic.ac.uk/computing/systems/mac/sumex/Communication/tcp/mac-fsp-10b13.hqx
+
+Alternatively another beta client - Modris Berzonis' (imara@mii.lu.lv), "FSP
+Client for Macintosh 2.7.1b8" - is available from:
+
+   *  ftp://ftp.latnet.lv/pub/MAC/FSP/FSPClient2.7.1b8.sea.hqx
+
+NB: The above FTP server doesn't seem to be set up correctly so Netscape
+doesn't talk to it properly. If you have difficulties try accessing it through
+an alternative FTP client program.
+
+Last but not least is Tim Endres' (time@ice.com) "FSPMac 1.1" available from:
+
+   *  ftp://ftp.msen.com/pub/vendor/ice/FSPMac-1.1.hqx
+
+All email enquires about FSPMac should be sent to (macfsp@ice.com).
+
+-------------------------------------------------------------------------------
+
+Q.2.3 Where can I get hold of a list of sites?
+
+Dan Charrois's provides both a "finger" based read-only service and a new WWW
+based service.
+
+   * finger charro@bode.ee.ualberta.ca
+   *  http://nyquist.ee.ualberta.ca/~charro/fsp
+
+Interruptions have been experienced with the "finger" service at Dan's site, in
+case of difficulty use the WWW service instead.
+
+He is also happy to accept new site information and updates via direct email
+(charro@ee.ualberta.ca), this information would then be available via the
+finger and WWW services.
+
+In the meantime, a small list sites can be found in Section 5.
+
+You are encouraged to post site information to alt.comp.fsp, and if you post in
+the format below, most people will be able to slurp your list straight into
+their front-end programs.
+
+The standard for the format is:
+
+        hostname port alias root-directory # comment
+
+for example:
+
+        ftp.germany.eu.net     2001 germany  / # big German archive (FSP)
+
+Hostnames should be actual names rather than IP addresses wherever possible.
+
+-------------------------------------------------------------------------------
+
+Q.2.4 Where can I get pictures of naked women in compromising positions and a
+copy of SuperRoboTermiSonicBuster II ?
+
+Seriously, FSP has a reputation of being for "crooks and perverts". If you know
+any sites carrying illegal material, then do them a favour and keep them to
+yourself. Posting them won't make you any friends.
+
+If someone posts a list of sites, and you didn't want them to, please don't
+publicly flame them. It doesn't endear you to anyone. If you must put them
+right, send email. Thank you.
+
+Don't ask me either.
+
+-------------------------------------------------------------------------------
+
+Q.2.5 What about FSP Software Updates ?
+
+The revision of the FSP protocol to version 3.0 is currently on going. Forums
+for discussion are the alt.comp.fsp newsgroup and the
+fsp-discussion@germany.eu.net mailing list.
+
+Current work in progress includes an FSP RFC (Request For Comments) - basically
+an internet specification of the protocol; alterations to improve security
+facilities; a programmers API and miscellanous extra features & facilities.
+
+In the meantime a maintenance release (v.2.7.2) should be out in mid July. This
+will fix a number of portability issues and known bugs.
+
+-------------------------------------------------------------------------------
+
+Archive-name: fsp-faq/part2
+Last-modified: 1995/07/21
+Version: 1.0
+Frequency: Twice Monthly
+
+-------------------------------------------------------------------------------
+
+Section 3: Technical Issues
+
+Q.3.1 What are the main differences between FSP and FTP? How does FSP work?
+
+From the user's point of view, the differences are not that great, except that
+some of the more annoying features of FTP are gone. Here are the main
+differences.
+
+   * The protocol can stand things going down: if the server or the network
+     falls over in the middle of a transfer, you can just wait until it comes
+     back up. You don't have to reconnect, and even better, if the server went
+     down 90% through grabbing a file, you can continue from where you left
+     off.
+
+   * The protocol doesn't need a username or password. You just throw packets
+     at the server. You don't have to identify yourself (though you're not
+     completely anonymous -- see below).
+
+   * It's harder to kill off a site with an FSP server than with an FTP server.
+     The FSP daemon is designed to be as lightweight as possible: it doesn't
+     fork off any sub-processes, and it takes steps to limit the amount of
+     traffic it handles.
+
+   * The user interface is completely different. The interface that comes with
+     the package consists of eleven commands that you can call from the shell.
+     In effect, your shell is providing all the nice functions like command
+     line editing. This makes the interface much more versatile than FTP's.
+     (See below for how to get an FTP-like interface, though).
+
+   * FSP is a bit slower than FTP. This is a feature, not a bug. The point is
+     to keep the communication lightweight, and not to flood the net.
+
+From the programmer's point of view, fsp is a complete rewrite.
+
+   * Instead of TCP sockets, it uses datagrams to communicate, so that the
+     connection doesn't break on a flaky line.
+
+   * FTP works by opening a port, and then asking the server to send a file to
+     it. FSP uses the same port all the time for communication, and asks for
+     segments of a file. So you can start off a transfer half way through a
+     file, if you really want to.
+
+   * The server tries to make sure you don't ask for packets too quickly. Each
+     packet it sends out has a random identification number, which the client
+     must return on the next request. (If the client loses the number, it must
+     wait a few seconds before the server accepts another packet from it).
+     Therefore, the client has to wait for an answer to each request before it
+     sends out the next one.
+
+-------------------------------------------------------------------------------
+
+Q.3.2 How secure/anonymous is FSP?
+
+By default, the FSP daemon keeps logs of transactions, along with their site
+names. An FSP administrator could use this to find out who you are, with a
+reasonable degree of certainty.
+
+In short, FSP gives you no more privacy than anonymous FTP. Anyone who tells
+you different has a less devious mind than most FSP admins I know.
+
+Why not make FSP more anonymous? Well, it's impossible to make a protocol with
+complete anonymity, since at some point, the remote site will have to send a
+file back to you, and it needs at least an address to send it to.
+
+If you really need privacy, you can encrypt any files you make available, and
+only give out the decryption password to a select few. But of course, you have
+to trust them to keep the password safe.
+
+-------------------------------------------------------------------------------
+
+Q.3.3 Why not add passwords to FSP?
+
+Thanks to Joseph Traub for the material for this section)
+
+   * They don't add much security. If you use one password for the whole site,
+     then you might just as well set up the site and only tell a few people its
+     port number. That's no more or less secure than using a password. Besides,
+     it's easier just to set up the server only to respond to certain hosts.
+
+   * Any other password system is likely to be a big lose on efficiency, since
+     you'll have to check every single packet.
+
+   * The main use of server passwords appears to be so that people can move
+     pirated software around, and the authors don't want to add code to support
+     that.
+
+   * This capability does NOT belong in FSP because it gets away from the
+     concept of lightweight simple file transfers.
+
+-------------------------------------------------------------------------------
+
+Q.3.4 So what *does* FSP stand for?
+
+As of 12th August 1993, FSP stands for `File Service Protocol'. Thanks to
+Michael Grubb (mg@ac.duke.edu) for the words, and Wen-King for the initials.
+
+Other suggestions were:
+
+   * File Slurping Protocol
+   * Flaky Stream Protocol
+   * FTP's Sexier Partner
+
+-------------------------------------------------------------------------------
+
+Section 4: Who's Who?
+
+Q.4.1 Who writes and maintains FSP software?
+
+Unix Versions:
+     The current maintainer (as of March 1994) is Andy Doherty
+     (A.J.Doherty@reading.ac.uk), who also maintains the alt.comp.fsp FAQ and
+     wrote and maintains FSPtool an X-Windows FSP client.
+
+     The previous maintainers were Phil Richards (pgr@sst.icl.co.uk) and Pete
+     Bevin (pete@bestiary.demon.co.uk) from July 1993 to March 1994. Phil is
+     also the maintainer of fspclient, an FTP-like interface for FSP.
+
+     Joseph Traub (was jtraub@cs.cmu.edu) was maintainer from Dec 1992 to July
+     1993 (versions 2.6.5 to 2.7.1).
+
+     Wen-King Su (wen-king@cs.caltech.edu) wrote the original Unix version
+     (versions 1.0 to 2.6.4).
+
+VMS:
+     Sven Pechler (S.A.Pechler@bdk.tue.nl) wrote and maintains a VMS version.
+
+OS/2:
+     OS/2 is handled by Larkin Lowrey (llowrey@ucsd.edu).
+
+MS-DOS:
+     Lindsey Smith, of the MS-DOS rewrite is lsmith@symantec.com
+
+-------------------------------------------------------------------------------
+
+Q.4.2 Who writes and maintains FSP Client Software?
+
+Jim Browne (jbrowne@jbrowne.com) and Modris Berzonis (imara@mii.lu.lv) are both
+writing (soon to be released?) Macintosh clients. See Section 2.2.3.
+
+Andy Doherty (A.J.Doherty@uk.ac.reading) wrote and maintains 'FSPtool' an
+X-Windows based Unix client. Also the FSP and alt.comp.fsp FAQ maintainer.
+
+Ian Heath (ih@ecs.soton.ac.uk) wrote 'winfsp' an MS-Windows based client.
+
+Nicolai Langfeldt's (janl@ifi.uio.no) wrote and maintains 'fspcli' a Perl based
+client.
+
+Ove Ruben R Olsen (Ruben@uib.no) wrote and maintains 'fspsh', another Perl
+based client.
+
+Phil Richards' (pgr@sst.icl.co.uk) wrote and maintains 'fspclient'.
+
+-------------------------------------------------------------------------------
+
+Q.4.3 Who helped put this FAQ together?
+
+The following people have contributed to the FAQ. Thanks very much to all of
+them.
+
+   * Pete Bevin (pete@bestiary.demon.co.uk)
+   * Tony Brannigan (tbrann@ox.ac.uk)
+   * Jim Browne (jbrowne@jbrowne.com)
+   * Dan Charrois (charro@ee.ualberta.ca)
+   * Wilson Cheung (wcheung@netcom.com)
+   * Maurizio Codogno (mau@beatles.cselt.stet.it)
+   * David DeSimone (fox@netcom.com)
+   * Ian Dickinson (vato@violet.csv.warwick.ac.uk)
+   * Andy Doherty (A.J.Doherty@reading.ac.uk)
+   * Ian Heath (ih@ecs.soton.ac.uk)
+   * Jan Nicolai Langfeldt (janl@ifi.uio.no)
+   * Larkin Lowrey (llowrey@ucsd.edu)
+   * Ove Ruben R Olsen (buboo@uib.no)
+   * Jerome Pier (jp@edu.unl.unlinfo)
+   * Lutz Prechelt (prechelt@ira.uka.de)
+   * Phil Richards (pgr@sst.icl.co.uk)
+   * Lindsey Smith (lsmith@symantec.com)
+   * Wen-King Su (wen-king@cs.caltech.edu)
+   * Joseph Traub (jtraub@cs.cmu.edu)
+
+-------------------------------------------------------------------------------
+
+Section 5: Site Information
+
+Q.5.1 What FSPable sites exist ?
+
+The following is a small list of the some sites sites which are available
+through the FSP protocol. This list should be reasonably up to date but comes
+with no warranty. It is in the unofficial "taxus" format. ftp.germany.eu.net is
+the official home for FSP software distributions, most packages can be found
+there.
+
+        genie.lut.ac.uk        21   genie    / # small UK site
+        ftp.germany.eu.net     2001 germany  / # big German archive (FSP)
+        fsp.luth.se            6969 luth     / # Top of Europe
+        src.doc.ic.ac.uk       21   src      / # SUNsite Northern Europe
+        terra.stack.urc.tue.nl 21   terra    / # big Netherlands site
+        ftp.wustl.edu          21   wu       / # lots of mirrors ...
+
+For more site information sources see Q.2.3
+
+-------------------------------------------------------------------------------
+Comments and suggestions should be sent to A.J.Doherty@reading.ac.uk. The
+information in this FAQ is in no way associated with the University of Reading
+or its Information Technology Unit. This FAQ represents the efforts of many
+people to help consolidate information about FSP. There is no guarantee that
+the information in this FAQ is correct, nor can anyone contributing to this FAQ
+be held responsible for the information they provide.
+
+Addresses in () after the answer are the email addresses of people who have
+contributed. Please let me know if you don't wish to be identified when you
+contribute.
+-------------------------------------------------------------------------------
+

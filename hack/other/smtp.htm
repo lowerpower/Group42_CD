@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>SMTP - How to Send Fake Mail Using SMTP Servers</title>
+</head>
+<body bgcolor="#f0ece0">
+
+<H1>How to Send Fake Mail Using SMTP Servers</H1>
+<font size=2>
+By Hunter <br>
+<em><a href="mailto:hunter@wicked.gt.ed.net">hunter@wicked.gt.ed.net</a></em>
+<font size=3>
+<hr>
+<em>Overview</em><br>
+SMTP (Simple Mail Transfer Protocol) is the protocol by which Internet
+mail is sent.  SMTP servers use this protocol to communicate with other
+servers or mail clients.  However, by telneting directly to a mail server
+and manually speaking SMTP, one can easily send mail from any address specified -
+meaning that mail can be sent from fake addresses while the sender's real address is untraceable.<p>
+
+<em>What is Needed?</em><br>
+All that you need is a generic telnet client.  Local echo should be turned on 
+so you can see what you type.  Also, it is important to note that SMTP
+servers do not handle backspaces, so you must type everything correctly.<p>
+
+<em>How do I Start?</em><br>
+Telnet to port 25 of your target SMTP server (more on SMTP servers selection below).
+The server should respond with a generic welcome message.  You will type <strong>HELO</strong> <em>domain.name</em>.
+Use any domain name you wish as most servers do not check the name against the IP you are telneting from.
+Type <STRONG>MAIL FROM:</STRONG> &lt<EM>from@wherever.com</em>&gt.  This is where the message will appear to be from.  Next, type 
+<strong>RCPT TO:</strong> &lt<em>to@wherever.com</em>&gt.  This specifies who will receive the message.  Type <STRONG>DATA</STRONG> 
+and type the body of your message.  To send the message, enter a line with only a period.  Type <strong>
+QUIT</strong> to disconnect.<p>
+
+<em>Sample Session - Bold text is user input</em><br>
+<pre>
+220 hq.af.mil Sendmail 4.1/Mork-1.0 ready at Thu, 14 Mar 96 00:26:46 EST
+<strong>HELO prometheus.com</strong>
+250 hq.af.mil Hello prometheus.com (prometheus.com), pleased to meet you
+<strong>MAIL FROM:&ltsatan@hell.net&gt</strong>
+250 &ltsatan@hell.net&gt... Sender ok
+<strong>RCPT TO:&ltOJ@simpson.com&gt</strong>
+250 &ltOJ@simpson.com&gt... Recipient ok
+<strong>DATA</strong>
+354 Enter mail, end with "." on a line by itself
+<strong>This is the body of my message.
+.</strong>
+250 Mail accepted
+<strong>QUIT</strong>
+221 hq.af.mil delivering mail
+</pre>
+
+<em>Can my mail be traced?</em><br>
+Yes, the IP address you mailed from can be traced if you are not careful.  All mail will show a line in the header listing the IP 
+address that you originally telneted from.  If the person you are sending mail to doesn't know much about IP's and the like, you shouldn't worry too much.  Furthermore, depending on your the nature of your connection, there are different implications. For instance, if you have a direct connection, you can be easily traced by your IP address.
+On the other hand, if you have a dial-in connection or service such as AOL, you will not have a defined IP address.  
+You will be assigned a temporary one.  The only way your mail can be traced with this type of connection is to check 
+against the dial in service's system logs.  The take-home message is that you are safe with this type of connection 
+unless you do something really stupid.  Finally, the best case scenario is a public access terminal with no logging.  This type
+connection is untraceable.<P>
+
+<EM>What SMTP servers can I use?</em><br>
+An easy (but hit-or-miss) way to find random SMTP servers is to look at web addresses on Yahoo! or another search
+engine. Universities and government agencies are always good choices.  Find a URL and telnet to port 25.
+If you get a response, you have located an available server.  95% of servers will accept your mail.  The others will
+not allow external mail forwarding for security reasons. Always test the server first.<P>
+<center>OR</CENTER><br>
+Check <a href="http://wicked.gt.ed.net/dork/text/hack/server.HTML">Hunter's List of Usable SMTP Servers</a>.  All servers on this
+list have been tested and will work.  A hyptertext interface makes it easy to use the servers.<hr>
+<font size=2> Last revision: 3.15.96 <br>
+Mail to: <A href="mailto:hunter@wicked.gt.ed.net">hunter@wicked.gt.ed.net</a>
+
+
+

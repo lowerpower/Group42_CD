@@ -1,0 +1,35 @@
+-------------------------------------------------------------------------------
+                              ALPINE 9500
+-------------------------------------------------------------------------------
+                  NAM Type:  Tri-State
+              Manufacturer:  Kokusai
+                Programmer:  Motorola 1801 -- Celnam, Curtis or Bytek
+            ESN Prefix DEC:  150
+                       HEX:  96
+   ESN, S/N Match Required:  Yes
+      Programmable Handset:  No
+        Available Channels:  666
+
+       Phone Number Format:  XXX-XXX-XXXX
+          Lock Code Format:  XXX
+
+                MIN Option:  Enabled
+          Repertory Option:  Enabled
+          Handsfree Option:  Enabled or Disabled
+          Local Use Option:  Enabled
+     End-to-End Signalling:  Enabled
+         Horn Alert Option:  Enabled
+
+          System ID Format:  XXXXX
+          Preferred System:  A or B
+     Access Overload Class:  XX
+           Group ID Format:  XX
+
+    Initial Paging Channel:  333 or 334
+             Station Class:  00
+
+                Horn Alert:  Aux
+           New Unlock Code:  NAM
+             System Select:  NAM (AB or BA)
+
+

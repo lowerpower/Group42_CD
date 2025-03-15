@@ -1,0 +1,93 @@
+<HEAD>
+<TITLE>
+[8lgm]-Advisory-24.UNIX.CERT.Advisory.CA-95:11.20-9-1995
+</TITLE>
+</HEAD>
+<BODY>
+<HR>
+<H1>
+          [8lgm]-Advisory-24.UNIX.CERT.Advisory.CA-95:11.20-9-1995
+</H1>
+<P>
+<H2>PROGRAM:</H2>
+<P>
+	sendmail_wrapper.c
+<P>
+<H2>VULNERABLE VERSIONS:</H2>
+<P>
+	SunOS 4.1.*
+<P>
+<H2>DESCRIPTION:</H2>
+<P>
+<UL>
+<LI>	As a Solution to advisory:
+<P>
+                <A HREF="8lgm21.htm">[[8lgm]-Advisory-21.UNIX.SunOS-sendmailV5.22-Aug-1995</A>
+<P>
+<LI>	CERT advises the following.
+<P>
+		B. Install the sendmail wrapper available from
+ 
+                ftp://ftp.cs.berkeley.edu/ucb/sendmail/sendmail_wrapper.c<BR>
+                ftp://ftp.auscert.org.au/pub/auscert/tools/sendmail_wrapper.c
+<P> 
+		Checksum:
+<P>
+		MD5 (sendmail_wrapper.c) = fb53f92b6fc539766cd69e8b08909ba1
+</UL>
+<P>
+	This wrapper uses <CODE>syslog(3)</CODE> to report potential attacks.  However
+	this is performed in an insecure manner, and can be exploited as
+	described in:
+<P>
+                <A HREF="8lgm22.htm">[8lgm]-Advisory-22.UNIX.syslog.2-Aug-1995</A>
+<P>
+<H2>IMPACT:</H2>
+<P>
+	Local users can therefore obtain superuser privileges.
+<P>
+<H2>FIX:</H2>
+<P>
+	In order to use syslog(3) in a secure manner, strings must be
+	limited in length.  Therefore to fix the call to syslog(3) we
+	can do:
+<P>
+	<CODE>syslog( LOG_MAIL | LOG_ERR, 
+	"Possible SunOS sendmail attack specifying '-%c %.500s' by uid %d\n",
+			argv[ i][ 1], cp, getuid());</CODE>
+<P>
+<P>
+<H2>STATUS UPDATE:</H2>
+<P>
+	The file:
+<P>
+        [8lgm]-Advisory-24.UNIX.CERT.Advisory.CA-95:11.20-9-1995.README
+<P>
+	will be created on www.8lgm.org.  This will contain updates on 
+	any further versions which are found to be vulnerable, and any
+	other information received pertaining to this advisory.
+<P>
+<HR>
+<P>
+<H2>FEEDBACK AND CONTACT INFORMATION:</H2>
+<P>
+<PRE>
+	majordomo@8lgm.org	(Mailing list requests - try 'help'
+				 for details)
+<P>
+	8lgm@8lgm.org		(Everything else)
+</PRE>
+<P>
+<H2>8LGM FILESERVER:</H2>
+<P>
+	All [8LGM] advisories may be obtained via the [8LGM] fileserver.
+	For details, '<CODE>echo help | mail 8lgm-fileserver@8lgm.org</CODE>'
+<P>
+<H2>8LGM WWW SERVER:</H2>
+<P>
+	[8LGM]'s web server can be reached at <A HREF="http://www.8lgm.org/">http://www.8lgm.org</A>.
+	This contains details of all 8LGM advisories and other useful
+	information.
+<HR>
+</BODY>
+

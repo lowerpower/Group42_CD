@@ -1,0 +1,18 @@
+Crack> Paladin by Omnitrends
+
+crack written by Jim Bello
+
+     This patch will remove the jump to the docu-
+mentation check in Paladin.
+
+     Use PCTools or Norton Utilities to search for 3B 46 FC
+75 0B and change the 75 0B to 90 90.
+
+     The Documentation check window will still
+appear, but just hit 'enter' and the program will
+run.
+
+>>>Note from Bob:  What *is* this game?
+
+
+

@@ -1,0 +1,43 @@
+a
+jmp 118
+db 37
+mov al,[102]
+out 70,al
+jmp 10a
+inc byte ptr [102]
+cmp byte ptr [102],3f
+je 13f
+in al,71
+ret
+call 103
+and al,f0
+mov ah,al
+call 103
+or al,al
+jz 13f
+push ax
+xor cl,cl
+cmp al,ah
+je 138
+test al,e1
+jpe 132
+stc
+rcl al,1
+inc cl
+jnz 129
+mov al,cl
+int 29
+pop ax
+jmp 11d
+xor al,al
+ret
+db '// Bugs (c). CrackAmiBios 1.1 //'
+
+rcx
+70
+n ami.com
+w
+q
+
+
+

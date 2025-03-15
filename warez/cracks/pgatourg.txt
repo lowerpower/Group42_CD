@@ -1,0 +1,9 @@
+Crack> PGA TOUR GOLF By Electronic Arts
+crack written by anonymous
+
+File         : golf.exe
+Search For   : E8AAA9900EE8C9C3C606FE0932B83874
+Replace With : E8AAA9900E909090C606FE0932B83874
+                         ------
+Notes : Disables the password protection.
+        You will no longer be prompted for a password.

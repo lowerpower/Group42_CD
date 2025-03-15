@@ -1,0 +1,70 @@
+TECHNOPHONE PC 115
+
+NOTES:  This unit has 8 NAMS
+        The ESN prefix is 162 decimal & A5 hex.
+        Technophone: 516-576-2000
+
+This unit requires a security code to access programing mode, this code is
+based on the unit's electronic serial number.  The hardware serial number
+on the phone is the ESN suffix, if not already known.
+
+Take the last six digits of the ESN, rearange and subtract from 999999 to
+get the security code:
+
+         Original sequence: 1 2 3 4 5 6
+
+         New sequence:      6 2 4 5 1 3
+
+For example if the ESN is 16200002164 take 002164 and rearange to get
+401602.  This number is then subtracted from 999999 to get a security code
+of 598397.
+
+Alternativly call 1-800-251-1414, ask for technical support and give them
+the ESN.  They will convert it for you!
+
+Having obtained the security code continue with the following steps:
+
+1.  Turn phone on by pressing the ON/C key.
+
+2.  Enter # S S S S S S # # 9 5 3 7 3 9 # MEM 9 9 MEM (where SSSSSS is the
+    security code).
+
+3.  Turn phone off by pressing the OFF key.
+
+4.  Turn phone on again and it should display "Which NAM?", if it does not
+    review the security code and try again.
+
+5.  Enter the NAM you want to program, NAMs are numbered 0 through 7,
+    followed by the * key.
+
+6.  The first data entry will appear.
+
+7.  Press the MEM key to store and increment the step number.
+
+8.  Press SEND after step 07 when display reads "Save NAM?" to store the
+    new data, phone will revert to "Which NAM?" at which point you can
+    press END to complete and exit, or select another NAM.
+
+
+PROGRAMING DATA:
+
+STEP#    #OF DIGITS/RANGE  DISPLAY          DESCRIPTION
+
+01       00000 - 32767     AreaID#?         SYSTEM ID
+02       10 DIGITS         Phone Number?    AREA CODE AND PHONE NUMBER
+03       2 DIGITS          Overload Class?  ACCESS OVERLOAD CLASS
+04       2 DIGITS          Group ID Mark?   GROUP ID (10 IN USA)
+05       1 ONLY            EXP?
+06       333 OR 334        IPCH?            INITIAL PAGING CHANNEL
+07       3 ALPHA NUMERIC   System Ident?    SEE BELOW
+
+Entry 07 is a convienience feature to distinguish between NAMs, you may
+enter a three letter abbreviation to identify each NAM.  For instance enter
+SFO for San Francisco.  Use the letters on the keypad, each time you press
+a key the display will alternate.  For example the "2" key will scroll "2",
+"A", "B", "C".  Press STO when the letter you want appears on the display.
+To store SFO enter 7777 STO, 3333 STO, 6666 STO.
+
+LOCK: NO LOCK
+
+SYSTEM SELECT: #111* TOGGLES BETWEEN PREFERRED AND NON PREFERRED SYSTEM

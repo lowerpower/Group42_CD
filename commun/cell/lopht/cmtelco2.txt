@@ -1,0 +1,62 @@
+-------------------------------------------------------------------------------
+                 CMTELECOM AR 3800 mobile/transportable
+-------------------------------------------------------------------------------
+                NAM Type:  EEPROM
+            Manufacturer:  CMTELECOM
+          ESN Prefix DEC:  153
+                     HEX:  99
+ESN, Serial Number Match:  yes
+
+    Programming Sequence:
+                           Power ON
+                           Lock Phone: FUNC + 1 + 1 (press 1 until "F-Lock"
+                            displays) + SND
+          Enter Password:  * + 5965 ("Conf 3800" will display, else enter
+                            Password * + 0188)
+                           Press VOL UP or DOWN keys to increment steps
+                           RCL + 2 digit step # to reach specific parameters
+                           SND must be pressed to save info after each step
+                           To store complete NAM info press END
+
+     Step            # of digits
+      1 Mobile Number 1:  10    XXX-XXX-XXXX + SND + VOL UP
+          2 System ID 1:  5     XXXXX + SND + VOL UP
+    3 Init. paging ch 1:  3     333 or 334 + SND + VOL UP
+    4 Access Overload 1:  2     XX + SND + VOL UP
+           5 Group ID 1:  2     XX + SND + VOL UP
+          6 Local Use 1:  1    1(SND to toggle) + VOL UP
+      7 System Select 1:  1     0 = 0 + SND + VOL UP
+                                1 = BA + SND + VOL UP
+                                2 = A only + SND + VOL UP
+                                3 = B only + SND + VOL UP
+                                4 = Home + SND + VOL UP
+         8,9 Not Used  (VOL UP)
+     10 Mobile Number 2:  10    XXX-XXX-XXXX + SND + VOL UP
+         11 System ID 2:  5     XXXXX + SND + VOL UP
+  12 Init pagin Channel:  3     333 or 334 + SND + VOL UP
+   13 Access Overload 2:  2     XX + SND + VOL UP
+          14 Group ID 2:  2     XX + SND + VOL UP
+         15 Local use 2:  1     1 (SND to toggle) + VOL UP
+     16 System Select 2:  1     0 = AB + SND + VOL UP
+                                1 = BA + SND + VOL UP
+                                2 = A Only + SND + VOL UP
+                                3 = B Only + SND + VOL UP
+                                4 = Home + SND + VOL UP
+          17 Future Use:  1     0 + SND + VOL UP
+          18 Power Save:  1     0(Dis) or 1(Enable) + SND + VOL UP
+           19 System ID:  5     XXXXX + SND + VOL UP
+       20 Prog Password:  5     Leave at Factory Set Number + VOL UP
+
+             Horn Alert:  FUNC + 4 + SND
+        New Unlock Code:  NAM
+         System Seltect:  FUNC + (ALPHA to scroll)
+                          PrefA AB
+                          PrefB BA
+                          Only A
+                          Only B
+                          Only H Home
+
+SND to enter selection
+CLR to exit
+
+

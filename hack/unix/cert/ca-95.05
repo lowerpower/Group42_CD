@@ -1,0 +1,783 @@
+=============================================================================
+CA-95:05                        CERT Advisory
+                              February 22, 1995
+                            Sendmail Vulnerabilities
+-----------------------------------------------------------------------------
+
+This advisory supersedes all previous CERT advisories on sendmail.
+
+The CERT Coordination Center has received reports of several problems with
+sendmail, one of which is widely known. The problems occur in many versions of
+sendmail (see below for details).
+
+The CERT staff recommends installing the appropriate patches immediately.  If
+you cannot do so, consider using one of the alternatives described in Section
+III.
+
+As we receive additional information relating to this advisory, we
+will place it, along with any clarifications, in a CA-95:05.README
+file. CERT advisories and their associated README files are available
+by anonymous FTP from info.cert.org. We encourage you to check the
+README files regularly for updates on advisories that relate to your
+site.
+
+-----------------------------------------------------------------------------
+
+I.   Description
+
+     There is a problem in versions of sendmail that support IDENT (RFC 1413)
+     functionality. This problem could allow an intruder to gain unauthorized
+     access to your system remotely (that is, without having access to an
+     account on the system). Systems known at this time to be affected are
+     named in the Solutions section below; see the column labeled "Remote
+     vul?/patch status." 
+
+     In addition, other problems have been identified in sendmail that allow
+     intruders to gain unauthorized privileges. Intruders need to have access
+     to an account on your system to exploit these problems. The problems
+     occur in many versions of sendmail. The final column of the table in the
+     Solutions section indicates systems known at this time to be affected. 
+
+II.  Impact
+
+     By exploiting the vulnerabilities, intruders may be able to read any file
+     on the system, overwrite or destroy files, or run programs on the system.
+
+     The problem in IDENT's subroutines enables intruders to exploit the
+     vulnerability remotely. To exploit the other vulnerabilities, intruders
+     need to have access to an account on the system. 
+
+III. Solution
+     
+     A. Obtain the appropriate patch from your vendor and install it according
+        to the instructions included with the patch.
+
+        Below is a summary of information we have received from vendors. More 
+        details, including how to obtain patches, are in the Appendix A of this
+        advisory. This information is reproduced in the CA-95:05.README file,
+        which we will update periodically.
+
+        If your vendor's name is not on this list, please contact your vendor
+        directly.
+                  
+
+Vendor or Source             Remote vul?/patch status Local vul?/patch status
+                             (IDENT)
+---------------             ------------------------  ------------------------
+Eric Allman                 
+  version 8.6.10             no/ --                  no/ --
+  all other versions         yes/upgrade avail.      yes/upgrade avail.
+                          
+Apple Computer, Inc.       
+  v.3.1.1, 3.1               no/ --                  yes/patch avail.
+  earlier versions           yes/see appendix        yes/see appendix
+
+Berkeley Software Design,
+Inc. (BSDI)
+  version 2.0                no/ --                  yes/patch avail. soon
+  other versions             yes/patch avail. soon   yes/patch avail. soon
+
+Cray Computer Corporation
+(Craycos)                    no/ --                  yes/patch avail.        
+
+
+Data General Corporation     no/ --                  no/ --
+
+Digital Equipment Corp.      no/ --                  yes/patch avail. soon
+              
+Harris Comp.Systems Corp.    yes/patch avail.        yes/patch avail.
+
+Hewlett-Packard Company      no/ --                  yes/patch avail.by Feb 23
+
+IBM Corporation              no/ --                  yes/patch avail. 
+
+Motorola                     yes/patch avail.        yes/patch avail.
+
+Open Software Foundation     no/ --                  yes/see appendix
+
+The Santa Cruz Operation     no/ --                  yes/patch avail. soon 
+
+Sequent Computer Systems     no/ --                  yes/patch avail.
+
+Silicon Graphics (SGI)       no/ --                  yes/patch avail.
+
+Solbourne (Grumman)          no/ --                  yes/patch avail. soon
+
+Sony Corporation             yes/patch avail.        yes/patch avail.
+
+Sun Microsystems, Inc.       no/ --                  yes/patch avail.
+
+
+
+     B. Install sendmail 8.6.10, which is freely available (see Appendix A
+        for locations). This version fixes all the problems described in this
+        advisory. Be aware that, depending upon the currently installed
+        sendmail program, switching to a different sendmail may require
+        significant effort (such as rewriting the sendmail.cf file.)
+
+     C. Until you are able to install the appropriate patch or sendmail
+        8.6.10, we recommend the following workarounds.
+           
+        1. To protect against remote attacks only:
+   
+           If you are running sendmail versions 8.6.6 through 8.6.9, you can
+           turn off the IDENT protocol by adding the following line to the
+           configuration file and then restarting sendmail:
+                    
+                    Orident=0
+
+            If you have difficulty doing so, consult your documentation or
+            vendor for guidance.  
+            
+            If you are running 8.6.5 or earlier you cannot disable IDENT in
+            this way. Instead, you should upgrade to version 8.6.10.
+
+         2. To provide limited protection against local attacks:
+
+            Install the "sendmail wrapper" that is provided in
+            Appendix B of this advisory. The wrapper is also available by
+            anonymous FTP from 
+            
+        info.cert.org:/pub/tools/sendmail/sendmail_wrapper/sendmail_wrapper.c  
+                 MD5 = 5c930d9d139dfaa1dfc9de6c40ddf8c6
+       
+        ftp.auscert.org.au:/pub/auscert/tools/sendmail_wrapper.c
+                 MD5 = 5c930d9d139dfaa1dfc9de6c40ddf8c6
+
+        ftp.cert.dfn.de:/pub/tools/net/sendmail-wrapper/sendmail-wrapper.c
+                 MD5 = 5c930d9d139dfaa1dfc9de6c40ddf8c6 
+                         
+            
+---------------------------------------------------------------------------
+The CERT Coordination Center thanks Eric Allman, Wolfgang Ley, Danny Smith,
+and Eric Halil for their support in responding to this problem.
+---------------------------------------------------------------------------
+
+If you believe that your system has been compromised, contact the CERT
+Coordination Center or your representative in the Forum of Incident
+Response and Security Teams (FIRST).
+
+If you wish to send sensitive incident or vulnerability information to
+CERT staff by electronic mail, we strongly advise that the e-mail be
+encrypted.  The CERT Coordination Center can support a shared DES key, PGP
+(public key available via anonymous FTP on info.cert.org), or PEM (contact
+CERT staff for details).
+
+Internet E-mail: cert@cert.org
+Telephone: +1 412-268-7090 (24-hour hotline)
+           CERT personnel answer 8:30 a.m.-5:00 p.m. EST(GMT-5)/EDT(GMT-4),
+           and are on call for emergencies during other hours.
+Fax: +1 412-268-6989
+
+Postal address:  CERT Coordination Center
+                 Software Engineering Institute
+                 Carnegie Mellon University
+                 Pittsburgh, PA 15213-3890
+                 USA
+
+CERT advisories and bulletins are posted on the USENET newsgroup
+comp.security.announce. If you would like to have future advisories and
+bulletins mailed to you or to a mail exploder at your site, please send mail
+to cert-advisory-request@cert.org.
+
+Past advisories, CERT bulletins, information about FIRST representatives, and
+other information related to computer security are available for anonymous FTP
+from info.cert.org. 
+
+
+CERT is a service mark of Carnegie Mellon University.
+
+
+.............................................................................
+Appendix A: Vendor Information
+
+Current as of February 22, 1995
+See CA-95.05.README for updated information; this file supersedes
+all other sendmail README files.
+
+Below is information we have received from vendors who have patches available
+or upcoming for the vulnerabilities described in this advisory.
+
+
+--------------------
+Eric Allman
+
+Sendmail version 8.6.10 is not vulnerable.  
+
+This version is available by anonymous FTP from
+
+ ftp.cs.berkeley.edu:/ucb/sendmail
+ ftp.uu.net:/networking/mail/sendmail/UCB
+ info.cert.org:/pub/tools/sendmail/sendmail.8.6.10
+ ftp.cert.dfn.de:/pub/tools/net/sendmail
+ ftp.auscert.org.au:/pub/coast/mirrors/ftp.cs.berkeley.edu/ucb/sendmail
+
+In all of the above locations, the MD5 checksums are the same,
+
+MD5 (sendmail.8.6.10.base.tar.Z) = 4ab8ac267b1eaf8d1725c14cf4b2e885
+MD5 (sendmail.8.6.10.cf.tar.Z) = c70c576697bbbf047ed379a7b98633f6
+MD5 (sendmail.8.6.10.misc.tar.Z) = 6212390ca0bb4b353e29521f1aab492f
+MD5 (sendmail.8.6.10.patch) = 08d6f977c171ea858f1e940163212c3a
+MD5 (sendmail.8.6.10.xdoc.tar.Z) = 8b2252943f365f303b6302b71ef9a841
+
+
+--------------------
+Apple Computer, Inc.
+
+An upgrade to A/UX version 3.1 (and 3.1.1) for these vulnerabilities is
+available. The upgrade is a replacement of the sendmail binary. It is
+available via anonymous FTP from ftp.support.apple.com:
+
+        pub/apple_sw_updates/US/Unix/A_UX/supported/3.x/sendmail/
+
+It is also available via anonymous FTP from abs.apple.com:
+
+        pub/abs/aws95/patches/sendmail/
+
+In both cases the compressed binary has the following signature:
+
+        MD5 (sendmail.Z) = 31bb15604517630f46d7444a6cfab3f1
+
+Uncompress(1) this file and replace the existing version in /usr/lib;
+be sure to preserve the hard links to /usr/ucb/newaliases and
+/usr/ucb/mailq, kill the running sendmail and restart.
+
+Earlier versions of A/UX are not supported by this patch.  Users of
+previous versions are encouraged to update their system or compile 
+the latest version of sendmail available from ftp.cs.berkeley.edu.
+
+Customers should contact their reseller for any additional information.
+
+--------------------
+Berkeley Software Design. Inc. (BSDI)
+
+BSD/OS V2.0 is vulnerable to the local user problems,
+but not the remote user (IDENT) problem.
+
+All earlier releases of BSD/OS are vulnerable to both
+problems.  Patches are being developed and will be
+made available via anonymous FTP on ftp.bsdi.com
+in the directory "bsdi/support".
+
+BSDI Contact Information:
+        BSDI Customer Support
+        Berkeley Software Design, Inc.
+        7759 Delmonico Drive
+        Colorado Springs, CO 80919
+        Toll Free: +1 800 ITS BSD8 (+1 800 486 2738)
+        Phone: +1 719 260 8114
+        Fax: +1 719 598 4238
+        Email: support@bsdi.com
+
+--------------------
+Cray Computer Corporation (Craycos)
+
+        A new version of sendmail, one that does not have the
+        problem, is available from CCC.  Please contact your site
+        analyst for more information. You may also contact CCC Field
+        Support using the address below.
+
+                e-mail: support@craycos.com
+
+--------------------
+Digital Equipment Corporation
+
+Digital will announce the availability of a kit as soon as it becomes
+available.
+
+--------------------
+Harris Computer Systems Corporation
+
+Request the appropriate patch for Harris NightHawk Systems, as follows:
+
+                System                          Patch
+
+                cx/ux 7.1                       cx7.1-030
+                cx/ux 6.2                       cx6.2-114
+                cx/sx 6.2                       cx6.2-114
+
+
+If you need further information, contact
+the Harris Support Hotline 1-800-245-6453.
+
+--------------------
+Hewlett-Packard Company
+
+Hewlett-Packard HP-UX           Patches available by 2/23/95 
+                                Vulnerable to:   -d DEBUG option
+                                                 Latest queue problem
+                                Not Vulnerable to: IDENT problem
+
+Apply patch PHNE_5264 (series 700/800, HP-UX 9.x), or
+            PHNE_5263 (series 700/800, HP-UX 8.x), or
+            PHNE_5260 (series 300/400, HP-UX 9.0), or
+            PHNE_5259 (series 300/400, HP-UX 8.x)
+
+You can get patches via:
+1. Ftp / email / kermit to HP SupportLine
+   To obtain a copy of the HP SupportLine email service user's guide,
+   send the following in the TEXT PORTION OF THE MESSAGE to
+   support@support.mayfield.hp.com (no Subject is required):
+                      send guide
+2. World Wide Web: http://support.mayfield.hp.com
+
+If you need further information, contact
+
+HP SupportLine: 1-415-691-3888
+phone: 1-415-691-3680
+telnet/ftp: support.mayfield.hp.com (192.6.148.19)
+
+--------------------
+IBM Corporation
+
+        A possible security exposure exists in the bos.obj 
+        sendmail subsystem in all AIX releases.
+ 
+        The user can cause arbitrary data to
+        be written into the sendmail queue file.
+        Non-privileged users can affect the delivery of mail, as well as
+        run programs as other users.
+        
+        Workaround
+ 
+        A. Apply the patch for this problem. The patch is available
+           from software.watson.ibm.com. The files will be located in
+           the /pub/aix/sendmail in compressed tar format.
+
+           The MD5 checksum for the binary file is listed
+           below, ordinary "sum" checksums follow as well.
+
+           File            sum             MD5 Checksum
+           ----            ---             ------------
+           sendmail.tar.Z 35990           e172fac410a1b31f3a8c0188f5fd3edb
+
+ 
+         B. The official fix for this problem can be ordered as
+            Authorized Program Analysis Report (APAR) IX49257
+ 
+            To order an APAR from IBM in the U.S. call 1-800-237-5511
+            and ask for shipment as soon as it is available (in
+            approximately two weeks).  APARs may be obtained outside the
+            U.S. by contacting a local IBM representative.
+ 
+--------------------
+Motorola Computer Group (MCG)
+
+The following MCG platforms are vulnerable:
+        R40
+        R32 running CNEP add-on product
+        R3 running CNEP add-on product
+
+The following MCG platforms are not vulnerable:
+        R32     not including CNEP add-on product
+        R3      not including CNEP add-on product
+        R2
+        VMEEXEC
+        VERSADOS
+
+The patch is available and is identified as "patch_43004 p001" or
+"SCML#5552".  It is applicable to OS revisions from R40V3 to R40V4.3.
+For availability of patches for other versions of the product contact
+your regional MCG office at the numbers listed below.
+
+Obtain and install the appropriate patch according to the instructions
+included with the patch.
+
+The patch can be obtained through anonymous ftp from ftp.mcd.mot.com
+[144.191.210.3] in the pub/patches/r4 directory.  The patch can also
+be obtained via sales and support channels.  Questions regarding the
+patch should be forwarded to sales or support channels.
+
+For verification of the patch file:
+        Results of      sum -r  == 27479 661
+                        sum     == 32917 661
+                        md5     == 8210c9ef9441da4c9a81c527b44defa6
+
+Contact numbers for Sales and Support for MCG:
+
+                United States (Tempe, Arizona)
+                Tel:    +1-800-624-0077
+                Fax:    +1-602-438-3865
+
+        Europe (Brussels, Belgium)
+                Tel:    +32-2-718-5411
+                Fax:    +32-2-718-5566
+
+        Asia Pacific / Japan (Hong Kong)
+                Tel:    +852-966-3210
+                Fax:    +852-966-3202
+
+        Latin America / Australia / New Zealand (U.S.)
+                Tel:   +1 602-438-5633
+                Fax:   +1 602-438-3592
+
+--------------------
+Open Software Foundation
+
+The local vulnerability described in the advisory can be exploited
+in OSF's OSF/1 R1.3 (this is different from DEC's OSF/1).
+Customers should apply the relevant portions of cert's fix to 
+their source base.  For more information please contact OSF's
+support organization at osf1-defect@osf.org.
+
+--------------------
+The Santa Cruz Operation
+
+SCO systems are not vulnerable to the IDENT problem.
+Systems running the MMDF mail system are not vulnerable to the remote or
+local problems.
+
+The following releases of SCO products are vulnerable to the local problems.
+============================================================================
+SCO TCP/IP 1.1.x for SCO Unix System V/386 Operating System Release 3.2 
+Versions 1.0 and 2.0
+SCO TCP/IP 1.2.x for SCO Unix System V/386 Operating System Release 3.2
+Versions 4.x
+SCO TCP/IP 1.2.0 for SCO Xenix System V/386 Operating System Release 2.3.4
+
+SCO Open Desktop Lite Release 3.0
+SCO Open Desktop Release 1.x, 2.0, and 3.0
+SCO Open Server Network System, Release 3.0
+SCO Open Server Enterprise System, Release 3.0
+
+Patches are currently being developed for the release 3.0 and 1.2.1
+based products. The latest sendmail available from SCO, on Support Level
+Supplement (SLS) net382d, is also vulnerable. 
+
+Contacts for further information:
+
+e-mail: support@sco.COM
+
+USA, Canada, Pacific Rim, Asia, Latin America 
+6am-5pm Pacific Daylight Time (PDT)
+----------------------------------------------
+1-408-425-4726  (voice)
+1-408-427-5443  (fax)
+
+Europe, Middle East, Africa: 9am-5:30pm British Standard Time (BST)
+-------------------------------------------------------------------
++44 (0)923 816344 (voice)
++44 (0)923 817781 (fax)
+
+
+--------------------
+Sequent Computer Systems
+
+Sequent customers should contact Sequent Customer Service and request the
+Fastpatch for sendmail.
+
+phone: 1-800-854-9969.
+e-mail: service-question@sequent.com
+
+
+--------------------
+Silicon Graphics, Inc.
+
+At the time of writing of this document, patches/binaries are planned for 
+IRIX versions 4.x, 5.2, 5.3, 6.0, and 6.0.1 and will be available to all 
+SGI customers.
+
+The patches/binaries may be obtained via anonymous ftp (ftp.sgi.com) or
+from your support/service provider.
+
+On the anonymous ftp server, the binaries/patches can be found in 
+either ~ftp/patches or ~ftp/security directories along with more 
+current pertinent information.
+
+For any issues regarding this patch, please, contact your support/service
+provider or send email to cse-security-alert@csd.sgi.com .
+
+
+--------------------
+Sony Corporation
+
+        NEWS-OS 6.0.3   vulnerable; Patch SONYP6022 [sendmail] is available.
+        NEWS-OS 6.1     vulnerable; Patch SONYP6101 [sendmail] is available.
+        NEWS-OS 4.2.1   vulnerable; Patch 0101 [sendmail-3] is available.
+                        Note that this patch is not included in 4.2.1a+.
+
+        Patches are available via anonymous FTP in the
+        /pub/patch/news-os/un-official directory on
+        ftp1.sony.co.jp [202.24.32.18]:
+
+        4.2.1a+/0101.doc        describes about patch 0101 [sendmail-3]
+        4.2.1a+/0101_C.pch      patch for NEWS-OS 4.2.1C/a+C
+        4.2.1a+/0101_R.pch      patch for NEWS-OS 4.2.1R/RN/RD/aRD/aRS/a+R
+
+        6.0.3/SONYP6022.doc     describes about patch SONYP6022 [sendmail]
+        6.0.3/SONYP6022.pch     patch for NEWS-OS 6.0.3
+
+        6.1/SONYP6101.doc       describes about patch SONYP6101 [sendmail]
+        6.1/SONYP6101.pch       patch for NEWS-OS 6.1
+
+        Filename                BSD             SVR4
+                                Checksum        Checksum
+        --------------          ---------       ---------
+        4.2.1a+/0101.doc        55361 2         19699 4
+        4.2.1a+/0101_C.pch      60185 307       25993 614
+        4.2.1a+/0101_R.pch      35612 502       31139 1004
+        6.0.3/SONYP6022.doc     03698 2         36652 4
+        6.0.3/SONYP6022.pch     41319 436       20298 871
+        6.1/SONYP6101.doc       40725 2         3257 3
+        6.1/SONYP6101.pch       37762 434       4624 868
+
+        MD5 checksums are:
+        MD5 (4.2.1a+/0101.doc) = c696c28abb65fffa5f2cb447d4253902
+        MD5 (4.2.1a+/0101_C.pch) = 20c2d4939cd6ad6db0901d6e6d5ee832
+        MD5 (4.2.1a+/0101_R.pch) = 840c20f909cf7a9ac188b9696d690b92
+        MD5 (6.0.3/SONYP6022.doc) = b5b61aa85684c19e3104dd3c4f88c5c5
+        MD5 (6.0.3/SONYP6022.pch) = 1e4d577f380ef509fd5241d97a6bcbea
+        MD5 (6.1/SONYP6101.doc) = 62601c61aef99535acb325cf443b1b25
+        MD5 (6.1/SONYP6101.pch) = 87c0d58f82b6c6f7811750251bace98c
+
+If you need further information, contact your vendor.
+
+--------------------
+Solbourne
+
+Grumman System Support Corporation now performs all Solbourne
+software and hardware support. Please contact them for further
+information.
+
+        e-mail: support@nts.gssc.com       
+        phone: 1-800-447-2861
+
+--------------------
+Sun Microsystems, Inc.
+
+Sun has developed patches for all supported platforms and architectures,
+including Trusted Solaris, Solaris x86, and Interactive Unix. Note that Sun no
+longer supports the sun3 architecture and versions of the operating system
+that precede 4.1.3.
+
+Current patches are listed below.
+
+         OS version      Patch ID    Patch File Name
+         ----------      ---------   --------------- 
+         4.1.3           100377-19   100377-19.tar.Z
+         4.1.3_U1        101665-04   101665-04.tar.Z
+         5.3             101739-07   101739-07.tar.Z
+         5.4             102066-04   102066-04.tar.Z
+         5.4_x86         102064-04   102064-04.tar.Z
+
+
+The patches can be obtained from local Sun Answer Centers and through
+anonymous FTP from ftp.uu.net in the /systems/sun/sun-dist directory. In
+Europe, the patches are available from mcsun.eu.net in the /sun/fixes
+directory.
+
+The patches are also available through the usual URL on World Wide Web.
+
+Sun is issuing Security Bulletin #129 with details on February 22;
+the patches will become available worldwide during the 24 hours to
+follow.
+
+
+
+..............................................................................
+Apppendix B: Sendmail Wrapper
+
+This wrapper can be used to improve security until you can install a vendor
+patch or sendmail version 8.6.10. Note that it does not address all known
+sendmail vulnerabilities.
+
+/*
+**  sendmail_wrapper.c - wrap sendmail to prevent newlines in command line
+**                       and clean up the environment.
+**
+**  Authors:    Eric Halil, Danny Smith
+**              AUSCERT
+**              c/o Prentice Centre
+**              The University of Queensland
+**              Qld.  4072.
+**              Australia
+**              22-Feb-1995
+**
+**  Disclaimer:  The use of this program is at your own risk.  It is 
+**               designed to combat a particular vulnerability, and may
+**               not combat other vulnerabilities, either past or future.
+**               The decision to use this program is yours, as are the
+**               consequences of its use.
+**
+**               This program is designed to be an interim relief measure
+**               until appropriate patches can be obtained from your vendor.
+**
+**  Installation instructions
+**  =========================
+**
+**  1.  su to root.
+**
+**  2.  Determine the location of sendmail.  On SunOS and Ultrix
+**      systems, it is located in the /usr/lib directory.  On BSDI
+**      systems, it is located in the /usr/sbin directory.  For example
+**      purposes only, /usr/lib will be used in the following instructions
+**      steps.
+**
+**  3.  Copy the sendmail program to sendmail.real.  Change the permissions
+**      on the copy of sendmail.
+**
+**              # cd /usr/lib
+**              # cp sendmail sendmail.real
+**              # chmod 0700 sendmail.real
+**
+**  4.  Determine the permissions, owner, and group of sendmail.  This
+**      information will be used later.
+**
+**      For BSD users:
+**              # ls -lg sendmail
+**      For System V users:
+**              # ls -l sendmail
+**
+**  5.  Edit this wrapper program and define REAL_SENDMAIL.  By default,
+**      REAL_SENDMAIL is defined as "/usr/lib/sendmail.real".
+**
+**  6.  Compile this program in a directory other than /usr/lib.  For
+**      example to use /tmp, first copy this file into /tmp.
+**
+**              # cd /tmp
+**              # cc -O -o sendmail sendmail_wrapper.c
+**
+**  7.  Copy this new wrapper program into the directory containing sendmail.
+**      Make sure this directory and its parent directories are protected so
+**      only root is able to make changes to files in the directory.  This
+**      will replace the existing sendmail.  The following steps should be
+**      executed quickly.
+**
+**      Users will not be able to send e-mail during the time when the
+**      wrapper is copied into place until the chmod command has been
+**      executed.  Use the information from step #4 and set the permissions
+**      owner, and group of the new sendmail.
+**
+**              # cp sendmail /usr/lib/sendmail
+**              # cd /usr/lib
+**              # chown root sendmail
+**              # chmod 4511 sendmail
+**
+**  8.  Kill the running sendmail process and start the new sendmail.
+**
+**      For SunOS and Ultrix:
+**              # kill -9 `head -1 /etc/sendmail.pid`
+**              # /usr/lib/sendmail -bd -q1h
+**
+**      For BSDI:
+**              # kill -9 `head -1 /var/run/sendmail.pid`
+**              # /usr/sbin/sendmail -bd -q1h
+**
+**      For other systems, follow your vendors guidelines or use the
+**      following command.  Kill the processes and start the new sendmail.
+**              # ps -auxw | grep sendmail | grep -v grep
+**              # kill -9 (process id numbers)
+**              # ./sendmail -bd -q1h
+**
+**  9.  Test that mail still works.
+
+** Version 1.1  22-Feb-1995.
+*/
+
+#include <stdio.h>
+
+/*
+**      REAL_SENDMAIL needs to be defined using the full pathname
+**      of the real sendmail.  A few known locations have been defined.
+*/
+
+#ifdef sun
+#define REAL_SENDMAIL   "/usr/lib/sendmail.real"
+#endif
+
+#ifdef ultrix
+#define REAL_SENDMAIL   "/usr/lib/sendmail.real"
+#endif
+
+#if defined (__bsdi__) || defined(__386BSD__) || defined(__FreeBSD__) || defined(__NetBSD__)
+
+#define REAL_SENDMAIL   "/usr/sbin/sendmail.real"
+#endif
+
+int main( argc, argv, envp)
+int     argc;
+char    *argv[];
+char    *envp[];
+{
+    char        *cp;
+    int         i;
+    int         j;
+    int         status;
+
+/*
+**  Ensure that there are no newlines in the arguments
+*/
+    for ( i = 1; i < argc; i++)
+    {
+        for ( cp = argv[ i]; *cp != '\0'; cp++)
+        {
+            if ( ( *cp == '\r') || ( *cp == '\n'))
+            {
+                *cp = ' ';
+            }
+        }
+    }
+
+/*
+**  While we are at it, let's clean up the environment
+**  Remove LD_*, IFS, and PATH enviroment variables before execing
+*/
+    i = 0;
+    while( envp[ i] != NULL)
+    {
+        if ( strncmp( envp[ i], "LD_", 3) == 0)
+        {
+            j = i;
+            while ( envp[ j] != NULL)
+            {
+                envp[ j] = envp[ j + 1];
+                j++;
+            }
+            continue;
+        }
+        if ( strncmp( envp[ i], "IFS=", 4) == 0)
+        {
+            j = i;
+            while ( envp[ j] != NULL)
+            {
+                envp[ j] = envp[ j + 1];
+                j++;
+            }
+            continue;
+        }
+        if ( strncmp( envp[ i], "PATH=", 5) == 0)
+        {
+            j = i;
+            while ( envp[ j] != NULL)
+            {
+                envp[ j] = envp[ j + 1];
+                j++;
+            }
+            continue;
+        }
+/*
+**  Now check for newlines in environment variables
+*/
+        for ( cp = envp[ i]; *cp != '\0'; cp++)
+        {
+            if ( ( *cp == '\r') || ( *cp == '\n'))
+            {
+                *cp = ' ';
+            }
+        }
+/*
+**  next environment variable
+*/
+        i++;
+    }
+
+/*
+** exec the real sendmail now
+*/
+    status = execve( REAL_SENDMAIL, argv, envp);
+    perror( "execve sendmail");
+    return( status);
+}
+
+
+

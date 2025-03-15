@@ -1,0 +1,288 @@
+=============================================================================
+CERT(sm) Advisory CA-96.04                       
+February 22, 1996
+
+Topic: Corrupt Information from Network Servers
+-----------------------------------------------------------------------------
+
+The CERT Coordination Center has received reports of intruders exploiting
+systems by corrupting data provided by a Domain Name Service (DNS) server.
+Although these reports have focused only on DNS, this vulnerability could
+apply to any network service from which data is received and subsequently
+used.
+
+Section III.A contains a pointer to two subroutines that address the DNS
+problem. These subroutines, written in the C programming language, can be used
+to validate host names and IP addresses according to RFCs 952 and 1123, as
+well as names containing characters drawn from common practice, namely "_" and
+"/".
+
+In the specific case of sendmail, the problem has already been addressed by
+patches (see Section III.B).
+
+As we receive additional information relating to this advisory, we will place
+it in
+        ftp://info.cert.org/pub/cert_advisories/CA-96.04.README
+
+We encourage you to check our README files regularly for updates on
+advisories that relate to your site.
+
+-----------------------------------------------------------------------------
+
+I.   Description
+
+     Information provided by an information server may be of a form that
+     could cause programs to operate in unexpected ways. The subroutines and
+     programs transferring data from that information server could check the
+     data for correctness of form; however, programs that *use* that data are
+     ultimately responsible for ensuring adherence to the documents that
+     define the correct form.
+
+     For example, consider a program that uses the host name returned by
+     gethostbyname() as part of the string given to the popen() or system()
+     subroutines. Because gethostbyname() may use an information server
+     beyond your control, the data returned could be of a form that causes
+     the popen() or system() subroutines to execute other commands besides
+     the command specified by that program.
+
+     This advisory speaks to a specific instance of a problem caused by the
+     information returned by DNS, but information from any server should be
+     checked for validity. Examples of other information servers are YP, NIS,
+     NIS+, and netinfo.
+
+II.  Impact
+
+     Programs that do not check data provided by information servers may 
+     operate in unpredictable ways and give unexpected results. In
+     particular, exploitation of this vulnerability may allow remote access
+     by unauthorized users. Exploitation can also lead to root access by both
+     local and remote users. 
+
+
+III. Solution
+
+     For programs that you write or have written, consider integrating the
+     general solution in Section A below.
+
+     In the specific case of the sendmail mail delivery program, Eric Allman,
+     the original author of sendmail, has produced patches that address the
+     problem. Section B provides details about these, along with vendor
+     information and additional steps you should take to protect sendmail. 
+     
+
+     A. General solution for Internet host names
+
+        Use the host name and IP address validation subroutines available
+        at the locations listed below. Include them in all programs that
+        use the result of the host name lookups in any way.
+
+            ftp://info.cert.org/pub/tools/ValidateHostname/IsValid.c
+            ftp://ftp.cert.dfn.de/pub/tools/net/ValidateHostname/IsValid.c
+
+            Checksum: 
+            MD5 (IsValid.c) = 9456f2f5dcb226eaa19a72256c8d1922
+                             
+        The IsValid.c file contains code for the IsValidHostname and
+        IsValidIPAddress subroutines. This code can be used to check host
+        names and IP addresses for validity according to RFCs 952 and 1123,
+        well as names containing characters drawn from common practice,
+        namely "_" and "/". 
+
+
+     B. Specific solutions in the case of sendmail
+
+        Install a patch from your vendor when it becomes available (see B.1)
+        or install Eric Allman's patch (B.2). In both cases, install the
+        sendmail restricted shell program (B.3).
+
+     1. Install a patch from your vendor.
+
+        Below is a summary of the vendors who have reported status to us as
+        of the date of this advisory. More complete information is provided in
+        the appendix of this advisory and reproduced in the CA-96.04.README
+        file. We will update the README file as we receive more information.
+
+        If your vendor's name is not on this list, please contact the vendor
+        directly.
+
+        Vendor or Source          Status
+        ----------------          ------------
+        Eric Allman               Patches available.
+        Hewlett-Packard Co.       Vulnerable, watch readme file for updates.
+        IBM Corporation           Working on fixes for sendmail.
+        Silicon Graphics Inc.     Patch planned. 
+
+
+     2. Install a patch to sendmail.
+
+        If you are presently running sendmail 8.6.12, there is a patch that
+        makes version 8.6.13. 
+
+        Similarly, if you are presently running sendmail 8.7.3, there is a
+        patch that makes version 8.7.4. 
+
+        The patches are available for anonymous FTP from
+
+        ftp://info.cert.org/pub/tools/sendmail/
+        ftp://ftp.cs.berkeley.edu/ucb/src/sendmail/
+        ftp://ftp.auscert.org.au/pub/mirrors/ftp.cs.berkeley.edu/ucb/sendmail/
+        ftp://ftp.cert.dfn.de/pub/tools/net/sendmail/
+
+        
+        Checksums for the 8.6.13 release:
+          MD5 (sendmail.8.6.13.base.tar.Z) = e8cf3ea19876d9b9def5c0bcb793d241
+          MD5 (sendmail.8.6.13.cf.tar.Z) = 4492026fa9e750cd33974322cb5a6fb9
+          MD5 (sendmail.8.6.13.misc.tar.Z) = 7ec5d31656e93e08a3892f0ae542b674
+          MD5 (sendmail.8.6.13.xdoc.tar.Z) = e4d3caebcdc4912ed2ecce1a77e45712
+
+        Checksum for the 8.6.13 patch:
+           MD5 (sendmail.8.6.13.patch) = 6390b792cb5513ff622da8791d6d2073
+
+        Checksum for the 8.7.4 release:
+           MD5 (sendmail.8.7.4.tar.Z) = 4bf774a12752497527aae11e2bdbab36
+
+        Checksum for the 8.7.4 patch:
+           MD5 (sendmail.8.7.4.patch) = ef828ad91fe56e4eb6b0cacced864cd5
+
+
+     3. Run smrsh as additional protection for sendmail.
+
+        With all versions of sendmail, we recommend that you install and use
+        the sendmail restricted shell program (smrsh). We urge you to do
+        this whether you use the vendor's supplied sendmail, install sendmail
+        yourself, or patch an earlier version of sendmail.
+
+        Beginning with version 8.7.1, smrsh is included in the sendmail
+        distribution, in the subdirectory smrsh. See the RELEASE_NOTES file
+        for a description of how to integrate smrsh into your sendmail
+        configuration file. 
+
+
+---------------------------------------------------------------------------
+The CERT Coordination Center thanks Eric Allman of Pangaea Reference Systems,
+Andrew Gross of San Diego Supercomputer Center, Eric Halil of AUSCERT,
+Wolfgang Ley of DFN-CERT, and Paul Vixie for their support in the development
+of this advisory.
+---------------------------------------------------------------------------
+
+If you believe that your system has been compromised, contact the CERT
+Coordination Center or your representative in the Forum of Incident
+Response and Security Teams (FIRST).
+
+We strongly urge you to encrypt any sensitive information you send by email.
+The CERT Coordination Center can support a shared DES key and PGP. Contact the
+CERT staff for more information. 
+
+Location of CERT PGP key
+         ftp://info.cert.org/pub/CERT_PGP.key
+
+CERT Contact Information
+------------------------
+Email    cert@cert.org
+
+Phone    +1 412-268-7090 (24-hour hotline)
+                CERT personnel answer 8:30-5:00 p.m. EST
+                (GMT-5)/EDT(GMT-4), and are on call for
+                emergencies during other hours.
+
+Fax      +1 412-268-6989
+
+Postal address
+        CERT Coordination Center
+        Software Engineering Institute
+        Carnegie Mellon University
+        Pittsburgh PA 15213-3890
+        USA
+
+To be added to our mailing list for CERT advisories and bulletins, send your
+email address to
+        cert-advisory-request@cert.org
+
+CERT publications, information about FIRST representatives, and other
+security-related information are available for anonymous FTP from
+        ftp://info.cert.org/pub/
+
+CERT advisories and bulletins are also posted on the USENET newsgroup
+        comp.security.announce
+
+
+Copyright 1996 Carnegie Mellon University
+This material may be reproduced and distributed without permission provided it
+is used for noncommercial purposes and the copyright statement is included.
+
+CERT is a service mark of Carnegie Mellon University.
+
+
+.........................................................................
+Appendix A: Vendor Information
+
+Current as of February 22, 1996
+See CA-96.04.README for updated information.
+
+Below is information we have received from vendors concerning the
+vulnerability described in this advisory. If you do not see your vendor's
+name, please contact the vendor directly for information.
+
+-----------------------
+Eric Allman (original author of sendmail)
+
+Install a patch to sendmail.
+
+If you are presently running sendmail 8.6.12, there is a patch that
+makes version 8.6.13. 
+
+Similarly, if you are presently running sendmail 8.7.3, there is a
+patch that makes version 8.7.4. 
+
+The patches are available for anonymous FTP from
+
+        ftp://info.cert.org/pub/tools/sendmail/
+        ftp://ftp.cs.berkeley.edu/ucb/src/sendmail/
+        ftp://ftp.auscert.org.au/pub/mirrors/ftp.cs.berkeley.edu/ucb/sendmail/
+        ftp://ftp.cert.dfn.de/pub/tools/net/sendmail/
+
+Checksums for the 8.6.13 release:
+          MD5 (sendmail.8.6.13.base.tar.Z) = e8cf3ea19876d9b9def5c0bcb793d241
+          MD5 (sendmail.8.6.13.cf.tar.Z) = 4492026fa9e750cd33974322cb5a6fb9
+          MD5 (sendmail.8.6.13.misc.tar.Z) = 7ec5d31656e93e08a3892f0ae542b674
+          MD5 (sendmail.8.6.13.xdoc.tar.Z) = e4d3caebcdc4912ed2ecce1a77e45712
+
+        Checksum for the 8.6.13 patch:
+           MD5 (sendmail.8.6.13.patch) = 6390b792cb5513ff622da8791d6d2073
+
+        Checksum for the 8.7.4 release:
+           MD5 (sendmail.8.7.4.tar.Z) = 4bf774a12752497527aae11e2bdbab36
+
+        Checksum for the 8.7.4 patch:
+           MD5 (sendmail.8.7.4.patch) = ef828ad91fe56e4eb6b0cacced864cd5
+
+
+----------------------
+Hewlett-Packard Company
+
+Vulnerable, watch readme file for updates.
+
+
+----------------------
+IBM Corporation
+
+IBM is working on fixes for sendmail.
+
+----------------------
+Silicon Graphics Inc.
+
+At the time of writing of this document, a patch is planned for 
+IRIX versions 5.2, 5.3, 6.0, 6.0.1 and 6.1 for this issue.  
+
+This patch along with previous SGI Advisories and security patches 
+can be obtained via anonymous FTP from sgigate.sgi.com or its 
+mirror, ftp.sgi.com.  SGI security patches and advisories are 
+provided freely to all interested parties.  The advisories
+and patches can be found in either the ~ftp/patches or ~ftp/security 
+directories along with more current pertinent information.
+
+For assistance obtaining or working with security patches, please
+contact your SGI support provider.
+
+
+

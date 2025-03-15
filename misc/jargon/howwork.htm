@@ -1,0 +1,773 @@
+<HTML>
+
+<title>The Jargon File - How Jargon Works</title>
+<h1>The Jargon File</h1><hr><a href=jargon.htm>The Jargon File</a><br>
+<a href=intro.htm>Introduction</a><br>
+<a href=howwork.htm>How Jargon Works</a><br>
+<a href=howuse.htm>How to Use the Lexicon</a><p>
+<a href=a.htm>A</a>   <a href=b.htm>B</a>   <a href=c.htm>C</a>   <a href=d.htm>D</a>   <a href=e.htm>E</a>
+<a href=f.htm>F</a>   <a href=g.htm>G</a>   <a href=h.htm>H</a>   <a href=i.htm>I</a>   <a href=j.htm>J</a>
+<a href=k.htm>K</a>   <a href=l.htm>L</a>   <a href=m.htm>M</a>   <a href=n.htm>N</a>   <a href=o.htm>O</a>
+<a href=p.htm>P</a>   <a href=q.htm>Q</a>   <a href=r.htm>R</a>   <a href=s.htm>S</a>   <a href=t.htm>T</a>
+<a href=u.htm>U</a>   <a href=v.htm>V</a>   <a href=w.htm>W</a>   <a href=x.htm>X</a>   <a href=y.htm>Y</a>
+<a href=z.htm>Z</a>   <a href=notaz.htm>[^a-zA-Z]</a><p>
+<a href=appa.htm>Appendix A</a> --- 
+<a href=appb.htm>Appendix B</a> --- 
+<a href=appc.htm>Appendix C</a>
+<h1><a name="how_jargon_works">How Jargon Works</a></h1><pre>
+******************
+
+</pre><p>
+<h1><a name="jargon_construction">Jargon Construction</a></h1><pre>
+=====================
+
+There are some standard methods of jargonification that became
+established quite early (i.e., before 1970), spreading from such
+sources as the Tech Model Railroad Club, the PDP-1 SPACEWAR hackers,
+and John McCarthy's original crew of LISPers.  These include verb
+doubling, soundalike slang, the `-P' convention, overgeneralization,
+spoken inarticulations, and anthromorphization.  Each is discussed
+below.  We also cover the standard comparatives for design quality.
+
+Of these six, verb doubling, overgeneralization, anthromorphization,
+and (especially) spoken inarticulations have become quite general; but
+soundalike slang is still largely confined to MIT and other large
+universities, and the `-P' convention is found only where LISPers
+flourish.
+
+</pre><p>
+<h1><a name="verb_doubling">Verb Doubling</a></h1><pre>
+---------------
+
+A standard construction in English is to double a verb and use it as
+an exclamation, such as "Bang, bang!" or "Quack, quack!".  Most of
+these are names for noises.  Hackers also double verbs as a concise,
+sometimes sarcastic comment on what the implied subject does.  Also, a
+doubled verb is often used to terminate a conversation, in the process
+remarking on the current state of affairs or what the speaker intends
+to do next.  Typical examples involve <a href="w.htm#win">win</a>, <a href="l.htm#lose">lose</a>, <a href="h.htm#hack">hack</a>, <a href="f.htm#flame">flame</a>,
+<a href="b.htm#barf">barf</a>, <a href="c.htm#chomp">chomp</a>:
+
+     "The disk heads just crashed."  "Lose, lose."
+     "Mostly he talked about his latest crock.  Flame, flame."
+     "Boy, what a bagbiter!  Chomp, chomp!"
+
+Some verb-doubled constructions have special meanings not immediately
+obvious from the verb.  These have their own listings in the lexicon.
+
+The <a href="u.htm#usenet">Usenet</a> culture has one *tripling* convention unrelated to this;
+the names of `joke' topic groups often have a tripled last element.
+The first and paradigmatic example was alt.swedish.chef.bork.bork.bork
+(a "Muppet Show" reference); other infamous examples have included:
+
+     alt.french.captain.borg.borg.borg
+     alt.wesley.crusher.die.die.die
+     comp.unix.internals.system.calls.brk.brk.brk
+     sci.physics.edward.teller.boom.boom.boom
+     alt.sadistic.dentists.drill.drill.drill
+
+</pre><p>
+<h1><a name="soundalike_slang">Soundalike slang</a></h1><pre>
+------------------
+
+Hackers will often make rhymes or puns in order to convert an ordinary
+word or phrase into something more interesting.  It is considered
+particularly <a href="f.htm#flavorful">flavorful</a> if the phrase is bent so as to include some
+other jargon word; thus the computer hobbyist magazine "Dr. Dobb's
+Journal" is almost always referred to among hackers as `Dr. Frob's
+Journal' or simply `Dr. Frob's'.  Terms of this kind that have been in
+fairly wide use include names for newspapers:
+
+         Boston Herald =&gt Horrid (or Harried)
+         Boston Globe =&gt Boston Glob
+         Houston (or San Francisco) Chronicle
+                =&gt the Crocknicle (or the Comical)
+         New York Times =&gt New York Slime
+
+However, terms like these are often made up on the spur of the moment.
+Standard examples include:
+
+         Data General =&gt Dirty Genitals
+         IBM 360 =&gt IBM Three-Sickly
+         Government Property -- Do Not Duplicate (on keys)
+                 =&gt Government Duplicity -- Do Not Propagate
+         for historical reasons =&gt for hysterical raisins
+         Margaret Jacks Hall (the CS building at Stanford)
+                 =&gt Marginal Hacks Hall
+
+This is not really similar to the Cockney rhyming slang it has been
+compared to in the past, because Cockney substitutions are opaque
+whereas hacker punning jargon is intentionally transparent.
+
+</pre><p>
+<h1><a name="the_`-p'_convention">The `-P' convention</a></h1><pre>
+---------------------
+
+Turning a word into a question by appending the syllable `P'; from the
+LISP convention of appending the letter `P' to denote a predicate (a
+boolean-valued function).  The question should expect a yes/no answer,
+though it needn't.  (See <a href="t.htm#t">T</a> and <a href="n.htm#nil">NIL</a>.)
+
+         At dinnertime:
+               Q: "Foodp?"
+               A: "Yeah, I'm pretty hungry." or "T!"
+
+         At any time:
+               Q: "State-of-the-world-P?"
+               A: (Straight) "I'm about to go home."
+               A: (Humorous) "Yes, the world has a state."
+
+         On the phone to Florida:
+               Q: "State-p Florida?"
+               A: "Been reading JARGON.TXT again, eh?"
+
+[One of the best of these is a <a href="g.htm#gosperism">Gosperism</a>.  Once, when we were at a
+Chinese restaurant, Bill Gosper wanted to know whether someone would
+like to share with him a two-person-sized bowl of soup.  His inquiry
+was: "Split-p soup?" -- GLS]
+
+</pre><p>
+<h1><a name="overgeneralization">Overgeneralization</a></h1><pre>
+--------------------
+
+A very conspicuous feature of jargon is the frequency with which
+techspeak items such as names of program tools, command language
+primitives, and even assembler opcodes are applied to contexts outside
+of computing wherever hackers find amusing analogies to them.  Thus
+(to cite one of the best-known examples) UNIX hackers often <a href="g.htm#grep">grep</a> for
+things rather than searching for them.  Many of the lexicon entries
+are generalizations of exactly this kind.
+
+Hackers enjoy overgeneralization on the grammatical level as well.
+Many hackers love to take various words and add the wrong endings to
+them to make nouns and verbs, often by extending a standard rule to
+nonuniform cases (or vice versa).  For example, because
+
+     porous =&gt porosity
+     generous =&gt generosity
+
+hackers happily generalize:
+
+     mysterious =&gt mysteriosity
+     ferrous =&gt ferrosity
+     obvious =&gt obviosity
+     dubious =&gt dubiosity
+
+Another class of common construction uses the suffix `-itude' to
+abstract a quality from just about any adjective or noun.  This usage
+arises especially in cases where mainstream English would perform the
+same abstraction through `-iness' or `-ingness'.  Thus:
+
+     win =&gt winnitude (a common exclamation)
+     loss =&gt lossitude
+     cruft =&gt cruftitude
+     lame =&gt lameitude
+
+Some hackers cheerfully reverse this transformation; they argue, for
+example, that the horizontal degree lines on a globe ought to be
+called `lats' -- after all, they're measuring latitude!
+
+Also, note that all nouns can be verbed.  E.g.: "All nouns can be
+verbed", "I'll mouse it up", "Hang on while I clipboard it over", "I'm
+grepping the files".  English as a whole is already heading in this
+direction (towards pure-positional grammar like Chinese); hackers are
+simply a bit ahead of the curve.
+
+However, hackers avoid the unimaginative verb-making techniques
+characteristic of marketroids, bean-counters, and the Pentagon; a
+hacker would never, for example, `productize', `prioritize', or
+`securitize' things.  Hackers have a strong aversion to bureaucratic
+bafflegab and regard those who use it with contempt.
+
+Similarly, all verbs can be nouned.  This is only a slight
+overgeneralization in modern English; in hackish, however, it is good
+form to mark them in some standard nonstandard way.  Thus:
+
+     win =&gt winnitude, winnage
+     disgust =&gt disgustitude
+     hack =&gt hackification
+
+Further, note the prevalence of certain kinds of nonstandard plural
+forms.  Some of these go back quite a ways; the TMRC Dictionary
+includes an entry which implies that the plural of `mouse' is
+<a href="m.htm#meeces">meeces</a>, and notes that the defined plural of `caboose' is `cabeese'.
+This latter has apparently been standard (or at least a standard joke)
+among railfans (railroad enthusiasts) for many years.
+
+On a similarly Anglo-Saxon note, almost anything ending in `x' may
+form plurals in `-xen' (see <a href="v.htm#vaxen">VAXen</a> and <a href="b.htm#boxen">boxen</a> in the main text).
+Even words ending in phonetic /k/ alone are sometimes treated this
+way; e.g., `soxen' for a bunch of socks.  Other funny plurals are
+`frobbotzim' for the plural of `frobbozz' (see <a href="f.htm#frobnitz">frobnitz</a>) and
+`Unices' and `Twenices' (rather than `Unixes' and `Twenexes'; see
+<a href="u.htm#unix">UNIX</a>, <a href="t.htm#twenex">TWENEX</a> in main text).  But note that `Unixen' and `Twenexen'
+are never used; it has been suggested that this is because `-ix' and
+`-ex' are Latin singular endings that attract a Latinate plural.
+Finally, it has been suggested to general approval that the plural of
+`mongoose' ought to be `polygoose'.
+
+The pattern here, as with other hackish grammatical quirks, is
+generalization of an inflectional rule that in English is either an
+import or a fossil (such as the Hebrew plural ending `-im', or the
+Anglo-Saxon plural suffix `-en') to cases where it isn't normally
+considered to apply.
+
+This is not `poor grammar', as hackers are generally quite well aware
+of what they are doing when they distort the language.  It is
+grammatical creativity, a form of playfulness.  It is done not to
+impress but to amuse, and never at the expense of clarity.
+
+</pre><p>
+<h1><a name="spoken_inarticulations">Spoken inarticulations</a></h1><pre>
+------------------------
+
+Words such as `mumble', `sigh', and `groan' are spoken in places where
+their referent might more naturally be used.  It has been suggested
+that this usage derives from the impossibility of representing such
+noises on a comm link or in electronic mail (interestingly, the same
+sorts of constructions have been showing up with increasing frequency
+in comic strips).  Another expression sometimes heard is "Complain!",
+meaning "I have a complaint!"
+
+</pre><p>
+<h1><a name="anthromorphization">Anthromorphization</a></h1><pre>
+--------------------
+
+Semantically, one rich source of jargon constructions is the hackish
+tendency to anthropomorphize hardware and software.  This isn't done
+in a naive way; hackers don't personalize their stuff in the sense of
+feeling empathy with it, nor do they mystically believe that the
+things they work on every day are `alive'.  What *is* common is to
+hear hardware or software talked about as though it has homunculi
+talking to each other inside it, with intentions and desires.  Thus,
+one hears "The protocol handler got confused", or that programs "are
+trying" to do things, or one may say of a routine that "its goal in
+life is to X".  One even hears explanations like "...  and its poor
+little brain couldn't understand X, and it died."  Sometimes modelling
+things this way actually seems to make them easier to understand,
+perhaps because it's instinctively natural to think of anything with a
+really complex behavioral repertoire as `like a person' rather than
+`like a thing'.
+
+</pre><p>
+<h1><a name="comparatives">Comparatives</a></h1><pre>
+--------------
+
+Finally, note that many words in hacker jargon have to be understood
+as members of sets of comparatives.  This is especially true of the
+adjectives and nouns used to describe the beauty and functional
+quality of code.  Here is an approximately correct spectrum:
+
+     monstrosity  brain-damage  screw  bug  lose  misfeature
+     crock  kluge  hack  win  feature  elegance  perfection
+
+The last is spoken of as a mythical absolute, approximated but never
+actually attained.  Another similar scale is used for describing the
+reliability of software:
+
+     broken  flaky  dodgy  fragile  brittle
+     solid  robust  bulletproof  armor-plated
+
+Note, however, that `dodgy' is primarily Commonwealth Hackish (it is
+rare in the U.S.) and may change places with `flaky' for some
+speakers.
+
+Coinages for describing <a href="l.htm#lossage">lossage</a> seem to call forth the very finest
+in hackish linguistic inventiveness; it has been truly said that
+hackers have even more words for equipment failures than Yiddish has
+for obnoxious people.
+
+</pre><p>
+<h1><a name="hacker_writing_style">Hacker Writing Style</a></h1><pre>
+======================
+
+We've already seen that hackers often coin jargon by overgeneralizing
+grammatical rules.  This is one aspect of a more general fondness for
+form-versus-content language jokes that shows up particularly in
+hackish writing.  One correspondent reports that he consistently
+misspells `wrong' as `worng'.  Others have been known to criticize
+glitches in Jargon File drafts by observing (in the mode of Douglas
+Hofstadter) "This sentence no verb", or "Too repetetetive", or "Bad
+speling", or "Incorrectspa cing."  Similarly, intentional spoonerisms
+are often made of phrases relating to confusion or things that are
+confusing; `dain bramage' for `brain damage' is perhaps the most
+common (similarly, a hacker would be likely to write "Excuse me, I'm
+cixelsyd today", rather than "I'm dyslexic today").  This sort of
+thing is quite common and is enjoyed by all concerned.
+
+Hackers tend to use quotes as balanced delimiters like parentheses,
+much to the dismay of American editors.  Thus, if "Jim is going" is a
+phrase, and so are "Bill runs" and "Spock groks", then hackers
+generally prefer to write: "Jim is going", "Bill runs", and "Spock
+groks".  This is incorrect according to standard American usage (which
+would put the continuation commas and the final period inside the
+string quotes); however, it is counter-intuitive to hackers to
+mutilate literal strings with characters that don't belong in them.
+Given the sorts of examples that can come up in discussions of
+programming, American-style quoting can even be grossly misleading.
+When communicating command lines or small pieces of code, extra
+characters can be a real pain in the neck.
+
+Consider, for example, a sentence in a <a href="v.htm#vi">vi</a> tutorial that looks like
+this:
+
+     Then delete a line from the file by typing "dd".
+
+Standard usage would make this
+
+     Then delete a line from the file by typing "dd."
+
+but that would be very bad -- because the reader would be prone to
+type the string d-d-dot, and it happens that in `vi(1)' dot
+repeats the last command accepted.  The net result would be to delete
+*two* lines! 
+
+The Jargon File follows hackish usage throughout.
+
+Interestingly, a similar style is now preferred practice in Great
+Britain, though the older style (which became established for
+typographical reasons having to do with the aesthetics of comma and
+quotes in typeset text) is still accepted there.  "Hart's Rules" and
+the "Oxford Dictionary for Writers and Editors" call the hacker-like
+style `new' or `logical' quoting.
+
+Another hacker habit is a tendency to distinguish between `scare'
+quotes and `speech' quotes; that is, to use British-style single
+quotes for marking and reserve American-style double quotes for actual
+reports of speech or text included from elsewhere.  Interestingly,
+some authorities describe this as correct general usage, but
+mainstream American English has gone to using double-quotes
+indiscriminately enough that hacker usage appears marked [and, in
+fact, I thought this was a personal quirk of mine until I checked with
+Usenet -- ESR].  One further permutation that is definitely
+*not* standard is a hackish tendency to do marking quotes by
+using apostrophes (single quotes) in pairs; that is, 'like this'.
+This is modelled on string and character literal syntax in some
+programming languages (reinforced by the fact that many character-only
+terminals display the apostrophe in typewriter style, as a vertical
+single quote).
+
+One quirk that shows up frequently in the <a href="e.htm#email">email</a> style of UNIX
+hackers in particular is a tendency for some things that are normally
+all-lowercase (including usernames and the names of commands and C
+routines) to remain uncapitalized even when they occur at the
+beginning of sentences.  It is clear that, for many hackers, the case
+of such identifiers becomes a part of their internal representation
+(the `spelling') and cannot be overridden without mental effort (an
+appropriate reflex because UNIX and C both distinguish cases and
+confusing them can lead to <a href="l.htm#lossage">lossage</a>).  A way of escaping this dilemma
+is simply to avoid using these constructions at the beginning of
+sentences.
+
+There seems to be a meta-rule behind these nonstandard hackerisms to
+the effect that precision of expression is more important than
+conformance to traditional rules; where the latter create ambiguity or
+lose information they can be discarded without a second thought.  It
+is notable in this respect that other hackish inventions (for example,
+in vocabulary) also tend to carry very precise shades of meaning even
+when constructed to appear slangy and loose.  In fact, to a hacker,
+the contrast between `loose' form and `tight' content in jargon is a
+substantial part of its humor!
+
+Hackers have also developed a number of punctuation and emphasis
+conventions adapted to single-font all-ASCII communications links, and
+these are occasionally carried over into written documents even when
+normal means of font changes, underlining, and the like are available.
+
+One of these is that TEXT IN ALL CAPS IS INTERPRETED AS `LOUD', and
+this becomes such an ingrained synesthetic reflex that a person who
+goes to caps-lock while in <a href="t.htm#talk_mode">talk_mode</a> may be asked to "stop shouting,
+please, you're hurting my ears!".
+
+Also, it is common to use bracketing with unusual characters to
+signify emphasis.  The asterisk is most common, as in "What the
+*hell*?" even though this interferes with the common use of the
+asterisk suffix as a footnote mark.  The underscore is also common,
+suggesting underlining (this is particularly common with book titles;
+for example, "It is often alleged that Joe Haldeman wrote
+_The_Forever_War_ as a rebuttal to Robert Heinlein's earlier novel of
+the future military, _Starship_Troopers_.").  Other forms exemplified
+by "=hell=", "\hell/", or "/hell/" are occasionally seen (it's claimed
+that in the last example the first slash pushes the letters over to
+the right to make them italic, and the second keeps them from falling
+over).  Finally, words may also be emphasized L I K E T H I S, or by a
+series of carets (^) under them on the next line of the text.
+
+There is a semantic difference between *emphasis like this* (which
+emphasizes the phrase as a whole), and *emphasis* *like* *this* (which
+suggests the writer speaking very slowly and distinctly, as if to a
+very young child or a mentally impaired person).  Bracketing a word
+with the `*' character may also indicate that the writer wishes
+readers to consider that an action is taking place or that a sound is
+being made.  Examples: *bang*, *hic*, *ring*, *grin*, *kick*, *stomp*,
+*mumble*.
+
+Another habit is that of using angle-bracket enclosure to genericize a
+term; this derives from conventions used in <a href="b.htm#bnf">BNF</a>.  Uses like the
+following are common:
+
+     So this &ltethnic&gt walks into a bar one day...
+
+There is also an accepted convention for `writing under erasure'; the
+text
+
+     Be nice to this fool^H^H^H^Hgentleman,
+     he's visiting from corporate HQ.
+
+reads roughly as "Be nice to this fool, er, gentleman...".  This comes
+from the fact that the digraph ^H is often used as a print
+representation for a backspace.  It parallels (and may have been
+influenced by) the ironic use of `slashouts' in science-fiction
+fanzines.
+
+A related habit uses editor commands to signify corrections to
+previous text.  This custom is fading as more mailers get good editing
+capabilities, but one occasionally still sees things like this:
+
+     I've seen that term used on alt.foobar often. 
+     Send it to Erik for the File.  Oops...s/Erik/Eric/.
+
+The s/Erik/Eric/ says "change Erik to Eric in the preceding".  This
+syntax is borrowed from the UNIX editing tools `ed' and `sed', but is
+widely recognized by non-UNIX hackers as well.
+
+In a formula, `*' signifies multiplication but two asterisks in a row
+are a shorthand for exponentiation (this derives from FORTRAN).  Thus,
+one might write 2 ** 8 = 256.
+
+Another notation for exponentiation one sees more frequently uses the
+caret (^, ASCII 1011110); one might write instead `2^8 = 256'.  This
+goes all the way back to Algol-60, which used the archaic ASCII
+`up-arrow' that later became the caret; this was picked up by Kemeny
+and Kurtz's original BASIC, which in turn influenced the design of the
+`bc(1)' and `dc(1)' UNIX tools, which have probably done most to
+reinforce the convention on Usenet.  The notation is mildly confusing
+to C programmers, because `^' means bitwise exclusive-or in C.
+Despite this, it was favored 3:1 over ** in a late-1990 snapshot of
+Usenet.  It is used consistently in this lexicon.
+
+In on-line exchanges, hackers tend to use decimal forms or improper
+fractions (`3.5' or `7/2') rather than `typewriter style' mixed
+fractions (`3-1/2').  The major motive here is probably that the
+former are more readable in a monospaced font, together with a desire
+to avoid the risk that the latter might be read as `three minus
+one-half'.  The decimal form is definitely preferred for fractions
+with a terminating decimal representation; there may be some cultural
+influence here from the high status of scientific notation.
+
+Another on-line convention, used especially for very large or very
+small numbers, is taken from C (which derived it from FORTRAN).  This
+is a form of `scientific notation' using `e' to replace `*10^'; for
+example, one year is about 3e7 seconds long.
+
+The tilde (~) is commonly used in a quantifying sense of
+`approximately'; that is, `~50' means `about fifty'.
+
+On Usenet and in the <a href="m.htm#mud">MUD</a> world, common C boolean, logical, and
+relational operators such as `|', `&', `||', `&&', `!', `==', `!=',
+`&gt', `&lt', `&gt=', and `=&lt' are often combined with English.  The Pascal
+not-equals, `&lt&gt', is also recognized, and occasionally one sees `/='
+for not-equals (from Ada, Common Lisp, and Fortran 90).  The use of
+prefix `!' as a loose synonym for `not-' or `no-' is particularly
+common; thus, `!clue' is read `no-clue' or `clueless'.
+
+A related practice borrows syntax from preferred programming languages
+to express ideas in a natural-language text.  For example, one might
+see the following:
+
+     In &ltjrh578689@thudpucker.com&gt J. R. Hacker wrote:
+     &gtI recently had occasion to field-test the Snafu
+     &gtSystems 2300E adaptive gonkulator.  The price was
+     &gtright, and the racing stripe on the case looked
+     &gtkind of neat, but its performance left something
+     &gtto be desired.
+
+     Yeah, I tried one out too.
+
+     #ifdef FLAME
+     Hasn't anyone told those idiots that you can't get
+     decent bogon suppression with AFJ filters at today's
+     net volumes?
+     #endif /* FLAME */
+
+     I guess they figured the price premium for true
+     frame-based semantic analysis was too high.
+     Unfortunately, it's also the only workable approach.
+     I wouldn't recommend purchase of this product unless
+     you're on a *very* tight budget.
+
+     #include &ltdisclaimer.h&gt
+     --
+                      == Frank Foonly (Fubarco Systems)
+
+In the above, the `#ifdef'/`#endif' pair is a conditional compilation
+syntax from C; here, it implies that the text between (which is a
+<a href="f.htm#flame">flame</a>) should be evaluated only if you have turned on (or defined
+on) the switch FLAME.  The `#include' at the end is C for "include
+standard disclaimer here"; the `standard disclaimer' is understood to
+read, roughly, "These are my personal opinions and not to be construed
+as the official position of my employer."
+
+The top section in the example, with &gt at the left margin, is an
+example of an inclusion convention we'll discuss below.
+
+Hackers also mix letters and numbers more freely than in mainstream
+usage.  In particular, it is good hackish style to write a digit
+sequence where you intend the reader to understand the text string
+that names that number in English.  So, hackers prefer to write
+`1970s' rather than `nineteen-seventies' or `1970's' (the latter looks
+like a possessive).
+
+It should also be noted that hackers exhibit much less reluctance to
+use multiply nested parentheses than is normal in English.  Part of
+this is almost certainly due to influence from LISP (which uses deeply
+nested parentheses (like this (see?)) in its syntax a lot), but it has
+also been suggested that a more basic hacker trait of enjoying playing
+with complexity and pushing systems to their limits is in operation.
+
+Finally, it is worth mentioning that many studies of on-line
+communication have shown that electronic links have a de-inhibiting
+effect on people.  Deprived of the body-language cues through which
+emotional state is expressed, people tend to forget everything about
+other parties except what is presented over that ASCII link.  This has
+both good and bad effects.  A good one is that it encourages honesty
+and tends to break down hierarchical authority relationships; a bad
+one is that it may encourage depersonalization and gratuitous
+rudeness.  Perhaps in response to this, experienced netters often
+display a sort of conscious formal politesse in their writing that has
+passed out of fashion in other spoken and written media (for example,
+the phrase "Well said, sir!" is not uncommon).
+
+Many introverted hackers who are next to inarticulate in person
+communicate with considerable fluency over the net, perhaps precisely
+because they can forget on an unconscious level that they are dealing
+with people and thus don't feel stressed and anxious as they would
+face to face.
+
+Though it is considered gauche to publicly criticize posters for poor
+spelling or grammar, the network places a premium on literacy and
+clarity of expression.  It may well be that future historians of
+literature will see in it a revival of the great tradition of personal
+letters as art.
+
+</pre><p>
+<h1><a name="email_quotes_and_inclusion_conventions">Email Quotes and Inclusion Conventions</a></h1><pre>
+========================================
+
+One area where hackish conventions for on-line writing are still in
+some flux is the marking of included material from earlier messages
+--- what would be called `block quotations' in ordinary English.  From
+the usual typographic convention employed for these (smaller font at
+an extra indent), there derived the notation of included text being
+indented by one ASCII TAB (0001001) character, which under UNIX and
+many other environments gives the appearance of an 8-space indent.
+
+Early mail and netnews readers had no facility for including messages
+this way, so people had to paste in copy manually.  BSD `Mail(1)' was
+the first message agent to support inclusion, and early Usenetters
+emulated its style.  But the TAB character tended to push included
+text too far to the right (especially in multiply nested inclusions),
+leading to ugly wraparounds.  After a brief period of confusion
+(during which an inclusion leader consisting of three or four spaces
+became established in EMACS and a few mailers), the use of leading `&gt'
+or `&gt ' became standard, perhaps owing to its use in `ed(1)' to
+display tabs (alternatively, it may derive from the `&gt' that some
+early UNIX mailers used to quote lines starting with "From" in text,
+so they wouldn't look like the beginnings of new message headers).
+Inclusions within inclusions keep their `&gt' leaders, so the `nesting
+level' of a quotation is visually apparent.
+
+The practice of including text from the parent article when posting a
+followup helped solve what had been a major nuisance on Usenet: the
+fact that articles do not arrive at different sites in the same order.
+Careless posters used to post articles that would begin with, or even
+consist entirely of, "No, that's wrong" or "I agree" or the like.
+It was hard to see who was responding to what.  Consequently, around
+1984, new news-posting software evolved a facility to automatically
+include the text of a previous article, marked with "&gt " or whatever
+the poster chose.  The poster was expected to delete all but the
+relevant lines.  The result has been that, now, careless posters post
+articles containing the *entire* text of a preceding article,
+*followed* only by "No, that's wrong" or "I agree".  
+
+Many people feel that this cure is worse than the original disease,
+and there soon appeared newsreader software designed to let the reader
+skip over included text if desired.  Today, some posting software
+rejects articles containing too high a proportion of lines beginning
+with `&gt' -- but this too has led to undesirable workarounds, such as
+the deliberate inclusion of zero-content filler lines which aren't
+quoted and thus pull the message below the rejection threshold.
+
+
+Because the default mailers supplied with UNIX and other operating
+systems haven't evolved as quickly as human usage, the older
+conventions using a leading TAB or three or four spaces are still
+alive; however, &gt-inclusion is now clearly the prevalent form in both
+netnews and mail.
+
+In 1991 practice is still evolving, and disputes over the `correct'
+inclusion style occasionally lead to <a href="h.htm#holy_wars">holy_wars</a>.  One variant
+style reported uses the citation character `|' in place of `&gt' for
+extended quotations where original variations in indentation are being
+retained.  One also sees different styles of quoting a number of
+authors in the same message: one (deprecated because it loses
+information) uses a leader of `&gt ' for everyone, another (the most
+common) is `&gt &gt &gt &gt ', `&gt &gt &gt ', etc. (or `&gt&gt&gt&gt ',
+`&gt&gt&gt ', etc., depending on line length and nesting depth)
+reflecting the original order of messages, and yet another is to use a
+different citation leader for each author, say `&gt ', `: ', `| ', `} '
+(preserving nesting so that the inclusion order of messages is still
+apparent, or tagging the inclusions with authors' names).  Yet
+*another* style is to use each poster's initials (or login name)
+as a citation leader for that poster.  Occasionally one sees a `# '
+leader used for quotations from authoritative sources such as
+standards documents; the intended allusion is to the root prompt (the
+special UNIX command prompt issued when one is running as the
+privileged super-user).
+
+</pre><p>
+<h1><a name="hacker_speech_style">Hacker Speech Style</a></h1><pre>
+=====================
+
+Hackish speech generally features extremely precise diction, careful
+word choice, a relatively large working vocabulary, and relatively
+little use of contractions or street slang.  Dry humor, irony, puns,
+and a mildly flippant attitude are highly valued -- but an underlying
+seriousness and intelligence are essential.  One should use just
+enough jargon to communicate precisely and identify oneself as a
+member of the culture; overuse of jargon or a breathless, excessively
+gung-ho attitude is considered tacky and the mark of a loser.
+
+This speech style is a variety of the precisionist English normally
+spoken by scientists, design engineers, and academics in technical
+fields.  In contrast with the methods of jargon construction, it is
+fairly constant throughout hackerdom.
+
+It has been observed that many hackers are confused by negative
+questions -- or, at least, that the people to whom they are talking
+are often confused by the sense of their answers.  The problem is that
+they have done so much programming that distinguishes between
+
+     if (going) ...
+
+and
+
+     if (!going) ...
+
+that when they parse the question "Aren't you going?" it seems to be
+asking the opposite question from "Are you going?", and so merits an
+answer in the opposite sense.  This confuses English-speaking
+non-hackers because they were taught to answer as though the negative
+part weren't there.  In some other languages (including Russian,
+Chinese, and Japanese) the hackish interpretation is standard and the
+problem wouldn't arise.  Hackers often find themselves wishing for a
+word like French `si' or German `doch' with which one could
+unambiguously answer `yes' to a negative question.
+
+For similar reasons, English-speaking hackers almost never use double
+negatives, even if they live in a region where colloquial usage allows
+them.  The thought of uttering something that logically ought to be an
+affirmative knowing it will be misparsed as a negative tends to
+disturb them.
+  
+In a related vein, hackers sometimes make a game of answering
+questions containing logical connectives with a strictly literal
+rather than colloquial interpretation.  A non-hacker who is indelicate
+enough to ask a question like "So, are you working on finding that bug
+*now* or leaving it until later?"  is likely to get the perfectly
+correct answer "Yes!" (that is, "Yes, I'm doing it either now or
+later, and you didn't ask which!").
+
+</pre><p>
+<h1><a name="international_style">International Style</a></h1><pre>
+=====================
+
+Although the Jargon File remains primarily a lexicon of hacker usage
+in American English, we have made some effort to get input from
+abroad.  Though the hacker-speak of other languages often uses
+translations of jargon from English (often as transmitted to them by
+earlier Jargon File versions!), the local variations are interesting,
+and knowledge of them may be of some use to travelling hackers.
+
+There are some references herein to `Commonwealth hackish'.  These are
+intended to describe some variations in hacker usage as reported in
+the English spoken in Great Britain and the Commonwealth (Canada,
+Australia, India, etc. -- though Canada is heavily influenced by
+American usage).  There is also an entry on <a href="c.htm#commonwealth_hackish">Commonwealth_Hackish</a>
+reporting some general phonetic and vocabulary differences from
+U.S. hackish.
+
+Hackers in Western Europe and (especially) Scandinavia report that
+they often use a mixture of English and their native languages for
+technical conversation.  Occasionally they develop idioms in their
+English usage that are influenced by their native-language styles.
+Some of these are reported here.
+
+On the other hand, English often gives rise to grammatical and
+vocabulary mutations in the native language.  For example, Italian
+hackers often use the nonexistent verbs `scrollare' (to scroll) and
+`deletare' (to delete} rather than native Italian `scorerre' and
+`cancellare'.  Similarly, the English verb `to hack' has been seen
+conjugated in Swedish.  European hackers report that this happens
+partly because the English terms make finer distinctions than are
+available in their native vocabularies, and partly because deliberate
+language-crossing makes for amusing wordplay.
+
+A few notes on hackish usages in Russian have been added where they
+are parallel with English idioms and thus comprehensible to
+English-speakers.
+
+From the late 1980s onward, a flourishing culture of local,
+MS-DOS-based bulletin boards has been developing separately from
+Internet hackerdom.  The BBS culture has, as its seamy underside, a
+stratum of `pirate boards' inhabited by <a href="c.htm#cracker">cracker</a>s, phone phreaks, and
+<a href="w.htm#warez_d00dz">warez_d00dz</a>.  These people (mostly teenagers running PC-clones from
+their bedrooms) have developed their own characteristic jargon,
+heavily influenced by skateboard lingo and underground-rock slang.
+
+Though crackers often call themselves `hackers', they aren't (they
+typically have neither significant programming ability, nor Internet
+exposure, nor experience with multi-user systems).  Their vocabulary
+has little overlap with hackerdom's.  Nevertheless, this lexicon
+covers much of it so the reader will be able to understand what goes
+by on bulletin-board systems.
+
+Here is a brief guide to cracker and <a href="w.htm#warez_d00dz">warez_d00dz</a> usage:
+
+   * Misspell frequently.  The substitutions
+
+               phone =&gt fone
+               freak =&gt phreak
+
+     are obligatory.
+   * Always substitute `z's for `s's.  (i.e. "codes" -&gt "codez").
+   * Type random emphasis characters after a post line (i.e. "Hey
+     Dudes!#!$#$!#!$").
+   * Use the emphatic `k' prefix ("k-kool", "k-rad", "k-awesome")
+     frequently.
+   * Abbreviate compulsively ("I got lotsa warez w/ docs").
+   * Substitute `0' for `o' ("r0dent", "l0zer").
+   * TYPE ALL IN CAPS LOCK, SO IT LOOKS LIKE YOU'RE YELLING ALL THE
+     TIME.
+
+These traits are similar to those of <a href="b.htm#biff">BIFF</a>, who originated as a
+parody of naive BBS users.  For further discussion of the pirate-board
+subculture, see <a href="l.htm#lamer">lamer</a>, <a href="e.htm#elite">elite</a>, <a href="l.htm#leech">leech</a>, <a href="p.htm#poser">poser</a>, <a href="c.htm#cracker">cracker</a>, and
+especially <a href="w.htm#warez_d00dz">warez_d00dz</a>.
+
+</pre><p>
+<hr><a href=jargon.htm>The Jargon File</a><br>
+<a href=intro.htm>Introduction</a><br>
+<a href=howwork.htm>How Jargon Works</a><br>
+<a href=howuse.htm>How to Use the Lexicon</a><p>
+<a href=a.htm>A</a>   <a href=b.htm>B</a>   <a href=c.htm>C</a>   <a href=d.htm>D</a>   <a href=e.htm>E</a>
+<a href=f.htm>F</a>   <a href=g.htm>G</a>   <a href=h.htm>H</a>   <a href=i.htm>I</a>   <a href=j.htm>J</a>
+<a href=k.htm>K</a>   <a href=l.htm>L</a>   <a href=m.htm>M</a>   <a href=n.htm>N</a>   <a href=o.htm>O</a>
+<a href=p.htm>P</a>   <a href=q.htm>Q</a>   <a href=r.htm>R</a>   <a href=s.htm>S</a>   <a href=t.htm>T</a>
+<a href=u.htm>U</a>   <a href=v.htm>V</a>   <a href=w.htm>W</a>   <a href=x.htm>X</a>   <a href=y.htm>Y</a>
+<a href=z.htm>Z</a>   <a href=notaz.htm>[^a-zA-Z]</a><p>
+<a href=appa.htm>Appendix A</a> --- 
+<a href=appb.htm>Appendix B</a> --- 
+<a href=appc.htm>Appendix C</a>
+
+</HTML>

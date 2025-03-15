@@ -1,0 +1,85 @@
+OKI 21
+
+NOTES:  This is a single NAM unit.
+        The ESN prefix is 129 decimal & 81 hex.
+        OKI: 1-800-554-3112
+
+
+TO ACCESS PROGRAMING MODE:
+
+New or reset units:
+
+1.  Turn power on.
+
+2.  Within 30 seconds press * & # keys together and release, enter
+    * 1 2 3 4 5 6 7 8 #.
+
+3.  The phone will display "EntEr PW-Sto" you may enter a ten digit
+    password at this stage to be used in future re-programings.  Press
+    STO to retain default password or enter a ten digit password and press STO.
+
+4.  The phone will display "rE EntEr PW-Sto" re-enter the password, press
+    STO to confirm.  Again, press STO to retain default password.
+
+
+Back door:
+
+1.  If the password is not known substitute the following code in step
+    2 above: * 7 4 6 4 6 9 5 2 #.
+
+
+Reprograming if a password has been set, and is known:
+
+1.  Turn power on.
+
+2.  With in 30 seconds press STO & RCL keys together and release, enter
+    the 10 digit password.  If you are successful the phone will enter
+    programing mode.
+
+
+NAM PROGRAMING:
+
+Having completed one of the above access methods the phone will display
+the software version and hex ESN.  Press CLR to continue, the phone will
+display "PrESS 1 THRU 9".
+
+All OKI phones should be initialized prior to programing, press 0 and phone
+will display "rESET PrESS 0", press 0 again and display will change to
+"CLEArED".
+
+You may now go directly to any entry by pressing the number of that step, or
+use volume up and down keys to scroll.
+
+1.  The STO key stores each entry.
+
+2.  The Volume UP key scrolls down through the steps.
+
+3.  The Volume DOWN key scrolls UP through the steps.
+
+4.  At any time press CLR to exit program mode.
+
+
+PROGRAMMING DATA:
+
+STEP#    #OF DIGITS/RANGE    DISPLAY        DESCRIPTION
+
+1       10 DIGITS           OWN             MIN (AREA CODE & PHONE NUMBER)
+2       5 DIGITS            Sid no          SYSTEM ID
+3       333 OR 334          IPCH            IPCH AUTOMATICALLY SET
+4       2 DIGITS            ACCoLC          ACCESS OVERLOAD
+5       3 OR 4 DIGITS       Loc CodE        LOCK CODE
+6       2 DIGITS            gid             GROUP ID (10 FOR USA)
+7       4 DIGITS            Stn CLS         STATION CLASS MARK, USE 1000.
+8       4 DIGITS/0 OR 1     OPt bit         OPTION BITS:
+                                            1 enables, from left to right:
+                                            Min Mark
+                                            Local Use Mark
+                                            Hands Free
+                                            NOT USED
+9      6 DIGITS              SECURITY       SECURITY CODE (DEFAULT IS LAST
+                                            SIX DIGITS OF ESN OR 111002)
+
+
+LOCK: F 5 then one to eight digit code.  UNLOCK: Enter one to eight digit code.
+
+SYSTEM SELECT: F 2 then six digit security code, 2 to scroll, STO to store.

@@ -1,0 +1,1364 @@
+		MILNET HOST CONFIGURATIONS			11-Oct-95
+
+PSN   PSN NAME      O&M         PORT    HOST NAME               CONNECT TYPE
+				         HOST CONFIGURATION
+
+-------------------------------------------------------------------------------
+
+2     PATCH-BARRACKSAF             0	EMMC.DDN.MIL             DH           
+					 BBN-C/70(UNIX)
+				1	PATCH.MT.DDN.MIL         DH           
+					 C/30(TAC)
+				2	EMMC2.DDN.MIL            1822         
+					 BBN-C/70()
+				4	STUTTGART-GW1.ARMY.MIL                
+					 CISCO(UNIX)
+				7	DDN-EUR.DDN.MIL          1822HDH      
+					 SUN(UNIX)
+				13	VHN-PCC.ARMY.MIL         X.25         
+					 GEAC-8215(ZOPAL)
+				15	FRG.BBN.COM              HDH          
+					 BBN-C/70(UNIX)
+				16	BBL-ERF.ARMY.MIL         X.25         
+					 GENERAL-DATACOM-2552()
+				18	PATCH2.MMT.DDN.MIL       X.25         
+					 MINITAC-4200(AMOS)
+				19	PATCH-GW.EUCOM.MIL       X.25         
+					 CISCO-CGS()
+				24	VAIHINGEN1-MPRJSS.ARMY.MILX.25         
+					 CODEX-6507-PAD(UNIX)
+				25	COMSTATE-EUR-TST.DDN.MIL X.25         
+					 DIGILOG(MS-DOS)
+				27	SUN-EMMC.DDN.MIL         X.25         
+					 SUN()
+				31	IPR-VHN-GW.DISA.MIL                   
+					 CISCO(UNIX)
+3     SANDIEGO-NOSC NAVY           0	SANDIEGO.MT.DDN.MIL      DH           
+					 C/30(TAC)
+				1	NOSC-GW.NOSC.MIL         DH           
+					 VAX-8650()
+				7	NAVELEXNET-SD.NAVY.MIL   X.25         
+					 WANG-VS100(VS)
+				27	SIMASD-GW.NAVY.MIL                    
+					 CISCO-AGS(AGS)
+				28	PENDLETON.OGDEN.DRMO.DLA.MILX.25         
+					 ATT-3B2-600(UNIX)
+4     CAMPBELL-BARRACKSARMY           1	CAMPBELL-BKS.MT.DDN.MIL  DH           
+					 C/30(TAC)
+				4	DDGG.DLA.MIL             X.25         
+					 ATT-3B2-600G(UNIX)
+				5	HEIDELBERG-GW1.ARMY.MIL  X.25         
+					 CISCO-AGS(UNIX)
+				6	SCHWETZINGEN.MMT.DDN.MIL              
+					 ()
+				6	BDKRZNCH.MMT.DDN.MIL                  
+					 ()
+				10	MANNHEIM-GW1.ARMY.MIL                 
+					 CISCO-AGS-2(UNIX)
+				14	HDG-PCC.ARMY.MIL         X.25         
+					 GEAC-8000(ASTRO)
+6     ROTTERDAM     AF             0	ROTTERDAM.MT.DDN.MIL     DH           
+					 C/30(TAC)
+				6	MAASLAND-CAMS.AF.MIL     X.25         
+					 UNISYS(OS)
+				14	SCHINNEN-GW1.ARMY.MIL                 
+					 CISCO(UNIX)
+				17	RDM-LINK-GW.EUCOM.MIL    X.25         
+					 SUN(UNIX)
+				18	ROTTERDM-GATEWAY.ARMY.MILX.25         
+					 CISCO(AGS-2)
+9     SIGONELLA-NAS NAVY           0	SIGONELLA.MT.DDN.MIL     DH           
+					 C/30(TAC)
+				5	SIGONELLA-MEASURE.NAVY.MILX.25         
+					 HONEYWELL-XPS(UNIX)
+				6	SIG-NCPDS.NAVY.MIL                    
+					 PROTOCOM-P250()
+				8	SIGONELL-PASS.SDS.NAVY.MILX.25         
+					 HP-3000/42(MPE-V)
+10    ROTA-NS       NAVY           0	ROTA.MT.DDN.MIL          DH           
+					 C/30(TAC)
+				4	ROTA-PASS.SDS.NAVY.MIL   X.25         
+					 HP-3000/42(MPE-V)
+				5	ROTA-MEASURE.NAVY.MIL    X.25         
+					 HONEYWELL(UNIX)
+				6	ROTA-NCPDS.NAVY.MIL      X.25         
+					 ()
+				7	MORON-GW.AF.MIL          X.25         
+					 CISCO-AGS(UNIX)
+				8	LERT-GW.NAVY.MIL         X.25         
+					 CISCO(UNIX)
+				9	ROTA.EUROPE.DRMS.DLA.MIL              
+					 CISCO-AGS(UNIX)
+				10	ROTA-BUMED.NAVY.MIL      X.25         
+					 CISCO-AGS(RMX)
+				17	ROTA-GW.NAVY.MIL                      
+					 CISCO(UNIX)
+12    VICENZA       ARMY           0	VICENZA.MT.DDN.MIL       1822         
+					 C/30(TAC)
+				4	AVIANO-GW.AF.MIL         X.25         
+					 CISCO-AGS(UNIX)
+				5	VICENZA-MRPJSS.ARMY.MIL  X.25         
+					 ()
+				10	VICENZA-GW1.ARMY.MIL     X.25         
+					 CISCO-AGS-2(UNIX)
+				11	VIC-PCC.ARMY.MIL                      
+					 GEAC(OS)
+13    GUNTER-AFS    AF             0	GUNTER.MT.DDN.MIL        LH           
+					 C/30(TAC)
+				12	HRC-IRIS.AF.MIL          X.25         
+					 IBM-4341(VM)
+				17	FTRUCKER-GW.ARMY.MIL                  
+					 CISCO(AGS)
+				24	GUNTER-IP.DDN.MIL                     
+					 CISCO-AGS(UNIX)
+				26	AFINCC-GW.AF.MIL                      
+					 CISCO(CISCO)
+14    LANDSTUHL2    ARMY           6	LANDSTUHL1-MPRJSS.ARMY.MILX.25         
+					 CODEX-6507-PAD(UNIX)
+				7	BAUMHLDR-GW1.ARMY.MIL                 
+					 CISCO-AGS-2(UNIX)
+				8	DMAOE.DMA.MIL            X.25         
+					 UNISYS(MCP)
+				9	DMSSCE-GW.MED.OSD.MIL    X.25         
+					 CISCO-AGS(UNIX)
+				10	PIRMASENS-GW1.ARMY.MIL   X.25         
+					 CISCO-AGS-2(UNIX)
+				11	WORMS-GW1.ARMY.MIL       X.25         
+					 CISCO-AGS(UNIX)
+				12	DMAOE.DMA.MIL            X.25         
+					 UNISYS(MCP)
+				13	BAUMHLDR.MMT.DDN.MIL                  
+					 ()
+				16	LANDSTUHL1-MPRJSS.ARMY.MILX.25         
+					 CODEX-6507-PAD(UNIX)
+				17	LANDSTHLT20.DDN.MIL                   
+					 (UNIX)
+				31	IPR-LDL-GW.DISA.MIL                   
+					 CISCO(UNIX)
+15    RAMSTEIN-AB   AF             0	RAMSTEIN.MT.DDN.MIL      DH           
+					 C/30(TAC)
+				4	EU-GW.DECA.MIL                        
+					 ATT-3B2(UNIX)
+				5	NCTSL-GW.NAVY.MIL                     
+					 CISCO()
+				6	NATO-E3A-GK.AF.MIL       X.25         
+					 DCP/O5(OS1100)
+				7	CHIEVRES-GW1.ARMY.MIL                 
+					 CISCO-AGS-2(UNIX)
+				11	KSRSLTRN-TCACCIS.ARMY.MILX.25         
+					 (UNIX)
+				17	RAMSTEIN1-GW.AF.MIL      X.25         
+					 CISCO(UNIX)
+16    MOFFETT-FLD   AF             0	MOFFETT.MT.DDN.MIL       LH           
+					 C/30(TAC)
+				19	AMES-IP.DDN.MIL          X.25         
+					 CISCO-AGS()
+18    GRIFFISS-AFB  AF             0	GRIFFISS.MT.DDN.MIL      LH           
+					 C/30(TAC)
+20    HILL-AFB      AF             0	HILL.MT.DDN.MIL          DH           
+					 C/30(TAC)
+22    MCCLELLAN-AFB AF             0	MCCLELLAN.MT.DDN.MIL     DH           
+					 C/30(TAC)
+				7	AFLC-SM-DMMIS.AF.MIL     X.25         
+					 TANDEM-TXP(GUARDIAN)
+				8	TASA1.ARMY.MIL                        
+					 CISCO-AGS(UNIX)
+				10	SIERRA-GW1.ARMY.MIL      X.25         
+					 CISCO(UNIX)
+				17	MCCLELLAN-GW.AF.MIL      X.25         
+					 CISCO-AGS(UNIX)
+				29	MCCLELLANT20.DDN.MIL                  
+					 (UNIX)
+24    JOHNSVILLE-NASNAVY           0	JOHNSVILLE.MT.DDN.MIL    DH           
+					 C/30(TAC)
+				7	DMADP.DMA.MIL            X.25         
+					 UNISYS(MCP)
+				8	CSC3.DMA.MIL             X.25         
+					 IBM(UNIX)
+				9	NAPC-GW.NAVY.MIL         X.25         
+					 CISCO-AGS(UNIX)
+				10	AYDIN1.DISA.MIL          X.25         
+					 (AMOS)
+				11	PHLASO.NAVY.MIL          X.25         
+					 TANDEM(GUARDIAN)
+				18	JOHNSVILLET20.DDN.MIL                 
+					 (UNIX)
+				24	WARMINSTER-GW1.NAVY.MIL  X.25         
+					 CISCO-AGS(CISCO)
+25    CROUGHTON-RAF AF             0	CROUGHTON.MT.DDN.MIL     DH           
+					 C/30(TAC)
+				6	UPPERHEYFORD-GW.AF.MIL   X.25         
+					 CISCO-AGS(UNIX)
+26    PENTAGON      AF             0	PENTAGON.MT.DDN.MIL      DH           
+					 C/30(TAC)
+				5	BELVOIR-GW3.ARMY.MIL                  
+					 CISCO-GATEWAY(AGS-2)
+				8	DIPC-DAO.DIPCW.DISA.MIL  X.25         
+					 CISCO-GATEWAY()
+				10	SCREEN.ARPA.MIL                       
+					 CISCO(CISCO)
+				12	NAVELEXNET-CRYSTAL.NAVY.MILX.25         
+					 WANG-VS100(VS)
+				13	OSI-GW.DISA.MIL          X.25         
+					 CISCO-AGS(CISCO)
+				14	DODDS-WASH.AF.MIL        X.25         
+					 HP-9000(HP-UX)
+				15	SDS-FEPWASH.NAVY.MIL                  
+					 HP-3000/68(MPE)
+28    ELMENDORF-AFB AF             0	ELMENDORF.MT.DDN.MIL     DH           
+					 C/30(TAC)
+				5	FTRCRDSN-MPRJSS.ARMY.MIL X.25         
+					 ()
+				16	RICHARDSON-GW1.ARMY.MIL  X.25         
+					 CISCO(AGS)
+29    ABERDEEN      ARMY           0	ABERDEEN.MT.DDN.MIL      DH           
+					 C/30(TAC)
+				2	ARL.ARMY.MIL             DH           
+					 VAX-11/780(UNIX)
+				3	ARL.ARMY.MIL             DH           
+					 VAX-11/780(UNIX)
+				8	APGEA-GW1.ARMY.MIL                    
+					 CISCO-AGS(CISCO)
+				17	ABERDEENT20.DDN.MIL                   
+					 (UNIX)
+				19	APG-GW.ARMY.MIL          X.25         
+					 CISCO-AGS(AGS-2)
+37    FT-MCPHERSON  ARMY           0	MCPHERSON.MT.DDN.MIL     DH           
+					 C/30(TAC)
+				11	SORAAA.ARMY.MIL          X.25         
+					 SPERRY-5000/80(UNIX)
+				13	FTGORDON-JTELS.ARMY.MIL  X.25         
+					 HP-3000/42(MPE)
+				24	DOBBINS-GW.AF.MIL        X.25         
+					 CISCO-MGS(CISCO-MGS)
+				29	FTMCPHERSONT20.DDN.MIL                
+					 (UNIX)
+38    GREAT-LAKES   NAVY           0	GREAT-LAKES.MT.DDN.MIL                
+					 C/30(TAC)
+				6	CNET-GRLP0210.NAVY.MIL   X.25         
+					 WANG-PC(MS-DOS)
+				11	NETPMSA-GTLAKES3.NAVY.MILX.25         
+					 WANG-PC(PCOS)
+				26	ROCKI-GW1.ARMY.MIL       X.25         
+					 CISCO-AGS(GS2-BRX)
+				28	GREATLAKES-GW1.ARMY.MIL               
+					 CISCO-GATEWAY(AGS)
+				30	HCGL1-GW.NAVY.MIL        X.25         
+					 CISCO()
+39    EDWARDS-AFB   AF             0	EDWARDS.MT.DDN.MIL       DH           
+					 C/30(TAC)
+41    REDSTONE      ARMY           0	REDSTONE.MT.DDN.MIL      LH           
+					 C/30(TAC)
+				26	REDSTONE-GW1.ARMY.MIL    X.25         
+					 CISCO(AGS)
+				29	REDSTONET20.DDN.MIL                   
+					 (UNIX)
+				30	REDSTONE-GW2.ARMY.MIL                 
+					 CISCO(AGS)
+43    FT-SHAFTER-MILNETARMY           0	SHAFTER.MT.DDN.MIL                    
+					 C/30(TAC)
+				6	PEPO41.ARMY.MIL          X.25         
+					 PROTOCOM-P2500()
+				15	FTSNIPR.DISA.MIL                      
+					 CISCO(AGS)
+				19	SHAFTER-GW1.ARMY.MIL     X.25         
+					 CISCO-AGS(CISCO)
+				31	DFAS-PAC.ARMY.MIL                     
+					 CISCO(CISCO)
+44    ORLANDO       NAVY           0	ORLANDO.MT.DDN.MIL       DH           
+					 C/30(TAC)
+				29	NTSC-IELN-GW.NAVY.MIL    X.25         
+					 CISCO-CGS(UNIX)
+				30	NTSC-RD.NAVY.MIL         X.25         
+					 VAX-3600(VMS)
+45    DOVERNJ       ARMY           0	DOVERNJ.MT.DDN.MIL       LH           
+					 C/30(TAC)
+				31	PICATINNY-GW1.ARMY.MIL   X.25         
+					 CISCO-GATEWAY(AGS-2)
+47    WRIGHTPAT-AFB AF             0	WRIGHTPAT.MT.DDN.MIL     LH           
+					 C/30(TAC)
+				17	WRIGHTPATT-1T20.DDN.MIL               
+					 (UNIX)
+50    ALEXANDRIA    ARMY           0	ALEXANDRIA.MT.DDN.MIL    LH           
+					 C/30(TAC)
+				4	DTIC-GW.DTIC.DLA.MIL     X.25         
+					 CISCO-AGS(CISCO)
+				6	NGBISA1-GW.ARMY.MIL      X.25         
+					 CISCO-AGS-2(UNIX)
+				8	FLSCHRCH-GW1.ARMY.MIL                 
+					 CISCO-AGS(UNIX)
+				11	ONR-HQ.NAVY.MIL          V.35         
+					 IBM-4381(VM)
+				12	RIYADH-GW1.ARMY.MIL                   
+					 CISCO-GATEWAY(AGS-2)
+				16	HOFFMAN-MIL-80X-GW.ARMY.MILX.25         
+					 CISCO(AGS)
+				29	ALEX-GW1.ARMY.MIL                     
+					 CISCO-GATEWAY(AGS-2)
+51    RANDOLPH2-AFB AF             0	RANDOLPH2.MT.DDN.MIL     DH           
+					 C/30(TAC)
+				4	RANDOLPH-PIV-1.AF.MIL    X.25         
+					 SPERRY-1100/60()
+52    RANDOLPH3-AFB AF             0	RANDOLPH3.MT.DDN.MIL     DH           
+					 C/30(TAC)
+53    EGLIN-AFB     AF             0	EGLIN.MT.DDN.MIL         LH           
+					 C/30(TAC)
+				19	EGLINT20.DDN.MIL                      
+					 (UNIX)
+54    FT-DETRICK    ARMY           0	DETRICK.MT.DDN.MIL       DH           
+					 C/30(TAC)
+				4	FTDETRCK-GW1.ARMY.MIL                 
+					 CISCO-AGS(AGS)
+				9	KUWAIT-GW1.ARMY.MIL      X.25         
+					 CISCO-AGS(UNIX)
+				10	MOBILE-GW1.ARMY.MIL                   
+					 CISCO(UNIX)
+				17	GW-DETRICK1.DISA.MIL     X.25         
+					 CISCO(CISCO)
+				29	DETR-IP.DDN.MIL          X.25         
+					 CISCO-AGS(UNIX)
+				30	FTDETRICKT20.DDN.MIL                  
+					 (UNIX)
+59    SCOTT-AFB     AF             0	SCOTT.MT.DDN.MIL         LH           
+					 C/30(TAC)
+				7	DECCO.DISA.MIL           X.25         
+					 WANG-VS100(WANG)
+				8	SPRNGFLD-GW.ARMY.MIL     X.25         
+					 CISCO(AGS-2)
+				9	DECCO-DOLS.DISA.MIL      X.25         
+					 IBM-4381(MVS)
+				12	DMCSG1.STL.DISA.MIL      X.25         
+					 CISCO-AGS()
+				13	STLOUIS-GW2.ARMY.MIL                  
+					 CISCO-GATEWAY(AGS)
+60    FT-MONMOUTH   ARMY           0	MONMOUTH.MT.DDN.MIL      LH           
+					 C/30(TAC)
+				7	SENECA-GW1.ARMY.MIL                   
+					 CISCO-GATEWAY(AGS-2)
+				10	BAYONNE-GW1.ARMY.MIL     X.25         
+					 CISCO-AGS(CISCO)
+				18	LAKEHURST1-GW.NAVY.MIL                
+					 CISCO-AGS(CISCO)
+				19	LAKEHURST2.NAVY.MIL      X.25         
+					 CISCO-AGS(VMS)
+61    SAINT-LOUIS   ARMY           0	SAINT-LOUIS.MT.DDN.MIL   LH           
+					 C/30(TAC)
+				4	DMAAC-PHIV.DMA.MIL       X.25         
+					 SPERRY-1100(OS1100)
+				5	DMAACGAD.DMA.MIL         X.25         
+					 UNISYS(MCP)
+				11	PINEBLFF-GW1.ARMY.MIL                 
+					 CISCO-AGS(GS)
+				13	STLOUIS-GW3.ARMY.MIL     X.25         
+					 CISCO(AGS)
+				14	DMAAC-DDMS.DMA.MIL                    
+					 IBM(UNIX)
+				18	ST-LOUIS-GW.ARMY.MIL     X.25         
+					 CISCO-AGS()
+65    EL-SEGUNDO    AF             0	EL-SEGUNDO.MT.DDN.MIL    DH           
+					 C/30(TAC)
+				11	CHARM.ISI.EDU                         
+					 SUN-4(SUNOS)
+				13	EL-TORO.OGDEN.DRMS.DLA.MILX.25         
+					 ATT-3B2(UNIX)
+				16	LPA024.NAVY.MIL          X.25         
+					 HONEYWELL-XPS(UNIX)
+				29	ELSEGUNDOT20.DDN.MIL                  
+					 (UNIX)
+				31	EL-SEGUNDO-IP.DDN.MIL    X.25         
+					 CISCO(CISCO)
+67    ANDREWS-AFB   AF             0	ANDREWS.MT.DDN.MIL       DH           
+					 C/30(TAC)
+				4	PEOCU-GW.PEOCU.NAVY.MIL  X.25         
+					 CISCO-MGS(GS2-BRX)
+				8	NAVELEXNET-WARD.NAVY.MIL X.25         
+					 IBM-4341(WANG)
+				9	NHIS.NCTSW.NAVY.MIL      X.25         
+					 VAX-11/750(VMS)
+				14	OSI-GW.DISA.MIL          X.25         
+					 CISCO-AGS(CISCO)
+				16	SDS-CDA1.NAVY.MIL        X.25         
+					 HP-3000(MPE-V)
+70    ARLINGTON-DCAOC2DCA            0	CMSC.DDN.MIL             1822         
+					 BBN-C/70(OS)
+				7	NBS-ONET.NAVY.MIL        X.25         
+					 ATT-3B2-600G(UNIX)
+				8	NAVYYARD-ONET.NAVY.MIL   X.25         
+					 ALTOS-3068(UNIX)
+				18	CMMC-BBN.DDN.MIL         X.25         
+					 SUN-380(SUN)
+				29	CMMC-IPR.DDN.MIL         X.25         
+					 SUN-II(SUN)
+				30	MCT20.DDN.MIL            X.25         
+					 BBN-T/20(UNIX)
+71    TINKER-AFB    AF             0	TINKER.MT.DDN.MIL        DH           
+					 C/30(TAC)
+				6	EDCARS-OC.AF.MIL         X.25         
+					 NCR-COMTEN-3690(MVS)
+				11	VANCE-GW.AF.MIL          X.25         
+					 CISCO(UNIX)
+				15	DISG1.TINKER.AF.MIL                   
+					 CMC/DRN-3200(UNIX)
+72    CAMBRIDGE3    DCA            12	BBN-MIL-GW2.DDN.MIL                   
+					 BBN-T200-ROUTER(WELLFLEET)
+				18	BBNT20.DDN.MIL                        
+					 BBN-T/20(UNIX)
+74    WHITE-SANDS   ARMY           5	WSMR-GW2.ARMY.MIL                     
+					 SUN(UNIX)
+76    ARLINGTON-DCAOC#1DCA            0	CMMC.DDN.MIL             DH           
+					 BBN-C/70(UNIX)
+				1	DDN-CONUS.DDN.MIL        DH           
+					 BBN-C/70(UNIX)
+				3	DCAOC.MT.DDN.MIL         DH           
+					 C/30(TAC)
+				4	ALEXGATE.MED.OSD.MIL                  
+					 CISCO()
+				6	BELVOIR-IGNET2.ARMY.MIL  X.25         
+					 CONVERGENT-TECH-CN-1000(CTOS)
+				7	COMSTATE-TEST.DDN.MIL    X.25         
+					 BBN-C/70(UNIX)
+				10	PENTAGON-BCN.ARMY.MIL    X.25         
+					 SUN-360(UNIX)
+				29	SUN-CDMC2.DISA.MIL       X.25         
+					 SUN(SUNOS)
+77    ZAMA          ARMY           0	ZAMA.MT.DDN.MIL          LH           
+					 C/30(TAC)
+				14	NCPDS-IWAKUNI.NAVY.MIL   X.25         
+					 DCP/O5(DCP/0S)
+				19	CPZAMA-JACS6350.ARMY.MIL X.25         
+					 HP-3000/42(MPE-V)
+				27	ZAMA-GW1.ARMY.MIL        X.25         
+					 CISCO()
+				29	SAGAMI.PACIFIC.DRMS.DLA.MILX.25         
+					 (MULTICS)
+				30	CPZAMAT20.DDN.MIL                     
+					 (UNIX)
+78    PUGET-SOUND-NSBNAVY           0	PUGET-SOUND.MT.DDN.MIL                
+					 C/30(TAC)
+				4	PGTNSC.NAVY.MIL          X.25         
+					 TANDEM(GUARDIAN)
+				5	BREMERTON-GW.MRMS.NAVY.MIL             
+					 CISCO(UNIX)
+				6	RPA05.NAVY.MIL           X.25         
+					 HONEYWELL-XPS(UNIX)
+79    FT-BENNING    ARMY           0	BENNING.MT.DDN.MIL       DH           
+					 C/30(TAC)
+				15	CAMNET-COLUMBUS-R02.AF.MILX.25         
+					 WANG-PC(VS)
+				30	BENNING-GW1.ARMY.MIL                  
+					 CISCO-GATEWAY(AGS-2)
+80    FT-BRAGG      ARMY           0	BRAGG.MT.DDN.MIL         DH           
+					 C/30(TAC)
+				6	RAA13.NAVY.MIL           X.25         
+					 HONEYWELL-XPS(UNIX)
+				7	ARO-GW.ARMY.MIL          X.25         
+					 CISCO(CISCO)
+				9	RALEIGH-NGNET.ARMY.MIL   X.25         
+					 CISCO(IOS)
+				27	USASOC.SOC.MIL           DH           
+					 SUN-4/490(UNIX)
+				28	USASOC.GW.SOC.MIL        X.25         
+					 CISCO-AGS(AGS)
+81    CARDEROCK     NAVY           0	CARDEROCK.MT.DDN.MIL     LH           
+					 C/30(TAC)
+				5	DMACSC.DMA.MIL           X.25         
+					 UNISYS(MCP)
+				11	SUNA.DIPCW.DISA.MIL      X.25         
+					 SUN-3/280(SUNOS)
+				24	VINTHILL-GW1.ARMY.MIL                 
+					 ()
+82    BUCKNER       DCA            0	BUCKNER.MT.DDN.MIL                    
+					 C/30(TAC)
+				4	RPA09.NAVY.MIL           X.25         
+					 HONEYWELL-XPS(UNIX)
+				5	OKINAWA-BUMED.NAVY.MIL   X.25         
+					 ATT-3B2(UNIX)
+				6	NCPDS-BUTLER.NAVY.MIL    X.25         
+					 UNISYS(OS)
+				7	SDS-OKINAWA.NAVY.MIL                  
+					 HP-3000()
+				8	SDS-DIEGOGRC.NAVY.MIL                 
+					 ()
+				10	DODDS-PAC.AF.MIL         X.25         
+					 ATT-3B2-600G()
+				11	OKINAWA.PACIFIC.DRMS.DLA.MILX.25         
+					 ATT-3B2-600G(MULTICS)
+				16	OKR-GW1.USMC.MIL                      
+					 CISCO-AGS(GS2-BRX)
+				17	BUCKNER-GW1.ARMY.MIL     X.25         
+					 CISCO-AGS(UNIX)
+				19	DGARCIA-GW.NAVY.MIL                   
+					 CISCO(UNIX)
+83    ROBINS2-AFB   AF             0	ROBINS2.MT.DDN.MIL       LH           
+					 C/30(TAC)
+				10	ROBINS-AM1.AF.MIL        X.25         
+					 WANG-VS100(VS)
+				26	WRAFEMS3.HQ.AFLC.AF.MIL  X.25         
+					 SPERRY-DCP/40(OS)
+85    CHINALAKE-NWC NAVY           0	CHINALAKE.MT.DDN.MIL     LH           
+					 C/30(TAC)
+				25	RPAXA.NAVY.MIL           X.25         
+					 HONEYWELL-XPS()
+				26	LPA025.NAVY.MIL          X.25         
+					 HONEYWELL-XPS(UNIX)
+				29	NWC-GW.NAVY.MIL          DH           
+					 CMC/DRN-3200()
+86    LOWRY-AFB     AF             0	LOWRY.MT.DDN.MIL         DH           
+					 C/30(TAC)
+91    CAPODICHINO   NAVY           0	CAPODICHINO.MT.DDN.MIL   DH           
+					 C/30(TAC)
+				4	NAPLES-BUMED.NAVY.MIL    X.25         
+					 ATT-3B2-600G(UNIX)
+				5	AGNANO.MT.DDN.MIL        LH           
+					 C/30(TAC)
+				6	NAPLES-NCPDS.NAVY.MIL    X.25         
+					 PROTOCOM-P2500()
+				7	RAPIDS-NAPLES.NAVY.MIL                
+					 ()
+				8	NAPLES-PASS-SDS.NAVY.MIL              
+					 ATT-3B2(UNIX)
+				17	CPO-LINK-GW.EUCOM.MIL    X.25         
+					 SUN(UNIX)
+				31	IPR-CPO-GW.DISA.MIL                   
+					 ()
+92    NEWPORT-NUSC  NAVY           0	NEWPORT.MT.DDN.MIL       DH           
+					 C/30(TAC)
+				6	HCNEW1-GW.NAVY.MIL                    
+					 CISCO-GATEWAY()
+				15	HARTFORD-GW.ARMY.MIL                  
+					 CISCO-GATEWAY(AGS-2)
+				16	SDS-NEWLNDA.NAVY.MIL     X.25         
+					 HP-3000/68(UBMIT)
+				17	NL-GW.NUSC.NAVY.MIL      DH           
+					 CISCO-MGS(PPE)
+				18	LORING-GW.AF.MIL                      
+					 CISCO-AGS(UNIX)
+96    COROZAL       ARMY           0	COROZAL.MT.DDN.MIL       DH           
+					 C/30(TAC)
+				6	FTCLAYTON-MPRJSS.ARMY.MILX.25         
+					 ()
+				8	PANAMA.MEMPHIS.DRMS.DLA.MILX.25         
+					 ATT-3B2-600G(UNIX)
+				9	HOWARD-GW.AF.MIL         X.25         
+					 CISCO-MGS(UNIX)
+				12	GSA-PANAMA.DDN.MIL       X.25         
+					 CISCO(CISCO)
+				15	FTCLAYTNPM-GW1.ARMY.MIL  EGP,IP/GW    
+					 CISCO(AGS-2)
+98    MACDILL-AFB   AF             0	MACDILL.MT.DDN.MIL       HDH          
+					 C/30(TAC)
+				9	BUCHAN-MPRJSS.ARMY.MIL   X.25         
+					 ()
+				11	ROOSEVELT-ROADS.MEMPHIS.DRMS.DLA.MILX.25         
+					 ATT-3B2-600G(UNIX)
+				12	PR-NGNET.ARMY.MIL        X.25         
+					 SPERRY-5000/95(UNIX)
+				14	NCPDS-PR.NAVY.MIL        X.25         
+					 DCP/O5(DCP/0S)
+				15	NCPDS-CUBA.NAVY.MIL      X.25         
+					 PROTOCOM-P250(MCP)
+102   WHITE-OAK-NSWCNAVY           0	WHITE-OAK.MT.DDN.MIL     DH           
+					 C/30(TAC)
+				5	DIPC-GW2.DIPCW.DISA.MIL  X.25         
+					 CISCO-GATEWAY()
+				10	CSC1.DMA.MIL             X.25         
+					 IBM(OS)
+				24	ADELPHI-GW1.ARMY.MIL     EGP,IP/GW    
+					 CISCO-AGS(AGS-2)
+104   RESTON-DCEC   AF             0	RESTON-DCEC.MT.DDN.MIL   DH           
+					 C/30(TAC)
+				11	BLYSCSDS-GW.ARMY.MIL     X.25         
+					 CISCO(AGS-2)
+				14	JCDBS.ITSI.DISA.MIL      X.25         
+					 SUN(UNIX)
+				16	MTAC.DDN.MIL             X.25         
+					 AYDIN(AMOS)
+				17	RESTON.MMT.DDN.MIL                    
+					 ()
+				28	GW-DMS-RESTON.DISA.MIL   X.25         
+					 CISCO(CISCO)
+				29	DCEC-IP.DDN.MIL          X.25         
+					 CISCO-AGS(UNIX)
+105   OFFUTT-AFB    AF             0	OFFUTT.MT.DDN.MIL        DH           
+					 C/30(TAC)
+				8	ACFP-DOP.AF.MIL          X.25         
+					 VAX-8350(UNIX)
+107   ALEXANDRIA3   ARMY           0	ALEXANDRIA3.MT.DDN.MIL   DH           
+					 C/30(TAC)
+				6	SEAHUB.NAVSEA.NAVY.MIL   X.25         
+					 MICROVAX(VMS)
+				8	HERNGATE.MED.OSD.MIL                  
+					 CISCO(AGS)
+				10	BUPERS.NAVY.MIL          X.25         
+					 SPARCSTATION(SUNOS)
+				14	NTSC-NAVAIRHQ-GW.NAVY.MILX.25         
+					 CISCO-MGS(UNIX)
+				18	DNA-MAIL.DNA.MIL         X.25         
+					 VAX(VMS)
+				25	BELVOIR-GW3.ARMY.MIL                  
+					 CISCO-GATEWAY(AGS-2)
+				28	BELVOIR-IP-GW.DDN.MIL    EGP,IP/GW    
+					 CISCO-AGS()
+				29	HOFFMAN-MIL80X.ARMY.MIL  X.25         
+					 NCR-COMTEN-5620(COS2)
+				30	HOFFMAN-MIL-80X-GW.ARMY.MILX.25         
+					 CISCO(AGS)
+108   NORFOLK-NAS   NAVY           0	NORFOLK.MT.DDN.MIL       DH           
+					 C/30(TAC)
+				4	UNEOC-GW.NAVY.MIL        X.25         
+					 CISCO-4000(UNIX)
+				6	HCNOR1-GW.NAVY.MIL       X.25         
+					 CISCO-GATEWAY(CISCO)
+				13	PORTSIS.NAVY.MIL         X.25         
+					 WANG-VS100(VS)
+				17	MOCCE.NAVY.MIL           X.25         
+					 HONEYWELL-XPS(UNIX)
+				30	NCTAMSLANT.NAVY.MIL      X.25         
+					 VAX-11/750(VMS)
+110   JACKSONVILLE-NASNAVY           0	JACKSONVILLE.MT.DDN.MIL  DH           
+					 C/30(TAC)
+				9	NAVELEXNET-CHASN.NAVY.MILX.25         
+					 WANG-VS100(WANG)
+				16	SDS-JAXVLEA.NAVY.MIL     X.25         
+					 HP-3000/70(MPE-V)
+				18	HCJC1-GW.NAVY.MIL                     
+					 CISCO-GATEWAY(AGS)
+				25	RAA14.NAVY.MIL           X.25         
+					 HONEYWELL-XPS(UNIX)
+111   DAVIS-MONTHAN-AFBAF             0	DAVIS-MONTHAN.MT.DDN.MIL DH           
+					 C/30(TAC)
+				5	HUACHUCA-GW3.ARMY.MIL                 
+					 CISCO-AGS(UNIX)
+				6	DM-PIV-1.AF.MIL          X.25         
+					 SPERRY-DCP/40(OS1100)
+				13	YUMA-GW.ARMY.MIL         X.25         
+					 CISCO(AGS)
+112   SAINT-LOUIS2  ARMY           0	SAINT-LOUIS2.MT.DDN.MIL  DH           
+					 C/30(TAC)
+113   ANNISTON      ARMY           0	ANNISTON.MT.DDN.MIL      DH           
+					 C/30(TAC)
+				31	ANNISTON-GW.ARMY.MIL     X.25         
+					 CISCO(AGS-2)
+114   NEW-CUMBERLANDARMY           0	NEWCUMBERLND.MT.DDN.MIL  DH           
+					 C/30(TAC)
+				3	NEWCMBRLND2.MT.DDN.MIL   DH           
+					 C/30(TAC)
+				16	NCAD-EMH3.ARMY.MIL       X.25         
+					 SPERRY-5000/80(UNIX)
+				25	ASIMS-TN1.CHA.DISA.MIL   X.25         
+					 AMDAHL-5890(MVS)
+				27	TOBY-GW1.ARMY.MIL        X.25         
+					 CISCO(AGS-2)
+				29	NCMBRLND-GW1.ARMY.MIL                 
+					 CISCO(AGS-2)
+				30	NEWCUMBERLANDT20.DDN.MIL              
+					 (UNIX)
+117   CP-WALKER     ARMY           0	WALKER.MT.DDN.MIL        DH           
+					 C/30(TAC)
+				5	PUSAN.PACIFIC.DRMS.DLA.MILX.25         
+					 (UNIX)
+				6	NMPC-CF.NAVY.MIL         X.25         
+					 DCP/O5(DCP/0S)
+				8	TAEGU-JACS6409.ARMY.MIL  X.25         
+					 HP-3000/42(MPE-V)
+				9	LPA017.NAVY.MIL          X.25         
+					 HONEYWELL-XPS(UNIX)
+				10	KURE-GW1.ARMY.MIL        X.25         
+					 CISCO(UNIX)
+				17	WALKER-NIPR.DDN.MIL                   
+					 CISCO-AGS(CISCO)
+				18	WALKER-GW1.KOREA.ARMY.MILX.25         
+					 CISCO-AGS-2(UNIX)
+				19	KUNSAN-GW.AF.MIL         X.25         
+					 ()
+120   DUGWAY        ARMY           0	DUGWAY.MT.DDN.MIL        DH           
+					 C/30(TAC)
+				2	DUGWAY-EMH2.ARMY.MIL     DH           
+					 VAX-11/785(VMS)
+				4	CHEYENNE-GW.ARMY.MIL                  
+					 AGS(AGS-2)
+				7	DUGWAY-GW1.ARMY.MIL      X.25         
+					 CISCO(AGS-2)
+				8	TOOELE-GW1.ARMY.MIL      NA           
+					 CISCO-AGS(AGS)
+				14	OGDEN-DAISY.DLA.MIL      X.25         
+					 ()
+121   ALAMEDA       NAVY           0	ALAMEDA.MT.DDN.MIL       DH           
+					 C/30(TAC)
+				6	HCSF1-GW.NAVY.MIL                     
+					 CISCO-GATEWAY(CISCO)
+				15	PSDSNFNC-GW1.ARMY.MIL    X.25         
+					 CISCO(AGS-2)
+				17	SDS-PUGETA.NAVY.MIL      X.25         
+					 HP-3000/70(MPE)
+				30	SDS-SANFRNA.NAVY.MIL     X.25         
+					 HP-3000/70(MPE)
+122   FT-HUACHUCA   ARMY           2	HUACHUCA.MT.DDN.MIL      DH           
+					 C/30(TAC)
+				8	JITC.DISA.MIL            X.25         
+					 CISCO-GATEWAY(GS)
+				9	HUACHUCA-GW.ARMY.MIL     X.25         
+					 CISCO-68000(CISCO)
+				10	HUACHUCA-EMH5.ARMY.MIL   X.25         
+					 UNISYS-5000/80(UNIX)
+				11	GITN-JITC-GW1.DISA.MIL   X.25         
+					 ()
+				24	HUACHUCA-GW4.ARMY.MIL                 
+					 CISCO-AGS-2(UNIX)
+				25	HUACHUCA-IP.DDN.MIL                   
+					 CISCO-AGS-2(UNIX)
+				29	HUACHUCA-GW2.ARMY.MIL                 
+					 CISCO-AGS(UNIX)
+123   WRIGHTPAT2-AFBAF             0	WRIGHTPAT2.MT.DDN.MIL    DH           
+					 C/30(TAC)
+				7	SDS-FEPCLEV.NAVY.MIL     X.25         
+					 HP-3000/68(DDNOS)
+				14	EDCARS-WP.AF.MIL         X.25         
+					 ACC-ACS-4020(PPE)
+				19	WRIGHTPATT-2.DDN.MIL                  
+					 (UNIX)
+125   FT-LEAVENWORTHARMY           0	LEAVENWORTH.MT.DDN.MIL   DH           
+					 C/30(TAC)
+				17	LEAV-GW.ARMY.MIL         X.25         
+					 CISCO-AGS(AGS)
+				18	LEAVENWORTHT20.DDN.MIL                
+					 ()
+126   MONTEREY2     NAVY           0	MONTEREY2.MT.DDN.MIL     DH           
+					 C/30(TAC)
+				7	GAMMA.NPS.NAVY.MIL                    
+					 CISCO(CISCO)
+				10	ROBERTS-GW1.ARMY.MIL                  
+					 AGS(UNIX)
+				18	KNWC.NAVY.MIL            X.25         
+					 SUN-4(UNIX)
+127   HANSCOM2-FLD  AF             0	HANSCOM2.MT.DDN.MIL      1822DH       
+					 C/30E(TAC)
+				4	GTE-EDCD2.DDN.MIL        X.25         
+					 VAX-8700(VMS)
+				5	GTE-EDCD.DDN.MIL         X.25         
+					 VAX-8700(VMS)
+128   SUNNYVALE     AF             0	ONIZUKA.MT.DDN.MIL       DH           
+					 C/30(TAC)
+				9	LPA153.NAVY.MIL          X.25         
+					 HONEYWELL-XPS(UNIX)
+				15	CARSON-GW.ARMY.MIL                    
+					 CISCO(AGS-2)
+129   FT-BENHARRISONARMY           3	BENHARRISON.MT.DDN.MIL                
+					 C/30(TAC)
+				4	DSAC1.DLANET.DLA.MIL                  
+					 COMTEN-3690(COS2)
+				7	INDPLS-ASAFM1.ARMY.MIL   X.25         
+					 VAX-8650(VMS)
+				16	RCC-NAC.NAVY.MIL         X.25         
+					 (UNIX)
+				25	FTBNHRSN-MPRJSS2.ARMY.MILX.25         
+					 ADVINTECH(MVS/XA)
+				26	FTBNHRSN-MPRJSS1.ARMY.MILX.25         
+					 ADVINTECH(MVS/XA)
+130   FT-DIX        ARMY           0	DIX.MT.DDN.MIL           DH           
+					 C/30(TAC)
+				11	DOVER-AM2.AF.MIL         X.25         
+					 WANG-PC(VS)
+132   FT-SILL       ARMY           0	SILL.MT.DDN.MIL          DH           
+					 C/30(TAC)
+				5	OKLAHMCY-GW.ARMY.MIL                  
+					 CISCO(AGS)
+				25	FTSILL-GW1.ARMY.MIL                   
+					 CISCO-GATEWAY(AGS-2)
+136   MILDENHALL-RAFAF             0	MILDENHALL.MT.DDN.MIL    DH           
+					 C/30(TAC)
+				5	CHICKSANDS.MMT.DDN.MIL                
+					 MINITAC-4200()
+				7	FLX-LINK.DLA.MIL         X.25         
+					 ATT-3B2(UNIX)
+				8	NCPDS-ICELAND.NAVY.MIL   X.25         
+					 DCP/O5(DCP/0S)
+				12	ALCONBURY-GW.AF.MIL      X.25         
+					 CISCO(UNIX)
+				15	SHAPE-MEPRS.ARMY.MIL     X.25         
+					 ATT-3B2-600G(UNIX)
+				17	MILDENHALL-GW.AF.MIL     X.25         
+					 CISCO-AGS(UNIX)
+138   LANGLEY-AFB   AF             0	LANGLEY.MT.DDN.MIL                    
+					 C/30(TAC)
+				24	FTMONROE-GW1.ARMY.MIL    EGP,IP/GW    
+					 CISCO-AGS(AGS)
+139   KELLY-AFB     AF             0	KELLY.MT.DDN.MIL         DH           
+					 C/30(TAC)
+				13	AFCSCNET.AF.MIL          X.25         
+					 SPARCSTATION(SUN)
+				26	KELLY1-GW.AF.MIL         X.25         
+					 CISCO-MGS()
+				30	SADIS01.AF.MIL                        
+					 PYRAMID-9820(UNIX)
+141   ANDERSEN-AFB  AF             0	ANDERSEN.MT.DDN.MIL      DH           
+					 C/30(TAC)
+				4	GUAM-BUMED.NAVY.MIL      X.25         
+					 ATT-3B2(UNIX)
+				5	NCPDS-AGAT.NAVY.MIL      X.25         
+					 DCP/O5(DCP/0S)
+				6	GUANSD2.NAVY.MIL         X.25         
+					 TANDEM-TXP(GUARDIAN)
+				19	ANDERSEN-GW.AF.MIL       X.25         
+					 CISCO-AGS(UNIX)
+145   WHEELER       DCA            0	WHEELER.MT.DDN.MIL                    
+					 C/30(TAC)
+				1	PMMC1.DDN.MIL            DH           
+					 BBN-C/70(UNIX)
+				3	DDN-PAC.DDN.MIL          1822DH       
+					 SUN(UNIX)
+				20	PMMC2.DDN.MIL            1822DH       
+					 C/30P(UNIX)
+				29	WINDWARD.GTE-PAC.COM     X.25         
+					 CISCO(SUNOS)
+				30	PACM-GW.DISA.MIL                      
+					 CISCO()
+147   FT-SAM-HOUSTONARMY           0	SAM-HOUSTON.MT.DDN.MIL   DH           
+					 C/30(TAC)
+				1	SAM-HOUSTO-EMH1.ARMY.MIL 1822         
+					 VAX-11/780(VMS)
+				4	FTSMHSTN-IGNET.ARMY.MIL  X.25         
+					 CONVERGENT-TECH-CN-1000(CTOS)
+				19	FTSMHSTN-GW2.ARMY.MIL                 
+					 CISCO(AGS-2)
+				28	RANDOLPH-IP.DDN.MIL                   
+					 CISCO-AGS()
+148   OAKLAND-NSC   NAVY           0	OAKLAND.MT.DDN.MIL       DH           
+					 C/30(TAC)
+				5	MSCPAC-GW.NAVY.MIL       X.25         
+					 CISCO(UNIX)
+				9	TRACY.DCTN.DLA.MIL       X.25         
+					 CISCO(CISCO)
+				14	CASTLE-GW.AF.MIL         X.25         
+					 CISCO-AGS(UNIX)
+				15	VALLEJ01.NAVY.MIL        X.25         
+					 WANG(WANG)
+				19	OAKLANDT20.DDN.MIL                    
+					 (UNIX)
+149   PHILADELPHIA-ASONAVY           0	PHILADELPHIA.MT.DDN.MIL  DH           
+					 C/30(TAC)
+				11	INDAP-GW1.ARMY.MIL                    
+					 CISCO(UNIX)
+151   DENVER        ARMY           0	DENVER.MT.DDN.MIL        DH           
+					 C/30(TAC)
+152   MECHANICSBURG NAVY           0	MECHANICSBURG.MT.DDN.MIL DH           
+					 C/30(TAC)
+				4	MCHSPC.NAVY.MIL          X.25         
+					 TANDEM(GUARDIAN)
+				18	LTTRKNNY-GW2.ARMY.MIL                 
+					 CISCO(AGS-2)
+				29	HCMEC1-GW.NAVY.MIL                    
+					 CISCO-GATEWAY()
+153   ROCK-ISLAND   ARMY           0	ROCK-ISLAND.MT.DDN.MIL   DH           
+					 C/30(TAC)
+				9	INDY.NAVY.MIL            X.25         
+					 VAX-8250(VMS)
+				13	ROCKI-GW2.ARMY.MIL       X.25         
+					 CISCO-AGS(GS)
+155   DARBY2-KASERNEARMY           0	DARBY.MT.DDN.MIL         DH           
+					 C/30(TAC)
+				9	BAMBERG.MMT.DDN.MIL                   
+					 ()
+				11	NUERNBERG.EUROPE.DRMS.DLA.MIL             
+					 CISCO(UNIX)
+				12	SHAPE-MPRJSS.ARMY.MIL    X.25         
+					 (UNIX)
+				14	ILLESHEM.MMT.DDN.MIL                  
+					 ()
+156   COLTANO       ARMY           0	COLTANO.MT.DDN.MIL       DH           
+					 C/30(TAC)
+				4	LIVORNO-GW1.ARMY.MIL     X.25         
+					 CISCO-AGS-2(UNIX)
+				5	DODDS-MED.AF.MIL         X.25         
+					 ATT-3B2-600G(UNIX)
+				9	LAMADALENA-NCPDS.NAVY.MILX.25         
+					 UNISYS(OS)
+158   PENSACOLA-NAS NAVY           0	PENSACOLA.MT.DDN.MIL     DH           
+					 C/30(TAC)
+				6	CNET-PENW0003.NAVY.MIL   X.25         
+					 WANG-VS100(VS)
+				13	NARFPNS.NAVY.MIL         X.25         
+					 VAX-8530(VMS)
+				15	PENR1398-GW.CNET.NAVY.MILX.25         
+					 CISCO-AGS(CISCO)
+				16	NTSC-PEN-GW.NAVY.MIL     X.25         
+					 CISCO-CGS(V)
+				27	PENNDC.NAVY.MIL          X.25         
+					 TANDEM(GUARDIAN)
+				29	PENSACOLA-GW1.NAVY.MIL   X.25         
+					 CISCO-AGS(CISCO)
+				31	PSNTESTBED-900-GW.NAVY.MILX.25         
+					 CISCO-CSC2(UNIX)
+159   FT-LEWIS      ARMY           0	LEWIS.MT.DDN.MIL         DH           
+					 C/30(TAC)
+				19	FTLEWIST20.DDN.MIL                    
+					 (UNIX)
+				25	PGTNSC.NAVY.MIL          X.25         
+					 TANDEM(GUARDIAN)
+				29	LEWIS-IP.DDN.MIL                      
+					 CISCO-AGS-2()
+				31	FTLEWIS-GW1.ARMY.MIL     EGP          
+					 CISCO-GATEWAY(AGS-2)
+160   BATTLECREEK   AF             0	BATTLECREEK.MT.DDN.MIL   DH           
+					 C/30(TAC)
+				25	DLSC3.DLSC.DLA.MIL       HDH          
+					 IBM(MVS)
+				27	DLSC4.DLSC.DLA.MIL       HDH          
+					 IBM-3090(MVS)
+161   NEW-ORLEANS2  NAVY           0	NEW-ORLEANS2.MT.DDN.MIL               
+					 C/30()
+				7	SENTRY.NOO.NAVY.MIL      X.25         
+					 CISCO-AGS(AGS)
+				9	SDS-NEWORLA.NAVY.MIL     X.25         
+					 HP-3000/70(MPE)
+				10	NAVRESFOR.NAVY.MIL       X.25         
+					 MICROVAX-II(VMS)
+				17	CONCGWY-GW.NAVY.MIL      X.25         
+					 CISCO()
+				30	SSA.NAVY.MIL             X.25         
+					 (UNIX)
+162   FT-CAMPBELL   ARMY           0	CAMPBELL.MT.DDN.MIL      DH           
+					 C/30(TAC)
+				17	FTCMPBLL-GW1.ARMY.MIL                 
+					 CISCO-AGS(AGS-2)
+163   FT-HOOD       ARMY           0	HOOD.MT.DDN.MIL          DH           
+					 C/30(TAC)
+164   CORPUS-CHRISTI-NASNAVY           0	CORPUS.MT.DDN.MIL        DH           
+					 C/30(TAC)
+167   NEWARK-AFB    AF             0	NEWARK.MT.DDN.MIL        DH           
+					 C/30(TAC)
+168   WAHIAWA       NAVY           0	WAHIAWA.MT.DDN.MIL       DH           
+					 C/30(TAC)
+				9	GW.PACIFIC.DRMS.DLA.MIL  X.25         
+					 CMC/DRN-3200(UNIX)
+				16	HICKAM-GW.AF.MIL         X-25         
+					 CISCO()
+				18	ITSDN.DISA.MIL                        
+					 BBN-T/20(UNIX)
+				19	SCHOFIELD-GW1.ARMY.MIL                
+					 CISCO-AGS(CISCO)
+169   DHARAN                       0	DHAHRAN.MT.DDN.MIL                    
+					 ()
+				10	TADTOWN-GW.AF.MIL        X.25         
+					 AGS(UNIX)
+				19	DHAHRAN-GW1.ARMY.MIL     X.25         
+					 CISCO-GATEWAY(AGS-2)
+170   EIELSON-AFB   AF             0	EIELSON.MT.DDN.MIL       DH           
+					 C/30(TAC)
+				4	GREELY-GW1.ARMY.MIL                   
+					 CISCO-AGS(UNIX)
+				5	FTWNWGHT-MPRJSS.ARMY.MIL X.25         
+					 ()
+				9	ED-EI.AF.MIL             X.25         
+					 HARRIS(UNIX)
+				13	FAIRBANK.OGDEN.DRMS.DLA.MILX.25         
+					 ATT-3B2(UNIX)
+				14	WAINWRIGHT-GW1.ARMY.MIL  X.25         
+					 CISCO(AGS-2)
+171   YONGSAN       ARMY           0	YONGSAN.MT.DDN.MIL       HDH          
+					 C/30(TAC)
+				5	CPCASEY-JACS6311.ARMY.MILX.25         
+					 HP-3000/42(MPE-V)
+				6	YONGSAN-JACS6411.ARMY.MILX.25         
+					 HP-3000/42(MPE-V)
+				7	CPHMPHRY-JACS5480.ARMY.MILX.25         
+					 HP-3000/42(MPE-V)
+				24	BUPYONG.PACIFIC.DRMS.DLA.MILRS-232C      
+					 ATT-3B2-600G(MULTICS)
+				29	SUWON-GW1.NAVY.MIL                    
+					 CISCO-GATEWAY(UNIX)
+				30	OSAN-GW.AF.MIL           X.25         
+					 CISCO-MGS()
+				31	SEOUL-GW1.KOREA.ARMY.MIL X.25         
+					 CISCO-AGS(UNIX)
+172   LINTHICUM-NSA                0	LINTHICUM.MT.DDN.MIL     DH           
+					 C/30E(TAC)
+				1	DOCKMASTER.NCSC.MIL      DH           
+					 HONEYWELL-DPS-8/70(MULTICS)
+				29	CHARON-GW.NCSC.MIL       X.25         
+					 CISCO-AGS(CISCO)
+173   PERLHRBR      NAVY           6	NAVMEDUCAPEARL.NAVY.MIL  X.25         
+					 DATAPOINT-8640(RMS)
+				8	NARDAC-PEARL.NAVY.MIL    X.25         
+					 SPERRY-1100/60(OS1100)
+				9	NSTCPVAX.NAVY.MIL        X.25         
+					 VAX(VMS)
+				10	CPF-DDN-GW.NAVY.MIL      X.25         
+					 MICROVAX-II(VMS)
+				11	NAVY-MISC-80.NAVY.MIL    X.25         
+					 WANG-VS65(WANG)
+				14	SIMAPH-GW.HNL.MRMS.NAVY.MIL             
+					 CISCO-AGS(CISCO)
+				24	NPMOC-GW.NAVY.MIL        X.25         
+					 CISCO-4000(UNIX)
+174   ST-INIGOES-NAVYNAVY           0	ST-INIGOES.MT.DDN.MIL    DH           
+					 C/30(TAC)
+				4	TEN2.NAVY.MIL            X.25         
+					 GOULD-9005(UTX)
+				6	MEASURE-PAX.NAVY.MIL     X.25         
+					 HONEYWELL-XPS(UNIX)
+				7	CDBF-PAX.NAVY.MIL        X.25         
+					 HONEYWELL-XPS(UNIX)
+				8	NATC-CSDRD.NAVY.MIL      X.25         
+					 CISCO(ACC)
+				10	CATS.NAVY.MIL            X.25         
+					 MICROVAX-II(VMS)
+				12	PATXNTRV-NALCCOIS.NAVY.MILX.25         
+					 VAX-8530(VMS)
+				29	NCCS-STI-GW.NAVY.MIL                  
+					 CISCO()
+175   PENDELTON-BARRACKSARMY           0	PENDELTON-BKS.MT.DDN.MIL DH           
+					 C/30(TAC)
+				4	SFT-CPO.ARMY.MIL         X.25         
+					 HONEYWELL-DPS-6/76()
+				6	BREMERHA.DSRE.DLA.MIL    X.25         
+					 ATT-3B2(UNIX)
+				10	FRIEDBRG.MMT.DDN.MIL                  
+					 ()
+				11	KIRCHGNS.MMT.DDN.MIL                  
+					 ()
+				17	GIESSEN-GW1.ARMY.MIL                  
+					 CISCO(AGS)
+176   WRIGHTPAT4-AFBAF             0	WRIGHTPAT4.MT.DDN.MIL    DH           
+					 C/30(TAC)
+				5	GW2.DAAS.DLA.MIL         X.25         
+					 CISCO(CISCO)
+				7	SDS-FEPCLEV.NAVY.MIL     X.25         
+					 HP-3000/68(DDNOS)
+				13	GW.DESC.DLA.MIL          X.25         
+					 CISCO-AGS(UNIX)
+				19	DINFOS-GW1.ARMY.MIL      X.25         
+					 ALTOS-3068(UNIX)
+177   GRAFFENWOEHR  ARMY           0	GRAFFENWOEHR.MT.DDN.MIL  DH           
+					 C/30(TAC)
+				7	GFN-IGNET.ARMY.MIL       X.25         
+					 CONVERGENT-TECH-CN-1000(CTOS)
+				8	VILSEK.MMT.DDN.MIL                    
+					 ()
+				10	BAMBERG-GW1.ARMY.MIL                  
+					 CISCO-AGS-2(UNIX)
+				12	BAMBERG-GW.ARMY.MIL      X.25         
+					 CISCO-AGS-2(UNIX)
+				14	GRAFENWOEHR-GW1.ARMY.MIL              
+					 CISCO(AGS)
+				15	ANSBACH.MMT.DDN.MIL                   
+					 ()
+178   YOKOSUKA      NAVY           0	YOKOSUKA.MT.DDN.MIL      DH           
+					 C/30(TAC)
+				5	SRFYOKO-GW.MRMS.NAVY.MIL              
+					 CISCO-AGS()
+				9	ANCPDS-YOKOSUKA.NAVY.MIL X.25         
+					 UNISYS(OS)
+				10	RPAOB.NAVY.MIL           X.25         
+					 HONEYWELL-XPS(UNIX)
+				24	NORTHDOCK-GW1.ARMY.MIL   X.25         
+					 CISCO-AGS-2(CISCO)
+				26	HCYOK1-GW.NAVY.MIL       X.25         
+					 CISCO-AGS(UNIX)
+180   CAMPBELL-BARRACKS2ARMY           0	CAMPBLLBKS2.MT.ARMY.MIL               
+					 C/30(UNIX)
+				6	KILBORNE-ASIMS.ARMY.MIL  X.25         
+					 NCR-COMTEN-3650(MVS)
+				14	COLEMNBK.MMT.DDN.MIL                  
+					 ()
+184   SECKENHEIM    DOD            0	HAMMOND.MT.DDN.MIL       HDH          
+					 C/30(TAC)
+				2	SECKENHEIM-EMH4.ARMY.MIL 1822         
+					 C/70()
+				9	SECKENHEIM.EUROPE.DRMS.DLA.MILX.25         
+					 CISCO(UNIX)
+				10	DARMSTADT.MMT.DDN.MIL                 
+					 ()
+				11	BABENHS.MMT.DDN.MIL                   
+					 ()
+				17	SECKENHEIM-EMH1.ARMY.MIL X.25         
+					 ATT-600G(UNIX)
+185   ROBINSON-BARRACKSARMY           0	ROBINSON.MT.DDN.MIL      DH           
+					 C/30(TAC)
+				17	STUTTGRTT20.DDN.MIL                   
+					 (UNIX)
+186   WIESBADEN     DOD            0	WIESBADEN.MT.DDN.MIL                  
+					 C/30(TAC)
+				5	WIESBADN-TCACCIS.ARMY.MILX.25         
+					 UNISYS(UNIX)
+				9	KASTEL.EUROPE.DRMS.DLA.MIL             
+					 CISCO-AGS(UNIX)
+				14	ANDERSON-BKS.MMT.DDN.MIL              
+					 ()
+				17	WIESBADEN-GW1.ARMY.MIL                
+					 CISCO(UNIX)
+188   LEIGHTON-BARRACKSARMY           0	LEIGHTON.MT.DDN.MIL                   
+					 C/30(TAC)
+				4	WUERZBURG-GW1.ARMY.MIL   X.25         
+					 CISCO-AGS-2(UNIX)
+				8	SCHWEINFURT.MMT.DDN.MIL               
+					 ()
+				13	GIEBELSTADT.MMT.DDN.MIL               
+					 ()
+				14	KITZINGEN.MMT.DDN.MIL                 
+					 ()
+191   SEMBACH-AB    AF             0	SEMBACH.MT.DDN.MIL       DH           
+					 C/30(TAC)
+				5	DECCO-EUROPE.DISA.MIL    X.25         
+					 WANG(WANG)
+				6	XRAM.AF.MIL              X.25         
+					 GEAC-8215(ZOPAL)
+				9	KAISERSL.DSRE.DLA.MIL    X.25         
+					 ()
+				15	KSRSKTRN.MMT.DDN.MIL                  
+					 ()
+192   INCIRLIK-AB-IMPDOD            0	INCIRLIK.MT.DDN.MIL      HDH          
+					 C/30(TAC)
+				6	IZMIR.MT.DDN.MIL         HDH          
+					 C/30(TAC)
+				17	INCIRLIK-GW.AF.MIL       X.25         
+					 CISCO(UNIX)
+194   HILLINGDON                   0	HILLINGDON.MT.DDN.MIL                 
+					 ()
+				5	LONDON2.MMT.DDN.MIL                   
+					 ()
+				7	CHIEVRES.MMT.DDN.MIL                  
+					 ()
+				8	LONDON-NCPDS.NAVY.MIL    X.25         
+					 PROTOCOM-P250(UNIX)
+				9	NCTSL-GW.NAVY.MIL                     
+					 CISCO()
+				10	PR62.NAVY.MIL            x.25         
+					 DCP/O5()
+				11	LONDON-PASS-SDS.NAVY.MIL X.25         
+					 HP-3000()
+				12	EASTCOTE-DODDSNET.AF.MIL X.25         
+					 ATT-3B2(UNIX)
+				13	PR63.NAVY.MIL                         
+					 ()
+				17	HILLINGDONGW.AF.MIL      X.25         
+					 CISCO(UNIX)
+				24	HILLINGDONGW.AF.MIL      X.25         
+					 CISCO(UNIX)
+198   LUKE-AFB      AF             0	LUKE.MT.DDN.MIL          DH           
+					 C/30(TAC)
+				4	LUKE-AM1.AF.MIL          X.25         
+					 WANG-VS100(VS)
+201   CHANTILLY     DISA           0	CHANTILLY1.MT.DDN.MIL    DH           
+					 C/30E(TAC)
+				1	NIC1.DDN.MIL             1822DH       
+					 BBN-C/70(UNIX)
+				24	SUN1.DDN.MIL             HDH          
+					 SUN-3/160(UNIX)
+				25	GSI-GW1.DDN.MIL                       
+					 CISCO(CISCO)
+202   CHANTILLY2    DISA           0	CHANTILLY2.MT.DDN.MIL                 
+					 ()
+				4	GSI-GW2.DDN.MIL                       
+					 CISCO-MGS(CISCO)
+				5	SUN2.DDN.MIL             X.25         
+					 SUN-3/160(UNIX)
+205   FT-STEWART    ARMY           0	STEWART.MT.DDN.MIL       DH           
+					 C/30(TAC)
+				1	STEWART-EMH1.ARMY.MIL    DH           
+					 VAX-11/780(VMS)
+206   FT-GORDON     ARMY           0	GORDON.MT.DDN.MIL        DH           
+					 C/30(TAC)
+207   OAKLAND-ARMY-BASEDISA           6	FTORD-GW1.ARMY.MIL                    
+					 CISCO-GATEWAY(AGS-2)
+				8	SACRAMNTO-GW1.ARMY.MIL                
+					 AGS(AGS-2)
+				29	OAKLAND-IP.DDN.MIL                    
+					 ()
+				30	OAKLAND-GW1.ARMY.MIL                  
+					 CISCO-GATEWAY(AGS)
+210   BARKSDALE     AF             0	BARKSDALE.MT.DDN.MIL     DH           
+					 C/30(TAC)
+216   CHARLESTON-AFBAF             0	CHARLESTON.MT.DDN.MIL    DH           
+					 C/30(TAC)
+				9	NCPDS-BERMUDA.NAVY.MIL   X.25         
+					 UNISYS(DCP/0S)
+				26	SUPSHIP-CHARLESTON.NAVY.MILX.25         
+					 CROMEMCO(UNIX)
+217   FT-JACKSON    ARMY           0	JACKSON.MT.DDN.MIL       DH           
+					 C/30(TAC)
+223   YOKOTA-AB     AF             0	YOKOTA.MT.DDN.MIL        HDH          
+					 C/30(TAC)
+				5	SDS-MISAWA.NAVY.MIL                   
+					 HP-3000(MPE)
+				8	SRF-SASEBO.NAVY.MIL      X.25         
+					 CISCO(VMS)
+				15	NCPDS-ATSUGI.NAVY.MIL    X.25         
+					 DCP/O5(DCP/0S)
+				24	MISAWA-GW.AF.MIL         X.25         
+					 CISCO(CISCO)
+				29	NRPDCA-ATSUGI.NAVY.MIL                
+					 DCP-15(TELCON)
+				30	YOKNIPR.DISA.MIL                      
+					 CISCO-AGS()
+				31	YOKOTA-GW.AF.MIL         X.25         
+					 ()
+224   FT-RITCHIE    ARMY           0	RITCHIE.MT.DDN.MIL                    
+					 C/30(TAC)
+				6	CRDEC-GW2.ARMY.MIL                    
+					 CISCO(CISCO)
+				7	FTDIX-GW1.ARMY.MIL                    
+					 CISCO-GATEWAY(AGS)
+				10	FTMEADE-DARMS.ARMY.MIL   X.25         
+					 WANG-VS100(VSOS)
+				13	HOLBRD-GW1.ARMY.MIL      X.25         
+					 CISCO-AGS(CSC2)
+				15	VINTHILL-GW1.ARMY.MIL                 
+					 ()
+				17	RITCHIE-GW1.ARMY.MIL     X.25         
+					 CISCO(AGS-2)
+				25	NADN-NET-GW.NAVY.MIL                  
+					 CISCO-AGS()
+226   NORTH-ISLAND-NASNAVY           0	NORTH-ISLAND.MT.DDN.MIL  DH           
+					 C/30(TAC)
+				4	MOCCW.NAVY.MIL           X.25         
+					 HONEYWELL-XPS(UNIX)
+				8	NADEPNI.NAVY.MIL         X.25         
+					 VAX-8530(VMS)
+				9	CNAP.NAVY.MIL            X.25         
+					 GOULD-6040(UTX/32)
+				14	FTIRWIN-GW1.ARMY.MIL     X.25         
+					 CISCO-GATEWAY(AGS-2)
+				17	SDS-SANDGOC.NAVY.MIL     X.25         
+					 SPERRY-3000/70(MPE)
+				19	SD1-GW.NAVY.MIL          X.25         
+					 SPERRY-DCP/40(OS1100)
+229   FT-BLISS      ARMY           0	BLISS.MT.DDN.MIL         DH           
+					 C/30(TAC)
+				10	FTBLISS-IGNET.ARMY.MIL   X.25         
+					 CONVERGENT-TECH-CN1000(CTOS)
+230   MARCH-AFB     AF             0	MARCH.MT.DDN.MIL                      
+					 C/30(TAC)
+231   FT-RILEY      ARMY           0	RILEY.MT.DDN.MIL         DH           
+					 C/30(TAC)
+				18	FTRILEY-GW1.ARMY.MIL                  
+					 CISCO-GATEWAY(AGS-2)
+232   FT-BENHARRISON2ARMY           0	BENHARRISON2.MT.DDN.MIL  DH           
+					 C/30(TAC)
+				4	FTBNHRSN-PBAS1.ARMY.MIL  HDH          
+					 CP-8240(OS86)
+				5	FTBNHRSN-MPRJSS1.ARMY.MILX.25         
+					 ADVINTECH(MVS/XA)
+				6	FTBNHRSN-JTELS.ARMY.MIL  X.25         
+					 SPERRY-DCP/40(OS1100)
+				10	FTBNHRSN-PBAS3.ARMY.MIL  HDH          
+					 CP8240(OS86)
+				12	GW3.DAAS.DLA.MIL         X.25         
+					 CISCO(CISCO)
+				13	FTBNHRSN-MPRJSS2.ARMY.MILX.25         
+					 ADVINTECH(MVS/XA)
+				15	FTBNHRSN-JACSTEST.ARMY.MILX.25         
+					 HP-3000(MPE-V)
+				16	FTBENT20.DDN.MIL                      
+					 (UNIX)
+				17	FTBNHRSN-GW1.ARMY.MIL                 
+					 CISCO-AGS(GS2-BRX)
+				18	FTBNHRSN-MPRJSS4.ARMY.MILX.25         
+					 COMTEN-5660(COS2)
+				24	FTBNHRSN-MPRJSS3.ARMY.MILX.25         
+					 NCR-COMTEN-5660()
+				26	BEN-HARRIS-TEP1.ARMY.MIL              
+					 CP-8240()
+				27	BEN-HARRIS-TEP2.ARMY.MIL X.25         
+					 ()
+				28	BEN-HARRIS-TEP3.ARMY.MIL X.25         
+					 ()
+				29	BEN-HARRIS-TEP4.ARMY.MIL X.25         
+					 ()
+				30	BEN-HARRIS-TEP5.ARMY.MIL X.25         
+					 ()
+				31	FT-BEN-HARRISON-IP.DDN.MIL             
+					 CISCO-AGS()
+235   SEYMOUR-JOHNSON-AFBAF             0	SEYMOUR-JHNSN.MT.DDN.MIL DH           
+					 C/30(TAC)
+				16	ODS2-GW1.ARMY.MIL        X.25         
+					 CISCO(AGS-2)
+238   FT-EUSTIS     ARMY           0	EUSTIS.MT.DDN.MIL        DH           
+					 C/30(TAC)
+242   FT-LEE        ARMY           0	LEE.MT.DDN.MIL           DH           
+					 C/30(TAC)
+243   PETERSON-AFB  AF             0	PETERSON.MT.DDN.MIL                   
+					 C/30(TAC)
+				8	ACADEMY-GW.AF.MIL        X.25         
+					 CISCO-AGS(UNIX)
+				16	COLORADO-SPRINGS.OGDEN.DRMS.DLA.MILX.25         
+					 ATT-3B2(UNIX)
+246   FT-RITCHIE2   ARMY           0	RITCHIE2.MT.DDN.MIL      DH           
+					 C/30(TAC)
+				1	CRMC.DDN.MIL                          
+					 C/70(UNIX)
+				2	CRSC.DDN.MIL                          
+					 C/70(UNIX)
+				4	RITCHIE-GW1.ARMY.MIL     X.25         
+					 CISCO(AGS-2)
+				5	FTMEADE-GW1.ARMY.MIL                  
+					 AGS(AGS)
+				7	CRMC-DIGILOG.DDN.MIL     X.25         
+					 DIGILOG()
+				8	PRTAPRNCHA-GW1.ARMY.MIL               
+					 CISCO-AGS()
+				11	VAX.DLA.MIL              X.25         
+					 (UNIX)
+				17	SITERT20.DDN.MIL         X.25         
+					 (UNIX)
+				29	CRMC-IPR.DDN.MIL         X.25         
+					 SUN-II(SUNOS)
+247   PENTAGON2     ARMY           0	PENTAGON2.MT.DDN.MIL     DH           
+					 C/30(TAC)
+				4	SPSUP-1.NAVY.MIL         X.25         
+					 HP-9000/835(HP-UX)
+				6	SDS-CDA3.NAVY.MIL        X.25         
+					 HP-3000/70(MPE)
+				8	GSA.MIL                  X.25         
+					 HP-3000(MPE)
+				9	FLSCHRCH-GW1.ARMY.MIL                 
+					 CISCO-AGS(UNIX)
+				10	AFIP.OSD.MIL             X.25         
+					 HP(UNIX)
+				11	NISNET-1.NAVY.MIL        X.25         
+					 HONEYWELL-DPS-6(GCOS)
+				12	SPAWAR-GW1.NAVY.MIL      X.25         
+					 CISCO(AGS)
+				13	DSMC-GW1.DSM.MIL         X.25         
+					 CISCO-CGS(UNIX)
+				15	CMH-GW1.ARMY.MIL                      
+					 CISCO(UNIX)
+				17	IDSS.IDA.ORG             X.25         
+					 CISCO(UNIX)
+				25	TEC-GW1.ARMY.MIL         DH           
+					 CISCO(UNIX)
+				26	PENTAGON-GW.ARMY.MIL     X.25         
+					 SUN(UNIX)
+				27	IMS-GW.DISA.MIL                       
+					 CISCO-GATEWAY(AGS)
+				28	MILNET-GW.OSD.MIL                     
+					 CISCO(GS)
+				31	PENTAGON-GW1.ARMY.MIL                 
+					 CISCO(CISCO)
+248   BRATENAHL-OH  NAVY           0	BRATENAHL-OH.MT.DDN.MIL  DH           
+					 C/30(TAC)
+249   WEST-POINT    ARMY           0	WEST-POINT.MT.DDN.MIL    DH           
+					 C/30(TAC)
+250   FINEGAYAN     NAVY           0	FINEGAYAN.MT.DDN.MIL     DH           
+					 C/30(TAC)
+				4	SRFGUAM-GW.NAVY.MIL                   
+					 CISCO(UNIX)
+				5	GUANSD2.NAVY.MIL         X.25         
+					 TANDEM-TXP(GUARDIAN)
+				6	GU-NGNET.ARMY.MIL        X.25         
+					 SPERRY-5000(UNIX)
+				8	CNLGWP.SIN.MRMS.NAVY.MIL              
+					 CISCO-MGS(CISCO)
+				10	IDA-FMS-GUAM.NAVY.MIL    X.25         
+					 PROTOCOM-P250()
+				11	SDS-GUAM.NAVY.MIL        X.25         
+					 (MPE)
+				24	NPMOCW-GW.NAVY.MIL       X.25         
+					 CISCO-4000(UNIX)
+				25	GUAM.PACIFIC.DRMS.DLA.MILX.25         
+					 (MULTICS)
+				30	FNGYNIPR.DISA.MIL                     
+					 CISCO-AGS()
+				31	HCGUA1-GW.NAVY.MIL       X.25         
+					 CISCO(UNIX)
+;End of file.

