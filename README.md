@@ -36,5 +36,9 @@ Now Hosted at [www.group42.net] (https://www.group42.net)
 
 
 
+## 📝 License
+
+This archive as a whole is licensed under **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)**. Individual works within the archive may have different licenses. Please check their respective documentation for details.
+
 
 
